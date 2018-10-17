@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" level="m">The British Novelists</title>
+				<author type="writer">
+					<name>Anna Letitia Barbauld</name>
+				</author>
+				<respStmt>
+					<resp>Editor</resp>
+					<name xml:id="MW">Mary A. Waters</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<idno>BarbBritNov1810</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title type="main" level="m">The British Novelists</title>
+						<title type="subordinate">with an Essay and Prefaces,
+							Biographical and Critical</title>
+						<editor>
+							<name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+						</editor>
+						<imprint>
+							<pubPlace>London</pubPlace>
+							<publisher>F.C. and J. Rivington</publisher>
+							<date when="1810">1810</date>
+							<biblScope unit="vol">1-50</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “," for ”, ' for
+						‘, and ' for ’.</p>
+					<p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard</p>
+					<p>Em-dashes have been rendered as &#8212;</p>
+				</hyphenation>
+				<normalization method="markup">
+					<p>Spelling has not been regularized.</p>
+					<p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+					<p>Compositors' catchwords and running titles have been silently eliminated.</p>
+					<p>Long "s" (&#383;) has been silently modernized.</p>
+				</normalization>
+				<normalization>
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>£ has been used for £, the pound sign</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+				</normalization>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy
+					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+					xml:id="g">
+					<bibl>ARC Genre Categories, July 1, 2017</bibl>
+					<category xml:id="g1">
+						<catDesc>Advertisement</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>Animation</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>Bibliography</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>Catalog</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>Chronology</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>Citation</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>Correspondence</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>Criticism</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>Drama</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>Ephemera</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>Essay</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>Fiction</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>Film, Documentary</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>Film, Experimental</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>Film, Narrative</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>Film, Other</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>Historiography</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>Interview</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>Life Writing</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>Liturgy</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>Musical Analysis</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>Music, Other</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>Musical Work</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>Musical Score</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>Nonficition</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>Paratext</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>Performance</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>Philosophy</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>Photograph</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>Political Statement</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>Poetry</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>Religion</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>Reference Works</catDesc>
+					</category>
+					<category xml:id="g35">
+						<catDesc>Review</catDesc>
+					</category>
+					<category xml:id="g36">
+						<catDesc>Scripture</catDesc>
+					</category>
+					<category xml:id="g37">
+						<catDesc>Sermon</catDesc>
+					</category>
+					<category xml:id="g38">
+						<catDesc>Speech</catDesc>
+					</category>
+					<category xml:id="g39">
+						<catDesc>Translation</catDesc>
+					</category>
+					<category xml:id="g40">
+						<catDesc>Travel Writing</catDesc>
+					</category>
+					<category xml:id="g41">
+						<catDesc>Unspecified</catDesc>
+					</category>
+					<category xml:id="g42">
+						<catDesc>Visual Art</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="f">
+					<bibl>ARC Format Categories, July 1, 2017</bibl>
+					<category xml:id='f1'>
+						<catDesc>Codex</catDesc>
+					</category>
+					<category xml:id='f2'>
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id='f3'>
+						<catDesc>Dataset</catDesc>
+					</category>
+					<category xml:id='f4'>
+						<catDesc>Drawing</catDesc>
+					</category>
+					<category xml:id='f5'>
+						<catDesc>Illustration</catDesc>
+					</category>
+					<category xml:id='f6'>
+						<catDesc>Interactive Resource</catDesc>
+					</category>
+					<category xml:id='f7'>
+						<catDesc>Manuscript</catDesc>
+					</category>
+					<category xml:id='f8'>
+						<catDesc>Map</catDesc>
+					</category>
+					<category xml:id='f9'>
+						<catDesc>Moving Image</catDesc>
+					</category>
+					<category xml:id='f10'>
+						<catDesc>Notated Music</catDesc>
+					</category>
+					<category xml:id='f11'>
+						<catDesc>Page Proofs</catDesc>
+					</category>
+					<category xml:id='f12'>
+						<catDesc>Pamphlet</catDesc>
+					</category>
+					<category xml:id='f13'>
+						<catDesc>Periodical</catDesc>
+					</category>
+					<category xml:id='f14'>
+						<catDesc>Physcial Object</catDesc>
+					</category>
+					<category xml:id='f15'>
+						<catDesc>Roll</catDesc>
+					</category>
+					<category xml:id='f16'>
+						<catDesc>Sheet</catDesc>
+					</category>
+					<category xml:id='f17'>
+						<catDesc>Sound</catDesc>
+					</category>
+					<category xml:id='f18'>
+						<catDesc>Still Image</catDesc>
+					</category>
+					<category xml:id='f19'>
+						<catDesc>Typescript</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="#lcsh">
+					<list type="simple">
+						<item>English literature</item>
+						<item>History</item>
+					</list>
+				</keywords>
+				<catRef target="#g6 #g9 #g20" scheme="#g"/>
+				<catRef target="#f1" scheme="#f"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#MW" when="2016-08-08" n="5">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list>
+					<item>Encoding Revision</item>
+					<item>Footnotes added</item>
+				</list>
+			</change>
+			<change who="#MW" when="2015-12-20" n="4">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list>
+					<item>Encoding updates</item>
+					<item>Document ID change</item>
+				</list>
+			</change>
+			<change who="#RD" when="2015-12-20" n="3">
+				<label>Changed by</label>
+				<name>Rachel Dejmal</name>
+				<list>
+					<item>Encoding updates</item>
+				</list>
+			</change>
+			<change who="#MW" when="2010-12-01" n="2">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list>
+					<item>TEI encoding</item>
+				</list>
+			</change>
+			<change who="#MW" when="2010-12-01" n="1">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list>
+					<item>Created Edition</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<titlePage>
+				<docTitle>
+					<titlePart>The British Novelists</titlePart>
+					<titlePart>with an Essay, and Prefaces Biographical and
+						Critical</titlePart>
+				</docTitle>
+				<docAuthor><name reg="Barbauld, Mrs. (Anna Letitia)" date="1743-1825">by Mrs. <ref target="people.html#BarbauldMrs">Barbauld</ref></name></docAuthor>
+				<docImprint>
+					<publisher>F.C. and J. Rivington; W. Otridge and Son; A.
+						Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
+						Scatcherd and Letterman; J. Walker; J. Cuthell; Vernor, Hood,
+						and Sharpe; R. Lea; J. Nunn; Lackington and Co.; Clarke and Son;
+						C. Law; Longman, Hurst, Rees, and Orme; Cadell and Davies; E.
+						Jeffery; J.K. Newman; Crosby and Co.; J. Carpenter; S. Bagster;
+						T. Booth; J. Mobray; J. and J. Richardson; Black, Parry, and
+						Kingsbury; J. Harding; R. Phillips; J. Mawman; J. Booker; J.
+						Asperne; R. Baldwin; Mathews and Leigh; J. Faulder; Johnson and
+						Co.; Sherwood and Co.; J. Miller; W. Creech, Edinburgh; and
+						Wilson and Son, York</publisher>
+					<pubPlace>London</pubPlace>
+					<date>1810</date>
+				</docImprint>
+			</titlePage>
+		</front>
+		<body>
+			<div type="collection">
+				<head>
+					<bibl>
+						<title type="main" level="m"><title>The British Novelists; </title></title>
+											<title type="subordinate" level="m"><title>with an Essay, and Prefaces Biographical and
+											Critical</title>, by Mrs. <ref target="people.html#BarbauldMrs"
+												>Barbauld</ref>.</title>London, 1810.
+					</bibl>
+				</head>
+				<head>Table of Contents</head>
+				<list>
+					<item><ref target="BageBritNov1810.html">Mr. Bage</ref></item>
+					<item><ref target="BrookeBritNov1810.html">Mrs. Brooke</ref></item>
+					<item><ref target="BurneyBritNov1810.html">Miss Burney</ref></item>
+					<item><ref target="DefoeBritNov1810.html">De Foe</ref></item>
+					<item><ref target="EdgeworthBritNov1810.html">Miss Edgeworth</ref></item>
+					<item><ref target="FieldingBritNov1810.html">Fielding</ref></item>
+					<item><ref target="GoldsmithBritNov1810.html">Goldsmith</ref></item>
+					<item><ref target="GravesBritNov1810.html">Graves</ref></item>
+					<item><ref target="HawkesworthBritNov1810.html">Hawkesworth</ref></item>
+					<item><ref target="InchbaldBritNov1810.html">Mrs. Inchbald</ref></item>
+					<item><ref target="JohnsonBritNov1810.html">Johnson</ref></item>
+					<item><ref target="LennoxBritNov1810.html">Mrs. Lennox</ref></item>
+					<item><ref target="MackenzieBritNov1810.html">Mackenzie</ref></item>
+					<item><ref target="MooreBritNov1810.html">Dr. Moore</ref></item>
+					<item><ref target="OriginProgBritNov1810.html">On the Origin and Progress of Novel-Writing.</ref></item>
+					<item><ref target="RadcliffeBritNov1810.html">Mrs. Radcliffe</ref></item>
+					<item><ref target="ReeveBritNov1810.html">Clara Reeve</ref></item>
+					<item><ref target="RichardBritNov1810.html">Richardson</ref></item>
+					<item><ref target="SmithBritNov1810.html">Mrs. Charlotte Smith</ref></item>
+					<item><ref target="SmolletBritNov1810.html">Smollet</ref></item>
+					<item><ref target="WalpoleBritNov1810.html">Walpole</ref></item>
+				</list>
+			</div>
+		</body>
+	</text>
+</TEI>

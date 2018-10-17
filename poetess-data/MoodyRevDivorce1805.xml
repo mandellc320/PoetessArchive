@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" level="a">Review of Fi&#233;v&#233;e&apos;s &quot;Le
+					Divorce,&quot; etc.</title>
+				<title type="subordinate" level="j">The Monthly Review</title>
+				<author type="writer">
+					<name>Elizabeth Moody</name>
+				</author>
+				<respStmt>
+					<resp>Editor</resp>
+					<name xml:id="MW">Mary A. Waters</name>
+				</respStmt>
+				<respStmt>
+					<resp>CoEditor</resp>
+					<name xml:id="EW">Emma Wiley</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<idno>MoodyRevDivorce1805</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title type="main" level="a">Art. XII. <title>Le Divorce</title>, &amp;c.;
+							i.e. <title>The Divorce, the False Revolutionist, and the Heroism of
+								Women; Three Novels</title>. By M. Fi&#233;v&#233;e.</title>
+						<author type="writer">Moody, Elizabeth (1737-1814)</author>
+					</analytic>
+					<monogr>
+						<title type="main" level="j">The Monthly Review</title>
+						<imprint>
+							<date when="1805-01">January-April 1805</date>
+							<biblScope unit="vol">46</biblScope>
+							<biblScope unit="page">539-41</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “, " for ”, '
+						for ‘, and ' for ’.</p>
+					<p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard</p>
+					<p>Em-dashes have been rendered as &#8212;</p>
+				</hyphenation>
+				<normalization method="markup">
+					<p>Spelling has not been regularized.</p>
+					<p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+					<p>Compositors' catchwords and running titles have been silently eliminated.</p>
+					<p>Long "s" (&#383;) has been silently modernized.</p>
+				</normalization>
+				<normalization>
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>£ has been used for £, the pound sign</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+				</normalization>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy
+					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+					xml:id="g">
+					<bibl>ARC Genre Categories, July 1, 2017</bibl>
+					<category xml:id="g1">
+						<catDesc>Advertisement</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>Animation</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>Bibliography</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>Catalog</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>Chronology</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>Citation</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>Correspondence</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>Criticism</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>Drama</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>Ephemera</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>Essay</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>Fiction</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>Film, Documentary</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>Film, Experimental</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>Film, Narrative</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>Film, Other</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>Historiography</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>Interview</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>Life Writing</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>Liturgy</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>Musical Analysis</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>Music, Other</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>Musical Work</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>Musical Score</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>Nonficition</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>Paratext</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>Performance</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>Philosophy</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>Photograph</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>Political Statement</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>Poetry</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>Religion</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>Reference Works</catDesc>
+					</category>
+					<category xml:id="g35">
+						<catDesc>Review</catDesc>
+					</category>
+					<category xml:id="g36">
+						<catDesc>Scripture</catDesc>
+					</category>
+					<category xml:id="g37">
+						<catDesc>Sermon</catDesc>
+					</category>
+					<category xml:id="g38">
+						<catDesc>Speech</catDesc>
+					</category>
+					<category xml:id="g39">
+						<catDesc>Translation</catDesc>
+					</category>
+					<category xml:id="g40">
+						<catDesc>Travel Writing</catDesc>
+					</category>
+					<category xml:id="g41">
+						<catDesc>Unspecified</catDesc>
+					</category>
+					<category xml:id="g42">
+						<catDesc>Visual Art</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+					xml:id="f">
+					<bibl>ARC Format Categories, July 1, 2017</bibl>
+					<category xml:id="f1">
+						<catDesc>Codex</catDesc>
+					</category>
+					<category xml:id="f2">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="f3">
+						<catDesc>Dataset</catDesc>
+					</category>
+					<category xml:id="f4">
+						<catDesc>Drawing</catDesc>
+					</category>
+					<category xml:id="f5">
+						<catDesc>Illustration</catDesc>
+					</category>
+					<category xml:id="f6">
+						<catDesc>Interactive Resource</catDesc>
+					</category>
+					<category xml:id="f7">
+						<catDesc>Manuscript</catDesc>
+					</category>
+					<category xml:id="f8">
+						<catDesc>Map</catDesc>
+					</category>
+					<category xml:id="f9">
+						<catDesc>Moving Image</catDesc>
+					</category>
+					<category xml:id="f10">
+						<catDesc>Notated Music</catDesc>
+					</category>
+					<category xml:id="f11">
+						<catDesc>Page Proofs</catDesc>
+					</category>
+					<category xml:id="f12">
+						<catDesc>Pamphlet</catDesc>
+					</category>
+					<category xml:id="f13">
+						<catDesc>Periodical</catDesc>
+					</category>
+					<category xml:id="f14">
+						<catDesc>Physcial Object</catDesc>
+					</category>
+					<category xml:id="f15">
+						<catDesc>Roll</catDesc>
+					</category>
+					<category xml:id="f16">
+						<catDesc>Sheet</catDesc>
+					</category>
+					<category xml:id="f17">
+						<catDesc>Sound</catDesc>
+					</category>
+					<category xml:id="f18">
+						<catDesc>Still Image</catDesc>
+					</category>
+					<category xml:id="f19">
+						<catDesc>Typescript</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="#lcsh">
+					<list type="simple">
+						<item>Criticism</item>
+						<item>Book review</item>
+					</list>
+				</keywords>
+				<catRef target="#g9 #g35" scheme="#g"/>
+				<catRef target="#f13" scheme="#f"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#MW" when="2017-12-01" n="3">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list>
+					<item>Encoding revision</item>
+				</list>
+			</change>
+			<change who="#EW" when="2017-02-15" n="2">
+				<label>Changed by</label>
+				<name>Emma Wiley</name>
+				<list>
+					<item>TEI encoding</item>
+				</list>
+			</change>
+			<change who="#MW" when="2016-12-01" n="1">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list>
+					<item>Created Edition</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="essay">
+				<head><bibl><lb rendition="#center"/><author type="writer"><ref target="people.html#MoodyElizabeth"
+									><name>Elizabeth Moody</name></ref></author>
+						<title type="main" level="a"><hi rendition="#smcaps"><hi rendition="#smcaps"
+									>Art</hi>. XII. </hi>
+							<title><hi rendition="#italics"><title>Le Divorce</title>,</hi> &amp;c.;
+								i.e. <title><title>The Divorce</title>, <title>the False
+										Revolutionist</title>, and <title>the Heroism of
+										Women</title>; Three Novels</title></title>. By M. <hi
+								rendition="#smcaps"><ref target="people.html#FieveeJoseph"
+									>Fi&#233;v&#233;e</ref></hi>. <hi rendition="#smcaps">12</hi>mo.
+							3s. Dulau and Co. London.<hi rendition="#sup"><note place="foot">Review
+									article appearing in the Foreign Appendix for <title level="j"
+											><hi rendition="#italics">The Monthly
+										Review</hi></title>, vol. 46, January-April 1805, pp.
+								539-41. This edition of the article is produced by Emma Wiley and Mary A. Waters.</note></hi></title></bibl></head>
+				<p rendition="#pnoindent"><hi rendition="#largest">O</hi><hi rendition="#smcaps"
+						>f</hi> all the absurd and capricious institutions which France, under
+					either her old or her new <hi rendition="#italics">R&#233;gime</hi>, has
+					dignified by the name of <hi rendition="#italics">Law</hi>, the modern divorce
+					claims the pre-eminence for cruelty and injustice;&#8212;at least, if Madame <hi
+						rendition="#italics">Dormeuil</hi>’s relation is to be
+					accredited.&#8212;Mme. <hi rendition="#italics">Dormeuil</hi> was a beautiful
+					and accomplished young woman, and married to a handsome and well-informed young
+					man. Six years of perfect happiness they enjoyed together, and perhaps Hymen
+					thought this was as large a portion of felicity as he commonly allows; for after
+					this period, a degree of languor and insipidity is too often found consequent on
+					a state of uninterrupted tranquility. Mons. <hi rendition="#italics"
+						>Dormeuil</hi> required variety, and sought it in the scenes of dissipation;
+					and hence proceeded those vicious and libertine pursuits which never fail to
+					undermine the conjugal affection. Among other depravities, the <hi
+						rendition="#italics">French Husband</hi> had a mistress whom he wished to
+					marry; and, as the Legislature had so easily and so conveniently devised the
+					means of breaking old chains, and forging new, he resolved on availing himself
+					of so desirable a privilege, and being divorced from his amiable and most
+					affectionate wife. Madame <hi rendition="#italics">Dormeuil</hi> protests
+					against the divorce, with an obstinacy as inflexible as was that of <ref
+						target="people.html#CatherineofAragon">Catherine of Arragon</ref>:&#8212;she
+					protested against all the formalities necessary to ascertain the separation, and
+					she insisted on keeping the name and arms of <hi rendition="#italics"
+						>Dormeuil</hi>, and on being the true and <pb n="540"/>lawful wife of the old
+					R&#233;gime:&#8212;she was, however, divorced against her consent, and Monsieur
+					married his new Love.</p>
+				<p> Of this connection, also, the inconstant husband grew tired; and he felt the
+					same inclination to be emancipated from the second captivity, which had induced
+					him to break the first. The matter being so easily adjusted, and the remedy for
+					matrimonial ennui so immediately at hand, <hi rendition="#italics">Dormeuil</hi>
+					is a second time <hi rendition="#italics">divorced</hi>; and with his first wife
+					he became once more desperately in love. Her affections were never alienated
+					from him, but stood the brunt of all his cruelties with the most persevering
+					affection:&#8212; but the same firmness, which had directed her conduct in
+					opposing the divorce, now supported her in refusing to renew the <hi
+						rendition="#italics">ci-devant</hi> nuptial vow; since that act would have
+					been acknowleging the <hi rendition="#italics">legality of the divorce</hi>,
+					which she had with so much pertinacity refused to sanction. The situation of
+					Monsieur and Madame now becomes whimsically laughable; they love each other to
+					distraction: but they must not live together, and renew the conjugal
+					endearments, because she <hi rendition="#italics">is not his wife</hi>, and
+					would be liable to be considered as his mistress; and it would be a breach of
+					good morality, which would necessarily implicate her reputation on the ground of
+					decorum, were they again to inhabit the same house. We leave the reader to Mme.
+						<hi rendition="#italics">Dormeuil</hi>’s own description of the caprices of
+					her destiny; which she details with refined and romantic sentiments of prudery,
+					truly <hi rendition="#italics">French, and extremely artificial and
+						unnatural</hi>.</p>
+				<p> The author informs us that he suppressed the publication of the second of these
+					novels for some time, because he dared not to print it, lest a resemblance might
+					be discovered between the characters which he describes, and those which
+					personally existed when it was written. We have only to observe on this <hi
+						rendition="#italics">head</hi>, that we give him credit for his prudence in
+					taking care of his <hi rendition="#italics">own</hi>. In this novel, as in most
+					others, Love is the burden of the song; and the cabals of politics, the union of
+					party, and the enthusiasm of patriotism, are all superseded by the irresistible
+					control of the little deity. The lovely and innocent Ad&#233;le exchanged the
+					horrors of a prison for the arms of an affectionate husband, and was without
+					doubt very well pleased with the bargain: at the same time, the <hi
+						rendition="#italics">revolutionist</hi> most probably preserved himself from
+					the guillotine by his amorous apostacy. Love was therefore the protector of
+					both.</p>
+				<p> The third story exhibits those romantic and self-denying practices, which the
+					writers of novels dignify with the name of heroism. Our days of romance,
+					however, have been so long past, that we are utterly incapable of deciding on
+					the <pb n="541"/>merits or demerits of these sentimental heroines; who inflict so much misery
+					on themselves, by erecting the standard of virtue on false principles.</p>
+				<p> M. <hi rendition="#smcaps">Fi&#233;v&#233;e</hi>’s novels are agreeably written,
+					in correct and elegant French; and, altogether, they are interesting and
+					affecting.</p>
+
+			</div>
+		</body>
+	</text>
+</TEI>
