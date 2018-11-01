@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Mrs. Charlotte Smith</title>
+                <title type="subordinate" level="m">The British Novelists</title>
+                <author type="writer">
+                    <name>Anna Letitia Barbauld</name>
+                </author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name xml:id="MW">Mary A. Waters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance</resp>
+                    <name xml:id="RD">Rachel Dejmal</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <idno>SmithBritNov1810</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title type="main" level="a">Mrs. Charlotte Smith</title>
+                        <author type="writer">
+                            <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title type="main" level="m">The British Novelists</title>
+                        <title type="subordinate">with an Essay and Prefaces,
+                            Biographical and Critical</title>
+                        <editor>
+                            <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+                        </editor>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <publisher>F.C. and J. Rivington</publisher>
+                            <date when="1810">1810</date>
+                            <biblScope unit="vol">XXXVI</biblScope>
+                            <biblScope unit="pages">i-viii</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: " for “," for “, ' for
+                        ‘, and ' for ’.</p>
+                    <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed.</p>
+                    <p>Because of web browser variability, all hyphens have been typed on the U.S.
+                        keyboard</p>
+                    <p>Em-dashes have been rendered as &#8212;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts has been indicated as
+                        such, the content recorded in brackets.</p>
+                    <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+                    <p>Long "s" (&#383;) has been silently modernized.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>£ has been used for £, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, etc., have
+                        been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <classDecl>
+                <taxonomy
+                    corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                    xml:id="g">
+                    <bibl>ARC Genre Categories, July 1, 2017</bibl>
+                    <category xml:id="g1">
+                        <catDesc>Advertisement</catDesc>
+                    </category>
+                    <category xml:id="g2">
+                        <catDesc>Animation</catDesc>
+                    </category>
+                    <category xml:id="g3">
+                        <catDesc>Bibliography</catDesc>
+                    </category>
+                    <category xml:id="g4">
+                        <catDesc>Catalog</catDesc>
+                    </category>
+                    <category xml:id="g5">
+                        <catDesc>Chronology</catDesc>
+                    </category>
+                    <category xml:id="g7">
+                        <catDesc>Citation</catDesc>
+                    </category>
+                    <category xml:id="g6">
+                        <catDesc>Collection</catDesc>
+                    </category>
+                    <category xml:id="g8">
+                        <catDesc>Correspondence</catDesc>
+                    </category>
+                    <category xml:id="g9">
+                        <catDesc>Criticism</catDesc>
+                    </category>
+                    <category xml:id="g10">
+                        <catDesc>Drama</catDesc>
+                    </category>
+                    <category xml:id="g11">
+                        <catDesc>Ephemera</catDesc>
+                    </category>
+                    <category xml:id="g12">
+                        <catDesc>Essay</catDesc>
+                    </category>
+                    <category xml:id="g13">
+                        <catDesc>Fiction</catDesc>
+                    </category>
+                    <category xml:id="g14">
+                        <catDesc>Film, Documentary</catDesc>
+                    </category>
+                    <category xml:id="g15">
+                        <catDesc>Film, Experimental</catDesc>
+                    </category>
+                    <category xml:id="g16">
+                        <catDesc>Film, Narrative</catDesc>
+                    </category>
+                    <category xml:id="g17">
+                        <catDesc>Film, Other</catDesc>
+                    </category>
+                    <category xml:id="g18">
+                        <catDesc>Historiography</catDesc>
+                    </category>
+                    <category xml:id="g19">
+                        <catDesc>Interview</catDesc>
+                    </category>
+                    <category xml:id="g20">
+                        <catDesc>Life Writing</catDesc>
+                    </category>
+                    <category xml:id="g21">
+                        <catDesc>Liturgy</catDesc>
+                    </category>
+                    <category xml:id="g22">
+                        <catDesc>Musical Analysis</catDesc>
+                    </category>
+                    <category xml:id="g23">
+                        <catDesc>Music, Other</catDesc>
+                    </category>
+                    <category xml:id="g24">
+                        <catDesc>Musical Work</catDesc>
+                    </category>
+                    <category xml:id="g25">
+                        <catDesc>Musical Score</catDesc>
+                    </category>
+                    <category xml:id="g26">
+                        <catDesc>Nonficition</catDesc>
+                    </category>
+                    <category xml:id="g27">
+                        <catDesc>Paratext</catDesc>
+                    </category>
+                    <category xml:id="g28">
+                        <catDesc>Performance</catDesc>
+                    </category>
+                    <category xml:id="g29">
+                        <catDesc>Philosophy</catDesc>
+                    </category>
+                    <category xml:id="g30">
+                        <catDesc>Photograph</catDesc>
+                    </category>
+                    <category xml:id="g31">
+                        <catDesc>Political Statement</catDesc>
+                    </category>
+                    <category xml:id="g32">
+                        <catDesc>Poetry</catDesc>
+                    </category>
+                    <category xml:id="g33">
+                        <catDesc>Religion</catDesc>
+                    </category>
+                    <category xml:id="g34">
+                        <catDesc>Reference Works</catDesc>
+                    </category>
+                    <category xml:id="g35">
+                        <catDesc>Review</catDesc>
+                    </category>
+                    <category xml:id="g36">
+                        <catDesc>Scripture</catDesc>
+                    </category>
+                    <category xml:id="g37">
+                        <catDesc>Sermon</catDesc>
+                    </category>
+                    <category xml:id="g38">
+                        <catDesc>Speech</catDesc>
+                    </category>
+                    <category xml:id="g39">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="g40">
+                        <catDesc>Travel Writing</catDesc>
+                    </category>
+                    <category xml:id="g41">
+                        <catDesc>Unspecified</catDesc>
+                    </category>
+                    <category xml:id="g42">
+                        <catDesc>Visual Art</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="f">
+                    <bibl>ARC Format Categories, July 1, 2017</bibl>
+                    <category xml:id='f1'>
+                        <catDesc>Codex</catDesc>
+                    </category>
+                    <category xml:id='f2'>
+                        <catDesc>Collection</catDesc>
+                    </category>
+                    <category xml:id='f3'>
+                        <catDesc>Dataset</catDesc>
+                    </category>
+                    <category xml:id='f4'>
+                        <catDesc>Drawing</catDesc>
+                    </category>
+                    <category xml:id='f5'>
+                        <catDesc>Illustration</catDesc>
+                    </category>
+                    <category xml:id='f6'>
+                        <catDesc>Interactive Resource</catDesc>
+                    </category>
+                    <category xml:id='f7'>
+                        <catDesc>Manuscript</catDesc>
+                    </category>
+                    <category xml:id='f8'>
+                        <catDesc>Map</catDesc>
+                    </category>
+                    <category xml:id='f9'>
+                        <catDesc>Moving Image</catDesc>
+                    </category>
+                    <category xml:id='f10'>
+                        <catDesc>Notated Music</catDesc>
+                    </category>
+                    <category xml:id='f11'>
+                        <catDesc>Page Proofs</catDesc>
+                    </category>
+                    <category xml:id='f12'>
+                        <catDesc>Pamphlet</catDesc>
+                    </category>
+                    <category xml:id='f13'>
+                        <catDesc>Periodical</catDesc>
+                    </category>
+                    <category xml:id='f14'>
+                        <catDesc>Physcial Object</catDesc>
+                    </category>
+                    <category xml:id='f15'>
+                        <catDesc>Roll</catDesc>
+                    </category>
+                    <category xml:id='f16'>
+                        <catDesc>Sheet</catDesc>
+                    </category>
+                    <category xml:id='f17'>
+                        <catDesc>Sound</catDesc>
+                    </category>
+                    <category xml:id='f18'>
+                        <catDesc>Still Image</catDesc>
+                    </category>
+                    <category xml:id='f19'>
+                        <catDesc>Typescript</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list type="simple">
+                        <item>Smith, Charlotte Turner, 1749-1806</item>
+                        <item>English literature</item>
+                        <item>History</item>
+                    </list>
+                </keywords>
+                <catRef target="#g9 #g12 #g20" scheme="#g"/>
+                <catRef target="#f1" scheme="#f"/>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#MW" when="2016-08-08" n="4">
+                <label>Changed by</label>
+                <name>Mary A. Waters</name>
+                <list>
+                    <item>Encoding revision</item>
+                </list>
+            </change>
+            <change who="#RD" when="2015-08-15" n="3">
+                <label>Changed by</label>
+                <name>Rachel Dejmal</name>
+                <list>
+                    <item>Encoding Revision</item>
+                </list>
+            </change>
+            <change who="#MW" when="2013-01-21" n="2">
+                <label>Changed by</label>
+                <name>Mary A. Waters</name>
+                <list>
+                    <item>TEI encoding</item>
+                </list>
+            </change>
+            <change who="#MW" when="2013-01-21" n="1">
+                <label>Changed by</label>
+                <name>Mary A. Waters</name>
+                <list>
+                    <item>Created Edition</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="essay">
+                <head>
+                    <bibl>
+                        <author type="writer">
+                            <ref target="people.html#BarbauldMrs"><name>Anna Letitia
+                                Barbauld</name></ref>
+                        </author>
+                        <title type="main" level="a"><ref target="people.html#SmithCharlotte">MRS.
+                                CHARLOTTE SMITH.</ref><hi rendition="#sup"><note place="foot">
+                                    <title level="m"><hi rendition="#italics">The British Novelists;
+                                            with an Essay; and Prefaces, Biographical and Critical,
+                                            by <ref target="people.html#BarbauldMrs">Mrs.
+                                                Barbauld</ref></hi></title>, 50 Vols. (London:
+                                    Printed for F.C. and J. Rivington; W. Otridge and Son; A.
+                                    Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
+                                    Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
+                                    Lea; J. Nunn; Lackington and Co.; Clarke and Son; C. Law;
+                                    Longman, Hurst, Rees, and Orme; Cadell and Davies; E. Jeffery;
+                                    J.K. Newman; Crosby and Co.; J. Carpenter; S. Bagster; T. Booth;
+                                    J. Murray; J. and J. Richardson; Black, Parry, and Kingsbury; J.
+                                    Harding; R. Phillips; J. Mawman; J. Booker; J. Asperne; R.
+                                    Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.; W.
+                                    Creech, Edinburgh; and Wilson and Son, York, 1810), 36:i-viii.
+                                    Mary A. Waters edited this edition for <hi rendition="#italics"
+                                        >The Criticism Archive</hi>. </note></hi></title>
+                    </bibl>
+                </head>
+                <p rendition="Pnoindent">
+                    <hi rendition="#largest">A</hi>MONG those writers who have distinguished
+                    themselves in the polite literature of the present day, the late <ref
+                        target="people.html#SmithCharlotte">Mrs. <hi rendition="#smcaps">Charlotte
+                            Smith</hi></ref> well deserves a place, both from the number and
+                    elegance of her publications. She was the eldest daughter of Nicholas Turner,
+                    esq. a gentleman of fortune, who possessed estates in Surrey and Sussex; a man,
+                    it is said, of an improved mind and brilliant conversation. She lost her mother
+                    when very young, and was brought up under the care of an aunt, whose ideas of
+                    female education were less favourable to mental accomplishments than those of
+                    her father. She received, therefore, rather a fashionable than a literary
+                    education, and she was left to gratify her taste for books by desultory reading,
+                    and almost by stealth. Her genius, indeed, early showed itself in a propensity
+                    to poetry; but she was introduced while very young to the gaieties and
+                    dissipation of London, and, becoming a wife before she was sixteen, was plunged
+                    into the cares of a married life before her fine genius had received all the
+                    advantages it might have gained by a culture more regular and persevering. </p>
+                <fw type="vol" rendition="#smcaps" place="bottom-left">vol. xxxvi.</fw>
+                <milestone unit="signature" n="a" rendition="#center"/>
+                <pb n="ii"/>
+                <p> Her husband, Mr. Smith, was the younger son of a rich West-Indian merchant, and
+                    associated with him in the business. The marriage had been brought about by
+                    parents, and did not prove a happy one; it had probably been hastened on her
+                    side by the dread of a mother-in-law, as her father was on the point of marrying
+                    a second wife. The married pair lived at first in London, in the busy part of
+                    the town, but soon after took a house at Southgate. The husband had little
+                    application to business; and probably, of the young couple, neither party had
+                    much notion of economy. The management of the concern was soon resigned to the
+                    father of Mr. Smith, who purchased for them an estate in Hampshire called Lys
+                    Farm. Here <ref target="people.html#SmithCharlotte">Mrs. Smith</ref> found her
+                    tastes for rural scenery and for elegant society gratified; but building and
+                    expensive improvements, joined to an increasing family, soon brought them into
+                    difficulties, which were not lessened by the death of her husband&apos;s
+                    grandfather, to whom Mr. Smith acted as executor, in the discharge of which
+                    office a litigation arose with the other branches of the family, which plunged
+                    them into lawsuits for life. The vexation attending these perplexities, together
+                    with the pecuniary embarrassments she was continually involved in, clouded the
+                    serenity of <ref target="people.html#SmithCharlotte">Mrs. Smith</ref>&apos;s
+                    mind, and gave to her writings that bitter and querulous tone of complaint which
+                    is discernable in so many of them. </p>
+                <p> Possessed of a fine imagination, an ear and a taste for harmony, an elegant and
+                    correct style, the natural bent of <ref target="people.html#SmithCharlotte">Mrs.
+                        Smith</ref>&apos;s genius seems<pb n="iii"/> to have been more to poetry
+                    than to any other walk of literature. Her <title><hi rendition="#italics"
+                            >Sonnets</hi></title>, which was the first publication she gave to the
+                    world, were universally admired. That species of verse, which in this country
+                    may be reckoned rather an exotic, had at that time been but little cultivated.
+                    For plaintive, tender, and polished sentiment the Sonnet forms a proper vehicle,
+                    and <ref target="people.html#SmithCharlotte">Mrs. Smith</ref>&apos;s success
+                    fixed at once her reputation as a poet of no mean class. They were published
+                    while her husband was in the King&apos;s Bench,<hi rendition="#sup"><note
+                            place="foot">King’s Bench Prison, used mainly for incarcerating debtors
+                            and those convicted of libel, followed the practice of many prisons of
+                            the period in charging fees for decent accommodations within (and
+                            occasionally outside) its walls, some of which accommodated
+                            families.</note></hi> where she attended him with laudable assiduity,
+                    and exerted herself to further his liberation; her feelings upon which event she
+                    thus describes in a letter to a friend: &quot;For more than a month I had shared
+                    the restraint of my husband amidst scenes of misery, of vice, and even of
+                    terror. Two attempts had, since my last residence among them, been made by the
+                    prisoners to procure their liberation by blowing up the walls of the house.
+                    Throughout the night appointed for this enterprise I remained dressed, watching
+                    at the window. After such scenes and such apprehensions, how deliciously
+                    soothing to my wearied spirits was the soft, pure air of the summer&apos;s
+                    morning, breathing over the dewy grass, as, having slept one night upon the
+                    road, we passed over the heaths of Surrey!&quot; </p>
+                <p> Their difficulties, however, were far from being terminated; and the increasing
+                    derangement of Mr. Smith&apos;s affairs soon afterwards obliged them to leave
+                    England, and they were settled some time in a large gloomy chateau in Normandy,
+                    where <ref target="people.html#SmithCharlotte">Mrs. Smith</ref> gave birth to
+                    her <milestone unit="signature" n="a 2" rendition="#center"/><pb n="iv"/>
+                    youngest child. Here also she translated <title><hi rendition="#italics">Manon
+                            l&apos;Escaut</hi></title>, a novel of the <ref
+                        target="people.html#Prevostabbe">Abb&#233; Prev&#244;t</ref>, a work of
+                    affecting pathos, though exceptionable with regard to its moral tendency. </p>
+                <p> Returning to England, they occupied for some time an ancient mansion belonging
+                    to the Mills&apos; family, at Woodlading, in Sussex, where <ref
+                        target="people.html#SmithCharlotte">Mrs. Smith</ref> wrote several of her
+                    poems. </p>
+                <p> An entire separation afterwards taking place between her and her husband, she
+                    removed with most of her children to a small cottage near Chichester, where she
+                    wrote her novel of <title><hi rendition="#italics">Emmeline</hi></title> in the
+                    course of a few months. She afterwards resided in various places, mostly on the
+                    coast of Sussex; for she was particularly fond of the neighbourhood of the sea.
+                    The frequent change of scene which, either from necessity or inclination, she
+                    experienced, were no doubt favourable to that descriptive talent which forms a
+                    striking feature of her genius. Her frequent removals may be traced in her poems
+                    and other works. The name of the Arun is consecrated in poetry, and is often
+                    mentioned by her: <quote><lg type="stanza">
+                            <l>Farewell, Aruna! on whose varied shore</l>
+                            <l>My early vows were paid to Nature&apos;s shrine,</l>
+                            <l>And whose lorn stream had heard me since deplore</l>
+                            <l>Too many sorrows…..<hi rendition="#sup"><note place="foot"><title><hi
+                                                rendition="#italics">Elegiac Sonnets</hi></title>,
+                                        no. XLV. &quot;On Leaving a Part of Sussex&quot; 1-5 (line 3
+                                        deleted)</note></hi></l>
+                        </lg></quote> In another sonnet she addresses the South Downs: <quote><lg
+                            type="stanza">
+                            <l>Ah, hills beloved, where once, a happy child,</l>
+                            <l>Your beechen shades, your turf, your flowers among,</l>
+                            <l>I wove your blue-bells into garlands wild,</l>
+                            <l>And woke your echoes with my artless song:</l>
+                        </lg></quote>
+                    <pb n="v"/>
+                    <quote><lg type="stanza">
+                            <l>Ah, hills beloved! your turf, your flowers remain,</l>
+                            <l>But can they peace to this sad breast restore;</l>
+                            <l>For one poor moment soothe the sense of pain,</l>
+                            <l>And teach a breaking heart to throb no more?<hi rendition="#sup"
+                                        ><note place="foot"><title><hi rendition="#italics">Elegiac
+                                                Sonnets</hi></title>, no. V. &quot;To the South
+                                        Downs&quot; 1-8, slightly altered.</note></hi></l>
+                        </lg></quote>
+                </p>
+                <p> Poets are apt to complain, and often take a pleasure in it; yet they should
+                    remember that the pleasure of their readers is only derived from the elegance
+                    and harmony with which they do it. The reader is a selfish being, and seeks only
+                    his own gratification. But for the language of complaint in plain prose, or the
+                    exasperations of personal resentment, he has seldom much sympathy. It is
+                    certain, however, that the life of this lady was a very chequered one. </p>
+                <p>
+                    <ref target="people.html#SmithCharlotte">Mrs. Smith</ref> had a family of twelve
+                    children, six only of whom survived her. Her third son lost a limb in the
+                    service of his country, and afterwards fell sacrifice to the yellow fever at
+                    Barbadoes, whither he had gone to look after the family property. The severest
+                    stroke she met with was the loss of a favourite daughter, who died at Bath,
+                    where <ref target="people.html#SmithCharlotte">Mrs. Smith</ref> also was for the
+                    recovery of her health. The young lady had been married to the Chevalier de
+                    Faville, a French emigrant. Her mother is said never entirely to have recovered
+                    from this affliction. </p>
+                <p> Her last removal was to Stoke, a village in Surrey, endeared to her by her
+                    having spent there many years of her childhood; and there she died Oct. 28th,
+                    1806, in her 57th year, after a tedious and painful illness. She was a widow at
+                    the time of her death, and, being in possession of her own fortune, had a
+                    prospect of greater ease in her pecuniary circumstances than she<pb n="vi"/> had
+                    for some time enjoyed. Her youngest son, who was advancing in the military
+                    career, fell a victim to the pestiferous climate of Surinam before her death,
+                    but the news had not reached her. </p>
+                <p> Though she was worn by illness, the powers of her mind retained their full
+                    vigour, and her last volume of poems, entitled <title><hi rendition="#italics"
+                            >Beachy Head</hi></title>, was in the press at the time of her decease;
+                    an elegant work, which no ways discredits her former performances. </p>
+                <p> She was the author of several publications for children and young people, which
+                    are executed with great taste and elegance, and communicate, in a pleasing way,
+                    much knowledge of botany and natural history, of which two studies she was very
+                    fond. That entitled <title><hi rendition="#italics">Conversations</hi></title>
+                    is interspersed with beautiful little descriptive poems on natural objects. </p>
+                <p>
+                    <ref target="people.html#SmithCharlotte">Mrs. Smith</ref> is most known to
+                    readers in general by her novels; yet they seem to have been less the
+                    spontaneous offspring of her mind than her poems. She herself represents them as
+                    being written to supply money for those emergencies which, from the perplexed
+                    state of her affairs, she was often thrown into; but, though not of the first
+                    order, they hold a respectable rank among that class of publications. They are
+                    written in a style correct and elegant; they show a knowledge of life, and of
+                    genteel life; and there is much beauty in the descriptive scenery, which <ref
+                        target="people.html#SmithCharlotte">Mrs. Smith</ref> was one of the first to
+                    introduce. Descriptions, of whatever beauty, are but little attended to in a
+                    novel of high interest, particu- <pb n="vii"/>larly if introduced, as they often
+                    are, during a period of anxious suspense for the hero or heroine; but are very
+                    properly placed, at judicious intervals, in compositions of which variety rather
+                    than deep pathos, and elegance rather than strength, are the characteristics. </p>
+                <p> The two most finished novels of <ref target="people.html#SmithCharlotte">Mrs.
+                        Smith.</ref> are <title><hi rendition="#italics">Emmeline</hi></title> and
+                            <title><hi rendition="#italics">Celestina</hi></title>. In the first she
+                    is supposed to have drawn her own character, (with what degree of impartiality
+                    others must judge,) in that of Mrs. Stafford. </p>
+                <p>
+                    <title><hi rendition="#italics">Celestina</hi></title> is not inferior to
+                            <title><hi rendition="#italics">Emmeline</hi></title> in the conduct of
+                    the piece, and possesses still more beauties of description. The romantic scenes
+                    in the south of France are rich and picturesque. The story of Jesse and her
+                    lover is interesting, as well as that of Jaquelina. </p>
+                <p>
+                    <title>The <hi rendition="#italics">Old Manor-House</hi></title><hi
+                        rendition="#sup"><note place="foot">Featured in <title><hi
+                                    rendition="#italics">The British
+                        Novelists</hi></title>.</note></hi> is said to be the most popular of the
+                    author&apos;s productions. The best drawn character in it is that of a wealthy
+                    old lady who keeps all her relations in constant dependence, and will not be
+                    persuaded to name her heir. This was written during the war with America; and
+                    the author takes occasion, as also in many other of her publications, to show
+                    the strain of her politics. </p>
+                <p> She also wrote <title><hi rendition="#italics">Desmond</hi></title>, <title><hi
+                            rendition="#italics">The Wanderings of Warwick</hi></title>, <title><hi
+                            rendition="#italics">Montalbert</hi></title>, and many others, to the
+                    number of thirty-eight volumes. They all show a knowledge of life, and facility
+                    of execution, without having any very strong features, or particularly aiming to
+                    illustrate any moral truth. The situations and the scenery are often<pb n="viii"
+                    /> romantic; the characters and the conversations are from common life. </p>
+                <p> Her later publications would have been more pleasing, if the author, in the
+                    exertions of fancy, could have forgotten herself; but the asperity of invective
+                    and the querulousness of complaint too frequently cloud the happier exertions of
+                    her imagination. </p>
+                <p> Another publication of this lady&apos;s ought to have been mentioned, <title><hi
+                            rendition="#italics">The Romance of real Life</hi></title>, a very
+                    entertaining work, consisting of a selection of remarkable trials from the
+                            <title><hi rendition="#italics">Causes
+                        C&#233;l&#232;bres</hi></title>.<hi rendition="#sup"><note place="foot"
+                                    ><title><hi rendition="#italics">Causes c&#233;l&#232;bres et
+                                    interesantes avec les jugemens qui les out
+                                decidees.</hi></title> by <ref target="people.html#GayotdePitaval"
+                                >Fran&#231;ois Gayot de Pitaval</ref>, was published in periodic
+                            installments and various expanded editions beginning in 1734 and
+                            continuing throughout the eighteenth century.</note></hi> The title,
+                    though a happy and a just one, had the inconvenience of misleading many readers,
+                    who really thought it a novel. Their mistake was pardonable; for few novels
+                    present incidents so wonderful as are to be found in these surprising stories,
+                    which rest upon the sanction of judicial records. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

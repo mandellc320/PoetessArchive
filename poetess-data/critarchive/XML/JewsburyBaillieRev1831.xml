@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Review of The Nature and Dignity of Christ by Joanna Baillie.</title>
+				<title type="subordinate">from <title><hi rendition="#italics">The Athen&#230;um
+						</hi></title></title>
+				<author type="writer">
+					<name>Maria Jane Jewsbury</name>
+				</author>
+				<respStmt>
+					<resp>Editor</resp>
+					<name>Mary A. Waters</name>
+				</respStmt>
+				<respStmt>
+					<resp>Co-Editor</resp>
+					<name>Krystal J. Iseminger</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<idno>JewsburyBaillieRev1831</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a">The Nature and Dignity of Christ. By Joanna
+							Baillie.</title>
+						<author type="writer">Jewsbury, Maria, 1800-1833 </author>
+					</analytic>
+					<monogr>
+						<title level="j">The Athenæum</title>
+						<imprint>
+							<date when="1831-05-28">May 28, 1831</date>
+							<biblScope unit="issue">187</biblScope>
+							<biblScope unit="page">337</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “, " for ”, '
+						for ‘, and ' for ’.</p>
+					<p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard</p>
+					<p>Em-dashes have been rendered as &#8212;</p>
+				</hyphenation>
+				<normalization method="markup">
+					<p>Spelling has not been regularized.</p>
+					<p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+					<p>Compositors' catchwords and running titles have been silently eliminated.</p>
+					<p>Long "s" (&#383;) has been silently modernized.</p>
+				</normalization>
+				<normalization>
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>£ has been used for £, the pound sign</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+				</normalization>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy
+					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+					xml:id="g">
+					<bibl>ARC Genre Categories, July 1, 2017</bibl>
+					<category xml:id="g1">
+						<catDesc>Advertisement</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>Animation</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>Bibliography</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>Catalog</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>Chronology</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>Citation</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>Correspondence</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>Criticism</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>Drama</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>Ephemera</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>Essay</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>Fiction</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>Film, Documentary</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>Film, Experimental</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>Film, Narrative</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>Film, Other</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>Historiography</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>Interview</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>Life Writing</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>Liturgy</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>Musical Analysis</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>Music, Other</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>Musical Work</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>Musical Score</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>Nonficition</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>Paratext</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>Performance</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>Philosophy</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>Photograph</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>Political Statement</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>Poetry</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>Religion</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>Reference Works</catDesc>
+					</category>
+					<category xml:id="g35">
+						<catDesc>Review</catDesc>
+					</category>
+					<category xml:id="g36">
+						<catDesc>Scripture</catDesc>
+					</category>
+					<category xml:id="g37">
+						<catDesc>Sermon</catDesc>
+					</category>
+					<category xml:id="g38">
+						<catDesc>Speech</catDesc>
+					</category>
+					<category xml:id="g39">
+						<catDesc>Translation</catDesc>
+					</category>
+					<category xml:id="g40">
+						<catDesc>Travel Writing</catDesc>
+					</category>
+					<category xml:id="g41">
+						<catDesc>Unspecified</catDesc>
+					</category>
+					<category xml:id="g42">
+						<catDesc>Visual Art</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+					xml:id="f">
+					<bibl>ARC Format Categories, July 1, 2017</bibl>
+					<category xml:id="f1">
+						<catDesc>Codex</catDesc>
+					</category>
+					<category xml:id="f2">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="f3">
+						<catDesc>Dataset</catDesc>
+					</category>
+					<category xml:id="f4">
+						<catDesc>Drawing</catDesc>
+					</category>
+					<category xml:id="f5">
+						<catDesc>Illustration</catDesc>
+					</category>
+					<category xml:id="f6">
+						<catDesc>Interactive Resource</catDesc>
+					</category>
+					<category xml:id="f7">
+						<catDesc>Manuscript</catDesc>
+					</category>
+					<category xml:id="f8">
+						<catDesc>Map</catDesc>
+					</category>
+					<category xml:id="f9">
+						<catDesc>Moving Image</catDesc>
+					</category>
+					<category xml:id="f10">
+						<catDesc>Notated Music</catDesc>
+					</category>
+					<category xml:id="f11">
+						<catDesc>Page Proofs</catDesc>
+					</category>
+					<category xml:id="f12">
+						<catDesc>Pamphlet</catDesc>
+					</category>
+					<category xml:id="f13">
+						<catDesc>Periodical</catDesc>
+					</category>
+					<category xml:id="f14">
+						<catDesc>Physcial Object</catDesc>
+					</category>
+					<category xml:id="f15">
+						<catDesc>Roll</catDesc>
+					</category>
+					<category xml:id="f16">
+						<catDesc>Sheet</catDesc>
+					</category>
+					<category xml:id="f17">
+						<catDesc>Sound</catDesc>
+					</category>
+					<category xml:id="f18">
+						<catDesc>Still Image</catDesc>
+					</category>
+					<category xml:id="f19">
+						<catDesc>Typescript</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="#lcsh">
+					<list type="simple">
+						<item>Criticism</item>
+						<item>Book review</item>
+					</list>
+				</keywords>
+				<catRef target="#g9 #g35" scheme="#g"/>
+				<catRef target="#f13" scheme="#f"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<name>Mary A. Waters</name>
+				<date>2018-07-15</date>
+				<list>
+					<item>revise TEI encoding</item>
+					<item>document ID change</item>
+				</list>
+			</change>
+			<change>
+				<name xml:id="KI"> Krystal J. Iseminger</name>
+				<date>2017-02-05</date>
+				<list>
+					<item>TEI encoding</item>
+				</list>
+			</change>
+			<change>
+				<name xml:id="MW">Mary A. Waters</name>
+				<date>2010-12-01</date>
+				<list>
+					<item>Created Edition</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="essay">
+				<head><bibl><author type="writer"><name><ref target="people.html#JewsburyMaria"
+									>Maria Jane Jewsbury</ref></name></author>
+						<title type="main" level="a">The Nature and Dignity of Christ.<hi
+								rendition="#sup"><note place="foot">Review of <hi
+										rendition="#italics">The Nature and Dignity of Christ</hi>.
+									By <ref target="people.html#BaillieJoanna">Joanna Baillie</ref>.
+									London, 1831. Longman &amp; Co., <title level="j"><hi
+											rendition="#italics">The Athen&#230;um</hi></title> no.
+									187 (Saturday, 28 May 1831): 337. The article held the lead
+									position for that weekly
+					number.</note></hi></title></bibl></head>
+				<p rendition="#pnoindent"/>
+
+				<p><ref target="people.html#BaillieJoanna">J<hi rendition="#smcaps">oanna</hi> B<hi
+							rendition="#smcaps">aillie</hi></ref> holds that rank amongst our elder
+					modern authors, and her poetry is so connected with that re-awakening of our
+					literature which took place about the commencement of the present century, that
+					whatever she writes, however slight, or however unequal to the works which made
+					her fame, has a peculiar claim to respectful attention. Of <ref
+						target="people.html#BaillieJoanna">Joanna Baillie</ref>&apos;s intellectual
+					strength, of her profound knowledge of the workings of passion, rendered more
+					extraordinary by the placidity with which she herself delineates them&#8212;of
+						<ref target="people.html#BaillieJoanna">Joanna Baillie</ref>&apos;s genius
+					and language, which are both so essentially old-English, deep, sound, vigorous,
+					unfeigned, and unadulterate&#8212;we are proud to express our admiration. It
+					would afford a subject for a long and not uninteresting article to point out the
+					striking difference in the mind and writings of the literary women of thirty and
+					forty years ago, and the literary women of the present time: those who have not
+					perused their writings in connexion, will hardly believe how great is the
+					difference;&#8212;what a commentary the perusal affords on the entire change
+					that has obtained in habits, manners, feelings, education, tastes, and life!
+					Amongst the elders&#8212;with <ref
+						target="people.html#BaillieJoanna">Joanna Baillie</ref> at their head, as regards
+					mind&#8212;the distinguishing features are nerve, simplicity, vigour,
+					continuity, unambitious earnestness, and good English. We find also elaborate
+					and skilfully-developed plots. Amongst our distinguished women of later date, we
+					find accomplishment, grace, brilliancy, sentiment, scenery poetically sketched,
+					and character acutely handled; talent in all shapes and ways, but not so much
+					that can claim the name of genius. There is nothing of what we have called
+					continuity. Writing little but detached tales or novels, which, however clever
+					are only volumes of episodes, separate scenes, and striking characters, most of
+					them unconnected with the main business of the book&#8212;it is as <hi
+						rendition="#italics">sketchers</hi>, whether for vivacity or pathos, nature
+					or art; as <hi rendition="#italics">sketchers</hi>, whether of the country, the
+					town, or the heart, of life or of manners, that our gifted women are now chiefly
+					distinguished. In the female poetry too of the present day, fascinating
+					tenderness, brilliancy of fancy, and beauty of feeling, stand in the place of
+					sustained loftiness of imagination, and compact artist-like diction. Our elder
+					literary women were, in the spirit of their intellect, more essentially
+					masculine; our younger ones are integrally feminine&#8212;women of fashionable
+					as well as studious life, women generally, who not only write books but abound
+					in elegant accomplishments.</p>
+				<p>We have not, and are not likely to have at present, another <ref
+						target="people.html#WollstonecraftMary">Mary Wolstencroft</ref> (we merely
+					speak of her as having exhibited grasp of mind), another <ref
+						target="people.html#InchbaldMrs">Mrs. Inchbald</ref>, another <ref
+						target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>&#8212;<ref
+						target="people.html#BaillieJoanna">Joanna Baillie</ref> is their only
+					representative; adding, to the power of mind which they possessed, that
+					dignified play of fancy, that amplitude of calm, bold thought, and that
+					&quot;accomplishment of verse&quot;<hi rendition="#sup"><note place="foot"><ref
+								target="people.html#WordsworthWilliam">William Wordsworth</ref>,
+									<title><hi rendition="#italics">The Excursion</hi></title>, Book
+							First, The Wanderer 77-80.</note></hi> which they possessed not. Modern
+					imaginative literature in England owes much to her &apos;<title>Plays on the
+						Passions</title>;&apos;<hi rendition="#sup"><note place="foot"><ref
+								target="people.html#BaillieJoanna">Baillie</ref>&apos;s <title><hi
+									rendition="#italics">Plays on the Passions</hi></title> was
+							published in three volumes as <title><hi rendition="#italics">A Series
+									of Plays in which it is Attempted to Delineate the Stronger
+									passions of the Mind </hi></title> (1798-1812). <title><hi
+									rendition="#italics">Ethewald </hi></title> and <title><hi
+									rendition="#italics">Count Basil </hi></title> (see below) are
+							two of her plays. </note></hi> perhaps more than to any other
+					publication except &apos;<title><ref target="people.html#PercyThomas"
+							>Percy</ref>&apos;s Reliques</title>;&apos; at all events, our greatest
+					poets, who were young when her plays appeared, have nearly all borne testimony
+					to the advantage and delight with which they perused them. With all this, the
+					name of <ref target="people.html#BaillieJoanna">Joanna Baillie</ref> is not
+					buzzed and blazoned about as very inferior names are; her works do not attain
+					the honour of calf and gold in libraries where inferior works shine; poetical
+					readers of strong sensibility and uncultivated taste do not dote upon
+						&apos;<title>Basil</title>,&apos; or quote from
+					&apos;<title>Ethwald</title>;&apos; and we never, by any chance, saw a line of
+					hers transcribed in an album! One or two of her Shakespearian snatches of song
+					have been set to music; but, (to quote the words of an able critic,) &quot;The
+					celebrity of <ref target="people.html#BaillieJoanna">Joanna Baillie</ref> has
+					been of a most peculiar nature; her fame has had about it a peculiar purity. It
+					has been the unparticipated treasure of the world of taste and
+						intellect.&quot;<hi rendition="#sup"><note place="foot">William Harness,
+							&quot;Celebrated Female Writers: <ref target="people.html#BaillieJoanna"
+								>Joanna Baillie</ref>,&quot; <hi rendition="#italics"
+								>Blackwood&apos;s Edinburgh Magazine</hi> 16 (August 1824):
+							165.</note></hi> We know that with this illustrious authoress there is a
+					noble carelessness of praise, partly consequent on her years, her standing in
+					society, and her having simply written at the instigation of her own genius;
+					obeying the voice from the shrine, and not the command of the outer-court
+					worshippers; but still, we feel vexed to see women of later date, and, however
+					gifted, every way inferior to <ref target="people.html#BaillieJoanna">Joanna
+						Baillie</ref>, written about, and likenessed, and lithographed, before <hi
+						rendition="#smcaps">her</hi>&#8212;the senior and superior of all.</p>
+				<p>These casual remarks will prove that we appreciate <ref
+						target="people.html#BaillieJoanna">Joanna Baillie</ref>; we can, therefore,
+					with better grace express our regret that she has just published the little
+					work, the name of which heads this notice. It is controversial, and controversy
+					is best left to learned divines&#8212;certainly better left alone by ladies.</p>
+
+			</div>
+		</body>
+	</text>
+</TEI>

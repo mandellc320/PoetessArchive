@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Preface to The Venetian Bracelet, the Lost Pleiad, A
+                    History of the Lyre, and Other Poems.</title>
+                <title type="subordinate" level="m"/>
+                <author type="writer">
+                    <name>Letitia Landon</name>
+                </author>
+                <respStmt>
+                    <resp>Genernal Editor</resp>
+                    <name xml:id="MW">Mary A. Waters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding and Editing Assistance</resp>
+                    <name xml:id="VS">Victoria Stewart</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <idno>LandonVenetian1829</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title type="main" level="a">Preface</title>
+                        <author type="writer">
+                            <name>L. E. L. (Letitia Elizabeth Landon), 1802-1838 </name>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title type="main" level="m">The Venetial Bracelet, the Lost Pleiad, A
+                            history of the Lyre, and Other Poems.</title>
+                        <author type="writer">
+                            <name>L. E. L. (Letitia Elizabeth Landon), 1802-1838</name>
+                        </author>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <publisher>Longman, Rees, Orme, Brown, and Green</publisher>
+                            <date when="1829">1829</date>
+                            <biblScope unit="vol"/>
+                            <biblScope unit="page">iii-viii</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation>
+                    <p>All quotation marks and apostrophes have been changed: " for “, " for ”, '
+                        for ‘, and ' for ’.</p>
+                    <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+                </quotation>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed.</p>
+                    <p>Because of web browser variability, all hyphens have been typed on the U.S.
+                        keyboard</p>
+                    <p>Em-dashes have been rendered as&#8212;</p>
+                </hyphenation>
+                <normalization method="markup">
+                    <p>Spelling has not been regularized.</p>
+                    <p>Writing in other hands appearing on these manuscripts has been indicated as
+                        such, the content recorded in brackets.</p>
+                    <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+                    <p>Long "s" (&#383;) has been silently modernized.</p>
+                </normalization>
+                <normalization>
+                    <p>&amp; has been used for the ampersand sign.</p>
+                    <p>£ has been used for £, the pound sign</p>
+                    <p>All other characters, those with accents, non-breaking spaces, etc., have
+                        been encoded in HTML entity decimals.</p>
+                </normalization>
+            </editorialDecl>
+            <classDecl>
+                <taxonomy
+                    corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                    xml:id="g">
+                    <bibl>ARC Genre Categories, July 1, 2017</bibl>
+                    <category xml:id="g1">
+                        <catDesc>Advertisement</catDesc>
+                    </category>
+                    <category xml:id="g2">
+                        <catDesc>Animation</catDesc>
+                    </category>
+                    <category xml:id="g3">
+                        <catDesc>Bibliography</catDesc>
+                    </category>
+                    <category xml:id="g4">
+                        <catDesc>Catalog</catDesc>
+                    </category>
+                    <category xml:id="g5">
+                        <catDesc>Chronology</catDesc>
+                    </category>
+                    <category xml:id="g7">
+                        <catDesc>Citation</catDesc>
+                    </category>
+                    <category xml:id="g6">
+                        <catDesc>Collection</catDesc>
+                    </category>
+                    <category xml:id="g8">
+                        <catDesc>Correspondence</catDesc>
+                    </category>
+                    <category xml:id="g9">
+                        <catDesc>Criticism</catDesc>
+                    </category>
+                    <category xml:id="g10">
+                        <catDesc>Drama</catDesc>
+                    </category>
+                    <category xml:id="g11">
+                        <catDesc>Ephemera</catDesc>
+                    </category>
+                    <category xml:id="g12">
+                        <catDesc>Essay</catDesc>
+                    </category>
+                    <category xml:id="g13">
+                        <catDesc>Fiction</catDesc>
+                    </category>
+                    <category xml:id="g14">
+                        <catDesc>Film, Documentary</catDesc>
+                    </category>
+                    <category xml:id="g15">
+                        <catDesc>Film, Experimental</catDesc>
+                    </category>
+                    <category xml:id="g16">
+                        <catDesc>Film, Narrative</catDesc>
+                    </category>
+                    <category xml:id="g17">
+                        <catDesc>Film, Other</catDesc>
+                    </category>
+                    <category xml:id="g18">
+                        <catDesc>Historiography</catDesc>
+                    </category>
+                    <category xml:id="g19">
+                        <catDesc>Interview</catDesc>
+                    </category>
+                    <category xml:id="g20">
+                        <catDesc>Life Writing</catDesc>
+                    </category>
+                    <category xml:id="g21">
+                        <catDesc>Liturgy</catDesc>
+                    </category>
+                    <category xml:id="g22">
+                        <catDesc>Musical Analysis</catDesc>
+                    </category>
+                    <category xml:id="g23">
+                        <catDesc>Music, Other</catDesc>
+                    </category>
+                    <category xml:id="g24">
+                        <catDesc>Musical Work</catDesc>
+                    </category>
+                    <category xml:id="g25">
+                        <catDesc>Musical Score</catDesc>
+                    </category>
+                    <category xml:id="g26">
+                        <catDesc>Nonficition</catDesc>
+                    </category>
+                    <category xml:id="g27">
+                        <catDesc>Paratext</catDesc>
+                    </category>
+                    <category xml:id="g28">
+                        <catDesc>Performance</catDesc>
+                    </category>
+                    <category xml:id="g29">
+                        <catDesc>Philosophy</catDesc>
+                    </category>
+                    <category xml:id="g30">
+                        <catDesc>Photograph</catDesc>
+                    </category>
+                    <category xml:id="g31">
+                        <catDesc>Political Statement</catDesc>
+                    </category>
+                    <category xml:id="g32">
+                        <catDesc>Poetry</catDesc>
+                    </category>
+                    <category xml:id="g33">
+                        <catDesc>Religion</catDesc>
+                    </category>
+                    <category xml:id="g34">
+                        <catDesc>Reference Works</catDesc>
+                    </category>
+                    <category xml:id="g35">
+                        <catDesc>Review</catDesc>
+                    </category>
+                    <category xml:id="g36">
+                        <catDesc>Scripture</catDesc>
+                    </category>
+                    <category xml:id="g37">
+                        <catDesc>Sermon</catDesc>
+                    </category>
+                    <category xml:id="g38">
+                        <catDesc>Speech</catDesc>
+                    </category>
+                    <category xml:id="g39">
+                        <catDesc>Translation</catDesc>
+                    </category>
+                    <category xml:id="g40">
+                        <catDesc>Travel Writing</catDesc>
+                    </category>
+                    <category xml:id="g41">
+                        <catDesc>Unspecified</catDesc>
+                    </category>
+                    <category xml:id="g42">
+                        <catDesc>Visual Art</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+                    xml:id="f">
+                    <bibl>ARC Format Categories, July 1, 2017</bibl>
+                    <category xml:id="f1">
+                        <catDesc>Codex</catDesc>
+                    </category>
+                    <category xml:id="f2">
+                        <catDesc>Collection</catDesc>
+                    </category>
+                    <category xml:id="f3">
+                        <catDesc>Dataset</catDesc>
+                    </category>
+                    <category xml:id="f4">
+                        <catDesc>Drawing</catDesc>
+                    </category>
+                    <category xml:id="f5">
+                        <catDesc>Illustration</catDesc>
+                    </category>
+                    <category xml:id="f6">
+                        <catDesc>Interactive Resource</catDesc>
+                    </category>
+                    <category xml:id="f7">
+                        <catDesc>Manuscript</catDesc>
+                    </category>
+                    <category xml:id="f8">
+                        <catDesc>Map</catDesc>
+                    </category>
+                    <category xml:id="f9">
+                        <catDesc>Moving Image</catDesc>
+                    </category>
+                    <category xml:id="f10">
+                        <catDesc>Notated Music</catDesc>
+                    </category>
+                    <category xml:id="f11">
+                        <catDesc>Page Proofs</catDesc>
+                    </category>
+                    <category xml:id="f12">
+                        <catDesc>Pamphlet</catDesc>
+                    </category>
+                    <category xml:id="f13">
+                        <catDesc>Periodical</catDesc>
+                    </category>
+                    <category xml:id="f14">
+                        <catDesc>Physcial Object</catDesc>
+                    </category>
+                    <category xml:id="f15">
+                        <catDesc>Roll</catDesc>
+                    </category>
+                    <category xml:id="f16">
+                        <catDesc>Sheet</catDesc>
+                    </category>
+                    <category xml:id="f17">
+                        <catDesc>Sound</catDesc>
+                    </category>
+                    <category xml:id="f18">
+                        <catDesc>Still Image</catDesc>
+                    </category>
+                    <category xml:id="f19">
+                        <catDesc>Typescript</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list type="simple">
+                        <item>Criticism</item>
+                        <item>Essay</item>
+                    </list>
+                </keywords>
+                <catRef target="#g9 #g12" scheme="#g"/>
+                <catRef target="#f1" scheme="#f"/>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#MW" when="2018-06-25" n="4">
+                <label>Changed by</label>
+                <name>Mary A. Waters</name>
+                <list>
+                    <item>TEI encoding revision</item>
+                    <item>Editing revision</item>
+                </list>
+            </change>
+            <change who="#VS" when="2017-02-07" n="2">
+                <label>Changed by</label>
+                <name>Victoria Stewart</name>
+                <list>
+                    <item>TEI encoding</item>
+                </list>
+            </change>
+            <change who="#MW" when="2014-06-15" n="1">
+                <label>Changed by</label>
+                <name>Mary A. Waters</name>
+                <list>
+                    <item>Created Edition</item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="essay">
+                <head>
+                    <bibl>
+                        <author type="writer">
+                            <lb rendition="#center"/><ref target="people.html#LandonLetitia"
+                                    ><name>Letitia Landon</name></ref>
+                        </author>
+                        <title type="main" level="a">PREFACE <lb rendition="#center"/><hi
+                                rendition="#smallest">[to <hi rendition="#italics"> The Venetian
+                                    Bracelet, the Lost Pleiad, a History of the Lyre, and Other
+                                    Poems</hi>].</hi><hi rendition="#sup"><note place="foot">
+                                    <title level="m"><hi rendition="#italics">The Venetian Bracelet,
+                                            The Lost Pleiad, A History of the Lyre, and Other Poems
+                                        </hi></title>(London: Longman, Rees, Orme, Brown &amp;
+                                    Green, 1829) iii-viii. Victoria Stewart and Mary A. Waters
+                                    co-edited this edition for <hi rendition="#italics">The Criticism
+                                        Archive</hi>.</note></hi></title>
+                    </bibl>
+                </head>
+                <p rendition="#pnoindent"><hi rendition="#largest">D</hi><hi rendition="#smcaps"
+                        >iffidence</hi> of their own abilities, and fear, which heightens the
+                    anxiety for public favour, are pleas usually urged by the youthful writer: may
+                    I, while venturing for the first time to speak of myself, be permitted to say
+                    they far more truly belong to one who has had experience of both praise and
+                    censure. The feelings which attended the publication of the
+                        &quot;Improvisatrice&quot;<hi rendition="#sup"><note place="foot"><hi
+                                rendition="#italics">The Improvisatrice; and Other Poems</hi>, <ref
+                                target="people.html#LandonLetitia">Landon</ref>&apos;s 1824
+                            volume.</note></hi> are very different from those that accompany the
+                    present volume. I believe I <hi rendition="#italics">then</hi> felt
+                        little<milestone unit="signature" n="A   2" rendition="#center"/><pb n="iv"
+                    />beyond hope, vague as the timidity which subdued it, and that excitement which
+                    every author must know: <hi rendition="#italics">now</hi> mine is a
+                    &quot;farther looking hope;&quot;<hi rendition="#sup"><note place="foot"><ref
+                                target="people.html#WordsworthWilliam">William Wordsworth</ref>,
+                            &quot;The Force of Prayer, or the Founding of Bolton Abbey,&quot; <hi
+                                rendition="#italics">Poems</hi> (1815), vol. 2, line 47.</note></hi>
+                    and the timidity which apprehended the verdict of others, is now deepened by
+                    distrust of my own powers. Or, to claim my poetical privilege, and express my
+                    meaning by a simile, I should say, I am no longer one who springs forward in the
+                    mere energy of exercise and enjoyment; but rather like the Olympian racer, who
+                    strains his utmost vigour, with the distant goal and crown in view. I have
+                    devoted my whole life to one object: in society I have but sought the material
+                    for solitude. I can imagine but one interest in existence,&#8212;that which has
+                    filled my past, and haunts my future,&#8212;the perhaps vain desire, when<pb
+                        n="v"/>I am nothing, of leaving one of those memories at once a good and a
+                    glory. Believing as I do in the great and excellent influence of poetry, may I
+                    hazard the expression of what I have myself sometimes trusted to do? A
+                    highly-cultivated state of society must ever have for concomitant evils, that
+                    selfishness, the result of indolent indulgence; and that heartlessness attendant
+                    on refinement, which too often hardens while it polishes. Aware that to elevate
+                    I must first soften, and that if I wished to purify I must first touch, I have
+                    ever endeavoured to bring forward grief, disappointment, the fallen leaf, the
+                    faded flower, the broken heart, and the early grave. Surely we must be less
+                    worldly, less interested, from this sympathy with the<pb n="vi"/>sorrow in which
+                    our unselfish feelings alone can take part. And now a few words on a subject,
+                    where the variety of the opinions offered have left me somewhat in the situation
+                    of the prince in the fairy tale, who, when in the vicinity of the magic
+                    fountain, found himself so distracted by the multitude of voices that directed
+                    his way, as to be quite incapable of deciding which was the right path. I allude
+                    to the blame and eulogy which have been equally bestowed on my frequent choice
+                    of Love as my source of song. I can only say, that for a woman, whose influence
+                    and whose sphere must be in the affections, what subject can be more fitting
+                    than one which it is her peculiar province to refine, spiritualise, and exalt? I
+                    have always sought to paint it self-<pb n="vii"/>denying, devoted, and making an
+                    almost religion of its truth; and I must add, that such as I would wish to draw
+                    her, woman actuated by an attachment as intense as it is true, as pure as it is
+                    deep, is not only more admirable as a heroine, but also in actual life, than one
+                    whose idea of love is that of light amusement, or at worst of vain
+                    mortification. With regard to the frequent application of my works to myself,
+                    considering that I sometimes pourtrayed love unrequited, then betrayed, and
+                    again destroyed by death&#8212;may I hint the conclusions are not quite
+                    logically drawn, as assuredly the same mind cannot have suffered such varied
+                    modes of misery. However, if I must have an unhappy passion, I can only console
+                    myself with my own perfect unconsciousness of<pb n="viii"/>so great a
+                    misfortune. I now leave the following Poems to their fate: they must speak for
+                    themselves. I could but express my anxiety, an anxiety only increased by a
+                    popularity beyond my most sanguine dreams. </p>
+                <p>With regard to those whose former praise encouraged, their best recompense is the
+                    happiness they bestowed. And to those whose differing opinion expressed itself
+                    in censure, I own, after the first chagrin was past, I never laid down a
+                    criticism by which I did not benefit, or trust to benefit. I will conclude by
+                    apostrophizing the hopes and fears they excited, in the words of the Mexican
+                    king—&quot;Ye have been the feathers of my wings.&quot;<hi rendition="#sup"
+                            ><note place="foot">See <ref target="people.html#DisraeliIsaac">Isaac
+                                D’Israeli</ref>, <hi rendition="#italics">The Literary Character,
+                                Illustrated by the History of Men of Genius, Drawn from Their Own
+                                Feelings and Confessions</hi>, 3rd ed. (London: John Murray, 1822)
+                            22. The anecdote constitutes one of several examples of traitorous
+                            councilors. </note></hi>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
