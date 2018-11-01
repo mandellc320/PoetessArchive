@@ -1,0 +1,460 @@
+body {
+	background: #fff; 
+	font-family: "Cormorant+Garmond";
+	margin-left: 5em;
+	}
+main {
+    clear:both;
+    background-color:#ffffff;
+    width:60em;
+}
+
+section {
+    clear:both;
+    text-align: left;
+    margin-left: 0;
+    background-color:#ffffff;
+    border:solid 1px #666666;
+    width:60em;
+    padding: 20px;
+    
+}
+section.scene {
+    clear:both;
+    text-align: left;
+    margin-left: 0;
+    background-color:#ffffff;
+    border: none;
+    width:58em;
+}
+p { font-size: 16px;
+	line-height: 30px;
+	text-indent: 45px;
+}
+header {
+    text-align: center;
+    font-size: 20px;
+	line-height: 34px;
+	letter-spacing: 0.6px;
+}
+.l {
+	text-indent: 0px;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent {
+    margin-left: .5em;
+    font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent1 {
+	margin-left: 1em;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent2 {
+	margin-left: 1.5em;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent3 {
+	margin-left: 2em;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent4 {
+	margin-left: 2.5em;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent5 {
+	margin-left: 3em;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent6 {
+	margin-left: 3.5em;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent7 {
+	margin-left: 4em;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent8 {
+	margin-left: 4.5em;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent9 {
+	margin-left: 5em;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+.indent10 {
+	margin-left: 5.5em;
+}
+.indent11 {
+	margin-left: 6em;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+a {
+    color: #7696D4;
+    text-decoration: none;
+}
+a:hover {
+	color: #9933CC;
+}
+a.green {
+    color: #576E31;
+    /*  color: #67803D; */
+    text-decoration: none;
+}
+a:hover.green {
+    color: #7A9846;
+}
+h1 {
+	color: #46597D;
+	font-size: 1.8em;
+	line-height: 2em;
+	font-weight: normal;
+}
+h2 { 
+	color: #46597D;
+	font-size: 1.6em;
+	line-height: 1.8em;
+	font-weight: normal;
+}
+h3 {
+	color: #46597D;
+	font-size: 1.4em;
+	line-height: 1.6em;
+	font-weight: normal;
+}
+h4 {
+    /* color: #536633; */
+    color: #46597D;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	font-weight: bold;
+}
+h5 {
+	/*  color: #364320; */
+	color: #46597D;
+	font-size: 1em;
+	line-height: 1.2em;
+	font-weight: bold;
+}
+h6 {
+	/*  color: #364320;*/
+	color: #46597D;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.pnoindent {
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 0px;
+	letter-spacing: 0.3px;
+}
+.hang {
+	font-size: 16px;
+	text-indent: -30px;
+	margin-left: 30px;
+	line-height: 36px;
+}
+/* The following codes the indented quotations */
+p.quote {
+	line-height: 26px;
+	font-size: 14px;
+}
+
+blockquote {
+     margin-left:10em;
+  }
+  
+img.pageImage {
+    float: right;
+    padding: 10px;
+}
+img.tei {
+    border: 1px;
+    width: 40px;
+    height: 40px;
+    }
+table.tei {
+    border: none;
+    width: 60em;
+}
+.titlePage {
+    background-color:#ffffff;
+    border:solid 1px #666666;
+    width:60em;
+    padding: 20px;
+    text-align: center;
+}
+.halfTitle {
+    text-align: center;
+}
+.tp {
+    /*  display: inline-block; */
+}
+img.partHead {
+    background-color:#ffffff;
+    border: solid 1px #666666;
+    width: 62.5em;
+    opacity: 0.7;
+}
+.essay {
+    background-color: #ffffff;
+    border: solid 1px #666666;
+    width: 60em;
+    padding: 20px;
+    text-align: left;
+}
+table.poem { 
+    margin-left:auto; 
+    margin-right:auto;
+    width: 60%;
+}
+table.scene { 
+    margin-left:auto; 
+    margin-right:auto;
+    width: 60%;
+}
+p.stage {
+    margin-left: 0;
+    font-size: 16px;
+	line-height: 18px;
+	letter-spacing: 0.1px;
+    
+}
+.setting {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	margin-left: -3em;
+}
+.exit, .entrance {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+	line-height: 30px;
+	margin-left: 45%;
+}
+.business, .delivery {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+	line-height: 30px;
+	margin-left: 3em;;
+}
+table.pageNumber {
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 0px;
+	letter-spacing: 0.3px;
+	margin-left: 0;
+	clear: both;
+	width:100%;
+	}
+
+tr.space {
+    height: 20px;
+}
+.biography {
+     background-color:#ffffff;
+    border:solid 1px #666666;
+    width:60em;
+    padding: 20px;
+}
+
+dt {
+    font-weight: bold;
+    padding: 1em;
+}
+
+dd {
+    font-family: "Cormorant+Garmond";
+    font-size: 16px;
+	line-height: 30px;
+	text-indent: 0px;
+	letter-spacing: 0.3px;
+}
+.notes {
+    background-color:#ffffff;
+    border:solid 1px #666666;
+    width:60em;
+    padding: 20px;
+    text-align: left;
+}
+.note {
+    text-indent: 0px;
+	line-height: 32px;
+	font-size: 16px;
+}
+table.partHead {
+    border: none;
+    width: 100%;
+}
+table.index {
+    border-collapse: collapse;
+}
+td.index, tr.index {
+    padding: 10px;
+    border: 1px solid black;
+}
+/* For catchwords, signatures, and other formwork */
+table.milestone{
+    margin-left:auto; 
+    margin-right:auto;
+    font-size: 16px;
+	line-height: 30px;
+	text-indent: 0px;
+	letter-spacing: 0.3px;
+}
+table.fw {
+    margin-left:.2em;
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 0px;
+	letter-spacing: 0.3px;
+	width: 100%;
+}
+/* these td sizes put the formwork on the left and signature in the middle */
+td.mlst1 {
+    width: 45%;
+}
+td.mlst2 {
+    width: 10%;
+}
+td.mlst3 {
+    width: 45%;
+}
+/* For poetry tables */
+td.a {
+    width: 85%;
+}
+
+td.b {
+    text-align: right;
+    width: 15%;
+}
+
+.left {
+    text-align:left;
+}
+.right {
+    text-align: right;
+}
+.center {
+    text-align:center;
+}
+.headBibl {
+    clear:both;
+    text-align: center;
+    text-align: center;
+    font-size: 20px;
+	line-height: 34px;
+	letter-spacing: 0.6px;
+	margin: 0;
+	padding: 0;
+}
+.epigCite {
+	text-align: right;
+}
+table.epigraph { /* for poems */
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 0;
+}
+td.epigLines {
+    font-size: 14px;
+	line-height: 14px;
+	letter-spacing: 0.1px;
+}
+section.epigraph { /* for prose */
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 0;
+    border: none;
+    text-align: left;
+    width: 30em;
+}
+p.epigPara {
+    font-size: 14px;
+	line-height: 14px;
+	letter-spacing: 0.1px;
+	text-indent: 0;
+}
+
+.resetMargin {
+      margin-left:-10em;
+  }
+.mouseover {
+	color: #0000CC
+}
+br {
+    line-height: 30px;
+}
+blockquote {
+    margin-left: 10em;
+}
+ul, ol {
+	list-style-type: none;
+}
+li {
+	list-style-type: none;
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 0px;
+	letter-spacing: 0.3px;
+	margin-bottom: 1em;
+}
+.small {
+    font-size: 12pt;
+}
+.large {
+    font-size: 16pt;
+}
+.largest {
+    font-size: 18pt;
+    }
+.smallest {
+    font-size: 10pt;
+    }
+.italics {
+    font-style: italic;
+}
+figure {
+    text-align: center;
+    font-size: 12pt;
+}
+.smcaps {
+    font-variant: small-caps;
+}
+.sup {
+    vertical-align: super;
+    font-size: 70%;
+}
