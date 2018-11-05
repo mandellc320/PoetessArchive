@@ -324,8 +324,9 @@
 	</teiHeader>
 	<text>
 		<body>
-			<list type="gloss">
+			<div type="biography">
 				<head>People list (Library of Congress Name Authority)</head>
+			<list type="gloss">
 				<item>
 					<term xml:id="Achilles">Achilles&#8212; </term>
 					<gloss>In Greek mythology and <ref target="#Homer">Homer</ref>&apos;s <hi
@@ -7272,6 +7273,7 @@
 						poetry, philosophical treatises, and sermons. [MW] </gloss>
 				</item>
 			</list>
+			</div>
 		</body>
 	</text>
 </TEI>
