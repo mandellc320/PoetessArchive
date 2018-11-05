@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">The Mount Carmel: A Dramatic Sketch from Scripture History</title>
+            <author type="author">By Henry Neele, Esq.</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.dramaD2</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Neele, Henry" date="1798-1828" place="UK">Henry Neele</name>
+                  </author>
+                  <title>The Mount Carmel: A Dramatic Sketch from Scripture History</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">234-241</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>drama</item>
+                  <item>The Mount Carmel: A Dramatic Sketch from Scripture History</item>
+                  <item>Henry Neele, Esq.</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g8" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="drama"
+              xml:id="D2"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="234" xml:id="image289"/>
+            <head>
+               <title type="main">The Mount Carmel: </title>
+               <title type="subordinate">A Dramatic Sketch from Scripture History</title>
+            </head>
+            <head>
+               <name reg="Neele, Henry" date="1798-1828" place="UK">By Henry Neele, Esq.</name>
+            </head>
+            <div type="scene"
+                 xml:id="D2s1"
+                 org="uniform"
+                 sample="complete"
+                 part="N">
+               <head>Scene I</head>
+               <stage>
+                  <p>The High Priest of Baal.<lb/> Elijah, the Prophet.<lb/> Reuben, an
+                     Israelite.<lb/> Miriam, his sister.<lb/> Attendants on Elijah, Priests, Crowd,
+                     &amp;c.</p>
+               </stage>
+               <stage type="set">SCENE — Mount Carmel. TIME — near Sunset.</stage>
+               <sp>
+                  <speaker>REUB.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N"> Nay, sister, do not doubt;</l>
+                     <l part="N"> Our God will manifest his pow'r, and shame </l>
+                     <l part="N">Yon bold idolaters.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>MIR.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">I hope — yet fear,</l>
+                     <l part="N">For they are many, and are mighty, and ——</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>REUB.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">See, see, the High Priest doth approach </l>
+                     <l part="N">the prophet.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HIGH P.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Where is thy God? what eye bath ever gazed</l>
+                     <pb n="235" xml:id="image290"/>
+                     <l part="N">Upon his face, what ear hath heard his voice?</l>
+                     <l part="N">If there be such an one, he loves to dwell</l>
+                     <l part="N">In darkness and obscurity; he fears</l>
+                     <l part="N">To meet the gaze of those who worship him,</l>
+                     <l part="N">And in his proud invisibility</l>
+                     <l part="N">Laughs at their lowly orisons. Not such</l>
+                     <l part="N">Is he whom we adore. Behold him there!</l>
+                  </lg>
+                  <stage type="business">[Pointing to the Sun.</stage>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Baal, the great, the bright, the wonderful —</l>
+                     <l part="N">See how he traverses the boundless heav'n,</l>
+                     <l part="N">The azure palace of his sov'reignty;</l>
+                     <l part="N">Answering our pray'rs with treasures of rich light,</l>
+                     <l part="N">Bidding the world, on which we dwell, bring forth</l>
+                     <l part="N">Herbs, fruits, and flowers, to gladden and support</l>
+                     <l part="N">His worshippers. From morn to eve, his eye</l>
+                     <l part="N">With an untiring love is fixed on us,</l>
+                     <l part="N">And when our feeble senses seek repose</l>
+                     <l part="N">Then doth he kindly veil his burning beams,</l>
+                     <l part="N">And bid his silver regent bathe our lids</l>
+                     <l part="N">In a pure flood of milder — gentler light,</l>
+                     <l part="N">While sweet dreams glad our spirits, or deep sleep</l>
+                     <l part="N">Rocks them to rest unbroken.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>MIR.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Look, my brother —</l>
+                     <l part="N">Reuben, it is indeed a glorious orb!</l>
+                     <l part="N">How like a God he walks the fields of heav'n,</l>
+                     <l part="N">Brother, I fear that he whom we adore</l>
+                     <l part="N">Is not so great as he.</l>
+                  </lg>
+               </sp>
+               <pb n="236" xml:id="image291"/>
+               <sp>
+                  <speaker>REUB.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Peace, doubting girl,</l>
+                     <l part="N">The holy prophet speaks.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ELIJAH.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Fond impious man</l>
+                     <l part="N">My God is every where — is seen and heard</l>
+                     <l part="N">In all created things. I see his pow'r</l>
+                     <l part="N">And majesty in that resplendent orb</l>
+                     <l part="N">The work of his own hand, which ye adore</l>
+                     <l part="N">In ignorance and sin; on which I gaze</l>
+                     <l part="N">With wonder and with humble thankfulness.</l>
+                     <l part="N">I see his wrath and terror in the blind</l>
+                     <l part="N">Cold unbelief which he permits to seal</l>
+                     <l part="N">Your senses and your hearts; and I shall soon</l>
+                     <l part="N">Behold his goodness and his love to those,</l>
+                     <l part="N">Who keep their faith unspotted and unchanged,</l>
+                     <l part="N">When, at my pray'r, his fire from heav'n shall kindle</l>
+                     <l part="N">The off'ring which I place upon his shrine.</l>
+                     <l part="N">But wherefore linger ye? Did ye not say</l>
+                     <l part="N">That ye and I should each unto our Gods</l>
+                     <l part="N">Raise altars and bring off'rings; and whose God</l>
+                     <l part="N">Answer'd by fire and from heav'n, should be acknowledg'd</l>
+                     <l part="N">The Lord above all Lords, and God indeed?</l>
+                     <l part="N">Have you not call'd upon your God since noon</l>
+                     <l part="N">And has he answer'd? Is not his bright orb</l>
+                     <l part="N">Fast sinking in the west, and will he not</l>
+                     <l part="N">Soon beam his last farewell? 'Tis now my turn</l>
+                     <l part="N">To try the pow'r and goodness of the God</l>
+                     <l part="N">Whom I adore.</l>
+                  </lg>
+               </sp>
+               <pb n="237" xml:id="image292"/>
+               <sp>
+                  <speaker>HIGH P.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N"> Not yet, for Baal is angry,</l>
+                     <l part="N">At our imperfect rites, and he requires </l>
+                     <l part="N">To be again invok'd.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>CROWD.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Baal requires</l>
+                     <l part="N">To be again invok'd.</l>
+                  </lg>
+                  <stage type="business">[Here the priests of Baal range themselves in a circle
+                     round his altar, and chant the following incantation, dancing round the altar
+                     at the end of each stanza, and cutting themselves with knives and lancets as
+                     they chant the last.</stage>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">From thy bright throne bow thine ear,</l>
+                     <l part="N">Baal, Baal, hear us, hear!</l>
+                     <l part="N">Thou who mak'st the rosy day,</l>
+                     <l part="N">Thou who lend'st the lunar ray,</l>
+                     <l part="N">Thou at whom the stars grow pale,</l>
+                     <l part="N">Thou who gildest mount and vale,</l>
+                     <l part="N">From thy bright throne, bow thine ear,</l>
+                     <l part="N">Baal, Baal, hear us, hear!</l>
+                  </lg>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Thou to whom the highest heav'n</l>
+                     <l part="N">For thy throne of pow'r is giv'n;</l>
+                     <l part="N">Thou who mak'st the mighty sea,</l>
+                     <l part="N">The mirror of thy brightness be;</l>
+                     <l part="N">Thou who bidd'st th' else barren earth</l>
+                     <l part="N">Give wealth, and food, and beauty birth;</l>
+                     <l part="N">From they bright throne bow thine ear,</l>
+                     <l part="N">Baal, Baal, hear us, hear!</l>
+                  </lg>
+                  <pb n="238" xml:id="image293"/>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Now thy altar we array;</l>
+                     <l part="N">Now the sacrifice we slay,</l>
+                     <l part="N">Now his bleeding limbs recline,</l>
+                     <l part="N">Offerings on thy hallow'd shrine;</l>
+                     <l part="N">Now with lancet and with knife</l>
+                     <l part="N">We ope our own warm tides of life;</l>
+                     <l part="N">From they bright throne, bow thine ear,</l>
+                     <l part="N">Baal, Baal, hear us, hear!</l>
+                  </lg>
+                  <stage type="setting">[During this invocation, the sun gradually declines, and
+                     sinks beneath the horizon.</stage>
+               </sp>
+               <sp>
+                  <speaker>HIGH P.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Woe! woe! woe!</l>
+                     <l part="N"> Leave us not, Baal, leave us not unanswered —</l>
+                     <l part="N">Unanswered, and in darkness.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>CROWD.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Woe! woe! woe!</l>
+                     <l part="N">Leave us not, Baal.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ELIJAH.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N"> Aye! howl on, howl on,</l>
+                     <l part="N">The And call upon your God. Will he not answer?</l>
+                     <l part="N">Sleeps he, or is he weary, or departed </l>
+                     <l part="N">On some far journey that he hears you not? </l>
+                     <l part="N">Are ye not here, four hundred priests of Baal,</l>
+                     <l part="N">And yet your many voices cannot pierce</l>
+                     <l part="N">His dull cold ear; — how therefore can I hope,</l>
+                     <l part="N">Jehovah's one poor prophet, that with these</l>
+                     <l part="N">My few attendants, I can make him bow</l>
+                     <l part="N">His ear to my complaints. Yet I'll essay it.</l>
+                     <pb n="239" xml:id="image294"/>
+                     <l part="N">Now do ye <stage type="business">[To his attendants]</stage> what I bid
+                        perform, and answer</l>
+                     <l part="N">The questions I propound.</l>
+                     <l part="N">Let twelve stones, the numbers tell</l>
+                     <l part="N">Of the tribes of Israel;</l>
+                     <l part="N">Build with them an altar straight</l>
+                     <l part="N">To our God, the good, the great;</l>
+                     <l part="N">Quickly answer every one;</l>
+                     <l part="N">Is it done?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ATTEN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">'Tis done, 'tis done.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ELIJAH.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Dig a trench the altar round;</l>
+                     <l part="N">On the altar be there found</l>
+                     <l part="N">Piles of wood; the bullock slay —</l>
+                     <l part="N">And on the wood his carcase lay,</l>
+                     <l part="N">In bleeding fragments, one by one;</l>
+                     <l part="N">Is it done?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ATTEN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">'Tis done, 'tis done.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ELIJAH.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Fill four barrels from the rill</l>
+                     <l part="N">That streams down Carmel's holy hill;</l>
+                     <l part="N">Pour the water once, twice, thrice,</l>
+                     <l part="N">On the wood and sacrifice,</l>
+                     <l part="N">'Till the trenches overrun;</l>
+                     <l part="N">Is it done?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ATTEN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">'Tis done, 'tis done.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ELIJAH.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Then now, most righteous God, what wait we for!</l>
+                     <l part="N">In humbleness, and reverence have we set</l>
+                     <pb n="240" xml:id="image295"/>
+                     <l part="N">Our offerings on thy altar. Oh! send down</l>
+                     <l part="N">Thy fire from heaven to kindle and accept them,</l>
+                     <l part="N">So shall thy inward fire shine in the hearts</l>
+                     <l part="N">Of Israel (gone astray, lost in the night</l>
+                     <l part="N">Of dark idolatry), and they shall know</l>
+                     <l part="N">That thou art Lord of Lords, the God of heaven.</l>
+                  </lg>
+               </sp>
+               <stage type="setting">[The whole scene becomes suddenly illuminated, and a flame,
+                  descending on the altar, consumes the sacrifice, and dries up the water in the
+                  trenches.</stage>
+               <sp>
+                  <speaker>MIR.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Wonderful — wonderful! Jehovah, thou</l>
+                     <l part="N">Art God indeed: thou art the Lord of Lords!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>CROWD.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N"> Sing, sing Jehovah's praise, for he is God;</l>
+                     <l part="N">He is the Lord of Lords, who reigns in heaven!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>REUB.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">See, see, heaven opens, and the sacred fire</l>
+                     <l part="N">Consumes the offering; it is as though</l>
+                     <l part="N">God stretched his own right arm down to the earth</l>
+                     <l part="N">To accept the service of his worshippers.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ELIJAH.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">The trenches are dried up. The fire returns</l>
+                     <l part="N">Into its native heaven. That last read streak</l>
+                     <l part="N">Just glimmers faintly in the west — and now</l>
+                     <l part="N">'Tis gone — 'tis past — and hark! that fearful peal!</l>
+                  </lg>
+                  <stage type="setting">[Thunder is heard.</stage>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">It is Jehovah speaks, answer him. Say</l>
+                     <l part="N">"Thou—thou—art Lord of Lords, the God of heaven."</l>
+                  </lg>
+               </sp>
+               <pb n="241" xml:id="image296"/>
+               <sp>
+                  <speaker>MIR.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N"> Wonderful — wonderful! Jehovah thou</l>
+                     <l part="N">Art God indeed: thou art the Lord of Lords! </l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>CROWD.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Sing, sing Jehovah's praise for he is God:</l>
+                     <l part="N">He is the Lord of Lords who reigns in heaven!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HIGH P.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Away! Away! The Evil One prevails,</l>
+                     <l part="N">The foe of Baal.</l>
+                  </lg>
+               </sp>
+               <stage type="exit">[Elijah and the crowd kneel before the altar. The Priests of Baal
+                  rush out tumultuously. The scene closes.</stage>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

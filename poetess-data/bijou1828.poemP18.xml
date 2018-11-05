@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">Scotland: an Ode, Written after the King's Visit to that Country</title>
+            <author type="author">By Robert Southey, Esq. Poet Laureat</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.poemP18</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Southey, Robert" date="1774-1843" place="UK">Robert Southey</name>
+                  </author>
+                  <title>Scotland: an Ode, Written after the King's Visit to that Country</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">81-88</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>poem</item>
+                  <item>Scotland: an Ode, Written after the King's Visit to that Country</item>
+                  <item>Robert Southey, Esq. Poet Laureat</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g6" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="poem"
+              xml:id="P18"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="81" xml:id="image114"/>
+            <head>
+               <title type="main">Scotland: </title>
+               <title type="subordinate">an Ode, Written after the King's Visit to that
+                  Country</title>
+            </head>
+            <head>
+               <name reg="Southey, Robert" date="1774-1843" place="UK">By Robert Southey, Esq. Poet
+                  Laureat</name>
+            </head>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">1.</l>
+               <l rend="indent1" part="N">AT length hath Scotland seen</l>
+               <l rend="indent1" part="N">The presence long desired;</l>
+               <l rend="indent1" part="N">The pomp of royalty</l>
+               <l rend="indent1" part="N">Hath gladdened once again</l>
+               <l rend="indent1" part="N">Her ancient palace, desolate how long!</l>
+               <l rend="indent1" part="N">From all parts far and near,</l>
+               <l rend="indent1" part="N">Highland and lowland, glen and fertile carse,</l>
+               <l rend="indent1" part="N">The silent mountain lake, the busy port,</l>
+               <l rend="indent1" part="N">Her populous cities and her pastoral hills,</l>
+               <l rend="indent1" part="N">In generous joy convened</l>
+               <l rend="indent1" part="N">By the free impulse of the loyal heart</l>
+               <l rend="indent1" part="N">Her sons have gathered, and beheld their King.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">2.</l>
+               <l rend="indent1" part="N">Land of the loyal, as in happy hour</l>
+               <l rend="indent1" part="N">Revisited, so was thy regal seat</l>
+               <l rend="indent1" part="N">In happy hour for thee</l>
+               <l rend="indent1" part="N">Forsaken, under favouring stars, when James</l>
+               <pb n="82" xml:id="image115"/>
+               <l rend="indent1" part="N">His valediction gave,</l>
+               <l rend="indent1" part="N">And great Eliza's throne</l>
+               <l rend="indent1" part="N">Received its rightful heir,</l>
+               <l rend="indent1" part="N">The Peaceful and the Just.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">3.</l>
+               <l rend="indent1" part="N">A more auspicious union never Earth</l>
+               <l rend="indent1" part="N">From eldest days had seen,</l>
+               <l rend="indent1" part="N">Than when, their mutual wrongs forgiven,</l>
+               <l rend="indent1" part="N">And gallant enmity renounced</l>
+               <l rend="indent1" part="N">With honour, as in honour fostered long,</l>
+               <l rend="indent1" part="N">The ancient kingdoms formed</l>
+               <l rend="indent1" part="N">Their everlasting league.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">4.</l>
+               <l rend="indent1" part="N">Slowly by time matured</l>
+               <l rend="indent1" part="N">A happier order then for Scotland rose;</l>
+               <l rend="indent1" part="N">And where inhuman force,</l>
+               <l rend="indent1" part="N">And rapine unrestrained</l>
+               <l rend="indent1" part="N">Had lorded o'er the land,</l>
+               <l rend="indent1" part="N">Peace came, and polity,</l>
+               <l rend="indent1" part="N">And quiet industry, and frugal wealth;</l>
+               <l rend="indent1" part="N">And there the household virtues fixed</l>
+               <l rend="indent1" part="N">Their sojourn undisturbed.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">5.</l>
+               <l rend="indent1" part="N">Such blessings for her dowry Scotland drew</l>
+               <l rend="indent1" part="N">From that benignant union; nor less large</l>
+               <l rend="indent1" part="N">The portion that she brought.</l>
+               <pb n="83" xml:id="image116"/>
+               <l rend="indent1" part="N">She brought security and strength,</l>
+               <l rend="indent1" part="N">True hearts, and strenuous hands, and noble minds.</l>
+               <l rend="indent1" part="N">Say Ocean, from the shores of Camperdown,</l>
+               <l rend="indent1" part="N">What Caledonia brought! Say thou,</l>
+               <l rend="indent1" part="N">Egypt! Let India tell!</l>
+               <l rend="indent1" part="N">And let tell Victory</l>
+               <l rend="indent1" part="N">From her Brabantine field,</l>
+               <l rend="indent1" part="N">The proudest field of fame!</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">6.</l>
+               <l rend="indent1" part="N">Speak ye too, works of peace;</l>
+               <l rend="indent1" part="N">For ye too have a voice</l>
+               <l rend="indent1" part="N">Which shall be heard by ages! The proud bridge,</l>
+               <l rend="indent1" part="N">Through whose broad arches, worthy of their name</l>
+               <l rend="indent1" part="N">And place, his rising and his refluent tide</l>
+               <l rend="indent1" part="N">Majestic Thames, the royal river rolls!</l>
+               <l rend="indent1" part="N">And that which high in air,</l>
+               <l rend="indent1" part="N">A bending line suspended, shall o'erhang</l>
+               <l rend="indent1" part="N">Menai's straits, as if</l>
+               <l rend="indent1" part="N">By Merlin's mighty magic there sustain'd!</l>
+               <l rend="indent1" part="N">And Pont-Cyssylte, not less wonderous work;</l>
+               <l rend="indent1" part="N">Where on gigantic columns raised</l>
+               <l rend="indent1" part="N">Aloft, a dizzying height,</l>
+               <l rend="indent1" part="N">The laden barge pursues its even way,</l>
+               <l rend="indent1" part="N">While o'er his rocky channel the dark Dee</l>
+               <l rend="indent1" part="N">Hurries below, a raging stream, scarce heard!</l>
+               <l rend="indent1" part="N">And that huge mole, whose deep foundations, firm</l>
+               <l rend="indent1" part="N">As if by Nature laid,</l>
+               <pb n="84" xml:id="image117"/>
+               <l rend="indent1" part="N">Repel the assailing billows, and protect</l>
+               <l rend="indent1" part="N">The British fleet, securely riding there,</l>
+               <l rend="indent1" part="N">Though southern storms possess the sea and sky,</l>
+               <l rend="indent1" part="N">And from its depths commoved,</l>
+               <l rend="indent1" part="N">Infuriate ocean raves.</l>
+               <l rend="indent1" part="N">Ye stately monuments of Britain's power,</l>
+               <l rend="indent1" part="N">Bear record ye what Scottish minds</l>
+               <l rend="indent1" part="N">Have planned and perfected!</l>
+               <l rend="indent1" part="N">With grateful wonder shall posterity</l>
+               <l rend="indent1" part="N">See the stupendous works, and Rennie's name,</l>
+               <l rend="indent1" part="N">And Telford's shall survive, till time</l>
+               <l rend="indent1" part="N">Leave not a wreck of sublunary things..</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">7.</l>
+               <l rend="indent1" part="N">Him too may I attest for Scotland's praise,</l>
+               <l rend="indent1" part="N">Who seized and wielded first</l>
+               <l rend="indent1" part="N">The mightiest element</l>
+               <l rend="indent1" part="N">That lies within the scope of man's control;</l>
+               <l rend="indent1" part="N">Of evil and of good,</l>
+               <l rend="indent1" part="N">Prolific spring, and dimly yet discern'd</l>
+               <l rend="indent1" part="N">The immeasurable results.</l>
+               <l rend="indent1" part="N">The mariner no longer seeks</l>
+               <l rend="indent1" part="N">Wings from the wind; creating now the power</l>
+               <l rend="indent1" part="N">Wherewith he wins his way,</l>
+               <l rend="indent1" part="N">Right on, across the ocean-flood, he steers</l>
+               <l rend="indent1" part="N">Against opposing skies;</l>
+               <l rend="indent1" part="N">And reaching now the inmost continent,</l>
+               <l rend="indent1" part="N">Up rapid streams, innavigable else,</l>
+               <l rend="indent1" part="N">Ascends with steady progress, self-propell'd.</l>
+            </lg>
+            <lb/>
+            <pb n="85" xml:id="image118"/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">8.</l>
+               <l rend="indent1" part="N">Nor hath the sister kingdon borne</l>
+               <l rend="indent1" part="N">In science and in arms</l>
+               <l rend="indent1" part="N">Alone, her noble part;</l>
+               <l rend="indent1" part="N">There is an empire which survives</l>
+               <l rend="indent1" part="N">The wreck of thrones, the overthrow of realms,</l>
+               <l rend="indent1" part="N">The downfall, and decay, and death</l>
+               <l rend="indent1" part="N">Of nations. Such an empire in the mind</l>
+               <l rend="indent1" part="N">Of intellectual man</l>
+               <l rend="indent1" part="N">Rome yet maintains, and elder Greece; and such</l>
+               <l rend="indent1" part="N">By indefeasable right</l>
+               <l rend="indent1" part="N">Hath Britain made her own.</l>
+               <l rend="indent1" part="N">How fair a part doth Caledonia claim</l>
+               <l rend="indent1" part="N">In that fair conquest! Whereso'er</l>
+               <l rend="indent1" part="N">The British tongue may spread,</l>
+               <l rend="indent1" part="N">(A goodly tree, whose leaf</l>
+               <l rend="indent1" part="N">No winter e'er shall nip;)</l>
+               <l rend="indent1" part="N">Earthly immortals, there, her sons of fame,</l>
+               <l rend="indent1" part="N">Will have their heritage;</l>
+               <l rend="indent1" part="N">In eastern and in occidental Ind;</l>
+               <l rend="indent1" part="N">The new antarctic world, where sable swans</l>
+               <l rend="indent1" part="N">Glide upon waters, call'd by British names,</l>
+               <l rend="indent1" part="N">And plough'd by British keels;</l>
+               <l rend="indent1" part="N">In vast America, through all its length</l>
+               <l rend="indent1" part="N">And breadth, from Massachusett's populous coast</l>
+               <l rend="indent1" part="N">To western Oregan;</l>
+               <pb n="86" xml:id="image119"/>
+               <l rend="indent1" part="N">And from the southern gulph,</l>
+               <l rend="indent1" part="N">Where the great river with his turbid flood</l>
+               <l rend="indent1" part="N">Stains the green ocean, to the polar sea.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">9.</l>
+               <l rend="indent1" part="N">There nations yet unborn shall trace</l>
+               <l rend="indent1" part="N">In Hume's perspicuous page,</l>
+               <l rend="indent1" part="N">How Britain rose, and through what storms attain'd</l>
+               <l rend="indent1" part="N">Her eminence of power.</l>
+               <l rend="indent1" part="N">In other climates, youths and maidens there</l>
+               <l rend="indent1" part="N">Shall learn from Thomson's verse in what attire</l>
+               <l rend="indent1" part="N">The various seasons, bringing in their change</l>
+               <l rend="indent1" part="N">Variety of good,</l>
+               <l rend="indent1" part="N">Revisit their beloved English ground.</l>
+               <l rend="indent1" part="N">There Beattie! in thy sweet and soothing strain</l>
+               <l rend="indent1" part="N">Shall youthful poets read</l>
+               <l rend="indent1" part="N">Their own emotions. There too, old and young,</l>
+               <l rend="indent1" part="N">Gentle and simple, by Sir Walter's tales</l>
+               <l rend="indent1" part="N">Spell-bound, shall feel</l>
+               <l rend="indent1" part="N">Imaginary hopes and fears</l>
+               <l rend="indent1" part="N">Strong as realities,</l>
+               <l rend="indent1" part="N">And waking from the dream, regret its close.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">10.</l>
+               <l rend="indent1" part="N">These Scotland are thy glories; and thy praise</l>
+               <l rend="indent1" part="N">Is England's, even as her power</l>
+               <l rend="indent1" part="N">And opulence of fame are thine.</l>
+               <pb n="87" xml:id="image120"/>
+               <l rend="indent1" part="N">So hath our happy union made</l>
+               <l rend="indent1" part="N">Each in the other's weal participant,</l>
+               <l rend="indent1" part="N">Enriching, strengthening, glorifying both.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">11.</l>
+               <l rend="indent1" part="N">O House of Stuart, to thy memory still</l>
+               <l rend="indent1" part="N">For this best Senefit</l>
+               <l rend="indent1" part="N">Should British hearts in gratitude be bound!</l>
+               <l rend="indent1" part="N">A deeper tragedy</l>
+               <l rend="indent1" part="N">Than thine unhappy tale hath never fill'd</l>
+               <l rend="indent1" part="N">The historic page, nor given</l>
+               <l rend="indent1" part="N">Poet or moralist his mournful theme!</l>
+               <l rend="indent1" part="N">O House severely tried,</l>
+               <l rend="indent1" part="N">And in prosperity alone</l>
+               <l rend="indent1" part="N">Found wanting, Time hath closed</l>
+               <l rend="indent1" part="N">Thy tragic story now!</l>
+               <l rend="indent1" part="N">Errors and virtues fatally betrayed,</l>
+               <l rend="indent1" part="N">Magnanimous suffering, vice,</l>
+               <l rend="indent1" part="N">Weakness, and head-strong zeal, sincere tho'blind,</l>
+               <l rend="indent1" part="N">Wrongs, calumnies, heart-wounds,</l>
+               <l rend="indent1" part="N">Religious resignation, earthly hopes</l>
+               <l rend="indent1" part="N">Fears and affections, these have had their course,</l>
+               <l rend="indent1" part="N">And over them in peace</l>
+               <l rend="indent1" part="N">The all-engulphing stream of years hath closed.</l>
+               <l rend="indent1" part="N">But this good work endures,</l>
+               <l rend="indent1" part="N">'Stablish'd and perfected by length of days,</l>
+               <l rend="indent1" part="N">The indissoluble union stands.</l>
+            </lg>
+            <lb/>
+            <pb n="88" xml:id="image121"/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">12.</l>
+               <l rend="indent1" part="N">Nor hath the sceptre from that line</l>
+               <l rend="indent1" part="N">Departed, though the name hath lost</l>
+               <l rend="indent1" part="N">Its regal honours. Trunk and root have failed:</l>
+               <l rend="indent1" part="N">A scion from the stock</l>
+               <l rend="indent1" part="N">Liveth and flourisheth. It is the Tree</l>
+               <l rend="indent1" part="N">Beneath whose sacred shade,</l>
+               <l rend="indent1" part="N">In majesty and peaceful power serene,</l>
+               <l rend="indent1" part="N">The Island Queen of Ocean hath her seat;</l>
+               <l rend="indent1" part="N">Whose branches far and near</l>
+               <l rend="indent1" part="N">Extend their sure protection; whose strong roots</l>
+               <l rend="indent1" part="N">Are with the isle's foundations interknit;</l>
+               <l rend="indent1" part="N">Whose stately summit when the storm careers</l>
+               <l rend="indent1" part="N">Below, abides unmoved,</l>
+               <l rend="indent1" part="N">Safe in the sunshine and the peace of Heaven!</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

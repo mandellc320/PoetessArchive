@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">Song</title>
+            <author type="author">By T.K. Hervey, Esq.</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.poemP14</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Hervey, Thomas Kibble" date="1799-1859" place="UK">Thomas Kibble Hervey</name>
+                  </author>
+                  <title>Song</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">76</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>poem</item>
+                  <item>Song</item>
+                  <item>T.K. Hervey, Esq.</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g6" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="poem"
+              xml:id="P14"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="76" xml:id="image101"/>
+            <head>
+               <title>Song</title>
+            </head>
+            <head>
+               <name reg="Hervey, Thomas Kibble" date="1799-1859" place="UK">By T.K. Hervey,
+                  Esq.</name>
+            </head>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">COME, touch the harp, my gentle one!</l>
+               <l rend="indent1" part="N">And let the notes be sad and low,</l>
+               <l rend="indent1" part="N">Such as may breathe, in every tone,</l>
+               <l rend="indent1" part="N">The soul of long ago!</l>
+               <l rend="indent1" part="N">That smile of thine is all too bright</l>
+               <l rend="indent1" part="N">For aching hearts, and lovely years,</l>
+               <l rend="indent1" part="N">And, dearly as I love its light,</l>
+               <l rend="indent1" part="N">To- day I would have tears!</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">Yet weep not thus, my gentle girl!</l>
+               <l rend="indent1" part="N">No smile of thine has lost its spells;</l>
+               <l rend="indent1" part="N">By heaven! I love thy lightest curl,</l>
+               <l rend="indent1" part="N">Oh! more than fondly well!</l>
+               <l rend="indent1" part="N">Then touch the lyre, and let it wile</l>
+               <l rend="indent1" part="N">All thought of grief and gloom away,</l>
+               <l rend="indent1" part="N">While thou art by, with harp and smile,</l>
+               <l rend="indent1" part="N">I will not weep, to- day!</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

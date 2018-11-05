@@ -34,7 +34,7 @@
 		<xsl:variable name="filename">
 			<xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno"/>
 		</xsl:variable>
-		<xsl:variable name="title" select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']"/>
+		<xsl:variable name="mainTitle" select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']"/>
 		<xsl:variable name="subTitle" select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='subordinate']"/>
 		<xsl:variable name="author" select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/>
 		<xsl:result-document href="../HTML/{$filename}.html">
@@ -45,14 +45,14 @@
 							<xsl:attribute name="content">
 							<xsl:choose>
 								<xsl:when test="$subTitle">
-									<xsl:value-of select="$title"/>
+									<xsl:value-of select="$mainTitle"/>
 									<xsl:text> in </xsl:text>
 									<xsl:value-of select="$subTitle"/>
 									<xsl:text> by </xsl:text>
 									<xsl:value-of select="$author"/>
 								</xsl:when>
 								<xsl:otherwise>
-									<xsl:value-of select="$title"/>
+									<xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
 									<xsl:text> by </xsl:text>
 									<xsl:value-of select="$author"/>
 								</xsl:otherwise>
@@ -67,14 +67,14 @@
 						<!--This HTML document has been generated from a TEI Master: do not edit.-->
 						<title><xsl:choose>
 							<xsl:when test="$subTitle">
-								<xsl:value-of select="$title"/>
+								<xsl:value-of select="$mainTitle"/>
 								<xsl:text> in </xsl:text>
 								<xsl:value-of select="$subTitle"/>
 								<xsl:text> by </xsl:text>
 								<xsl:value-of select="$author"/>
 							</xsl:when>
 							<xsl:otherwise>
-								<xsl:value-of select="$title"/>
+								<xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
 								<xsl:text> by </xsl:text>
 								<xsl:value-of select="$author"/>
 							</xsl:otherwise>
@@ -83,65 +83,11 @@
 						<link rel="stylesheet" type="text/css" href="{$stylesheet}"/>
 						<!-- Fonts -->
 						<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet" />
+						<script src="https://hypothes.is/embed.js" async=""></script>
 				</head>
 				<body>
 					<xsl:apply-templates select="tei:text"/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
+					<section class="noteSpace"/>
 				</body>
 			</html>
 		</xsl:result-document>
@@ -474,7 +420,10 @@
 	</xsl:template>
 	
 	<xsl:template match="tei:term">
-		<dt><xsl:apply-templates/></dt>
+		<dt>
+			<xsl:attribute name="id" select="@xml:id"/>
+				<xsl:apply-templates/>
+		</dt>
 	</xsl:template>
 	
 	<xsl:template match="tei:gloss">
@@ -491,7 +440,7 @@
 				<blockquote>
 					<p class="pnoindent"><xsl:apply-templates/></p>
 				</blockquote>
-				<p class="pagenumber">
+				<p class="pageNumber">
 					<xsl:text>[Page </xsl:text>
 					<xsl:value-of select="@n"/>
 					<xsl:text>]</xsl:text>
@@ -503,7 +452,7 @@
 						<blockquote>
 							<p class="pnoindent"><xsl:apply-templates/></p>
 						</blockquote>
-						<p class="pagenumber">
+						<p class="pageNumber">
 							<xsl:text>[Page </xsl:text>
 							<xsl:value-of select="@n"/>
 							<xsl:text>]</xsl:text>
@@ -516,7 +465,7 @@
 					<xsl:when test="parent::tei:p/parent::tei:quote">
 				<xsl:text disable-output-escaping="yes"><![CDATA[</p></blockquote>]]></xsl:text>
 				<hr />
-				<p class="pagenumber">
+				<p class="pageNumber">
 						<xsl:text>[Page </xsl:text>
 						<xsl:value-of select="@n"/>
 						<xsl:text>]</xsl:text>
@@ -526,7 +475,7 @@
 						<xsl:otherwise>
 							<xsl:text disable-output-escaping="yes"><![CDATA[</p>]]></xsl:text>
 							<hr />
-							<p class="pagenumber">
+							<p class="pageNumber">
 								<xsl:text>[Page </xsl:text>
 								<xsl:value-of select="@n"/>
 								<xsl:text>]</xsl:text>
@@ -538,7 +487,7 @@
 			<xsl:when test="parent::tei:lg/parent::tei:quote">
 				<xsl:text disable-output-escaping="yes"><![CDATA[</table></blockquote>]]></xsl:text>
 				<hr />
-				<p class="pagenumber">
+				<p class="pageNumber">
 					<xsl:text>[Page </xsl:text>
 					<xsl:value-of select="@n"/>
 					<xsl:text>]</xsl:text>

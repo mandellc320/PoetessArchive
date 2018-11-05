@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" level="a">Review of The Rival Mothers by Madame de Genlis</title>
+				<title type="subordinate" level="j">The Monthly Review</title>
+				<author type="writer">
+					<name>Elizabeth Moody</name>
+				</author>
+				<respStmt>
+					<resp>Editor</resp>
+					<name xml:id="MW">Mary A. Waters</name>
+				</respStmt>
+				<respStmt>
+					<resp>Coeditor</resp>
+					<name xml:id="EW">Emma Wiley</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<idno>MoodyRevRivalMothers1801</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title type="main" level="a">Art. XIII. The Rival Mothers, or Calumny.
+							Translated from the French of Madame de Genlis.</title>
+						<author type="writer">Moody, Elizabeth, (1737-1814)</author>
+					</analytic>
+					<monogr>
+						<title type="main" level="j">The Monthly Review</title>
+						<imprint>
+							<date when="1801-10">October 1801</date>
+							<biblScope unit="vol">36</biblScope>
+							<biblScope unit="page">186-88</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “, " for ”, '
+						for ‘, and ' for ’.</p>
+					<p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard</p>
+					<p>Em-dashes have been rendered as &#8212;</p>
+				</hyphenation>
+				<normalization method="markup">
+					<p>Spelling has not been regularized.</p>
+					<p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+					<p>Compositors' catchwords and running titles have been silently eliminated.</p>
+					<p>Long "s" (&#383;) has been silently modernized.</p>
+				</normalization>
+				<normalization>
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>£ has been used for £, the pound sign</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+				</normalization>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy
+					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+					xml:id="g">
+					<bibl>ARC Genre Categories, July 1, 2017</bibl>
+					<category xml:id="g1">
+						<catDesc>Advertisement</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>Animation</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>Bibliography</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>Catalog</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>Chronology</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>Citation</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>Correspondence</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>Criticism</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>Drama</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>Ephemera</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>Essay</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>Fiction</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>Film, Documentary</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>Film, Experimental</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>Film, Narrative</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>Film, Other</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>Historiography</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>Interview</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>Life Writing</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>Liturgy</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>Musical Analysis</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>Music, Other</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>Musical Work</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>Musical Score</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>Nonficition</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>Paratext</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>Performance</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>Philosophy</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>Photograph</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>Political Statement</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>Poetry</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>Religion</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>Reference Works</catDesc>
+					</category>
+					<category xml:id="g35">
+						<catDesc>Review</catDesc>
+					</category>
+					<category xml:id="g36">
+						<catDesc>Scripture</catDesc>
+					</category>
+					<category xml:id="g37">
+						<catDesc>Sermon</catDesc>
+					</category>
+					<category xml:id="g38">
+						<catDesc>Speech</catDesc>
+					</category>
+					<category xml:id="g39">
+						<catDesc>Translation</catDesc>
+					</category>
+					<category xml:id="g40">
+						<catDesc>Travel Writing</catDesc>
+					</category>
+					<category xml:id="g41">
+						<catDesc>Unspecified</catDesc>
+					</category>
+					<category xml:id="g42">
+						<catDesc>Visual Art</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+					xml:id="f">
+					<bibl>ARC Format Categories, July 1, 2017</bibl>
+					<category xml:id="f1">
+						<catDesc>Codex</catDesc>
+					</category>
+					<category xml:id="f2">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="f3">
+						<catDesc>Dataset</catDesc>
+					</category>
+					<category xml:id="f4">
+						<catDesc>Drawing</catDesc>
+					</category>
+					<category xml:id="f5">
+						<catDesc>Illustration</catDesc>
+					</category>
+					<category xml:id="f6">
+						<catDesc>Interactive Resource</catDesc>
+					</category>
+					<category xml:id="f7">
+						<catDesc>Manuscript</catDesc>
+					</category>
+					<category xml:id="f8">
+						<catDesc>Map</catDesc>
+					</category>
+					<category xml:id="f9">
+						<catDesc>Moving Image</catDesc>
+					</category>
+					<category xml:id="f10">
+						<catDesc>Notated Music</catDesc>
+					</category>
+					<category xml:id="f11">
+						<catDesc>Page Proofs</catDesc>
+					</category>
+					<category xml:id="f12">
+						<catDesc>Pamphlet</catDesc>
+					</category>
+					<category xml:id="f13">
+						<catDesc>Periodical</catDesc>
+					</category>
+					<category xml:id="f14">
+						<catDesc>Physcial Object</catDesc>
+					</category>
+					<category xml:id="f15">
+						<catDesc>Roll</catDesc>
+					</category>
+					<category xml:id="f16">
+						<catDesc>Sheet</catDesc>
+					</category>
+					<category xml:id="f17">
+						<catDesc>Sound</catDesc>
+					</category>
+					<category xml:id="f18">
+						<catDesc>Still Image</catDesc>
+					</category>
+					<category xml:id="f19">
+						<catDesc>Typescript</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="#lcsh">
+					<list type="simple">
+						<item>Criticism</item>
+						<item>Book review</item>
+					</list>
+				</keywords>
+				<catRef target="#g9 #g35" scheme="#g"/>
+				<catRef target="#f13" scheme="#f"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#MW" when="2017-11-02" n="3">
+				<label>Changed by</label>
+				<name>Mary Waters</name>
+				<list>
+					<item>Revise TEI encoding</item>
+				</list>
+			</change>
+			<change who="#EW" when="2017-02-02" n="2">
+				<label>Changed by</label>
+				<name>Emma Wiley</name>
+				<list>
+					<item>TEI encoding</item>
+				</list>
+			</change>
+			<change who="#MW" when="2017-02-02" n="1">
+				<label>Changed by</label>
+				<name>Mary Waters</name>
+				<list>
+					<item>Create Edition</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="essay">
+				<head><bibl><lb rendition="#center"/><author type="writer"><ref
+								target="people.html#MoodyElizabeth"><name>Elizabeth
+								Moody</name></ref></author>
+						<title type="main" level="a"><hi rendition="#smcaps">Art</hi>. XIII.
+									<title><hi rendition="#italics">The Rival Mothers, or
+									Calumny.</hi> Translated from the French of <ref
+									target="people.html#GenlisStephanie">Madame de Genlis</ref>. 4
+								Vols. <hi rendition="#smcaps">12</hi>mo. 18s. sewed. Longman and Co.
+								1801</title>.<hi rendition="#sup"><note place="foot">This review
+									article appeared in <hi rendition="#italics"><title
+											level="j">The Monthly Review</title></hi>, vol. 36, October
+									1801, pp. 187-188. This edition of the article is produced by Emma Wiley and Mary A. Waters.</note></hi></title></bibl></head>
+				<p rendition="#pnoindent"><hi rendition="#largest">T</hi><hi rendition="#smcaps"
+						>he</hi> literary reputation of <ref target="people.html#GenlisStephanie"
+						>Madame de Genlis</ref> is so well established, that the public are readily
+					disposed to anticipate pleasure from every new production of her cultivated
+					mind; and we have satisfaction in acknowledging, after having perused the
+					volumes before us, that disappointment has not superseded expectation. We regret
+					that this ingenious lady should have had reason for complaining of the insidious
+					enemy <hi rendition="#italics">Calumny</hi>: but, if she has been enabled to
+					support its injustice with the fortitude inspired by conscious innocence, (such
+					as she de-<pb n="187"/>scribes to be the recompense of the injured Pauline,) she will not (as
+					a moralist) regret the experience, whatever painful sensations it may have
+					occasioned.</p>
+				<p> The <hi rendition="#italics">Rival Mothers</hi> are two ladies who enter the
+					lists of competition on the subject of maternal affection. If they do not stand
+					on fair and equal ground respecting pretension, since they cannot both be the
+					mother, they meet at least on the point of conduct. Each makes an important
+					sacrifice to the little idol L&#233;ocadie:&#8212; the sacrifice of <hi
+						rendition="#italics">reputation</hi> is offered by one to the preservation
+					of the infant; and that of parental intercourse and endearment is endured by the
+					other, for the <hi rendition="#italics">maintenance of her reputation</hi>. Yet,
+					as the latter incessantly demonstrates, by the frequent testimonials of
+					unremitting superintendence, that her heart never relaxes on the affectionate
+					interests of maternal love and duty, Solomon himself might have been puzzled to
+					decide which was the real parent; while the extravagant personal fondness of
+					Pauline might have contributed to impose on even his sagacity. </p>
+				<p> The narrative of the novel is pleasing and interesting. The characters, indeed,
+					are delineated <hi rendition="#italics">&#224; la fran&#231;aise</hi>; and
+					exceptions consequently arise against a few occasional tints of unnatural
+					colouring; which, by overstepping the modesty of nature, gives too much the
+					semblance of romance to the work, and is not adapted to that species of writing
+					in which, the author tells us, the story is meant as a vehicle to convey the
+					principles of sound and pure morality. We also differ from <ref
+						target="people.html#GenlisStephanie">Madame de Genlis</ref> on the subject
+					of reputation. Her heroine, Pauline, stands chargeable with gross
+					inconsistencies on this head. She is represented as tremblingly alive to general
+					sensibility on the subject of virtue, yet she is apparently indifferent to its
+					appropriate estimation in the opinion of others; and she throws away her good
+					name, &quot;as &apos;twere a careless trifle.&quot;&#8212;She is attacked by the
+					grossest calumny:&#8212;accused of adultery, hypocrisy, and falsehood;&#8212;
+					yet she writes to her friend&#8212;&apos;&apos;<hi rendition="#italics">Do not
+						bewail the loss of my reputation</hi>; <hi rendition="#italics">it is of all
+						the illusions of life, that which I regret the least and despise the
+						most.</hi>&apos; Of what value, then, is the jewel reputation; if such
+					apathy, is to be attached to it?&#8212;By this indifference to character, <ref
+						target="people.html#GenlisStephanie">Madame de Genlis</ref> loses sight of
+					her professedly supreme object, the encouragement and improvement of morals;
+					since the desire of being esteemed by the world, if it ought not to be the <hi
+						rendition="#italics">primum mobile</hi> of our actions, must at least be
+					admitted as a stimulating principle, without which the current of virtue would
+					be liable to stagnate. Though often a charming <hi rendition="#italics">human
+						creature</hi>, this lady is but too apt to degenerate into a <hi
+						rendition="#italics">French court lady;</hi> one moment, we admire her; the
+					next, we despise the formal painted wooden <pb n="188"/>doll. We turn with disgust from the
+					allegoric garden, the romantic machinery, and the theatrical personifications;
+					and we would also gladly erase the many unnatural events that crowd her novel:
+					yet let us remember that French and English <hi rendition="#italics">Nature</hi>
+					differs, and that the author is acquainted only with the former;&#8212; whom we
+					consider as a degenerate goddess. </p>
+				<p> The style of these letters is sprightly and animated, bidding defiance to the
+					foul fiend <hi rendition="#italics">Ennui</hi>.&#8212;The translator of a work
+					of this kind finds it almost impossible to transfuse into another language that
+					spirit and vivacity, with that beautiful and elegant <hi rendition="#italics"
+						>tour de phrase</hi>, which so peculiarly characterize the French writers of
+					eminence; and mere fidelity produces flatness and insipidity. In many passages,
+					however, the present translator is successful in catching a ray of the author’s
+					illuminated pencil; and the version of the ingenious lines with the <hi
+						rendition="#italics">double sens</hi>, found in the oratory, is extremely
+					well executed. </p>
+
+
+			</div>
+		</body>
+	</text>
+</TEI>

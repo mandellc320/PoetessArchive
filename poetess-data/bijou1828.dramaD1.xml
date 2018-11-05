@@ -1,0 +1,1870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">The Night before the Battle of Montiel: A Dramatic Sketch</title>
+            <author type="author">From the Spanish of Don Juan Algalaba</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.dramaD1</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Algalaba, Juan, Don" date="0000-0000" place="Spain">Don Juan Algalaba</name>
+                  </author>
+                  <title>The Night before the Battle of Montiel: A Dramatic Sketch</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">39-64</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>drama</item>
+                  <item>The Night before the Battle of Montiel: A Dramatic Sketch</item>
+                  <item/>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g8" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="drama"
+              xml:id="D1"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="39" xml:id="image064"/>
+            <head>
+               <title type="main">The Night before the Battle of Montiel: </title>
+               <title type="subordinate">A Dramatic Sketch</title>
+            </head>
+            <head>
+               <name reg="Algalaba, Juan, Don" date="0000-0000" place="Spain">From the Spanish of
+                  Don Juan Algalaba</name>
+            </head>
+            <stage>
+               <p>[The battle of Montiel was that which determined the fate of Pedro the Cruel. Just
+                  ten years before it took place he and Edward the Black Prince had utterly defeated
+                  at Nejara Henry (called of Transtamara) Pedro's natural brother, the competitor
+                  for the throne of Castile: But in the interval Pedro's cruelties had alienated the
+                  affection of his subjects, and the murder of his wife Blanche of Bourbon, sister
+                  to the King of France, had stirred up an enemy whom, being deserted by the English
+                  Prince, he had no longer any sufficient means to resist.</p>
+               <p>Pedro's famous mistress, Maria de Padilla, was in the castle of Montiel when the
+                  battle was fought, and after her lover was slain received the body and was
+                  permitted to bury it.</p>
+               <p>The French army was commanded by the illustrous Bertrand du Guesclin — in whose
+                  memoirs the highly picturesque details of the conflict, the subsequent meeting of
+                  the brothers, and the death of Pedro, may be found. Le Begue was the French knight
+                  who stabbed Pedro.]</p>
+            </stage>
+            <div type="scene"
+                 n="1"
+                 xml:id="D1s1"
+                 org="uniform"
+                 sample="complete"
+                 part="N">
+               <head>SCENE I.</head>
+               <stage type="setting">S<hi rend="smcaps">CENE</hi> — The Camp of Henry.</stage>
+               <stage>
+                  <p>ALAIN DE LA HOUSSAYE AND LE BEGUE.</p>
+               </stage>
+               <sp>
+                  <speaker>HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N"> I do remember even on such a sky</l>
+                     <l part="N"> Kind Pedro's banner flaunted, even so calm</l>
+                     <l part="N">And heavy hung yon selfsame royal blazon</l>
+                     <l part="N">Upon the air, as the slow sun went down</l>
+                     <l part="N">The night before Nejara.</l>
+                  </lg>
+               </sp>
+               <pb n="40" xml:id="image065"/>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N">‘Twas in Paris,</l>
+                     <l part="N">I heard the tidings of that filed; — I knew not</l>
+                     <l part="N">That my old friend rode in Prince Henry's host</l>
+                     <l part="N">Else had I not rejoiced.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indend5" part="N">Rejoiced?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent3" part="N">Yes, Alain — —</l>
+                     <l part="N">I had heard many things against Don Pedro,</l>
+                     <l part="N">Yet, truth to speak, it seemed to me foul scorn,</l>
+                     <l part="N">That one whose mother never had been married,</l>
+                     <l part="N">Should put his hand forth — clutching at the crown.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">I hope we'll have no thoughts like these to-morrow.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Not I, the fleurdelys will be i'the van.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">My thoughts shall be upon the Lady Blanche.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent3" part="N"> Aye, well they may — </l>
+                     <l part="N">That bloody Jewess — is it known if she</l>
+                     <l part="N">Be still with Pedro? Follows she the camp?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">They say she doth — but see! Lord Onis comes,</l>
+                     <l part="N">And he can tell us further.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N">The old lord</l>
+                     <l part="N">Walks very solemnly methinks to-night,</l>
+                     <l part="N">His pace is sober as a hooded priest.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Aye, and I'll warrant ye his thoughts more sober,</l>
+                     <l part="N">Than oft lie hid beneath the gown and cowl.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> In the hot hour</l>
+                     <pb n="41" xml:id="image066"/>
+                     <l part="N">The chance is equal! be we French or Spaniard — </l>
+                     <l part="N">But if the day go darkly, and Don Henry</l>
+                     <l part="N">Find on Montiel the fortune of Nejara, — </l>
+                     <l part="N">No ransom for a traitor.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Look upon him!</l>
+                     <l part="N">There sits no selfish fear on Onis' brow;</l>
+                     <l part="N">He is a Spaniard, and we war in Spain.</l>
+                     <l part="N">The rival chiefs are brothers — and the swords</l>
+                     <l part="N">That glow even now in many a strenuous hand</l>
+                     <l part="N">As they receive the polish and the point,</l>
+                     <l part="N">Must gleam ere long before the eyes of kindred.</l>
+                     <l part="N">Where'er may fall the chance of victory,</l>
+                     <l part="N">Yon stream, amidst to-morrow's noontide brightness,</l>
+                     <l part="N">Will be more purple with Castilian blood,</l>
+                     <l part="N">Than now the broad sun sinking paints its face.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">He passes on — he takes no note of us.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">We greet you well, Lord Onis!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ONIS.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Ha! fair Sirs!</l>
+                     <l part="N">I crave your pardon. Whither be ye bound?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Du Guesclin's trumpet hath not sounded yet?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ONIS.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">They are together in the royal tent.</l>
+                     <l part="N">Anon we shall be summoned.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Doth the prince,</l>
+                     <l part="N">(I crave your grace, the king) doth he to-morrow</l>
+                     <l part="N">Charge on the centre of his brother's battle?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ONIS.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">I would it were not so; but, if I know him,</l>
+                     <l part="N">It would be heavy tiding for his ear,</l>
+                     <pb n="42" xml:id="image067"/>
+                     <l part="N">That any sword but his had found its sheath</l>
+                     <l part="N">Within the breast of Pedro.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Don Pedro's cuirass hath turned swords ere now —</l>
+                     <l part="N">And wielded by as ready hands as Henry's.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ONIS.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">You speak the truth, Sir Alain de la Houssaye,</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">You look for stubborn work, my Lord of Onis.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ONIS.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Sir Alain Houssaye has seen Pedro's plume</l>
+                     <l part="N">Rising and falling like a falcon's wing,</l>
+                     <l part="N">As far i'the front as e'er Plantagenet</l>
+                     <l part="N">Shewed his black crest.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> And yet the old adage</l>
+                     <l part="N">Hangs cruelty and cowardice together.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ONIS.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">The man that coined the phrase had known no Pedro.</l>
+                     <l part="N">The old ancestral sense of dignity</l>
+                     <l part="N">Exalts our excellence if we be good,</l>
+                     <l part="N">And even if we be vicious, that high pride</l>
+                     <l part="N">Is not more inborn than inalienable;</l>
+                     <l part="N">At least ‘tis so with Pedro. ‘Twas the same</l>
+                     <l part="N">When Pedro stood no higher than his hilt,</l>
+                     <l part="N">A most imperious boy. God he defies,</l>
+                     <l part="N">And man he never feared.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> This nobleness</l>
+                     <l part="N">Of kingly nature props e'en now a cause</l>
+                     <l part="N">That, had he been in aught a vulgar villain</l>
+                     <pb n="43" xml:id="image068"/>
+                     <l part="N">Had been as bare of man's aid as of God's; —</l>
+                     <l part="N">But hark! The trumpet.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Let us to the tent.</l>
+                  </lg>
+               </sp>
+               <stage type="exit">[Exeunt Houssaye and Le Begue.</stage>
+               <sp>
+                  <speaker>ONIS.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Beautiful Valley! What a golden light</l>
+                     <l part="N">Is on thy bosom. Ha! the bells are ringing</l>
+                     <l part="N">In the church towers along yon green hill side</l>
+                     <l part="N">The vesper chaunt! Alas! What dreary knells</l>
+                     <l part="N">Must shake, next sunset, their gray pinnacles!</l>
+                  </lg>
+               </sp>
+               <stage type="exit">[Exit.</stage>
+            </div>
+            <div type="scene"
+                 n="2"
+                 xml:id="D1s2"
+                 org="uniform"
+                 sample="complete"
+                 part="N">
+               <head>SCENE II.</head>
+               <stage type="setting">The Tent of Henry of Transtamara.</stage>
+               <stage>
+                  <p>HENRY — DU GUESCLIN — BISHOP PEREZ — ONIS — HOUSSAYE — LE BEGUE.</p>
+               </stage>
+               <sp>
+                  <speaker>HENRY.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N"> Sit, gentlemen. Onis, we waited for thee.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>DU GUESCLIN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">There is no need we should be long together;</l>
+                     <l part="N">We may do better service in our quarters:</l>
+                     <l part="N">My humble mind it was, most certainly,</l>
+                     <l part="N">That you, sir king, should take the right to-morrow,</l>
+                     <l part="N">Where, if our scouts bring true intelligence,</l>
+                     <l part="N">Don Pedro plants his Moors —- </l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HENRY.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Noble Du Guesclin,</l>
+                     <l part="N">We fight on Spanish ground, and I have here</l>
+                     <l part="N">Three thousand true men of Castile and Leon</l>
+                     <l part="N">Who serve me as their king — the which I am</l>
+                     <pb n="44" xml:id="image069"/>
+                     <l part="N">By the free choice of nobility</l>
+                     <l part="N">In open Cortes, aiding right of blood,</l>
+                     <l part="N">My brother having forfeited all title</l>
+                     <l part="N">By bloody acts of murder and oppression</l>
+                     <l part="N">Not to be counted — some of them ye know — </l>
+                     <l part="N">The which dissolved all claim to our allegiance,</l>
+                     <l part="N">And left us free (I mean the Lords of Spain)</l>
+                     <l part="N">To choose another wearer for the crown</l>
+                     <l part="N">Of old Pelayo; — of Pelayo's line</l>
+                     <l part="N">Am I, and justly now I wear that crown,</l>
+                     <l part="N">Though once there was a baton on my shield,</l>
+                     <l part="N">That stain being erased and nullified</l>
+                     <l part="N">By the decree I spake of —- Now their hearts</l>
+                     <l part="N">Would scarcely brook to see the post of honour</l>
+                     <l part="N">Filled by a stranger, howsoever noble</l>
+                     <l part="N">In blood, and whatsoever pennon rearing,</l>
+                     <l part="N">When I their king am present. Other reasons</l>
+                     <l part="N">I have already to your private ear</l>
+                     <l part="N">Sufficiently expounded. Is there need</l>
+                     <l part="N">That I recount them also?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>DU GUESCLIN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Since his highness</l>
+                     <l part="N">Is so resolved in this, my Lord of Onis,</l>
+                     <l part="N">I yield the matter — for myself I speak:</l>
+                     <l part="N">What says La Houssaye?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent3" part="N"> May it please the king,</l>
+                     <l part="N">Although your courtesy, noble Du Guesclin,</l>
+                     <l part="N">Hath brought me to the council, I am here</l>
+                     <l part="N">Not to oppose my voice to voice of yours — </l>
+                     <pb n="45" xml:id="image070"/>
+                     <l part="N">But having learned your pleasure and my part,</l>
+                     <l part="N">To tender, if need be, humble suggestion</l>
+                     <l part="N">Touching what falls to me — and crave your guidance —</l>
+                     <l part="N">Ride we then on the right?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>DU GUESCLIN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent3" part="N"> You and Le Begue,</l>
+                     <l part="N">Be there with Burgundy and Picardy,</l>
+                     <l part="N">Ye'll have the Moors to deal withal. Myself</l>
+                     <l part="N">Will set my light-limbed Bretons on the left;</l>
+                     <l part="N">Perchance, while that King Henry from our centre</l>
+                     <l part="N">Bears with his Spaniards on the bridge, the old ford</l>
+                     <l part="N">May serve our need as well. I think ‘tis certain,</l>
+                     <l part="N">Don Pedro, with his own Castilian spears,</l>
+                     <l part="N">Will bide your highness' onset—Spain to Spain!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HENRY.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Ay, and for Spain.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>BISHOP.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Now God protect King Henry!</l>
+                     <l part="N">The Lord of Hosts will battle for the right.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">We all shall do our best, my good Lord Bishop.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ONIS.</speaker>
+                  <stage type="delivery">[Aside to La Houssaye.]</stage>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">'Twere vain you see for anyone to fight</l>
+                     <l part="N">Against the king's determination.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">‘Tis a most wild one! Heaven defend the issue.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HENRY.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">What says La Houssaye?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">He prays heaven, my lord,</l>
+                     <l part="N">To send fair issue of to-morrow's field.</l>
+                  </lg>
+               </sp>
+               <pb n="46" xml:id="image071"/>
+               <sp>
+                  <speaker>HENRY.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">'Tis well; and now brave gentlemen of France</l>
+                     <l part="N">Good e'en be with you all. Let the dawn find us</l>
+                     <l part="N">Each at his post.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>DU GUESCLIN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">My word shall be—QUEEN BLANCHE!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HENRY.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">And mine—KING HENRY!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>DU GUESCLIN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">They'll do well together.</l>
+                  </lg>
+               </sp>
+               <stage type="business">[The lords rise from their seats; a Trumpet is heard.</stage>
+               <sp>
+                  <speaker>HENRY.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">What means this trumpet? thrice, too?</l>
+                  </lg>
+               </sp>
+               <stage type="entrance">[Enter a Castilian Herald in his tabard, attended by
+                  Officers &amp;c.</stage>
+               <sp>
+                  <speaker>HERALD.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> By my mouth</l>
+                     <l part="N">Thus to King Sancho's baseborn son, Don Henry</l>
+                     <l part="N">Of Transtamara, speaks his rightful liege</l>
+                     <l part="N">The King, Don Pedro of Castille. Bold bastard,</l>
+                     <l part="N">That darest, not remembering the black curse</l>
+                     <l part="N">Which lies upon the memory of Count Julian,</l>
+                     <l part="N">To ape his ancient treason, and become</l>
+                     <l part="N">The guide of foreign spears into the heart</l>
+                     <l part="N">Of the fair Spanish land — I, born thy prince,</l>
+                     <l part="N">The lawful son and heir of thy dead father,</l>
+                     <l part="N">Whose erring love begot thee of a slave,</l>
+                     <l part="N">Bearded by thee within mine heritage,</l>
+                     <l part="N">Thee and the Bourbon's vassals whom thou guidest,</l>
+                     <l part="N">I full of scorn and wrath, as well I may be,</l>
+                     <l part="N">Have pity on all of those their fair allegiance</l>
+                     <pb n="47" xml:id="image072"/>
+                     <l part="N">Due to the Majesty of France hath led</l>
+                     <l part="N">Thus far within my realm — albeit their swords</l>
+                     <l part="N">Are girded on their thighs to serve the cause</l>
+                     <l part="N">Of my most sinful rebel; nor against</l>
+                     <l part="N">Even those, my own born liegemen, whom thy cunning</l>
+                     <l part="N">Hath led astray, so that forgetting oath</l>
+                     <l part="N">And fealty and solemn plight of homage,</l>
+                     <l part="N">They stand with thee against their sovereign's banner,</l>
+                     <l part="N">Am I entirely steeled. Therefore, in presence</l>
+                     <l part="N">Of brave Du Guesclin and his captains and</l>
+                     <l part="N">The Spaniards that are with them, I make offer</l>
+                     <l part="N">Of truce from this time till to-morrow's sunset,</l>
+                     <l part="N">Within which space — at the cool dawn ‘twere best —</l>
+                     <l part="N">Let lists be set upon the open field</l>
+                     <l part="N">Between these camps; and let the Lord Du Guesclin,</l>
+                     <l part="N">Upon the part of Henry Transtamara,</l>
+                     <l part="N">And the most noble Castro upon mine,</l>
+                     <l part="N">Be umpires of the day — and man to man,</l>
+                     <l part="N">And horse to horse — with lance, sword, mace, and knife —</l>
+                     <l part="N">Let two, whose hostile banners bear one sign,</l>
+                     <l part="N">Appeal to the unseen eye of God for judgment</l>
+                     <l part="N">On their conflicting titles; let the winner</l>
+                     <l part="N">Be undisputed king; unfearing love</l>
+                     <l part="N">Rest between him, whoever he may be,</l>
+                     <pb n="48" xml:id="image073"/>
+                     <l part="N">And all that are this day encamped here,</l>
+                     <l part="N">Moor, Frenchman, Spaniard; and let him who loses</l>
+                     <l part="N">Have death or exile; so shall knightly blood</l>
+                     <l part="N">Keep knightly veins, and wives' and mothers' eyes</l>
+                     <l part="N">On either side the rugged Pyrenees</l>
+                     <l part="N">Retain their tears unwept; so France in honour,</l>
+                     <l part="N">And Spain in peace, sweep from all memory</l>
+                     <l part="N">The traces of this tumult. I, the king,</l>
+                     <l part="N">Speak so: — Don Henry, called of Transtamara,</l>
+                  </lg>
+                  <stage type="business">[Flings down his gauntlet.</stage>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Liftest thou King Pedro's glove?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ONIS.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Now heaven defend!— </l>
+                     <l part="N">That voice! —</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HENRY.</speaker>
+                  <stage type="business">[Stepping forward.]</stage>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Right willingly ——</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>DU GUESCLIN.</speaker>
+                  <stage type="business">[rising, and laying his own hand on Henry's arm.]</stage>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Forbear, rash king!</l>
+                     <l part="N">Herald! go back in safety as thou camest,</l>
+                     <l part="N">And tell thy master that the King Don Henry</l>
+                     <l part="N">Would willingly have lifted up the glove</l>
+                     <l part="N">Thy had flung down — but that Du Guesclin stayed him.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HENRY.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">French Lord, I do command thee, let me pass.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>DU GUESCLIN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Nay, nay King Henry — thou art not my king.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HENRY.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Thou art the vassal of my brother of France,</l>
+                     <pb n="49" xml:id="image074"/>
+                     <l part="N">And thou art here because my quarrel's his.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>DU GUESCLIN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Yes; but his quarrel is not thine, Lord King ——</l>
+                     <l part="N">Nor, when he kissed my baton at the Louvre</l>
+                     <l part="N">Did he command me to entrust the vengeance,</l>
+                     <l part="N">For which dead Blanche's blood doth cry to heaven</l>
+                     <l part="N">And him, the royal brother of her blood,</l>
+                     <l part="N">To any Spanish hand — prince's or king's.</l>
+                     <l part="N">We, De la Houssaye, and Le Begue, and I,</l>
+                     <l part="N">And ten good score of noblemen besides,</l>
+                     <l part="N">With all the spears that love or chivalry</l>
+                     <l part="N">Has clustered at our backs — must we stand by</l>
+                     <l part="N">And let the murderer of the Lady Blanche,</l>
+                     <l part="N">The sister of our king, conquer or fall,</l>
+                     <l part="N">According as one Spaniard or another</l>
+                     <l part="N">Couches his lance the firmest, in our sight —</l>
+                     <l part="N">Had Henry of Transtamara ne'er been crowned —</l>
+                     <l part="N">Aye, had ne'er been born, thinkest thou my king</l>
+                     <l part="N">Would have sat still upon his father's throne,</l>
+                     <l part="N">And bid his priests sing masses for the soul</l>
+                     <l part="N">Of unrevenged Blanche.</l>
+                     <l rend="indent5" part="N"> I lift this glove;</l>
+                     <l part="N">I place it in the front of this my basnet,</l>
+                     <l part="N">Which here, for lack of worthier, represents</l>
+                     <l part="N">The coronetted helmet of King Philip.</l>
+                     <l part="N">Do as ye will, thou, and the Lord of Onis,</l>
+                     <l part="N">This bishop, and as many Spaniards more</l>
+                     <l part="N">As are encamped with us — I speak for France,</l>
+                     <pb n="50" xml:id="image075"/>
+                     <l part="N">And I will have a field, an open field,</l>
+                     <l part="N">A bloody field for Blanche!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HERALD.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> A bloody field!</l>
+                     <l part="N">So be it—I shall know my glove again.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>DU GUESCLIN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Thy glove?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HERALD.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">King Pedro's glove. I speak for him.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>DU GUESCLIN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Thou speakest in safety whatsoe'er thou speakest.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HERALD.</speaker>
+                  <stage type="business">[taking off his cap.]</stage>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">I speak in safety since Du Guesclin says so,</l>
+                     <l part="N">I am King Pedro! Doth Henry know me? Kneel slave!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HENRY.</speaker>
+                  <stage type="business">[starting back, and drawing his sword.]</stage>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Thou murderer! hast no sword?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>DU GUESCLIN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">If he had fifty none were drawn to-night.</l>
+                     <l part="N">This sacred garb which God and man respect,</l>
+                     <l part="N">And mine own words do save thee. Go in peace.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEDRO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">I came not hither to make speeches, nor</l>
+                     <l part="N">See I fit judge to sit and hold the balance</l>
+                     <l part="N">Between my breath and thine. Therefore, Du Guesclin,</l>
+                     <l part="N">Farewell. We meet to-morrow. Ynigo Onis</l>
+                     <l part="N">Thou hadst a playmate once. Ha! Father Joseph,</l>
+                     <l part="N">Who drew that bare scalp from a monkery,</l>
+                     <l part="N">And clapped a mitre on't? Sweet lords, good night.</l>
+                  </lg>
+               </sp>
+               <stage type="exit">[Exit Pedro.</stage>
+               <pb n="51" xml:id="image076"/>
+               <sp>
+                  <speaker>DU GUESCLIN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Le Begue, attend the Herald to the barrier.</l>
+                  </lg>
+                  <stage type="exit">[Exit Le Begue.</stage>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Bold, dark, and haughty soul. I knew him not.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>ONIS.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">There was something in the voice — and yet</l>
+                     <l part="N">I could not think but that I dreamed. ——</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HENRY.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N">Ten years</l>
+                     <l part="N">Have changed my brother much. His brow is wrinkled,</l>
+                     <l part="N">His hairs are grey.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LA HOUSSAYE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent 3" part="N">His fierce eye is the same.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>HENRY.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Once more, kind gentlemen, farewell.</l>
+                     <l part="N">
+                        <stage type="exit">[Exeunt Du Guesclin, &amp;c.]</stage> Lord Bishop.</l>
+                     <l part="N">Do thou remain with some little space.</l>
+                     <l part="N">
+                        <stage type="delivery">[Aside.]</stage> I've seen my brother —
+                        something whispers me</l>
+                     <l part="N">That one more meeting, and no more shall be.</l>
+                  </lg>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="3"
+                 xml:id="D1s3"
+                 org="uniform"
+                 sample="complete"
+                 part="N">
+               <head>SCENE III.</head>
+               <stage type="setting">The French Camp.</stage>
+               <stage type="entrance">[Enter Pedro, Le Begue, &amp; a crowd of soldiers.</stage>
+               <sp>
+                  <speaker>FIRST SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">I warrant ye lie has worn both plate and mail,</l>
+                     <l part="N">His stuffed tabard sits like a shirt upon him.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>SECOND SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> And fifty lances!</l>
+                     <l part="N">I never heard of herald so attended.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>FIRST SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">He is some noble gentleman, besure,</l>
+                     <pb n="52" xml:id="image077"/>
+                     <l part="N">The Lord Le Begue, you see, is squiring him.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>THIRD SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Faith! and I think he walks a-foot behind him.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEDRO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Le Begue de Villaines? Ha! a noble name!</l>
+                     <l part="N">A very noble race of Burgundy;</l>
+                     <l part="N">I've heard of them ere now. My Lord Le Begue</l>
+                     <l part="N">You've had a hasty march from Salamanca,</l>
+                     <l part="N">Some fifteen days, I think. I have been near you,</l>
+                     <l part="N">Almost as near as now within that time.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">An' please your Highness, had we known thereof,</l>
+                     <l part="N">We should, as now, have tendered ye our escort.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEDRO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">I doubt it not. You've chosen your quarters shrewdly.</l>
+                     <l part="N">I know the spot of old. There is a well</l>
+                     <l part="N">Beside yon oak that ye may slake your thirst in,</l>
+                     <l part="N">If ye were thrice as many as I count ye.</l>
+                     <l part="N">A very pleasant fountain, —</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">I have not drunk thereof.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEDRO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">A true Burgundian! — Well, Sir, blood flows out</l>
+                     <l part="N">And wine flows in — such is the soldier's course.</l>
+                     <l part="N">I wish I had ye in Montiel this night. —</l>
+                     <l part="N">Your lads, I see, have lips of the same savour,</l>
+                     <l part="N">By Jove they seem right merry underneath</l>
+                     <l part="N">These old trees — there's no lack of skins among them.</l>
+                     <l part="N">Well, drink to-night. If some of these red lips</l>
+                     <pb n="53" xml:id="image078"/>
+                     <l part="N">Be white enough, and dry withal ere long,</l>
+                     <l part="N">The blood ye might have kept, and the good wine</l>
+                     <l part="N">Ye might have drunk—I shall be blamed for neither.</l>
+                     <l part="N">Captain, are these your soldiers?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Some of them?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEDRO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Yon tall black fellow, leaning on his spear,</l>
+                     <l part="N">Is he not Spanish?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent3" part="N"> Is his leathern doublet?</l>
+                     <l part="N">I know him not — his face is new to me.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEDRO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">But not to me — Rodrigo Perez! Look ye</l>
+                     <l part="N">Sir knight, how the slave bends. His Spanish blood</l>
+                     <l part="N">Is not all washed from out his veins. —</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>LE BEGUE.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> An' please you, Sir,</l>
+                     <l part="N">I can permit no talk — the barrier's near,</l>
+                     <l part="N">I'll see you safe among your followers.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEDRO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">What? stop a Herald's mouth! well well, pass on,</l>
+                  </lg>
+                  <stage type="business">[throwing money to the soldiers.]</stage>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Drink all men's friend, the Herald, when he's gone.</l>
+                  </lg>
+               </sp>
+               <stage type="exit">[Exit Pedro.]</stage>
+               <pb n="54" xml:id="image079"/>
+               <sp>
+                  <speaker>FIRST SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Thanks for the largess! Fill a cup to him.</l>
+                  </lg>
+                  <stage type="business">[drinks.]</stage>
+               </sp>
+               <sp>
+                  <speaker>SECOND SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Aye, sure; a noble generous gentleman.</l>
+                  </lg>
+               </sp>
+               <stage type="business">[drinks.]</stage>
+               <sp>
+                  <speaker>OLD SPEARMAN.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Why do ye not pledge the toast?</l>
+                     <l part="N">He is your countryman. ——</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RODRIGO PEREZ.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N">If ye knew his face</l>
+                     <l part="N">As well as I, ye would not fill so cheerily.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>FIRST SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">You've seen him heretofore? how runs his name?</l>
+                     <l part="N">A don I'll warrant ye, and then some dozen</l>
+                     <l part="N">Of fine high sounding long words after it.</l>
+                     <l part="N">You've half an ell of names yourself, I'll swear.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEREZ.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">A short one serves him. —</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>FIRST SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Speak it out.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEREZ.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Your pardon ——-</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>FIRST SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Old man you stare as if this lordly Herald</l>
+                     <l part="N">Had been your father's ghost. Come, speak, who is he?</l>
+                     <l part="N">He spoke to you; he called you by your name.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>SECOND SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> By our Lady,</l>
+                     <l part="N">It seems as if this Pedro's coat of arms</l>
+                     <l part="N">Painted upon a fool's coat, were enough</l>
+                     <l part="N">To frighten some that must expect to see</l>
+                     <l part="N">His floating banner and his dancing crest,</l>
+                     <l part="N">Ere long — if, as they say, we fight to-morrow.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEREZ.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Talk on, young men: to-morrow's not far off.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>THIRD SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">No, and for that cause my most sober comrade,</l>
+                     <l part="N">It is my mind that we should drink to-night,</l>
+                     <l part="N">To-morrow we'll have neither shade nor wine.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEREZ.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Nor thirst it may be —</l>
+                  </lg>
+               </sp>
+               <stage type="exit">[Exit.</stage>
+               <sp>
+                  <speaker>FIRST SOLDIER.</speaker>
+                  <stage type="business">[sings.]</stage>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">To-morrow when the sun is high</l>
+                     <pb n="55" xml:id="image080"/>
+                     <l part="N">Up in the glowing burning sky,</l>
+                     <l part="N">When trumpets sound, and pennons fly,</l>
+                     <l rend="indent3" part="N">And lances gleam.</l>
+                     <l part="N">No resting on the spear</l>
+                     <l part="N">To drain the wine cup clear:</l>
+                     <l part="N">Of jollity and cheer</l>
+                     <l rend="indent3" part="N">I shall not dream.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>SECOND SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">To-morrow when the sun is low,</l>
+                     <l part="N">For some a jovial cup may flow,</l>
+                     <l part="N">But who can tell, and who can know</l>
+                     <l rend="indent3" part="N"> For me? — for whom?</l>
+                     <l part="N">A cold earth bed perchance,</l>
+                     <l part="N">Beside a broken lance,</l>
+                     <l part="N">Far, far from merry France,</l>
+                     <l rend="indent3" part="N"> May be my doom.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>THE TWO SOLDIERS.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">To-night yon sun goes down in gold,</l>
+                     <l part="N">His purple clouds around him rolled,</l>
+                     <l part="N">What eyes his next descent behold,</l>
+                     <l rend="indent3" part="N"> May none reveal.</l>
+                     <l part="N">Fill, fill your goblets high,</l>
+                     <l part="N">Bright as yon glorious sky,</l>
+                     <l part="N">Wine will not make us die</l>
+                     <l rend="indent3" part="N"> On hot Montiel.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>THIRD SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Pass round the cup — I think our dry old Spaniard</l>
+                     <l part="N">Has moved himself.</l>
+                  </lg>
+               </sp>
+               <pb n="56" xml:id="image081"/>
+               <sp>
+                  <speaker>FOURTH SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent3" part="N"> Now saw ye e'er a man</l>
+                     <l part="N">Look wilder when yon Herald as he passed</l>
+                     <l part="N">Fixed his black eye, and named him?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>FOURTH SOLDIER.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Quite aghast!</l>
+                  </lg>
+               </sp>
+            </div>
+            <div type="scene"
+                 n="4"
+                 xml:id="D1s4"
+                 org="uniform"
+                 sample="complete"
+                 part="N">
+               <head>SCENE IV.</head>
+               <stage type="setting">Another part of the camp.</stage>
+               <sp>
+                  <speaker>RODRIGO PEREZ.</speaker>
+                  <stage type="business">[alone.]</stage>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">It was but yesterday this King and Onis</l>
+                     <l part="N">Stood by while I was digging here i the ditch,</l>
+                     <l part="N">And looked upon me for some minutes' space,</l>
+                     <l part="N">I did not work less lustitly because</l>
+                     <l part="N">There eyes were on me — by my troth I watered</l>
+                     <l part="N">The clay with my best sweat — but never a word —</l>
+                     <l part="N">"Rodrigo Perez, hot work, old Rodrigo ——"</l>
+                     <l part="N">To say so much had been no mighty matter,</l>
+                     <l part="N">"The ditch will do." "The barrier will be good,"</l>
+                     <l part="N">Good! good! good barrier! nothing of good soldier.</l>
+                     <l part="N">Well, ‘tis all one.</l>
+                  </lg>
+               </sp>
+               <stage type="entrance">Enter GIL FRASSO.</stage>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Perez, comrade Perez,</l>
+                     <l part="N">Hast heard this story?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEREZ.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Story! I've heard none —</l>
+                     <l part="N">What is't?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent 3" part="N"> I scarcely can believe 'tis true —</l>
+                     <l part="N">The old king — black Don Pedro, man, — Yon Herald</l>
+                     <l part="N">Whose trumpet we all heard — they say ‘twas he —</l>
+                     <pb n="57" xml:id="image082"/>
+                     <l part="N">'Twas he himself — and that he came disguised</l>
+                     <l part="N">In those gay trappings to fling down his glove,</l>
+                     <l part="N">And challenge Henry face to face to the combat —</l>
+                     <l part="N">The single combat — but Du Guesclin barred it.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEREZ.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Where hast thou heard this news?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Why, but this moment</l>
+                     <l part="N">I left a knot of our companions gathered</l>
+                     <l part="N">Beneath the big oak, close beside the well,</l>
+                     <l part="N">And this was all their talk.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEREZ.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> The single combat!</l>
+                     <l part="N">By Saint Iago, in my humble mind,</l>
+                     <l part="N">Du Guesclin did Don Henry a good turn.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Hush! do not say so. Dost thou then believe it?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEREZ.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Why not, Gil Frasso? Pedro's worst of foes</l>
+                     <l part="N">Will scarce deny that give them equal chance</l>
+                     <l part="N">Of wind and sun, within a guarded ring,</l>
+                     <l part="N">The old King mounted as we all have seen him,</l>
+                     <l part="N">Might raise a clatter on the new King's helm</l>
+                     <l part="N">In spite of the fair coronet that girds it.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Faith! Pedro always had a heavy hand.</l>
+                     <l part="N">But can ye credit it that he came here?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEREZ.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Why <emph>that</emph> I scarce can doubt. I saw him Frasso,</l>
+                     <l part="N">I saw him, man, with mine own eyes.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> And knew him?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEREZ.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N"> Aye, Gil—what's stranger, may be, he knew me.</l>
+                  </lg>
+               </sp>
+               <pb n="58" xml:id="image083"/>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Nay, nay, old Perez, I can scarce go with you —</l>
+                     <l part="N">But come let's hear the story.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>PEREZ.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Look'ye, Gil,</l>
+                     <l part="N">It was down yonder, where those gay French sparks</l>
+                     <l part="N">Are drinking and carousing in the shade;</l>
+                     <l part="N">I stood beside them leaning on my spear,</l>
+                     <l part="N">To see the Herald passing to the barrier;</l>
+                     <l part="N">Well, up he came, the Lord Le Begue came with him,</l>
+                     <l part="N">And as they passed us, suddenly the Herald</l>
+                     <l part="N">(We had ta'en notice of his lordly step,)</l>
+                     <l part="N">Halted, and said "are these your soldiers, Sir?"</l>
+                     <l part="N">And then he pointed with his finger thus,</l>
+                     <l part="N">"My Lord Le Begue," quoth he, "there stands a Spaniard,"</l>
+                     <l part="N">And then he loooked more sternly yet, and waved</l>
+                     <l part="N">His hand, and named my name "Rodrigo Perez."</l>
+                     <l part="N">These were his words — they're ringing in my ears.</l>
+                     <l part="N">Rodrigo Perez! — Well, say what they will,</l>
+                     <l part="N">It is no shame I think, even for a King,</l>
+                     <l part="N">To know an old man that has shed his blood</l>
+                     <l part="N">Beneath his banner. — 'Twill be just ten years</l>
+                     <l part="N">Next Thursday (if we see it) since Nejara —</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">It was a noble day — a glorious day!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RODRIGO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Say that within the hearing of Lord Onis —</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">No 'faith — but yet it was a glorious field.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RODRIGO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Aye, and the morrow after, I remember</l>
+                     <pb n="59" xml:id="image084"/>
+                     <l part="N">I wakened stiff enough — this arm was bandaged,</l>
+                     <l part="N">And this leg too — I woke and sat upright,</l>
+                     <l part="N">And looked about me, in the crowded place</l>
+                     <l part="N">All full of comrades shattered like myself,</l>
+                     <l part="N">Some worse, some better, and there stood the King,</l>
+                     <l part="N">Aye there he stood himself among the leeches</l>
+                     <l part="N">And priests (they all were busy), and he said —</l>
+                     <l part="N">It seems as if all had passed but yestereven, —</l>
+                     <l part="N">"Lie down good fellow, rest a day or two,</l>
+                     <l part="N">And ye'll be well again."</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">I would he had not slain the Lady Blanche.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RODRIGO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">She was a pretty lady — so say all —</l>
+                     <l part="N">But French — why seek they wives from France? — I love not</l>
+                     <l part="N">The men — no nor the women of that land.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">No more did Pedro. — He should have not killed her</l>
+                     <l part="N">And for a Jewess too!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RODRIGO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent3" part="N"> We hear black tales:</l>
+                     <l part="N">Who knows what may have been before she died?</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">In faith I know not, Perez.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RODRIGO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">So we had at Nejara: There Don Henry</l>
+                     <l part="N">Was beat — aye, man, like chaff, before black Wales</l>
+                     <pb n="60" xml:id="image085"/>
+                     <l part="N">And the old king. He wants those English spears,</l>
+                     <l part="N">None better ever thrust, but as men speak,</l>
+                     <l part="N">There are some thousands of the Moorish horse </l>
+                     <l part="N">Within Montiel to-night. Our gay French comrades</l>
+                     <l part="N">May find the scimitar's as good's the sword.</l>
+                     <l part="N">And old De Castro is with Pedro still.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">God knows the issue. Would the day were over.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RODRIGO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Aye, would it were. If riding in the front</l>
+                     <l part="N">Among the Bishop's men it so fall out,</l>
+                     <l part="N">That we come near the king — I mean King Pedro, —</l>
+                     <l part="N">And I behold him charging on the French —</l>
+                     <l part="N">I know not. —</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Comrade. —</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RODRIGO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> He's but a bastard,</l>
+                     <l part="N">We may get easily beyond the barrier —</l>
+                     <l part="N">Down yon Green Lane — your hand: — The true old king</l>
+                     <l part="N">Will let us in, I warrant him, right kindly.</l>
+                     <l part="N">Why, Gil, I think it would have chilled our bloods,</l>
+                     <l part="N">And made our arms like withs, if we had seen</l>
+                     <l part="N">King Pedro's plume at work, and heard his voice</l>
+                     <l part="N">High above all the meacute;leacute;e as of yore,</l>
+                     <l part="N">And we old followers, Nejara-men,</l>
+                     <l part="N">Been there against him.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> That oath to the bishop</l>
+                     <l part="N">Sticks in my gizzard.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>RODRIGO.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> So, man, gulp it down</l>
+                     <pb n="61" xml:id="image086"/>
+                     <l part="N">While yet he was but plain old Father Joseph —</l>
+                     <l part="N">And Henry — my Lord Bastard —-</l>
+                     <l part="N">I had ta'en oaths enough to serve Don Pedro.</l>
+                     <l part="N">Hark to yon Frenchmen how they boose and sing.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>GIL.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Come — we'll have cups of welcome from the king.</l>
+                  </lg>
+               </sp>
+               <stage type="exit">Exeunt.</stage>
+            </div>
+            <div type="scene"
+                 n="5"
+                 xml:id="D1s5"
+                 org="uniform"
+                 sample="complete"
+                 part="N">
+               <head>SCENE V.</head>
+               <stage type="setting"> A chamber in the Castle of Montiel.</stage>
+               <stage>MARIA DE PADILLA, her SON, and SARAH, seated by a window.</stage>
+               <sp>
+                  <speaker>MARIA.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Your father will come home anon, my love.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>SARAH.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">The sun's gone down, and if it please my lady</l>
+                     <l part="N">I'll see him to his chamber.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>BOY.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Let me stay</l>
+                     <l part="N">Until my father be come home again,</l>
+                     <l part="N">I will not sleep till he has said good night,</l>
+                     <l part="N">And kissed me.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>MARIA.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l rend="indent5" part="N"> Kiss me darling —</l>
+                     <l part="N">So, — you shall stay and get the other too.</l>
+                     <l part="N">Speak truly, Sarah — they're the king's own eyes.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>SARAH.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">In part 'tis so; the long lids are the same —</l>
+                     <l part="N">'Tis a sweet mixture — fair and gentle boy!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>MARIA.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Aye, fair and gentle now — gentle and fair!</l>
+                     <pb n="62" xml:id="image087"/>
+                     <l part="N">But look beneath the shadow of the oak,</l>
+                     <l part="N">And see how delicate the nursling plant</l>
+                     <l part="N">Fruit of some late chance-scattered acorn shews</l>
+                     <l part="N">Its smooth slim stem, its tiny trembling shoots —</l>
+                     <l part="N">Its little glossy leaves—one scarce could dream,</l>
+                     <l part="N">That in the course of nature these must be</l>
+                     <l part="N">Transformed into the rough wide girdled trunk</l>
+                     <l part="N">Scornful of tempests, and the giant boughs,</l>
+                     <l part="N">Whose massive umbrage darkens noon below them —</l>
+                     <l part="N">And yet 'tis so — when the stout parent tree</l>
+                     <l part="N">Has mouldered into age's dust, or yielded</l>
+                     <l part="N">Perchance to the dread flash of heavenly fire —</l>
+                     <l part="N">Aye, or been battered down before its day,</l>
+                     <l part="N">By common woodman's axe — that little budling</l>
+                     <l part="N">Shall be the pride of all the grove around. —</l>
+                     <l part="N">One down — another rises — this smooth chin</l>
+                     <l part="N">Will ere men think that many years have flown,</l>
+                     <l part="N">Be rough and back enow — this ivory forehead</l>
+                     <l part="N">Plaited with wrinkled lines, the legacy</l>
+                     <l part="N">Of sorrows, it may be — most certainly</l>
+                     <l part="N">Of cares — the wind, the sun, foul weather</l>
+                     <l part="N">Will all have done their work to tan this cheek,</l>
+                     <l part="N">And this white shoulder, (now it hath a dimple,</l>
+                     <l part="N">The prettiest bride in all Castile might envy),</l>
+                     <l part="N">Will be deep ploughed with trace of buckled mail,</l>
+                     <l part="N">And clasped plate — Pedro will be a man —</l>
+                     <l part="N">I hope a noble soldier like his father.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>SARAH.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Aye, and a prince as once his father was</l>
+                     <pb n="63" xml:id="image088"/>
+                     <l part="N">And in God's time a king as he is now.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>MARIA.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">I hope my god will hear my nightly voice,</l>
+                     <l part="N">And let me sleep in dust before that day —</l>
+                     <l part="N">For my fair child — come Pedro to my knee —</l>
+                     <l part="N">My sinless child, or ere thou close thine eyes</l>
+                     <l part="N">This night, be sure thou kneel – alone — for I</l>
+                     <l part="N">Must not be with thee then, and pray to God</l>
+                     <l part="N">To send down victory on thy father's sword —</l>
+                     <l part="N">Pray strongly for thy father: — simple child,</l>
+                     <l part="N">See, Sarah, how he stares with his black eyes!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>SARAH.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Now, prithee, cease my lady,</l>
+                     <l part="N">You'll send us all a weeping to our beds</l>
+                     <l part="N">If you look thus. I met the Lord de Castro</l>
+                     <l part="N">But now as I was coming through the court,</l>
+                     <l part="N">He smiled upon me courteously and gaily:</l>
+                     <l part="N">I'm sure he thinks 'twill all go well to-morrow.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>MARIA.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">The old soldier will not let shis eye betray him.</l>
+                     <l part="N">His counsel and his prudence are my hope</l>
+                     <l part="N">Next to the strong arm of my fearless king.</l>
+                     <l part="N">As for these Moors — </l>
+                     <l part="N">I cannot trust them — Yon old crafty Zagal,</l>
+                     <l part="N">Although his words be of the readiest</l>
+                     <l part="N">I doubt he he'll pause before he sheds much blood</l>
+                     <l part="N">Of faithful Mussulmen in this debate: —</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>SARAH.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">If you suspect him, speak it to the king.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>MARIA.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N"> I would the king were here — he tarries long.</l>
+                  </lg>
+               </sp>
+               <pb n="64" xml:id="image089"/>
+               <sp>
+                  <speaker>SARAH.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">He hath rode something further than he thought for</l>
+                     <l part="N">In reconnaissance — he will soon be here;</l>
+                     <l part="N">De Castro, Zagal, and the other lords</l>
+                     <l part="N">Are but assembling in the hall as yet.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>MARIA.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Sleepy, my boy? Well, Sarah, carry him</l>
+                     <l part="N">Up to his chamber: when the king returns</l>
+                     <l part="N">We both will come together — soon I hope.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>SARAH.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">Come, darling, you have watched too long already.</l>
+                  </lg>
+               </sp>
+               <stage type="exit">[Exit with the boy.</stage>
+               <sp>
+                  <speaker>MARIA.</speaker>
+                  <lg org="uniform" sample="complete" part="N">
+                     <l part="N">And now 'tis dark all over — hot and dark —</l>
+                     <l part="N">The heavens must be relieved from this oppression —</l>
+                     <l part="N">We from this doubting which is worse than death.</l>
+                     <l part="N">What matters it whether the thunder growl</l>
+                     <l part="N">Once or a thousand times? If it light here —</l>
+                     <l part="N">The spirit of one must be unclad — a king</l>
+                     <l part="N">Or nothing —— I — what must I be? — no matter —</l>
+                     <l part="N">At least if things go darkly I can share</l>
+                     <l part="N">His gloomier destiny — have my full half</l>
+                     <l part="N">Of all that brings — and be at least his equal</l>
+                     <l part="N">As well as bedfellow within the grave.</l>
+                     <l part="N">The grave! Dead Blanche I fear thee — </l>
+                     <l part="N">And yet God gives to kings the arbitrement</l>
+                     <l part="N">Of life and death — and Pedro is a king —</l>
+                     <l part="N">She knew that I had lain on Pedro's breast,</l>
+                     <l part="N">And yet she couched her curls there: — my sweet boy</l>
+                     <l part="N">On thee she had no pity, nor thy mother —</l>
+                  </lg>
+               </sp>
+               <stage>[Scene closes.</stage>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

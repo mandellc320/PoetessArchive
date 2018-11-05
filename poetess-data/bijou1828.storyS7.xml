@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">The Epistle of Servius Sulpicius to Marcus Tullius Cicero</title>
+            <author type="author">Translated by HIS MAJESTY.</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.storyS7</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="[anon.]" date="0000-0000" place=""> </name>
+                  </author>
+                  <title>The Epistle of Servius Sulpicius to Marcus Tullius Cicero</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">183-187</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>story</item>
+                  <item>The Epistle of Servius Sulpicius to Marcus Tullius Cicero</item>
+                  <item/>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g7" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="story"
+              xml:id="S7"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="183" xml:id="image222"/>
+            <head>
+               <title>The Epistle of Servius Sulpicius to Marcus Tullius Cicero</title>
+            </head>
+            <head>
+               <name reg="[anon.]" date="0000-0000" place="">Translated by HIS MAJESTY.</name>
+            </head>
+            <p>AS soon as I heard your daughter Tullia was dead, I confess I was extremely
+               concerned, as it became me to be, at a loss which I regarded as common to us both;
+               and if I had been with you, I should not have been wanting to you, but should have
+               openly testified the bitterness of my grief. 'Tis true this is but a poor and
+               miserable consolation, because those who ought to administer it, I mean our nearest
+               friends and relations, are almost equally affected with ourselves, nor can they
+               attempt it without shedding many a tear: so that they appear to be more in want of
+               comfort themselves than to perform that duty to others. I resolved, however, to set
+               down in a short letter to you such considerations as occurred to my mind, not because
+               they can have escaped you, but because I think that your grief has hindered your
+               attending to them. What reason is there why you should be transported by so
+               immoderate a grief: consider how fortune has <pb n="184" xml:id="image223"/>hitherto
+               dealt with us; consider that we have lost what ought to be dearer to us than our own
+               offspring, our country, our credit, dignity, and all our honours. This one misfortune
+               more, how can it increase our misery? Or what mind is there that has been subject to
+               such distress, but must have now grown callous, and regard every thing else as of
+               little consequence? Is it for her sake that you grieve? But how often must you have
+               fallen into that train of thinking into which I often fall, which suggests to me that
+               those persons are not the most unfortunate at this time who are permitted to exchange
+               life for death? What is there now which could make her so much regret the loss of
+               life? What affairs? what [sic] hopes? what [sic] prospects of comfort? Was it that
+               she might pass her life with some Nobleman of high rank and qualification? And can
+               you really think that it was in your power, deservedly honored as you are, to choose
+               out of our present youth, a son-in-law, to whom you might safely commit a child so
+               dear to you? Or, was it that she might bear children from whose flourishing condition
+               she might have drawn much pleasure? Who might have enjoyed a large fortune,
+               transmitted to them from their parents? Who might have been candidates in turn for
+               the honors of the state; and who might have employed their liberty in the service of
+               your friends! Alas! which of these blessings was not taken <pb n="185" xml:id="image224"/>away before she was in a condition to bestow them on others?
+               But it is a most shocking thing to lose one's children. True, if it were not much
+               more so to suffer and undergo what we now do. Give me leave to relate to you, what on
+               a certain occasion afforded me some little comfort, and allow me to hope that it may
+               have the same effect upon you. Upon my return from Asia, as I sailed from Ægina to
+               Megara, on my right hand Piræus, on my left Corinth. These cities were at one time
+               flourishing beyond imagination, but are now desolate and in ruins. Thus I began to
+               ruminate with myself; alas! do we poor mortals resent it so much, if one of us dies,
+               or is killed, whose life is of so short a date, when we see in one spot the many
+               carcases [sic] of so great cities lying before us? Will you not, Servius, check your
+               grief by recollecting that you are born a man? Believe me I was not a little
+               comforted by that thought. If you please, therefore, try the power of it on yourself.
+               It was but lately we saw many famous men perish, a great empire declining and all the
+               provinces in the utmost distress. And shall the death of one little woman so
+               grievously afflict you! Who if she had not died now, must in a few years have done
+               so; for she was born a mortal. Let me beg of you therefore, as much as is in your
+               power, to call off your <pb n="186" xml:id="image225"/>mind from brooding over these
+               subjects, and to turn it rather on such as are worthy of your character; consider,
+               that she lived as long as it was desirable for her to live; that her fate was joined
+               to that of her country, that she lived to see her father, Prætor, Consul, and Augur;
+               had been married to youths of the greatest distinction; had enjoyed all manner of
+               happiness: and fell at last with the republic. Upon what account can you or she
+               complain of fortune? Above all, do not forget that you are Cicero, one who is
+               accustomed to advise and direct others; and do not imitate bad physicians, who in the
+               disorders of others profess that they are conversant in the art of physic, and are
+               not able to cure themselves; but rather follow what you recommend to others and keep
+               it constantly before your eyes. There is no grief which length of time will not
+               diminish and soften, it is beneath you to wait for that moment, and not to master
+               your grief, beforehand by your wisdom. But if there be any feeling in the dead, I am
+               certain that she is very desirous that you should not wear yourself out with grief
+               for her sake, on account of her filial piety and affection for you. Grant this favor
+               to her, who is now dead and to the rest of your friends and relations, who sympathise
+               with you in your grief, grant it also to your country, that, if she be in want of
+               your assistance, she may be able to make use of your counsel and advice. And last of
+               all, since we are fallen into such a situation, that we <pb n="187" xml:id="image226"/> must submit to the present state of things, do not put it in the power of any one
+               to say, that you grieve less for your daughter, than you do for the misfortunes of
+               the country and for the victories of her enemies. It does not become me to write to
+               you any more concerning this affair lest I should appear to distrust your prudence.
+               Wherefore, when I have mentioned this one piece of advice, I will conclude my letter.
+               We have seen you bear prosperity in a manner that became you, and acquire great glory
+               from it; now let us perceive that you can bear adversity with equal fortitude, and
+               that you are no more oppressed by it than you ought to be: lest this should appear to
+               be the only virtue you want among so many. But as to what belongs to me, when I
+               understand that you are a little more composed, I will inform you concerning what
+               passes here and in what state this province is. Adieu.</p>
+            <p>[insert scanned image of signature: George P. 1779.]</p>
+         </div>
+      </body>
+   </text>
+</TEI>

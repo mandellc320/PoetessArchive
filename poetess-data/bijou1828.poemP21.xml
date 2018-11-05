@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">The Hellweathers</title>
+            <author type="author">By N.T. Carrington, Author of "Dartmoor"</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.poemP21</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Carrington, N. T. (Noel Thomas)" date="1777-1830" place="UK">N. T. (Noel Thomas) Carrington</name>
+                  </author>
+                  <title>The Hellweathers</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">93-97</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>poem</item>
+                  <item>The Hellweathers</item>
+                  <item>N.T. Carrington, Author of "Dartmoor"</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g6" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="poem"
+              xml:id="P21"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <head>
+               <title>The Hellweathers</title>
+            </head>
+            <head>
+               <name reg="Carrington, N. T. (Noel Thomas)" date="1777-1830" place="UK">By N.T.
+                  Carrington, Author of "Dartmoor"</name>
+            </head>
+            <epigraph>
+               <p rend="epigraph">[Sir Cloudesley Shovel's ship, the Association, struck upon the Gilstone, off
+                  Sicilly, with so much violence, that in about two minutes the vessel went down,
+                  and every soul on board, but one, perished. This man saved himself on a piece of
+                  timber, which floated to a rock called the Hellweathers, where he was compelled to
+                  remain some days before he could receive any assistance. Besides the Association,
+                  the Eagle, of 70, and the Romney, of 50 guns, perished, with all their crews. The
+                  Firebrand, fireship, was also lost, but most of her men were saved. Many persons
+                  of rank, and about 2000 seamen perished on this occasion. <bibl default="false">
+                     <title>DREW'S HISTORY OF CORNWALL</title>
+                  </bibl>.]</p>
+            </epigraph>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">THE blue wave roll'd away before the breeze</l>
+               <l rend="indent1" part="N">Of evening, and that gallant fleet was seen</l>
+               <l rend="indent1" part="N">Darting across the waters; ship on ship</l>
+               <l rend="indent1" part="N">Following in eager rivalry, for home</l>
+               <l rend="indent1" part="N">Lay on the welcome lee. The sun went down</l>
+               <l rend="indent1" part="N">Amid a thousand glorious hues that liv'd</l>
+               <l rend="indent1" part="N">But in his presence; and the giant clouds</l>
+               <l rend="indent1" part="N">Mov'd on in beauty and in power before</l>
+               <l rend="indent1" part="N">The day- god's burning throne. But soon was o'er</l>
+               <l rend="indent1" part="N">The pomp celestial, and the gold-fring'd cloud</l>
+               <pb n="93" xml:id="image126"/>
+               <l rend="indent1" part="N">Grew dark and darker, and the Elysian tints</l>
+               <l rend="indent1" part="N">Evanish'd swift; the clear, bright azure chang'd</l>
+               <l rend="indent1" part="N">To blackness, and with twilight came the shriek</l>
+               <l rend="indent1" part="N">Of the pursuing winds. Anon on high,</l>
+               <l rend="indent1" part="N">Seen dimly through the shadowy eve, the Chief</l>
+               <l rend="indent1" part="N">Threw out the wary signal, and they paus'd</l>
+               <l rend="indent1" part="N">Awhile upon the deep <note place="foot" resp="Author, N.T. Carrington" anchored="true">[Note to "The Hellweathers":] A
+                     few hours before the ships struck, Sir Cloudesley Shovel hove out the signal to
+                     lie to, in order to ascertain the situation of the fleet. [Author, N.T.
+                     Carrington.]</note>. Again they gave</l>
+               <l rend="indent1" part="N">Their sails to the fresh gale — again the surge</l>
+               <l rend="indent1" part="N">Swept foaming by, and every daring prow</l>
+               <l rend="indent1" part="N">Pointed to England; — England! that should greet</l>
+               <l rend="indent1" part="N">With her green hills, and long- lost vales, their eyes</l>
+               <l rend="indent1" part="N">On the sweet morrow. Beautiful is morn,</l>
+               <l rend="indent1" part="N">But, oh, how beautiful the morn that breaks</l>
+               <l rend="indent1" part="N">On the returning wanderer, doom'd no more</l>
+               <l rend="indent1" part="N">To live on fancy's visions of that spot</l>
+               <l rend="indent1" part="N">Beyond all others lov'd; — that very spot</l>
+               <l rend="indent1" part="N">Now rising from the broad, blue waters, dear</l>
+               <l rend="indent1" part="N">To him as Heav'n.</l>
+               <l rend="indent1" part="N">With fatal speed they flew</l>
+               <l rend="indent1" part="N">Through the wide- parting foam. Again the deck</l>
+               <l rend="indent1" part="N">Slop'd to the billow, and the groaning mast</l>
+               <l rend="indent1" part="N">Bent to the rising gale; yet on that night</l>
+               <l rend="indent1" part="N">The voice of the loud ocean rose to them</l>
+               <l rend="indent1" part="N">In music, for the winds that hurry'd by</l>
+               <pb n="94" xml:id="image127"/>
+               <l rend="indent1" part="N">So fierce and swift, but heralded the way</l>
+               <l rend="indent1" part="N">To the lov'd island- strand. The jaws of death</l>
+               <l rend="indent1" part="N">Were round them, and they knew it not, until</l>
+               <l rend="indent1" part="N">Chilling the life- blood of the bravest, burst</l>
+               <l rend="indent1" part="N">The everlasting cry of waves and rocks</l>
+               <l rend="indent1" part="N">From stern Cornubia's isles. Alas, to them — </l>
+               <l rend="indent1" part="N">The lost, there blaz'd no friendly Pharos' fire,</l>
+               <l rend="indent1" part="N">No star gleam'd from the heav'n. The sailor heard</l>
+               <l rend="indent1" part="N">The roar of the huge cliff, and on his brow</l>
+               <l rend="indent1" part="N">Fell the cold dew of horror. On they came — </l>
+               <l rend="indent1" part="N">Those gallant barks, fate driv'n — on they came — </l>
+               <l rend="indent1" part="N">Borne on the wings of the wild wind, to rush</l>
+               <l rend="indent1" part="N">In darkness on the black and bellowing reef</l>
+               <l rend="indent1" part="N">Where human help avails not. There they struck</l>
+               <l rend="indent1" part="N">And sank; — the hopes, the fears, the wishes all</l>
+               <l rend="indent1" part="N">Of myriads o'er, at once. Each fated ship</l>
+               <l rend="indent1" part="N">One moment sat in all her pride, and pomp,</l>
+               <l rend="indent1" part="N">And beauty, on the main; — the next, she plung'd</l>
+               <l rend="indent1" part="N">Into the "hell" of waves, and from her deck</l>
+               <l rend="indent1" part="N">Thrill'd the loud death scream — stifled as it rose</l>
+               <l rend="indent1" part="N">By the dark sea; — one blow — one shriek — the grave!</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">And all was silent — save the startling voice</l>
+               <l rend="indent1" part="N">Of the Atlantic, rising from that shore</l>
+               <l rend="indent1" part="N">In anger ever! Terribly its surge</l>
+               <l rend="indent1" part="N">Clos'd o'er them, and they perish'd in that gulf</l>
+               <l rend="indent1" part="N">Where the dead lie innumerous, and the depths</l>
+               <l rend="indent1" part="N">Are rife with monstrous shapes, and rest is none</l>
+               <pb n="95" xml:id="image128"/>
+               <l rend="indent1" part="N">Amid the infuriate war of waters hurl'd</l>
+               <l rend="indent1" part="N">In endless, horrible commotion. Heard</l>
+               <l rend="indent1" part="N">Alone, between the pausings of the gale,</l>
+               <l rend="indent1" part="N">Was one faint, human wail. Where thousands sank</l>
+               <l rend="indent1" part="N">One rode the vengeful wave, preserv'd to be,</l>
+               <l rend="indent1" part="N">As seem'd, the sport of the mad billows: now</l>
+               <l rend="indent1" part="N">Upflung upon the mountain ridges — now</l>
+               <l rend="indent1" part="N">Swift sinking in abysses vast that yawn'd</l>
+               <l rend="indent1" part="N">Almost to Ocean's bed. Yet life fled not,</l>
+               <l rend="indent1" part="N">Nor hope, though in the tempest's giant coil</l>
+               <l rend="indent1" part="N">He gasp'd for breath, and often writhed beneath</l>
+               <l rend="indent1" part="N">The suffocating waters!</l>
+               <l rend="indent1" part="N">Morning came</l>
+               <l rend="indent1" part="N">In vain, though on the island rock the sea</l>
+               <l rend="indent1" part="N">Had flung the hapless mariner. Around</l>
+               <l rend="indent1" part="N">Howl'd the remorseless surge; — above, the cloud</l>
+               <l rend="indent1" part="N">Swept, terror- wing'd; — the lightening o'er the day</l>
+               <l rend="indent1" part="N">Shed an unnatural glare, and near him broke</l>
+               <l rend="indent1" part="N">The thunder with its peal of doom. No aid</l>
+               <l rend="indent1" part="N">Came through the long, long day, yet on the cliffs</l>
+               <l rend="indent1" part="N">Floated the cheering signal; — from the strand</l>
+               <l rend="indent1" part="N">Came voices animating; — men were there</l>
+               <l rend="indent1" part="N">Impatient as the bounding greyhound held</l>
+               <l rend="indent1" part="N">Within the straining leash — a gallant band</l>
+               <l rend="indent1" part="N">Nurs'd in the western storm, familiar long</l>
+               <l rend="indent1" part="N">With danger, and with — death, but might not brave</l>
+               <l rend="indent1" part="N">The monster, now. And thus the victim hung</l>
+               <l rend="indent1" part="N">Upon eternity's dread verge, and gaz'd</l>
+               <pb n="96" xml:id="image129"/>
+               <l rend="indent1" part="N">Appall'd upon its gulf; — then backwards shrunk</l>
+               <l rend="indent1" part="N">Convulsively to life, and hope renew'd</l>
+               <l rend="indent1" part="N">Unfroze his blood, and o'er his features threw</l>
+               <l rend="indent1" part="N">A light that could not last. For evening came,</l>
+               <l rend="indent1" part="N">And the great sun descended to the main,</l>
+               <l rend="indent1" part="N">While oft the beautiful, beloved orb</l>
+               <l rend="indent1" part="N">The seaman watch'd, and sigh'd to see it sink</l>
+               <l rend="indent1" part="N">Beneath the wave; but as the twilight grew</l>
+               <l rend="indent1" part="N">Deeper and deeper, and the darkness clos'd</l>
+               <l rend="indent1" part="N">Upon him, and the hungry, howling surge</l>
+               <l rend="indent1" part="N">Was heard below, loud clamouring for its prey,</l>
+               <l rend="indent1" part="N">He wept — the lone man wept!</l>
+               <l rend="indent1" part="N">Again it came,</l>
+               <l rend="indent1" part="N">The unchang'd, unchanging morning, rising wild</l>
+               <l rend="indent1" part="N">Upon a joyless world; yet did his eye</l>
+               <l rend="indent1" part="N">Glisten to see the dawn, though it awoke</l>
+               <l rend="indent1" part="N">In tempest; and that day flew by, and night</l>
+               <l rend="indent1" part="N">Once more fell on him, and another morn</l>
+               <l rend="indent1" part="N">Broke, and the sufferer liv'd! The hand of death</l>
+               <l rend="indent1" part="N">Was on him, yet delay'd the fatal grasp;</l>
+               <l rend="indent1" part="N">And round the agonized victim look'd,</l>
+               <l rend="indent1" part="N">But succour came not! On the rugged rock</l>
+               <l rend="indent1" part="N">Crash'd the torn wreck in thunder, and the sea</l>
+               <l rend="indent1" part="N">Disgorg'd the dead — within the black recoil</l>
+               <l rend="indent1" part="N">Of waters dash'd the dead; and on the brave,</l>
+               <l rend="indent1" part="N">The lov'd, he gaz'd, and at his Despair</l>
+               <l rend="indent1" part="N">Now sat, and pointed on the abyss!</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">***************</l>
+               <l rend="indent1" part="N">***************</l>
+            </lg>
+            <lb/>
+            <pb n="97" xml:id="image130"/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">A shout</l>
+               <l rend="indent1" part="N">Comes from the cliffs — a shout of joy! Awake,</l>
+               <l rend="indent1" part="N">Thou lonely one from death's fast- coming sleep! — </l>
+               <l rend="indent1" part="N">Arise, the strand is thronging with brave men — </l>
+               <l rend="indent1" part="N">A thousand eyes are on thee, and a bark</l>
+               <l rend="indent1" part="N">Bursts o'er the breaching foam! The shifting cloud</l>
+               <l rend="indent1" part="N">Flies westward, and away the storm, repell'd</l>
+               <l rend="indent1" part="N">Relunctant sails: the winds have backward flung</l>
+               <l rend="indent1" part="N">The billows of the Atlantic! See, — they come, — </l>
+               <l rend="indent1" part="N">They come — a dauntless island- band — and now</l>
+               <l rend="indent1" part="N">A cheer is heard— and hark the dash of oars</l>
+               <l rend="indent1" part="N">Among the reefs! His eye with instant hope</l>
+               <l rend="indent1" part="N">Brightens, and all the ebbing tides of life</l>
+               <l rend="indent1" part="N">Rush with returning vigour! Now the spray</l>
+               <l rend="indent1" part="N">Flies o'er the advancing pinnace, for the wave</l>
+               <l rend="indent1" part="N">Though half subdued is mighty; yet her prow</l>
+               <l rend="indent1" part="N">Victorious parts the surges, — nearer roll</l>
+               <l rend="indent1" part="N">The cheers of that bold crew — the welcome sounds</l>
+               <l rend="indent1" part="N">Thrill on his ear — the deep'ning plunge of oars</l>
+               <l rend="indent1" part="N">Foams round the desert rock — 'tis won! 'tis won!</l>
+               <l rend="indent1" part="N">And — he is sav'd!</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

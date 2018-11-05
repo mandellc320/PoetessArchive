@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">An Address to the Lost Wig of John Bell, Esquire</title>
+            <author type="author">By a Tyro</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.poemP29</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="[anon.]" date="0000-0000" place="UK"> </name>
+                  </author>
+                  <title>An Address to the Lost Wig of John Bell, Esquire</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">176-90</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>poem</item>
+                  <item>An Address to the Lost Wig of John Bell, Esquire</item>
+                  <item>a Tyro</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g6" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="poem"
+              xml:id="P29"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="176" xml:id="image213"/>
+            <head>
+               <title>An Address to the Lost Wig of John Bell, Esquire</title>
+            </head>
+            <head>
+               <name reg="[anon.]" date="0000-0000" place="UK">By a Tyro</name>
+            </head>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">BEFORE I yet assume the band,</l>
+               <l rend="indent1" part="N">Or dare to tread on lawyer- land,</l>
+               <l rend="indent1" part="N">(A rich champaign that's never bleak</l>
+               <l rend="indent1" part="N">Nor bare to those who <emph>boldly</emph> speak;</l>
+               <l rend="indent1" part="N">Where neither cold, nor rain, nor drought</l>
+               <l rend="indent1" part="N">Can ever turn the crops to nought:) — </l>
+               <l rend="indent1" part="N">Before I venture on a brief, — </l>
+               <l rend="indent1" part="N">Before I hang a single theif, — </l>
+               <l rend="indent1" part="N">Or plunge my goose- quill into ink, — </l>
+               <l rend="indent1" part="N">Or purse my mouth and <emph>seem</emph> to think,</l>
+               <l rend="indent1" part="N">While clients stare, and rustics wonder,</l>
+               <l rend="indent1" part="N">Like young pigs when they shrink from thunder, — </l>
+               <l rend="indent1" part="N">I'll call on <emph>thee</emph>, renowned wig!</l>
+               <l rend="indent1" part="N">(In self- importance justly big)</l>
+               <l rend="indent1" part="N">Beneath whose ample curls men sit,</l>
+               <l rend="indent1" part="N">Disfigured by thy weight of wit: — </l>
+               <l rend="indent1" part="N">(For thou <emph>still</emph> dost the lawyer fire,</l>
+               <l rend="indent1" part="N">As Phoebus' rays bards' brains inspire;</l>
+               <l rend="indent1" part="N">Making mere man thrice vast and learn'd,</l>
+               <l rend="indent1" part="N">Like water into vapour turned.) — </l>
+            </lg>
+            <lb/>
+            <pb n="177" xml:id="image214"/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N"> — Spirit of wisdom, cramped and curled!</l>
+               <l rend="indent1" part="N">Type of the thoughts that fill the world!</l>
+               <l rend="indent1" part="N">(Tortured to every quirk and shift</l>
+               <l rend="indent1" part="N">That lawyers into fortune lift:)</l>
+               <l rend="indent1" part="N">What garland, wrought of barren bays? — </l>
+               <l rend="indent1" part="N">What "order," rich with martial rays? — </l>
+               <l rend="indent1" part="N">What knightly cross, or riband red?</l>
+               <l rend="indent1" part="N">What key,— — what collar ever shed</l>
+               <l rend="indent1" part="N">Such honours on man's honoured head?</l>
+               <l rend="indent1" part="N">Vittoria's splendours! — what are <emph>they</emph>
+               </l>
+               <l rend="indent1" part="N">To Eldon's powder waxing grey?</l>
+               <l rend="indent1" part="N">What black King Charles's black peruke?</l>
+               <l rend="indent1" part="N">What Villers' locks, 'though twice a duke'?</l>
+               <l rend="indent1" part="N">What Malborough's waggon- load of hair?</l>
+               <l rend="indent1" part="N">Or Lely's loves all frizz'd and fair? — </l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">And thou — <emph>Greatwig</emph>! — white — powdered — flowing</l>
+               <l rend="indent1" part="N">O'er eyebrows knit and foreheads knowing,</l>
+               <l rend="indent1" part="N">Upon what skull, on law intent,</l>
+               <l rend="indent1" part="N">Did'st perch, — <emph>thou</emph>, King of wigs! — content,</l>
+               <l rend="indent1" part="N">When wisest BELL, (so keen and kind)</l>
+               <l rend="indent1" part="N">Left law but left no peer behind, — </l>
+               <l rend="indent1" part="N">Not one so sage, and yet so meek,</l>
+               <l rend="indent1" part="N">Of all the tribes that love to speak?</l>
+               <l rend="indent1" part="N">Before what jaded judge, (who sits,</l>
+               <l rend="indent1" part="N">And sighs, and nods, and yawns by fits,)</l>
+               <l rend="indent1" part="N">Dost thou <emph>now</emph> shake thy Gorgon terrors,</l>
+               <l rend="indent1" part="N">Doubling some damned defendant's errors?</l>
+            </lg>
+            <lb/>
+            <pb n="178" xml:id="image215"/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">Or, — after P — 's judicial fury,</l>
+               <l rend="indent1" part="N">Dost smooth some forty- shilling jury?</l>
+               <l rend="indent1" part="N">Casting thy perfumes in their noses</l>
+               <l rend="indent1" part="N">The more thy brother wig opposes?</l>
+               <l rend="indent1" part="N">Or dost thou on the bench inhabit,</l>
+               <l rend="indent1" part="N">Where L — looks smug and — says 'D — it?'</l>
+               <l rend="indent1" part="N">From little snarling — — 's crown</l>
+               <l rend="indent1" part="N">Fling'st thou thy odours half- way down</l>
+               <l rend="indent1" part="N">His pigmy shape? — From Pr — st — n's head,</l>
+               <l rend="indent1" part="N">Where deep black- lettered law was bred,</l>
+               <l rend="indent1" part="N">And nursed through many a patient night</l>
+               <l rend="indent1" part="N">Till Lincolns Inn was filled with light?</l>
+               <l rend="indent1" part="N">Dwell'st thou with elder S — nd — rs, (well</l>
+               <l rend="indent1" part="N">Mayst thou with <emph>him</emph> contented dwell, — </l>
+               <l rend="indent1" part="N">A lawyer sound as ever saw</l>
+               <l rend="indent1" part="N">When sense should sway the doubtful law)?</l>
+               <l rend="indent1" part="N">Hang'st thou on L — nd — st's lordly cheek?</l>
+               <l rend="indent1" part="N">Dost thou abide with W — lde, or P — ke,</l>
+               <l rend="indent1" part="N">Both serjeants firm and fit to battle</l>
+               <l rend="indent1" part="N">A cause through four old women's tattle?</l>
+               <l rend="indent1" part="N">Or hidest thou S — t's pompous air?</l>
+               <l rend="indent1" part="N">Or M — t's visage hard and square?</l>
+               <l rend="indent1" part="N">Or A — t's look 'tween scowl and smile?</l>
+               <l rend="indent1" part="N">Or — 's face all drenched in guile?</l>
+               <l rend="indent1" part="N">Or H — ld's bold brow? or B — s — l's grace,</l>
+               <l rend="indent1" part="N">Handsomest of the lawyer race?— </l>
+               <l rend="indent1" part="N">Speak! — if thou still canst teach the tongue</l>
+               <l rend="indent1" part="N">(That thing on golden hinges hung)</l>
+               <pb n="179" xml:id="image216"/>
+               <l rend="indent1" part="N">To speak — I'll secret be — Declare,</l>
+               <l rend="indent1" part="N">From all thy thousand mouths of hair</l>
+               <l rend="indent1" part="N">If any barrister or bencher</l>
+               <l rend="indent1" part="N">
+                  <emph>Still</emph> from thy bounty fills his trencher?</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">If, on some huge block's head and shoulders,</l>
+               <l rend="indent1" part="N">Thou hang'st, the laugh of all beholders,</l>
+               <l rend="indent1" part="N">Forc'd, when thou canst inspire no more,</l>
+               <l rend="indent1" part="N">To hear the trash thou scorn'dst before,</l>
+               <l rend="indent1" part="N">Quick! leave the block (the head) — whose hum</l>
+               <l rend="indent1" part="N">Comes out as from some empty drum,</l>
+               <l rend="indent1" part="N">Which one who should be beaten beats, — </l>
+               <l rend="indent1" part="N">Where noisy nonsense, nonsense meets, — </l>
+               <l rend="indent1" part="N">Where blunders bump 'midst lawyer's quirks, — </l>
+               <l rend="indent1" part="N">And not one ounce of wisdom lurks:</l>
+               <l rend="indent1" part="N">Quick, leave the lackwit's skull all free,</l>
+               <l rend="indent1" part="N">And send the rogue to — Coventry<note place="foot"
+                        resp="Bijou Editor, William Fraser, or Author"
+                        anchored="true">[Note to "An
+                     Address to the Lost Wig of John Bell, Esq.":]Not the town, (which would be of
+                     little service to a dunce) but a learned and ingenious conveyancer of that
+                     name. [Fraser or Author.]</note>.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">Or, — are thou still, by human head,</l>
+               <l rend="indent1" part="N">O peerless wig! untenanted?</l>
+               <l rend="indent1" part="N">Hanging somewhere 'tween sea and sky,</l>
+               <l rend="indent1" part="N">Like prophets' coffin lone and high? — </l>
+               <l rend="indent1" part="N">If so, and there's a curl of hair,</l>
+               <l rend="indent1" part="N">A bunch — a look — a lock to spare,</l>
+               <l rend="indent1" part="N">Yield it to me, — to me, who left</l>
+               <l rend="indent1" part="N">(Like widow of her son bereft)</l>
+               <pb n="90" xml:id="image217"/>
+               <l rend="indent1" part="N">For aye, the sweet muse Poesy,</l>
+               <l rend="indent1" part="N">And gave my life to law and thee!</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">And must I see the poet's pages</l>
+               <l rend="indent1" part="N">No more? — <emph>ne'er</emph> dream of bright bright-ages,</l>
+               <l rend="indent1" part="N">When inspiration, like a sun,</l>
+               <l rend="indent1" part="N">Came down and deathless deed were done?</l>
+               <l rend="indent1" part="N">Farewell, then — (in Sir Blackstone's vein,</l>
+               <l rend="indent1" part="N">I'll bid the muse farewell again) — </l>
+               <l rend="indent1" part="N">Farewell, then, to the dangerous muse,</l>
+               <l rend="indent1" part="N">Whom lawyers love yet aye abuse!</l>
+               <l rend="indent1" part="N">Farewell unto the poets crowned!</l>
+               <l rend="indent1" part="N">Farewell, where laurel leaves abound, — </l>
+               <l rend="indent1" part="N">Thessalian Pindus! — Tempe's plains! — </l>
+               <l rend="indent1" part="N">Parnassus, where Apollo reigns!</l>
+               <l rend="indent1" part="N">And farewell O Castalian river!</l>
+               <l rend="indent1" part="N">Upon whose fringed banks for ever</l>
+               <l rend="indent1" part="N">Lie clustering still the dark-eyed daughters,</l>
+               <l rend="indent1" part="N">Singing to all thy running waters</l>
+               <l rend="indent1" part="N">Strange music like the Sybil's spell, — </l>
+               <l rend="indent1" part="N">Farewell, — to all and each — Farewell!</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

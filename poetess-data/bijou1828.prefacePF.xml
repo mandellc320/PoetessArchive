@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">Preface</title>
+            <author type="author">[by William Fraser]</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.prefacePF</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Fraser, William" date="1785-1835" place="UK">William Fraser</name>
+                  </author>
+                  <title>Preface</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">v-ix</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>preface</item>
+                  <item>Preface</item>
+                  <item/>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g18" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="preface"
+              xml:id="PF"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="v" xml:id="image014"/>
+            <head>
+               <title>Preface</title>
+            </head>
+            <head>[by <name reg="Fraser, William" date="1785-1835" place="UK">William
+               Fraser</name>]</head>
+            <p>The few observations which are necessary to be prefixed to this volume, will contain
+               little more than acknowledgements to the distinguished literary characters, and
+               eminent artists whose respective productions adorn its pages; as it is on those
+               productions the Publisher rests his hopes that it will be deemed entitled to an
+               elevated station among the Annual publications, not of this country only, but of
+               Europe.  Far from wishing, however, to institute invidious comparisons, he only
+               assets for it an equal claim to the notice and patronage of the public; for whether
+               with respect to its graphic illustrations, or its literary merits, he feels assured
+               that it will not be found inferior to any, even if it does not excel most, of its
+               contemporaries.</p>
+            <p>To describe the Editor's obligations to this various friends in adequate terms would
+               require space infinitely beyond that to which a preface is necessarily limited; but
+               in briefly expressing his gratitude to the celebrated characters who have cheerfully
+               afforded him the assistance of their talents, he will not only perform a grateful
+               duty, but at the same time tacitly urge the pretensions which he considers "THE
+               BIJOU" to possess to public favor.</p>
+            <p>To sir Walter Scott the proprietors and himself <pb n="vi" xml:id="image015"/>are
+               indebted for the interesting letter explanatory of the picture of his family, with an
+               engraving of which, through the liberality of its possessor Sir Adam Ferguson, and
+               the painter Mr. Wilkie, they have been able to enrich the Work.  Nor is it too much
+               to expect that if every other recommendation were wanting, that plate, and still more
+               the description by which it is accompanied would prove irresistable attractions to
+               the world; for who can be indifferent to so pleasing a memorial of a writer to whose
+               merits England, Europe, nay, the whole civilized world, has offered its homage and
+               its praise.  Conspicuous as that letter is among the literary beauties of these
+               sheets,—and to it may be attributed an interest as unfading as the reputation of its
+               writer—almost all the popular authors of the day have contributed one or more
+               scintillations of their genius; and it is with feelings of pride, admiration, and
+               gratitude, that the Editor and Proprietors offer their warmest acknowledgements to
+               John Gibson Lockhart, Esq.,<note place="foot" resp="Bijou Editor, William Fraser" anchored="true">[Note to Preface:] A few
+                  stanzas of the Ballad by Mr. Lockhart were printed in the “Janus” for 1826. It is
+                  so considerably improved and enlarged, the translation being now complete, as to
+                  assume a new character. [Bijou Editor, William Fraser.]</note> Mrs. Hemans, Sir Egerton Brydges, Bart.; Sir Thomas Elmsley
+               Croft, Bart.; the Rev. Blanco White; Barry Cornwall; L. E. L.; Miss Mitford;  Mrs.
+               Pickersgill; <pb n="vii" xml:id="image016"/>Miss Roberts; the writer of the “Diary of
+               an Ennuyée;” R. P. Gillies, Esq.;<note place="foot" resp="Bijou Editor, William Fraser" anchored="true">[Note to Preface:] Mr. Gillies
+                  beautiful Poem called “The seventh Day,” is, for want of space, reserved for the
+                  next volume. [Bijou Editor, William Fraser.]</note> J. Montgomery, Esq.; the Rev. W. Lisle Bowles; the author of
+               “The Subaltern;” Delta; Horace Smith, Esq.; Charles Lamb, Esq.; the Ettrick Shepherd;
+               Allan Cunningham, Esq.; N. T. Carrington,Esq [<emph>sic</emph>]; and to the other
+               contributors.</p>
+            <p>In expressing the Editor's thanks in a separate paragraph to S. T. Coleridge, Esq.'
+               It must not be supposed that his obligations are the less  important to those whose
+               names have just been mentioned; but where a favor has been conferred in a peculiar
+               manner, it at least demands that it should be peculiarly acknowledged.  Mr.
+               Coleridge, in the most liberal manner, permitted the Editor to select what he pleased
+               from all his unpublished MSS., and it will be seen from the “Wanderings of Cain,”
+               though unfinished, and the other pieces bearing that Gentleman's name, that whenever
+               he may favour the world with a perfect collection of his writings he will adduce new
+               and powerful claims upon its respect.</p>
+            <p>In another, but no less important department of talent, the Proprietors have yet to
+               pay their debt of gratitude.  From the invaluable favours he has conferred upon the
+               work, the first among those claimants is he, who is the first in professional
+               reputation, in liberality, and in all which characterises a Gentle-<pb n="viii" xml:id="image017"/>man, Sir Thomas Lawrence, the President of the Royal Academy,
+               who has bestowed on it three of his unrivalled productions; and which, it is needless
+               to say, are of themselves sufficient to place "THE BIJOU" in the foremost rank of the
+               embellished publications of Europe.</p>
+            <p>To H. W. Pickersgill, Esq. R. A. the Proprietors are deeply indebted for the
+               gratuitous use of his beautiful picture “The Oriental Love-Letter,” in the Council
+               Room of the Royal Academy; and which derives considerable interest from the elegant
+               illustration by which it is accompanied from the pen of his accomplished wife.  To
+               Mr. W. H. Worthington the Proprietors are grateful for the loan of his painting "The
+               Suitors Rejected."</p>
+            <p>In consequence of a resemblance between the principal incident in the Tale of
+               HALLORAN THE PEDLAR and the catastrophe described in a recent publication of deserved
+               popularity, both evidently referring to the same historical fact, it is necessary, in
+               order to prevent the suspicion of plagiarism, to state that the Tale of Halloran was
+               written, and in the hands of the publisher, long previously to the appearance of the
+               Novel where a similar circumstance is related.  Many most valuable papers, nearly
+               sufficient to form another volume, remain in the Editor's possession; for the obvious
+               reason of superabundance of matter, it was impossible to insert them in the present
+               work.</p>
+            <pb n="ix" xml:id="image018"/>
+            <p>Amidst other literary curiosities, two will be found which derive their chief
+               attraction from the illustrious rank and eminent virtues of their authors:  these
+               are, a translation of the celebrated Epistle of Servius Sulpicius to M. T. Cicero, by
+               his present Majesty; and of Cicero's Epistle to Servius Sulpicius, by the lamented
+               Duke of York, both written as exercises at a very early age.</p>
+            <p>The selection of Graphic Illustrations was made by Mr. Robert Balmanno, Secretary of
+               the Artists' Fund, and the Publisher.</p>
+            <p>Whether THE BIJOU be worthy of its name, and how far the proprietors have redeemed
+               the claim pledged in their prospectus, must be left to the public to determine.  It
+               has been their unceasing endeavour to concentrate specimens of the varied talent,
+               both in literature and art, for which this country is renowned; to allow the powers
+               of the pencil, and the connotations of the mind, mutually to relieve and and adorn
+               each other, where</p>
+            <lg org="uniform" sample="complete" part="N">
+               <l rend="indent5" part="N">"Each lends to each a double charm,</l>
+               <l rend="indent5" part="N">Like pearls upon an Ethiop's arm;"</l>
+            </lg>
+            <p>And as no trouble has been considered too laborious, no expense too great to
+               accomplish this object, they submit the result of their exertions with confidence
+               unalloyed by presumption, but not unmixed with hope.</p>
+            <p rend="alignr">
+               <bibl default="false">
+                  <author type="editor">
+                     <name reg="Fraser, William" date="1785-1835" place="UK"> W. F.</name>
+                  </author>
+               </bibl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

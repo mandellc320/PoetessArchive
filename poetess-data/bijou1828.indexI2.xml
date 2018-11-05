@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">Index of Authors</title>
+            <author type="producer">Laura Mandell</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.indexI2</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="producer">
+                     <name reg="Mandell, Laura Camilla" date="1958-0000" place="US">Laura Mandell</name>
+                  </author>
+                  <title>Index of Authors</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>index</item>
+                  <item>Index of Authors</item>
+                  <item>Laura Mandell</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g12" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="index"
+              xml:id="I2"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <head>Index of Authors</head>
+            <bibl default="false">
+               <author type="author">
+                  <name>Algalabra, Don Juan</name>
+               </author>
+               <title>
+                  <ref target="#D1">The Night Before the Battle of Montiel</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Anonymous (see also "Unknown"), Author of "Stray Leaves," </name>
+               </author>
+               <title>
+                  <ref target="#P17">The Purple Evening</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Anonymous (see also "Unknown"), "A Tyro," </name>
+               </author>
+               <title>
+                  <ref target="#P29">An Address to the Lost Wig of John Bell, Esquire</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>B., H. ["H.B."]</name>
+               </author>
+               <title>
+                  <ref target="#P40">Haddon Hall</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Bird, John, Esq.</name>
+               </author>
+               <title>
+                  <ref target="#P35">Canzonet</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Bowles, Rev. William Lisle (1762-1850)</name>
+               </author>
+               <title>
+                  <ref target="#P20">On His Majesty's Return to Windsor Castle</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Brydges, Sir Egerton. </name>
+               </author>
+               <title>
+                  <ref target="#P3">Sonnets</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Carrington, N.T.</name>
+               </author>
+               <title>
+                  <ref target="#P21">The Hellweathers</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Coleridge, Samuel Taylor (1772-1834) </name>
+               </author>
+               <title>
+                  <ref target="#P27">A Day Dream</ref>
+               </title>
+               <title>
+                  <ref target="#P36">The Two Founts</ref>
+               </title>
+               <title>
+                  <ref target="#S1">The Wanderings of Cain</ref>
+               </title>
+               <title>
+                  <ref target="#P10">Work Without Hope. Lines Composed on a Day in February</ref>
+               </title>
+               <title>
+                  <ref target="#P26">Youth and Age</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Cornwall, Barry (1787-1874) [pseud. for Bryan Procter]</name>
+               </author>
+               <title>
+                  <ref target="#S11">Beau Leverton</ref>
+               </title>
+               <title>
+                  <ref target="#P25">A Familiar Epistle to Sir Thomas Lawrence</ref>
+               </title>
+               <title>
+                  <ref target="#P13">To My Child</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Croft, Sir Thomas E.</name>
+               </author>
+               <title>
+                  <ref target="#P12">The Rose</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Cunningham, Allan (1784-1842)</name>
+               </author>
+               <title>
+                  <ref target="#P11">The Poet Warrior</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Delta (see also Moir, David Macbeth)</name>
+               </author>
+               <title>
+                  <ref target="#P41">Our Native Land</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Fraser, William </name>
+               </author>
+               <title>
+                  <ref target="#P39">Humble Love</ref>
+               </title>
+               <title>
+                  <ref target="#P34">On a Little Girl</ref>
+               </title>
+               <title>
+                  <ref target="#PF">Preface</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Gleig, George Robert (1796-1888) "Anonymous, Author of 'The Subaltern,'"
+                     </name>
+               </author>
+               <title>
+                  <ref target="#S6">Marie's Grave</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name> Hemans, Felicia Dorothea Browne (1793-1835) </name>
+               </author>
+               <title>
+                  <ref target="#P1">The Child and Flowers</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Hervey, Thomas Kibble (1799-1859) </name>
+               </author>
+               <title>
+                  <ref target="#P24">Anacreontic</ref>
+               </title>
+               <title>
+                  <ref target="#P14">Song</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Hogg, James (1770-1835)</name>
+               </author>
+               <title>
+                  <ref target="#P8">An Aged Widow's Own Words</ref>
+               </title>
+               <title>
+                  <ref target="#P23">Ane Waefu' Scots Pastoral</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Hood, Thomas (1799-1845)</name>
+               </author>
+               <title>
+                  <ref target="#P16">A Lament for the Decline of Chivalry</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Jameson, Anna (Mrs.) (1794-1860), "Anonymous, Writer of the 'Diary of an
+                        Ennuyée.'" </name>
+               </author>
+               <title>
+                  <ref target="#S9">Halloran the Pedlar: An Irish Story</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Lamb, Caroline (1775-1834)</name>
+               </author>
+               <title>
+                  <ref target="#P19">To a Friend</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Lamb, Charles (1775-1834) </name>
+               </author>
+               <title>
+                  <ref target="#P7">Lines Written in the Vail of Zoar</ref>
+               </title>
+               <title>
+                  <ref target="#P6">Verses for an Album</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Landon, Letitia Elizabeth (902-1838) </name>
+               </author>
+               <title>
+                  <ref target="#P4">The City of the Dead</ref>
+               </title>
+               <title>
+                  <ref target="#P15">Sans Souci</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Leeds, W.H.</name>
+               </author>
+               <title>
+                  <ref target="#P28">From S.P. Wolff</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name> Lockhart, John Gibson (1794-1854) </name>
+               </author>
+               <title>
+                  <ref target="#P2">Ballad from the Norman French</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Mitford, Mary Russell (1787-1855)</name>
+               </author>
+               <title>
+                  <ref target="#S3">Jessy of Kibe's Farm</ref>
+               </title>
+               <title>
+                  <ref target="#P31">The Lover's Invocation</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name> Moir, David Macbeth ["Delta"]</name>
+               </author>
+               <title>
+                  <ref target="#P41">Our Native Land</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Montgomery, James (1771-1854) </name>
+               </author>
+               <title>
+                  <ref target="#P30">A Smile, On A Lady's Portraits</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Neele, Henry (1798-1828) </name>
+               </author>
+               <title>
+                  <ref target="#D2">Mount Carmel</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Pickersgill, Mrs.</name>
+               </author>
+               <title>
+                  <ref target="#P38">The Oriental Love-Letter</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Richardson, D.L.</name>
+               </author>
+               <title>
+                  <ref target="#P37">Morning</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Roberts, Emma.</name>
+               </author>
+               <title>
+                  <ref target="#S4">The Suitors Rejected</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Scott, Walter (1771-1832) </name>
+               </author>
+               <title>
+                  <ref target="#L1">Letter from Sir Walter Scott, Bart</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Smith, Horace (1770-1849) </name>
+               </author>
+               <title>
+                  <ref target="#S12">Essex and the Maid of Honour</ref>
+               </title>
+               <title>
+                  <ref target="#P32">Inscription for a Grotto</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>Southey, Robert (1774-1843) </name>
+               </author>
+               <title>
+                  <ref target="#P22">Imitation from the Persian</ref>
+               </title>
+               <title>
+                  <ref target="#P18">Scotland</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name> "Unknown" (see also Anonymous)</name>
+               </author>
+               <title>
+                  <ref target="#S7">The Epistle of Servius to Marcus Tullius Cicero</ref>
+               </title>
+               <title>
+                  <ref target="#S8">The Epistle of Marcus Tullius Cicero to Servius
+                        Sulpicius</ref>
+               </title>
+               <title>
+                  <ref target="#P33">The Infant Shakespeare</ref>
+               </title>
+               <title>
+                  <ref target="#P9">From the Italian</ref>
+               </title>
+               <title>
+                  <ref target="#S5">The Ritter Von Reichenstein</ref>
+               </title>
+               <title>
+                  <ref target="#S10">Sketch from Life: A Sentimental Story</ref>
+               </title>
+            </bibl>
+            <bibl default="false">
+               <author type="author">
+                  <name>White, Joseph Blanco.</name>
+               </author>
+               <title>
+                  <ref target="#P5">Night and Death: A Sonnet</ref>
+               </title>
+            </bibl>
+         </div>
+      </body>
+   </text>
+</TEI>

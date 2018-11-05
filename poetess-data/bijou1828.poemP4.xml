@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">The City of the Dead</title>
+            <author type="author">By L.E.L.</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.poemP4</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="L. E. L. (Letitia Elizabeth Landon)"
+                           date="902-1838"
+                           place="UK"> </name>
+                  </author>
+                  <title>The City of the Dead</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">13-15</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>poem</item>
+                  <item>The City of the Dead</item>
+                  <item/>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g6" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="poem"
+              xml:id="P4"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="13" xml:id="image036"/>
+            <head>
+               <title>The City of the Dead</title>
+            </head>
+            <head>
+               <name reg="L. E. L. (Letitia Elizabeth Landon)"
+                     date="902-1838"
+                     place="UK">By
+                  L.E.L.</name>
+            </head>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">'Twas dark with cypresses and yews which cast</l>
+               <l rend="indent1" part="N">Drear shadows on the fairer trees and flowers—</l>
+               <l rend="indent1" part="N">Affections latest signs. * * *</l>
+               <l rend="indent1" part="N">Dark portal of another world— the grave—</l>
+               <l rend="indent1" part="N">I do not fear thy shadow; and methinks,</l>
+               <l rend="indent1" part="N">If I may make my own heart oracle,—</l>
+               <l rend="indent1" part="N">The many long to enter thee, for thou</l>
+               <l rend="indent1" part="N">Alone canst reunite the loved and lost</l>
+               <l rend="indent1" part="N">With those who pine for them. I fear thee not;</l>
+               <l rend="indent1" part="N">I only fear mine own unworthiness,</l>
+               <l rend="indent1" part="N">Lest it prove barrier to my hope, and make</l>
+               <l rend="indent1" part="N">Another parting in another world.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">*************************************************************************</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">1.</l>
+               <l rend="indent1" part="N">LAUREL! Oh fling thy green boughs on air,</l>
+               <l rend="indent1" part="N">There is dew on thy branches, what doth it do there?</l>
+               <l rend="indent1" part="N">Thou art worn on the conquerors shield,</l>
+               <l rend="indent1" part="N">When his country receives him from glory's red field;</l>
+               <l rend="indent1" part="N">Thou that art wreathed round the lyre of the bard,</l>
+               <l rend="indent1" part="N">When the song of its sweetness has won its reward.</l>
+               <l rend="indent1" part="N">Earth's changeless and sacred— thou proud laurel tree!</l>
+               <l rend="indent1" part="N">The ears of the midnight, why hang they on thee?</l>
+            </lg>
+            <lb/>
+            <pb n="14" xml:id="image037"/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">2.</l>
+               <l rend="indent1" part="N">Rose of the morning, the blushing and bright,</l>
+               <l rend="indent1" part="N">Thou whose whole life is noe breath of delight;</l>
+               <l rend="indent1" part="N">Beloved of the maiden, the chosen to bind</l>
+               <l rend="indent1" part="N">Her dark tresses' wealth from the wild summer wind.</l>
+               <l rend="indent1" part="N">Fair tablet, still vowed to the thoughts of the lover,</l>
+               <l rend="indent1" part="N">Whose rich leaves with sweet secrets are written all over;</l>
+               <l rend="indent1" part="N">Fragrant as blooming— thou lovely rose tree!</l>
+               <l rend="indent1" part="N">The tears of the midnight, why hang they on thee?</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">3.</l>
+               <l rend="indent1" part="N">Dark cypress I see thee— thou art my reply,</l>
+               <l rend="indent1" part="N">Why the tears of the night on thy comrade trees lie;</l>
+               <l rend="indent1" part="N">That laurel it wreathed the red brow of the brave,</l>
+               <l rend="indent1" part="N">Yet thy shadow lies black on the warriors grave.</l>
+               <l rend="indent1" part="N">That rose was less bright than the lip which it prest,</l>
+               <l rend="indent1" part="N">Yet thy sad branches sweep o'er the maiden's last rest:</l>
+               <l rend="indent1" part="N">The brave and the lovely alike they are sleeping,</l>
+               <l rend="indent1" part="N">I marvel no more rose and laurel are weeping.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">4.</l>
+               <l rend="indent1" part="N">Yet sunbeam of heaven thou fall'st on the tomb—</l>
+               <l rend="indent1" part="N">Why pausest thou by such dwelling of doom?</l>
+               <l rend="indent1" part="N">Before thee the grove and the garden are spread;</l>
+               <l rend="indent1" part="N">Why lingerest thou round the place of the dead?</l>
+               <pb n="15" xml:id="image038"/>
+               <l rend="indent1" part="N">Thou art from another, a lovelier sphere,</l>
+               <l rend="indent1" part="N">Unknown to the sorrows that darken us here.</l>
+               <l rend="indent1" part="N">Thou art as a herald of hope from above:—</l>
+               <l rend="indent1" part="N">Weep mourner no more o'er thy grief and thy love;</l>
+               <l rend="indent1" part="N">Still thy heart in its beating, be glad of such rest,</l>
+               <l rend="indent1" part="N">Though it call from thy bosom its dearest and best.</l>
+               <l rend="indent1" part="N">Weep no more that affection thus loosens its tie, </l>
+               <l rend="indent1" part="N">Weep no more the the loved and the loving must die</l>
+               <l rend="indent1" part="N">Weep no more o'er the cold dust that lies at your feet,</l>
+               <l rend="indent1" part="N">But gaze on yon starry world— there ye shall meet.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">5.</l>
+               <l rend="indent1" part="N">O heart of mine! Is there not One dwelling there</l>
+               <l rend="indent1" part="N">To whom thy love clings in its hope and its prayer?</l>
+               <l rend="indent1" part="N">For whose sake thou numberest each hour of the day,</l>
+               <l rend="indent1" part="N">As a link in the fetters that keep me away;</l>
+               <l rend="indent1" part="N">When I think of the glad and the beautiful home,</l>
+               <l rend="indent1" part="N">Which oft in my dreams to my spirit hath come;</l>
+               <l rend="indent1" part="N">That when our last sleep on my eyelids hath prest;</l>
+               <l rend="indent1" part="N">That I may be with thee at home and at rest:</l>
+               <l rend="indent1" part="N">When wanderer no longer on life's weary shore,</l>
+               <l rend="indent1" part="N">I may kneel at thy feet, and part from thee no more;</l>
+               <l rend="indent1" part="N">While death holds such hope forth to soothe and to save,</l>
+               <l rend="indent1" part="N">Oh sumbeam of heaven thou mayest will light the grave.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

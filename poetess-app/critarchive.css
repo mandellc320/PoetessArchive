@@ -129,7 +129,7 @@ h6 {
 	font-size: 0.8em;
 	font-weight: bold;
 }
-.pagenumber {
+.pageNumber {
 	font-size: 16px;
 	line-height: 30px;
 	text-indent: 0px;
@@ -334,4 +334,8 @@ figure {
 .sup {
     vertical-align: super;
     font-size: 70%;
+}
+section.noteSpace {
+    border: none;
+    height: 20em;
 }

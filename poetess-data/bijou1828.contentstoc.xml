@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">Contents.</title>
+            <author type="producer">William Pickering</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.contentstoc</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="producer">
+                     <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                  </author>
+                  <title>Contents.</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">[xiii]-xiv</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>contents</item>
+                  <item>Contents.</item>
+                  <item>William Pickering</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g9" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="contents"
+              xml:id="toc"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="[xiii]" xml:id="image022"/>
+            <head>Contents.</head>
+            <ab rend="right" part="N">PAGE</ab>
+            <list type="simple">
+               <item>
+                  <ref target="#P1">The Child and Flowers</ref>. By Mrs. Hemans
+                  ........................ 1 </item>
+               <item>
+                  <ref target="#P2">Ballad from the Norman French</ref>. By J.G. Lockhart, Esq... 4 </item>
+               <item>
+                  <ref target="#P3">Sonnets</ref>. By Sir Egerton Brydges, Bart.
+                  ......................... 11</item>
+               <item>
+                  <ref target="#P4">The City of the Dead</ref>. By L. E. L.
+                  ..................................13 </item>
+               <item>
+                  <ref target="#P5">Night and Death</ref>. By the Rev. Joseph Blanco White
+                  ........16 </item>
+               <item>
+                  <ref target="#S1">The Wanderings of Cain</ref>. By S. T. Coleridge, Esq. .........
+                  17 </item>
+               <item>
+                  <ref target="#P6">Verses for an Album</ref>. By Charles Lamb, Esq.
+                  ................ 24 </item>
+               <item>
+                  <ref target="#P7">Lines written in the Vale of Zoar</ref>
+                  ..................................... 25 </item>
+               <item>
+                  <ref target="#P8">An aged Widow's own Words</ref> By James Hogg, the <lb/> Ettrick
+                  Shepherd.................................................... 26 </item>
+               <item>
+                  <ref target="#P9">From the Italian</ref>
+                  .............................................................. 27 </item>
+               <item>
+                  <ref target="#P10">Work without Hope</ref>. By S. T. Coleridge, Esq.
+                  ............... 28 </item>
+               <item>
+                  <ref target="#P11">The Poet-Warrior</ref>. By Allan Cunningham
+                  ....................... 29 </item>
+               <item>
+                  <ref target="#P12">The Rose</ref>. By Sir Thomas E. Croft, Bart.
+                  ....................... 31 </item>
+               <item>
+                  <ref target="#P13">To my Child</ref>. By B. C.
+                  .................................................. 32 </item>
+               <item>
+                  <ref target="#L1">Letter from Sir Walter Scott, Bart.</ref>
+                  ................................. 33 </item>
+               <item>
+                  <ref target="#D1">The Night before the Battle of Montiel</ref>. From the <lb/>
+                  Spanish of Don Juan Algalaba ............................... 39 </item>
+               <item>
+                  <ref target="#S3">Jessy of Kibe's Farm</ref>. By Miss M. R. Mitford
+                  ............... 65 </item>
+               <item>
+                  <ref target="#P14">Song</ref>. By T. K. Hervey, Esq.
+                  ........................................ 76 </item>
+               <item>
+                  <ref target="#P15">Sans Souci</ref>. By. L. E. L.
+                  ............................................... 77 </item>
+               <item>
+                  <ref target="#P16">A Lament for the Decline of Chivalry</ref>. By T. Hood, <lb/>
+                  Esq. Author of "Whims and Oddities" .................... 75 </item>
+               <item>
+                  <ref target="#P17">The Purple Evening</ref>. By the author of 'Stray Leaves'
+                  ...... 80 </item>
+               <item>
+                  <ref target="#P18">Scotland</ref>. By Robert Southey, Esq. Poet Laureat ..........
+                  81 </item>
+               <item>
+                  <ref target="#P19">To a Friend</ref>. By Lady Caroline Lambe
+                  .......................... 89 </item>
+               <item>
+                  <ref target="#P20">On his Majesty's Return to Windsor Castle</ref>. By the <lb/>
+                  Rev. W. Lisle Bowles ............................................ 91 </item>
+               <item>
+                  <ref target="#P21">The Hellweathers</ref>. By N. T. Carrington, Esq. Author <lb/>
+                  of "Dartmoor" ....................................................... 92 </item>
+               <item>
+                  <ref target="#P22">Imitation from the Persian</ref>. By Dr. Southey
+                  ................... 98 </item>
+               <item>
+                  <ref target="#S4">The Suitors Rejected</ref>. By Miss Emma Roberts, Author <lb/>
+                  of "Memoirs of the Houses of York and Lancaster." 99 </item>
+               <item>
+                  <ref target="#P23">Ane Waefu' Scots Pastoral</ref>. By James Hogg, the <lb/>
+                  Ettrick Shepherd ................................................. 108 </item>
+            </list>
+            <pb n="xiv" xml:id="image023"/>
+            <ab rend="right" part="N">CONTENTS. </ab>
+            <ab rend="left" part="N">PAGE</ab>
+            <list type="simple">
+               <item>
+                  <ref target="#P24">Anacreontic</ref>. By T. K. Hervey,
+                  Esq............................... 112</item>
+               <item>
+                  <ref target="#S5">The Ritter Von Reichenstein</ref>
+                  ......................................... 114</item>
+               <item>
+                  <ref target="#P25">A familiar Epistle to Sir Thomas Lawrence</ref>. By Barry<lb/>
+                  Cornwall .............................................................. 139</item>
+               <item>
+                  <ref target="#P26">Youth and Age</ref>. By S. T. Coleridge,
+                  Esq........................144</item>
+               <item>
+                  <ref target="#P27">A Day Dream</ref>. By S. T. Coleridge,
+                  Esq........................ .146</item>
+               <item>
+                  <ref target="#S6">Marie's Grave</ref>. By the Author of "The
+                  Subaltern"............148</item>
+               <item>
+                  <ref target="#P28">The National Norwegian Song</ref>. By W. H. Leeds,
+                  Esq.....173</item>
+               <item>
+                  <ref target="#P29">An Address to the Lost Wig of John Bell, Esq</ref>. By a<lb/>
+                  Tyro......................................................................176</item>
+               <item>
+                  <ref target="#P30">A Simile, on a Lady's Portrait</ref>. By James Montgo-<lb/>
+                  mery, Esq..............................................................181</item>
+               <item>
+                  <ref target="#S7">The Epistle of Servius Sulpicius to Marcus Tullius<lb/>
+                     Cicero</ref>. Translated by his Majesty..........................183</item>
+               <item>
+                  <ref target="#S8">The Epistle of Marcus Tullius Cicero to Servius Sul-<lb/>
+                     picius</ref>. Translated by his late Royal Highness<lb/> the Duke of York
+                  ..................................................188</item>
+               <item>
+                  <ref target="#P31">The Lover's Invocation</ref>. By Miss
+                  Mitford....................... 191</item>
+               <item>
+                  <ref target="#P32">Inscription for a Grotto</ref>. By Horace Smith,
+                  Esq...............193</item>
+               <item>
+                  <ref target="#P33">The Infant
+                  Shakespeare</ref>..................................................195</item>
+               <item>
+                  <ref target="#P34">On a Little Girl</ref>. By W.
+                  Fraser........................................ 198</item>
+               <item>
+                  <ref target="#P35">Canzonet</ref>. By John Bird,
+                  Esq..........................................200</item>
+               <item>
+                  <ref target="#P36">The Two Founts</ref>. By S. T. Coleridge,
+                  Esq.......................202</item>
+               <item>
+                  <ref target="#S9">Halloran the Pedlar</ref>. By the writer of the "Diary<lb/> of
+                  an Ennuyée" ......................................................205</item>
+               <item>
+                  <ref target="#P37">Morning</ref>. By D. L. Richardson,
+                  Esq................................240</item>
+               <item>
+                  <ref target="#P38">The Oriental Love-Letter</ref>. By Mrs. Pickersgill,
+                  Author<lb/> of the "Tales of the Harem"
+                  ....................................241</item>
+               <item>
+                  <ref target="#D2">Mount Carmel</ref>. By H. Neele,
+                  Esq.................................. 234</item>
+               <item>
+                  <ref target="#S10">Sketch from Life</ref>
+                  ............................................................242</item>
+               <item>
+                  <ref target="#S11">Beau Leverton</ref>
+                  ...............................................................261</item>
+               <item>
+                  <ref target="#S12">Essex and the Maid of Honour</ref>. By Horace Smith, Esq...
+                  285</item>
+               <item>
+                  <ref target="P39">Humble Love</ref>. By William
+                  Fraser....................................312</item>
+               <item>
+                  <ref target="#P40">Haddon Hall</ref>. By H.
+                  B....................................................315</item>
+               <item>
+                  <ref target="#P41">My [sic.] Native Land</ref>. By Delta, of Blackwood's
+                  Magazine....319</item>
+               <item>
+                  <ref target="#I1"> [Index of Embellishments]</ref>
+               </item>
+               <item>
+                  <ref target="#I2">[Index of Authors]</ref>
+               </item>
+               <item>
+                  <ref target="#Notes">[Notes]</ref>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

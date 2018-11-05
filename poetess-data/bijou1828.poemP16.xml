@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">A Lament for the Decline of Chivalry</title>
+            <author type="author">By Thomas Hood, Esq.</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.poemP16</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Hood, Thomas" date="1799-1845" place="UK">Thomas Hood</name>
+                  </author>
+                  <title>A Lament for the Decline of Chivalry</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">76-79</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>poem</item>
+                  <item>A Lament for the Decline of Chivalry</item>
+                  <item>Thomas Hood, Esq.</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g6" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="poem"
+              xml:id="P16"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <head>
+               <title>A Lament for the Decline of Chivalry</title>
+            </head>
+            <head>
+               <name reg="Hood, Thomas" date="1799-1845" place="UK">By Thomas Hood, Esq.</name>
+            </head>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">Well hast thou cried, departed Burke,</l>
+               <l rend="indent1" part="N">All chivalrous romantic work,</l>
+               <l rend="indent1" part="N">Is ended now and past! — </l>
+               <l rend="indent1" part="N">That iron age — which some have thought</l>
+               <l rend="indent1" part="N">Of mettle rather overwrought — </l>
+               <l rend="indent1" part="N">Is now all over- cast!</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">Aye, — where are those heroic knights</l>
+               <l rend="indent1" part="N">Of old — those armadillos wights</l>
+               <l rend="indent1" part="N">Who wore the plated vest, — </l>
+               <l rend="indent1" part="N">Great Charlemagne, and all his peers</l>
+               <l rend="indent1" part="N">Are cold — enjoying with their spears</l>
+               <l rend="indent1" part="N">An everlasting rest! — </l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">The bold King Arthur sleepeth sound,</l>
+               <l rend="indent1" part="N">So sleep his knights who gave that Round</l>
+               <pb n="76" xml:id="image103"/>
+               <l rend="indent1" part="N">Old Table such eclat!</l>
+               <l rend="indent1" part="N">Oh Time has pluck'd the plumy brow!</l>
+               <l rend="indent1" part="N">And none engage at turneys now</l>
+               <l rend="indent1" part="N">But those who go to law!</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">No Percy branch now perserveres</l>
+               <l rend="indent1" part="N">Like those of old in breaking spears — </l>
+               <l rend="indent1" part="N">The name is now a lie! — </l>
+               <l rend="indent1" part="N">Surgeons, alone, by any chance,</l>
+               <l rend="indent1" part="N">Are all that ever couch a lance</l>
+               <l rend="indent1" part="N">To couch a body's eye!</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">Alas! for Lion- Hearted Dick,</l>
+               <l rend="indent1" part="N">That cut the Moslems to the quick,</l>
+               <l rend="indent1" part="N">His weapon lies in peace, — </l>
+               <l rend="indent1" part="N">Oh, it would warm them in a trice,</l>
+               <l rend="indent1" part="N">If they could only have a spice</l>
+               <l rend="indent1" part="N">Of his old mace in Greece!</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">The fam'd Rinaldo lies a- cold,</l>
+               <l rend="indent1" part="N">And Tancred too, and Godfrey bold,</l>
+               <pb n="77" xml:id="image104"/>
+               <l rend="indent1" part="N">That scal'd the holy wall!</l>
+               <l rend="indent1" part="N">No Saracen meets Paladin,</l>
+               <l rend="indent1" part="N">We hear of no great Saladin,</l>
+               <l rend="indent1" part="N">But only grow the small!</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">Our Cressy's too have dwindled since</l>
+               <l rend="indent1" part="N">To penny things — at our Black Prince</l>
+               <l rend="indent1" part="N">Historic pens would scoff — </l>
+               <l rend="indent1" part="N">The only one we moderns had</l>
+               <l rend="indent1" part="N">Was nothing but a Sandwich lad,</l>
+               <l rend="indent1" part="N">And measles took him off! — </l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">Where are those old and feudal clans,</l>
+               <l rend="indent1" part="N">Their pikes, and bills, and partizans</l>
+               <l rend="indent1" part="N">Their hauberks — jerkins — buffs?</l>
+               <l rend="indent1" part="N">A battle was a battle then,</l>
+               <l rend="indent1" part="N">A breathing piece of work — but men</l>
+               <l rend="indent1" part="N">Fight now — with powder puffs!</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">The curtal- axe is out of date!</l>
+               <l rend="indent1" part="N">The good old cross- bow bends — to Fate,</l>
+               <l rend="indent1" part="N">'Tis gone — the archer's craft!</l>
+               <l rend="indent1" part="N">No tough arm bends the springing yew,</l>
+               <l rend="indent1" part="N">And jolly draymen ride, in lieu</l>
+               <l rend="indent1" part="N">Of Death, upon the shaft. — </l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">The spear — the gallant tilter's pride</l>
+               <l rend="indent1" part="N">The rusty spear is laid aside,</l>
+               <pb n="78" xml:id="image105"/>
+               <l rend="indent1" part="N">Oh spits now domineer! — </l>
+               <l rend="indent1" part="N">The coar of mail is left alone, — </l>
+               <l rend="indent1" part="N">And where is chain- armour gone?</l>
+               <l rend="indent1" part="N">Go ask at Brighton Pier.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">We fight in ropes and not in lists,</l>
+               <l rend="indent1" part="N">Bestowing hand- cuffs with our fists,</l>
+               <l rend="indent1" part="N">A low and vulgar art! — </l>
+               <l rend="indent1" part="N">No man is overthrown — </l>
+               <l rend="indent1" part="N">A tilt! — It is a thing unknown — </l>
+               <l rend="indent1" part="N">Except upon a cart.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">The spear — the gallant tilter's pride</l>
+               <l rend="indent1" part="N">The rusty spear is laid aside,</l>
+               <l rend="indent1" part="N">Oh spits now domineer! — </l>
+               <l rend="indent1" part="N">The coar of mail is left alone, — </l>
+               <l rend="indent1" part="N">And where is chain- armour gone?</l>
+               <l rend="indent1" part="N">Go ask at Brighton Pier.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">Mehtinks I see the bounding barb,</l>
+               <l rend="indent1" part="N">Clad like his Chief in steely garb,</l>
+               <l rend="indent1" part="N">For warding steel's appliance! — </l>
+               <l rend="indent1" part="N">Methinks I hear the trumpet stir!</l>
+               <l rend="indent1" part="N">'Tis but the guard to Exeter,</l>
+               <l rend="indent1" part="N">That bugles the "Defiance!"</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">In cavils when will cavaliers</l>
+               <l rend="indent1" part="N">Set ringing helmets by the ears,</l>
+               <l rend="indent1" part="N">And scatter plumes about?</l>
+               <l rend="indent1" part="N">Or blood — if they are in the vein?</l>
+               <l rend="indent1" part="N">That tap will never run again — </l>
+               <l rend="indent1" part="N">Alas the <emph>Casque</emph> is out!</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">No iron- crackling now is scor'd</l>
+               <l rend="indent1" part="N">By dint of battle- axe or sword,</l>
+               <pb n="79" xml:id="image106"/>
+               <l rend="indent1" part="N">To find a vital place — </l>
+               <l rend="indent1" part="N">Though certain Doctors still pretend</l>
+               <l rend="indent1" part="N">Awhile, before they kill a friend,</l>
+               <l rend="indent1" part="N">To labout through his case.</l>
+            </lg>
+            <lb/>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l rend="indent1" part="N">Farewell, then, ancient men of might!</l>
+               <l rend="indent1" part="N">Crusader! errant squire, and knoght!</l>
+               <l rend="indent1" part="N">Our coats and customs soften, — </l>
+               <l rend="indent1" part="N">To rise would only make ye weep — </l>
+               <l rend="indent1" part="N">Sleep on, in rusty iron sleep.</l>
+               <l rend="indent1" part="N">As in a safety- coffin!</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

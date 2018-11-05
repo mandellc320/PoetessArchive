@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">The Suitors Rejected</title>
+            <author type="author">By Miss Emma Roberts, Author of "The History of the Red and White Roses."</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.storyS4</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Roberts, Emma" date="1794-1840" place="UK">Emma Roberts</name>
+                  </author>
+                  <title>The Suitors Rejected</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">99-107</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>story</item>
+                  <item>The Suitors Rejected</item>
+                  <item>Miss Emma Roberts, Author of "The History of the Red and White Roses."</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g7" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="story"
+              xml:id="S4"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="99" xml:id="image134"/>
+            <head>
+               <title>The Suitors Rejected</title>
+            </head>
+            <head>
+               <name reg="Roberts, Emma" date="1794-1840" place="UK">By Miss Emma Roberts, Author of
+                  "The History of the Red and White Roses."</name>
+            </head>
+            <p>"UPON what knave's errand art thou sent, my dainty page thus early?" exclaimed
+               Leonora, "had I not been afoot with the lark to gather May- dew before the sun had
+               drank the moisture from these flowers, thou mightest have gone bootless home again,
+               for my lady the countess, and Victorine and Eugenie still press their pillows:
+               dreaming perchance of thy master and his gallant esquire; dost think boy, that
+               sallow-visaged melancholy baron, sighing after the wreck of the fortune which he
+               lacks the wit to mend, or the doughty hero, Roland, who would fain prompt him, if his
+               dull brain could compass the matter, to some dexterous shift or stirring enterprise;
+               or those goodly trencher men, Dugarde and Montresor, are like to haunt a lady's
+               slumbers?"</p>
+            <p>"Faith, Leonora," replied the page, "it passes my poor judgment to decide what it may
+               please the fancy of thy lady and her maids to dream about; the place is solitary thou
+               knowest — there are no other cavaliers of any mark or likelihood within a dozen <pb n="100" xml:id="image135"/>miles, they wear feathers in their caps and deck their
+               legs in silken hose, things which women wondrously affect to look upon, and perchance
+               in default of more ruffling gallants, they may be endured."</p>
+            <p>"Now out upon thee, for a saucy varlet," cried Leonora, "hie thee hence, sire page,
+               or thou shalt taste the discipline of the scullion's broom, and be sent roaring home
+               again."</p>
+            <p>"An' thou dost not bid me stay, fair mistress, I'll get me gone, and speedily, but
+               I'll carry that away which to possess thou wouldst give — aye, the lovelock Roland
+               begged so earnestly last night, which thou sworest should go with thee to thy grave —
+               a secret, Leonora."</p>
+            <p>"A secret — nay, purse not up thy pretty mouth, thou paragon of pages, but tell it
+               quickly; come, thou art a sprightly lad, and wilt make a better knight than thy
+               master."</p>
+            <p>"And dost thou think to beguile me with sugared words; no, no, something better,
+               lady, or I'm gone."</p>
+            <p>"Thou shalt have an eyas, one that the master falconer engages shall prove a tarsel
+               gentle; I'll broider thee thy glove myself, and its jesses shall be of silver:
+               methinks thou only wantest a bird upon thy fist to brave it with the best."</p>
+            <p>"Wilt thou give me a kiss, Madonna?"</p>
+            <p>"Aye, manikin, twenty; dost think that I should blush to press the smooth lip of such
+               a beard-<pb n="101" xml:id="image136"/>less urchin? go to, I'll give thee something
+               better than a kiss, take this fair chain of gold, a metal wondrous scant at yonder
+               castle, if report speak true; every link will buy thee some rich gawd; thou shalt
+               have horse to ride, a good sword girded at thy side, and still wear half its length
+               about thy neck."</p>
+            <p>"Methinks I could carry a hawk as fair, and manage a steed, and wield a rapier as
+               well as the favourite page of King Charles himself, but though I prize a horse and a
+               falcon, and thy massy chain, and thy sweet kisses, pretty Leonora, I'll not sell my
+               secret for aught a-kin to lucre; thou shalt have it without fee or guerdon, because I
+               desire to merit the gilded spurs I mean to win, and I deem it to be rank cowardice
+               for men to set their wit against the weaker sex."</p>
+            <p>"Aye, marry, these are dainty scruples, malapert conceited minion, keep thy council
+               to aid thy master and his sapient friends, and leave us to countervail their plots.
+               This must needs be some device of Roland's, for the baron has thought of nothing
+               better than to sigh under the garden wall, while his trusty squire clears his hoarse
+               throat and trolls some dismal ditty; and Dugarde and Montresor being kept fasting,
+               groan in concert, and cast tender glances at Victorine and Eugenie, or at the shields
+               of brawn which the servitors carry into the buttery, it were hard to say which."</p>
+            <pb n="102" xml:id="image137"/>
+            <p>"Farewell, mistress Leonora, I meant to do thy lady a service; for not to speak it
+               disparagingly, her broad lands rather than her beauty have tempted my master, whose
+               revenues are, as thou sayest, somewhat slack, to play false to his plighted bride;
+               and thy glittering carkanets, Leonora, and the pearl studs, and the diamond bodkins
+               in which the silly hearts of thy fair companions so much delight, are the grand
+               attraction with his needy followers. I dare not hint that Roland is drawn hither by
+               any brighter object than thine eyes, but Montresor and Dugarde see butts of
+               malvoisin, haunches of the red deer, hawks, Damascus blades, and Barbary coursers in
+               every gem."</p>
+            <p>"I guessed as much," exclaimed Leonora, "an' thy secret be upon a par with thy news,
+               'twere scarcely worth while to rise so early with it, but for once, though thou
+               deserv'st it not, I'll humour thee; I see thou art burning to tell this marvellous
+               tale, so out with it — from sheer compassion I'll lend thee mine ear."</p>
+            <p>"Take me then to thy bower, Leonora," replied the page, "for we have idled the time
+               until the morning solitude is broken, and stragglers haunt the glade."</p>
+            <p>"Willingly, my fair boy, and I'll break thy fast with a manchet of wheaten bread, and
+               a platter of potted lampreys, cates I trow not common in the <pb n="103" xml:id="image138"/>baron's hall, and thou shalt wash down both with a cup of
+               sack."</p>
+            <p>The page and the lady passed into the fair chateau of the young Countess de
+               Normanville, laughing as they threw the dew-besprinkled flowers in sport at each
+               other, but the frolic mood of the maiden was changed, as after the lapse of an hour
+               she shewed the boy out of a little postern gate, and charged him to be faithful.
+               Flying round to the mew, where, as he was wont, Bertram de Lille was stationed
+               overlooking the falconers and whistling to the hawks, Leonora seized the youth by the
+               arm, exclaiming, "To horse! to horse! sweet servant, away to the lady of Beaujeu,
+               there is mischief brewing, the thick skulls of the baron's followers have hatched a
+               plot which will cost thee some hard riding, and me all the jewels in my casket to
+               defeat. Here are twenty broad pieces for the lacquey who keeps the door, and this
+               rich chain for the seneschal that you may have speech of the lady; and stay, here is
+               a ruby ring as some small token of our mistress's affection for her royal kinswoman,
+               and these clasps and brooches are for her waiting gentlewomen, that they may speed
+               thy errand; and as I learn that money is not over plenty in the king's camp, for the
+               jewels of the Duchess of Savoy and the Marchioness of Montserrat, which he has
+               borrowed, lie in pawn for his necessities, stint not to say that so there be a fa-<pb n="104" xml:id="image139"/>vourable answer to this missive, plate to the value of
+               a thousand marks shall be dispatched to Lombardy. Now it is well, thou art mounted,
+               fly with the speed of the wind, and linger not in making those gambados — thy skill
+               in horsemanship has not been cast away on careless eyes."</p>
+            <p>De Lille obeyed the commands of the sprightly Leonora with so much zeal and diligence
+               that his foaming steed clattered into the court-yard an hour before even her
+               impatient spirit expected to see the dust which the charger's hoofs would raise upon
+               the adjacent hill; and exchanging his travel-soiled garments for the silken vest
+               which displayed his figure to the best advantage, he was ready to join the seneschal
+               in his attendance on the ladies in their evening walk through the parks and pleasure
+               ground. Passing down a broad flower-bespangled glade they encountered the baron, who
+               attired in black garments, and accompanied by his page, and his three trusty
+               esquires, advanced to pay his respects to the countess.</p>
+            <p>"Fair lady," he exclaimed, "attribute to this ardour of my passion my apparent
+               disrespect in approaching you clad in this dolorous habit."</p>
+            <p>"What is't, a penance?" interrupted Leonora; "and by the wing of Cupid for some heavy
+               offence, for it suits your complexion marvellously ill, and of that the malicious
+               priest was aware. A penance it <pb n="105" xml:id="image140"/>must be; the jovial
+               countenances of your merry men declare that no evil hap can betided in your
+               household."</p>
+            <p>"Alas, madam," replied the baron, "I wear this raven-tinted garb as a tribute of
+               respect to the memory of one whose death, in sooth, I lament not, since it promises
+               to remove one barrier to the suit I have so long and so hopelessly pressed, with the
+               lovely but too disdainful mistress of my soul. I am released from my betrothment with
+               the Lady Adela, by her decease."</p>
+            <p>"What, ho! Master Bertram," exclaimed Leonora, "thou mayest restore the baron to the
+               hues of the popinjay, in which he does so much execution in the hearts of simple
+               damsels. This gentleman, my lord, is fresh from the court of the lady of Beaujeu,
+               where he has seen and conversed with the Lady Adela, who morever has sent thee a
+               token that she liveth still to demand the fulfillment of an engagement made before
+               her broken fortune caused her to be slighted."</p>
+            <p>"And," said the Countess de Normanville, "I marvel that a gentleman and a knight
+               should shame his high lineage and chivalric oath by such a paltry device. Know, sir,
+               I am also acquainted with the base means with which you have tampered with the
+               avarice of my kinsman — an honorable bargain, forsooth — half the estate when you
+               lost all hope of <pb n="106" xml:id="image141"/>clutching the whole: but, beware sir,
+               neither fraud or force can avail you now; the Lady of Beaujeu, in behalf of my
+               sovereign King Charles, has taken my wardship into her own hand, and has alone the
+               power to dispose of me in marriage."</p>
+            <p>"And my lord," cried Bertram, "there is news from the camp of Charles; he marches
+               from triumph to triumph, and he has 'gaged the hands of his wards to the knights, who
+               shall add the conquered states of Italy to the crown of France. What sayst thou? my
+               poor sword is at the service of my king; I post to the army to-morrow. Wilt thou quit
+               thy sylvan warfare in these woods to strive in martial exploits with the gallant
+               Lusignan, who it is rumoured wears the Countess de Normanville's glove upon his
+               basnet?"</p>
+            <p>"Peace, Bertram," cried the seneschal, "the baron loves to court far more dangerous
+               perils than the Lombard wars present, to tilt with ladies' eyes instead of
+               spears."</p>
+            <p>"Tarry for me, Master Bertram," exclaimed the page, "if it be but for the space of a
+               single day, and thou shalt not ride alone an there be a broad sword and a steel
+               jerkin left in the armoury."</p>
+            <p>"Farewell, friend Roland," said Leonora, "thou, too, hast to win thy spurs, and line
+               thy purse with bezants; say, wilt thou take thy chance with an uncrested helm to gain
+               the land which calls me heir <pb n="107" xml:id="image142"/>in Bertram's absence? He
+               leaves me, thou seest, to combat as best I may against thy wit and valour; or wilt
+               thou, too, speed to these Lombard wars, and delegate to yon sad browed knight and
+               Messieurs Degarde and Montresor, who look wondrous wise, though unhandsomely chary of
+               their words, the task of consoling me and my fellow damsels, when these vales shall
+               be deprived of the sunshine of thy presence."</p>
+            <p>"No, sweet mistress," returned Roland, "though thy sharp tongue and scornful eye
+               drive Master Bertram to the tented field, though thy humour were ten times more
+               petulant, and thy jests more keen, thou shalt not wear the willow branch for me, or
+               hang or drown for lack of one poor servant to bear with thy impertinencies: 'twere
+               pity to have them wasted on thy monkey or thy tire woman, send forth thy warrior
+               youth to gather laurels, we will pluck them from their brows when they return,</p>
+            <p>And thou shalt call him brave who bears away At once, the trophies of each toilsome
+               day."</p>
+         </div>
+      </body>
+   </text>
+</TEI>

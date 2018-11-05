@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">Jessy of Kibe's Farm</title>
+            <author type="author">By Miss M.R. Mitford</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.storyS3</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Mitford, Mary Russell" date="1787-1855" place="UK">Mary Russell Mitford</name>
+                  </author>
+                  <title>Jessy of Kibe's Farm</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">65-75</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>story</item>
+                  <item>Jessy of Kibe's Farm</item>
+                  <item>Miss M.R. Mitford</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g7" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="story"
+              xml:id="S3"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="65" xml:id="image090"/>
+            <head>
+               <title>Jessy of Kibe's Farm</title>
+            </head>
+            <head>
+               <name reg="Mitford, Mary Russell" date="1787-1855" place="UK">By Miss M.R.
+                  Mitford</name>
+            </head>
+            <p>ABOUT the centre of a deep winding and woody lane, in the secluded village of
+               Aberleigh, stands an old farm-house, whose stables, out-buildings, and ample yard,
+               have a peculiarly forlorn and deserted appearance; they can, in fact, scarcely be
+               said to be occupied, the person who rents the land preferring to live at a large farm
+               about a mile distant, leaving this lonely house to the care of a labourer and his
+               wife, who reside in one end, and have the charge of a few colts and heifers that run
+               in the orchard and an adjoining meadow, whilst the vacant rooms are tenanted by a
+               widow in humble circumstances and her young family.</p>
+            <p>The house is beautifully situated; deep, as I have said, in a narrow woody lane,
+               which winds between high banks, now feathered with hazel, now thickly studded with
+               pollards and forest trees, until opposite Kibe's farm it widens sufficiently to admit
+               a large clear pond, round which the hedge, closely and regularly set with a row of
+               tall elms, sweeps in a graceful curve, forming for that bright mirror, a rich leafy
+                  <pb n="66" xml:id="image091"/>frame. A little way farther on the lane again
+               widens, and makes an abrupter winding, as it is crossed by a broad shallow stream, a
+               branch of the Loddon, which comes meandering along from a chain of beautiful meadows;
+               then turns in a narrower channel by the side of the road, and finally spreads itself
+               into a large piece of water, almost a lakelet, amidst the rushes and the willows of
+               Hartley Moor. A foot-bridge is flung over the stream, where it crosses the lane,
+               which, with a giant oak growing on the bank, and throwing its broad branches far on
+               the opposite side, forms in every season a pretty rural picture.</p>
+            <p>Kibe's farm is as picturesque as its situation; very old, very irregular, with gable
+               ends, clustered chimneys, casement windows, a large porch, and a sort of square wing
+               jutting out even with the porch, and covered with a luxuriant vine, which has quite
+               the effect, especially when seen by moonlight, of an ivy-mantled tower. One side
+               extends the ample but disused farm buildings; on the other the old orchard, whose
+               trees are so wild, so hoary and so huge, as to convey the idea of a fruit forest.
+               Behind the house is an ample kitchen-garden, and before a neat flower court, the
+               exclusive demesne of Mrs. Lucas and family, to whom indeed the labourer, John Miles,
+               and his good wife Dinah, served in some sort as domestics.</p>
+            <p>Mrs. Lucas had known far better days. Her <pb n="67" xml:id="image092"/>husband had
+               been an officer, and died fighting bravely in one of the last battles of the
+               Peninsular war, leaving her with three children, one lovely boy and two delicate
+               girls, to struggle through the world as best she might. She was an accomplished
+               woman, and at first, settled in great town, and endeavoured to improve her small
+               income by teaching music and languages. But she was country bred; her children too
+               had been born in the country, amidst the sweetest recesses of the New Forest, and
+               pining herself for liberty, and solitude, and green fields, and fresh air, she soon
+               began to fancy that her children were visibly deteriorating in health and appearance
+               and pining for them also; and finding that her old servant Dinah Miles was settled
+               with her husband in this deserted farm-house, she applied to his master to rent for a
+               few months the untenanted apartments, came to Aberleigh, and fixed there apparently
+               for life.</p>
+            <p>We lived in different parishes, and she declined company, so that I seldom met Mrs.
+               Lucas, and had lost sight of her for some years, retaining merely a general
+               recollection of the mild, placid, elegant mother, surrounded by three rosy, romping
+               bright-eyed children, when the arrival of an intimate friend at Aberleigh rectory
+               caused me frequently to pass the lonely farm-house, and threw this interesting family
+               again under my observation.</p>
+            <p>The first time that I saw them was on a bright <pb n="68" xml:id="image093"/>summer
+               evening, when the nightingale was yet in the coppice, the briar rose blossoming in
+               the hedge, and the sweet scent of the bean fields perfuming the air. Mrs. Lucas,
+               still lovely and elegant, though somewhat faded and careworn, was walking pensively
+               up and down the grass path of the pretty flower court; her eldest daughter, a rosy
+               bright brunette, with her dark hair floating in all directions, was darting about
+               like bird; now tying up the pinks, now watering the geraniums, now collecting the
+               fallen rose leaves into the straw bonnet which dangled from her arm; and now feeding
+               a brood of bantams from a little barley measure, which that sagacious and active
+               colony seemed to recognise as if by instinct, coming long before she called them at
+               their swiftest pace, between a run and a fly, to await with their usual noisy and
+               bustling patience the showers of grain which she flung to them across the paling. It
+               was a beautiful picture of youth, and health, and happiness; and her clear gay voice,
+               and brilliant smile, accorded well with a shape and motion as light as a butterfly,
+               and as wild as the wind. A beautiful picture was that rosy lass of fifteen in her
+               unconscious loveliness, and I might have continued gazing on her longer, had I not
+               been attracted by an object no less charming, although in a very different way.</p>
+            <p>It was a slight elegant girl, apparently about a year younger than the pretty romp of
+               the flower <pb n="69" xml:id="image094"/>garden, not unlike her in form and feature,
+               but totally distinct in colouring and expression.</p>
+            <p>She sate in the old porch, wreathed with jessamine and honeysuckle, with the western
+               sun floating around her like a glory, and displaying the singular beauty of her
+               chesnut hair, brown with a golden light, and the exceeding delicacy of ther smooth
+               and finely grained complexion, so pale, and yet so healthful. Her whole face and form
+               had a bending and statue-like grace, encreased by the adjustment of her splendid
+               hair, which was parted on her white forehead, and gathered up behind in a large knot
+               — a natural coronet. Her eyebrows and long eyelashes were a few shades darker than
+               her hair, and singularly rich and beautiful. She was plaiting straw rapidly and
+               skilfully, and bent over her work with a mild and placid attention, a sedate
+               pensiveness that did not belong to her age, and which contrasted strangely and sadly
+               with the gaiety of her laughing and brilliant sister, who at this moment darted up to
+               her with a handful of pinks and some groundsel. Jessy received them with a smile —
+               such a smile! — spoke a few sweet words in a sweet sighing voice; put the flowers in
+               her bosom, and the groundsel in the cage of a linnet that hung near her; and then
+               resumed her seat and her work, imitating better than I have ever heard them imitated,
+               the various notes of a <pb n="70" xml:id="image095"/>nightingale who was singing in
+               the opposite hedge; whilst I, ashamed of loitering longer, passed on.</p>
+            <p>The next time I saw her, my interest in this lovely creature was increased tenfold —
+               for I then knew that Jessy was blind — a misfortune always so touching, especially in
+               early youth, and in her case rendered peculiarly affecting by the personal character
+               of the individual. We soon became acquainted, and even intimate under the benign
+               auspices of the kind mistress of the rectory; and every interview served to encrease
+               the interest excited by the whole family, and most of all by the sweet blind
+               girl.</p>
+            <p>Never was any human being more gentle generous, and grateful, or more unfeignedly
+               resigned to her great calamity. The pensiveness that marked her character arose as I
+               soon perceived from a different source. Her blindness had been of recent occurrence,
+               arising from inflammation unskilfully treated, and was pronounced incurable; but from
+               coming on so lately, it admitted of several alleviations, of which she was accustomed
+               to speak with a devout and tender gratitude. "She could work," she said, "as well as
+               ever; and cut out, and write, and dress herself, and keep the keys, and run errands
+               in the house she knew so well without making any mistake or confusion. Reading, to be
+               sure, she had been forced to give up, and drawing: <pb n="71" xml:id="image096"/>and
+               some day or other she would shew me, only that it seemed so vain, some verses which
+               her dear brother William had written upon a groupe of wild flowers, which she had
+               begun before her misfortune. Oh, it was almost worth while to be blind to be the
+               subject of such verse, and the object of such affection! Her dear mamma was very good
+               to her, and so was Emma; but William — oh she wished that I knew William! No one
+               could be so kind as he! It was impossible! He read to her; he talked to her; he
+               walked with her; he taught her to feel confidence in walking alone; he had made for
+               her use the wooden steps up the high bank which led into Kibe's meadow; he had put
+               the hand-rail on the old bridge, so that now she could get across without danger,
+               even when the brook was flooded. He had tamed her linnet; he had constructed the
+               wooden frame, by the aid of which she could write so comfortable and evenly; could
+               write letters to him, and say her own self all that she felt of love and gratitude.
+               And that," she continued with a deep sigh, "was her chief comfort now; for William
+               was gone, and they should never meet again — never alive — that she was sure of — she
+               knew it." "But why, Jessy?" "Oh, because William was so much too good for this world:
+               there was nobody like William! And he was gone for a soldier. Old General Lucas, her
+               father's uncle, had sent for him abroad; <pb n="72" xml:id="image097"/>had given him
+               a commission in his regiment; and he would never come home — at least they should
+               never meet again — of that she was sure — she knew it."</p>
+            <p>This persuasion was evidently the master-grief of poor Jessy's life, the cause that
+               far more than her blindness faded her cheek, and saddened her spirit. How it had
+               arisen no one knew; partly, perhaps, from some lurking superstition, some idle word,
+               or idler omen which had taken root in her mind, nourished by the calamity which in
+               other respects she bore so calmly, but which left her so often in darkness and
+               loneliness to brood over her own gloomy forebodings; partly from her trembling
+               sensibility, and partly from the delicacy of frame and of habit which had always
+               characterised the object of her love — a slender youth, whose ardent spirit was but
+               too apt to overtask his body.</p>
+            <p>However it found admittance, there the presentiment was, hanging like a dark cloud
+               over the sunshine of Jessy's young life. Reasoning was useless. They know little of
+               the passions who seek to argue with that most intractable of them all, the fear that
+               is born of love; so Mrs. Lucas and Emma tried to amuse away those sad thoughts,
+               trusting to time, to William's letters, and above all, to William's return to
+               eradicate the evil.</p>
+            <p>The letters came punctually and gaily; letters <pb n="73" xml:id="image098"/>that
+               might have quieted the heart of any sister in England, except the fluttering heart of
+               Jessy Lucas. William spoke of improved health, of increased strength, of actual
+               promotion, and expected recal. At last he even announced his return under auspices
+               the most gratifying to his mother, and the most beneficial to her family. The
+               regiment was ordered home, and the old and wealthy relation, under whose protection
+               he had already risen so rapidly, had expressed his intention to accompany him to
+               Kibe's farm, to be introduced to his nephew's widow and daughters, especially Jessy,
+               for whom he expressed himself greatly interested. A letter from General Lucas
+               himself, which arrived by the same post, was still more explicit: it adduced the
+               son's admirable character and exemplary conduct as reasons for befriending the
+               mother, and avowed his design of providing for each of his young relatives, and of
+               making William his heir.</p>
+            <p>For half an hour after the first hearing of these letters, Jessy was happy — till the
+               peril of a Winter voyage (for it was deep January) crossed her imagination, and
+               checked her joy. At length, long before they were expected, another epistle arrived,
+               dated Portsmouth. They had sailed by the next vessel to that which conveyed their
+               previous dispatches, and might be expected hourly at Kibe's farm. The voyage was
+               past, safely past, and the weight seemed <pb n="74" xml:id="image099"/>now really
+               taken from Jessy's heart. She raised her sweet face and smiled; yet still it was a
+               fearful and a trembling joy, and somewhat of fear was mingled even with the very
+               intensity of her hope. It had been a time of rain and wind; and the Loddon, the
+               beautiful Loddon, always so affluent of water, had overflowed its boundaries, and
+               swelled the smaller streams which it fed into torrents. The brook which crossed
+               Kibe's lane had washed away part of the foot-bridge, destroying poor William's
+               railing, and was still foaming and dashing like a cataract. Now that was the nearest
+               way; and if William should insist on coming that way! To be sure, the carriage road
+               was round by Grazely Green, but to cross the brook would save half a mile; and
+               William, dear William, would never think of danger to get to those whom he loved.
+               These were Jessy's thoughts: the fear seemed impossible, for no postillion would
+               think of breasting that roaring stream; but the fond sister's heart was fluttering
+               like a new caught bird, and she feared she knew not what.</p>
+            <p>All day she paced the little court, and stopped and listened, and listened and
+               stopped. About sunset, with the nice sense of sound which seemed to come with her
+               fearful calamity, and that fine sense, quickened by anxiety, expectation, and love,
+               she heard, she thought she heard, she was sure she heard the sound of a carriage
+               rapidly advancing on the <pb n="75" xml:id="image100"/>other side of the stream. "It
+               is only the noise of the rushing waters," cried Emma. "I hear a carriage, the horses,
+               the wheels!" replied Jessy; and darted off at once, with the double purpose of
+               meeting William, and of warning the postillion of crossing the stream. Emma and her
+               mother followed, fast! fast! But what speed could vie with Jessy's, when the object
+               was William? They called, but she neither heard nor answered. Before they had to won
+               to the bend in the lane she had reached the brook; and, long before either of her
+               pursuers had gained the bridge, her foot had slipt from the wet and tottering plank,
+               and she was borne resistlessly down the stream. Assistance was immediately procured;
+               men, and ropes, and boats; for the sweet blind girl was beloved of all, and many a
+               poor man perilled his life in a fruitless endeavor to save Jessy Lucas; and William,
+               too, was there, for Jessy's quickened sense had not deceived her. William was there,
+               struggling with all the strength of love and agony to rescue that dear and helpless
+               creature; but every effort — although he persevered until he too was taken out
+               senseless — every effort was vain. The fair corse was recovered, but life was
+               extinct. Poor Jessy's prediction was verified to the letter; and the brother and his
+               favourite sister never met again.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

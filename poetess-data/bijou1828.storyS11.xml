@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">Beau Leverton"Seeking the bubble Reputation."</title>
+            <author type="author">By B.C. [Barry Cornwall]</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.storyS11</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Cornwall, Barry" date="1787-1874" place="UK">Barry Cornwall</name>
+                  </author>
+                  <title>Beau Leverton"Seeking the bubble Reputation."</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">261-284</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>story</item>
+                  <item>Beau Leverton"Seeking the bubble Reputation."</item>
+                  <item>B.C. [Barry Cornwall]</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g7" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="story"
+              xml:id="S11"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="261" xml:id="image316"/>
+            <head>
+               <title>Beau Leverton</title>
+               <title>"Seeking the bubble Reputation."</title>
+            </head>
+            <head>
+               <name reg="Cornwall, Barry" date="1787-1874" place="UK">By B.C. [Barry
+                  Cornwall]</name>
+            </head>
+            <p>WE once — (it is now some years ago) — enjoyed the pleasure of meeting the celebrated
+                  "<emph>Beau Leverton</emph>." As every thing which relates to him "belongs" — as
+               writers say, "to history," we shall indulge ourselves with putting our recollections
+               upon record. We respect a beau of the first brilliancy; and wonder at his appearance,
+               as at that of an aloe. He is perhaps even a rarer marvel.</p>
+            <p>Here, however, let us caution the reader. We would not be understood as paying
+               implicit homage to the stuffed figures which move in procession down Bond and St.
+               James's Streets, kept upright solely by the aid of staymakers and tailors. On the
+               contrary, we hold them to be of precisely the same advantage in a commonwealth, that
+               those less ostentatious shapes are which keep watch in country gardens, as perpetual,
+               centinels over the peas and currants. But Leverton was not one of this small-witted
+               genus. He was originally intended for something even higher than what he became. Fate
+               however threw him into <pb n="262" xml:id="image317"/>the sty of Circe, and he grew
+               like bottom, 'transformed.' — Nevertheless, let us still do him justice. He was a man
+               of a shrewd turn of mind; too idle to emancipate himself from the thrall of fashion,
+               but laughing down with ineffable contempt the pretensions of the small fry around
+               him. He saw far into character, and sometimes made it subservient to his purposes. He
+               had flashes (scintillations) of wit, which brightened and became more frequent in
+               melancholy hours, as the electric fluid is seen more clearly in a storm. He told a
+               story well, — laughed in the right place, — drew out the follies of his neighbours
+               with a fine, humorous, and sometimes unsparing, hand, — had a smattering of the
+               classics, and the lighter literature of England and France, — made champagne tea
+               delightfully, and scattered his multitudes of bon mots upon the crowd, as a peasant
+               does his arms-full of grapes and chestnuts upon the swine who are expecting them
+               beneath. Unluckily, Leverton's audiences in general did not comprehend a little of
+               the value of his donations. They laughed, however, at his jests, because it was the
+               fashion to laugh at them; and they related them to others, from time to time, in the
+               hope of, one day or other, discovering the meaning themselves.</p>
+            <p>When Leverton left Oxford, and threw himself upon the inattention of his father, he
+               found the foxhunter so entirely perplexed by his rural duties, that he had not a
+               moment of leisure to notice his <pb n="263" xml:id="image318"/>heir. Harry was a
+               youth of spirit, and not insensible to neglect: So he determined to live as he could
+               during his father's life, on the small income which had devolved upon him on the
+               death of his mother. His proposal to this effect met with not the slightest objection
+               from Old Nimrod: and accordingly, (after seeing his sister safe under the protection
+               of an old maiden aunt at Bath), Leverton quitted without a sigh, his paternal acres;
+               quoted his last line of Horace at the cunning-eyed groom, who lashed his portmanteau
+               to the chaise, and came up to London, 'to make his — reputation!'</p>
+            <p>His success was eminent, but gradual; for he did not aim so much at eccentricity
+               (which is a cheap accomplishment) as at an air of high-breeding and careless
+               brilliancy. He possessed extreme ease, and considerable with; and the pungency of the
+               one quality had an admirable effect upon the other, as salt is said to draw forth an
+               exquisite flavor from things which would else be tasteless. One joke, which he threw
+               off in a happy moment, attracted the respect of a smart speaker in the House of
+               Commons. Another (which was better) reached the ear of an illustrious personage, who
+               said that it reminded him of George Selwyn. He enquired very particularly the name of
+               the author, and the fame of our hero was complete!</p>
+            <p>We have not leisure at present to enter into a <pb n="264" xml:id="image319"/>regular
+               biographical detail of the early life of Mr. Leverton, although (by the favor of a
+               friend) we are possessed of considerable materials for the purpose. But we must
+               content ourselves with passing over many of the accidents and humours of his career,
+               and introducing him to the reader as he appeared to us, <emph>in propria
+                  persona</emph>, on the third day of July, 18 — .</p>
+            <p>At that time he had lodgings in Dover-street, and as eminent a list of creditors and
+               friends, 'of the first water,' as any gentleman who ever disowned the serious age of
+               three and forty. In regard to his person, he had increased somewhat in bulk, though
+               it was said that stays, or some such unseen bonds, curtailed the encroachments of
+               idleness or gourmanderie. Yet, he still walked well; dressed inimitably; lost his
+               money (when he had it) gracefully; drawled out his sly witticisms with considerable
+               effect; and was in all respects a 'highly fashionable man.'</p>
+            <p>Leverton's importance in society was, in fact, exceedingly great; more so than his
+               mere talent could have commanded. His ease was admired — his manners and his dress
+               imitated — his flattery coveted — his patronage wooed. His satire was dreaded also;
+               for he possessed (as the bee does) both the honey and the sting, — the wish sometimes
+               to charm, and always the spirit to repel. The gay loved his jokes; the young sought
+               his intimacy; the women smiled on him; the (merely) rich dreaded him; and the <pb n="265" xml:id="image320"/>wit admitted him to his level. Even the dignity of
+               birth relaxed from it superciliousness; and wise men rejoiced that for once they
+               might indulge their laughter, without any impeachment of their understanding.</p>
+            <p>This is a formidable estimate to do justice to; and indeed, we are not able to do it
+               justice. For we have stated the <emph>aggregate</emph> of our hero's accomplishments;
+               whereas few of them appeared in any one single conversation. He was contented, often,
+               with very slight indications of his power; and, he sometimes, even betrayed scarcely
+               a glimpse of his really original character.</p>
+            <p>We once met him, as we have said. This was at Lord Trumpington's seat in Sussex, in
+               18 — ; and the following letter, from the Beau himself, to one of his intimates,
+               (which has been entrusted to us) will afford some explanation as to the company who
+               figure in the dialogue which occurred there. It is written in a vast running hand,
+               extending over three sheets of paper and is addressed</p>
+            <p>"To Thomas Blair MacDonald, Esq. at Long's Hotel, London."</p>
+            <p>"I cannot — I grieve to say it — be trans-atlantic with ye to-morrow evening, Tom.
+               You must smoke your cigars of peace without me. Do not, however, affront thyself and
+               thy brother Sachems, at my apparent desertion; but bury your tomahawks in <pb n="266" xml:id="image321"/>the venison quietly, and forget so poor a man as Harry
+               Leverton.</p>
+            <p>"Shall I tell thee what ahs kept me thus amongst green corn and withered oak apples?
+               Shall I, turning philosophical, betray to thee how the loadstone — I have half a mind
+               to commit violence upon the three virgin sheets of paper which lie sleeping beside
+               me, and inscribe my adventures upon them, for thine especial benefit. It
+                  <emph>shall</emph> be thus: so listen!</p>
+            <p>I was satisfied, as thou know'st, with London; although the dog-star reigned,
+               although the face of every (surviving) friend was baked, the ice-cellars empty, and
+               the month of July at hand. But my Lord Bridewell <emph>would</emph> be at once
+               peremptory and persuasive; and I had, I must confess to thee, reasons for not
+               despising his suit. He came to my domicile, as he threatened, on Tuesday last; armed
+               with spurs, and attended by tow gardes du corps, a traveling chariot and coach, four
+               postillions, and the warrant (to which was the sign manual) of Lady Cecil Dartley, to
+               take the body of Henry Leverton, and him convey, etc. to her ladyship's court, which
+               is at present held at the Grange, in Sussex.</p>
+            <p>"I will spare thee the tediousness of our journey. It is enough to tell thee, that we
+               survived almost fifty miles of English dust — passed in triumph over four pigs, who
+               made outrageous protestations against our proceedings — 'took' (as my lord called it)
+               a <pb n="267" xml:id="image322"/>post — missed children of all ages (one a succulent)
+               — refreshed at F — , and arrived without further mischief or matter at "The Grange."
+               The place is pretty enough: a little hill — a lawn — a shrubbery — a fish-pond or two
+               (they have capital stewed carp) and a modern sort of antique cottage-villa, where
+               Vitruvius and Palladio, Greek, Goth, and Sir John Vanbrugh, flourish in united
+               absurdity. This is all well. But the utter demolition of my toilette-equipage is a
+               calamity for life: for some of the trifles were unique — and Burgess (my chamberlain)
+               has been unable to procure anything beyond the most alarming instruments at — I
+               forget its horrid name — the nearest market town. You know that I indulge in some
+               little niceties on these points. What wouldst thou think of my undergoing a course of
+               brushes and shears of as rude a — Bah! I sent the former into the stable without
+               delay, and reserve the latter for sheep-shearing, whenever I shall arrive at my aunt
+               Slatter's pastures in Devon, which a villainous asthma (that provokes longevity) has
+               kept me out of for the last twenty and five years!</p>
+            <p>"Well, Tom, — The earl bowed, and looked grim and wise, and mumbled out his patrician
+               welcomes, (which were too ceremonious by half). The old countess, who paints as thick
+               as a door, laboured to be alluring, and Lady Cecil out-looked all the roses which
+               went scrambling about the drawing-room <pb n="268" xml:id="image323"/>windows.
+               Bridewell was busy in the stable, and left me to make my way with his family as well
+               as I could. And, in truth, bashfulness is not my vice, as thou knowest, Tom.
+               Accordingly, after a brief refuge in my dressing-room, I descended, and found a mob
+               of indifferent appearance, all prepared to invade the regions where eating and
+               drinking are honoured. Some of our friends (is not that the word, Tom?) were there,
+               male and female, coupled together like pigeons. One fair hand was, however, reserved
+               for me (by the grace of the countess mother) — and it was that of the blooming
+               Cecil!</p>
+            <p>"But I see that thou art dying to know who are my agreeable cotemporaries; — and I
+               will tell thee.</p>
+            <p>"In the first place, then, behold our 'noble' family: — The earl, as dull as a drum,
+               and tedious beyond even the privilege of parliament; the countess, a fine old enamel,
+               as I have said, but a little cracked, and somewhat out of drawing: Cecil Dartley,
+               always couleur de rose; and her sister Selina, a languid plant; their brother
+               (Bridewell) the son and heir of all the Trumpingtons; and Colonel Dartley, a brother
+               also according to law, but, in other respects, a thing between pug and monkey, that
+               is hung round with blue and scarlet, and dances through 'the Lancers,' or to the tune
+               of 'Money in both Pockets,' till Fanny Dartley is ready to die with admiration. <pb n="269" xml:id="image324"/>Then cometh Fanny herself, a cousin of the family; who,
+               a la Ture, staineth her fingers inch deep (with ink), and is a true specimen of that
+               little female indiscretion, and authoress. Thou wouldst expire, my good friend Tom,
+               if thou couldst behold her in her morning garments — they are so flowing, so
+               oriental, so scornful of all shape and fashion, and withal, so utterly covered with
+               dusky hieroglyphics, that one can scarcely distinguish between the sweep of her
+               stylus and the broader impress of her thumb. All is in learned confusion, like a
+               country library; but incomparably less cleanly. Yet, 'tis a good-natured chit, and
+               laughs and talks, (O Gad! Tom,) and invites the women to drink wine; and argues like
+               a syllogism; and is very odd, — and a little tedious. Next to her, was a Sir Somebody
+               Something, the county member, and his lady, trussed and tucked up like a Christmas
+               turkey, of the county also, and indigenous; their son, a spare thing, of six feet
+               high, whose person hath outrun his wit; while by his side sate, full of scorn and
+               languor, the Lady Selina Dartley. Then came Snapwell, the barrister; one of the young
+               Froths, a pretty thing, but as insipid as plain broth; old Moidore, the Ministerial
+               merchant, and (an inexpressible person!) his wife; descended from the tribe of Levi,
+               — but converted. Then followed a Squire Huggins, or Higgins, a proprietor of acres in
+               these parts; then another Froth, not so pretty as the last, but with an exquisite
+               propriety of shape; then <pb n="270" xml:id="image325"/>Lord Saint Stephens, the new
+               orator; and an odious fellow from the most northern part of the north, a Mr. John Mac
+               Flip, an author, a critic, and a reporter, and a politician to boot; possessing
+               little, however, that need be mentioned beyond an incredible portion of assurance,
+               and an appetite that surmounts all fable. By him (well matched) sate a little black
+               female barbarian from Shetland, or the Orkneys; then came a 'Mac' of some endless
+               descent; then that immoderate simpleton Garnish, — Lady Di. Flarish, and her
+               detestable sister, — and finally, young Gabbleton, from Oxford who has travelled in
+               Greece, and what is worse, hath written his travels, and still talketh his travels,
+               till the fish (which he helpeth) is cold. These are nearly all, except our 'ancient'
+               Childers, the foxhunter — Jack Sitwell, (Bridewell's Newmarket chum,) — a physician,
+               and a Lord of the Admiralty, a burgess or two from the neighbouring Borough, and a
+               rubicund figure, somewhat like a pipe of wine, (called the Vicar of the village,)
+               which tolls out grace before dinner as regularly as the clock, (but louder) —
+               i'faith, and after dinner also, I believe, unless he chance to go to sleep over the
+               entremets.</p>
+            <p>"And now, farewell, Tom. If thou art but half as fatigued in reading this as I in
+               writing, (and I am not without hopes but that thou <emph>wilt</emph> be,) thou wilt
+               bid me henceforward discontinue sending thee any more of the adventures of thy most
+               faithful</p>
+            <p> HARRY LEVERTON."</p>
+            <pb n="271" xml:id="image326"/>
+            <p> — Amongst the company, who were too unimportant for mention in Mr. Leverton's
+               letter, were ourselves (ourself) and a few others, with whose names we need not
+               trouble the reader. We will merely conduct him to the dinner room, and let him take
+               his chance for relishing or disliking the fare.</p>
+            <lb/>
+            <p>Every thing which opulence could purchase, or ostentation suggest, was spread upon
+               the patrician board of the Earl of Trumpington. He had hammered his brains for a
+               month: he had read Ude, and Rundell, and Beauvilliers, and dipped into the
+               eccentricities of Kitchiner, in order to arrive at correct opinions. He had been
+               closeted with his French cook; he had modelled and re-modelled, altered, doubted,
+               suggested, and tormented the impatience of his housekeeper with endless
+               consultations. They quarrelled, however, at last, over the shape of a custard
+               pudding, and Mrs. Dripwell was restored to her original quiet.</p>
+            <p>The result of all this thought and labour was now before the guests. Venison, and
+               soups, and fish, of every sort which the season justified, were there; innumerable
+               hues. From plain beef and mountain mutton, up to the mysterious compositions of the
+               French artists, no more to be developed than the riddles of the Sphinx, every thing
+               was there that the most accomplished epicurean could wish for. One <pb n="272" xml:id="image327"/>thing alone was remarkable — namely, the many dishes which bore
+               the names of some regal or noble family. There were sauce royale, cotelets de Bourbon
+               and de Maintenon, Pates de Perigord, and — fifty others. For the Earl was such a
+               stickler for dignity, that he could not bear to be mistaken for a commoner, even in
+               his dishes.</p>
+            <p>Dr. Grampus ('the Viar') mumbled out a brief grace, and the company sate down to
+               table. For a short space all other sounds were lost in the rustling of silks, and the
+               adjustment of table napkins. To these succeeded the clatter of china, the occasional
+               jarring of silver, the quick tread of the servants to and fro, and such like
+               indications of a dinner party. At last Mr. Gabbleton broke silence.</p>
+            <p>"Will not your Ladyship take soup?" enquired he, of Lady Di. Who sate opposite to
+               him? "nor fish? — what <emph>can</emph> I send you?"</p>
+            <p>"Nothing," replied the lady. "I shall wait for the removal of these trifles. I have
+               ordered a beef-steak."</p>
+            <p>The Earl (between whom and the lady certain hostilities existed,) blushed crimson at
+               hearing of this "free and easy" proceeding on her part; while Leverton, after staring
+               a moment at her masculine appearance, proceeded to finish his white soup.</p>
+            <p>"Beef-steak! — I honour your ladyship's taste;" said Garnish, who could bear to hold
+               his tongue no <pb n="273" xml:id="image328"/>longer. "I give you my word that I
+               generally dine on a beef-steak myself, when at home — I may say generally. Ah, ha!"
+               continued he, "after all, there's noting like eating and drinking . Don't you think
+               so, Leverton? By the way, Leverton, what <emph>do</emph>you think of eating?"</p>
+            <p>"Sir," replied the beau, a little offended at the other's familiarity, "I consider it
+               but a rude accomplishment."</p>
+            <p>"Rude?" said Gabbleton. "That's very doubtful. Both the Greeks and the Romans — " He
+               was proceeding full tilt, when he met with a check.</p>
+            <p>"It is a common thing, Sir, nevertheless," interrupted Leverton. "The pigs partake of
+               it with ourselves, and the dogs — <emph>they</emph> are absolute classics."</p>
+            <p>"How so? How so? — if I may presume," enquired Gabbleton, who resented the
+               comparison.</p>
+            <p>"Why, Sir," replied the other, "they lie down while they eat their suppers; — and
+               Cicero and Apicius did no more."</p>
+            <p>"Who's that speaking of Cicero?" cried out Lord St. Stephens. "Cicero was a
+               remarkable orator — a remarkable man!"</p>
+            <p>There was not a dissentient voice! — </p>
+            <p> — At this moment, John M 'Flip, who had been hitherto almost buried in plates of
+               soup and turbot, having now a moment's leisure to contemplate the fare before and
+               about him, espied something afar off, <pb n="274" xml:id="image329"/>which was a
+               French composition, but which his patriotism converted into a national dish. "I'll
+               joost thank ye for a bit o' the haggis;" called he, nodding at the same time to
+               Leverton, who was opposite the mystery.</p>
+            <p>"A — the gentleman asks for something?" said Leverton, looking round for an
+               interpretation.</p>
+            <p>"Ees not the deesh anent ye a haggis?" said Mac Flip, pointing to the object he
+               required.</p>
+            <p>"Bring a plate," said Leverton to the servant; which being brought, he separated an
+               incredibly small piece from the main dish, and sent it in triumph to the hungry
+               Scot.</p>
+            <p>"Hoot awa;" said the other, half inclined openly to remonstrate (for he was new to
+               society) — but the plate was already on its road, and he was compelled to endure his
+               disappointment in silence.</p>
+            <p>The company were by this time fully occupied: but, as the most agreeable things will
+               have an end, so did the eaters and drinkers at Lord Trumpington's table submit, at
+               last, to a respite from their pleasant toil. After various monosyllables, which
+               gradually expanded into sentences, conversation arose — fluctuated — and at last
+               settled upon the question of legislation. Upon this subject it appeared that Leverton
+               and the Earl were opponents.</p>
+            <p>"Mr. Leverton appears to think very little of the wisdom of our ancestors," observed
+               Lord Trumpington, with a sneer.</p>
+            <pb n="275" xml:id="image330"/>
+            <p>"Very little," replied the beau, "upon many subjects; and legislation is one."</p>
+            <p>"Mr. Leverton may rail in safety," retorted the Earl. "In old times — "</p>
+            <p>"Were they not <emph>young</emph> times, my Lord?" enquired Leverton. "Ours are the
+               old times, surely, and should be the wisest, if there be any thing in age."</p>
+            <p>"I was about to observe," said the Earl, somewhat nettled, "that our ancestors —
+               "</p>
+            <p>"My dear Lord," said Di. "do not disturb our ancestors."</p>
+            <p>The peer attempted to smile, (although excessively irritated at this second
+               interruption) and proceeded without noticing her Ladyship's remark, to make good his
+               case. But his opponent was not to be convinced without argument. The Earl 'asserted,'
+               and 'pledged his reputation,' and brought forward his 'experience,' and quoted some
+               indifferent sentences, which were not much to the purpose, without moving Leverton a
+               jot.</p>
+            <p>"Almost all the good," said the latter, "which our present laws possess, has arisen
+               from the necessity of correcting the numberless mistakes of our ancestors. Our laws
+               are nearly all amendments. Why have we not a plain, brief, wholesome code, where ‘all
+               who run may read?"</p>
+            <pb n="276" xml:id="image331"/>
+            <p>"It is a thing totally out of the question," replied the Earl, decisively.</p>
+            <p>"What would become of the Bar?" said one; "and of the Bench?" said another.</p>
+            <p>"What would become of our brothers?" observed a third; "and our younger sons?"
+               enquired a fourth, with a look of defiance.</p>
+            <p>"True," answered Leverton, at last; "I beg your pardon, my Lord: I see the difficulty
+               now."</p>
+            <p>Here, Garnish, who had looked anxiously towards the Earl, and had hitherto trembled
+               for his success, could contain his joy no longer, but laughed outright. The peer
+               acknowledged his partizan with a smile; and turning, with a look of infinite
+               condescension, towards Leverton, invited him to take wine.</p>
+            <p>"I wish my victory to sit as pleasantly as possible upon Mr. Leverton; and shall
+               therefore inflict nothing more upon him than a glass of hock."</p>
+            <p>"I shall be happy to attack the tun of Heidelburg with your Lordship," replied the
+               other; and the usual interchange of civilities passed.</p>
+            <p>"Who is this Mer. Lep — Lepperton?" enquired the county of Baronet of his neighbour,
+               the Earl, in a whisper.</p>
+            <p>"He is a person of no consideration," replied the other in the same tone, "the son of
+               some yeoman — or grazier — or — plebeian, in the west, as I think."</p>
+            <pb n="277" xml:id="image332"/>
+            <p>"What, a fellow who lived upon his own grass, like Nebuchadnezzar?" said the Baronet,
+               laughing.</p>
+            <p>"Ha, ha, ha!" echoed the Earl; "very good, Sir John, indeed — very good! Ha, ha, ha!"
+               continued he, "your simile is undeniable — but — but, my good Sir John, this person —
+               this Leverton — is a favorite with my Lady Trumpington, and is — as I hear — a person
+               really in some — a — request in London."</p>
+            <p>"I don't like these nobodies coming amongst us my lord," observed the other, "and —
+               ."</p>
+            <p>"Nor I, Sir John, nor I, I assure you," replied the Earl, "give me a little good
+               blood, as I say with my horses, and I'll take my chance for the rest."</p>
+            <p>"What!" said Lady Di. (who heard something of this last sentence) "did you speak of
+               your horses, my Lord? I pledge my reputation that there has been a cross in your
+               O'Kelly colts. Their quarters are coarse, and they run too rough in their coats for
+               thorough-bred things. There's been a cross, and that you may depend on. Leverton,
+               didn't you ask me to drink wine?"</p>
+            <p>"<emph>I'll</emph> drink wine with you, Lady Di." said Fanny Dartley; and — </p>
+            <p>"I shall be happy to submit to any thing in your Ladyship's service," replied
+               Leverton, (whom the last speaker had not allowed time to answer,) "will you drink
+               white Hermitage? or Moselle? or — ?"</p>
+            <p>"I always drink port," said the lady.</p>
+            <pb n="278" xml:id="image333"/>
+            <p>"Who's that drinking port?" enquired Lord Bridewell, "I'll join 'em. Garnish, my boy,
+               don't <emph>you</emph> like port?"</p>
+            <p>"Immensely, my Lord, immensely," replied the other. "I give you my word I generally
+               take port when I am alone — I may say generally," and he lifted the glass to his
+               lips. It was scarcely there, however, before a question from the Earl removed it. He
+               was called upon for his acquiescence, as to the merits of the Reverend Mr. Smatter;
+               and never was assent more rapidly given.</p>
+            <p>"Oh! certainly, my Lord, certainly," said he, bowing, "I admire Mr. Smatter
+               prodigiously. He is a wonderful preacher, indeed; and then he is so sentimental — so
+               melancholy — so Leverton, even you must allow that Mr. Smatter's melancholy sits most
+               interestingly upon him?"</p>
+            <p>"He mopes like a moulting chicken," said Lady Di. "I swear he always gives me the
+               vapours."</p>
+            <p>"He is, certainly, an infallible remedy for high spirits," said Leverton,
+               assentingly. "He would throw a damp upon a funeral."</p>
+            <p>"You will allow his style to be good, at least, Leverton?" persevered Garnish. "His
+               style is grand."</p>
+            <p>"It is superb!" said the Earl, with a tone that meant to put down all opposition.</p>
+            <p>"The rogue's style is well enough," said Lever-<pb n="279" xml:id="image334"/>ton;
+               "if it were but his own; but he has pilfered from Hooker, and Jeremy Taylor, and
+               South, and half a dozen others, till his box of sermons is like a bazaar. I hear he
+               is so thorough a mimic that when he lived at Sunning Hill and Hampstead, his lines
+               all ran upwards to the right hand corner of the paper, and he never came down
+               completely to level writing till he took to his house in Essex."</p>
+            <p>"Dr. Rust thinks well of him, however," retorted Garnish, "and <emph>his</emph>
+               opinion will carry him through."</p>
+            <p>"Rust!" exclaimed the beau, and was proceeding to discuss the merits of the
+               antiquary; when the earl (who saw that Garnish would never be able to make head
+               against his antagonist) stepped in to his relief, with more chivalry than wisdom. He
+               attempted a diversion.</p>
+            <p>"You have seen Dr. Rust's collection of valuable antiquities?"said he.</p>
+            <p>"I have seen them all," replied Leverton — (who thought that the question, which was
+               addressed to the baronet, was directed towards himself) — "I have seen them, one by
+               one, I believe, from first to last; and himself — the greatest wonder of all!"</p>
+            <p>"He has the strangest complexion," — lisped Lady Selina.</p>
+            <p>"Ah, madam!" said Leverton, "were he and his old monstrosities once thoroughly
+               scoured, you would know neither the one nor the other."</p>
+            <p>"His antiquities," observed the earl — </p>
+            <pb n="280" xml:id="image335"/>
+            <p>"I hate antiquities," said Lady Di. — "but I beg pardon; I think you said that you
+               had seen them, Leverton?"</p>
+            <p>"I saw a mass of things," answered the beau, "but little distinctly, — broken
+               statues; dingy pictures; belts of wampum; rings for the nose; fish bones for the
+               ears; druids' clubs; absurdities of every kind, from the equator to the poles.
+               Nothing was wanting — that was useless. There were sixteen tons of Egyptian horrors
+               blocking up the approach to the house; and five and twenty hundred weight of cracked
+               marble, which I took for a cistern, but which turned out to be the coffin of Ptolemy
+               Psammeticus. Every corner of every room was put in requisition. The hall was full;
+               the staircase was fuller; the dining-room could not be carpeted for these monsters.
+               Heads, legs, arms, noses, hideous little wretches in bronze and china affronted you
+               at every turn. Even the cellar was blocked up by a shapeless person, which the doctor
+               called Alexander, or Demetrius, or — I forget what; and we had a tedious harangue on
+               a foolish subject, instead of a bottle of Madeira with our sandwiches.</p>
+            <p>"Ha, ha, ha!" said the earl, at last.</p>
+            <p>"Ha, ha, ha!" responded Garnish.</p>
+            <pb n="281" xml:id="image336"/>
+            <p>"Ha, ha, ha!" continued the earl, evidently much irritated — "ha, ha, ha! — the
+                  <emph>original</emph> Theseus! I take upon myself — I say <emph>myself</emph> — to
+               commit my self — <emph>my</emph> opinion — that <emph>that</emph> is the original
+               marble. There is a copy (a much later work) in my Lord Elgin's collection."</p>
+            <p>"It is certainly by a different hand," said Leverton.</p>
+            <p>"Well — ?" said Lady Di.</p>
+            <p>"Well, madam," continued the beau, "there was an infinite deal of nothing, I assure
+               you. There was a head of Jupiter Stator, without a nose, receiving adoration from a
+               couple of sphinxes; and a Cupid with one eye shooting at a damaged countess, by
+               Vandyke. There — "</p>
+            <p>"He would hold a <emph>living</emph> countess in contempt, I suppose," said Lady
+               Di.</p>
+            <p>"Assuredly, madam; he would behold her with supreme indifference," answered Leverton.
+               "Old Lady Stately (who measured six feet one, in her — shoes) was the only female
+               that ever attracted his admiration. After gazing at her for five minutes, with
+               evident symptoms of delight, he turned to his neighbour and
+                  exclaimed"<emph>What</emph> a mummy she would make!"</p>
+            <p>"The old fool!" exclaimed Lady Di.</p>
+            <p>"Nevertheless, we must do the doctor justice," proceeded Leverton.
+                  "He<emph>has</emph> his living pets, I <pb n="282" xml:id="image337"/>assure you.
+               There is his parrot, which his aunt Ricketts bequeathed to him, and which, he says,
+               came over with Sir Francis Drake" — </p>
+            <p>"That is a solitary instance," observed somebody.</p>
+            <p>"Pardon me," replied Leverton, "he has a very pretty little colony of mice; and a rat
+               from Java: two rattle snakes, and an alligator — but no, that is stuffed: however, he
+               has an old friend — a tame duck, who was made a happy widow last Michaelmas; her
+               husband having been put into requisition (by mistake!) for giblet soup, after a hard
+               life of seventeen years, spent in the green pond at the back of the stable."<gap/>
+            </p>
+            <p>
+               <gap/>And so the dialogue ran on, (long after the ladies had retired), veering from
+               one thing to another, public and private. War — commerce — literature — art — the
+               manufacturing classes — the landed interest — their friends — their enemies — all
+               were separately and more than sufficiently discussed. Each attempted to take the lead
+               on some particular subject. The Earl was tedious and arrogant, beyond all measure, on
+               general politics. Colonel Dartley chattered a vast quantity of nothing upon "the
+               service;" and the county baronet prosed on agriculture, till her fell asleep in his
+               chair.</p>
+            <p>Every man talked his worst, till is hearers were tired: one with the austere tone of
+               a reasoner — <pb n="283" xml:id="image338"/>another with the solemnity of a prophet.
+               This proved that right was wrong: that, that mankind and art were declining — a
+               third, that both were springing up and rallying afresh. Every one saw into the future
+               — many provided for its wants — no one was at a loss — no one was short-sighted — no
+               one less than infallible. — </p>
+            <p>Oh! what a comical thing it is, reader — is it not? To hear (or read) the opinions of
+               some of these positive sages; to scan their unassailable arguments, proving that so
+               and so can <emph>not</emph> be done by reason of the physical and moral force, etc.
+               [sic] -and then to see that this very impossibility is done! As if nations could not
+               be stirred out of their ordinary apathy by the descent of a sudden truth, or stung to
+               the strength of madness by some great and intolerable wrong. In speculations,
+               especially, men never reckon upon their own fallibility; nor upon the
+                  <emph>change</emph> which the great wheel of Time is eternally producing, as it
+               rolls onwards, — crumbling the puny frost-work of the politician's brains, and
+               scattering wonders of all sorts for the benefit of succeeding ages, and the
+               employment of every faculty of the mind of man!</p>
+            <lb/>
+            <p>On word in conclusion — </p>
+            <p>Courteous Reader, — Harry Leverton is no more! Although not an insubstantial phantasm
+               of the imagination, like the Eastern Horam, yet he has <pb n="284" xml:id="image339"/>vanished, and left, like that sage, his valuable moral behind him; — somewhat of
+               this, indeed, springing from his example, (which was at once a model and a warning);
+               but some little also he bequeathed in the shape of precept. -After basking in
+               cloudless popularity, and having at his beck all the solid advantages of life, as
+               well as the courtesies which make those advantages delightful, he was obliged to
+               visit his estates in the West Indies; where — at the expiration of a tedious illness,
+               which wore the character rather of languor and ennui than of serious malady — he
+               died; disappearing like some of those volatile essences, which are so pungent and
+               pleasant while they last, but being transferred into a warm situation, vanish or
+               evaporate, from causes which the chemist or physician can alone detect.</p>
+            <dateline>September, 1824.</dateline>
+         </div>
+      </body>
+   </text>
+</TEI>

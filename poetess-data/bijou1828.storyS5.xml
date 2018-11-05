@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">The Ritter von Reichenstein</title>
+            <author type="author">By Unknown</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.storyS5</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="[anon.]" date="0000-0000" place=""> </name>
+                  </author>
+                  <title>The Ritter von Reichenstein</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">114-138</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>story</item>
+                  <item>The Ritter von Reichenstein</item>
+                  <item>Unknown</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g7" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="story"
+              xml:id="S5"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="114" xml:id="image149"/>
+            <head>
+               <title>The Ritter von Reichenstein</title>
+            </head>
+            <head>
+               <name reg="[anon.]" date="0000-0000">By Unknown</name>
+            </head>
+            <p>The Ritter von Reichenstein<note place="foot"
+                     resp="Bijou Editor, William Fraser, and/or Author"
+                     anchored="true">[Note to "The
+                  Ritter Von Reichenstein":] This Austrian story has its foundation in fact. The
+                  ruins of Reichenstein Castle are still visible in the district of Muhl, on the
+                  river Ens; and in the chapel is the Baron's monument, finely executed by an
+                  Italian master. [Fraser and/or Author.]</note>
+            </p>
+            <p>THE great hall in the royal castle of Linz resounded with kettle-drums and trumpets,
+               while King Ferdinand and his Queen sat at the banquet table, rejoicing that the siege
+               was now raised, and Austria once more victorious. The banquet was given in honour of
+               the young Baron von Reichenstein, who then, for the first time, appeared as the
+               King's guest. He had the good fortune to bring the welcome tidings that Solyman,
+               after beleaguering the city for many weeks, and being repulsed in every attack, had
+               at last suddenly desisted from his undertaking, and retreated by quick marches. Of
+               the distinction now conferred on Reichenstein his own noble conduct during the siege
+               rendered him eminently worthy, nor could the favour have been bestowed on any one who
+               would have valued it more highly, for pride and ambition were indeed his leading
+               characteristics.</p>
+            <pb n="115" xml:id="image150"/>
+            <p>The lively monarch banished for the time all political cares, and gave himself up to
+               the festivity of the moment, heightened by the consideration that the good news came
+               unexpectedly, as Vienna was then, in truth, but ill provided with the means of
+               defence, and the Sultan, at the head of three thousand men, had vowed never to return
+               till he had conquered both Hungary and Austria, where the Christian sway should be
+               terminated for ever. Merrily coursed the brimming goblets round the table, and in the
+               joy of his heart the King proposed the health of his country's brave defender, the
+               heroic youth, Philip Palsgraf of the Rhine, and of the veteran warrior, Count
+               Nicholas of Salm, whose locks had now grown grey under arms. The mirth became louder,
+               and the applause more vehement, till the Queen commanded silence and attention, for
+               she too had prepared a little entertainment to celebrate the termination of that
+               campaign which had threatened so much misfortune; well knowing that on such occasions
+               her illustrious consort did not disdain to exchange the homage to Bacchus for a
+               sacrifice to the Muses. Of this Monarch, indeed, it is recorded that when a certain
+               Colonel of his Life Guards once ventured to hint that he bestowed too many favors on
+               the learned, to the neglect of the ancient nobility, the Colonel next day received a
+               great packet of old and important parchments, with an order that he <pb n="116" xml:id="image151"/>should read them through, and in a few hours return a written
+               abstract of their contents; the Colonel, of course, brought them back, declaring his
+               incapacity for the task. "Good friend," said the King, smiling ironically, "you will
+               for the future spare your animadversions on our patronage of the learned, for you
+               perceive that if noblemen and warriors only were to be raised to office, the duties
+               of the state would be fulfilled yet worse than heretofore."</p>
+            <p>On a signal from the queen a red silk curtain at the bottom of the hall was suddenly
+               drawn up, and revealed an altar from which a clear flame rose flickering, and
+               illuminated the arms of Austria wreathed with laurel and gorgeously emblazoned.
+               Before the altar sat a female form, beaming in such luxuriance of beauty, that she
+               might well indeed have been deemed one of the muses descended from Mount Olympus. Her
+               long white robes though rich in folds could not conceal the exquisite symmetry of her
+               form; round her waist she wore a gold embroidered girdle, while from her shoulders
+               waved a short mantle of blue velvet studded with golden stars. Her features were of
+               the noblest Grecian mould; round her temples was bound a laurel wreath, and her
+               glossy chesnut hair flowed in profuse curls round her blushing cheeks, down into her
+               snow-white neck and bosom. In her arms she supported a harp, and accompanying her
+               voice with powerful chords, sung <pb n="117" xml:id="image152"/>a fervent hymn in
+               praise of the brave men by whose courage the threatening danger had been averted, and
+               the proud plans of the Pagan invader defeated. Impassioned eloquence or music alone
+               is enough to move irresistibly every feeling heart, — but how much is that effect
+               encreased , when the tones flow from lips so beautiful, when such eyes beam with the
+               sacred fire of inspiration! — A watchful silence prevailed in the hall that was
+               before so loud with voices; the guests had eyes and ears only for the seraphic
+               musician, who exercised her power like an enchantress even over the roughest veteran
+               warriors "albeit unused to the melting mood," for she recalled to them and presented
+               as if in a magic mirror the fairy dreams of their youth. How vivid then must have
+               been the impression on younger auditors! Involuntarily all hearts were attracted and
+               won by the lovely performer — every eye glistened with pleasure, and when she had
+               finished her triumphant song, every tongue was busy in her praise — even the proud
+               and haughty Baron Reichenstein was deeply moved. 'Till now, the attention which had
+               often been bestowed on the young warrior by susceptible beauties of the capital had
+               failed to excite any other sensation but that of gratified vanity. Now, however, when
+               the songstress in her chaunt alluded to him as the announcing messenger of that that
+               victory which he had assisted to gain, he could <pb n="118" xml:id="image153"/>no
+               longer look proudly around, as he had been wont to do. On the contrary a deep blush
+               came over his features; his proud heart beat anxiously, and his fiery eagle eyes were
+               humbly fixed on the ground.</p>
+            <p>So the festivities of the banquet were closed, and the evening of that happy day was
+               spent in dancing and games of chance. For neither of these amusements was Baron
+               Reichenstein disposed. Leaning against a pillar of the Gothic Hall, he followed with
+               watchful eyes every movement of the Demoiselle Appollonia von Santi, — for so the
+               beautiful songstress was named. Descended from a noble Greek house, and left in early
+               youth an orphan, she had been brought to the Court of King Ferdinand, and there
+               educated as one of the queen's maids of honour. Her beauty, — her eminent talents for
+               music, and but still more the unpretending modesty of her demeanour excited universal
+               attention, and every one spoke with respect of the beautiful Lady Appollonia. No
+               sooner had she made her appearance in the ball-room than Reichenstein saw that the
+               young and old crowded around her, to express their thanks for the delight which her
+               music had afforded, and afterwards as she whirled past him in the walk, supported by
+               some gay and brilliant courtier, he was racked by a feeling of the bitterest envy;
+               yet he who had before known fear scarcely by name, had <pb n="119" xml:id="image154"/>not the courage to approach her. With rapture he remarked, that even during the
+               dance, his eyes often encountered hers, and when she seated herself for refreshment
+               and rest, her looks again followed him as if she would say — "And you alone
+               determined not to share in the pleasures of these fleeting hours?" So at last he
+               mustered resolution, humbly approached the victorious enchantress, and in a
+               faultering half audible voice begged that he might have the honour of her hand for
+               the next dance. Appollonia blushed and courtesied her consent; the warlike hero made
+               an awkward bow, and retreated, not daring to say more, 'till the music recommencing
+               called them to their places. Reichenstein, who was usually a good waltzer could now
+               scarcely keep in time, while his lovely partner seemed to partake of his
+               embarrassment, yet this was but for a few minutes; her sparkling eyes and approving
+               smiles soon roused him to self-possession. Even the musicians seemed inspired; they
+               played louder, and with more precision. Envied by many a youth in the numerous
+               assemblage, he flew down the ranks, with the peerless Grecian on his arm, and all
+               allowed that there never was seen a more beautiful couple. On returning to their
+               seats, Appollonia challenged her partner to give her some account of the Blockade.
+               Reichenstein had now recovered from his awkward timidity, and contrived to tell his
+               story with un-<pb n="120" xml:id="image155"/>wonted eloquence, enlivened and rewarded
+               all the while by the approbation which he read unequivocally in the bright eyes of
+               his auditress. Appollonia's attention was indeed so absorbed that she forgot the
+               dance, and the presence of the court, so that the marshal was obliged to remind her
+               of her duty, for the queen had already proposed to break up the party.</p>
+            <p>Henceforward Reichenstein saw the young lady almost every day, and continued always
+               to discover new charms and fresh virtues, — and this at length drew from him a
+               confession of his love, and a request for her hand in marriage. Appollonia in answer
+               explained to him that her fate depended on the king, who had hitherto acted towards
+               her as a father, and who therefore possessed the full parental authority.
+               Reichenstein heard this with fear and trembling; for he suspected that Ferdinand
+               might have other views for his fair adopted daughter. He knew how much the king
+               delighted in Appollonia's talents, by which his mind was often exhilarated after the
+               cares of public business, and with which amusement it could not be supposed that he
+               would willingly dispense. It was necessary therefore to watch for some favourable
+               opportunity, when the king should appear in especial good humour, before the subject
+               could be broached, and ere long, such a fitting occasion presented itself to the
+               anxious lover.</p>
+            <pb n="121" xml:id="image156"/>
+            <p>The disaffected Bohemians, whom Ferdinand had a few years ago severely chastised,
+               happened to lose by an accidental fire great part of the national archives, and their
+               most important charters or deed of immunity. Conscience-stricken, and fearful that
+               advantage might be taken of this event, whereby they might be deprived of many
+               valuable privileges, they sent a deputation to Linz, in order to treat with their
+               monarch on the subject. Scarcely had Ferdinand heard their preamble, when he
+               exclaimed angrily — "Your charters may be destroyed, but our imperial promise, and
+               principles of integrity, are not destroyed along with them. All the rights and
+               privileges of which this fire has robbed you, we shall renew; and, where there is
+               doubt, rather than give you less, we shall make your advantages greater than before."
+               Of that scene Reichenstein was a witness. "No," said he to himself, "it is impossible
+               that a sovereign, who is thus so mild and equitable, should be harsh to me alone."
+               And no sooner had the ashamed representatives left the audience-hall, than he threw
+               himself at Ferdinand's feet, and stammered out his request. For a few moments he was,
+               indeed, kept in agonising suspense, while the king looked at him silently and with a
+               very grave aspect. At length he made a sign for the supplicant to rise, and said, "I
+               cannot conceal that I shall be very unwilling to part with Mademoiselle de Santi. In
+                  <pb n="122" xml:id="image157"/>her delightful music I must lose one of the best
+               enjoyments of my life; — yet far be it from me to interfere on any selfish
+               principles, with her future prospects or yours; — take her then, and be happy."</p>
+            <p>What language could adequately describe the rapture of the lovers! Soon after, their
+               marriage was solemnized with princely magnificence, and Reichenstein took his young
+               bride to the family castle from which he derived his title, and which was situated in
+               Upper Austria, in one of the most attractive districts of that beautiful country.
+               Then, from far and near, flocked visitors to pay their homage at the festal mansion,
+               more attracted, however, by the wondrous musical talents of the bride, than by the
+               hospitable manners of the castle's lord. The young noblemen of the neighbourhood,
+               especially, were numerous and unwearied in their attentions; and their admiration of
+               the Lady von Reichenstein's improvisator songs was beyond measure fervent. The
+               baron's pride was at first flattered by such universal applause; but that feeling
+               soon yielded to another very different emotion. He began to fear that it was not
+               merely the delight they experienced from her music, but much more their admiration of
+               Appollonia's personal charms, which shone in the eyes of these gay and idle youths,
+               so that by degrees jealously more and more deeply fixed her serpent stings into his
+               very <pb n="123" xml:id="image158"/>heart. Yet far too proud to confess that he had
+               become the prey of a passion so despicable, and sensible that her conduct was too
+               scrupulously correct to warrant his avowal of any suspicions, he concealed his
+               irritability as much as possible, though many times, by gloomy silence, or short
+               monosyllabic answers, did he betray his inward discontent. Appollonia, conscious of
+               her own innocence, was completely at a loss to fix on any cause for this change, and
+               enquired anxiously the reason of his distress, — whereupon the proud baron, instead
+               of imparting at once the source of his grief, and thus, for ever banishing the demon
+               that haunted his house, was either moodily silent as before, or ascribed his
+               depression to a transient attack of illness.</p>
+            <p>Love is sharp-sighted. Appollonia thought that she had at last found out the real
+               cause of his displeasure; and under the pretext that their present mode of life was
+               far too fatiguing, she begged him to dismiss their guests, in order that they might
+               henceforth live in retirement: but how could Reichenstein's haughty spirit submit to
+               the idea of having appeared as a jealous husband? He insisted that the castle of his
+               ancestors must remain open to every guest; and when Appollonia, under various
+               pretences withdrew to the solitude of her own apartments, and the visitors with
+               regret commented on <pb n="124" xml:id="image159"/>the absence of their beautiful
+               hostess — but especially when ironical hints and conjectures were whispered round the
+               festal board, regarding the reasons for her disappearance, his pride was more than
+               ever wounded. He therefore entreated Appollonia, nay, commanded her, to appear as
+               formerly at every banquet, and to enliven his guests by the exercise of her magic
+               art. Under these circumstances, concluding that her former suppositions had been
+               altogether erroneous, she obeyed him willingly, without disguising that the incense
+               of praise lavishly bestowed was welcome and acceptable to her female heart.
+               Reichenstein's gloomy discontent now increased visibly from day to day, and it was
+               only in the presence of strangers that his jealousy was overcome or concealed by the
+               determination to appear gay and unembarrassed. In vain did his affectionate wife
+               enquire into the cause of such inexplicable conduct. Two whole years thus passed
+               away, during which that abode of his ancestors, where the spirit of domestic
+               happiness should have woven for him the richest and brightest wreaths, was changed by
+               his own imperious temper, and haughty and foolish reserve, into a cell of torment and
+               ceaseless disquietude.</p>
+            <p>Meanwhile Solyman, in order to revenge himself for the loss and disgrace which he had
+                  encoun-<pb n="125" xml:id="image160"/>tered, prepared to renew the war more
+               formidably than ever, and made such an attack on Styria and Austria, that the Emperor
+               Charles, in person, at the head of a considerable army, came to the assistance of the
+               king, his illustrious brother. Ferdinand at the same time hastened to collect around
+               him his faithful troops, and the rumour of these proceedings having reached the
+               secluded castle of Reichenstein, the baron determined that he would immediately
+               resume the duties of his station in the army. He had not yet been summoned; but alas!
+               in his home there was no longer any domestic happiness that could induce him to
+               remain there. In his wayward self-delusions he had cast it away; and in the tumult of
+               the battle-field he best hoped to forget his vexations.</p>
+            <p>The news of this approaching separation struck fearfully on the already wounded heart
+               of Appollonia. When the dreadful hour of parting arrived, her anguish was indeed most
+               sincere and overpowering, yet her foolish husband imagined that her tears and
+               complaints were but a mask under which she concealed her joy at the prospect of being
+               able in future to follow her inclinations without restraint. Unmoved, therefore, and
+               sternly, he tore himself from her affectionate embraces, and galloped away, spurring
+               his foaming charger, even as the <pb n="126" xml:id="image161"/>demons of jealousy
+               and distrust goaded him on in his insane career.</p>
+            <p>Now the once gay castle of Reichenstein became silent as a hermitage; — and like a
+               widow mourning the death of a beloved husband, Appollonia withdrew from all society,
+               living only for the care of his property, and ceaseless prayers for his welfare and
+               preservation. Often at the midnight hour her attendants found her still at her
+               earnest devotions, or listened with respectful sympathy as she touched her harp, and
+               with tearful eyes expressed her grief, and even her prayers, in low faultering
+               melody.</p>
+            <p>Day after day, week after week dragged on, but no news arrived of Reichenstein,
+               though she had earnestly requested that he would write to her. At length she found
+               herself quite unable any longer to bear the racking pains of suspense, and dispatched
+               her Castellan, a man of years and experience, with orders that he should make his way
+               to the royal army, and by no means to return without some intelligence of her beloved
+               husband. The interval of her messenger's absence she spent in continued prayer, and
+               in acts of charity and benevolence.</p>
+            <p>When the Castellan's return was announced, he was summoned immediately to her
+               presence, but alas! — his features wore an expression of deep grief <pb n="127" xml:id="image162"/>and disappointment. "Merciful God!" cried she, "my worst fears
+               are then realized — and I shall never see him more!" She fainted, and not without
+               great care and skill could her attendants restore her to self-possession — then it
+               seemed that by direful and heroic exertion she had resolved to conquer her emotion,
+               yet her bosom heaved convulsively, and her lips and eyelids quivered. "Speak on,"
+               said she in a hollow voic — "relate all that thou know'st." "Forgive me," noble lady,
+               said the messenger — "but I fear you are not well enough now to hear such tidings."
+               "I know already that which is most appalling," answered she, "thou canst not tell me
+               aught that could wound more deeply — say then, how and where did he die?" "Die!"
+               exclaimed the Castellan — "God forbid that he should die — no, of this much be
+               assured, your noble husband lives." "Lives!" exclaimed Appollonia, in a voice like
+               that of the condemned victim on the scaffold, in whose ears for the first time sounds
+               the voice of pardon, and who fears he may yet be deluded. — "Lives — saidst thou —
+               lives?" "Aye indeed," said the Castellan, "but the Baron von Reichenstein is now a
+               Turkish prisoner." "Oh, heaven be praised!" cried the enraptured wife, "his life then
+               is yet spared;" and she fell on her knees, uplifting her clasped hands in fervent
+               gratitude to the Giver of all Good for his <pb n="128" xml:id="image163"/>mercy.
+               Thereafter she listened with calm attention to the Castellan's narrative.
+               Reichenstein had been placed with a corps which was destined to oppose that of
+               Michael Oglu, who was forcing his way with the van of the Turkish army over the
+               Sommering mountains. In the heat of battle the Baron had advanced too far; he was
+               quickly surrounded, and after a brave resistance, taken prisoner, and dragged away by
+               the repulsed and fugitive Turks. Intelligence had been subsequently received by means
+               of deserters, that he had fallen into the power of the Bassa of Belgrade, who, in
+               consequence of his severe wounds, had obtained permission to return home, and had
+               taken with him to his own country all his prisoners. "So then he lives — he is at
+               Belgrade," cried Appollonia, "and there is hope that I may yet again call him mine!"
+               With these words her tears flowed more freely than ever, but they were now tears of
+               joy.</p>
+            <p>For the rest of that day she remained shut up in her chamber, she would not speak
+               with any one, nor accept of refreshment, but in the evening the castle chaplain was
+               summoned to her presence. To him she explained that some affairs of great urgency and
+               importance obliged her to go forthwith to the Queen's Court at Linz, and as the
+               Castellan must attend her on the journey, the chaplain should, in their absence, <pb n="129" xml:id="image164"/>use every means in his power for the due guardianship
+               of the castle. The grey-headed priest not knowing the purpose of her journey, did not
+               venture to remonstrate, and only implored that as her affectionate servants and
+               vassals would deeply grieve for her absence, she would not long defer her return.
+               With visible emotion she then took leave of her domestics, and at the earliest dawn
+               of the next day, followed by the old castellan, and the blessing of all the Baron's
+               vassals, she departed, taking with her only her harp, and wearing apparel.</p>
+            <p>Meanwhile, the Ritter von Reichenstein was obliged to fulfil menial drudgery as a
+               slave in the gardens of Ibrahim, Bassa of Belgrade. At that time it happened that in
+               his Harem there prevailed great affliction; Fatima, the most beautiful and beloved of
+               his wives, had been driven to distraction by the death of her first-born infant
+               child, and the violence of her sorrow had given way to an apathy and indifference
+               which amounted to insanity. The unhappy Ibrahim offered the largest rewards for
+               assistance, and tired every method to save his favourite from that untimely death to
+               which the continuance of her malady would certainly lead. The most skilful physicians
+               had recourse to all expedients of their art, but in vain; so that with an almost
+               broken heart, Ibrahim saw that she was rapidly sinking into the grave.</p>
+            <pb n="130" xml:id="image165"/>
+            <p>One evening when he was under the dominion of these painful reflections, it was
+               announced that a Grecian youth had made his appearance at Belgrade as a harp player
+               and singer, with whose music every listener had been enraptured, and who had begged
+               permission to prove his talents before the Bassa. Ibrahim gladly availed himself of
+               the opportunity to obtain some diversion from his own gloomy thoughts; he desired
+               that the stranger should be admitted forthwith, and was so much delighted with the
+               youth's performance that as long as the music continued he quite forgot his usual
+               sufferings. Thereafter the question occurred to him whether that magic art which had
+               such influence over his emotions might not also alleviate the malady of his beloved
+               Fatima. He imparted this idea to the stranger, who encouraged his hopes, and assured
+               him that many instances were on record of insane persons being altogether restored to
+               health by the power of music. "Should'st thou succeed in this attempt," cried the
+               rejoiced Bassa, "then demand what thou wilt — no reward is too great, when the
+               service performed is the preservation of my dearest Fatima."</p>
+            <p>The Greek youth was duly instructed in the cause and symptoms of the malady, and
+               undertook its cure. The attempt succeeded even beyond expectation. At first he was
+               concealed behind a veranda, and ventured only to sing the most melan-<pb n="131" xml:id="image166"/>choly lays in soft and long protracted notes, to which for some
+               time Fatima seemed, as usual, indifferent, but by degrees her attention was roused,
+               and she listened with visibly increasing interest. While the music continued, her
+               beautiful features were once more animated, a slight tinge of colour rose into her
+               cheeks, and a lambent fire shone in her eyes, but as the tones died away into silence
+               she declined again into her wonted mournful apathy. By degrees she began to watch
+               every word of the youth's songs, which like the music were plaintive and desponding,
+               till her bosom heaved, and she wept unconsciously. Thus the trial was repeated for
+               several successive days, and as often as the hour drew near which was appointed for
+               the musician's attendance, she expressed anxiety and impatience; nay, once when by
+               some accident he had been detained, she enquired if they intended to deprive her of
+               her only remaining consolation. These words were the first that she had been heard to
+               utter for many weeks, and from henceforward the Greek, at her request, came earlier,
+               and remained longer. By degrees, too, he ventured to introduce songs that were less
+               mournful, and the listener seemed even more gratified than before, till at length she
+               begged to see the wonderful musician by whom she had been thus delighted; and even
+               requested that he would give her instructions in his divine art. He obeyed <pb n="132" xml:id="image167"/>willingly, and Fatima had soon learned a few simple
+               ballads, which she practised passionately night and day, thus forgetting her
+               misfortunes, so that she was ere long restored to perfect health.</p>
+            <p>The Bassa, rejoiced beyond measure at this result, did not fail to send for the
+               musician. "Thou hast fulfilled thy promise," said he, "now demand thy reward, in
+               order that I also may behave honourably. Be not afraid to ask too much, for Allah has
+               made me rich by his exceeding bounties, but for the preservation of my best and
+               dearest treasure I am indebted to thee." "Sir," answered the youth, "there is in the
+               gardens of your Harem a noble German soldier, the Ritter von Reichenstein, a captive
+               who now labours there as a slave. It so happens that I have been deeply indebted to
+               his house, and therefore if you are pleased to give up to me the liberty of this man,
+               I shall be amply and richly rewarded." "Take him hence then," said the Bassa, "and
+               along with him, if thou wilt, ten of his fellow soldiers, who have hitherto shared
+               his fate. Moreover, it shall not be said that the Bassa Ibrahim sent any man out into
+               the wide world to find his way home as a mendicant; he shall therefore be amply
+               provided for; and thou, too, modest youth, shalt not leave my palace unrewarded."
+               Hereupon Ibrahim summoned the overseer of his slaves, commanding him to lead the
+               Greek youth into the prison of the Christians, to <pb n="133" xml:id="image168"/>inform the Baron and his companions that they were free, and present to them the
+               noble Greek youth as their deliverer. In vain did the humble minstrel strive against
+               this — the Bassa's resolution was inexorable, "for it is no more than justice," said
+               he, "that these Christian dogs should learn to know their benefactor, and offer him
+               due thanks for his disinterested benevolence."</p>
+            <p>Miserable embarrassed, the young Greek followed the overseer, and entered a gloomy
+               prison, where the captives were seated on the damp ground, strewed with rushes. No
+               sooner had the overseer announced the purpose of his message than the overjoyed
+               exiles threw themselves at their deliverer's feet, even kissed the hem of his
+               garment, and wept in their excess of gratitude. "Be thankful to God," said the youth,
+               in a faultering, scarce audible tone, "and may Providence guide you on your homeward
+               journey!" "Stay, noble stranger," cried Reichenstein, as the minstrel would have
+               hastily retired — "if you will not listen to our humble protestations of gratitude,
+               yet at least accept from my hands this insignificant ring. Should you, or any of your
+               friends ever come to Germany, and pass near the castle of Reichenstein, this little
+               token will open for the traveller a new home, and make him an acknowledged inmate of
+               a noble family, whose last remaining chief you <pb n="134" xml:id="image169"/>have
+               thus contributed to uphold." "We shall meet again," stammered the youth, with obvious
+               emotion, and taking the ring, rushed from the prison as though he dared not trust
+               himself in any farther colloquy.</p>
+            <p>The Bassa's promises were faithfully fulfilled. Enriched by valuable presents, and
+               attended by a secure escort, Reichenstein, along with his companions, left Belgrade.
+               They arrived in safety at the Christian camp, and were all most kindly received by
+               King Ferdinand, especially Reichenstein, who still expressed his wish and resolution
+               to remain with the army. "In the first place," answered the King, "it is our will and
+               pleasure that you should appear before her Majesty at Linz. Should your inclinations
+               alter when there, which I hope may be the case, you shall have free leave of absence
+               from your military duties, for after the oppressions you have undergone, this
+               indulgence is but just and necessary. If however your determination should remain
+               unshaken, the presence of so brave a soldier as the Baron von Reichenstein will
+               always be welcome to our army."</p>
+            <p>In the royal palace of Linz, after an interval of three years, the baron once more
+               sat in the great hall at the banquet table, though now the party was less numerous,
+               consisting only of the queen, her maids of honour, and some old coutiers. He <pb n="135" xml:id="image170"/>again beheld the same golden framework of the folding
+               doors, and the same red curtain which had formerly risen at the queen's signal, and
+               afforded the first view of that peerless beauty, whom afterwards he was so fortunate
+               as to call his own. With bitter regret he thought of that happy day, and all the
+               fairy visions that had shone so brightly, and were now fled for ever. He sighed
+               deeply, and the queen observing his distress, interrupted his contemplations with the
+               words — "If I interpret your looks aright, that curtain revives recollections of the
+               good fortune, which was here unexpectedly prepared for you, and I can well explain
+               that sigh with which your longing heart has reverted to home and a beloved wife." A
+               cloud came over Reichenstein's expressive features, and a yet deeper sigh was his
+               only answer.</p>
+            <p>"Nay, then, perhaps you have received some disquieting letters," said the queen, "and
+               I doubt not that Appollonia's grief at your long absence — "</p>
+            <p>"Appollonia's grief, indeed!" interrupted the baron with bitter irony; "your majesty
+               must forgive me if I venture to doubt that any such cause — "</p>
+            <p>"Nay, nay," answered the queen, "we must hear no more of this. I shall not allow
+               myself to believe that unworthy suspicions could ever find harbour in your bosom. For
+               the present, let us hear <pb n="136" xml:id="image171"/>minutely how you contrived to
+               escape from the Turkish prison?"</p>
+            <p>The Ritter went through his narrative accordingly.</p>
+            <p>"But your deliverer," observed the queen; "that noble-hearted Greek — have you then
+               never seen him since your meeting in prison?"</p>
+            <p>"Alas, no!" answered the baron; "and the manner in which he then took leave obliges
+               me to fear that I shall never in this world be so happy as to see my generous
+               benefactor again, in order to prove how deep and sincere is my gratitude."</p>
+            <p>"While there is life there is hope," said the queen; "could you have believed, three
+               years ago, that yonder curtain, which you no doubt looked on with contempt, concealed
+               the beautiful songstress, who was destined to be your loving wife? What should you
+               think, if its mystic folds should once more expand, and reveal the person of your
+               kind deliverer?"</p>
+            <p>"Your majesty is pleased to jest," said the baron with a melancholy smile.</p>
+            <p>"Let us try," said the queen, "whether it is impossible to convert his infidel;" and
+               at her signal the curtain was again drawn up. Again he saw the altar from which a
+               bright flame rose and illuminated, not the Austrian arms, but those of the noble
+               house <pb n="137" xml:id="image172"/>of Reichenstein; while beneath stood the Grecian
+               youth, his large hat slouched over his features, and leaning on his harp.</p>
+            <p>"Is it possible? my deliverer! my benefactor!" cried Reichenstein, and then rushed up
+               to the apparition. At that moment the pilgrim's hat fell off; the grey-coloured dress
+               was thrown aside; and Appollonia smiling in all her wonted loveliness, while tears of
+               joy shone in her eyes, presented to him the ring which he had given as a token to the
+               wandering minstrel. He stood silent and confounded.</p>
+            <p>"Yes," said the queen in a solemn voice, "she it was — your affectionate and faithful
+               wife, whom not all the fatigues and dangers of so long a journey could deter from her
+               undertaking, to redeem out of wretched thralldom that still beloved husband, who, too
+               haughty to confess the injustice of which he had been guilty, had destroyed her
+               happiness and his own."</p>
+            <p>Reichenstein meanwhile throwing himself prostrate on the ground, and forgetting all
+               his wonted pride, had hidden his face in the folds of her garment. Appollonia would
+               have raised him up, but he exclaimed vehemently, though in a voice broken by his
+               emotion — "Never more dare I lift up mine eyes to her whom I have thus injured! No
+               penance no humiliation can atone for that guilt which now <pb n="138" xml:id="image173"/>cleaves to my conscience and of which the stain will never be
+               effaced."</p>
+            <p>"Nay," said Appollonia, "knowst thou not that of all duties in this world, there is
+               none more easy for true love than to forgive, — that the fond heart may indeed be
+               wounded and broken by faults, mistrust and injuries, yet will never thus be alienated
+               from its idol?"</p>
+            <p>So the happy couple rushed into each others embrace, forgetful of the spectators and
+               all the world — nor was there one individual present, who did not sympathize in their
+               emotion; even the queen herself burst into tears. Henceforward, Reichenstein
+               cherished no other pride but that founded on possession of the most beautiful and
+               faithful of wives. The Bassa of Belgrade's gifts might increase his worldly wealth,
+               but not his happiness, for in the tried attachment of Appollonia, he had secured the
+               richest of all earthly treasures; mutually placing unbounded confidences in each
+               other, their path of life was evermore cheered by sunshine and strown with
+               flowers.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">Letter from Sir Walter Scott, Bart.</title>
+            <author type="author">By Sir Walter Scott, Bart.</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.letterL1</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Scott, Walter" date="1771-1832" place="Scotland, UK">Walter Scott</name>
+                  </author>
+                  <title>Letter from Sir Walter Scott, Bart.</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">33-38</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>letter</item>
+                  <item>Letter from Sir Walter Scott, Bart.</item>
+                  <item>Sir Walter Scott, Bart.</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g32" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="letter"
+              xml:id="L1"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="33" xml:id="image058"/>
+            <head>
+               <title>Letter from Sir Walter Scott, Bart.</title>
+            </head>
+            <head>
+               <name reg="Scott, Walter" date="1771-1832" place="Scotland, UK">By Sir Walter Scott,
+                  Bart.</name>
+            </head>
+            <p>LETTER FROM SIR WALTER SCOTT TO SIR ADAM FERGUSON, DESCRIPTIVE OF A PICTURE PAINTED
+               AT ABBOTSFORD BY DAVID WILKIE, ESQ. R. A., AND EXHIBITED AT THE ROYAL ACADEMY IN
+               1818.</p>
+            <p>MY DEAR ADAM — The picture you mention has something in it of rather a domestic
+               character, as the personages are represented in a sort of masquerade, such being the
+               pleasure of the accomplished painter. Nevertheless, if you, the proprietor, incline
+               to have it engraved, I do not see that I am entitled to make any objection.</p>
+            <p>But Mr. * * * mentions besides, a desire to have anecdotes of my private and domestic
+               life, or, as he expresses himslef, a portrait of the author in his nightgown and
+               slippers; — and this form you, who, I dare say, could furnish some anecdotes of our
+               younger days which might now seem ludicrous enough. Even as to my night gown and
+               slippers, I believe the time has been when the articles of my wardrobe were as
+               familiar to your memory as Poins's <pb n="34" xml:id="image059"/>to Prince Henry, but
+               that period has been for some years past, and I cannot think it would be interesting
+               to the public to learn that I had changed my old robe-de-chambre for a handsome
+               douillette, when I was last at Paris.</p>
+            <p>The truth is, that a man of ordinary sense cannot be supposed delighted with the
+               species of gossip which, in the dearth of other news, recurs to such a quiet
+               individual as myself; and though, like a well-behaved lion of twenty years standing,
+               I am not inclined to vex myself about what I cannot help, I will not, in any case in
+               which I can prevent it, be acessary to these follies. There is no man known at all in
+               literature who may not have more to tell of his private life than I have: I have
+               surmounted no difficulties either of birth or education, nor have I been favored by
+               any particular advantages, and my life has been as void of incidents of importance,
+               as that of the "weary knife-grinder."</p>
+            <p>"Story! God bless you! I have none to tell, Sir."</p>
+            <p>The follies of youth ought long since to have passed away; and if the prejudices and
+               absurdities of age have come in their place, I will keep them, as Beau Tibbs did his
+               prospect, for the amusement of my domestic friends. A mere enumeration of the persons
+               in the sketch is all which I can possible permit to be published respecting myself
+               and my <pb n="35" xml:id="image060"/>family; and, as must be the lot of humanity when
+               we look back seven or eight years, even what follows cannot be drawn up without some
+               very painful recollections.</p>
+            <p>The idea which our inimitable Wilkie adopted ws to represent our family group in the
+               garb of south-country peasants, supposed to be concerting a merry-making, for which
+               some of the preparations are seen. The place is the terrace near Kayside, commanding
+               an extensive view toward the Eildon-hills. 1. The sitting figure, in the dress of a
+               miller, I believe, represents Sir Walter Scott, author of a few scores of volumes,
+               and proprietor of Abbotsford, in the County of Roxburgh. 2. In front, and presenting,
+               we may suppose, a country wag somewhat addicted to poaching, stands sir Adam
+               Ferguson, Knight, Keeper of the Regalia of Scotland. 3. In the background is a very
+               handsome old man, upwards of eighty-four years old at the time, painted in his own
+               character of a shepherd. He also belonged to numerous clan of Scott. He used to claim
+               credit for three things unusual among the southland shepherds: first, that he had
+               never been fou in the course of his life; secondly, that he never had struck a man in
+               anger; thirdly, that though entrusted with the the management of large sales of
+               stock, he had never lost a penny for his master by a bad debt. He died soon aterwards
+               at Abbotsford. 4, 5, 6. Of the three female figures <pb n="36" xml:id="image061"/>the
+               elder is the late regretted mother of the family represented. 5. The young person
+               most forward in the group is Miss Sophia Charlotte Scott, now Mrs. John Gibson
+               Lockhart; and 6, her younger sister, Miss ann Scott. Both are represented as
+               ewe-milkers, with their leglins, or milk-pails. 7. On the left hand of the shepherd,
+               the young man holding a fowling-piece is the eldest son of Sir Walter, now Captain in
+               King's Hussars. 8. The boy is the youngest of the family, Charles Scott, now of
+               Brazen Nose College, Oxford. The two dogs were distinguished favorites of the family;
+               the large one was a stag-hound of the old Highland breed, called Maida, and one of
+               the hansomest dogs that could be found; it was a present to me from the chief of
+               Glengary, and was highly valued, both on account of his beauty, his fidelity, and the
+               great rarity of the breed. The other is little Highland terrier, called
+                  <emph>Ourisk</emph> (goblin), of a particualr kind, bred in Kintail. It was a
+               present from the honorable Mrs. Stuart Mackenzie, and is a valuable specimen of race
+               which is now also scarce. Maida, like Bran, Lerath, and other dogs of distinction,
+               slumbers "beneath his stone," distinguished by an epitaph, which to the honour of
+               Scottish scholarship be it spoken, has only one false quantity in two lines.</p>
+            <lg org="uniform" sample="complete" part="N">
+               <l part="N">Maidae marmorea dormis sub imagine Maida</l>
+               <l part="N">Ad januam domini sit tibi terra levis.</l>
+            </lg>
+            <pb n="37" xml:id="image062"/>
+            <p>Ourisk still survives, but like some other personages in the picture, with talents
+               and temper rather the worse for wear. She has become what Dr. Rutty, the Quaker,
+               records himself in his journal as having sometimes been — sinfully dogged and
+               snappish.</p>
+            <p>If it should suit Mr. * * *'s purpose to adopt the above illustrations, he is
+               heartily welcome to them, but I make it my especial bargain that nothing more is said
+               upon such a meagre subject.</p>
+            <p>It strikes me, however, that there is a story about old Thomas Scott, the shepherd,
+               which is characteristic, and which I will make your friend welcome to. Tom was, both
+               as a trusted servant, and as a rich fellow in his line, a person of considerable
+               importance among his class in the neighbourhood, and used to stickle a good deal to
+               keep his place in public opinion. Now, he suffered, in his own idea at least, from
+               the consequence assumed by a country neighbour, who, though neither so well reputed
+               for wealth or sagacity as Thomas Scott, had yet an advantage over him, from having
+               seen the late King, and used to take precedence upon all occasions when they chanced
+               to meet. Thomas suffered under this superiority. But after this sketch was finished,
+               and exhibited in London, the newspapers made it known that his present majesty had
+               condescended to take some notice of it. Delighted with the circumstance, Thomas Scott
+               set out on a most oppressively hot day, to walk five miles to Bowden, <pb n="38" xml:id="image063"/>where his rival resided. He had no sooner entered the cottage
+               when he called out in his broad forest dialect — "Andro', man, did ye anes sey (see)
+               the King?" "In troth did I, Tam," answered Andro'; "sit down, and I'll tell ye a'
+               about it: — ye sey I was at Lonon, in a place they ca' the park, that is, no like a
+               hained hog-fence, or like the four-nooked parks in this country — " "Hout awa," said
+               Thomas, "I have heard a' that before: I only came ower the know now to tell you,
+               that, if you have seen the king, the king has seen mey" (me). And so he returned with
+               a jocund heart, assuring his friends "it had done him muckle gude to settle accounts
+               with Andro'."</p>
+            <p>Jocere haec — as the old Laird of Restalrig writes to the Earl of Gowrie — farewell
+               my old, tried, and dear friend of forty long years. Our enjoyments must now be of a
+               character less vivid than those we have shared together,</p>
+            <p>But still at our lot it were vain to repine, Youth cannot return, or the days of Lang
+               Syne.</p>
+            <closer>Your's Affectionately,<lb/> Walter Scott.</closer>
+            <dateline>Abbotsford, 2d August, 1827.</dateline>
+         </div>
+      </body>
+   </text>
+</TEI>

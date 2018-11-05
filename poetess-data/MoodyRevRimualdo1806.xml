@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" level="a">Review of &quot;Rimualdo&quot; by Ireland</title>
+				<title type="subordinate" level="j">The Monthly Review</title>
+				<author type="writer">
+					<name>Elizabeth Moody</name>
+				</author>
+				<respStmt>
+					<resp>Editor</resp>
+					<name xml:id="MW">Mary A. Waters</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<idno>MoodyRevRimualdo1806</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title type="main" level="a">Art. 25. Rimualdo; or, The Castle of Badajos. A
+							Romance. By W. H. Ireland.</title>
+						<author type="writer">Moody, Elizabeth (1731-1814)</author>
+					</analytic>
+					<monogr>
+						<title type="main" level="j">The Monthly Review</title>
+						<imprint>
+							<date when="1806-02">February 1806</date>
+							<biblScope unit="vol">34</biblScope>
+							<biblScope unit="page">203-04</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “, " for ”, '
+						for ‘, and ' for ’.</p>
+					<p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard</p>
+					<p>Em-dashes have been rendered as &#8212;</p>
+				</hyphenation>
+				<normalization method="markup">
+					<p>Spelling has not been regularized.</p>
+					<p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+					<p>Compositors' catchwords and running titles have been silently eliminated.</p>
+					<p>Long "s" (&#383;) has been silently modernized.</p>
+				</normalization>
+				<normalization>
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>£ has been used for £, the pound sign</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+				</normalization>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy
+					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+					xml:id="g">
+					<bibl>ARC Genre Categories, July 1, 2017</bibl>
+					<category xml:id="g1">
+						<catDesc>Advertisement</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>Animation</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>Bibliography</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>Catalog</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>Chronology</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>Citation</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>Correspondence</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>Criticism</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>Drama</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>Ephemera</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>Essay</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>Fiction</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>Film, Documentary</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>Film, Experimental</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>Film, Narrative</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>Film, Other</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>Historiography</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>Interview</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>Life Writing</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>Liturgy</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>Musical Analysis</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>Music, Other</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>Musical Work</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>Musical Score</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>Nonficition</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>Paratext</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>Performance</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>Philosophy</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>Photograph</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>Political Statement</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>Poetry</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>Religion</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>Reference Works</catDesc>
+					</category>
+					<category xml:id="g35">
+						<catDesc>Review</catDesc>
+					</category>
+					<category xml:id="g36">
+						<catDesc>Scripture</catDesc>
+					</category>
+					<category xml:id="g37">
+						<catDesc>Sermon</catDesc>
+					</category>
+					<category xml:id="g38">
+						<catDesc>Speech</catDesc>
+					</category>
+					<category xml:id="g39">
+						<catDesc>Translation</catDesc>
+					</category>
+					<category xml:id="g40">
+						<catDesc>Travel Writing</catDesc>
+					</category>
+					<category xml:id="g41">
+						<catDesc>Unspecified</catDesc>
+					</category>
+					<category xml:id="g42">
+						<catDesc>Visual Art</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+					xml:id="f">
+					<bibl>ARC Format Categories, July 1, 2017</bibl>
+					<category xml:id="f1">
+						<catDesc>Codex</catDesc>
+					</category>
+					<category xml:id="f2">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="f3">
+						<catDesc>Dataset</catDesc>
+					</category>
+					<category xml:id="f4">
+						<catDesc>Drawing</catDesc>
+					</category>
+					<category xml:id="f5">
+						<catDesc>Illustration</catDesc>
+					</category>
+					<category xml:id="f6">
+						<catDesc>Interactive Resource</catDesc>
+					</category>
+					<category xml:id="f7">
+						<catDesc>Manuscript</catDesc>
+					</category>
+					<category xml:id="f8">
+						<catDesc>Map</catDesc>
+					</category>
+					<category xml:id="f9">
+						<catDesc>Moving Image</catDesc>
+					</category>
+					<category xml:id="f10">
+						<catDesc>Notated Music</catDesc>
+					</category>
+					<category xml:id="f11">
+						<catDesc>Page Proofs</catDesc>
+					</category>
+					<category xml:id="f12">
+						<catDesc>Pamphlet</catDesc>
+					</category>
+					<category xml:id="f13">
+						<catDesc>Periodical</catDesc>
+					</category>
+					<category xml:id="f14">
+						<catDesc>Physcial Object</catDesc>
+					</category>
+					<category xml:id="f15">
+						<catDesc>Roll</catDesc>
+					</category>
+					<category xml:id="f16">
+						<catDesc>Sheet</catDesc>
+					</category>
+					<category xml:id="f17">
+						<catDesc>Sound</catDesc>
+					</category>
+					<category xml:id="f18">
+						<catDesc>Still Image</catDesc>
+					</category>
+					<category xml:id="f19">
+						<catDesc>Typescript</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="#lcsh">
+					<list type="simple">
+						<item>Criticism</item>
+						<item>Book review</item>
+					</list>
+				</keywords>
+				<catRef target="#g9 #g35" scheme="#g"/>
+				<catRef target="#f13" scheme="#f"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#MW" when="2017-07-15" n="3">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list>
+					<item>revise TEI encoding</item>
+				</list>
+			</change>
+			<change who="#MW" when="2017-02-01" n="2">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list>
+					<item>TEI encoding</item>
+				</list>
+			</change>
+			<change who="#MW" when="2010-12-01" n="1">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list>
+					<item>Created Edition</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="essay">
+				<head><bibl><lb rendition="#center"/><author type="writer"><ref
+								target="people.html#MoodyElizabeth"><name>Elizabeth
+								Moody</name></ref></author>
+						<title type="main" level="a">Art. 25. <hi rendition="#italics"
+								>Rimualdo;</hi> or, The Castle of Badajos. A Romance. By <ref
+								target="people.html#IrelandWH">W. H. Ireland</ref>. <hi
+								rendition="#smcaps">12</hi>mo. 4 Vols. 14s. Boards. Longman and
+							Rees. 1800.<hi rendition="#sup"><note place="foot">This review article
+									appeared in <title level="j"><hi rendition="#italics">The
+											Monthly Review</hi></title>, vol. 34 (February 1806):
+								203-4. This edition of the article is produced by Mary A. Waters.
+					</note></hi></title></bibl></head>
+				<p>The title of romance still invigorates our spirits. Old as we are, it recalls to
+					our recollection the stories in which our youth delighted, of wandering knights,
+					tilts, tournaments, enchanted castles, formidable giants, sea monsters,
+					distressed damsels, tremendous fights, and impossible valour. We forget,
+					however, that &quot;the days of chivalry are gone;&quot; and that, in the <hi
+						rendition="#italics">present-day romance</hi>, we must expect little other
+					amusement than the oglio of the modern novel supplies: consisting of unnatural
+					parents,&#8212;persecuted lovers,&#8212;murders,&#8212;haunted
+					apartments,&#8212;winding sheets, and winding stair-cases,&#8212;subterraneous
+					passages,&#8212;lamps that are dim and perverse, and that always go out when
+					they should not,&#8212;monasteries,&#8212;caves,&#8212;monks, tall, thin, and
+					withered, with lank abstemious cheeks,&#8212;dreams,&#8212;groans,&#8212;and
+					spectres.</p>
+				<p> Such is the outline of the <hi rendition="#italics">modern</hi> romance; and
+						<ref target="people.html#IrelandWH">Mr. Ireland</ref>&apos;s copy is not
+					unworthy of its numerous prototypes. We have here, in the personages of the
+					drama, a parent and a husband in the Marquis of Badajos, as wicked and as
+					unnatural as any with whom we have before had the honor of being
+					acquainted.&#8212;We have a son in the Cond&#233; Rimualdo, as eminent for
+					filial piety as &#198;neas himself.&#8212;We have patient suffering innocence in
+					the fair Constanza, equalling, if not transcending any of our novel
+					heroines.&#8212;We have <hi rendition="#italics">very good</hi> haunted
+					towers,&#8212;and a <hi rendition="#italics">spectre</hi> that stands supremely
+					eminent over the whole race of ghosts.&#8212;Hamlets and Banquos were no more
+					than <hi rendition="#italics">mawkins</hi> in a cherry-tree, compared with that
+					terrific vision which Rimualdo encounters on entering the old ruined chapel in
+					the forest.&#8212;Though familiarized very much, lately, to these apparitions,
+					we did not feel inclined to go to bed, till we had puffed away the recollection
+					of this spectre in a whiff of tobacco, and re-animated our fleeting spirits by a
+					double draught of old October: which will not be matter of surprise to the
+					reader, when he learns that the hero himself, the brave Rimualdo, dropped down
+					in a swoon immediately on seeing it! </p>
+				<p> Murder is in this romance too much <hi rendition="#italics">the order of the
+						day</hi>. We have murders in castles, in forests, and in cottages; and, to
+					borrow a word from the author, we are too frequently <hi rendition="#italics"
+						>enhorrored.&#8212;Raw head and bloody bones</hi> is continually at our
+					heels, through a long journey of 926 pages; and we were therefore happy to get
+					rid of him, and to leave our terrified fellow-travellers calmly settled in the
+					unhaunted Castilio di Montalvan. </p>
+				<p>
+					<ref target="people.html#IrelandWH">Mr. Ireland</ref>&apos;s language is
+					animated and flowing, when it is <hi rendition="#italics">not inflated</hi> with
+					pomposity. The Escurial (for the scene of action is in Spain) is well and
+					minutely described; and the Castle of Badajos is a pleasing picture: but, like
+					some sister <hi rendition="#italics">Novelists</hi>, he deals too profusely in
+					poetic description, and the common operations of Nature are never detailed in
+					common language. Morning never appears without &apos;Aurora&apos;s tints that
+					crown the summits of the distant mountains.&apos;&#8212;The sun never rises but
+					&apos;as the imperial charioteer of day, hast&apos;ning his car of blazing light
+					towards green ocean&apos;s occidental flood-gate.&apos; <pb n="204"/>The moon is always full
+					orb&apos;d, yet never looks <hi rendition="#italics">full</hi> at us, but peeps
+					behind fleecy clouds.&#8212;Night never forgets to assume the appropriate
+					dignity of her sable mantle, with which (when she is not in a good humour)
+					&apos;she overspreads heaven&apos;s countless luminaries;&apos; &#8212;and if
+					the hero and heroine are in a storm, God alone can help them,&#8212;for then
+					&apos;impetuous winds blow from <hi rendition="#italics">every direction</hi>
+						(<hi rendition="#italics">all at once</hi>), flakey lightning emblazons
+					night&apos;s ebon robe, and full charged clouds <hi rendition="#italics"
+						>discharge</hi> tremendous explosions.&apos; </p>
+				<p> Thus is poetic imagery blended with prose detail; producing a medley of
+					heterogeneous language totally destructive of good writing, by violating those
+					principles of harmonious congruity which form the basis of a correct and
+					uncontaminated diction. </p>
+
+
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">Sketch from Life: a Sentimental Story</title>
+            <author type="author">By Unknown</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.storyS10</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="[anon.]" date="0000-0000" place="UK"> </name>
+                  </author>
+                  <title>Sketch from Life: a Sentimental Story</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">242-260</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>story</item>
+                  <item>Sketch from Life: a Sentimental Story</item>
+                  <item>Unknown</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g7" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="story"
+              xml:id="S10"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="242" xml:id="image297"/>
+            <head>
+               <title>Sketch from Life: a Sentimental Story</title>
+            </head>
+            <head>
+               <name reg="[anon.]" date="0000-0000" place="UK">By Unknown</name>
+            </head>
+            <epigraph>
+               <l part="N">Qui que tu sois, voici ton maitre,</l>
+               <l part="N">Il l'est, le fut, ou le doit etre.</l>
+            </epigraph>
+            <p>"There is no faith in woman!" I exclaimed to myself the other morning, and I repeated
+               it thrice with increasing emphasis.</p>
+            <p>"There is no faith in woman. — And what woman has taught you to think so?" said a
+               soft voice near me.</p>
+            <p>I started, for I had most unconsciously been uttering my thoughts aloud, while
+               leaning on the back of my cousin Agatha's couch, with my eyes resting on the sheet of
+               music paper which lay before her. I coloured as her glance met mine.</p>
+            <p>"Nay — is it not true?" said I.</p>
+            <p>"Nay," she repeated — "I will not be answered by a nay! — cousin Henry."</p>
+            <p>"But my dear cousin — my dear Agatha" — cried I, "you are a woman, and a beautiful
+               woman — you can be no judge."</p>
+            <pb n="243" xml:id="image298"/>
+            <p>"And supposing I admit it," said Agatha, smiling, "what has my beauty to do with
+               either my womanhood, or my judgment?"</p>
+            <p>"There you may answer it yourself — what woman can judge of her sex's failings! —
+               what beautiful woman can deal fairly by a sister beauty?"</p>
+            <p>"Is this all?" replied she, "Then you have learned to libel us merely from the cant
+               of the day!"</p>
+            <p>"It is the cant of ages," said I.</p>
+            <p>"Surely not! — the cant of the careless and the unmeaning — but not where there is a
+               heart and head to think, and to feel — no, my dear cousin, do not repeat it. There is
+               both trust and truth in woman."</p>
+            <p>"Agatha," said I, "why have you never married?"</p>
+            <p>"Harry," returned she, "why have you this ill opinion of our sex?"</p>
+            <p>"Pshaw! But with your beauty, and your wit, and your fortune and consequence" — </p>
+            <p>"Tell me — why do you quarrel with us?" — "Harry," continued my cousin, interrupting
+               me with more earnestness, "we must not let our own individual disappointments disgust
+               us with the world at large — search well, and we shall discover our injustice —
+               besides, let us be content though we meet but one faithful heart amidst a crowd of
+               treachery."</p>
+            <p>"And how shall we find it? Where shall we meet with this faithful heart in woman? No,
+               Agatha," <pb n="244" xml:id="image299"/>cried I, "you mistake the character of woman
+               — you do not know her — you cannot know her — you, who must always be every way above
+               the rest of your sex, and as different as inimitable!"</p>
+            <p>She was silent, she was even grave for a moment or two, and the shade of thought in
+               the expression of her bland and beautiful countenance seemed almost as if it grew
+               into sadness. She looked at me with a smile, "Cousin," said she, "tell me your
+               history? You have been unfortunate;" and she pointed with her small and snow white
+               hand to the vacant seat beside her on the sofa.</p>
+            <p>There was a gentleness, a delicacy, and a tenderness in my cousin Agatha's
+               disposition which gave a charm to her slightest action. It was a gracefulness of
+               character which seemed to have inspired the gracefulness of her person and her every
+               motion, her tone of feeling, both in gaiety and sorrow, irresistible. I seated myself
+               beside her on the sofa, and did as she had bid me. "I have been in love," said I, "it
+               is my whole history."</p>
+            <p>"And what then?" she enquired, "was your mistress unfaithful?"</p>
+            <p>"I have told you all in one word — woman and infidelity go together!" I paused for
+               some minutes, and when I spoke again I had obtained more self-possession.</p>
+            <pb n="245" xml:id="image300"/>
+            <p>"When I first went abroad," said I, "I spent some time at Florence. The fashionable
+               lounge was the picture-gallery, and there was I a daily visitor but I went thither
+               really to gratify my passion for paintings, and not to gaze, and be gazed at by the
+               company. One morning while I was standing as usual before my favorite study, I was
+               startled by some one tapping me lightly on the shoulder, I suddenly turned round — it
+               was a lady, and one of the most beautiful of earth's creatures; but her look and
+               attitude were even more striking than her countenance and figure. She was, in a
+               manner, stealing a glance into my face, with such a curiosity, and interest, and
+               earnestness, blended with such a fanciful coquetry and intelligence in her expression
+               as amazed me. She enjoyed my surprise and admiration for about half a second, and
+               then with the most natural negligence in the world, pointed gracefully with the hand
+               which still rested on my arm, to the ground. It was her handkerchief that had fallen
+               at my feet, and I instantly stooped, and raised it. She stretched out her hand to
+               receive it, before I had even time to present it to her, nodded her head half with
+               the air of a pleased child, half with the air of a woman of fashion, and then folding
+               her arms in her drapery round her, resumed her contemplation of the painting before
+               us, which this little accident seemed to have disturbed. I stood with my eyes
+               fastened on <pb n="246" xml:id="image301"/>her, wondering who this enthralling
+               creature could be. She had that decided air of fashion which there is no mistaking,
+               and a certain air much superior to it; but there was a something so whimsical in her
+               style of dress, and in her style of appearance altogether, to make me feel uncertain
+               what to think of her.</p>
+            <p>"Just as I was looking round to enquire her name of some bystander, she turned and
+               addressed me; I forget now what it was she said to me, something about my favourite
+               painting, or my general fondness for pictures; whatever it might be, I was so much a
+               novice in fashion as to feel uncomfortable at her speaking to me. I remember,
+               however, that though her words were select, her manner struck me as common-place;
+               she, moreover, seemed to me a coquette, and I immediately concluded that she must be
+               marked by all the silliness of her class. In appearance she might have been about two
+               or three and twenty, but I suspect she was more, perhaps from my own inexperience,
+               for she struck me as being used to the ways of the world. It was evident that she was
+               aware of the admiration which she had elicited, that she had expected it, and was
+               therefore pleased with it, and meant to excite a little more. No one but a boy,
+               probably no one but such a boy as I, would have been seized with these reflexions at
+               the moment that she was soliciting my attention; but very young men, and young men
+                  <pb n="247" xml:id="image302"/>unaccustomed to general society, are naturally more
+               alive to what is real and what is affected in character than those of older and
+               better acquaintance with life, but whose very acquaintance has served to trammel them
+               into its manoeuvres and intricacies.</p>
+            <p>"She turned away after some minutes, and joined her party a few paces off. My eye
+               followed them as they moved up the gallery; she shone always conspicuous among the
+               throng of gentlemen who gathered as she went, around her, in clustering numbers;
+               while now pausing for a second in a picturesque attitude to examine a painting — now
+               breaking on my ear in tones of exaggerated feeling either of horror or of extasy —
+               now partaking with faint effort in the casual vivacity of her attending bevy, or
+               leading with startling violence a sudden laugh. I believe I had just then a rage for
+               simplicity, for even her charms disgusted me. She was an Englishwoman too, and I had
+               just been commenting, perhaps, with ungrateful sarcasm, on the freedom of Florentine
+               manners. At the upper end of the gallery I lost sight of her, and when I looked
+               around me I found that the crowd had followed her — there was not a creature near
+               me.</p>
+            <p>"Do you not know her?" said some one whom I had approached on purpose to question.
+               "It is the honourable Mrs. Beaufilliers, the celebrated Mrs. Beaufilliers, she was
+               the greatest beauty of the day <pb n="248" xml:id="image303"/>or of any day, and she
+               never comes here without making a sensation; by the way, she means to have you in her
+               train I fancy, for I saw her cast her eyes on you the moment she entered the
+               room."</p>
+            <p>"It is incredible how even the turn of a phrase can affect us. These few last words
+               had realized all my own thoughts with regard to Mrs. Beauvilliers.</p>
+            <p>"What then," said I, "she's a coquette?"</p>
+            <p>"By no means," cried the other, "only a little addicted to Platonic love and
+               fashionable admirers. She has us all fast here, we all wear her colours. Though,
+                  <emph>par parenthese</emph>, I thought her a little gone by this morning, these
+               beauties never know when to give up, unless we give them up."</p>
+            <p>"Come," said he, "I'll introduce you."</p>
+            <p>"Pardon me," answered I, "I know her perfectly already."</p>
+            <p>"I saw Mrs. Beauvilliers again, it was at a ball that very evening. She had just
+               withdrawn a little out of the circle of waltzers, and was leaning against a pillar
+               changing her white satin slippers. One gentleman stood beside her busied in receiving
+               the discarded pair; another proffered the fresh ones; and the third, her fortunate
+               partner, with one knee on the ground, supported her delicate feet by turns on the
+               other and fastened the sandals.</p>
+            <p>"How old is she?" asked I, "for I felt quite a curiosity to discover."</p>
+            <pb n="249" xml:id="image304"/>
+            <p>"Lord," answered the person next me, "I have known her culling hearts these fifty
+               years!"</p>
+            <p>'She could not be fifty, though she had certainly worn better than any person I know;
+               even when near I could not have supposed her past thirty.</p>
+            <p>"I can scarcely say how much I dislike this description of character. It revolted
+               against all my nations of feminine propriety; that sensitive dignity of woman's
+               peculiar nature! It offended all my most respectable feelings towards the sex, and I
+               remember I stood aloof during the evening from Mrs. Beauvilliers, boyishly abashed at
+               her frivolous familiarity of manners. I left Florence soon after, but I carried some
+               of her impressions along with me. She spoiled me for the next twelvemonth. I had
+               never before been vain of my personal qualifications, but it was not easy to forget
+               that they had not been absolutely unattractive. This was all that dwelt with me, and
+               some years of after life passed on the continent, though they may have habituated me
+               to the looseness of its decorum, have never destroyed my esteem for all that is
+               beautiful in purity!"</p>
+            <p>I stopped for I felt that I was considerably agitated and my silence was of some
+               duration.</p>
+            <p>"You will proceed Harry?" said my cousin gently, "for your story is both interesting
+               and instructive."</p>
+            <p>"Yes," answered I, "but it is somewhat diffi-<pb n="250" xml:id="image305"/>cult!"
+               and I still hesitated. "You should have seen her," I exclaimed at length, abruptly.
+               "You should have known her, though she was scarcely handsome — I will only half name
+               her to you, Agatha, as I have named her to herself in the last days of our
+               acquaintance — Gabriella."</p>
+            <p>"It is just about three years since we first met; I remember it well, for even then
+               it was to me a circumstance of importance. I was introduced to her in a private
+               concert room just as her carriage was announced — she had been standing near the
+               doorway, and I was the last person she bowed to as she left the room. I remember it
+               was near the end of the season. She was the fashion in London, but I had never
+               admired her. I had heard her talked of as beautiful, but I had never thought her so.
+               She was striking, but it was an air of fashion more than either beauty or grace in
+               her appearance. I liked her reception of me; I had always allowed her to be a fine
+               woman, and I found something extremely agreeable in her countenance when she spoke,
+               and extreme good nature in her general manner. She rather interested me than
+               otherwise, though she had only just stayed to receive my bow, and observe to me "that
+               she was going," as she went out.</p>
+            <p>"She had quitted town for the country before I could see her again, and not long
+               after I followed her thither. I forget now who it was that invited me; I <pb n="251" xml:id="image306"/>think it was some connexion of the family, whose employment was
+               to furnish the table with guests, and the guests with society. Gabriella's husband
+               was of a rude description of men; he was seldom to be seen in the house but at
+               dinner, and at dinner he liked to have plenty of people to talk to, and to listen to
+               him. If his cold be called society, at table they had his society, but otherwise
+               these general chance kind of guests were but little attended to. I should scarcely
+               have availed myself, however, of this manner of admittance to hospitality, had I not
+               been rather forced into calling on them on my accidentally meeting some of the party
+               in the neighbourhood.</p>
+            <p>"Agatha," cried I, "I scarcely know why I repeat these details, for it is uneasy for
+               me to recal the memory of our first acquaintance!</p>
+            <p>"If you had known her you would have pardoned the madness of my love — had you known
+               Gabriella you would have wept for the cruelty of her caprice! Her spirit of coquetry
+               was indeed untamed, untameable. She pursued me her victim with unwearied skill; flung
+               with captivating ingenuity her whole heart into his service; wound her graceful toils
+               around his existence, and urged on with irresistible persuasion the tortures of that
+               grief which she contemplated with remorseless and insatiable ambition. How I tried to
+               leave her, how I tried to escape from the influence of her fascinations, it seems of
+               little pur-<pb n="252" xml:id="image307"/>pose now to tell. I did <emph>not</emph>
+               leave her, and Gabriella's smiles returned. She could weep too, and at times I have
+               seen a starting tear bedew her cheek. But why should I instruct you in all the arts
+               and all the expedients of her most reprehensible coquetry; it was as restless as
+               extravagant. She had probably never loved her husband, and esteem was what she could
+               bestow on none. She was incapable of friendship; her heart had been framed to
+               sentiment, she had no steadiness in her nature to persevere in her affections. Her
+               husband was little calculated to excite either, and to Gabriella he was peculiarly
+               unsuited. They seldom met, but no appearance of unharmony subsisted between them. I
+               have known her consult him on a matter of duty, and him leave to her the choice of
+               the inscriptions on his dog-collars. He never interfered with her, but he was
+               sometimes glad to have her look well when she sat at the head of his table.</p>
+            <p>"Her appearance had never been the lure which attracted me; and her appearance was
+               then, in my opinion, by much her least qualification. Yet she possessed a large share
+               of the essentials which constitute beauty: her outline of feature was good, and her
+               complexion must once have been brilliant. At times it was still beautiful, for
+               Gabriella was no longer quite what is called a very young woman when I knew her.</p>
+            <pb n="253" xml:id="image308"/>
+            <p>"She had the address to turn this want of admiration to her person on my part, into
+               her most absolute attraction. Her charm consisted in her undeviating amiability of
+               manner; in her apparent forbearance of disposition; in her constant propriety of
+               temper; in her implicit obedience to the caprices of her admirer, and her seeming
+               readiness of obedience to any exertion of authority, from the man whom she had
+               received as a husband. I love to dwell on this part of her character; I would cling
+               to the thought that she might once have deserved better; that she was not all that
+               she appeared to me when we last met and parted — a heartless, practiced, unblushing
+               and unprincipled coquette!</p>
+            <p>"We have periods of feeling when it requires but a little to pen our eyes to the real
+               disposition of matters carried on around us; and once awakened, it is astonishing how
+               quickly we grow in wisdom. It must be always impossible in these after moments to
+               trace the many, various, almost imperceptible accidents that may have occurred to
+               bring us acquainted with the delusions practiced on us — perhaps which we have
+               ourselves too readily indulged. To you, it will be difficult to comprehend from how
+               slight a circumstance my impressions of Gabriella's character were first startled
+               into a more sober reflexion on her behaviour.</p>
+            <p>"I had been staggered by a sentiment, and it seemed to me a profligate sentiment. We
+               were talking on the freedom of Italian manners, more especially that of the women,
+               and she was expatiating on them with considerable eagerness. I remember she used the
+               words, "the <emph>luxury</emph> of their independence, their perfect want of all
+               control, all form — odious form!" And she threw her eyes up to Heaven as she spoke.
+               She had beautiful eyes, but this time their appeal <pb n="254" xml:id="image309"/>seemed to me out of place. She threw them on <emph>me</emph>, but they did not move
+               me, and she yielded her opinion as she always did, only with less hesitation than was
+               usual with her, for me to be as usual satisfied with my victory. I was peculiarly
+               sensitive on this one point — the delicacy of a woman's deportment; and Gabriella's
+                  <emph>manner</emph> had sometimes disturbed me. I had sometimes wondered at her
+               self-possession too, only that to me she was never self-possessed. She had often
+               turned off an uncomfortable sentence with a gay laugh, which has covered me with
+               confusion and offence, and I have felt that I should yet have been more at ease had
+               she been less so.</p>
+            <p>"I was silent for some time after, and thoughtful, and Gabriella tried to woo me into
+               better company. She was seldom unsuccessful, and insensibly we grew into conversation
+               again. One or two of the rest of the company joined us, and we gathered into a little
+               circle round her sofa.</p>
+            <pb n="255" xml:id="image310"/>
+            <p>"The discourse turned on manners, but this time it was on English manners. A
+               gentleman present, and who, by the way, was rather a celebrated traveler, just
+               rising, or risen into fame and fashion, observed that in no country in the world did
+               there exist such perfect domestic and conjugal happiness as in England — such an
+               entire confidence between husband and wife — such a perfect union both of heart and
+               mind — </p>
+            <p>"Gabriella assented cordially, and applauded the feeling with warmth. I had turned
+               away, and when I looked again I found that her eyes were bent on the traveler.</p>
+            <p>"Where — in what other country," pursued he, "do we find such an agreeable social
+               intercourse to prevail between an man and his wife. Even in the highest walks of life
+               there is visible such an exquisite and charming familiarity. To take a fanciful view
+               of the subject, for instance, that one little circumstance of calling each other by
+               the mere Christian name abbreviated, as we hear it too, in every possible way, by
+               people of the first fashion, speaks volumes."</p>
+            <p>"Poor Mama!" exclaimed Gabriella, "I remember Mama always called poor Papa,
+               Beau!"</p>
+            <p>"Who was your mother?" said I.</p>
+            <p>"Heavens!" cried she, "Don't you know? The beautiful Mrs. Beauvilliers. 'La bella
+               bellissima,' <pb n="256" xml:id="image311"/>as she was called in Italy! I was in
+               mourning for her when I first saw <emph>you</emph>. Have you never seen the beautiful
+               miniature of Mama in my room?"</p>
+            <p>"I have seen the original," answered I, "in the picture gallery at Florence."</p>
+            <p>"Whether it was the tone of my voice, for I felt that it was altered, or the
+               expression of my countenance, for I was crimsoned to the temples, that struck
+               Gabriella, I know not — but she changed the conversation. For my part I had relapsed
+               into my silence, and I slunk away. Gabriella the daughter of Mrs. Beauvilliers!</p>
+            <p>"Why have you never told me that you had been at Florence?" said she next morning
+               when we were alone. "How odd! We must have been there together, and we were
+               strangers!"</p>
+            <p>"I knew your mother," said I.</p>
+            <p>"Poor Mama! Heavens! How beautiful she must have been. But did you absolutely know
+               her. I thought I had known the whole circle of Mama's admirers."</p>
+            <p>"But why need I go on. It was, perhaps, fortunate for me that I could never separate
+               the connexion between Mrs. Beauvilliers and Gabriella. The early impression of her
+               mother which had been left so strongly on my mind, could not be effaced by any
+               recurrence to the daughter. I could never think on Gabriella without recalling to my
+               recollection Mrs. <pb n="257" xml:id="image312"/>Beauvilliers in the picture gallery,
+               or in the ballroom at Florence. However disguised might be their manner, their
+               conduct was too similar to bear comparison. From the suddenness with which the veil
+               of my illusion fell from before my eyes almost from that very hour it would seem now
+               as if I had been influenced by prejudice. But no, it was Gabriella's self that cast
+               it from me. True, my knowledge of her mother's character had given me an insight into
+               the character of the daughter. It had made me think, and thought was destruction to
+               Gabriella. Her behaviour could not bear investigation — her character still less so.
+               It was not the shock of Mrs. Beauvilliers as a mother that had disturbed me, it was
+               the dread of Mrs. Beauvilliers as a model for too apt a representation; and what as
+               the folly of a foolish woman would have passed without other reproach, grew criminal
+               in the more gifted intellect of her daughter.</p>
+            <p>"Gabriella's defence was powerless. The dream which had wrapped my senses gave way
+               gradually but quickly, as the imperfect light that had first dawned on me broke into
+               open day. Her struggles to retain her victim became only the more reprehensible, her
+               real grief at his escape only the greater earnest of the selfish, frivolous vanity
+               which had induced his capture. Her powers of complete self-interest and indifference
+               to all beside were indeed <pb n="258" xml:id="image313"/>wonderful! With a voice, a
+               look, a gesture, still pleading with well feigned motive for delay, she turned
+               without a moment lost to lament her failure, from the resolute departure of the one
+               lover, to play with unabated assiduity the same game over again with another.</p>
+            <p>"My last glimpse of her, as my chaise rolled rapidly away, showed her turning from
+               the entrance door into the little walk that leads to her flower-garden, leaning on
+               the arm of the traveller.</p>
+            <p>"But to the end, mistress of her art, she has left me without a doubt of her
+               unworthiness still to regret in bitter hopelessness the peace of mind that she has
+               broken for ever."</p>
+            <p>I rose as I concluded, and walked to the window, for it was a moment of weakness over
+               which I had no control. But the effort was not sufficient, and I buried my face in my
+               hands.</p>
+            <p>I was roused by my cousin's gentle voice, and she laid her soft white hand upon my
+               arm. "Harry," said she, "if I may trust this moment's sorrow, your peace of mind — it
+               is not broken for ever."</p>
+            <p>"Agatha," said I, "it is not to such as you that I should betray the secrets of a
+               weak and miserable passion. It is not with such as you that I should contemplate the
+               frailties of an erring sex; but I cannot forget that such a fair creation has been
+               created to so little good."</p>
+            <pb n="259" xml:id="image314"/>
+            <p>"I regret it with you — but I have seen Gabriella," she continued, "I have known her
+               — she was unworthy of you — yet her troth was plighted to another, she could break
+               none with you."</p>
+            <p>"Good God! What other!"</p>
+            <p>"And do you then," said Agatha, gravely, "think so lightly of the duties of a wife.
+               Believe me it is the highest station which the heart, or the ambition of woman should
+               aspire to. She is charged with the dearest interests of one more responsible in life
+               than herself — his most tender dignity is confided to her care, and if she break her
+               trust, if she be wanting but in the smallest portion of this silent bond, she
+               violates the most solemn engagement of her life, and is forsworn before God and man
+               in the vows which she has taken upon her in the presence of both?" She stopped, and
+               coloured at her own eloquence. "Harry," said she, "What do you regret? your peace of
+               mind? Let it return to you — let not the caprices of an ill-guided woman weigh upon
+               you. There are some thanks due for the return to a duty from which you should never
+               have wandered."</p>
+            <p>"I am grateful," said I, "as grateful as I can be. I feel that it is beneath me to
+               dwell thus on the memory of such a woman. But when you have loved, Agatha, you will
+               forgive a weakness, which, like an early deep-rooted disease, still continues to
+               sting me with poignancy, in utter defiance of the leech's <pb n="260" xml:id="image315"/>utmost skill. Oh, Agatha — dear Agatha — you have never — never
+               loved — "</p>
+            <p>The expression of her countenance caught my attention just then, but she was
+               silent.</p>
+            <p>"Have you ever loved," cried I, forgetting at the moment all else but what was
+               belonging to my cousin Agatha. She smiled, but her smile was followed by a sigh.</p>
+            <p>A strange feeling came over me, and I caught her hand. I scarcely know what I said,
+               but it was not of Gabriella that I spoke or thought. There was a slight flutter
+               visible in her countenance when I began, but she listened to me with mildness; then
+               with a gentle shake of her head she extricated her hand, and glided from the
+               window.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

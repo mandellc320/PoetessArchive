@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">Marie's Grave: A Tale of the Landes</title>
+            <author type="author">By the author of "The Subaltern."</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.storyS6</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Gleig, G. R. (George Robert) [attrib WorldCat]"
+                           date="1796-1888"
+                           place="UK">G. R. (George Robert) [attrib WorldCat] Gleig</name>
+                  </author>
+                  <title>Marie's Grave: A Tale of the Landes</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">149-172</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>story</item>
+                  <item>Marie's Grave: A Tale of the Landes</item>
+                  <item>the author of "The Subaltern."</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g7" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="story"
+              xml:id="S6"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <head>
+               <title>Marie's Grave: A Tale of the Landes</title>
+            </head>
+            <head>
+               <name reg="Gleig, G. R. (George Robert) [attrib WorldCat]"
+                     date="1796-1888"
+                     place="UK">By the author of "The Subaltern."</name>
+            </head>
+            <p>IT is hardly necessary to remind the reader that at the close of the Peninsular war
+               orders were issued for the formation of an encampment in the neighbourhood of
+               Bourdeaux, where the regiments which had been selected to reinforce Sir George
+               Prevost in Canada, as well as to carry on hostilities along the shores of the United
+               States, might assemble. It fell to the lot of the **** regiment of light infantry to
+               form one of the corps appointed for the last-mentioned of these services. Having been
+               attached to the left column of Lord Wellington's army we were stationed, when the
+               above intelligence reached us, under the walls of Bayonne, at the distance of ten
+               long day's march from the point of rendezvous; but we welcomed the communication with
+               not less alacrity on that account, and <pb n="149" xml:id="image186"/>made ready, on
+               the 14th May, 1814, to act in accordance with its tenor.</p>
+            <p>Of the particulars of our journey I am not at present called upon to give any
+               account, farther than that in all its stages, and in every circumstance connected
+               with it, it was most delightful. The weather chanced to be peculiarly favorable. Not
+               a shower of rain, or a blast of wind, overtook us during the whole of our progress;
+               and though towards noon the heat usually became more oppressive than agreeable, we
+               managed by starting every day an hour or two before sun-rise, to escape most of the
+               inconveniences which might have otherwise affected us. Every thing moreover, animate
+               and inanimate which came in our way, had about it an air of exquisite novelty. The
+               costume and personal appearance of the people, the arrangement of their houses,
+               fields, vineyards and gardens, the order of their domestic life, were to us perfectly
+               new, and interesting. We struck into the Landes, on the morning of the third day, and
+               if any of my readers have happened to visit that wild district, he will doubtless
+               attest that one more singular, or more prolific in extraordinary spectacles, has
+               seldom been pressed by the foot of a traveller [sic].</p>
+            <p>Amidst the huge forests of pine which overspread the whole face of this region, there
+               are scattered at wide intervals from one another, a few villages, or rather hamlets,
+               remarkable for their extreme beauty, <pb n="150" xml:id="image187"/>and for the air
+               of primitive simplicity and contentment which hangs over them. They consist, for the
+               most part, of from ten to twenty cottages, the walls of which are composed entirely
+               of wood, and the roofs uniformly covered with straw. Each stands apart in the centre
+               of its own neat garden and enclosure, whilst to the distance of perhaps a quarter of
+               a mile in every direction, a circle of cultivated fields encompasses the whole. It
+               rarely happens that a stream of limpid and excellent water is wanting in the
+               vicinity, and a church, suited to the humble charactor [sic] of its simple
+               worshippers, was a conspicuous feature in every one of the hamlets that lay along the
+               line of our march.</p>
+            <p>The quarter-master-general had so arranged our route that we were every day enabled,
+               after compassng [sic] a sufficient extent of ground, to encamp in the neighbourhood
+               of one or other of these delightful villages. The inhabitants proved in all
+               instances, as obliging, as their poverty and secluded course of existence authorised
+               us to expect; and if the women were not always remarkable for personal beauty they
+               were, at all events, invariably goodnatured [sic], and lively. It happened that on
+               one occasion I had my feelings wrought upon to a degree beyond my anticipations; and
+               as the affair appeared at the moment worthy of being noted down, perhaps even now it
+               may be deemed not undeserving of mention.</p>
+            <pb n="151" xml:id="image188"/>
+            <p>The night of Saturday the 21st of May, having been spent in the village of St. Muret,
+               at two o'clock on Sunday morning, our tents were struck and we were in motion. Our
+               route lat, as usual during the preceding week over a deep sandy track, cut through
+               the heart of a dreary pine-wood, and our journey, on account of the absence of a
+               convenient spot for halting, proved to be particularly tedious and fatiguing. We had
+               traversed something more than six leagues; the hour of noon was past, and the heat
+               had become intense, when a sort of shout uttered at the head of the column gave
+               notice, that a resting place was in view. The shout did not deceive us. The leading
+               files had already emerged from the wood into the customary range of open country; and
+               in little more than half an hour afterwards our camp was pitched in one [sic] the
+               loveliest situations which it had occupied since the commencement of our
+               progress.</p>
+            <p>Unlike its fellow-hamlets, La Barbp the village, beside which we now halted did not
+               stand in the midst of an extensive area of bare meadows, and low corn-fields. Meadows
+               and corn-fields there doubtless were but their surfaces were beautifully diversified
+               by the frequent interspersion of clumps of oaks and chesnuts [sic]; whilst numerous
+               undulations in the ground produced a species of tasteful irregularity, which gave to
+               the little landscape the <pb n="152" xml:id="image189"/> appearance, rather of a
+               park, or gentleman's enclosure, than of lands portioned out into fourteen or fifteen
+               different farms. A rivulet of the purest water issued from the forest upon the right,
+               and flowing gently onwards, wound round the base of a green hill, upon which, about a
+               stone's throw apart from the other buildings, was erected the village church. In the
+               village itself I saw nothing to distinguish it from the others. It consisted as usual
+               of wooden cottages, not one of which, in point of architecture or decorations could
+               claim a superiority over the others. And even the very cure or vicarage, if such it
+               deserved to be called, was nothing more than a cabin, clean and neat, indeed, but
+               presenting the lowliest aspect.</p>
+            <p>Every body [sic] knows, that Sunday is observed in a French village as a day, not of
+               relaxation only, but of jubilee. We therefore found the villagers in their best
+               attire, assembled on the green or common, round which their cottages stood; and as
+               they came forward in a body to bid us welcome, they presented upon the whole, a very
+               striking and picturesque appearance. The men were conspicuous for their jackets of
+               coarse brown cloth, their grey or brown breeches, blue stockings and large wooden
+               shoes, but it was in the garb of the women that the distinction paid to Sunday might
+               be most readily <pb n="153" xml:id="image190"/>noted. The boddice [sic] laced up with
+               blue or scarlet ribbon; the bright scarlet petticoat, made so scanty as to display
+               the scarlet clock [sic] which ornamented the blue stocking, these, with the
+               handkerchief tied round the head with more than ordinary care and neatness, gave
+               intimation that the toilette for that day always occupied much time, and particular
+               attention. All, however, seemed to enjoy the same excellent flow of spirits, and not
+               a few of the younger had gladly availed themselves of our band, to continue the
+               dancing which our approach had interrupted.</p>
+            <p>As soon as the bustle of encamping came to a close, I directed my steps towards the
+               church, with the design of joining in the devotions of these simple people, or at
+               least, of offering up my own orisons, from within consecrated walls. In this,
+               however, I was disappointed; the priest, it appeared, officiated at another village
+               besides La Barbp, taking the one in the morning, and the other in the evening,
+               alternately; and as on this day, divine service had been performed here in the
+               morning, it would not be repeated. Though a little chagrined at this circumstance I
+               nevertheless followed up my original design so far, as to take a hasty survey of the
+               interior of the pile; and then proceeded to indulge a favourite whim, by strolling
+               leisurely <pb n="154" xml:id="image191"/>through the humble cemetery by which it was
+               surrounded.</p>
+            <p>I found the churchyard moderately studded with green mounds, but wholly devoid of
+               head-stones or columns to tell the names of the persons who slept beneath. Wooden
+               crosses seemed to be the only species of monument erected by the people of La Barbp
+               to the memory of their deceased relatives, and of these, though they were almost as
+               numerous as the graves themselves, not one bore a word or letter of inscription. Even
+               the garlands, which throughout most parts of France it is customary for the survivors
+               to twine over the tombs of those whom they loved, were all, with a solitary
+               exception, wanting here. Upon one cross, and one only, hung a wreath of flowers; and
+               though the blackened hue of the wood told a tale of exposure to more than one summer
+               and winter, the garland was fresh and fragrant, as if gathered and arranged this very
+               morning. I was much struck with the contrast which the condition of this grave, as
+               compared with the others, presented, and, sitting down, was beginning to give free
+               vent to fancy, when the noise of approaching footsteps disturbed my reverie. I looked
+               round, and beheld, advancing towards me, a man in the common garb of the country. His
+               age seemed to be about three or four and thirty; but in his general appearance there
+                  <pb n="155" xml:id="image192"/>was nothing at all remarkable except that an
+               upright carriage, one empty sleeve, and a pair of monstrous mustachios, indicated
+               that he had been a soldier, and had served in the memorable wars of his country. As
+               he drew nearer, however, I examined him more closely, and observed, or fancied so, a
+               peculiarly mild and even melancholy expression in his eye. Whether or not I was
+               correct, little time was granted to consider, for he raised his hand to his hat and
+               coming forward at once, with the freedom and frankness of his country entered with me
+               into conversation.</p>
+            <p>"I perceive, Monsieur," said he, "that the garland upon the cross which distinguishes
+               this grave from those around it, has attracted your attention." I assented to his
+               remark, and proceeded to inquire whether he could give me any information respecting
+               the individual who had suspended it there, and the person to whose memory it was
+               consecrated. "I can indeed, sir," answered he; "I can satisfy you fully on both these
+               heads; it was I that gathered it, it was I that wove it, and it was I that hung it
+               here; it is a task which I religiously perform on the return of every Sunday morning,
+               and she to whom I dedicate my weekly offerings, was the best, as she was the
+               loveliest maiden of the province. Perhaps you may desire to learn something of her
+               history. If you will allow me to take the privilege of a brother soldier I <pb n="156" xml:id="image193"/>can sit down beside you; and God help me, I shall
+               derive as much satisfaction, though it be a melancholy one from relating the brief
+               detail, as you can have from listening to it." I immediately, and with the utmost
+               readiness, accepted his proposal, upon which the villager seated himself by my side,
+               and began as follows:</p>
+            <p>"I am a native of this place, as from my address and dialect you have doubtless
+               already guessed. My name is Jean Baptiste, and my father, whose only child I am, is
+               accounted the wealthiest and most skillful cultivator in all the department. You may
+               perceive that bating the loss of this arm (and that occurred six years ago, ought not
+               to tell against me), I am neither worse made, nor less personally attractive than my
+               neighbours; whilst I can appeal to all that know me, whether my temper be not as
+               mild, and my disposition as amiable, as those of any lad in these parts."</p>
+            <p>I could not suppress a smile at this most characteristic display of French egotism.
+               "Why Jean," said, laughing, "I thought you were going to tell me a tale connected
+               with the fair tenant of this grave; but you seem more disposed to instruct me
+               concerning your own good qualities and fortunes." "Ah! Monsieur," replied he, "you
+               may smile if you please, and say on that point what you will; but <pb n="157" xml:id="image194"/> believe me I speak the truth. Yet what availed all these
+               advantages. Marie, the beautiful and gentle Marie, whom I loved with my whole heart,
+               and to promote whose happiness I could have willingly sacrificed my life, would not
+               listen to my suit. It is a fact, indeed it is, she slighted my accomplishments,
+               undervalued my wealth, and preferred to me a poor neighbour, who had nothing to
+               recommend him, that I, at least, could discover, except that he was of a less fair
+               complexion, and possessed a tolerable share of bodily strength and activity. Well,
+               well, I could not quarrel with the girl for that, nor yet forsake my friend because
+               he supplanted me, for Lewis Charmont was my friend, and dear to me as my own
+               soul.</p>
+            <p>"It is hardly necessary to inform you, that La Barbp has been inhabited by the
+               ancestors of those families which inhabit it now, since the day when the good saint
+               first planted these forests, and stayed the sands from moving. Under these
+               circumstances you will not be surprised to learn, that we are all accustomed to
+               regard one another as brothers and sisters, and that the poorest man amongst us is
+               not despised or treated as an inferior, by the richest. But though this be, and has
+               ever been the case, it is still only natural that even in our small community
+               particular friendships should bind individuals more closely to each other, than the
+               tie of common regard which <pb n="158" xml:id="image195"/>binds the same individuals
+               to the whole body. Such has long been the case with the Charmonts, the Clausels, and
+               the Baptistes. Our ancestors loved one another from the remotest period; no change in
+               worldly circumstances ever interfered with their feelings; our parents were as if
+               they had descended from the same stock; and we *** I mean Lewis, Marie and myself ***
+               inherited their attachment.</p>
+            <p>"Lewis Charmont was by one year only, my junior; Marie Clausel was two years younger
+               than he. From the very cradle we were companions and playmates; nay were more, ***
+               Lewis was the brother of my adoption, and Marie was our sister. Ah! Monsieur, those
+               were blessed days, when each holding a hand, we led the sweet girl forth towards the
+               river, and seating her on the bank the one plied his rod and line, whilst the other
+               chased the butterfly which she admired, or wove a wreath of wild flowers for her fair
+               brow. But childhood passed away, and youth came, to make us acquainted with the true
+               state of our feelings, and to teach us that we were rivals. We both loved Marie,
+               loved her to absolute idolatry; yet we loved each other at the same time, and never,
+               no not for an instant did a pang of angry jealousy rankle in our hearts.</p>
+            <p> "As we approached to manhood, Lewis and I, differing widely in our propensities and
+               pursuits became by degrees not less truly friends, but less fre-<pb n="159" xml:id="image196"/>quently companions. Lewis was agile, daring and adventurous;
+               field sports, violent bodily exertions, especially where danger was to be surmounted
+               or difficulties overcome, carried him away from his home, and the operations of
+               agriculture; whereas my habits and tastes were all quiet and domestic. I cultivated
+               my father's fields, contentedly and cheerfully, and was never so happy, as when I
+               found leisure to dress Marie's garden, and stock it with the rarest and choicest
+               plants within my reach. Yet for all this, she rejected my addresses: she withdrew
+               not, indeed, from my society, but she refused to listen to my vows, and her refusal
+               was so mildly and so affectionately pronounced that I only loved her the more because
+               I felt my suit was hopeless. The truth is, Monsieur, that her affections were already
+               engaged. She preferred to me, (who was continually at her side,) him who bestowed but
+               a small portion of his time or attention upon her; but spent whole days, and
+               sometimes nights in the woods, only that he might bring home and present to her the
+               head of a wolf or the skin of a bear.</p>
+            <p>"In this condition affairs continued for some time. We never dreamed of concealing
+               from each other how our affections were disposed of; on the contrary Lewis was all
+               along aware that I loved Marie tenderly, and I was equally aware that Lewis loved her
+               also; yet that either was preferred by her to the <pb n="160" xml:id="image197"/>other we both continued ignorant, till an accident drew forth the secret.</p>
+            <p>"Early in the year 908, there arrived in our village a sub-officer's party of
+               Gendarmerie, bearing an order from the prefect of the department, to enrol [sic] four
+               young men from the division of La Barbp, for the service of the army. Such an order,
+               coming from such a quarter, could neither be disputed nor evaded; the names of all
+               the villagers capable of bearing arms, were put into a cap, and that of Lewis
+               Charmont came up. Lewis himself, naturally brave and enterprising, uttered no
+               complaint against his fortune, but rather rejoiced, in the prospect of honor and
+               advancement. Lewis continued as yet ignorant of the possession of Marie's affections,
+               for though repeatedly urged, she had hitherto refused to acknowledge it, though now,
+               however, concealment was at an end. A threatening separation effected that which
+               years of intimacy and familiar intercourse had failed to effect; and in the
+               bitterness of her agony she yielded a full confession. I was present when she assured
+               him, that she lived for him and him alone; that his departure would be to her a blow
+               which she could not survive; that she would not even desire to exist, did he abandon
+               her. What could I do. I saw indeed that my own hopes were blighted, and that Marie's
+               coldness sprang not from indifference, but from a positive predilec-<pb n="161" xml:id="image198"/>tion for another. But that other was my friend; Marie I still
+               loved as before; could I be contented to behold this misery! No, Monsieur, though
+               naturally averse to a life of bustle and contention I determined on the instant, to
+               volunteer in Lewis's room, I did so without so much as consulting him, and was
+               accepted.</p>
+            <p>"Not all the misery which in my quieter hours has followed up the reflection that
+               Marie was lost to me for ever [sic]; not all the grief which was my lot when I
+               committed her delicate form to the earth, have been able to efface the blessed
+               recollection of the moment when the flushed cheek, and glittering eye I told her that
+               her lover was free, and that they might thenceforth be happy together. Ah! Monsieur,
+               that was indeed a moment of rapture, of rapture such as I shall never again
+               experience when I heard her address me as her brother and preserver; when I felt her
+               arms around my neck, and her warm tears upon my cheek, and received the sweetest and
+               most rapturous kiss that the lip of woman ever bestowed! Oh! whole years of agony
+               could not suffice to blot out the recollection of those moments; a life of pain were
+               but a poor price to offer for their repossession! But they passed away; and I marched
+               off, if not happy, at all events, satisfied that I had done my duty, and that there
+               were two kind hearts which <pb n="162" xml:id="image199"/>beat in gratitude for me,
+               whose own was little better than a blank.</p>
+            <p>"My satisfaction was, however, but of short duration. I had sojourned but a few weeks
+               at the dépôt, when the arrival of Lewis, as one of a fresh batch of conscripts, gave
+               proof that the sacrifice which I had made had been to no purpose. A second call for
+               recruits, it appeared, produced a second ballot; and the name of Lewis, as if heaven
+               had decreed that he should not elude his destiny, was again among the number of the
+               drawn. You may well believe that my friend for some time after his enlistment was
+               melancholy enough, when I inform you that the very day was named which ought to have
+               made Marie his own; yet he recovered his spirits by degrees, applied steadily to his
+               drill and his duty, and bore himself as proudly, and was as much admired as any man
+               in the ranks, when the detachment began its march to join the army in Spain.</p>
+            <p>"Lewis and I were fortunate enough to be appointed to the same corps, and the same
+               company, indeed we were comrades. We were fortunate too in being commanded by a brave
+               and good officer; and to fill up our measure of good luck, were sent off to serve
+               under one of the ablest and most humane generals whom France has produced. We were
+               ordered to Catalonia, at that time the province of the gallant and <pb n="163" xml:id="image200"/>generous St. Cyr. This happy combination of events naturally
+               tended to make us look to the future with a less desponding gaze, and upon the past
+               with greater resignation; we acknowledged that our lot might have been far less
+               desirable, and we were contented.</p>
+            <p>"No particular events befel [sic] us on our journey towards the frontier. On the
+               whole, we were treated with sufficient consideration by the inhabitants, who bestowed
+               on us a thousand wishes for our success and safe return, and we came up with the army
+               just as it had taken its ground, and begun to make preparations for the siege of
+               Rosas. You are, doubtless, aware, that the defence made by the garrison of that
+               fortress was exceedingly obstinate and gallant. Though our trenches were gradually
+               drawn to the very crest of the glacis, and our saps penetrated the escarpment, the
+               governor refused to surrender; nothing therefore remained but to try the fortune of
+               an assault, and for this perilous service volunteers were invited to offer.</p>
+            <p>"The first man who presented himself on that occasion was Lewis Charmont. It was in
+               vain that I reminded him of Marie, and of the necessity under which he lay of
+               guarding his life, as far as circumstances would allow, for her sake. He only smiled
+               at my remonstrance, and squeezing my hand, replied, that if he fell, Marie would
+               honor his memory, and if he survived, he should be the more worthy of her, as <pb n="164" xml:id="image201"/>he would have acted like a brave man, and earned a
+               medal.</p>
+            <p>"The assault took place, and was successful. The carnage on both sides was terrible,
+               but the town fell, and Lewis escaped unhurt. That I rejoiced at his escape you will,
+               I am sure, believe; yet let me be candid, I did envy him, for the first and only time
+               in my life, when I beheld him next morning upon parade with the medal already
+               suspended from his button. Bitterly did I upbraid myself that I had not volunteered
+               also; and I resolved that he should never again earn a distinction to which I should
+               not be equally entitled; nor was I without hope that even Rosas might be to me, as it
+               had been to him, a theatre of renown. The citadel still held out, principally, I
+               believe, through the exertions of your countryman, Lord Cochrane, and a few of his
+               sailors; and it continued for many days to withstand all our efforts. I was one of
+               those who thrice endeavoured to storm it, and were thrice repulsed; but the works
+               were demolished at last by cannon shot, the English were compelled to abandon them,
+               and we took possession of the ruins.</p>
+            <p>"Worn out with the labours of a tedious and harassing siege, we fondly looked
+               forward, now that the place had fallen, to the enjoyment of at least a few days of
+               repose, but we were disappointed. The critical situation of Barcelona, at that period
+               blockaded by the <pb n="165" xml:id="image202"/>enemy, called upon the general to
+               make every effort for its preservation. It was by far the most important of all our
+               possessions on that coast, for the loss of which hardly any success would have
+               compensated; so St. Cyr having determined that it should not change masters through
+               any negligence on his part, made ready, without a moment's delay, to succour it. On
+               the evening of the day which saw our flag hoisted upon the ramparts of Rosas, the
+               order to prepare was issued, and at an early hour next morning the whole army was in
+               motion.</p>
+            <p>"The direct road from Rosas to Barcelona leads, you must know, under the very guns of
+               Hostalrech, a fortified town, which was then held by a numerous Spanish garrison.
+               Conscious that any effort to force a passage must be attended by a heavy loss, and
+               unwilling to waste time by reducing the fort, St. Cyr resolved to penetrate, as he
+               best could, through the mountain; and having found a shepherd who professed to be
+               acquainted with the different tracks, he took him for his guide. The man was no
+               traitor. He conducted the column, by a difficult and circuitous route, round the hill
+               upon which Hostalrech is built, and brought it in safety, after a perilous and
+               fatiguing march, once more into the high road.</p>
+            <p>"On this occasion Lewis Charmont and myself were both attached to the rear-guard. It
+               was not very efficient in point of numbers, though the general was<pb n="166" xml:id="image203"/>pleased to say that we were all brave men, on whom he could
+               perfectly depend; and it came not off so well as the column which it was appointed to
+               protect. During the earlier part of the day, indeed, we, like those in front of us,
+               went on without beholding an enemy; but about four o'clock in the afternoon we
+               suddenly found ourselves watched by a very superior force; which, in spite of our
+               most strenuous efforts to prevent it, succeeded in throwing itself between us and the
+               rear of the column. For and instant we fell back, as if uncertain what course to
+               pursue; the main body, we were well aware, would not, and could not halt to succour
+               us, they could not even spare reinforcements to bring us off, for the defile of
+               Trientepasos was before them, which must be passed that night or never; there was,
+               therefore, no help to be expected from that quarter. The idea of surrendering, whilst
+               we had arms in our hands, could not be borne for a moment; more especially as we were
+               not ignorant that he who became a prisoner to the Spaniards was less to be envied
+               than his comrade who fell in battle. Though they exceeded us in numbers by four to
+               one, we resolved to fight our way through them, and either to make good our passage,
+               or perish in the attempt.</p>
+            <p>"The Spaniards were advantageously posted on the brow of a wooded height, and galled
+               us dreadfully, as we rushed on, with their fire, but our charge <pb n="167" xml:id="image204"/>was decisive; for one instant they stood the shock, in the next
+               we had pierced them. And now all was hurry and confusion; it was our business to
+               escape, each man as he was best able, and we were not very scrupulous as to the
+               means. We ran as fast as weariness would permit, preserving, however, for a time an
+               irregular line, and stopping occasionally, as a convenient space offered, to check
+               the pursuit by our fire; but at last even our skirmishing order was lost, and we fled
+               and fought in files or singly, as chance or circumstances directed.</p>
+            <p>"In this manner the tiraillading continued till hardly light enough remained for us
+               to point our muskets, when Lewis, who throughout the whole affaire had kept by my
+               side, fell to the ground. You will wonder when I tell you, that notwithstanding the
+               situation in which we were placed, it never once occurred to me that my friend could
+               be wounded; I imagined that he had merely lost his footing, and I stooped down, in
+               the careless turn of mind which such a belief was calculated to create, in order to
+               assist him in rising. What then were my sensations when I found that he made no reply
+               to my inquiries, and on examining him more closely, discovered that a musket ball had
+               struck him just where the shoulder joins the neck, and passed into his vitals. My
+               very brain swam round, yet I retained self-command sufficient to raise him in my
+               arms, and to entreat that he <pb n="168" xml:id="image205"/>would exert his utmost
+               strength, as the fire was fast slackening. He did so, and I led him to the rear; but
+               we had not proceeded a dozen paces before he exclaimed in a feeble voice, 'It is
+               useless, Baptiste, I cannot proceed farther. Go, go you, save yourself for poor
+               Marie, and leave me to die.' I could not act thus, Monsieur; it was not in my nature
+               to abandon any one, more especially the friend of my heart, under these
+               circumstances; so partly carrying, and partly dragging, I contrived to hurry him
+               along, till a cottage opportunely offering, I conveyed him into it. It was deserted
+               and in ruins; yet with a winter's night closing rapidly upon us, I was too thankful
+               even for such a shelter to pass it by.</p>
+            <p>"The firing had now ceased; our people having made good their retreat, and the enemy
+               fallen back to Hostalrech; but that was a matter about which I was perfectly
+               regardless. I thought only of my friend, for whom the plundered hut afforded no
+               comforts, and but a very partial shelter. I laid him upon the mud floor, and tearing
+               my handkerchief into shreds, attempted to staunch the blood which welled from his
+               broken limb; but all my efforts were fruitless, it flowed in spite of them. When I
+               looked at his countenance, too, that told me plainly enough that there was no hope;
+               the half-closed eye and fallen jaw, not less than the pale lit and livid cheek,
+               warned me that Lewis was departing. Wild with my own <pb n="169" xml:id="image206"/>fears, I called upon him in the name of Marie, and of all the tender associations
+               connected with his native village, to rally himself, and take courage; and at last,
+               finding that he paid no heed to my adjurations, I sat down beside him in despair,
+               buried my face in my hands, and wept aloud. The sound of my lamentation reached him
+               even in his last moments; he looked up, and in a tone scarcely audible, exclaimed,
+               'Do not weep, Baptiste, do not weep, it must be thus, we must all die. Tell Marie
+               that I fell as became me; and give her my medal, that she may occasionally look upon
+               it, and remember me when I am gone. Tell her, likewise, that with my last breath I
+               consigned her to you; you love her, Baptiste, that I know; and I need not add be kind
+               to her, for to whom was my friend ever unkind? May you be happy together, and the
+               thought that you are so *** .' He could not finish the sentence; no doubt he meant to
+               say, that his spirit would look down upon our happiness with delight, but the word
+               died upon his lips, the lips themselves ceased to move, and he was a corpse.</p>
+            <p>"Ah, Monsieur, if you have ever known what it is to witness the dissolution of a
+               friend who was dear to you as the air which you breathed, then, and then only, will
+               you be able to imagine what my feelings were at this moment. Alas! I could not even
+               pay to him the last tribute of friendship; I could not lay him in a grave; but I did
+               what I could; I took his <pb n="170" xml:id="image207"/>medal from his breast, and
+               fetching a quantity of straw from an adjoining chamber, I spread it over him; I knelt
+               down, too, and breathed a fervent prayer for his soul's repose; and then with swollen
+               eyes, and a heavy heart, set out to overtake my regiment.</p>
+            <p>"I need not pursue the remainder of my story with any particular minuteness. I came
+               up with the corps at the farther mouth of the defile, for the Spaniards, contrary to
+               all expectation, had permitted us to thread it unmolested; and I partook of the
+               bivouac which they had formed on the plain of Llenas. But our repose was of short
+               continuance; the dawn had just begun to break when a heavy column showed itself in
+               full march towards the pass; no doubt could exist as to the force which composed the
+               column; so the drums beat to arms, and in five minutes after the army was in
+               line.</p>
+            <p>"Of the action which ensued, and which ended in the total defeat of the Spaniards, I
+               cannot pretend to give any account, for the cannonade had scarcely begun when a round
+               shot struck me in the left arm, and took it off. I was carried from the field along
+               with hundreds besides, and having suffered amputation, was removed to a crowded
+               hospital, where, during many weeks I endured all the misery attendant upon inadequate
+               accommodation, imperfect nursing, and scanty provisions. At last, however, <pb n="171" xml:id="image208"/>thanks to a naturally good constitution, I recovered;
+               and being no longer serviceable, I received my discharge, but no pension was allowed
+               me; I had not served long enough, it appeared, to merit one; indeed I was left to
+               make my way, as I best might, through the whole breadth of France, without receiving
+               any assistance than that which private benevolence afforded. Thus mutilated, and a
+               beggar, I reached my home exactly ten months from the day on which I quitted it.</p>
+            <p>"And now, Monsieur, it only remains for me to repeat the saddest portion of my story.
+               Poor Marie had received no account of her lover since he departed, and had pined and
+               languished after him, like a bird robbed of her young. Her health, naturally
+               delicate, was already impaired by suspense; how then could it be expected that she
+               would bear up against the terrible reality; she did not, Monsieur. I broke the matter
+               to her as delicately as I could, but even thus she was unable to bear it; the
+               intelligence that Lewis was no more came upon her like a thunderbolt upon a bruised
+               reed *** it crushed her. When I strove to cheer her by making mention of her lover's
+               valour, her tears only flowed the faster; and when I pulled out his medal, and gave
+               it to her as his last bequest, it seemed as if her heart would have broken. She took
+               it, laid it upon her bosom, and to her dying day kept it there; nay, it was not
+               removed from her even <pb n="172" xml:id="image209"/>in death, it is buried in her
+               grave. No, no, Monsieur, I could not speak to one, thus afflicted, of new ties; I
+               never told her that Lewis had bequeathed her to me. The poor stricken doe had no
+               pasture to fly to; she lingered on for a while, and died.</p>
+            <p>"Six years and a half have passed since we laid her in the dust; she had then barely
+               completed her twenty-first year, and the merciful God never took to himself a purer
+               or a chaster spirit. For me, it has ever since been my chief delight to deck her
+               grave, as you see it even now. Every Sunday I gather fresh garland for the purpose;
+               and as long as life remains, I will continue the practice."</p>
+            <p>Though there was something French in this poor fellow's story, I was, upon the whole,
+               a good deal affected by it; and deeming it not unworthy of a place in my scrap-book,
+               I noted it down.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

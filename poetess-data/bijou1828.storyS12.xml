@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">Essex and the Maid of Honour</title>
+            <author type="author">By Horace Smith, Esq. Author of Brambletye House</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.storyS12</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Smith, Horace" date="1779-1849" place="UK">Horace Smith</name>
+                  </author>
+                  <title>Essex and the Maid of Honour</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">285-311</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>story</item>
+                  <item>Essex and the Maid of Honour</item>
+                  <item>Horace Smith, Esq. Author of Brambletye House</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g7" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="story"
+              xml:id="S12"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="285" xml:id="image342"/>
+            <head>
+               <title>Essex and the Maid of Honour</title>
+            </head>
+            <head>
+               <name reg="Smith, Horace" date="1779-1849" place="UK">By Horace Smith, Esq. Author of
+                  Brambletye House</name>
+            </head>
+            <p>THE palace of Nonsuch, near Ewell, in Surrey, was intended by Henry the Eighth, as
+               its proud title sufficiently attests, to afford an unrivalled specimen of his
+               magnificence and taste; but, while he was lavishing his treasures in this most
+               unnecessary addition to his royal residences, Death was sharpening the dart which was
+               to tumble down the ostentatious tyrant, and consign him to his last narrow palace —
+               the tomb.</p>
+            <p>Nonsuch was left unfinished, and unfulfilled promise of splendour, a gorgeous and yet
+               melancholy evidence of the uncertainty of human grandeur; and Queen Mary, shrinking
+               from the cost of its completion, had it in contemplation to ull it down to save
+               farther charges; when the Earl of Arundel, "for the love and honour he bore to his
+               old master," purchased the place, and finished it according to the original design.
+               Not a vestige of it now remains; it has passed away with the other elaborate gewgaws
+               of <pb n="286" xml:id="image343"/>mortal vanity, and the arrogant name which it has
+               left behind it, sounds in our ears like a mournful echo, mocking the presumption of
+               other times. And yet the proud structure was not deficient in solidity as well as
+               stateliness. "It was built round two courts," says the accomplished authoress of
+               Queen Elizabeth's Memoirs — "an outer and an inner one, both very spacious; and the
+               entrance to each was by a square gate-house highly ornamented, embattled, and having
+               turrets at the four corners. These gate-houses were of stone, as was the lower story
+               of the palace itself; but the upper one was of wood, "richly adorned, and set forth
+               and garnished with a variety of statues, pictures, and other antic forms of excellent
+               art and workmanship, and of no small cost;" all which ornaments, it seems, were made
+               of rye dough. In modern language the pictures would probably be called
+               basso-relievos. From the eastern and western angles of the inner court rose two
+               slender turrets, five stories high, with lanterns on the top, which were leaded and
+               surrounded with wooden balustrades. These towers of observation, from which the two
+               parks attached to the palace, and a wide expanse of champaign country beyond, might
+               be surveyed as in a map, were celebrated as the peculiar boast of Nonsuch.</p>
+            <p>It was the morning of Michaelmas Eve, the woodwork of the gaudy structure which was
+               painted and <pb n="287" xml:id="image344"/>lacquered, glistered in the light of a
+               cloudless sun the numerous gilt vanes, fashioned in the shapes of the various animals
+               that figured in the armorial bearings of royalty, flashed form the top of every tower
+               and pinnacle; while the royal banners displayed from the summits of the two lofty
+               turrets, and flaunting proudly on the breeze, announced to all the circumjacent
+               country that they floated over Queen Elizabeth and her Court, who were then residing
+               in the palace. Although it was thus graced and honoured, the earliness of the hour,
+               and the heat of the morning, had prevented any great appearance of bustle around the
+               exterior of the building. A few halberdiers and yeomen of the guard, in their rich
+               liveries, were lounging in front of the outer gate-house; along the roads that
+               skirted the parks, horses and carriages, betraying their progress by the dust, were
+               seen to converge towards the same point; but in other respects, the landscape was as
+               still as it was lovely. The herds of deer in the park, only distinguishable by their
+               horns, were crouching in the shade: the cows, that were usually pastured around the
+               gatehouse, had not yet returned from the farm, whither they had been driven to be
+               milked; and with the exception of a single stately stag which emerged from a thicket,
+               as if to reconnoiter, and snuff up the morning air, nothing appeared to move within
+               the wide chase that surrounded the mansion; while the absence of <pb n="288" xml:id="image345"/>music, or any other sound of state or revelry from the walls,
+               gave reason to conclude that her majesty had not yet arisen from her slumbers.</p>
+            <p>Upon a terrace, however, which flanked the exterior of the inner court, and
+               communicated by a flight of stone steps with the park, was assembled a little party,
+               who had obeyed the first summons of Chanticleer, in the loyal and laudable hope of
+               affording good entertainment to their royal mistress, when it should please her to
+               begin the sports and pastimes of the day. Among these was old Yeovil, one of the
+               huntsmen, a withered weatherbeaten figure, but with a patch of red upon either
+               cheek-bone, that seemed to attest he might still be in at a good many deaths before
+               his own. He held three leash of greyhounds by leathern thongs, and was surrounded by
+               several couple of staghounds, most of the latter being crouched at his feet, dosing
+               and winking at the sun; while the former with ears erect, and in various graceful
+               attitudes of alert attention, were imitating their master in watching the movements
+               of a motley group immediately opposite to them. It consisted of <emph>Master</emph>
+               Toby so called from his being at the head of the scullery, and who for the nonce had
+               constituted himself, moreover, a sort of deputy master of the revels; and a troop of
+               extempore maskers, collected from among the inferior domestics, who had agreed to get
+               up a little pageant among themselves, stuffed full of ful-<pb n="289" xml:id="image346"/>some compliments to the queen, and according to the fashion of
+               the time, most fantastically allegorical. Shakspeare's ridicule, and the burlesque of
+               Bottom the Weaver, had not been yet long enough before the public to banish the rage
+               for such emblematic foolery: nor would it under any circumstances have been likely to
+               exert a beneficial influence upon Master Toby, who sometimes made furtive excursions
+               from the scullery into the regions of Parnassus, and whose taste had been exclusively
+               derived from the quaint devices of those symbolical banquets he had assisted in
+               cooking; and which, from their hieroglyphical character, had received the appropriate
+               name of Subtleties. At this self-appointed masque-master, who with a paper in one
+               hand, and a cane in the other, was strutting about, endeavouring to get up a
+               rehearsal as well among the amateur actors by whom he was surrounded, some of whom
+               were attired as allegorical females, the calm old huntsman gazed with a quiet
+               wonderment, that kept his face fixed in an intermediate expression between a simper
+               and a sneer. And, sooth to say, they must have exhibited a puzzling sort of
+               cross-reading to a straightforward man like him, who knew all the parties by sight,
+               but neither understood why they were thus strangely metamorphosed, nor comprehended
+               the purport of what they were instructed to utter.</p>
+            <p>The man who was to misrepresent Diana having <pb n="290" xml:id="image347"/>thrown up
+               his legs on a bench, in defiance of petticoats and decorum, and all the
+                  <emph>bienseances</emph> that should distinguish the "chaste huntress of the
+               silver bow;" swore "by cogs nouns, and snails," in answer to the summons of Master
+               Toby, that he would not come to book 'til he had finished his pipe; in confirmation
+               of which averment he spat upon the ground, and recommenced his whiffs with such
+               energy, that the half-moon in his head was only occasionally seen as it dimly emerged
+               from the cloud of tobacco-smoke in which it was enveloped.</p>
+            <p>"Come, then, Cupid, we will begin with you, have you got your speech quite perfect?"
+               said Master Toby, to a little boy, who had twisted his wings all awry in the
+               earnestness of a game of marbles with an urchin of his own age.</p>
+            <p>"Yes, sir, yes;" replied the son of Venus. "Fain dubs, Jemmy! fain tribbs! Knuckle
+               down, Jemmy! fain going through the ring a second time! Keep your yard's distance,
+               and no cheating!"</p>
+            <p>Pittikins! you young scapegrace! call you this saying the speech?" exclaimed Toby, in
+               wrath. "Spout it, sirrah, spout it, or your shoulders shall be scored with my rattan
+               till they show like ribs of pork."</p>
+            <p>"Nay, now, forsooth, Master Toby, let us finish the game, there's a good fellow. Its
+               my go next, and there are only three in the ring. And look you <pb n="291" xml:id="image348"/>her's lazy Barney Mumpford falling asleep in the sun for want
+               of something to do. Hallo, Barney! Barney!" continued the stripling, bawling in his
+               ear; "there's Master Toby waiting for you to begin."</p>
+            <p> The person thus aroused, whose close doublet and hose were thickly painted with
+               tongues to give him the semblance of Report of Fame, now got lazily up, and after
+               some very deliberate stretching and yawning begun his speech, which he spouted with a
+               sort of drowsy pomposity. As it was intended to compliment the queen, not less upon
+               the wide diffusion of her glory than upon her extensive knowledge of languages or
+               tongues, it commenced after the following fashion:</p>
+            <p>"To the four quarters of the earth I've blown</p>
+            <p>Eliza's name; I need not add my own.</p>
+            <p>Useless to her would such a blazon be,</p>
+            <p>For she who knows all tongues must needs know me!" — </p>
+            <p>"By my fackins, though, Master Toby," cried the spokesman, breaking off in the very
+               exordium of his address, "if her grace should ask my name after all, I shall e'en
+               tell her that I'm Barney Mumpford, that I have been a groom seven years, and that the
+               post-master of the great stables is vacant; for I may as well have it as another, and
+               a nod's as good as a wink to a blind horse."</p>
+            <p>With a look of profound alarm, the culinary stage-<pb n="292" xml:id="image349"/>manager declared that such a departure from histrionic precedent would infallibly
+               bring them all into disgrace, and reminded his pupil that he ought to have announced
+               himself in the first instance by blowing his trumpet.</p>
+            <p>"Odso! And so I ought," cried Barney; "and I need not have forgotten it, for I found
+               that part easier to learn by heart than all the rest."</p>
+            <p>So saying her put the instrument to his mouth, and summoning all his breath to his
+               aid, gave birth to a discordant bray, which seemed to have had a groan and a roar for
+               its respective parents. At this abortive effort, old Yeovil, who from childhood
+               upwards had been accustomed to wind every instrument of the sort from a penny trumpet
+               to a French horn, could no longer remain a passive spectator; but seizing the trumpet
+               and applying it to his mouth, he collected the breath into his hollow leathern
+               cheeks, and blew so loud and lusty a recheat, that the inner court echoed to the
+               sound, the dogs suddenly leaped up, baying and barking, and at the same moment, a
+               gentleman-usher, issuing form the offices, rebuked them angrily, as a set of
+               unmannerly grooms and brawling mummers, to keep such a coil ere the breakfast-bell
+               had warned in the great court, and when it was even uncertain whether her Highness
+               had quitted her bed-room.</p>
+            <p>"I would give a Harry groat," said Yeovil, "to <pb n="293" xml:id="image350"/>know
+               whether her grace means to betake herself to the stand in the park to see the
+               coursing, or whether we are to uncouple the hounds, and drive up a fat buck for the
+               cross-bow, for the morning begins to wear, and the dew will be soon off the
+               grass."</p>
+            <p>"Body o' me!" ejaculated Master Toby, drawing himself up, and looking contemptuously
+               at the huntsman; "think you our noble and learned mistress will recreate herself with
+               brute beasts, when she might listen to the Orphean strains of poetry that I have
+               provided for her in this our most quaint, dainty, and delectable device? Now, good
+               man Report, pursue your speech — pursue your speech — 'accept, fair, peerless,
+               learned, virgin queen — "</p>
+            <p>"Grammercy! Master Toby," quoth Report — "four lines at a stretch is honest yeoman's
+               work, you must get some one else to accept the queen, for it is clean beyond me to go
+               any further." Not less indignant as a poet than as a loyal subject at this
+               declaration, master Toby was about to pronounce a severe reprimand upon Goodman
+               Report, when he was forestalled by a loud laugh from the four quarters of the world,
+               who were standing in the shade playing at chuck-arthing with Saint Michael, which
+               latter personage had been dressed up to do honor to his own approaching eve. Africa
+               and the Saint, after wrangling for some time about a farthing, had betaken
+               themselves, like true Englishmen, to swearing, and <pb n="294" xml:id="image351"/>then to mutual accusations of profaneness; when the Saint, pointing to is
+               adversary's visage, which was smeared over with a sooty pigment to give him the
+               better semblance of a negro, declared that he must needs have been the greatest
+               offender, since he had sworn till he was black in the face. This joke was received
+               with a huge and simultaneous burst of laughter by Europe, Asia, and America, although
+               they were repeatedly called to order, and were threatened with the tattan by the
+               wrathful master Toby. Finding his four refractory quarters to be indifferent to his
+               menaces, the latter now betook himself to father Thames, a venerable looking figure
+               with a crown of bulrushes, a long beard of sedge and water-flags, and wearing a loose
+               watchet robe, which having fallen back while he was emptying a pot of ale, disclosed
+               a pair of greasy buckskin hose, with riding boots and spurs. "Zooks, master Toby, let
+               us finish the tankard — you know the Thames is apt to be dry at this season," cried
+               the river god, chuckling at his own wit. "Dry quotha! methinks you're always adry,"
+               replied Toby — "but beshrew me an I ever knew the Thames to be replenished with
+               humming ale, where's your urn?" "Here, master Toby, here," said father Thames,
+               thrusting a large pitcher under his left arm, and where's the tinsel stream that is
+               to come pouring out of it?" "I popp'd it inside to keep it dry, for there was an ugly
+               dew this morn-<pb n="295" xml:id="image352"/>ing that would presently have washed off
+               all the glitter."</p>
+            <p>"By my fackins! that was well cared for: keep your water dry whatever you do: hold
+               your urn more sloping, and though that cannot spout, you many spout away
+               yourself."</p>
+            <p>Thus instructed and commended, the river god lifting up his voice, which was by no
+               means so clear and liquid as the character required, exclaimed,</p>
+            <p>"On my proud breast those floating castles ride,</p>
+            <p>That did subdue the great Armada's pride;</p>
+            <p>Behold illustrious Queen — "</p>
+            <p>when his progress was not less suddenly than unpleasantly interrupted by a freak of
+               the mischievous urchin, Cupid, who, having finished his game of marbles, and lighted
+               a piece of paper by the assistance of Diana's pipe, slily insinuated it into the
+               river god's left hand, as it hung dangling beneath his urn. Little expecting to be
+               thus surreptitiously set on fire, father Thames, uttering a cry of surprise and pain,
+               let fall the pitcher, which was smashed into a hundred pieces, and bounded forward a
+               good clothier's yard at a single leap. No sooner, however, had he discovered the
+               little incendiary, who betrayed himself by a shriek of laughter, than with fury in
+               his looks he blustered out an oath, much too combustible for so aqueous a divinity,
+               and commenced an immediate <pb n="296" xml:id="image353"/>pursuit for the purpose of
+               inflicting a summary vengeance. In less than a minute the offender had run twice
+               round Africa, crossed Europe, scudded behind the back of Asia, and swung round the
+               front of America; but Scamander when he pursued the runaway Achilles was not more
+               swift or unrelenting than father Thames in his chace of the unlucky Cupid, who having
+               thrown away his wings that he might fly the faster, at length bolted across the
+               terrace through a postern gate that led into the inner court, his pursuer followed
+               close upon his heels, and both were presently out of sight and hearing. Ere the
+               laughter occasioned by this incident had subsided among the rest of the party to whom
+               the fugitives belonged, their attention was arrested by a company of horsemen riding
+               towards the palace at full speed, and leaving a long cloud of dust behind them. As
+               they galloped past the end of the terrace, in order to wheel round towards the
+               gate-house, it was evident they had travelled far and fast, and through a different
+               tract of country from that which surrounded Nonsuch; for both horses and riders were
+               splashed with mud and mire, over which a white powdery dust had settled, until it had
+               become impossible to distinguish the colour of either steed or garment, although it
+               was sufficiently evident from their accoutrements, feathers and bearing, that the
+               leading cavaliers were officers. At the head of the band, mounted on a fleet barb,
+               was <pb n="297" xml:id="image354"/>a young gallant, who, as far as could be judged
+               from the great rapidity with which he passed, possessed singular beauty of form and
+               feature, and appeared to be a most graceful and accomplished horseman. Four others,
+               although they rode a little way behind him, seemed by their gestures to be his
+               friends and companions, and at a distance of ten or twenty yards was the rear of the
+               cavalcade, consisting of grooms and other attendants. Without relaxing his speed
+               until he reached the entrance of the great gatehouse, the leader of the troop threw
+               himself hastily from his horse, and hurried into the court with the air of one whose
+               rank and station authorized him to pass, even into the residence of royalty, without
+               let or question; although the yeomen of the guard looked somewhat anxiously at one
+               another, as if they ought to have demanded his purpose before they suffered him to
+               enter. At the portal which formed the entrance to the queen's dwelling apartments,
+               and through which the stranger would have speeded in the same unceremonious manner as
+               before, the pages, gentlemen ushers, and others, who were clustered about the doors,
+               and who were startled at the appearance of such a soiled and bespattered figure,
+               forcing himself, as it were, into the private chambers, drew up and opposed his
+               progress, enquiring at the same time who he was, and what he wanted. "Gentlemen,"
+               said the stranger, impatiently waving his hand for them to <pb n="298" xml:id="image355"/>fall back, "my purpose brooks not delay, and I beseech you not
+               to parley with me but to give me free passage. What! am I so changed by a little mud
+               and dirt that ye know me not for the Earl of Essex, Master of the Horse, and of the
+               Ordnance, and the Lord Deputy?" So saying, and without giving them time to recover
+               from their surprise, he passed through the midst of them, and began to ascend the
+               stairs.</p>
+            <p>Labouring under heavy imputations for his misconduct in Ireland, from which country
+               he had suddenly returned, notonly without leave, but in positive disobedience to the
+               commands of his royal mistress; relying upon her well-known affection for his pardon,
+               and complete restoration to favor, if he could once gain access to her, and
+               apprehensive that if he failed in this object his enemies would ensure his disgrace
+               and ruin, the impetuous earl had ridden post both day and night, without
+               communicating his purpose to a single individual, except a few of his particular
+               adherents, and having thus far successfully triumphed over all obstacles, he was not
+               likely to be impeded by the pages and chamberlains whom he encountered in the private
+               apartments, as he hurried through them. Gazing in utter amazement at such a
+               bespattered figure, making the floors ring to his heavy riding boots as he stalked
+               onwards towards the queen's bedroom, some stood aloof, concluding that he had
+               explained his errand to the yeomen below; <pb n="299" xml:id="image356"/>while others
+               placed themselves in his way, and informed him that the Queen had not yet come forth:
+               but he either passed them, or put them aside, with the air of one who would not be
+               disobeyed, and thus traversed the presence chamber, and the waiting room of the maids
+               of honor, several of whom were not a little alarmed at the sight of such an
+               inexplicable apparition. Neither noticing their startled looks, nor heeding their
+               eager whispers, the adventurous Earl pursued his way, and never stopped till he came
+               to the Queen's bed-room, the door of which he undauntedly opened, walked in, and
+               closed it behind him.</p>
+            <p>Elizabeth was newly risen, and her locks were hanging in disorder about her face. She
+               was incapable of fear, but her surprise was not without agitation at the first sight
+               of a heated and bemoiled stranger thus intruding into her bed-room, and she was on
+               the point of calling out for her chamberlain, when Essex rushed forward, threw
+               himself upon his knees, and humbly implored her pardon. The sound of his well-known
+               voice, the humility of his language, and, above all, the sight of one whom she still
+               loved, kneeling at her feet, and looking up to her with flushed and imploring
+               features, so won upon her unprepared heart, that she held out both her hands to him
+               to kiss, listened with a kind aspect to all his excuses, and gave him a more cordial
+               reception than even his fondest hopes had ventured to anticipate. <pb n="300" xml:id="image357"/>Weak as a woman, although great and illustrious as a sovereign,
+               she now suffered the former character to predominate, and Essex, who with all his
+               headstrong impetuosity was not deficient in the courtier's art, took good advantage
+               of the mood in which he found her. Attributing his unsanctioned return to the
+               impossibility of existing any longer out of the presence of a divinity, whose sight
+               was as vital to him as was the breath of heaven to his nostrils, he addressed her in
+               terms of passionate, and even romantic gallantry, talked of her excellent beauties,
+               though she was now in her sixty-seventh year, compared her at once to Venus and
+               Minerva, to a nymph goddess, and angel, quoted Latin and Greek in confirmation of his
+               assertions, and played his part so successfully, that leaving her after a conference
+               of some duration, he appeared in high spirits, and thanked God that though he had
+               suffered many storms abroad, he had found a sweet calm at home.</p>
+            <p>Having taken some refreshment, and attired himself in his most splendid suit, as some
+               atonement for the unseemly habiliments in which he had before presented himself,
+               Essex, who had been invited to repeat his visit to the palace, was sallying forth for
+               that purpose, when he was accosted by a personage, who respectfully vailing his
+               beaver, and presenting a letter, would have explained its object had he not been
+               anticipated by the Earl's exclaiming — "Ha, <pb n="301" xml:id="image358"/>Will
+               Shakspeare! what makest thou at Nonsuch, when thou shouldst be playing the ghost to
+               the holiday folks in London, and easing them of their Michaelmas testers?"</p>
+            <p>The poet replied that he had come to Ewel with his friend Dick Burbage to solicit of
+               the Queen a Licence for their theatre, and that his gracious patron, the Earl of
+               Southampton, who was now unfortunately under her Majesty's heavy displeasure, had
+               condescended to give him a letter to his special good friend the Lord Essex,
+               bespeaking his influence and kind offices as soon as he should return from Ireland.
+               Of this happy event the bard declared that he had entertained no immediate
+               expectation; but having learnt, within the last half hour, that his lordship had
+               actually arrived at Nonsuch, he had been emboldened to deliver the letter with which
+               he had been thus honored. "Grammercy! master Shakspeare!" cried the Earl after
+               hastily glancing over the paper, "I am myself but a newly pardoned criminal, and
+               therefore little warranted to become a suitor; but I feel too happy in her grace's
+               favor not to wish to extend it to others. There are few things in which I would not
+               venture to pleasure the Lord Southampton: and it would like me no less to serve the
+               merry varlet, or the soul-stirring bard, (which shall I call thee?) whose lofty lines
+               ever seem to me to o'ertop all praise, 'till they are clean eclipsed by his quaint
+               and comic fantasies. <pb n="302" xml:id="image359"/>So forward! with me to the
+               garden, and if I may speed your suit, it shall not lack a willing advocate."</p>
+            <p>The poet bowed his thanks, and followed at a short distance behind the Earl, who,
+               however, turned round and conversed familiarly with him till they entered the
+               gardens, which according to the prevailing taste were laid out in trim beds, formal
+               parterres, fountains, and successive terraces, communicating withone another by
+               flights of stone steps, and ornamented with vases, statues, and groupes of sculpture.
+               At the extremity of one of these terraces stood a little pavilion called the
+               Paradise, being decorated with representations of Adam and Eve, the Serpent and the
+               Tree of Knowledge; and having an arbour for its entrance engrailed with clustering
+               althaeas, jessamines, honeysuckles, roses, pomegranates, and other flowering shrubs,
+               all of which were in full bloom and fragrance. Within this odorous and shady bower,
+               the Queen, who had been observed to bestow an unusual attention that morning upon her
+               toilet, was seated, holding a large feather fan, and surrounded by several maids of
+               honor, all standing. Behind them, within the pavilion, were seen other female
+               attendants employed in caul work: lutes and citharas, with cards and a richly
+               enamell'd chess board were lying upon a marble table by their side. Upon approaching
+               the august figure of royalty thus picturesquely enthroned, the Earl fell upon his
+               knees, an act of homage which <pb n="303" xml:id="image360"/>her Majesty always
+               exacted, even from her ministers in their audiences of business; and Shakspeare,
+               halting at some little distance, immediately imitated his example. Essex found a no
+               less gracious reception than he had experienced in the morning, for the remembrance
+               of his flattery had not yet passed away, and their conference had lasted for some
+               time when the Queen, looking towards Shakspeare, enquired whether his squire, who
+               seemed but young in years, had left his locks in the hands of the Irish rebels, that
+               he wore so bald a brow. "I much fear me that I am presumptuous and overbold," said
+               the Earl after having mentioned the name and object of his attendant. "I who am
+               myself but a petitioner for mercy and forgiveness, in thus becoming a suitor for
+               others; but since your majesty's condescension has so soon forgotten my offences, I
+               may perhaps stand better excused now than at another time, for forgetting
+               myself."</p>
+            <p>"So, this is the dramatic chronicler," said the queen, who had felt much interest in
+               his historical plays; "let him approach; we would have speech of him; and you, my
+               lord, may avail yourself of yonder seat, for after so long and so speedy a journey
+               you may well need a little rest."</p>
+            <p>Bowing as he accepted the permission thus given to him, Essex beckoned to the poet,
+               who approached, and concluding that he had been invited to imitate <pb n="304" xml:id="image361"/>his patron, seated himself upon a low garden stool, beside the
+               earl, and immediately opposite to the Queen. So unusually gracious was the present
+               mood of Elizabeth, that she smiled at a mistake which at another moment might have
+               excited her indignation, and waved her hand to her attendants as a signal that they
+               might retire into the pavilion, a notice which they instantly obeyed. Essex, catching
+               the expression of the Queen's face with the alacrity of a courtier, smiled also:
+               while Shakspeare, perfectly unconscious that he had committed any violation of court
+               etiquette, read his petition with a respectful propriety, that might well atone for
+               his little oversight.</p>
+            <p>"Look you, Master Playwright," graciously exclaimed her majesty when he had
+               concluded; "your writings like us well, but touching this licence for playing more
+               frequently, here is our head Bearward who has been lately complaining to us most
+               piteously that you have become his worst enemy, for that when the flag is flying at
+               your theatre of the Globe, his garden is so deserted by the people, that his best
+               bear will scarcely pay the baiting. How say you to this?"</p>
+            <p>"I dare not misprise his calling, since it has ever found a gracious patron in your
+               majesty," replied the bard; "but under favour I would venture to affirm that he who
+               withdraws his fellow subjects from such <pb n="305" xml:id="image362"/>pastimes, and
+               instructs them in their country's annals, and points out to their admiration the
+               glory of their monarchs, (than whom none have been more illustrious than your
+               majesty's immediate ancestors) can hardly fail to civilize and exalt the people,
+               though he may find it impossible to add to the renown of the sovereign."</p>
+            <p> "It is well, and wisely, and loyally urged," said the Queen, evidently pleased with
+               the speech; "and, by my troth! it may chance to speed the licence for which you are
+               our petitioner. And what led you to our musty chronicles, Sir Poet, when your
+               playwright's art might have found better range in the wider walks of fancy and
+               invention?"</p>
+            <p> "My grand-father fought with good approof in the battle of Bosworth Field," said
+               Shakespeare, not sorry to have an excuse for mentioning the circumstance, "and was
+               fortunate enough to find favour with your grace's ancestor, the valiant King Henry
+               the Seventh. From him and from my father I have inherited a love of loyalty and of my
+               country's glory; and as I despaired of doing justice to such splendid deeds as the
+               defeat of the Armada, and the other exploits that have glorified your grace's reign,
+               I was driven to record the annals of your less illustrious predeccessors."</p>
+            <p>"Beshrew me," said the Queen, in an under voice to Essex, "if I have ever heard a
+               varlet speak <pb n="306" xml:id="image363"/>more honorably, or pithily to the
+               purpose. And yet," she continued, again addressing herself to Shakespeare, "if we
+               forget us not, thou hast somewhere ventured an allusion to our royal self. The
+               passage stays not with us, but we have forgiven it, though it coupled our name if we
+               mistake not, with some idle flower."</p>
+            <p>Elizabeth perfectly remembered the lines, though she would not appear to attach so
+               much importance to them, as to have thought them worthy her recollection. Essex
+               however, who saw the real motives of her reserve, and knew that she would be pleased
+               with the quotation, exclaimed, "your Majesty may pardon both the poet and myself,
+               when we do but recall a Midsummer Night's Dream;" and then looking passionately at
+               the Queen he continued:</p>
+            <lg type="stanza" org="uniform" sample="complete" part="N">
+               <l part="N">"That very time I saw (but thou couldst not)</l>
+               <l part="N">Flying between the cold moon and the earth,</l>
+               <l part="N">Cupid all arm'd: a certain aim he took</l>
+               <l part="N">At a fair vestal throned by the West,</l>
+               <l part="N">And loos'd his love-shaft smartly from his bow,</l>
+               <l part="N">As it should pierce a hundred thousand hearts;</l>
+               <l part="N">But I might see young Cupid's fiery shaft</l>
+               <l part="N">Quench'd in the chste beams of the watery moon;</l>
+               <l part="N">And the imperial votaress passed on</l>
+               <l part="N">In maiden meditation, fancy free.</l>
+               <l part="N">Yet mark'd I where the bolt of Cupid fell:</l>
+               <l part="N">It fell upon a little western flower,</l>
+               <l part="N">Before milk-white; now purpled with love's wound,</l>
+               <l part="N">And maidens call it, "Love in Idleness."</l>
+            </lg>
+            <pb n="307" xml:id="image364"/>
+            <p>"It ran even thus, but I took you not, my lord, for so shrewd a remembrancer," said
+               the queen.</p>
+            <p>"The lines might easily have passed from out my head," replied the Earl, "but they
+               related to my admired sovereign, and therefore were they treasured in my heart of
+               hearts." He laid his hand upon his breast as he spoke; Elizabeth looked pleased,
+               though she noticed not the speech, but turning to Shakspeare, resumed, "we have
+               already passed our pardon for this liberty of your pen, wherefore we rebuke it not;
+               and touching the licence that you seek, it shall be even as you wish, and our
+               secretary shall have order to prepare the patent."</p>
+            <p>"I shall be ever bound to pray for your gracious majesty," said the poet, bowing
+               profoundly. "God's pity! sir; they tell me that you playwrights be but scant sayers
+               of your prayers, and since they are henceforward to be put up for our own well and
+               welfare, you shall neither lack the means to proffer them, nor a memorial of her for
+               whom you pray." So saying, Elizabeth took a volume from a low table that stood beside
+               her chair, and graciously extended it to Shakspeare with these words: "The Queen
+               presents you her prayer-book: you may retire."<note place="foot" resp="Author, Horace Smith" anchored="true">[Note to "Essex and the Maid of
+                  Honour":] The book thus presented Shakespeare, we may suppose to be that beautiful
+                  and rare volume, described by Dr. Dibdin in his Bibliographical Decameron, and
+                  known among collectors as Queen Elizabeth's Prayer Book. Through the friendship of
+                  Mr. Freeling (from a copy in his possession) the Proprietors are enabled to
+                  present an admirable facsimile of one leaf. The extract, is part of a prayer by
+                  the celebrated John Fox, author of the Book of Martyrs. Dr. Dibdin says, "I wish I
+                  knew more of the private history of this elegant volume at all events if you feel
+                  disposed to loosen your purse strings, purchase one of the earlier editions of it,
+                  on account of the superior sharpness or truth of the outline." The Doctor adds
+                  that the first edition is dated 1569, the second 1578, the third 1581, the fourth
+                  1590, and the fifth 1608. [Author, Horace Smith.]</note> Judging from the latter command <pb n="308" xml:id="image365"/>that he was not expected to express his gratitude, the poet kissed the volume with
+               great reverence, pressed it to his heart, and retired from the royal presence with
+               repeated obeisances, not less delighted at the success of his suit, than flattered by
+               so signal a testimony of her Majesty's favour and condescension.</p>
+            <p>After a prolonged conference, in which he had every reason to believe that he had
+               completely re-instated himself in the Queen's favour, Essex also withdrew, descending
+               the terraces, and crossing towards a postern gate of the park. In this route he most
+               unfortunately encountered the fair Mrs. Bridges, one of the maids of honor, with whom
+               he had long been suspected of being deeply in love, and who on his account had
+               already been exposed to the wrath, and even the blows of her royal mistress.
+               Imagining <pb n="309" xml:id="image366"/>himself to be screened from observation, the
+               enamoured Earl accosted her in such terms of fervent and high-flown gallantry as were
+               then in vogue among the courtiers, and placing a small collar of chrystals around her
+               neck, which he declared that he had brought from Ireland expressly for her wearing,
+               he would have detained her still longer in dalliance, had not his Innamorata hurried
+               away, urging the necessity of resuming her attendance upon the Queen. Although her
+               Majesty had been so embowered in the arbour as not to be visible to Essex, she had
+               unluckily been following him with her eyes, through a treacherous loop-hole of the
+               leaves, and with a rage-envenomed heart had witnessed the whole transaction.</p>
+            <p>It was not without a considerable struggle that she could prevent an immediate
+               explosion of her fury and assume a forced composure of look and voice as she
+               exclaimed to the approaching offender, "So, mistress! you can find time to wait upon
+               us when you have finished your amorous foolery with the Lord Deputy. If there be
+               neither treason nor immodesty in the avowal, we would fain know what passages passed
+               between you."</p>
+            <pb n="310" xml:id="image367"/>
+            <p>"Ay, with such haste," interposed the Queen, "that you have left your partlet all
+               awry."</p>
+            <p>"Nothing would dissuade his lordship," resumed Mistress Bridges, blushing still
+               deeper, as she adjusted her ruff, "but he must needs place this Irish carcanet around
+               my neck."</p>
+            <p>At this confession Elizabeth could restrain herself no longer. Quick as lightning she
+               bestowed upon her trembling rival a violent box on the ear, tore the collar from her
+               neck, dashed it to the ground, and exclaimed with a look, and voice that sufficiently
+               declared her to be the daughter of Henry the Eighth:</p>
+            <p>"God's death! thou hussy, thou wanton! thou gill-flirt! thou flaunting young
+               cockatrice! is our court and presence to be contaminated and insulted by such doings
+               as these? Begone! and let me never again see thy shameless face: what! did I send
+               this traitorous and temerarious youth to Ireland to collect carcanets for his
+               concubines, instead of putting chains around the rebel Tyrone. By the throne of
+               heaven! he shall dearly rue it. I am no Queen to be thus saucily entreated."</p>
+            <p>The terrified maid of honor shrunk away to conceal her disgrace; Elizabeth arose and
+               walked hastily towards the mansion, but having had a few minutes to collect herself,
+               and feeling probably that she had betrayed rather more violence than became her sex
+               and station, she turned towards her attendants, and <pb n="311" xml:id="image368"/>in
+               a tone of assumed moderation exclaimed, "For ourself, ladies, this matter touches us
+               not; the disloyal minion and the frontless minx would have been forgotten in silent
+               scorn, but that we will neither suffer our public service to be neglected, nor the
+               decency of our court to be violated.</p>
+            <p>"For the latter, let the name of this flirting puppet be scratched from the list of
+               our maids; and touching this misproved and disobedient Lord Deputy, who has dared to
+               desert his post, and return from Ireland in open defiance of our orders, we will see
+               that he be straightway humbled; where is our secretary? let him join us forthwith in
+               the council room.</p>
+            <p>That same evening the Earl was committed a prisoner to his chamber, and after much
+               delay and numerous vacillations, occasioned by the miserable perplexity of the
+               Queen's mind, as she fluctuated between severity and returning tenderness, she at
+               length publicly disgraced him, and deprived him of all his great offices and
+               emoluments. Always haughty and ungovernable, and rendered alike desperate in fortune
+               and in mind by these indignities, the ill-fated Earl was driven to those frantic and
+               well known projects of rebellion which shortly afterwards conducted him to the
+               scaffold.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

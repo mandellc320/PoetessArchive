@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">from The Bijou Literary Annual, 1828</title>
+            <title type="subordinate">The Wanderings of Cain: A Fragment.</title>
+            <author type="author">By S.T. Coleridge, Esq.</author>
+            <editor role="editor">Fraser, William (1796-1854), compiler</editor>
+            <sponsor>The Poetess Archive</sponsor>
+            <respStmt>
+               <resp>General Editor, and P5 encoding by </resp>
+               <name>Laura Mandell</name>
+               <name/>
+            </respStmt>
+            <respStmt>
+               <resp>Transcribing and proofreading by </resp>
+               <name>Zach Weir</name>
+               <name/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>18280000</date>
+            </edition>
+         </editionStmt>
+         <extent>TEI formatted filesize uncompressed: approx. 684 kbytes</extent>
+         <publicationStmt>
+            <publisher>Laura Mandell, Texas A&amp;M University</publisher>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>20170606</date>
+            <availability status="unknown">
+               <p>Freely available via a Creative Commons Attribution-ShareAlike
+                                    4.0 International License</p>
+            </availability>
+            <idno>bijou1828.storyS1</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>The Poetess Archive: an Electronic Collection</title>
+            <respStmt>
+               <name>Laura Mandell,</name>
+               <resp>General Editor.</resp>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author type="author">
+                     <name reg="Coleridge, Samuel Taylor Coleridge, Samuel Taylor Coleridge, Samuel Taylor Coleridge, Samuel Taylor"
+                           date="1772-1834"
+                           place="UK">Samuel Taylor Coleridge, Samuel Taylor Coleridge, Samuel Taylor Samuel Taylor Coleridge Coleridge</name>
+                  </author>
+                  <title>The Wanderings of Cain: A Fragment.</title>
+               </analytic>
+               <monogr>
+                  <title level="m" type="main">The Bijou; </title>
+                  <title level="m" type="subordinate">or Annual of Literature and
+                                        the Arts</title>
+                  <editor role="editor">
+                     <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>
+                        <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                     </publisher>
+                     <date>18280000</date>
+                     <biblScope unit="pages">17-23</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>This copy is transcribed from the volume held by Miami University
+                                Special Collections Department. The page images come from the
+                                Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
+                                    Duke University Libraries</ref>."</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one
+                                        word before hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Poetess</item>
+                  <item>The Bijou</item>
+                  <item>Literary Annual</item>
+                  <item>Fraser, William (1796-1854)</item>
+                  <item>story</item>
+                  <item>The Wanderings of Cain: A Fragment.</item>
+                  <item>S.T. Coleridge, Esq.</item>
+               </list>
+            </keywords>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g7" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>20181104</date>
+            <label>recoded bijou1828-p5.xml for errors and IIIF image server</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20170602</date>
+            <label>transformed to P5, adding images, and cleaned up TEI</label>
+            <name>Laura Mandell</name>
+         </change>
+         <change>
+            <date>20051024</date>
+            <label>encoding by </label>
+            <name>Laura Mandell
+                                and Zach Weir</name> XML coding; XSL application: Oxygen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Bijou; </titlePart>
+               <titlePart type="subordinate">or Annual of Literature and the Arts</titlePart>
+            </docTitle>
+            <docAuthor>compiled by <name reg="Fraser, William" date="1796-1854" place="UK">William Fraser</name>
+            </docAuthor>
+            <docImprint>
+               <publisher>
+                  <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+               </publisher>
+               <pubPlace>London</pubPlace>
+            </docImprint>
+            <docDate>1828</docDate>
+         </titlePage>
+      </front>
+      <body>
+         <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              type="story"
+              xml:id="S1"
+              org="uniform"
+              sample="complete"
+              part="N">
+            <pb n="17" xml:id="image040"/>
+            <head>
+               <title>The Wanderings of Cain: A Fragment.</title>
+            </head>
+            <head>
+               <name reg="Coleridge, Samuel Taylor Coleridge, Samuel Taylor Coleridge, Samuel Taylor Coleridge, Samuel Taylor"
+                     date="1772-1834"
+                     place="UK">By S.T. Coleridge, Esq.</name>
+            </head>
+            <p>"A LITTLE further, O my father, yet a little farther, and we shall come into the open
+               moonlight!" Their road was through a forest of fir- trees; at its entrance the trees
+               stood at distances from each other, and the path was broad, and the moonlight, and
+               the moonlight shadows reposed upon it, and appeared quietly to inhabit that solitude.
+               But soon the path winded and became narrow; the sun at high noon sometimes speckled,
+               but never illumined it, and now it was dark as a cavern.</p>
+            <p>"It is dark, O my father!" said Enos, "but the path under our feet is mooth and soft,
+               and we shall soon come out into the open moonlight. Ah, why dost thou groan so
+               deeply?"</p>
+            <p>"Lead on my child," said Cain, "guide me, little child." And the innocent little
+               child clasped a finger of the hand which had murdered the righteous Abel, and he
+               guided his father. "The fir branches drip upon thee my son." — "Yea, pleasantly,
+               father, for I ran fast and eagerly to bring thee the pitcher and the <pb n="18" xml:id="image041"/>cake, and my body is not yet cool. How happy the squirrels are
+               that feed on these fir trees! they leap from bough to bough, and the old squirrels
+               play round their young ones in the nest. I clomb a tree yesterday at noon, O my
+               father, that I might play with them, but they leapt away from the branches, even to
+               the slender twigs did they leap, and in amoment I beheld them on antoher tree. Why, O
+               my fahter, would they not play with me? Is it because we are not so happy as they? Is
+               it because I groan sometimes even as thou groanest?" Then Cain stopped and stifling
+               his groans, he sank to the earth, and the child Enos stood in the darkness beside
+               him; and Cain lifted up his voice, and cried bitterly, and said, "The Mighty One that
+               persecuteth me is on this side and on that; he pursueth my soul like the wind, like
+               the sand- blast he passeth through me; he is around me even as the air, O that I
+               might be utterly no more! I desire to die — yea, the things that never had life,
+               neither move they upon the earth — behold they seem precious to mine eyes. O that a
+               man might live without the breath of his nostrils, so I might abide in darkness and
+               blackness, and an empty space! Yea, I would lie down, I would not rise, neither would
+               I stir my limbs till I became as the rock in the den of the lion, on which the young
+               lion resteth his head whilst he sleepeth. For the torrent that roareth far off hath a
+               voice; and the clouds in heaven look terribly on me; the mighty one who is against me
+               speaketh in <pb n="19" xml:id="image042"/>the wind of the cedar grove; and in silence
+               I am dried up." Then Enos spake to his father, "Arise my father, arise, we are but a
+               little way from the place where I found the cake and the pitcher;" and Cain said,
+               "How knowest thou?" and the child answered — "Behold, the bare rocks are a few of
+               they strides distant from the forest; and while even now thou wert lifting up thy
+               voice, I heard the echo." Then the child took hold of his father, as if he would
+               raise him, and Cain being faint and feeble rose slowly on his knees and pressed
+               himself against the trunk of a fir, and stood upright and followed the child. The
+               path was dark till within three strides' length of its termination when it turned
+               suddenly; the thick black trees formed a low arch, and the moonlight appeared for a
+               moment like a dazzling portal. Enos ran before and stood in the open air; and when
+               Cain, his father, emerged from the darkness the child was affrighted, for the mighty
+               limbs of Cain were wasted as by fire; his hair was black, and matted into loathly
+               curls, and his countenance was dark and wild, and told in a strange and terrible
+               language of agonies that had been, and were, and were still to continue to be.</p>
+            <p>The scene around was desolate; as far as the eye could reach, it was desolate; the
+               bare rocks faced each other, and left a long and wide interval of their white sand.
+               You might wander on and look round and round, and peep into the crevices of the
+               rocks, and discover nothing that acknowledged the in- <pb n="20" xml:id="image043"/>fluence of the seasons. There was no spring, no summer, no autumn, and the winter's
+               snow that would have been lovely, fell not on these hot rocks and scorching sands.
+               Never morning lark had poised himself over this desert; but the huge serpent often
+               hissed there beneath the talons of the vulture, and the vulture screamed, his wings
+               imprisoned within the coilds of the serpent. The pointed and shattered summits of the
+               ridges of the rocks made a rude mimicry of human concerns, and seemed to prophecy
+               mutely of things that then were not; steeples, and battlements, and ships with naked
+               masts. As far from the wood as a boy might sling a pebble of the brook, there was one
+               rock by itself at a small distance from the main ridge. It had been precipitated
+               there perhaps by the terrible groan the earth gave when our first father fell. Before
+               you approached, it appeared to lie flat on the ground, but its base slanted from its
+               point, and between its points and the sands a tall man might stand upright. It was
+               here that Enos had found the pitcher and cake, and to this place he led his father.
+               But ere they arrived there they beheld a human shape; his back was towards them, and
+               they were coming up unperceived when they heard him smite his breast and cry aloud,
+               "Wo, is me! wo, is me! I must never die again, and yet I am perishing with thirst and
+               hunger."</p>
+            <p>The face of Cain turned pale; but Enos said, "Ere yet I could speak, I am sure, O my
+               father, that <pb n="21" xml:id="image044"/>I heard that voice. Have not I often said
+               that I remembered a sweet voice. O my father! this is it;" and Cain trembled
+               exceedingly. The voice was sweet indeed, but it was thin and querulous like that of a
+               feeble slave in misery, who despairs altogether, yet can not refrain himself from
+               weeping and lamentation. Enos crept softly round the base of the rock, and stood
+               before the stranger, and looked up into his face. And the Shape shrieked, and turned
+               round, and Cain beheld him, that his limbs and his face were those of his brother
+               Abel whom he had killed; and Cain stood like one who struggles in his sleep because
+               of the exceeding terribleness of a dream; and ere he had recovered himself from the
+               tumult of his agitation, the Shape fell at this feet, and embraced his knees, and
+               cried out with a bitter outcry, "Thou eldest born of Adam, whom Eve, my mother,
+               brought forth, cease to torment me! I was feeding my flocks in green pastures by the
+               side of quiet rivers, and thou killedst me; and now I am in misery." Then Cain closed
+               his eyes, and hid them with his hands — and again he opened his eyes, and looked
+               around him, and said to Enos "What beholdest thou? Didst thou hear a voice, my son?"
+               "Yes, my father, I beheld a man in unclean garments, and he uttered a sweet voice,
+               full of lamentation." Then Cain raised up the shape that was like Abel, and said,
+               "The creator of our father, who had <pb n="22" xml:id="image045"/>respect unto thee,
+               and unto thy offering, wherefore hath he forsaken thee?" Then the Shape shrieked a
+               second time, and rent his garment, and his naked skin was like the white sands
+               beneath their feet; and he shrieked yet a third time, and threw himself on his face
+               upon the sand that was black with the shadow of the rock, and Cain and Enos sate
+               beside him; the child by his right hand, and Cain by his left. They were all three
+               under the rock, and within the shadow. The Shape that was like Abel raised himself
+               up, and spake to the child; "I know where the cold , waters are, but I may not drink,
+               wherefore didst thou then take away my pitcher?" but Cain said, "Didst thou not find
+               favour in the sight of the Lord thy god?" The Shape answered, "The Lord is God of the
+               living only, the dead have another god." Then the child Enos lifted up his eyes and
+               prayed; but Cain rejoiced secretly in his heart. "Wretched shall they be all the days
+               of their mortal life," exclaimed the Shape, "who sacrifice worthy and acceptable
+               sacrifices to the God of the dead; but after death their toil ceaseth. Woe is me, for
+               I was well beloved by the God of the living, and cruel wert thou, O my brother, who
+               didst snatch me away from his power and his dominion." Having uttered these words, he
+               rose suddenly, and fled over the sands, and Cain said in his heart, "The curse of the
+               lords is on me — but who is the God of the dead?" and he ran after the shape, and the
+               Shape fled <pb n="23" xml:id="image046"/>shrieking over the sands, and the sands rose
+               like white mists behind the steps of Cain, but the feet of him that was not like Abel
+               disturbed not the sands. He greatly outrun Cain, and turning short, he wheeled round,
+               and came again to the rock where they had been sitting, and where Enos still stood;
+               and the child caught hold of his garment as he passed by, and that theman had fallen
+               upon the ground; and Cain stopped, and beholding him not, said, "he has passed into
+               the dark woods," and walked slowly back to the rocks, and when he reached it the
+               child told him that he had caught hold of his garment as he passed by, and that the
+               man had fallen upon the ground; and Cain once more sat beside him, and said — "Abel,
+               my brother, I would lament for thee, but that the spirit within me is withered, and
+               burnt up with extreme agony. Now, I pray thee, by thy flocks and by thy pastures, and
+               by the quiet rivers which thou lovest, that thou tell me all that thou knowest. Who
+               is the God of the dead? where doth he make his dwelling? what sacrifices are
+               acceptable unto him? for I have offered, but have not been received; I have prayed,
+               and have not been heard; and how can I be afflicted more than I already am?" The
+               Shape arose and answered — "O that thou hadst had pity on me as I will have pity on
+               thee. Follow me, son of Adam! and bring thy child with thee:" and they three passed
+               over the white sands between the rocks, silent as their shadows.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
