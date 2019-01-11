@@ -1,326 +1,562 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="main" level="a">Fielding</title>
-                <title type="subordinate" level="m">The British Novelists</title>
-                <author type="writer">
-                    <name>Anna Letitia Barbauld</name>
-                </author>
-                <respStmt>
-                    <resp>Editor</resp>
-                    <name xml:id="MW">Mary A. Waters</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Co-Editor</resp>
-                    <name xml:id="RD">Rachel Dejmal</name>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <idno>FieldingBritNov1810</idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <title type="main" level="a">Fielding.</title>
-                        <author type="writer">
-                            <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-                        </author>
-                    </analytic>
-                    <monogr>
-                        <title type="main" level="m">The British Novelists</title>
-                        <title type="subordinate">with an Essay and Prefaces,
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:PA="http://www.poetessarchive.org/#schema">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Fielding</title>
+            <title type="subordinate" level="m">The British Novelists</title>
+            <author type="writer">
+               <name>Anna Letitia Barbauld</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Co-Editor</resp>
+               <name xml:id="RD">Rachel Dejmal</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>FieldingBritNov1810</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false">
+               <analytic>
+                  <title type="main" level="a">Fielding.</title>
+                  <author type="writer">
+                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The British Novelists</title>
+                  <title type="subordinate">with an Essay and Prefaces,
                             Biographical and Critical</title>
-                        <editor>
-                            <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-                        </editor>
-                        <imprint>
-                            <pubPlace>London</pubPlace>
-                            <publisher>F.C. and J. Rivington</publisher>
-                            <date when="1810">1810</date>
-                            <biblScope unit="vol">XVIII</biblScope>
-                            <biblScope unit="pages">i-xxxii</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: " for “," for “, ' for
-                        ‘, and ' for ’.</p>
-                    <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed.</p>
-                    <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                        keyboard</p>
-                    <p>Em-dashes have been rendered as &#8212;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts has been indicated as
-                        such, the content recorded in brackets.</p>
-                    <p>Compositors' catchwords and running titles have been silently eliminated.</p>
-                    <p>Long "s" (&#383;) has been silently modernized.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>£ has been used for £, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, etc., have
-                        been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <classDecl>
-                <taxonomy
-                    corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                    xml:id="g">
-                    <bibl>ARC Genre Categories, July 1, 2017</bibl>
-                    <category xml:id="g1">
-                        <catDesc>Advertisement</catDesc>
-                    </category>
-                    <category xml:id="g2">
-                        <catDesc>Animation</catDesc>
-                    </category>
-                    <category xml:id="g3">
-                        <catDesc>Bibliography</catDesc>
-                    </category>
-                    <category xml:id="g4">
-                        <catDesc>Catalog</catDesc>
-                    </category>
-                    <category xml:id="g5">
-                        <catDesc>Chronology</catDesc>
-                    </category>
-                    <category xml:id="g7">
-                        <catDesc>Citation</catDesc>
-                    </category>
-                    <category xml:id="g6">
-                        <catDesc>Collection</catDesc>
-                    </category>
-                    <category xml:id="g8">
-                        <catDesc>Correspondence</catDesc>
-                    </category>
-                    <category xml:id="g9">
-                        <catDesc>Criticism</catDesc>
-                    </category>
-                    <category xml:id="g10">
-                        <catDesc>Drama</catDesc>
-                    </category>
-                    <category xml:id="g11">
-                        <catDesc>Ephemera</catDesc>
-                    </category>
-                    <category xml:id="g12">
-                        <catDesc>Essay</catDesc>
-                    </category>
-                    <category xml:id="g13">
-                        <catDesc>Fiction</catDesc>
-                    </category>
-                    <category xml:id="g14">
-                        <catDesc>Film, Documentary</catDesc>
-                    </category>
-                    <category xml:id="g15">
-                        <catDesc>Film, Experimental</catDesc>
-                    </category>
-                    <category xml:id="g16">
-                        <catDesc>Film, Narrative</catDesc>
-                    </category>
-                    <category xml:id="g17">
-                        <catDesc>Film, Other</catDesc>
-                    </category>
-                    <category xml:id="g18">
-                        <catDesc>Historiography</catDesc>
-                    </category>
-                    <category xml:id="g19">
-                        <catDesc>Interview</catDesc>
-                    </category>
-                    <category xml:id="g20">
-                        <catDesc>Life Writing</catDesc>
-                    </category>
-                    <category xml:id="g21">
-                        <catDesc>Liturgy</catDesc>
-                    </category>
-                    <category xml:id="g22">
-                        <catDesc>Musical Analysis</catDesc>
-                    </category>
-                    <category xml:id="g23">
-                        <catDesc>Music, Other</catDesc>
-                    </category>
-                    <category xml:id="g24">
-                        <catDesc>Musical Work</catDesc>
-                    </category>
-                    <category xml:id="g25">
-                        <catDesc>Musical Score</catDesc>
-                    </category>
-                    <category xml:id="g26">
-                        <catDesc>Nonficition</catDesc>
-                    </category>
-                    <category xml:id="g27">
-                        <catDesc>Paratext</catDesc>
-                    </category>
-                    <category xml:id="g28">
-                        <catDesc>Performance</catDesc>
-                    </category>
-                    <category xml:id="g29">
-                        <catDesc>Philosophy</catDesc>
-                    </category>
-                    <category xml:id="g30">
-                        <catDesc>Photograph</catDesc>
-                    </category>
-                    <category xml:id="g31">
-                        <catDesc>Political Statement</catDesc>
-                    </category>
-                    <category xml:id="g32">
-                        <catDesc>Poetry</catDesc>
-                    </category>
-                    <category xml:id="g33">
-                        <catDesc>Religion</catDesc>
-                    </category>
-                    <category xml:id="g34">
-                        <catDesc>Reference Works</catDesc>
-                    </category>
-                    <category xml:id="g35">
-                        <catDesc>Review</catDesc>
-                    </category>
-                    <category xml:id="g36">
-                        <catDesc>Scripture</catDesc>
-                    </category>
-                    <category xml:id="g37">
-                        <catDesc>Sermon</catDesc>
-                    </category>
-                    <category xml:id="g38">
-                        <catDesc>Speech</catDesc>
-                    </category>
-                    <category xml:id="g39">
-                        <catDesc>Translation</catDesc>
-                    </category>
-                    <category xml:id="g40">
-                        <catDesc>Travel Writing</catDesc>
-                    </category>
-                    <category xml:id="g41">
-                        <catDesc>Unspecified</catDesc>
-                    </category>
-                    <category xml:id="g42">
-                        <catDesc>Visual Art</catDesc>
-                    </category>
-                </taxonomy>
-                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="f">
-                    <bibl>ARC Format Categories, July 1, 2017</bibl>
-                    <category xml:id='f1'>
-                        <catDesc>Codex</catDesc>
-                    </category>
-                    <category xml:id='f2'>
-                        <catDesc>Collection</catDesc>
-                    </category>
-                    <category xml:id='f3'>
-                        <catDesc>Dataset</catDesc>
-                    </category>
-                    <category xml:id='f4'>
-                        <catDesc>Drawing</catDesc>
-                    </category>
-                    <category xml:id='f5'>
-                        <catDesc>Illustration</catDesc>
-                    </category>
-                    <category xml:id='f6'>
-                        <catDesc>Interactive Resource</catDesc>
-                    </category>
-                    <category xml:id='f7'>
-                        <catDesc>Manuscript</catDesc>
-                    </category>
-                    <category xml:id='f8'>
-                        <catDesc>Map</catDesc>
-                    </category>
-                    <category xml:id='f9'>
-                        <catDesc>Moving Image</catDesc>
-                    </category>
-                    <category xml:id='f10'>
-                        <catDesc>Notated Music</catDesc>
-                    </category>
-                    <category xml:id='f11'>
-                        <catDesc>Page Proofs</catDesc>
-                    </category>
-                    <category xml:id='f12'>
-                        <catDesc>Pamphlet</catDesc>
-                    </category>
-                    <category xml:id='f13'>
-                        <catDesc>Periodical</catDesc>
-                    </category>
-                    <category xml:id='f14'>
-                        <catDesc>Physcial Object</catDesc>
-                    </category>
-                    <category xml:id='f15'>
-                        <catDesc>Roll</catDesc>
-                    </category>
-                    <category xml:id='f16'>
-                        <catDesc>Sheet</catDesc>
-                    </category>
-                    <category xml:id='f17'>
-                        <catDesc>Sound</catDesc>
-                    </category>
-                    <category xml:id='f18'>
-                        <catDesc>Still Image</catDesc>
-                    </category>
-                    <category xml:id='f19'>
-                        <catDesc>Typescript</catDesc>
-                    </category>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="#lcsh">
-                    <list type="simple">
-                        <item>Fielding, Henry, 1707-1754</item>
-                        <item>English literature</item>
-                        <item>History</item>
-                    </list>
-                </keywords>
-                <catRef target="#g9 #g12 #g20" scheme="#g"/>
-                <catRef target="#f1" scheme="#f"/>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change who="#MW" when="2016-08-30" n="3">
-                <label>Changed by</label>
-                <name>Mary A. Waters</name>
-                <list>
-                    <item>Encoding revisions</item>
-                    <item>Annotations added</item>
-                </list>
-            </change>
-            <change who="#RD" when="2015-01-30" n="2">
-                <label>Changed by</label>
-                <name>Rachel Dejmal</name>
-                <list>
-                    <item>TEI encoding and editing revision</item>
-                </list>
-            </change>
-            <change who="#MW" when="2013-06-21" n="1">
-                <label>Changed by</label>
-                <name>Mary A. Waters</name>
-                <list>
-                    <item>Created Edition</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="essay">
-                <head>
-                    <bibl>
-                        <author type="writer">
-                            <lb rendition="#center"/><ref target="people.html#BarbauldMrs"
-                                    ><name>Anna Letitia Barbauld</name></ref>
-                        </author>
-                        <title type="main" level="a"><ref target="people.html#FieldingHenry"
-                                >FIELDING</ref>.<hi rendition="#sup"><note place="foot"><title
-                                        level="m"><hi rendition="#italics">The British Novelists;
+                  <editor role="editor">
+                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>F.C. and J. Rivington</publisher>
+                     <date when="1810">1810</date>
+                     <biblScope unit="vol">XVIII</biblScope>
+                     <biblScope unit="pages">i-xxxii</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+               <category xml:id="g72">
+                  <catDesc>literary criticism article</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one word before
+                            hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="ag">
+               <bibl>ARC Genre Categories, July 1, 2017</bibl>
+               <category xml:id="ag1">
+                  <catDesc>Advertisement</catDesc>
+               </category>
+               <category xml:id="ag2">
+                  <catDesc>Animation</catDesc>
+               </category>
+               <category xml:id="ag3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="ag4">
+                  <catDesc>Catalog</catDesc>
+               </category>
+               <category xml:id="ag5">
+                  <catDesc>Chronology</catDesc>
+               </category>
+               <category xml:id="ag7">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="ag6">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="ag8">
+                  <catDesc>Correspondence</catDesc>
+               </category>
+               <category xml:id="ag9">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="ag10">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="ag11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="ag12">
+                  <catDesc>Essay</catDesc>
+               </category>
+               <category xml:id="ag13">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="ag14">
+                  <catDesc>Film, Documentary</catDesc>
+               </category>
+               <category xml:id="ag15">
+                  <catDesc>Film, Experimental</catDesc>
+               </category>
+               <category xml:id="ag16">
+                  <catDesc>Film, Narrative</catDesc>
+               </category>
+               <category xml:id="ag17">
+                  <catDesc>Film, Other</catDesc>
+               </category>
+               <category xml:id="ag18">
+                  <catDesc>Historiography</catDesc>
+               </category>
+               <category xml:id="ag19">
+                  <catDesc>Interview</catDesc>
+               </category>
+               <category xml:id="ag20">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="ag21">
+                  <catDesc>Liturgy</catDesc>
+               </category>
+               <category xml:id="ag22">
+                  <catDesc>Musical Analysis</catDesc>
+               </category>
+               <category xml:id="ag23">
+                  <catDesc>Music, Other</catDesc>
+               </category>
+               <category xml:id="ag24">
+                  <catDesc>Musical Work</catDesc>
+               </category>
+               <category xml:id="ag25">
+                  <catDesc>Musical Score</catDesc>
+               </category>
+               <category xml:id="ag26">
+                  <catDesc>Nonficition</catDesc>
+               </category>
+               <category xml:id="ag27">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="ag28">
+                  <catDesc>Performance</catDesc>
+               </category>
+               <category xml:id="ag29">
+                  <catDesc>Philosophy</catDesc>
+               </category>
+               <category xml:id="ag30">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="ag31">
+                  <catDesc>Political Statement</catDesc>
+               </category>
+               <category xml:id="ag32">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="ag33">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="ag34">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="ag35">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="ag36">
+                  <catDesc>Scripture</catDesc>
+               </category>
+               <category xml:id="ag37">
+                  <catDesc>Sermon</catDesc>
+               </category>
+               <category xml:id="ag38">
+                  <catDesc>Speech</catDesc>
+               </category>
+               <category xml:id="ag39">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="ag40">
+                  <catDesc>Travel Writing</catDesc>
+               </category>
+               <category xml:id="ag41">
+                  <catDesc>Unspecified</catDesc>
+               </category>
+               <category xml:id="ag42">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+                      xml:id="f">
+               <bibl>ARC Format Categories, July 1, 2017</bibl>
+               <category xml:id="f1">
+                  <catDesc>Codex</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>Dataset</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>Drawing</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>Illustration</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>Interactive Resource</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>Map</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>Moving Image</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>Notated Music</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>Page Proofs</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>Pamphlet</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>Periodical</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>Physcial Object</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>Roll</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>Sheet</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>Sound</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>Still Image</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>Typescript</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Fielding, Henry, 1707-1754</item>
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#ag9 #ag12 #ag20" scheme="#ag"/>
+            <catRef target="#f1" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef scheme="#g" target="#g72 #g30 #g3 "/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20190110" n="5">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+            </list>
+         </change>
+         <change who="#MW" when="2016-08-30" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Encoding revisions</item>
+               <item>Annotations added</item>
+            </list>
+         </change>
+         <change who="#RD" when="2015-01-30" n="2">
+            <label>Changed by</label>
+            <name>Rachel Dejmal</name>
+            <list type="simple">
+               <item>TEI encoding and editing revision</item>
+            </list>
+         </change>
+         <change who="#MW" when="2013-06-21" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay" org="uniform" sample="complete" part="N">
+            <head>
+               <bibl default="false">
+                  <author type="writer">
+                     <lb rendition="#center"/>
+                     <ref target="people.html#BarbauldMrs">
+                        <name>Anna Letitia Barbauld</name>
+                     </ref>
+                  </author>
+                  <title type="main" level="a">
+                     <ref target="people.html#FieldingHenry">FIELDING</ref>.<hi rendition="#sup">
+                        <note place="foot" anchored="true">
+                           <title level="m">
+                              <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
                                             by <ref target="people.html#BarbauldMrs">Mrs.
-                                                Barbauld</ref></hi></title>, 50 Vols. (London:
+                                                Barbauld</ref>
+                              </hi>
+                           </title>, 50 Vols. (London:
                                     Printed for F.C. and J. Rivington; W. Otridge and Son; A.
                                     Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
                                     Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
@@ -331,55 +567,57 @@
                                     Harding; R. Phillips; J. Mawman; J. Booker; J. Asperne; R.
                                     Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.; W.
                                     Creech, Edinburgh; and Wilson and Son, York, 1810), 18: i-xxxii.
-                                    Rachel Dejmal and Mary A. Waters co-edited this essay for <hi
-                                        rendition="#italics">The Criticism Archive</hi>.
-                                </note></hi></title>
-                    </bibl>
-                </head>
-                <p rendition="#pnoindent"><ref target="people.html#FieldingHenry"><hi
-                            rendition="#largest">H</hi><hi rendition="#smcaps">enry</hi> F<hi
-                            rendition="#smcaps">ielding</hi></ref>, without all doubt the most
+                                    Rachel Dejmal and Mary A. Waters co-edited this essay for <hi rendition="#italics">The Criticism Archive</hi>.
+                                </note>
+                     </hi>
+                  </title>
+               </bibl>
+            </head>
+            <p rendition="#pnoindent">
+               <ref target="people.html#FieldingHenry">
+                  <hi rendition="#largest">H</hi>
+                  <hi rendition="#smcaps">enry</hi> F<hi rendition="#smcaps">ielding</hi>
+               </ref>, without all doubt the most
                     distinguished novel-writer in the walk of humour, was born in 1707, at
-                    Sharpham-park, near Glastonbury, in Somersetshire. His father, <ref
-                        target="people.html#FieldingEdmund">Edmund Fielding</ref>, was of a noble
-                    family; he had served under the <ref
-                        target="people.html#MarlboroughJohnChurchill">Duke of Marlborough</ref>, and
-                    arrived at the rank of lieutenant-general. His mother was daughter to <ref
-                        target="people.html#GouldHenry">Sir Henry Gould</ref>, one of the judges of
-                    the king&apos;s bench. Thus advantageously ushered into life, from the situation
+                    Sharpham-park, near Glastonbury, in Somersetshire. His father, <ref target="people.html#FieldingEdmund">Edmund Fielding</ref>, was of a noble
+                    family; he had served under the <ref target="people.html#MarlboroughJohnChurchill">Duke of Marlborough</ref>, and
+                    arrived at the rank of lieutenant-general. His mother was daughter to <ref target="people.html#agouldHenry">Sir Henry Gould</ref>, one of the judges of
+                    the king's bench. Thus advantageously ushered into life, from the situation
                     and connexions of both parents, our author had every reasonable prospect of
                     rising in the world; and, with the parts which nature had given him, of filling
-                    a distinguished station in some one of the more honourable professions. <ref
-                        target="people.html#FieldingHenry">Henry</ref> was first put under the care
-                    of a domestic tutor, the Rev. Mr. Oliver,<hi rendition="#sup"><note place="foot"
-                            >In <hi rendition="#italics">Memorials of Old Dorset</hi>, edited by
+                    a distinguished station in some one of the more honourable professions. <ref target="people.html#FieldingHenry">Henry</ref> was first put under the care
+                    of a domestic tutor, the Rev. Mr. Oliver,<hi rendition="#sup">
+                  <note place="foot" anchored="true">In <hi rendition="#italics">Memorials of Old Dorset</hi>, edited by
                             Thomas Perkins and Herbert Pentin (1907), Miss M. Jourdain
-                            writes,&quot;Henry Fielding one of the Eastbury circle ... was brought
+                            writes,"Henry Fielding one of the Eastbury circle ... was brought
                             up as a boy in the manor house at East Stower, where he was taught by
                             the Reverend Mr. Oliver, curate of the neighbouring village of Motcombe,
-                            said to have been the original of Trulliber, a portrait drawn &apos;in
-                            resentment of some punishment inflicted on him,&apos; according to
-                            Hutchins,&quot; a Dorset historian. According to the records in the <hi
-                                rendition="#italics">Clergy of the Church of England Database</hi>,
+                            said to have been the original of Trulliber, a portrait drawn 'in
+                            resentment of some punishment inflicted on him,' according to
+                            Hutchins," a Dorset historian. According to the records in the <hi rendition="#italics">Clergy of the Church of England Database</hi>,
                             Mr. John Oliver held the curacy at Motcombe from 1732 to
-                        1749.</note></hi> whose manners at least were not calculated to inspire him
+                        1749.</note>
+               </hi> whose manners at least were not calculated to inspire him
                     with much respect, if we are to believe the tradition, that he afterwards
-                    introduced him into his <title><hi rendition="#italics">Joseph
-                        Andrews</hi></title> under the appellation of Parson Trulliber.<hi
-                        rendition="#sup"><note place="foot"> A miserly, slothful, irascible
-                            pig-farmer and parson.</note></hi> From the care of this gentleman he
+                    introduced him into his <title>
+                  <hi rendition="#italics">Joseph
+                        Andrews</hi>
+               </title> under the appellation of Parson Trulliber.<hi rendition="#sup">
+                  <note place="foot" anchored="true"> A miserly, slothful, irascible
+                            pig-farmer and parson.</note>
+               </hi> From the care of this gentleman he
                     was removed to Eton. In this distinguished seminary he became a good classical
                     scholar, both in <fw type="vol" rendition="#smcaps" place="bottom-left">vol.
-                        xviii.</fw><milestone unit="signature" n="a" rendition="#center"/><pb n="ii"
-                    /> the Latin and the Greek languages; in the latter, particularly, he was said
+                        xviii.</fw>
+               <milestone unit="signature" n="a" rendition="#center"/>
+               <pb n="ii"/> the Latin and the Greek languages; in the latter, particularly, he was said
                     to be an uncommon proficient. He also formed there those acquaintances with
                     young men of rank and fortune, which are generally considered as among the most
                     advantageous circumstances attending a public school. He was early known to Mr.
                     (afterwards Lord) <ref target="people.html#LytteltonGeorge">Lyttleton</ref>,
-                        <ref target="people.html#PittWilliam">Mr. Pitt</ref>, <ref
-                        target="people.html#FoxHenry">Mr. Fox</ref>, and other distinguished
+                        <ref target="people.html#PittWilliam">Mr. Pitt</ref>, <ref target="people.html#FoxHenry">Mr. Fox</ref>, and other distinguished
                     characters.</p>
-                <p> As young <ref target="people.html#FieldingHenry">Fielding</ref> was intended for
+            <p> As young <ref target="people.html#FieldingHenry">Fielding</ref> was intended for
                     the law, he was sent, for the next stage of his education, to Leyden, which
                     university was then in the zenith of its reputation. He studied under the
                     celebrated <ref target="people.html#VitriariusJohann">Vitriarius</ref>, then
@@ -393,21 +631,22 @@
                     obliged to return to England; and found himself at the age of twenty in the
                     metropolis, pretty much his own master, and exposed to every allurement to
                     pleasure and dissipation.</p>
-                <p> There is scarcely any profession from which there are so many deserters as from
+            <p> There is scarcely any profession from which there are so many deserters as from
                     the law. A sprightly young man, who has imbibed in his preliminary education a
                     strong taste for the more elegant parts of literature, is very apt to disrelish
                         <pb n="iii"/> the dry and severe studies to which he is devoted; and the
                     temptations to pleasure, to which by living so much at large he is peculiarly
                     exposed, and which he has seldom the force to resist, sap the vigour of his
                     mind, and induce him to turn away from a pursuit which requires the unbroken
-                    powers of the whole man. Young <ref target="people.html#FieldingHenry"
-                        >Fielding</ref> was peculiarly susceptible of these impressions: still, had
+                    powers of the whole man. Young <ref target="people.html#FieldingHenry">Fielding</ref> was peculiarly susceptible of these impressions: still, had
                     he continued where he had so well begun, at Leyden, in a comparatively sober
                     town, among grave professors, and students occupied in preparing for their
                     future destination, it is probably we might have possessed another eminent
-                    barrister or judge, and that we should not have had <title><hi
-                            rendition="#italics">Joseph Andrews</hi></title> and <title><hi
-                            rendition="#italics">Tom Jones</hi></title>.&#8212;Be that as it may,
+                    barrister or judge, and that we should not have had <title>
+                  <hi rendition="#italics">Joseph Andrews</hi>
+               </title> and <title>
+                  <hi rendition="#italics">Tom Jones</hi>
+               </title>.—Be that as it may,
                     his coming to London at so critical a period was decisive of his character and
                     fortunes. He had a good person, a quick relish of pleasure, a constitution
                     remarkably strong, and a decided turn for social enjoyment; so that no doubt his
@@ -416,20 +655,18 @@
                     to say, any body might pay that would. To supply the deficiencies of his income,
                     and support a gay life in London, he began to write for the stage, and in the
                     succeeding ten years produced three-and-twenty dramatic compositions, farces
-                    included, a number many times greater than <ref
-                        target="people.html#CongreveWilliam">Congreve</ref> had given to the public
+                    included, a number many times greater than <ref target="people.html#CongreveWilliam">Congreve</ref> had given to the public
                     during the course of a long life. The greater part of these pieces met with but
-                    indifferent <milestone unit="signature" n="a 2" rendition="#center"/><pb n="iv"
-                    /> success at the time, and few of them have stood their ground to the present
+                    indifferent <milestone unit="signature" n="a 2" rendition="#center"/>
+               <pb n="iv"/> success at the time, and few of them have stood their ground to the present
                     day. </p>
-                <p> It has been matter of surprise to those who contemplated <ref
-                        target="people.html#FieldingHenry">Fielding</ref> in the quality of a
+            <p> It has been matter of surprise to those who contemplated <ref target="people.html#FieldingHenry">Fielding</ref> in the quality of a
                     novelist, that an author, whose characteristics are genuine humour and
                     delineation of character, should have succeeded so ill in comedy; for what is a
                     comedy but a short story, or novel put into dialogue? and the more of dialogue
                     there is in the novel, the more spirit it possesses; so that they seem to be
                     very kindred modes of writing.</p>
-                <p> But it must be considered, in the first place, that a dramatic writer, being
+            <p> But it must be considered, in the first place, that a dramatic writer, being
                     confined by time and other circumstances belonging to representation on the
                     stage, is obliged to concentrate his powers, and give the effect by a spirited
                     outline, which the novel-writer has leisure to produce by the slow and patient
@@ -441,79 +678,86 @@
                     a laugh at the piece is sufficient to ruin it for ever. A quicker sense of
                     propriety is exercised on the benches of a theatre than at the desk of the
                     reader. In the drama, moreover, the <hi rendition="#italics">author</hi> is not
-                    allowed to show himself; by which the wit of <ref
-                        target="people.html#FieldingHenry">Fielding</ref> would lose much of its
+                    allowed to show himself; by which the wit of <ref target="people.html#FieldingHenry">Fielding</ref> would lose much of its
                     poignancy. He does not dramatize his novel so much as <pb n="v"/> many others
-                    have done. The <hi rendition="#italics">author&apos;s</hi> learning, the <hi
-                        rendition="#italics">author&apos;s</hi> wit appear continually, not only in
+                    have done. The <hi rendition="#italics">author's</hi> learning, the <hi rendition="#italics">author's</hi> wit appear continually, not only in
                     his digressive chapters, but in the representations of the characters and secret
                     views of his personages; and the humour is continually heightened by the
-                    contrast between the author&apos;s style and his views of things, and the
+                    contrast between the author's style and his views of things, and the
                     characters he is holding up to ridicule. </p>
-                <p> But the want of merit in <ref target="people.html#FieldingHenry"
-                    >Fielding</ref>&apos;s comedies may be ascribed to other causes. They were his
+            <p> But the want of merit in <ref target="people.html#FieldingHenry">Fielding</ref>'s comedies may be ascribed to other causes. They were his
                     first productions; and, like most of the productions of youth, rather drawn from
                     what he had read than what he had seen. He could not be supposed, at the age of
                     twenty, to have attained that knowledge of life and character which he exhibited
-                    when, in a maturer age, he wrote his <title><hi rendition="#italics">Tom
-                            Jones</hi></title>. The English stage has few models of elegant comedy,
-                    and he seems to have taken his from <ref target="people.html#CongreveWilliam"
-                        >Congreve</ref> and <ref target="people.html#WycherleyWilliam"
-                        >Wycherley</ref>, and to have imitated their loose and vicious morals
+                    when, in a maturer age, he wrote his <title>
+                  <hi rendition="#italics">Tom
+                            Jones</hi>
+               </title>. The English stage has few models of elegant comedy,
+                    and he seems to have taken his from <ref target="people.html#CongreveWilliam">Congreve</ref> and <ref target="people.html#WycherleyWilliam">Wycherley</ref>, and to have imitated their loose and vicious morals
                     without their humour and brilliancy. Most of his pieces also were written in the
                     intervals of pleasures and dissipation, with great rapidity, and upon the spur
                     of the occasion, that is, the occasion for a present supply of money. He himself
                     entertained a pretty great contempt for the judgement of the town, and hardened
                     himself against censure by despising his censurers. He has printed one of his
-                    farces &quot;as it was damned at the theatre royal, Drury Lane.&quot;<hi
-                        rendition="#sup"><note place="foot"><ref target="people.html#FieldingHenry"
-                                >Fielding</ref> prefaced the published version of his drama
-                                    <title><hi rendition="#italics">Eurydice, or The Devil
-                                    Henpecked</hi></title> (1737) with this line.</note></hi> It is
-                    related that, when his last comedy <title><hi rendition="#italics">The Wedding
-                            Day</hi></title> was in rehearsal, <ref
-                        target="people.html#GarrickDavid">Garrick</ref>, who was to act a part in
-                    it, begged the author to strike out a scene in which he <milestone
-                        unit="signature" n="a 3" rendition="#center"/><pb n="vi"/> expected to be
-                    hissed. <ref target="people.html#FieldingHenry">Fielding</ref> refused: &quot;If
-                    there is a weak part, let them find it out,&quot; said he. The event was as <ref
-                        target="people.html#GarrickDavid">Garrick</ref> had predicted: and when he
-                    retired into the Green-room, where the author was drinking champagne, &quot;I
-                    told you,&quot; said he, &quot;it would never do; they are hissing, and I shall
-                    not recover myself all the evening.&quot;&#8212;&quot;Oh,&quot; said <ref
-                        target="people.html#FieldingHenry">Fielding</ref> with an oath, &quot;they
-                        <hi rendition="#italics">have</hi> found it, have they?&quot;</p>
-                <p> One of this author&apos;s pieces, <title><hi rendition="#italics">The Temple
-                            Beau</hi></title>, exhibits, with some strokes of humour, a character
-                    afterwards drawn with such success by <ref target="people.html#HoadlyDrBenjamin"
-                        >Hoadley</ref> in his <title><hi rendition="#italics">Suspicious
-                            Husband</hi></title>. His <title><hi rendition="#italics">Tom
-                        Thumb</hi></title> has been often acted, and given great diversion to the
-                    audience; but his <title><hi rendition="#italics">Miser</hi></title>, a free
-                    translation from <ref target="people.html#Moliere">Moliere</ref>&apos;s
-                            <title><hi rendition="#italics"> L&apos;Avare</hi></title>, is the only
+                    farces "as it was damned at the theatre royal, Drury Lane."<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <ref target="people.html#FieldingHenry">Fielding</ref> prefaced the published version of his drama
+                                    <title>
+                        <hi rendition="#italics">Eurydice, or The Devil
+                                    Henpecked</hi>
+                     </title> (1737) with this line.</note>
+               </hi> It is
+                    related that, when his last comedy <title>
+                  <hi rendition="#italics">The Wedding
+                            Day</hi>
+               </title> was in rehearsal, <ref target="people.html#agarrickDavid">Garrick</ref>, who was to act a part in
+                    it, begged the author to strike out a scene in which he <milestone unit="signature" n="a 3" rendition="#center"/>
+               <pb n="vi"/> expected to be
+                    hissed. <ref target="people.html#FieldingHenry">Fielding</ref> refused: "If
+                    there is a weak part, let them find it out," said he. The event was as <ref target="people.html#agarrickDavid">Garrick</ref> had predicted: and when he
+                    retired into the Green-room, where the author was drinking champagne, "I
+                    told you," said he, "it would never do; they are hissing, and I shall
+                    not recover myself all the evening."—"Oh," said <ref target="people.html#FieldingHenry">Fielding</ref> with an oath, "they
+                        <hi rendition="#italics">have</hi> found it, have they?"</p>
+            <p> One of this author's pieces, <title>
+                  <hi rendition="#italics">The Temple
+                            Beau</hi>
+               </title>, exhibits, with some strokes of humour, a character
+                    afterwards drawn with such success by <ref target="people.html#HoadlyDrBenjamin">Hoadley</ref> in his <title>
+                  <hi rendition="#italics">Suspicious
+                            Husband</hi>
+               </title>. His <title>
+                  <hi rendition="#italics">Tom
+                        Thumb</hi>
+               </title> has been often acted, and given great diversion to the
+                    audience; but his <title>
+                  <hi rendition="#italics">Miser</hi>
+               </title>, a free
+                    translation from <ref target="people.html#Moliere">Moliere</ref>'s
+                            <title>
+                  <hi rendition="#italics"> L'Avare</hi>
+               </title>, is the only
                     one of his pieces which at present maintains its ground at the theatre. Yet,
                     though there is nothing in the humour of the character which does not seem very
                     capable of being transferred, it by no means holds the same rank of the English
-                    stage which <title><hi rendition="#italics">L&apos;Avare</hi></title> does on
-                    the French.&#8212;It is worthy of remark, that the liberties taken with some
+                    stage which <title>
+                  <hi rendition="#italics">L'Avare</hi>
+               </title> does on
+                    the French.—It is worthy of remark, that the liberties taken with some
                     political characters, in one or two of our author’s pieces, are said to have
                     been the immediate occasion of passing the act for limiting the number of
                     theatres, and subjecting dramatic compositions to the inspection of the lord
                     chamberlain. A restraint perhaps necessary, and no doubt permanent.</p>
-                <p> The farces of <ref target="people.html#FieldingHenry">Fielding</ref> were
+            <p> The farces of <ref target="people.html#FieldingHenry">Fielding</ref> were
                     generally the production of two or three mornings. When he had contracted for a
-                    play or farce, he has often been known to go home late from a tavern, and <pb
-                        n="vii"/> send a scene or two the next morning written on the papers that
+                    play or farce, he has often been known to go home late from a tavern, and <pb n="vii"/> send a scene or two the next morning written on the papers that
                     had wrapped up his tobacco, of which he was immoderately fond. Notwithstanding
                     the number of his pieces, they do not seem to have been very productive to him
                     in a pecuniary light. For one, which was acted six nights, he received only
                     sixty pounds.</p>
-                <p> In the midst of this career of dissipation, <ref
-                        target="people.html#FieldingHenry">Fielding</ref> fell in love with and
+            <p> In the midst of this career of dissipation, <ref target="people.html#FieldingHenry">Fielding</ref> fell in love with and
                     married <ref target="people.html#CradockCharlotte">Miss Craddock</ref> of
-                    Salisbury, a celebrated beauty with a fortune of 1500<hi rendition="#italics"
-                        >l</hi>. About the same time, by his mother's death, he succeeded to an
+                    Salisbury, a celebrated beauty with a fortune of 1500<hi rendition="#italics">l</hi>. About the same time, by his mother's death, he succeeded to an
                     estate of something more than two hundred a year. Upon these events he formed
                     the wise resolution to retire with his wife, whom he passionately loved, into
                     the country, and to forsake the gaieties and vices of a town life. He went
@@ -529,13 +773,17 @@
                     liveries; he gave dinners, kept hounds and horses, and found means, in less than
                     three years, entirely to dis- <pb n="viii"/> sipate his little patrimony. Some
                     of these follies he has pourtrayed, softened no doubt, in the character of Booth
-                    in his <title><hi rendition="#italics">Amelia</hi></title>.<hi rendition="#sup"
-                            ><note place="foot">Amelia marries Captain Booth, a handsome but
+                    in his <title>
+                  <hi rendition="#italics">Amelia</hi>
+               </title>.<hi rendition="#sup">
+                  <note place="foot" anchored="true">Amelia marries Captain Booth, a handsome but
                             feckless army officer, who invovles the couple in financial
-                            embarrassments until he is sent to debtor&apos;s prison. At that point
+                            embarrassments until he is sent to debtor's prison. At that point
                             Amelia learns she has inherited enough money from her mother to settle
-                            the debt and allow the couple to retire to the country. </note></hi></p>
-                <p> He was now again obliged to draw subsistence from his own resources; and it is
+                            the debt and allow the couple to retire to the country. </note>
+               </hi>
+            </p>
+            <p> He was now again obliged to draw subsistence from his own resources; and it is
                     some praise to the vigour of his mind, and shows it was able to recover its
                     spring, that he formed the resolution of seriously applying to the law, his
                     original destination. He was about thirty when he entered himself at the Temple,
@@ -543,7 +791,7 @@
                     characters to whom mental exertion is more easy than abstinence from pleasure;
                     and the good foundation he had laid in early life enabled him to recover a great
                     deal of his lost ground.</p>
-                <p> After he was called to the bar, he attended the courts and went the circuits,
+            <p> After he was called to the bar, he attended the courts and went the circuits,
                     but never had any great flow of business, though he is said to have acquired a
                     very respectable share of legal knowledge, and even to have gone deep into some
                     particular branches of it, as he left behind him two volumes folio upon crown
@@ -551,92 +799,110 @@
                     upon his constitution. He was therefore obliged to recur again to his pen to
                     supply the wants of a growing family; and essays, plays, and political pamphlets
                     were the product of his leisure. He wrote in a periodical paper called
-                            <title><hi rendition="#italics">The Champion</hi></title>.<hi
-                        rendition="#sup"><note place="foot">Fielding wrote for this thrice-weekly
-                            periodical running from November 1739 to June 1740.</note></hi>
-                    <title><hi rendition="#italics">An Essay on Conversation</hi></title>;
-                            <title><hi rendition="#italics">A Journey from this World to the
-                            next</hi></title>; and many little pieces, now forgotten, to which the
+                            <title>
+                  <hi rendition="#italics">The Champion</hi>
+               </title>.<hi rendition="#sup">
+                  <note place="foot" anchored="true">Fielding wrote for this thrice-weekly
+                            periodical running from November 1739 to June 1740.</note>
+               </hi>
+               <title>
+                  <hi rendition="#italics">An Essay on Conversation</hi>
+               </title>;
+                            <title>
+                  <hi rendition="#italics">A Journey from this World to the
+                            next</hi>
+               </title>; and many little pieces, now forgotten, to which the
                     time and occasion gave temporary value, were also published by him.</p>
-                <pb n="ix"/>
-                <p> In poetry he was not successful. His attempts exposed him to the satire of <ref
-                        target="people.html#SwiftJonathan">Swift</ref> in the following lines: <quote>
-                        <lg type="stanza">
-                            <l rendition="#indent9">When you rashly think</l>
-                            <l>No rhymer can like Welsted sink,</l>
-                            <l>His merits balanced, you shall find,</l>
-                            <l>That Fielding leaves him far behind.<hi rendition="#sup">
-                                    <note place="foot">
-                                        <ref target="people.html#SwiftJonathan">Jonathan
+            <pb n="ix"/>
+            <p> In poetry he was not successful. His attempts exposed him to the satire of <ref target="people.html#SwiftJonathan">Swift</ref> in the following lines: <quote>
+                  <lg type="stanza" org="uniform" sample="complete" part="N">
+                     <l rendition="#indent9" part="N">When you rashly think</l>
+                     <l part="N">No rhymer can like Welsted sink,</l>
+                     <l part="N">His merits balanced, you shall find,</l>
+                     <l part="N">That Fielding leaves him far behind.<hi rendition="#sup">
+                           <note place="foot" anchored="true">
+                              <ref target="people.html#SwiftJonathan">Jonathan
                                         Swift</ref>, "On Poetry; A Rhapsody" (1733), 397-400.
                                     </note>
-                                </hi>
-                            </l>
-                        </lg>
-                    </quote>
-                    <ref target="people.html#SwiftJonathan">Swift</ref> little thought at the time
+                        </hi>
+                     </l>
+                  </lg>
+               </quote>
+               <ref target="people.html#SwiftJonathan">Swift</ref> little thought at the time
                     that <ref target="people.html#FieldingHenry">Fielding</ref> would be an author
                     as much read as himself. One little piece of his written in early life is
                     addressed to <ref target="people.html#WalpoleRobert">Sir Robert Walpole</ref>,
                     ironically endeavouring to prove himself the greater man of the two. He says; <quote>
-                        <lg type="stanza">
-                            <l>I live above you twice two story,</l>
-                            <l>And from my garret can look down</l>
-                            <l>On the whole street of Arlington.<hi rendition="#sup">
-                                    <note place="foot">
-                                        <ref target="people.html#FieldingHenry">Henry
-                                        Fielding</ref>, &quot;To The Right Honourable <ref
-                                            target="people.html#WalpoleRobert">Sir Robert
+                  <lg type="stanza" org="uniform" sample="complete" part="N">
+                     <l part="N">I live above you twice two story,</l>
+                     <l part="N">And from my garret can look down</l>
+                     <l part="N">On the whole street of Arlington.<hi rendition="#sup">
+                           <note place="foot" anchored="true">
+                              <ref target="people.html#FieldingHenry">Henry
+                                        Fielding</ref>, "To The Right Honourable <ref target="people.html#WalpoleRobert">Sir Robert
                                             Walpole</ref>, (Now Earl of Orford). Written in the year
-                                        1730&quot; (1730), 28-30. </note>
-                                </hi>
-                            </l>
-                        </lg>
-                    </quote> And again: <quote>
-                        <lg type="stanza">
-                            <l>Your levee is but twice a week;</l>
-                            <l>From mine I can exclude but one day,</l>
-                            <l>My door is quiet on a Sunday.<hi rendition="#sup">
-                                    <note place="foot">
-                                        <ref target="people.html#FieldingHenry">Henry Fielding</ref>
-                                        , &quot;To The Right Honourable <ref
-                                            target="people.html#WalpoleRobert">Sir Robert
+                                        1730" (1730), 28-30. </note>
+                        </hi>
+                     </l>
+                  </lg>
+               </quote> And again: <quote>
+                  <lg type="stanza" org="uniform" sample="complete" part="N">
+                     <l part="N">Your levee is but twice a week;</l>
+                     <l part="N">From mine I can exclude but one day,</l>
+                     <l part="N">My door is quiet on a Sunday.<hi rendition="#sup">
+                           <note place="foot" anchored="true">
+                              <ref target="people.html#FieldingHenry">Henry Fielding</ref>
+                                        , "To The Right Honourable <ref target="people.html#WalpoleRobert">Sir Robert
                                             Walpole</ref>, (Now Earl of Orford). Written in the year
-                                        1730&quot; (1730), 34-36. </note>
-                                </hi>
-                            </l>
-                        </lg>
-                    </quote> It concludes with expressing himself very willing to come down from his
+                                        1730" (1730), 34-36. </note>
+                        </hi>
+                     </l>
+                  </lg>
+               </quote> It concludes with expressing himself very willing to come down from his
                     greatness and accept of a place. </p>
-                <p> About this time he published his <title><hi rendition="#italics">History of
-                            Jonathan Wild</hi></title>. The humour and strokes of character in this
+            <p> About this time he published his <title>
+                  <hi rendition="#italics">History of
+                            Jonathan Wild</hi>
+               </title>. The humour and strokes of character in this
                     piece first gave indications of the mode of writing from whence he was to derive
-                    his celebrity. It is, like <ref target="people.html#GayJohn">Gay</ref>&apos;s
-                            <title><hi rendition="#italics">Beggar&apos;s Opera</hi></title>, an
+                    his celebrity. It is, like <ref target="people.html#agayJohn">Gay</ref>'s
+                            <title>
+                  <hi rendition="#italics">Beggar's Opera</hi>
+               </title>, an
                     exhibition of scenes of the greatest profligacy in low life, with an implied
-                    satire on the world in general, and particularly of the world of high life. <hi
-                        rendition="#italics">Joseph Andrews</hi> was his <pb n="x"/> first regular
+                    satire on the world in general, and particularly of the world of high life. <hi rendition="#italics">Joseph Andrews</hi> was his <pb n="x"/> first regular
                     novel. It was published in 1742, and gave him deserved celebrity. But he soon
                     after met with a heavy affliction in the loss of his beloved wife, who had long
                     been sinking under ill health. This stroke he felt with an acuteness of
                     sensibility which perhaps would scarcely have been expected in a man of
                     pleasure; his grief was so strong that his friends were even afraid his reason
                     should give way under it. He afterwards, however, married a second time, and his
-                    wife survived him.<hi rendition="#sup"><note place="foot"><ref
-                                target="people.html#FieldingHenry">Fielding</ref> married Mary
-                            Daniel (d. 1802) on October 27, 1747.</note></hi></p>
-                <p> Attached to the principles of the Revolution, he published, during the rebellion
-                    of 1745, a periodical paper entitled <title><hi rendition="#italics">The True
-                            Patriot</hi></title>, and another, <title><hi rendition="#italics">The
-                            Jacobite Journal</hi></title>.<hi rendition="#sup"><note place="foot"
-                                ><hi rendition="#italics"><title>The True Patriot; and The History
-                                    of Our Own Times</title></hi> ran from November 1745 into June
-                            1746, followed, beginning December 1747, by <hi rendition="#italics"
-                                    ><title>The Jacobite's Journal, by John Trott-Plaid,
-                                    Esq.</title></hi>, which continued into November 1748.
-                            &quot;Jacobite&quot; refers to supporters of <ref
-                                target="people.html#JamesIIKingofEngland">James II of England</ref>
-                            and his successors after his deposition in 1688.</note></hi> These
+                    wife survived him.<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <ref target="people.html#FieldingHenry">Fielding</ref> married Mary
+                            Daniel (d. 1802) on October 27, 1747.</note>
+               </hi>
+            </p>
+            <p> Attached to the principles of the Revolution, he published, during the rebellion
+                    of 1745, a periodical paper entitled <title>
+                  <hi rendition="#italics">The True
+                            Patriot</hi>
+               </title>, and another, <title>
+                  <hi rendition="#italics">The
+                            Jacobite Journal</hi>
+               </title>.<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <hi rendition="#italics">
+                        <title>The True Patriot; and The History
+                                    of Our Own Times</title>
+                     </hi> ran from November 1745 into June
+                            1746, followed, beginning December 1747, by <hi rendition="#italics">
+                        <title>The Jacobite's Journal, by John Trott-Plaid,
+                                    Esq.</title>
+                     </hi>, which continued into November 1748.
+                            "Jacobite" refers to supporters of <ref target="people.html#JamesIIKingofEngland">James II of England</ref>
+                            and his successors after his deposition in 1688.</note>
+               </hi> These
                     services to government were rewarded with the appointment to the office of
                     acting justice of the peace for Middlesex, a situation he was induced to accept
                     from the failure of his hopes of rising in the more brilliant career of the bar.
@@ -644,21 +910,24 @@
                     and diligent; and he published several tracts with the laudable design of
                     checking the vices of the populace. An active magistrate was extremely wanted at
                     that time. Robberies were frequent, and atrocious murders had been committed
-                    with a barbarity not usual in this country. <title><hi rendition="#italics">A
-                            Charge to the Grand Jury</hi></title>, a pamphlet <title><hi
-                            rendition="#italics">On the Increase and Cause of
-                    Robberies</hi></title>, and <title><hi rendition="#italics">A Proposal for the
-                            Maintenance of the Poor</hi></title>, in which the first hints were
+                    with a barbarity not usual in this country. <title>
+                  <hi rendition="#italics">A
+                            Charge to the Grand Jury</hi>
+               </title>, a pamphlet <title>
+                  <hi rendition="#italics">On the Increase and Cause of
+                    Robberies</hi>
+               </title>, and <title>
+                  <hi rendition="#italics">A Proposal for the
+                            Maintenance of the Poor</hi>
+               </title>, in which the first hints were
                     given of county workhouses, bore testimony to his zeal and diligence. He wrote a
-                    pamphlet on the case <pb n="xi"/> of <ref target="people.html#CanningElizabeth"
-                        >Elizabeth Canning</ref>, which was answered by <ref
-                        target="people.html#HillJohn">Dr. Hill</ref>, with whom he had frequent
+                    pamphlet on the case <pb n="xi"/> of <ref target="people.html#CanningElizabeth">Elizabeth Canning</ref>, which was answered by <ref target="people.html#HillJohn">Dr. Hill</ref>, with whom he had frequent
                     controversies. </p>
-                <p> It shows the vigour of <ref target="people.html#FieldingHenry"
-                    >Fielding</ref>&apos;s mind, that notwithstanding these exertions, and the
+            <p> It shows the vigour of <ref target="people.html#FieldingHenry">Fielding</ref>'s mind, that notwithstanding these exertions, and the
                     duties of an active and laborious profession, with an anxious mind and a broken
-                    constitution, he found leisure for his capital work, his <title><hi
-                            rendition="#italics">History of Tom Jones</hi></title>. He was about
+                    constitution, he found leisure for his capital work, his <title>
+                  <hi rendition="#italics">History of Tom Jones</hi>
+               </title>. He was about
                     four-and-forty when he wrote it; a period of life when judgement, invention, and
                     observation go hand in hand, and man possesses all his powers together. After
                     the publication of this celebrated novel, we may regard the author as in the
@@ -666,43 +935,48 @@
                     of living with ease and comfort: but his constitution, naturally strong, and his
                     frame, originally athletic, undermined by irregularity and broken by fatigue,
                     were now sinking apace; notwithstanding which he published, four years
-                    afterwards, his <title><hi rendition="#italics">Amelia</hi></title>, in which,
+                    afterwards, his <title>
+                  <hi rendition="#italics">Amelia</hi>
+               </title>, in which,
                     though it possesses many beautiful strokes, and an interest derived from its
                     including a part of <ref target="people.html#FieldingHenry">Mr.
-                    Fielding</ref>&apos;s own story, the humour is fainter, the characters less
+                    Fielding</ref>'s own story, the humour is fainter, the characters less
                     original; and, like the second rainbow, though the same colours are seen, they
                     shine with fainter radiance. It has more of sentiment than humour, more of
                     narrative than of scenes passing before the eye.</p>
-                <p> After this he engaged in a periodical paper, <title><hi rendition="#italics">The
-                            Covent-Garden Journal</hi></title>, which was carried on for a
-                        twelvemonth.<hi rendition="#sup"><note place="foot">From January through
-                            November 1752.</note></hi> But now his health became entirely broken
-                    under a complication of disorders; and after undergoing the operation of <pb
-                        n="xii"/>tapping,<hi rendition="#sup">
-                        <note place="foot">Surgical procedure in which a body cavity is punctured to
+            <p> After this he engaged in a periodical paper, <title>
+                  <hi rendition="#italics">The
+                            Covent-Garden Journal</hi>
+               </title>, which was carried on for a
+                        twelvemonth.<hi rendition="#sup">
+                  <note place="foot" anchored="true">From January through
+                            November 1752.</note>
+               </hi> But now his health became entirely broken
+                    under a complication of disorders; and after undergoing the operation of <pb n="xii"/>tapping,<hi rendition="#sup">
+                  <note place="foot" anchored="true">Surgical procedure in which a body cavity is punctured to
                             permit drawing off fluid, used especially in cases of "dropsy," often
                             caused by congestive heart failure, and ascites ("abdominal dropsy").
-                            Both ailments are often associated with the dissipated habits <ref
-                                target="people.html#BarbauldMrs">Barbauld</ref> credits to <ref
-                                target="people.html#FieldingHenry">Fielding</ref>.</note></hi> he
+                            Both ailments are often associated with the dissipated habits <ref target="people.html#BarbauldMrs">Barbauld</ref> credits to <ref target="people.html#FieldingHenry">Fielding</ref>.</note>
+               </hi> he
                     was ordered to Lisbon, whither his wife accompanied him; but he lived only two
                     months after he got there. The last gleams of his genius were displayed in a
-                    small piece entitled <title><hi rendition="#italics">A Journey to
-                        Lisbon</hi></title>, in which there is more of peevishness than of humour.
+                    small piece entitled <title>
+                  <hi rendition="#italics">A Journey to
+                        Lisbon</hi>
+               </title>, in which there is more of peevishness than of humour.
                     He died in 1754, in the forty-eighth year of his age. His second wife with four
-                    children survived him, and experienced the kindness of <ref
-                        target="people.html#AllenRalph">Mr. Allen</ref>, the Alworthy<hi
-                        rendition="#sup"><note place="foot">The generous squire who turns out to be
-                            the uncle of Tom Jones in the novel by the same name.</note></hi> of the
+                    children survived him, and experienced the kindness of <ref target="people.html#AllenRalph">Mr. Allen</ref>, the Alworthy<hi rendition="#sup">
+                  <note place="foot" anchored="true">The generous squire who turns out to be
+                            the uncle of Tom Jones in the novel by the same name.</note>
+               </hi> of the
                     author, in the liberal pecuniary assistance he afforded for their education.
                         <ref target="people.html#FieldingHenry">Fielding</ref> was succeeded in his
-                    office by his half-brother, the well-known <ref
-                        target="people.html#FieldingJohn">Sir John Fielding</ref>, who had been long
+                    office by his half-brother, the well-known <ref target="people.html#FieldingJohn">Sir John Fielding</ref>, who had been long
                     his assistant, and who afterwards distinguished himself so much by his activity
                     at the head of the London police, though he had the misfortune to be blind from
                     his birth. </p>
-                <p>
-                    <ref target="people.html#FieldingHenry">Henry Fielding</ref> was in his person
+            <p>
+               <ref target="people.html#FieldingHenry">Henry Fielding</ref> was in his person
                     tall, and of a robust make with an originally strong constitution, qualities
                     which, perhaps for that reason, he seems fond of attributing to his heroes. He
                     was social, hospitable, fond of pleasure, and apt to be impatient under
@@ -713,50 +987,45 @@
                     mind received a taint which spread itself in his works, but was powerfully
                     counteracted by the better sensibilities of his nature. Notwithstanding his
                     irregularities, he was not without a sense of religion, and had collected
-                    materials for an An- <pb n="xiii"/> swer to <ref
-                        target="people.html#BolingbrokeHenryStJohn">Lord Bolingbroke</ref>&apos;s
+                    materials for an An- <pb n="xiii"/> swer to <ref target="people.html#BolingbrokeHenryStJohn">Lord Bolingbroke</ref>'s
                     posthumous works, in which he would probably have been much out of his depth. No
-                    portrait was taken of him during his life. <ref
-                        target="people.html#HogarthWilliam">Hogarth</ref>, with whom he had an
+                    portrait was taken of him during his life. <ref target="people.html#HogarthWilliam">Hogarth</ref>, with whom he had an
                     intimate friendship, executed one after his death, partly from recollection and
                     partly from a profile cut by a lady with a pair of scissars. An engraving of it
                     is prefixed to the edition of his works in ten volumes, with his Life, published
                     by <ref target="people.html#MurphyArthur">Mr. Murphy</ref>. </p>
-                <p> J<hi rendition="#smcaps">oseph</hi> A<hi rendition="#smcaps">ndrews</hi>, the
-                    first of <ref target="people.html#FieldingHenry">Fielding</ref>&apos;s novels in
+            <p> J<hi rendition="#smcaps">oseph</hi> A<hi rendition="#smcaps">ndrews</hi>, the
+                    first of <ref target="people.html#FieldingHenry">Fielding</ref>'s novels in
                     the order of publication, has been, and always must be, a most captivating
                     performance to those who have a taste for genuine humour. There is little or
                     nothing in it of story, compared with the elaborate plan of his subsequent work;
                     nor so great a variety of characters: on which account the performance is
                     inferior, but it possesses, in quite an equal degree, the comic spirit of the
-                    author. He professes to have written it in the manner of <ref
-                        target="people.html#Cervantes">Cervantes</ref>; and accordingly the style,
+                    author. He professes to have written it in the manner of <ref target="people.html#Cervantes">Cervantes</ref>; and accordingly the style,
                     where the author himself speaks, is in a kind of mock heroic, particularly in
                     the introductory flourishes, where he ushers in the incidents of a foot-race, or
                     a boxing-match between two rustics, in the pompous and lofty phrase which might
-                    be used to describe one of <ref target="people.html#Homer">Homer</ref>&apos;s
+                    be used to describe one of <ref target="people.html#Homer">Homer</ref>'s
                     battles. This manner he has preserved in his other novels: in all of them the
                         <hi rendition="#italics">author</hi> is constantly kept in sight, and the
                     grave humour of the piece is heightened by <hi rendition="#italics">his</hi>
-                    remarks. The plan of <ref target="people.html#RichardsonSamuel"
-                    >Richardson</ref>, on the contrary, which was to make his characters tell their
-                    own story in letters to each other, necessarily excludes the <fw type="vol"
-                        rendition="#smcaps" place="bottom-left">vol. xviii.</fw><milestone
-                        unit="signature" n="b" rendition="#center"/><pb n="xiv"/> author:&#8212;each
-                    mode has its advantages, that of <ref target="people.html#RichardsonSamuel"
-                        >Richardson</ref> is perhaps the most difficult. The most striking figure in
+                    remarks. The plan of <ref target="people.html#RichardsonSamuel">Richardson</ref>, on the contrary, which was to make his characters tell their
+                    own story in letters to each other, necessarily excludes the <fw type="vol" rendition="#smcaps" place="bottom-left">vol. xviii.</fw>
+               <milestone unit="signature" n="b" rendition="#center"/>
+               <pb n="xiv"/> author:—each
+                    mode has its advantages, that of <ref target="people.html#RichardsonSamuel">Richardson</ref> is perhaps the most difficult. The most striking figure in
                     this piece is that of Parson Adams, an original and most diverting character, in
                     which the lights and shades are so admirably blended, and estimable qualities so
                     mixed with foibles and eccentricities, that we love and laugh at him at the same
                     time. </p>
-                <p> Adams is a country curate of great learning and integrity, very benevolent, and
-                    of such simplicity of heart that, to use the author’s expression, &quot;he never
-                    sees further into men than they choose to let him.&quot; In common with many
+            <p> Adams is a country curate of great learning and integrity, very benevolent, and
+                    of such simplicity of heart that, to use the author’s expression, "he never
+                    sees further into men than they choose to let him." In common with many
                     deep scholars, he is subject to great absence of mind, which brings him into
                     many ludicrous difficulties; and he has a tincture of harmless vanity which
                     leads him sometimes to assume more self-importance than belongs to his humble
                     station. </p>
-                <p> The author has shown great skill in making us laugh so heartily at a character,
+            <p> The author has shown great skill in making us laugh so heartily at a character,
                     and yet keeping it above contempt. This could not have been done in the
                     degrading scenes of low life to which he is exposed, if he had not, in addition
                     to his higher qualities, given him great personal courage and an athletic
@@ -764,8 +1033,7 @@
                     his Herculean strength and intrepidity make us feel that, though he may be
                     played upon, he is not to be trampled on; and the reader is well pleased to see
                     that he generally gets the better in the rough contests in which he is engaged.
-                    It has been sometimes objected to <ref target="people.html#FieldingHenry"
-                        >Fielding</ref> that so good a man as Adams, a clergyman, and a scholar,
+                    It has been sometimes objected to <ref target="people.html#FieldingHenry">Fielding</ref> that so good a man as Adams, a clergyman, and a scholar,
                     should be held up to ridicule; but <pb n="xv"/> it should be considered that
                     comic characters were what he sought, and what his genius led him to exhibit;
                     that such mixed characters do exist, and that our feelings are properly excited
@@ -776,37 +1044,38 @@
                     with his erudition. A man of his stamp is not unlikely to forget his horse at an
                     inn, to wade through a brook instead of crossing a stile to find a dry path, and
                     to leave the sermons behind him which he came to London to print. It is asserted
-                    in <ref target="people.html#FieldingHenry">Fielding</ref>&apos;s Life by <ref
-                        target="people.html#MurphyArthur">Murphy</ref>, that a Mr. Young,<hi
-                        rendition="#sup"><note place="foot">According to Frederick G. Ribble in
-                                &quot;<ref target="people.html#FieldingHenry">Fielding</ref> and
-                            William Young&quot; (<hi rendition="#italics"><title>Studies in
-                                    Philology</title></hi> 98.4 [Autumn, 2001]: 457-501), Reverend
+                    in <ref target="people.html#FieldingHenry">Fielding</ref>'s Life by <ref target="people.html#MurphyArthur">Murphy</ref>, that a Mr. Young,<hi rendition="#sup">
+                  <note place="foot" anchored="true">According to Frederick G. Ribble in
+                                "<ref target="people.html#FieldingHenry">Fielding</ref> and
+                            William Young" (<hi rendition="#italics">
+                        <title>Studies in
+                                    Philology</title>
+                     </hi> 98.4 [Autumn, 2001]: 457-501), Reverend
                             William Young was born on October, 10, 1689 and died on August 29, 1775.
                             Ribble, too, claims that Young inspired the character Parson Abraham
-                            Adams in <ref target="people.html#FieldingHenry">Fielding</ref>&apos;s
-                            novel <hi rendition="#italics"><title>Joseph Andrews</title></hi>. In
-                            addition to their friendship, Young and <ref
-                                target="people.html#FieldingHenry">Fielding</ref> worked together on
-                            several literary projects and collaborated on the translation of <ref
-                                target="people.html#Aristophanes">Aristophanes</ref>&apos;s <hi
-                                rendition="#italics"><title>Plutus</title></hi> (1742).</note></hi>
-                    a man of great learning and a friend of the author&apos;s, was the original of
+                            Adams in <ref target="people.html#FieldingHenry">Fielding</ref>'s
+                            novel <hi rendition="#italics">
+                        <title>Joseph Andrews</title>
+                     </hi>. In
+                            addition to their friendship, Young and <ref target="people.html#FieldingHenry">Fielding</ref> worked together on
+                            several literary projects and collaborated on the translation of <ref target="people.html#Aristophanes">Aristophanes</ref>'s <hi rendition="#italics">
+                        <title>Plutus</title>
+                     </hi> (1742).</note>
+               </hi>
+                    a man of great learning and a friend of the author's, was the original of
                     this picture. This gentleman was a man of great benevolence, an excellent
-                    Grecian, and particularly fond of <ref target="people.html#Aeschylus"
-                        >&#198;schylus</ref>, and very subject to fits of absence. It is related of
+                    Grecian, and particularly fond of <ref target="people.html#Aeschylus">Æschylus</ref>, and very subject to fits of absence. It is related of
                     him that, while he was chaplain to a regiment in Flanders, he took a solitary
-                    ramble one fine summer&apos;s evening, and, falling into a deep reverie, walked
-                    on till he came to the enemy&apos;s camp, where he was with difficulty brought
-                    to his recollection by the <hi rendition="#italics">Qui va l&#224;?</hi>
-                    <hi rendition="#sup">
-                        <note place="foot"> &quot;Who goes there?&quot; </note>
-                    </hi> The officer on duty, seeing he had strayed thither in the simplicity of
+                    ramble one fine summer's evening, and, falling into a deep reverie, walked
+                    on till he came to the enemy's camp, where he was with difficulty brought
+                    to his recollection by the <hi rendition="#italics">Qui va là?</hi>
+               <hi rendition="#sup">
+                  <note place="foot" anchored="true"> "Who goes there?" </note>
+               </hi> The officer on duty, seeing he had strayed thither in the simplicity of
                     his heart, politely gave him leave to pursue his meditations back again. </p>
-                <p> Two other characters of clergymen appear in this work, those of Barnabas and
+            <p> Two other characters of clergymen appear in this work, those of Barnabas and
                     Trulliber. Trulliber feeding his hogs and tyrannizing over his <pb n="xvi"/>
-                    wife is a truly Dutch piece, and worthy the pencil of a <ref
-                        target="people.html#Teniers">Teniers</ref>. It is possible a Trulliber might
+                    wife is a truly Dutch piece, and worthy the pencil of a <ref target="people.html#Teniers">Teniers</ref>. It is possible a Trulliber might
                     be found in a remote part of the country when the author wrote, but it is to be
                     presumed the race is now extinct. Barnabas is a character of hypocrisy and
                     selfishness, of which the world will always afford specimens. Joseph and Fanny
@@ -814,16 +1083,19 @@
                     Joseph is a hero in virtue, more so perhaps than might naturally have been
                     expected from the free pen of the author, who seems to have been induced to give
                     him this purity of character from a whimsical competition with the author of
-                            <title><hi rendition="#italics">Pamela</hi></title>, against which work
-                    there are many sly strokes of satire. It is certain, however, that <title><hi
-                            rendition="#italics">Joseph Andrews</hi></title> is the most
-                    unexceptional in point of morals of any of <ref
-                        target="people.html#FieldingHenry">Fielding</ref>&apos;s novels. So far as a
+                            <title>
+                  <hi rendition="#italics">Pamela</hi>
+               </title>, against which work
+                    there are many sly strokes of satire. It is certain, however, that <title>
+                  <hi rendition="#italics">Joseph Andrews</hi>
+               </title> is the most
+                    unexceptional in point of morals of any of <ref target="people.html#FieldingHenry">Fielding</ref>'s novels. So far as a
                     free exhibition of vicious characters may be objected to on the score of
                     delicacy, perhaps it is not free from blame, but in this it is far less
-                    exceptionable than those of <ref target="people.html#SmollettTobias"
-                        >Smollet</ref>; and there is between them this essential difference, that in
-                            <title><hi rendition="#italics">Joseph Andrews</hi></title> the interest
+                    exceptionable than those of <ref target="people.html#SmollettTobias">Smollet</ref>; and there is between them this essential difference, that in
+                            <title>
+                  <hi rendition="#italics">Joseph Andrews</hi>
+               </title> the interest
                     is constantly and uniformly thrown on the side of virtue. When our affections
                     are drawn forth, it is in favour of the innocent and the good; when we laugh, it
                     is at folly, affectation, or absurdity; when we feel detestation, it is at
@@ -838,35 +1110,37 @@
                     scene of vice and debauchery, Wilson is rewarded with a virtuous wife: and by
                     way of connecting this episodical story with the body of the work, the author
                     has made him the father of the virtuous and deserving Joseph. </p>
-                <p> A number of other characters are touched with great truth and spirit. Mrs.
+            <p> A number of other characters are touched with great truth and spirit. Mrs.
                     Slipslop has become proverbial for her phraseology, which has been imitated by
-                    several novel-writers. Lady Booby is the prototype of Lady Bellaston.<hi
-                        rendition="#sup">
-                        <note place="foot">Character in <title><hi rendition="#italics">Tom
-                                    Jones</hi></title>.</note></hi> The discerning reader cannot
+                    several novel-writers. Lady Booby is the prototype of Lady Bellaston.<hi rendition="#sup">
+                  <note place="foot" anchored="true">Character in <title>
+                        <hi rendition="#italics">Tom
+                                    Jones</hi>
+                     </title>.</note>
+               </hi> The discerning reader cannot
                     overlook Peter Pounce the steward, nor the simplicity of Adams, who believes him
-                    in earnest when he pretends &quot;not to be near so rich as people thought
-                    him,&quot; and the <hi rendition="#italics">na&#239;vet&#233;</hi> with which
-                    the latter tells him, &quot;that he always said it was impossible he could have
-                    honestly massed so much, particularly as he inherited no fortune,&quot; with the
+                    in earnest when he pretends "not to be near so rich as people thought
+                    him," and the <hi rendition="#italics">naïveté</hi> with which
+                    the latter tells him, "that he always said it was impossible he could have
+                    honestly massed so much, particularly as he inherited no fortune," with the
                     consequent anger of Pounce, all which conveys a satire as just as it is lively.
                     We are never better pleased than when, either in fiction or in real life, a
                     proud man receives a stroke of unintentional satire from one who has too much
                     simplicity to feel that he has given it. But to particularize the strokes of
                     nature and humour in this novel would be almost to transcribe the work; suffice
                     it to mention one or two. </p>
-                <p> When Joseph, having rescued his Fanny from <milestone unit="signature" n="b 3"
-                        rendition="#center"/><pb n="xviii"/> the hands of her ravisher, expresses
+            <p> When Joseph, having rescued his Fanny from <milestone unit="signature" n="b 3" rendition="#center"/>
+               <pb n="xviii"/> the hands of her ravisher, expresses
                     his impatience to have her made indissolubly his own; Adams rebukes him for his
-                    impetuosity, telling him that &quot;the passions are to be greatly subdued if
+                    impetuosity, telling him that "the passions are to be greatly subdued if
                     not totally eradicated, and that he ought not so to set his mind upon any person
                     or thing in this world, as that he cannot resign it quietly and contentedly,
-                    when taken from him in any manner by divine Providence.&quot; At this moment
+                    when taken from him in any manner by divine Providence." At this moment
                     somebody comes in and tells him that his youngest son is drowned; and when
                     Joseph attempts to comfort him from some of the topics he had just insisted on,
                     the good man rejects them in the bitterness of his heart, and cries out,
-                    &quot;Child, child, do not attempt impossibilities, the loss of a child is one
-                    of those great trials in which our grief is allowed to be immoderate.&quot; Yet
+                    "Child, child, do not attempt impossibilities, the loss of a child is one
+                    of those great trials in which our grief is allowed to be immoderate." Yet
                     the exhortations of Adams are not common-place and hypocritical, like those of
                     Barnabas when he prayed by Joseph; his inconsistency is only the weakness of
                     human nature. The passage finely shows how difficult it is to put ourselves in
@@ -874,32 +1148,29 @@
                     enter into the impatient feelings of the young lovers. He was ready to serve,
                     but he could not sympathize with them. A younger man would have sympathized,
                     and, if he wanted benevolence, might not have served them. </p>
-                <p> The winding up of this novel is the only part in which there is any aim at
+            <p> The winding up of this novel is the only part in which there is any aim at
                     intricacy; and it may perhaps be thought some disparagement to the invention of
                     the author, that the plot of two of his novels turns upon the discovery of
-                    foundling <pb n="xix"/> children. As Joseph Andrews is made the brother of <ref
-                        target="people.html#PamelaAndrews">Pamela Andrews</ref>, and as both are
+                    foundling <pb n="xix"/> children. As Joseph Andrews is made the brother of <ref target="people.html#PamelaAndrews">Pamela Andrews</ref>, and as both are
                     stories in low life, <ref target="people.html#RichardsonSamuel">Richardson</ref>
                     complained heavily of <ref target="people.html#FieldingHenry">Fielding</ref>
                     that he had followed up the mode of writing which he had opened for him, and
                     made it a vehicle for abusing him; for, in fact, a good deal of ridicule is
-                    thrown upon <hi rendition="#italics">Pamela</hi>, and <hi rendition="#italics"
-                        >of that</hi> its author might complain. But his manner and that of <ref
-                        target="people.html#FieldingHenry">Fielding</ref> are so totally different,
+                    thrown upon <hi rendition="#italics">Pamela</hi>, and <hi rendition="#italics">of that</hi> its author might complain. But his manner and that of <ref target="people.html#FieldingHenry">Fielding</ref> are so totally different,
                     that each may be admired as an original writer without interference with the
-                    other, and different tastes will be attracted by different talents. <hi
-                        rendition="#italics">Joseph Andrews</hi> may with more propriety be compared
-                    to the <hi rendition="#italics">Paysan Parvenu</hi> of <ref
-                        target="people.html#Marivaux">Marivaux</ref> than to any work of <ref
-                        target="people.html#RichardsonSamuel">Richardson</ref>&apos;s. </p>
-                <p>
-                    <hi rendition="#italics">Joseph Andrews</hi> was followed by <title><hi
-                            rendition="#italics">Tom Jones</hi></title>, a novel produced when the
+                    other, and different tastes will be attracted by different talents. <hi rendition="#italics">Joseph Andrews</hi> may with more propriety be compared
+                    to the <hi rendition="#italics">Paysan Parvenu</hi> of <ref target="people.html#Marivaux">Marivaux</ref> than to any work of <ref target="people.html#RichardsonSamuel">Richardson</ref>'s. </p>
+            <p>
+               <hi rendition="#italics">Joseph Andrews</hi> was followed by <title>
+                  <hi rendition="#italics">Tom Jones</hi>
+               </title>, a novel produced when the
                     author was in the meridian of his faculties, and after he had joined to his
                     natural talents experience of the world, mature judgement, and practice in the
                     art of writing. From these advantages a finished work may be expected; and such,
-                    considered as a composition, <title><hi rendition="#italics">Tom
-                        Jones</hi></title> undoubtedly is. There is perhaps no novel in the English
+                    considered as a composition, <title>
+                  <hi rendition="#italics">Tom
+                        Jones</hi>
+               </title> undoubtedly is. There is perhaps no novel in the English
                     language so artfully conducted, or so rich in humour and character. Nor is it
                     without scenes that interest the heart. The story of the highwayman, the
                     distress of Mrs. Miller and her daughter in the affair with Nightingale, and
@@ -914,18 +1185,18 @@
                     artfully concealed, that it may be doubted whether it was ever anticipated by
                     the most practised and suspicious reader. The story contains all that we require
                     in a regular epopea<hi rendition="#sup">
-                        <note place="foot">Epic poem. Unlike most women of her day, <ref
-                                target="people.html#BarbauldMrs">Barbauld</ref> was taught Greek by
+                  <note place="foot" anchored="true">Epic poem. Unlike most women of her day, <ref target="people.html#BarbauldMrs">Barbauld</ref> was taught Greek by
                             her classicist father. She occasionally displays this learning in both
-                            her literary knowledge and her vocabulary.</note></hi> or drama; strict
+                            her literary knowledge and her vocabulary.</note>
+               </hi> or drama; strict
                     unity of design, a change of fortune, a discovery, punishment and reward
                     distributed according to poetical or rather moral justice. The clearing up the
                     character of Jones to Alworthy, the discovery of his relationship to him, and
                     his union with Sophia, are all brought about at the end of the piece, and all
                     obscurities satisfactorily cleared up; so that the reader can never doubt, as in
                     some novels he may, whether the work should have ended a volume before, or have
-                    been carried on a volume after, the author&apos;s conclusion. The peculiar
-                    beauty of the plot consists in this; that though the author&apos;s secret is
+                    been carried on a volume after, the author's conclusion. The peculiar
+                    beauty of the plot consists in this; that though the author's secret is
                     impenetrable, the discovery is artfully prepared by a number of circumstances,
                     not attended to at the time, and by obscure hints thrown out, which, when the
                     reader looks back upon them, are found to agree exactly with the concealed
@@ -934,14 +1205,14 @@
                     child; the flitting appearance from time to time of the attorney Dowling; and
                     especially the behavior of Mrs. Blifil to her son, which is wonderfully well
                     managed in this respect. She appears at first to notice him only in compliance,
-                    and an ungracious compliance too, with her brother&apos;s request; yet many
+                    and an ungracious compliance too, with her brother's request; yet many
                     touches of the mother are recollected when the secret is known; and the more
                     open affection she shows him afterwards, when a youth of eighteen, has a turn
                     given it which effectually misleads the reader. If he is very sagacious, he may
                     perhaps suspect some mystery from the frequent appearance of Dowling; but he has
                     no clue to find out what the mystery is, nor can he anticipate the very moment
                     of discovery. </p>
-                <p> But intricacy of plot, admirable as this is, is still of secondary merit
+            <p> But intricacy of plot, admirable as this is, is still of secondary merit
                     compared with the exhibition of character, of which there is in this work a rich
                     variety. Of the humorous ones Squire Western and his sister are the most
                     prominent. They are admirably contrasted. He, rough, blunt, and boorish; a
@@ -949,22 +1220,24 @@
                     Jacobite, as almost all the country squires at that time were; and from both
                     causes averse to lords, and London, and every circumstance belonging to a court.
                     She, a staunch whig, a politician in petticoats, valuing herself upon court
-                    breeding, finesse, and management, and not disposed, as <ref
-                        target="people.html#YoungEdward">Young</ref> says in one of his satires,
-                    &quot;to take her tea without a stratagem.&quot;<hi rendition="#sup"><note
-                            place="foot"><ref target="people.html#YoungEdward">Edward Young</ref>,
+                    breeding, finesse, and management, and not disposed, as <ref target="people.html#YoungEdward">Young</ref> says in one of his satires,
+                    "to take her tea without a stratagem."<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <ref target="people.html#YoungEdward">Edward Young</ref>,
                             Satire VI, "On Women. To the right hon. Lady Elizabeth Germain,"
-                                    <title><hi rendition="#italics">Love of Fame, the Universal
-                                    Passion; in Seven Characteristical Satires</hi></title>.
-                        </note></hi> Their opposite though both wrong modes of managing Sophia, <pb
-                        n="xxii"/> their mutual quarrels, and the cordial contempt shown for female
+                                    <title>
+                        <hi rendition="#italics">Love of Fame, the Universal
+                                    Passion; in Seven Characteristical Satires</hi>
+                     </title>.
+                        </note>
+               </hi> Their opposite though both wrong modes of managing Sophia, <pb n="xxii"/> their mutual quarrels, and the cordial contempt shown for female
                     pretensions on the one side, and country ignorance on the other, are highly
                     amusing. The character of Western is particularly well drawn: he is quite a
                     worldly man, and strongly attached to money, notwithstanding an appearance of
                     jollity and heartiness, which might seem to indicate a propensity to the social
                     feelings. His extreme fondness for Jones, and his total blindness to the passion
                     between him and his daughter, though he had thrown them continually in each
-                    other&apos;s way, are very natural, and what we see every day exemplified in
+                    other's way, are very natural, and what we see every day exemplified in
                     real life, as well as the astonishment he expresses that a young lady of fortune
                     should think of falling in love with a young fellow without any. Many parents
                     seem by their conduct to think this as impossible as if the two parties were
@@ -974,35 +1247,36 @@
                     to her happiness. His leaving the pursuit of his daughter when he hears the cry
                     of the hounds, in order to join a fox-chase, is very characteristic and
                     diverting. </p>
-                <p> It must be admitted that the language and manners of Western have a coarseness
+            <p> It must be admitted that the language and manners of Western have a coarseness
                     which in the present day may be thought exaggerated; and it is to be hoped it
                     would be difficult now to find a breed of country squires quite so unpolished.
                     Perhaps the improvement may be partly owing to their not being so independent
                         <pb n="xxiii"/> as formerly. When they lived insulated, each in his own
                     little domain, and their estates sufficed them to reside among their tenants and
                     dependants in rustic consequence, they supplied such characters as a Western, a
-                    Sir Francis Wronghead, the Jacobite esquire in <title><hi rendition="#italics"
-                            >The Freeholder</hi></title>;<hi rendition="#sup"><note place="foot"
-                            >Paper written by <ref target="people.html#AddisonJoseph">Joseph
-                                Addison</ref> from December 1715 to June 1716.</note></hi> and, of
+                    Sir Francis Wronghead, the Jacobite esquire in <title>
+                  <hi rendition="#italics">The Freeholder</hi>
+               </title>;<hi rendition="#sup">
+                  <note place="foot" anchored="true">Paper written by <ref target="people.html#AddisonJoseph">Joseph
+                                Addison</ref> from December 1715 to June 1716.</note>
+               </hi> and, of
                     the more amiable sort, a <ref target="people.html#SirRogerdeCoverley">Sir Roger
                         de Coverley</ref>; for the drama and the novel; which are now nearly
                     extinct, from the necessity the increasing demands of luxury have occasioned of
                     seeking an increase of fortune in the busy and active scenes of life. Estates
                     are purchased by moneyed men; they bring down the habits of mercantile life from
                     the brewery or the warehouse; a library and a drawing-room take the place of the
-                    hall hung with stags&apos; horns and brushes of foxes; the hounds are sold; the
+                    hall hung with stags' horns and brushes of foxes; the hounds are sold; the
                     mansion is deserted during half the year for London or a watering-place. It is
-                    probable there are more of his majesty&apos;s subjects at this moment hunting
+                    probable there are more of his majesty's subjects at this moment hunting
                     the tiger or the wild boar in India, than there are hunting foxes at home. </p>
-                <p> Partridge is the Sancho Pancha<hi rendition="#sup">
-                        <note place="foot">Sancho Panza is the loyal servant of Don Quixote in <ref
-                                target="people.html#Cervantes">Cervantes</ref>'s celebrated
-                            novel.</note></hi> of the piece; like him, he deals in proverbs and
+            <p> Partridge is the Sancho Pancha<hi rendition="#sup">
+                  <note place="foot" anchored="true">Sancho Panza is the loyal servant of Don Quixote in <ref target="people.html#Cervantes">Cervantes</ref>'s celebrated
+                            novel.</note>
+               </hi> of the piece; like him, he deals in proverbs and
                     scraps of wisdom; like him, he is cowardly, and puts his master in mind of
                     bodily necessities. The author has taken occasion through this character to pay
-                    a delicate compliment to the acting of <ref target="people.html#GarrickDavid"
-                        >Garrick</ref> in the part of Hamlet. Jones himself, the hero of the piece,
+                    a delicate compliment to the acting of <ref target="people.html#agarrickDavid">Garrick</ref> in the part of Hamlet. Jones himself, the hero of the piece,
                     for whom, notwithstanding his faults, the reader cannot help being interested,
                     is contrasted with Blifil, the legitimate son of his mother. The two youths are
                     brought up together under the same roof and the same <pb n="xxiv"/> discipline.
@@ -1021,41 +1295,40 @@
                     less than those of almost every other person who is brought upon the stage; yet
                     they are of more dangerous example, because they are mixed with so many
                     qualities which excite our affections. Still, his character is of a totally
-                    different stamp from the heroes of <ref target="people.html#SmollettTobias"
-                        >Smollet</ref>&apos;s novels. He has an excellent heart and a refined
+                    different stamp from the heroes of <ref target="people.html#SmollettTobias">Smollet</ref>'s novels. He has an excellent heart and a refined
                     sensibility, though he has also passions of a lower order. In every instance
                     where he transgresses the rules of virtue, he is the seduced, and not the
                     seducer; his youth, his constitution, his unprotected situation after he left
-                    Alworthy&apos;s, palliate his faults, and in honourable love he is tender and
+                    Alworthy's, palliate his faults, and in honourable love he is tender and
                     constant. His refusal <pb n="xxv"/> of the young widow who makes him an offer of
-                    her hand does him honour. In one instance only is he <hi rendition="#italics"
-                        >degraded</hi>,&#8212;his affair with Lady Bellaston. </p>
-                <p> The character of Sophia was probably formed according to the author&apos;s ideas
+                    her hand does him honour. In one instance only is he <hi rendition="#italics">degraded</hi>,—his affair with Lady Bellaston. </p>
+            <p> The character of Sophia was probably formed according to the author's ideas
                     of female perfection: she is very beautiful, very sweet-tempered, very fond and
                     constant to her lover; but her behaviour will scarcely satisfy one who has
                     conceived high ideas of the delicacy of the female character. A young woman just
-                    come from reading <title><hi rendition="#italics">Clarissa</hi></title><hi
-                        rendition="#sup"><note place="foot">Popular novel by <ref
-                                target="people.html#RichardsonSamuel">Samuel Richardson</ref>
-                            published in 1747. </note></hi>must be strangely shocked at seeing the
+                    come from reading <title>
+                  <hi rendition="#italics">Clarissa</hi>
+               </title>
+               <hi rendition="#sup">
+                  <note place="foot" anchored="true">Popular novel by <ref target="people.html#RichardsonSamuel">Samuel Richardson</ref>
+                            published in 1747. </note>
+               </hi>must be strangely shocked at seeing the
                     heroine of the tale riding about the country on post-horses after her lover; and
-                    the incidents at Upton are highly indelicate. It is observable that <ref
-                        target="people.html#FieldingHenry">Fielding</ref> uniformly keeps down the
-                    characters of his women, as much as <ref target="people.html#RichardsonSamuel"
-                        >Richardson</ref> elevates his. A yielding easiness of disposition is what
+                    the incidents at Upton are highly indelicate. It is observable that <ref target="people.html#FieldingHenry">Fielding</ref> uniformly keeps down the
+                    characters of his women, as much as <ref target="people.html#RichardsonSamuel">Richardson</ref> elevates his. A yielding easiness of disposition is what
                     he seems to lay the greatest stress upon. Alworthy is made to tell Sophia, that
                     what had chiefly charmed him in her behaviour was the great deference he had
                     observed in her for the opinions of men. Yet Sophia, methinks, had not been
                     extraordinarily well situated for imbibing such reverence. Any portion of
                     learning in women is constantly united in this author with something
                     disagreeable. It is given to Jenny, the supposed mother of Jones. It is given in
-                    a higher degree to that very disgusting character Mrs. Bennet in <title><hi
-                            rendition="#italics">Amelia</hi></title>; Mrs. Western, too, is a woman
-                    of reading. A man of licentious manners, and such was <ref
-                        target="people.html#FieldingHenry">Fielding</ref>, seldom respects the sex.
-                    Of the other characters, <fw type="vol" rendition="#smcaps" place="bottom-left"
-                        >vol. xviii.</fw><milestone unit="signature" n="c" rendition="#center"/><pb
-                        n="xxvi"/>Lady Bellaston displays the ease, good-breeding, and impudence of
+                    a higher degree to that very disgusting character Mrs. Bennet in <title>
+                  <hi rendition="#italics">Amelia</hi>
+               </title>; Mrs. Western, too, is a woman
+                    of reading. A man of licentious manners, and such was <ref target="people.html#FieldingHenry">Fielding</ref>, seldom respects the sex.
+                    Of the other characters, <fw type="vol" rendition="#smcaps" place="bottom-left">vol. xviii.</fw>
+               <milestone unit="signature" n="c" rendition="#center"/>
+               <pb n="xxvi"/>Lady Bellaston displays the ease, good-breeding, and impudence of
                     a town-bred lady of fashion, who has laid aside her virtue. The scene where
                     Jones meets Sophia at her house unexpectedly, the confusion of the lovers, and
                     the civil, sly teasings of Lady Bellaston, are very diverting. Mrs. Miller is a
@@ -1064,13 +1337,11 @@
                     behavior of Jones in the affair between Nightingale and her daughter does him
                     honour, and he manages the uncle and the father with much finesse. All the
                     characters concerned are well drawn. The family of Black George exhibits natural
-                    but coarse painting; they would not be undeserving of a place in <ref
-                        target="people.html#CrabbeGeorge">Mr. Crabb</ref>&apos;s parish register.
+                    but coarse painting; they would not be undeserving of a place in <ref target="people.html#CrabbeGeorge">Mr. Crabb</ref>'s parish register.
                     The character of Alworthy is not a shining one; he is imposed upon by every
                     body: this may be consistent with goodness, but it is not consistent with that
                     dignity in which an eminently virtuous character, meant to be exhibited as a
-                    pattern of excellence, ought to appear. But <ref
-                        target="people.html#FieldingHenry">Fielding</ref> could not draw such a
+                    pattern of excellence, ought to appear. But <ref target="people.html#FieldingHenry">Fielding</ref> could not draw such a
                     character. Traits of humanity and kindness he is able to give in all their
                     beauty; but a religious and strictly moral character was probably connected in
                     his mind with a want of sagacity, which those who have been conversant with the
@@ -1078,32 +1349,35 @@
                     keeping aloof from it. Besides, it was necessary for the plot that Alworthy
                     should be imposed upon. The character of Alworthy, <pb n="xxvii"/> it is said,
                     was meant for <ref target="people.html#AllenRalph">Mr. Allen</ref> of
-                    Prior-park, a friend and patron of the author&apos;s, characterized by <ref
-                        target="people.html#PopeAlexander">Pope</ref> in these well known lines, <quote>
-                        <lg type="stanza">
-                            <l>Let humble <ref target="people.html#AllenRalph">Allen</ref>, with an
+                    Prior-park, a friend and patron of the author's, characterized by <ref target="people.html#PopeAlexander">Pope</ref> in these well known lines, <quote>
+                  <lg type="stanza" org="uniform" sample="complete" part="N">
+                     <l part="N">Let humble <ref target="people.html#AllenRalph">Allen</ref>, with an
                                 awkward shame,</l>
-                            <l>Do good by stealth, and blush to find it fame.<hi rendition="#sup">
-                                    <note place="foot">
-                                        <ref target="people.html#PopeAlexander">Alexander
-                                        Pope</ref>, <title><hi rendition="#italics">Epilogue to the
-                                                Satires in Two Dialogues</hi></title>, Dialogue I
+                     <l part="N">Do good by stealth, and blush to find it fame.<hi rendition="#sup">
+                           <note place="foot" anchored="true">
+                              <ref target="people.html#PopeAlexander">Alexander
+                                        Pope</ref>, <title>
+                                 <hi rendition="#italics">Epilogue to the
+                                                Satires in Two Dialogues</hi>
+                              </title>, Dialogue I
                                         (1738), 135-6.</note>
-                                </hi>
-                            </l>
-                        </lg>
-                    </quote>
-                </p>
-                <p> The discovery of Jones&apos;s birth, and his restoration to the favour of
+                        </hi>
+                     </l>
+                  </lg>
+               </quote>
+            </p>
+            <p> The discovery of Jones's birth, and his restoration to the favour of
                     Alworthy, wind up the whole, and give an animation to the concluding part, which
                     is apt to become flat in the works of common authors. It is some drawback,
                     however, upon the satisfaction of the reader, that poetic justice cannot be done
                     without giving the good Alworthy the pain of being acquainted with the shame of
                     his sister. It is not natural, when he does know it, that he should needlessly
                     publish a circumstance of that kind, or consider Jones as having the same claims
-                    upon him as a legitimate child of his sister&apos;s; yet this is what he is made
+                    upon him as a legitimate child of his sister's; yet this is what he is made
                     to do. </p>
-                <p> Upon the whole, <title><hi rendition="#italics">Tom Jones</hi></title> is
+            <p> Upon the whole, <title>
+                  <hi rendition="#italics">Tom Jones</hi>
+               </title> is
                     certainly for humour, wit, character, and plot, one of the most entertaining and
                     perfect novels we possess. With regard to its moral tendency we must content
                     ourselves with more qualified praise. A young man may imbibe from it sentiments
@@ -1112,29 +1386,27 @@
                     firmness to resist temptation, or to have his ideas of moral purity heightened
                     or refined by the perusal. More men would be apt to imitate Jones than would
                     copy <ref target="people.html#Lovelace">Lovelace</ref>; and it is to be feared
-                    there are few women who would not like <milestone unit="signature" n="c 2"
-                        rendition="#center"/><pb n="xxviii"/> him better than <ref
-                        target="people.html#SirCharlesGrandison">Sir Charles Grandison</ref>. The
+                    there are few women who would not like <milestone unit="signature" n="c 2" rendition="#center"/>
+               <pb n="xxviii"/> him better than <ref target="people.html#SirCharlesGrandison">Sir Charles Grandison</ref>. The
                     greater refinement also and delicacy of the present age, a sure test of national
                     civilization, though a very equivocal one of national virtue, has almost
-                    proscribed much of that broad humour which appears in the works of <ref
-                        target="people.html#FieldingHenry">Fielding</ref>&apos;s times, and we
+                    proscribed much of that broad humour which appears in the works of <ref target="people.html#FieldingHenry">Fielding</ref>'s times, and we
                     should scarcely bear, in a new novel, the indelicate pictures which are
                     occasionally presented to the imagination. The scenes at inns also are coarse,
                     and too often repeated. The introductory chapters ought not to be passed over;
                     they have much wit and grave <ref target="people.html#Cervantes">Cervantic</ref>
-                    humour, and occasionally display the author&apos;s familiarity with the
+                    humour, and occasionally display the author's familiarity with the
                     classics. </p>
-                <p>
-                    <ref target="people.html#FieldingHenry">Fielding</ref>&apos;s vein was not yet
-                    exhausted; he produced a third novel called <title><hi rendition="#italics"
-                            >Amelia</hi></title> . If this has less of the author&apos;s
+            <p>
+               <ref target="people.html#FieldingHenry">Fielding</ref>'s vein was not yet
+                    exhausted; he produced a third novel called <title>
+                  <hi rendition="#italics">Amelia</hi>
+               </title> . If this has less of the author's
                     characteristic humour, it has more scenes of domestic tenderness. Contrary to
                     the usual practice of novel-writers, the story begins after the marriage of the
                     principal personages. The hero, Mr. Booth, is introduced to us in a prison; the
                     distresses of the piece arise from the vicious indulgencies of the husband,
-                    combined with unfortunate circumstances; and in the character of Booth, <ref
-                        target="people.html#FieldingHenry">Fielding</ref> is generally supposed to
+                    combined with unfortunate circumstances; and in the character of Booth, <ref target="people.html#FieldingHenry">Fielding</ref> is generally supposed to
                     have delineated his own. Amelia is such a wife as most men of that stamp would
                     deem the model of female perfection, such a one as a man, conscious of a good
                     many frailties and vices, usually wishes for. Faithful, fond, and indulgent, the
@@ -1156,30 +1428,27 @@
                     her passions, dangerous; not frail only but wicked. She keeps Booth in unwilling
                     bondage by her threats of disclosing his infidelity to his wife. The history she
                     is made to give of herself is, however, a very dull one. </p>
-                <p> The prison scenes are strongly drawn. <ref target="people.html#FieldingHenry"
-                        >Fielding</ref> was well acquainted with rogues and rascals in his judicial,
+            <p> The prison scenes are strongly drawn. <ref target="people.html#FieldingHenry">Fielding</ref> was well acquainted with rogues and rascals in his judicial,
                     and probably not unfrequently in his private capacity. There is much merit in
                     the delineation of Captain James and his wife, a fashionable couple who are very
                     complaisant without caring for each other. It is an excellent stroke in the
                     character of the lady, that, in the <pb n="xxx"/> midst of her anxiety for her
-                    husband, who is supposed to be killed in a duel, she <hi rendition="#italics"
-                        >recollects</hi> to countermand a rich brocade making up for her at the
-                    mantua-maker&apos;s. In touches of satire like these <ref
-                        target="people.html#FieldingHenry">Fielding</ref> excelled. There is
+                    husband, who is supposed to be killed in a duel, she <hi rendition="#italics">recollects</hi> to countermand a rich brocade making up for her at the
+                    mantua-maker's. In touches of satire like these <ref target="people.html#FieldingHenry">Fielding</ref> excelled. There is
                     something very touching in the humble love of Atkins, which is only revealed
                     when he thinks himself on his death-bed; but the author has not used him very
                     kindly in matching him with so disagreeable a personage as Mrs. Bennet, whose
                     character throughout is thoroughly disgusting, and seems introduced purely to
-                    show the author&apos;s dislike to learned women. Learning in women may be
+                    show the author's dislike to learned women. Learning in women may be
                     inimical to some parts of the feminine character, but certainly does not lead to
                     the vices he has given Mrs. Bennet. Probably the coterie of literary and
-                    accomplished ladies that generally assembled at his rival&apos;s house had its
+                    accomplished ladies that generally assembled at his rival's house had its
                     share in fostering this aversion. </p>
-                <p> Another character in this work is Colonel Bath, who hides great tenderness of
-                    heart under an appearance of fierceness and bluster. He warms his sister&apos;s
+            <p> Another character in this work is Colonel Bath, who hides great tenderness of
+                    heart under an appearance of fierceness and bluster. He warms his sister's
                     gruel, and is ready to run any man through the body who catches him at the
                     employment. His portrait approaches the caricature. </p>
-                <p> A more important personage in the story is the good Dr. Harris; a clergyman,
+            <p> A more important personage in the story is the good Dr. Harris; a clergyman,
                     active, friendly and benevolent, with a dash of the humourist. By his means the
                     discovery is brought about that Amelia is entitled to a large estate, which
                     extricates Booth from his difficulties, and brings the story to a happy
@@ -1189,26 +1458,30 @@
                     enemy either to the church or to religion. We certainly cannot conceive of him
                     as a religious man; but he was not from system irreligious. In his characters of
                     Thwackum and Square he has given pretty equal measure to the divine and the
-                    philosopher.&#8212;There are many good moral maxims in <title><hi
-                            rendition="#italics">Amelia</hi></title>, and much of grave
+                    philosopher.—There are many good moral maxims in <title>
+                  <hi rendition="#italics">Amelia</hi>
+               </title>, and much of grave
                     dissertation, but less of humour than in the author’s former works. There are
                     also many tender touches of conjugal affection and domestic feeling. There is no
-                    great merit, it is true, on Booth&apos;s side in receiving graciously the
+                    great merit, it is true, on Booth's side in receiving graciously the
                     endearments of a beautiful woman who is always in good humour with him, even
                     when he is most faulty. He is pleased with her; he could not well be otherwise;
-                    but he denies himself nothing for her sake or his children&apos;s. Yet, faulty
+                    but he denies himself nothing for her sake or his children's. Yet, faulty
                     as he is, the reader is glad when he is extricated from his distresses. That
                     this should be done by the discovery of a forged will, betrays some poverty of
-                    invention, as nearly the same incident is made use of in the <hi
-                        rendition="#italics">denouement</hi> of <title><hi rendition="#italics">Tom
-                            Jones</hi></title>. </p>
-                <p> Upon the whole, though <title><hi rendition="#italics">Amelia</hi></title> must
-                    be acknowledged inferior to the author&apos;s other two works, it would
+                    invention, as nearly the same incident is made use of in the <hi rendition="#italics">denouement</hi> of <title>
+                  <hi rendition="#italics">Tom
+                            Jones</hi>
+               </title>. </p>
+            <p> Upon the whole, though <title>
+                  <hi rendition="#italics">Amelia</hi>
+               </title> must
+                    be acknowledged inferior to the author's other two works, it would
                     establish the reputation of a common writer; and the three together present an
                     exhibition of wit, humour, and character, not easy to be paralleled before or
                     since the time when they were published. </p>
-                <p>
-                    <ref target="people.html#FieldingHenry">Fielding</ref>&apos;s works are not
+            <p>
+               <ref target="people.html#FieldingHenry">Fielding</ref>'s works are not
                     greatly relished by foreigners; his personages are so truly and
                     characteristically English, that it requires the know- <pb n="xxxii"/> ledge and
                     early associations of a native fully to comprehend them. A Somersetshire esquire
@@ -1218,15 +1491,13 @@
                     forms wrong ideas of the manners of a country when he takes them from works of
                     wit and humour, where peculiarities are necessarily dwelt upon and exaggerated;
                     and an Englishman, solicitous for the honour of his country, would not wish that
-                    the ideas of its manners should be taken from the works of <ref
-                        target="people.html#FieldingHenry">Fielding</ref>. To himself they are
-                    valuable in the same light as the paintings of <ref
-                        target="people.html#HogarthWilliam">Hogarth</ref>, which are become curious
+                    the ideas of its manners should be taken from the works of <ref target="people.html#FieldingHenry">Fielding</ref>. To himself they are
+                    valuable in the same light as the paintings of <ref target="people.html#HogarthWilliam">Hogarth</ref>, which are become curious
                     from exhibiting the modes and dresses of the last century, along with the
                     characteristic manners of the country, and the varied play of those passions and
                     feelings, to delineate which, with spirit and effect, belongs to the observer of
                     human nature in general. </p>
-            </div>
-        </body>
-    </text>
+         </div>
+      </body>
+   </text>
 </TEI>

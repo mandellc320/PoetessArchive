@@ -1,332 +1,568 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="main" level="a">Smollet</title>
-                <title type="subordinate" level="m">The British Novelists</title>
-                <author type="writer">
-                    <name>Anna Letitia Barbauld</name>
-                </author>
-                <respStmt>
-                    <resp>Editor</resp>
-                    <name xml:id="MW">Mary A. Waters</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Co-Editor</resp>
-                    <name xml:id="VW">Victoria Wynn</name>
-                </respStmt>
-                </titleStmt>
-            <publicationStmt>
-                <idno>SmolletBritNov1810</idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <title type="main" level="a">Smollet</title>
-                        <author type="writer">
-                            <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-                        </author>
-                    </analytic>
-                    <monogr>
-                        <title type="main" level="m">The British Novelists</title>
-                        <title type="subordinate">with an Essay and Prefaces,
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:PA="http://www.poetessarchive.org/#schema">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Smollet</title>
+            <title type="subordinate" level="m">The British Novelists</title>
+            <author type="writer">
+               <name>Anna Letitia Barbauld</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Co-Editor</resp>
+               <name xml:id="VW">Victoria Wynn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>SmolletBritNov1810</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false">
+               <analytic>
+                  <title type="main" level="a">Smollet</title>
+                  <author type="writer">
+                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The British Novelists</title>
+                  <title type="subordinate">with an Essay and Prefaces,
                             Biographical and Critical</title>
-                        <editor>
-                            <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-                        </editor>
-                        <imprint>
-                            <pubPlace>London</pubPlace>
-                            <publisher>F.C. and J. Rivington</publisher>
-                            <date when="1810">1810</date>
-                            <biblScope unit="vol">XXX</biblScope>
-                            <biblScope unit="pages">i-xviii</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: " for “," for “, ' for
-                        ‘, and ' for ’.</p>
-                    <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed.</p>
-                    <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                        keyboard</p>
-                    <p>Em-dashes have been rendered as &#8212;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts has been indicated as
-                        such, the content recorded in brackets.</p>
-                    <p>Compositors' catchwords and running titles have been silently eliminated.</p>
-                    <p>Long "s" (&#383;) has been silently modernized.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>£ has been used for £, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, etc., have
-                        been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <classDecl>
-                <taxonomy
-                    corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                    xml:id="g">
-                    <bibl>ARC Genre Categories, July 1, 2017</bibl>
-                    <category xml:id="g1">
-                        <catDesc>Advertisement</catDesc>
-                    </category>
-                    <category xml:id="g2">
-                        <catDesc>Animation</catDesc>
-                    </category>
-                    <category xml:id="g3">
-                        <catDesc>Bibliography</catDesc>
-                    </category>
-                    <category xml:id="g4">
-                        <catDesc>Catalog</catDesc>
-                    </category>
-                    <category xml:id="g5">
-                        <catDesc>Chronology</catDesc>
-                    </category>
-                    <category xml:id="g7">
-                        <catDesc>Citation</catDesc>
-                    </category>
-                    <category xml:id="g6">
-                        <catDesc>Collection</catDesc>
-                    </category>
-                    <category xml:id="g8">
-                        <catDesc>Correspondence</catDesc>
-                    </category>
-                    <category xml:id="g9">
-                        <catDesc>Criticism</catDesc>
-                    </category>
-                    <category xml:id="g10">
-                        <catDesc>Drama</catDesc>
-                    </category>
-                    <category xml:id="g11">
-                        <catDesc>Ephemera</catDesc>
-                    </category>
-                    <category xml:id="g12">
-                        <catDesc>Essay</catDesc>
-                    </category>
-                    <category xml:id="g13">
-                        <catDesc>Fiction</catDesc>
-                    </category>
-                    <category xml:id="g14">
-                        <catDesc>Film, Documentary</catDesc>
-                    </category>
-                    <category xml:id="g15">
-                        <catDesc>Film, Experimental</catDesc>
-                    </category>
-                    <category xml:id="g16">
-                        <catDesc>Film, Narrative</catDesc>
-                    </category>
-                    <category xml:id="g17">
-                        <catDesc>Film, Other</catDesc>
-                    </category>
-                    <category xml:id="g18">
-                        <catDesc>Historiography</catDesc>
-                    </category>
-                    <category xml:id="g19">
-                        <catDesc>Interview</catDesc>
-                    </category>
-                    <category xml:id="g20">
-                        <catDesc>Life Writing</catDesc>
-                    </category>
-                    <category xml:id="g21">
-                        <catDesc>Liturgy</catDesc>
-                    </category>
-                    <category xml:id="g22">
-                        <catDesc>Musical Analysis</catDesc>
-                    </category>
-                    <category xml:id="g23">
-                        <catDesc>Music, Other</catDesc>
-                    </category>
-                    <category xml:id="g24">
-                        <catDesc>Musical Work</catDesc>
-                    </category>
-                    <category xml:id="g25">
-                        <catDesc>Musical Score</catDesc>
-                    </category>
-                    <category xml:id="g26">
-                        <catDesc>Nonficition</catDesc>
-                    </category>
-                    <category xml:id="g27">
-                        <catDesc>Paratext</catDesc>
-                    </category>
-                    <category xml:id="g28">
-                        <catDesc>Performance</catDesc>
-                    </category>
-                    <category xml:id="g29">
-                        <catDesc>Philosophy</catDesc>
-                    </category>
-                    <category xml:id="g30">
-                        <catDesc>Photograph</catDesc>
-                    </category>
-                    <category xml:id="g31">
-                        <catDesc>Political Statement</catDesc>
-                    </category>
-                    <category xml:id="g32">
-                        <catDesc>Poetry</catDesc>
-                    </category>
-                    <category xml:id="g33">
-                        <catDesc>Religion</catDesc>
-                    </category>
-                    <category xml:id="g34">
-                        <catDesc>Reference Works</catDesc>
-                    </category>
-                    <category xml:id="g35">
-                        <catDesc>Review</catDesc>
-                    </category>
-                    <category xml:id="g36">
-                        <catDesc>Scripture</catDesc>
-                    </category>
-                    <category xml:id="g37">
-                        <catDesc>Sermon</catDesc>
-                    </category>
-                    <category xml:id="g38">
-                        <catDesc>Speech</catDesc>
-                    </category>
-                    <category xml:id="g39">
-                        <catDesc>Translation</catDesc>
-                    </category>
-                    <category xml:id="g40">
-                        <catDesc>Travel Writing</catDesc>
-                    </category>
-                    <category xml:id="g41">
-                        <catDesc>Unspecified</catDesc>
-                    </category>
-                    <category xml:id="g42">
-                        <catDesc>Visual Art</catDesc>
-                    </category>
-                </taxonomy>
-                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="f">
-                    <bibl>ARC Format Categories, July 1, 2017</bibl>
-                    <category xml:id='f1'>
-                        <catDesc>Codex</catDesc>
-                    </category>
-                    <category xml:id='f2'>
-                        <catDesc>Collection</catDesc>
-                    </category>
-                    <category xml:id='f3'>
-                        <catDesc>Dataset</catDesc>
-                    </category>
-                    <category xml:id='f4'>
-                        <catDesc>Drawing</catDesc>
-                    </category>
-                    <category xml:id='f5'>
-                        <catDesc>Illustration</catDesc>
-                    </category>
-                    <category xml:id='f6'>
-                        <catDesc>Interactive Resource</catDesc>
-                    </category>
-                    <category xml:id='f7'>
-                        <catDesc>Manuscript</catDesc>
-                    </category>
-                    <category xml:id='f8'>
-                        <catDesc>Map</catDesc>
-                    </category>
-                    <category xml:id='f9'>
-                        <catDesc>Moving Image</catDesc>
-                    </category>
-                    <category xml:id='f10'>
-                        <catDesc>Notated Music</catDesc>
-                    </category>
-                    <category xml:id='f11'>
-                        <catDesc>Page Proofs</catDesc>
-                    </category>
-                    <category xml:id='f12'>
-                        <catDesc>Pamphlet</catDesc>
-                    </category>
-                    <category xml:id='f13'>
-                        <catDesc>Periodical</catDesc>
-                    </category>
-                    <category xml:id='f14'>
-                        <catDesc>Physcial Object</catDesc>
-                    </category>
-                    <category xml:id='f15'>
-                        <catDesc>Roll</catDesc>
-                    </category>
-                    <category xml:id='f16'>
-                        <catDesc>Sheet</catDesc>
-                    </category>
-                    <category xml:id='f17'>
-                        <catDesc>Sound</catDesc>
-                    </category>
-                    <category xml:id='f18'>
-                        <catDesc>Still Image</catDesc>
-                    </category>
-                    <category xml:id='f19'>
-                        <catDesc>Typescript</catDesc>
-                    </category>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="#lcsh">
-                    <list type="simple">
-                        <item>Smollett, T. (Tobias), 1721-1771</item>
-                        <item>English literture</item>
-                        <item>History</item>
-                    </list>
-                </keywords>
-                <catRef target="#g9 #g12 #g20" scheme="#g"/>
-                <catRef target="#f1" scheme="#f"/>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change who="#MW" when="2016-09-15" n="4">
-                <label>Changed by</label>
-                <name>Mary A. Waters</name>
-                <list>
-                    <item>TEI encoding revision and editing revision</item>
-                </list>
-            </change>
-            <change who="#VW" when="2015-01-30" n="3">
-                <label>Changed by</label>
-                <name>Victoria Wynn</name>
-                <list>
-                    <item>TEI encoding and editing revision</item>
-                </list>
-            </change>
-            <change who="#VW" when="2014-06-21" n="2">
-                <label>Changed by</label>
-                <name>Victoria Wynn</name>
-                <list>
-                    <item>TEI encoding</item>
-                </list>
-            </change>
-            <change who="#MW" when="2014-06-15" n="1">
-                <label>Changed by</label>
-                <name>Mary A. Waters</name>
-                <list>
-                    <item>Created Edition</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="essay">
-                <head>
-                    <bibl>
-                        <author type="writer">
-                            <lb rendition="#center"/><name><ref target="people.html#BarbauldMrs"
-                                >Anna Letitia Barbauld</ref></name>
-                        </author>
-                        <title type="main" level="a"><ref target="people.html#SmollettTobias"
-                                >SMOLLET</ref>.<hi rendition="#sup"><note place="foot">
-                                    <title level="m"><hi rendition="#italics">The British Novelists;
+                  <editor role="editor">
+                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>F.C. and J. Rivington</publisher>
+                     <date when="1810">1810</date>
+                     <biblScope unit="vol">XXX</biblScope>
+                     <biblScope unit="pages">i-xviii</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+               <category xml:id="g72">
+                  <catDesc>literary criticism article</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one word before
+                            hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="ag">
+               <bibl>ARC Genre Categories, July 1, 2017</bibl>
+               <category xml:id="ag1">
+                  <catDesc>Advertisement</catDesc>
+               </category>
+               <category xml:id="ag2">
+                  <catDesc>Animation</catDesc>
+               </category>
+               <category xml:id="ag3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="ag4">
+                  <catDesc>Catalog</catDesc>
+               </category>
+               <category xml:id="ag5">
+                  <catDesc>Chronology</catDesc>
+               </category>
+               <category xml:id="ag7">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="ag6">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="ag8">
+                  <catDesc>Correspondence</catDesc>
+               </category>
+               <category xml:id="ag9">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="ag10">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="ag11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="ag12">
+                  <catDesc>Essay</catDesc>
+               </category>
+               <category xml:id="ag13">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="ag14">
+                  <catDesc>Film, Documentary</catDesc>
+               </category>
+               <category xml:id="ag15">
+                  <catDesc>Film, Experimental</catDesc>
+               </category>
+               <category xml:id="ag16">
+                  <catDesc>Film, Narrative</catDesc>
+               </category>
+               <category xml:id="ag17">
+                  <catDesc>Film, Other</catDesc>
+               </category>
+               <category xml:id="ag18">
+                  <catDesc>Historiography</catDesc>
+               </category>
+               <category xml:id="ag19">
+                  <catDesc>Interview</catDesc>
+               </category>
+               <category xml:id="ag20">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="ag21">
+                  <catDesc>Liturgy</catDesc>
+               </category>
+               <category xml:id="ag22">
+                  <catDesc>Musical Analysis</catDesc>
+               </category>
+               <category xml:id="ag23">
+                  <catDesc>Music, Other</catDesc>
+               </category>
+               <category xml:id="ag24">
+                  <catDesc>Musical Work</catDesc>
+               </category>
+               <category xml:id="ag25">
+                  <catDesc>Musical Score</catDesc>
+               </category>
+               <category xml:id="ag26">
+                  <catDesc>Nonficition</catDesc>
+               </category>
+               <category xml:id="ag27">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="ag28">
+                  <catDesc>Performance</catDesc>
+               </category>
+               <category xml:id="ag29">
+                  <catDesc>Philosophy</catDesc>
+               </category>
+               <category xml:id="ag30">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="ag31">
+                  <catDesc>Political Statement</catDesc>
+               </category>
+               <category xml:id="ag32">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="ag33">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="ag34">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="ag35">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="ag36">
+                  <catDesc>Scripture</catDesc>
+               </category>
+               <category xml:id="ag37">
+                  <catDesc>Sermon</catDesc>
+               </category>
+               <category xml:id="ag38">
+                  <catDesc>Speech</catDesc>
+               </category>
+               <category xml:id="ag39">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="ag40">
+                  <catDesc>Travel Writing</catDesc>
+               </category>
+               <category xml:id="ag41">
+                  <catDesc>Unspecified</catDesc>
+               </category>
+               <category xml:id="ag42">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+                      xml:id="f">
+               <bibl>ARC Format Categories, July 1, 2017</bibl>
+               <category xml:id="f1">
+                  <catDesc>Codex</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>Dataset</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>Drawing</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>Illustration</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>Interactive Resource</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>Map</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>Moving Image</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>Notated Music</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>Page Proofs</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>Pamphlet</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>Periodical</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>Physcial Object</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>Roll</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>Sheet</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>Sound</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>Still Image</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>Typescript</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Smollett, T. (Tobias), 1721-1771</item>
+                  <item>English literture</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#ag9 #ag12 #ag20" scheme="#ag"/>
+            <catRef target="#f1" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef scheme="#g" target="#g72 #g30 #g3 "/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20190110" n="5">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+            </list>
+         </change>
+         <change who="#MW" when="2016-09-15" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>TEI encoding revision and editing revision</item>
+            </list>
+         </change>
+         <change who="#VW" when="2015-01-30" n="3">
+            <label>Changed by</label>
+            <name>Victoria Wynn</name>
+            <list type="simple">
+               <item>TEI encoding and editing revision</item>
+            </list>
+         </change>
+         <change who="#VW" when="2014-06-21" n="2">
+            <label>Changed by</label>
+            <name>Victoria Wynn</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="2014-06-15" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay" org="uniform" sample="complete" part="N">
+            <head>
+               <bibl default="false">
+                  <author type="writer">
+                     <lb rendition="#center"/>
+                     <name>
+                        <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">
+                     <ref target="people.html#SmollettTobias">SMOLLET</ref>.<hi rendition="#sup">
+                        <note place="foot" anchored="true">
+                           <title level="m">
+                              <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
                                             by Mrs. <ref target="people.html#BarbauldMrs">Mrs.
-                                                Barbauld</ref></hi></title>, 50 Vols. (London:
+                                                Barbauld</ref>
+                              </hi>
+                           </title>, 50 Vols. (London:
                                     Printed for F.C. and J. Rivington; W. Otridge and Son; A.
                                     Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
                                     Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
@@ -337,46 +573,52 @@
                                     Harding; R. Phillips; J. Mawman; J. Booker; J. Asperne; R.
                                     Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.; W.
                                     Creech, Edinburgh; and Wilson and Son, York, 1810), 30: i-xviii.
-                                    Victoria Wynn and Mary A. Waters co-edited this essay for <hi
-                                        rendition="#italics">The Criticism Archive</hi> with
+                                    Victoria Wynn and Mary A. Waters co-edited this essay for <hi rendition="#italics">The Criticism Archive</hi> with
                                     assistance from Christina Bartlett, Emily Graves, and Joshua
-                                    McKnight. </note></hi></title>
-                    </bibl>
-                </head>
-                <p rendition="#pnoindent"><ref target="people.html#SmollettTobias"><hi
-                            rendition="#largest">T</hi><hi rendition="#smcaps">OBIAS</hi>
-                        <hi rendition="#large"> S</hi><hi rendition="#smcaps">MOLLET</hi></ref>, one
+                                    McKnight. </note>
+                     </hi>
+                  </title>
+               </bibl>
+            </head>
+            <p rendition="#pnoindent">
+               <ref target="people.html#SmollettTobias">
+                  <hi rendition="#largest">T</hi>
+                  <hi rendition="#smcaps">OBIAS</hi>
+                  <hi rendition="#large"> S</hi>
+                  <hi rendition="#smcaps">MOLLET</hi>
+               </ref>, one
                     of the most prolific as well as popular of our novel-writers, was born in the
                     year 1721, at the farm of Dalquhurn on the banks of the Leven, amidst some of
                     the most picturesque scenery of Scotland, to the beauties of which he afterwards
-                    paid an elegant poetical tribute.<hi rendition="#sup"><note place="foot"><hi
-                                rendition="#italics"><title>The Tears of Scotland</title></hi>
-                            (1746?).</note></hi> His father was the fourth son of <ref
-                        target="people.html#SirJamesSmollett">Sir James Smollet</ref>, of Bonhill:
-                    he married, without his father&apos;s consent, a lady of no fortune; and dying
+                    paid an elegant poetical tribute.<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <hi rendition="#italics">
+                        <title>The Tears of Scotland</title>
+                     </hi>
+                            (1746?).</note>
+               </hi> His father was the fourth son of <ref target="people.html#SirJamesSmollett">Sir James Smollet</ref>, of Bonhill:
+                    he married, without his father's consent, a lady of no fortune; and dying
                     soon after the birth of his youngest son, his family, consisting of two sons and
                     a daughter, were left entirely dependent on the bounty of their grandfather for
                     a subsistence. The eldest, <ref target="people.html#SmollettJames">James</ref>,
                     went into the army. His regiment was ordered abroad; and the transport in which
                     he was, with part of the troops, was unfortunately lost off the coast of
-                    America. He is mentioned as a young man of great promise, and Dr. <ref
-                        target="people.html#SmollettTobias">Smollet</ref> always preserved towards
+                    America. He is mentioned as a young man of great promise, and Dr. <ref target="people.html#SmollettTobias">Smollet</ref> always preserved towards
                     him an affectionate remembrance.</p>
-                <p><ref target="people.html#SmollettTobias">Tobias</ref>, the subject of this
+            <p>
+               <ref target="people.html#SmollettTobias">Tobias</ref>, the subject of this
                     memoir, was put to school at Dumbarton, where it is recorded that the first
-                    efforts of his genius were shown in a copy of verses to the memory of <ref
-                        target="people.html#WallaceWilliam">Wallace</ref>, <fw type="vol"
-                        rendition="#smcaps" place="bottom-left">vol. xxx.</fw>
-                    <milestone unit="signature" n="a" rendition="#center"/>
-                    <pb n="ii"/> several of whose adventures took place in the vicinity; for he had
+                    efforts of his genius were shown in a copy of verses to the memory of <ref target="people.html#WallaceWilliam">Wallace</ref>, <fw type="vol" rendition="#smcaps" place="bottom-left">vol. xxx.</fw>
+               <milestone unit="signature" n="a" rendition="#center"/>
+               <pb n="ii"/> several of whose adventures took place in the vicinity; for he had
                     always a large share of that national spirit by which his countrymen are
-                    generally distinguished. Young <ref target="people.html#SmollettTobias"
-                        >Tobias</ref>, however, was not always in the heroic mood. Many stories are
+                    generally distinguished. Young <ref target="people.html#SmollettTobias">Tobias</ref>, however, was not always in the heroic mood. Many stories are
                     told of his exploits; and many acts of boyish mischief and frolic, recorded in
-                            <title><hi rendition="#italics">Roderick Random</hi></title>, are
+                            <title>
+                  <hi rendition="#italics">Roderick Random</hi>
+               </title>, are
                     supposed to be supplied from the memory of his own early years. From Dumbarton
-                    he was removed to Glasgow, where he was apprenticed to a surgeon, <ref
-                        target="people.html#GordonJohn">Mr. John Gordon</ref>, and at the same time
+                    he was removed to Glasgow, where he was apprenticed to a surgeon, <ref target="people.html#agordonJohn">Mr. John Gordon</ref>, and at the same time
                     attended the University lectures of anatomy and medicine. At Glasgow he began to
                     display that vein of humour, and propensity to satire, which afterwards so
                     strongly distinguished him, at the expense of the circles to which he had
@@ -384,37 +626,38 @@
                     graver sort, whose exterior of piety he represented, possibly with truth, as
                     only worn in compliance with the costume of the country. This, as may be
                     supposed, gave great offence.</p>
-                <p>His <ref target="people.html#SirJamesSmollett">grandfather</ref> died while he
+            <p>His <ref target="people.html#SirJamesSmollett">grandfather</ref> died while he
                     was at Glasgow: and though he had maintained the family in a decent manner while
                     he lived, and would probably have continued so to do, he made little or no
-                    provision for them at his death; and <ref target="people.html#SmollettTobias"
-                        >Smollet</ref> on this event, his apprenticeship being finished, came up to
+                    provision for them at his death; and <ref target="people.html#SmollettTobias">Smollet</ref> on this event, his apprenticeship being finished, came up to
                     London to seek his fortune. On this occasion he was in want of money and
                     recommendations; his friends supplied him very sparingly with the former, but
-                    were uncommonly liberal, he used to observe, in the latter article. <pb n="iii"
-                    /> He soon got a situation as surgeon&apos;s mate in a ship of the line, and
+                    were uncommonly liberal, he used to observe, in the latter article. <pb n="iii"/> He soon got a situation as surgeon's mate in a ship of the line, and
                     acted as such in the unfortunate expedition to Carthagena which took place in
-                    the year 1741.<hi rendition="#sup"><note place="foot">This disastrous battle
+                    the year 1741.<hi rendition="#sup">
+                  <note place="foot" anchored="true">This disastrous battle
                             between British and Spanish forces over territory now part of
                             present-day Columbia was decided more by disease and demoralization that
                             by military prowess. British commander Admiral Edward Vernon was blamed
                             for failing to create an effectively cooperative British leadership that
-                            could respond to the challenges at hand.</note></hi>. Of this he
+                            could respond to the challenges at hand.</note>
+               </hi>. Of this he
                     published an account, joining with those who threw great blame on the commander.
                     The scenes he was here witness to made the strongest impression on his mind, and
-                    he has given them with great strength of colouring in his <title><hi
-                            rendition="#italics">Roderick Random</hi></title>. Whoever reads that
+                    he has given them with great strength of colouring in his <title>
+                  <hi rendition="#italics">Roderick Random</hi>
+               </title>. Whoever reads that
                     book will not wonder that he was disgusted with the sea-service, which he soon
                     quitted, though he was certain of promotion, and resided some time in Jamaica,
-                    where he married a lady of the name of <ref
-                        target="people.html#SmollettAnneLassells">Lascelles</ref>. He returned to
+                    where he married a lady of the name of <ref target="people.html#SmollettAnneLassells">Lascelles</ref>. He returned to
                     London soon after the year 1745, and became writer by profession. </p>
-                <p>The talents of <ref target="people.html#SmollettTobias">Smollet</ref> were
+            <p>The talents of <ref target="people.html#SmollettTobias">Smollet</ref> were
                     vigorous, his powers of application strong, his execution rapid, and there were
                     few departments of general literature in which at one time or other he did not
                     engage. Poetry, history, novel-writing, travels, criticism, by turns employed
-                    his pen. At the age of eighteen he had written a play called <title><hi
-                            rendition="#italics">The Regicide</hi></title>. The subject was the
+                    his pen. At the age of eighteen he had written a play called <title>
+                  <hi rendition="#italics">The Regicide</hi>
+               </title>. The subject was the
                     assassination of <ref target="people.html#JamesIKingofScotland">James the First of Scotland</ref>, the affecting story of which, as
                     related by <ref target="people.html#BuchananGeorge">Buchanan</ref>, had deeply
                     impressed his young mind. It was afterwards offered to the managers of the
@@ -422,74 +665,104 @@
                     by which unsuccessful candidates have not unfrequently vindicated the sagacity
                     of the managers. He does not seem to have studied euphony in the piece, if one
                     may judge by the following speci-<milestone unit="signature" n="a 2" rendition="#center"/>
-                    <pb n="iv"/> men,&#8212;&quot;<hi rendition="#italics">While grimly smiling
-                        Grime</hi>.&quot;<hi rendition="#sup"><note place="foot"><hi
-                                rendition="#italics"><title>The Regicide</title></hi>
-                        V.v.23.</note></hi> He also wrote an opera, which was rejected by <ref
-                        target="people.html#RichJohn">Rich</ref>; and the querulous disposition
+               <pb n="iv"/> men,—"<hi rendition="#italics">While grimly smiling
+                        Grime</hi>."<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <hi rendition="#italics">
+                        <title>The Regicide</title>
+                     </hi>
+                        V.v.23.</note>
+               </hi> He also wrote an opera, which was rejected by <ref target="people.html#RichJohn">Rich</ref>; and the querulous disposition
                     which always made a part of his nature, poured itself out in complaints, which
                     the good sense he possessed would have told him, in any case but his own, were
                     little interesting to any but the disappointed author. </p>
-                <p>In poetry the talents of <ref target="people.html#SmollettTobias">Smollet</ref>
+            <p>In poetry the talents of <ref target="people.html#SmollettTobias">Smollet</ref>
                     were more respectable; he is the author of several pretty and elegant pieces,
-                    some of which, as <title><hi rendition="#italics">The Ode to Leven
-                        Water</hi></title>, <title><hi rendition="#italics">The Tears of
-                            Scotland</hi></title>, <title><hi rendition="#italics">Verses to a young
-                            Lady playing</hi></title>, are written with tenderness and delicacy;
-                    while the <title><hi rendition="#italics">Ode to Independence</hi></title>
+                    some of which, as <title>
+                  <hi rendition="#italics">The Ode to Leven
+                        Water</hi>
+               </title>, <title>
+                  <hi rendition="#italics">The Tears of
+                            Scotland</hi>
+               </title>, <title>
+                  <hi rendition="#italics">Verses to a young
+                            Lady playing</hi>
+               </title>, are written with tenderness and delicacy;
+                    while the <title>
+                  <hi rendition="#italics">Ode to Independence</hi>
+               </title>
                     exhibits a manly vigour of thought, perhaps more analogous to the general tone
-                    of his mind. His <title><hi rendition="#italics">Tears of Scotland</hi></title>
+                    of his mind. His <title>
+                  <hi rendition="#italics">Tears of Scotland</hi>
+               </title>
                     was inspired by a generous sentiment for his country on occasion of the
                     severities exercised there after the rebellion of 1745. He felt strongly on the
                     occasion; for, in aid of his patriotism, he was a Tory if not a Jacobite; and
                     when he was advised not to give any more copies of his Ode, lest it might hurt
                     his interest, his only reply was the adding the following animated stanza:
-                            <quote><lg type="stanza">
-                            <l>While the warm blood bedews my veins,</l>
-                            <l>And unimpair&apos;d remembrance reigns,</l>
-                            <l>Remembrance of my country&apos;s fate</l>
-                            <l>Within my filial breast shall beat;</l>
-                            <l>And spite of the insulting foe,</l>
-                            <l>My sympathizing verse shall flow,</l>
-                            <l>&quot;Mourn, hapless Caledonia, mourn</l>
-                            <l>Thy banish&apos;d peace, thy laurels torn.&quot;<hi rendition="#sup"
-                                        ><note place="foot">Lines 49-56 of <ref
-                                            target="people.html#SmollettTobias">Tobias
-                                        Smollet</ref>&apos;s poem <title><hi rendition="#italics"
-                                                >The Tears of Scotland</hi></title>
-                                    (1746).</note></hi></l>
-                        </lg></quote></p>
-                <p>He also wrote two Satirical Epistles,<hi rendition="#sup"><note place="foot"
-                                    ><title><hi rendition="#italics">Advice: A Satire</hi></title>
-                            (1746) and <title><hi rendition="#italics">Reproof: A
-                                Satire</hi></title> (1747).</note></hi> with <pb n="v"/> something
-                    of the strength and also the coarseness of <ref
-                        target="people.html#ChurchillCharles">Churchill</ref>. They were well
+                            <quote>
+                  <lg type="stanza" org="uniform" sample="complete" part="N">
+                     <l part="N">While the warm blood bedews my veins,</l>
+                     <l part="N">And unimpair'd remembrance reigns,</l>
+                     <l part="N">Remembrance of my country's fate</l>
+                     <l part="N">Within my filial breast shall beat;</l>
+                     <l part="N">And spite of the insulting foe,</l>
+                     <l part="N">My sympathizing verse shall flow,</l>
+                     <l part="N">"Mourn, hapless Caledonia, mourn</l>
+                     <l part="N">Thy banish'd peace, thy laurels torn."<hi rendition="#sup">
+                           <note place="foot" anchored="true">Lines 49-56 of <ref target="people.html#SmollettTobias">Tobias
+                                        Smollet</ref>'s poem <title>
+                                 <hi rendition="#italics">The Tears of Scotland</hi>
+                              </title>
+                                    (1746).</note>
+                        </hi>
+                     </l>
+                  </lg>
+               </quote>
+            </p>
+            <p>He also wrote two Satirical Epistles,<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <title>
+                        <hi rendition="#italics">Advice: A Satire</hi>
+                     </title>
+                            (1746) and <title>
+                        <hi rendition="#italics">Reproof: A
+                                Satire</hi>
+                     </title> (1747).</note>
+               </hi> with <pb n="v"/> something
+                    of the strength and also the coarseness of <ref target="people.html#ChurchillCharles">Churchill</ref>. They were well
                     calculated to raise him enemies. </p>
-                <p>In 1748 <ref target="people.html#SmollettTobias">Smollet</ref> began his career
-                    of a novel-writer by publishing <title><hi rendition="#italics">The Life and
-                            Adventures of Roderick Random</hi></title>, a work replete with humour
+            <p>In 1748 <ref target="people.html#SmollettTobias">Smollet</ref> began his career
+                    of a novel-writer by publishing <title>
+                  <hi rendition="#italics">The Life and
+                            Adventures of Roderick Random</hi>
+               </title>, a work replete with humour
                     and character, for a long time universally read by novel-readers, and still a
-                    favourite, as are all <ref target="people.html#SmollettTobias"
-                    >Smollet</ref>&apos;s, with those who can overlook their grossness, vulgarity,
+                    favourite, as are all <ref target="people.html#SmollettTobias">Smollet</ref>'s, with those who can overlook their grossness, vulgarity,
                     and licentious morals. <ref target="people.html#SmollettTobias">Smollet</ref>
                     seems to have taken <ref target="people.html#LeSageAlain">Le Sage</ref> in his
-                            <title><hi rendition="#italics">Gil Blas</hi></title>, and <ref
-                        target="people.html#Scarron">Scarron</ref> in his <title><hi
-                            rendition="#italics">Roman Comique</hi></title>, for his models. </p>
-                <p><title><hi rendition="#italics">Roderick Random</hi></title>, like <title><hi
-                            rendition="#italics">Gil Blas</hi></title>, has little or nothing of
+                            <title>
+                  <hi rendition="#italics">Gil Blas</hi>
+               </title>, and <ref target="people.html#Scarron">Scarron</ref> in his <title>
+                  <hi rendition="#italics">Roman Comique</hi>
+               </title>, for his models. </p>
+            <p>
+               <title>
+                  <hi rendition="#italics">Roderick Random</hi>
+               </title>, like <title>
+                  <hi rendition="#italics">Gil Blas</hi>
+               </title>, has little or nothing of
                     regular plot, and no interest is excited for the hero, whose name serves to
                     string together a number of adventures. This work is in a great measure the
-                    history of the author&apos;s own life. The novel opens with the story of a young
+                    history of the author's own life. The novel opens with the story of a young
                     couple turned out of doors by their father on account of an imprudent match, and
                     their consequent distress. It is natural and affecting. The cool selfish
                     character of the parent, the scene of the female relations besieging his
                     deathbed, the opening of the will, and the disappointment of the gaping cousins,
-                    are all admirably drawn, and probably contain much of the author&apos;s own
-                    story on the death of his <ref target="people.html#SirJamesSmollett"
-                        >grandfather</ref>. The character of a British tar<hi rendition="#sup"><note
-                            place="foot">Slang for a common sailor.</note></hi> is portrayed in that
+                    are all admirably drawn, and probably contain much of the author's own
+                    story on the death of his <ref target="people.html#SirJamesSmollett">grandfather</ref>. The character of a British tar<hi rendition="#sup">
+                  <note place="foot" anchored="true">Slang for a common sailor.</note>
+               </hi> is portrayed in that
                     of Tom Bowling, uncle to the hero of the piece. It has been the original of most
                     sailor characters which have been since exhibited. He is drawn brave, blunt,
                     generous, enthusiastically fond of his profession, and with <pb n="vi"/> a
@@ -498,7 +771,7 @@
                     of the will, he walks away with his nephew, indignant that nothing had been left
                     him. Full of vexation, he quickens his pace, and walks so fast that the poor lad
                     cannot keep up with him; upon which he calls out to him with a cross tone,
-                    &quot;What! must I bring-to every moment for you, you lazy dog?&quot; his anger
+                    "What! must I bring-to every moment for you, you lazy dog?" his anger
                     thus venting itself on the very person on whose account that anger was excited.
                     Into this novel the author has introduced an account of the expedition to
                     Carthagena, and has given a strong and disgusting picture of the manner of
@@ -512,146 +785,160 @@
                     Captain Whiffle was a particular nobleman. Much of the work is filled up with
                     low jokes, and laughable stories, such as, one may suppose, had been circulated
                     in a club over a bottle. Some incidental particulars mark the state of
-                    accommodations at that time. Roderick Random comes to London with the <hi
-                        rendition="#italics">pack-horses</hi>, there <pb n="vii"/> being then no
-                    stage waggon, and the inventory of his goods and linen was very probably <ref
-                        target="people.html#SmollettTobias">Smollet</ref>&apos;s own.</p>
-                <p>Towards the hero of this tale the reader feels little interest; but after he has
+                    accommodations at that time. Roderick Random comes to London with the <hi rendition="#italics">pack-horses</hi>, there <pb n="vii"/> being then no
+                    stage waggon, and the inventory of his goods and linen was very probably <ref target="people.html#SmollettTobias">Smollet</ref>'s own.</p>
+            <p>Towards the hero of this tale the reader feels little interest; but after he has
                     been led through a variety of adventures, in which he exhibits as little of the
                     amiable qualities as of the more respectable ones, the author, according to the
                     laudable custom of novel-writers, leaves him in possession of a beautiful wife
                     and a good estate.</p>
-                <p>In the summer of 1750 Dr. <ref target="people.html#SmollettTobias">Smollet</ref>
+            <p>In the summer of 1750 Dr. <ref target="people.html#SmollettTobias">Smollet</ref>
                     took a trip to Paris, and laid in a fund for a new display of character in his
-                            <title><hi rendition="#italics">Peregrine Pickle</hi></title>. This is a
+                            <title>
+                  <hi rendition="#italics">Peregrine Pickle</hi>
+               </title>. This is a
                     work even more faulty than the former in its violation of decency and good
                     morals. It has two or three characters of sailors not devoid of humour, though
                     inferior to his first sketch of Tom Bowling. Commodore Trunnion is so rough and
-                    bearish, as scarcely to be like any thing human. He is the Caliban of <ref
-                        target="people.html#SmollettTobias">Smollet</ref>. The wife is still more
+                    bearish, as scarcely to be like any thing human. He is the Caliban of <ref target="people.html#SmollettTobias">Smollet</ref>. The wife is still more
                     overcharged. Peregrine himself is a proud, disagreeable, ungrateful boy;
                     vicious, as soon as he could know what vice was, and who had deserved to be
                     hanged long before the end of the first volume. The most entertaining and
-                    original part of <title><hi rendition="#italics">Peregrine</hi></title> is the
+                    original part of <title>
+                  <hi rendition="#italics">Peregrine</hi>
+               </title> is the
                     account of a classical feast, supposed to have been held by a learned physician
                     and other gentlemen, after the manner of the ancients. In this there is humour,
-                    and a display of learning, though in the former it is inferior to Scriblerus.<hi
-                        rendition="#sup"><note place="foot">Psuedonymous author of <hi
-                                rendition="#italics">The Memoirs of Martinus Scriblerus</hi> and
+                    and a display of learning, though in the former it is inferior to Scriblerus.<hi rendition="#sup">
+                  <note place="foot" anchored="true">Psuedonymous author of <hi rendition="#italics">The Memoirs of Martinus Scriblerus</hi> and
                             other satirical works. The authors behind the name were members of The
-                            Scriblers Club, including but not limited to: <ref
-                                target="people.html#SwiftJonathan">Jonathan Swift</ref>, <ref
-                                target="people.html#PopeAlexander">Alexander Pope</ref>, <ref
-                                target="people.html#GayJohn">John Gay</ref>, <ref
-                                target="people.html#ArbuthnotJohn">John Arbuthnot</ref>, and <ref
-                                target="people.html#ParnellThomas">Thomas Parnell</ref>.</note></hi>
+                            Scriblers Club, including but not limited to: <ref target="people.html#SwiftJonathan">Jonathan Swift</ref>, <ref target="people.html#PopeAlexander">Alexander Pope</ref>, <ref target="people.html#agayJohn">John Gay</ref>, <ref target="people.html#ArbuthnotJohn">John Arbuthnot</ref>, and <ref target="people.html#ParnellThomas">Thomas Parnell</ref>.</note>
+               </hi>
                     Dr. <ref target="people.html#AkensideMark">Akenside</ref> was meant to be marked
                     out by the physician, and a painter whom he met at Paris furnished the character
                     of Pallet.</p>
-                <pb n="viii"/>
-                <p>The author has in this work shown his predilection for the party of the <ref
-                        target="people.html#CharlesEdwardPrince">Stuart</ref>s, by introducing in a
+            <pb n="viii"/>
+            <p>The author has in this work shown his predilection for the party of the <ref target="people.html#CharlesEdwardPrince">Stuart</ref>s, by introducing in a
                     touching manner some Scottish gentlemen under exile for having engaged in the
                     rebellion of 1745, whom Peregrine is supposed to meet at Boulogne, and who go
                     every day to the sea-side to gaze with fond affection on the white cliffs of
-                    Britain, which they were never more to behold but at a distance. This Dr. <ref
-                        target="people.html#MooreEdward">Moore</ref> mentions as a real incident he
-                    was himself witness to, being with <ref target="people.html#SmollettTobias"
-                        >Smollet</ref> at the time. Many strictures on the government and manners of
+                    Britain, which they were never more to behold but at a distance. This Dr. <ref target="people.html#MooreEdward">Moore</ref> mentions as a real incident he
+                    was himself witness to, being with <ref target="people.html#SmollettTobias">Smollet</ref> at the time. Many strictures on the government and manners of
                     France are introduced into this work; some of them just, but tinged with that
                     prejudice against French manners which he had deeply imbibed, and which showed
                     itself afterwards in his travels.</p>
-                <p>
-                    <title><hi rendition="#italics">The Memoirs of a Lady of Pleasure</hi></title>,
+            <p>
+               <title>
+                  <hi rendition="#italics">The Memoirs of a Lady of Pleasure</hi>
+               </title>,
                         <ref target="people.html#VaneFrancesAnne">Lady Vane</ref>, written by
                     herself, are introduced into this work. They excited interest at the time, the
                     lady being them much talked of, but can only now raise astonishment at the
                     assurance which could give such a life without compunction.</p>
-                <p> It is probable that <ref target="people.html#SmollettTobias">Smollet</ref> had
+            <p> It is probable that <ref target="people.html#SmollettTobias">Smollet</ref> had
                     been struck with the objections which must have been made to these two novels,
                     that no poetical justice is exercised on the characters; for in his next piece,
-                            <title><hi rendition="#italics">Count Fathom</hi></title>, he has
+                            <title>
+                  <hi rendition="#italics">Count Fathom</hi>
+               </title>, he has
                     exhibited, as the hero of his piece, a vicious character, who, after going
                     through many scenes of triumphant villany, is detected and punished: but the
                     narration is far from pleasing; knavery is not dignified enough to interest us
-                    by its fall. There are more serious characters in this piece, and he has <pb
-                        n="ix"/> attempted scenes of tenderness and exalted feeling, but with little
+                    by its fall. There are more serious characters in this piece, and he has <pb n="ix"/> attempted scenes of tenderness and exalted feeling, but with little
                     success. Strong humour he possessed, but grace and delicacy were foreign to his
                     pencil. He could not draw an interesting female character. But in his own way,
-                    the picture of Count Fathom&apos;s mother, the follower of a camp, is very
+                    the picture of Count Fathom's mother, the follower of a camp, is very
                     striking. It is impossible to contemplate her going about, stripping the dying
                     and the dead, with all the coolness of a mind long hardened by scenes of misery,
-                    without a thrill of horror. Count Fathom&apos;s adventure in the wood, where he
+                    without a thrill of horror. Count Fathom's adventure in the wood, where he
                     is benighted, and narrowly escapes being murdered by ruffians, is exceedingly
                     well told, and a man must have strong nerves to read it without shuddering.
                     There is less of humour in this than in his two former works; but the story of
                     the sharper, who introduces himself to a gaming-table as a boisterous, ignorant
                     country squire, and takes in the knowing ones, is very amusing.</p>
-                <p><ref target="people.html#SmollettTobias">Smollet</ref>&apos;s next publication
-                    was a translation of <title><hi rendition="#italics">Don Quixote</hi></title>,
+            <p>
+               <ref target="people.html#SmollettTobias">Smollet</ref>'s next publication
+                    was a translation of <title>
+                  <hi rendition="#italics">Don Quixote</hi>
+               </title>,
                     generally esteemed the best we have, though some accused him of not having had
                     sufficient acquaintance with the language of the original to do it complete
-                    justice. He also translated <title><hi rendition="#italics">Gil
-                        Blas</hi></title>. </p>
-                <p>Dr. <ref target="people.html#SmollettTobias">Smollet</ref> had by this time
+                    justice. He also translated <title>
+                  <hi rendition="#italics">Gil
+                        Blas</hi>
+               </title>. </p>
+            <p>Dr. <ref target="people.html#SmollettTobias">Smollet</ref> had by this time
                     entirely given up the practice of physic. He made a tour to Scotland to visit
                     his relations and friends, particularly his mother, to whom he introduced
                     himself as a stranger. She was a woman of strong sense, and a great share of
                     humour, which she retained to the end of life. She did not know him at first;
-                    but as he could not entirely keep <fw type="vol" rendition="#smcaps"
-                        place="bottom-left">vol. xxx.</fw>
-                    <milestone unit="signature" n="b" rendition="#center"/>
-                    <pb n="x"/> his countenance, she threw her arms about his neck, saying,
-                    &quot;Ah! my son, your old roguish smile has betrayed you at once.&quot;</p>
-                <p>On his return to London he engaged in <title><hi rendition="#italics">The
-                            Critical Review</hi></title>,<hi rendition="#sup"><note place="foot"
-                                    ><title><hi rendition="#italics">The Critical
-                                Review</hi></title> was founded by Smollett in 1756 and edited by
-                            him until 1763. It continued publication thereafter until 1817. Originally conceived of as a Tory-leaning rival to the more Whiggish <hi
-                                rendition="#italics"><ref target="people.html#ReviewMonthly">Monthly
-                                    Review</ref><title/></hi>, the <title><hi rendition="#italics">The Critical
-                                        Review</hi></title> never attained the stature
-                            enjoyed by the <hi rendition="#italics"><ref
-                                    target="people.html#ReviewMonthly">Monthly
-                                Review</ref><title/></hi> during its first half century
-                                of operation.</note></hi> the chief direction of which was in his hands for a number of
-                    years.&#8212;Reviewing is at best but an invidious office, and <ref
-                        target="people.html#SmollettTobias">Smollet</ref>&apos;s temper was not
+                    but as he could not entirely keep <fw type="vol" rendition="#smcaps" place="bottom-left">vol. xxx.</fw>
+               <milestone unit="signature" n="b" rendition="#center"/>
+               <pb n="x"/> his countenance, she threw her arms about his neck, saying,
+                    "Ah! my son, your old roguish smile has betrayed you at once."</p>
+            <p>On his return to London he engaged in <title>
+                  <hi rendition="#italics">The
+                            Critical Review</hi>
+               </title>,<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <title>
+                        <hi rendition="#italics">The Critical
+                                Review</hi>
+                     </title> was founded by Smollett in 1756 and edited by
+                            him until 1763. It continued publication thereafter until 1817. Originally conceived of as a Tory-leaning rival to the more Whiggish <hi rendition="#italics">
+                        <ref target="people.html#ReviewMonthly">Monthly
+                                    Review</ref>
+                        <title/>
+                     </hi>, the <title>
+                        <hi rendition="#italics">The Critical
+                                        Review</hi>
+                     </title> never attained the stature
+                            enjoyed by the <hi rendition="#italics">
+                        <ref target="people.html#ReviewMonthly">Monthly
+                                Review</ref>
+                        <title/>
+                     </hi> during its first half century
+                                of operation.</note>
+               </hi> the chief direction of which was in his hands for a number of
+                    years.—Reviewing is at best but an invidious office, and <ref target="people.html#SmollettTobias">Smollet</ref>'s temper was not
                     formed to conciliate. It was the means of bringing him into continual quarrels.
-                    One of these was with Dr. <ref target="people.html#GraingerJames"
-                    >Grainger</ref>, whose translation of <hi rendition="#italics"
-                        ><ref target="people.html#Tibullus">Tibullus</ref></hi> he had reviewed with some acrimony.</p>
-                <p> A little before this he had drawn upon himself a prosecution for an assault, in
+                    One of these was with Dr. <ref target="people.html#agraingerJames">Grainger</ref>, whose translation of <hi rendition="#italics">
+                  <ref target="people.html#Tibullus">Tibullus</ref>
+               </hi> he had reviewed with some acrimony.</p>
+            <p> A little before this he had drawn upon himself a prosecution for an assault, in
                     which he had caned a person who had injured him. This chastisement was magnified
                     into an assassination. He was honourably acquitted; but he gave vent to his
-                    indignation in a very angry letter to the prosecutor&apos;s counsel.</p>
-                <p> Another scrape he got into was on account of some strictures in the same Review
+                    indignation in a very angry letter to the prosecutor's counsel.</p>
+            <p> Another scrape he got into was on account of some strictures in the same Review
                     on the conduct of <ref target="people.html#KnowlesCharles">Admiral
                     Knowles</ref>, on occasion of a pamphlet published by him relative to a secret
                     expedition which had failed. For this he was sentenced to a fine of a hundred
-                    pounds and three months imprisonment in the King&apos;s Bench. Dr. <ref
-                        target="people.html#SmollettTobias">Smollet</ref> showed he had not
-                    forgotten this when he wrote his <title><hi rendition="#italics">History of
-                            England</hi></title>, in which he mentions <ref
-                        target="people.html#KnowlesCharles">Admiral Knowles</ref> with great
+                    pounds and three months imprisonment in the King's Bench. Dr. <ref target="people.html#SmollettTobias">Smollet</ref> showed he had not
+                    forgotten this when he wrote his <title>
+                  <hi rendition="#italics">History of
+                            England</hi>
+               </title>, in which he mentions <ref target="people.html#KnowlesCharles">Admiral Knowles</ref> with great
                     contempt.</p>
-                <p> About this time he published another novel, <hi rendition="#italics">The
-                        Adventures of Sir Launcelot Greaves</hi>. It is an imitation of <title><hi
-                            rendition="#italics">Don Quixote</hi></title>, and is but a flat
+            <p> About this time he published another novel, <hi rendition="#italics">The
+                        Adventures of Sir Launcelot Greaves</hi>. It is an imitation of <title>
+                  <hi rendition="#italics">Don Quixote</hi>
+               </title>, and is but a flat
                     performance.</p>
-                <pb n="xi"/>
-                <p> While <ref target="people.html#SmollettTobias">Smollet</ref> lay in the
-                    King&apos;s Bench, <ref target="people.html#GarrickDavid">Garrick</ref>
-                    generously brought out a farce of his called <title><hi rendition="#italics">The
-                            Reprisals</hi></title>, on which the author&apos;s former animosities
-                    against the manager were buried in oblivion; and he tells <ref
-                        target="people.html#GarrickDavid"> Garrick</ref> in a letter, that he hopes
+            <pb n="xi"/>
+            <p> While <ref target="people.html#SmollettTobias">Smollet</ref> lay in the
+                    King's Bench, <ref target="people.html#agarrickDavid">Garrick</ref>
+                    generously brought out a farce of his called <title>
+                  <hi rendition="#italics">The
+                            Reprisals</hi>
+               </title>, on which the author's former animosities
+                    against the manager were buried in oblivion; and he tells <ref target="people.html#agarrickDavid"> Garrick</ref> in a letter, that he hopes
                     to have an opportunity of convincing him that his gratitude is at least as warm
                     as any other of his passions.</p>
-                <p> As <ref target="people.html#SmollettTobias">Smollet</ref> wrote neither for
+            <p> As <ref target="people.html#SmollettTobias">Smollet</ref> wrote neither for
                     amusement nor for fame, but for subsistence, he soon engaged in another work,
-                    which, though hastily composed, had a large sale, namely, <title><hi
-                            rendition="#italics">A History of England</hi></title>, in four volumes
+                    which, though hastily composed, had a large sale, namely, <title>
+                  <hi rendition="#italics">A History of England</hi>
+               </title>, in four volumes
                     quarto. It was published in the year 1758, and is said to have been composed and
                     finished for the press in fourteen months. Such facility of execution shows
                     powers, but precludes excellence. The narrative is rapid and sprightly, and the
@@ -661,80 +948,90 @@
                     came down lower than the Revolution. A Continuation of it was published some
                     years afterwards. In this history, under the head of Arts, he has taken occasion
                     to mention with honour <ref target="people.html#AkensideMark">Akenside</ref> and
-                    others whom he had satirized in <title><hi rendition="#italics">Peregrine
-                            Pickle</hi></title>. A high eulogium is also paid to <ref
-                        target="people.html#GarrickDavid">Garrick</ref>; and he handsomely told him,
+                    others whom he had satirized in <title>
+                  <hi rendition="#italics">Peregrine
+                            Pickle</hi>
+               </title>. A high eulogium is also paid to <ref target="people.html#agarrickDavid">Garrick</ref>; and he handsomely told him,
                     that he deemed it incumbent upon him to make a public atonement in a work of
                     truth, for wrongs done him in a work of fiction.</p>
-                <p><ref target="people.html#SmollettTobias">Smollet</ref>, having decidedly taken
-                    his political party, was engaged to write in defence of the <milestone
-                        unit="signature" n="b2" rendition="#center"/>
-                    <pb n="xii"/> measures of the <ref target="people.html#StuartJohn">Earl of
-                        Bute</ref>, which he did in a weekly paper called <title><hi
-                            rendition="#italics">The Briton</hi></title>. This occasioned the
-                    well-known <title><hi rendition="#italics">North Briton</hi></title> of <ref
-                        target="people.html#WilkesJohn">Wilkes</ref>, and broke off the friendly
+            <p>
+               <ref target="people.html#SmollettTobias">Smollet</ref>, having decidedly taken
+                    his political party, was engaged to write in defence of the <milestone unit="signature" n="b2" rendition="#center"/>
+               <pb n="xii"/> measures of the <ref target="people.html#StuartJohn">Earl of
+                        Bute</ref>, which he did in a weekly paper called <title>
+                  <hi rendition="#italics">The Briton</hi>
+               </title>. This occasioned the
+                    well-known <title>
+                  <hi rendition="#italics">North Briton</hi>
+               </title> of <ref target="people.html#WilkesJohn">Wilkes</ref>, and broke off the friendly
                     intercourse which, as men of literature and genius, they had hitherto held with
                     one another.</p>
-                <p><ref target="people.html#SmollettTobias">Smollet</ref>&apos;s temper was not well
+            <p>
+               <ref target="people.html#SmollettTobias">Smollet</ref>'s temper was not well
                     calculated for calmness in such altercations, and the virulence with which he
-                    wrote <title><hi rendition="#italics">The Adventures of an Atom</hi></title>, a
+                    wrote <title>
+                  <hi rendition="#italics">The Adventures of an Atom</hi>
+               </title>, a
                     political satire describing public characters that figured upon the stage at the
                     end of the last reign and beginning of the present, lost him many of his best
                     friends.</p>
-                <p> But his constitution now began to be much broken, and a heavy domestic
+            <p> But his constitution now began to be much broken, and a heavy domestic
                     affliction which fell upon him, the loss of an only daughter, led him to seek
-                    relief for himself and his <ref target="people.html#SmollettAnneLassells"
-                        >wife</ref> in a foreign tour, of which he published an account under the
-                    title of <title><hi rendition="#italics">Letters from France and
-                        Italy</hi></title>. They were entertaining, but full of spleen, and they
+                    relief for himself and his <ref target="people.html#SmollettAnneLassells">wife</ref> in a foreign tour, of which he published an account under the
+                    title of <title>
+                  <hi rendition="#italics">Letters from France and
+                        Italy</hi>
+               </title>. They were entertaining, but full of spleen, and they
                     betray those illiberal prejudices against foreigners and foreign manners of
-                    which he gave a specimen in <title><hi rendition="#italics">Peregrine
-                            Pickle</hi></title>. <ref target="people.html#SmollettTobias"
-                        >Smollet</ref> never possessed the French language sufficiently to converse
+                    which he gave a specimen in <title>
+                  <hi rendition="#italics">Peregrine
+                            Pickle</hi>
+               </title>. <ref target="people.html#SmollettTobias">Smollet</ref> never possessed the French language sufficiently to converse
                     in it with freedom, and he probably thought he showed his own delicacy by
-                    finding fault with the the national usages. Yet whoever reads <ref
-                        target="people.html#SmollettTobias">Smollet</ref>&apos;s works, even the
+                    finding fault with the the national usages. Yet whoever reads <ref target="people.html#SmollettTobias">Smollet</ref>'s works, even the
                     least exceptional of them, will be of opinion that he had little title to be
                     fastidious upon the score of delicacy. He was also disappointed in the Pantheon,
                     which he calls <hi rendition="#italics">a huge cock-pit</hi>, and was not
                     enchanted with the Venus de Medicis. These animadversions drew upon him the
                     lively satire of <ref target="people.html#SterneLaurence">Sterne</ref>, who
-                    intro- <pb n="xiii"/> duces him in his <title><hi rendition="#italics"
-                            >Sentimental Journey</hi></title> under the appellation of Smelfungus.
-                    &quot;The learned Smelfungus,&quot; says he, &quot;travelled from Boulogne to
+                    intro- <pb n="xiii"/> duces him in his <title>
+                  <hi rendition="#italics">Sentimental Journey</hi>
+               </title> under the appellation of Smelfungus.
+                    "The learned Smelfungus," says he, "travelled from Boulogne to
                     Paris, from Paris to Rome, and so on; but he set out with the spleen and
                     jaundice, and every object he passed by was discoloured and distorted. He wrote
                     an account of them, but it was nothing but an account of his miserable feelings.
                     I met Smelfungus in the grand portico of the Pantheon; he was just coming out of
-                    it. &apos;It is nothing but a huge cockpit,&apos; said he. &apos;I wish you had
-                    said nothing worse of the Venus de Medicis,&apos; replied I. He has been flayed
-                    alive and bedeviled, and worse used than <ref
-                        target="people.html#SaintBartholomew">St. Bartholomew</ref>, at every stage
-                    he had come at. &apos;I&apos;ll tell it,&apos; said Smelfungus, &apos;to the
-                    world.&apos; &apos;You had better tell it,&apos; said I, &apos;to your
-                        physician.&apos;&quot;<hi rendition="#sup"><note place="foot">From Chapter
-                            18, "In the Street. Calais" of <ref target="people.html#SterneLaurence"
-                                >Sterne</ref>&apos;s <title><hi rendition="#italics">A Sentimental
-                                    Journey through France and Italy</hi></title>
-                        (1768).</note></hi> The last sentence suggests the best excuse for the
-                    author&apos;s misanthropy. However, the raillery of <ref
-                        target="people.html#SterneLaurence">Sterne</ref> was too amusing to be
+                    it. 'It is nothing but a huge cockpit,' said he. 'I wish you had
+                    said nothing worse of the Venus de Medicis,' replied I. He has been flayed
+                    alive and bedeviled, and worse used than <ref target="people.html#SaintBartholomew">St. Bartholomew</ref>, at every stage
+                    he had come at. 'I'll tell it,' said Smelfungus, 'to the
+                    world.' 'You had better tell it,' said I, 'to your
+                        physician.'"<hi rendition="#sup">
+                  <note place="foot" anchored="true">From Chapter
+                            18, "In the Street. Calais" of <ref target="people.html#SterneLaurence">Sterne</ref>'s <title>
+                        <hi rendition="#italics">A Sentimental
+                                    Journey through France and Italy</hi>
+                     </title>
+                        (1768).</note>
+               </hi> The last sentence suggests the best excuse for the
+                    author's misanthropy. However, the raillery of <ref target="people.html#SterneLaurence">Sterne</ref> was too amusing to be
                     forgotten, and gave a wound to the book from which it never recovered.</p>
-                <p>In 1766, he paid another visit to his native country; but his health was at this
+            <p>In 1766, he paid another visit to his native country; but his health was at this
                     time so broken, that he was incapable of enjoying his tour. A fretfulness hung
                     upon him the whole time, which, after his return, he himself noticed to his
                     friends, with much sense of mortification at the peevishness which he could not
                     conquer. He recovered, however, to a certain degree, and, in an interval of
-                    tolerable health, wrote the last of his novels, <title><hi rendition="#italics"
-                            >Humphrey Clinker</hi></title>. It was indeed the last of his
+                    tolerable health, wrote the last of his novels, <title>
+                  <hi rendition="#italics">Humphrey Clinker</hi>
+               </title>. It was indeed the last of his
                     publications. His complaints returned upon him with renewed violence, and he
                         <milestone unit="signature" n="b3" rendition="#center"/>
-                    <pb n="xiv"/> was advised to try again change of air and climate; but as his
+               <pb n="xiv"/> was advised to try again change of air and climate; but as his
                     circumstances could but ill support the expense of the voyage, his friends
                     applied to the ministry to obtain the office of consul at Leghorn or Nice, by
                     way of sinecure, that he might be free from all care but that of his health; but
-                    it could not be obtained: &#8212; a repulse not greatly to be wondered at,
+                    it could not be obtained: — a repulse not greatly to be wondered at,
                     considering the part he had taken in politics. And indeed, what was there in any
                     of his works to deserve from the public any other remuneration than what his
                     bookseller afforded him? He went abroad, however, having probably obtained the
@@ -744,30 +1041,26 @@
                     erected a plain monument to his memory on the spot, for which his friend Dr.
                         <ref target="people.html#ArmstrongJohn">Armstrong</ref> furnished a Latin
                     inscription, highly complimentary to the deceased, and highly indignant against
-                    those who, he imagined, had not sufficiently patronized him. His cousin, <ref
-                        target="people.html#SmollettJamesofBonhill">James Smollet</ref> of Bonhill, erected a
+                    those who, he imagined, had not sufficiently patronized him. His cousin, <ref target="people.html#SmollettJamesofBonhill">James Smollet</ref> of Bonhill, erected a
                     very elegant pillar to his memory on the banks of the Leven, the stream he had
                     celebrated, and near which he was born, with an appropriate Latin inscription.
                     It is one of the objects which attract the attention of the tourist in the
                     neighbourhood of Dumbarton.</p>
-                <p>Dr. <ref target="people.html#SmollettTobias">Smollet</ref> was in person stout
+            <p>Dr. <ref target="people.html#SmollettTobias">Smollet</ref> was in person stout
                     and well-proportioned. His looks and manners had dignity, with a great mixture
                     of reserve and haughtiness. He had a high independent spirit, and, it is said,
                     would not stoop to flatter those who might have <pb n="xv"/> served him; but how
                     far this was a matter of principle, and how far of temper, may be made a
-                    question. A memoir of this author by Dr. <ref target="people.html#MooreJohn"
-                        >Moore</ref>, his friend and countryman, is prefixed to an edition of his
+                    question. A memoir of this author by Dr. <ref target="people.html#MooreJohn">Moore</ref>, his friend and countryman, is prefixed to an edition of his
                     Works, from which the facts in this account are chiefly taken. He concludes his
-                    character in these words: &quot;He was of an intrepid, independent, imprudent
+                    character in these words: "He was of an intrepid, independent, imprudent
                     disposition, equally incapable of deceit and adulation, and more disposed to
                     cultivate the acquaintance of those he could serve, than of those who could
-                    serve him.&quot;</p>
-                <p>As a novel-writer the characteristics of <ref target="people.html#SmollettTobias"
-                        >Smollet</ref> are strong masculine humour, a knowledge of the world,
+                    serve him."</p>
+            <p>As a novel-writer the characteristics of <ref target="people.html#SmollettTobias">Smollet</ref> are strong masculine humour, a knowledge of the world,
                     particularly of the vicious part of it, and great force in drawing his
                     characters; but of grace and amenity he had no idea. Neither had he any finesse.
-                    He does not know how, like <ref target="people.html#FieldingHenry"
-                        >Fielding</ref>, to insinuate an idea under the mask of a grave irony. He
+                    He does not know how, like <ref target="people.html#FieldingHenry">Fielding</ref>, to insinuate an idea under the mask of a grave irony. He
                     had largely conversed with the world, and travelled, so that his delineations of
                     character and adventures are as different as possible from the effusions of the
                     sentimental theorist. He had certainly vigour of genius, as well as rapidity of
@@ -778,27 +1071,27 @@
                     secrets of the town by pretending deafness; and his works would afford much
                     pleasant amuse- <pb n="xvi"/> ment, if it were not for the coarseness and
                     vicious manners which pervade them all.</p>
-                <p>His mind, either from the vulgar scenes of his early life, or the society of the
+            <p>His mind, either from the vulgar scenes of his early life, or the society of the
                     crew of a man-of-war, seems to have received an indelible taint of vice and
                     impurity. Vice in his works cannot be said to be seductive; for an air of
                     misanthropy pervades all his compositions, and he has scarcely in any of them
-                    given us one character to love. It has been said of <ref
-                        target="people.html#FieldingHenry">Fielding</ref>, that he could not draw a
-                    thoroughly virtuous character; but <ref target="people.html#SmollettTobias"
-                        >Smollet</ref> could not draw an amiable one. It must be remembered,
+                    given us one character to love. It has been said of <ref target="people.html#FieldingHenry">Fielding</ref>, that he could not draw a
+                    thoroughly virtuous character; but <ref target="people.html#SmollettTobias">Smollet</ref> could not draw an amiable one. It must be remembered,
                     however, that vice may pollute the mind, and coarseness vitiate the taste, even
                     when presented in the least attractive form; and it is therefore to the praise
-                    of the present generation that this author&apos;s novels are much less read now
-                    than they were formerly. The least exceptionable of them is <title><hi
-                            rendition="#italics">Humphrey Clinker</hi></title>, which, that a name
+                    of the present generation that this author's novels are much less read now
+                    than they were formerly. The least exceptionable of them is <title>
+                  <hi rendition="#italics">Humphrey Clinker</hi>
+               </title>, which, that a name
                     of so much celebrity might not be entirely passed over, makes a part of this
-                    Selection. It was written at a time when the author&apos;s mind was mellowed by
+                    Selection. It was written at a time when the author's mind was mellowed by
                     age, and cultured society had somewhat softened the coarseness of his painting
                     without destroying his vein of humour. It is the only one of his productions in
-                    this line which has not a vicious tendency; but though the <hi
-                        rendition="#italics"> moral sense</hi> is not offended in it, the same
+                    this line which has not a vicious tendency; but though the <hi rendition="#italics"> moral sense</hi> is not offended in it, the same
                     cannot be said of all the other senses. There is very little of plot in
-                            <title><hi rendition="#italics">Humphrey Clinker</hi></title>. It is
+                            <title>
+                  <hi rendition="#italics">Humphrey Clinker</hi>
+               </title>. It is
                     carried on in letters, and is rather a frame for remarks on Bath, London,
                     &amp;c. than a regular story. There is a great <pb n="xvii"/> deal of humour,
                     especially in the first volume: the latter part might be entitled with more
@@ -809,27 +1102,34 @@
                     a feeling heart under his rough husk. His letters are filled with the most
                     caustic strictures upon every thing he sees and hears; the London markets, the
                     rooms and company at Bath and Bristol, the accommodations in travelling; and, in
-                    short, every thing he meets with is disgusting till he comes to Scotland &#8212;
+                    short, every thing he meets with is disgusting till he comes to Scotland —
                     when the scene is changed. He has introduced a whimsical character, Lismahago,
                     into whose mouth he artfully puts an apology for his countrymen more partial
                     than he would have chosen to take upon himself. The letters of Bramble are
                     amusingly contrasted with those of his niece, who sees every thing with the
                     youthful eyes of admiration, and is pleased and happy every where; by which
                     means the author has in a sprightly manner exhibited both sides of the canvass.
-                    The reader is often put in mind of <title><hi rendition="#italics">The Bath
-                            Guide,</hi></title><hi rendition="#sup"><note place="foot">A popular
+                    The reader is often put in mind of <title>
+                  <hi rendition="#italics">The Bath
+                            Guide,</hi>
+               </title>
+               <hi rendition="#sup">
+                  <note place="foot" anchored="true">A popular
                             epistle by <ref target="people.html#AnsteyChristopher">Christopher
-                                Anstey</ref>, published in 1766.</note></hi> which has suggested
+                                Anstey</ref>, published in 1766.</note>
+               </hi> which has suggested
                     several of his remarks and descriptions, and which may also be traced in the
                     humour of the characters. The letters of Tabitha Bramble are very diverting.
                     Winifred is another Slipslop; but her bad spelling grows rather tiresome towards
                     the end. It must be observed that the style of the different personages, all ap-
                         <pb n="xviii"/> propriate, is admirably kept up during the whole work.
-                            <title><hi rendition="#italics">Humphrey Clinker </hi></title> is the
-                    only one of the author&apos;s pieces that has no sailor in it. It may perhaps be
+                            <title>
+                  <hi rendition="#italics">Humphrey Clinker </hi>
+               </title> is the
+                    only one of the author's pieces that has no sailor in it. It may perhaps be
                     a greater curiosity for that reason, as the connoisseurs value a Wooverman
                     without a horse.</p>
-            </div>
-        </body>
-    </text>
+         </div>
+      </body>
+   </text>
 </TEI>

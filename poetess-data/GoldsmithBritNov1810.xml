@@ -1,333 +1,569 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="main" level="a">Goldsmith</title>
-                <title type="subordinate" level="m">The British Novelists</title>
-                <author type="writer">
-                    <name>Anna Letitia Barbauld</name>
-                </author>
-                <respStmt>
-                    <resp>Editor</resp>
-                    <name xml:id="MW">Mary A. Waters</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Co-Editor</resp>
-                    <name xml:id="VW">Victoria Wynn</name>
-                </respStmt>
-            </titleStmt>
-            <publicationStmt>
-                <idno>GoldsmithBritNov1810</idno>
-            </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <title type="main" level="a">Goldsmith</title>
-                        <author type="writer">
-                            <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-                        </author>
-                    </analytic>
-                    <monogr>
-                        <title type="main" level="m">The British Novelists</title>
-                        <title type="subordinate">with an Essay and Prefaces, Biographical and
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:PA="http://www.poetessarchive.org/#schema">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Goldsmith</title>
+            <title type="subordinate" level="m">The British Novelists</title>
+            <author type="writer">
+               <name>Anna Letitia Barbauld</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Co-Editor</resp>
+               <name xml:id="VW">Victoria Wynn</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>GoldsmithBritNov1810</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false">
+               <analytic>
+                  <title type="main" level="a">Goldsmith</title>
+                  <author type="writer">
+                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The British Novelists</title>
+                  <title type="subordinate">with an Essay and Prefaces, Biographical and
                             Critical</title>
-                        <editor>
-                            <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-                        </editor>
-                        <imprint>
-                            <pubPlace>London</pubPlace>
-                            <publisher>F.C. and J. Rivington</publisher>
-                            <date when="1810">1810</date>
-                            <biblScope unit="vol">XXIII</biblScope>
-                            <biblScope unit="pages">i-xii</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <quotation>
-                    <p>All quotation marks and apostrophes have been changed: " for “," for “, ' for
-                        ‘, and ' for ’.</p>
-                    <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
-                </quotation>
-                <hyphenation eol="none">
-                    <p>Any dashes occurring in line breaks have been removed.</p>
-                    <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                        keyboard</p>
-                    <p>Em-dashes have been rendered as &#8212;</p>
-                </hyphenation>
-                <normalization method="markup">
-                    <p>Spelling has not been regularized.</p>
-                    <p>Writing in other hands appearing on these manuscripts has been indicated as
-                        such, the content recorded in brackets.</p>
-                    <p>Compositors' catchwords and running titles have been silently eliminated.</p>
-                    <p>Long "s" (&#383;) has been silently modernized.</p>
-                </normalization>
-                <normalization>
-                    <p>&amp; has been used for the ampersand sign.</p>
-                    <p>£ has been used for £, the pound sign</p>
-                    <p>All other characters, those with accents, non-breaking spaces, etc., have
-                        been encoded in HTML entity decimals.</p>
-                </normalization>
-            </editorialDecl>
-            <classDecl>
-                <taxonomy
-                    corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                    xml:id="g">
-                    <bibl>ARC Genre Categories, July 1, 2017</bibl>
-                    <category xml:id="g1">
-                        <catDesc>Advertisement</catDesc>
-                    </category>
-                    <category xml:id="g2">
-                        <catDesc>Animation</catDesc>
-                    </category>
-                    <category xml:id="g3">
-                        <catDesc>Bibliography</catDesc>
-                    </category>
-                    <category xml:id="g4">
-                        <catDesc>Catalog</catDesc>
-                    </category>
-                    <category xml:id="g5">
-                        <catDesc>Chronology</catDesc>
-                    </category>
-                    <category xml:id="g7">
-                        <catDesc>Citation</catDesc>
-                    </category>
-                    <category xml:id="g6">
-                        <catDesc>Collection</catDesc>
-                    </category>
-                    <category xml:id="g8">
-                        <catDesc>Correspondence</catDesc>
-                    </category>
-                    <category xml:id="g9">
-                        <catDesc>Criticism</catDesc>
-                    </category>
-                    <category xml:id="g10">
-                        <catDesc>Drama</catDesc>
-                    </category>
-                    <category xml:id="g11">
-                        <catDesc>Ephemera</catDesc>
-                    </category>
-                    <category xml:id="g12">
-                        <catDesc>Essay</catDesc>
-                    </category>
-                    <category xml:id="g13">
-                        <catDesc>Fiction</catDesc>
-                    </category>
-                    <category xml:id="g14">
-                        <catDesc>Film, Documentary</catDesc>
-                    </category>
-                    <category xml:id="g15">
-                        <catDesc>Film, Experimental</catDesc>
-                    </category>
-                    <category xml:id="g16">
-                        <catDesc>Film, Narrative</catDesc>
-                    </category>
-                    <category xml:id="g17">
-                        <catDesc>Film, Other</catDesc>
-                    </category>
-                    <category xml:id="g18">
-                        <catDesc>Historiography</catDesc>
-                    </category>
-                    <category xml:id="g19">
-                        <catDesc>Interview</catDesc>
-                    </category>
-                    <category xml:id="g20">
-                        <catDesc>Life Writing</catDesc>
-                    </category>
-                    <category xml:id="g21">
-                        <catDesc>Liturgy</catDesc>
-                    </category>
-                    <category xml:id="g22">
-                        <catDesc>Musical Analysis</catDesc>
-                    </category>
-                    <category xml:id="g23">
-                        <catDesc>Music, Other</catDesc>
-                    </category>
-                    <category xml:id="g24">
-                        <catDesc>Musical Work</catDesc>
-                    </category>
-                    <category xml:id="g25">
-                        <catDesc>Musical Score</catDesc>
-                    </category>
-                    <category xml:id="g26">
-                        <catDesc>Nonficition</catDesc>
-                    </category>
-                    <category xml:id="g27">
-                        <catDesc>Paratext</catDesc>
-                    </category>
-                    <category xml:id="g28">
-                        <catDesc>Performance</catDesc>
-                    </category>
-                    <category xml:id="g29">
-                        <catDesc>Philosophy</catDesc>
-                    </category>
-                    <category xml:id="g30">
-                        <catDesc>Photograph</catDesc>
-                    </category>
-                    <category xml:id="g31">
-                        <catDesc>Political Statement</catDesc>
-                    </category>
-                    <category xml:id="g32">
-                        <catDesc>Poetry</catDesc>
-                    </category>
-                    <category xml:id="g33">
-                        <catDesc>Religion</catDesc>
-                    </category>
-                    <category xml:id="g34">
-                        <catDesc>Reference Works</catDesc>
-                    </category>
-                    <category xml:id="g35">
-                        <catDesc>Review</catDesc>
-                    </category>
-                    <category xml:id="g36">
-                        <catDesc>Scripture</catDesc>
-                    </category>
-                    <category xml:id="g37">
-                        <catDesc>Sermon</catDesc>
-                    </category>
-                    <category xml:id="g38">
-                        <catDesc>Speech</catDesc>
-                    </category>
-                    <category xml:id="g39">
-                        <catDesc>Translation</catDesc>
-                    </category>
-                    <category xml:id="g40">
-                        <catDesc>Travel Writing</catDesc>
-                    </category>
-                    <category xml:id="g41">
-                        <catDesc>Unspecified</catDesc>
-                    </category>
-                    <category xml:id="g42">
-                        <catDesc>Visual Art</catDesc>
-                    </category>
-                </taxonomy>
-                <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="f">
-                    <bibl>ARC Format Categories, July 1, 2017</bibl>
-                    <category xml:id='f1'>
-                        <catDesc>Codex</catDesc>
-                    </category>
-                    <category xml:id='f2'>
-                        <catDesc>Collection</catDesc>
-                    </category>
-                    <category xml:id='f3'>
-                        <catDesc>Dataset</catDesc>
-                    </category>
-                    <category xml:id='f4'>
-                        <catDesc>Drawing</catDesc>
-                    </category>
-                    <category xml:id='f5'>
-                        <catDesc>Illustration</catDesc>
-                    </category>
-                    <category xml:id='f6'>
-                        <catDesc>Interactive Resource</catDesc>
-                    </category>
-                    <category xml:id='f7'>
-                        <catDesc>Manuscript</catDesc>
-                    </category>
-                    <category xml:id='f8'>
-                        <catDesc>Map</catDesc>
-                    </category>
-                    <category xml:id='f9'>
-                        <catDesc>Moving Image</catDesc>
-                    </category>
-                    <category xml:id='f10'>
-                        <catDesc>Notated Music</catDesc>
-                    </category>
-                    <category xml:id='f11'>
-                        <catDesc>Page Proofs</catDesc>
-                    </category>
-                    <category xml:id='f12'>
-                        <catDesc>Pamphlet</catDesc>
-                    </category>
-                    <category xml:id='f13'>
-                        <catDesc>Periodical</catDesc>
-                    </category>
-                    <category xml:id='f14'>
-                        <catDesc>Physcial Object</catDesc>
-                    </category>
-                    <category xml:id='f15'>
-                        <catDesc>Roll</catDesc>
-                    </category>
-                    <category xml:id='f16'>
-                        <catDesc>Sheet</catDesc>
-                    </category>
-                    <category xml:id='f17'>
-                        <catDesc>Sound</catDesc>
-                    </category>
-                    <category xml:id='f18'>
-                        <catDesc>Still Image</catDesc>
-                    </category>
-                    <category xml:id='f19'>
-                        <catDesc>Typescript</catDesc>
-                    </category>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <keywords scheme="#lcsh">
-                    <list type="simple">
-                        <item>Goldsmith, Oliver, 1730?-1774</item>
-                        <item>English literature</item>
-                        <item>History</item>
-                    </list>
-                </keywords>
-                <catRef target="#g9 #g12 #g20" scheme="#g"/>
-                <catRef target="#f1" scheme="#f"/>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change who="#MW" when="2016-09-25" n="4">
-                <label>Changed by</label>
-                <name>Mary A. Waters</name>
-                <list>
-                    <item>TEI encoding revision</item>
-                    <item>Editing revision</item>
-                </list>
-            </change>
-            <change who="#VW" when="2015-01-30" n="3">
-                <label>Changed by</label>
-                <name>Victoria Wynn</name>
-                <list>
-                    <item>TEI encoding and editing revision</item>
-                </list>
-            </change>
-            <change who="#VW" when="2014-06-21" n="2">
-                <label>Changed by</label>
-                <name>Victoria Wynn</name>
-                <list>
-                    <item>TEI encoding</item>
-                </list>
-            </change>
-            <change who="#MW" when="2014-06-15" n="1">
-                <label>Changed by</label>
-                <name>Mary A. Waters</name>
-                <list>
-                    <item>Created Edition</item>
-                </list>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="essay">
-                <head>
-                    <bibl>
-                        <author type="writer">
-                            <lb rendition="#center"/><name><ref target="people.html#BarbauldMrs"
-                                    >Anna Letitia Barbauld</ref></name>
-                        </author>
-                        <title type="main" level="a"><ref target="people.html#GoldsmithOliver"
-                                >GOLDSMITH</ref>.<hi rendition="#sup"><note place="foot"><title
-                                        level="m"><hi rendition="#italics">The British Novelists;
+                  <editor role="editor">
+                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>F.C. and J. Rivington</publisher>
+                     <date when="1810">1810</date>
+                     <biblScope unit="vol">XXIII</biblScope>
+                     <biblScope unit="pages">i-xii</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+               <category xml:id="g72">
+                  <catDesc>literary criticism article</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one word before
+                            hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="ag">
+               <bibl>ARC Genre Categories, July 1, 2017</bibl>
+               <category xml:id="ag1">
+                  <catDesc>Advertisement</catDesc>
+               </category>
+               <category xml:id="ag2">
+                  <catDesc>Animation</catDesc>
+               </category>
+               <category xml:id="ag3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="ag4">
+                  <catDesc>Catalog</catDesc>
+               </category>
+               <category xml:id="ag5">
+                  <catDesc>Chronology</catDesc>
+               </category>
+               <category xml:id="ag7">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="ag6">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="ag8">
+                  <catDesc>Correspondence</catDesc>
+               </category>
+               <category xml:id="ag9">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="ag10">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="ag11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="ag12">
+                  <catDesc>Essay</catDesc>
+               </category>
+               <category xml:id="ag13">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="ag14">
+                  <catDesc>Film, Documentary</catDesc>
+               </category>
+               <category xml:id="ag15">
+                  <catDesc>Film, Experimental</catDesc>
+               </category>
+               <category xml:id="ag16">
+                  <catDesc>Film, Narrative</catDesc>
+               </category>
+               <category xml:id="ag17">
+                  <catDesc>Film, Other</catDesc>
+               </category>
+               <category xml:id="ag18">
+                  <catDesc>Historiography</catDesc>
+               </category>
+               <category xml:id="ag19">
+                  <catDesc>Interview</catDesc>
+               </category>
+               <category xml:id="ag20">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="ag21">
+                  <catDesc>Liturgy</catDesc>
+               </category>
+               <category xml:id="ag22">
+                  <catDesc>Musical Analysis</catDesc>
+               </category>
+               <category xml:id="ag23">
+                  <catDesc>Music, Other</catDesc>
+               </category>
+               <category xml:id="ag24">
+                  <catDesc>Musical Work</catDesc>
+               </category>
+               <category xml:id="ag25">
+                  <catDesc>Musical Score</catDesc>
+               </category>
+               <category xml:id="ag26">
+                  <catDesc>Nonficition</catDesc>
+               </category>
+               <category xml:id="ag27">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="ag28">
+                  <catDesc>Performance</catDesc>
+               </category>
+               <category xml:id="ag29">
+                  <catDesc>Philosophy</catDesc>
+               </category>
+               <category xml:id="ag30">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="ag31">
+                  <catDesc>Political Statement</catDesc>
+               </category>
+               <category xml:id="ag32">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="ag33">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="ag34">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="ag35">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="ag36">
+                  <catDesc>Scripture</catDesc>
+               </category>
+               <category xml:id="ag37">
+                  <catDesc>Sermon</catDesc>
+               </category>
+               <category xml:id="ag38">
+                  <catDesc>Speech</catDesc>
+               </category>
+               <category xml:id="ag39">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="ag40">
+                  <catDesc>Travel Writing</catDesc>
+               </category>
+               <category xml:id="ag41">
+                  <catDesc>Unspecified</catDesc>
+               </category>
+               <category xml:id="ag42">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+                      xml:id="f">
+               <bibl>ARC Format Categories, July 1, 2017</bibl>
+               <category xml:id="f1">
+                  <catDesc>Codex</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>Dataset</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>Drawing</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>Illustration</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>Interactive Resource</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>Map</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>Moving Image</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>Notated Music</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>Page Proofs</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>Pamphlet</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>Periodical</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>Physcial Object</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>Roll</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>Sheet</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>Sound</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>Still Image</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>Typescript</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Goldsmith, Oliver, 1730?-1774</item>
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#ag9 #ag12 #ag20" scheme="#ag"/>
+            <catRef target="#f1" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef scheme="#g" target="#g72 #g30 #g3 "/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20190110" n="5">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+            </list>
+         </change>
+         <change who="#MW" when="2016-09-25" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>TEI encoding revision</item>
+               <item>Editing revision</item>
+            </list>
+         </change>
+         <change who="#VW" when="2015-01-30" n="3">
+            <label>Changed by</label>
+            <name>Victoria Wynn</name>
+            <list type="simple">
+               <item>TEI encoding and editing revision</item>
+            </list>
+         </change>
+         <change who="#VW" when="2014-06-21" n="2">
+            <label>Changed by</label>
+            <name>Victoria Wynn</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="2014-06-15" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay" org="uniform" sample="complete" part="N">
+            <head>
+               <bibl default="false">
+                  <author type="writer">
+                     <lb rendition="#center"/>
+                     <name>
+                        <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">
+                     <ref target="people.html#agoldsmithOliver">GOLDSMITH</ref>.<hi rendition="#sup">
+                        <note place="foot" anchored="true">
+                           <title level="m">
+                              <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
                                             by <ref target="people.html#BarbauldMrs">Mrs.
-                                                Barbauld</ref></hi></title>, 50 Vols. (London:
+                                                Barbauld</ref>
+                              </hi>
+                           </title>, 50 Vols. (London:
                                     Printed for F.C. and J. Rivington; W. Otridge and Son; A.
                                     Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
                                     Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
@@ -341,75 +577,93 @@
                                     Son, York, 1810), 23: i-iii. Victoria Wynn and Mary A. Waters
                                     co-edited this essay with assistance from Bronwen Johnson for
                                         <hi rendition="#italics">The Criticism Archive</hi>.
-                                </note></hi></title>
-                    </bibl>
-                </head>
-                <p rendition="#pnoindent"><hi rendition="#largest">O</hi>NE of the most pleasing
-                    novels of a modern cast is <title><hi rendition="#italics">The Vicar of
-                            Wakefield</hi></title>. Its author, <hi rendition="#smcaps"><ref
-                            target="people.html#GoldsmithOliver">Oliver Goldsmith</ref></hi>, was
+                                </note>
+                     </hi>
+                  </title>
+               </bibl>
+            </head>
+            <p rendition="#pnoindent">
+               <hi rendition="#largest">O</hi>NE of the most pleasing
+                    novels of a modern cast is <title>
+                  <hi rendition="#italics">The Vicar of
+                            Wakefield</hi>
+               </title>. Its author, <hi rendition="#smcaps">
+                  <ref target="people.html#agoldsmithOliver">Oliver Goldsmith</ref>
+               </hi>, was
                     born in the year 1731, at Pallas in the county of Longford in Ireland, according
                     to his epitaph in Westminster Abbey; but another account mentions Elphin as his
                     birth-place. His character was eccentric; his pursuits were desultory. His
                     father, who was a clergyman, gave him a classical education, and sent him from
-                    school to Dublin college. Like <ref target="people.html#SwiftJonathan"
-                        >Swift</ref>, he is said to have exhibited no peculiar marks of quickness in
-                    this period of his life, and he did not take his bachelor&apos;s degree till two
+                    school to Dublin college. Like <ref target="people.html#SwiftJonathan">Swift</ref>, he is said to have exhibited no peculiar marks of quickness in
+                    this period of his life, and he did not take his bachelor's degree till two
                     years after the usual time.</p>
-                <p>As he was intended for the study of physic, he removed to the university of
+            <p>As he was intended for the study of physic, he removed to the university of
                     Edinburgh in 1751, where he staid three years; but he seems not to have brought
                     with him to this seminary much steadiness of application or ardour for
                     professional studies, and he was obliged to quit it clandestinely on account of
-                    a debt he had contracted;&#8212;it is said, for a fellow-student, but probably
+                    a debt he had contracted;—it is said, for a fellow-student, but probably
                     the consequence of that mutual accommodation which often subsists between young
                         <fw type="vol" rendition="#smcaps" place="bottom-left">vol.
-                        xxiii.</fw><milestone unit="signature" n="a" rendition="#center"/><pb n="ii"
-                    /> and thoughtless companions. He was pursued, and arrested at Sunderland; but
+                        xxiii.</fw>
+               <milestone unit="signature" n="a" rendition="#center"/>
+               <pb n="ii"/> and thoughtless companions. He was pursued, and arrested at Sunderland; but
                     was released through the friendship of two fellow-students. The world was now
-                    all before him,<hi rendition="#sup"><note place="foot">See Milton, <title><hi
-                                    rendition="#italics">Paradise Lost</hi></title> Bk. XII,
-                            646.</note></hi> and he therefore resolved to see it, and accordingly
+                    all before him,<hi rendition="#sup">
+                  <note place="foot" anchored="true">See Milton, <title>
+                        <hi rendition="#italics">Paradise Lost</hi>
+                     </title> Bk. XII,
+                            646.</note>
+               </hi> and he therefore resolved to see it, and accordingly
                     embarked immediately for Holland; and poor as he was, and struggling with
                     difficulties of every kind, performed a tour, mostly on foot, through that
                     country, Flanders, and part of Germany. He passed some time at the universities
-                    of Paris and Louvain, and took a bachelor&apos;s degree of physic at the latter
+                    of Paris and Louvain, and took a bachelor's degree of physic at the latter
                     of these seminaries. He thence accompanied an English gentlemen to Geneva and
                     was there recommended as a travelling tutor to a man of fortune.</p>
-                <p>An eccentric genius is but ill calculated for a guide: our author scarcely
+            <p>An eccentric genius is but ill calculated for a guide: our author scarcely
                     possessed one qualification for the office, natural taste excepted; and probably
                     the youth, who had just succeeded to a large fortune, was as impatient of being
                     guided, as his tutor was unused to guide. Be that as it may, their connexion was
-                    soon dissolved by a disagreement, and poor <ref
-                        target="people.html#GoldsmithOliver">Goldsmith</ref> was left alone in the
+                    soon dissolved by a disagreement, and poor <ref target="people.html#agoldsmithOliver">Goldsmith</ref> was left alone in the
                     south of France, friendless and destitute in a foreign country, to find his way
                     home, or pursue his tour as he could. Uncomfortable as many circumstances in
                     this excursion must have been, it was here that the young poet laid in those
-                    images which afterwards produced his beautiful poem of <title><hi
-                            rendition="#italics">The Traveller</hi></title>, great part of which was
+                    images which afterwards produced his beautiful poem of <title>
+                  <hi rendition="#italics">The Traveller</hi>
+               </title>, great part of which was
                     written in the countries which he describes; and, though no doubt a melancholy
-                    thought would sometimes intrude, as he found himself, <quote><lg type="stanza">
-                            <l>&quot;Remote, unfriended, melancholy, slow,&quot;<hi rendition="#sup"
-                                        ><note place="foot">Line 1 of <ref
-                                            target="people.html#GoldsmithOliver">Oliver
-                                            Goldsmith</ref>&apos;s poem <title><hi
-                                                rendition="#italics">The Traveller</hi></title>
-                                        (1764).</note></hi></l>
-                        </lg></quote>
-                    <pb n="iii"/>wandering on foot by the banks of the Scheldt or the Po, his mode
+                    thought would sometimes intrude, as he found himself, <quote>
+                  <lg type="stanza" org="uniform" sample="complete" part="N">
+                     <l part="N">"Remote, unfriended, melancholy, slow,"<hi rendition="#sup">
+                           <note place="foot" anchored="true">Line 1 of <ref target="people.html#agoldsmithOliver">Oliver
+                                            Goldsmith</ref>'s poem <title>
+                                 <hi rendition="#italics">The Traveller</hi>
+                              </title>
+                                        (1764).</note>
+                        </hi>
+                     </l>
+                  </lg>
+               </quote>
+               <pb n="iii"/>wandering on foot by the banks of the Scheldt or the Po, his mode
                     of travelling was incontestably more favourable to reflection, and gave more
                     opportunity to the ideas to sink leisurely into his mind, than if he had been
                     borne along through half Europe by the rattling wheels of a postchaise. </p>
-                <p>As a literary man, he was received by the convents with that hospitality which
+            <p>As a literary man, he was received by the convents with that hospitality which
                     they so laudably practised; and he tells his readers no more than the literal
-                    truth, when, in his <title><hi rendition="#italics">Traveller</hi></title>, he
-                    represents himself as leading &quot;with tuneless pipe the sportive
-                        choir&quot;<hi rendition="#sup"><note place="foot">Lines 243-4 of <ref
-                                target="people.html#GoldsmithOliver">Oliver Goldsmith</ref>&apos;s
-                            poem <title><hi rendition="#italics">The Traveller</hi></title> (1764),
-                            somewhat altered. </note></hi> of the French peasants; for to the little
+                    truth, when, in his <title>
+                  <hi rendition="#italics">Traveller</hi>
+               </title>, he
+                    represents himself as leading "with tuneless pipe the sportive
+                        choir"<hi rendition="#sup">
+                  <note place="foot" anchored="true">Lines 243-4 of <ref target="people.html#agoldsmithOliver">Oliver Goldsmith</ref>'s
+                            poem <title>
+                        <hi rendition="#italics">The Traveller</hi>
+                     </title> (1764),
+                            somewhat altered. </note>
+               </hi> of the French peasants; for to the little
                     knowledge which he had of the German flute he was often obliged for a lodging
                     and a dinner.</p>
-                <p>When <ref target="people.html#GoldsmithOliver">Goldsmith</ref> returned to
+            <p>When <ref target="people.html#agoldsmithOliver">Goldsmith</ref> returned to
                     England, a few pence in his pocket were the whole of his finances; he knew no
                     one, and had no recommendations; and in this manner was he launched upon the
                     great metropolis, with his pressing wants, and only his talents to provide for
@@ -417,13 +671,14 @@
                     offered himself as journeyman to several apothecaries without success, and was
                     at length obliged to accept of employment in the laboratory of a chemist near
                     Fish-Street-Hill. </p>
-                <p>It was not long before he found out one of his old college friends, the same who
+            <p>It was not long before he found out one of his old college friends, the same who
                     had assisted in liberating him from the arrest, who, though he with difficulty
                     recognised him through the forlorn appearance he made, generously shared his
                     purse with him while he staid in London.</p>
-                <milestone unit="signature" n="a 2" rendition="#center"/>
-                <pb n="iv"/>
-                <p><ref target="people.html#GoldsmithOliver">Goldsmith</ref> did not remain long in
+            <milestone unit="signature" n="a 2" rendition="#center"/>
+            <pb n="iv"/>
+            <p>
+               <ref target="people.html#agoldsmithOliver">Goldsmith</ref> did not remain long in
                     a situation so little adapted to his education and talents: he was recommended
                     by the chemist as assistant to <ref target="people.html#MilnerJohn">Dr.
                         Milner</ref>, who kept an academy at Peckham. The office of usher in a
@@ -431,22 +686,30 @@
                     portion of men eminent for literature; but it cannot be said that their
                     gratitude has led them to any partiality for that mode of life; as, on the
                     contrary, they have generally taken care to show the disgust they had conceived
-                    against the employment, by painting in pretty strong colours, as <ref
-                        target="people.html#GoldsmithOliver">Goldsmith</ref> has done in his
-                            <title><hi rendition="#italics">Vicar of Wakefield</hi></title>, the
+                    against the employment, by painting in pretty strong colours, as <ref target="people.html#agoldsmithOliver">Goldsmith</ref> has done in his
+                            <title>
+                  <hi rendition="#italics">Vicar of Wakefield</hi>
+               </title>, the
                     disagreeable circumstances attending it. </p>
-                <p>He soon quitted this situation; and having become acquainted with the
+            <p>He soon quitted this situation; and having become acquainted with the
                     booksellers, and being employed by them, he took lodgings in London, and became
-                    author by profession. He was at first employed in the <ref
-                        target="people.html#ReviewMonthly"><title><hi rendition="#italics">Monthly
-                                Review</hi></title></ref>, and in a set of essays for a newspaper,
-                    which were afterwards collected in his works under the title of <title><hi
-                            rendition="#italics">The Citizen of the World</hi></title>. He also
-                    published a weekly paper called <title><hi rendition="#italics">The
-                        Bee</hi></title>, and other pieces. But he was still amongst the drudges of
+                    author by profession. He was at first employed in the <ref target="people.html#ReviewMonthly">
+                  <title>
+                     <hi rendition="#italics">Monthly
+                                Review</hi>
+                  </title>
+               </ref>, and in a set of essays for a newspaper,
+                    which were afterwards collected in his works under the title of <title>
+                  <hi rendition="#italics">The Citizen of the World</hi>
+               </title>. He also
+                    published a weekly paper called <title>
+                  <hi rendition="#italics">The
+                        Bee</hi>
+               </title>, and other pieces. But he was still amongst the drudges of
                     literature, working in obscurity, and his name was unknown to the public, till
-                    he suddenly emerged into light by the publication of his <title><hi
-                            rendition="#italics">Traveller</hi></title>, in 1765, which at once
+                    he suddenly emerged into light by the publication of his <title>
+                  <hi rendition="#italics">Traveller</hi>
+               </title>, in 1765, which at once
                     lifted him to an eminent station amongst the English poets. Both the character
                     and scenery of different countries are touched in this poem with a rapid but
                     masterly hand. Those of Holland and Switzerland are particularly striking. The
@@ -454,118 +717,143 @@
                     suggested by the necessity of finding a cement to bind the separate parts
                     together, than by any spirit of philosophical research. The charming
                     descriptions dwell upon the mind, but the moral is forgotten; or, if remembered,
-                    it is only to awaken the mind to the fallacy of the maxim, that <hi
-                        rendition="#italics">every form of civil society is equal in its influence
+                    it is only to awaken the mind to the fallacy of the maxim, that <hi rendition="#italics">every form of civil society is equal in its influence
                         on human happiness</hi>.</p>
-                <p><ref target="people.html#GoldsmithOliver">Goldsmith</ref> at this period seems to
+            <p>
+               <ref target="people.html#agoldsmithOliver">Goldsmith</ref> at this period seems to
                     have had thoughts of practising as a physician. He dressed in the professional
                     costume then in use, assumed airs of dignity, and left off those places of
                     vulgar resort where he used to laugh and amuse himself. He went on, however,
-                    with his literary schemes; and in the next year <title><hi rendition="#italics"
-                            >The Vicar of Wakefield</hi></title> made its appearance. This
+                    with his literary schemes; and in the next year <title>
+                  <hi rendition="#italics">The Vicar of Wakefield</hi>
+               </title> made its appearance. This
                     delightful little novel had indeed been written some time before, and by the
                     intervention of <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref> sold
-                    for sixty pounds, which went to discharge the author&apos;s rent. But
+                    for sixty pounds, which went to discharge the author's rent. But
                     booksellers are not always judges of their own goods, and the manuscript was
                     kept back through diffidence of its success, till the author had acquired a name
                     by his poem. Thus he had the ill-luck to dispose of both works as the first
                     productions of an unknown author.</p>
-                <p>His fame as a writer was now established, and from this time he was employed in a
+            <p>His fame as a writer was now established, and from this time he was employed in a
                     variety of works, from which he drew a very comfortable subsistence. The
                     furniture of his mind was various, but his knowledge was superficial. Taste
                     supplied in him the deficiencies of science: his style was easy and flowing, and
                     every thing <milestone unit="signature" n="a 3" rendition="#center"/>
-                    <pb n="vi"/>he wrote, whether in verse or prose, bore the impression of his
+               <pb n="vi"/>he wrote, whether in verse or prose, bore the impression of his
                     talent. Even to those publications which he compiled for booksellers, he
-                    communicated something of the charm of his own genius; and <ref
-                        target="people.html#JohnsonSamuel">Dr. Johnson</ref> said of him with equal
-                    felicity and truth, &quot;Nullum fere scribendi genus non tetigit, nullum quod
-                    tetigit non ornavit.&quot;<hi rendition="#sup"><note place="foot">Taken from
-                                <ref target="people.html#JohnsonSamuel">Samuel Johnson</ref>&apos;s
-                            epitaph for <ref target="people.html#GoldsmithOliver">Oliver
+                    communicated something of the charm of his own genius; and <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref> said of him with equal
+                    felicity and truth, "Nullum fere scribendi genus non tetigit, nullum quod
+                    tetigit non ornavit."<hi rendition="#sup">
+                  <note place="foot" anchored="true">Taken from
+                                <ref target="people.html#JohnsonSamuel">Samuel Johnson</ref>'s
+                            epitaph for <ref target="people.html#agoldsmithOliver">Oliver
                                 Goldsmith</ref>. These lines roughly translate to "who left scarcely
                             any style of writing untouched, and touched nothing that he did not
-                            adorn."</note></hi>
-                </p>
-                <p><ref target="people.html#GoldsmithOliver">Goldsmith</ref> now took rooms in the
+                            adorn."</note>
+               </hi>
+            </p>
+            <p>
+               <ref target="people.html#agoldsmithOliver">Goldsmith</ref> now took rooms in the
                     Temple, and, along with a friend, a country-house on the Edgeware road. Here he
-                    wrote his <title><hi rendition="#italics">History of England, in Letters from a
-                            Nobleman to his Son</hi></title>. These were long attributed to <ref
-                        target="people.html#LytteltonGeorge">Lord Lyttleton</ref>. Probably the
+                    wrote his <title>
+                  <hi rendition="#italics">History of England, in Letters from a
+                            Nobleman to his Son</hi>
+               </title>. These were long attributed to <ref target="people.html#LytteltonGeorge">Lord Lyttleton</ref>. Probably the
                     booksellers were in no haste to undeceive the public. It is still in great
                     credit as an introductory book for youth. He also produced, at different times,
-                    a <title><hi rendition="#italics">Roman History</hi></title>, a <title><hi
-                            rendition="#italics">History of Greece,</hi></title> and a <title><hi
-                            rendition="#italics">Life of <ref
-                                target="people.html#BolingbrokeHenryStJohn"
-                        >Bolingbroke</ref></hi></title>, and <title><hi rendition="#italics">of <ref
-                                target="people.html#ParnellThomas">Parnell</ref>,</hi></title>
+                    a <title>
+                  <hi rendition="#italics">Roman History</hi>
+               </title>, a <title>
+                  <hi rendition="#italics">History of Greece,</hi>
+               </title> and a <title>
+                  <hi rendition="#italics">Life of <ref target="people.html#BolingbrokeHenryStJohn">Bolingbroke</ref>
+                  </hi>
+               </title>, and <title>
+                  <hi rendition="#italics">of <ref target="people.html#ParnellThomas">Parnell</ref>,</hi>
+               </title>
                     prefixed to editions of their works.</p>
-                <p>In 1768 he tried a new walk, and ventured upon the stage with his comedy of
-                            <title><hi rendition="#italics">The Goodnatured Man</hi></title>, but
+            <p>In 1768 he tried a new walk, and ventured upon the stage with his comedy of
+                            <title>
+                  <hi rendition="#italics">The Goodnatured Man</hi>
+               </title>, but
                     without much success, though it possessed a good share of comic merit and
                     originality. The public taste was at that time very much for sentimental
-                        comedy&#8212;<hi rendition="#italics">la com&#233;die larmoyante</hi>,<hi
-                        rendition="#sup"><note place="foot">&quot;Tearful comedy,&quot; a popular
-                            genre on the eighteenth-century French stage.</note></hi>&#8212; and
-                            <title><hi rendition="#italics">False Delicacy</hi></title>, a play of
-                        <ref target="people.html#KellyHugh">Kelly</ref>&apos;s, was acted with great
-                    applause at the other house.<hi rendition="#sup"><note place="foot"><title><hi
-                                    rendition="#italics">False Delicacy</hi></title> opened in 1768
-                            at the Theatre-Royal in Drury-Lane.</note></hi> It is said that poor
-                        <ref target="people.html#GoldsmithOliver">Goldsmith</ref> could never
+                        comedy—<hi rendition="#italics">la comédie larmoyante</hi>,<hi rendition="#sup">
+                  <note place="foot" anchored="true">"Tearful comedy," a popular
+                            genre on the eighteenth-century French stage.</note>
+               </hi>— and
+                            <title>
+                  <hi rendition="#italics">False Delicacy</hi>
+               </title>, a play of
+                        <ref target="people.html#KellyHugh">Kelly</ref>'s, was acted with great
+                    applause at the other house.<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <title>
+                        <hi rendition="#italics">False Delicacy</hi>
+                     </title> opened in 1768
+                            at the Theatre-Royal in Drury-Lane.</note>
+               </hi> It is said that poor
+                        <ref target="people.html#agoldsmithOliver">Goldsmith</ref> could never
                     forgive <ref target="people.html#KellyHugh">Kelly</ref> his success. He however
                     made 500<hi rendition="#italics">l</hi>. by the piece; and if he had lost any
-                    popularity by it, it was amply regained by his <title><hi rendition="#italics"
-                            >Deserted Village</hi></title>, which he published in 1770, and of which
+                    popularity by it, it was amply regained by his <title>
+                  <hi rendition="#italics">Deserted Village</hi>
+               </title>, which he published in 1770, and of which
                     he seems hardly to have been sen-<pb n="vii"/>sible of the merit; for he refused
                     at first to take the hundred pounds which the bookseller offered for it, saying,
-                    it was five shillings a couplet&#8212;more than the sale of a poem could ever
+                    it was five shillings a couplet—more than the sale of a poem could ever
                     repay. It may be thought, perhaps, that authors and booksellers understand one
                     another better at this period.</p>
-                <p>There is scarcely any poem in the English language, in which harmony, beautiful
+            <p>There is scarcely any poem in the English language, in which harmony, beautiful
                     description, and pathos are united with greater effect than in this piece. The
-                    plan of it is an expansion of the concluding lines of <title><hi
-                            rendition="#italics">The Traveller</hi></title>, and displays the same
+                    plan of it is an expansion of the concluding lines of <title>
+                  <hi rendition="#italics">The Traveller</hi>
+               </title>, and displays the same
                     prejudice, if it be prejudice, against commercial opulence. Many inquiries were
-                    made at the time, where the village of &quot;sweet Auburn&quot; had been
+                    made at the time, where the village of "sweet Auburn" had been
                     situated. It is to be found in the county of Roscommon: its population or
-                    depopulation existed probably only in the poet&apos;s fancy, as it does not
+                    depopulation existed probably only in the poet's fancy, as it does not
                     appear that he ever visited Ireland after he had left it, but the images cannot
                     be contemplated without the most lively emotion. The character of the good
-                    pastor does not suffer by a comparison with <ref target="people.html#DrydenJohn"
-                        >Dryden</ref>&apos;s. It was probably meant for his brother, whom he
-                    describes in his address to him as &quot;having retired to happiness and
-                    obscurity on an income of 40<hi rendition="#italics">l</hi>. a year;&quot; and
+                    pastor does not suffer by a comparison with <ref target="people.html#DrydenJohn">Dryden</ref>'s. It was probably meant for his brother, whom he
+                    describes in his address to him as "having retired to happiness and
+                    obscurity on an income of 40<hi rendition="#italics">l</hi>. a year;" and
                     for whom he seems to have entertained an ardent affection and esteem. The
                     schoolmaster, and the village alehouse, are streaked with that humour which
-                    characterizes his <title><hi rendition="#italics">Vicar of
-                        Wakefield</hi></title>. It is difficult to say which of his two poems has
+                    characterizes his <title>
+                  <hi rendition="#italics">Vicar of
+                        Wakefield</hi>
+               </title>. It is difficult to say which of his two poems has
                     most poetical merit: but this was certainly the most popular. It interested the
                     feelings. The four <pb n="viii"/> last lines, as well as the ten concluding ones
-                    of <title><hi rendition="#italics">The Traveller</hi></title>, were given him by
+                    of <title>
+                  <hi rendition="#italics">The Traveller</hi>
+               </title>, were given him by
                         <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref>.</p>
-                <p>Two years after this he hazarded another attempt to make the public laugh, and
-                    this time succeeded. His comedy <title><hi rendition="#italics">She Stoops to
-                            Conquer</hi></title> is full of absurdities, and the humour of it hardly
-                    rises above farce. His friends had great apprehensions for its fate. <ref
-                        target="people.html#CumberlandRichard">Mr. Cumberland</ref>, in his
-                            <title><hi rendition="#italics">Memoirs</hi></title>, gives a very
-                    entertaining account of the man&#339;uvres practised by his friends, by posting
+            <p>Two years after this he hazarded another attempt to make the public laugh, and
+                    this time succeeded. His comedy <title>
+                  <hi rendition="#italics">She Stoops to
+                            Conquer</hi>
+               </title> is full of absurdities, and the humour of it hardly
+                    rises above farce. His friends had great apprehensions for its fate. <ref target="people.html#CumberlandRichard">Mr. Cumberland</ref>, in his
+                            <title>
+                  <hi rendition="#italics">Memoirs</hi>
+               </title>, gives a very
+                    entertaining account of the manœuvres practised by his friends, by posting
                     people in different parts of the house to laugh and clap at the appointed
                     places, in order to secure its success. The author himself came into the house
-                    when they were beginning a hiss at some passage. &quot;What noise is that?&quot;
-                    said he, in much alarm. &quot;Oh doctor,&quot; said <ref
-                        target="people.html#ColmanGeorgeElder">Colman</ref>, &quot;do not be afraid
+                    when they were beginning a hiss at some passage. "What noise is that?"
+                    said he, in much alarm. "Oh doctor," said <ref target="people.html#ColmanGeorgeElder">Colman</ref>, "do not be afraid
                     of squibs, when we have been sitting these two hours upon a barrel of
-                    gunpowder.&quot; He did not forgive this sally.</p>
-                <p>The last work <ref target="people.html#GoldsmithOliver">Goldsmith</ref> was
-                    employed in was his <title><hi rendition="#italics">History of the Earth and
-                            animated Nature</hi></title>. He was but little of a naturalist, but he
-                    was a fine writer; and with the help of <ref target="people.html#BuffonGeorges"
-                        >Buffon</ref> and other authors he produced a work popular and pleasing in
+                    gunpowder." He did not forgive this sally.</p>
+            <p>The last work <ref target="people.html#agoldsmithOliver">Goldsmith</ref> was
+                    employed in was his <title>
+                  <hi rendition="#italics">History of the Earth and
+                            animated Nature</hi>
+               </title>. He was but little of a naturalist, but he
+                    was a fine writer; and with the help of <ref target="people.html#BuffonGeorges">Buffon</ref> and other authors he produced a work popular and pleasing in
                     high degree, though charged with errors by more scientific writers.</p>
-                <p>The literary fame of <ref target="people.html#GoldsmithOliver">Goldsmith</ref>
+            <p>The literary fame of <ref target="people.html#agoldsmithOliver">Goldsmith</ref>
                     was now established, and the profits of his labours were such as ought to have
                     made his circumstances perfectly easy: but he was a man of no regularity or
                     worldly prudence, and, besides a propensity to show and expense, he had
@@ -575,9 +863,9 @@
                     state he was seized with a fever, which, assisted by a large dose of medicine
                     which he took contrary to the advice of his physician, carried him off in March,
                     1774, at the early age of five-and-forty. A monument was erected for him in
-                    Westminster Abbey, with an elegant epitaph by his steady friend <ref
-                        target="people.html#JohnsonSamuel">Dr. Johnson</ref>. </p>
-                <p><ref target="people.html#GoldsmithOliver">Goldsmith</ref> was awkward and uncouth
+                    Westminster Abbey, with an elegant epitaph by his steady friend <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref>. </p>
+            <p>
+               <ref target="people.html#agoldsmithOliver">Goldsmith</ref> was awkward and uncouth
                     in his person and manners. He did not shine in company, and seems to have had
                     more than common propensity to blundering and confusion of ideas which is
                     generally attributed to his countrymen. He had no powers of conversation, and
@@ -590,25 +878,26 @@
                     distress, and was never tardy in relieving it. In other respects he was a man of
                     rather fine feelings than of pure morals. Unfortunately they do not always go
                     together.</p>
-                <p>The last piece that came from his pen was a little poem, entitled <title><hi
-                            rendition="#italics">Retaliation</hi></title>, which was written by way
+            <p>The last piece that came from his pen was a little poem, entitled <title>
+                  <hi rendition="#italics">Retaliation</hi>
+               </title>, which was written by way
                     of retort to the raillery of his friends at the literary club, who had been
                     amusing themselves with writing humorous <pb n="x"/> epitaphs upon him. The
                     characters which, in the form of epitaphs, he has given in return, are drawn
                     with spirit, and upon the whole cannot be called severe; but the sport of this
-                    kind always carries a sting in it. In the character of <ref
-                        target="people.html#GarrickDavid">Garrick</ref>, the inordinate appetite for
+                    kind always carries a sting in it. In the character of <ref target="people.html#agarrickDavid">Garrick</ref>, the inordinate appetite for
                     praise of that accomplished actor was too truly touched not to irritate the
                     jealousy of his self-love, and he retaliated by an epigrammatic fable of much
                     more severity. </p>
-                <p>Of all the walks in which <ref target="people.html#GoldsmithOliver"
-                        >Goldsmith</ref> exercised his genius, that of poetry is the one in which it
+            <p>Of all the walks in which <ref target="people.html#agoldsmithOliver">Goldsmith</ref> exercised his genius, that of poetry is the one in which it
                     shone the brightest. Of his compositions in this line the bulk is small; but for
                     beautiful discription, touching sentiment, and a harmony of versification that
                     operates like a charm upon any one who has an ear for poetry, they are scarcely
-                    exceeded by any in the language. His <title><hi rendition="#italics">Vicar of
-                            Wakefield</hi></title> is the only Novel he ever wrote, and it is one of
-                    the most pleasing we have. It is in this work that the author&apos;s talent for
+                    exceeded by any in the language. His <title>
+                  <hi rendition="#italics">Vicar of
+                            Wakefield</hi>
+               </title> is the only Novel he ever wrote, and it is one of
+                    the most pleasing we have. It is in this work that the author's talent for
                     humour most successfully displays itself. Many of the incidents are irresistibly
                     comic. Such are the gravity and self-importance of Moses, when he produces his
                     bargain of spectacles with silver rims; the expedition to church upon Blackberry
@@ -617,16 +906,18 @@
                     fire; and the schemes and plottings of good notable Mrs. Primrose with her
                     gooseberry wine. We are at once touched and diverted with the harmless vanities
                     of the whole group, joined with innocence and benevolence. The character of the
-                    vicar somewhat resembles Par-<pb n="xi"/>son Adams,<hi rendition="#sup"><note
-                            place="foot">The protagonist&apos;s companion in <title><hi
-                                    rendition="#italics">The History of the Adventures of Joseph
-                                    Andrews</hi></title> (1742), by <ref
-                                target="people.html#FieldingHenry">Henry Fielding</ref>.</note></hi>
-                    and perhaps still more the author&apos;s own village pastor, &quot;a man to all
-                    the country dear.&quot;<hi rendition="#sup"><note place="foot"><ref
-                                target="people.html#GoldsmithOliver">Goldsmith</ref>, <hi
-                                rendition="#italics">The Deserted Village</hi> (1770)
-                        141.</note></hi> He is distinguished from the former by an admirable vein of
+                    vicar somewhat resembles Par-<pb n="xi"/>son Adams,<hi rendition="#sup">
+                  <note place="foot" anchored="true">The protagonist's companion in <title>
+                        <hi rendition="#italics">The History of the Adventures of Joseph
+                                    Andrews</hi>
+                     </title> (1742), by <ref target="people.html#FieldingHenry">Henry Fielding</ref>.</note>
+               </hi>
+                    and perhaps still more the author's own village pastor, "a man to all
+                    the country dear."<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <ref target="people.html#agoldsmithOliver">Goldsmith</ref>, <hi rendition="#italics">The Deserted Village</hi> (1770)
+                        141.</note>
+               </hi> He is distinguished from the former by an admirable vein of
                     dry humour, and resembles him in the honest simplicity of a man without guile:
                     to this is joined a touch of professional vanity. In the serious parts of the
                     story his behaviour is highly dignified; and it is hoped there are few who can
@@ -640,43 +931,47 @@
                     behaviour in every scene of distress, make him a pleasing and venerable
                     character, and are evidently painted by a man who, whatever were his faults,
                     strongly felt the enthusiasm of virtue and piety.</p>
-                <p>The plot of this piece is full of improbabilities and absurdities. All that
+            <p>The plot of this piece is full of improbabilities and absurdities. All that
                     relates to the two kept-mistresses is coarse and low; the character of Burchell,
                     alias Sir William, is too romantic for a representation of real life, and even
                     in his love there is a great want of delicacy, or he would not have insulted his
                     mistress with pretending to make a match between her and the fellow
-                    Jenkinson:&#8212;but whatever be its faults, we easily <pb n="xii"/>forgive the
+                    Jenkinson:—but whatever be its faults, we easily <pb n="xii"/>forgive the
                     author, who has made us laugh, and has made us cry. In the adventures of the
                     eldest son the author has related some of the vicissitudes of his own life. It
                     must not be forgotten that this novel is enriched with two specimens of the
-                    author&apos;s poetical powers. The first, &quot;When lovely woman stoops to
-                        folly,&quot;<hi rendition="#sup"><note place="foot">The short poem is sung
-                            by the Vicar's daughter after she has been seduced.</note></hi> is
-                    wonderfully pathetic. It is sweet as music, and polished like a gem. <title><hi
-                            rendition="#italics">The Hermit</hi></title> is a most pleasing tale,
+                    author's poetical powers. The first, "When lovely woman stoops to
+                        folly,"<hi rendition="#sup">
+                  <note place="foot" anchored="true">The short poem is sung
+                            by the Vicar's daughter after she has been seduced.</note>
+               </hi> is
+                    wonderfully pathetic. It is sweet as music, and polished like a gem. <title>
+                  <hi rendition="#italics">The Hermit</hi>
+               </title> is a most pleasing tale,
                     and has always been very popular. The idea of it is supposed to be taken from
-                        <ref target="people.html#PercyThomas">Percy</ref>&apos;s <title><hi
-                            rendition="#italics">Friar of Orders grey</hi></title>;<hi
-                        rendition="#sup"><note place="foot">Printed in <ref
-                                target="people.html#PercyThomas">Percy</ref>&apos;s <title><hi rendition="#italics">Reliques
-                                    of Ancient English Poetry</hi></title> (1765). </note></hi> but <ref
-                        target="people.html#GoldsmithOliver">Goldsmith</ref> asserted that if there
-                    was any resemblance; the <title><hi rendition="#italics">Friar</hi></title> was
-                    taken from his <title><hi rendition="#italics">Hermit</hi></title>, which he
-                    says he read to <ref target="people.html#PercyThomas">Percy</ref>, and that <ref
-                        target="people.html#PercyThomas">Percy</ref> the next time he saw him told
-                    him he had made use of his plan to weave together fragments of <ref
-                        target="people.html#ShakespeareWilliam">Shakespear</ref>. It is worthy of
-                    remark that this novel has been imitated by <ref
-                        target="people.html#LaFontaineJean">La Fontaine</ref>, a very pleasing novel
-                    writer of the present age, under the title of <title><hi rendition="#italics"
-                            >Tableaux de Famille</hi></title>. <ref
-                        target="people.html#LaFontaineJean">La Fontaine</ref>, like our author,
-                    excels in pictures of domestic life and touches of <hi rendition="#italics"
-                        >na&#239;vet&#233;</hi>; but he by no means possesses the humour, the
-                    irresistible humour, of <ref target="people.html#GoldsmithOliver"
-                        >Goldsmith</ref>. </p>
-            </div>
-        </body>
-    </text>
+                        <ref target="people.html#PercyThomas">Percy</ref>'s <title>
+                  <hi rendition="#italics">Friar of Orders grey</hi>
+               </title>;<hi rendition="#sup">
+                  <note place="foot" anchored="true">Printed in <ref target="people.html#PercyThomas">Percy</ref>'s <title>
+                        <hi rendition="#italics">Reliques
+                                    of Ancient English Poetry</hi>
+                     </title> (1765). </note>
+               </hi> but <ref target="people.html#agoldsmithOliver">Goldsmith</ref> asserted that if there
+                    was any resemblance; the <title>
+                  <hi rendition="#italics">Friar</hi>
+               </title> was
+                    taken from his <title>
+                  <hi rendition="#italics">Hermit</hi>
+               </title>, which he
+                    says he read to <ref target="people.html#PercyThomas">Percy</ref>, and that <ref target="people.html#PercyThomas">Percy</ref> the next time he saw him told
+                    him he had made use of his plan to weave together fragments of <ref target="people.html#ShakespeareWilliam">Shakespear</ref>. It is worthy of
+                    remark that this novel has been imitated by <ref target="people.html#LaFontaineJean">La Fontaine</ref>, a very pleasing novel
+                    writer of the present age, under the title of <title>
+                  <hi rendition="#italics">Tableaux de Famille</hi>
+               </title>. <ref target="people.html#LaFontaineJean">La Fontaine</ref>, like our author,
+                    excels in pictures of domestic life and touches of <hi rendition="#italics">naïveté</hi>; but he by no means possesses the humour, the
+                    irresistible humour, of <ref target="people.html#agoldsmithOliver">Goldsmith</ref>. </p>
+         </div>
+      </body>
+   </text>
 </TEI>

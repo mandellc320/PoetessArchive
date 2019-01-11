@@ -1,334 +1,571 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title type="main" level="a">Review of Tableaux de Famille by Fontaine</title>
-				<title type="subordinate" level="j">The Monthly Review</title>
-				<author type="writer">
-					<name>Elizabeth Moody</name>
-				</author>
-				<respStmt>
-					<resp>Editor</resp>
-					<name xml:id="MW">Mary A. Waters</name>
-				</respStmt>
-				<respStmt>
-					<resp>CoEditor</resp>
-					<name xml:id="EW">Emma Wiley</name>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<idno>MoodyRevTableax1802</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<biblStruct>
-					<analytic>
-						<title type="main" level="a">Art. XVI. Tableaux de Famille, &amp;c. i.e.
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:PA="http://www.poetessarchive.org/#schema">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Review of Tableaux de Famille by Fontaine</title>
+            <title type="subordinate" level="j">The Monthly Review</title>
+            <author type="writer">
+               <name>Elizabeth Moody</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>CoEditor</resp>
+               <name xml:id="EW">Emma Wiley</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>MoodyRevTableax1802</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false">
+               <analytic>
+                  <title type="main" level="a">Art. XVI. Tableaux de Famille, &amp;c. i.e.
 							Family Pictures, or the Journal of Charles Engleman. Translated from the
 							German of Augustus de la Fontaine, by the Author of Caroline of
 							Litchfield (Madame de Crousaz).</title>
-						<author type="writer">Moody, Elizabeth (1737-1814)</author>
-					</analytic>
-					<monogr>
-						<title type="main" level="j">The Monthly Review</title>
-						<imprint>
-							<date when="1802-01">January-April 1802</date>
-							<biblScope unit="vol">37</biblScope>
-							<biblScope unit="page">531-533</biblScope>
-						</imprint>
-					</monogr>
-				</biblStruct>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<editorialDecl>
-				<quotation>
-					<p>All quotation marks and apostrophes have been changed: " for “, " for ”, '
-						for ‘, and ' for ’.</p>
-					<p>Quotation marks that indicate block quotes have been silently eliminated.</p>
-				</quotation>
-				<hyphenation eol="none">
-					<p>Any dashes occurring in line breaks have been removed.</p>
-					<p>Because of web browser variability, all hyphens have been typed on the U.S.
-						keyboard</p>
-					<p>Em-dashes have been rendered as &#8212;</p>
-				</hyphenation>
-				<normalization method="markup">
-					<p>Spelling has not been regularized.</p>
-					<p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
-					<p>Compositors' catchwords and running titles have been silently eliminated.</p>
-					<p>Long "s" (&#383;) has been silently modernized.</p>
-				</normalization>
-				<normalization>
-					<p>&amp; has been used for the ampersand sign.</p>
-					<p>£ has been used for £, the pound sign</p>
-					<p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-				</normalization>
-			</editorialDecl>
-			<classDecl>
-				<taxonomy
-					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-					xml:id="g">
-					<bibl>ARC Genre Categories, July 1, 2017</bibl>
-					<category xml:id="g1">
-						<catDesc>Advertisement</catDesc>
-					</category>
-					<category xml:id="g2">
-						<catDesc>Animation</catDesc>
-					</category>
-					<category xml:id="g3">
-						<catDesc>Bibliography</catDesc>
-					</category>
-					<category xml:id="g4">
-						<catDesc>Catalog</catDesc>
-					</category>
-					<category xml:id="g5">
-						<catDesc>Chronology</catDesc>
-					</category>
-					<category xml:id="g7">
-						<catDesc>Citation</catDesc>
-					</category>
-					<category xml:id="g6">
-						<catDesc>Collection</catDesc>
-					</category>
-					<category xml:id="g8">
-						<catDesc>Correspondence</catDesc>
-					</category>
-					<category xml:id="g9">
-						<catDesc>Criticism</catDesc>
-					</category>
-					<category xml:id="g10">
-						<catDesc>Drama</catDesc>
-					</category>
-					<category xml:id="g11">
-						<catDesc>Ephemera</catDesc>
-					</category>
-					<category xml:id="g12">
-						<catDesc>Essay</catDesc>
-					</category>
-					<category xml:id="g13">
-						<catDesc>Fiction</catDesc>
-					</category>
-					<category xml:id="g14">
-						<catDesc>Film, Documentary</catDesc>
-					</category>
-					<category xml:id="g15">
-						<catDesc>Film, Experimental</catDesc>
-					</category>
-					<category xml:id="g16">
-						<catDesc>Film, Narrative</catDesc>
-					</category>
-					<category xml:id="g17">
-						<catDesc>Film, Other</catDesc>
-					</category>
-					<category xml:id="g18">
-						<catDesc>Historiography</catDesc>
-					</category>
-					<category xml:id="g19">
-						<catDesc>Interview</catDesc>
-					</category>
-					<category xml:id="g20">
-						<catDesc>Life Writing</catDesc>
-					</category>
-					<category xml:id="g21">
-						<catDesc>Liturgy</catDesc>
-					</category>
-					<category xml:id="g22">
-						<catDesc>Musical Analysis</catDesc>
-					</category>
-					<category xml:id="g23">
-						<catDesc>Music, Other</catDesc>
-					</category>
-					<category xml:id="g24">
-						<catDesc>Musical Work</catDesc>
-					</category>
-					<category xml:id="g25">
-						<catDesc>Musical Score</catDesc>
-					</category>
-					<category xml:id="g26">
-						<catDesc>Nonficition</catDesc>
-					</category>
-					<category xml:id="g27">
-						<catDesc>Paratext</catDesc>
-					</category>
-					<category xml:id="g28">
-						<catDesc>Performance</catDesc>
-					</category>
-					<category xml:id="g29">
-						<catDesc>Philosophy</catDesc>
-					</category>
-					<category xml:id="g30">
-						<catDesc>Photograph</catDesc>
-					</category>
-					<category xml:id="g31">
-						<catDesc>Political Statement</catDesc>
-					</category>
-					<category xml:id="g32">
-						<catDesc>Poetry</catDesc>
-					</category>
-					<category xml:id="g33">
-						<catDesc>Religion</catDesc>
-					</category>
-					<category xml:id="g34">
-						<catDesc>Reference Works</catDesc>
-					</category>
-					<category xml:id="g35">
-						<catDesc>Review</catDesc>
-					</category>
-					<category xml:id="g36">
-						<catDesc>Scripture</catDesc>
-					</category>
-					<category xml:id="g37">
-						<catDesc>Sermon</catDesc>
-					</category>
-					<category xml:id="g38">
-						<catDesc>Speech</catDesc>
-					</category>
-					<category xml:id="g39">
-						<catDesc>Translation</catDesc>
-					</category>
-					<category xml:id="g40">
-						<catDesc>Travel Writing</catDesc>
-					</category>
-					<category xml:id="g41">
-						<catDesc>Unspecified</catDesc>
-					</category>
-					<category xml:id="g42">
-						<catDesc>Visual Art</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-					xml:id="f">
-					<bibl>ARC Format Categories, July 1, 2017</bibl>
-					<category xml:id="f1">
-						<catDesc>Codex</catDesc>
-					</category>
-					<category xml:id="f2">
-						<catDesc>Collection</catDesc>
-					</category>
-					<category xml:id="f3">
-						<catDesc>Dataset</catDesc>
-					</category>
-					<category xml:id="f4">
-						<catDesc>Drawing</catDesc>
-					</category>
-					<category xml:id="f5">
-						<catDesc>Illustration</catDesc>
-					</category>
-					<category xml:id="f6">
-						<catDesc>Interactive Resource</catDesc>
-					</category>
-					<category xml:id="f7">
-						<catDesc>Manuscript</catDesc>
-					</category>
-					<category xml:id="f8">
-						<catDesc>Map</catDesc>
-					</category>
-					<category xml:id="f9">
-						<catDesc>Moving Image</catDesc>
-					</category>
-					<category xml:id="f10">
-						<catDesc>Notated Music</catDesc>
-					</category>
-					<category xml:id="f11">
-						<catDesc>Page Proofs</catDesc>
-					</category>
-					<category xml:id="f12">
-						<catDesc>Pamphlet</catDesc>
-					</category>
-					<category xml:id="f13">
-						<catDesc>Periodical</catDesc>
-					</category>
-					<category xml:id="f14">
-						<catDesc>Physcial Object</catDesc>
-					</category>
-					<category xml:id="f15">
-						<catDesc>Roll</catDesc>
-					</category>
-					<category xml:id="f16">
-						<catDesc>Sheet</catDesc>
-					</category>
-					<category xml:id="f17">
-						<catDesc>Sound</catDesc>
-					</category>
-					<category xml:id="f18">
-						<catDesc>Still Image</catDesc>
-					</category>
-					<category xml:id="f19">
-						<catDesc>Typescript</catDesc>
-					</category>
-				</taxonomy>
-			</classDecl>
-		</encodingDesc>
-		<profileDesc>
-			<textClass>
-				<keywords scheme="#lcsh">
-					<list type="simple">
-						<item>Criticism</item>
-						<item>Book review</item>
-					</list>
-				</keywords>
-				<catRef target="#g9 #g35" scheme="#g"/>
-				<catRef target="#f13" scheme="#f"/>
-			</textClass>
-		</profileDesc>
-		<revisionDesc>
-			<change who="#MW" when="2017-12-15" n="3">
-				<label>Changed by</label>
-				<name>Mary Water</name>
-				<list>
-					<item>Revise TEI encoding</item>
-				</list>
-			</change>
-			<change who="#EW" when="2017-02-15" n="2">
-				<label>Changed by</label>
-				<name>Emma Wiley</name>
-				<list>
-					<item>TEI encoding</item>
-				</list>
-			</change>
-			<change who="#MW" when="2017-02-15" n="1">
-				<label>Changed by</label>
-				<name>Mary Water</name>
-				<list>
-					<item>Create Edition</item>
-				</list>
-			</change>
-		</revisionDesc>
-	</teiHeader>
-	<text>
-		<body>
-			<div type="essay">
-				<head><bibl><lb rendition="#center"/><author type="writer"><ref
-								target="people.html#MoodyElizabeth"><name>Elizabeth
-								Moody</name></ref></author>
-						<title type="main" level="a"><hi rendition="#smcaps">Art</hi>. XVI. <hi
-									rendition="#italics">Tableaux de Famille</hi>, &amp;c. <hi
-									rendition="#italics">i.e.</hi> Family Pictures, or the Journal
-								of Charles Engleman. Translated from the German of <hi
-									rendition="#smcaps"><ref target="people.html#LafontaineAugust"
-										>Augustus de la Fontaine</ref></hi>, by the Author of
-										<title>Caroline of Litchfield</title> (<ref
-									target="people.html#MontolieuIsabelle">Madame <hi
-										rendition="#italics">de Crousaz</hi></ref>). <hi
-									rendition="smcaps">12</hi>mo. 2 Vols. Paris. 1801. Imported by
-								de Boffe, London.<hi rendition="#sup"><note place="foot">This review
-										article appeared in the Foreign Appendix to <hi
-											rendition="#italics"><title>The Monthly
-											Review</title></hi>, vol. 37, January-April 1802, pp.
+                  <author type="writer">Moody, Elizabeth (1737-1814)</author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="j">The Monthly Review</title>
+                  <imprint>
+                     <date when="1802-01">January-April 1802</date>
+                     <biblScope unit="vol">37</biblScope>
+                     <biblScope unit="page">531-533</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+               <category xml:id="g72">
+                  <catDesc>literary criticism article</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one word before
+                            hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="ag">
+               <bibl>ARC Genre Categories, July 1, 2017</bibl>
+               <category xml:id="ag1">
+                  <catDesc>Advertisement</catDesc>
+               </category>
+               <category xml:id="ag2">
+                  <catDesc>Animation</catDesc>
+               </category>
+               <category xml:id="ag3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="ag4">
+                  <catDesc>Catalog</catDesc>
+               </category>
+               <category xml:id="ag5">
+                  <catDesc>Chronology</catDesc>
+               </category>
+               <category xml:id="ag7">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="ag6">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="ag8">
+                  <catDesc>Correspondence</catDesc>
+               </category>
+               <category xml:id="ag9">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="ag10">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="ag11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="ag12">
+                  <catDesc>Essay</catDesc>
+               </category>
+               <category xml:id="ag13">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="ag14">
+                  <catDesc>Film, Documentary</catDesc>
+               </category>
+               <category xml:id="ag15">
+                  <catDesc>Film, Experimental</catDesc>
+               </category>
+               <category xml:id="ag16">
+                  <catDesc>Film, Narrative</catDesc>
+               </category>
+               <category xml:id="ag17">
+                  <catDesc>Film, Other</catDesc>
+               </category>
+               <category xml:id="ag18">
+                  <catDesc>Historiography</catDesc>
+               </category>
+               <category xml:id="ag19">
+                  <catDesc>Interview</catDesc>
+               </category>
+               <category xml:id="ag20">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="ag21">
+                  <catDesc>Liturgy</catDesc>
+               </category>
+               <category xml:id="ag22">
+                  <catDesc>Musical Analysis</catDesc>
+               </category>
+               <category xml:id="ag23">
+                  <catDesc>Music, Other</catDesc>
+               </category>
+               <category xml:id="ag24">
+                  <catDesc>Musical Work</catDesc>
+               </category>
+               <category xml:id="ag25">
+                  <catDesc>Musical Score</catDesc>
+               </category>
+               <category xml:id="ag26">
+                  <catDesc>Nonficition</catDesc>
+               </category>
+               <category xml:id="ag27">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="ag28">
+                  <catDesc>Performance</catDesc>
+               </category>
+               <category xml:id="ag29">
+                  <catDesc>Philosophy</catDesc>
+               </category>
+               <category xml:id="ag30">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="ag31">
+                  <catDesc>Political Statement</catDesc>
+               </category>
+               <category xml:id="ag32">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="ag33">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="ag34">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="ag35">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="ag36">
+                  <catDesc>Scripture</catDesc>
+               </category>
+               <category xml:id="ag37">
+                  <catDesc>Sermon</catDesc>
+               </category>
+               <category xml:id="ag38">
+                  <catDesc>Speech</catDesc>
+               </category>
+               <category xml:id="ag39">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="ag40">
+                  <catDesc>Travel Writing</catDesc>
+               </category>
+               <category xml:id="ag41">
+                  <catDesc>Unspecified</catDesc>
+               </category>
+               <category xml:id="ag42">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+                      xml:id="f">
+               <bibl>ARC Format Categories, July 1, 2017</bibl>
+               <category xml:id="f1">
+                  <catDesc>Codex</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>Dataset</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>Drawing</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>Illustration</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>Interactive Resource</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>Map</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>Moving Image</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>Notated Music</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>Page Proofs</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>Pamphlet</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>Periodical</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>Physcial Object</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>Roll</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>Sheet</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>Sound</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>Still Image</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>Typescript</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Criticism</item>
+                  <item>Book review</item>
+               </list>
+            </keywords>
+            <catRef target="#ag9 #ag35" scheme="#ag"/>
+            <catRef target="#f13" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef scheme="#g" target="#g72 #g31"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20190110" n="5">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+            </list>
+         </change>
+         <change who="#MW" when="2017-12-15" n="3">
+            <label>Changed by</label>
+            <name>Mary Water</name>
+            <list type="simple">
+               <item>Revise TEI encoding</item>
+            </list>
+         </change>
+         <change who="#EW" when="2017-02-15" n="2">
+            <label>Changed by</label>
+            <name>Emma Wiley</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="2017-02-15" n="1">
+            <label>Changed by</label>
+            <name>Mary Water</name>
+            <list type="simple">
+               <item>Create Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay" org="uniform" sample="complete" part="N">
+            <head>
+               <bibl default="false">
+                  <lb rendition="#center"/>
+                  <author type="writer">
+                     <ref target="people.html#MoodyElizabeth">
+                        <name>Elizabeth
+								Moody</name>
+                     </ref>
+                  </author>
+                  <title type="main" level="a">
+                     <hi rendition="#smcaps">Art</hi>. XVI. <hi rendition="#italics">Tableaux de Famille</hi>, &amp;c. <hi rendition="#italics">i.e.</hi> Family Pictures, or the Journal
+								of Charles Engleman. Translated from the German of <hi rendition="#smcaps">
+                        <ref target="people.html#LafontaineAugust">Augustus de la Fontaine</ref>
+                     </hi>, by the Author of
+										<title>Caroline of Litchfield</title> (<ref target="people.html#MontolieuIsabelle">Madame <hi rendition="#italics">de Crousaz</hi>
+                     </ref>). <hi rendition="smcaps">12</hi>mo. 2 Vols. Paris. 1801. Imported by
+								de Boffe, London.<hi rendition="#sup">
+                        <note place="foot" anchored="true">This review
+										article appeared in the Foreign Appendix to <hi rendition="#italics">
+                              <title>The Monthly
+											Review</title>
+                           </hi>, vol. 37, January-April 1802, pp.
 										531-533. This edition of the article was produced by Emma
 										Wiley and Mary A. Waters.
-					</note></hi></title></bibl></head>
-
-				<p rendition="#pnoindent"><hi rendition="#largest">I</hi><hi rendition="#smcaps"
-						>n</hi> the preface to this work, Madame <hi rendition="#italics"
-						>Crousaz</hi> gives an animated and ingenious description of that difficult
-					though humble province of literature,&#8212;translation; and she thus replies to
+					</note>
+                     </hi>
+                  </title>
+               </bibl>
+            </head>
+            <p rendition="#pnoindent">
+               <hi rendition="#largest">I</hi>
+               <hi rendition="#smcaps">n</hi> the preface to this work, Madame <hi rendition="#italics">Crousaz</hi> gives an animated and ingenious description of that difficult
+					though humble province of literature,—translation; and she thus replies to
 					a friend, who compliments her on her peculiar excellence in this line:</p>
-				<quote>Yet I know nothing so ungrateful and thankless as the task of the translator.
+            <quote>Yet I know nothing so ungrateful and thankless as the task of the translator.
 					If the version be good, it is the author alone to whom the reader feels himself
 					obliged; if the work be bad, the translator alone is accused: if the version be
 					liberal, it is said to want grace and elegance; if it be diffuse, it is
@@ -339,61 +576,61 @@
 					which I do not accord, or to copy an incident which is displeasing, when
 					conscious that it might be improved: all these circumstances induce me to think
 					that it is easier to compose than to translate.</quote>
-				<p> Madame <hi rendition="#italics">de Crousaz</hi> pursues this subject even to the
-					region of Parnassus; and she recounts to her friend the following <hi
-						rendition="#italics">jeu d&apos;esprit</hi>, which was prefixed to one of
+            <p> Madame <hi rendition="#italics">de Crousaz</hi> pursues this subject even to the
+					region of Parnassus; and she recounts to her friend the following <hi rendition="#italics">jeu d'esprit</hi>, which was prefixed to one of
 					her former publications:</p>
-				<quote>
-					<lg type="stanza">
-						<l>Vain is the effort to engrave</l>
-						<l>Colours that a <hi rendition="#italics">Reubens</hi> gave,</l>
-						<l rendition="#indent4">Breathing tints and glowing hues;</l>
-						<l>Like the lyre, at second hand,</l>
-						<l>Stript of all it proud command,</l>
-						<l rendition="#indent4">Torn from Genius and the Muse.</l>
-					
-				<milestone unit="signature" n="M m 2" rendition="#center"/>
-				<pb n="532"/>
-				
-						<l>So labor&apos;d <hi rendition="#italics">versions</hi> oft efface</l>
-						<l>All the poet&apos;s fleeting grace,</l>
-						<l rendition="#indent4">Which a single touch inspir&apos;d;</l>
-						<l>Like the rose that winds have tost,</l>
-						<l>Fading when the stem is lost,</l>
-						<l>Which its beauteous form required.</l>
-					</lg>
-				</quote>
-
-				<p>We have before observed<hi rendition="#sup"><note place="foot">See M.R. Vol.
-							xxiv. N.S. p. 565, &amp;c. [Moody&apos;s note].</note></hi>, respecting
+            <quote>
+               <lg type="stanza" org="uniform" sample="complete" part="N">
+                  <l part="N">Vain is the effort to engrave</l>
+                  <l part="N">Colours that a <hi rendition="#italics">Reubens</hi> gave,</l>
+                  <l rendition="#indent4" part="N">Breathing tints and glowing hues;</l>
+                  <l part="N">Like the lyre, at second hand,</l>
+                  <l part="N">Stript of all it proud command,</l>
+                  <l rendition="#indent4" part="N">Torn from Genius and the Muse.</l>
+                  <milestone unit="signature" n="M m 2" rendition="#center"/>
+                  <pb n="532"/>
+                  <l part="N">So labor'd <hi rendition="#italics">versions</hi> oft efface</l>
+                  <l part="N">All the poet's fleeting grace,</l>
+                  <l rendition="#indent4" part="N">Which a single touch inspir'd;</l>
+                  <l part="N">Like the rose that winds have tost,</l>
+                  <l part="N">Fading when the stem is lost,</l>
+                  <l part="N">Which its beauteous form required.</l>
+               </lg>
+            </quote>
+            <p>We have before observed<hi rendition="#sup">
+                  <note place="foot" anchored="true">See M.R. Vol.
+							xxiv. N.S. p. 565, &amp;c. [Moody's note].</note>
+               </hi>, respecting
 					the writing of M. <hi rendition="#smcaps">De la Fontaine</hi>, that one of his
-					qualities is to rise in the reader&apos;s estimation by gradual and progressive
+					qualities is to rise in the reader's estimation by gradual and progressive
 					advances; and this is surely preferable to the art of sinking, in which so many
 					are equal proficients. The first chapter of the volume before us is intitled, by
-					the journalist, &apos;My Commision of Biography,&apos; and contains a whimsical
+					the journalist, 'My Commision of Biography,' and contains a whimsical
 					relation of the circumstances whence he derived the commission, with the manner
 					of his being invested with it. It is a painting of the Shandean school, and not
-					a bad copy of the mock solemnity of Sterne&apos;s affected pathos:</p>
-				<quote>This infant (added my father, pointing to me,) shall inherit this <hi
-						rendition="#italics"><title>Bible</title></hi> after my death; and promise
+					a bad copy of the mock solemnity of Sterne's affected pathos:</p>
+            <quote>This infant (added my father, pointing to me,) shall inherit this <hi rendition="#italics">
+                  <title>Bible</title>
+               </hi> after my death; and promise
 					me, my Charles, that you will fill all these blank leaves with the actions and
-					occurrences of your life, be they good or bad:&#8212; promise me, my
-					child,&#8212; My father rose from his seat, his eye was animated, his voice had
-					something of peculiar solemnity,&#8212;my uncle rose also, and laid down his
-					pipe,&#8212;my mother clasped her hands. This scene, and the solemn silence
-					which accompanied it, impressed my mind with awe; I advanced&#8212;I gave my
-					hand to my father&#8212;he took off his cap&#8212;my uncle held out his
-					hand&#8212;and my mother embraced me with tears in her eyes&#8212;while, to my
-					father&apos;s benediction, which accompanied the <hi rendition="#italics"
-							><title>Bible</title></hi>, every one said&#8212;<hi rendition="#smcaps"
-						>Amen</hi>.</quote>
-				<p>From the hour of this <hi rendition="#italics">pathetic</hi> ceremony, the young
+					occurrences of your life, be they good or bad:— promise me, my
+					child,— My father rose from his seat, his eye was animated, his voice had
+					something of peculiar solemnity,—my uncle rose also, and laid down his
+					pipe,—my mother clasped her hands. This scene, and the solemn silence
+					which accompanied it, impressed my mind with awe; I advanced—I gave my
+					hand to my father—he took off his cap—my uncle held out his
+					hand—and my mother embraced me with tears in her eyes—while, to my
+					father's benediction, which accompanied the <hi rendition="#italics">
+                  <title>Bible</title>
+               </hi>, every one said—<hi rendition="#smcaps">Amen</hi>.</quote>
+            <p>From the hour of this <hi rendition="#italics">pathetic</hi> ceremony, the young
 					Charles (then twelve years old) determined on being his own biographer; the
 					charms of authorship captivated his youthful imagination, and the first thing
-					which he wished to see was&#8212;a printing press. Instead of playing at
+					which he wished to see was—a printing press. Instead of playing at
 					marbles, like other boys of his age, he was continually ruminating on the task
-					which his father had enjoined to be performed in the <hi rendition="#italics"
-							><title>Bible</title></hi>; he prepared for it with the same speculation
+					which his father had enjoined to be performed in the <hi rendition="#italics">
+                  <title>Bible</title>
+               </hi>; he prepared for it with the same speculation
 					which many authors exercise when they set out on travels, for the purpose of
 					making a book; and he availed himself of every little incident in his own
 					family. Apprehensive, however, that a journal barren of misfortunes would be
@@ -401,40 +638,34 @@
 					with sorrow, in order to afford just such a number of unhappy adventures, that a
 					spring of tears might not be wanting to water the dry ground of his
 					narrative.</p>
-				<pb n="533"/>
-				<p> A love-story soon presents itself; and the journal improves (as Charles very
+            <pb n="533"/>
+            <p> A love-story soon presents itself; and the journal improves (as Charles very
 					rightly conjectured it would) with the melancholy history of the beautiful
-					Susette; who is dismissed from her father&apos;s protection for a fault perhaps
-						<hi rendition="#italics">unpardonable</hi>, but certainly not so <hi
-						rendition="#italics">unnatural</hi> as the conduct of her parent who, in
+					Susette; who is dismissed from her father's protection for a fault perhaps
+						<hi rendition="#italics">unpardonable</hi>, but certainly not so <hi rendition="#italics">unnatural</hi> as the conduct of her parent who, in
 					consequence of her frailty, abandons for ever his only child. We must not,
-					however, give too much attention (partial as we are to beauty) to this <hi
-						rendition="#italics">picture</hi>. <hi rendition="#italics">Le
+					however, give too much attention (partial as we are to beauty) to this <hi rendition="#italics">picture</hi>. <hi rendition="#italics">Le
 						Vaut-rien</hi> is another equally interesting; the mournful incidents of his
 					life, it seems, were derived from his parents conceiving an aversion to him
 					because he was born with red hair; and <hi rendition="#italics">Le
 						Vaut-rien</hi> (the good for nothing) owed this disgraceful name, with ten
 					thousand calamities, to the fatal influence of these ruddy locks.</p>
-				<p> The character of the artful Julia is the best sketch of the painter; in which
+            <p> The character of the artful Julia is the best sketch of the painter; in which
 					the triumph of vice over virtue, and of virtue over vice, with the struggles
 					between ambition and love, are touches of an animated and ingenious pencil. In
 					the <hi rendition="#italics">picture</hi> of the school, we are amused by the
-					master&apos;s whimsical method of classing his scholars according to the
+					master's whimsical method of classing his scholars according to the
 					impression which his ideas receive from their infantine physiognomy; and we
 					smile at the conceit of the aquiline noses being characteristics of
 					distinguished birth, seldom to be found among the vulgar.</p>
-				<p> In taking leave of this journalist, we much acknowledge that we have been much
+            <p> In taking leave of this journalist, we much acknowledge that we have been much
 					amused with many parts of his narrative: but we cannot close our remarks without
 					a hint of congratulation to our fair countrywomen, that they have not German
-					despots for parents. If the national character of the <hi rendition="#italics"
-						>German father</hi> be accurately portrayed in the features of <hi
-						rendition="#italics">Le grand Bailli</hi>, and in those of <hi
-						rendition="#italics">my Uncle</hi> (who is a very bad copy of Uncle Toby),
+					despots for parents. If the national character of the <hi rendition="#italics">German father</hi> be accurately portrayed in the features of <hi rendition="#italics">Le grand Bailli</hi>, and in those of <hi rendition="#italics">my Uncle</hi> (who is a very bad copy of Uncle Toby),
 					our English wives and daughters may bless those kind stars which were the
 					ascendants at their birth, and commanded it to be on this side of the Northern
 					Ocean.</p>
-
-			</div>
-		</body>
-	</text>
+         </div>
+      </body>
+   </text>
 </TEI>

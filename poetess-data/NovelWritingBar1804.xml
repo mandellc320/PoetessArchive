@@ -1,325 +1,572 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title type="main" level="a">&quot;On Novel Writing&quot;</title>
-				<title type="subordinate" level="j">The Literary Magazine and American
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:PA="http://www.poetessarchive.org/#schema">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">"On Novel Writing"</title>
+            <title type="subordinate" level="j">The Literary Magazine and American
 					Register</title>
-				<author type="writer">
-					<name>Anna Letitia Barbauld</name>
-				</author>
-				<respStmt>
-					<resp>Editor</resp>
-					<name xml:id="MW">Mary A. Waters</name>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<idno>NovelWritingBar1804</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<biblStruct>
-					<analytic>
-						<title type="main" level="a">On Novel Writing</title>
-						<author type="writer"><name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name></author>
-					</analytic>
-					<monogr>
-						<title type="main" level="j">The Literary Magazine and American
+            <author type="writer">
+               <name>Anna Letitia Barbauld</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>NovelWritingBar1804</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false">
+               <analytic>
+                  <title type="main" level="a">On Novel Writing</title>
+                  <author type="writer">
+                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="j">The Literary Magazine and American
 							Register</title>
-						<imprint>
-							<date when="1804-12">December 1804</date>
-							<biblScope unit="vol">2</biblScope>
-							<biblScope unit="no">15</biblScope>
-							<biblScope unit="page">693-98</biblScope>
-						</imprint>
-					</monogr>
-				</biblStruct>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<editorialDecl>
-				<quotation>
-					<p>All quotation marks and apostrophes have been changed: " for “, " for ”, '
-						for ‘, and ' for ’.</p>
-					<p>Quotation marks that indicate block quotes have been silently eliminated.</p>
-				</quotation>
-				<hyphenation eol="none">
-					<p>Any dashes occurring in line breaks have been removed.</p>
-					<p>Because of web browser variability, all hyphens have been typed on the U.S.
-						keyboard</p>
-					<p>Em-dashes have been rendered as &#8212;</p>
-				</hyphenation>
-				<normalization method="markup">
-					<p>Spelling has not been regularized.</p>
-					<p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
-					<p>Compositors' catchwords and running titles have been silently eliminated.</p>
-					<p>Long "s" (&#383;) has been silently modernized.</p>
-				</normalization>
-				<normalization>
-					<p>&amp; has been used for the ampersand sign.</p>
-					<p>£ has been used for £, the pound sign</p>
-					<p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-				</normalization>
-			</editorialDecl>
-			<classDecl>
-				<taxonomy
-					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-					xml:id="g">
-					<bibl>ARC Genre Categories, July 1, 2017</bibl>
-					<category xml:id="g1">
-						<catDesc>Advertisement</catDesc>
-					</category>
-					<category xml:id="g2">
-						<catDesc>Animation</catDesc>
-					</category>
-					<category xml:id="g3">
-						<catDesc>Bibliography</catDesc>
-					</category>
-					<category xml:id="g4">
-						<catDesc>Catalog</catDesc>
-					</category>
-					<category xml:id="g5">
-						<catDesc>Chronology</catDesc>
-					</category>
-					<category xml:id="g7">
-						<catDesc>Citation</catDesc>
-					</category>
-					<category xml:id="g6">
-						<catDesc>Collection</catDesc>
-					</category>
-					<category xml:id="g8">
-						<catDesc>Correspondence</catDesc>
-					</category>
-					<category xml:id="g9">
-						<catDesc>Criticism</catDesc>
-					</category>
-					<category xml:id="g10">
-						<catDesc>Drama</catDesc>
-					</category>
-					<category xml:id="g11">
-						<catDesc>Ephemera</catDesc>
-					</category>
-					<category xml:id="g12">
-						<catDesc>Essay</catDesc>
-					</category>
-					<category xml:id="g13">
-						<catDesc>Fiction</catDesc>
-					</category>
-					<category xml:id="g14">
-						<catDesc>Film, Documentary</catDesc>
-					</category>
-					<category xml:id="g15">
-						<catDesc>Film, Experimental</catDesc>
-					</category>
-					<category xml:id="g16">
-						<catDesc>Film, Narrative</catDesc>
-					</category>
-					<category xml:id="g17">
-						<catDesc>Film, Other</catDesc>
-					</category>
-					<category xml:id="g18">
-						<catDesc>Historiography</catDesc>
-					</category>
-					<category xml:id="g19">
-						<catDesc>Interview</catDesc>
-					</category>
-					<category xml:id="g20">
-						<catDesc>Life Writing</catDesc>
-					</category>
-					<category xml:id="g21">
-						<catDesc>Liturgy</catDesc>
-					</category>
-					<category xml:id="g22">
-						<catDesc>Musical Analysis</catDesc>
-					</category>
-					<category xml:id="g23">
-						<catDesc>Music, Other</catDesc>
-					</category>
-					<category xml:id="g24">
-						<catDesc>Musical Work</catDesc>
-					</category>
-					<category xml:id="g25">
-						<catDesc>Musical Score</catDesc>
-					</category>
-					<category xml:id="g26">
-						<catDesc>Nonficition</catDesc>
-					</category>
-					<category xml:id="g27">
-						<catDesc>Paratext</catDesc>
-					</category>
-					<category xml:id="g28">
-						<catDesc>Performance</catDesc>
-					</category>
-					<category xml:id="g29">
-						<catDesc>Philosophy</catDesc>
-					</category>
-					<category xml:id="g30">
-						<catDesc>Photograph</catDesc>
-					</category>
-					<category xml:id="g31">
-						<catDesc>Political Statement</catDesc>
-					</category>
-					<category xml:id="g32">
-						<catDesc>Poetry</catDesc>
-					</category>
-					<category xml:id="g33">
-						<catDesc>Religion</catDesc>
-					</category>
-					<category xml:id="g34">
-						<catDesc>Reference Works</catDesc>
-					</category>
-					<category xml:id="g35">
-						<catDesc>Review</catDesc>
-					</category>
-					<category xml:id="g36">
-						<catDesc>Scripture</catDesc>
-					</category>
-					<category xml:id="g37">
-						<catDesc>Sermon</catDesc>
-					</category>
-					<category xml:id="g38">
-						<catDesc>Speech</catDesc>
-					</category>
-					<category xml:id="g39">
-						<catDesc>Translation</catDesc>
-					</category>
-					<category xml:id="g40">
-						<catDesc>Travel Writing</catDesc>
-					</category>
-					<category xml:id="g41">
-						<catDesc>Unspecified</catDesc>
-					</category>
-					<category xml:id="g42">
-						<catDesc>Visual Art</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E" xml:id="f">
-					<bibl>ARC Format Categories, July 1, 2017</bibl>
-					<category xml:id='f1'>
-						<catDesc>Codex</catDesc>
-					</category>
-					<category xml:id='f2'>
-						<catDesc>Collection</catDesc>
-					</category>
-					<category xml:id='f3'>
-						<catDesc>Dataset</catDesc>
-					</category>
-					<category xml:id='f4'>
-						<catDesc>Drawing</catDesc>
-					</category>
-					<category xml:id='f5'>
-						<catDesc>Illustration</catDesc>
-					</category>
-					<category xml:id='f6'>
-						<catDesc>Interactive Resource</catDesc>
-					</category>
-					<category xml:id='f7'>
-						<catDesc>Manuscript</catDesc>
-					</category>
-					<category xml:id='f8'>
-						<catDesc>Map</catDesc>
-					</category>
-					<category xml:id='f9'>
-						<catDesc>Moving Image</catDesc>
-					</category>
-					<category xml:id='f10'>
-						<catDesc>Notated Music</catDesc>
-					</category>
-					<category xml:id='f11'>
-						<catDesc>Page Proofs</catDesc>
-					</category>
-					<category xml:id='f12'>
-						<catDesc>Pamphlet</catDesc>
-					</category>
-					<category xml:id='f13'>
-						<catDesc>Periodical</catDesc>
-					</category>
-					<category xml:id='f14'>
-						<catDesc>Physcial Object</catDesc>
-					</category>
-					<category xml:id='f15'>
-						<catDesc>Roll</catDesc>
-					</category>
-					<category xml:id='f16'>
-						<catDesc>Sheet</catDesc>
-					</category>
-					<category xml:id='f17'>
-						<catDesc>Sound</catDesc>
-					</category>
-					<category xml:id='f18'>
-						<catDesc>Still Image</catDesc>
-					</category>
-					<category xml:id='f19'>
-						<catDesc>Typescript</catDesc>
-					</category>
-				</taxonomy>
-			</classDecl>
-		</encodingDesc>
-		<profileDesc>
-			<textClass>
-				<keywords scheme="#lcsh">
-					<list type="simple">
-						<item>English literature</item>
-						<item>History</item>
-					</list>
-				</keywords>
-				<catRef target="#g9 #g12" scheme="#g"/>
-				<catRef target="#f13" scheme="#f"/>
-			</textClass>
-		</profileDesc>
-		<revisionDesc>
-			<change who="#MW" when="2016-07-15" n="3">
-				<label>Changed by</label>
-				<name>Mary A. Waters</name>
-				<list>
-					<item>revise TEI encoding</item>
-					<item>document ID change</item>
-				</list>
-			</change>
-			<change  who="#MW" when="2010-12-01" n="2">
-				<label>Changed by</label>
-				<name>Mary A. Waters</name>
-				<list>
-					<item>TEI encoding</item>
-				</list>
-			</change>
-			<change who="#MW" when="2010-12-01" n="1">
-				<label>Changed by</label>
-				<name>Mary A. Waters</name>
-				<list>
-					<item>Created Edition</item>
-				</list>
-			</change>
-		</revisionDesc>
-	</teiHeader>
-	<text>
-		<body>
-			<div type="essay">
-				<head><bibl><lb rendition="#center"/><author type="writer"><ref
-								target="people.html#BarbauldMrs"><name>Anna Letitia
-								Barbauld</name></ref></author>
-						<lb rendition="#center"/><title type="main" level="a"><hi
-								rendition="#smcaps">on novel writing</hi>.<lb rendition="#center"
-								/><hi rendition="#italics"><ref target="people.html#BarbauldMrs">By
-									Mrs. Barbauld.</ref></hi><hi rendition="#sup"><note place="foot"
-										><title level="j"><hi rendition="#italics">The Literary
-											Magazine and American Register</hi></title> 2.15
-									(December 1804): 693-698. The <title><hi rendition="#italics"
-											>Literary Magazine and American Register</hi></title>
-									was a semi-annual publication edited from 1803-1807 by <ref
-										target="people.html#BrownCharles">Charles Brockden
-										Brown</ref>. Readers may wish to compare this text with <ref
-										target="people.html#BarbauldMrs">Barbauld</ref>&apos;s
-									essays <title>&quot;The Life of <ref
-											target="people.html#RichardsonSamuel">Samuel
-											Richardson</ref>&quot;</title> (1804) and
-										<title>&quot;On the Origin and Progress of
-										Novel-Writing&quot;</title>
-						(1810).</note></hi></title></bibl></head>
-				<p> THERE is no period in the history of any nation, at all advanced in literature,
+                  <imprint>
+                     <date when="1804-12">December 1804</date>
+                     <biblScope unit="vol">2</biblScope>
+                     <biblScope unit="no">15</biblScope>
+                     <biblScope unit="page">693-98</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+               <category xml:id="g72">
+                  <catDesc>literary criticism article</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one word before
+                            hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="ag">
+               <bibl>ARC Genre Categories, July 1, 2017</bibl>
+               <category xml:id="ag1">
+                  <catDesc>Advertisement</catDesc>
+               </category>
+               <category xml:id="ag2">
+                  <catDesc>Animation</catDesc>
+               </category>
+               <category xml:id="ag3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="ag4">
+                  <catDesc>Catalog</catDesc>
+               </category>
+               <category xml:id="ag5">
+                  <catDesc>Chronology</catDesc>
+               </category>
+               <category xml:id="ag7">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="ag6">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="ag8">
+                  <catDesc>Correspondence</catDesc>
+               </category>
+               <category xml:id="ag9">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="ag10">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="ag11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="ag12">
+                  <catDesc>Essay</catDesc>
+               </category>
+               <category xml:id="ag13">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="ag14">
+                  <catDesc>Film, Documentary</catDesc>
+               </category>
+               <category xml:id="ag15">
+                  <catDesc>Film, Experimental</catDesc>
+               </category>
+               <category xml:id="ag16">
+                  <catDesc>Film, Narrative</catDesc>
+               </category>
+               <category xml:id="ag17">
+                  <catDesc>Film, Other</catDesc>
+               </category>
+               <category xml:id="ag18">
+                  <catDesc>Historiography</catDesc>
+               </category>
+               <category xml:id="ag19">
+                  <catDesc>Interview</catDesc>
+               </category>
+               <category xml:id="ag20">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="ag21">
+                  <catDesc>Liturgy</catDesc>
+               </category>
+               <category xml:id="ag22">
+                  <catDesc>Musical Analysis</catDesc>
+               </category>
+               <category xml:id="ag23">
+                  <catDesc>Music, Other</catDesc>
+               </category>
+               <category xml:id="ag24">
+                  <catDesc>Musical Work</catDesc>
+               </category>
+               <category xml:id="ag25">
+                  <catDesc>Musical Score</catDesc>
+               </category>
+               <category xml:id="ag26">
+                  <catDesc>Nonficition</catDesc>
+               </category>
+               <category xml:id="ag27">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="ag28">
+                  <catDesc>Performance</catDesc>
+               </category>
+               <category xml:id="ag29">
+                  <catDesc>Philosophy</catDesc>
+               </category>
+               <category xml:id="ag30">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="ag31">
+                  <catDesc>Political Statement</catDesc>
+               </category>
+               <category xml:id="ag32">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="ag33">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="ag34">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="ag35">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="ag36">
+                  <catDesc>Scripture</catDesc>
+               </category>
+               <category xml:id="ag37">
+                  <catDesc>Sermon</catDesc>
+               </category>
+               <category xml:id="ag38">
+                  <catDesc>Speech</catDesc>
+               </category>
+               <category xml:id="ag39">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="ag40">
+                  <catDesc>Travel Writing</catDesc>
+               </category>
+               <category xml:id="ag41">
+                  <catDesc>Unspecified</catDesc>
+               </category>
+               <category xml:id="ag42">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+                      xml:id="f">
+               <bibl>ARC Format Categories, July 1, 2017</bibl>
+               <category xml:id="f1">
+                  <catDesc>Codex</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>Dataset</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>Drawing</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>Illustration</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>Interactive Resource</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>Map</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>Moving Image</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>Notated Music</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>Page Proofs</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>Pamphlet</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>Periodical</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>Physcial Object</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>Roll</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>Sheet</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>Sound</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>Still Image</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>Typescript</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#ag9 #ag12" scheme="#ag"/>
+            <catRef target="#f13" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef scheme="#g" target="#g72 #g30 "/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20190110" n="5">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+            </list>
+         </change>
+         <change who="#MW" when="2016-07-15" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>revise TEI encoding</item>
+               <item>document ID change</item>
+            </list>
+         </change>
+         <change who="#MW" when="2010-12-01" n="2">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="2010-12-01" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay" org="uniform" sample="complete" part="N">
+            <head>
+               <bibl default="false">
+                  <lb rendition="#center"/>
+                  <author type="writer">
+                     <ref target="people.html#BarbauldMrs">
+                        <name>Anna Letitia
+								Barbauld</name>
+                     </ref>
+                  </author>
+                  <lb rendition="#center"/>
+                  <title type="main" level="a">
+                     <hi rendition="#smcaps">on novel writing</hi>.<lb rendition="#center"/>
+                     <hi rendition="#italics">
+                        <ref target="people.html#BarbauldMrs">By
+									Mrs. Barbauld.</ref>
+                     </hi>
+                     <hi rendition="#sup">
+                        <note place="foot" anchored="true">
+                           <title level="j">
+                              <hi rendition="#italics">The Literary
+											Magazine and American Register</hi>
+                           </title> 2.15
+									(December 1804): 693-698. The <title>
+                              <hi rendition="#italics">Literary Magazine and American Register</hi>
+                           </title>
+									was a semi-annual publication edited from 1803-1807 by <ref target="people.html#BrownCharles">Charles Brockden
+										Brown</ref>. Readers may wish to compare this text with <ref target="people.html#BarbauldMrs">Barbauld</ref>'s
+									essays <title>"The Life of <ref target="people.html#RichardsonSamuel">Samuel
+											Richardson</ref>"</title> (1804) and
+										<title>"On the Origin and Progress of
+										Novel-Writing"</title>
+						(1810).</note>
+                     </hi>
+                  </title>
+               </bibl>
+            </head>
+            <p> THERE is no period in the history of any nation, at all advanced in literature,
 					in which fictitious narratives have not made a large part of the reading in
 					which men have most delighted. They have been grafted on the actions of their
 					heroes, interwoven with their mythology, moulded on the manners of the age, and,
@@ -331,14 +578,10 @@
 					the fancy and the passions of young readers. Accompanied with the embellishments
 					of poetry, they produce the epic; concentrating the incidents, and exchanging
 					story for action, they become dra-<pb n="694"/>matic; allied with some great
-					moral or political end, didactic, as in the <title>Telemachus</title> of <ref
-						target="people.html#FenelonFrancois">Fenelon</ref>, and the
-						<title>Belisarius</title> of <ref target="people.html#Marmontel"
-						>Marmontel</ref>. They are often the vehicles of satire, as in the
-						<title>Candid</title> and <title>Baboue</title> of <ref
-						target="people.html#Voltaire">Voltaire</ref>, and the
-						<title>Gulliver</title> of <ref target="people.html#SwiftJonathan"
-						>Swift</ref>. They take a tincture from the learning and politics of the
+					moral or political end, didactic, as in the <title>Telemachus</title> of <ref target="people.html#FenelonFrancois">Fenelon</ref>, and the
+						<title>Belisarius</title> of <ref target="people.html#Marmontel">Marmontel</ref>. They are often the vehicles of satire, as in the
+						<title>Candid</title> and <title>Baboue</title> of <ref target="people.html#Voltaire">Voltaire</ref>, and the
+						<title>Gulliver</title> of <ref target="people.html#SwiftJonathan">Swift</ref>. They take a tincture from the learning and politics of the
 					times, and are often successfully employed to attack or to recommend the
 					prevailing systems of the day. We have seen liberty and equality recommended by
 					one performance, and ridiculed in another. When the range of this kind of
@@ -352,7 +595,7 @@
 					readers; yet the invention of a story, the choice of proper incidents, the
 					modelling of a plan, the exhibition of character, the gradual unfolding of a
 					plot, occasional beauties of description, and, above all, the power exercised
-					over the reader&apos;s heart, by filling it with the emotions of love, pity,
+					over the reader's heart, by filling it with the emotions of love, pity,
 					joy, anguish, transport, or indignation, together with the grave and affecting
 					moral resulting from the whole, imply talents of the highest order, and ought to
 					command our warmest praise. There is no walk in which taste and genius have more
@@ -363,61 +606,65 @@
 					if given by a man of taste, and of ample reading. But there are some periods
 					which form a new era in this kind of writing, and those productions particularly
 					deserve our attention, which stand at the head of a class, and have diverted the
-					taste of the public into some new channel. Of this kind are the writings of <ref
-						target="people.html#RichardsonSamuel">Richardson</ref>. He may, in a great
+					taste of the public into some new channel. Of this kind are the writings of <ref target="people.html#RichardsonSamuel">Richardson</ref>. He may, in a great
 					measure, be said to be the father of the modern novel of the serious or pathetic
 					kind, and he was also original in the epistolary mode by which he carried on the
 					story. </p>
-				<p> Should we search among the treasures of ancient literature for fictions similar
+            <p> Should we search among the treasures of ancient literature for fictions similar
 					to the modern novel, we should find none more nearly resembling it than
-						<title>&quot;Theagenes and Chariclea,&quot;</title> the work of <ref
-						target="people.html#Heliodorus">Heliodorus</ref>, a christian bishop of
+						<title>"Theagenes and Chariclea,"</title> the work of <ref target="people.html#Heliodorus">Heliodorus</ref>, a christian bishop of
 					Trieca, in Thessaly. Though his romance was unexceptionably pure and virtuous,
 					he was required either to burn his book or resign his bishopric; upon which,
 					with the heroism of an author, he chose the latter.</p>
-				<p> But after Europe had sunk into barbarism, a taste was again to be formed; and a
+            <p> But after Europe had sunk into barbarism, a taste was again to be formed; and a
 					taste for the natural, the graceful, and the simply-pathetic is generally the
 					last step in the progress of civilization.</p>
-				<p> We know the character of the romances of chivalry....<title>Amadis de
+            <p> We know the character of the romances of chivalry....<title>Amadis de
 						Gaul</title> at their head, with whose merits the English reader has lately
-					been made acquainted, in an elegant abridged version.<hi rendition="#sup"><note
-							place="foot"><hi rendition="#italics"><title>Amadis de
-								Gaule</title></hi> is an early-sixteenth century romance by <ref
-								target="people.html#RodriquezdeMontalvo">Rodr&#237;guez de
+					been made acquainted, in an elegant abridged version.<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <hi rendition="#italics">
+                        <title>Amadis de
+								Gaule</title>
+                     </hi> is an early-sixteenth century romance by <ref target="people.html#RodriquezdeMontalvo">Rodríguez de
 								Montalvo"</ref> with versions preceeding it by a century or more.
-								<ref target="people.html#SoutheyRobert">Robert Southey</ref>&apos;s
-							translation into English appeared in 1803. </note></hi> They were truly
+								<ref target="people.html#SoutheyRobert">Robert Southey</ref>'s
+							translation into English appeared in 1803. </note>
+               </hi> They were truly
 					historical, but they heightened the traditionary adventures of heroes with
 					marvellous tales of giants, enchantments, and other supernatural contrivances.
 					But we must not suppose that even these fictions were always regarded, as we now
-					regard them, as the mere play of fancy: &quot;<hi rendition="#italics">le vrai
-						seul est aimable</hi>&quot; <hi rendition="#sup"><note place="foot"
-							>&quot;the truth alone is beautiful&quot;; <ref
-								target="people.html#Boileau">Boileau</ref>, <title><hi
-									rendition="#italics">Epitre IX</hi></title> (1674) 43.
-						</note></hi> was always so far a maxim, that no work of fancy can greatly
+					regard them, as the mere play of fancy: "<hi rendition="#italics">le vrai
+						seul est aimable</hi>" <hi rendition="#sup">
+                  <note place="foot" anchored="true">"the truth alone is beautiful"; <ref target="people.html#Boileau">Boileau</ref>, <title>
+                        <hi rendition="#italics">Epitre IX</hi>
+                     </title> (1674) 43.
+						</note>
+               </hi> was always so far a maxim, that no work of fancy can greatly
 					succeed, which is not founded on popular belief: but what is truth? In ancient
 					times, talismans, and sympathetic powders, and all-healing charms, were
 					generally credited.</p>
-				<p> Much love adventure was admitted into these narratives, but not always of the
+            <p> Much love adventure was admitted into these narratives, but not always of the
 					purest or most delicate <pb n="695"/>kind. Poetry was often made the vehicle,
-					especially in Italy: <title><hi rendition="#italics">Orlando
-						Furioso</hi></title><hi rendition="#sup"><note place="foot">By <ref
-								target="people.html#Ariosto">Ariosto</ref>.</note></hi> is a
+					especially in Italy: <title>
+                  <hi rendition="#italics">Orlando
+						Furioso</hi>
+               </title>
+               <hi rendition="#sup">
+                  <note place="foot" anchored="true">By <ref target="people.html#Ariosto">Ariosto</ref>.</note>
+               </hi> is a
 					chivalrous romance in verse. </p>
-				<p> As the spirit of warlike adventure subsided, these fictions softened, by
+            <p> As the spirit of warlike adventure subsided, these fictions softened, by
 					degrees, into the languishing and amorous tales of the French school....into
-						<title>Clelias</title> and <title>Cassandras</title>.<hi rendition="#sup"
-							><note place="foot">Novels by <ref target="people.html#ScuderyMadeleine"
-								>Mme. de Scud&#233;ry</ref> and <ref
-								target="people.html#LaCalprenede">La Calpren&#232;de</ref>
-							respectively.</note></hi> I might, indeed, have mentioned, before these,
-					a romance of a peculiar kind, the <title>Astrea</title> of <ref
-						target="people.html#UrfeHonored">d&apos; Urf&#233;</ref>, which all France
+						<title>Clelias</title> and <title>Cassandras</title>.<hi rendition="#sup">
+                  <note place="foot" anchored="true">Novels by <ref target="people.html#ScuderyMadeleine">Mme. de Scudéry</ref> and <ref target="people.html#LaCalprenede">La Calprenède</ref>
+							respectively.</note>
+               </hi> I might, indeed, have mentioned, before these,
+					a romance of a peculiar kind, the <title>Astrea</title> of <ref target="people.html#UrfeHonored">d' Urfé</ref>, which all France
 					read with eagerness, when first published. It is a pastoral romance, and its
 					celebrity was owing to its abounding with allusions to the amours of the court
 					of <ref target="people.html#HenryIVKingofFrance">Henry the fourth</ref>.</p>
-				<p> The principle of these romances was high honour, impregnable chastity, a
+            <p> The principle of these romances was high honour, impregnable chastity, a
 					constancy unshaken by time or accident, and a species of love so exalted and
 					refined, that it bore but little resemblance to a natural passion. In the story,
 					they approached a step nearer to nature; the adventures were marvellous, but not
@@ -430,56 +677,63 @@
 					these, as <ref target="people.html#Cervantes">Cervantes</ref> had done the
 					others, and their knell was rung: people were ready to wonder they had ever
 					admired them. </p>
-				<p> A closer imitation of nature began now to be required: from the earliest times,
+            <p> A closer imitation of nature began now to be required: from the earliest times,
 					however, there had been tales built upon real life, a few of them serious, but
-					the greater part comic. The <title><hi rendition="#italics"
-						>Decamerone</hi></title> of <ref target="people.html#Boccaccio"
-						>Boccacio</ref>, the <title><hi rendition="#italics">Cent
-						Nouvelles</hi></title> of the <ref target="people.html#MargueriteofNavarre"
-						>queen of Navarre</ref>, <hi rendition="#italics">contes</hi> and <hi
-						rendition="#italics">fableaux</hi> without number, may be considered as
+					the greater part comic. The <title>
+                  <hi rendition="#italics">Decamerone</hi>
+               </title> of <ref target="people.html#Boccaccio">Boccacio</ref>, the <title>
+                  <hi rendition="#italics">Cent
+						Nouvelles</hi>
+               </title> of the <ref target="people.html#MargueriteofNavarre">queen of Navarre</ref>, <hi rendition="#italics">contes</hi> and <hi rendition="#italics">fableaux</hi> without number, may be considered as
 					novels, though of a lighter texture: they abounded with adventure, generally of
 					the humorous, often of the licentious kind, and, indeed, were mostly founded on
-					amorous intrigues, while the nobler passions were seldom touched. The <title><hi
-							rendition="#italics">Roman Comique</hi></title> of <ref
-						target="people.html#Scarron">Scarron</ref> is a regular piece of its kind,
-					and possesses great merit in the humorous way; but the <title><hi
-							rendition="#italics">Zaide</hi></title> and the <title><hi
-							rendition="#italics">Princesse de Cleves</hi></title> of <ref
-						target="people.html#LaFayetteMadame">Madame de la Fayette</ref>, are deemed
+					amorous intrigues, while the nobler passions were seldom touched. The <title>
+                  <hi rendition="#italics">Roman Comique</hi>
+               </title> of <ref target="people.html#Scarron">Scarron</ref> is a regular piece of its kind,
+					and possesses great merit in the humorous way; but the <title>
+                  <hi rendition="#italics">Zaide</hi>
+               </title> and the <title>
+                  <hi rendition="#italics">Princesse de Cleves</hi>
+               </title> of <ref target="people.html#LaFayetteMadame">Madame de la Fayette</ref>, are deemed
 					the first that approach the modern novel of the serious kind, the latter
-					especially: they were written in the reign of <ref
-						target="people.html#LouisXIVKingofFrance">Louis XIV</ref>, greatly admired,
-					and considered as forming a new era in works of invention. <ref
-						target="people.html#Voltaire">Voltaire</ref> says they were &quot;the first
+					especially: they were written in the reign of <ref target="people.html#LouisXIVKingofFrance">Louis XIV</ref>, greatly admired,
+					and considered as forming a new era in works of invention. <ref target="people.html#Voltaire">Voltaire</ref> says they were "the first
 					romances in which were seen natural incidents, and the manners of good company,
 					described with elegance. Before her time, improbable adventures were related in
-					a turgid and affected style.&quot;<hi rendition="#sup"><note place="foot"><ref
-								target="people.html#Voltaire">Voltaire</ref>, &quot;Ecrivains,
-							don&apos;t plusieurs on illustr&#233; le si&#233;cle,&quot; one of a
-							series of catalogs included in <title><hi rendition="#italics">Le Siecle
+					a turgid and affected style."<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <ref target="people.html#Voltaire">Voltaire</ref>, "Ecrivains,
+							don't plusieurs on illustré le siécle," one of a
+							series of catalogs included in <title>
+                        <hi rendition="#italics">Le Siecle
 									de <ref target="people.html#LouisXIVKingofFrance">Louis
-										XIV</ref></hi></title> (1751; London: R. Dodsley, 1752)
-							2:486. Other editions position these catalogs differently.</note></hi>
+										XIV</ref>
+                        </hi>
+                     </title> (1751; London: R. Dodsley, 1752)
+							2:486. Other editions position these catalogs differently.</note>
+               </hi>
 					The novels of <ref target="people.html#LaFayetteMadame">Madame la Fayette</ref>
 					are certainly beautiful, but a step is still wanting; they no longer speak,
-					indeed, of <ref target="people.html#AlexandertheGreat">Alexander</ref>s and <ref
-						target="people.html#BrutusMarcus">Brutus</ref>&apos;s, still less of giants
+					indeed, of <ref target="people.html#AlexandertheGreat">Alexander</ref>s and <ref target="people.html#BrutusMarcus">Brutus</ref>'s, still less of giants
 					and fairies; but the heroes and heroines are princes and princesses. They are
 					not people of our acquaintance. The scene is perhaps in Spain, or among the
 					Moors: it does not reflect the picture of domestic life, they are not the men
 					and women we daily see about us.</p>
-				<p>
-					<hi rendition="#italics"><ref target="people.html#LeSageAlain">Le
-						Sage</ref></hi>, in his <title><hi rendition="#italics">Gil
-						Blas</hi></title>, a work of infinite diversion, though of dubious morality,
+            <p>
+               <hi rendition="#italics">
+                  <ref target="people.html#LeSageAlain">Le
+						Sage</ref>
+               </hi>, in his <title>
+                  <hi rendition="#italics">Gil
+						Blas</hi>
+               </title>, a work of infinite diversion, though of dubious morality,
 					presented us such people; but his portraits were mostly humorous, and his work
 					was rather a series of separate adventures than a chain of events concurring to
 					produce one catastrophe. There was still wanting a mode of writing which should
 					connect the high passions and delicate sentiments of the old romance, with
 					characters moving in our own sphere of life, and brought into action by events
 					of daily occurrence. </p>
-				<p> In the earlier periods of English history, we had our share of the rude
+            <p> In the earlier periods of English history, we had our share of the rude
 					literature of the times, and we were familiar, either in translations or works
 					of our own growth, with <pb n="696"/>the heroes of chivalry, many of whom
 					belonged to our own country. We had also, in common with our neighbours, the
@@ -489,75 +743,83 @@
 					for their falsehood; they should not be preserved for their invention: they are
 					now harmless: they can no longer excite our indignation; let them be permitted
 					still to amuse our fancy. </p>
-				<p> In the reign of <ref target="people.html#ElizabethIQueenofEngland">queen
-						Elizabeth</ref>, we had the once famous romance, <hi rendition="#italics"
-							><ref target="people.html#SidneyPhilip">Sidney</ref>&apos;s
-							<title>Arcadia</title></hi>, of the pastoral heroic kind. It is a book
+            <p> In the reign of <ref target="people.html#ElizabethIQueenofEngland">queen
+						Elizabeth</ref>, we had the once famous romance, <hi rendition="#italics">
+                  <ref target="people.html#SidneyPhilip">Sidney</ref>'s
+							<title>Arcadia</title>
+               </hi>, of the pastoral heroic kind. It is a book
 					that all have heard of, some few possess, but nobody reads. </p>
-				<p> From that period, to the middle of the reign of <ref
-						target="people.html#GeorgeIIKingofGreatBritain">George II</ref>, we had
+            <p> From that period, to the middle of the reign of <ref target="people.html#ageorgeIIKingofGreatBritain">George II</ref>, we had
 					tales of various kinds, but scarcely one that is read at present, and, I
-					believe, not any except that ingenious allegory, <title><hi rendition="#italics"
-							>The Pilgrim&apos;s Progress</hi></title>, that was known out of
+					believe, not any except that ingenious allegory, <title>
+                  <hi rendition="#italics">The Pilgrim's Progress</hi>
+               </title>, that was known out of
 					England. We had poets and philosophers long before we attained excellence in the
-					lighter kinds of prosaic composition. <ref target="people.html#HarringtonJames"
-						>Harrington</ref>&apos;s <title><hi rendition="#italics">Oceana</hi></title>
+					lighter kinds of prosaic composition. <ref target="people.html#HarringtonJames">Harrington</ref>'s <title>
+                  <hi rendition="#italics">Oceana</hi>
+               </title>
 					is political, and will grievously disappoint those who seek amusement in it. The
-							<title><hi rendition="#italics">Atalantis</hi></title> of <ref
-						target="people.html#ManleyMrs">Mrs. Manly</ref> lives only in that line of
+							<title>
+                  <hi rendition="#italics">Atalantis</hi>
+               </title> of <ref target="people.html#ManleyMrs">Mrs. Manly</ref> lives only in that line of
 						<ref target="people.html#PopeAlexander">Pope</ref> which promises it
-					immortality: <quote><lg type="stanza">
-							<l>As long as <title>Atalantis</title> shall be read.<hi
-									rendition="#sup"><note place="foot"><ref
-											target="people.html#PopeAlexander">Alexander
-										Pope</ref>&apos;s comment on <title><hi rendition="#italics"
-												>The New Atalantis</hi></title> (1709) by <ref
-											target="people.html#ManleyMrs">Delariviere Manley</ref>
-										appears in <title><hi rendition="#italics">The Rape of the
-												Lock</hi></title>, Canto III, line
-								165.</note></hi></l>
-						</lg></quote> It was, like <title>Astrea</title>, filled with fashionable
-					scandal. <ref target="people.html#BehnAphra">Mrs. Behn</ref>&apos;s novels were
+					immortality: <quote>
+                  <lg type="stanza" org="uniform" sample="complete" part="N">
+                     <l part="N">As long as <title>Atalantis</title> shall be read.<hi rendition="#sup">
+                           <note place="foot" anchored="true">
+                              <ref target="people.html#PopeAlexander">Alexander
+										Pope</ref>'s comment on <title>
+                                 <hi rendition="#italics">The New Atalantis</hi>
+                              </title> (1709) by <ref target="people.html#ManleyMrs">Delariviere Manley</ref>
+										appears in <title>
+                                 <hi rendition="#italics">The Rape of the
+												Lock</hi>
+                              </title>, Canto III, line
+								165.</note>
+                        </hi>
+                     </l>
+                  </lg>
+               </quote> It was, like <title>Astrea</title>, filled with fashionable
+					scandal. <ref target="people.html#BehnAphra">Mrs. Behn</ref>'s novels were
 					licentious: they are also extinct. Till the middle of the last century,
 					theatrical productions and poetry made a greater part of polite reading than
 					novels, which had not attained either elegance or nice discrimination of
 					characters; some maritime or some love adventure were all they aimed at. The
-					ladies&apos; library, described in the <title>Spectator</title>, contains
-						&quot;<title>the Grand Cyrus</title>, with a pin stuck in one of the leaves,
+					ladies' library, described in the <title>Spectator</title>, contains
+						"<title>the Grand Cyrus</title>, with a pin stuck in one of the leaves,
 					and <title>Clelia</title>, which opened of itself in the place that describes
-					two lovers in a bower;&quot;<hi rendition="#sup"><note place="foot"><title><hi
-									rendition="#italics">Spectator</hi></title> No. 37 (Thursday,
-							April 12, 1711). The novels are by <ref target="people.html#UrfeHonored"
-								>d&apos;Urf&#233;</ref> and <ref
-								target="people.html#ScuderyMadeleine">Mme. de
-							Scud&#233;ry</ref>.</note></hi> but there does not occur either there,
+					two lovers in a bower;"<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <title>
+                        <hi rendition="#italics">Spectator</hi>
+                     </title> No. 37 (Thursday,
+							April 12, 1711). The novels are by <ref target="people.html#UrfeHonored">d'Urfé</ref> and <ref target="people.html#ScuderyMadeleine">Mme. de
+							Scudéry</ref>.</note>
+               </hi> but there does not occur either there,
 					or, I believe, in any other part of the work, the name of one English novel, the
 						<title>Atalantis</title> excepted. Plays are often mentioned as a favourite
-					and dangerous part of ladies&apos; reading. </p>
-				<p> The first author who distinguished himself by natural painting was that truly
+					and dangerous part of ladies' reading. </p>
+            <p> The first author who distinguished himself by natural painting was that truly
 					original genius <ref target="people.html#DefoeDaniel">De Foe</ref>; and if from
 					any one <ref target="people.html#RichardsonSamuel">Richardson</ref> caught his
-					peculiar manner of writing, to him it must be traced, whose <title><hi
-							rendition="#italics">Robinson Crusoe</hi></title> and <title><hi
-							rendition="#italics">Family Instructor</hi></title>, the latter
+					peculiar manner of writing, to him it must be traced, whose <title>
+                  <hi rendition="#italics">Robinson Crusoe</hi>
+               </title> and <title>
+                  <hi rendition="#italics">Family Instructor</hi>
+               </title>, the latter
 					consisting of domestic dialogues, he must have read in his youth. Both were
-					accurate describers, minute and circumstantial, but the minuteness of <ref
-						target="people.html#DefoeDaniel">De Foe</ref> was displayed in things, and
+					accurate describers, minute and circumstantial, but the minuteness of <ref target="people.html#DefoeDaniel">De Foe</ref> was displayed in things, and
 					that of <ref target="people.html#RichardsonSamuel">Richardson</ref> in persons
 					and sentiments. No one knew, like <ref target="people.html#DefoeDaniel">De
 						Foe</ref>, to give to fiction the air of truth, by an accumulation of
 					circumstance, and a natural style of narration, unless, indeed, he were rivalled
 					by <ref target="people.html#SwiftJonathan">Swift</ref>, in his
-						<title>Gulliver</title> and John Bull. <ref target="people.html#DefoeDaniel"
-						>De Foe</ref> wrote also other tales, which I have not seen: they do not
-					appear to have attained much celebrity. <ref
-						target="people.html#RichardsonSamuel">Richardson</ref> was the man who was
+						<title>Gulliver</title> and John Bull. <ref target="people.html#DefoeDaniel">De Foe</ref> wrote also other tales, which I have not seen: they do not
+					appear to have attained much celebrity. <ref target="people.html#RichardsonSamuel">Richardson</ref> was the man who was
 					born to introduce a new kind of moral painting: he drew equally from nature and
 					from his own thoughts. From the world about him he took incidents, manners, and
 					general character; and from his own imagination he copied that sublime of
-					virtue, which charms us in <ref target="people.html#ClarissaHarlowe"
-						>Clarissa</ref>, and that sublime of passion, which subdues us in <ref
-						target="people.html#Clementina">Clementina</ref>. That kind of fictitious
+					virtue, which charms us in <ref target="people.html#ClarissaHarlowe">Clarissa</ref>, and that sublime of passion, which subdues us in <ref target="people.html#Clementina">Clementina</ref>. That kind of fictitious
 					writing, of which he has set the example, disclaims all aid from giants or
 					genii. The moated castle gives place to a modern parlour; the princess and her
 					pages to a lady and her domestics, or even to a rustic maid, without birth or
@@ -569,24 +831,26 @@
 					theatre of life. It was the high and just praise given by our great critic, Dr.
 						<ref target="#JohnsonSamuel">Johnson</ref>, to this author, that he had
 					enlarged the knowledge of human nature, and taught the passions to move at the
-					command of virtue.<hi rendition="#sup"><note place="foot"><title><hi
-									rendition="#italics">Rambler</hi></title> 97 (Tuesday, February
-							19, 1751).</note></hi> The novelist has, indeed, all the advantage of
+					command of virtue.<hi rendition="#sup">
+                  <note place="foot" anchored="true">
+                     <title>
+                        <hi rendition="#italics">Rambler</hi>
+                     </title> 97 (Tuesday, February
+							19, 1751).</note>
+               </hi> The novelist has, indeed, all the advantage of
 					the preacher in introducing useful maxims and sentiments of virtue; an advantage
 					which <ref target="people.html#RichardsonSamuel">Richardson</ref> made large use
 					of; and he has besides the power of impressing them upon the heart, through the
-					best sensibilities of our nature. <ref target="people.html#RichardsonSamuel"
-						>Richardson</ref> prided himself on being a moral and religious writer; and,
+					best sensibilities of our nature. <ref target="people.html#RichardsonSamuel">Richardson</ref> prided himself on being a moral and religious writer; and,
 					as <ref target="people.html#AddisonJoseph">Addison</ref> did before him, he
 					professed to take under his particular protection that sex which is supposed to
 					be the most open to good or evil impressions, whose inexperience most requires
 					cautionary precepts, and whose sensibilities it is most important to secure
 					against a wrong direction. The manner of this captivating writer was also new. </p>
-				<p> There are three modes of carrying on a story: the narrative, or epic, as it may
+            <p> There are three modes of carrying on a story: the narrative, or epic, as it may
 					be called; in this the author himself relates the whole adventure: this is the
 					manner of <ref target="people.html#Cervantes">Cervantes</ref>, in his <title>Don
-						Quixote</title>, and of <ref target="people.html#FieldingHenry"
-						>Fielding</ref>, in his <title>Tom Jones</title>. It is the most common way.
+						Quixote</title>, and of <ref target="people.html#FieldingHenry">Fielding</ref>, in his <title>Tom Jones</title>. It is the most common way.
 					The author, like the muse, is supposed to know every thing; he can reveal the
 					secret springs of actions, and let us into events in his own time and manner. He
 					can be concise or diffuse, according as the different parts of his story require
@@ -596,29 +860,36 @@
 					narration will not be lively, except he frequently drops himself, and runs into
 					dialogue: all good writers, therefore, have thrown as much as possible of the
 					dramatic into their narrative. <ref target="people.html#BurneyFanny">Mad.
-						d&apos; Arblay</ref> has done this so successfully, that we have as clear an
+						d' Arblay</ref> has done this so successfully, that we have as clear an
 					idea, not only of the sentiments, but the manner of expression of her different
 					personages, as if we took it from the scenes of a play.</p>
-				<p> Another mode is that of memoirs, where the hero of the adventure relates his own
-					story. <hi rendition="#italics"><ref target="people.html#SmollettTobias"
-							>Smollet</ref></hi>, in his <title><hi rendition="#italics">Roderick
-							Random</hi></title>, and <hi rendition="#italics"><ref
-							target="people.html#GoldsmithOliver">Goldsmith</ref></hi>, in his
-							<title><hi rendition="#italics">Vicar of Wakefield</hi></title>, have
-					adopted this mode: it confines the author&apos;s style, which ought to be,
+            <p> Another mode is that of memoirs, where the hero of the adventure relates his own
+					story. <hi rendition="#italics">
+                  <ref target="people.html#SmollettTobias">Smollet</ref>
+               </hi>, in his <title>
+                  <hi rendition="#italics">Roderick
+							Random</hi>
+               </title>, and <hi rendition="#italics">
+                  <ref target="people.html#agoldsmithOliver">Goldsmith</ref>
+               </hi>, in his
+							<title>
+                  <hi rendition="#italics">Vicar of Wakefield</hi>
+               </title>, have
+					adopted this mode: it confines the author's style, which ought to be,
 					though it is not always, suited to the capacity and education of the imaginary
 					narrator. It has the warmth and interest a person may be supposed to feel in
 					relating his own concerns, and he can more gracefully dwell upon minute
 					circumstances. It has a greater air of truth, and it seems to account for the
 					communication to the public. The author, it is true, knows every thing; but,
 					when the secret recesses of the heart are to be laid open, we can hear no one
-					with so much pleasure as the actor himself. <hi rendition="#italics"><ref
-							target="people.html#Marivaux">Marivaux</ref></hi>, a contemporary of
+					with so much pleasure as the actor himself. <hi rendition="#italics">
+                  <ref target="people.html#Marivaux">Marivaux</ref>
+               </hi>, a contemporary of
 						<ref target="people.html#RichardsonSamuel">Richardson</ref>, has put the
 					history of Marianne into her own mouth, and we are amused to hear her dwell on
 					little touches, which are almost too trivial to be noticed by any body but
 					herself. </p>
-				<p> But what the hero cannot say, the author cannot tell, nor can it be rendered
+            <p> But what the hero cannot say, the author cannot tell, nor can it be rendered
 					probable, that a very circumstantial narrative should be given by a person,
 					perhaps at the close of a long life, of conversations that have happened at the
 					beginning of it. The author has always two characters to support, and has to
@@ -626,9 +897,8 @@
 					should feel when only relating them; at a period, perhaps, when curiosity is
 					extinct, passions cool, and when, at any rate, the suspenses which kept pace
 					with them are over. This seems, therefore, the least perfect mode of any.</p>
-				<p> A third way is that of epistola-<pb n="698"/>ry correspondence, carried on
-					between the persons of the story.... This is the form used by <ref
-						target="people.html#RichardsonSamuel">Richardson</ref>, and many others
+            <p> A third way is that of epistola-<pb n="698"/>ry correspondence, carried on
+					between the persons of the story.... This is the form used by <ref target="people.html#RichardsonSamuel">Richardson</ref>, and many others
 					after, but by none before him. He seems to have been led to it by some
 					circumstances in his early youth. This method unites the advantages of the other
 					two; it gives the feelings of the moment, as the writers felt them at the
@@ -638,8 +908,7 @@
 					the probable omission or loss of letters. It is inconsistent with a rapid style,
 					but gives room for the graceful introduction of remarks and sentiments, or
 					almost any kind of digressive matter. But, on the other hand, it is highly
-					incredible; it is the <hi rendition="#italics">most natural</hi> and the <hi
-						rendition="#italics">least probable</hi> way of telling a story. That
+					incredible; it is the <hi rendition="#italics">most natural</hi> and the <hi rendition="#italics">least probable</hi> way of telling a story. That
 					letters should be written at all times, and upon every occasion in life, that
 					those letters should be preserved, and altogether form a connected story, it
 					requires much art to render probable. It introduces the inconvenience so much
@@ -652,11 +921,14 @@
 					passions, and to imitate the peculiar way of thinking and speaking of his
 					characters, and has been adopted by many, both at home and abroad, especially by
 					the French writers; their language, perhaps, being particularly suited to the
-					epistolary style, and <hi rendition="#italics"><ref
-							target="people.html#RousseauJeanJacques">Rousseau</ref></hi> himself, in
-					his <title><hi rendition="#italics">Nouvelle Heloise</hi></title>, has followed
+					epistolary style, and <hi rendition="#italics">
+                  <ref target="people.html#RousseauJeanJacques">Rousseau</ref>
+               </hi> himself, in
+					his <title>
+                  <hi rendition="#italics">Nouvelle Heloise</hi>
+               </title>, has followed
 					the steps of our countryman. </p>
-			</div>
-		</body>
-	</text>
+         </div>
+      </body>
+   </text>
 </TEI>
