@@ -20,13 +20,19 @@
 	<!-- Make these variables so that you can easily change them. -->
 	<xsl:variable name="stylesheet">critarchive.css</xsl:variable>
 	<xsl:variable name="baseURL">http://www.poetessarchive.org/critarchive/</xsl:variable>
+	
+	<!-- for running one document 
+	<xsl:template match="/">
+		<xsl:apply-templates/>
+	</xsl:template> -->
 
-	<!-- running multiple documents in an XML directory -->
+	<!-- running multiple documents in an XML directory  -->
 	<xsl:template match="list">
 		<xsl:for-each select="item">
 			<xsl:apply-templates select="document(@code)/tei:TEI"/>
 		</xsl:for-each>
 	</xsl:template>
+	
 
 	<!--structuring the document-->
 
