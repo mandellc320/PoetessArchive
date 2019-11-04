@@ -6,8 +6,8 @@
       <fileDesc>
          <titleStmt>
             <title type="main">from The Bijou Literary Annual, 1828</title>
-            <title type="subordinate">Dedication Page</title>
-            <author type="producer">William Pickering</author>
+            <title type="subordinate">Works published by W. Pickering</title>
+            <author type="producer">Laura Mandell</author>
             <editor role="editor">Fraser, William (1796-1854), compiler</editor>
             <sponsor>The Poetess Archive</sponsor>
             <respStmt>
@@ -35,7 +35,7 @@
                <p>Freely available via a Creative Commons Attribution-ShareAlike
                                     4.0 International License</p>
             </availability>
-            <idno>bijou1828.dedicationDD</idno>
+            <idno>bijou1828.advertisementAD</idno>
          </publicationStmt>
          <seriesStmt>
             <title level="s">The Bijou Literary Annual</title>
@@ -48,8 +48,10 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <author type="author"/>
-                  <title>Dedication Page</title>
+                  <author type="producer">
+                     <name reg="Pickering, William" date="1796-1854" place="UK">William Pickering</name>
+                  </author>
+                  <title>Works published by W. Pickering</title>
                </analytic>
                <monogr>
                   <title level="m" type="main">The Bijou; </title>
@@ -533,15 +535,15 @@
                   <item>The Bijou</item>
                   <item>Literary Annual</item>
                   <item>Fraser, William (1796-1854)</item>
-                  <item>dedication</item>
-                  <item>Dedication Page</item>
-                  <item>William Pickering</item>
+                  <item>advertisement</item>
+                  <item>Works published by W. Pickering</item>
+                  <item>Laura Mandell</item>
                </list>
             </keywords>
             <catRef target="#ft1" scheme="#ft"/>
             <catRef target="#ps1" scheme="#ps"/>
-            <catRef target="#g8" scheme="#g"/>
-            <catRef target="#ag10" scheme="#ag"/>
+            <catRef target="#g19" scheme="#g"/>
+            <catRef target="#ag9" scheme="#ag"/>
             <catRef target="#f1" scheme="#f"/>
          </textClass>
       </profileDesc>
@@ -596,15 +598,21 @@
       <body>
          <div xmlns:tei="http://www.tei-c.org/ns/1.0"
               xmlns:PA="http://www.poetessarchive.org/#schema"
-              type="dedication"
-              xml:id="DD"
+              type="advertisement"
+              xml:id="AD"
               org="uniform"
               sample="complete"
               part="N">
+            <head>Works published by W. Pickering</head>
             <p rend="center">
-               <figure xml:id="image012">
-                  <graphic url="http://iiif.dh.tamu.edu/iiif/2/poetess%2Fbijou%2F012.tif/full/,200/0/default.jpg"/>
-                  <head>Dedication Page</head>
+               <figure xml:id="image381">
+                  <graphic url="http://iiif.dh.tamu.edu/iiif/2/poetess%2Fbijou%2F381.tif/full/,300/0/default.jpg"/>
+               </figure>
+               <figure xml:id="image382">
+                  <graphic url="http://iiif.dh.tamu.edu/iiif/2/poetess%2Fbijou%2F382.tif/full/,300/0/default.jpg"/>
+               </figure>
+               <figure xml:id="image383">
+                  <graphic url="http://iiif.dh.tamu.edu/iiif/2/poetess%2Fbijou%2F381.tif/full/,300/0/default.jpg"/>
                </figure>
             </p>
          </div>
