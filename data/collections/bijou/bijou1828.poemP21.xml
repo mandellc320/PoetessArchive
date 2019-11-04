@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:PA="http://www.poetessarchive.org/#schema">
-   <teiHeader xmlns:pa="http://www.poetessarchive.org/schema#" type="text">
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">from The Bijou Literary Annual, 1828</title>
@@ -30,7 +31,7 @@
             <publisher>Laura Mandell, Texas A&amp;M University</publisher>
             <pubPlace>College Station, TX</pubPlace>
             <date>20170606</date>
-            <availability status="unknown" default="false">
+            <availability status="unknown">
                <p>Freely available via a Creative Commons Attribution-ShareAlike
                                     4.0 International License</p>
             </availability>
@@ -44,8 +45,8 @@
             </respStmt>
             <idno type="URI">bijou1828-p5.xml</idno>
          </seriesStmt>
-         <sourceDesc default="false">
-            <biblStruct default="false">
+         <sourceDesc>
+            <biblStruct>
                <analytic>
                   <author type="author">
                      <name reg="Carrington, N. T. (Noel Thomas)" date="1777-1830" place="UK">N. T. (Noel Thomas) Carrington</name>
@@ -69,14 +70,35 @@
                   </imprint>
                </monogr>
             </biblStruct>
-            <bibl default="false">This copy is transcribed from the volume held by Miami University
+            <bibl>This copy is transcribed from the volume held by Miami University
                                 Special Collections Department. The page images come from the
                                 Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
                                     Duke University Libraries</ref>."</bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
          <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
             <taxonomy xml:id="ps">
                <bibl>Primary or Secondary</bibl>
                <category xml:id="ps1">
@@ -301,14 +323,11 @@
                <category xml:id="g71">
                   <catDesc>printersmark</catDesc>
                </category>
-               <category xml:id="g72">
-                  <catDesc>literary criticism article</catDesc>
-               </category>
             </taxonomy>
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+                                        hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -522,17 +541,25 @@
                   <item>N.T. Carrington, Author of "Dartmoor"</item>
                </list>
             </keywords>
-            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#ps1" scheme="#ps"/>
             <catRef target="#g6" scheme="#g"/>
-            <catRef scheme="#ag" target="#ag32 "/>
-            <catRef scheme="#f" target="#f1 "/>
+            <catRef target="#ag32" scheme="#ag"/>
+            <catRef target="#f1" scheme="#f"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
          <change>
+            <date>20191102</date>
+            <name>Laura Mandell</name>
+            <label>Added new taxonomies in bijou1828-p5 and into part headers using splurgeOutBijou.xsl
+                                desc.</label>
+         </change>
+         <change>
             <date>20190110</date>
             <name>Laura Mandell</name>
-            <label>Added new taxonomies into headers using 'changeHeader.xsl' and expanded profile desc.</label>
+            <label>Added new taxonomies into headers using 'changeHeader.xsl' and expanded profile
+                                desc.</label>
          </change>
          <change>
             <date>20181104</date>
@@ -551,7 +578,7 @@
                                 and Zach Weir</name> XML coding; XSL application: Oxygen</change>
       </revisionDesc>
    </teiHeader>
-   <text xmlns:pa="http://www.poetessarchive.org/schema#">
+   <text>
       <front>
          <titlePage>
             <docTitle>
@@ -571,6 +598,7 @@
       </front>
       <body>
          <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              xmlns:PA="http://www.poetessarchive.org/#schema"
               type="poem"
               xml:id="P21"
               org="uniform"
@@ -584,14 +612,14 @@
                   Carrington, Author of "Dartmoor"</name>
             </head>
             <epigraph>
-               <p rend="epigraph">[Sir Cloudesley Shovel's ship, the Association, struck upon the Gilstone, off
-                  Sicilly, with so much violence, that in about two minutes the vessel went down,
-                  and every soul on board, but one, perished. This man saved himself on a piece of
-                  timber, which floated to a rock called the Hellweathers, where he was compelled to
-                  remain some days before he could receive any assistance. Besides the Association,
-                  the Eagle, of 70, and the Romney, of 50 guns, perished, with all their crews. The
-                  Firebrand, fireship, was also lost, but most of her men were saved. Many persons
-                  of rank, and about 2000 seamen perished on this occasion. <bibl default="false">
+               <p rend="epigraph">[Sir Cloudesley Shovel's ship, the Association, struck upon the
+                  Gilstone, off Sicilly, with so much violence, that in about two minutes the vessel
+                  went down, and every soul on board, but one, perished. This man saved himself on a
+                  piece of timber, which floated to a rock called the Hellweathers, where he was
+                  compelled to remain some days before he could receive any assistance. Besides the
+                  Association, the Eagle, of 70, and the Romney, of 50 guns, perished, with all
+                  their crews. The Firebrand, fireship, was also lost, but most of her men were
+                  saved. Many persons of rank, and about 2000 seamen perished on this occasion. <bibl default="false">
                      <title>DREW'S HISTORY OF CORNWALL</title>
                   </bibl>.]</p>
             </epigraph>

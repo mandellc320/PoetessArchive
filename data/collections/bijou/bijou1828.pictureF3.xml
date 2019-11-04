@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:PA="http://www.poetessarchive.org/#schema">
-   <teiHeader xmlns:pa="http://www.poetessarchive.org/schema#" type="text">
+     xmlns:pa="http://www.poetessarchive.org/schema#">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">from The Bijou Literary Annual, 1828</title>
@@ -31,7 +32,7 @@
             <publisher>Laura Mandell, Texas A&amp;M University</publisher>
             <pubPlace>College Station, TX</pubPlace>
             <date>20170606</date>
-            <availability status="unknown" default="false">
+            <availability status="unknown">
                <p>Freely available via a Creative Commons Attribution-ShareAlike
                                     4.0 International License</p>
             </availability>
@@ -45,8 +46,8 @@
             </respStmt>
             <idno type="URI">bijou1828-p5.xml</idno>
          </seriesStmt>
-         <sourceDesc default="false">
-            <biblStruct default="false">
+         <sourceDesc>
+            <biblStruct>
                <analytic>
                   <author type="painter">
                      <name reg="Stothard, Thomas" date="1755–1834" place="UK">Thomas Stothard, Esq.</name>
@@ -72,14 +73,35 @@
                   </imprint>
                </monogr>
             </biblStruct>
-            <bibl default="false">This copy is transcribed from the volume held by Miami University
+            <bibl>This copy is transcribed from the volume held by Miami University
                                 Special Collections Department. The page images come from the
                                 Internet Archive: <ref target="https://archive.org/details/bijouorannualofl00lond">Digitized by the Internet Archive in 2011 with funding from
                                     Duke University Libraries</ref>."</bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <p>This document follows the rules specified for TEI use by NINES.</p>
+            <p>All quotation marks and apostrophes have been transcribed as entity
+                                references.</p>
+            <p>Any dashes occurring in line breaks have been removed.</p>
+            <p>Hyphens and dashes have been coded using HTML Entity Decimal for
+                                Unicode.</p>
+            <p>Special characters (letters with accents, etc.) have been coded using
+                                HTML Entity Decimal for Unicode.</p>
+            <p>Page numbers appear at the beginning of each page, no matter where
+                                originally placed.</p>
+         </editorialDecl>
          <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
             <taxonomy xml:id="ps">
                <bibl>Primary or Secondary</bibl>
                <category xml:id="ps1">
@@ -304,14 +326,11 @@
                <category xml:id="g71">
                   <catDesc>printersmark</catDesc>
                </category>
-               <category xml:id="g72">
-                  <catDesc>literary criticism article</catDesc>
-               </category>
             </taxonomy>
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+                                        hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -525,17 +544,25 @@
                   <item>Thomas Stothard, Esq.</item>
                </list>
             </keywords>
-            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#ps1" scheme="#ps"/>
             <catRef target="#g11 #g39" scheme="#g"/>
-            <catRef scheme="#ag" target="#ag42 #ag42 "/>
-            <catRef scheme="#f" target="#f1 #f5 "/>
+            <catRef target="#ag42" scheme="#ag"/>
+            <catRef target="#f5 " scheme="#f"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
          <change>
+            <date>20191102</date>
+            <name>Laura Mandell</name>
+            <label>Added new taxonomies in bijou1828-p5 and into part headers using splurgeOutBijou.xsl
+                                desc.</label>
+         </change>
+         <change>
             <date>20190110</date>
             <name>Laura Mandell</name>
-            <label>Added new taxonomies into headers using 'changeHeader.xsl' and expanded profile desc.</label>
+            <label>Added new taxonomies into headers using 'changeHeader.xsl' and expanded profile
+                                desc.</label>
          </change>
          <change>
             <date>20181104</date>
@@ -554,7 +581,7 @@
                                 and Zach Weir</name> XML coding; XSL application: Oxygen</change>
       </revisionDesc>
    </teiHeader>
-   <text xmlns:pa="http://www.poetessarchive.org/schema#">
+   <text>
       <front>
          <titlePage>
             <docTitle>
@@ -574,6 +601,7 @@
       </front>
       <body>
          <div xmlns:tei="http://www.tei-c.org/ns/1.0"
+              xmlns:PA="http://www.poetessarchive.org/#schema"
               type="picture"
               xml:id="F3"
               org="uniform"
@@ -583,13 +611,13 @@
             <head>Figure 3: Sans Souci</head>
             <p rend="center">
                <figure xml:id="image109">
-                  <graphic url="http://iiif.dh.tamu.edu/iiif/2/poetess/bijou/109.tif/full/,300/0/default.jpg"
+                  <graphic url="http://iiif.dh.tamu.edu/iiif/2/poetess%2Fbijou%2F109.tif/full/,300/0/default.jpg"
                            n="3"/>
                   <head>
                      <bibl default="false">
                         <author type="painter">painted by <name reg="Stothard, Thomas" date="1755–1834" place="UK">Thomas Stothard, Esq.</name>
                         </author>, <author type="engraver">engraved by <name reg="Brandard Family, printmakers" date="905-1898" place="UK">Mr.
-                                 Brandard</name>
+                              Brandard</name>
                         </author>
                      </bibl>
                   </head>
