@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:PA="http://www.poetessarchive.org/#schema">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader type="text">
 		<fileDesc>
 			<titleStmt>
@@ -1283,7 +1283,7 @@
 							contemporaries speculated that she was his lover or even secret wife.
 							Because her family estate was concentrated on her younger brother, the
 							shy, quiet-tempered Martha spent many of her adult years living with her
-							more difficult sister Teresa, addressee of <ref target="#PopeAlexander"
+							more difficult sister Teresa (b. 1688), addressee of <ref target="#PopeAlexander"
 								>Pope</ref>&apos;s poems &quot;Epistle to Miss Blount, with the
 							Works of <ref target="#Voiture">Voiture</ref>&quot; (1710) and
 							&quot;Epistle to Miss Blount, on her Leaving the Town after the
@@ -2303,6 +2303,12 @@
 						</gloss>
 					</item>
 					<item>
+						<term xml:id="ColonnaVittoria">Colonna, Vittoria, 1492-1547 (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss>Italian Renaissance poet particularly esteemed for her love poems to her
+							husbnad, Ferrante d'Avalos, Marquis of Pescara, who died from war wounds. </gloss>
+					</item>
+					<item>
 						<term xml:id="CongreveWilliam">Congreve, William, 1670-1729 (Library of
 							Congress Name Authority)&#8212; </term>
 						<gloss> English playwright and poet whose works include <hi
@@ -2710,6 +2716,25 @@
 								target="#SoutherneThomas">Thomas Southerne</ref>, 1692), and <hi
 								rendition="#italics"><title>Love Triumphant</title></hi> (1694).
 							[MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="DuChateletEmilie">Du Ch&#226;telet, Gabrielle Emilie Le Tonnelier
+							de Breteuil, marquise, 1706-1749 (Library of Congress Name Authority)&#8212; </term>
+						<gloss>One of eighteenth-century France&apos;s most significant women
+							intellectuals, Mme. du Ch&#226;telet was also notable for her facility with
+							languages, her athletic ability, her success at gambling, and her deep
+							intellectual and emotional relationship with <ref target="#Voltaire"
+								>Voltaire</ref>, who left Paris with her when threatened with
+							prosecution for his <hi rend="#italics"><title>Lettres
+								Philosophiques</title></hi> (1734) and with whom Mme. du Ch&#226;telet
+							openly carried on an affair of several years duration. Du Châtelet left
+							behind a substantial body of work, both original and translations of
+							literary, scientific, philosophical, and mathematical work by a wide range
+							of prominent intellectuals. Of these her 1759 translation of <ref
+								target="#NewtonIsaac">Sir Isaac Newton</ref>&apos;s <hi rendition="#italics"
+									><title>Principia Mathematica</title></hi>, was the most important
+							and remained the only French translation of <ref target="#NewtonIsaac"
+								>Newton&apos;s</ref> treatise for many years. [MW] </gloss>
 					</item>
 					<item>
 						<term xml:id="DuncombeJohn">Duncombe, John, 1729-1786 (Library of Congress
@@ -5464,6 +5489,11 @@
 							1955]). [MW]</gloss>
 					</item>
 					<item>
+						<term xml:id="MontiVincenzo">Monti, Vincenzo, 1754-1828 (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss>Italian poet and man of letters. </gloss>
+					</item>
+					<item>
 						<term xml:id="MontolieuIsabelle">Montolieu, Isabelle de, 1751-1832 (Library
 							of Congress Name Authority)&#8212; </term>
 						<gloss>Swiss novelist and translator, Montolieu was the author of <hi
@@ -6784,6 +6814,13 @@
 						</gloss>
 					</item>
 					<item>
+						<term xml:id="Sappho">Sappho (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss>The Lesbos-born Greek lyric poet, probably from the mid-seventh century
+							B.C.E., widely viewed as the mother of all female poetic tradition, was
+							especially noted for love poems to the boatman Phaon. </gloss>
+					</item>
+					<item>
 						<term xml:id="SavageRichard">Savage, Richard, d. 1743 (Library of Congress
 							Name Authority)&#8212; </term>
 						<gloss> Savage was best known for satirical poems and occasional verse,
@@ -7620,6 +7657,11 @@
 						</gloss>
 					</item>
 					<item>
+						<term>Tacitus, Cornelius (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss>One of the most respected among Roman historians and politicians.</gloss>
+					</item>
+					<item>
 						<term xml:id="TalbotCatherine">Talbot, Catherine, 1721-1770 (Library of
 							Congress Name Authority)&#8212; </term>
 						<gloss> Noted eighteenth-century bluestocking, author, and scholar Catherine
@@ -8262,5 +8304,4 @@
 				</list>
 			</div>
 		</body>
-	</text>
-</TEI>
+	</text></TEI>

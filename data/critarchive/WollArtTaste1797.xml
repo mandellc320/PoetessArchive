@@ -499,7 +499,14 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20190110" n="5">
+         <change who="#MW" when="2019-12-18" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>minor TEI encoding revisions</item>
+            </list>
+         </change>
+         <change who="#LM" when="20190110" n="4">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -540,7 +547,7 @@
                             Wollstonecraft</ref>
                   </author>
                   <lb rendition="#center"/>
-                  <title type="main" level="a">On Artificial
+                  <title type="main" level="a"><lb rendition="#center"/>On Artificial
                                 Taste.<hi rendition="#sup">
                         <note place="foot">"On Artificial Taste,"
                                     the title by which this essay is usually known, was the running
@@ -569,7 +576,7 @@
                   </title>
                </bibl>
             </head>
-            <p rendition="#pnoindent">
+            <lb/><p rendition="#pnoindent">
                <hi rendition="#italics">To the Editor of the Monthly Magazine</hi>. </p>
             <p>
                <hi rendition="#smcaps">sir</hi>, </p>

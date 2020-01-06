@@ -498,7 +498,14 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20190110" n="5">
+         <change who="#MW" when="2019-12-18" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>minor TEI encoding revisions</item>
+            </list>
+         </change>
+         <change who="#LM" when="20190110" n="4">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -1147,7 +1154,17 @@
                <hi rendition="#smcaps">Note.</hi>—The list of "literary
 					calamities" is far from being exhausted even in the present day. We quote
 					the following letter addressed by <ref target="people.html#OrsayAlfred">Comte
-						D'Orsay</ref> to the "<title>Court Journal</title>," as a
+					   D'Orsay</ref> to the "<title>Court Journal</title>,"<hi rendition="#sup">
+					      <note place="foot">The <hi rendition="#italics">
+					         <title>Court Journal</title>
+					      </hi>, like the <hi rendition="#italics">
+					         <title>New Monthly Magazine</title>
+					      </hi>,
+					         was one of <ref target="people.html#ColburnHenry">Henry
+					            Colburn</ref>'s publications. The letter that follows here was quoted in
+					         several other <ref target="people.html#ColburnHenry">Colburn</ref>
+					         periodicals as well.</note>
+					   </hi> as a
 					practical illustration of the above theory:— </p>
             <quote>
                <p>
@@ -1167,69 +1184,24 @@
 						behalf of the <ref target="people.html#SmollettTobias">Smollett</ref> of
 						France.</p>
                <p>
-                  <hi rendition="#indent9">
-                     <hi rendition="#indent9">
-                        <hi rendition="#indent9">
-                           <hi rendition="#indent1">I have the honour to
-								be,</hi>
-                        </hi>
-                     </hi>
-                  </hi>
+                  <hi rendition="#indent20">I have the honour to be,</hi>
                </p>
                <p>
-                  <hi rendition="#indent9">
-                     <hi rendition="#indent9">
-                        <hi rendition="#indent9">
-                           <hi rendition="#indent5">Your obedient
-								Servant,</hi>
-                        </hi>
-                     </hi>
-                  </hi>
+                  <hi rendition="#indent25">Your obedient Servant,</hi>
                </p>
                <p>
-                  <hi rendition="#indent9">
-                     <hi rendition="#indent9">
-                        <hi rendition="#indent9">
-                           <hi rendition="#indent9">
-                              <hi rendition="@smcaps">
-                                 <ref target="people.html#OrsayAlfred">A. Cte.
-												D'Orsay</ref>
-                              </hi>.</hi>
-                        </hi>
+                  <hi rendition="#indent30">
+                     <hi rendition="#smcaps">
+                        <ref target="people.html#OrsayAlfred">A. Cte. D'Orsay.</ref>
                      </hi>
-                  </hi>
-                  <hi rendition="#sup">
-                     <note place="foot">The <hi rendition="#italics">
-                           <title>Court Journal</title>
-                        </hi>, like the <hi rendition="#italics">
-                           <title>New Monthly Magazine</title>
-                        </hi>,
-								was one of <ref target="people.html#ColburnHenry">Henry
-									Colburn</ref>'s publications. The letter was quoted in
-								several other <ref target="people.html#ColburnHenry">Colburn</ref>
-								periodicals as well.</note>
-                  </hi>
+                                       </hi>
                </p>
+               
             </quote>
             <p> This letter is written in a generous and enlightened spirit: its appeal is made
 					in behalf of poverty and talent. In our time, can such appeal be made in vain? </p>
             <p>
-               <hi rendition="#indent9">
-                  <hi rendition="#indent9">
-                     <hi rendition="#indent9">
-                        <hi rendition="#indent9">
-                           <hi rendition="#indent9">
-                              <hi rendition="#indent9">
-                                 <hi rendition="#indent9">
-                                    <hi rendition="#indent9">L.E.L.</hi>
-                                 </hi>
-                              </hi>
-                           </hi>
-                        </hi>
-                     </hi>
-                  </hi>
-               </hi>
-            </p>
+               <hi rendition="#flushRight">L.E.L.</hi></p>                                 
          </div>
       </body>
    </text>

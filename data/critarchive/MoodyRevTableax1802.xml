@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:PA="http://www.poetessarchive.org/#schema">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:PA="http://www.poetessarchive.org/#schema">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -32,10 +31,10 @@
          <sourceDesc default="false">
             <biblStruct default="false">
                <analytic>
-                  <title type="main" level="a">Art. XVI. Tableaux de Famille, &amp;c. i.e.
-							Family Pictures, or the Journal of Charles Engleman. Translated from the
-							German of Augustus de la Fontaine, by the Author of Caroline of
-							Litchfield (Madame de Crousaz).</title>
+                  <title type="main" level="a">Art. XVI. Tableaux de Famille, &amp;c. i.e. Family
+                     Pictures, or the Journal of Charles Engleman. Translated from the German of
+                     Augustus de la Fontaine, by the Author of Caroline of Litchfield (Madame de
+                     Crousaz).</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -282,11 +281,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -416,7 +416,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -498,7 +498,14 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20190110" n="5">
+         <change who="#MW" when="2019-12-18" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>minor TEI encoding revisions</item>
+            </list>
+         </change>
+         <change who="#LM" when="20190110" n="4">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -536,135 +543,135 @@
                   <lb rendition="#center"/>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
-                        <name>Elizabeth
-								Moody</name>
+                        <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <title type="main" level="a">
-                     <hi rendition="#smcaps">Art</hi>. XVI. <hi rendition="#italics">Tableaux de Famille</hi>, &amp;c. <hi rendition="#italics">i.e.</hi> Family Pictures, or the Journal
-								of Charles Engleman. Translated from the German of <hi rendition="#smcaps">
+                  <title type="main" level="a"><lb rendition="#center"/>
+                     <hi rendition="#smcaps">Art</hi>. XVI. <hi rendition="#italics">Tableaux de
+                        Famille</hi>, &amp;c. <hi rendition="#italics">i.e.</hi> Family Pictures, or
+                     the Journal of Charles Engleman. Translated from the German of <hi
+                        rendition="#smcaps">
                         <ref target="people.html#LafontaineAugust">Augustus de la Fontaine</ref>
-                     </hi>, by the Author of
-										<title>Caroline of Litchfield</title> (<ref target="people.html#MontolieuIsabelle">Madame <hi rendition="#italics">de Crousaz</hi>
-                     </ref>). <hi rendition="smcaps">12</hi>mo. 2 Vols. Paris. 1801. Imported by
-								de Boffe, London.<hi rendition="#sup">
-                        <note place="foot">This review
-										article appeared in the Foreign Appendix to <hi rendition="#italics">
-                              <title>The Monthly
-											Review</title>
-                           </hi>, vol. 37, January-April 1802, pp.
-										531-533. This edition of the article was produced by Emma
-										Wiley and Mary A. Waters.
-					</note>
+                     </hi>, by the Author of <title>Caroline of Litchfield</title> (<ref
+                        target="people.html#MontolieuIsabelle">Madame <hi rendition="#italics">de
+                           Crousaz</hi>
+                     </ref>). <hi rendition="smcaps">12</hi>mo. 2 Vols. Paris. 1801. Imported by de
+                     Boffe, London.<hi rendition="#sup">
+                        <note place="foot">This review article appeared in the Foreign Appendix to
+                              <hi rendition="#italics">
+                              <title>The Monthly Review</title>
+                           </hi>, vol. 37, January-April 1802, pp. 531-533. This edition of the
+                           article was produced by Emma Wiley and Mary A. Waters. </note>
                      </hi>
                   </title>
                </bibl>
             </head>
             <p rendition="#pnoindent">
                <hi rendition="#largest">I</hi>
-               <hi rendition="#smcaps">n</hi> the preface to this work, Madame <hi rendition="#italics">Crousaz</hi> gives an animated and ingenious description of that difficult
-					though humble province of literature,—translation; and she thus replies to
-					a friend, who compliments her on her peculiar excellence in this line:</p>
-            <quote>Yet I know nothing so ungrateful and thankless as the task of the translator.
-					If the version be good, it is the author alone to whom the reader feels himself
-					obliged; if the work be bad, the translator alone is accused: if the version be
-					liberal, it is said to want grace and elegance; if it be diffuse, it is
-					deficient in strength and spirit. The difficulty of exactly catching the genius
-					of one language which is not familiar to me, and which differs so materially
-					from my own, of preserving inviolate the strength of the one and the purity of
-					the other; and the obligation to alter nothing, to rigidly impart an idea in
-					which I do not accord, or to copy an incident which is displeasing, when
-					conscious that it might be improved: all these circumstances induce me to think
-					that it is easier to compose than to translate.</quote>
-            <p> Madame <hi rendition="#italics">de Crousaz</hi> pursues this subject even to the
-					region of Parnassus; and she recounts to her friend the following <hi rendition="#italics">jeu d'esprit</hi>, which was prefixed to one of
-					her former publications:</p>
+               <hi rendition="#smcaps">n</hi> the preface to this work, Madame <hi
+                  rendition="#italics">Crousaz</hi> gives an animated and ingenious description of
+               that difficult though humble province of literature,—translation; and she thus
+               replies to a friend, who compliments her on her peculiar excellence in this line:
+                  <quote>Yet I know nothing so ungrateful and thankless as the task of the
+                  translator. If the version be good, it is the author alone to whom the reader
+                  feels himself obliged; if the work be bad, the translator alone is accused: if the
+                  version be liberal, it is said to want grace and elegance; if it be diffuse, it is
+                  deficient in strength and spirit. The difficulty of exactly catching the genius of
+                  one language which is not familiar to me, and which differs so materially from my
+                  own, of preserving inviolate the strength of the one and the purity of the other;
+                  and the obligation to alter nothing, to rigidly impart an idea in which I do not
+                  accord, or to copy an incident which is displeasing, when conscious that it might
+                  be improved: all these circumstances induce me to think that it is easier to
+                  compose than to translate.</quote> Madame <hi rendition="#italics">de Crousaz</hi>
+               pursues this subject even to the region of Parnassus; and she recounts to her friend
+               the following <hi rendition="#italics">jeu d'esprit</hi>, which was prefixed to one
+               of her former publications:</p>
             <quote>
                <lg type="stanza">
                   <l>Vain is the effort to engrave</l>
                   <l>Colours that a <hi rendition="#italics">Reubens</hi> gave,</l>
-                  <l rendition="#indent4">Breathing tints and glowing hues;</l>
+                  <l rendition="#indent2">Breathing tints and glowing hues;</l>
                   <l>Like the lyre, at second hand,</l>
                   <l>Stript of all it proud command,</l>
-                  <l rendition="#indent4">Torn from Genius and the Muse.</l>
+                  <l rendition="#indent2">Torn from Genius and the Muse.</l>
                   <milestone unit="signature" n="M m 2" rendition="#center"/>
                   <pb n="532"/>
                   <l>So labor'd <hi rendition="#italics">versions</hi> oft efface</l>
                   <l>All the poet's fleeting grace,</l>
-                  <l rendition="#indent4">Which a single touch inspir'd;</l>
+                  <l rendition="#indent2">Which a single touch inspir'd;</l>
                   <l>Like the rose that winds have tost,</l>
                   <l>Fading when the stem is lost,</l>
                   <l>Which its beauteous form required.</l>
                </lg>
             </quote>
             <p>We have before observed<hi rendition="#sup">
-                  <note place="foot">See M.R. Vol.
-							xxiv. N.S. p. 565, &amp;c. [Moody's note].</note>
-               </hi>, respecting
-					the writing of M. <hi rendition="#smcaps">De la Fontaine</hi>, that one of his
-					qualities is to rise in the reader's estimation by gradual and progressive
-					advances; and this is surely preferable to the art of sinking, in which so many
-					are equal proficients. The first chapter of the volume before us is intitled, by
-					the journalist, 'My Commision of Biography,' and contains a whimsical
-					relation of the circumstances whence he derived the commission, with the manner
-					of his being invested with it. It is a painting of the Shandean school, and not
-					a bad copy of the mock solemnity of Sterne's affected pathos:</p>
-            <quote>This infant (added my father, pointing to me,) shall inherit this <hi rendition="#italics">
+                  <note place="foot">See M.R. Vol. xxiv. N.S. p. 565, &amp;c. [Moody's note].</note>
+               </hi>, respecting the writing of M. <hi rendition="#smcaps">De la Fontaine</hi>, that
+               one of his qualities is to rise in the reader's estimation by gradual and progressive
+               advances; and this is surely preferable to the art of sinking, in which so many are
+               equal proficients. The first chapter of the volume before us is intitled, by the
+               journalist, 'My Commision of Biography,' and contains a whimsical relation of the
+               circumstances whence he derived the commission, with the manner of his being invested
+               with it. It is a painting of the Shandean school, and not a bad copy of the mock
+               solemnity of Sterne's affected pathos:
+            <quote>This infant (added my father, pointing to me,) shall inherit this <hi
+                  rendition="#italics">
                   <title>Bible</title>
-               </hi> after my death; and promise
-					me, my Charles, that you will fill all these blank leaves with the actions and
-					occurrences of your life, be they good or bad:— promise me, my
-					child,— My father rose from his seat, his eye was animated, his voice had
-					something of peculiar solemnity,—my uncle rose also, and laid down his
-					pipe,—my mother clasped her hands. This scene, and the solemn silence
-					which accompanied it, impressed my mind with awe; I advanced—I gave my
-					hand to my father—he took off his cap—my uncle held out his
-					hand—and my mother embraced me with tears in her eyes—while, to my
-					father's benediction, which accompanied the <hi rendition="#italics">
+               </hi> after my death; and promise me, my Charles, that you will fill all these blank
+               leaves with the actions and occurrences of your life, be they good or bad:— promise
+               me, my child,— My father rose from his seat, his eye was animated, his voice had
+               something of peculiar solemnity,—my uncle rose also, and laid down his pipe,—my
+               mother clasped her hands. This scene, and the solemn silence which accompanied it,
+               impressed my mind with awe; I advanced—I gave my hand to my father—he took off his
+               cap—my uncle held out his hand—and my mother embraced me with tears in her
+               eyes—while, to my father's benediction, which accompanied the <hi
+                  rendition="#italics">
                   <title>Bible</title>
-               </hi>, every one said—<hi rendition="#smcaps">Amen</hi>.</quote>
+               </hi>, every one said—<hi rendition="#smcaps">Amen</hi>.</quote></p>
             <p>From the hour of this <hi rendition="#italics">pathetic</hi> ceremony, the young
-					Charles (then twelve years old) determined on being his own biographer; the
-					charms of authorship captivated his youthful imagination, and the first thing
-					which he wished to see was—a printing press. Instead of playing at
-					marbles, like other boys of his age, he was continually ruminating on the task
-					which his father had enjoined to be performed in the <hi rendition="#italics">
+               Charles (then twelve years old) determined on being his own biographer; the charms of
+               authorship captivated his youthful imagination, and the first thing which he wished
+               to see was—a printing press. Instead of playing at marbles, like other boys of his
+               age, he was continually ruminating on the task which his father had enjoined to be
+               performed in the <hi rendition="#italics">
                   <title>Bible</title>
-               </hi>; he prepared for it with the same speculation
-					which many authors exercise when they set out on travels, for the purpose of
-					making a book; and he availed himself of every little incident in his own
-					family. Apprehensive, however, that a journal barren of misfortunes would be
-					insipid, he earnestly wished that his life might be in some degree chequered
-					with sorrow, in order to afford just such a number of unhappy adventures, that a
-					spring of tears might not be wanting to water the dry ground of his
-					narrative.</p>
+               </hi>; he prepared for it with the same speculation which many authors exercise when
+               they set out on travels, for the purpose of making a book; and he availed himself of
+               every little incident in his own family. Apprehensive, however, that a journal barren
+               of misfortunes would be insipid, he earnestly wished that his life might be in some
+               degree chequered with sorrow, in order to afford just such a number of unhappy
+               adventures, that a spring of tears might not be wanting to water the dry ground of
+               his narrative.</p>
             <pb n="533"/>
-            <p> A love-story soon presents itself; and the journal improves (as Charles very
-					rightly conjectured it would) with the melancholy history of the beautiful
-					Susette; who is dismissed from her father's protection for a fault perhaps
-						<hi rendition="#italics">unpardonable</hi>, but certainly not so <hi rendition="#italics">unnatural</hi> as the conduct of her parent who, in
-					consequence of her frailty, abandons for ever his only child. We must not,
-					however, give too much attention (partial as we are to beauty) to this <hi rendition="#italics">picture</hi>. <hi rendition="#italics">Le
-						Vaut-rien</hi> is another equally interesting; the mournful incidents of his
-					life, it seems, were derived from his parents conceiving an aversion to him
-					because he was born with red hair; and <hi rendition="#italics">Le
-						Vaut-rien</hi> (the good for nothing) owed this disgraceful name, with ten
-					thousand calamities, to the fatal influence of these ruddy locks.</p>
-            <p> The character of the artful Julia is the best sketch of the painter; in which
-					the triumph of vice over virtue, and of virtue over vice, with the struggles
-					between ambition and love, are touches of an animated and ingenious pencil. In
-					the <hi rendition="#italics">picture</hi> of the school, we are amused by the
-					master's whimsical method of classing his scholars according to the
-					impression which his ideas receive from their infantine physiognomy; and we
-					smile at the conceit of the aquiline noses being characteristics of
-					distinguished birth, seldom to be found among the vulgar.</p>
+            <p> A love-story soon presents itself; and the journal improves (as Charles very rightly
+               conjectured it would) with the melancholy history of the beautiful Susette; who is
+               dismissed from her father's protection for a fault perhaps <hi rendition="#italics"
+                  >unpardonable</hi>, but certainly not so <hi rendition="#italics">unnatural</hi>
+               as the conduct of her parent who, in consequence of her frailty, abandons for ever
+               his only child. We must not, however, give too much attention (partial as we are to
+               beauty) to this <hi rendition="#italics">picture</hi>. <hi rendition="#italics">Le
+                  Vaut-rien</hi> is another equally interesting; the mournful incidents of his life,
+               it seems, were derived from his parents conceiving an aversion to him because he was
+               born with red hair; and <hi rendition="#italics">Le Vaut-rien</hi> (the good for
+               nothing) owed this disgraceful name, with ten thousand calamities, to the fatal
+               influence of these ruddy locks.</p>
+            <p> The character of the artful Julia is the best sketch of the painter; in which the
+               triumph of vice over virtue, and of virtue over vice, with the struggles between
+               ambition and love, are touches of an animated and ingenious pencil. In the <hi
+                  rendition="#italics">picture</hi> of the school, we are amused by the master's
+               whimsical method of classing his scholars according to the impression which his ideas
+               receive from their infantine physiognomy; and we smile at the conceit of the aquiline
+               noses being characteristics of distinguished birth, seldom to be found among the
+               vulgar.</p>
             <p> In taking leave of this journalist, we much acknowledge that we have been much
-					amused with many parts of his narrative: but we cannot close our remarks without
-					a hint of congratulation to our fair countrywomen, that they have not German
-					despots for parents. If the national character of the <hi rendition="#italics">German father</hi> be accurately portrayed in the features of <hi rendition="#italics">Le grand Bailli</hi>, and in those of <hi rendition="#italics">my Uncle</hi> (who is a very bad copy of Uncle Toby),
-					our English wives and daughters may bless those kind stars which were the
-					ascendants at their birth, and commanded it to be on this side of the Northern
-					Ocean.</p>
+               amused with many parts of his narrative: but we cannot close our remarks without a
+               hint of congratulation to our fair countrywomen, that they have not German despots
+               for parents. If the national character of the <hi rendition="#italics">German
+                  father</hi> be accurately portrayed in the features of <hi rendition="#italics">Le
+                  grand Bailli</hi>, and in those of <hi rendition="#italics">my Uncle</hi> (who is
+               a very bad copy of Uncle Toby), our English wives and daughters may bless those kind
+               stars which were the ascendants at their birth, and commanded it to be on this side
+               of the Northern Ocean.</p>
          </div>
       </body>
    </text>

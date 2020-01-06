@@ -505,6 +505,13 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change who="#MW" when="2019-12-18" n="6">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>minor TEI encoding revisions</item>
+            </list>
+         </change>
          <change who="#LM" when="20190110" n="5">
             <label>Changed by</label>
             <name>Laura Mandell</name>
@@ -547,8 +554,8 @@
                         <name>Letitia Landon</name>
                      </ref>
                   </author>
-                  <title type="main" level="a">PREFACE <lb rendition="#center"/>
-                     <hi rendition="#smallest">[to <hi rendition="#italics"> The Venetian
+                  <title type="main" level="a"><lb rendition="#center"/>PREFACE <lb rendition="#center"/>
+                     <hi rendition="#small">[to <hi rendition="#italics"> The Venetian
                                     Bracelet, the Lost Pleiad, a History of the Lyre, and Other
                                     Poems</hi>].</hi>
                      <hi rendition="#sup">
