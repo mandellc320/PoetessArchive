@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:PA="http://www.poetessarchive.org/#schema">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Graves</title>
+            <title type="subordinate" level="m">The British Novelists</title>
+            <author type="writer">
+               <name>Anna Letitia Barbauld</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Co-Editor</resp>
+               <name xml:id="RD">Rachel Dejmal</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>BarbGravesBritNov1810</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc default="false">
+            <biblStruct default="false">
+               <analytic>
+                  <title type="main" level="a">Graves</title>
+                  <author type="writer">
+                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+                  </author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="m">The British Novelists</title>
+                  <title type="subordinate">with an Essay and Prefaces,
+                            Biographical and Critical</title>
+                  <editor role="editor">
+                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
+                  </editor>
+                  <imprint>
+                     <pubPlace>London</pubPlace>
+                     <publisher>F.C. and J. Rivington</publisher>
+                     <date when="1810">1810</date>
+                     <biblScope unit="vol">XXXII</biblScope>
+                     <biblScope unit="pages">1-5</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+               <category xml:id="g72">
+                  <catDesc>literary criticism article</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one word before
+                            hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="ag">
+               <bibl>ARC Genre Categories, July 1, 2017</bibl>
+               <category xml:id="ag1">
+                  <catDesc>Advertisement</catDesc>
+               </category>
+               <category xml:id="ag2">
+                  <catDesc>Animation</catDesc>
+               </category>
+               <category xml:id="ag3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="ag4">
+                  <catDesc>Catalog</catDesc>
+               </category>
+               <category xml:id="ag5">
+                  <catDesc>Chronology</catDesc>
+               </category>
+               <category xml:id="ag7">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="ag6">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="ag8">
+                  <catDesc>Correspondence</catDesc>
+               </category>
+               <category xml:id="ag9">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="ag10">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="ag11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="ag12">
+                  <catDesc>Essay</catDesc>
+               </category>
+               <category xml:id="ag13">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="ag14">
+                  <catDesc>Film, Documentary</catDesc>
+               </category>
+               <category xml:id="ag15">
+                  <catDesc>Film, Experimental</catDesc>
+               </category>
+               <category xml:id="ag16">
+                  <catDesc>Film, Narrative</catDesc>
+               </category>
+               <category xml:id="ag17">
+                  <catDesc>Film, Other</catDesc>
+               </category>
+               <category xml:id="ag18">
+                  <catDesc>Historiography</catDesc>
+               </category>
+               <category xml:id="ag19">
+                  <catDesc>Interview</catDesc>
+               </category>
+               <category xml:id="ag20">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="ag21">
+                  <catDesc>Liturgy</catDesc>
+               </category>
+               <category xml:id="ag22">
+                  <catDesc>Musical Analysis</catDesc>
+               </category>
+               <category xml:id="ag23">
+                  <catDesc>Music, Other</catDesc>
+               </category>
+               <category xml:id="ag24">
+                  <catDesc>Musical Work</catDesc>
+               </category>
+               <category xml:id="ag25">
+                  <catDesc>Musical Score</catDesc>
+               </category>
+               <category xml:id="ag26">
+                  <catDesc>Nonficition</catDesc>
+               </category>
+               <category xml:id="ag27">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="ag28">
+                  <catDesc>Performance</catDesc>
+               </category>
+               <category xml:id="ag29">
+                  <catDesc>Philosophy</catDesc>
+               </category>
+               <category xml:id="ag30">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="ag31">
+                  <catDesc>Political Statement</catDesc>
+               </category>
+               <category xml:id="ag32">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="ag33">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="ag34">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="ag35">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="ag36">
+                  <catDesc>Scripture</catDesc>
+               </category>
+               <category xml:id="ag37">
+                  <catDesc>Sermon</catDesc>
+               </category>
+               <category xml:id="ag38">
+                  <catDesc>Speech</catDesc>
+               </category>
+               <category xml:id="ag39">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="ag40">
+                  <catDesc>Travel Writing</catDesc>
+               </category>
+               <category xml:id="ag41">
+                  <catDesc>Unspecified</catDesc>
+               </category>
+               <category xml:id="ag42">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+                      xml:id="f">
+               <bibl>ARC Format Categories, July 1, 2017</bibl>
+               <category xml:id="f1">
+                  <catDesc>Codex</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>Dataset</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>Drawing</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>Illustration</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>Interactive Resource</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>Map</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>Moving Image</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>Notated Music</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>Page Proofs</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>Pamphlet</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>Periodical</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>Physcial Object</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>Roll</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>Sheet</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>Sound</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>Still Image</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>Typescript</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="BL">
+                  <catDesc>British Library Shelf Mark</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>Graves, Richard, 1715-1804</item>
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#ag9 #ag12 #ag20" scheme="#ag"/>
+            <catRef target="#f1" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef scheme="#g" target="#g72 #g30 #g3 "/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#MW" when="2019-12-16" n="5">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>changed file name</item>
+               <item>minor TEI encoding revision</item>
+            </list>
+         </change>
+         <change who="#LM" when="20190110" n="4">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+            </list>
+         </change>
+         <change who="#MW" when="2016-09-28" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>TEI encoding revision</item>
+               <item>Editing revision</item>
+            </list>
+         </change>
+         <change who="#RD" when="2015-01-30" n="2">
+            <label>Changed by</label>
+            <name>Rachel Dejmal</name>
+            <list type="simple">
+               <item>TEI encoding revision</item>
+               <item>Editing revision</item>
+            </list>
+         </change>
+         <change who="#MW" when="2014-06-15" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+               <item>TEI encoding</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl default="false">
+                  <author type="writer">
+                     <lb rendition="#center"/>
+                     <name>
+                        <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
+                     </name>
+                  </author>
+                  <title type="main" level="a">THE LIFE OF THE AUTHOR [<ref target="people.html#agravesRichard">Richard Graves</ref>].<hi rendition="#sup">
+                        <note place="foot">
+                           <title level="m">
+                              <hi rendition="#italics">The British Novelists;
+                                            with an Essay; and Prefaces, Biographical and Critical,
+                                            by <ref target="people.html#BarbauldMrs">Mrs. Barbauld</ref>
+                              </hi>
+                           </title>, 50 Vols. (London:
+                                    Printed for F.C. and J. Rivington; W. Otridge and Son; A.
+                                    Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
+                                    Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
+                                    Lea; J. Nunn; Lackington and Co.; Clarke and Son; C. Law;
+                                    Longman, Hurst, Rees, and Orme; Cadell and Davies; E. Jeffery;
+                                    J.K. Newman; Crosby and Co.; J. Carpenter; S. Bagster; T. Booth;
+                                    J. Murray; J. and J. Richardson; Black, Parry, and Kingsbury; J.
+                                    Harding; R. Phillips; J. Mawman; J. Booker; J. Asperne; R.
+                                    Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.; W.
+                                    Creech, Edinburgh; and Wilson and Son, York, 1810), 32: 1-5. This
+                                    essay appears prefaced to <title>
+                              <hi rendition="#italics">The
+                                            Spiritual Quixote; or, The Summer's Ramble of Mr.
+                                            Geoffry Wildgoose. A Comic Romance. To Which is Prefixed
+                                            The Life of the Author.</hi>
+                           </title> which is the <ref target="people.html#agravesRichard">Graves</ref>' novel
+                                    featured in the British Novelists series. Rachel Dejmal and Mary
+                                    A. Waters co-edited this essay for <hi rendition="#italics">The
+                                        Criticism Archive</hi>. </note>
+                     </hi>
+                  </title>
+               </bibl>
+            </head>
+            <p rendition="#pnoindent">
+               <hi rendition="#largest">T</hi>HIS ingenious novel was the
+                    production of the Rev. <ref target="people.html#agravesRichard">Richard
+                        Graves</ref>, rector of Claverton in Somersetshire; a gentleman who has been
+                    considerably distinguished in the literary world for above half a century. His
+                    father was <ref target="people.html#agravesRichardSr.">Richard Graves</ref>, Esq.
+                    of Mickleton in Gloucestershire, who died in 1729, and was a man of learning,
+                    particularly in the history and antiquities of his country.</p>
+            <p>The author of this work was born at Mickleton, the seat of his father and
+                    grandfather, on May 4, 1715, and received his early education under the Rev. Mr.
+                        Smith,<hi rendition="#sup">
+                  <note place="foot">David Oakleaf writes,
+                            "Educated at the school run by the local curate, William Smith,
+                                [<ref target="people.html#agravesRichard">Richard Graves</ref>] read
+                                <ref target="people.html#Hesiod">Hesiod</ref> and <ref target="people.html#Homer">Homer</ref> at the age of twelve."
+                            (Oakleaf, David. "Graves, Richard (1763-1829)." <hi rendition="#italics">
+                        <title>Oxford Dictionary of National
+                                    Biography</title>
+                     </hi>. Ed. H.C.G. Matthew and Brian Harrison.
+                            Vol. 23. New York: Oxford UP, 2004. 390.)</note>
+               </hi> the curate of the
+                    parish. About the age of thirteen he was removed thence to the school of
+                    Abingdon in Berkshire; the reputation of which, at that time, stood very high.
+                    At the age of sixteen, he was chosen scholar of Pembroke college, Oxford, where
+                    he was soon distinguished for uncommon proficiency.</p>
+            <p>Such was his eagerness for classical knowledge, that he had not been long at
+                    Oxford before he join-<fw type="vol" rendition="#smcaps" place="bottom-left">vol. xxxii.</fw>
+               <milestone unit="signature" n="B" rendition="#center"/>
+               <pb n="2"/> ed a small party of young men, who assembled in the evenings to read
+                        <ref target="people.html#Epictetus">Epictetus</ref>, <ref target="people.html#Theophrastus">Theophrastus</ref>, and such Greek
+                    authors as were not, at that time, recommended in the common course of study;
+                    and it is much to the credit of this party, that their only beverage at these
+                    meetings, was water. It was about this time that he became acquainted with <ref target="people.html#ShenstoneWilliam">Shenstone</ref> the poet; and their
+                    intimacy, which continued till the death of the latter, was frequently renewed
+                    by epistolary correspondence, part of which has been published. There does not
+                    appear to have been a perfect coincidence of sentiment between them in matters
+                    of taste; but in general there was a congeniality, and a harmony of opinion and
+                    friendship, which added not inconsiderably to the happiness of both.</p>
+            <p>In 1736, <ref target="people.html#agravesRichard">Mr. Graves</ref> having left
+                    Pembroke, was elected a fellow of All Souls; but, instead of pursuing
+                    theological studies, as he first intended, he was led to the study of physic,
+                    and attended two courses of anatomical lectures in London. From this, however,
+                    he was diverted by a long and dangerous illness, which left him in a very
+                    languid state; and on his recovery, he resumed his original intention, and was
+                    admitted to holy orders in 1740, at which time also he took his master's
+                    degree.</p>
+            <p>Some time after he went to reside with <ref target="people.html#FitzherbertWilliam">Mr. Fitzherbert</ref>, at Tissington
+                    in Derbyshire, who had a donative in his gift, and was desirous of the company
+                    of a clergyman. In this house, <ref target="people.html#agravesRichard">Mr.
+                        Graves</ref> enjoyed the advantage of elegant society for nearly<pb n="3"/>
+                    three years. While making a tour in the north, he accidentally met with a
+                    relation at Scarborough, <ref target="people.html#KnightSamuel">Dr. Samuel
+                        Knight</ref>, archdeacon of Berkshire, by whose recommendation he obtained a
+                    curacy near Oxford; which, at this time, became necessary, as he had come into
+                    office in his college, and was obliged to reside within a convenient distance.
+                    For this purpose he lodged with a gentleman farmer in the neighbourhood, whose
+                    youngest daughter, a very amiable young lady, so far captivated him, that he
+                    resigned his fellowship and married her.<hi rendition="#sup">
+                  <note place="foot">In late 1746 or early 1747 <ref target="people.html#agravesRichard">Graves</ref> eloped with Lucy Bartholomew, the daughter of an
+                            Aldworth farmer.</note>
+               </hi> This incident, with some fictitious
+                    circumstances, is supposed to be related in the present work, in the history of
+                    Mr. Rivers.</p>
+            <p>About the year 1750, he was presented by <ref target="people.html#SkrineWilliam">Mr. Skrine</ref> to the rectory of Claverton, on which he resided very
+                    constantly during the whole of his life; and filled up his time, as well as
+                    improved his circumstances, by taking a few pupils to be educated with his
+                    children. In 1763 he was presented to the living of Kilmersdon, through the
+                    interest of his steady friend <ref target="people.html#AllenRalph">Ralph
+                        Allen</ref>, Esq. of Prior Park, who likewise procured him a scarf<hi rendition="#sup">
+                  <note place="foot">In token of Graves's appointment as
+                            Lady Chatham's chaplain.</note>
+               </hi> from <ref target="people.html#PittHester">Lady Chatham</ref>.</p>
+            <p>Although <ref target="people.html#agravesRichard">Mr. Graves</ref> frequently
+                    employed his pen on light and gay subjects, he did not commence author until the
+                    year 1765, when he published <title>The Festoon</title>, a collection of
+                    Epigrams, chosen with great judgment, and prefaced by a valuable critical essay
+                    on that species of composition, for which he received a silver medal, offered
+                        by<milestone unit="signature" n="B 2" rendition="#center"/>
+               <pb n="4"/> the
+                    proprietors of a periodical work for the best essay on that subject. The success
+                    of <title>The Festoon</title> was, however, not great; although, perhaps, as
+                    much as he expected. It was followed, at short intervals, by <title>Lucubrations
+                        in Prose and Rhime</title> — <title>The Spiritual Quixote</title>
+                    — <title>A Treatise on Politeness</title>, translated from the Italian of
+                        <ref target="people.html#DellaCasaGiovanni">De la Casa</ref>, archbishop of
+                    Benevento — <title>Columella, or the Distressed Anchorite</title> —
+                        <title>Euphrosyne</title>, consisting of poetical pieces —
+                        <title>Eugenius, or Anecdotes of the Golden Vale</title> —
+                        <title>Recollections of some Particulars in the Life of <ref target="people.html#ShenstoneWilliam">Mr. Shenstone</ref>
+               </title>
+                    — <title>Plexippus, or the Aspiring Plebeian</title> — <title>The
+                        Rout-Fleurettes</title>, a translation of Archbishop <ref target="people.html#FenelonFrancois">Fenelon</ref>'s <title>Ode on
+                        Solitude</title>, &amp;c. — <title>The Life of Commodus</title>, from
+                    the Greek of <ref target="people.html#Herodian">Herodian</ref> — <title>Hiero, on
+                        the Condition of Royalty</title>, from <ref target="people.html#Xenophon">Xenophon</ref>
+                    — <title>The Meditations of <ref target="people.html#AureliusMarcus">Antoninus</ref>
+               </title>, from the Greek — <title>The Reveries of
+                        Solitude</title> — <title>The Coalition, or Rehearsal of the Pastoral
+                            Opera of Echo and Narcissus</title> — <title>Sermons on various Subjects</title>
+                    — <title>The Farmer's Son</title>, as a counterpart to <ref target="people.html#AnsteyChristopher">Mr. Anstey</ref>'s
+                        <title>Farmer's Daughter</title> — <title>The Invalid, with the
+                        obvious Means of enjoying Long Life, by a Nonagenarian</title> — and
+                        <title>Senilities</title>.</p>
+            <p>The merit of these compositions is various; but the general character of all <ref target="people.html#agravesRichard">Mr. Graves</ref>'s works resolves
+                    itself into benevolence, instruction, and harmless amusement. He was himself the
+                    amiable character he frequently portrays; and, by habits of cheerfulness and
+                    temperance, prolonged his life free from blame and care, until his ninetieth
+                    year, when he expired after a very short illness.<pb n="5"/>
+            </p>
+            <p>Of the works now enumerated, the <title>Spiritual Quixote</title>, has been by
+                    far the most popular. Independent of the design, which at the time of
+                    publication, was an object of some importance, the execution of it made it soon
+                    be ranked among those productions which are chiefly admired for ingenuity of
+                    fiction. By occasionally introducing real characters and authenticated
+                    narratives, he has also diffused a charm over the whole, by which curiosity is
+                    excited and gratified in the most pleasing manner. <milestone unit="signature" n="B 3" rendition="#center"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
