@@ -1,595 +1,613 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title type="main" level="a">Art. X.&#8212;The Loves of the Poets. By the Author of
-					the &quot;Diary of an Ennuy&#233;e.&quot;</title>
-				<title type="subordinate" level="j">The Westminster Review</title>
-				<author type="writer">
-					<name>Mary Wollstonecraft Shelley</name>
-				</author>
-				<respStmt>
-					<resp>Editor</resp>
-					<name xml:id="MW">Mary A. Waters</name>
-				</respStmt>
-				<respStmt>
-					<resp>Co-Editor</resp>
-					<name xml:id="JDP">Jonathan Pinkerton</name>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<idno>ShelleyRevLovesPoets1829</idno>
-			</publicationStmt>
-			<seriesStmt>
-				<title level="s">The Criticism Archive</title>
-				<respStmt>
-					<resp>Edited by</resp>
-					<name type="person" ref="#MW">Mary A. Waters</name>
-				</respStmt>
-				<idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
-			</seriesStmt>
-			<sourceDesc default="false">
-				<biblStruct default="false">
-					<analytic>
-						<title type="main" level="a">Art. X.&#8212;The Loves of the Poets. By the
-							Author of the &quot;Diary of an Ennuy&#233;e.&quot; 2 Vols. 12mo.
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Art. X.—The Loves of the Poets. By the Author of
+					the "Diary of an Ennuyée."</title>
+            <title type="subordinate" level="j">The Westminster Review</title>
+            <author type="writer">
+               <name>Mary Wollstonecraft Shelley</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Co-Editor</resp>
+               <name xml:id="JDP">Jonathan Pinkerton</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>ShelleyRevLovesPoets1829</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Art. X.—The Loves of the Poets. By the
+							Author of the "Diary of an Ennuyée." 2 Vols. 12mo.
 							Colburn. 1829.</title>
-						<author type="writer">Shelley, Mary Wollstonecraft, 1797-1851</author>
-					</analytic>
-					<monogr>
-						<title type="main" level="j">The Westminster Review</title>
-						<imprint>
-							<date when="1829-10">1829</date>
-							<biblScope unit="vol">11</biblScope>
-							<biblScope unit="page">472-477</biblScope>
-						</imprint>
-					</monogr>
-				</biblStruct>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<editorialDecl>
-				<quotation>
-					<p>All quotation marks and apostrophes have been changed: " for “, " for ”, '
+                  <author type="writer">Shelley, Mary Wollstonecraft, 1797-1851</author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="j">The Westminster Review</title>
+                  <imprint>
+                     <date when="1829-10">1829</date>
+                     <biblScope unit="vol">11</biblScope>
+                     <biblScope unit="page">472-477</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been changed: " for “, " for ”, '
 						for ‘, and ' for ’.</p>
-					<p>Quotation marks that indicate block quotes have been silently eliminated.</p>
-				</quotation>
-				<hyphenation eol="none">
-					<p>Any dashes occurring in line breaks have been removed.</p>
-					<p>Because of web browser variability, all hyphens have been typed on the U.S.
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S.
 						keyboard</p>
-					<p>Em-dashes have been rendered as &#8212;</p>
-				</hyphenation>
-				<normalization method="markup">
-					<p>Spelling has not been regularized.</p>
-					<p>Writing in other hands appearing on these manuscripts has been indicated as
+               <p>Em-dashes have been rendered as —</p>
+            </hyphenation>
+            <normalization method="markup">
+               <p>Spelling has not been regularized.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
 						such, the content recorded in brackets.</p>
-					<p>Compositors' catchwords and running titles have been silently eliminated.</p>
-					<p>Long "s" (&#383;) has been silently modernized.</p>
-				</normalization>
-				<normalization>
-					<p>&amp; has been used for the ampersand sign.</p>
-					<p>£ has been used for £, the pound sign</p>
-					<p>All other characters, those with accents, non-breaking spaces, etc., have
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Long "s" (ſ) has been silently modernized.</p>
+            </normalization>
+            <normalization>
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>£ has been used for £, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
 						been encoded in HTML entity decimals.</p>
-				</normalization>
-			</editorialDecl>
-			<classDecl>
-				<taxonomy xml:id="ps">
-					<bibl>Primary or Secondary</bibl>
-					<category xml:id="ps1">
-						<catDesc>primary</catDesc>
-					</category>
-					<category xml:id="ps2">
-						<catDesc>secondary</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy xml:id="g">
-					<bibl>Genre and Material Form</bibl>
-					<category xml:id="g1">
-						<catDesc>pageimage</catDesc>
-					</category>
-					<category xml:id="g2">
-						<catDesc>biography</catDesc>
-					</category>
-					<category xml:id="g3">
-						<catDesc>biographical essay</catDesc>
-					</category>
-					<category xml:id="g4">
-						<catDesc>poetry pamphlet</catDesc>
-					</category>
-					<category xml:id="g5">
-						<catDesc>poetry book</catDesc>
-					</category>
-					<category xml:id="g6">
-						<catDesc>poem</catDesc>
-					</category>
-					<category xml:id="g7">
-						<catDesc>story</catDesc>
-					</category>
-					<category xml:id="g8">
-						<catDesc>drama</catDesc>
-					</category>
-					<category xml:id="g9">
-						<catDesc>table of contents</catDesc>
-					</category>
-					<category xml:id="g10">
-						<catDesc>table of illustrations</catDesc>
-					</category>
-					<category xml:id="g11">
-						<catDesc>picture</catDesc>
-					</category>
-					<category xml:id="g12">
-						<catDesc>index</catDesc>
-					</category>
-					<category xml:id="g13">
-						<catDesc>notes</catDesc>
-					</category>
-					<category xml:id="g14">
-						<catDesc>frontispiece</catDesc>
-					</category>
-					<category xml:id="g15">
-						<catDesc>inscription page</catDesc>
-					</category>
-					<category xml:id="g16">
-						<catDesc>book boards</catDesc>
-					</category>
-					<category xml:id="g17">
-						<catDesc>titlepage</catDesc>
-					</category>
-					<category xml:id="g18">
-						<catDesc>preface</catDesc>
-					</category>
-					<category xml:id="g19">
-						<catDesc>advertisement</catDesc>
-					</category>
-					<category xml:id="g20">
-						<catDesc>foreword</catDesc>
-					</category>
-					<category xml:id="g21">
-						<catDesc>acknowledgments</catDesc>
-					</category>
-					<category xml:id="g22">
-						<catDesc>collection literary annual</catDesc>
-					</category>
-					<category xml:id="g23">
-						<catDesc>collection miscellany</catDesc>
-					</category>
-					<category xml:id="g24">
-						<catDesc>collection anthology</catDesc>
-					</category>
-					<category xml:id="g25">
-						<catDesc>collection beauties</catDesc>
-					</category>
-					<category xml:id="g26">
-						<catDesc>collection juvenile</catDesc>
-					</category>
-					<category xml:id="g27">
-						<catDesc>collection religious</catDesc>
-					</category>
-					<category xml:id="g28">
-						<catDesc>collection travels</catDesc>
-					</category>
-					<category xml:id="g29">
-						<catDesc>mixed</catDesc>
-					</category>
-					<category xml:id="g30">
-						<catDesc>essay</catDesc>
-					</category>
-					<category xml:id="g31">
-						<catDesc>review</catDesc>
-					</category>
-					<category xml:id="g32">
-						<catDesc>letter</catDesc>
-					</category>
-					<category xml:id="g33">
-						<catDesc>fragment poem</catDesc>
-					</category>
-					<category xml:id="g34">
-						<catDesc>fragment story</catDesc>
-					</category>
-					<category xml:id="g35">
-						<catDesc>fragment novel</catDesc>
-					</category>
-					<category xml:id="g36">
-						<catDesc>literary criticism book</catDesc>
-					</category>
-					<category xml:id="g37">
-						<catDesc>literary criticism collection</catDesc>
-					</category>
-					<category xml:id="g38">
-						<catDesc>bibliography</catDesc>
-					</category>
-					<category xml:id="g39">
-						<catDesc>engraving</catDesc>
-					</category>
-					<category xml:id="g40">
-						<catDesc>reproduction</catDesc>
-					</category>
-					<category xml:id="g41">
-						<catDesc>figure</catDesc>
-					</category>
-					<category xml:id="g42">
-						<catDesc>graph</catDesc>
-					</category>
-					<category xml:id="g43">
-						<catDesc>map</catDesc>
-					</category>
-					<category xml:id="g44">
-						<catDesc>table</catDesc>
-					</category>
-					<category xml:id="g45">
-						<catDesc>musical score</catDesc>
-					</category>
-					<category xml:id="g46">
-						<catDesc>music</catDesc>
-					</category>
-					<category xml:id="g47">
-						<catDesc>satire</catDesc>
-					</category>
-					<category xml:id="g48">
-						<catDesc>political pamphlet</catDesc>
-					</category>
-					<category xml:id="g49">
-						<catDesc>political cartoon</catDesc>
-					</category>
-					<category xml:id="g50">
-						<catDesc>periodical</catDesc>
-					</category>
-					<category xml:id="g51">
-						<catDesc>historical monograph</catDesc>
-					</category>
-					<category xml:id="g52">
-						<catDesc>historical essay</catDesc>
-					</category>
-					<category xml:id="g53">
-						<catDesc>philosophical treatise</catDesc>
-					</category>
-					<category xml:id="g54">
-						<catDesc>philosophical essay</catDesc>
-					</category>
-					<category xml:id="g55">
-						<catDesc>religious pamphlet</catDesc>
-					</category>
-					<category xml:id="g56">
-						<catDesc>sermon</catDesc>
-					</category>
-					<category xml:id="g57">
-						<catDesc>theology</catDesc>
-					</category>
-					<category xml:id="g58">
-						<catDesc>religious book</catDesc>
-					</category>
-					<category xml:id="g59">
-						<catDesc>essay on education</catDesc>
-					</category>
-					<category xml:id="g60">
-						<catDesc>educational treatise</catDesc>
-					</category>
-					<category xml:id="g61">
-						<catDesc>list of subscribers</catDesc>
-					</category>
-					<category xml:id="g62">
-						<catDesc>allegory</catDesc>
-					</category>
-					<category xml:id="g63">
-						<catDesc>introduction</catDesc>
-					</category>
-					<category xml:id="g64">
-						<catDesc>slipcase</catDesc>
-					</category>
-					<category xml:id="g65">
-						<catDesc>dedication</catDesc>
-					</category>
-					<category xml:id="g66">
-						<catDesc>picture of building</catDesc>
-					</category>
-					<category xml:id="g67">
-						<catDesc>floorplans</catDesc>
-					</category>
-					<category xml:id="g68">
-						<catDesc>photograph</catDesc>
-					</category>
-					<category xml:id="g69">
-						<catDesc>translation</catDesc>
-					</category>
-					<category xml:id="g70">
-						<catDesc>manuscript</catDesc>
-					</category>
-					<category xml:id="g71">
-						<catDesc>printersmark</catDesc>
-					</category>
-					<category xml:id="g72">
-						<catDesc>literary criticism article</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy xml:id="keyword">
-					<category xml:id="lcsh">
-						<catDesc>Library of Congress Subject Headings, reduced to one word before
+            </normalization>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+               <category xml:id="g72">
+                  <catDesc>literary criticism article</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one word before
 							hyphen</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy
-					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-					xml:id="ag">
-					<bibl>ARC Genre Categories, July 1, 2017</bibl>
-					<category xml:id="ag1">
-						<catDesc>Advertisement</catDesc>
-					</category>
-					<category xml:id="ag2">
-						<catDesc>Animation</catDesc>
-					</category>
-					<category xml:id="ag3">
-						<catDesc>Bibliography</catDesc>
-					</category>
-					<category xml:id="ag4">
-						<catDesc>Catalog</catDesc>
-					</category>
-					<category xml:id="ag5">
-						<catDesc>Chronology</catDesc>
-					</category>
-					<category xml:id="ag7">
-						<catDesc>Citation</catDesc>
-					</category>
-					<category xml:id="ag6">
-						<catDesc>Collection</catDesc>
-					</category>
-					<category xml:id="ag8">
-						<catDesc>Correspondence</catDesc>
-					</category>
-					<category xml:id="ag9">
-						<catDesc>Criticism</catDesc>
-					</category>
-					<category xml:id="ag10">
-						<catDesc>Drama</catDesc>
-					</category>
-					<category xml:id="ag11">
-						<catDesc>Ephemera</catDesc>
-					</category>
-					<category xml:id="ag12">
-						<catDesc>Essay</catDesc>
-					</category>
-					<category xml:id="ag13">
-						<catDesc>Fiction</catDesc>
-					</category>
-					<category xml:id="ag14">
-						<catDesc>Film, Documentary</catDesc>
-					</category>
-					<category xml:id="ag15">
-						<catDesc>Film, Experimental</catDesc>
-					</category>
-					<category xml:id="ag16">
-						<catDesc>Film, Narrative</catDesc>
-					</category>
-					<category xml:id="ag17">
-						<catDesc>Film, Other</catDesc>
-					</category>
-					<category xml:id="ag18">
-						<catDesc>Historiography</catDesc>
-					</category>
-					<category xml:id="ag19">
-						<catDesc>Interview</catDesc>
-					</category>
-					<category xml:id="ag20">
-						<catDesc>Life Writing</catDesc>
-					</category>
-					<category xml:id="ag21">
-						<catDesc>Liturgy</catDesc>
-					</category>
-					<category xml:id="ag22">
-						<catDesc>Musical Analysis</catDesc>
-					</category>
-					<category xml:id="ag23">
-						<catDesc>Music, Other</catDesc>
-					</category>
-					<category xml:id="ag24">
-						<catDesc>Musical Work</catDesc>
-					</category>
-					<category xml:id="ag25">
-						<catDesc>Musical Score</catDesc>
-					</category>
-					<category xml:id="ag26">
-						<catDesc>Nonficition</catDesc>
-					</category>
-					<category xml:id="ag27">
-						<catDesc>Paratext</catDesc>
-					</category>
-					<category xml:id="ag28">
-						<catDesc>Performance</catDesc>
-					</category>
-					<category xml:id="ag29">
-						<catDesc>Philosophy</catDesc>
-					</category>
-					<category xml:id="ag30">
-						<catDesc>Photograph</catDesc>
-					</category>
-					<category xml:id="ag31">
-						<catDesc>Political Statement</catDesc>
-					</category>
-					<category xml:id="ag32">
-						<catDesc>Poetry</catDesc>
-					</category>
-					<category xml:id="ag33">
-						<catDesc>Religion</catDesc>
-					</category>
-					<category xml:id="ag34">
-						<catDesc>Reference Works</catDesc>
-					</category>
-					<category xml:id="ag35">
-						<catDesc>Review</catDesc>
-					</category>
-					<category xml:id="ag36">
-						<catDesc>Scripture</catDesc>
-					</category>
-					<category xml:id="ag37">
-						<catDesc>Sermon</catDesc>
-					</category>
-					<category xml:id="ag38">
-						<catDesc>Speech</catDesc>
-					</category>
-					<category xml:id="ag39">
-						<catDesc>Translation</catDesc>
-					</category>
-					<category xml:id="ag40">
-						<catDesc>Travel Writing</catDesc>
-					</category>
-					<category xml:id="ag41">
-						<catDesc>Unspecified</catDesc>
-					</category>
-					<category xml:id="ag42">
-						<catDesc>Visual Art</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-					xml:id="f">
-					<bibl>ARC Format Categories, July 1, 2017</bibl>
-					<category xml:id="f1">
-						<catDesc>Codex</catDesc>
-					</category>
-					<category xml:id="f2">
-						<catDesc>Collection</catDesc>
-					</category>
-					<category xml:id="f3">
-						<catDesc>Dataset</catDesc>
-					</category>
-					<category xml:id="f4">
-						<catDesc>Drawing</catDesc>
-					</category>
-					<category xml:id="f5">
-						<catDesc>Illustration</catDesc>
-					</category>
-					<category xml:id="f6">
-						<catDesc>Interactive Resource</catDesc>
-					</category>
-					<category xml:id="f7">
-						<catDesc>Manuscript</catDesc>
-					</category>
-					<category xml:id="f8">
-						<catDesc>Map</catDesc>
-					</category>
-					<category xml:id="f9">
-						<catDesc>Moving Image</catDesc>
-					</category>
-					<category xml:id="f10">
-						<catDesc>Notated Music</catDesc>
-					</category>
-					<category xml:id="f11">
-						<catDesc>Page Proofs</catDesc>
-					</category>
-					<category xml:id="f12">
-						<catDesc>Pamphlet</catDesc>
-					</category>
-					<category xml:id="f13">
-						<catDesc>Periodical</catDesc>
-					</category>
-					<category xml:id="f14">
-						<catDesc>Physcial Object</catDesc>
-					</category>
-					<category xml:id="f15">
-						<catDesc>Roll</catDesc>
-					</category>
-					<category xml:id="f16">
-						<catDesc>Sheet</catDesc>
-					</category>
-					<category xml:id="f17">
-						<catDesc>Sound</catDesc>
-					</category>
-					<category xml:id="f18">
-						<catDesc>Still Image</catDesc>
-					</category>
-					<category xml:id="f19">
-						<catDesc>Typescript</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy>
-					<category xml:id="BL">
-						<catDesc>British Library Shelf Mark</catDesc>
-					</category>
-				</taxonomy>
-			</classDecl>
-		</encodingDesc>
-		<profileDesc>
-			<textClass>
-				<keywords scheme="#lcsh">
-					<list type="simple">
-						<item>English literature</item>
-						<item>Criticism</item>
-						<item>Review</item>
-					</list>
-				</keywords>
-				<catRef target="#ag9 #ag35" scheme="#ag"/>
-				<catRef target="#f13" scheme="#f"/>
-				<catRef target="#ps1" scheme="#p"/>
-				<catRef scheme="#g" target="#g72 #g31 #g50"/>
-			</textClass>
-		</profileDesc>
-		<revisionDesc>
-			<change who="#MW" when="2019-12-18" n="4">
-				<label>Changed by</label>
-				<name>Mary A. Waters</name>
-				<list type="simple">
-					<item>minor TEI encoding revisions</item>
-				</list>
-			</change>
-			<change who="#MW" when="20190920" n="3">
-				<label>Changed by</label>
-				<name>Mary A. Waters</name>
-				<list type="simple">
-					<item>Revised encoding and editing</item>
-				</list>
-			</change>
-			<change who="#JDP" when="20190808" n="2">
-				<label>Changed by</label>
-				<name>Jonathan Pinkerton</name>
-				<list type="simple">
-					<item>TEI encoding</item>
-					<item>Changed editing</item>
-				</list>
-			</change>
-			<change who="#MW" when="20181113" n="1">
-				<label>Changed by</label>
-				<name>Mary A. Waters</name>
-				<list type="simple">
-					<item>Created Edition</item>
-				</list>
-			</change>
-		</revisionDesc>
-	</teiHeader>
-	<text>
-		<body>
-			<div type="essay" >
-				<head>
-					<bibl default="false">
-						<lb rendition="#center"/><author type="writer"><ref
-								target="people.html#ShelleyMary"><name>Mary Wollstonecraft Shelley
-								</name></ref></author>
-						<title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. X.&#8212;<hi
-								rendition="#italics">The Loves of the Poets</hi>. By the <ref
-								target="people.html#JamesonAnna">Author of the &quot;<title>Diary of
-									an Ennuy&#233;e</title></ref>.&quot; 2 Vols. 12mo. Colburn.
-								1829.<hi rendition="#sup"><note place="foot"><title><hi
-											rendition="#italics">The Westminister
-										Review</hi></title>, vol. 11, October 1829, pp.
-									472-477.</note></hi></title></bibl></head>
-
-				<p><hi rendition="#largest">T</hi>HE Loves of the Poets! that we may understand why
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="ag">
+               <bibl>ARC Genre Categories, July 1, 2017</bibl>
+               <category xml:id="ag1">
+                  <catDesc>Advertisement</catDesc>
+               </category>
+               <category xml:id="ag2">
+                  <catDesc>Animation</catDesc>
+               </category>
+               <category xml:id="ag3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="ag4">
+                  <catDesc>Catalog</catDesc>
+               </category>
+               <category xml:id="ag5">
+                  <catDesc>Chronology</catDesc>
+               </category>
+               <category xml:id="ag7">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="ag6">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="ag8">
+                  <catDesc>Correspondence</catDesc>
+               </category>
+               <category xml:id="ag9">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="ag10">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="ag11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="ag12">
+                  <catDesc>Essay</catDesc>
+               </category>
+               <category xml:id="ag13">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="ag14">
+                  <catDesc>Film, Documentary</catDesc>
+               </category>
+               <category xml:id="ag15">
+                  <catDesc>Film, Experimental</catDesc>
+               </category>
+               <category xml:id="ag16">
+                  <catDesc>Film, Narrative</catDesc>
+               </category>
+               <category xml:id="ag17">
+                  <catDesc>Film, Other</catDesc>
+               </category>
+               <category xml:id="ag18">
+                  <catDesc>Historiography</catDesc>
+               </category>
+               <category xml:id="ag19">
+                  <catDesc>Interview</catDesc>
+               </category>
+               <category xml:id="ag20">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="ag21">
+                  <catDesc>Liturgy</catDesc>
+               </category>
+               <category xml:id="ag22">
+                  <catDesc>Musical Analysis</catDesc>
+               </category>
+               <category xml:id="ag23">
+                  <catDesc>Music, Other</catDesc>
+               </category>
+               <category xml:id="ag24">
+                  <catDesc>Musical Work</catDesc>
+               </category>
+               <category xml:id="ag25">
+                  <catDesc>Musical Score</catDesc>
+               </category>
+               <category xml:id="ag26">
+                  <catDesc>Nonficition</catDesc>
+               </category>
+               <category xml:id="ag27">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="ag28">
+                  <catDesc>Performance</catDesc>
+               </category>
+               <category xml:id="ag29">
+                  <catDesc>Philosophy</catDesc>
+               </category>
+               <category xml:id="ag30">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="ag31">
+                  <catDesc>Political Statement</catDesc>
+               </category>
+               <category xml:id="ag32">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="ag33">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="ag34">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="ag35">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="ag36">
+                  <catDesc>Scripture</catDesc>
+               </category>
+               <category xml:id="ag37">
+                  <catDesc>Sermon</catDesc>
+               </category>
+               <category xml:id="ag38">
+                  <catDesc>Speech</catDesc>
+               </category>
+               <category xml:id="ag39">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="ag40">
+                  <catDesc>Travel Writing</catDesc>
+               </category>
+               <category xml:id="ag41">
+                  <catDesc>Unspecified</catDesc>
+               </category>
+               <category xml:id="ag42">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+                      xml:id="f">
+               <bibl>ARC Format Categories, July 1, 2017</bibl>
+               <category xml:id="f1">
+                  <catDesc>Codex</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>Dataset</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>Drawing</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>Illustration</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>Interactive Resource</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>Map</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>Moving Image</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>Notated Music</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>Page Proofs</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>Pamphlet</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>Periodical</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>Physcial Object</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>Roll</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>Sheet</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>Sound</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>Still Image</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>Typescript</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>Criticism</item>
+                  <item>Review</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#ag9 #ag35" scheme="#ag"/>
+            <catRef target="#f13" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g72 #g31 #g50" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20200611" n="6">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+            </list>
+         </change>
+         <change who="#MW" when="2019-12-18" n="4">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>minor TEI encoding revisions</item>
+            </list>
+         </change>
+         <change who="#MW" when="20190920" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#JDP" when="20190808" n="2">
+            <label>Changed by</label>
+            <name>Jonathan Pinkerton</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <lb rendition="#center"/>
+                  <author type="writer">
+                     <ref target="people.html#ShelleyMary">
+                        <name>Mary Wollstonecraft Shelley
+								</name>
+                     </ref>
+                  </author>
+                  <title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. X.—<hi rendition="#italics">The Loves of the Poets</hi>. By the <ref target="people.html#JamesonAnna">Author of the "<title>Diary of
+									an Ennuyée</title>
+                     </ref>." 2 Vols. 12mo. Colburn.
+								1829.<hi rendition="#sup">
+                        <note place="foot">
+                           <title>
+                              <hi rendition="#italics">The Westminister
+										Review</hi>
+                           </title>, vol. 11, October 1829, pp.
+									472-477.</note>
+                     </hi>
+                  </title>
+               </bibl>
+            </head>
+            <p>
+               <hi rendition="#largest">T</hi>HE Loves of the Poets! that we may understand why
 					the conjunction of ideas represented by these words, presents the most
 					resplendent image of beauty, grace, and happiness, that the human mind can well
 					conceive, let us analyze them, and learn what Love, and what a Poet is.</p>
-				<p>There is much in the world afforded by nature and contrived by man, to yield
+            <p>There is much in the world afforded by nature and contrived by man, to yield
 					satisfaction and enjoyment to our senses and our physical wants. In this
 					northern clime the rich engross much of these. Carriages, horses, palaces with
-					all their appendages, costly dress, and luxurious tables. The poor, (<hi
-						rendition="#italics">i.e.</hi> the unopulent, not the absolutely poor, those
-					shut out from nature&apos;s table, the starving and miserable), have a
-					counterbalance in a keener sense of the delights of leisure&#8212;they bring
+					all their appendages, costly dress, and luxurious tables. The poor, (<hi rendition="#italics">i.e.</hi> the unopulent, not the absolutely poor, those
+					shut out from nature's table, the starving and miserable), have a
+					counterbalance in a keener sense of the delights of leisure—they bring
 					appetite instead of fastidious taste to season their plain viands, repose after
 					labour, instead of downy beds, and silken hangings. With the omission of the
 					necessitous and sick, our physical nature is replete with agreeable sensations;
 					and yet how many ministered to, even to superfluity, are unhappy.</p>
-				<p>The mind requires more contribution than even our corporeal frame; ennui is the
+            <p>The mind requires more contribution than even our corporeal frame; ennui is the
 					offspring of plenty and comfort; and while we contrive to shut out the evil
 					elements, listlessness and weariness pervade the soul and pall every enjoyment.
 					If the poor suffer less from this annoyance, it is not because they receive more
@@ -602,8 +620,8 @@
 					inefficient to take the sting from life, changing its burthen to gladness: this
 					miracle is left for the affections; and the best form of affection, from the
 					excess of its sympathy, is Love.</p>
-				<p>Who can feel satiety or sorrow when he loves?&#8212;&quot;Love,&quot; Plato says,
-					&quot;showers benignity upon the world; before his presence, all harsh passions
+            <p>Who can feel satiety or sorrow when he loves?—"Love," Plato says,
+					"showers benignity upon the world; before his presence, all harsh passions
 					flee and perish. He is the author of all soft affections, the destroyer of all
 					ungentle thoughts, possessed by the fortunate, and desired by the unhappy,
 					therefore unhappy, because they possess him not; he is the father of grace and
@@ -611,10 +629,10 @@
 					of all that is good, the abolisher of all<pb n="473"/>that is evil, our most
 					excellent pilot, defence, saviour and guardian, in labour and in fear, in desire
 					and in reason; the ornament and governor of all things human and divine; the
-					best, the loveliest.&quot;<note place="foot"><ref target="people.html#Plato"
-							>Plato</ref>&apos;s <title>Symposium</title>. [<ref
-							target="people.html#ShelleyMary">Shelley</ref>&apos;s note]</note></p>
-				<p>&quot;Love,&quot; Shelley writes, &quot;is that powerful attraction towards all
+					best, the loveliest."<note place="foot">
+                  <ref target="people.html#Plato">Plato</ref>'s <title>Symposium</title>. [<ref target="people.html#ShelleyMary">Shelley</ref>'s note]</note>
+            </p>
+            <p>"Love," Shelley writes, "is that powerful attraction towards all
 					we conceive, or fear, or hope beyond ourselves, when we find within our own
 					thoughts the chasm of an inefficient void, and seek to awaken in all things that
 					are, a community with what we experience within ourselves. The meeting with an
@@ -625,70 +643,70 @@
 					voice, vibrate with the vibrations of our own; this is the unattainable point to
 					which Love tends; and to attain which, it urges forth the powers of man to
 					arrest the faintest shadow of that, without the possession of which there is no
-					rest or respite to the heart over which it rules.&quot;<note place="foot">Essay
+					rest or respite to the heart over which it rules."<note place="foot">Essay
 						on Love by <ref target="people.html#ShelleyPercy">Shelley</ref>, published
-						in the <title>Keepsake</title> for 1829.[<ref
-							target="people.html#ShelleyMary">Shelley</ref>&apos;s note]</note></p>
-				<p>If so imperious, intense and pervading, be the spirit of Love, most powerful in
+						in the <title>Keepsake</title> for 1829.[<ref target="people.html#ShelleyMary">Shelley</ref>'s note]</note>
+            </p>
+            <p>If so imperious, intense and pervading, be the spirit of Love, most powerful in
 					the best and most delicate natures, how earnestly must women, whose being is
 					formed for tenderness and sympathy, desire to know among whom in the harder,
 					harsher sex this feeling exists in its greatest purity and force. And is not a
 					poet an incarnation of the very essence of Love?</p>
-				<p>What is a Poet? Is he not that which wakens melody in the silent chords of the
+            <p>What is a Poet? Is he not that which wakens melody in the silent chords of the
 					human heart? A light which arrays in splendor things and thoughts which else
 					were dim in the shadow of their own insignificance. His soul is like one of the
-					pools in the Ilex woods of the Maremma,<hi rendition="#sup"><note place="foot"
-							>Maremma is a coastal area of Tuscany in Italy. The ilex genus of
+					pools in the Ilex woods of the Maremma,<hi rendition="#sup">
+                  <note place="foot">Maremma is a coastal area of Tuscany in Italy. The ilex genus of
 							evergreen grow plentifully in the Mediterranean climate of that
-							region.</note></hi> it reflects the surrounding universe, but it
+							region.</note>
+               </hi> it reflects the surrounding universe, but it
 					beautifies, groupes, and mellows their tints, making a little world within
 					itself, the copy of the outer one; but more entire, more faultless. But above
-					all, a poet&apos;s soul is Love; the desire of sympathy is the breath that
+					all, a poet's soul is Love; the desire of sympathy is the breath that
 					inspires his lay, while he lavishes on the sentiment and its object, his whole
 					treasure-house of resplendent imagery, burning emotion, and ardent enthusiasm.
 					He is the mirror of nature, reflecting her back ten thousand times more lovely;
 					what then must not his power be, when he adds beauty to the most perfect thing
-					in nature&#8212;even Love.</p>
-				<p><ref target="people.html#MorganLady">Lady Morgan</ref> who writes many things,
+					in nature—even Love.</p>
+            <p>
+               <ref target="people.html#MorganLady">Lady Morgan</ref> who writes many things,
 					not because they are true, but because they come into her head, has devoted
-						some<pb n="474"/>pages of the &quot;<title>Book of the
-						Boudoir</title>&quot;<hi rendition="#sup"><note place="foot">An 1829
-							collection of essays published by Henry Colburn.</note></hi> to the
-					villifying a poet&apos;s love. Another scrap in the same volume may serve as a
-					comment. The few lines she has written on &quot;Sentiment&quot; sufficiently
-					show why she depreciates the breathing sentiment of love, which is a poet&apos;s
+						some<pb n="474"/>pages of the "<title>Book of the
+						Boudoir</title>"<hi rendition="#sup">
+                  <note place="foot">An 1829
+							collection of essays published by Henry Colburn.</note>
+               </hi> to the
+					villifying a poet's love. Another scrap in the same volume may serve as a
+					comment. The few lines she has written on "Sentiment" sufficiently
+					show why she depreciates the breathing sentiment of love, which is a poet's
 					treasure and his gift.</p>
-				<p>Let us instead of refuting an opinion which this lady may already have discarded
+            <p>Let us instead of refuting an opinion which this lady may already have discarded
 					as false, turn to the pages of the book before us, which propose to give us the
 					history of the Loves of the Poets, of modern poets that is, for with many
 					declarations of ignorance, yet with no little presumption, the fair authoress
 					sweeps out of her list the loves of the classic authors; she shall have her way,
 					however, and with her we will confine ourselves to the poets of modern
 					Europe.</p>
-				<p>This work is the production of <ref target="people.html#JamesonAnna">the
-						authoress of the &quot;<title>Diary of an Ennuy&#233;e</title>,&quot;</ref>
+            <p>This work is the production of <ref target="people.html#JamesonAnna">the
+						authoress of the "<title>Diary of an Ennuyée</title>,"</ref>
 					a book we have heard described as the offspring of a singular union of a light
-					head and a heavy heart&#8212;whose defect is to have made reality and fiction,
+					head and a heavy heart—whose defect is to have made reality and fiction,
 					who are brother and sister, and who may not therefore too closely unite, marry,
 					and produce an offspring which is neither true nor false. Yet notwithstanding
 					this defect, which disturbs and confuses the reader throughout, it is an
 					interesting, clever, and graceful work.</p>
-				<p>The book dwells somewhat on the Troubadours, and then commences with the early
-					Italian poets. So much has been said concerning <ref
-						target="people.html#PetrarcaFrancesco">Petrarch</ref> and <ref
-						target="people.html#Laura">Laura</ref>, that we find the account here given
+            <p>The book dwells somewhat on the Troubadours, and then commences with the early
+					Italian poets. So much has been said concerning <ref target="people.html#PetrarcaFrancesco">Petrarch</ref> and <ref target="people.html#Laura">Laura</ref>, that we find the account here given
 					concise. She seems to have neglected his letters, which are abundant in
 					testimonies of the truth, ardour, and reality of his attachment, and to have
 					confined herself to his poems only, and to repeat what is already known, without
-					research, to every one. <ref target="people.html#Dante">Dante</ref> and <ref
-						target="people.html#PortinariBeatrice">Beatrice</ref> are a pair more veiled
+					research, to every one. <ref target="people.html#Dante">Dante</ref> and <ref target="people.html#PortinariBeatrice">Beatrice</ref> are a pair more veiled
 					in obscurity. <ref target="people.html#Dante">Dante</ref>, like our own gentle
 					affectionate <ref target="people.html#MiltonJohn">Milton</ref>, has been
 					stigmatized with the accusation of moroseness. Few know, that while bad
 					institutions and bad men awoke stern resistance and severe animosity in the
 					fervent souls of both, their hearts were the abode of Love, the realm over which
-					sweet womanhood reigned and ruled. <ref target="people.html#Dante"
-					>Dante</ref>&apos;s &quot;<title>Vita Nuova</title>&quot; is a beautiful and
+					sweet womanhood reigned and ruled. <ref target="people.html#Dante">Dante</ref>'s "<title>Vita Nuova</title>" is a beautiful and
 					fanciful history of his love; and who that reads the vivid description of his
 					trembling before the beauteous girl he almost worshipped, would figure the harsh
 					proud <ref target="people.html#Dante">Dante</ref>, so often pourtrayed to us?
@@ -700,13 +718,13 @@
 					serve as a specimen of the work, and excite the curiosity of the reader to
 					peruse the whole of<pb n="475"/>these little volumes, replete as they are with
 					the beautiful and unknown.</p>
-				<quote><p>Leonora then was not unworthy of her illustrious conquest, either in
+            <quote>
+               <p>Leonora then was not unworthy of her illustrious conquest, either in
 						person, heart, or mind. To be summoned daily into the presence of a princess
 						thus beautiful and amiable, to read aloud his verses to her, to hear his own
 						praises from her lips, to bask in her approving smiles, to associate with
 						her in retirement, to behold her in all the graceful simplicity of her
-						familiar life, was a dangerous situation for <ref
-							target="people.html#TassoTorquato">Tasso</ref>, and surely not less so
+						familiar life, was a dangerous situation for <ref target="people.html#TassoTorquato">Tasso</ref>, and surely not less so
 						for Leonora herself. That she was aware of his admiration, and perfectly
 						understood his sentiments, and that a mysterious intelligence existed
 						between them, consistent with the utmost reverence on his part, and the most
@@ -715,34 +733,37 @@
 						significant in their application to be mistaken. Though that application be
 						not avowed, and even disguised, the very disguise, when once detected,
 						points to the object. Leonora knew, as well as her lover, that a princess
-						&quot;was no love-mate for a bard.&quot;<hi rendition="#sup"><note
-								place="foot">Byron, &quot;The Lament of Tasso&quot; stanza V, line
-							13, slightly altered. </note></hi>She knew far better than her
-						lover&#8212;until <hi rendition="#italics">he</hi> too had been taught by
-						wretched experience&#8212;the haughty and implacable temper of her brother
+						"was no love-mate for a bard."<hi rendition="#sup">
+                     <note place="foot">Byron, "The Lament of Tasso" stanza V, line
+							13, slightly altered. </note>
+                  </hi>She knew far better than her
+						lover—until <hi rendition="#italics">he</hi> too had been taught by
+						wretched experience—the haughty and implacable temper of her brother
 						Alphonso, who was never known to brook an injury or forgive an offender. She
 						must have remembered too well the twelve years imprisonment and the narrow
 						escape from death, of her unfortunate mother, for a less cause. She was of a
 						timid reserved nature, increased by the extreme delicacy of her
 						constitution. Her hand had been frequently sought by princes and nobles,
 						whom she had uniformly rejected, at the risk of displeasing her brother; and
-						the eyes of a jealous court were upon her. <ref
-							target="people.html#TassoTorquato">Tasso</ref>, on the other hand, was
+						the eyes of a jealous court were upon her. <ref target="people.html#TassoTorquato">Tasso</ref>, on the other hand, was
 						imprudent, hot-headed, fearless, and ardently attached. For both their sakes
 						it was necessary for Leonora to be guarded and reserved, unless she would
-						have made herself the fable of all Italy. &#8212;Vol. i. p. 296.</p></quote>
-				<p>The reader must be referred to the volume itself for the proofs brought of these
+						have made herself the fable of all Italy. —Vol. i. p. 296.</p>
+            </quote>
+            <p>The reader must be referred to the volume itself for the proofs brought of these
 					premises.</p>
-				<p>Perhaps the most interesting portion of these volumes, is that dedicated to the
-					commemoration of conjugal poetry&#8212;the poets being for the most part women.
-					The soft sweetness of Clotilde de Surville,<hi rendition="#sup"><note
-							place="foot">The collection <hi rendition="#italics"><title>Po&#233;sies
+            <p>Perhaps the most interesting portion of these volumes, is that dedicated to the
+					commemoration of conjugal poetry—the poets being for the most part women.
+					The soft sweetness of Clotilde de Surville,<hi rendition="#sup">
+                  <note place="foot">The collection <hi rendition="#italics">
+                        <title>Poésies
 									de Marguerite-Eleonore Clotilde de Vallon-Chalys, depuis Madame
-									de Surville, po&#235;te fran&#231;ois de XVe
-								si&#232;cle</title></hi>, published in 1803 by Henrichs in Paris
+									de Surville, poëte françois de XVe
+								siècle</title>
+                     </hi>, published in 1803 by Henrichs in Paris
 							with an introduction by Charles Vandenbourg, turned out to be a literary
-							hoax.</note></hi> the impassioned grace of <ref
-						target="people.html#ColonnaVittoria">Vittoria Colonna</ref>, bear the palm.
+							hoax.</note>
+               </hi> the impassioned grace of <ref target="people.html#ColonnaVittoria">Vittoria Colonna</ref>, bear the palm.
 					Complaint here is superseded by tender regret; solicitation by acknowledged
 					sympathy; jealousy and suspense by gratitude and joy. The authoress is not
 					pleased that while women mourn till death the loss of their companion, men
@@ -757,109 +778,100 @@
 					him, she find a second, we know no cause in reason and morality, and hardly in
 					good taste, which should condemn the lovely, bereaved, and ardent heart to
 					perpetual widowhood.</p>
-				<p>A woman&apos;s love is tenderness, and may wed itself to the lost and dead. A
-					man&apos;s is passion, and must expend itself on the living. A woman&apos;s
+            <p>A woman's love is tenderness, and may wed itself to the lost and dead. A
+					man's is passion, and must expend itself on the living. A woman's
 					domesticity is of her own making, and her home may be replete with elegance
 					though she be alone. An unmarried man has no home. A solitary woman is the
-					world&apos;s victim, and there is heroism in her consecration. A man whose fate
+					world's victim, and there is heroism in her consecration. A man whose fate
 					is not allied to a female, from whatever cause, is divested of every poetical
-					attribute&#8212;there is something rugged, harsh, and unnatural in the very
+					attribute—there is something rugged, harsh, and unnatural in the very
 					idea. After all, the worthiness of the beloved object must always stand as an
 					excuse for inconstancy; or, with a poet, the fervency and truth of his passion:
 					since, through the force of his imagination, he may dress in jewels richer than
-					those that adorned the doll at Loretto, a black-visaged Madonna;<hi
-						rendition="#sup"><note place="foot">The statue of Our Lady of Loreto in
-							Italy features a gold- and jewel-draped &quot;Black Madonna&quot; whose
-							face has been darkened by centuries of smoke.</note></hi> nor be aware
+					those that adorned the doll at Loretto, a black-visaged Madonna;<hi rendition="#sup">
+                  <note place="foot">The statue of Our Lady of Loreto in
+							Italy features a gold- and jewel-draped "Black Madonna" whose
+							face has been darkened by centuries of smoke.</note>
+               </hi> nor be aware
 					that the beauty of the object resides in his eyes instead of in her mind or
 					form.</p>
-				<p>The latter part of these volumes forms a very amusing and sentimental scandalous
+            <p>The latter part of these volumes forms a very amusing and sentimental scandalous
 					chronicle. We pity <ref target="people.html#PopeAlexander">Pope</ref>, who, in
 					default of better, lavished his verses and his poetical attentions on so
 					uninteresting a personage as <ref target="people.html#BlountMartha">Martha
-						Blount</ref>. Our authoress says, &quot;me thinks, had I been a poet, or
+						Blount</ref>. Our authoress says, "me thinks, had I been a poet, or
 						<ref target="people.html#PopeAlexander">Pope</ref>, I would rather have been
 					led about in triumph by the spirited, accomplished lady Mary, than chained to
-					the footstool of two paltry girls.&quot;<hi rendition="#sup"><note place="foot"
-							>The quotation refers to <ref target="people.html#PopeAlexander"
-								>Pope</ref>&apos;s intense dislike of <ref
-								target="people.html#MontaguMaryWortley">Lady Mary Wortley
-								Montagu</ref> along with his closeness to the sisters <ref
-								target="people.html#BlountMartha">Martha</ref> and Teresa
-							Blount.</note></hi> [vol. ii. p. 284.] Yet as no satisfactory account is
-					given for the cause of the quarrel between <ref
-						target="people.html#PopeAlexander">Pope</ref> and that lady, we may believe,
+					the footstool of two paltry girls."<hi rendition="#sup">
+                  <note place="foot">The quotation refers to <ref target="people.html#PopeAlexander">Pope</ref>'s intense dislike of <ref target="people.html#MontaguMaryWortley">Lady Mary Wortley
+								Montagu</ref> along with his closeness to the sisters <ref target="people.html#BlountMartha">Martha</ref> and Teresa
+							Blount.</note>
+               </hi> [vol. ii. p. 284.] Yet as no satisfactory account is
+					given for the cause of the quarrel between <ref target="people.html#PopeAlexander">Pope</ref> and that lady, we may believe,
 					judging from the hardness and peremptoriness of her character, her love of
 					ridicule, and her talent for sarcasm, that she first awoke the sting of the
-					&quot;Wasp of Twickenham;&quot;<hi rendition="#sup"><note place="foot">A common
-							epithet for <ref target="people.html#PopeAlexander"
-						>Pope</ref>.</note></hi> and he, with all the bitterness of one whose person
+					"Wasp of Twickenham;"<hi rendition="#sup">
+                  <note place="foot">A common
+							epithet for <ref target="people.html#PopeAlexander">Pope</ref>.</note>
+               </hi> and he, with all the bitterness of one whose person
 					was but too open to vulgar derision, could not bear to have his genuine
 					tenderness scoffed at; while the spiteful, jealous, bitter disposition, usually
 					characteristic of deformed persons, gave poison to the wound she had
 					provoked.</p>
-				<p>If we smile somewhat at the loves of the &quot;Wasp&quot; and the <ref
-						target="people.html#Sappho">Sappho</ref> of the satires, whom <ref
-						target="people.html#WalpoleHorace">Horace Walpole</ref> so amusingly
+            <p>If we smile somewhat at the loves of the "Wasp" and the <ref target="people.html#Sappho">Sappho</ref> of the satires, whom <ref target="people.html#WalpoleHorace">Horace Walpole</ref> so amusingly
 					describes [vol. ii. p. 307], what shall we say to the French philosophers by
-					nature&#8212;poets by courtesy&#8212;Messrs. Du Chatel&#234;t and <ref
-						target="people.html#Voltaire">Voltaire</ref>.<hi rendition="#sup"><note
-							place="foot">The prominent French intellectual and woman of letters <ref
-								target="people.html#DuChateletEmilie">Emilie Du Ch&#226;telet</ref>
+					nature—poets by courtesy—Messrs. Du Chatelêt and <ref target="people.html#Voltaire">Voltaire</ref>.<hi rendition="#sup">
+                  <note place="foot">The prominent French intellectual and woman of letters <ref target="people.html#DuChateletEmilie">Emilie Du Châtelet</ref>
 							and <ref target="people.html#Voltaire">Voltaire</ref> carried on a
 							devoted affair of several years duration, apparently at least partially
 							countenanced by <ref target="people.html#DuChateletEmilie">Mme. Du
-								Ch&#226;telet</ref>&apos;s husband, the Marquis Florent-Claude du
-							Ch&#234;telet, with whom <ref target="people.html#DuChateletEmilie">Mme.
-								Du Ch&#226;telet</ref> had little in common.</note></hi> Had either
+								Châtelet</ref>'s husband, the Marquis Florent-Claude du
+							Chêtelet, with whom <ref target="people.html#DuChateletEmilie">Mme.
+								Du Châtelet</ref> had little in common.</note>
+               </hi> Had either
 					of them had one spark of real poetry in their composition, it had led to
 					different results than those<pb n="477"/>ridiculous, disgusting, violent and
 					laughable scenes commemorated in these volumes [vol. ii. p. 222]. The same
 					observations may apply to <ref target="people.html#SwiftJonathan">Swift</ref>.
-					Lovers in verse are not, therefore, poets. <ref
-						target="people.html#SwiftJonathan">Swift</ref>&apos;s victims were beautiful
+					Lovers in verse are not, therefore, poets. <ref target="people.html#SwiftJonathan">Swift</ref>'s victims were beautiful
 					accomplished women. He was clever, and could forge even rhythm and rhyme in his
 					head, but the spirit of poetry disdained to take up its abode in his
 					coarse-grained, ill-fashioned, hard-natured soul. Of these modern moderns the
-					greatest portion of interest has been thrown over the rustic loves of <ref
-						target="people.html#BurnsRobert">Burns</ref>,&#8212;thus redeeming a
-					poet&apos;s name,&#8212;shewing that the high born and bred, and clever <ref
-						target="people.html#MontaguMaryWortley">lady Mary Montague</ref>, <ref
-						target="people.html#Voltaire">Voltaire</ref> and his <hi
-						rendition="#italics"><ref target="people.html#DuChateletEmilie">femme
-							terrible</ref></hi>, and <ref target="people.html#SwiftJonathan"
-						>Swift</ref>, were lovers, but not poets, and therefore neither gentle,
-					imaginative, nor interesting; while the lowly-born <ref
-						target="people.html#BurnsRobert">Burns</ref>, being instinct with <ref
-						target="people.html#Apollo">Apollo</ref>&apos;s fire, sheds a glory over the
+					greatest portion of interest has been thrown over the rustic loves of <ref target="people.html#BurnsRobert">Burns</ref>,—thus redeeming a
+					poet's name,—shewing that the high born and bred, and clever <ref target="people.html#MontaguMaryWortley">lady Mary Montague</ref>, <ref target="people.html#Voltaire">Voltaire</ref> and his <hi rendition="#italics">
+                  <ref target="people.html#DuChateletEmilie">femme
+							terrible</ref>
+               </hi>, and <ref target="people.html#SwiftJonathan">Swift</ref>, were lovers, but not poets, and therefore neither gentle,
+					imaginative, nor interesting; while the lowly-born <ref target="people.html#BurnsRobert">Burns</ref>, being instinct with <ref target="people.html#Apollo">Apollo</ref>'s fire, sheds a glory over the
 					humble objects of his attachment, which a princess might envy [vol. ii. p. 195].
 						<ref target="people.html#MontiVincenzo">Monti</ref> and his wife are also an
 					interesting pair [vol. ii. p. 209], and we are charmed by the sweetness
-					displayed in the loves of <ref target="people.html#KlopstockFriedrich"
-						>Klopstock</ref> and <ref target="people.html#KlopstockMargareta">Meta</ref>
+					displayed in the loves of <ref target="people.html#KlopstockFriedrich">Klopstock</ref> and <ref target="people.html#KlopstockMargareta">Meta</ref>
 					[vol. ii. p. 154], though there is a Germanism about it, which, giving
 					effeminacy to the man, dims the picture by a mist of what appears to us almost
 					like affectation.</p>
-				<p>The authoress sums up her work by a glance at the poets of the day, and their
-					loves&#8212;a chapter as well left out, for she, fearing to tread on forbidden
+            <p>The authoress sums up her work by a glance at the poets of the day, and their
+					loves—a chapter as well left out, for she, fearing to tread on forbidden
 					ground, tells us, in fact, nothing. Unable to throw the ideality of distance
-					over the near and distinct&#8212;and afraid, justly so&#8212;for the practice of
-					shewing up our friends is the vice and shame of our literature,&#8212;of
-					dragging into undesired publicity the modest and retiring,&#8212;she does not
+					over the near and distinct—and afraid, justly so—for the practice of
+					shewing up our friends is the vice and shame of our literature,—of
+					dragging into undesired publicity the modest and retiring,—she does not
 					even bestow the interest of reality upon her undefined sketches. Besides, there
 					are certain names she dreads to mention. May we not say, in the somewhat
-					hacknied phrase of Tacitus: Sed perfulgebant, eo ipso quod <hi
-						rendition="#italics">nomines</hi> eorum non visebantur?<hi rendition="#sup"
-							><note place="foot">Mary Shelley replaces "effigies" (likenesses) with
-							"nomines" (names) to render applicable a version of <ref
-								target="people.html#Tacitus">Tacitus</ref>&apos;s line from <hi
-								rendition="#italics"><title>Annals</title></hi> Book 3, chapter 76:
+					hacknied phrase of Tacitus: Sed perfulgebant, eo ipso quod <hi rendition="#italics">nomines</hi> eorum non visebantur?<hi rendition="#sup">
+                  <note place="foot">Mary Shelley replaces "effigies" (likenesses) with
+							"nomines" (names) to render applicable a version of <ref target="people.html#Tacitus">Tacitus</ref>'s line from <hi rendition="#italics">
+                        <title>Annals</title>
+                     </hi> Book 3, chapter 76:
 							But Cassius and Brutus outshone them all, from the very fact that their
-							likenesses were not to be seen. This translation provided by the <hi
-								rendition="#italics"><title>Perseus Digital Library</title></hi> in
+							likenesses were not to be seen. This translation provided by the <hi rendition="#italics">
+                        <title>Perseus Digital Library</title>
+                     </hi> in
 							an edition by Alfred John Church and William Jackson
-						Brodribb.</note></hi></p>
-			</div>
-		</body>
-	</text>
+						Brodribb.</note>
+               </hi>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

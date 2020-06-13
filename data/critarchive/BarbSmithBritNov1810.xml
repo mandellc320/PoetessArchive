@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:PA="http://www.poetessarchive.org/#schema">
-   <teiHeader type="text">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Mrs. Charlotte Smith</title>
@@ -29,8 +27,8 @@
             </respStmt>
             <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
          </seriesStmt>
-         <sourceDesc default="false">
-            <biblStruct default="false">
+         <sourceDesc>
+            <biblStruct>
                <analytic>
                   <title type="main" level="a">Mrs. Charlotte Smith</title>
                   <author type="writer">
@@ -57,6 +55,15 @@
       </fileDesc>
       <encodingDesc>
          <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
             <taxonomy xml:id="ps">
                <bibl>Primary or Secondary</bibl>
                <category xml:id="ps1">
@@ -482,11 +489,6 @@
                   <catDesc>Typescript</catDesc>
                </category>
             </taxonomy>
-            <taxonomy>
-               <category xml:id="BL">
-                  <catDesc>British Library Shelf Mark</catDesc>
-               </category>
-            </taxonomy>
          </classDecl>
       </encodingDesc>
       <profileDesc>
@@ -498,13 +500,21 @@
                   <item>History</item>
                </list>
             </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
             <catRef target="#ag9 #ag12 #ag20" scheme="#ag"/>
             <catRef target="#f1" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef scheme="#g" target="#g72 #g30 #g3 "/>
+            <catRef target="#g72 #g30 #g3 " scheme="#g"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change who="#LM" when="20200611" n="6">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+            </list>
+         </change>
          <change who="#MW" when="2019-12-16" n="6">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
@@ -554,7 +564,7 @@
       <body>
          <div type="essay">
             <head>
-               <bibl default="false">
+               <bibl>
                   <author type="writer">
                      <ref target="people.html#BarbauldMrs">
                         <name>Anna Letitia

@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:PA="http://www.poetessarchive.org/#schema">
-   <teiHeader type="text">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">On the Poetical Works of Mr. William Collins</title>
@@ -26,8 +24,8 @@
             </respStmt>
             <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
          </seriesStmt>
-         <sourceDesc default="false">
-            <biblStruct default="false">
+         <sourceDesc>
+            <biblStruct>
                <analytic>
                   <title level="a">On the Poetical Works of Mr. William Collins</title>
                   <author type="writer">
@@ -57,6 +55,15 @@
       </fileDesc>
       <encodingDesc>
          <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
             <taxonomy xml:id="ps">
                <bibl>Primary or Secondary</bibl>
                <category xml:id="ps1">
@@ -482,11 +489,6 @@
                   <catDesc>Typescript</catDesc>
                </category>
             </taxonomy>
-            <taxonomy>
-               <category xml:id="BL">
-                  <catDesc>British Library Shelf Mark</catDesc>
-               </category>
-            </taxonomy>
          </classDecl>
       </encodingDesc>
       <profileDesc>
@@ -498,13 +500,21 @@
                   <item>History</item>
                </list>
             </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
             <catRef target="#ag9 #ag12 #ag20" scheme="#ag"/>
             <catRef target="#f1" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef scheme="#g" target="#g72 #g30 #g3 "/>
+            <catRef target="#g72 #g30 #g3 " scheme="#g"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change who="#LM" when="20200611" n="6">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+            </list>
+         </change>
          <change who="#MW" when="2019-12-16" n="5">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
@@ -546,9 +556,9 @@
    </teiHeader>
    <text>
       <body>
-         <div type="essay" >
+         <div type="essay">
             <head>
-               <bibl default="false">
+               <bibl>
                   <author type="writer">
                      <name>
                         <lb rendition="#center"/>
@@ -556,7 +566,8 @@
                      </name>
                   </author>
                   <title type="main" level="a">
-                     <lb rendition="#center"/><hi rendition="#smallest">ON THE</hi>
+                     <lb rendition="#center"/>
+                     <hi rendition="#smallest">ON THE</hi>
                      <lb rendition="#center"/>POETICAL WORKS <lb rendition="#center"/>
                      <hi rendition="#smallest">OF</hi>
                      <lb rendition="#center"/>
@@ -565,8 +576,7 @@
                      </hi>.<hi rendition="#sup">
                         <note place="foot" anchored="true">
                            <title level="m">
-                              <hi rendition="#italics">The Poetical Works of Mr. <ref
-                                    target="people.html#CollinsWilliam">William Collins</ref>. With
+                              <hi rendition="#italics">The Poetical Works of Mr. <ref target="people.html#CollinsWilliam">William Collins</ref>. With
                                  a Prefatory Essay by <ref target="people.html#BarbauldMrs">Mrs.
                                     Barbauld</ref>
                               </hi>
@@ -584,15 +594,13 @@
                story, a series of adventures, carries the reader on through the impulse of
                curiosity, and loses not its interest intirely even if translated into Prose. Such
                are descriptions of natural objects, where the mind recognizes with pleasure the
-               forms and colouring it admires in the various <milestone n="a" unit="signature"
-                  rendition="center"/>
+               forms and colouring it admires in the various <milestone n="a" unit="signature" rendition="center"/>
                <pb n="iv"/>scenes and productions of the visible world. Such is, also, that moral
                painting of men and manners, that spontaneously approves itself to the spirit of
                observation, and the moral sense, that more or less are implanted in the breast of
                every man. Hence the Essays and Epistles of <ref target="people.html#PopeAlexander">
                   <hi rendition="#smcaps">Pope</hi>
-               </ref> have been popular among all that read. A lively representation of the <hi
-                  rendition="#italics">passions</hi>, particularly those of love, terror, and pity,
+               </ref> have been popular among all that read. A lively representation of the <hi rendition="#italics">passions</hi>, particularly those of love, terror, and pity,
                commands the attention even of those who are but indifferent judges of the vehicle in
                which it may be conveyed. The other class consists of what may be called pure Poetry,
                or Poetry in the abstract. It is conversant with an imaginary world, peopled with
@@ -600,8 +608,7 @@
                allegorical personages. It is necessarily obscure to a certain degree; because,
                having to do chiefly with ideas generated within the mind, it cannot be at all
                comprehended by any whose intellect has not been exercised in similar contemplations;
-               while the conceptions of the Poet (often highly metaphysical) are rendered still <pb
-                  n="v"/>more remote from common apprehension by the figurative phrase in which they
+               while the conceptions of the Poet (often highly metaphysical) are rendered still <pb n="v"/>more remote from common apprehension by the figurative phrase in which they
                are clothed. All that is properly <hi rendition="#italics">Lyric Poetry</hi> is of
                this kind. It depends for effect on the harmony of the verse, which must be modulated
                with the nicest care; and on a felicity of expression, rather than a fullness of
@@ -614,11 +621,9 @@
                of the Odes of <ref target="people.html#Horace">
                   <hi rendition="#smcaps">Horace</hi>
                </ref> in any translation that has yet appeared? and who, but a native of France,
-               reads, what a native of France reads with rapture, the Odes of <ref
-                  target="people.html#RousseauJeanBaptiste">
+               reads, what a native of France reads with rapture, the Odes of <ref target="people.html#RousseauJeanBaptiste">
                   <hi rendition="#smcaps">Jean Baptiste Rousseau</hi>
-               </ref>?—Nor can this species of Poetry, though most answering <milestone n="a 2"
-                  unit="signature" rendition="#center"/>
+               </ref>?—Nor can this species of Poetry, though most answering <milestone n="a 2" unit="signature" rendition="#center"/>
                <pb n="vi"/>to <ref target="people.html#ShakespeareWilliam">
                   <hi rendition="#smcaps">Shakespear</hi>
                </ref>'s definition, as it gives <hi rendition="#italics">to airy nothing a local
@@ -670,8 +675,7 @@
                he had published his beautiful Odes, indignant and disappointed at the slowness of
                the sale, he is said to have burnt the remaining copies with his own hands. His end
                was unhappy; his mind, abandoned to inaction, preyed upon itself, and he fell into
-               that malady most humiliating to a being possessed of rational powers.<hi
-                  rendition="#sup">
+               that malady most humiliating to a being possessed of rational powers.<hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <ref target="people.html#CollinsWilliam">Collins</ref> was confined to a
                      private madhouse in 1754.</note>
@@ -681,17 +685,14 @@
                <title>The Epistle to Sir <ref target="people.html#HanmerThomas">
                      <hi rendition="#smcaps">Thomas Hanmer</hi>
                   </ref>
-               </title> seems to have been the first of our author's productions.<hi
-                  rendition="#sup">
+               </title> seems to have been the first of our author's productions.<hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <title>
-                        <hi rendition="#italics">Verses Humbly Address'd to Sir <ref
-                              target="people.html#HanmerThomas">Thomas Hanmer</ref>: On His Edition
+                        <hi rendition="#italics">Verses Humbly Address'd to Sir <ref target="people.html#HanmerThomas">Thomas Hanmer</ref>: On His Edition
                            of <ref target="people.html#ShakespeareWilliam">Shakespear</ref>'s Works.
                            By a Gentleman of Oxford</hi>
                      </title> (1743); revised as <title>
-                        <hi rendition="#italics">An Epistle: Addrest to Sir <ref
-                              target="people.html#HanmerThomas">Thomas Hanmer</ref>, on His Edition
+                        <hi rendition="#italics">An Epistle: Addrest to Sir <ref target="people.html#HanmerThomas">Thomas Hanmer</ref>, on His Edition
                            of <ref target="people.html#ShakespeareWilliam">Shakespear</ref>'s Works.
                            The Second Edition. To Which Is Added a Song from the Cymbeline of the
                            Same Author</hi>
@@ -702,17 +703,15 @@
                </ref> than any other of his Poems. In a slight, but neatly executed sketch, he
                traces the state of the Drama through the writers of other countries; and with a
                partiality, in which the <pb n="ix"/>other nations of Europe seem almost to
-               acquiesce, gives the palm to the Englishman's idol, <ref
-                  target="people.html#ShakespeareWilliam">
+               acquiesce, gives the palm to the Englishman's idol, <ref target="people.html#ShakespeareWilliam">
                   <hi rendition="#smcaps">Shakespear</hi>
                </ref>, after whom,<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l> No second growth the western isle could bear,</l>
                      <l> At once exhausted with too rich a year.<hi rendition="#sup">
                            <note place="foot" anchored="true">
                               <title>
-                                 <hi rendition="#italics">Epistle […] to <ref
-                                       target="people.html#HanmerThomas">Hanmer</ref>
+                                 <hi rendition="#italics">Epistle […] to <ref target="people.html#HanmerThomas">Hanmer</ref>
                                  </hi>
                               </title> 53-4.</note>
                         </hi>
@@ -735,29 +734,24 @@
                </ref>, that of a gallery of paintings to illustrate the pieces of our great
                Dramatist, is here first proposed to the public. The subjects are particularly
                pointed out, Coriolanus reluctantly yielding to the intreaties of his wife and mother,<quote>
-                  <lg type="stanza" >
-                     <l>Rage grasps the sword, while pity melts the eyes<hi
-                           rendition="#sup">
+                  <lg type="stanza">
+                     <l>Rage grasps the sword, while pity melts the eyes<hi rendition="#sup">
                            <note place="foot" anchored="true">
                               <title>
-                                 <hi rendition="#italics">Epistle […] to <ref
-                                       target="people.html#HanmerThomas">Hanmer</ref>
+                                 <hi rendition="#italics">Epistle […] to <ref target="people.html#HanmerThomas">Hanmer</ref>
                                  </hi>
                               </title> 132.</note>
                         </hi>
                      </l>
                   </lg>
                </quote>
-               <pb n="x"/>And, Antony, pronouncing the funeral oration over the dead body of: <ref
-                  target="people.html#CaesarJulius">Julius Cæsar</ref>;<quote>
-                  <lg type="stanza" >
+               <pb n="x"/>And, Antony, pronouncing the funeral oration over the dead body of: <ref target="people.html#CaesarJulius">Julius Cæsar</ref>;<quote>
+                  <lg type="stanza">
                      <l> Still as they press he calls on all around;</l>
-                     <l> Lifts the torn robe, and points the bleeding wound.<hi
-                           rendition="#sup">
+                     <l> Lifts the torn robe, and points the bleeding wound.<hi rendition="#sup">
                            <note place="foot" anchored="true">
                               <title>
-                                 <hi rendition="#italics">Epistle […] to <ref
-                                       target="people.html#HanmerThomas">Hanmer</ref>
+                                 <hi rendition="#italics">Epistle […] to <ref target="people.html#HanmerThomas">Hanmer</ref>
                                  </hi>
                               </title> 119-20.</note>
                         </hi>
@@ -774,8 +768,7 @@
                </ref>.</p>
             <p>In 1742, while <ref target="people.html#CollinsWilliam">
                   <hi rendition="#smcaps">Collins</hi>
-               </ref> was still a student at Magdalen College, he published his <hi
-                  rendition="#smcaps">
+               </ref> was still a student at Magdalen College, he published his <hi rendition="#smcaps">
                   <title>Oriental</title>
                </hi>, or, as they were first entitled, <hi rendition="#smcaps">
                   <title>Persian Eclogues</title>
@@ -792,8 +785,7 @@
                proverbial, the author has endeavoured to throw interest and variety into this
                elegant species of composition, by introducing the manners, and especially the
                appropriate scenery of other countries. The attempt was laudable, and the effect
-               happy. The <title>Oriental Eclogues</title> have not indeed attained equal <pb n="xi"
-               />popularity with the Delias and Strephons<hi rendition="#sup">
+               happy. The <title>Oriental Eclogues</title> have not indeed attained equal <pb n="xi"/>popularity with the Delias and Strephons<hi rendition="#sup">
                   <note place="foot" anchored="true">Stereotypical names of shepherd and nymph
                      characters in classical pastoral poetry.</note>
                </hi> of the Arcadian school, but they have always stood high in the opinion of real
@@ -801,16 +793,14 @@
                have often availed themselves of. The passions of men are uniform; but, modified by
                the influence of climate, government, manners, and local circumstance, and
                accompanied with the various tints which employ the pencil of a landscape painter,
-               they present an inexhaustible variety, from the song of <hi rendition="#smcaps"
-                  >Solomon</hi> breathing of cassia, myrrh, and cinnamon, to the Gentle Shepherd of
+               they present an inexhaustible variety, from the song of <hi rendition="#smcaps">Solomon</hi> breathing of cassia, myrrh, and cinnamon, to the Gentle Shepherd of
                   <ref target="people.html#RamsayAllan">
                   <hi rendition="#smcaps">Ramsay</hi>
                </ref>, whose damsels carry their milking pails through the frost and snows of their
                less genial, but not less pastoral country. The province of Pastoral may in this way
                be enlarged to take in all the beautiful and all the grand appearances of nature,
                which observation or reading may have brought the Poet acquainted with; he may sport
-               in the vast savannahs of America; he may regale his shepherds with the <pb n="xii"
-               />bread-fruit of Otaheite, or sadden them with the prospect of an impending eruption
+               in the vast savannahs of America; he may regale his shepherds with the <pb n="xii"/>bread-fruit of Otaheite, or sadden them with the prospect of an impending eruption
                of Mount Vesuvius.</p>
             <p> The Eclogues are four in number, corresponding to the four periods of morning, noon,
                evening, and midnight. <title>
@@ -821,7 +811,7 @@
                beautiful. It is, however, calculated to please by the purity and sweetness of its
                moral ideas, and serves, as it were, to prepare and put the mind in tune for virtuous
                sympathy with the feelings of shepherds. The personification of Chastity, <quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l rendition="#indent4"> —————of all afraid,</l>
                      <l> Distrusting all, a wise suspicious maid; </l>
                      <l> But man the most—————<hi rendition="#sup">
@@ -833,8 +823,7 @@
                </quote>is remarkably happy.</p>
             <p>
                <title>
-                  <hi rendition="#smcaps">Hassan</hi>, or the <hi rendition="#smcaps"
-                     >Camel-driver</hi>
+                  <hi rendition="#smcaps">Hassan</hi>, or the <hi rendition="#smcaps">Camel-driver</hi>
                </title>, stands upon a ground of superior merit. There is a peculiar strength of
                painting in the opening of the Poem. The horror of a <pb n="xiii"/>boundless desart,
                arid and sultry, the intense beams of noon, the absence of all vestige of vegetation,
@@ -851,7 +840,7 @@
                effect. The danger incurred in these desarts from poisonous reptiles and wild beasts
                is strikingly impressed: <pb n="xiv"/>
                <quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l> What if the lion in his rage I meet! </l>
                      <l> Oft in the dust I view his printed feet.<hi rendition="#sup">
                            <note place="foot" anchored="true">
@@ -862,7 +851,7 @@
                </quote>
             </p>
             <p>The images in the two following lines seem to be borrowed from the 5th chapter of Matthew,<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l>The lily, Peace, outshines the silver store, </l>
                      <l>And life is dearer than the golden ore.<hi rendition="#sup">
                            <note place="foot" anchored="true">
@@ -873,8 +862,7 @@
                </quote>
             </p>
             <p>There is a prettiness in the prayer of Zara, that the blasts of the desart might be
-               weak as her rejected sighs, which is unworthy of the rest. <ref
-                  target="people.html#CollinsWilliam">
+               weak as her rejected sighs, which is unworthy of the rest. <ref target="people.html#CollinsWilliam">
                   <hi rendition="#smcaps">Collins</hi>
                </ref> had a fine imagination, but he did not possess the language of passion. There
                seems also a small impropriety in Hassan's bearing himself the cruise of water, when
@@ -886,12 +874,11 @@
                awe, no less than pleasure, she complies <pb n="xv"/> with the wishes of the monarch;
                but, like <ref target="people.html#Proserpine">Proserpine</ref> in the valley of
                Enna, looks back with fond regret on the peaceful scenes of her happy life;<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l> Oft as she went, she turn'd her backward view,</l>
                      <l> And bade that crook and bleating flock adieu.<hi rendition="#sup">
                            <note place="foot" anchored="true">
-                              <title>"Abra; or, the Georgian <hi rendition="#italics"
-                                 >Sultana</hi>"</title> 31-2.</note>
+                              <title>"Abra; or, the Georgian <hi rendition="#italics">Sultana</hi>"</title> 31-2.</note>
                         </hi>
                      </l>
                   </lg>
@@ -915,7 +902,7 @@
                those countries, which are unhappily exposed to the incursions of bordering tribes of
                free-booters. Two Circassian shepherds flying from the sudden attack of a horde of
                Tartars, pursue their journey by midnight for some time, <quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l>Where wildering fear and desperate sorrow led;<hi rendition="#sup">
                            <note place="foot" anchored="true">
                               <title>"Agib and Secander; or, the Fugitives"</title> 8.</note>
@@ -925,7 +912,7 @@
                </quote> after a while, one of them, exhausted by the length of the way, intreats the
                other to stop, on which a dialogue ensues, descriptive of the miseries of the
                inhabitants. At length they descry the approach of the enemy.<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l> —— loud along the vale was heard</l>
                      <l> A shriller shriek, and nearer fires appear'd.<hi rendition="#sup">
                            <note place="foot" anchored="true">
@@ -940,17 +927,16 @@
                harvests, citron groves destroyed, villages in flames, and all the destructive
                ravages of predatory war. The two following lines are uncommonly musical, and have an
                indescribable charm in their versification, <quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l>In vain she boasts her fairest of the fair,</l>
-                     <l> Their eyes' blue languish and their golden hair.<hi
-                           rendition="#sup">
+                     <l> Their eyes' blue languish and their golden hair.<hi rendition="#sup">
                            <note place="foot" anchored="true">
                               <title>"Agib and Secander; or, the Fugitives"</title> 55-6.</note>
                         </hi>
                      </l>
                   </lg>
                </quote>He adds <quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l>Those hairs the Tartar's cruel hand shall rend.<hi rendition="#sup">
                            <note place="foot" anchored="true">
                               <title>"Agib and Secander; or, the Fugitives"</title> 58.</note>
@@ -972,16 +958,14 @@
                </ref> is chiefly built upon his Odes. These were published in the year 1746. They
                are entitled <hi rendition="#smcaps">Odes descriptive and allego</hi>- <pb n="xviii"/>
                <hi rendition="#smcaps">rical</hi>. Allegorical they certainly are, so far as that
-               term may be applied to the personification of abstract ideas, though <hi
-                  rendition="#italics">figurative</hi> would perhaps have been a more proper term:
-               but they do not seem to have an equal claim to the epithet <hi rendition="#italics"
-                  >descriptive</hi>; by which we generally understand a delineation of some portion
+               term may be applied to the personification of abstract ideas, though <hi rendition="#italics">figurative</hi> would perhaps have been a more proper term:
+               but they do not seem to have an equal claim to the epithet <hi rendition="#italics">descriptive</hi>; by which we generally understand a delineation of some portion
                of real nature. Few of the Odes of <ref target="people.html#CollinsWilliam">
                   <hi rendition="#smcaps">Collins</hi>
                </ref> are of this cast, which indeed does not belong so properly to the nature of
                the Ode; but they are in the high spirit of pure Poetry. Their beginning is commonly
                abrupt and bold; often a spirited apostrophe: <quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l>Thou to whom the world unknown</l>
                      <l> With all its shadowy shapes is shewn!<hi rendition="#sup">
                            <note place="foot" anchored="true">
@@ -990,7 +974,7 @@
                      </l>
                   </lg>
                </quote> Sometimes it is in the interrogative;<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l>
                         <hi rendition="#italics"> Who shall awake the Spartan fife?</hi>
                         <hi rendition="#sup">
@@ -1010,7 +994,7 @@
                </title>, is chiefly remarkable for the sweetness and tenderness congenial to the
                subject. Pity is represented as being sent into the world to bind the wounds and
                sooth the sorrows of man,<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l>When first Distress with dagger keen </l>
                      <l> Broke forth to waste his destin'd scene.<hi rendition="#sup">
                            <note place="foot" anchored="true">
@@ -1024,8 +1008,7 @@
                <hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <title>"Ode to Pity"</title> 12. </note>
-               </hi> is an expression peculiarly happy; but the personification of <hi
-                  rendition="#italics">Distress</hi> does not seem equally accurate, since Distress
+               </hi> is an expression peculiarly happy; but the personification of <hi rendition="#italics">Distress</hi> does not seem equally accurate, since Distress
                is commonly used for the sensation felt by the person afflicted, not for misfortune
                itself. The mention of <ref target="people.html#OtwayThomas">
                   <hi rendition="#smcaps">Otway</hi>
@@ -1052,8 +1035,7 @@
                   <note place="foot" anchored="true">
                      <title>"Ode to Fear"</title> 5-6. </note>
                </hi> has the happiest effect on the ear and on the mind. The hurried step, the
-               haggard eye, the withering power of Fear, are all highly characteristic. <hi
-                  rendition="#italics">Danger</hi> with gigantic limbs enjoying the midnight storm,
+               haggard eye, the withering power of Fear, are all highly characteristic. <hi rendition="#italics">Danger</hi> with gigantic limbs enjoying the midnight storm,
                and sleeping on a loose precipice; and the <hi rendition="#italics">ravening brood of
                   Fate who lap the blood of sorrow</hi>,<hi rendition="#sup">
                   <note place="foot" anchored="true">
@@ -1063,14 +1045,10 @@
                passive qualities of allegorical personages: difficult to say whether such a being as
                Fear should be the agent in inspiring, or the victim agitated by the passion. In this
                Ode the latter idea prevails, for Fear appears in the character of a nymph pursued,
-               like <hi rendition="#smcaps">Dryden</hi>'s Honoria, by the ravening <pb n="xxi"
-               />brood of Fate. She is distracted by the ghastly train conjured up by Danger, and
+               like <hi rendition="#smcaps">Dryden</hi>'s Honoria, by the ravening <pb n="xxi"/>brood of Fate. She is distracted by the ghastly train conjured up by Danger, and
                hunted through the world without being suffered to take repose; yet this idea is
-               somewhat departed from, when the Poet endeavours to <hi rendition="#italics"
-                  >propitiate</hi> Fear by offering her as a suitable abode, <hi
-                  rendition="#italics">the cell where Rape and Murder dwell;</hi> or a cave, whence
-               she may hear <hi rendition="#italics">the cries of drowning seamen</hi>.<hi
-                  rendition="#sup">
+               somewhat departed from, when the Poet endeavours to <hi rendition="#italics">propitiate</hi> Fear by offering her as a suitable abode, <hi rendition="#italics">the cell where Rape and Murder dwell;</hi> or a cave, whence
+               she may hear <hi rendition="#italics">the cries of drowning seamen</hi>.<hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <title>"Ode to Fear"</title> 48-52. </note>
                </hi> She then becomes the power who delights in inflicting fear. But perhaps the
@@ -1081,14 +1059,12 @@
                   <title>Ode on the Highland Superstition</title>; a piece he did not live to
                finish. The division of this Ode into Epode and Antistrophe is no advantage to it.
                The change of measure is so violent from the Lyric to the Elegiac, that in fact they
-               make two different Poems; and the terms themselves, not be-<milestone n="b 2"
-                  unit="signature" rendition="#center"/>
+               make two different Poems; and the terms themselves, not be-<milestone n="b 2" unit="signature" rendition="#center"/>
                <pb n="xxii"/>ing supported, as among the ancients, by any adaptation of musical
                accompaniments, are in our Poetry totally unmeaning. The complimentary valediction so
                often imitated from <ref target="people.html#MiltonJohn">
                   <hi rendition="#smcaps">Milton</hi>
-               </ref>, <hi rendition="#italics">And I, O Fear, will dwell with thee</hi>,<hi
-                  rendition="#sup">
+               </ref>, <hi rendition="#italics">And I, O Fear, will dwell with thee</hi>,<hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <title>"Ode to Fear"</title> 71. </note>
                </hi> is in this instance but a compliment; for however a man might be content to
@@ -1102,8 +1078,7 @@
                touching the heart, and its necessary connection with Liberty: the latter, though a
                sentiment we have early imbibed, is probably imaginary. The Poet is obliged to
                include the Augustan age of writers under the votaries of Simplicity, and how few
-               were the Poets whom the Romans had to boast of before that period? Where <ref
-                  target="people.html#CollinsWilliam">
+               were the Poets whom the Romans had to boast of before that period? Where <ref target="people.html#CollinsWilliam">
                   <hi rendition="#smcaps">Collins</hi>
                </ref> is not <pb n="xxiii"/>sustained by richness of Poetry, his sentiments will be
                found to be trite.</p>
@@ -1111,8 +1086,7 @@
                <title>
                   <hi rendition="#smcaps">On the Poetical Character</hi>
                </title>. This is one of the most difficult and perhaps least satisfactory of the
-               Odes. It begins with an ingenious comparison drawn from <hi rendition="#smcaps"
-                  >Spenser</hi>. As the girdle of Florimel, though apparently within the reach of
+               Odes. It begins with an ingenious comparison drawn from <hi rendition="#smcaps">Spenser</hi>. As the girdle of Florimel, though apparently within the reach of
                all, would not fit any but the virtuous fair destined to wear it; so the girdle of
                Fancy, the magic cestus of poetic powers, can only be worn by him whom Nature has
                cast in the mould of true genius. So far is apt and intelligible; but the Poet
@@ -1126,8 +1100,7 @@
                </hi> retired with Fancy, having long been woed by her, (from whom retired? for
                nothing was yet created,) and placed her on his throne, sitting with her there alone;
                in the mean time <pb n="xxiv"/>music was heard from behind the veil; the sun,
-               signified by <hi rendition="#italics">the rich-hair'd youth of morn</hi>,<hi
-                  rendition="#sup">
+               signified by <hi rendition="#italics">the rich-hair'd youth of morn</hi>,<hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <title>"Ode on the Poetical Character"</title> 39.</note>
                </hi> and all the visible creation, started into being; and as the work of creation
@@ -1143,24 +1116,19 @@
                   <note place="foot" anchored="true">
                      <title>"Ode on the Poetical Character"</title> 47.</note>
                </hi> and the productions of the material world. Some of the separate images are
-               good, as, <hi rendition="#italics">ecstatic wonder</hi>, <hi rendition="#italics"
-                  >listening the deep applauding thunder;</hi>
+               good, as, <hi rendition="#italics">ecstatic wonder</hi>, <hi rendition="#italics">listening the deep applauding thunder;</hi>
                <hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <title>"Ode on the Poetical Character"</title> 43-4. </note>
                </hi> and the description of the residence of <ref target="people.html#MiltonJohn">
                   <hi rendition="#smcaps">Milton</hi>
-               </ref> approaches the sublime; though the quaint <pb n="xxv"/>expression of <hi
-                  rendition="#italics">his evening ear</hi>
+               </ref> approaches the sublime; though the quaint <pb n="xxv"/>expression of <hi rendition="#italics">his evening ear</hi>
                <hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <title>"Ode on the Poetical Character"</title> 64.</note>
                </hi> is not to be commended.<hi rendition="#sup">
                   <note place="foot" anchored="true">The <hi rendition="#italics">tarsol, by whose
-                        eyes those of Truth were made</hi>, is the <hi rendition="#italics"
-                        >gyr-hawk</hi> or <hi rendition="#italics">falcon</hi>;<hi
-                        rendition="#italics"> tarsol</hi> or <hi rendition="#italics"
-                     >tiercelet</hi>, being an old term in falconry, used to express the males of
+                        eyes those of Truth were made</hi>, is the <hi rendition="#italics">gyr-hawk</hi> or <hi rendition="#italics">falcon</hi>;<hi rendition="#italics"> tarsol</hi> or <hi rendition="#italics">tiercelet</hi>, being an old term in falconry, used to express the males of
                      that species of hawk [<ref target="people.html#BarbauldMrs">Barbauld</ref>'s
                      note]. The lines are altered from <title>"Ode on the Poetical
                         Character"</title> 45-6.</note>
@@ -1176,7 +1144,7 @@
                country, the Poet by a sudden change in the movement reverts to the situation of the
                mourning and desolated friend, unable to forget the real sorrows of life in the
                contemplation of shadowy glories,<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l> If yet in Sorrow's distant eye</l>
                      <l> Expos'd and pale thou see'st him lie, </l>
                      <l> Wild war insulting near;<hi rendition="#sup">
@@ -1192,9 +1160,7 @@
                   <ref target="people.html#CumberlandWilliam">William</ref>
                </hi> mentioned in the poem is the hero of Culloden, then a favorite with the
                   people.<hi rendition="#sup">
-                  <note place="foot" anchored="true">During the 1745 Jacobite rebellion of <ref
-                        target="people.html#CharlesEdwardPrince">Charles Edward Stuart</ref>, <ref
-                        target="people.html#CumberlandWilliam">Prince William Augustus, Duke of
+                  <note place="foot" anchored="true">During the 1745 Jacobite rebellion of <ref target="people.html#CharlesEdwardPrince">Charles Edward Stuart</ref>, <ref target="people.html#CumberlandWilliam">Prince William Augustus, Duke of
                         Cumberland</ref> (1721-1765), led his English troops to victory over the
                      Scottish forces in the decisive 1746 Battle of Culloden. This heroic legacy was
                      compromised when he was tagged "Butcher Cumberland" for his severity with the
@@ -1202,8 +1168,7 @@
                </hi> It is not improbable that in this Ode the Author had in view the popular song
                of <title>Hosier's Ghost</title>.<hi rendition="#sup">
                   <note place="foot" anchored="true">
-                     <title>"Admiral Hosier's Ghost"</title> by <ref
-                        target="people.html#agloverRichard">Richard Glover</ref>, a popular ballad
+                     <title>"Admiral Hosier's Ghost"</title> by <ref target="people.html#agloverRichard">Richard Glover</ref>, a popular ballad
                      about Admiral Francis Hosier (1673–1727). Sent in 1726 to the Spanish West
                      Indies, Hosier and his fleet lay virtually inactive until he and his troops
                      perished by endemic diseases, especially yellow fever. The song portrays the
@@ -1236,7 +1201,7 @@
                   <hi rendition="#smcaps">To Liberty</hi>
                </title>. The opening of this spirited Ode rouses the mind susceptible of patriotic
                feelings, as with the sound of a trumpet.<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l>
                         <hi rendition="#italics">Who shall awake the Spartan fife,</hi>
                      </l>
@@ -1260,13 +1225,12 @@
                statue, which after having stood the wonder of ages, is pushed from its base and
                broken to pieces at length by the rude conquerors of the North. In this place the
                imitative harmony of the following line is much to be admired,<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l>
                         <hi rendition="#italics">With heaviest sound a giant statue fell.</hi>
                         <hi rendition="#sup">
                            <note place="foot" anchored="true">Perhaps, however, the hint of the
-                              image was caught from that in Nebuchadnezzar's dream [<ref
-                                 target="people.html#BarbauldMrs">Barbauld</ref>'s note]. See Daniel
+                              image was caught from that in Nebuchadnezzar's dream [<ref target="people.html#BarbauldMrs">Barbauld</ref>'s note]. See Daniel
                               2, especially 31-6. <title>"Ode to Liberty"</title> 19.</note>
                         </hi>
                      </l>
@@ -1281,9 +1245,8 @@
                      34-57, sometimes altered.</note>
                </hi> The remainder of the piece is taken up in complimenting Britain upon possessing
                in the fullest manner the affection of the Goddess.<quote>
-                  <lg type="stanza" >
-                     <l>For thou hast made her vales thy lov'd thy last abode.<hi
-                           rendition="#sup">
+                  <lg type="stanza">
+                     <l>For thou hast made her vales thy lov'd thy last abode.<hi rendition="#sup">
                            <note place="foot" anchored="true">
                               <title>"Ode to Liberty"</title> 88. </note>
                         </hi>
@@ -1321,16 +1284,19 @@
                                  <hi rendition="#italics">Comus</hi>
                               </title> 520. </note>
                         </hi>
-                     </l></lg><lg type="stanza">
+                     </l>
+                  </lg>
+                  <lg type="stanza">
                      <l>And see like gems her laughing train</l>
                      <l>The little isles on every side.<hi rendition="#sup">
                            <note place="foot" anchored="true">
                               <title>"Ode to Liberty"</title> 80-81. </note>
                         </hi>
-                     </l></lg><lg type="stanza">
+                     </l>
+                  </lg>
+                  <lg type="stanza">
                      <l>That like to rich and various gems inlay</l>
-                     <l>The unadorned bosom of the deep.    <title>Comus</title>.<hi
-                           rendition="#sup">
+                     <l>The unadorned bosom of the deep.    <title>Comus</title>.<hi rendition="#sup">
                            <note place="foot" anchored="true">
                               <ref target="people.html#MiltonJohn">Milton</ref>, <title>
                                  <hi rendition="#italics">Comus</hi>
@@ -1358,9 +1324,7 @@
                fallen into the anachronism common to the admirers of antiquity, of confounding the
                times of the republic with <pb n="xxxi"/>those of the empire; in order, by blending
                the glories of each, to delight the imagination with an era more free than the later,
-               more splendid than the earlier periods of its history; for surely <hi
-                  rendition="#italics">that</hi> Rome which was overthrown by the <hi
-                  rendition="#italics">northern sons of spoil</hi>,<hi rendition="#sup">
+               more splendid than the earlier periods of its history; for surely <hi rendition="#italics">that</hi> Rome which was overthrown by the <hi rendition="#italics">northern sons of spoil</hi>,<hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <title>"Ode to Liberty"</title> 22. </note>
                </hi> had no claim to draw down the tears of Freedom at her fall.</p>
@@ -1378,10 +1342,9 @@
                   <hi rendition="#smcaps">Collins</hi>
                </ref>, and the whole of it is highly finished. The imitative harmony of the
                following line will scarcely escape the reader,<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l rendition="#indent2"> ——————————the weak-ey'd bat,</l>
-                     <l> With short shrill shriek flits by on leathern wing;<hi
-                           rendition="#sup">
+                     <l> With short shrill shriek flits by on leathern wing;<hi rendition="#sup">
                            <note place="foot" anchored="true">
                               <title>"Ode to Evening"</title> 9-10.</note>
                         </hi>
@@ -1389,7 +1352,7 @@
                   </lg>
                </quote>
                <pb n="xxxii"/>nor the exquisite description of the gradual approach of Evening,<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l> And hears their simple bell, and marks o'er all </l>
                      <l> Their dewy fingers draw</l>
                      <l> Their gradual dusky veil.<hi rendition="#sup">
@@ -1440,8 +1403,7 @@
                   <hi rendition="#smcaps">To Peace</hi>
                </title>. In reading the Author before us, our attention cannot but be attracted by
                the frequent recurrence of those subjects which indicate a gentleness of temper and a
-               quick sensibility to the distresses of his fellow men. <ref
-                  target="people.html#CollinsWilliam">
+               quick sensibility to the distresses of his fellow men. <ref target="people.html#CollinsWilliam">
                   <hi rendition="#smcaps">Collins</hi>
                </ref> did not use the liberal breath of Poetry to fan those flames which consume and
                destroy mankind; Peace, Mercy, Pity, these are the themes he delights to dress and
@@ -1450,7 +1412,7 @@
                the skies, and just saving her hair from the furious grasp of her enemy, is
                appropriate and beautiful,<pb n="xxxv"/>
                <quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l> —————————<hi rendition="#italics">tergoque fugaci</hi>
                      </l>
                      <l>
@@ -1474,8 +1436,7 @@
                   </lg>
                </quote>This Ode was probably written during the war of the Austrian succession.</p>
             <p>
-               <hi rendition="#smcaps">The Manners</hi>. That <ref
-                  target="people.html#CollinsWilliam">
+               <hi rendition="#smcaps">The Manners</hi>. That <ref target="people.html#CollinsWilliam">
                   <hi rendition="#smcaps">Collins</hi>
                </ref> was more fond of abstract and metaphysical ideas than of the busy haunts of
                common life, his works sufficiently evince. It must, therefore, have been in some
@@ -1483,16 +1444,14 @@
                desirous to abandon the philosophic porch for the walks of life; and speculation, for
                wit and humour. We may reasonably conclude, however, that with wit and humour as well
                as with speculation, his acquaintance was formed through books; and that when he
-               speaks of studying the Manners, he had only laid down his <ref
-                  target="people.html#Plato">Plato</ref> to take up <title>Gil Blas</title>.<hi
-                  rendition="#sup">
+               speaks of studying the Manners, he had only laid down his <ref target="people.html#Plato">Plato</ref> to take up <title>Gil Blas</title>.<hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <hi rendition="#italics">
                         <title>Histoire de Gil Blas de Santillane</title>
                      </hi> (1715), a novel by <ref target="people.html#LeSageAlain">Alain
                         LeSage</ref>.</note>
                </hi> The scintillations of wit are ingeniously alluded to by,<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l> The jewels in his crisped hair,</l>
                      <l> —— placed each other's beams to share.<hi rendition="#sup">
                            <note place="foot" anchored="true">
@@ -1510,10 +1469,8 @@
                is of little importance that the terms do not exactly correspond in different
                languages. <ref target="people.html#LeSageAlain">
                   <hi rendition="#smcaps">Le Sage</hi>
-               </ref> should not have been characterized by the story of <hi rendition="#italics"
-                  >Blanche</hi>, which, though beautiful, is not in his peculiar stile of
-               excellence, and has more to do with the high passions than with <hi
-                  rendition="#italics">Manners</hi>. Indeed the subject is not particularly proper
+               </ref> should not have been characterized by the story of <hi rendition="#italics">Blanche</hi>, which, though beautiful, is not in his peculiar stile of
+               excellence, and has more to do with the high passions than with <hi rendition="#italics">Manners</hi>. Indeed the subject is not particularly proper
                for an Ode, and, though not devoid of merit, this is by no means one of his most
                striking pieces.</p>
             <p>
@@ -1528,17 +1485,15 @@
                strength with these great masters, was an exertion worthy of the ambition, and not
                above the powers of <ref target="people.html#CollinsWilliam">
                   <hi rendition="#smcaps">Collins</hi>
-               </ref>. This <title>Ode to the Passions</title> may be considered as the hap-<pb
-                  n="xxxvii"/>piest production of his pen. His art is the more to be admired, as he
+               </ref>. This <title>Ode to the Passions</title> may be considered as the hap-<pb n="xxxvii"/>piest production of his pen. His art is the more to be admired, as he
                has not, like his predecessors, taken advantage of a story for the basis of his
                piece; but has raised it solely on an allegorical fiction of his own. The Passions,
                who had often crowded round the cell of Music, while she sung in early Greece, being
                once upon a time more than usually affected, and raised into a kind of extacy,
                snatched her instruments which hung upon the surrounding myrtles, and produced, each
                of them, a strain suitable to the peculiar expression of his character. The Passions
-               are thus enumerated in the beautiful lines of <ref target="people.html#PopeAlexander"
-                  >Pope</ref>,<quote>
-                  <lg type="stanza" >
+               are thus enumerated in the beautiful lines of <ref target="people.html#PopeAlexander">Pope</ref>,<quote>
+                  <lg type="stanza">
                      <l> Love, Hope, and Joy, fair Pleasure's smiling train,</l>
                      <l> Hate, Fear, and Grief, the family of Pain.<hi rendition="#sup">
                            <note place="foot" anchored="true">
@@ -1567,18 +1522,16 @@
                Revenge; and <hi rendition="#italics">his</hi> movements are contrasted by those of
                Pity. It may perhaps be asked, why <pb n="xxxix"/>Fear is set in the front of the
                contest; he is described however very characteristically. He does not properly play,
-               he <hi rendition="#italics">lays his "hand</hi>, bewilder'd, amid the chords,"<hi
-                  rendition="#sup">
+               he <hi rendition="#italics">lays his "hand</hi>, bewilder'd, amid the chords,"<hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <title>"The Passions. An Ode for Music"</title> 17-18.</note>
-               </hi> and is startled at the sound he has himself produced. Anger <hi
-                  rendition="#italics">sweeps the lyre in one rude clash</hi>.<hi rendition="#sup">
+               </hi> and is startled at the sound he has himself produced. Anger <hi rendition="#italics">sweeps the lyre in one rude clash</hi>.<hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <title>"The Passions. An Ode for Music"</title> 23-4, altered.</note>
                </hi> It is rather a violent fiction to make Despair play at all. So deadening a
                sensation hardly leaves room for any exertion. The next is truly enchanting. It
                begins with a sprightly apostrophe,<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l>
                         <hi rendition="#italics">But thou, O Hope, with eyes so fair.</hi>
                         <hi rendition="#sup">
@@ -1588,9 +1541,7 @@
                      </l>
                   </lg>
                </quote>Her song, for she sings as well as plays, is prolonged at every close, and
-                  <hi rendition="#italics">the soft responsive voice</hi>, at which "<hi
-                  rendition="#italics">Hope enchanted smiled, and waved her golden hair</hi>"<hi
-                  rendition="#sup">
+                  <hi rendition="#italics">the soft responsive voice</hi>, at which "<hi rendition="#italics">Hope enchanted smiled, and waved her golden hair</hi>"<hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <title>"The Passions. An Ode for Music"</title> 37-8. </note>
                </hi> is conceived in the happiest spirit of allegorical fancy. The break in the next
@@ -1601,7 +1552,7 @@
                Jealousy is more feebly drawn, but Melancholy is in his softest, mellowest stile of
                colouring. She is placed apart from the rest, surrounded with such appropriate
                scenery as a pensive mind naturally delights in;<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l> With eyes uprais'd, as one inspir'd,</l>
                      <l> Pale Melancholy sat retir'd.<hi rendition="#sup">
                            <note place="foot" anchored="true">
@@ -1617,8 +1568,7 @@
                         Saint Cecilia's Day"</title> 21.</note>
                </hi> of <ref target="people.html#PopeAlexander">Pope</ref> executed in the same key.
                Cheerfulness is exhibited with a lively group about her, the action is animated, and
-               gives much of the dramatic to the piece. The Satyrs are <hi rendition="#italics"
-                  >peeping</hi> from <hi rendition="#italics">their alleys green; brown
+               gives much of the dramatic to the piece. The Satyrs are <hi rendition="#italics">peeping</hi> from <hi rendition="#italics">their alleys green; brown
                   Exercise</hi> rejoices; and <hi rendition="#italics">Sport leaps up and seizes his
                   beechen spear</hi>.<hi rendition="#sup">
                   <note place="foot" anchored="true">
@@ -1636,7 +1586,7 @@
                passion to which the greater part of Poets have largely sacrificed. In his Pastorals
                there is as little of it as is well consistent with the nature of the composition,
                and in another place he refers to it only in the way of complaint.<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l> Love, only Love, her forceless numbers mean.<hi rendition="#sup">
                            <note place="foot" anchored="true">
                               <title>"Ode to Simplicity"</title> 39.</note>
@@ -1653,29 +1603,25 @@
                the expression of different passions, for the same measure is often used for opposite
                passions; but by that skilful mixture of them, by those graceful cadences and
                judicious breaks, and sounds conveying the tone of feeling to which the ear of a Poet
-               is his best guide. The allegory is simply this, that the <hi rendition="#italics"
-                  >art</hi> of music supplies the instruments, but that the Passions alone can make
+               is his best guide. The allegory is simply this, that the <hi rendition="#italics">art</hi> of music supplies the instruments, but that the Passions alone can make
                them speak to the heart; and the piece concludes with lamenting the dissolution of
                that union which is said to have subsisted in antient times between Poetry and Music.
                Of the wonderful effects of this union, every one perhaps is not prepared to affirm
                with our Author, "'Tis said, and I <hi rendition="#italics">believe</hi> the tale;"
-               but every person of taste must lament its divorce from <hi rendition="#italics"
-                  >sense</hi>, and regret, that while the English language offers to the composers
+               but every person of taste must lament its divorce from <hi rendition="#italics">sense</hi>, and regret, that while the English language offers to the composers
                of music such productions as the preceding for the basis of their exertions, the
                degradation of the public taste obliges them to prefer for their charming structure
                of sweet sounds, the slang of Newgate, the <pb n="xliii"/>vulgarisms of the province,
                or the lisping prattle of the nursery.</p>
             <p>
                <title>
-                  <hi rendition="#smcaps">Ode on the Death of <ref target="people.html#ThomsonJames"
-                        >Thomson</ref>
+                  <hi rendition="#smcaps">Ode on the Death of <ref target="people.html#ThomsonJames">Thomson</ref>
                   </hi>
                </title>. This piece is tender and plaintive, the allusion to the Æolian harp, the
                   <hi rendition="#italics">dashing oar</hi>
                <hi rendition="#sup">
                   <note place="foot" anchored="true">
-                     <title>"Ode Occasion'e by the Death of Mr. <ref
-                           target="people.html#ThomsonJames">Thomson</ref>"</title> 15. </note>
+                     <title>"Ode Occasion'e by the Death of Mr. <ref target="people.html#ThomsonJames">Thomson</ref>"</title> 15. </note>
                </hi> suspended to bid his gentle spirit rest, the gradual fading of the scenery as
                night approaches, are pleasing and picturesque circumstances. But there is no
                propriety in calling <ref target="people.html#ThomsonJames">
@@ -1684,11 +1630,9 @@
                and superstitious Druid, whose rites were wrapped up in mystery, it was peculiarly
                improper to compare a Poet whose religion was simple as truth, sublime as nature, and
                liberal as the spirit of philosophy. <hi rendition="#italics">Nature's child</hi> is
-               a proper epithet, but why <hi rendition="#italics">meek Nature's child</hi>.<hi
-                  rendition="#sup">
+               a proper epithet, but why <hi rendition="#italics">meek Nature's child</hi>.<hi rendition="#sup">
                   <note place="foot" anchored="true">
-                     <title>"Ode Occasion'e by the Death of Mr. <ref
-                           target="people.html#ThomsonJames">Thomson</ref>"</title> 36.</note>
+                     <title>"Ode Occasion'e by the Death of Mr. <ref target="people.html#ThomsonJames">Thomson</ref>"</title> 36.</note>
                </hi> In short there is nothing characteristic of the Author he wished to
                commemorate, nor does there seem to be any local acquaintance with the scenery, for
                the church of Richmond is not white nor a spire, nor can it be seen from the river;
@@ -1697,14 +1641,12 @@
             <p> There remain two or three smaller Poems, among which the dirge in Cymbeline deserves
                to be noticed as perfectly corresponding with the delicacy and sweetness of the play
                for which it was written as an accompaniment.</p>
-            <p> To the Poems which have usually been published as the works of <ref
-                  target="people.html#CollinsWilliam">
+            <p> To the Poems which have usually been published as the works of <ref target="people.html#CollinsWilliam">
                   <hi rendition="#smcaps">Collins</hi>
                </ref>, is now first added, <title>
                   <hi rendition="#smcaps">An Ode on the popular Superstitions of the Highlands of
                      Scotland</hi>
-               </title>, which was read by the Reverend Dr. <ref
-                  target="people.html#CarlyleAlexander">
+               </title>, which was read by the Reverend Dr. <ref target="people.html#CarlyleAlexander">
                   <hi rendition="#smcaps">Carlyle</hi>
                </ref> on the 19th of April, 1784, at the royal society of Edinburgh. It was
                inscribed to Mr. <ref target="people.html#HomeJohn">
@@ -1720,15 +1662,12 @@
                diligent search it was found in the hand-writing of the Author. It seems to have been
                the first rough draught of the <pb n="xlv"/>Poem; it was written in the year 1749,
                and probably the Author, who died in 1756, never enjoyed spirits sufficient to finish
-               it. Several hemistichs and words left blank leave been supplied by Dr. <ref
-                  target="people.html#CarlyleAlexander">
+               it. Several hemistichs and words left blank leave been supplied by Dr. <ref target="people.html#CarlyleAlexander">
                   <hi rendition="#smcaps">Carlyle</hi>
-               </ref>; and the fifth and half of the sixth stanza by Dr. <ref
-                  target="people.html#MackenzieHenry">
+               </ref>; and the fifth and half of the sixth stanza by Dr. <ref target="people.html#MackenzieHenry">
                   <hi rendition="#smcaps">Mackenzie</hi>
                </ref>, with such art, that if it were not for the inverted commas, by which his
-               lines are distinguished, the garment would appear without a seam. The <hi
-                  rendition="#italics">cordial youth</hi>
+               lines are distinguished, the garment would appear without a seam. The <hi rendition="#italics">cordial youth</hi>
                <hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <title>"Ode to a Friend on his Return &amp;c [An Ode on the Popular
@@ -1746,8 +1685,7 @@
                </ref> then were.</p>
             <p> The purport of this Ode is to recommend to the Poet of Scotland the popular
                superstitions of his country as peculiarly proper for works of imagination. These are
-               enumerated with equal taste and knowledge of the subject. The imagination of <ref
-                  target="people.html#CollinsWilliam">
+               enumerated with equal taste and knowledge of the subject. The imagination of <ref target="people.html#CollinsWilliam">
                   <hi rendition="#smcaps">Collins</hi>
                </ref> was apt to kindle at whatever bore the impress of the strange, the wild, and
                especially the supernatural; no <pb n="xlvi"/>wonder therefore he was struck with the
@@ -1755,12 +1693,11 @@
                which the northern part of our island abounds. The information is chiefly taken from
                   <ref target="people.html#MartinMartin">
                   <hi rendition="#smcaps">Martin</hi>
-               </ref>'s account of St. Kilda. It does not appear that <ref
-                  target="people.html#CollinsWilliam">
+               </ref>'s account of St. Kilda. It does not appear that <ref target="people.html#CollinsWilliam">
                   <hi rendition="#smcaps">Collins</hi>
                </ref> was ever in Scotland. The horror which those possessed of the second sight are
                said to feel often at the visions they see, is advantageously touched upon:<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l> How they whose sight such dreary dreams engross,</l>
                      <l rendition="#indent1"> With their own visions oft astonish'd droop; </l>
                      <l> When o'er the wat'ry strath or quaggy moss </l>
@@ -1786,7 +1723,7 @@
                Alcyone, <hi rendition="#sup">
                   <note place="foot" anchored="true">
                      <quote>
-                        <lg type="stanza" >
+                        <lg type="stanza">
                            <l>Luridus, exangui similis, sine vestibus ullis, </l>
                            <l>Conjugis ante torum miseræ stetit: uda videtur </l>
                            <l>Barba viri, madidisque gravis fluere unda capillis. </l>
@@ -1801,12 +1738,11 @@
                         (<ref target="people.html#Ovid">Ovid</ref>, <title>
                         <hi rendition="#italics">Metamorphoses IX-XII</hi>
                      </title>, ed. and trans. D.E. Hill [Warminster: Aris and Phillips, 1999] 101).
-                     Thanks to my colleague William Woods for assistance with this translation. <ref
-                        target="people.html#CollinsWilliam">Collins</ref>'s lines occur in
+                     Thanks to my colleague William Woods for assistance with this translation. <ref target="people.html#CollinsWilliam">Collins</ref>'s lines occur in
                         <title>"Ode to a Friend on his Return &amp;c"</title> 129-132.</note>
                </hi>
                <quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l> Then he perhaps, with moist and wat'ry hand, </l>
                      <l rendition="#indent1"> Shall fondly seem to press her shudd'ring
                         cheek,</l>
@@ -1814,13 +1750,12 @@
                      <l rendition="#indent1"> And shudd'ring cold these piteous accents
                            speak."<hi rendition="#sup">
                            <note place="foot" anchored="true">The blue swoln face is much superior
-                              to the <hi rendition="#italics">luridus</hi> of the Latin Poet [<ref
-                                 target="people.html#BarbauldMrs">Barbauld</ref>'s note].</note>
+                              to the <hi rendition="#italics">luridus</hi> of the Latin Poet [<ref target="people.html#BarbauldMrs">Barbauld</ref>'s note].</note>
                         </hi>
                      </l>
                   </lg>
                </quote>The island of St. Kilda is marked by a negative circumstance highly descriptive,<quote>
-                  <lg type="stanza" >
+                  <lg type="stanza">
                      <l>
                         <hi rendition="#italics">Nor ever vernal bee was heard to murmur there.</hi>
                         <hi rendition="#sup">
@@ -1831,15 +1766,13 @@
                   </lg>
                </quote>But notwithstanding these and other striking passages, this Ode is far from
                possessing the spirit and pathos of the <title>Ode to Fear</title>. Many of these
-               prodigies woven into a story would contribute strongly to the effect, but here <pb
-                  n="xlviii"/>the Author speaks, and the Author has told us at the setting out that
+               prodigies woven into a story would contribute strongly to the effect, but here <pb n="xlviii"/>the Author speaks, and the Author has told us at the setting out that
                he does not believe them. It is however a Poem well worth recovering, and does credit
                to <ref target="people.html#CollinsWilliam">
                   <hi rendition="#smcaps">Collins</hi>
                </ref>, though it is not one of the few on which his reputation will more
                particularly rest.</p>
-            <p> The reader, after thus going through the productions of <ref
-                  target="people.html#CollinsWilliam">
+            <p> The reader, after thus going through the productions of <ref target="people.html#CollinsWilliam">
                   <hi rendition="#smcaps">Collins</hi>
                </ref>, must have formed his opinion of the powers of the writer. He will be
                acknowledged to possess imagination, sweetness, bold and figurative language. His

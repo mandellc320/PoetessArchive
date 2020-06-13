@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:PA="http://www.poetessarchive.org/#schema">
-   <teiHeader type="text">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Moody Review of Grandmaison's Les Amours
@@ -31,8 +28,8 @@
             </respStmt>
             <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
          </seriesStmt>
-         <sourceDesc default="false">
-            <biblStruct default="false">
+         <sourceDesc>
+            <biblStruct>
                <analytic>
                   <title type="main" level="a">Art. IX. Les Amours Epiques, &amp;c. I.e. Loves
 							Epics, an Heroic Poem, in six Cantos, containing a Translation of
@@ -53,6 +50,15 @@
       </fileDesc>
       <encodingDesc>
          <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
             <taxonomy xml:id="ps">
                <bibl>Primary or Secondary</bibl>
                <category xml:id="ps1">
@@ -478,11 +484,6 @@
                   <catDesc>Typescript</catDesc>
                </category>
             </taxonomy>
-            <taxonomy>
-               <category xml:id="BL">
-                  <catDesc>British Library Shelf Mark</catDesc>
-               </category>
-            </taxonomy>
          </classDecl>
       </encodingDesc>
       <profileDesc>
@@ -493,13 +494,21 @@
                   <item>Book review</item>
                </list>
             </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
             <catRef target="#ag9 #ag35" scheme="#ag"/>
             <catRef target="#f13" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef scheme="#g" target="#g72 #g31"/>
+            <catRef target="#g72 #g31" scheme="#g"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change who="#LM" when="20200611" n="6">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+            </list>
+         </change>
          <change who="#MW" when="2019-12-18" n="5">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
@@ -537,134 +546,170 @@
          </change>
       </revisionDesc>
    </teiHeader>
-	<text>
-		<body>
-			<div type="essay">
-				<head><bibl><lb rendition="#center"/><author type="writer"><ref target="people.html#MoodyElizabeth"
-									><name>Elizabeth Moody</name></ref></author>
-						<title type="main" level="a"><hi rendition="#smcaps">Art</hi>. IX. <hi
-								rendition="#italics">Les Amours Epiques</hi>, &amp;c. <hi
-								rendition="#italics">i.e.</hi> Love Epics, an Heroic Poem, in six
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <lb rendition="#center"/>
+                  <author type="writer">
+                     <ref target="people.html#MoodyElizabeth">
+                        <name>Elizabeth Moody</name>
+                     </ref>
+                  </author>
+                  <title type="main" level="a">
+                     <hi rendition="#smcaps">Art</hi>. IX. <hi rendition="#italics">Les Amours Epiques</hi>, &amp;c. <hi rendition="#italics">i.e.</hi> Love Epics, an Heroic Poem, in six
 							Cantos, containing a Translation of Episodes on Love, composed by the
 							best Epic Poets. By <hi rendition="#smcaps">Parseval Grandmaison</hi>.
 								<hi rendition="#smcaps">12</hi>mo. pp. 250. Paris. 1804. London, De
-							Boffe. Price 3s. 6d. sewed.<hi rendition="#sup"><note place="foot">This
-									review article appeared in the Foreign Appendix of <hi
-										rendition="#italics">The Monthly Review</hi>, vol. 45
+							Boffe. Price 3s. 6d. sewed.<hi rendition="#sup">
+                        <note place="foot">This
+									review article appeared in the Foreign Appendix of <hi rendition="#italics">The Monthly Review</hi>, vol. 45
 								(September-December 1804), pp. 511-515.  This edition by Emma Wiley and Mary A. Waters. The poet and painter
-									Fran&#231;ois-Auguste Parseval Grandmaison (1759-1834) was
+									François-Auguste Parseval Grandmaison (1759-1834) was
 									appointed to the French Academy in recognition of his poetry in
 									honor of <ref target="people.html#Napoleon">Napoleon
 										Bonaparte</ref>.</note>
-							</hi></title></bibl></head>
-				<p rendition="#pnoindent"><hi rendition="#largest">I</hi><hi rendition="#smcaps"
-						>n</hi> the preface to this small publication, we are informed that the
-					author&apos;s avocations were at one period of his life of a nature so totally
+                     </hi>
+                  </title>
+               </bibl>
+            </head>
+            <p rendition="#pnoindent">
+               <hi rendition="#largest">I</hi>
+               <hi rendition="#smcaps">n</hi> the preface to this small publication, we are informed that the
+					author's avocations were at one period of his life of a nature so totally
 					uncongenial with the muses, as entirely to preclude all intercourse with these
 					celestial personages: but a change of unforeseen circumstances, turning up on
 					the wheel of Fortune, brought him the desired leisure to enter the lists of
 					Apollo, and to dedicate his services to the fascinating family of the Nine. The
 					plan of this work is well conceived, ingenious, and interesting; being designed
 					to form a combination of amatory episodes, with the narrative part of the most
-					celebrated epic poets;&#8212;an union kindly intended, as the author tells us,
+					celebrated epic poets;—an union kindly intended, as the author tells us,
 					to produce an acceptable variety to the reader, and to enable him, when he is
-					chilled with horror at the ferocity of <ref target="people.html#Achilles"
-						>Achilles</ref>, to melt his ice in the parting milder scenes between <ref
-						target="people.html#Hector">Hector</ref> and <ref
-						target="people.html#Andromache">Andromache</ref>.</p>
-				<milestone unit="signature" n="8" rendition="#center"/>
-				<pb n="512"/>
-				<p> With a stroke of his wand, the poet conjures up six of the most celebrated
+					chilled with horror at the ferocity of <ref target="people.html#Achilles">Achilles</ref>, to melt his ice in the parting milder scenes between <ref target="people.html#Hector">Hector</ref> and <ref target="people.html#Andromache">Andromache</ref>.</p>
+            <milestone unit="signature" n="8" rendition="#center"/>
+            <pb n="512"/>
+            <p> With a stroke of his wand, the poet conjures up six of the most celebrated
 					bards, whom he orders to the Elysian grove; and there seated, each with his lyre
 					in his hand, they rehearse, by turns, one of their own favourite songs. This
-					band is composed of <ref target="people.html#Homer">Homer</ref>, <ref
-						target="people.html#Virgil">Virgil</ref>, <ref
-						target="people.html#TassoTorquato">Tasso</ref>, <ref
-						target="people.html#Ariosto">Ariosto</ref>, <ref
-						target="people.html#MiltonJohn">Milton</ref>, and <ref
-						target="people.html#Camoes">Camoens</ref>. <ref target="people.html#Homer"
-						>Homer</ref> takes the precedency; which he justly claims both on account of
+					band is composed of <ref target="people.html#Homer">Homer</ref>, <ref target="people.html#Virgil">Virgil</ref>, <ref target="people.html#TassoTorquato">Tasso</ref>, <ref target="people.html#Ariosto">Ariosto</ref>, <ref target="people.html#MiltonJohn">Milton</ref>, and <ref target="people.html#Camoes">Camoens</ref>. <ref target="people.html#Homer">Homer</ref> takes the precedency; which he justly claims both on account of
 					seniority, as being a great, great, great, grandfather to the rest, and as also
 					being super-excellent in the profession. His song illustrates the truth of the
-					author&apos;s remark: for our wounded feelings, on seeing <ref
-						target="people.html#Hector">Hector</ref> dragged round the walls of Troy,
-					induce us to turn our eyes impatiently to the love episode, which <ref
-						target="people.html#TassoTorquato">Tasso</ref> promises in the next song. It
+					author's remark: for our wounded feelings, on seeing <ref target="people.html#Hector">Hector</ref> dragged round the walls of Troy,
+					induce us to turn our eyes impatiently to the love episode, which <ref target="people.html#TassoTorquato">Tasso</ref> promises in the next song. It
 					is the natural propensity of the human mind to grasp every idea of pleasure that
 					presents itself; and though conscious of the impracticability of any version
 					doing complete justice to a transcendently beautiful original, we unwarily
-					participate in the enthusiasm of this poet:&#8212;who, like a true knight-errant
+					participate in the enthusiasm of this poet:—who, like a true knight-errant
 					in literature, shrinks from no enterprize, though he himself acknowledges its
 					magnitude, and almost insurmountable difficulties. We, therefore, jump with him
-					into the enchanting and enchanted scenery of Armida&apos;s<hi rendition="#sup"
-							><note place="foot">Character in <ref target="people.html#TassoTorquato"
-								>Tasso</ref>&apos;s <hi rendition="#italics"><title>Gerusalemme
-									liberata</title></hi>.</note></hi> bower:&#8212;but we confess
+					into the enchanting and enchanted scenery of Armida's<hi rendition="#sup">
+                  <note place="foot">Character in <ref target="people.html#TassoTorquato">Tasso</ref>'s <hi rendition="#italics">
+                        <title>Gerusalemme
+									liberata</title>
+                     </hi>.</note>
+               </hi> bower:—but we confess
 					that we looked as blue as the bill of the Italian warbler, when we hear the
-					pretty song which he sings in Tasso&apos;s grove imitated by the pert chirping
-					of a little French cock-sparrow.&#8212;Here, however, the critic smooths his
+					pretty song which he sings in Tasso's grove imitated by the pert chirping
+					of a little French cock-sparrow.—Here, however, the critic smooths his
 					angry brow, and excuses the poet; convinced that it is impossible to do more
 					than he has done: which is, to give a faithful translation of this charming
-					morsel&#8212;&#8212;&#8212;&#8212; <quote>
-							<lg type="stanza">
-								<l><hi rendition="#italics">Deh mira (egli canto) spuntar la
-										rosa</hi></l>
-								<l><hi rendition="#italics">Dal verde suo modesta e
-									verginella,</hi></l>
-								<l><hi rendition="#italics">Che mezzo aperta encora, e mezzo
-										ascosa</hi></l>
-								<l><hi rendition="#italics">Quanto si mostra men, tanto &#232;
-										pi&#249; bella</hi></l>
-								<l><hi rendition="#italics">Ecco poi nudo il sen gia baldanzosa</hi>
-								</l>
-								<l><hi rendition="#italics">Dispiega: ecco poi langue, e non par
-										quella</hi></l>
-								<l><hi rendition="#italics">Quella non par, che desiata
-									innante</hi></l>
-								<l><hi rendition="#italics">Fu da mille donzelle e mille
-										amante.</hi></l>
-							</lg>
-						</quote></p>
-				<p>Those who have never heard the Italian bard may not be displeased with the French
+					morsel———— <quote>
+                  <lg type="stanza">
+                     <l>
+                        <hi rendition="#italics">Deh mira (egli canto) spuntar la
+										rosa</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Dal verde suo modesta e
+									verginella,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Che mezzo aperta encora, e mezzo
+										ascosa</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Quanto si mostra men, tanto è
+										più bella</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Ecco poi nudo il sen gia baldanzosa</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Dispiega: ecco poi langue, e non par
+										quella</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Quella non par, che desiata
+									innante</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Fu da mille donzelle e mille
+										amante.</hi>
+                     </l>
+                  </lg>
+               </quote>
+            </p>
+            <p>Those who have never heard the Italian bard may not be displeased with the French
 					songster: <quote>
-							<lg type="stanza">
-								<l><hi rendition="#italics">H&#233;las! voyez, dit il, cette modeste
-										rose,</hi></l>
-								<l><hi rendition="#italics">Vierge encore, aux regards elle se
-										cache, et n&apos;ose</hi></l>
-								<l><hi rendition="#italics">D&#233;rober son tr&#233;sor &#224; sa
-										verte prison;</hi></l>
-								<l><hi rendition="#italics">Elle fait poindre &#224; peine un timide
-										bouton;</hi></l>
-								<l><hi rendition="#italics">Bient&#244;t, en soulevant son voile
-										qu&apos;elle entr&apos;ouvre,</hi></l>
-								<l><hi rendition="#italics">A moiti&#233; s&apos;enveloppe, &#224;
-										moiti&#233; se d&#233;couvre,</hi></l>
-								<l><hi rendition="#italics">Et moins elle se montre, et plus elle
-										d&apos;attraits;</hi></l>
-								<l><hi rendition="#italics">Mais d&#233;ployant enfin tous ses
-										charmes secrets,</hi></l>
-								<l><hi rendition="#italics">Elle s&apos;&#233;panouit, et deja
-										languissante</hi></l>
-								<l><hi rendition="#italics">Cette rose n&apos;est plus la rose
-										&#233;blouissante</hi></l>
-							
-						<pb n=" 513"/>
-						
-								<l><hi rendition="#italics">Dont les jeunes beaut&#233;s, dont les
+                  <lg type="stanza">
+                     <l>
+                        <hi rendition="#italics">Hélas! voyez, dit il, cette modeste
+										rose,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Vierge encore, aux regards elle se
+										cache, et n'ose</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Dérober son trésor à sa
+										verte prison;</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Elle fait poindre à peine un timide
+										bouton;</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Bientôt, en soulevant son voile
+										qu'elle entr'ouvre,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">A moitié s'enveloppe, à
+										moitié se découvre,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Et moins elle se montre, et plus elle
+										d'attraits;</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Mais déployant enfin tous ses
+										charmes secrets,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Elle s'épanouit, et deja
+										languissante</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Cette rose n'est plus la rose
+										éblouissante</hi>
+                     </l>
+                     <pb n=" 513"/>
+                     <l>
+                        <hi rendition="#italics">Dont les jeunes beautés, dont les
 										jeunes amants</hi>
-								</l>
-								<l><hi rendition="#italics">Respiroient les parfums, go&#251;toient
-										les agr&#233;ments.</hi></l>
-							</lg></quote></p>
-
-				<p>The same critical remarks apply equally to <ref target="people.html#Ariosto"
-						>Ariosto</ref>; namely, that it is impossible to give an adequate idea of
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Respiroient les parfums, goûtoient
+										les agréments.</hi>
+                     </l>
+                  </lg>
+               </quote>
+            </p>
+            <p>The same critical remarks apply equally to <ref target="people.html#Ariosto">Ariosto</ref>; namely, that it is impossible to give an adequate idea of
 					the beauty of his episodes by a French translation. Hitherto, we keep our
 					temper, and are rather pleased than angry at the hardihood of our literary
 					knight: but when he sets his foot on the hallowed ground of the most sublime of
-					our English bards, <ref target="people.html#MiltonJohn">Milton</ref>, we <hi
-						rendition="#italics">could</hi> be indignant:&#8212;still, however, we
+					our English bards, <ref target="people.html#MiltonJohn">Milton</ref>, we <hi rendition="#italics">could</hi> be indignant:—still, however, we
 					forbear. M. <hi rendition="#smcaps">Grandmaison</hi>, from not understanding the
 					majestic march of our blank verse, is unable to perceive the ludicrous effect
 					produced by the change into paltry diminutive rhiming couplets: but to us the
@@ -672,154 +717,215 @@
 					of the work before us, it may appear invidious to comment on the beautiful
 					passages which are here metamorphosed: but we must perform our task. We do not
 					wish to put fetters on genius, yet we require the judgment should be its
-					vigilant superintendant, and keep it within its prescribed boundary.&#8212;Let
+					vigilant superintendant, and keep it within its prescribed boundary.—Let
 					us now attend to <ref target="people.html#MiltonJohn">Milton</ref>; who, we are
-					told, has taken his lyre in his hand: <quote><lg type="stanza">
-						<l rendition="#indent1"><hi rendition="#italics">Alors <ref target="people.html#MiltonJohn"
-										>Milton</ref>, prenant sa lyre entre ses mains,</hi></l>
-							<l><hi rendition="#italics">Se pr&#233;pare &#224; chanter le premier
-									des humains:</hi></l>
-							<l><hi rendition="#italics">La soule avidement et l&apos;entoure et le
-									presse:</hi></l>
-							<l><hi rendition="#italics">Il exhale en </hi>ces mots sa <hi
-									rendition="#smcaps">poetique ivresse</hi>.</l>
-						</lg></quote> We must first listen to <ref target="people.html#MiltonJohn"
-						>Milton</ref>&apos;s song, in his own language, and afterward ask ourselves
-					whether it be possible for us to recollect it in its masquerade dress.&#8212; We
+					told, has taken his lyre in his hand: <quote>
+                  <lg type="stanza">
+                     <l rendition="#indent1">
+                        <hi rendition="#italics">Alors <ref target="people.html#MiltonJohn">Milton</ref>, prenant sa lyre entre ses mains,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Se prépare à chanter le premier
+									des humains:</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">La soule avidement et l'entoure et le
+									presse:</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Il exhale en </hi>ces mots sa <hi rendition="#smcaps">poetique ivresse</hi>.</l>
+                  </lg>
+               </quote> We must first listen to <ref target="people.html#MiltonJohn">Milton</ref>'s song, in his own language, and afterward ask ourselves
+					whether it be possible for us to recollect it in its masquerade dress.— We
 					give the description of the garden of Eden, and the discovery of the happy pair
-					by Satan: <title>Paradise Lost</title>, vol. i. book iv. Page 262. <quote><lg
-							type="stanza">
-						<l rendition="#indent1">So on he fares, and to the border comes</l>
-							<l>Of Eden, where delicious Paradise,</l>
-							<l>Now nearer, crowns with her inclosure green,</l>
-							<l>As with a rural mound, the champain head </l>
-							<l>Of a steep wilderness, whose hairy sides</l>
-							<l>With thicket overgrown, grotesque and wild,</l>
-							<l>Access deny&apos;d, and over head up grew</l>
-							<l>Insuperable height of loftiest shade,</l>
-							<l>Cedar, and pine, and fir, and branching palm,</l>
-							<l>A sylvan scene; and as the ranks ascend</l>
-							<l>Shade above shade, a woody theatre</l>
-							<l>Of stateliest view. Yet higher than their tops,</l>
-							<l>The verd&apos;rous wall of Paradise up sprung:&#8212;</l>
-						</lg></quote> Thus sang the English Poet, and <hi rendition="#italics">thus
-						sings</hi> the French:&#8212; <quote>
-						<lg type="stanza">
-							<l rendition="#indent1"><hi rendition="#italics">Le mont d&apos;Eden s&apos;&#233;leve en des
-									</hi>champs<hi rendition="#italics"> fortun&#233;s,</hi></l>
-							<l><hi rendition="#italics">Ses pieds sont de buissons par tout
-									environn&#233;s</hi>
-							</l>
-						</lg></quote>
-					<fw type="vol" place="bottom-left"><hi rendition="#smcaps">App. Rev. Vol.
-							xlv.</hi></fw>
-					<milestone unit="signature" n="L1" rendition="#center"/><pb n="514"/>
-					<quote><lg type="stanza">
-							<l><hi rendition="#italics">Et, par tout l&apos;entourant,
-									d&apos;inaccessibles roches</hi></l>
-							<l><hi rendition="#italics">De ces flancs escarp&#233;s d&#233;fendent
-									les approches;</hi></l>
-							<l><hi rendition="#italics">Sur ces flancs s&apos;&#233;levoient de
-									longs et</hi><hi rendition="#sup"><note place="foot"><ref
-											target="people.html#MiltonJohn">Milton</ref> does not
+					by Satan: <title>Paradise Lost</title>, vol. i. book iv. Page 262. <quote>
+                  <lg type="stanza">
+                     <l rendition="#indent1">So on he fares, and to the border comes</l>
+                     <l>Of Eden, where delicious Paradise,</l>
+                     <l>Now nearer, crowns with her inclosure green,</l>
+                     <l>As with a rural mound, the champain head </l>
+                     <l>Of a steep wilderness, whose hairy sides</l>
+                     <l>With thicket overgrown, grotesque and wild,</l>
+                     <l>Access deny'd, and over head up grew</l>
+                     <l>Insuperable height of loftiest shade,</l>
+                     <l>Cedar, and pine, and fir, and branching palm,</l>
+                     <l>A sylvan scene; and as the ranks ascend</l>
+                     <l>Shade above shade, a woody theatre</l>
+                     <l>Of stateliest view. Yet higher than their tops,</l>
+                     <l>The verd'rous wall of Paradise up sprung:—</l>
+                  </lg>
+               </quote> Thus sang the English Poet, and <hi rendition="#italics">thus
+						sings</hi> the French:— <quote>
+                  <lg type="stanza">
+                     <l rendition="#indent1">
+                        <hi rendition="#italics">Le mont d'Eden s'éleve en des
+									</hi>champs<hi rendition="#italics"> fortunés,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Ses pieds sont de buissons par tout
+									environnés</hi>
+                     </l>
+                  </lg>
+               </quote>
+               <fw type="vol" place="bottom-left">
+                  <hi rendition="#smcaps">App. Rev. Vol.
+							xlv.</hi>
+               </fw>
+               <milestone unit="signature" n="L1" rendition="#center"/>
+               <pb n="514"/>
+               <quote>
+                  <lg type="stanza">
+                     <l>
+                        <hi rendition="#italics">Et, par tout l'entourant,
+									d'inaccessibles roches</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">De ces flancs escarpés défendent
+									les approches;</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Sur ces flancs s'élevoient de
+									longs et</hi>
+                        <hi rendition="#sup">
+                           <note place="foot">
+                              <ref target="people.html#MiltonJohn">Milton</ref> does not
 										give the epithet of <hi rendition="#italics">black</hi> to
-										the <hi rendition="#italics">fir</hi> [<ref
-											target="people.html#MoodyElizabeth">Moody</ref>&apos;s
-										note].</note></hi> noirs <hi rendition="#italics"
-									>sapins,</hi></l>
-							<l><hi rendition="#italics">Des cedres, des palmiers, de
-									v&#233;n&#233;rables pins,</hi></l>
-							<l><hi rendition="#italics">Qui montant par degr&#233;s formoient de
-									verds &#233;tages,</hi></l>
-							<l><hi rendition="#italics">Levoient pompeusement ombrages sur
-									ombrages,</hi></l>
-							<l><hi rendition="#italics">Superbe amphith&#233;&#226;tre, et
-									champ&#234;tres atours,</hi></l>
-							<l><hi rendition="#italics">Qui paroient de ce mont les immenses
-									contours.</hi></l>
-						<l rendition="#indent1"><hi rendition="#italics">Plus haut sur les
-									sommets de ces arbres augustes,</hi></l>
-							<l><hi rendition="#italics">S&apos;arrondissoit en circle une chaine
-									d</hi>&apos;arbustes,</l>
-							<l><hi rendition="#italics">Formant du paradis les agrestes
-									remparts,</hi></l>
-							<l><hi rendition="#italics">D&apos;o&#249; l&apos;&#339;il dans les vallons
-									plongeoit de toutes parts.&apos;</hi></l></lg>
-						<lg type="stanza"><l rendition="#indent15"
-								>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</l>
-						<l rendition="#indent7">&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;Now
+										the <hi rendition="#italics">fir</hi> [<ref target="people.html#MoodyElizabeth">Moody</ref>'s
+										note].</note>
+                        </hi> noirs <hi rendition="#italics">sapins,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Des cedres, des palmiers, de
+									vénérables pins,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Qui montant par degrés formoient de
+									verds étages,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Levoient pompeusement ombrages sur
+									ombrages,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Superbe amphithéâtre, et
+									champêtres atours,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Qui paroient de ce mont les immenses
+									contours.</hi>
+                     </l>
+                     <l rendition="#indent1">
+                        <hi rendition="#italics">Plus haut sur les
+									sommets de ces arbres augustes,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">S'arrondissoit en circle une chaine
+									d</hi>'arbustes,</l>
+                     <l>
+                        <hi rendition="#italics">Formant du paradis les agrestes
+									remparts,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">D'où l'œil dans les vallons
+									plongeoit de toutes parts.'</hi>
+                     </l>
+                  </lg>
+                  <lg type="stanza">
+                     <l rendition="#indent15">———————————</l>
+                     <l rendition="#indent7">————————Now
 								gentle gales,</l>
-							<l>Fanning their odoriferous wings, dispense</l>
-							<l>Native perfumes, and whisper whence they stole</l>
-							<l>Those balmy spoils.</l></lg>
-						<lg type="stanza"><l rendition="#indent1"><hi rendition="#italics">L&#224;, mille frais z&#233;phyrs sur leur
-									aile embaum&#233;e,</hi></l>
-							<l><hi rendition="#italics">Faisoient voler des fleurs l&apos;essence
-									parfum&#233;e.</hi></l>
-						</lg></quote> These are harmless platitudes, when compared with the daring
+                     <l>Fanning their odoriferous wings, dispense</l>
+                     <l>Native perfumes, and whisper whence they stole</l>
+                     <l>Those balmy spoils.</l>
+                  </lg>
+                  <lg type="stanza">
+                     <l rendition="#indent1">
+                        <hi rendition="#italics">Là, mille frais zéphyrs sur leur
+									aile embaumée,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Faisoient voler des fleurs l'essence
+									parfumée.</hi>
+                     </l>
+                  </lg>
+               </quote> These are harmless platitudes, when compared with the daring
 					attempt to translate poetically (as the author pretends) the description given by
-					the English poet of our first parents in their celestial grove:&#8212; <ref
-						target="people.html#MiltonJohn">Milton</ref>, vol. i. book iv. Page 279. <quote>
-						<lg type="stanza">
-							<l rendition="#indent1">Two, of far nobler shape, erect and tall,</l>
-							<l>God-like erect, with native honor clad,</l>
-							<l>In naked majesty seem&apos;d lords of all,</l>
-							<l>And worthy seem&apos;d; for in their looks divine,</l>
-							<l>The image of their glorious maker shone,</l>
-							<l>Truth, wisdom, sanctitude, severe and pure,</l>
-							<l>(Severe, but in true filial freedom plac&apos;d,)</l>
-							<l>Whence true authority in men; though both</l>
-							<l>Not equal, as their sex not equal seem&apos;d;</l>
-							<l>For contemplation he and valour form&apos;d,</l>
-							<l>For softeness she and sweet attractive grace,</l>
-							<l>He for God only, she for God in him:</l>
-						</lg>
-					</quote>
-					<quote>
-						<lg type="stanza">
-							<l rendition="#indent1"><hi rendition="#italics">Au milieu des beaut&#233;s qu&apos;offroient
-									ces lieux champ&#233;tres,</hi></l>
-							<l><hi rendition="#italics">Parmi</hi> ses habitants <hi
-									rendition="#italics">se promenoient</hi> deux &#234;tres,</l>
-							<l>Debout, levant au ciel leurs fronts nobles, <hi rendition="#italics"
-									>sereins,</hi></l>
-							<l><hi rendition="#italics">Et de ce lieu superbe augustes
+					the English poet of our first parents in their celestial grove:— <ref target="people.html#MiltonJohn">Milton</ref>, vol. i. book iv. Page 279. <quote>
+                  <lg type="stanza">
+                     <l rendition="#indent1">Two, of far nobler shape, erect and tall,</l>
+                     <l>God-like erect, with native honor clad,</l>
+                     <l>In naked majesty seem'd lords of all,</l>
+                     <l>And worthy seem'd; for in their looks divine,</l>
+                     <l>The image of their glorious maker shone,</l>
+                     <l>Truth, wisdom, sanctitude, severe and pure,</l>
+                     <l>(Severe, but in true filial freedom plac'd,)</l>
+                     <l>Whence true authority in men; though both</l>
+                     <l>Not equal, as their sex not equal seem'd;</l>
+                     <l>For contemplation he and valour form'd,</l>
+                     <l>For softeness she and sweet attractive grace,</l>
+                     <l>He for God only, she for God in him:</l>
+                  </lg>
+               </quote>
+               <quote>
+                  <lg type="stanza">
+                     <l rendition="#indent1">
+                        <hi rendition="#italics">Au milieu des beautés qu'offroient
+									ces lieux champétres,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Parmi</hi> ses habitants <hi rendition="#italics">se promenoient</hi> deux êtres,</l>
+                     <l>Debout, levant au ciel leurs fronts nobles, <hi rendition="#italics">sereins,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Et de ce lieu superbe augustes
 									souverains</hi>;</l>
-							<l>Nus, ils etoient couverts d&apos;un voile de decence;</l>
-							<l>Ils brilloient de fiert&#233;, d&apos;honneur, et
-								d&apos;innocence;</l>
-							<l>Rois paisibles du monde, en leur regard altier,</l>
-							<l><hi rendition="#italics">En leurs sublimes traits, Dieu s&apos;est
-									peint tout entier;</hi></l>
-							<l><hi rendition="#italics">Tout ce qu&apos;on doit aimer, et tout ce
-									qu&apos;on revere,</hi></l>
-							<l><hi rendition="#italics">Raison, vertu, sagesse, et pi&#233;t&#233;
-									severe,&#8212;&#8212;</hi></l>
-							<l><hi rendition="#italics">&#8212;&#8212;Dans leurs formes pourtant
-									quelque in&#233;galit&#233;</hi></l>
-							<l><hi rendition="#italics">De leurs sexes divers distinguoit</hi> la
-								beaut&#233;:</l>
-						</lg></quote>
-					<pb n="515"/>
-					<quote><lg type="stanza">
-							<l>L&apos;un superbe <hi rendition="#italics">annoncoit, et la force et
-									l&apos;audace:</hi></l>
-							<l>L&apos;autre <hi rendition="#italics">d&apos;attraits plus doux
-									d&#233;veloppoit la grace;</hi></l>
-							<l>Le premier pour Dieu seul vivoit en ce beau lieu</l>
-							<l>Le second y vivoit, et pour l&apos;homme et pour Dieu.</l>
-						</lg></quote>
-				</p>
-				<p> Here we finish our extracts;&#8212;and having endeavoured, with becoming
+                     <l>Nus, ils etoient couverts d'un voile de decence;</l>
+                     <l>Ils brilloient de fierté, d'honneur, et
+								d'innocence;</l>
+                     <l>Rois paisibles du monde, en leur regard altier,</l>
+                     <l>
+                        <hi rendition="#italics">En leurs sublimes traits, Dieu s'est
+									peint tout entier;</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Tout ce qu'on doit aimer, et tout ce
+									qu'on revere,</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">Raison, vertu, sagesse, et piété
+									severe,——</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">——Dans leurs formes pourtant
+									quelque inégalité</hi>
+                     </l>
+                     <l>
+                        <hi rendition="#italics">De leurs sexes divers distinguoit</hi> la
+								beauté:</l>
+                  </lg>
+               </quote>
+               <pb n="515"/>
+               <quote>
+                  <lg type="stanza">
+                     <l>L'un superbe <hi rendition="#italics">annoncoit, et la force et
+									l'audace:</hi>
+                     </l>
+                     <l>L'autre <hi rendition="#italics">d'attraits plus doux
+									développoit la grace;</hi>
+                     </l>
+                     <l>Le premier pour Dieu seul vivoit en ce beau lieu</l>
+                     <l>Le second y vivoit, et pour l'homme et pour Dieu.</l>
+                  </lg>
+               </quote>
+            </p>
+            <p> Here we finish our extracts;—and having endeavoured, with becoming
 					temperance, to sprinkle cool patience over the heat and rage of our critical
-					anger, we take our leave of Mons. <hi rendition="#smcaps"
-					>Grandmaison</hi>:&#8212;but not without admonishing him, and most of the Gallic
+					anger, we take our leave of Mons. <hi rendition="#smcaps">Grandmaison</hi>:—but not without admonishing him, and most of the Gallic
 					sons of Apollo, to respect and venerate the immortal shades of our English
 					poets. Let them be considered as reposing under the sanction of consecrated
 					laurels; one branch of which, it is even something like sacrilege to endeavor to
 					appropriate by any but kindred hands.</p>
-
-			</div>
-		</body>
-	</text>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:PA="http://www.poetessarchive.org/#schema">
-   <teiHeader type="text">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Introductory Discourse</title>
@@ -29,8 +28,8 @@
             </respStmt>
             <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
          </seriesStmt>
-         <sourceDesc default="false">
-            <biblStruct default="false">
+         <sourceDesc>
+            <biblStruct>
                <analytic>
                   <title type="main" level="a">Introductory Discourse</title>
                   <author type="writer">
@@ -56,6 +55,15 @@
       </fileDesc>
       <encodingDesc>
          <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
             <taxonomy xml:id="ps">
                <bibl>Primary or Secondary</bibl>
                <category xml:id="ps1">
@@ -290,9 +298,8 @@
                      hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="ag">
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -422,7 +429,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-               xml:id="f">
+                      xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -482,11 +489,6 @@
                   <catDesc>Typescript</catDesc>
                </category>
             </taxonomy>
-            <taxonomy>
-               <category xml:id="BL">
-                  <catDesc>British Library Shelf Mark</catDesc>
-               </category>
-            </taxonomy>
          </classDecl>
       </encodingDesc>
       <profileDesc>
@@ -497,14 +499,22 @@
                   <item>History</item>
                </list>
             </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
             <catRef target="#ag9 #ag12" scheme="#ag"/>
             <catRef target="#f1" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef scheme="#g" target="#g72 #g30 "/>
+            <catRef target="#g72 #g30 " scheme="#g"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#MW" when="2019-12-18" n="3">
+         <change who="#LM" when="20200611" n="6">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+            </list>
+         </change>
+         <change who="#MW" when="2019-12-18" n="5">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
             <list type="simple">
@@ -546,7 +556,7 @@
       <body>
          <div type="essay">
             <head>
-               <bibl default="false">
+               <bibl>
                   <author type="writer">
                      <ref target="people.html#BaillieJoanna">
                         <name>Joanna Baillie</name>
@@ -651,8 +661,7 @@
                spectacle that keeps so many more away. To see a human being bearing himself up under
                such circumstances, or struggling with the terrible apprehensions which such a
                situation impresses, must be the powerful incentive, which makes us press forward to
-               behold what we shrink from, and wait with trembling expectation for what we dread.<hi
-                  rendition="#sup">
+               behold what we shrink from, and wait with trembling expectation for what we dread.<hi rendition="#sup">
                   <note place="foot">In confirmation of this opinion I may venture to say,
                      that<!--<pb n="6"/>--> of the great numbers who go to see a publick execution,
                      there are but very few who would not run away from, and avoid it, if they
@@ -660,8 +669,7 @@
                      procession, or any other uncommon sight, they may have fallen in with
                      accidentally, but almost never an execution. No one goes there who has not made
                      up his mind for the occasion; which would not be the case, if any natural love
-                     of cruelty were the cause of such assemblies [<ref
-                        target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
+                     of cruelty were the cause of such assemblies [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
                </hi> For though few <pb n="6"/> at such a spectacle can get near enough to
                distinguish the expression of face, or the minuter parts of a criminal's behaviour,
                yet from a considerable distance will they eagerly mark whether he steps firmly;
@@ -683,8 +691,7 @@
                      unleashes a devil who allows him the magical ability to look through the roofs
                      to see the lives underneath. In one chapter, the various occupants of a prison
                      are revealed. </note>
-               </hi> and look upon a criminal the night before he suffers, in his still<pb n="7"
-               />hours of privacy, when all that disguise, which respect for the opinion of others,
+               </hi> and look upon a criminal the night before he suffers, in his still<pb n="7"/>hours of privacy, when all that disguise, which respect for the opinion of others,
                the strong motive by which even the lowest and wickedest of men still continue to be
                moved, would present an object to the mind of every person, not withheld from it by
                great timidity of character, more powerfully attractive than almost any other. </p>
@@ -717,8 +724,7 @@
                considered as one of the most severe. The workings of nature in this situation, we
                all know, have ever been the object of our most eager enquiry. No man wishes to see
                the Ghost himself, which would certainly procure him the best information on the
-               subject, but every man wishes to see one who believes that he sees it, in all the <pb
-                  n="9"/>agitation and wildness of that species of terrour. To gratify this
+               subject, but every man wishes to see one who believes that he sees it, in all the <pb n="9"/>agitation and wildness of that species of terrour. To gratify this
                curiosity how many people have dressed up hideous apparitions to frighten the timid
                and superstitious! and have done it at the risk of destroying their happiness or
                understanding for ever. For the instances of intellect being destroyed by this kind
@@ -753,8 +759,7 @@
             <p>It is not merely under the violent agitations of passion, that man so rouses and
                interests us; even the smallest indications of an unquiet mind, the restless eye, the
                muttering lip, the half-checked exclamation, and the hasty start, will set our
-               attention as anxiously upon the watch, as the <milestone unit="signature" n="1"
-                  rendition="#smcaps"/>
+               attention as anxiously upon the watch, as the <milestone unit="signature" n="1" rendition="#smcaps"/>
                <pb n="11"/> first distant flashes of a gathering storm. When some great explosion of
                passion bursts forth, and some consequent catastrophe happens, if we are at all
                acquainted with the unhappy perpetrator, how minutely will we endeavour to remember
@@ -873,8 +878,7 @@
                      in the imagination of the reader like a rock of the desert, which points out to
                      the far-removed traveler the country through which he has passed, when its
                      lesser objects are obscured in the distance; whilst the other leaves no traces
-                     behind it, but in the minds of the scientifick in war [<ref
-                        target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
+                     behind it, but in the minds of the scientifick in war [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
                </hi> The establishments of <pb n="17"/> policy make little impression upon us, if we
                are left ignorant of the beings whom they affected. Even a very masterly drawn
                character will but slightly imprint upon our memory the great man it belongs to, if,
@@ -928,8 +932,7 @@
                delighted with it, though we are foolish enough to admire at the same time, all the
                nonsense with which it is surrounded. After all the wonderful incidents, dark
                mysteries, and secrets revealed, which eventful novel so liberally presents to us;
-               after the beautiful fairy ground, and even <milestone unit="signature" n="c 2"
-                  rendition="#smcaps"/>
+               after the beautiful fairy ground, and even <milestone unit="signature" n="c 2" rendition="#smcaps"/>
                <pb n="20"/> the grand and sublime scenes of nature with which descriptive novel so
                often enchants us; those works which most strongly characterize human nature in the
                middling and lower classes of society, where it is to be discovered by stronger and
@@ -996,8 +999,7 @@
                strength of the battle. If characteristick views of human nature enliven not their
                pages, there are many excellencies with which they can, in some degree, make up for
                the deficiency, it is what we receive from them with pleasure rather than demand. But
-               in his works no richness of invention, harmony of language, nor grandeur of <pb
-                  n="24"/> sentiment will supply the place of faithfully delineated nature. The poet
+               in his works no richness of invention, harmony of language, nor grandeur of <pb n="24"/> sentiment will supply the place of faithfully delineated nature. The poet
                and the novelist may represent to you their great characters from the cradle to the
                tomb. They may represent them in any mood or temper, and under the influence of any
                passion which they see proper, without being obliged to put words into their mouths,
@@ -1039,10 +1041,8 @@
                      defects. Men, it may be said, do so merely to shew their own superior
                      penetration and ingenuity. But granting this; what could make other men listen
                      to them, and listen so greedily too, if it were not that they have received
-                     from the works of <ref target="people.html#ShakespeareWilliam"
-                     >Shakspeare</ref>, pleasure far beyond what the most perfect poetical
-                     compositions of a different character can afford [<ref
-                        target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
+                     from the works of <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>, pleasure far beyond what the most perfect poetical
+                     compositions of a different character can afford [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
                </hi>
             </p>
             <p>Formed as we are with these sympathetick propensities in regard to our own species,
@@ -1060,14 +1060,12 @@
                have long been without it. The progress of society would soon have brought it forth;
                and men in the whimsical decorations of fancy would have displayed the characters and
                actions of their heroes, the folly and absurdity of their fellow-citizens, had no
-               Priests of <ref target="people.html#Bacchus">Bacchus</ref> ever existed.<hi
-                  rendition="#sup">
+               Priests of <ref target="people.html#Bacchus">Bacchus</ref> ever existed.<hi rendition="#sup">
                   <note place="foot">Though the progress of society would have given us the Drama,
                      independently of the particular cause of its first commencement, the peculiar
                      circumstances connected with its origin, have had considerable influence upon
                      its character and style, in the ages through which it has passed even to our
-                     days, and still will continue to affect it. <ref target="people.html#Homer"
-                        >Homer</ref> had long preceded the dramatick poets of Greece; poetry was in
+                     days, and still will continue to affect it. <ref target="people.html#Homer">Homer</ref> had long preceded the dramatick poets of Greece; poetry was in
                      a high state of cultivation when they began to write; and their style, the
                      construction of their pieces, and the characters of their heroes were different
                      from what they would have been, had theatrical exhibitions been the invention
@@ -1097,10 +1095,8 @@
                      not, however, in any degree to depreciate the works of the ancients; a great
                      deal we have gained by those beautiful compositions; and what we have lost by
                      them it is impossible to compute. Very strong genius will sometimes break
-                     through every disadvantage of circumstances: <ref
-                        target="people.html#ShakespeareWilliam">Shakspeare</ref> has arisen in this
-                     country, and we ought not to complain [<ref target="people.html#BaillieJoanna"
-                        >Baillie's</ref> note].</note>
+                     through every disadvantage of circumstances: <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> has arisen in this
+                     country, and we ought not to complain [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
                </hi>
             </p>
             <pb n="28"/>
@@ -1144,8 +1140,7 @@
                It is for her to present to us the great and striking characters that are to be found
                amongst men, in a way which the poet, the novelist, and the historian can but
                imperfectly attempt. But above all, to her, and to her only it belongs to unveil to
-               us the human mind under the dominion of those strong and fixed passions,<milestone
-                  unit="signature" n="3" rendition="#smcaps"/>
+               us the human mind under the dominion of those strong and fixed passions,<milestone unit="signature" n="3" rendition="#smcaps"/>
                <pb n="31"/> which, seemingly unprovoked by outward circumstances, will from small
                beginnings brood within the breast, till all the better dispositions, all the fair
                gifts of nature are borne down before them. Those passions which conceal themselves
@@ -1202,13 +1197,11 @@
                </hi> Thus, passionate and impetuous warriors, who are proud, irritable, and
                vindictive, but generous, daring, and disinterested; setting their lives at a pin's
                fee for the good of others, but incapable of curbing their own humour of a moment to
-               gain the whole world for themselves; who will pluck <milestone unit="signature" n="d"
-                  rendition="#smcaps"/>
+               gain the whole world for themselves; who will pluck <milestone unit="signature" n="d" rendition="#smcaps"/>
                <pb n="34"/> the orbs of heaven from their places, and crush the whole universe in
                one grasp, are called forth to kindle in our souls the generous contempt of every
                thing abject and base; but with an effect proportionably feeble, as the hero is made
-               to exceed in courage and fire what the standard of humanity will agree to.<hi
-                  rendition="#sup">
+               to exceed in courage and fire what the standard of humanity will agree to.<hi rendition="#sup">
                   <note place="foot">In all burlesque imitations of tragedy, those plays in which
                      this hero is pre-eminent, are always exposed to bear the great brunt of the
                      ridicule; which proves how popular they have been, and how many poets, and good
@@ -1232,8 +1225,7 @@
                      their souls are unappalled <!--<pb n="35"/>--> by any thing; as pain and death
                      are not all regarded by them; and as we have seen them very ready to plunge
                      their own swords into their own bosoms, on no very weighty occasion, perhaps,
-                     their death distresses us but little, and they commonly fall unwept [<ref
-                        target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
+                     their death distresses us but little, and they commonly fall unwept [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
                </hi> Thus, tender and<pb n="35"/>pathetick lovers, full of the most gentle
                affections, the most amiable dispositions, and the most exquisite feelings; who
                present their defenceless bosoms to the storms of this rude world in all the graceful
@@ -1248,8 +1240,7 @@
                      with any thing to degrade or disgust; and also, because the misfortunes, which
                      form the story of the play, are frequently of the more familiar and domestick
                      kind. A king driven from his throne, will not move our sympathy so strongly, as
-                     a private man torn from the bosom of his family [<ref
-                        target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
+                     a private man torn from the bosom of his family [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
                </hi> Thus, also, tyrants are represented as monsters of cruelty, unmixed with any
                feelings of humanity; and villains as delighting in all manner of treachery and
                deceit, and acting upon many occasions for the very love of villainy itself; though
@@ -1267,8 +1258,7 @@
                      the heroines. The tender and pathetick no doubt has the most numerous, but the
                      great and magnanimous is not without it, and the passionate and impetuous
                      boasts of one by no means inconsiderable in numbers, and drawn sometimes to the
-                     full as passionate and impetuous as itself [<ref
-                        target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
+                     full as passionate and impetuous as itself [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
                </hi> This spirit of imitation, and attention to effect, has likewise confined them
                very much in their choice of situations and events to bring their great characters
                into action; rebellions, conspiracies, contentions for empire, and rivalships in love
@@ -1312,8 +1302,7 @@
                find the characters of a tragedy affected by the passions in a transient, loose,
                unconnected manner; or if they are represented as under the permanent influence of
                the more powerful ones, they are generally introduced to our notice in the very
-               height of their fury, when all that timidity, irresolution, distrust, and a thou-<pb
-                  n="39"/>sand delicate traits, which make the infancy of every great passion more
+               height of their fury, when all that timidity, irresolution, distrust, and a thou-<pb n="39"/>sand delicate traits, which make the infancy of every great passion more
                interesting, perhaps, than its full-blown strength, are fled. The impassioned
                character is generally brought into view under those irresistible attacks of their
                power, which it is impossible to repell; whilst those gradual steps that lead him
@@ -1453,8 +1442,7 @@
                      acute observation, enable them admirably well to generalize, and apply to
                      classes of men the remarks they have made upon individuals; yet know not how to
                      dress up, with any natural congruity, an imaginary individual in the attributes
-                     they have assigned to those classes [<ref target="people.html#BaillieJoanna"
-                        >Baillie's</ref> note].</note>
+                     they have assigned to those classes [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
                </hi>
             </p>
             <p>In what I have termed Witty Comedy, every thing is light, playful, and easy. Strong
@@ -1475,8 +1463,7 @@
                powerful enough to gratify the sympathetick desire we all feel to look into the heart
                of man in difficult and trying situations, which is the sound basis of tragedy, and
                are destitute of that seasoning of the lively and ludicrous, which prevents the
-               ordinary transactions of comedy from becoming insipid. In real life, those who, <pb
-                  n="48"/> from the peculiar frame of their minds, feel most of this refined
+               ordinary transactions of comedy from becoming insipid. In real life, those who, <pb n="48"/> from the peculiar frame of their minds, feel most of this refined
                distress, are not generally communicative upon the subject; and those who do feel and
                talk about it at the same time, if any such there be, seldom find their friends much
                inclined to listen to them. It is not to be supposed, then, long conversations upon
@@ -1493,8 +1480,7 @@
                and invention; which, to those who have played at hide-and-seek, who have crouched
                down, with beating heart, in a dark corner, whilst the enemy groped near the spot;
                who have joined their busy school-mates in many deep-laid plan to deceive, perplex,
-               and torment the unhappy mortals deputed to have the charge of them, cannot be <pb
-                  n="49"/> seen with indifference. Like an old hunter, who pricks up ears at the
+               and torment the unhappy mortals deputed to have the charge of them, cannot be <pb n="49"/> seen with indifference. Like an old hunter, who pricks up ears at the
                sound of the chace, and starts away from the path of his journey, so, leaving all
                wisdom and criticism behind us, we follow the varied changes of the plot, and stop
                not for reflection. The studious man who wants a cessation from thought, the indolent
@@ -1511,8 +1497,7 @@
                instruction, adapted to general application. We find in its varied scenes an exercise
                of the mind analogous to that which we all, less or more, find out for ourselves,
                amidst the mixed groupes of people whom we meet with in society; and which I have
-               already mentioned as an exercise universally pleasing to<milestone unit="signature"
-                  n="e" rendition="#smcaps"/>
+               already mentioned as an exercise universally pleasing to<milestone unit="signature" n="e" rendition="#smcaps"/>
                <pb n="50"/>man. As the distinctions which it is its highest aim to discriminate, are
                those of nature and not situation, they are judged of by all ranks of men; for a
                peasant will very clearly perceive in the character of a peer, those native
@@ -1607,13 +1592,11 @@
                      characters being rendered feeble and tiresome with too much repetition and
                      whining. It arises from the greater facility with which we enter into the
                      distresses of people, more upon a level with ourselves; and whose sorrows are
-                     expressed in less studied and unnatural language [<ref
-                        target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
+                     expressed in less studied and unnatural language [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
                </hi> Yet we all know from <pb n="54"/> our own experience in real life, that, in
                certain situations, and under certain circumstances, the stronger passions are fitted
                to produce scenes more exquisitely comick than any other; and one well-wrought scene
-               of this kind, will have a more powerful effect in repressing similar intemperance <pb
-                  n="55"/> in the mind of a spectator, than many moral cautions, or even, perhaps,
+               of this kind, will have a more powerful effect in repressing similar intemperance <pb n="55"/> in the mind of a spectator, than many moral cautions, or even, perhaps,
                than the terrifick examples of tragedy. There are to be found, no doubt, in the works
                of our best dramatick writers, comick scenes descriptive of the stronger passions,
                but it is generally the inferiour characters of the piece who are made the subjects
@@ -1725,8 +1708,7 @@
                      from it. But when it is past he thinks no more of it; whereas some confusion of
                      circumstances, some half-explained mistake, which gives him no pleasure at all
                      when it takes place, may take off his attention afterwards from the refined
-                     beauties of a natural and characteristick dialogue [<ref
-                        target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
+                     beauties of a natural and characteristick dialogue [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
                </hi> Soliloquy, or those overflowings of the <pb n="61"/> perturbed soul, in which
                it unburthens itself of those thoughts which it cannot communicate to others, and
                which in certain situations is the only mode that a Dramatist can employ to open us
@@ -1778,8 +1760,7 @@
                attached to him. If it should seem inconsistent with the nature of this work, that in
                its companion the comedy, I have made strong moral principle triumph over love, let
                it be remembered, that without this the whole moral tendency of a play, which must
-               end happily, would have been destroyed; and that it is not my intention to<pb n="64"
-               /> encourage the indulgence of this passion, amiable as it is, but to restrain it.
+               end happily, would have been destroyed; and that it is not my intention to<pb n="64"/> encourage the indulgence of this passion, amiable as it is, but to restrain it.
                The last play, the subject of which is hatred, will more clearly discover the nature
                and intention of my design. The rise and progress of this passion I have been obliged
                to give in retrospect, instead of representing it all along in its actual operation,
@@ -1794,8 +1775,7 @@
                have conceived it, is that rooted and settled aversion, which from opposition of
                character, aided by circumstances of little importance, grows at last into such
                antipathy and personal disgust as makes him who entertains it, feel, in the presence
-               of him who is the object of it, a degree of torment and restlesness [<hi
-                  rendition="#italics">sic</hi>] which is insufferable. It is a passion, I believe
+               of him who is the object of it, a degree of torment and restlesness [<hi rendition="#italics">sic</hi>] which is insufferable. It is a passion, I believe
                less frequent than any other of <pb n="65"/> the stronger passions, but in the breast
                where it does exist, it creates, perhaps, more misery than any other. To endeavour to
                interest the mind for a man under the dominion of a passion so baleful, so unamiable,
@@ -1812,8 +1792,7 @@
                more upon this subject, but submit myself to the judgment of my reader. </p>
             <p>It may, perhaps, be supposed from my publishing these plays, that I have written them
                for the closet rather than the stage. If upon perusing them with attention, the
-               reader is disposed to think they are better calculated for the first than <milestone
-                  unit="signature" n="f" rendition="#smcaps"/>
+               reader is disposed to think they are better calculated for the first than <milestone unit="signature" n="f" rendition="#smcaps"/>
                <pb n="66"/> the last, let him impute it to want of skill in the authour, and not to
                any previous design. A play, but of small poetical merit, that is suited to strike
                and interest the spectator, to catch the attention of him who will not, and of him
@@ -1847,12 +1826,10 @@
                strength of my own judgment; but the friends to whom I have shewn my manuscripts are
                partial to me, and their approbation which in the case of any indifferent person
                would be in my mind completely decisive, goes but a little way in relieving me from
-               these apprehensions. To step beyond the <milestone unit="signature" n="f 2"
-                  rendition="#smcaps"/>
+               these apprehensions. To step beyond the <milestone unit="signature" n="f 2" rendition="#smcaps"/>
                <pb n="68"/> circle of my own immediate friends in quest of opinion, from the
                particular temper of my mind I feel an uncommon repugnance: I can with less pain to
-               myself bring them before the publick at once, and submit to its decision.<hi
-                  rendition="#sup">
+               myself bring them before the publick at once, and submit to its decision.<hi rendition="#sup">
                   <note place="foot">The first of these plays, indeed, has been shewn to two or
                      three Gentlemen whom I have not the honour of reckoning amongst my friends. One
                      of them, who is a man of distinguished talents, has honoured it with very
@@ -1942,8 +1919,7 @@
                      tone of mind, which disposes us to listen with effect to the higher scenes of
                      tragedy, he has done so chiefly in his historical plays, where the distresses
                      set forth are commonly of that publick kind, which does not, at any rate, make
-                     much impression upon the feelings [<ref target="people.html#BaillieJoanna"
-                        >Baillie's</ref> note].</note>
+                     much impression upon the feelings [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
                </hi>
             </p>
          </div>
