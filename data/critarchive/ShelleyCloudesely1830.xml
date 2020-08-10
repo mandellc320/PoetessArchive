@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" level="a">Cloudesley; A Tale. By the Author of Caleb
+					Williams</title>
+				<title type="subordinate" level="j">Blackwood's Edinburgh Magazine</title>
+				<author type="writer">
+					<name>Mary Wollstonecraft Shelley</name>
+				</author>
+				<respStmt>
+					<resp>Editor</resp>
+					<name xml:id="MW">Mary A. Waters</name>
+				</respStmt>
+				<respStmt>
+					<resp>Co-Editor</resp>
+					<name xml:id="VS">Victoria L. Stewart</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<idno>ShelleyCloudesely1830</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title level="s">The Criticism Archive</title>
+				<respStmt>
+					<resp>Edited by</resp>
+					<name>Mary A. Waters</name>
+				</respStmt>
+				<idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a">Cloudesley; A Tale. By the Author of Caleb Williams</title>
+						<author type="writer">Shelley, Mary, 1797-1851</author>
+					</analytic>
+					<monogr>
+						<title level="j">Blackwood's Edinburgh Magazine</title>
+						<imprint>
+							<date when="1830-05">May 1830</date>
+							<biblScope unit="vol">27</biblScope>
+							<biblScope unit="pp">711-16</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “, " for ”, '
+						for ‘, and ' for ’.</p>
+					<p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard</p>
+					<p>Em-dashes have been rendered as &#8212;</p>
+				</hyphenation>
+				<normalization method="markup">
+					<p>Spelling has not been regularized.</p>
+					<p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+					<p>Compositors' catchwords and running titles have been silently eliminated.</p>
+					<p>Long "s" (&#383;) has been silently modernized.</p>
+				</normalization>
+				<normalization>
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>£ has been used for £, the pound sign</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+				</normalization>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy xml:id="ft">
+					<bibl>Full Text or Citation</bibl>
+					<category xml:id="ft1">
+						<catDesc>full text</catDesc>
+					</category>
+					<category xml:id="ft2">
+						<catDesc>citation only</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="ps">
+					<bibl>Primary or Secondary</bibl>
+					<category xml:id="ps1">
+						<catDesc>primary</catDesc>
+					</category>
+					<category xml:id="ps2">
+						<catDesc>secondary</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="g">
+					<bibl>Genre and Material Form</bibl>
+					<category xml:id="g1">
+						<catDesc>pageimage</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>biography</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>biographical essay</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>poetry pamphlet</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>poetry book</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>poem</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>story</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>drama</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>table of contents</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>table of illustrations</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>picture</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>index</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>notes</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>frontispiece</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>inscription page</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>book boards</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>titlepage</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>preface</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>advertisement</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>foreword</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>acknowledgments</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>collection literary annual</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>collection miscellany</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>collection anthology</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>collection beauties</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>collection juvenile</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>collection religious</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>collection travels</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>mixed</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>essay</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>review</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>letter</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>fragment poem</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>fragment story</catDesc>
+					</category>
+					<category xml:id="g35">
+						<catDesc>fragment novel</catDesc>
+					</category>
+					<category xml:id="g36">
+						<catDesc>literary criticism book</catDesc>
+					</category>
+					<category xml:id="g37">
+						<catDesc>literary criticism collection</catDesc>
+					</category>
+					<category xml:id="g38">
+						<catDesc>bibliography</catDesc>
+					</category>
+					<category xml:id="g39">
+						<catDesc>engraving</catDesc>
+					</category>
+					<category xml:id="g40">
+						<catDesc>reproduction</catDesc>
+					</category>
+					<category xml:id="g41">
+						<catDesc>figure</catDesc>
+					</category>
+					<category xml:id="g42">
+						<catDesc>graph</catDesc>
+					</category>
+					<category xml:id="g43">
+						<catDesc>map</catDesc>
+					</category>
+					<category xml:id="g44">
+						<catDesc>table</catDesc>
+					</category>
+					<category xml:id="g45">
+						<catDesc>musical score</catDesc>
+					</category>
+					<category xml:id="g46">
+						<catDesc>music</catDesc>
+					</category>
+					<category xml:id="g47">
+						<catDesc>satire</catDesc>
+					</category>
+					<category xml:id="g48">
+						<catDesc>political pamphlet</catDesc>
+					</category>
+					<category xml:id="g49">
+						<catDesc>political cartoon</catDesc>
+					</category>
+					<category xml:id="g50">
+						<catDesc>periodical</catDesc>
+					</category>
+					<category xml:id="g51">
+						<catDesc>historical monograph</catDesc>
+					</category>
+					<category xml:id="g52">
+						<catDesc>historical essay</catDesc>
+					</category>
+					<category xml:id="g53">
+						<catDesc>philosophical treatise</catDesc>
+					</category>
+					<category xml:id="g54">
+						<catDesc>philosophical essay</catDesc>
+					</category>
+					<category xml:id="g55">
+						<catDesc>religious pamphlet</catDesc>
+					</category>
+					<category xml:id="g56">
+						<catDesc>sermon</catDesc>
+					</category>
+					<category xml:id="g57">
+						<catDesc>theology</catDesc>
+					</category>
+					<category xml:id="g58">
+						<catDesc>religious book</catDesc>
+					</category>
+					<category xml:id="g59">
+						<catDesc>essay on education</catDesc>
+					</category>
+					<category xml:id="g60">
+						<catDesc>educational treatise</catDesc>
+					</category>
+					<category xml:id="g61">
+						<catDesc>list of subscribers</catDesc>
+					</category>
+					<category xml:id="g62">
+						<catDesc>allegory</catDesc>
+					</category>
+					<category xml:id="g63">
+						<catDesc>introduction</catDesc>
+					</category>
+					<category xml:id="g64">
+						<catDesc>slipcase</catDesc>
+					</category>
+					<category xml:id="g65">
+						<catDesc>dedication</catDesc>
+					</category>
+					<category xml:id="g66">
+						<catDesc>picture of building</catDesc>
+					</category>
+					<category xml:id="g67">
+						<catDesc>floorplans</catDesc>
+					</category>
+					<category xml:id="g68">
+						<catDesc>photograph</catDesc>
+					</category>
+					<category xml:id="g69">
+						<catDesc>translation</catDesc>
+					</category>
+					<category xml:id="g70">
+						<catDesc>manuscript</catDesc>
+					</category>
+					<category xml:id="g71">
+						<catDesc>printersmark</catDesc>
+					</category>
+					<category xml:id="g72">
+						<catDesc>literary criticism article</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="keyword">
+					<category xml:id="lcsh">
+						<catDesc>Library of Congress Subject Headings, reduced to one word before
+							hyphen</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy
+					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+					xml:id="ag">
+					<bibl>ARC Genre Categories, July 1, 2017</bibl>
+					<category xml:id="ag1">
+						<catDesc>Advertisement</catDesc>
+					</category>
+					<category xml:id="ag2">
+						<catDesc>Animation</catDesc>
+					</category>
+					<category xml:id="ag3">
+						<catDesc>Bibliography</catDesc>
+					</category>
+					<category xml:id="ag4">
+						<catDesc>Catalog</catDesc>
+					</category>
+					<category xml:id="ag5">
+						<catDesc>Chronology</catDesc>
+					</category>
+					<category xml:id="ag7">
+						<catDesc>Citation</catDesc>
+					</category>
+					<category xml:id="ag6">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="ag8">
+						<catDesc>Correspondence</catDesc>
+					</category>
+					<category xml:id="ag9">
+						<catDesc>Criticism</catDesc>
+					</category>
+					<category xml:id="ag10">
+						<catDesc>Drama</catDesc>
+					</category>
+					<category xml:id="ag11">
+						<catDesc>Ephemera</catDesc>
+					</category>
+					<category xml:id="ag12">
+						<catDesc>Essay</catDesc>
+					</category>
+					<category xml:id="ag13">
+						<catDesc>Fiction</catDesc>
+					</category>
+					<category xml:id="ag14">
+						<catDesc>Film, Documentary</catDesc>
+					</category>
+					<category xml:id="ag15">
+						<catDesc>Film, Experimental</catDesc>
+					</category>
+					<category xml:id="ag16">
+						<catDesc>Film, Narrative</catDesc>
+					</category>
+					<category xml:id="ag17">
+						<catDesc>Film, Other</catDesc>
+					</category>
+					<category xml:id="ag18">
+						<catDesc>Historiography</catDesc>
+					</category>
+					<category xml:id="ag19">
+						<catDesc>Interview</catDesc>
+					</category>
+					<category xml:id="ag20">
+						<catDesc>Life Writing</catDesc>
+					</category>
+					<category xml:id="ag21">
+						<catDesc>Liturgy</catDesc>
+					</category>
+					<category xml:id="ag22">
+						<catDesc>Musical Analysis</catDesc>
+					</category>
+					<category xml:id="ag23">
+						<catDesc>Music, Other</catDesc>
+					</category>
+					<category xml:id="ag24">
+						<catDesc>Musical Work</catDesc>
+					</category>
+					<category xml:id="ag25">
+						<catDesc>Musical Score</catDesc>
+					</category>
+					<category xml:id="ag26">
+						<catDesc>Nonficition</catDesc>
+					</category>
+					<category xml:id="ag27">
+						<catDesc>Paratext</catDesc>
+					</category>
+					<category xml:id="ag28">
+						<catDesc>Performance</catDesc>
+					</category>
+					<category xml:id="ag29">
+						<catDesc>Philosophy</catDesc>
+					</category>
+					<category xml:id="ag30">
+						<catDesc>Photograph</catDesc>
+					</category>
+					<category xml:id="ag31">
+						<catDesc>Political Statement</catDesc>
+					</category>
+					<category xml:id="ag32">
+						<catDesc>Poetry</catDesc>
+					</category>
+					<category xml:id="ag33">
+						<catDesc>Religion</catDesc>
+					</category>
+					<category xml:id="ag34">
+						<catDesc>Reference Works</catDesc>
+					</category>
+					<category xml:id="ag35">
+						<catDesc>Review</catDesc>
+					</category>
+					<category xml:id="ag36">
+						<catDesc>Scripture</catDesc>
+					</category>
+					<category xml:id="ag37">
+						<catDesc>Sermon</catDesc>
+					</category>
+					<category xml:id="ag38">
+						<catDesc>Speech</catDesc>
+					</category>
+					<category xml:id="ag39">
+						<catDesc>Translation</catDesc>
+					</category>
+					<category xml:id="ag40">
+						<catDesc>Travel Writing</catDesc>
+					</category>
+					<category xml:id="ag41">
+						<catDesc>Unspecified</catDesc>
+					</category>
+					<category xml:id="ag42">
+						<catDesc>Visual Art</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+					xml:id="f">
+					<bibl>ARC Format Categories, July 1, 2017</bibl>
+					<category xml:id="f1">
+						<catDesc>Codex</catDesc>
+					</category>
+					<category xml:id="f2">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="f3">
+						<catDesc>Dataset</catDesc>
+					</category>
+					<category xml:id="f4">
+						<catDesc>Drawing</catDesc>
+					</category>
+					<category xml:id="f5">
+						<catDesc>Illustration</catDesc>
+					</category>
+					<category xml:id="f6">
+						<catDesc>Interactive Resource</catDesc>
+					</category>
+					<category xml:id="f7">
+						<catDesc>Manuscript</catDesc>
+					</category>
+					<category xml:id="f8">
+						<catDesc>Map</catDesc>
+					</category>
+					<category xml:id="f9">
+						<catDesc>Moving Image</catDesc>
+					</category>
+					<category xml:id="f10">
+						<catDesc>Notated Music</catDesc>
+					</category>
+					<category xml:id="f11">
+						<catDesc>Page Proofs</catDesc>
+					</category>
+					<category xml:id="f12">
+						<catDesc>Pamphlet</catDesc>
+					</category>
+					<category xml:id="f13">
+						<catDesc>Periodical</catDesc>
+					</category>
+					<category xml:id="f14">
+						<catDesc>Physcial Object</catDesc>
+					</category>
+					<category xml:id="f15">
+						<catDesc>Roll</catDesc>
+					</category>
+					<category xml:id="f16">
+						<catDesc>Sheet</catDesc>
+					</category>
+					<category xml:id="f17">
+						<catDesc>Sound</catDesc>
+					</category>
+					<category xml:id="f18">
+						<catDesc>Still Image</catDesc>
+					</category>
+					<category xml:id="f19">
+						<catDesc>Typescript</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy>
+					<category xml:id="BL">
+						<catDesc>British Library Shelf Mark</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="#lcsh">
+					<list type="simple">
+						<item>English literature</item>
+						<item>Criticism</item>
+						<item>Review</item>
+					</list>
+				</keywords>
+				<catRef target="#ag9 #ag35" scheme="#ag"/>
+				<catRef target="#f13" scheme="#f"/>
+				<catRef target="#ps1" scheme="#p"/>
+				<catRef scheme="#g" target="#g72 #g31 #g50"/>
+				<catRef target="#ft1" scheme="#ft"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#MW" when="2020-06-18" n="3">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list type="simple">
+					<item>TEI encoding revisions</item>
+					<item>Editing revisions</item>
+				</list>
+			</change>
+			<change who="#VS" when="2018-10-22" n="2">
+				<label>Changed by</label>
+				<name>Victoria L. Stewart</name>
+				<list type="simple">
+					<item>TEI encoding</item>
+				</list>
+			</change>
+			<change who="#MW" when="2010-12-01" n="1">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list type="simple">
+					<item>Created Edition</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="essay">
+				<head><bibl><author type="writer"><name>Mary Shelley</name></author>
+						<title type="main" level="a"><title>Cloudesley; A Tale</title>. By the
+							Author of <title>Caleb Williams</title>.<hi rendition="#sup"><note
+									place="foot"> London, Colburn and Bentley, 1830 [<ref
+										target="people.html#ShelleyMary">Shelley&apos;s</ref> note].
+									This article appeared in <title level="j"><hi
+											rendition="#italics">Blackwood&apos;s Edinburgh
+											Magazine</hi></title> 27 (May 1830): 711-16. This
+									edition of the article was prepared for <hi rendition="#italics"
+										>The Criticism Archive</hi> by Victoria L. Stewart and Mary
+									A. Waters.</note></hi></title></bibl></head>
+				<p>I<hi rendition="#smcaps">n</hi> his able preface to this work, <ref
+						target="people.html#GodwinWilliam">Mr Godwin</ref> sets the writer of
+					fiction in a very high place. He compares him with the historian and the
+					dramatist, and gives him the preference. He says&#8212;and his late occupation
+					of the History of the Commonwealth has informed him of the truth of the
+					assertion&#8212;that &quot;individual history and biography are mere guesses in
+					the dark.&quot; &quot;The writer collects his information of what the great men
+					on the theatre of the world are reported to have said and done, and then
+					endeavours with his best sagacity to find out the explanation; to hit on that
+					thread, woven through the whole contexture of the piece, which, being
+					discovered, we are told <quote>
+						<lg type="stanza">
+							<l rendition="#indent11">No prodigies remain,</l>
+							<l rendition="#indent1">Comets are regular, and Wharton plain.<hi
+									rendition="#sup"><note place="foot"><ref
+											target="people.html#PopeAlexander">Alexander Pope</ref>,
+												<title><hi rendition="#italics">An Epistle To The
+												Right Honourable Richard Lord Visct.
+											Cobham</hi></title> (1733), lines 208-9.
+								</note></hi></l>
+
+						</lg></quote> But man is a more complex machine than is dreamed of in our
+					philosophy, and it is probable that the skill of no moral anatomist has yet been
+					consummate enough fully to solve the obscurities of any one of the great
+					worthies of ancient or modern times.&quot; While the writer of fiction, <ref
+						target="people.html#GodwinWilliam">Mr Godwin</ref> goes on to say,
+					&quot;when he introduces his ideal personage to the public, enters upon the task
+					with a preconception of the qualities that belong to this being, the principle
+					of his actions and its concomitants. He has thus two advantages: in the first
+					place, his express office is to draw just conclusions from assigned premises, a
+					task of no extraordinary difficulty; and, secondly, while he endeavours to aid
+					those conclusions by consulting the oracle in his bosom, the suggestions of his
+					own heart, instructed as he is besides by a converse with the world, and a
+					careful survey of the encounters that present themselves to his observation, he
+					is much less liable to be cribbed and cabined in by those unlooked-for
+					phenomena, which in the history of an individual seem to have a malicious
+					pleasure in thrusting themselves forward to subvert the best digested theories.
+					In this sense, then, it is infallibly true that fictitious history, when it is
+					the work of a competent hand, is more to be depended upon, and comprises more of
+					the science of man, than whatever can be exhibited by the historian.&quot; The
+					writer of fiction, <ref target="people.html#GodwinWilliam">Mr Godwin</ref>
+					asserts, has besides many advantages over the dramatist; &quot;he has leisure to
+					ripen his materials; to draw out his results one by one, even as they grow up
+					and unfold themselves in the &apos;seven ages&apos; of man. He is not confined,
+					like the dramatist, to put down the words that his characters shall utter. He
+					accompanies the language made use of by them with his comments, and explains the
+					inmost thoughts that pass in the bosom of the upright man and the
+					perverse.&quot;</p>
+				<p>Such, indeed, have been the characteristics of <ref
+						target="people.html#GodwinWilliam">Mr Godwin</ref>&apos;s novels. While
+					other writers represent manners rather than passions, or passions at once vague
+					and incomplete, he conceives, in its entireness, the living picture of an event
+					with all its adjuncts; he sets it down in its vivid reality: no part is dim, no
+					part is tame. We have the clear and distinct representation of his conception,
+					and are made to feel that his portraiture is endowed with the very essence and
+					spirit of our nature. <ref target="people.html#BulwerEdwardLytton">Mr
+						Bulwer</ref> had, in his delightful novel of
+					&quot;<title>Pelham</title>,&quot; described his idea of a work of fiction.
+					Story, he renders the subordinate. The almost common events of life are his
+					groundwork; or where he mingles the romantic, it is made rather an episode than
+					an intrinsic part of his machinery. <ref target="people.html#BulwerEdwardLytton"
+						>Mr Bulwer</ref> does not take the materials of the world around, first
+					separating, and then, by aid of the inventive faculty, moulding them into a new
+					form, whose exact appearance depends on a preconceived notion of what must be,
+					to fulfil his idea; but he gives us rather himself, his experience, his
+					opinions, his emotions. The high-wrought and <fw type="vol" place="bottom-left"
+							><hi rendition="#smcaps">vol. xxvii. no. clxv.</hi></fw><milestone
+						unit="signature" n="3 A" rendition="#smcaps"/><pb n="712"/>noble tone of his
+					mind spreads a sacred and even mysterious grandeur over his pages. His wit
+					enlivens them, his acute observations and peculiar and beautiful power of
+					poetically linking the apparently dissimilar by their real similitudes, are the
+					value and charm of his works.</p>
+				<p>But though <ref target="people.html#BulwerEdwardLytton">Mr Bulwer</ref>’s
+					exceeding talent exalts this species of compostition, it is not in itself of so
+					high a grade as the other, which in fact almost infringes on the ideality of the
+					drama by a sort of unity, wanting, in what we may call in comparison with this
+					the &quot;narrative,&quot; the &quot;didactic novel.&quot; The temple which
+					presents to our eyes the proportions and harmonious accords of architecture, is
+					a finer production than a rambling palace, though the apartments of the latter
+					may be more glittering, lustrous, and delightful. There seems in our human
+					nature a necessity of self-restraint, before we can reach the highest kind of
+					excellence. If simplicity is the best,&#8212;if those, <quote>
+						<lg type="stanza">
+							<l rendition="#indent1">Who, in love and truth,</l>
+							<l rendition="#indent1">Where no misgiving is, rely</l>
+							<l>Upon the genial sense of youth,</l>
+							<l>Glad hearts without reproach or blot,</l>
+							<l>Who do thy work and know it not,&#8212; <hi rendition="#sup"><note
+										place="foot"><ref target="people.html#WordsworthWilliam"
+											>William Wordsworth</ref>, <hi rendition="#italics"
+												><title>Ode to Duty</title></hi> (1807), lines
+										10-14.</note></hi></l>
+						</lg></quote> and if the works which are the type of this artless celestial
+					nature hold the first rank, yet both characters and productions of this kind are
+					too rare and too individual to form a class:<hi rendition="#sup"><note
+							place="foot"> The beautiful tale of <title>Rosamond Gray</title>, by
+								<ref target="people.html#LambCharles">Charles Lamb</ref>, occurs to
+							us as the most perfect specimen of the species of writing to which we
+							allude [<ref target="people.html#ShelleyMary">Shelley&apos;s</ref>
+							note]. <ref target="people.html#LambCharles">Lamb</ref>&apos;s <hi
+								rendition="#italics"><title>A Tale of Rosamund Gray, and Old Blind
+									Margaret</title></hi> was published in 1798.</note></hi> an
+					example they cannot be, for their characteristic is, that they are genuine and
+					untaught. Putting, therefore, these out of the question, I repeat, that a
+					certain degree of obedience to rule and law is necessary for the completion and
+					elevation of our nature and its productions. Of all writers, <ref
+						target="people.html#ShakespeareWilliam">Shakspeare</ref>, whom the ignorant
+					have deemed irregular, is the closest follower of these laws, for he has always
+					a scope and an aim, which, beyond every other writer, he fulfils. The merely
+					copying from our own hearts will no more form a first-rate work of art, than
+					will the most exquisite representation of mountains, water, wood, and glorious
+					clouds, form a good painting, if none of the rules of grouping or colouring are
+					followed. <ref target="people.html#ScottWalter">Sir Walter Scott</ref> has not
+					attained this master art; his wonderful genius developes itself in individual
+					characters and scenes, unsurpassed, except by <ref
+						target="people.html#ShakespeareWilliam">Shakspeare</ref>, for energy and
+					truth; but his wholes want keeping&#8212;often even due connexion.</p>
+				<p>Of all modern writers, <ref target="people.html#GodwinWilliam">Mr Godwin</ref>
+					has arrived most sedulously, and most successfully, at the highest species of
+					perfection his department of art affords. He sketches in his own mind, with a
+					comprehensive and bold imagination, the plan of his work; he digs at the
+					foundations, and learns all the due bearings of his position; he examines his
+					materials, and sees exactly to what purpose each is best fitted; he makes an
+					incident; he unerringly divines the results, both of the event and passion,
+					which this incident will bring forth. By dint of the mastery of thought, he
+					transfuses himself into the very souls of his personages; he dives into their
+					secret hearts, and lays bare, even to their anatomy, their workings; not a
+					pulsation escapes him,&#8212;while yet all is blended into one whole, which
+					forms the pervading impulse of the individual he brings before us. Who,
+					remembering Falkland, but feels as if he had stood by that noble ruin, and
+					watching its downfall! Who but writhes under the self-dejection of Mandeville,
+					and feels the while his own heart whisper fearful oracles of the tameless and
+					sad incongruities of our souls! Who but exulted madly with St Leon, when he
+					obtained his specious gifts! We pass with their creator into the very form and
+					frame of his creatures: our hearts swell responsive to every emotion he
+					delineates. When we heard of another tale by the same author, we wondered what
+					new magic circle was traced, within which we were to stand side by side with the
+					enchanter, seeing the spirits that rise to his call, enthralled by the spell he
+					casts over us.</p>
+				<p><title>Cloudesley</title> is before us, a fresh example of what we have been
+					saying. This tale contains a train of events, each naturally flowing one<pb
+						n="713"/> from the other, and each growing in importance and dignity as they
+					proceed. We have no extraneous ornaments; no discursive flights. Comparing this
+					book with others, we felt as if we had quitted gardens and parks, and tamer
+					landscapes, for a scene on nature&apos;s grandest scale; that we wandered among
+					giants&apos; rocks, &quot;the naked bones of the world waiting to be
+						clothed.&quot;<hi rendition="#sup"><note place="foot"><ref
+								target="people.html#ShelleyMary">Shelley</ref> paraphrases <ref
+								target="people.html#WollstonecraftMary">Mary Wollstonecraft</ref>,
+								<hi rendition="#italics"><title>Letters Written during a Short
+									Residence in Sweden, Norway, and Denmark</title></hi> (1796),
+							Letter V. </note></hi> We use this quotation, because it suggested
+					itself to our minds as we read these volumes, but we must guard our meaning from
+					the idea of there being any turgidness in <title>Cloudesley</title>. Grace and
+					dignity, joined to power, are its characteristics. The first volume is the least
+					interesting. The author digs at the foundation, and then places the first
+					stones; then we begin to feel the just proportions and promising beauty of the
+					plan, till the tantalizing work of preparation finally yields to the full
+					manifestation of the conception of the artist. If we may be permitted another
+					metaphor, and this last is the most just, we will say that this work reminds us
+					of the solemn strain of some cathedral organ. First, a few appropriate chords
+					are fitfully and variously struck; a prelude succeeds to awaken our attention,
+					and then rises the full peal, which swells upon the ear, till the air appears
+					overcharged and overflowing with majestic harmonies. As far as an image can go,
+					this exactly pourtrays our sensations on reading <title>Cloudesley</title>. The
+					composer rapts us from ourselves, filling our bosoms with new and extraordinary
+					emotions, while we sit soul-enchained by the wonders of his art.</p>
+				<p>The story of Cloudesley is of the younger brother of a nobleman, placed under
+					peculiarly tempting circumstances, on the death of his elder, of his concealing
+					that elder&apos;s new-born heir, and so stepping into the place and honours of
+					the orphan. We have here three prominent characters;&#8212;the guilty uncle, his
+					agent, who conceals and brings up the child, and the child himself. The contrast
+					of these situations and characters produces a group matchless for interest,
+					while the circumstances that grow out of the first committed fraud, are the
+					influences that mould these characters at will. The conflicting emotions of the
+					uncle are first brought forward, and then the remorse that quickly follows his
+					crime. Remorse it may emphatically be called, and not repentance, since he does
+					not desire to repair the injuries he has committed: a carking, self-consuming
+					bitterness of spirit. He hates himself&#8212;but no love for another engenders a
+					generous return to right. He finds himself the very dupe of ambition;&#8212;he
+					wished to be the peer he would naturally have become, had his brother died
+					childless,&#8212;so he puts aside the child, and assumes his station in the
+					world, and then finds that he is not what he expected to be. Not the noble, the
+					gentleman of vast possessions, inheritor of a spotless name; not the lineal
+					successor to honours and power, such as thousands would envy. This, indeed, he
+					appears in the eyes of the world, but in his own heart, he knows himself to be
+					the opposite of this. He is a robber, a swindler, a villain; he would exchange
+					back all for his former innocence, but his terror of infamy is greater than his
+					love for virtue, and he clings tenaciously to the fruits of his crime, as the
+					sole compensation for the consciousness of guilt. Remorse is at first a trifling
+					punishment. God&apos;s justice follows in the premature deaths of his own
+					children, and the loss of his beloved wife: he feels the finger of the Eternal
+					marking with torturous traces in his soul the judgement due to crime.</p>
+				<p>More slowly&#8212;for he has no instinct of nature to quicken his
+					emotions&#8212;the agent of the false uncle, Cloudesley, awakes to penitence.
+					Remorse in the brother was inspired by the injury he had done the dead, in
+					Cloudesley, by that inflicted on the living. In the former it was a barren
+					feeling, wasting the soul; in the latter, quickened into life by the spirit of
+					love, it grows into an earnest desire to repair the wrongs in which he took
+					part. Thus he devotes himself to the preservation and education of the orphan
+					boy. And here we have the third personage. The description of the bringing up of
+					the injured outcast child, is replete with grace, and with many a lesson to be
+					conned by parents, and followed by preceptors. Time rolls on, bringing to
+					maturity these seeds<pb n="714"/> of events, these various elements of passion
+					and of action, until there grows up before one’s eyes their natural results,
+					recorded by the hand of truth, graced by the charms of imagination. </p>
+				<p>At first Cloudesley&apos;s penitence manifests itself by the exemplary attention
+					and affection which he bestows on his charge. He is a father to him in
+					appearance; in reality, almost more, being tutor and servant at the same time,
+					as he is the protector. He considers the injured offspring of his early and kind
+					patron as a being superior to himself, whom he reverences as well as loves. As
+					the boy grows up, he becomes more keenly alive to the injustice done him. He
+					remonstrates with the usurper by letter, vainly. The only effect of his epistle
+					is to increase the wretchedness of the successful criminal, not to change his
+					intents. At last he visits him in person, and their interview is a
+					highly-wrought scene of passionate eloquence. Still the uncle is obdurate.
+					Cloudesley educated his ward in Italy. He had to travel far northward to seek
+					his false relative. He leaves the boy, the nursling of love, on whose ear no
+					unkind or harsh work had ever grated, under the guardianship of a man whose
+					integrity, strangely blended with rudeness, renders him a very unfitting
+					supplier of his place. This event brings on the catastrophe. We will not mar its
+					interest by a lame abridgement. It is the peculiar excellence of <ref
+						target="people.html#GodwinWilliam">Mr Godwin</ref>&apos;s writing, that
+					there is not a word too much, and curtailment of the narrative would be like
+					displaying the unfilled-up outline of beauty; we might feel that it was there,
+					and yet remain in ignorance of its peculiar features. The interest is
+					imperative, but unconstrained; nature dwells paramount in every part. As it
+					proceeds, it becomes high-wrought, without being harrowing. To the end, the
+					tragedy is tempered by the softest spirit of humanity; it touches the verge of
+					terror, only to bring us the more soothingly back to milder feelings. We close
+					the book, not tantalized by a sense of the injustice of fate, nor tormented by a
+					painful depicting of unrebuked guilt, but with a compassion for the criminal,
+					and a love or admiration for the innocent, at once elevating and delightful. The
+					few last pages are indeed a record of truths and sentiments, which, as coming
+					from one who has lived so long, and, synonymous with this expression, suffered
+					so much, inculcates a philosophy very opposite from the misanthropical one so
+					prevalent a little while ago.</p>
+				<p><ref target="people.html#GodwinWilliam">Mr Godwin</ref>&apos;s style is at once
+					simple and energetic; it is full, without being inflated. We turn over the pages
+					to seek an impressive passage, but it is difficult to find one sufficiently
+					disconnected with the story, to quote. The description of the feelings of the
+					unhappy deceived man of ambition, when he first finds himself fully entered on
+					the path of guilt, is full of eloquence. Thus he speaks: <quote><p>It was my
+							determination to return with all practicable speed to the British
+							dominions. I loathed the country which had been the scene of these
+							recent events. They had succeeded each other with such rapidity, as to
+							confound my apprehension. I felt as if I had a load of guilt on my soul,
+							almost too vast and overpowering for human ability to endure. My
+							feelings were those of a murderer! And yet I had committed no murder.
+							Could I not with a safe conscience assure myself that I had in no way
+							been a party to the destruction of Arthur, or of Irene? Their child was
+							not dead. But he was by my means civilly dead to his property, his rank,
+							and his country. I had determined that he should be an outcast,
+							belonging to no one, an uncertain and solitary wanderer on the face of
+							nature!</p>
+						<p>Oh! how I detested myself in the recollection of the base and
+							hypocritical scene that I had caused to be played in the presence of the
+							corpse of Irene! I had laid by her chaste and spotless side, the corpse
+							of a child, the offspring of disgrace and infamy! I have often read that
+							the blood of a murdered man would flow anew from his veins the instant
+							his body was touched by the finger of his murderer. Well might I have
+							expected that the hapless Irene should start again into life with
+							indignation at the lie I imposed upon her, the contamination with which
+							I approached her. She was certainly dead! If the smallest particle of
+							perception had remained in any portion of her frame, it would have
+							shrunk and shuddered on this dreadful occasion. I had tried the question
+							to its utmost. I had never seen death till now. Never was such a
+							penetrating <pb n="715"/> trial, such a demonstrative ordeal of its
+							reality, devised by man. Her features were calm; there was a sweet and
+							complacent serenity on her countenance. She was turned to earth. (Vol.
+							ii p. 38.)</p>
+						<p>I was alone in my carriage as I traversed Germany from Vienna to Ostend,
+							or worse than alone, with my valet in the same vehicle to speak when he
+							was spoken to, and do as he was directed. I traversed in my route many
+							extensive forests and many sandy and dismal plains. My journey was made
+							in the blackest and most naked season of the year. Dark clouds were
+							perpetually hurried along the horizon, and the air was nipping and
+							severe. I seldom slept in my carriage, but was left to the uncomfortable
+							communion of my own thoughts. I slept not, but was lost in long and
+							vague reveries, unconscious how the time passed, but feeling that it was
+							insupportably monotonous and tedious. My mind was in that state in which
+							a man has an undefined feeling that he exists, but in which his
+							sensations rarely shape themselves into any thing that deserves the name
+							of thought.</p>
+						<p>In this situation, particularly when the shades of evening began to
+							prevail, and in the twilight, my senses were bewitched, and I seemed to
+							see a multitude of half-formed visions. Once, especially, as I passed
+							through a wood by moonlight, I suddenly saw my brother's face looking
+							out from among the trees as I passed. I saw the features as distinctly
+							as if the meridian sun had beamed upon them. The countenance was as
+							white as death, and the expression was past speaking pitiful. It was by
+							degrees that the features shewed themselves thus out of what had been a
+							formless shadow. I gazed upon it intently. Presently, it faded away by
+							as insensible degrees as those by which it had become thus agonizingly
+							clear. After a short time it returned. I saw also Irene and the child,
+							living and dead, and then living again. No tongue can tell what I
+							endured on these occasions. It was a delirium and confusion and
+							agitation that continued for hours. The fits were not periodical. If I
+							had a visitation of this kind at night, that afforded no security that
+							it would not return in the morning, and again at noon. My appetite
+							deserted me, my eyes became fiery and bloodshot. (Vol ii. p. 45.) </p>
+					</quote></p>
+				<p> We lingered to select another extract from many beautiful passages, containing
+					descriptions first of the domestic happiness, and then of the misfortunes, of
+					the usurper: we feel inclined to take instead, the description of the injured
+					boy himself, as containing one of the sweetest pictures of educated, civilized
+					youth we ever remember to have read: <quote><p>In the various pursuits,
+							therefore, of classical studies and the English language, in a word, of
+							every thing adapted to his years, the progress of Julian was at this
+							time astonishingly rapid. In the course of the next six or seven years,
+							he shook off every thing that was childish and puerile, without
+							substituting in its stead the slightest tincture of pedantry. The
+							frankness and nobility of his spirit defended him from all danger on
+							that side. The constitution of his nature was incapable of combining
+							itself with any alloy of the fop or the coxcomb. All his motions were
+							free, animated, and elastic. They sprung into being instant, and as by
+							inspiration, without waiting to demand the sanction of the deliberative
+							faculty. They were born perfect, as <ref target="people.html#Minerva"
+								>Minerva</ref> is feigned to have sprung in complete panoply from
+							the head of <ref target="people.html#Jupiter">Jove</ref>. The sentiments
+							of his mind unfolded themselves, without trench or wrinkle, in his
+							honest countenance and impassioned features. Into that starry region no
+							disguise could ever intrude; and the clear and melodious tones of his
+							voice were a transparent medium to the thoughts of his heart. Persuasion
+							hung on all he said, and it was next to impossible that the most rugged
+							nature and the most inexorable spirit should dispute his bidding. And
+							this was the case, because all he did was in love, in warm affection, in
+							a single desire for the happiness of those about him. Every one hastened
+							to perform his behests, because the idea of empire and command never
+							entered into his thoughts. He seemed as if he lived in a world made
+							expressly for him, so precisely did all with whom he came into contact
+							appear to form their tone on his.</p>
+						<p>And, in the midst of all his studies and literary improvement, he in no
+							wise neglected any of that bodily dexterity by which he had been early
+							distinguished. His mastery in swimming, in handling the dart and the
+							bow, in swiftness of foot, and in wrestling, kept pace with his other
+							accomplishments. Nor was his corporal strength any way behind his other
+							endowments. He could throw the discus higher and farther than any of his
+							competitors. But his greatest excellence in this kind was in
+							horsemanship. He sprang from the ground like a bird, as if his natural
+							quality had been to mount into the air. He vaulted into his seat like an
+							angel that had descended into it from the conveyance of a sunbeam. He
+							had a favourite horse, familiar, as it were,<pb n="716"/> with all the
+							thoughts of his rider, and that shewed himself pleased and proud of the
+							notice of the noble youth. He snorted, and bent his neck in the most
+							graceful attitudes, and beat the ground with his hoofs, and shewed
+							himself impatient for the signal to leave the goal, and start into his
+							utmost speed. Julian was master of his motions. He would stop, and wind,
+							and exhibit all his perfection of paces, with a whisper, or the lifting
+							of a finger, from him whose approbation excited in the animal the
+							supremest delight. In a word, Julian won the favour of his elders by the
+							clearness of his apprehension, and his progress in every thing that was
+							taught him; and of his equals, by his excellence in all kinds of sport
+							and feats of dexterity, which could be equalled only by the modesty, the
+							good humour, and accommodating spirit, with which he bore his honours,
+							rendering others almost as well satisfied with his superiority as if the
+							triumph had been their own. (Vol. ii p. 184.)</p></quote></p>
+				<p><ref target="people.html#GodwinWilliam">Mr Godwin</ref> quotes three lines from
+					the <title>Iliad</title>, applicable to himself, as <ref
+						target="people.html#Homer">Homer</ref> made them applicable to <ref
+						target="people.html#Nestor">Nestor</ref>. &quot;Two generations of
+					speech-gifted men had passed away, with whom he had dwelt in green Pylos: he now
+					lived among the third.&quot;<hi rendition="#sup"><note place="foot">Thus
+							paraphrased by <ref target="people.html#PopeAlexander">Pope</ref>, and
+							so changed by him as to be inadmissable by the author: <quote><lg
+									type="stanza">
+									<l rendition="#indent6">Two generations now had pass&apos;d
+										away,</l>
+									<l rendition="#indent6">Wise by his rules, and happy by his
+										sway;</l>
+									<l rendition="#indent6">Two ages o&apos;er his native realm he
+										reign&apos;d,</l>
+									<l rendition="#indent6">And now the example of the third
+										remain&apos;d.</l>
+								</lg></quote> [<ref target="people.html#ShelleyMary"
+								>Shelley&apos;s</ref> note]. The quote is from Book I of <ref
+								target="people.html#PopeAlexander">Alexander Pope</ref>&apos;s
+							1715-1720 translation of <ref target="people.html#Homer"
+							>Homer</ref>&apos;s <hi rendition="#italics"
+							><title>Illiad</title></hi>.</note></hi> Well may <ref
+						target="people.html#GodwinWilliam">Mr Godwin</ref> be proud of emulating <quote>
+						<lg type="stanza">
+							<l>Experienced Nestor, in persuasion skill&apos;d,<hi rendition="#sup"
+										><note place="foot">Along with the next quoted line, also
+										from Book I of <ref target="people.html#PopeAlexander"
+											>Alexander Pope</ref>&apos;s 1715-1720 translation of
+											<ref target="people.html#Homer">Homer</ref>&apos;s <hi
+											rendition="#italics"
+									><title>Illiad</title></hi>.</note></hi></l>
+						</lg></quote></p>
+				<p rendition="#pnoindent">who <quote>
+						<lg type="stanza">
+							<l>Words sweet as honey from his lips distill&apos;d.</l>
+						</lg></quote></p>
+				<p rendition="#pnoindent">It is a proud distinction thus to retain the power of
+					creative thought, at a time when the grave is all too near, and our material
+					frames are burdened with tokens of affinity to the clod beneath. To see mind
+					triumph over mortality, the flame burning brighter, and yet more gently, in the
+					decay of our animal powers, is in itself a tale to ponder over with a glad and
+					thankful spirit. This last emanation of the master-mind of <ref
+						target="people.html#GodwinWilliam">Godwin</ref> bears in it a soothing
+					mildness, that reminds us of <ref target="people.html#WordsworthWilliam"
+						>Wordsworth</ref>&apos;s exquisite description of <quote>
+						<lg type="stanza">
+							<l>An old age serene and bright,</l>
+							<l>And lovely as a Lapland night.<hi rendition="#sup"><note place="foot"
+											><ref target="people.html#WordsworthWilliam">William
+											Wordsworth</ref>, &quot;<title>To a Young Lady, Who had
+											been reproached for taking long Walks in the
+											Country</title>&quot; (1815), lines
+								17-18.</note></hi></l>
+						</lg></quote></p>
+				<p>Here is nothing harsh and crabbed, nothing morbid and disheartening: every page
+					displays freshness and vigour, each one containing some lesson to teach us
+					confidence, love, and hope. This philosophy, as emanting from experience, is a
+					precious boon, such as, since the days of the philosophers of old, has seldom
+					been bequeathed to us. Let the reader turn to the last page of the third volume,
+					and learn thence, that a glory still remains to the earth, an attribute to our
+					mortal natures, that must elevate and bless us while man remains; and let our
+					hearts exult, when one of the wisest men of this or any age tells us, that
+					&quot;the true key of the universe is love.&quot;<hi rendition="#sup"><note
+						place="foot">From <hi rendition="#italics"><title>Cloudesley</title></hi>,
+								vol. 3, p. 352.</note></hi></p>
+			</div>
+		</body>
+	</text>
+</TEI>

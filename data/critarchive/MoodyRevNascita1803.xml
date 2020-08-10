@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" level="a">Art. 46. Nascita, Carattere, e Alcuni Fatti Notabili di
+					Luigi XVI. Re di Francia. Sua Prigonia nel Tempio, tradotta dal Giornale del
+					Sigr. Clery, Cameriere del Re. Con una breve Appendice al Giornale.</title>
+				<title type="subordinate" level="j">The Monthly Review</title>
+				<author type="writer">
+					<name>Elizabeth Moody</name>
+				</author>
+				<respStmt>
+					<resp>Editor</resp>
+					<name xml:id="MW">Mary A. Waters</name>
+				</respStmt>
+				<respStmt>
+					<resp>Co-Editor</resp>
+					<name xml:id="JDP">Jonathan Pinkerton</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<idno>MoodyRevNascita1803</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title level="s">The Criticism Archive</title>
+				<respStmt>
+					<resp>Edited by</resp>
+					<name type="person">Mary A. Waters</name>
+				</respStmt>
+				<idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title type="main" level="a">Art. 46. Nascita, Carattere, e Alcuni Fatti
+							Notabili di Luigi XVI. Re di Francia. Sua Prigonia nel Tempio, tradotta
+							dal Giornale del Sigr. Clery, Cameriere del Re. Con una breve Appendice
+							al Giornale. 8vo. pp. 232. Printed at Oxford, 1802.</title>
+						<author type="writer">Moody, Elizabeth, 1737-1814</author>
+					</analytic>
+					<monogr>
+						<title type="main" level="j">The Monthly Review</title>
+						<imprint>
+							<date when="18030900">1803</date>
+							<biblScope unit="volume">42</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page">109</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been changed: " for “, " for ”, '
+						for ‘, and ' for ’.</p>
+					<p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>Because of web browser variability, all hyphens have been typed on the U.S.
+						keyboard</p>
+					<p>Em-dashes have been rendered as &#8212;</p>
+				</hyphenation>
+				<normalization method="markup">
+					<p>Spelling has not been regularized.</p>
+					<p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+					<p>Compositors' catchwords and running titles have been silently eliminated.</p>
+					<p>Long "s" (&#383;) has been silently modernized.</p>
+				</normalization>
+				<normalization>
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>£ has been used for £, the pound sign</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+				</normalization>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy xml:id="ft">
+					<bibl>Full Text or Citation</bibl>
+					<category xml:id="ft1">
+						<catDesc>full text</catDesc>
+					</category>
+					<category xml:id="ft2">
+						<catDesc>citation only</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="ps">
+					<bibl>Primary or Secondary</bibl>
+					<category xml:id="ps1">
+						<catDesc>primary</catDesc>
+					</category>
+					<category xml:id="ps2">
+						<catDesc>secondary</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="g">
+					<bibl>Genre and Material Form</bibl>
+					<category xml:id="g1">
+						<catDesc>pageimage</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>biography</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>biographical essay</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>poetry pamphlet</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>poetry book</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>poem</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>story</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>drama</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>table of contents</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>table of illustrations</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>picture</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>index</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>notes</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>frontispiece</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>inscription page</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>book boards</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>titlepage</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>preface</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>advertisement</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>foreword</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>acknowledgments</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>collection literary annual</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>collection miscellany</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>collection anthology</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>collection beauties</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>collection juvenile</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>collection religious</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>collection travels</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>mixed</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>essay</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>review</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>letter</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>fragment poem</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>fragment story</catDesc>
+					</category>
+					<category xml:id="g35">
+						<catDesc>fragment novel</catDesc>
+					</category>
+					<category xml:id="g36">
+						<catDesc>literary criticism book</catDesc>
+					</category>
+					<category xml:id="g37">
+						<catDesc>literary criticism collection</catDesc>
+					</category>
+					<category xml:id="g38">
+						<catDesc>bibliography</catDesc>
+					</category>
+					<category xml:id="g39">
+						<catDesc>engraving</catDesc>
+					</category>
+					<category xml:id="g40">
+						<catDesc>reproduction</catDesc>
+					</category>
+					<category xml:id="g41">
+						<catDesc>figure</catDesc>
+					</category>
+					<category xml:id="g42">
+						<catDesc>graph</catDesc>
+					</category>
+					<category xml:id="g43">
+						<catDesc>map</catDesc>
+					</category>
+					<category xml:id="g44">
+						<catDesc>table</catDesc>
+					</category>
+					<category xml:id="g45">
+						<catDesc>musical score</catDesc>
+					</category>
+					<category xml:id="g46">
+						<catDesc>music</catDesc>
+					</category>
+					<category xml:id="g47">
+						<catDesc>satire</catDesc>
+					</category>
+					<category xml:id="g48">
+						<catDesc>political pamphlet</catDesc>
+					</category>
+					<category xml:id="g49">
+						<catDesc>political cartoon</catDesc>
+					</category>
+					<category xml:id="g50">
+						<catDesc>periodical</catDesc>
+					</category>
+					<category xml:id="g51">
+						<catDesc>historical monograph</catDesc>
+					</category>
+					<category xml:id="g52">
+						<catDesc>historical essay</catDesc>
+					</category>
+					<category xml:id="g53">
+						<catDesc>philosophical treatise</catDesc>
+					</category>
+					<category xml:id="g54">
+						<catDesc>philosophical essay</catDesc>
+					</category>
+					<category xml:id="g55">
+						<catDesc>religious pamphlet</catDesc>
+					</category>
+					<category xml:id="g56">
+						<catDesc>sermon</catDesc>
+					</category>
+					<category xml:id="g57">
+						<catDesc>theology</catDesc>
+					</category>
+					<category xml:id="g58">
+						<catDesc>religious book</catDesc>
+					</category>
+					<category xml:id="g59">
+						<catDesc>essay on education</catDesc>
+					</category>
+					<category xml:id="g60">
+						<catDesc>educational treatise</catDesc>
+					</category>
+					<category xml:id="g61">
+						<catDesc>list of subscribers</catDesc>
+					</category>
+					<category xml:id="g62">
+						<catDesc>allegory</catDesc>
+					</category>
+					<category xml:id="g63">
+						<catDesc>introduction</catDesc>
+					</category>
+					<category xml:id="g64">
+						<catDesc>slipcase</catDesc>
+					</category>
+					<category xml:id="g65">
+						<catDesc>dedication</catDesc>
+					</category>
+					<category xml:id="g66">
+						<catDesc>picture of building</catDesc>
+					</category>
+					<category xml:id="g67">
+						<catDesc>floorplans</catDesc>
+					</category>
+					<category xml:id="g68">
+						<catDesc>photograph</catDesc>
+					</category>
+					<category xml:id="g69">
+						<catDesc>translation</catDesc>
+					</category>
+					<category xml:id="g70">
+						<catDesc>manuscript</catDesc>
+					</category>
+					<category xml:id="g71">
+						<catDesc>printersmark</catDesc>
+					</category>
+					<category xml:id="g72">
+						<catDesc>literary criticism article</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="keyword">
+					<category xml:id="lcsh">
+						<catDesc>Library of Congress Subject Headings, reduced to one word before
+							hyphen</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy
+					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+					xml:id="ag">
+					<bibl>ARC Genre Categories, July 1, 2017</bibl>
+					<category xml:id="ag1">
+						<catDesc>Advertisement</catDesc>
+					</category>
+					<category xml:id="ag2">
+						<catDesc>Animation</catDesc>
+					</category>
+					<category xml:id="ag3">
+						<catDesc>Bibliography</catDesc>
+					</category>
+					<category xml:id="ag4">
+						<catDesc>Catalog</catDesc>
+					</category>
+					<category xml:id="ag5">
+						<catDesc>Chronology</catDesc>
+					</category>
+					<category xml:id="ag7">
+						<catDesc>Citation</catDesc>
+					</category>
+					<category xml:id="ag6">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="ag8">
+						<catDesc>Correspondence</catDesc>
+					</category>
+					<category xml:id="ag9">
+						<catDesc>Criticism</catDesc>
+					</category>
+					<category xml:id="ag10">
+						<catDesc>Drama</catDesc>
+					</category>
+					<category xml:id="ag11">
+						<catDesc>Ephemera</catDesc>
+					</category>
+					<category xml:id="ag12">
+						<catDesc>Essay</catDesc>
+					</category>
+					<category xml:id="ag13">
+						<catDesc>Fiction</catDesc>
+					</category>
+					<category xml:id="ag14">
+						<catDesc>Film, Documentary</catDesc>
+					</category>
+					<category xml:id="ag15">
+						<catDesc>Film, Experimental</catDesc>
+					</category>
+					<category xml:id="ag16">
+						<catDesc>Film, Narrative</catDesc>
+					</category>
+					<category xml:id="ag17">
+						<catDesc>Film, Other</catDesc>
+					</category>
+					<category xml:id="ag18">
+						<catDesc>Historiography</catDesc>
+					</category>
+					<category xml:id="ag19">
+						<catDesc>Interview</catDesc>
+					</category>
+					<category xml:id="ag20">
+						<catDesc>Life Writing</catDesc>
+					</category>
+					<category xml:id="ag21">
+						<catDesc>Liturgy</catDesc>
+					</category>
+					<category xml:id="ag22">
+						<catDesc>Musical Analysis</catDesc>
+					</category>
+					<category xml:id="ag23">
+						<catDesc>Music, Other</catDesc>
+					</category>
+					<category xml:id="ag24">
+						<catDesc>Musical Work</catDesc>
+					</category>
+					<category xml:id="ag25">
+						<catDesc>Musical Score</catDesc>
+					</category>
+					<category xml:id="ag26">
+						<catDesc>Nonficition</catDesc>
+					</category>
+					<category xml:id="ag27">
+						<catDesc>Paratext</catDesc>
+					</category>
+					<category xml:id="ag28">
+						<catDesc>Performance</catDesc>
+					</category>
+					<category xml:id="ag29">
+						<catDesc>Philosophy</catDesc>
+					</category>
+					<category xml:id="ag30">
+						<catDesc>Photograph</catDesc>
+					</category>
+					<category xml:id="ag31">
+						<catDesc>Political Statement</catDesc>
+					</category>
+					<category xml:id="ag32">
+						<catDesc>Poetry</catDesc>
+					</category>
+					<category xml:id="ag33">
+						<catDesc>Religion</catDesc>
+					</category>
+					<category xml:id="ag34">
+						<catDesc>Reference Works</catDesc>
+					</category>
+					<category xml:id="ag35">
+						<catDesc>Review</catDesc>
+					</category>
+					<category xml:id="ag36">
+						<catDesc>Scripture</catDesc>
+					</category>
+					<category xml:id="ag37">
+						<catDesc>Sermon</catDesc>
+					</category>
+					<category xml:id="ag38">
+						<catDesc>Speech</catDesc>
+					</category>
+					<category xml:id="ag39">
+						<catDesc>Translation</catDesc>
+					</category>
+					<category xml:id="ag40">
+						<catDesc>Travel Writing</catDesc>
+					</category>
+					<category xml:id="ag41">
+						<catDesc>Unspecified</catDesc>
+					</category>
+					<category xml:id="ag42">
+						<catDesc>Visual Art</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+					xml:id="f">
+					<bibl>ARC Format Categories, July 1, 2017</bibl>
+					<category xml:id="f1">
+						<catDesc>Codex</catDesc>
+					</category>
+					<category xml:id="f2">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="f3">
+						<catDesc>Dataset</catDesc>
+					</category>
+					<category xml:id="f4">
+						<catDesc>Drawing</catDesc>
+					</category>
+					<category xml:id="f5">
+						<catDesc>Illustration</catDesc>
+					</category>
+					<category xml:id="f6">
+						<catDesc>Interactive Resource</catDesc>
+					</category>
+					<category xml:id="f7">
+						<catDesc>Manuscript</catDesc>
+					</category>
+					<category xml:id="f8">
+						<catDesc>Map</catDesc>
+					</category>
+					<category xml:id="f9">
+						<catDesc>Moving Image</catDesc>
+					</category>
+					<category xml:id="f10">
+						<catDesc>Notated Music</catDesc>
+					</category>
+					<category xml:id="f11">
+						<catDesc>Page Proofs</catDesc>
+					</category>
+					<category xml:id="f12">
+						<catDesc>Pamphlet</catDesc>
+					</category>
+					<category xml:id="f13">
+						<catDesc>Periodical</catDesc>
+					</category>
+					<category xml:id="f14">
+						<catDesc>Physcial Object</catDesc>
+					</category>
+					<category xml:id="f15">
+						<catDesc>Roll</catDesc>
+					</category>
+					<category xml:id="f16">
+						<catDesc>Sheet</catDesc>
+					</category>
+					<category xml:id="f17">
+						<catDesc>Sound</catDesc>
+					</category>
+					<category xml:id="f18">
+						<catDesc>Still Image</catDesc>
+					</category>
+					<category xml:id="f19">
+						<catDesc>Typescript</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy>
+					<category xml:id="BL">
+						<catDesc>British Library Shelf Mark</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="#lcsh">
+					<list type="simple">
+						<item>English literature</item>
+						<item>Criticism</item>
+						<item>Review Article</item>
+					</list>
+				</keywords>
+				<catRef target="#ag9 #ag35" scheme="#ag"/>
+				<catRef target="#f13" scheme="#f"/>
+				<catRef target="#ps1" scheme="#p"/>
+				<catRef scheme="#g" target="#g72 #g31 #g50"/>
+				<catRef target="#ft1" scheme="#ft"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#MW" when="20190620" n="4">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list type="simple">
+					<item>Revised encoding and editing</item>
+				</list>
+			</change>
+			<change who="#JDP" when="20190808" n="2">
+				<label>Changed by</label>
+				<name>Jonathan Pinkerton</name>
+				<list type="simple">
+					<item>TEI encoding</item>
+					<item>Changed editing</item>
+				</list>
+			</change>
+			<change who="#MW" when="20181113" n="1">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list type="simple">
+					<item>Created Edition</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="essay" org="uniform" sample="complete" part="N">
+				<head>
+					<bibl>
+						<lb rendition="#center"/><author type="writer"><ref
+								target="people.html#MoodyElizabeth"><name>Elizabeth
+								Moody</name></ref></author>
+						<title type="main" level="a">Art. 46. <hi rendition="#italics">Nascita,
+								Carattere, e Alcuni Fatti Notabili di <ref
+									target="people.html#LouisXVIKingofFrance">Luigi XVI</ref>. Re di
+								Francia. Sua Prigonia nel Tempio, tradotta dal Giornale del Sigr.
+									<ref target="people.html#Cl&#233;ryJean-Baptiste">Clery</ref>,
+								Cameriere del Re. Con una breve Appendice al Giornale.</hi> 8vo. pp.
+							232. Printed at Oxford, 1802.<hi rendition="#sup"><note place="foot"
+											><title><hi rendition="#italics">The Monthly
+										Review</hi></title>, vol. 42, no. 1, September 1803, p. 109.
+									Jonathan Pinkerton and Mary A. Waters prepared this edition of
+									the article for <hi rendition="#italics"><title>The Criticism
+											Archive</title></hi>.</note>
+							</hi></title></bibl></head>
+
+				<p>This work is politely dedicated by the anonymous author to the Hon. Mrs.
+						Ellis;<hi rendition="#sup"><note place="foot">In 1797, Elizabeth Catherine
+							Caroline Hervey, daughter of Captain John Augustus Hervey, Lord Hervey,
+							married Charles Rose Ellis, 1st Baron of Seaford, and the pro-slavery
+							heir to several Jamaican plantations and over 1,000 slaves. Her early
+							death may have been the consequence of bearing three children in rapid
+							succession.</note></hi> and a sensible and ingenious Preface then
+					introduces us to an ingenious simile, illustrating a comparison between the
+					renovating ashes of the ph&#339;nix and the immortal flame of virtue, which
+					rises triumphant, refined, and exalted, from the darkest shades of persecuted
+					calamity. Often as we have read the afflicting tragedy of Louis the Sixteenth,
+					we still find our sensations the same: but, having before spoken on the
+					affecting and simple detail contained in the journal of the faithful <hi
+						rendition="#italics">Clery</hi><hi rendition="#sup"><note place="foot">See
+							Rev. Vol. xxvi. N. S. p. 410. [Moody's note]</note></hi>, we have only
+					now to remark on its present appearance in Italian. This sweet language is so
+					well calculated by its harmonious accents for the pathetic, that numerous
+					passages in this translation may be said to have derived additions both of
+					elegance and pathos; and in the part of the work intitled <hi
+						rendition="#italics">Notizie Preliminari al Giornale</hi>, we meet with many
+					amusing anecdotes of the early and later years of this unfortunate monarch. The
+					volume is handsomely printed, and is ornamented by a well-executed engraving of
+					<ref target="people.html#LouisXVIKingofFrance">Louis XVI</ref>.</p>
+
+			</div>
+		</body>
+	</text>
+</TEI>
