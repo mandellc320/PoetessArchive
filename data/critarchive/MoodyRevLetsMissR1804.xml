@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader xmlns:PA="http://www.poetessarchive.org/#schema" type="text">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Review of Nouveaux Contes Moraux by Marmontel</title>
+            <title type="main" level="a">Art. 25. Letters of Miss Riversdale.</title>
             <title type="sub" level="j">The Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
@@ -13,12 +13,12 @@
                <name xml:id="MW">Mary A. Waters</name>
             </respStmt>
             <respStmt>
-               <resp>CoEditor</resp>
-               <name xml:id="EW">Emma Wiley</name>
+               <resp>Co-Editor</resp>
+               <name xml:id="JDP">Jonathan Pinkerton</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <idno>MoodyRevNouveaux1801</idno>
+            <idno>MoodyRevLetsMissR1804</idno>
          </publicationStmt>
          <seriesStmt>
             <title level="s">The Criticism Archive</title>
@@ -31,18 +31,17 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. XVI. Nouveaux Contes Moraux, &amp;c. i.e.
-							New Moral Tales. By Marmontel.</title>
+                  <title type="main" level="a">Art. 25. Letters of Miss Riversdale. 12mo. 3
+							Vols. 13s. 6d. Boards. Johnson.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
                   <title type="main" level="j">The Monthly Review</title>
                   <imprint>
-                     <date when="1801">1801</date>
+                     <date when="1804-10">October 1804</date>
                      <biblScope unit="series">second</biblScope>
-                     <biblScope unit="volume">34</biblScope>
-                     <biblScope unit="issue">Foreign Appendix</biblScope>
-                     <biblScope unit="page">542-44</biblScope>
+                     <biblScope unit="volume">45</biblScope>
+                     <biblScope unit="page">212-213</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -537,19 +536,20 @@
          <textClass>
             <keywords scheme="#lcsh">
                <list type="simple">
+                  <item>English literature</item>
                   <item>Criticism</item>
-                  <item>Book review</item>
+                  <item>Review Article</item>
                </list>
             </keywords>
             <catRef target="#ft1" scheme="#ft"/>
             <catRef target="#ag9 #ag35" scheme="#ag"/>
             <catRef target="#f13" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef scheme="#g" target="#g72 #g31"/>
+            <catRef scheme="#g" target="#g72 #g31 #g50"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="6">
+         <change who="#LM" when="20210922" n="4">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -558,35 +558,22 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#MW" when="2019-12-18" n="5">
+         <change who="#MW" when="20210120" n="3">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
             <list type="simple">
-               <item>minor TEI encoding revisions</item>
+               <item>Revised encoding and editing</item>
             </list>
          </change>
-         <change who="#LM" when="20190110" n="4">
+         <change who="#JDP" when="20190808" n="2">
             <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
-            </list>
-         </change>
-         <change who="#MW" when="2017-12-01" n="3">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>Encoding revision</item>
-            </list>
-         </change>
-         <change who="#EW" when="2017-03-09" n="2">
-            <label>Changed by</label>
-            <name>Emma Wiley</name>
+            <name>Jonathan Pinkerton</name>
             <list type="simple">
                <item>TEI encoding</item>
+               <item>Changed editing</item>
             </list>
          </change>
-         <change who="#MW" when="2017-03-01" n="1">
+         <change who="#MW" when="20181113" n="1">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
             <list type="simple">
@@ -595,211 +582,82 @@
          </change>
       </revisionDesc>
    </teiHeader>
-   <text xmlns:PA="http://www.poetessarchive.org/#schema">
+   <text>
       <body>
-         <div type="essay">
+         <div type="essay" org="uniform" sample="complete" part="N">
             <head>
                <bibl>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
-                        <name>Elizabeth
-								Moody</name>
+                        <name>Elizabeth Moody</name>
                      </ref>
                   </author>
                   <lb/>
-                  <title type="main" level="a">
-                     <lb/>
-                     <hi rendition="#smcaps">Art.</hi> XVI.<hi rendition="#italics"> Nouveaux
-								Contes Moraux</hi>, &amp;c. <hi rendition="#italics">i.e.</hi> New
-							Moral Tales. By <hi rendition="#smcaps">
-                        <ref target="people.html#Marmontel">Marmontel</ref>. 8vo.</hi> 4
-							Vols. Paris. 1801. Imported by De Boffe, London, Price 18s. sewed.<hi rendition="#sup">
-                        <note>This review article appeared in
-									the Foreign Appendix to <hi rendition="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-												Review</ref>
-                              </title>
-                           </hi>, second series, volume 34, 1801, pages 542-544. The marked copy of the <hi rendition="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">Monthly
-												Review</ref>
-                              </title>
-                           </hi> attributes this article to
-									the collaborative efforts of <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth
-											Moody</name>
-                           </ref> and her husband, <ref target="people.html#MoodyChristopherLake">Christopher Lake
-                              Moody</ref>. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
+                  <title>Art. 25. <hi rendition="#italics">Letters of Miss Riversdale.</hi>
+							12mo. 3 Vols. 13s. 6d. Boards. Johnson.<hi rendition="#sup">
+                        <note>
+                           <title>
+                              <hi rendition="#italics">The Monthly
+											Review</hi>
+                           </title>, vol. 45, second series, October
+									1804, pp. 212-13. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
                               <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's
-                           marked copy of <hi rend="#italics">
+                           </ref> as the author of this review from an editor's marked
+									copy of <hi rend="#italics">
                               <title>
                                  <ref target="people.html#ReviewMonthly">The Monthly
-                              Review</ref>
+												Review</ref>
                               </title>
                            </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-                                    Series, 1790-1815: Indexes of Contributors and
-                                    Articles</title>
-                           </hi>, Clarendon Press, 1955. This edition of the article is produced by Emma
-									Wiley and Mary A. Waters.</note>
+                              <title>The Monthly Review, Second
+											Series, 1790-1815: Indexes of Contributors and
+											Articles</title>
+                           </hi>, Clarendon Press, 1955. Jonathan Pinkerton and  Mary A. Waters prepared this edition of the article for <hi rendition="#italics             ">The Criticism Archive</hi>.
+								</note>
                      </hi>
                   </title>
                </bibl>
             </head>
-            <p rendition="#noindent">
-               <hi rendition="#largest">R</hi>
-               <hi rendition="#smcaps">ecollecting</hi> the pleasure which we formerly received from the inventive
-					genius and sprightly talents of the deceased author of these volumes, we took
-					them up with an avidity and a confidence which precluded all idea of
-					disappointment. If, said we to ourselves, these tales be genuine, (of which, we
-					are told in the preface, the widow of <hi rendition="#smcaps">
-                  <ref target="people.html#Marmontel">Marmontel</ref>
-               </hi> has given the public
-					an assurance,) we shall be much entertained: for, though the vigor of his mind
-					may be in some degree abated, and the brilliancy of his setting may not
-					altogether equal that of his meridian sun, yet <hi rendition="#smcaps">
-                  <ref target="people.html#Marmontel">Marmontel</ref>
-               </hi> must be <hi rendition="#smcaps">
-                  <ref target="people.html#Marmontel">Marmontel</ref>
-               </hi>; and this new collection of Moral Tales must, by their
-					prominent features, evince their affinity to those of which we gave an account
-					in an early volume of our Review. (See M.R. vol. xxx. p. 59.) This consanguinity
-					is proved indeed by indisputable marks; and, being the production of his graver
-					years, these tales are more moral than those which were before published. If,
-					also, they have lost some of the exuberance which distinguished the former, our
-					opinion of them will shew that the merit of these is not lessened on that
-					account.—The editor says that they will be found to possess equal merit
-					with those tales which have given celebrity to the name of <hi rendition="#smcaps">
-                  <ref target="people.html#Marmontel">Marmontel</ref>
-               </hi>; —that they display, in captivating language,
-					invention, interest, ease, and elegance; that the moral which they inculcate is
-					always amiable and pure; and in short that it has been the principal object of
-					the author, to form the mind and taste of the rising generation, and to develop
-					those germs of virtuous sentiments which nature has implanted in the human
-					heart.—A publication of such a tendency, we can have no reluctance in
-					recommending to the British public.</p>
-            <p>The introductory tale is intitled <hi rendition="#italics">the Evening
-						Meeting;</hi> and it describes a society of intimate friends, who, during
-					the commotions of Paris, assembled at the country-house of a Madame <hi rendition="#italics">de Verval</hi>. As this lady was a great lover of
-					stories, and possessed the talent of reciting them in the most natural and
-					agreeable manner, she proposed that, for amusement, each of the party should in
-					turn form and recount a tale, including the most interesting events of their
-					life, without invading the sacred recesses of confidence. This proposition being
-					accepted by the whole party, each narrates a personal memoir; and the general
-					conclusion from the whole is that the parts of <lb/>
-               <fw type="sig" rendition="#center">11</fw>
-               <pb n="543"/>our lives, which have contributed
-					most to our happiness, are those which have originated in virtuous sentiments,
-					or have been occupied in acts of benevolence.</p>
-            <p> The second tale is called <hi rendition="#italics">the Tripod of <ref target="people.html#Helen">Helen</ref>;</hi> and its object seems to be
-					to ridiculue the pride of philosophy, and to shew the limits of science. <hi rendition="#italics">
-                  <ref target="people.html#Marmontel">Marmontel</ref>
-               </hi> might have taken these lines of Pope for his motto: <quote>
-                  <lg type="stanza">
-                     <l>In parts superior what advantage lies?</l>
-                     <l>Say, for thou canst, what is it to be wise?</l>
-                     <l>'Tis but to know how little can be known, </l>
-                     <l>To see all others' faults and feel our own.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#PopeAlexander">Alexander Pope</ref>, <hi rendition="#italics">
-                                 <title>Essay on Man</title>
-                              </hi> (1733-4), Epistle
-										IV, lines 259-62, slightly altered.</note>
-                        </hi>
-                     </l>
-                  </lg>
-               </quote> This doctrine is illustrated with great vivacity of imagination, and
-					excellent satire; and here we recognize the hand of <hi rendition="#smcaps">
-                  <ref target="people.html#Marmontel">Marmontel</ref>
-               </hi> himself. The scene
-					is laid in remote antiquity. He supposes that <ref target="people.html#Helen">Helen</ref> and Menelaus, being reconciled after the destruction of Troy,
-					were returning to Lacedæmon, when they were assailed by a violent tempest
-					as they were passing through the Cyclades, and were in imminent danger of being
-					wrecked on the island of Cos. At this instant, <ref target="people.html#Helen">Helen</ref> invoked the inconstant God of the ocean to protect a female
-					whose disposition was so similar to his own; and, in order to give effect to her
-					prayer, she presented him with a Golden Tripod, which had been saved from the
-					pillage of Troy. On throwing this offering into the sea, the storm subsided, and
-					the danger disappeared.—During six hundred years, this tripod lay at the
-					bottom of the ocean: but at last it was again brought to light by some
-					fishermen. After some contention about the property, between the neighbouring
-					islands, it was wisely agreed to refer the matter to the decision of the Delphic
-					Oracle; who settled the dispute by ordering the tripod to be presented to <hi rendition="#italics">the Wisest of the Wise</hi>. Where however, were they
-					to find this distinguished personage? They were puzzled to ascertain to which of
-					the seven wise men, who flourished in Greece at that period, this title
-					belonged: but, apprehending that this was a question which the philosophers
-					themselves could easily determine, they appoint deputies to wait on them
-					respectively; who commence with an application to <hi rendition="#italics">Thales</hi>, the Milesian, their neighbour.</p>
-            <p>This philosopher, however, fairly confesses that all his knowledge has only
-					served to convince him <hi rendition="#italics">how little he knows</hi>; and
-					that he continues his researches only with the view of encouraging his
-					disciples, and in the hope that time, in his wonder-working progress, may lift
-					up some corner of the immense veil of nature. He therefore advises them to offer
-					the tripod to <hi rendition="#italics">Solon</hi>, who pursues the straight path
-					to usefulness in the study of man, and whose object is to render him better and
-					happier.—In consequence, the deputies next apply to the Athenian
-					legislator, but with no better success. <hi rendition="#italics">Solon</hi>
-					re-<pb n="544"/>fers them to <hi rendition="#italics">Bias, Bias</hi> to <hi rendition="#italics">Chilo</hi> the Spartan, &amp;c. and thus the tripod is
-					bandied about from sage to sage; each of whom, acknowledging his own
-					insufficiency and weakness, rejects the epithet of <hi rendition="#italics">the
-						Wisest of the Wise</hi>. In this conduct, perhaps, they are represented as
-					much wiser than they really were; for here it appears that they <hi rendition="#italics">knew themselves</hi>, which is one of the most
-					difficult attainments. The seven wise men of Greece, each rejecting for himself
-					the high compliment of <hi rendition="#italics">the Wisest of the Wise</hi>,
-					agree to give their several definitions of wisdom; and to award the tripod to
-					him who should unite its characters in the highest degree. One defines it to
-					consist in an <hi rendition="#italics">unalterable tranquillity of mind, under
-						all the diversities of fortune;</hi> another, in <hi rendition="#italics">a
-						profound self knowledge, applied in rendering ourselves good and happy;</hi>
-					a third, <hi rendition="#italics">in the moderation of our desires;</hi> the
-					fourth, in the <hi rendition="#italics">power of regulating the present, and
-						preparing for the future, by the experience of the past;</hi> another, <hi rendition="#italics">in a strength of mind which is capable of resisting the
-						passions;</hi> and the sixth, <hi rendition="#italics">in the absolute
-						empire of reason over the will</hi>.— Scarcely are these definitions
-					of wisdom given, when <hi rendition="#italics">Bias</hi> concludes by deciding
-					that these attributes can never unite in any individual mortal, and that they
-					can belong only to a God. Hence, it is decreed that the Golden Tripod should be
-					carried to the temple at Delphos, and there consecrated to <ref target="people.html#Apollo">Apollo</ref>. </p>
-            <p>Having but lately received these volumes, and having now approached to the close
-					of our present Appendix, we cannot enter into an analysis of the other tales
-					which they contain: but we shall subjoin the titles of them, in order to give
-					our readers some idea of their nature and subjects. III. <hi rendition="#italics">The Lesson of Misfortune</hi>. IV. <hi rendition="#italics">The School of Friendship:</hi> in which we have a tutor
-					resembling <ref target="people.html#SirCharlesGrandison">Sir Charles
-						Grandison</ref>, and a pupil not unlike <ref target="people.html#EmilyJervois">Emily Jervis</ref>, innocently in love
-					with him. V. <hi rendition="#italics">The Generous Breton</hi>. VI. <hi rendition="#italics">The Error of a good Father</hi>. This tale was related
-					by <hi rendition="#italics">
-                  <ref target="people.html#Cideville">Cideville</ref>
-               </hi> to <hi rendition="#italics">
-                  <ref target="people.html#Voltaire">Voltaire</ref>
-               </hi> when he was
-					ill:—the descriptions in it are beautifully pathetic. VII. <hi rendition="#italics">The Casket</hi>. VIII. <hi rendition="#italics">The
-						Self-Rivals</hi>. IX. <hi rendition="#italics">The Villages Breakfasts</hi>.
-					X. <hi rendition="#italics">The Watermen of Besons</hi>. XI. <hi rendition="#italics">It must be so</hi>. <hi rendition="#smcaps">XII</hi>.
-						<hi rendition="#italics">The Hermits of Murica</hi>. XIII. <hi rendition="#italics">Palemon</hi>, an Arcadian Pastoral, from two pictures
-					by <hi rendition="#italics">
-                  <ref target="people.html#Poussin">Poussin</ref>
-               </hi>. XIV. <hi rendition="#italics">Fire-side-recollection</hi>.
-					XV. <hi rendition="#italics">The Mountain of the two Lovers.</hi>
-            </p>
-            <p>Some of these tales were printed in the <hi rendition="#italics">
-                  <title>Mercure</title>
+            <p>The heroine of this novel resides with her widowed mother, Lady Riversdale, at
+					Geneva; and her brother, Sir Henry, is a very accomplished gentleman absent on
+					his travels. The separation of this affectionate brother and sister induces the
+					necessity of a punctual correspondence, as a means of alleviating the regrets of
+					that state; and the scene opens with lamentations on this subject. Miss R. tells
+					us that it is her brother's request that four⸱and⸱twenty
+					hours may never pass without something being committed to paper; and the request
+					is faithfully fulfilled on the part of Louisa, who, after the manner of other
+					journalists, details every minute event of her life, and every emotion of her
+					heart. As she is very young, and very beautiful, no man of course sees Miss
+					Riversdale without being fascinated: hence ensue lovers <hi rendition="#sup">
+                  <note>See Vol.xxxviii,
+							&amp;c. [Moody's note].</note>
                </hi>
-               <hi rendition="#sup">
-                  <note>The
-							French literary journal <hi rendition="#italics">
-                        <title>Mercure de
-									France</title>
-                     </hi> was published with some interruptions from
-							1672-1825.</note>
-               </hi> in the years 1789, 90, 91, and 92. They abound
-					with genuine satire and wit, with pathetic sentiment and sound sense. </p>
-            <p>Prefixed to the 1st vol. is a portrait of the author; under which is a memorandum
-					that <hi rendition="#smcaps">
-                  <ref target="people.html#Marmontel">Jean-Francois
-							Marmontel</ref>
-               </hi> was born on the 11th of July 1723, and died at
-					Abbeville, Dec 29, 1799.</p>
+               <pb n="213"/> innumerable; and, as it is the
+					natural consequence of abundance to occasion a perplexity on the subject of
+					choice, we perceive our heroine occasionally fluctuating between two opinions;
+					till at last she decides in favour of Colonel Malcolm, who is such an <ref target="people.html#Othello">Othello</ref> in jealousy that we tremble lest
+					she should encounter a <ref target="people.html#Desdemona">Desdemona</ref>'s fate. We are, however, at length relieved from this
+					anxiety by a sudden change of the scene; in which the Colonel retires to the
+					back ground, drops his love and his jealousy, and accommodates his behavior in a
+					very gentleman-like manner to the imperious necessity of the history, which
+					insists on his marrying Lady Mary Melville, who must have died had he not
+					rescued her by a <hi rendition="#italics">coup de bague</hi>. Miss Riversdale,
+					having dissolved this chain, welcomes the return of liberty, and flies from
+					place to place with the velocity of a bird. To-day, she is in London; to-morrow,
+					she is at York; the next day she is in Scotland; and in every place she meets
+					with great variety of characters, which she paints rather too much in the
+					caricature style. They are merely sketches, hastily conceived and hastily
+					executed; and by no means worthy of being classed as pictures of the general
+					habits, manners, or language of the people whom Miss Riversdale describes. In
+					many of the letters, however, we meet with good sense and good sentiments; and
+					the student or proficient in French will be pleased with some parts of the
+					dialogue, and some whole letters, which are written in that elegant language. We
+					think that the story of this work does not excite sufficient interest on the
+					point of incident, to rank in the class of novels; and that it should rather
+					have been intitled, as the editor intimates, "Characters and Sketches of
+					Manners."</p>
+            <lb/>
+            <fw type="sig" rendition="#center">P3</fw>
          </div>
       </body>
    </text>

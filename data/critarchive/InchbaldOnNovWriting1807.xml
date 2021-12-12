@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader xmlns:PA="http://www.poetessarchive.org/#schema" type="text">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Review of Nouveaux Contes Moraux by Marmontel</title>
-            <title type="sub" level="j">The Monthly Review</title>
+            <title type="main" level="a">To the Artist</title>
+            <title type="sub" level="j">Artist.</title>
             <author type="writer">
-               <name>Elizabeth Moody</name>
+               <name>Elizabeth Inchbald</name>
             </author>
             <respStmt>
                <resp>Editor</resp>
                <name xml:id="MW">Mary A. Waters</name>
             </respStmt>
             <respStmt>
-               <resp>CoEditor</resp>
-               <name xml:id="EW">Emma Wiley</name>
+               <resp>Co-Editor</resp>
+               <name xml:id="LD">Laura DeWitt</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <idno>MoodyRevNouveaux1801</idno>
+            <idno>InchbaldOnNovWriting1807</idno>
          </publicationStmt>
          <seriesStmt>
             <title level="s">The Criticism Archive</title>
@@ -31,18 +31,16 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. XVI. Nouveaux Contes Moraux, &amp;c. i.e.
-							New Moral Tales. By Marmontel.</title>
-                  <author type="writer">Moody, Elizabeth, 1737-1814</author>
+                  <title type="main" level="a">To the Artist.</title>
+                  <author type="writer">Inchbald, Elizabeth, 1753-1821</author>
                </analytic>
                <monogr>
-                  <title type="main" level="j">The Monthly Review</title>
+                  <title type="main" level="j">Artist.</title>
                   <imprint>
-                     <date when="1801">1801</date>
-                     <biblScope unit="series">second</biblScope>
-                     <biblScope unit="volume">34</biblScope>
-                     <biblScope unit="issue">Foreign Appendix</biblScope>
-                     <biblScope unit="page">542-44</biblScope>
+                     <date when="1807-06-13">June 13 1807</date>
+                     <biblScope unit="vol">1</biblScope>
+                     <biblScope unit="issue">14</biblScope>
+                     <biblScope unit="page">9-19</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -537,19 +535,20 @@
          <textClass>
             <keywords scheme="#lcsh">
                <list type="simple">
+                  <item>English literature</item>
                   <item>Criticism</item>
-                  <item>Book review</item>
+                  <item>Essay</item>
                </list>
             </keywords>
-            <catRef target="#ft1" scheme="#ft"/>
-            <catRef target="#ag9 #ag35" scheme="#ag"/>
+            <catRef scheme="#ft" target="#ft1"/>
+            <catRef target="#ag9 #ag12" scheme="#ag"/>
             <catRef target="#f13" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef scheme="#g" target="#g72 #g31"/>
+            <catRef scheme="#g" target="#g30 #g50 #g72"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="6">
+         <change who="#LM" when="20210922" n="4">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -558,35 +557,22 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#MW" when="2019-12-18" n="5">
+         <change who="#MW" when="20210620" n="3">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
             <list type="simple">
-               <item>minor TEI encoding revisions</item>
+               <item>Revised encoding and editing</item>
             </list>
          </change>
-         <change who="#LM" when="20190110" n="4">
+         <change who="#LD" when="20190508" n="2">
             <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
-            </list>
-         </change>
-         <change who="#MW" when="2017-12-01" n="3">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>Encoding revision</item>
-            </list>
-         </change>
-         <change who="#EW" when="2017-03-09" n="2">
-            <label>Changed by</label>
-            <name>Emma Wiley</name>
+            <name>Laura DeWitt</name>
             <list type="simple">
                <item>TEI encoding</item>
+               <item>Changed editing</item>
             </list>
          </change>
-         <change who="#MW" when="2017-03-01" n="1">
+         <change who="#MW" when="20181113" n="1">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
             <list type="simple">
@@ -595,211 +581,232 @@
          </change>
       </revisionDesc>
    </teiHeader>
-   <text xmlns:PA="http://www.poetessarchive.org/#schema">
+   <text>
       <body>
-         <div type="essay">
+         <div type="essay" org="uniform" sample="complete" part="N">
             <head>
                <bibl>
                   <author type="writer">
-                     <ref target="people.html#MoodyElizabeth">
-                        <name>Elizabeth
-								Moody</name>
+                     <ref target="people.html#InchbaldMrs">
+                        <name>Elizabeth Inchbald</name>
                      </ref>
                   </author>
                   <lb/>
-                  <title type="main" level="a">
-                     <lb/>
-                     <hi rendition="#smcaps">Art.</hi> XVI.<hi rendition="#italics"> Nouveaux
-								Contes Moraux</hi>, &amp;c. <hi rendition="#italics">i.e.</hi> New
-							Moral Tales. By <hi rendition="#smcaps">
-                        <ref target="people.html#Marmontel">Marmontel</ref>. 8vo.</hi> 4
-							Vols. Paris. 1801. Imported by De Boffe, London, Price 18s. sewed.<hi rendition="#sup">
-                        <note>This review article appeared in
-									the Foreign Appendix to <hi rendition="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-												Review</ref>
-                              </title>
-                           </hi>, second series, volume 34, 1801, pages 542-544. The marked copy of the <hi rendition="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">Monthly
-												Review</ref>
-                              </title>
-                           </hi> attributes this article to
-									the collaborative efforts of <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth
-											Moody</name>
-                           </ref> and her husband, <ref target="people.html#MoodyChristopherLake">Christopher Lake
-                              Moody</ref>. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's
-                           marked copy of <hi rend="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-                              Review</ref>
-                              </title>
-                           </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-                                    Series, 1790-1815: Indexes of Contributors and
-                                    Articles</title>
-                           </hi>, Clarendon Press, 1955. This edition of the article is produced by Emma
-									Wiley and Mary A. Waters.</note>
-                     </hi>
-                  </title>
+                  <title>
+                     <hi rendition="#italics">TO THE ARTIST.</hi>
+                     <hi rendition="#sup">
+                        <note>
+                           <title>
+                              <hi rendition="#italics">The Artist;
+											a Collection of Essays, Relative to Painting, Poetry,
+											Sculpture, Architecture, the Drama, Discoveries of
+											Science, and Various Other Subjects.</hi>
+                           </title> Edited
+									by Prince Hoare. Vol. 1, no. 14, Saturday, June 13, 1807, pp.
+									9-19. Laura DeWitt and Mary A. Waters co-edited this edition for
+										<hi rendition="#italics">The Criticism Archive</hi>.
+								</note>
+                     </hi>________ </title>
                </bibl>
             </head>
-            <p rendition="#noindent">
-               <hi rendition="#largest">R</hi>
-               <hi rendition="#smcaps">ecollecting</hi> the pleasure which we formerly received from the inventive
-					genius and sprightly talents of the deceased author of these volumes, we took
-					them up with an avidity and a confidence which precluded all idea of
-					disappointment. If, said we to ourselves, these tales be genuine, (of which, we
-					are told in the preface, the widow of <hi rendition="#smcaps">
-                  <ref target="people.html#Marmontel">Marmontel</ref>
-               </hi> has given the public
-					an assurance,) we shall be much entertained: for, though the vigor of his mind
-					may be in some degree abated, and the brilliancy of his setting may not
-					altogether equal that of his meridian sun, yet <hi rendition="#smcaps">
-                  <ref target="people.html#Marmontel">Marmontel</ref>
-               </hi> must be <hi rendition="#smcaps">
-                  <ref target="people.html#Marmontel">Marmontel</ref>
-               </hi>; and this new collection of Moral Tales must, by their
-					prominent features, evince their affinity to those of which we gave an account
-					in an early volume of our Review. (See M.R. vol. xxx. p. 59.) This consanguinity
-					is proved indeed by indisputable marks; and, being the production of his graver
-					years, these tales are more moral than those which were before published. If,
-					also, they have lost some of the exuberance which distinguished the former, our
-					opinion of them will shew that the merit of these is not lessened on that
-					account.—The editor says that they will be found to possess equal merit
-					with those tales which have given celebrity to the name of <hi rendition="#smcaps">
-                  <ref target="people.html#Marmontel">Marmontel</ref>
-               </hi>; —that they display, in captivating language,
-					invention, interest, ease, and elegance; that the moral which they inculcate is
-					always amiable and pure; and in short that it has been the principal object of
-					the author, to form the mind and taste of the rising generation, and to develop
-					those germs of virtuous sentiments which nature has implanted in the human
-					heart.—A publication of such a tendency, we can have no reluctance in
-					recommending to the British public.</p>
-            <p>The introductory tale is intitled <hi rendition="#italics">the Evening
-						Meeting;</hi> and it describes a society of intimate friends, who, during
-					the commotions of Paris, assembled at the country-house of a Madame <hi rendition="#italics">de Verval</hi>. As this lady was a great lover of
-					stories, and possessed the talent of reciting them in the most natural and
-					agreeable manner, she proposed that, for amusement, each of the party should in
-					turn form and recount a tale, including the most interesting events of their
-					life, without invading the sacred recesses of confidence. This proposition being
-					accepted by the whole party, each narrates a personal memoir; and the general
-					conclusion from the whole is that the parts of <lb/>
-               <fw type="sig" rendition="#center">11</fw>
-               <pb n="543"/>our lives, which have contributed
-					most to our happiness, are those which have originated in virtuous sentiments,
-					or have been occupied in acts of benevolence.</p>
-            <p> The second tale is called <hi rendition="#italics">the Tripod of <ref target="people.html#Helen">Helen</ref>;</hi> and its object seems to be
-					to ridiculue the pride of philosophy, and to shew the limits of science. <hi rendition="#italics">
-                  <ref target="people.html#Marmontel">Marmontel</ref>
-               </hi> might have taken these lines of Pope for his motto: <quote>
-                  <lg type="stanza">
-                     <l>In parts superior what advantage lies?</l>
-                     <l>Say, for thou canst, what is it to be wise?</l>
-                     <l>'Tis but to know how little can be known, </l>
-                     <l>To see all others' faults and feel our own.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#PopeAlexander">Alexander Pope</ref>, <hi rendition="#italics">
-                                 <title>Essay on Man</title>
-                              </hi> (1733-4), Epistle
-										IV, lines 259-62, slightly altered.</note>
-                        </hi>
-                     </l>
-                  </lg>
-               </quote> This doctrine is illustrated with great vivacity of imagination, and
-					excellent satire; and here we recognize the hand of <hi rendition="#smcaps">
-                  <ref target="people.html#Marmontel">Marmontel</ref>
-               </hi> himself. The scene
-					is laid in remote antiquity. He supposes that <ref target="people.html#Helen">Helen</ref> and Menelaus, being reconciled after the destruction of Troy,
-					were returning to Lacedæmon, when they were assailed by a violent tempest
-					as they were passing through the Cyclades, and were in imminent danger of being
-					wrecked on the island of Cos. At this instant, <ref target="people.html#Helen">Helen</ref> invoked the inconstant God of the ocean to protect a female
-					whose disposition was so similar to his own; and, in order to give effect to her
-					prayer, she presented him with a Golden Tripod, which had been saved from the
-					pillage of Troy. On throwing this offering into the sea, the storm subsided, and
-					the danger disappeared.—During six hundred years, this tripod lay at the
-					bottom of the ocean: but at last it was again brought to light by some
-					fishermen. After some contention about the property, between the neighbouring
-					islands, it was wisely agreed to refer the matter to the decision of the Delphic
-					Oracle; who settled the dispute by ordering the tripod to be presented to <hi rendition="#italics">the Wisest of the Wise</hi>. Where however, were they
-					to find this distinguished personage? They were puzzled to ascertain to which of
-					the seven wise men, who flourished in Greece at that period, this title
-					belonged: but, apprehending that this was a question which the philosophers
-					themselves could easily determine, they appoint deputies to wait on them
-					respectively; who commence with an application to <hi rendition="#italics">Thales</hi>, the Milesian, their neighbour.</p>
-            <p>This philosopher, however, fairly confesses that all his knowledge has only
-					served to convince him <hi rendition="#italics">how little he knows</hi>; and
-					that he continues his researches only with the view of encouraging his
-					disciples, and in the hope that time, in his wonder-working progress, may lift
-					up some corner of the immense veil of nature. He therefore advises them to offer
-					the tripod to <hi rendition="#italics">Solon</hi>, who pursues the straight path
-					to usefulness in the study of man, and whose object is to render him better and
-					happier.—In consequence, the deputies next apply to the Athenian
-					legislator, but with no better success. <hi rendition="#italics">Solon</hi>
-					re-<pb n="544"/>fers them to <hi rendition="#italics">Bias, Bias</hi> to <hi rendition="#italics">Chilo</hi> the Spartan, &amp;c. and thus the tripod is
-					bandied about from sage to sage; each of whom, acknowledging his own
-					insufficiency and weakness, rejects the epithet of <hi rendition="#italics">the
-						Wisest of the Wise</hi>. In this conduct, perhaps, they are represented as
-					much wiser than they really were; for here it appears that they <hi rendition="#italics">knew themselves</hi>, which is one of the most
-					difficult attainments. The seven wise men of Greece, each rejecting for himself
-					the high compliment of <hi rendition="#italics">the Wisest of the Wise</hi>,
-					agree to give their several definitions of wisdom; and to award the tripod to
-					him who should unite its characters in the highest degree. One defines it to
-					consist in an <hi rendition="#italics">unalterable tranquillity of mind, under
-						all the diversities of fortune;</hi> another, in <hi rendition="#italics">a
-						profound self knowledge, applied in rendering ourselves good and happy;</hi>
-					a third, <hi rendition="#italics">in the moderation of our desires;</hi> the
-					fourth, in the <hi rendition="#italics">power of regulating the present, and
-						preparing for the future, by the experience of the past;</hi> another, <hi rendition="#italics">in a strength of mind which is capable of resisting the
-						passions;</hi> and the sixth, <hi rendition="#italics">in the absolute
-						empire of reason over the will</hi>.— Scarcely are these definitions
-					of wisdom given, when <hi rendition="#italics">Bias</hi> concludes by deciding
-					that these attributes can never unite in any individual mortal, and that they
-					can belong only to a God. Hence, it is decreed that the Golden Tripod should be
-					carried to the temple at Delphos, and there consecrated to <ref target="people.html#Apollo">Apollo</ref>. </p>
-            <p>Having but lately received these volumes, and having now approached to the close
-					of our present Appendix, we cannot enter into an analysis of the other tales
-					which they contain: but we shall subjoin the titles of them, in order to give
-					our readers some idea of their nature and subjects. III. <hi rendition="#italics">The Lesson of Misfortune</hi>. IV. <hi rendition="#italics">The School of Friendship:</hi> in which we have a tutor
-					resembling <ref target="people.html#SirCharlesGrandison">Sir Charles
-						Grandison</ref>, and a pupil not unlike <ref target="people.html#EmilyJervois">Emily Jervis</ref>, innocently in love
-					with him. V. <hi rendition="#italics">The Generous Breton</hi>. VI. <hi rendition="#italics">The Error of a good Father</hi>. This tale was related
-					by <hi rendition="#italics">
-                  <ref target="people.html#Cideville">Cideville</ref>
-               </hi> to <hi rendition="#italics">
-                  <ref target="people.html#Voltaire">Voltaire</ref>
-               </hi> when he was
-					ill:—the descriptions in it are beautifully pathetic. VII. <hi rendition="#italics">The Casket</hi>. VIII. <hi rendition="#italics">The
-						Self-Rivals</hi>. IX. <hi rendition="#italics">The Villages Breakfasts</hi>.
-					X. <hi rendition="#italics">The Watermen of Besons</hi>. XI. <hi rendition="#italics">It must be so</hi>. <hi rendition="#smcaps">XII</hi>.
-						<hi rendition="#italics">The Hermits of Murica</hi>. XIII. <hi rendition="#italics">Palemon</hi>, an Arcadian Pastoral, from two pictures
-					by <hi rendition="#italics">
-                  <ref target="people.html#Poussin">Poussin</ref>
-               </hi>. XIV. <hi rendition="#italics">Fire-side-recollection</hi>.
-					XV. <hi rendition="#italics">The Mountain of the two Lovers.</hi>
+            <p>
+               <hi rendition="#smcaps">Sir,</hi>
             </p>
-            <p>Some of these tales were printed in the <hi rendition="#italics">
-                  <title>Mercure</title>
+            <p>IF the critical knowledge of an art was invariably combined with the successful
+					practice of it, I would here proudly take my rank among artists, and give
+					instructions on the art of writing Novels.—But though I humbly confess
+					that I have not the slightest information to impart, that may tend to produce a
+					good novel; yet it may not be wholly incompatible with the useful design of your
+					publication, if I show—how to avoid writing a very bad one.</p>
+            <p>Observe, that your hero and heroine be neither of them too bountiful. The
+					prodigious sums of money which are given away every year in novels, ought, in
+					justice, to be subject to the property tax; by which regulation, the national
+					treasury, or every such book, would be highly benefited.</p>
+            <p>Beware how you imitate <ref target="people.html#RadcliffeAnn">Mrs.
+						Radcliffe</ref>, or <ref target="people.html#EdgeworthMaria">Maria</ref>
+               <lb/>
+               <fw type="vol">No. 14.</fw>
+               <fw type="sig">c</fw>
+               <pb n="10"/>
+               <ref target="people.html#EdgeworthMaria">Edgeworth</ref>; you cannot equal them;
+					and those readers who most admire their works, will most despise yours.</p>
+            <p>Take care to reckon up the many times you make use of the words
+					"Amiable," "Interesting," "Elegant,"
+					"Sensibility," "Delicacy," "Feeling." Count each
+					of these words over before you send your manuscript to be printed, and be sure
+					to erase half the number you have written;—you may erase again when your
+					first proof comes from the press—again, on having a revise—and then
+					mark three or four, as mistakes of the printer, in your Errata.</p>
+            <p>Examine likewise, and for the same purpose, the various times you have made your
+					heroine blush, and your hero turn pale—the number of times he has pressed
+					her hand to his "trembling lips," and she his letters to her
+					"beating heart"—the several times he has been
+					"speechless" and she "all emotion," the one "struck to
+					the soul;" the other "struck dumb."</p>
+            <p>The lavish use of "tears," both in "showers" and
+					"floods," should next be scrupulously avoided; though many a gentle
+					reader will weep on being told that others are weeping, and require no greater
+					cause to excite their compassion. </p>
+            <pb n="11"/>
+            <p>Consider well before you introduce a child into your work. To maim the characters
+					of men and women is no venial offence; but to destroy innocent babes is most
+					ferocious cruelty: and yet this savage practice has, of late, arrived at such
+					excess, that numberless persons of taste and sentiment have declared—they
+					will never read another novel, unless the advertisement which announces the
+					book, adds (as in advertisements for letting Lodgings) <hi rendition="#italics">There are no children.</hi>
+            </p>
+            <p>When you are contriving that incident where your heroine is in danger of being
+					drowned, burnt, or her neck broken by the breaking of an axle-tree—for
+					without perils by fire, water, or coaches, your book would be
+					incomplete—it might be advisable to suffer her to be rescued from
+					impending death by the sagacity of a dog, a fox, a monkey, or a hawk; any one to
+					whom she cannot give her hand in marriage; for whenever the deliverer is a fine
+					young man, the catastrophe of your plot is foreseen, and suspense
+					extinguished.</p>
+            <p>Let not your ambition to display variety cause you to produce such a number of
+					personages in your story, as shall create perplexity, dissipate curiosity, and
+					confound recollection. But if, to show your powers of invention, <lb/>
+               <fw type="sig">c 2</fw>
+               <pb n="12"/>you are resolved
+					to introduce your reader to a new acquaintance in every chapter, and in every
+					chapter snatch away his old one; he will soon have the consolation to
+					perceive—they are none of them worth his regret.</p>
+            <p>Respect virtue—nor let her be so warm or so violent as to cause
+					derision:—nor vice so enormous as to resemble insanity. No one can be
+					interested for an enthusiast—nor gain instruction for a madman. </p>
+            <p>And when you have written as good a novel as you can—compress it into three
+					or four short volumes at most; or the man of genius, whose moments are precious,
+					and on whose praise all your fame depends, will not find time to read the
+					production, till you have committed suicide in consequence of its ill reception
+					with the public.</p>
+            <p>There are two classes of readers among this public, of whom it may not be wholly
+					from the purpose to give a slight account. The first are all hostile to
+					originality. They are so devoted to novel-reading, that they admire one novel
+					because it puts them in mind of another, which they admired a few days before.
+					By them it is required, that a novel should be like a novel; that is, the
+					majority of those compositions; for the minor part describe fic-<pb n="13"/>titious characters and events merely as they are in real life:—ordinary
+					representations, beneath the concern of a true voracious novel-reader.</p>
+            <p>Such an one (more especially of the female sex) is indifferent to the fate of
+					nations, or the fate of her own family, whilst some critical situation in a
+					romance agitates her whole frame! Her neighbour might meet with an accidental
+					death in the next street, the next house, or the next room, and the shock would
+					be trivial, compared to her having just read—"that the amiable Sir
+					Altamont, beheld the interesting Eudocia, faint in the arms of his thrice happy
+					rival."</p>
+            <p>Affliction, whether real or imaginary, must be refined,—and calamity
+					elegant, before this novel-reader can be roused to "sympathetic
+					sensation." Equally unsusceptible is her delicate soul to vulgar happiness.
+					Ease and content are mean possessions! She requires transport, rapture, bliss,
+					extatic [sic] joy, in the common occurrences of every day. </p>
+            <p>She saunters pensively in shady bowers, or strides majestically through brilliant
+					circles. She dresses by turns like a Grecian statue and a pastoral nymph: then
+						<pb n="14"/> fancies herself as beautiful as the undone heroine in
+							"<title>
+                  <hi rendition="#italics">Barbarous
+					Seduction;</hi>
+               </title>" and has no objection to become equally
+					fortunate.</p>
+            <p>To the healthy, that food is nourishment, which to the sickly proves their
+					poison. Such is the quality of books to the strong, and to the weak of
+					understanding.—Lady Susan is of another class of readers, and has good
+					sense.—Let her therefore read certain well-written novels, and she will
+					receive intimation of two or three foibles, the self-same as those, which,
+					adhering to her conduct, cast upon all her virtues a degree of
+					ridicule.—These failings are beneath the animadversions of the pulpit.
+					They are so trivial yet so awkward, that neither sermons, history, travels, nor
+					biography, could point them out with propriety. They are ludicrous, and can only
+					be described and reformed by a humourist.</p>
+            <p>And what book so well as a novel, could show to the enlightened Lord
+					Henry——the arrogance of his extreme condescension? Or insinuate to
+					the judgment of Lady Eliza——the wantonness of her excessive
+					reserve?</p>
+            <p>What friend could whisper so well to Lady Autumnal—that affected simplicity
+					at forty, is more despicable <pb n="15"/>than affected knowledge at
+					fifteen?—And by what better means could the advice be conveyed to Sir John
+					Egotist—to pine no more at what the world may say of him; for that men
+					like himself are too insignificant for the world to know.</p>
+            <p>A novel could most excellently represent to the valiant General B—, that
+					though he can forgive the miser's love of gold, the youth's
+					extravagance and even profligacy; that although he has a heart to tolerate all
+					female faults, and to compassionate human depravity of every kind; he still
+					exempts from this his universal clemency—the poor delinquent soldier.</p>
+            <p>The General's wife, too, forgives all injuries done to her neighbours: those
+					to herself are of such peculiar kind, that it would be encouragement to
+					offenders, not to seek vengeance.—The lovely Clarissa will pardon every
+					one—except the mantua-maker who spoils her shape.—And good Sir
+					Gormand never bears malice to a soul on earth—but to the cook who spoils
+					his dinner.</p>
+            <p>That Prebendary is merciful to a proverb—excluding negligence towards holy
+					things—of which he thinks himself the holiest. Certain novels might make
+					these people think a second time.</p>
+            <pb n="16"/>
+            <p>Behold the Countess of L——! Who would presume to tell that once
+					celebrated beauty—that she is now too wrinkled for curling hair; and her
+					complexion too faded for the mixture of blooming pink? Should her husband convey
+					such unwelcome news, he would be more detested than he is at present! Were her
+					children or her waiting-maid to impart such intelligence, they would experience
+					more of her peevishness than ever!—A novel assumes a freedom of speech to
+					which all its readers must patiently listen; and by which, if they are wise,
+					they will know how to profit.</p>
+            <p>The Novelist is a free agent. He lives in a land of liberty, whilst the Dramatic
+					Writer exists but under a despotic government.—Passing over the subjection
+					in which an author of plays is held by the Lord Chamberlain’s office, and the
+					degree of dependence which he has on his actors—he is the very slave of the
+					audience. He must have their tastes and prejudices in view, not to correct, but
+					to humour them. Some auditors of a theatre, like some aforesaid novel-readers,
+					love to see that which they have seen before; and originality, under the
+					opprobrious name of innovation, might be fatal to a drama, where the will of
+					such critics is the law, and execution instantly follows judgment.</p>
+            <pb n="17"/>
+            <p>In the opinion of these theatrical juries, Virtue and Vice attach to situations,
+					more than to characters: at least, so they will have the stage represent. The
+					great moral inculcated in all modern plays constantly is—for the rich to
+					love the poor. As if it was not much more rare, and a task by far more
+					difficult—for the poor to love the rich.—And yet, what author shall
+					presume to expose upon the stage, certain faults, almost inseparable from the
+					indigent? What dramatic writer dares to expose in a theatre, the consummate
+					vanity of a certain rank of paupers, who boast of that wretched state as a
+					sacred honour, although it be the result of indolence or criminality? Who dares
+					to show an audience, the privilege, of poverty debased into the instrument of
+					ingratitude?—"I am poor and therefore slighted"—cries the
+					unthankful beggar; whilst his poverty is his sole recommendation to his friends;
+					and for which alone, they pay him much attention, and some respect. </p>
+            <p>What dramatist would venture to bring upon the stage—that which so
+					frequently occurs in real life—a benefactor living in awe of the object of
+					his bounty; trembling in the presence of the man whom he supports, lest by one
+					inconsiderate word, he should seem to remind him of the <lb/>
+               <fw type="vol">No. 14.</fw>
+               <fw type="sig">d</fw>
+               <pb n="18"/>predicament in which they stand with each
+					other; or by an involuntary look, seem to glance at such and such
+					obligations?</p>
+            <p>Who, moreover, dares to exhibit upon the stage, a benevolent man, provoked by his
+					crafty dependant—for who is proof against ungratefulness?—to become
+					that very tyrant, which he unjustly had reported him?</p>
+            <p>Again.—The giver of alms, as well as the alms-receiver, must be revered on
+					the stage.—That rich proprietor of land, Lord Forecast, who shall dare to
+					bring him upon the boards of a theatre, and show—that, on the subject of
+					the poor, the wily Forecast accomplishes two most important designs? By keeping
+					the inhabitants of his domain steeped in poverty, he retains his vast
+					superiority on earth; then secures, by acts of charity, a chance for heaven. </p>
+            <p>A dramatist must not speak of national concerns, except in one dull round of
+					panegyrick. He must not allude to the feeble minister of state, nor to the
+					ecclesiastical coxcomb.</p>
+            <p>Whilst the poor dramatist is, therefore, confined to a few particular provinces;
+					the novel-writer has the whole world to range, in search of men and topics.
+						Kings,<pb n="19"/> warriors, statesmen, churchmen, are all subjects of his
+					power. The mighty and the mean, the common-place and the extraordinary, the
+					profane and the sacred, all are prostrate before his muse. Nothing is forbidden,
+					nothing is withheld from the imitation of a novelist, except—other
+					novels.<lb/>
+               <hi rendition="#flushRight">
+                  <hi rendition="#italics">
+                     <ref target="people.html#InchbaldMrs">E. I.  </ref>
+                  </hi>
                </hi>
-               <hi rendition="#sup">
-                  <note>The
-							French literary journal <hi rendition="#italics">
-                        <title>Mercure de
-									France</title>
-                     </hi> was published with some interruptions from
-							1672-1825.</note>
-               </hi> in the years 1789, 90, 91, and 92. They abound
-					with genuine satire and wit, with pathetic sentiment and sound sense. </p>
-            <p>Prefixed to the 1st vol. is a portrait of the author; under which is a memorandum
-					that <hi rendition="#smcaps">
-                  <ref target="people.html#Marmontel">Jean-Francois
-							Marmontel</ref>
-               </hi> was born on the 11th of July 1723, and died at
-					Abbeville, Dec 29, 1799.</p>
+            </p>
+            <p/>
+            <p/>
          </div>
       </body>
    </text>

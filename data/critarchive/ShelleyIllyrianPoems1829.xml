@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Illyrian Poems—Feudal Scenes</title>
+            <title type="sub" level="j">Westminster Review</title>
+            <author type="writer">
+               <name>Mary Shelley</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Co-Editor</resp>
+               <name xml:id="KI">Krystal J. Iseminger</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>ShelleyIllyrianPoems1829</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title level="a">Art. IV.—1. La Guzla, ou Choix de Poesies Illyriques
+							recueillies dans la Dalmatie, la Bosnie, la Croatie et l'Herzegowine.
+							Paris. 1827. 2. La Jaquerie; Feudal Scenes; followed by the Family of
+							Carvajal, a Drama. By the Author of Le Theatre de Clara Gazul. Paris.
+							1828.</title>
+                  <author type="writer">Shelley, Mary, 1797-1851</author>
+               </analytic>
+               <monogr>
+                  <title level="j">The Westminster Review</title>
+                  <imprint>
+                     <date when="1829-01">January 1829</date>
+                     <biblScope unit="vol">10</biblScope>
+                     <biblScope unit="issue">19</biblScope>
+                     <biblScope unit="page">71-81</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+               <category xml:id="g72">
+                  <catDesc>literary criticism article</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one word before
+							hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="ag">
+               <bibl>ARC Genre Categories, July 1, 2017</bibl>
+               <category xml:id="ag1">
+                  <catDesc>Advertisement</catDesc>
+               </category>
+               <category xml:id="ag2">
+                  <catDesc>Animation</catDesc>
+               </category>
+               <category xml:id="ag3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="ag4">
+                  <catDesc>Catalog</catDesc>
+               </category>
+               <category xml:id="ag5">
+                  <catDesc>Chronology</catDesc>
+               </category>
+               <category xml:id="ag7">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="ag6">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="ag8">
+                  <catDesc>Correspondence</catDesc>
+               </category>
+               <category xml:id="ag9">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="ag10">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="ag11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="ag12">
+                  <catDesc>Essay</catDesc>
+               </category>
+               <category xml:id="ag13">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="ag14">
+                  <catDesc>Film, Documentary</catDesc>
+               </category>
+               <category xml:id="ag15">
+                  <catDesc>Film, Experimental</catDesc>
+               </category>
+               <category xml:id="ag16">
+                  <catDesc>Film, Narrative</catDesc>
+               </category>
+               <category xml:id="ag17">
+                  <catDesc>Film, Other</catDesc>
+               </category>
+               <category xml:id="ag18">
+                  <catDesc>Historiography</catDesc>
+               </category>
+               <category xml:id="ag19">
+                  <catDesc>Interview</catDesc>
+               </category>
+               <category xml:id="ag20">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="ag21">
+                  <catDesc>Liturgy</catDesc>
+               </category>
+               <category xml:id="ag22">
+                  <catDesc>Musical Analysis</catDesc>
+               </category>
+               <category xml:id="ag23">
+                  <catDesc>Music, Other</catDesc>
+               </category>
+               <category xml:id="ag24">
+                  <catDesc>Musical Work</catDesc>
+               </category>
+               <category xml:id="ag25">
+                  <catDesc>Musical Score</catDesc>
+               </category>
+               <category xml:id="ag26">
+                  <catDesc>Nonficition</catDesc>
+               </category>
+               <category xml:id="ag27">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="ag28">
+                  <catDesc>Performance</catDesc>
+               </category>
+               <category xml:id="ag29">
+                  <catDesc>Philosophy</catDesc>
+               </category>
+               <category xml:id="ag30">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="ag31">
+                  <catDesc>Political Statement</catDesc>
+               </category>
+               <category xml:id="ag32">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="ag33">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="ag34">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="ag35">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="ag36">
+                  <catDesc>Scripture</catDesc>
+               </category>
+               <category xml:id="ag37">
+                  <catDesc>Sermon</catDesc>
+               </category>
+               <category xml:id="ag38">
+                  <catDesc>Speech</catDesc>
+               </category>
+               <category xml:id="ag39">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="ag40">
+                  <catDesc>Travel Writing</catDesc>
+               </category>
+               <category xml:id="ag41">
+                  <catDesc>Unspecified</catDesc>
+               </category>
+               <category xml:id="ag42">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+                      xml:id="f">
+               <bibl>ARC Format Categories, July 1, 2017</bibl>
+               <category xml:id="f1">
+                  <catDesc>Codex</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>Dataset</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>Drawing</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>Illustration</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>Interactive Resource</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>Map</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>Moving Image</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>Notated Music</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>Page Proofs</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>Pamphlet</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>Periodical</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>Physcial Object</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>Roll</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>Sheet</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>Sound</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>Still Image</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>Typescript</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>Criticism</item>
+                  <item>Review Article</item>
+               </list>
+            </keywords>
+            <catRef scheme="#ft" target="#ft1"/>
+            <catRef target="#ag9 #ag35" scheme="#ag"/>
+            <catRef target="#f13" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef scheme="#g" target="#g72 #g31 #g50"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20210922" n="4">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#MW" when="20210715" n="3">
+            <name>Mary A. Waters</name>
+            <date>2021-07-15</date>
+            <list>
+               <item>revise TEI encoding</item>
+               <item>document ID change</item>
+            </list>
+         </change>
+         <change who="#KI" when="20170205" n="2">
+            <name> Krystal J. Iseminger</name>
+            <date>2017-02-05</date>
+            <list>
+               <item>TEI encoding</item>
+            </list>
+         </change>
+         <change who="#MW" when="20101201" n="1">
+            <name>Mary A. Waters</name>
+            <date>2010-12-01</date>
+            <list>
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <ref target="people.html#ShelleyMary">
+                        <name>Mary
+									Shelley</name>
+                     </ref>
+                  </author>
+                  <lb/>
+                  <title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. IV.—1.
+								<hi rendition="#italics">La Guzla, ou Choix de Poesies Illyriques
+								recueillies dans la Dalmatie, la Bosnie, la Croatie et
+								l'Herzegowine</hi>. Paris. 1827.<lb/> 2. <hi rendition="#italics">La Jaquerie; Feudal Scenes; followed by the
+								family of Carvajal, a Drama. </hi> Paris. By the <ref target="people.html#MerimeeProsper">Author of Le Theatre de Clara
+								Gazul</ref>. 1828.<hi rendition="#sup">
+                        <note>This
+									review article appeared in the <hi rendition="#italics">
+                              <title>Westminster Review</title>
+                           </hi>, vol. 10, no. 19
+									(January 1829), pp. 71-81. The author of both books is <ref target="people.html#MerimeeProsper">Prosper
+										Mérimée.</ref> Krystal J. Iseminger and Mary A.
+									Waters prepared this text for The Criticism Archive.
+								</note>
+                     </hi>
+                  </title>
+               </bibl>
+            </head>
+            <p rendition="#noindent"/>
+            <p rendition="#noindent">
+               <hi rendition="#largest">S</hi>EVERAL years ago, the
+					"Comedies de Clara Gazul" appeared in Paris, and excited a great deal
+					of attention. They were hardly less known and praised in England. It was<pb n="72"/>soon understood that they were imitations of the Spanish drama, the
+					production of a very young Frenchman, (<ref target="people.html#MerimeeProsper">M. Merimée</ref>) and that "Clara Gazul" was altogether a
+					fictitious personage. They were, in every way, striking and interesting
+					productions, possessing at once the faults and beauties of their models, full of
+					spirit, originality, and fire. They were introduced by an account of their
+					feigned authoress, which, as well as the dramas themselves, is remarkable for
+					its utter freedom from affectation. There are to be found in them none of those
+					defects, too generally attributed with justice to French imaginative works:
+					there is no circumlocution, no parade, and their very hyperbole, as being common
+					to the Spanish drama, is natural and in its place. The first of these comedies
+					is founded on a circumstance that occurred during the last war; when a woman,
+					brought up in infamy, was bribed to spy and betray, through their officers, a
+					Spanish detachment to the French authorities in Finland. The gradual softening
+					and repentance of the girl, when she discovers the worth, and learns to love the
+					man she is about to lead to the scaffold, contrasted with the obduracy of her
+					mother, is finely drawn; and the scene in which she confesses her guilt to her
+					lover is touching from its simplicity and truth. Energy is the characteristic of
+					these pieces, mingled with a display of knowledge in the lighter touches of
+					humanity; such as the sweet gracefulness of Iñez, and the struggles between
+					a Catholic woman's religion and her love in "Le Ciel et
+					l'Enfer." This drama is one of the best in the book; it is founded on
+					the stormy passion of jealousy, the most terrible and selfish of human emotions,
+					and the most interesting, from its being the most universal. As Clara Gazul was
+					a Liberal, inquisitors and priests are attacked in her productions, and there
+					reigns through all of them the spirit of freedom from political and religious
+					servitude.</p>
+            <p>The author's next work was in a very different style, resembling the first
+					in one particular only, that it is an imitation. It is entitled the
+					"Guzla," and imports to be a translation of a collection of Illyrian
+					national poems. We have in the preface some account of the players on the Guzla
+					(a single-stringed guitar) and their mode of reciting to music, much in the
+					manner of the Italian <hi rendition="#italics">improvisatori</hi>. <hi rendition="#sup">
+                  <note>During her travels in Italy, <ref target="people.html#ShelleyMary">Mary Shelley</ref> developed a
+							strong interest in improvisational poets like <ref target="people.html#Sgricci">Tommaso Sgricci</ref>.</note>
+               </hi> We
+					are introduced also to an imaginary person, Hyacinth Maglanovich, who is
+					supposed to be the author of the greater number of the poems in the volume
+					before us. They are warlike, pathetic, and amatory—and, above all,
+					whatever is their theme, they are characterized by the utmost simplicity, while
+					a vein of sweetness runs throughout, that lends to each a particular charm. By a
+					strong effort<pb n="73"/>of the imagination, the young Parisian writes as if the
+					mountains of Illyria had been the home of his childhood; the rustic and
+					barbarous manners are not softened, nor the wild energy of the people tamed;
+					and, if we trace any vestige of civilization, it merely arises from the absence
+					of all that would shock our tastes or prejudices. We are induced to give a few
+					specimens from this extraordinary production, glad of an opportunity to
+					introduce it to the lovers of poetry in this country.</p>
+            <p>We select, in the first place, a love poem, entitled, "The Beloved of
+					Dannisich." To render it intelligible, we are informed in a note, that the
+					Illyrian girl is in the habit of receiving gifts from her various suitors, and
+					that after she has collected a sufficient number, her chosen lover requests
+					permission to carry her off; and she consenting, always names the place and hour
+					for flight.</p>
+            <quote>
+               <p rendition="#center">THE BELOVED OF DANNISICH.</p>
+               <p rendition="#center">1.</p>
+               <p>Eusebius has given me a ring of chased gold; I have received from Vladimir a
+						red toque adorned with coins; but I love thee, Dannisich, better than
+						both.</p>
+               <p rendition="#center">2.</p>
+               <p>Eusebius has dark and curled hair: Vladimir has a complexion fair as that of
+						a young woman from the mountains; but Dannisich, thou art to me more
+						beautiful than either. </p>
+               <p rendition="#center">3.</p>
+               <p>Eusebius kissed me and I smiled: Vladimir kissed me, and his breath was sweet
+						as violets; but when Dannisich kissed me, my heart thrilled with
+						pleasure.</p>
+               <p rendition="#center">4.</p>
+               <p>Eusebius knows many old songs. Vladimir can play upon the guzla; I love songs
+						and the guzla, but they must be the songs and guzla of Dannisich. </p>
+               <p rendition="#center">5.</p>
+               <p>Eusebius has commissioned his godfather to ask me in marriage. Vladimir will
+						send to morrow the priest to my father; but come thou under my window,
+						Dannisich, and I will fly with thee.' </p>
+            </quote>
+            <p>Another of the poems is founded on the oaths of friendship which it is usual for
+					the Illyrian warriors to take one with the other. Two men thus united are called
+						<hi rendition="#italics">Pobratimi</hi>,<hi rendition="#sup">
+                  <note>Serbo-Croatian: blood brothers.</note>
+               </hi> or half
+					brothers; they often sacrifice their lives for each other, and any quarrel
+					between them is as scandalous as if, among us, a son ill-treated his father. </p>
+            <pb n="74"/>
+            <quote>
+               <p rendition="#center">THE FLAME OF PERRUSSICH.</p>
+               <p rendition="#center">1.</p>
+               <p>Why is the bey Janco Marnavich never seen in his own country? Why does he
+						wander among the rugged mountains of Vergoraz, never sleeping two nights
+						under the same roof? Do his enemies pursue him, and have they sworn that the
+						price of blood shall never be received? </p>
+               <p rendition="#center">2.</p>
+               <p>No. The bey Janco is rich and powerful. No one dares call himself his enemy,
+						for at his voice two hundred swords will leap from their scabbards. But he
+						seeks solitary spots, and hides himself in the caverns which the Heydukes
+						inhabit, for his heart is a prey to sorrow, since the death of his <hi rendition="#italics">pobratim</hi>.</p>
+               <p rendition="#center">3.</p>
+               <p>Cyril Pervan died in the midst of feasting. Brandy flowed in torrents, and
+						men became mad. A dispute arose between two renowned beys, and the bey Janco
+						Marnavich shot at his enemy; but drinking caused his hand to tremble, and he
+						killed his <hi rendition="#italics">pobratim</hi>, Cyril Pervan.</p>
+               <p rendition="#center">4.</p>
+               <p>They swore to live and die together in the church of Perrussich; but two
+						months after they had interchanged this vow, one of the <hi rendition="#italics">pobratimi</hi> died by the hand of his brother.
+						Since that day the bey Janco drinks neither spirits nor wine; he eats roots
+						only, he wanders hither and thither, like an ox pursued by a gadfly.</p>
+               <p rendition="#center">5.</p>
+               <p>At length he returned to his own country, and he entered the church of
+						Perrussich: there, during one whole day, he prayed lying on the pavement
+						with outspread arms, shedding bitter tears. But when the night came, he
+						returned home, he appeared calmer, and he supped, waited on by his wife and
+						children.</p>
+               <p rendition="#center">6.</p>
+               <p>When he was in bed, he called his wife and said, "Can'st thou see
+						the church of Perrussich from the mountain of Pristeg?" she looked from
+						the window, and replied, "The Morpolatza is covered with mist, and I
+						can see nothing beyond it." The bey Janco said, "Good; rest again
+						beside me;" and he prayed in his bed for the soul of Cyril Pervan. </p>
+               <p rendition="#center">7.</p>
+               <p>And when he had prayed, he said to his wife, "Open the window and look
+						again towards Perrussich." His wife immediately arose and said,
+						"Beyond the Morpolatza, in the midst of the mist, I see a pale and
+						flickering light." Then the bey smiled and said, "Good; lie down
+						again;" and he took his rosary and continued to pray. </p>
+               <pb n="75"/>
+               <p rendition="#center">8.</p>
+               <p>When he had told his beads, he called his wife, saying, "Pascorra, once
+						again open the window and look." She rose and said, "My lord, I
+						see a brilliant light in the middle of the river, which is advancing rapidly
+						hither." Then she heard a deep sigh, and something fell on the floor.
+						The bey Janco was dead.</p>
+            </quote>
+            <p>Another poem is founded on the superstition attached to an evil eye, which,
+					whomsoever it looks on, it kills. There are various kinds of evil eyes, one
+					consists in having two pupils in each eye. </p>
+            <quote>
+               <p rendition="#center">MAXIMUS AND ZOE.</p>
+               <p rendition="#center">1.</p>
+               <p>O Maximus Duban! O Zoe, daughter of Jellavich! May the holy Mother of God
+						reward your love! May you be happy in heaven! </p>
+               <p rendition="#center">2.</p>
+               <p>When the sun had set in the sea, and the <hi rendition="#italics">vaivode</hi>
+                  <hi rendition="#sup">
+                     <note>
+                        <hi rendition="#italics">Vaivode</hi>—governor. [<ref target="people.html#ShelleyMary">Shelley's</ref>
+								note].</note>
+                  </hi> had gone to rest, a sweet guzla was heard beneath
+						the windows of the fair Zoe, the eldest daughter of Jellavich. </p>
+               <p rendition="#center">3.</p>
+               <p>And quickly fair Zoe rose on tiptoe, she opens the window, and a tall youth
+						is seated on the ground, who sighs and sings his love on the guzla. </p>
+               <p rendition="#center">4.</p>
+               <p>He prefers the darkest nights; when the moon is at its full, he hides himself
+						in the shade, and the eye of Zoe only could discern him under his mantle of
+						black lamb's skin. </p>
+               <p rendition="#center">5.</p>
+               <p>Who is this youth with so sweet a voice? Who can tell? He is come from a
+						distance, but he speaks our language; no one knows him, Zoe alone is
+						acquainted with his name. </p>
+               <p rendition="#center">6.</p>
+               <p>But neither Zoe, nor any other person has seen his face; for when morning
+						dawns, he raises his gun on his shoulders, and he penetrates the woods in
+						pursuit of game. </p>
+               <p rendition="#center">7.</p>
+               <p>He always brings back the horns of the little goat of the mountains, and he
+						says to Zoe: "Carry these horns with thee, and may Mary preserve thee
+						from the evil eye!" </p>
+               <pb n="76"/>
+               <p rendition="#center">8.</p>
+               <p>He binds his head in a shawl like an Arnaut, and the wandering traveller who
+						meets him in the woods has never beheld his face beneath the many folds of
+						the gold-enwoven muslin. </p>
+               <p rendition="#center">9.</p>
+               <p>But one night Zoe said: "Approach, that my hand may touch
+						thee"—She felt his features with her white hand; and when she
+						touched herself, she felt not a more lovely face. </p>
+               <p rendition="#center">10.</p>
+               <p>Then she said: "The young men of this village tire me; they all court
+						me, but I love only thee: come to-morrow at noon, while they are all at
+						mass. </p>
+               <p rendition="#center">11.</p>
+               <p>"I will mount behind thee on thy horse, and thou shalt carry me as thy
+						wife to thy own country—I have long worn the <hi rendition="#italics">opunke</hi>
+                  <hi rendition="#sup">
+                     <note>Large shoes, the
+								token of virginity—they are changed to slippers at the time of
+								nuptials. [<ref target="people.html#ShelleyMary">Shelley's</ref> note]. </note>
+                  </hi>—I wish to wear
+						embroidered slippers." </p>
+               <p rendition="#center">12.</p>
+               <p>The young player on the guzla sighed and said: "What dost thou ask? I
+						cannot see thee in the day time, but descend to-night, and I will carry thee
+						to the beautiful valley of Knin: and there we will marry." </p>
+               <p rendition="#center">13.</p>
+               <p>She replied:—"No, I wish thee to take me to-morrow, for I will
+						carry with me my richest dresses; my father has the key which keeps them. I
+						will steal it to-morrow, and then I will come with thee." </p>
+               <p rendition="#center">14.</p>
+               <p>Then once again he sighed and said:—"As thou desirest, so it shall
+						be." Then he embraced her; but the cocks crew, and the sky reddened,
+						and the stranger departed. </p>
+               <p rendition="#center">15.</p>
+               <p>When the hour of noon came, he was at the <hi rendition="#italics">vaivode's</hi> door, mounted on a courser white as milk, and on
+						the crupper there was a velvet cushion, that the soft Zoe might ride more
+						gently. </p>
+               <p rendition="#center">16.</p>
+               <p>The stranger had his face covered with a thick veil—his mouth and his
+						moustachios were hardly seen. His dress glittered with gold, and his girdle
+						was embroidered with pearls. </p>
+               <p rendition="#center">17.</p>
+               <p>The fair Zoe leapt lightly on the crupper, the courser white as milk neighed,
+						proud of his burthen, and he galloped off, leaving whirlwinds of dust behind
+						him. </p>
+               <pb n="77"/>
+               <p rendition="#center">18.</p>
+               <p>"Zoe, tell me, have you brought with you the beauteous horn I gave
+						thee"—"No," she replied, "what have I to do with
+						such trifles? I have brought my gold embroidered garments, my neck-laces and
+						my coins." </p>
+               <p rendition="#center">19.</p>
+               <p>"Tell me, Zoe, hast thou brought the fair relic I gave
+						thee"—"No," she replied, "I hung it round the neck
+						of my little brother, who is ill, to cure him of his sickness."</p>
+               <p rendition="#center">20.</p>
+               <p>The stranger sighed sorrowfully. "Now that we are far from my
+						home," said the lovely Zoe, "rein in thy horse, remove that veil,
+						and permit me to embrace thee, dear Maximus. </p>
+               <p rendition="#center">21.</p>
+               <p>But he replied:—"We shall be more at our ease to-night at my home;
+						there are satin cushions there, and we shall repose to-night under damask
+						curtains." </p>
+               <p rendition="#center">22.</p>
+               <p>"How," exclaimed fair Zoe, "is this thy love for me? Why turn
+						your head from me? Why treat me with disdain? Am I not the fairest girl in
+						our village?"—</p>
+               <p rendition="#center">23.</p>
+               <p>"Ah Zoe,"said he, "some one passing might see us, and thy
+						brothers pursuing us, might take thee back to thy father." And speaking
+						thus he spurred on his courser. </p>
+               <p rendition="#center">24.</p>
+               <p>"Stop, stop, O Maximus," cried she, "I see that thou lovest me
+						not; if thou turns not thy face towards me, I will throw myself from the
+						horse, should I die from my fall. " </p>
+               <p rendition="#center">25.</p>
+               <p>Then with one hand the stranger reined in his horse, and with the other he
+						threw his veil on the ground, and then he turned to embrace Zoe. Holy
+						Virgin, he had two pupils in each eye! </p>
+               <p rendition="#center">26.</p>
+               <p>Deathly, deathly was his look! Before his lips touched those of fair Zoe, the
+						young girl leant her head on her shoulder, and she fell from the horse pale
+						and lifeless. </p>
+               <p rendition="#center">27.</p>
+               <p>"Cursed be my father," cried Maximus Duban, "who gave me this
+						fatal eye. It shall be the cause of no more ill!" And he tore out his
+						eyes with his hanzar.<hi rendition="#sup">
+                     <note>
+                        <hi rendition="#italics">Hanzar</hi>—handschaur. (Teutonic.)
+									[<ref target="people.html#ShelleyMary">Shelley's</ref>
+								note]. A handschar is a type of fighting knife.</note>
+                  </hi>
+               </p>
+               <pb n="78"/>
+               <p rendition="#center">28.</p>
+               <p>He caused the fair Zoe to be interred with pomp, and for himself, he entered
+						a cloister: but he survived not long, for soon they opened the grave of Zoe,
+						and placed her Maximus beside her." </p>
+            </quote>
+            <p>One of the most interesting parts of this book is an account of Vampyrism, and a
+					detail of the death of a girl, the victim of a vampire. But the above specimens
+					are sufficient to recommend it to the reader; and every lover of nature in its
+					wildness and its freedom, will find pleasure in these emanations of a mind,
+					imbued with grand and unsophisticated imagery, true as the echo in giving back
+					the voice of the imaginative and simple mountaineer.</p>
+            <p>The last production of this <ref target="people.html#MerimeeProsper">author</ref>, recently published, is now before us. It is ushered in as no
+					imitative attempt. "La Jaquerie" consists of a series of dramatic
+					scenes, developing the history of an insurrection in France, almost contemporary
+					with those in our own country which occurred under Richard II. The author
+					observes in his short preface, that similar tumults broke out almost at the same
+					time in France, Flanders, England, and the north of Germany. They all arose from
+					the same cause:—the peasantry, long trampled on by the iron heel of feudal
+					tyranny, endured such matchless privations and cruelties, that in spite of the
+					prejudices that degraded them in their own eyes, beneath the rank of their
+					fellow men; in spite of the arms and strongholds of their adversaries, they rose
+					against them, and loosened, though they could not break, their feudal chains.
+					The plan of the author of "La Jaquerie" is, to give a faithful picture
+					of the manners of those times, bringing together under one point of view the
+					many and successive scenes and personages that formed the then state of society.
+					A history written with this view would develop a new and terrible page of human
+					experience. To present this to us in the form of dialogue merely is a difficult
+					undertaking; individual character is lost in the infinite variety of persons
+					made to pass before us, and we have the ideal instead of the real being
+					presented to us. We are introduced to the factious priest, murmuring because, in
+					the choice of an abbot, the monks prefer the noble blood of another to his
+					learning. We have the knights of France, whose very names awaken all the
+					delusive associations of romance; the English captains of adventurers, whose
+					trade was war; the burgess grasping and cowardly; the robber driven to outlawry
+					by the cruelty of his superiors, and nourishing vengeance as a duty; the peasant
+					first sinking beneath, and then rising to throw off oppression; and finally the
+					lord of the castle, the feudal<pb n="79"/>chief, the suzerain of the surrounding
+					country, his daughter and her betrothed lover, and the baron's men at arms,
+					who though, in the language of the day, a villain, joins the gifts of poetry to
+					those of valour. </p>
+            <p>These scenes may be divided into three parts. The first consisting of a
+					development of the causes that led to rebellion. The picture of arbitrary power,
+					unsoftened by any tinge of humanity, is frightful and true; ingratitude, pride,
+					and cruelty exercised over the poor and unarmed, produce at last hatred and
+					desire of vengeance: the peasantry, incited to open rebellion by a priest, rise
+					in arms: they take a band of English adventurers into their pay, they besiege
+					the castle of their lord, march to Beauvais, which, admitted by the lower
+					orders, they take and sack, defeat the regular forces sent against them, and
+					spread terror and devastation around. The lord of Apremont defends himself long,
+					and is willing to endure any extremity, rather than submit to his rebellious
+					vassals. Among these is one, late a favourite in the castle, Pierre, the
+					minstrel and the man at arms. He had saved the life of the lady Isabel, and her
+					father bestowed him on her as her page. Her beauty awakens, her gracious
+					kindness fosters, his love, and he dared hope. Called on by her in an hour of
+					ennui, to recite a tale for her amusement, he feigns to read one in which a
+					noble girl becomes the bride of a serf. She discovers the deceit and guesses the
+					cause—she dismisses him from the castle with blighting disdain, while his
+					temerity even degrades her in her own eyes. Pierre is seized on by the grand
+					mover of the plot, the monk, who gives him hope of triumph, and a chance of
+					winning his lady, if he should join the insurgents, and he is now the chief of
+					those who besiege the castle. Poor Isabel, her father wounded, every hope lost,
+					asks her betrothed to give her back her faith, and then offers herself a
+					sacrifice to Pierre, if he will save her parent. The end is tragical—he is
+					too generous to accept the victim, and endeavours to provide for the escape of
+					her and her family; but the miseries of civil discord in all its most hideous
+					results, envelope the fugitives in one mighty ruin. The peasantry are
+					victorious, and now begins the third part of the drama, their
+					downfall—schism among themselves, a wish to return to their native fields
+					and humble homes, a confidence in the word of their enemies, an incapacity to
+					submit to discipline, joined to the treachery of their English allies, bring on
+					the catastrophe. Such is a slight sketch of the progress of these scenes. We
+					feel the want of one prominent character to concentrate the interest, without
+					which a dramatic composition is never perfect. But the author has not aimed at a
+					regular tragedy, and he has succeeded in giving us in<pb n="80"/>a series of
+					interesting scenes, a forcible picture of the manners of our ancestors, and of
+					the crimes and misfortunes resulting from the feudal system, from which our
+					state of civilization preserves us.</p>
+            <p>To the "Jaquerie" is added a drama, entitled the "Family of
+					Carvajal." This is a tremendous domestic tragedy, founded on the same story
+					as the Cenci.<hi rendition="#sup">
+                  <note>
+                     <ref target="people.html#ShelleyPercy">Percy Bysshe Shelley</ref>'s
+								<hi rendition="#italics">
+                        <title>The Cenci. A Tragedy in Five
+									Acts</title>
+                     </hi>, inspired by the legend of <ref target="people.html#CenciBeatrice">Beatrice Cenci</ref>, was
+							published in 1819.</note>
+               </hi> In this production the author is no
+					longer a painter of manners only, but he becomes a depict of passion, an
+					observer and a narrator of the secret motives that influence our nature, and the
+					dread events that are the result of unlawful indulgence. It is a question
+					whether certain combinations of circumstances, though it is allowed that they
+					have existence, should be recalled to our memory and represented to our
+					imaginations. But it is difficult for the author, whose impulse is a gift of his
+					nature, whose talent is spontaneous, who can no more repress the yearning of his
+					mind to trace the boundaries of the unknown intellectual world, than he can rule
+					the pulsations of his heart; it is difficult for him to submit to rules imposed
+					by those whose tamer thoughts never emerge from the narrow bounds of their
+					personal experience; who repose in a windless atmosphere, and who fear to have
+					their downy slumbers broken by the war of elements. Columbus, anticipating the
+					discovery of the unknown shores that pale our western progress over the wild and
+					distant waves of the Atlantic, felt the old world, extended in latitude and
+					longitude so far and wide, a narrow prison—and thus the imaginative
+					writer, who deems that beyond the usual track he may find a fresh and untried
+					ground, courageously launches forth, leaving the dull every-day earth behind
+					him. If his discoveries do not interest us, do not let us vituperate his
+					adventurous spirit, and thus degrade ourselves to the level of all detractors
+					from the fame attendant on intellectual enterprise. Let us remember that the
+					poets of Greece, whose names are as a part of our religion, and the
+					highly-gifted dramatists of our own country, have been prone to select as
+					subjects for their tragedies, events grounded on the direst passions and the
+					worst impulses.</p>
+            <p>The Family of Carvajal has given rise to these reflections: they may be received
+					as applying to every similar production which seeks to interest by new and
+					strange combinations, and which are vivid in their conception and strong in
+					their delineation of what they only know through the innate force of the
+					imagination. The author before us has shewn no lack of boldness in his treatment
+					of the subject, while he has never overstepped those boundaries which must be
+					observed for our tastes not to be shocked, instead of our interest excited. He
+					has made the<pb n="81"/>father and daughter equally impetuous and resolute, but
+					one is the oppressor, the other the victim. The scene is laid in an unpopulated
+					province of New Granada, and the father is represented as a despot over his
+					wife, a cruel tyrant to his slaves, a man grown old in crime. His hapless
+					daughter was brought up in a rustic semi-barbarous convent, and she returns home
+					to find herself an associate of guilt, to which her proud heart refuses to
+					yield, while love for another adds to her vehemence and misery. This meeting of
+					two fierce natures in unnatural discord presents a new and terrible source for
+					dramatic interest. Each scene transcends the one before in its appalling horror;
+					and the last, in which the miserable girl poignards her father, completes the
+					dark picture, spreading over the canvas the lurid hues of whirlwind and volcano.
+					We turn trembling from the contemplation, while we confess the force of the
+					genius that presents it to our eyes.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
