@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Mrs. Lennox</title>
-            <title type="subordinate" level="m">The British Novelists</title>
+            <title type="sub" level="m">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -37,7 +38,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="subordinate">with an Essay and Prefaces,
+                  <title type="sub">with an Essay and Prefaces,
                             Biographical and Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
@@ -54,6 +55,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -295,7 +343,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -508,11 +556,20 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="8">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#LM" when="20200611" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -527,7 +584,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+               <item>Added new taxonomies into headers</item>
             </list>
          </change>
          <change who="#MW" when="2016-08-21" n="4">
@@ -566,16 +623,16 @@
             <head>
                <bibl>
                   <author type="writer">
-                     <lb rendition="#center"/>
                      <ref target="people.html#BarbauldMrs">
                         <name>Anna Letitia Barbauld</name>
                      </ref>
                   </author>
+                  <lb/>
                   <title type="main" level="a">
                      <ref target="people.html#LennoxCharlotte">MRS.
                                 LENNOX.</ref>
                      <hi rendition="#sup">
-                        <note place="foot">
+                        <note>
                            <title level="m">
                               <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
@@ -613,7 +670,7 @@
                   <hi rendition="#italics">
                      <ref target="people.html#BrumoyPierre">Brumoy</ref>'s Greek Theatre</hi>
                </title>.<hi rendition="#sup">
-                  <note place="foot">Lennox published her translation, <hi rendition="#italics">
+                  <note>Lennox published her translation, <hi rendition="#italics">
                         <title>Memoirs of <ref target="people.html#DukeofSully">Maximilian de Bethune, Duke
                                         of Sully</ref>
                         </title>
@@ -647,8 +704,11 @@
                     ancient ones of chivalry, but the languishing love romances of the <ref target="people.html#LaCalprenede">Calprenéde</ref>s and <ref target="people.html#ScuderyMadeleine">Scuderi</ref>s. Arabella, the heroine,
                     is supposed to have been brought up in the country, and secluded, during the
                     life of her father, from all society, but allowed to amuse herself in an old
-                    library furnished with the works of those voluminous authors. Of course she <fw type="vol" rendition="#smcaps" place="bottom-left">vol. xxiv.</fw>
-               <milestone unit="signature" n="a" rendition="#center"/>
+                    library furnished with the works of those voluminous authors. Of course she <lb/>
+               <fw type="vol">
+                  <hi rendition="#smcaps">vol. xxiv.</hi>
+               </fw>
+               <fw type="sig">a</fw>
                <pb n="ii"/>imbibes their sentiments, and at her father's death she comes
                     out into the world, possessed of beauty and fortune, but with a profound
                     ignorance of every circumstance of real life and manners. She fancies every man
@@ -673,7 +733,7 @@
                     possesses a great knowledge of history and of the ancients, and whom she
                     strangely perplexes by questions and anecdotes of Cyrus, and Cletia, and
                     Horatius Cocles,<hi rendition="#sup">
-                  <note place="foot">Characters in the
+                  <note>Characters in the
                             various French fictions that <ref target="people.html#LennoxCharlotte">Lennox</ref>'s novel spoofs, based on historical
                         figures.</note>
                </hi> which he cannot explain or answer by any information
@@ -719,7 +779,7 @@
                     plays, in the well-known humorous parody of them in <ref target="people.html#AntiJacobin">
                   <title>The Anti-Jacobin</title>
                </ref>!<hi rendition="#sup">
-                  <note place="foot">From "<title>The Rovers; or, the
+                  <note>From "<title>The Rovers; or, the
                                 Double Arrangement</title>" (<title>
                         <hi rendition="#italics">Anti-Jacobin; or, Weekly Examiner</hi>
                      </title> no. 31 [11 June

@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Clara Reeve</title>
-            <title type="subordinate" level="m">The British Novelists</title>
+            <title type="sub" level="m">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -37,7 +38,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="subordinate">with an Essay and Prefaces,
+                  <title type="sub">with an Essay and Prefaces,
                             Biographical and Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
@@ -54,6 +55,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -295,7 +343,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -508,11 +556,20 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="8">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#LM" when="20200611" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -527,7 +584,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+               <item>Added new taxonomies into headers</item>
             </list>
          </change>
          <change who="#MW" when="2016-07-15" n="4">
@@ -566,16 +623,16 @@
             <head>
                <bibl>
                   <author type="writer">
-                     <lb rendition="#center"/>
                      <ref target="people.html#BarbauldMrs">
                         <name>Anna Letitia Barbauld</name>
                      </ref>
                   </author>
+                  <lb/>
                   <title type="main" level="a">
                      <ref target="people.html#ReeveClara">CLARA
                                 REEVE.</ref>
                      <hi rendition="#sup">
-                        <note place="foot">
+                        <note>
                            <title level="m">
                               <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
@@ -618,8 +675,11 @@
                     manners such as they are supposed to be in chivalrous times. The story is simple
                     and well connected: it turns upon the discovery of a murder, and the consequent
                     restoration of an heir to his title and estate. The opening is
-                    striking:—Sir Philip, the old baron, is a fine character; the man- <fw type="vol" rendition="#smcaps" place="bottom-left">vol. xxii.</fw>
-               <milestone n="a" rendition="#center" unit="signature"/>
+                    striking:—Sir Philip, the old baron, is a fine character; the man- <lb/>
+               <fw type="vol">
+                  <hi rendition="#smcaps">vol. xxii.</hi>
+               </fw>
+               <fw type="sig">a</fw>
                <pb n="ii"/> ners and dialogue of the peasants are sufficiently well executed. </p>
             <p> With regard to the wonderful part of the story, the writer does not, like <ref target="people.html#WalpoleHorace">the author of <hi rendition="#italics">
                      <title>The Castle of Otranto</title>
@@ -667,7 +727,7 @@
                     straitened in my circumstances, and used my pen to support a scanty
                     establishment; yet, to the best of my knowledge, I have drawn it on the side of
                     truth, virtue and morality." <hi rendition="#sup">
-                  <note place="foot">Ipswich, April 18, 1792. "<title>An Account of Clara
+                  <note>Ipswich, April 18, 1792. "<title>An Account of Clara
                             Reeve</title>" <title>
                         <hi rendition="#italics">Monthly
                                     Magazine</hi>

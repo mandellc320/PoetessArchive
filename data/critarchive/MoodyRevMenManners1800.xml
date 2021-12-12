@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Review of Men and Manners</title>
-            <title type="subordinate" level="j">Monthly Review</title>
+            <title type="sub" level="j">Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -38,8 +39,8 @@
                   <title type="main" level="j">Monthly Review</title>
                   <imprint>
                      <date when="1800-02">February 1800</date>
-                     <biblScope unit="vol">31 (new series)</biblScope>
-                     <biblScope unit="no"/>
+                     <biblScope unit="series">second</biblScope>
+                     <biblScope unit="volume">31</biblScope>
                      <biblScope unit="page">136-141</biblScope>
                   </imprint>
                </monogr>
@@ -49,30 +50,51 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “, " for ”, '
-						for ‘, and ' for ’.</p>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-						keyboard</p>
-               <p>Em-dashes have been rendered as —</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
             </hyphenation>
-            <normalization method="markup">
-               <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
-               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+            <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
             </normalization>
-            <normalization>
+            <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
                <p>All other characters, those with accents, non-breaking spaces, etc., have
 						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -522,15 +544,17 @@
             <catRef target="#ag9 #ag35" scheme="#ag"/>
             <catRef target="#f13" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef target="#g72 #g31 #g50" scheme="#g"/>
+            <catRef scheme="#g" target="#g72 #g31 #g50"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-18" n="5">
@@ -576,21 +600,33 @@
          <div type="essay">
             <head>
                <bibl>
-                  <lb rendition="#center"/>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
                         <name>Elizabeth
 								Moody</name>
                      </ref>
                   </author>
+                  <lb/>
                   <title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. V. <hi rendition="#italics">Men and Manners</hi>. By <ref target="people.html#LathomFrancis">Francis Lathom</ref>. 12mo. 4
 							Vols. 14s. sewed. Wright, &amp;c. 1799. <hi rendition="#sup">
-                        <note place="foot">
+                        <note>
                            <title>
                               <hi rendition="#italics">Monthly
 										Review</hi>
-                           </title> 31 (new series) February 1800, pages
-									136-141. This edition of this review was prepared for <hi rendition="#italics">The Criticism Archive</hi> by Maegan
+                           </title>, second series, volume 31, February 1800, pages
+								136-141. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
+                              <name>Elizabeth Moody</name>
+                           </ref> as the author of this review from an editor's
+								marked copy of <hi rend="#italics">
+                              <title>
+                                 <ref target="people.html#ReviewMonthly">The Monthly
+									Review</ref>
+                              </title>
+                           </hi>. See Nangle, <hi rendition="#italics">
+                              <title>The Montly Review, Second
+											Series, 1790-1815: Indexes of Contributors and
+											Articles</title>
+                           </hi>, Clarendon Press, 1955. This edition of this review was prepared for <hi rendition="#italics">The Criticism Archive</hi> by Maegan
 									Bull and Mary A. Waters.</note>
                      </hi>
                   </title>
@@ -616,7 +652,7 @@
 						in such vicious ones, as he had never before dreamt of;—his sentiments
 						and manners underwent as speedy a metamorphose, as the house and furniture
 						of Goody Baucis and her good man Philemon.<hi rendition="#sup">
-                     <note place="foot">From <ref target="people.html#SwiftJonathan">Jonathan
+                     <note>From <ref target="people.html#SwiftJonathan">Jonathan
 									Swift</ref>'s <hi rendition="#italics">
                            <title>Baucis and
 										Philemon, Imitated from Ovid</title>
@@ -816,12 +852,13 @@
 					defective intellects. Prolixity is the great fault of this author, and it is
 					indeed too common an error. It is to be wished that writers of all descriptions
 					would study the <hi rendition="#italics">multum in parvo</hi>,<hi rendition="#sup">
-                  <note place="foot">Much matter within a small
+                  <note>Much matter within a small
 						compass.</note>
                </hi> and the happy art of compressing. <hi rendition="#italics">How</hi> to <hi rendition="#italics">begin</hi>, and
 						<hi rendition="#italics">how</hi> to <hi rendition="#italics">finish</hi>,
 					are points of difficulty: but <hi rendition="#italics">when</hi> to <hi rendition="#italics">finish</hi> requires the most resolution. </p>
-            <milestone unit="signature" n="9" rendition="#center"/>
+            <lb/>
+            <fw type="sig">9</fw>
          </div>
       </body>
    </text>

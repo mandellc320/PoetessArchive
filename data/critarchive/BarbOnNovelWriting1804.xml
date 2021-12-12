@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns:PA="http://www.poetessarchive.org/#schema" type="text">
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">"On Novel Writing"</title>
-            <title type="subordinate" level="j">The Literary Magazine and American
+            <title type="sub" level="j">The Literary Magazine and American
 					Register</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
@@ -37,8 +38,9 @@
 							Register</title>
                   <imprint>
                      <date when="1804-12">December 1804</date>
-                     <biblScope unit="vol">2</biblScope>
-                     <biblScope unit="no">15</biblScope>
+                     <biblScope unit="series"/>
+                     <biblScope unit="volume">2</biblScope>
+                     <biblScope unit="issue">15</biblScope>
                      <biblScope unit="page">693-98</biblScope>
                   </imprint>
                </monogr>
@@ -46,6 +48,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -287,7 +336,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -495,15 +544,24 @@
             <catRef target="#ag9 #ag12" scheme="#ag"/>
             <catRef target="#f13" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef target="#g72 #g30 " scheme="#g"/>
+            <catRef scheme="#g" target="#g72 #g30 "/>
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change who="#LM" when="20210922" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
          <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added full text taxonomy</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="5">
@@ -518,7 +576,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+               <item>Added new taxonomies into headers</item>
             </list>
          </change>
          <change who="#MW" when="2016-07-15" n="3">
@@ -550,30 +608,27 @@
          <div type="essay">
             <head>
                <bibl>
-                  <lb rendition="#center"/>
                   <author type="writer">
                      <ref target="people.html#BarbauldMrs">
-                        <name>Anna Letitia
-								Barbauld</name>
+                        <name>Anna Letitia Barbauld</name>
                      </ref>
                   </author>
-                  <lb rendition="#center"/>
+                  <lb/>
                   <title type="main" level="a">
                      <hi rendition="#smcaps">
-                        <lb rendition="#center"/>on novel writing</hi>.<lb rendition="#center"/>
+                        <lb/>on novel writing</hi>.<lb/>
                      <hi rendition="#italics">
                         <ref target="people.html#BarbauldMrs">By
 									Mrs. Barbauld.</ref>
                      </hi>
-                     <hi rendition="#sup">
-                        <note place="foot">
-                           <title level="j">
-                              <hi rendition="#italics">The Literary
+                     <note>
+                        <title level="j">
+                           <hi rendition="#italics">The Literary
 											Magazine and American Register</hi>
-                           </title> 2.15
+                        </title> 2.15
 									(December 1804): 693-698. The <title>
-                              <hi rendition="#italics">Literary Magazine and American Register</hi>
-                           </title>
+                           <hi rendition="#italics">Literary Magazine and American Register</hi>
+                        </title>
 									was a semi-annual publication edited from 1803-1807 by <ref target="people.html#BrownCharles">Charles Brockden
 										Brown</ref>. Readers may wish to compare this text with <ref target="people.html#BarbauldMrs">Barbauld</ref>'s
 									essays <title>"The Life of <ref target="people.html#RichardsonSamuel">Samuel
@@ -581,7 +636,6 @@
 										<title>"On the Origin and Progress of
 										Novel-Writing"</title>
 						(1810).</note>
-                     </hi>
                   </title>
                </bibl>
             </head>
@@ -640,26 +694,24 @@
 					last step in the progress of civilization.</p>
             <p> We know the character of the romances of chivalry....<title>Amadis de
 						Gaul</title> at their head, with whose merits the English reader has lately
-					been made acquainted, in an elegant abridged version.<hi rendition="#sup">
-                  <note place="foot">
-                     <hi rendition="#italics">
-                        <title>Amadis de
+					been made acquainted, in an elegant abridged version.<note>
+                  <hi rendition="#italics">
+                     <title>Amadis de
 								Gaule</title>
-                     </hi> is an early-sixteenth century romance by <ref target="people.html#RodriquezdeMontalvo">Rodríguez de
+                  </hi> is an early-sixteenth century romance by <ref target="people.html#RodriquezdeMontalvo">Rodríguez de
 								Montalvo"</ref> with versions preceeding it by a century or more.
 								<ref target="people.html#SoutheyRobert">Robert Southey</ref>'s
 							translation into English appeared in 1803. </note>
-               </hi> They were truly
+                They were truly
 					historical, but they heightened the traditionary adventures of heroes with
 					marvellous tales of giants, enchantments, and other supernatural contrivances.
 					But we must not suppose that even these fictions were always regarded, as we now
 					regard them, as the mere play of fancy: "<hi rendition="#italics">le vrai
-						seul est aimable</hi>" <hi rendition="#sup">
-                  <note place="foot">"the truth alone is beautiful"; <ref target="people.html#Boileau">Boileau</ref>, <title>
-                        <hi rendition="#italics">Epitre IX</hi>
-                     </title> (1674) 43.
+						seul est aimable</hi>"<note>"the truth alone is beautiful"; <ref target="people.html#Boileau">Boileau</ref>, <title>
+                     <hi rendition="#italics">Epitre IX</hi>
+                  </title> (1674) 43.
 						</note>
-               </hi> was always so far a maxim, that no work of fancy can greatly
+                was always so far a maxim, that no work of fancy can greatly
 					succeed, which is not founded on popular belief: but what is truth? In ancient
 					times, talismans, and sympathetic powders, and all-healing charms, were
 					generally credited.</p>
@@ -669,16 +721,14 @@
                   <hi rendition="#italics">Orlando
 						Furioso</hi>
                </title>
-               <hi rendition="#sup">
-                  <note place="foot">By <ref target="people.html#Ariosto">Ariosto</ref>.</note>
-               </hi> is a
+               <note>By <ref target="people.html#Ariosto">Ariosto</ref>.</note>
+                is a
 					chivalrous romance in verse. </p>
             <p> As the spirit of warlike adventure subsided, these fictions softened, by
 					degrees, into the languishing and amorous tales of the French school....into
-						<title>Clelias</title> and <title>Cassandras</title>.<hi rendition="#sup">
-                  <note place="foot">Novels by <ref target="people.html#ScuderyMadeleine">Mme. de Scudéry</ref> and <ref target="people.html#LaCalprenede">La Calprenède</ref>
+						<title>Clelias</title> and <title>Cassandras</title>.<note>Novels by <ref target="people.html#ScuderyMadeleine">Mme. de Scudéry</ref> and <ref target="people.html#LaCalprenede">La Calprenède</ref>
 							respectively.</note>
-               </hi> I might, indeed, have mentioned, before these,
+                I might, indeed, have mentioned, before these,
 					a romance of a peculiar kind, the <title>Astrea</title> of <ref target="people.html#UrfeHonored">d' Urfé</ref>, which all France
 					read with eagerness, when first published. It is a pastoral romance, and its
 					celebrity was owing to its abounding with allusions to the amours of the court
@@ -719,18 +769,16 @@
 					and considered as forming a new era in works of invention. <ref target="people.html#Voltaire">Voltaire</ref> says they were "the first
 					romances in which were seen natural incidents, and the manners of good company,
 					described with elegance. Before her time, improbable adventures were related in
-					a turgid and affected style."<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#Voltaire">Voltaire</ref>, "Ecrivains,
+					a turgid and affected style."<note>
+                  <ref target="people.html#Voltaire">Voltaire</ref>, "Ecrivains,
 							don't plusieurs on illustré le siécle," one of a
 							series of catalogs included in <title>
-                        <hi rendition="#italics">Le Siecle
+                     <hi rendition="#italics">Le Siecle
 									de <ref target="people.html#LouisXIVKingofFrance">Louis
 										XIV</ref>
-                        </hi>
-                     </title> (1751; London: R. Dodsley, 1752)
+                     </hi>
+                  </title> (1751; London: R. Dodsley, 1752)
 							2:486. Other editions position these catalogs differently.</note>
-               </hi>
 					The novels of <ref target="people.html#LaFayetteMadame">Madame la Fayette</ref>
 					are certainly beautiful, but a step is still wanting; they no longer speak,
 					indeed, of <ref target="people.html#AlexandertheGreat">Alexander</ref>s and <ref target="people.html#BrutusMarcus">Brutus</ref>'s, still less of giants
@@ -784,18 +832,16 @@
 						<ref target="people.html#PopeAlexander">Pope</ref> which promises it
 					immortality: <quote>
                   <lg type="stanza">
-                     <l>As long as <title>Atalantis</title> shall be read.<hi rendition="#sup">
-                           <note place="foot">
-                              <ref target="people.html#PopeAlexander">Alexander
+                     <l>As long as <title>Atalantis</title> shall be read.<note>
+                           <ref target="people.html#PopeAlexander">Alexander
 										Pope</ref>'s comment on <title>
-                                 <hi rendition="#italics">The New Atalantis</hi>
-                              </title> (1709) by <ref target="people.html#ManleyMrs">Delariviere Manley</ref>
+                              <hi rendition="#italics">The New Atalantis</hi>
+                           </title> (1709) by <ref target="people.html#ManleyMrs">Delariviere Manley</ref>
 										appears in <title>
-                                 <hi rendition="#italics">The Rape of the
+                              <hi rendition="#italics">The Rape of the
 												Lock</hi>
-                              </title>, Canto III, line
+                           </title>, Canto III, line
 								165.</note>
-                        </hi>
                      </l>
                   </lg>
                </quote> It was, like <title>Astrea</title>, filled with fashionable
@@ -807,14 +853,13 @@
 					ladies' library, described in the <title>Spectator</title>, contains
 						"<title>the Grand Cyrus</title>, with a pin stuck in one of the leaves,
 					and <title>Clelia</title>, which opened of itself in the place that describes
-					two lovers in a bower;"<hi rendition="#sup">
-                  <note place="foot">
-                     <title>
-                        <hi rendition="#italics">Spectator</hi>
-                     </title> No. 37 (Thursday,
+					two lovers in a bower;"<note>
+                  <title>
+                     <hi rendition="#italics">Spectator</hi>
+                  </title> No. 37 (Thursday,
 							April 12, 1711). The novels are by <ref target="people.html#UrfeHonored">d'Urfé</ref> and <ref target="people.html#ScuderyMadeleine">Mme. de
 							Scudéry</ref>.</note>
-               </hi> but there does not occur either there,
+                but there does not occur either there,
 					or, I believe, in any other part of the work, the name of one English novel, the
 						<title>Atalantis</title> excepted. Plays are often mentioned as a favourite
 					and dangerous part of ladies' reading. </p>
@@ -850,13 +895,12 @@
 					theatre of life. It was the high and just praise given by our great critic, Dr.
 						<ref target="#JohnsonSamuel">Johnson</ref>, to this author, that he had
 					enlarged the knowledge of human nature, and taught the passions to move at the
-					command of virtue.<hi rendition="#sup">
-                  <note place="foot">
-                     <title>
-                        <hi rendition="#italics">Rambler</hi>
-                     </title> 97 (Tuesday, February
+					command of virtue.<note>
+                  <title>
+                     <hi rendition="#italics">Rambler</hi>
+                  </title> 97 (Tuesday, February
 							19, 1751).</note>
-               </hi> The novelist has, indeed, all the advantage of
+                The novelist has, indeed, all the advantage of
 					the preacher in introducing useful maxims and sentiments of virtue; an advantage
 					which <ref target="people.html#RichardsonSamuel">Richardson</ref> made large use
 					of; and he has besides the power of impressing them upon the heart, through the

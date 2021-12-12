@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">On the Origin and Progress of Novel-Writing.</title>
-            <title type="subordinate" level="m">The British Novelists</title>
+            <title type="sub" level="m">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -38,7 +39,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="subordinate">with an Essay and Prefaces,
+                  <title type="sub">with an Essay and Prefaces,
 							Biographical and Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
@@ -55,6 +56,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -296,7 +344,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -508,11 +556,20 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="9">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#LM" when="20200611" n="8">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="7">
@@ -527,7 +584,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+               <item>Added new taxonomies into headers</item>
             </list>
          </change>
          <change who="#MW" when="2016-08-08" n="5">
@@ -580,15 +637,15 @@
 								Barbauld</ref>
                      </name>
                   </author>
+                  <lb/>
                   <title type="main" level="a">"On the Origin and Progress of
-								Novel-Writing"<hi rendition="#sup">
-                        <note place="foot">
-                           <hi rendition="#italics">
-                              <title>The British Novelists</title>;
+								Novel-Writing"<note>
+                        <hi rendition="#italics">
+                           <title>The British Novelists</title>;
 											<title>with an Essay, and Prefaces Biographical and
 											Critical, by Mrs. <ref target="people.html#BarbauldMrs">Barbauld</ref>
-                              </title>
-                           </hi>, 50 vols. (London:
+                           </title>
+                        </hi>, 50 vols. (London:
 									Printed for F.C. and J. Rivington; W. Otridge and Son; A.
 									Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
 									Scatcherd and Letterman; J. Walker; J. Cuthell; Vernor, Hood,
@@ -600,11 +657,10 @@
 									Asperne; R. Baldwin; Mathews and Leigh; J. Faulder; Johnson and
 									Co.; Sherwood and Co.; J. Miller; W. Creech, Edinburgh; and
 									Wilson and Son, York, 1810), 1:1-62.</note>
-                     </hi>
                   </title>
                </bibl>
             </head>
-            <p rendition="#pnoindent">A <hi rendition="#smcaps">Collection</hi> of Novels has a
+            <p rendition="#noindent">A <hi rendition="#smcaps">Collection</hi> of Novels has a
 					better chance of giving pleasure than of commanding respect. Books of this
 					description are condemned by the grave, and despised by the fastidious; but
 					their leaves are seldom found unopened, and they occupy the parlour and the
@@ -614,11 +670,12 @@
 					Fictitious adventures, in one form or other, have made a part of the polite
 					literature of every age and nation. These have been grafted upon the actions of
 					their heroes; they have been interwoven with their mythology; they have been
-					moulded upon <fw type="vol" place="bottom-left">
+					moulded upon <lb/>
+               <fw type="vol">
                   <hi rendition="#smcaps">vol.
 							i.</hi>
                </fw>
-               <milestone unit="signature" n="b" rendition="#center"/>
+               <fw type="sig">b</fw>
                <pb n="2"/> the manners of the age,—and, in return, have influenced the
 					manners of the succeeding generation by the sentiments they have infused and the
 					sensibilities they have excited. </p>
@@ -652,15 +709,13 @@
 					the grave, impressive moral resulting from the whole, imply talents of the
 					highest order, and ought to be appretiated accordingly. A good novel is an epic
 					in prose, with more of character and less (indeed in modern novels nothing) of
-					the supernatural machinery.<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#FieldingHenry">Henry Fielding</ref> describes
+					the supernatural machinery.<note>
+                  <ref target="people.html#FieldingHenry">Henry Fielding</ref> describes
 							his comic novel <hi rendition="#italics">
-                        <title>The History of the
+                     <title>The History of the
 									Adventures of Joseph Andrews</title>
-                     </hi> (1742) as a
+                  </hi> (1742) as a
 							"comic Epic-Poem in Prose." </note>
-               </hi>
             </p>
             <p>If we look for the origin of fictitious tales and adventures, we shall be obliged
 					to go to the earliest accounts of the literature of every age and country. The
@@ -673,17 +728,17 @@
 					prose through a variety of forms, may be traced up to this source. From Persia
 					the taste passed into the soft and luxurious Ionia. <title>The <hi rendition="#italics">Milesian Tales</hi>
                </title>, written by <ref target="people.html#Aristides">Aristides of Miletus</ref>, at what time is
-					not exactly known, <milestone n="b 2" unit="signature"/>
+					not exactly known, <lb/>
+               <fw type="sig">b 2</fw>
                <pb n="4"/> seem to have
 					been a kind of novels. They were translated into Latin during the civil wars of
 						<ref target="people.html#Marius">Marius</ref> and <ref target="people.html#SullaLucius">Sylla</ref>. They consisted of loose love
 					stories, but were very popular among the Romans; and the Parthian general who
 					beat <ref target="people.html#Crassus">Crassus</ref>
-               <hi rendition="#sup">
-                  <note place="foot">The first century Parthian leader Surena defeated the
+               <note>The first century Parthian leader Surena defeated the
 							Romans under <ref target="people.html#Crassus">Crassus</ref> in the
 							Battle of Carrhae near modern day Turkey.</note>
-               </hi> took occasion,
+                took occasion,
 					from his finding a copy of them amongst the camp equipage, to reproach that
 					nation with effeminacy, in not being able, even in time of danger, to dispense
 					with such an amusement. From Ionia the taste of romances passed over to the
@@ -720,7 +775,8 @@
 					into the middle of the story, the preceding events are given in narration. The
 					description of the manner of life of the pirates at the mouth of the Nile is
 					curious, and no doubt historical. It shows that, as well then as in <ref target="people.html#Homer">Homer</ref>'s time, piracy was looked upon
-					as a <milestone n="b 3" unit="signature"/>
+					as a <lb/>
+               <fw type="sig">b 3</fw>
                <pb n="6"/> mode of honourable war,
 					and that a captain who treated the women with respect, and took a regular ransom
 					for his captives, and behaved well to his men, did not scruple to rank himself
@@ -744,11 +800,10 @@
 							Ass</title>
                </hi> of <ref target="people.html#Apuleius">Apuleius</ref>
 					may be reckoned such. In it is found the beautiful episode of Cupid and Psyche,
-					which has been elegantly modernized by <ref target="people.html#LaFontaineJean">Fontanelle</ref>.<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#LaFontaineJean">La Fontaine</ref> in the 1820
+					which has been elegantly modernized by <ref target="people.html#LaFontaineJean">Fontanelle</ref>.<note>
+                  <ref target="people.html#LaFontaineJean">La Fontaine</ref> in the 1820
 							version. </note>
-               </hi> But romance writing was destined to revive with
+                But romance writing was destined to revive with
 					greater splendour under the Gothic powers, and it sprung out of the histories of
 					the times, enlarged and exaggerated into fable. Indeed all fictions have
 					probably grown out of real adventures. The actions of heroes would be the most
@@ -796,19 +851,18 @@
 					under the title of <hi rendition="#italics">
                   <title>Brut
 							d'Angleterre</title>
-               </hi>.<hi rendition="#sup">
-                  <note place="foot">
-                     <hi rendition="#italics">
-                        <title>Brut d'Angleterre</title>
-                     </hi>
+               </hi>.<note>
+                  <hi rendition="#italics">
+                     <title>Brut d'Angleterre</title>
+                  </hi>
 							is a chronicle of legendary British history by <ref target="people.html#Wace">Robert Wace</ref> based on <ref target="people.html#ageoffryofMonmouth">Geoffrey of
 							Monmouth</ref>'s <hi rendition="#italics">
-                        <title>Historia regum
+                     <title>Historia regum
 									Britanniae</title>
-                     </hi> and featuring the deeds of <ref target="people.html#Arthur">King Arthur</ref> and his knights. <ref target="people.html#Wace">Wace</ref>'s adaptations were the
+                  </hi> and featuring the deeds of <ref target="people.html#Arthur">King Arthur</ref> and his knights. <ref target="people.html#Wace">Wace</ref>'s adaptations were the
 							source of the legends of <ref target="people.html#Merlin">Merlin the
 								magician</ref>.</note>
-               </hi> It is full o£ the grossest anachronisms.
+                It is full o£ the grossest anachronisms.
 						<hi rendition="#italics">
                   <ref target="people.html#Merlin">Merlin</ref>
                </hi>,
@@ -834,16 +888,14 @@
 					Mr. <ref target="people.html#SoutheyRobert">Southey</ref>; but notwithstanding
 					he has considerably abridged its tediousness, a sufficiency of that ingredient
 					remains to make it rather a task to go through a work which was once so great a
-						favourite.<hi rendition="#sup">
-                  <note place="foot">
-                     <hi rendition="#italics">
-                        <title>Amadis de Gaule</title>
-                     </hi> is an early-sixteenth
+						favourite.<note>
+                  <hi rendition="#italics">
+                     <title>Amadis de Gaule</title>
+                  </hi> is an early-sixteenth
 							century romance by <ref target="people.html#RodriquezdeMontalvo">Rodríguez de Montalvo"</ref> with versions preceeding it by a
 							century or more. <ref target="people.html#SoutheyRobert">Robert
 								Southey</ref>'s translation into English appeared in 1803.
 						</note>
-               </hi>
                <hi rendition="#italics">
                   <title>Palmerin of England</title>
                </hi>, <hi rendition="#italics">
@@ -910,10 +962,11 @@
 					machinery a strange mixture of wood nymphs and druids. The work is full of
 					anachronisms, but the time is supposed to be in the reign of <ref target="people.html#Pharamond">Pharamond</ref> or his successors. The tale
 					begins with the lover, who is under the displeasure of his mistress, throwing
-					himself into the water, where he narrowly escapes drowning <fw type="vol" place="bottom-left">
+					himself into the water, where he narrowly escapes drowning <lb/>
+               <fw type="vol">
                   <hi rendition="#smcaps">vol. i.</hi>
                </fw>
-               <milestone unit="signature" n="c" rendition="#center"/>
+               <fw type="sig">c</fw>
                <pb n="14"/> at the very outset
 					of the piece. We find here the <hi rendition="#italics">fountain of love</hi>,
 					in which if a man looks, he sees, if he is beloved, the face of his mistress;
@@ -931,13 +984,11 @@
 					giants and enchanters, a new style of fictitious writing was introduced, not
 					less remote from nature, in the romances <hi rendition="#italics">de longue
 						haleine</hi>, which originated in France, and of which <ref target="people.html#LaCalprenede">Calprénede</ref> and <ref target="people.html#ScuderyMadeleine">Mad. Scudery</ref> were the most
-					distinguished authors.<hi rendition="#sup">
-                  <note place="foot">Literally, the
+					distinguished authors.<note>Literally, the
 							"long-winded novel." Popular in early seventeenth-century France, these
 							episodic, sentimental novels routinely stretched to ten or twelve
 							volumes. A few of the most respected writers in this vein included <ref target="people.html#LaCalprenede">Calprenède</ref>, <ref target="people.html#UrfeHonored">d'Urfé</ref>, and <ref target="people.html#ScuderyMadeleine">Scudéry</ref>. Thanks to
 							my colleague Brigitte Roussel for assistance with this note.</note>
-               </hi>
 					The principle of these was high honour, impregnable chastity, a constancy
 					unshaken by time or accident, and a species of love so exalted and refined, <pb n="15"/> that it bore little resemblance to a natural passion. These, in the
 					construction of the story, came nearer to real life than the former had done.
@@ -960,7 +1011,8 @@
                   <title>Cassandra</title>
                </hi> of <ref target="people.html#ScuderyMadeleine">Scudery</ref>. The complimentary
 					language of these productions seems to have influenced the intercourse of common
-					life, at <milestone unit="signature" n="c 2"/>
+					life, at <lb/>
+               <fw type="sig">c 2</fw>
                <pb n="16"/> least in the
 					provinces, for <ref target="people.html#Boileau">Boileau</ref> introduces in his
 					satires— <quote>
@@ -972,18 +1024,16 @@
                      <l>
                         <hi rendition="#italics">Qui m'ont dit tout Cyrus dans leurs
 									longs complimens.</hi>
-                        <hi rendition="#sup">
-                           <note place="foot">"Two rural nobles,
+                        <note>"Two rural nobles,
 										great readers of novels/ who spoke to me just like Cyrus in
 										their tedious compliments," "<title>Satire
 											III</title>" (1666) 43-4. <ref target="people.html#Boileau">Boileau</ref> refers to
 											<ref target="people.html#ScuderyMadeleine">Scudéry</ref>'s <hi rendition="#italics">
-                                 <title>Artamène ou Le Grand Cyrus</title>
-                              </hi>
+                              <title>Artamène ou Le Grand Cyrus</title>
+                           </hi>
 										(1649-1653), which she published under the name of her
 										brother, <ref target="people.html#ScuderyGeorges">Georges de
 											Scudéry</ref>.</note>
-                        </hi>
                      </l>
                   </lg>
                </quote> The same author made a more direct attack upon these
@@ -1029,7 +1079,8 @@
 					founded on intrigue, but the nobler passions were seldom touched. The <hi rendition="#italics">
                   <title>Roman Comique</title>
                </hi> of <ref target="people.html#Scarron">Scarron</ref> is a regular piece of its kind.
-					Its subject is the adventures of set <milestone unit="signature" n="c 3"/>
+					Its subject is the adventures of set <lb/>
+               <fw type="sig">c 3</fw>
                <pb n="18"/> of strolling players. Comic humour it certainly possesses, but the
 					humour is very coarse and the incidents mostly low. <ref target="people.html#SmollettTobias">Smollet</ref> seems to have formed
 					himself very much upon this model.—But the <hi rendition="#italics">
@@ -1042,16 +1093,15 @@
 					they were "<hi rendition="#italics">les premiers romans où l'on
 						vit les mœurs des honnêtes gens, et des avantures naturelles
 						décrites avec grace. Avant elle on écrivoit d'un stile
-						empoulé des choses peu vraisemblables.</hi>"<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#Voltaire">Voltaire</ref>,
+						empoulé des choses peu vraisemblables.</hi>"<note>
+                  <ref target="people.html#Voltaire">Voltaire</ref>,
 							"Ecrivains, dont plusieurs on illustré le siécle,"
 							one of a series of catalogs included in <hi rendition="#italics">
-                        <title>Le Siécle de Louis XIV</title>
-                     </hi> (1751; London:
+                     <title>Le Siécle de Louis XIV</title>
+                  </hi> (1751; London:
 							R. Dodsley, 1752) 2:486. Other editions position these catalogs
 							differently.</note>
-               </hi> "They were the first novels which gave the
+                "They were the first novels which gave the
 					manners of cultivated life and natural incidents related with elegance. Before
 					the time of this lady, the style of these productions was affectedly turgid, and
 					the adventures out of nature." The modesty of <ref target="people.html#LaFayetteMadame">Mad. de la Fayette</ref> led her to
@@ -1115,11 +1165,10 @@
 					his own romantic country, or his peculiar cast of moral sentiment,—a charm
 					is spread over every part of the work, which scarcely leaves the judgement free
 					to condemn what in it is dangerous or reprehensible. His are truly the
-					"Thoughts that <pb n="21"/> breathe and words that burn."<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#agrayThomas">Thomas Gray</ref>, "<title>The Progress of Poesy, A Pindaric
+					"Thoughts that <pb n="21"/> breathe and words that burn."<note>
+                  <ref target="people.html#agrayThomas">Thomas Gray</ref>, "<title>The Progress of Poesy, A Pindaric
 								Ode</title>" (1754) 110.</note>
-               </hi> He has hardly any thing of
+                He has hardly any thing of
 					story; he has but few figures upon his canvass; he wants them not; his
 					characters are drawn more from a creative imagination than from real life, and
 					we wonder that what has so little to do with nature should have so much to do
@@ -1245,10 +1294,11 @@
 					examine into our ideas of the Henries and Richards of English history, we shall
 					perhaps find that they are as much drawn from <ref target="people.html#ShakespeareWilliam">Shakespear</ref> as from <ref target="people.html#HumeDavid">Hume</ref> or <ref target="people.html#RapindeThoyras">Rapin</ref>. Some of our English
 					romances are very faulty in this respect. A lady confessed that she could never
-					get over a prejudice against the <fw type="vol" place="bottom-left">
+					get over a prejudice against the <lb/>
+               <fw type="vol">
                   <hi rendition="#smcaps">vol. i.</hi>
                </fw>
-               <milestone unit="signature" n="d" rendition="#center"/>
+               <fw type="sig">d</fw>
                <pb n="26"/> character of our <ref target="people.html#ElizabethIQueenofEngland">Elizabeth</ref>, arising from
 					her cruelty to two imaginary daughters of <ref target="people.html#MaryQueenofScots">Mary Queen of Scots</ref>, who never
 					existed but in the pages of a novel. The more art is shown, and much is often
@@ -1260,13 +1310,11 @@
 						Reeves</ref>, [<hi rendition="#italics">sic</hi>] has many curious
 					particulars of the customs of that age; but the manners of his court are drawn
 					with such a splendid colouring of heroic virtue, as certainly neither that court
-					nor any other ever deserved.<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#BarbauldMrs">Barbauld</ref> refers to <ref target="people.html#ReeveClara">Clara Reeve</ref>'s <hi rendition="#italics">
-                        <title>Memoirs of Sir Roger de
+					nor any other ever deserved.<note>
+                  <ref target="people.html#BarbauldMrs">Barbauld</ref> refers to <ref target="people.html#ReeveClara">Clara Reeve</ref>'s <hi rendition="#italics">
+                     <title>Memoirs of Sir Roger de
 									Clarendon</title>
-                     </hi> (1793). </note>
-               </hi>
+                  </hi> (1793). </note>
             </p>
             <p>Among the authors of preceptive novels, <ref target="people.html#agenlisStephanie">Mad. Genlis</ref> stands very high. Her <hi rendition="#italics">
                   <title>Adele et Théodore</title>
@@ -1296,7 +1344,8 @@
 					that a young woman should make it an indispensable condition of marrying an
 					amiable young man, that he will not separate her from her mother. We know in
 					England what filial affection is, and we know it does not rise so high, and we
-					know too that it ought not. There is another <milestone unit="signature" n="d 2"/>
+					know too that it ought not. There is another <lb/>
+               <fw type="sig">d 2</fw>
                <pb n="28"/> objection to <ref target="people.html#agenlisStephanie">Mad.
 						Genlis</ref>' system of education, which applies also to <ref target="people.html#RousseauJeanJacques">Rousseau</ref>'s <hi rendition="#italics">
                   <title>Emile</title>
@@ -1348,7 +1397,8 @@
                </hi> and <hi rendition="#italics">
                   <title>Matilde</title>
                </hi> have given her a deserved
-					celebrity. <milestone unit="signature" n="d 3"/>
+					celebrity. <lb/>
+               <fw type="sig">d 3</fw>
                <pb n="30"/> The latter is
 					however very enthusiastic and gloomy. </p>
             <p>A number of other French writers of this class might have been mentioned, as <ref target="people.html#RiccoboniMarie">Mad. Riccoboni</ref>, <ref target="people.html#EliedeBeaumontMme">Mad. Elie de Beaumont</ref>, the <ref target="people.html#Prevostabbe">Abbé Prévost</ref>, whose <hi rendition="#italics">
@@ -1360,10 +1410,9 @@
 					respectable French novels, there are a number of others, which having passed no
 					license of press, were said to be sold <hi rendition="#italics">sous le
 						manteau,</hi>
-               <hi rendition="#sup">
-                  <note place="foot">Literally, "under
+               <note>Literally, "under
 							the coat," or clandestinely. </note>
-               </hi> and were not therefore
+                and were not therefore
 					the less read. These are not merely exceptionable, they are totally unfit to
 					enter a house where the morals of young people are esteemed an object. They are
 					generally not coarse in language, less so perhaps than many English ones which
@@ -1394,13 +1443,12 @@
 					character, we may well suppose that Werter's delirium of passion will not
 					be less seducing. <ref target="people.html#agoethe">Goethe</ref> has written
 					another novel, much esteemed, it is said, by the Germans, which contains,
-					amongst other things, criticisms on the drama.<hi rendition="#sup">
-                  <note place="foot">
-                     <hi rendition="#italics">
-                        <title>Wilhelm Meisters
+					amongst other things, criticisms on the drama.<note>
+                  <hi rendition="#italics">
+                     <title>Wilhelm Meisters
 									Lehrjahre</title>
-                     </hi> (1795-1796).</note>
-               </hi> The celebrated
+                  </hi> (1795-1796).</note>
+                The celebrated
 						<ref target="people.html#WielandChristoph">Wieland</ref> has composed a
 					great number of works of <pb n="32"/> fiction; the scene of most of them laid in
 					ancient Greece. His powers are great, his invention fertile, but his designs
@@ -1422,29 +1470,27 @@
                </hi>, by <ref target="people.html#SchillerFriedrich">Schiller</ref>, and <hi rendition="#italics">
                   <title>The
 						Sorcerer</title>
-               </hi> by another hand.<hi rendition="#sup">
-                  <note place="foot">
-                     <hi rendition="#italics">
-                        <title>The Sorcerer</title>
-                     </hi>
+               </hi> by another hand.<note>
+                  <hi rendition="#italics">
+                     <title>The Sorcerer</title>
+                  </hi>
 							probably refers to <hi rendition="#italics">
-                        <title>Teufelsbeschwörung</title>
-                     </hi>, by Viet Weber, a
+                     <title>Teufelsbeschwörung</title>
+                  </hi>, by Viet Weber, a
 							pseudonym of <ref target="people.html#WachterLeonhard">Leonhard
 								Wächter</ref>.</note>
-               </hi> These were written to expose the
+                These were written to expose the
 					artifices of the Italian adepts of the school of <ref target="people.html#CagliostroAlessandro">Cagliostro</ref>. It is well known
 					that these were spreading superstition and enthusiasm on the German part of the
 					continent to an alarming degree, and had so worked upon the mind of the late
 					king of Prussia, that he was made to believe he possessed the power of rendering
 					himself invisible, and was wonderfully pleased when one of his courtiers (who,
 					by <pb n="33"/> the way, understood his trade) ran against and jostled him,
-					pretending not to see his Majesty.<hi rendition="#sup">
-                  <note place="foot">The
+					pretending not to see his Majesty.<note>The
 							political effectiveness of Frederick Wilhelm II of Prussia was
 							undermined by his inclination toward mysticism and secret
 							societies.</note>
-               </hi> These have been translated; as also a pleasant
+                These have been translated; as also a pleasant
 					and lively satire on <ref target="people.html#LavaterJohann">Lavater</ref>'s system of physiognomy, written by <ref target="people.html#MusausJohann">Museus</ref>, author of <hi rendition="#italics">
                   <title>Popular Tales of the Germans</title>
                </hi>. The
@@ -1546,14 +1592,12 @@
                      <l>As long as <hi rendition="#italics">
                            <title>Atalantis</title>
                         </hi>
-								shall be read.<hi rendition="#sup">
-                           <note place="foot">
-                              <ref target="people.html#PopeAlexander">Alexander Pope</ref>,
+								shall be read.<note>
+                           <ref target="people.html#PopeAlexander">Alexander Pope</ref>,
 											<hi rendition="#italics">
-                                 <title>The Rape of the
+                              <title>The Rape of the
 												Lock</title>
-                              </hi> 3.165.</note>
-                        </hi>
+                           </hi> 3.165.</note>
                      </l>
                   </lg>
                </quote> It was, like <hi rendition="#italics">
@@ -1568,14 +1612,13 @@
 						<hi rendition="#italics">
                   <title>Dunciad</title>
                </hi> without mercy or
-					delicacy, but her later works are by no means void of merit.<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#PopeAlexander">Alexander
+					delicacy, but her later works are by no means void of merit.<note>
+                  <ref target="people.html#PopeAlexander">Alexander
 								Pope</ref>'s attack on <ref target="people.html#HaywoodEliza">Eliza Haywood</ref> appears in the second and third book of <hi rendition="#italics">
-                        <title>The Dunciad</title>
-                     </hi>
+                     <title>The Dunciad</title>
+                  </hi>
 						(1728).</note>
-               </hi> She wrote <hi rendition="#italics">
+                She wrote <hi rendition="#italics">
                   <title>The Invisible
 							Spy</title>
                </hi>, and <hi rendition="#italics">
@@ -1595,14 +1638,13 @@
 						"<hi rendition="#italics">
                   <title>Clelia</title>
                </hi>, which opened of
-					itself in the place that describes two lovers in a bower:"<hi rendition="#sup">
-                  <note place="foot">
-                     <hi rendition="#italics">
-                        <title>Spectator</title>
-                     </hi> No. 37 (Thursday, April 12,
+					itself in the place that describes two lovers in a bower:"<note>
+                  <hi rendition="#italics">
+                     <title>Spectator</title>
+                  </hi> No. 37 (Thursday, April 12,
 							1711). The novels are by <ref target="people.html#UrfeHonored">d'Urfé</ref> and <ref target="people.html#ScuderyMadeleine">Mme. de
 							Scudéry</ref>.</note>
-               </hi> but there does not occur either there,
+                but there does not occur either there,
 					or, I believe, in any other part of the work, the name of one English novel, the
 						<hi rendition="#italics">
                   <title>Atalantis</title>
@@ -1614,28 +1656,26 @@
                   <title>Robinson
 						Crusoe</title>
                </hi> is to this day an <hi rendition="#italics">unique</hi>
-					in its kind, and he has made it very <fw type="vol" place="bottom-left">
+					in its kind, and he has made it very <lb/>
+               <fw type="vol">
                   <hi rendition="#smcaps">vol. i.</hi>
                </fw>
-               <milestone unit="signature" n="e" rendition="#center"/>
+               <fw type="sig">e</fw>
                <pb n="38"/> interesting without applying to the common
 					resource of love. At length, in the reign of <ref target="people.html#ageorgeIIKingofGreatBritain">George the Second</ref>,
 						<ref target="people.html#RichardsonSamuel">Richardson</ref>, <ref target="people.html#FieldingHenry">Fielding</ref>, and <ref target="people.html#SmollettTobias">Smollet</ref>, appeared in quick
 					succession; and their success raised such a demand for this kind of
 					entertainment, that it has ever since been furnished from the press, rather as a
 					regular and necessary supply, than as an occasional gratification. Novels have
-					indeed been numerous "as leaves in Vallombrosa."<hi rendition="#sup">
-                  <note place="foot">Loosely quoting <ref target="people.html#MiltonJohn">John Milton</ref>'s description of Satan's fallen legions
+					indeed been numerous "as leaves in Vallombrosa."<note>Loosely quoting <ref target="people.html#MiltonJohn">John Milton</ref>'s description of Satan's fallen legions
 							in <hi rendition="#italics">
-                        <title>Paradise Lost</title>
-                     </hi> I,
+                     <title>Paradise Lost</title>
+                  </hi> I,
 							302-3.</note>
-               </hi> The indiscriminate passion for them, and their bad
+                The indiscriminate passion for them, and their bad
 					effects on the female mind, became the object of the satire of <ref target="people.html#agarrickDavid">Garrick</ref>, in a sprightly piece
 					entitled <hi rendition="#italics">
-                  <title>Polly Honeycomb</title>
-               </hi>.<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <hi rendition="#italics">
                         <title>Polly
 									Honeycombe</title>
@@ -1648,12 +1688,11 @@
                </hi>,
 					published in 1725, is the effusion of a fine fancy and a refined understanding;
 					it is attributed to <ref target="people.html#BerkeleyGeorge">Bishop
-						Berkeley</ref>.<hi rendition="#sup">
-                  <note place="foot">The authorship of
+						Berkeley</ref>.<note>The authorship of
 							this utopian narrative is contested, but it is most often attributed to
 								<ref target="people.html#BeringtonSimon">Simon Berington</ref>.
 						</note>
-               </hi> It gives an account of an imaginary people in the heart of
+                It gives an account of an imaginary people in the heart of
 					Africa, their manners and customs. They are supposed to be descended from the
 					ancient Egyptians, and to be concealed from all the world by impenetrable
 					deserts. The description of crossing the sands is very striking, and shows much
@@ -1668,12 +1707,10 @@
                   <hi rendition="#italics">The Memoirs of several Ladies</hi>, by John
 						Buncle</title>, followed the next year by the <hi rendition="#italics">
                   <title>Life of Buncle</title>
-               </hi>.<hi rendition="#sup">
-                  <note place="foot">John Buncle was a penname for <ref target="people.html#AmoryThomas">Thomas Amory</ref>, who was,
+               </hi>.<note>John Buncle was a penname for <ref target="people.html#AmoryThomas">Thomas Amory</ref>, who was,
 							apparently, trained as a physician, though the preoccupation with
 							religious and theological views evident in his novels may explain
 							Barbauld's conclusion that he was a member of the clergy.</note>
-               </hi>
 					These volumes are very whimsical, but contain entertainment. The ladies, whose
 					memoirs he professes to give, are all highly beautiful and deeply learned; good
 					Hebrew scholars; and, above all, zealous Unitarians. The author generally finds
@@ -1684,16 +1721,16 @@
 					description and adventure are filled up with learned conversations on abstruse
 					points of divinity. Many of the descriptions are taken from nature; and, as the
 					book was much read, have possibly contributed to spread that taste for
-						<milestone unit="signature" n="e 2"/>
+						<lb/>
+               <fw type="sig">e 2</fw>
                <pb n="40"/> lake and mountain scenery
 					which has since been so prevalent. The author was a clergyman. </p>
             <p>A novel universally read at the time was <hi rendition="#italics">
                   <title>Chrysal,
 							or The Adventures of a Guinea</title>
-               </hi>.<hi rendition="#sup">
-                  <note place="foot">By <ref target="people.html#JohnstoneCharles">Charles
+               </hi>.<note>By <ref target="people.html#JohnstoneCharles">Charles
 								Johnstone</ref>.</note>
-               </hi> It described real characters and
+                It described real characters and
 					transactions, mostly in high life, under fictitious names; and certainly if a
 					knowledge of the vicious part of the world be a desirable acquisition, <hi rendition="#italics">
                   <title>Chrysal</title>
@@ -1703,13 +1740,11 @@
                   <title>Pompey the
 							Little</title>
                </hi>, with a similar frame, has less of personality, and
-					is a lively pleasant satire. Its author is unknown.<hi rendition="#sup">
-                  <note place="foot">The author of <hi rendition="#italics">
-                        <title>Pompey the
+					is a lively pleasant satire. Its author is unknown.<note>The author of <hi rendition="#italics">
+                     <title>Pompey the
 									Little</title>
-                     </hi> was <ref target="people.html#CoventryFrancis">Francis
+                  </hi> was <ref target="people.html#CoventryFrancis">Francis
 						Coventry</ref>.</note>
-               </hi>
             </p>
             <p>About fifty years ago a very singular work appeared, somewhat in the guise of a
 					novel, which gave a new impulse to writings of this stamp; namely, <hi rendition="#italics">
@@ -1740,19 +1775,19 @@
 					rather mortifying to reflect how little the power of expressing these feelings
 					is connected with moral worth; for <ref target="people.html#SterneLaurence">Sterne</ref> was a man by no means attentive to the happiness of those
 					connected with him: and we are forced to confess that an author may conceive the
-					idea of "brushing away flies without killing them,"<hi rendition="#sup">
-                  <note place="foot">The image appears at the beginning of
+					idea of "brushing away flies without killing them,"<note>The image appears at the beginning of
 							volume 9, chapter 6 of <ref target="people.html#SterneLaurence">Sterne</ref>'s <hi rendition="#italics">
-                        <title>Tristram
+                     <title>Tristram
 									Shandy</title>
-                     </hi> (1759-67).</note>
-               </hi> and yet behave ill in
+                  </hi> (1759-67).</note>
+                and yet behave ill in
 					every relation of life. </p>
             <p>It has lately been said that <ref target="people.html#SterneLaurence">Sterne</ref> has been indebted for much of his wit to <hi rendition="#italics">
                   <ref target="people.html#BurtonRobert">Burton</ref>'s <title>Anatomy of Melancholy</title>
                </hi>. He certainly
 					exhibits a good deal of reading in that and many other books out of the common
-					way, but the wit is <milestone unit="signature" n="e 3"/>
+					way, but the wit is <lb/>
+               <fw type="sig">e 3</fw>
                <pb n="42"/> in the
 					application, and that is his own. This work gave rise to the vapid effusions of
 					a crowd of sentimentalists, many of whom thought they had seized the spirit of
@@ -1872,14 +1907,12 @@
 					age of near ninety. He died in 1804.—But it is time to retire from the
 					enumeration of these works of fancy, or the reader might be as much startled
 					with the number of heroes and heroines called up around him, as Ulysses was with
-					the troops of shades that came flocking about him in the infernal regions.<hi rendition="#sup">
-                  <note place="foot">The incident occurs in Book 10 of
+					the troops of shades that came flocking about him in the infernal regions.<note>The incident occurs in Book 10 of
 							Homer's <hi rendition="#italics">
-                        <title>The Odyssey</title>
-                     </hi>,
+                     <title>The Odyssey</title>
+                  </hi>,
 							after the sorceress Circe directs Odysseus (Ulysses) to consult the
 							prophet Teiresias in the Underworld.</note>
-               </hi>
             </p>
             <p>If the end and object of this species of writing be asked, many no doubt will be
 					ready to tell us that its object is,—to call in fancy to the aid of
@@ -1889,30 +1922,28 @@
                      <l>Cosi a l'egro fanciul porgiamo aspersi </l>
                      <l>Di soave licor gli orli del vaso,</l>
                      <l>Succhi amari, ingannato in tanto ei beve, </l>
-                     <l>E da l'inganno suo vita riceve:<hi rendition="#sup">
-                           <note place="foot">
-                              <ref target="people.html#TassoTorquato">Torquato Tasso</ref> (1544-1595), <hi rendition="#italics">
-                                 <title>Gerusalemme
+                     <l>E da l'inganno suo vita riceve:<note>
+                           <ref target="people.html#TassoTorquato">Torquato Tasso</ref> (1544-1595), <hi rendition="#italics">
+                              <title>Gerusalemme
 											Liberata</title>
-                              </hi> (1581) I. 3.5-8, slightly altered.
+                           </hi> (1581) I. 3.5-8, slightly altered.
 										Edward Fairfax translated the lines as follows (rpt. in <ref target="people.html#TassoTorquato">Torquato Tasso</ref>,
 											<hi rendition="#italics">
-                                 <title>Jerusalem
+                              <title>Jerusalem
 												Delivered</title>
-                              </hi> [Carbondale, IL: Southern
+                           </hi> [Carbondale, IL: Southern
 										Illinois UP, 1962]):<quote>
-                                 <lg type="stanza">
-                                    <l>So we, if children young diseas'd we
+                              <lg type="stanza">
+                                 <l>So we, if children young diseas'd we
 												find,</l>
-                                    <l>Anoint with sweets the vessel's foremost
+                                 <l>Anoint with sweets the vessel's foremost
 												parts,</l>
-                                    <l>To make them taste the potions sharp we give;</l>
-                                    <l>The drink deceived; and so deceiv'd they
+                                 <l>To make them taste the potions sharp we give;</l>
+                                 <l>The drink deceived; and so deceiv'd they
 												live.</l>
-                                 </lg>
-                              </quote>
-                           </note>
-                        </hi>
+                              </lg>
+                           </quote>
+                        </note>
                      </l>
                   </lg>
                </quote> with such-like reasons equally grave and dignified. For my own
@@ -1980,10 +2011,11 @@
                   <title>The
 						Vicar</title>
                </hi>
-               <fw type="vol" place="bottom-left">
+               <lb/>
+               <fw type="vol">
                   <hi rendition="#smcaps">vol. i.</hi>
                </fw>
-               <milestone unit="signature" n="f" rendition="#center"/>
+               <fw type="sig">f</fw>
                <pb n="50"/>
                <hi rendition="#italics">
                   <title>of Wakefield</title>
@@ -1997,11 +2029,9 @@
 					sense have observed, that while these compositions cherished even a romantic
 					degree of sensibility, the duties that have less brilliancy to recommend them
 					were neglected. Where can be found a more striking lesson against unfeeling
-					dissipation than the story of the <hi rendition="#italics">Harrels</hi>?<hi rendition="#sup">
-                  <note place="foot">Characters in <ref target="people.html#BurneyFanny">Fanny Burney</ref>'s <hi rendition="#italics">
-                        <title>Cecilia</title>
-                     </hi>. </note>
-               </hi> Where have order, neatness, industry, sobriety, been recommended with more
+					dissipation than the story of the <hi rendition="#italics">Harrels</hi>?<note>Characters in <ref target="people.html#BurneyFanny">Fanny Burney</ref>'s <hi rendition="#italics">
+                     <title>Cecilia</title>
+                  </hi>. </note> Where have order, neatness, industry, sobriety, been recommended with more
 					strength than in the agreeable tales of Miss <ref target="people.html#EdgeworthMaria">Edgeworth</ref>? If a parent wishes his
 					child to avoid caprice, irregularities of temper, procrastination, coquetry,
 					affectation,—all those faults and blemishes which undermine family
@@ -2030,17 +2060,16 @@
                </quote> But he adds, <quote>
                   <lg type="stanza">
                      <l>But seen too oft, familiar with her face, </l>
-                     <l>We first endure, then pity, then embrace.<hi rendition="#sup">
-                           <note place="foot">
-                              <ref target="people.html#PopeAlexander">Alexander Pope</ref>, <hi rendition="#italics">
-                                 <title>An Essay on Man</title>
-                              </hi>, Epistle
+                     <l>We first endure, then pity, then embrace.<note>
+                           <ref target="people.html#PopeAlexander">Alexander Pope</ref>, <hi rendition="#italics">
+                              <title>An Essay on Man</title>
+                           </hi>, Epistle
 										II.5.217-220, slightly altered. </note>
-                        </hi>
                      </l>
                   </lg>
                </quote>
-               <milestone unit="signature" n="f 2"/>
+               <lb/>
+               <fw type="sig">f 2</fw>
                <pb n="52"/> Indeed the former assertion is
 					not true without considerable modifications. If presented in its naked
 					deformity, vice will indeed give disgust; but it may be so surrounded with
@@ -2073,17 +2102,16 @@
 					sensations are mostly limited to a very early period; and that it is by no
 					means, as the poet sings,<quote>
                   <lg type="stanza">
-                     <l>All the colour of remaining life.<hi rendition="#sup">
-                           <note place="foot">
-                              <ref target="people.html#PriorMatthew">Matthew
+                     <l>All the colour of remaining life.<note>
+                           <ref target="people.html#PriorMatthew">Matthew
 											Prior</ref>, "Solomon on the Vanity of the
 										World" (1718), 2.235.</note>
-                        </hi>
                      </l>
                   </lg>
                </quote> She will find but few minds susceptible of its more delicate
 					influences. Where it is really felt, she will see it continually overcome by
-					duty, by prudence, or merely by a regard for <milestone unit="signature" n="f 3"/>
+					duty, by prudence, or merely by a regard for <lb/>
+               <fw type="sig">f 3</fw>
                <pb n="54"/> the show and splendour of life; and that in fact it has a
 					very small share in the transactions of the busy world, and is often little
 					consulted even in choosing a partner for life. In civilized life both men and
@@ -2123,34 +2151,30 @@
 					vice must be punished and virtue rewarded in the compass of a few vo- <pb n="56"/> lumes; and it is a fault in <hi rendition="#italics">his</hi> composition if
 					every circumstance does not answer the reasonable expectations of the reader.
 					But in real life our reasonable expectations are often disappointed; many
-					incidents occur which are like "passages that lead to nothing,"<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#agrayThomas">Thomas Gray</ref>, "A Long Story" (1753) 8.</note>
-               </hi>
+					incidents occur which are like "passages that lead to nothing,"<note>
+                  <ref target="people.html#agrayThomas">Thomas Gray</ref>, "A Long Story" (1753) 8.</note>
 					and characters occasionally turn out quite different from what our fond
 					expectations have led us to expect. </p>
             <p>In short, the reader of a novel forms his expectations from what he supposes
 					passes in the mind of the author, and guesses rightly at his intentions, but
 					would often guess wrong if he were considering the real course of nature. It was
 					very probable, at some periods of his history, that <hi rendition="#italics">Gil
-						Blas</hi>,<hi rendition="#sup">
-                  <note place="foot">Gil Blas is the eponymous
+						Blas</hi>,<note>Gil Blas is the eponymous
 							hero in the novel by <ref target="people.html#LeSageAlain">Le
 							Sage</ref>.</note>
-               </hi> if a real character, would come to be hanged;
+                if a real character, would come to be hanged;
 					but the practised novel-reader knows well that no such event can await the hero
 					of the tale. Let us suppose a person speculating on the character of <hi rendition="#italics">Tom Jones</hi> as the production of an author, whose
 					business it is pleasingly to interest his readers. He has no doubt but that, in
 					spite of his irregularities and distresses, his history will come to an
 					agreeable termination. He has no doubt but that his parents will be discovered
 					in due time; he has no doubt but that his love for <hi rendition="#italics">Sophia</hi> will be rewarded sooner or later with her hand; he has no <pb n="57"/> doubt of the constancy of that young lady, or of their entire
-					happiness after marriage. <hi rendition="#sup">
-                  <note place="foot">In <ref target="people.html#FieldingHenry">Henry Fielding</ref>'s <hi rendition="#italics">
-                        <title>Tom Jones</title>
-                     </hi>, the hero
+					happiness after marriage. <note>In <ref target="people.html#FieldingHenry">Henry Fielding</ref>'s <hi rendition="#italics">
+                     <title>Tom Jones</title>
+                  </hi>, the hero
 							eventually marries the woman he truly loves, Sophia Western.
 						</note>
-               </hi> And why does he foresee all this? Not from the real tendencies
+                And why does he foresee all this? Not from the real tendencies
 					of things, but from what he has discovered of the author's intentions. But
 					what would have been the probability in real life? Why, that the parents would
 					either never have been found, or have proved to be persons of no
@@ -2163,20 +2187,17 @@
 					very ill so to have constructed his story. If <hi rendition="#italics">Booth</hi> had been a real character, it is probable his <hi rendition="#italics">Amelia</hi> and her family would not only have been
 					brought to poverty, but left in it; but to the reader it is much more probable
 					that by some means or other they will be rescued from it, and left in possession
-					of all the comforts of life.<hi rendition="#sup">
-                  <note place="foot">Captain
+					of all the comforts of life.<note>Captain
 							Booth and Amelia are the central characters in <ref target="people.html#FieldingHenry">Henry Fielding</ref>'s 1751
 							novel, <hi rendition="#italics">
-                        <title>Amelia</title>
-                     </hi>. </note>
-               </hi>
+                     <title>Amelia</title>
+                  </hi>. </note>
 					It is <hi rendition="#italics">probable</hi> in <hi rendition="#italics">
                   <title>Zeluco</title>
                </hi>
-               <hi rendition="#sup">
-                  <note place="foot">Authored by <ref target="people.html#MooreJohn">John
+               <note>Authored by <ref target="people.html#MooreJohn">John
 							Moore</ref>.</note>
-               </hi> that the detestable husband will some way or
+                that the detestable husband will some way or
 					other be got rid of; <pb n="58"/> but woe to the young lady, who, when married,
 					should be led, by contemplating the possibility of such an event, to cherish a
 					passion which ought to be entirely relinquished! </p>
@@ -2235,13 +2256,11 @@
 					interest of the reader in the most lively manner; nor his <hi rendition="#italics">
                   <title>St. Leon</title>
                </hi>, the ingenious speculation
-					of a philosophical mind, which is also much out of the common track.<hi rendition="#sup">
-                  <note place="foot">Both <hi rendition="#italics">
-                        <title>Caleb Williams</title>
-                     </hi> and <hi rendition="#italics">
-                        <title>St. Leon</title>
-                     </hi> were authored by <ref target="people.html#agodwinWilliam">William Godwin</ref>.</note>
-               </hi>
+					of a philosophical mind, which is also much out of the common track.<note>Both <hi rendition="#italics">
+                     <title>Caleb Williams</title>
+                  </hi> and <hi rendition="#italics">
+                     <title>St. Leon</title>
+                  </hi> were authored by <ref target="people.html#agodwinWilliam">William Godwin</ref>.</note>
 					It will bear an advantageous comparison with <ref target="people.html#SwiftJonathan">Swift</ref>'s picture of the <hi rendition="#italics">Strulbrugs</hi> in his <hi rendition="#italics">Voyage
 						to Laputa</hi>, the tendency of which seems to be to repress the wish of
 					never-ending life in this world: but in fact it does not bear at all upon the
@@ -2265,19 +2284,19 @@
 					their preference was to indemnify those who are at the expense and risk of the
 					publication. Copyright also was not to be intruded on, and the number of volumes
 					was determined by the booksellers. Some perhaps may think that too much
-					importance has been already given to a <fw type="vol" place="bottom-left">
+					importance has been already given to a <lb/>
+               <fw type="vol">
                   <hi rendition="#smcaps">vol. i.</hi>
                </fw>
-               <milestone unit="signature" n="g" rendition="#center"/>
+               <fw type="sig">g</fw>
                <pb n="62"/> subject so frivolous, but a discriminating
 					taste is no where more called for than with regard to a species of books which
 					everybody reads. It was said by <ref target="people.html#FletcherAndrew">Fletcher of Saltoun</ref>, "Let me make the ballads of a nation, and I
-					care not who makes the laws."<hi rendition="#sup">
-                  <note place="foot">See
+					care not who makes the laws."<note>See
 								<hi rendition="#italics">
-                        <ref target="people.html#FletcherAndrew">Andrew Fletcher</ref>: Political Works</hi>, ed. John Robertson
+                     <ref target="people.html#FletcherAndrew">Andrew Fletcher</ref>: Political Works</hi>, ed. John Robertson
 						(Cambridge University Press, 1997) 179.</note>
-               </hi> Might it not be said with as
+                Might it not be said with as
 					much propriety, Let me make the novels of a country, and let who will make the
 					systems?</p>
          </div>

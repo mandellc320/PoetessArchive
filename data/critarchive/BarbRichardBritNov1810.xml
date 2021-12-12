@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Richardson</title>
-            <title type="subordinate" level="m">The British Novelists</title>
+            <title type="sub" level="m">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -33,7 +34,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="subordinate">with an Essay and Prefaces,
+                  <title type="sub">with an Essay and Prefaces,
 							Biographical and Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
@@ -50,6 +51,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -291,7 +339,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -504,11 +552,20 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change who="#LM" when="20210922" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
          <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added full text taxonomy</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="5">
@@ -523,7 +580,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+               <item>Added new taxonomies into headers</item>
             </list>
          </change>
          <change who="#MW" when="2016-01-21" n="3">
@@ -557,10 +614,11 @@
                   <author type="writer">
                      <name>Anna Letitia Barbauld</name>
                   </author>
+                  <lb/>
                   <title type="main" level="a">
                      <ref target="people.html#RichardsonSamuel">RICHARDSON.</ref>
                      <hi rendition="#sup">
-                        <note place="foot">
+                        <note>
                            <title level="m">
                               <hi rendition="#italics">The British Novelists;
 											with an Essay and Prefaces, Biographical and Critical,
@@ -586,7 +644,7 @@
                   </title>
                </bibl>
             </head>
-            <p rendition="#pnoindent">
+            <p rendition="#noindent">
                <hi rendition="#smcaps">
                   <ref target="people.html#RichardsonSamuel">Samuel Richardson</ref>
                </hi>, the
@@ -604,7 +662,8 @@
 					for the church, for which profession he was well suited by his seriousness and
 					love of letters; but his father having a numerous family, and being, besides, in
 					declining circumstances, was not able to allow him a liberal education. Though
-					he did not go to business till sixteen, <milestone unit="signature" n="g 2" rendition="center"/>
+					he did not go to business till sixteen, <lb/>
+               <fw type="sig">g 2</fw>
                <pb n="ii"/>it is probable he enjoyed very slender
 					advantages of school-learning. Some of his admirers have wished to raise his
 					character by affirming that he possessed a knowledge of the classics; but his
@@ -620,7 +679,7 @@
 					his schoolfellows round him, and telling them affecting stories; and he then
 					wrote "A little history of a servant man who was preferred by a young lady
 					to a great lord who was a libertine."<hi rendition="#sup">
-                  <note place="foot">In a popular ballad, a respectable serving man named Thomas
+                  <note>In a popular ballad, a respectable serving man named Thomas
 							a Pott is preferred by the daughter of Lord Arrndell over the libertine
 							Lord Phenix.</note>
                </hi> All his stories, he tells us, had a good moral;
@@ -653,7 +712,8 @@
 					as he informs us, purchased his own candle. He was at the same time so diligent
 					in his proper business that his master used to call him the pillar of his house. </p>
             <p> After the expiration of his apprenticeship, our author continued five or six
-					years working as a compositor and corrector of the press to a print-<milestone unit="signature" n="g 3" rendition="center"/>
+					years working as a compositor and corrector of the press to a print-<lb/>
+               <fw type="sig">g 3</fw>
                <pb n="iv"/>ing-office, and
 					part of the time as an overseer; and, at length thus working his way upwards
 					into daylight, he took up his freedom, and set up for himself; at first in a
@@ -838,10 +898,11 @@
             <p> Indeed, the excessive humility and gratitude expressed by herself and her
 					parents on her exaltation, show a regard to rank and riches beyond the just
 					measure of an independent mind. The pious <ref target="people.html#AndrewsGoodman">Goodman Andrews</ref> should not have
-					thought his virtuous daughter so infinitely be-<fw type="vol" place="bottom-left">
+					thought his virtuous daughter so infinitely be-<lb/>
+               <fw type="vol">
                   <hi rendition="#smcaps">vol. i.</hi>
                </fw>
-               <milestone unit="signature" n="h" rendition="#center"/>
+               <fw type="sig">h</fw>
                <pb n="xii"/>neath her
 					licentious master, who, after all, married her to gratify his own passions. </p>
             <p> The indelicate scenes in this novel have been justly found fault with, and are,
@@ -907,7 +968,8 @@
 					reformed; he leaves the kingdom in order to dissipate his chagrin, and is killed
 					in a duel by a relation of the lady's. </p>
             <p> On this slight foundation, and on a story not very agreeable or promising in its
-					rude outline, <milestone unit="signature" n="h 2" rendition="center"/>
+					rude outline, <lb/>
+               <fw type="sig">h 2</fw>
                <pb n="xiv"/>has our author founded a most pathetic tale, and raised a noble
 					temple to female virtue. The first volumes are somewhat tedious, from the
 					prolixity incident to letter-writing, and require a persevering reader to get
@@ -950,7 +1012,8 @@
 					humble servant <ref target="people.html#MrHickman">Mr. Hickman</ref>, a man
 					deserving of her esteem, but prim and formal in his manner. <ref target="people.html#MissAnnaHowe">Miss Howe</ref> is a character of strong
 					lights and shades, but her warmest affections are all along directed to her
-					friend; and the correspond-<milestone unit="signature" n="h 3" rendition="center"/>
+					friend; and the correspond-<lb/>
+               <fw type="sig">h 3</fw>
                <pb n="xvi"/>ence between them is made the great vehicle
 					of <ref target="people.html#ClarissaHarlowe">Clarissa</ref>'s narrative of
 					events, as that between <ref target="people.html#Lovelace">Lovelace</ref> and
@@ -1098,7 +1161,7 @@
                      <l>From fasting maids whose minds are dedicate,</l>
                      <l>————————to nothing
 									earthly.<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi rendition="#italics">
                                  <title>Measure for Measure</title>
                               </hi>
@@ -1116,7 +1179,7 @@
                         <hi rendition="#italics">Sic virgo, dum intacta manet, dum cara suis
 									est.</hi>
                         <hi rendition="#sup">
-                           <note place="foot">"So a virgin, while still untouched,
+                           <note>"So a virgin, while still untouched,
 										remains dear to her family"; <ref target="people.html#Catullus">Catullus</ref>, Poem 62,
 										line 45, trans. Peter Green, <hi rendition="#italics">
                                  <title>The Poems of Catullus: A Bilingual
@@ -1139,7 +1202,7 @@
                   </lg>
                </quote>throw out a richer fragrance <hi rendition="#italics">after</hi> "the cruel spoiler has <hi rendition="#italics">cropped the
 						fair rose and rifled its sweetness</hi>."<hi rendition="#sup">
-                  <note place="foot">This line and the preceding one come from <ref target="people.html#OtwayThomas">Thomas Otway</ref>, <hi rendition="#italics">
+                  <note>This line and the preceding one come from <ref target="people.html#OtwayThomas">Thomas Otway</ref>, <hi rendition="#italics">
                         <title>The Orphan</title>
                      </hi> IV.ii., slightly
 							altered. </note>
@@ -1178,10 +1241,11 @@
 					world, acted upon the maxims of it, and therefore it seemed hardly necessary to
 					make <hi rendition="#italics">him</hi> express regret at having precipitated
 						<ref target="people.html#Lovelace">Lovelace</ref> into a future state: <ref target="people.html#RichardsonSamuel">Richardson</ref> was not then drawing
-					his perfect character, and did not seem <fw type="vol" place="bottom-left">
+					his perfect character, and did not seem <lb/>
+               <fw type="vol">
                   <hi rendition="#smcaps">vol. i.</hi>
                </fw>
-               <milestone unit="signature" n="i" rendition="#center"/>
+               <fw type="sig">i</fw>
                <pb n="xxiv"/>called upon to blame a duel, which in our
 					hearts we cannot, from <ref target="people.html#ColonelMorden">Colonel
 						Morden</ref>, but approve of. </p>
@@ -1208,7 +1272,7 @@
 					their legitimate union, which she might well believe would be insuperable. The
 					virtue of Werter's Charlotte was tried, and the virtue of the wife
 						Zeluco<hi rendition="#sup">
-                  <note place="foot">Characters in <ref target="people.html#agoethe">Goethe</ref>'s <hi rendition="#italics">The Sorrows of Young Werther</hi> and <ref target="people.html#MooreJohn">John Moore</ref>'s <hi rendition="#italics">Zeluco</hi>, respectively.</note>
+                  <note>Characters in <ref target="people.html#agoethe">Goethe</ref>'s <hi rendition="#italics">The Sorrows of Young Werther</hi> and <ref target="people.html#MooreJohn">John Moore</ref>'s <hi rendition="#italics">Zeluco</hi>, respectively.</note>
                </hi> was
 					tried, <pb n="xxv"/>because the previous marriage of one of the parties made a
 					virtuous union impossible.—But <ref target="people.html#ClarissaHarlowe">Clarissa</ref>! a young lady of birth and fortune, marriage completely in
@@ -1232,7 +1296,7 @@
 					ground, it can still say with Constance, <quote>
                   <lg type="stanza">
                      <l> Here is my throne; kings, come and bow to it!<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi rendition="#italics">
                                  <title>King
 												John</title>
@@ -1245,7 +1309,8 @@
             <p> The novelist that has produced this effect has performed his office well, and it
 					is immaterial what particular maxim is selected under the name of a moral, while
 					such are the reader's feelings. If our feelings are in favour of virtue,
-						<milestone unit="signature" n="i 2" rendition="center"/>
+						<lb/>
+               <fw type="sig">i 2</fw>
                <pb n="xxvi"/>the
 					novel is virtuous; if of vice, the novel is vicious. The greatness of <ref target="people.html#ClarissaHarlowe">Clarissa</ref> is shown by her
 					separating herself from her lover as soon as she perceives his dishonourable
@@ -1280,7 +1345,7 @@
 						<ref target="people.html#Belton">Belton</ref> is an admirable piece of
 					painting, and not excelled by any thing in the admired scene of Cardinal
 						Beaufort.<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi rendition="#italics">
                         <title>Henry VI, Part II</title>
                      </hi> III.iii.
@@ -1307,7 +1372,8 @@
 					seducer, and the glory of conquest is what he principally aims at. Had such a
 					character been placed in France, and his gallantries directed to married women,
 					it would have been more natural, and his epistolary memoirs rendered more
-					probable; <milestone unit="signature" n="i 3" rendition="center"/>
+					probable; <lb/>
+               <fw type="sig">i 3</fw>
                <pb n="xxviii"/> but in England <ref target="people.html#Lovelace">Lovelace</ref> would have been run through the body, long before he had
 					seen the face of <ref target="people.html#ClarissaHarlowe">Clarissa</ref> or
 						<ref target="people.html#ColonelMorden">Colonel Morden</ref>.</p>
@@ -1337,7 +1403,7 @@
 						<ref target="people.html#agarrickDavid">Garrick</ref>, <pb n="xxix"/>would
 					have been too strong for the morality of the piece. We know how great a
 					favourite he was in Ranger.<hi rendition="#sup">
-                  <note place="foot">Character in
+                  <note>Character in
 								<ref target="people.html#HoadlyDrBenjamin">Benjamin
 							Hoadly</ref>'s <hi rendition="#italics">
                         <title>The Suspicious
@@ -1454,7 +1520,7 @@
 					author shows in it, that he had improved in the knowledge of life and the
 					genteel world; and there are none of those warm descriptions in it which were
 					justly blamed in its two elder sisters. He has an <hi rendition="#italics">enlévement</hi>,<hi rendition="#sup">
-                  <note place="foot">Abduction.
+                  <note>Abduction.
 						</note>
                </hi> an incident he seems to have been fond of, since it occurs in
 					all the three works; but the object is only marriage, and it is managed with
@@ -1503,7 +1569,7 @@
                      <l> But raging flames tempestuous souls invade, </l>
                      <l> A fire which every windy passion blows,</l>
                      <l> With pride it mounts, and with revenge it glows.<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#DrydenJohn">John Dryden</ref>, <hi rendition="#italics">
                                  <title>Tyrannick Love; or The Royal
 											Martyr</title>
@@ -1538,7 +1604,7 @@
 					looks and attitudes, such a sanctity of mind, with so much feeling, that he who
 					is not moved with it must resign the pretension of being accessible to
 					fictitious sorrow."<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#WartonJoseph">Joseph Warton</ref>, <hi rendition="#italics">
                         <title>An Essay on the Writings and Genius of
 										<ref target="people.html#PopeAlexander">Pope</ref>
@@ -1559,15 +1625,16 @@
 					instance, warped his judgement, and restrained his genius. He was in the habit
 					of inveighing to his young friends against romantic ideas of love, and
 					particularly the notion that a first passion could not be conquered<hi rendition="#sup">
-                  <note place="foot">I want to have young people think there
+                  <note>I want to have young people think there
 							is no such mighty business as they are apt to suppose, in conquering
 							first love.—<hi rendition="#italics">Letter to <ref target="people.html#ChaponeMrs">Miss Mulso</ref>
                      </hi> [<ref target="people.html#BarbauldMrs">Barbauld</ref>'s
 						note].</note>
-               </hi>, and he feared it would <fw type="vol" place="bottom-left">
+               </hi>, and he feared it would <lb/>
+               <fw type="vol">
                   <hi rendition="#smcaps">vol. i.</hi>
                </fw>
-               <milestone unit="signature" n="k" rendition="#center"/>
+               <fw type="sig">k</fw>
                <pb n="xxxvi"/>have a bad effect
 					if he represented the contrary in his works. </p>
             <p> But though, in real life, a passion, however strong, will generally give way to
@@ -1616,7 +1683,8 @@
 					character; and various parts of the work attest the author's improvement in
 					general information, and more enlarged views of life.</p>
             <p>There is not, in any of <ref target="people.html#RichardsonSamuel">Richardson</ref>'s works, one of those detached episodes, thrown in
-					like <milestone unit="signature" n="k 2" rendition="center"/>
+					like <lb/>
+               <fw type="sig">k 2</fw>
                <pb n="xxxviii"/>make-weights, to increase the bulk of the volume, which are so common in other
 					works: such is the story of <hi rendition="#italics">The Man of the Hill</hi>,
 					in <hi rendition="#italics">
@@ -1650,7 +1718,7 @@
                   <lg type="stanza">
                      <l>What hast thou done? I'm ravish'd at the scene; </l>
                      <l>A sword undrawn makes mighty Cæsars mean.<hi rendition="#sup">
-                           <note place="foot">Unidentified to date except as anecdote.
+                           <note>Unidentified to date except as anecdote.
 									</note>
                         </hi>
                      </l>
@@ -1673,14 +1741,15 @@
 					the other characters, and from the abundance of compliments which are paid on
 					all sides; for certainly <ref target="people.html#SirCharlesGrandison">Sir
 						Charles</ref> is <hi rendition="#italics">de la vieille cour</hi>.<hi rendition="#sup">
-                  <note place="foot">"of the old court"; a
+                  <note>"of the old court"; a
 							gentleman in the old-fashioned, courtly style. In context, the adjective
 							proné (above), appears to indicate that the hero is held in high
 							esteem by others, the model of what is best; he is revered as the
 							ultimate reference.</note>
                </hi> In part, too, it arises from the very
 					circumstance of his being so perfect and so successful. Perfection of character,
-					joined to distress, will interest; but <milestone unit="signature" n="k 3" rendition="center"/>
+					joined to distress, will interest; but <lb/>
+               <fw type="sig">k 3</fw>
                <pb n="xl"/>prosperous perfection does not greatly
 					engage our sympathy. We are apt to conceive of <ref target="people.html#SirCharlesGrandison">Sir Charles</ref> as having, in
 					reality, no passions; and we do not greatly pity him for the loss of <ref target="people.html#Clementina">Clementina</ref>, when a most amiable lady,
@@ -1713,7 +1782,7 @@
 					negotiation; and, in a letter to one of his French translators, dexterously
 					brings it forward, as a proof of his candour and liberality towards the catholic
 						religion<hi rendition="#sup">
-                  <note place="foot">It is said, that an Italian
+                  <note>It is said, that an Italian
 							translation of <title>the Bible</title> appeared some years since at
 							Naples, in the preface to which the translator warned his readers
 							against English publications; but excepted one, the <hi rendition="#italics">
@@ -1777,7 +1846,7 @@
 					still diminishing, as it finds it to no purpose to attempt it, its new
 					habitation becomes familiar, and it hops about from perch to perch, and every
 					day sings a song to amuse itself, and reward its keeper."<hi rendition="#sup">
-                  <note place="foot">From <hi rendition="#italics">
+                  <note>From <hi rendition="#italics">
                         <title>Clarissa</title>
                      </hi>, excerpted from one of <ref target="people.html#Lovelace">Lovelace</ref>'s letters to
 							Belford.</note>
@@ -1805,7 +1874,7 @@
                   <title>The
 							Rambler</title>
                </hi> was also written by him.<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <hi rendition="#italics">
                         <title>Rambler</title>
                      </hi> No. 95
@@ -1861,7 +1930,7 @@
                      <l> And wake soft pity in the savage breast; </l>
                      <l> Him Virtue loves, and brightest fame is his; </l>
                      <l> Smile thou too, goddess, and complete his bliss.<hi rendition="#sup">
-                           <note place="foot">"To Health" 31-36. After recovering from
+                           <note>"To Health" 31-36. After recovering from
 										a bout of illness, <ref target="people.html#ChaponeMrs">Chapone</ref> sent the poem to <ref target="people.html#CarterElizabeth">Elizabeth
 											Carter</ref> in 1750, and it later appeared in <ref target="people.html#ChaponeMrs">Chapone</ref>'s <hi rendition="#italics">
                                  <title>Miscellanies in Prose and

@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Preface to The Venetian Bracelet, the Lost Pleiad, A
                     History of the Lyre, and Other Poems.</title>
-            <title type="subordinate" level="m"/>
+            <title type="sub" level="m"/>
             <author type="writer">
                <name>Letitia Landon</name>
             </author>
@@ -54,6 +55,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -295,7 +343,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -507,6 +555,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change who="#LM" when="20210922" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
          <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
@@ -558,18 +615,17 @@
             <head>
                <bibl>
                   <author type="writer">
-                     <lb rendition="#center"/>
                      <ref target="people.html#LandonLetitia">
                         <name>Letitia Landon</name>
                      </ref>
                   </author>
-                  <title type="main" level="a">
-                     <lb rendition="#center"/>PREFACE <lb rendition="#center"/>
+                  <lb/>
+                  <title type="main" level="a">PREFACE <lb/>
                      <hi rendition="#small">[to <hi rendition="#italics"> The Venetian
                                     Bracelet, the Lost Pleiad, a History of the Lyre, and Other
                                     Poems</hi>].</hi>
                      <hi rendition="#sup">
-                        <note place="foot">
+                        <note>
                            <title level="m">
                               <hi rendition="#italics">The Venetian Bracelet,
                                             The Lost Pleiad, A History of the Lyre, and Other Poems
@@ -582,7 +638,7 @@
                   </title>
                </bibl>
             </head>
-            <p rendition="#pnoindent">
+            <p rendition="#noindent">
                <hi rendition="#largest">D</hi>
                <hi rendition="#smcaps">iffidence</hi> of their own abilities, and fear, which heightens the
                     anxiety for public favour, are pleas usually urged by the youthful writer: may
@@ -590,16 +646,17 @@
                     they far more truly belong to one who has had experience of both praise and
                     censure. The feelings which attended the publication of the
                         "Improvisatrice"<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <hi rendition="#italics">The Improvisatrice; and Other Poems</hi>, <ref target="people.html#LandonLetitia">Landon</ref>'s 1824
                             volume.</note>
                </hi> are very different from those that accompany the
                     present volume. I believe I <hi rendition="#italics">then</hi> felt
-                        little<milestone unit="signature" n="A   2" rendition="#center"/>
+                        little<lb/>
+               <fw type="sig" rendition="#center">A   2</fw>
                <pb n="iv"/>beyond hope, vague as the timidity which subdued it, and that excitement which
                     every author must know: <hi rendition="#italics">now</hi> mine is a
                     "farther looking hope;"<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#WordsworthWilliam">William Wordsworth</ref>,
                             "The Force of Prayer, or the Founding of Bolton Abbey," <hi rendition="#italics">Poems</hi> (1815), vol. 2, line 47.</note>
                </hi>
@@ -649,7 +706,7 @@
                     criticism by which I did not benefit, or trust to benefit. I will conclude by
                     apostrophizing the hopes and fears they excited, in the words of the Mexican
                     king—"Ye have been the feathers of my wings."<hi rendition="#sup">
-                  <note place="foot">See <ref target="people.html#DisraeliIsaac">Isaac
+                  <note>See <ref target="people.html#DisraeliIsaac">Isaac
                                 D’Israeli</ref>, <hi rendition="#italics">The Literary Character,
                                 Illustrated by the History of Men of Genius, Drawn from Their Own
                                 Feelings and Confessions</hi>, 3rd ed. (London: John Murray, 1822)

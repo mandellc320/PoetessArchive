@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns:PA="http://www.poetessarchive.org/#schema" type="text">
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">On The Character of Mrs. Hemans's Writings.</title>
-            <title type="subordinate" level="j">The New Monthly Magazine and Literary
+            <title type="sub" level="j">The New Monthly Magazine and Literary
 					Journal</title>
             <author type="writer">
                <name>Letitia Landon</name>
@@ -40,8 +41,9 @@
 							Journal</title>
                   <imprint>
                      <date when="1836-08">August 1836</date>
+                     <biblScope unit="series">second</biblScope>
                      <biblScope unit="vol">2</biblScope>
-                     <biblScope unit="no">44</biblScope>
+                     <biblScope unit="issue">44</biblScope>
                      <biblScope unit="page">425-33</biblScope>
                   </imprint>
                </monogr>
@@ -49,6 +51,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -290,7 +339,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -496,19 +545,21 @@
                   <item>Nonfiction</item>
                </list>
             </keywords>
-            <catRef target="#ft1" scheme="#ft"/>
+            <catRef scheme="#ft" target="#ft1"/>
             <catRef target="#ag9 #ag12 #ag20 #ag26" scheme="#ag"/>
             <catRef target="#f13" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef target="#g72 #g30 #g3 " scheme="#g"/>
+            <catRef scheme="#g" target="#g72 #g30 #g3 "/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="7">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-18" n="5">
@@ -549,35 +600,38 @@
          </change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xmlns:PA="http://www.poetessarchive.org/#schema">
       <body>
          <div type="essay" org="uniform" sample="complete">
             <head>
                <bibl>
-                  <lb rendition="#center"/>
                   <author type="writer">
                      <ref target="people.html#LandonLetitia">
                         <name>Letitia Landon</name>
                      </ref>
                   </author>
-                  <lb rendition="#center"/>
+                  <lb/>
                   <title type="main" level="a">
-                     <lb rendition="#center"/>
-                     <hi rendition="#smcaps">on the <lb rendition="#center"/>CHARACTER OF MRS. <ref target="people.html#HemansFelicia">HEMANS</ref>'S WRITINGS.</hi>
+                     <hi rendition="#smcaps">on the <lb/>CHARACTER OF MRS. <ref target="people.html#HemansFelicia">HEMANS</ref>'S WRITINGS.</hi>
                      <hi rendition="#sup">
-                        <note place="foot" anchored="true">
+                        <note anchored="true">
                            <title level="j">
                               <hi rendition="#italics">The New Monthly Magazine and Literary
                                  Journal</hi>
-                           </title>, vol. 44, no. 176 (2nd series), August 1835, pp. 425-33.
+                           </title>, vol. 44, no. 176 (2nd series), August 1835, pp. 425-33. The essay is attributed to
+                           <ref target="people.html#LandonLetitia">Landon</ref> in <hi rendition="#italics">
+                              <title>The Wellesley Index to Victorian
+                                 Periodicals, 1824-1900</title>
+                           </hi>, ed. Walter E. Houghton,
+                           University of Toronto Press, 1966. 
                            Victoria Stewart and Mary A. Waters co-edited this edition for <hi rendition="#italics">The Criticism Archive</hi>. </note>
                      </hi>
                   </title>
                </bibl>
             </head>
-            <p rendition="#pnoindent">"O<hi rendition="#smcaps">h</hi>! mes amis, rapellez-vous
+            <p rendition="#noindent">"O<hi rendition="#smcaps">h</hi>! mes amis, rapellez-vous
                quelquefois mes vers; mon ame y est empreinte." "Mon ame y est empreinte."<hi rendition="#sup">
-                  <note place="foot" anchored="true"> The epigraph to <ref target="people.html#HemansFelicia">Hemans</ref>'s "A Parting Song." Landon's
+                  <note anchored="true"> The epigraph to <ref target="people.html#HemansFelicia">Hemans</ref>'s "A Parting Song." Landon's
                      metrical arrangement in<ref target="people.html#HillIsabel">
                         <name> Isabel Hill's </name>
                      </ref> translation of <ref target="people.html#StaelGermainede">
@@ -597,7 +651,7 @@
                second.</p>
             <p>It is curious to observe the intimate relation that subsists between the poet and the
                public. "Distance lends enchantment to the view,"<hi rendition="#sup">
-                  <note place="foot" anchored="true">
+                  <note anchored="true">
                      <ref target="people.html#CampbellThomas">
                         <name>Thomas Campbell</name>
                      </ref>, <hi rendition="#italics">The Pleasures of Hope </hi> (1799), Part I
@@ -618,12 +672,12 @@
                Praise—actual personal praise—oftener frets and embarrasses than it encourages. It is
                too small when too near. There is also the fear of mistaking the false Florimel
                flattery for the true Florimel praise.<hi rendition="#sup">
-                  <note place="foot" anchored="true">Florimel appears in <ref target="people.html#DrydenJohn">
+                  <note anchored="true">Florimel appears in <ref target="people.html#DrydenJohn">
                         <name>John Dryden's </name>
                      </ref>
                      <hi rendition="#italics">Secret Love, or the Maiden Queen</hi> (1667).</note>
                </hi> Hence Hope takes the wings of the morning,<hi rendition="#sup">
-                  <note place="foot" anchored="true">Perhaps an allusion to <title>Psalm</title>
+                  <note anchored="true">Perhaps an allusion to <title>Psalm</title>
                      139:9.</note>
                </hi> and seeks an atmosphere, warm, kindly, and congenial, and where it is not
                ashamed. Without such timidity, without such irritability, without a proneness to
@@ -634,17 +688,19 @@
                be felt where the most shrinking, subtle, and sorrowful ideas are to be expressed.
                But the poet relies on having his written page opened when the spirit is attuned to
                it melody. He asks to be read in the long summer-mornings, when the green is golden
-               on the trees, when the bird sings on the boughs, and the insect <fw type="vol" place="bottom-left">
+               on the trees, when the bird sings on the boughs, and the insect <lb/>
+               <lb/>
+               <fw type="vol">
                   <hi rendition="#italics">Aug</hi>.—<hi rendition="#smcaps">vol. xliv. no.
                      clxxvi.</hi>
                </fw>
-               <milestone unit="signature" n="2 G" rendition="#center"/>
+               <fw type="sig" rendition="#center">2 G</fw>
                <pb n="426"/> in the grass; and yet when the weight of the past presses heavily upon
                the present, when—<quote>
                   <lg type="stanza">
                      <l rendition="#indent15">memory makes the sky</l>
                      <l>Seem all too joyous for the shrinking eye.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "The Lady of the
                               Castle" from the "Portrait Gallery," an unfinished Poem (35-6).
                            </note>
@@ -663,7 +719,7 @@
                   <lg type="stanza">
                      <l rendition="#indent9">laid their youth as in a burial urn,</l>
                      <l>Where sunshine may not find it.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "Arabella
                               Stuart" (98-9). </note>
                         </hi>
@@ -675,7 +731,7 @@
                death the young village girl to whom he was betrothed, rudely carved upon her tomb a
                rose-bud broken on its stem, with the words beneath, "<hi rendition="#italics">C'est
                   ainsi qu'elle fût.</hi>"<hi rendition="#sup">
-                  <note place="foot" anchored="true">"It is thus that she was."</note>
+                  <note anchored="true">"It is thus that she was."</note>
                </hi> This might be emblem and inscription for all the loveliest emotions of the
                soul. While such recollections remain garnered, poetry will always have its own
                appointed hour. Its haunted words will be to us even as our own. Solitude and sorrow
@@ -683,7 +739,7 @@
                   <lg type="stanza">
                      <l>Who learnt in suffering what they taught in
                            song.<hi rendition="#sup">
-                           <note place="foot" anchored="true">The quotation, from <ref target="people.html#ShelleyPercy">
+                           <note anchored="true">The quotation, from <ref target="people.html#ShelleyPercy">
                                  <name>Percy Bysshe Shelley's</name>
                               </ref> "Julian and Maddalo, A Conversation" (546), appears as an
                               epigram to <ref target="people.html#HemansFelicia">Hemans</ref>'s "The
@@ -722,7 +778,7 @@
                      <l rendition="#indent15">Oh, gentle friend,</l>
                      <l> Blame not her mirth who was sad yesterday,</l>
                      <l> And may be sad to-morrow.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#BaillieJoanna">
                                  <name>Joanna Baillie</name>
                               </ref>, <hi rendition="#italics">Orra: A Tragedy in Five Acts</hi>,
@@ -742,7 +798,7 @@
                      <l rendition="#indent1">Bears my quick heart along</l>
                      <l>On wings that struggle to be free</l>
                      <l rendition="#indent1">As bursts of skylark song.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "The Charmed
                               Picture" (21-4). </note>
                         </hi>
@@ -754,7 +810,7 @@
                      <l rendition="#indent1">That in me slumbering lies,</l>
                      <l>Thou strikest not forth the electric fire</l>
                      <l rendition="#indent1">Of buried melodies.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "The Lyre's
                               Lament" (21-4). </note>
                         </hi>
@@ -766,7 +822,7 @@
                original glad, frank, and eager nature <quote>
                   <lg type="stanza">
                      <l>Blest, for the beautiful is in it dwelling.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "The Image in
                               the Heart" (31). </note>
                         </hi>
@@ -776,7 +832,7 @@
                   <lg type="stanza">
                      <l>The shadow of departed hours</l>
                      <l>Hangs dim upon its early flowers.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "The Deserted
                               House" (5-6). </note>
                         </hi>
@@ -786,7 +842,7 @@
                   <lg type="stanza">
                      <l>A mournful lot is mine, dear friends,</l>
                      <l>A mournful lot is mine.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "Second Sight"
                               (1-2). </note>
                         </hi>
@@ -816,7 +872,7 @@
                      <l rendition="#indent1">Till a thousand hearts are stirr'd,</l>
                      <l>What life-drops from the minstrel wrung</l>
                      <l rendition="#indent1">Have gush'd at every word.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "The Diver"
                               (9-12, 29-32, 41-4, 49-52). </note>
                         </hi>
@@ -830,12 +886,13 @@
                sorrowful," <quote>
                   <lg type="stanza">
                      <l rendition="#indent2">Asks for its youth again.<hi rendition="#sup">
-                           <note place="foot" anchored="true"> "Come Home" (27-8).</note>
+                           <note anchored="true"> "Come Home" (27-8).</note>
                         </hi>
                      </l>
                   </lg>
                </quote>
-               <milestone unit="signature" n="2 G 2" rendition="#center"/>
+               <lb/>
+               <fw type="sig" rendition="#center">2 G 2</fw>
             </p>
             <pb n="428"/>
             <p> No emotion is more truly, or more often pictured in her song, than that craving for
@@ -861,7 +918,7 @@
                      <l>The earth unknown. Yet it may be that death</l>
                      <l>Shall give my name a power to win such tears</l>
                      <l>As might have made life precious. <hi rendition="#sup">
-                           <note place="foot" anchored="true">Epigraph to "Properzia Rossi,"
+                           <note anchored="true">Epigraph to "Properzia Rossi,"
                               probably by <ref target="people.html#HemansFelicia">Hemans</ref>
                               herself.</note>
                         </hi>
@@ -910,7 +967,7 @@
                   <lg type="stanza">
                      <l rendition="#indent15">I have been</l>
                      <l>Too much alone.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "Properzia
                               Rossi" (1-18; 103-10; 65-6).</note>
                         </hi>
@@ -918,7 +975,7 @@
                   </lg>
                </quote> With the same sympathy does she stand beside the grave of the author of
                   "Psyche"—<hi rendition="#sup">
-                  <note place="foot" anchored="true">
+                  <note anchored="true">
                      <ref target="people.html#TigheMary">
                         <name>Mary Tighe</name>
                      </ref> (1772-1810) published "Psyche; or The Legend of Love" in 1811.</note>
@@ -935,7 +992,7 @@
                      <l>A voice not loud but deep!</l>
                      <l>The glorious bowers of earth among</l>
                      <l>How often didst thou weep!<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "The Grave of a
                               Poetess" (13-16, 45-8). </note>
                         </hi>
@@ -964,7 +1021,7 @@
                      <l>They that have loved an exile must not mourn</l>
                      <l>To see him parting for his native bourn,</l>
                      <l rendition="#indent9">O’er the dark sea.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref> "The Requiem of
                               Genius" (1-6).</note>
                         </hi>
@@ -1003,7 +1060,7 @@
                      <l rendition="#indent1">Seek where my love repaireth,</l>
                      <l>And blow a kiss to his dear mouth,</l>
                      <l rendition="#indent1">And tell me how he fareth.<hi rendition="#sup">
-                           <note place="foot" anchored="true">"Willy Drowned in Yarrow" (9-12), a
+                           <note anchored="true">"Willy Drowned in Yarrow" (9-12), a
                               traditional ballad.</note>
                         </hi>
                      </l>
@@ -1015,7 +1072,7 @@
                      <l rendition="#indent1">So dyed double red;</l>
                      <l>Hard was the heart that gave the blow,</l>
                      <l rendition="#indent1">Soft were the lips that bled.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#WarnerWilliam">
                                  <name>William Warner</name>
                               </ref>, <hi rendition="#italics"> Albion's England</hi> (1586), Book
@@ -1036,7 +1093,7 @@
                      <l>By the winds that tell of the violet's birth,</l>
                      <l>By the primrose stars in the shadowy grass,</l>
                      <l>By the green leaves opening as I pass.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "The Voice of
                               Spring" (1-6).</note>
                         </hi>
@@ -1058,7 +1115,7 @@
                the Deep' would best describe it." She mentioned a very striking simile to which a
                conversation on Mrs. <ref target="people.html#HemansFelicia">Hemans</ref>'s own poem
                of "The Sceptic"<hi rendition="#sup">
-                  <note place="foot" anchored="true">
+                  <note anchored="true">
                      <ref target="people.html#HemansFelicia">Hemans</ref> "The Sceptic." Murray.
                         [<hi rendition="#italics">New Monthly Magazine</hi> note]. "The Treasures of
                      the Deep" appeared as one of the "Miscellaneous Pieces" included in <ref target="people.html#HemansFelicia">Hemans</ref>'s <hi rendition="#italics">Forest Sanctuary; with Other Poems</hi> (1825).</note>
@@ -1094,7 +1151,7 @@
                      <l rendition="#indent6">Raising its bright face,</l>
                      <l>With a free gush of sunny tears, erase</l>
                      <l>The characters of anguish;<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "Arabella
                               Stuart" (37-9).</note>
                         </hi>
@@ -1113,7 +1170,7 @@
                      <l>With the laurel on thy brow,</l>
                      <l>She that makes the humblest hearth</l>
                      <l>Lovely but to one on earth.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "Corinne at the
                               Capitol" (41-8).</note>
                         </hi>
@@ -1131,7 +1188,7 @@
                   <lg type="stanza">
                      <l>It is my youth—it is my bloom—it is my glad free heart</l>
                      <l>I cast away for thee—for thee—ill fated as thou art.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "The Chamois
                               Hunter's Love" (17-18).</note>
                         </hi>
@@ -1139,7 +1196,8 @@
                   </lg>
                </quote> If this be true even of one sex, how much more true of the other. Ah! Fame
                to a woman is indeed but a royal mourning in purple for happiness. </p>
-            <milestone unit="signature" n="_________" rendition="#center"/>
+            <lb/>
+            <fw type="sig" rendition="#center">_________</fw>
             <p>
                <hi rendition="#smcaps">Note</hi>.—I have alluded to <ref target="people.html#JewsburyMaria">
                   <name>Miss Jewsbury</name>
@@ -1157,7 +1215,7 @@
                      <l rendition="#indent8">Day by day,</l>
                      <l>Gliding, like some dark mournful stream away,</l>
                      <l>My silent youth flows from me.<hi rendition="#sup">
-                           <note place="foot" anchored="true">
+                           <note anchored="true">
                               <ref target="people.html#HemansFelicia">Hemans</ref>, "Arabella
                               Stuart" (125-7).</note>
                         </hi>
@@ -1187,7 +1245,7 @@
                wisdom may wear 'motley,' and truth, unlike man, be born laughing; and that until we
                go into society thus determined to seek for more than mere amusement in pleasure, we
                must not be surprised to find ourselves <pb n="433"/> living in Thalaba's<hi rendition="#sup">
-                  <note place="foot" anchored="true">
+                  <note anchored="true">
                      <ref target="people.html#SoutheyRobert">
                         <name>Title character in Southey's</name>
                      </ref>
@@ -1208,7 +1266,7 @@
                      <l rendition="#indent1">Thy tender thoughts and high?</l>
                      <l>Now peace the woman’s heart hath found,</l>
                      <l rendition="#indent1">And joy the poet’s eye.<hi rendition="#sup">
-                           <note place="foot" anchored="true">It is almost needless to say, that all
+                           <note anchored="true">It is almost needless to say, that all
                               the poetical quotations are from Mrs. <ref target="people.html#HemansFelicia">Hemans</ref>'s own writings.
                                  [<hi rendition="#italics">New Monthly Magazine </hi> note.] The
                               quotation is from <ref target="people.html#HemansFelicia">Hemans</ref>'s "The Grave of a Poetess" (49-52).</note>

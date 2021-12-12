@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Romance and Reality</title>
-            <title type="subordinate" level="j">
+            <title type="sub" level="j">
                <title>The Athenæum </title>
             </title>
             <author type="writer">
@@ -39,7 +40,7 @@
                   <title level="j">The Athenæum</title>
                   <imprint>
                      <date when="1831-12">December 1831</date>
-                     <biblScope unit="vol">215</biblScope>
+                     <biblScope unit="issue">215</biblScope>
                      <biblScope unit="page">793-7</biblScope>
                   </imprint>
                </monogr>
@@ -49,30 +50,51 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “, " for ”, '
-						for ‘, and ' for ’.</p>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-						keyboard</p>
-               <p>Em-dashes have been rendered as —</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
             </hyphenation>
-            <normalization method="markup">
-               <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
-               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+            <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
             </normalization>
-            <normalization>
+            <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
                <p>All other characters, those with accents, non-breaking spaces, etc., have
 						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -518,19 +540,21 @@
                   <item>History</item>
                </list>
             </keywords>
-            <catRef target="#ft1" scheme="#ft"/>
+            <catRef scheme="#ft" target="#ft1"/>
             <catRef target="#ag9 #ag35" scheme="#ag"/>
             <catRef target="#f13" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef target="#g72 #g31 #g50" scheme="#g"/>
+            <catRef scheme="#g" target="#g72 #g31 #g50"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-18" n="5">
@@ -580,22 +604,29 @@
 									Jane Jewsbury</ref>
                      </name>
                   </author>
+                  <lb/>
                   <title type="main" level="a">
                      <hi rendition="#italics">Romance and
 								Reality</hi>. By <ref target="people.html#LandonLetitia">L. E.
 								L.</ref>, Author of 'The Improvisatrice,' &amp;c. 3 vols.
 							London. 1831. Colburn &amp; Bentley.<hi rendition="#sup">
-                        <note place="foot">This review article appeared in <title>
+                        <note>This review article appeared in <title>
                               <hi rendition="#italics">The Athenæum</hi>
                            </title> no.
-									215 (Saturday, December 10, 1831): 793-7. The <hi rendition="#italics">Criticism Archive</hi> edition of this
-									article was prepared by Mary A. Waters and Krystal J. Iseminger.
-								</note>
+									215 (Saturday, December 10, 1831): 793-7. The essay is
+									attributed to <ref target="people.html#JewsburyMaria">Jewsbury</ref> in <hi rendition="#italics">
+                              <title>The
+											Athenaeum Projects: Index of Reviews and
+											Reviewers</title>
+                           </hi>, https://athenaeum.city.ac.uk/.
+									The <hi rendition="#italics">Criticism Archive</hi> edition of
+									this article was prepared by Mary A. Waters and Krystal J.
+									Iseminger. </note>
                      </hi>
                   </title>
                </bibl>
             </head>
-            <p rendition="#pnoindent">
+            <p rendition="#noindent">
                <hi rendition="#largest">W</hi>
                <hi rendition="#smcaps">e</hi> were always of opinion that <ref target="people.html#LandonLetitia">Miss Landon</ref>'s poetry failed in giving a just estimate of <ref target="people.html#LandonLetitia">Miss Landon</ref>'s powers. Glowing
 					with imagery, radiant with bright words, seductive with fond fancies, <quote>
@@ -603,7 +634,7 @@
                      <l rendition="#indent1">Full of carving strange and sweet,</l>
                      <l rendition="#indent1">All made out of the carver's brain,</l>
                      <l rendition="#indent1">For a lady's chamber meet,—<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#ColeridgeSamuel">Samuel Taylor
 											Coleridge</ref>,  <title>
                                  <hi rendition="#italics">Christabel</hi>
@@ -619,7 +650,7 @@
 					probably had in his mind when he said of all splendid but unsubstantial
 					creations, "they rose in the mists of the morning, but dissolved in the
 					noonday sun."<hi rendition="#sup">
-                  <note place="foot">Untraced.</note>
+                  <note>Untraced.</note>
                </hi>
 					Sand often contains gold, yet sand makes a sorry foundation, and we have often
 					wished that <ref target="people.html#LandonLetitia">L. E. L.</ref> would dig
@@ -631,7 +662,7 @@
 					serenade for bridemaids, bore passing small resemblance to intense yet rational
 					feeling; real, yet not ungovernable energy of soul. Again, without going the
 					length of other "robustious periwigged"<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <title>
                         <hi rendition="#italics">Hamlet</hi>
                      </title> III.ii..9.</note>
@@ -702,11 +733,11 @@
 						'<title>Troubadour</title>,' and the '<title>Venetian
 						Bracelet</title>,' answer—"Where?" How much there is
 					that poetry cannot or must not convey. As the Ettrick Shepherd<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#HoggJames">James Hogg</ref>.</note>
                </hi> says, "Blessings on the man who
 					first invented sleep"<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#HoggJames">The Ettrick Shepherd</ref> quotes the
 							oft-referenced remark by the character Sancho Panza in <ref target="people.html#Cervantes">Cervantes</ref>'s <hi rendition="#italics">Don Quixote.</hi>
                   </note>
@@ -727,7 +758,7 @@
 						the window or the glass: Emily did the latter; and five minutes of
 						contemplation ascertained the fact that her <hi rendition="#italics">capote</hi>
                   <hi rendition="#sup">
-                     <note place="foot">Though the word more
+                     <note>Though the word more
 								often means a long cloak, in this case it seems more likely to refer
 								to a "close-fitting cap" (<hi rendition="#italics">
                            <title>Oxford
@@ -773,7 +804,7 @@
                      <lg type="stanza">
                         <l rendition="#indent15">Come what may,</l>
                         <l>Time and the tide wear through the roughest day.<hi rendition="#sup">
-                              <note place="foot">
+                              <note>
                                  <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi rendition="#italics">
                                     <title>Macbeth</title>
                                  </hi> Act I, scene iii,
@@ -792,7 +823,7 @@
 						followed by a blue-coated, nankeen-trousered young man, whose countenance
 						and curls united that happy mixture of carmine and charcoal which constitute
 						the Apollo of a Compton Street counter.<hi rendition="#sup">
-                     <note place="foot">At the time of this writing, Compton Street was a
+                     <note>At the time of this writing, Compton Street was a
 								commercial hub in an area that attracted a substantial population of
 								exiles, particularly from France.</note>
                   </hi> Mr. Smithson was
@@ -821,7 +852,7 @@
 						fowls, a huge haunch of mutton, raw and red enough even for an Abyssinian,
 						flanked by rissoles and oyster patties, which had evidently, like Tom
 							Tough,<hi rendition="#sup">
-                     <note place="foot">Central speaking character
+                     <note>Central speaking character
 								of a song by <ref target="people.html#DibdinCharlesSr">Charles
 									Dibdin</ref>.</note>
                   </hi> seen 'a deal of service:'
@@ -852,7 +883,7 @@
                         <l>At once there rose so wild a yell</l>
                         <l>Within that dark and narrow dell,</l>
                         <l rendition="#indent9">&amp;c. &amp;c. &amp;c.<hi rendition="#sup">
-                              <note place="foot">
+                              <note>
                                  <ref target="people.html#ScottWalter">Sir Walter
 												Scott</ref>, <hi rendition="#italics">
                                     <title>The
@@ -880,7 +911,7 @@
 					the necessity of newspapers. On this topic we commend the authoress to the
 					fatherly care of that most delightful person, Dr. Folliott, whose opinions, as
 					found in '<title>Crotchet Castle</title>,'<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <title>
                         <hi rendition="#italics">Crotchet
 								Castle</hi>
@@ -924,7 +955,7 @@
 					complimentary"—nevertheless, some are so caustic, that, unless she
 					omits them in a second edition, it might be well to publish a literary copy of
 					the advertisement to Rowland's Kalydor,<hi rendition="#sup">
-                  <note place="foot">Rowland's Kalydor, a patent preparation for the
+                  <note>Rowland's Kalydor, a patent preparation for the
 							complexion, was advertised as producing relaxation and dispelling
 							irritability.</note>
                </hi> particularly that part which states its
@@ -941,7 +972,7 @@
                   <lg type="stanza">
                      <l>Katerfelto, with his hair on end</l>
                      <l>At his own wonders, wondering for his bread.<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#CowperWilliam">
 											William Cowper</ref> (1731-1800), <title>
                                  <hi rendition="#italics">The Task</hi>: The Winter
@@ -953,7 +984,7 @@
 					quietly dignified, even as an author, requires no less moral courage than to be
 					so in daily life. Ridicule is society's fear of God, and entertainment its
 					"pearl of great price."<hi rendition="#sup">
-                  <note place="foot">From
+                  <note>From
 							the fourteenth-century alliterative poem <title>
                         <hi rendition="#italics">The Pearl</hi>
                      </title>.</note>
@@ -968,7 +999,7 @@
 					sadly along; and the history of the grave and noble Beatrice—of the
 					self-will and repentings of the less firmly strung Emily, would redeem an
 					Almack's of young ladies, and "a wilderness of monkeys."<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>,
 									<title>
                         <hi rendition="#italics">The Merchant of
@@ -1016,7 +1047,7 @@
 						The keen feeling, the delicate taste, were accustomed to subjection, and
 						romance refined, without weakening. </p>
                <p rendition="#center">
-							*               *               *               *</p>
+						*               *               *               *</p>
                <p>Beatrice was grave; silent, except when much interested; reserved, save when
 						under the influence of some strong feeling; with manners whose refinement
 						was that of inherently pure taste, and much mental cultivation, touched,
@@ -1080,7 +1111,7 @@
                      <l rendition="#indent1">Shadows of power,</l>
                      <l>Rise to your duty—</l>
                      <l rendition="#indent1">This is the hour.<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#ByronGeorge">Byron</ref>, <title>
                                  <hi rendition="#italics">The
 												Deformed Transformed</hi>

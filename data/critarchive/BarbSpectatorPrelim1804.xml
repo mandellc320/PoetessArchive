@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,7 +39,7 @@
                <monogr>
                   <title type="main" level="m">Selections from the Spectator, Tatler,
 							Guardian, and Freeholder</title>
-                  <title type="subordinate" level="m">with a Preliminary Esssay, by Anna
+                  <title type="sub" level="m">with a Preliminary Esssay, by Anna
 							Lætitia Barbauld</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
@@ -54,6 +55,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -295,7 +343,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -509,11 +557,20 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="8">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#LM" when="20200611" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy"</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -528,7 +585,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+               <item>Added new taxonomies into headers</item>
             </list>
          </change>
          <change who="#MW" when="2016-08-20" n="4">
@@ -569,16 +626,17 @@
                   <author type="writer">
                      <name>
                         <ref target="people.html#BarbauldMrs">
-                           <lb rendition="#center"/>Anna
+                           <lb/>Anna
 									Letitia Barbauld</ref>
                      </name>
                   </author>
+                  <lb/>
                   <title type="main" level="a">
-                     <lb rendition="#center"/>PRELIMINARY ESSAY <lb rendition="#center"/>
+                     PRELIMINARY ESSAY <lb/>
                      <hi rendition="#smcaps">to the</hi>
-                     <lb rendition="#center"/>SELECTIONS FROM THE <title>SPECTATOR</title>,
+                     <lb/>SELECTIONS FROM THE <title>SPECTATOR</title>,
 							&amp;c. <hi rendition="#sup">
-                        <note place="foot">
+                        <note>
                            <title>
                               <hi rendition="#italics">Selections from the
 											</hi>
@@ -603,7 +661,7 @@
                   </title>
                </bibl>
             </head>
-            <p rendition="#pnoindent">
+            <p rendition="#noindent">
                <hi rendition="#largest">I</hi>
                <hi rendition="#smcaps">t</hi> is equally true of
 					books as of their authors, that one generation passeth away and another cometh.
@@ -615,10 +673,11 @@
             <p> Books make a silent and gradual, but a sure change in our ideas and opinions;
 					and as new authors are continually taking possession of the public mind, and old
 					ones falling into disuse, new associations insensibly take place, and shed their
-					influence unperceived over our taste, our<fw type="vol" place="bottom-left">
+					influence unperceived over our taste, our<lb/>
+               <fw type="vol">
                   <hi rendition="#smcaps">vol. i.</hi>
                </fw>
-               <milestone unit="signature" n="a" rendition="#center"/>
+               <fw type="sig">a</fw>
                <pb n="ii"/> manners, and our morals. If, for instance, the parent of the last
 					age would put <ref target="people.html#FenelonFrancois">Fenelon</ref> into the
 					hands of his child, and the parent of the present day would give him <ref target="people.html#BerquinM">Berquin</ref>; each with a view of impressing
@@ -631,7 +690,7 @@
 					live their day, and are then buried in oblivion; but to books that have been the
 					favourites of the public, and ‘the very glass by which its noble youth did dress
 						themselves.'<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>,
 									<title>
                         <hi rendition="#italics">Henry IV Part 2</hi>
@@ -657,7 +716,7 @@
 					purchasing. <ref target="people.html#SirRogerdeCoverley">Sir Roger de
 						Coverley</ref> and the other characters of the club were ‘familiar in our
 					mouths as household names;'<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>,
 									<title>
                         <hi rendition="#italics">Henry V</hi>
@@ -666,7 +725,8 @@
                </hi> and every little circumstance related of them
 					remained indelibly engraven on our memories. From the papers of <ref target="people.html#AddisonJoseph">Addison</ref> we imbibed our first relish
 					for wit; from his criticisms we formed our first standard of taste; and from his
-					delineations we drew our first ideas of manners. It <milestone unit="signature" n="a 2" rendition="#center"/>
+					delineations we drew our first ideas of manners. It <lb/>
+               <fw type="sig">a 2</fw>
                <pb n="iv"/> requires little attention to be convinced that this is now far from
 					being the case. It is not difficult to meet with those among the rising
 					generation who have only seen here and there an occasional paper of a
@@ -700,7 +760,8 @@
 					will remain, but the fashion will be lost. </p>
             <p> It must however be acknowledged, that a great part of these compositions do by
 					no means stand upon so high a ground of merit as to have any strong claim upon
-					the notice of <milestone unit="signature" n="a 3" rendition="#center"/>
+					the notice of <lb/>
+               <fw type="sig">a 3</fw>
                <pb n="vi"/> the present age. In the <title>Tatler</title>s there is a great
 					deal of absolute trifling; and the <title>Spectator</title>s themselves, though
 					the best of the several sets, are very unequally written,—as indeed might
@@ -735,7 +796,8 @@
 					In this, which may be compared to the essential oils of plants, resides the
 					genuine and distinguishing flavour of an author's wit; but it commonly
 					bears a very small proportion to his bulk. Whole libraries might by this process
-					be distilled down to a few pocket volumes; as a single phial of <hi rendition="#italics">attar</hi> of roses contains <milestone unit="signature" n="a 4" rendition="#center"/>
+					be distilled down to a few pocket volumes; as a single phial of <hi rendition="#italics">attar</hi> of roses contains <lb/>
+               <fw type="sig">a 4</fw>
                <pb n="viii"/> the precious product of many acres. Time is an admirable chymist
 					in this way. We are apt to lament the waste he has made among the productions of
 					antient genius: but it is probable, if we had an opportunity of inspecting them,
@@ -755,7 +817,7 @@
 					advantage of the popularity the name had acquired from its having been made use
 					of by <ref target="people.html#SwiftJonathan">Swift</ref> in his humorous
 					predictions relative to poor Partridge, the almanac-maker.<hi rendition="#sup">
-                  <note place="foot">See, for example, <hi rendition="#italics">
+                  <note>See, for example, <hi rendition="#italics">
                         <title>Predictions for the Year 1708. Wherein the Month and Day
 									of the Month Are Set Down, the Persons Named, and the Great
 									Actions and Events of Next Year Particularly Related, as They
@@ -801,7 +863,7 @@
 						Conversation</hi>
                </title>
                <hi rendition="#sup">
-                  <note place="foot">See
+                  <note>See
 									<title>
                         <hi rendition="#italics">A Letter from a Lay-Patron to a
 									Gentleman, Designing for Holy Orders</hi>
@@ -877,7 +939,7 @@
                      <l>So we; but now from this suspense are freed,</l>
                      <l>Since all agree, who both with judgment read,</l>
                      <l>'Tis the same sun, and does himself succeed.<hi rendition="#sup">
-                           <note place="foot">The poem, by <ref target="people.html#TateNahum">Nahum Tate</ref>, was
+                           <note>The poem, by <ref target="people.html#TateNahum">Nahum Tate</ref>, was
 										inserted at the end of <title>
                                  <hi rendition="#italics">Spectator</hi>
                               </title> no. 488 (Friday, September
@@ -895,7 +957,7 @@
 					licentiousness of the court <pb n="xiii"/> of <ref target="people.html#CharlesIIKingofEngland">Charles II</ref>., mixed with
 					the propensity to disorderly outrages and savage frolics incident to a people
 					who were still amused by the Bear Garden<hi rendition="#sup">
-                  <note place="foot">The Bear Garden was a sort of amphitheatre dedicated to bull-baiting,
+                  <note>The Bear Garden was a sort of amphitheatre dedicated to bull-baiting,
 							bear-baiting, prize-fighting, and similar sports. It was attended by
 							butchers, drovers, &amp;c. &amp;c.; also by people of the highest
 							fashion, for whom there were seats set apart, ornamented with old
@@ -911,7 +973,8 @@
 					each was more strongly marked with the peculiarities of his profession. There
 					were learned and there were elegant women; but manners had not received a
 					general polish, nor had women the advantage of a general cultivation. Genius had
-					already attained its perfection, but the reign of taste may be said <milestone unit="signature" n="2" rendition="#center"/>
+					already attained its perfection, but the reign of taste may be said <lb/>
+               <fw type="sig">2</fw>
                <pb n="xiv"/> to have commenced with <ref target="people.html#AddisonJoseph">Addison</ref>. The coadjutors of <ref target="people.html#AddisonJoseph">Addison</ref> and <ref target="people.html#SteeleRichard">Steele</ref> in
 					this work were <ref target="people.html#BudgellEustace">Eustace Budgell</ref>,
 						<ref target="people.html#TickellThomas">Tickell</ref>, <ref target="people.html#HughesJohn">Hughes</ref> author of the <title>Siege of
@@ -951,7 +1014,7 @@
 					literature, he possessed a like vivid fancy; a similar fulness and richness of
 					style. <pb n="xvi"/> But he also possessed the attic salt of <ref target="people.html#Apuleius">Lucian</ref>: the manner of this author is so
 					admirably imitated in his <title>Menippus</title>,<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <title>"The Fable of Menippus,"</title>
                      <title>
                         <hi rendition="#italics">Spectator</hi>
@@ -989,11 +1052,12 @@
 					that requires and exercises penetration in his reader, who is to catch his
 					meaning from the side views that are dexterously presented to him; for the
 					author never laughs himself. The style of <ref target="people.html#AddisonJoseph">Addison</ref> is pure and clear; rather
-					diffuse than <fw type="vol" place="bottom-left">
+					diffuse than <lb/>
+               <fw type="vol">
                   <hi rendition="#smcaps">vol.
 							i.</hi>
                </fw>
-               <milestone unit="signature" n="b" rendition="#center"/>
+               <fw type="sig">b</fw>
                <pb n="xviii"/> concentrated, and ornamented to the highest degree consistent
 					with good taste. But this ornament consists in the splendour of imagery, not in
 					the ordonnance of words; his readers will seek in vain for those sonorous
@@ -1011,14 +1075,14 @@
 					compensated by an elaborate pomp, which sets written composition at too great a
 					distance from speech, for which it is only the substitute. There is perhaps a
 					little too much of <pb n="xix"/> what the French call <hi rendition="#italics">persiflage</hi>,<hi rendition="#sup">
-                  <note place="foot">Banter.</note>
+                  <note>Banter.</note>
                </hi>
 					in the manner in which he conveys his advice to the female part of his readers:
 					but it was the fashion of that age to address women in a style of gallantry,
 					under which was often concealed a sly ridicule. <ref target="people.html#SwiftJonathan">Swift</ref>, in his surly way, used to
 					say, 'Let him <hi rendition="#italics">fair sex</hi> it to the world's
 					end, I will not meddle with the <title>Spectator</title>.'<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#SwiftJonathan">Jonathan Swift</ref>, <title>
                         <hi rendition="#italics">Journal to
 									Stella</hi>
@@ -1037,7 +1101,7 @@
                   <hi rendition="#italics">Essay on true and false Wit</hi>
                </title>, in
 					six papers.<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <title>
                         <hi rendition="#italics">Spectator</hi>
                      </title> Nos. 58-63 (Monday,
@@ -1047,7 +1111,8 @@
 					verbal wit had prevailed in the punning reign of <ref target="people.html#JamesIKingofEngland">James the first</ref>, and among
 					the minor wits of the court of <ref target="people.html#CharlesIIKingofEngland">Charles the second</ref>. Authors then abounded in thought, but had not yet
 					learned what to reject. <ref target="people.html#AddisonJoseph">Addi-</ref>
-               <milestone unit="signature" n="b 2" rendition="#center"/>
+               <lb/>
+               <fw type="sig">b 2</fw>
                <pb n="xx"/>
                <ref target="people.html#AddisonJoseph">son</ref> has seasoned these papers with
 					a plentiful share of the quality in its best form, which is the subject of them.
@@ -1062,7 +1127,7 @@
                   </hi>
                </title> is more elaborate, and is extended through
 					18 papers.<hi rendition="#sup">
-                  <note place="foot">The Saturday series begins
+                  <note>The Saturday series begins
 							with No. 267 (Saturday, January 5, 1712) and continues through No. 369
 							(Saturday, May 3, 1712).</note>
                </hi> For this task the author was
@@ -1090,7 +1155,8 @@
 					admit these papers in the present Selection. They will however be found useful
 					to young persons in laying a basis of just taste, and older ones might have
 					regretted the omission of what they have been accustomed to admire. A reader of
-					the present day will <milestone unit="signature" n="b 3" rendition="#center"/>
+					the present day will <lb/>
+               <fw type="sig">b 3</fw>
                <pb n="xxii"/> be apt to smile to see <ref target="people.html#BlackmoreRichard">Blackmore</ref> mentioned, as he is by <ref target="people.html#AddisonJoseph">Addison</ref>, in the same page with <ref target="people.html#MiltonJohn">Milton</ref>; but the truth is, there was a
 					great mixture of party spirit in the cry raised by the tory wits against the
 					dullness of <ref target="people.html#BlackmoreRichard">Blackmore</ref>. He was
@@ -1103,7 +1169,7 @@
                   <hi rendition="#italics">Pleasures of the
 							Imagination</hi>
                </title>.<hi rendition="#sup">
-                  <note place="foot">This
+                  <note>This
 							daily series extends from No. 411 (Saturday, June 21, 1712) through No.
 							421 (Thursday, July 3, 1712). The final paper includes brief abstracts
 							of each paper in the series.</note>
@@ -1114,7 +1180,7 @@
 					them the groundwork of his didactic poem, and had little more to do in many
 					parts than to reduce to measure what had already all the other charms of
 						poetry.<hi rendition="#sup">
-                  <note place="foot">See <ref target="people.html#BarbauldMrs">Barbauld</ref>'s "Essay
+                  <note>See <ref target="people.html#BarbauldMrs">Barbauld</ref>'s "Essay
 							on the Pleasures of the Imagination," <title>
                         <hi rendition="#italics">The Pleasures of the
 								Imagination</hi>
@@ -1142,7 +1208,8 @@
 					sun-set, the view of the starry heavens, and other circumstances proper to
 					impress a mind of feeling. Of these a portion are presented to the reader;
 					perhaps not so many as, upon a vague recollection, he will imagine might have
-					been collected: but the truth is, we abound so much in excellent <milestone unit="signature" n="b 4" rendition="#center"/>
+					been collected: but the truth is, we abound so much in excellent <lb/>
+               <fw type="sig">b 4</fw>
                <pb n="xxiv"/> discourses of this nature, that many of them would not now appear
 					to be marked with that originality which is meant to form the basis of this
 					Selection. In one particular, we must reluctantly confess, <ref target="people.html#AddisonJoseph">Addison</ref> was <hi rendition="#italics">not</hi> liberal. He had no enlarged ideas of religious
@@ -1183,7 +1250,7 @@
 					salutary prejudices. By the first paper we are prepared to expect a man whose
 					singularities proceed from good sense and an original cast of thought; a kind of
 					humourist, not unlike the elder Shandy;<hi rendition="#sup">
-                  <note place="foot">Referring to <ref target="people.html#SterneLaurence">Laurence
+                  <note>Referring to <ref target="people.html#SterneLaurence">Laurence
 								Sterne's</ref>
                      <hi rendition="#italics">
                         <title>Tristram
@@ -1194,7 +1261,7 @@
 					most benevolent and friendly heart. His character is set in a new light, in a
 					paper written by <ref target="people.html#AikinJohn">Dr. Aikin</ref>, in the
 						<title>Monthly Magazine</title> for February 1800.<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <title>"On the Humour of <ref target="people.html#AddisonJoseph">Addison</ref> and the
 								Character of <ref target="people.html#SirRogerdeCoverley">Sir Roger
 									de Coverley</ref>,"</title>
@@ -1275,7 +1342,7 @@
                   <lg type="stanza">
                      <l>When fainting Virtue her last effort made,</l>
                      <l>You brought your Clio to the virgin's aid.<hi rendition="#sup">
-                           <note place="foot">Quoted without attribution in <ref target="people.html#JohnsonSamuel">Samuel
+                           <note>Quoted without attribution in <ref target="people.html#JohnsonSamuel">Samuel
 										Johnson</ref>'s <title>
                                  <hi rendition="#italics">Adventurer</hi>
                               </title> No. 58 (Saturday, May 25,
@@ -1292,7 +1359,8 @@
 					so bitter a spirit of animosity divided almost every company, it was no small
 					advantage that one paper appeared every morning the tendency of which was of an
 					opposite nature, and that presented subjects for conversation which men might
-					canvass without passion, and on which <milestone unit="signature" n="2" rendition="#center"/>
+					canvass without passion, and on which <lb/>
+               <fw type="sig">2</fw>
                <pb n="xxxi"/> they might differ without resentment. Three thousand of them were
 					sold daily soon after the commencement of the publication; afterwards, it is
 					said, twenty thousand; and it may rebuke our rage for typographical luxury to be
@@ -1322,7 +1390,7 @@
 					at it; till at length it became insipid by the triteness of the sentiment, and
 					the servile use of the heathen mythology. The lovers of Italian poetry will by
 					no means be satisfied to see the beautiful poems of Aminta and Pastor Fido<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <hi rendition="#italics">
                         <title>Aminta</title>
                      </hi> (1573) is a play by <ref target="people.html#TassoTorquato">Torquato Tasso</ref>, while <hi rendition="#italics">
@@ -1355,11 +1423,12 @@
 					were then almost all partisans against the court, if not favourers of the Stuart
 					family.</p>
             <p> There seems to be no kind of writing which admits of selection more readily than
-					these pe- <fw type="vol" place="bottom-left">
+					these pe- <lb/>
+               <fw type="vol">
                   <hi rendition="#smcaps">vol.
 							i.</hi>
                </fw>
-               <milestone unit="signature" n="c" rendition="#center"/>
+               <fw type="sig">c</fw>
                <pb n="xxxiv"/> riodical papers. There is no plan to interrupt, no thread of
 					reasoning to break. Each paper or set of papers is complete in itself; and
 					though many are left out which may be thought to have some claim to insertion,
