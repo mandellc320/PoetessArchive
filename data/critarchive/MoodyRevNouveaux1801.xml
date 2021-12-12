@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns:PA="http://www.poetessarchive.org/#schema" type="text">
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Review of Nouveaux Contes Moraux by Marmontel</title>
-            <title type="subordinate" level="j">The Monthly Review</title>
+            <title type="sub" level="j">The Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -37,8 +38,10 @@
                <monogr>
                   <title type="main" level="j">The Monthly Review</title>
                   <imprint>
-                     <date when="1801-01">January-April 1801</date>
-                     <biblScope unit="vol">34</biblScope>
+                     <date when="1801">1801</date>
+                     <biblScope unit="series">second</biblScope>
+                     <biblScope unit="volume">34</biblScope>
+                     <biblScope unit="issue">Foreign Appendix</biblScope>
                      <biblScope unit="page">542-44</biblScope>
                   </imprint>
                </monogr>
@@ -46,6 +49,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -287,7 +337,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -495,15 +545,17 @@
             <catRef target="#ag9 #ag35" scheme="#ag"/>
             <catRef target="#f13" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef target="#g72 #g31" scheme="#g"/>
+            <catRef scheme="#g" target="#g72 #g31"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-18" n="5">
@@ -543,33 +595,32 @@
          </change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xmlns:PA="http://www.poetessarchive.org/#schema">
       <body>
          <div type="essay">
             <head>
                <bibl>
-                  <lb rendition="#center"/>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
                         <name>Elizabeth
 								Moody</name>
                      </ref>
                   </author>
+                  <lb/>
                   <title type="main" level="a">
-                     <lb rendition="#center"/>
+                     <lb/>
                      <hi rendition="#smcaps">Art.</hi> XVI.<hi rendition="#italics"> Nouveaux
 								Contes Moraux</hi>, &amp;c. <hi rendition="#italics">i.e.</hi> New
 							Moral Tales. By <hi rendition="#smcaps">
                         <ref target="people.html#Marmontel">Marmontel</ref>. 8vo.</hi> 4
 							Vols. Paris. 1801. Imported by De Boffe, London, Price 18s. sewed.<hi rendition="#sup">
-                        <note place="foot">This review article appeared in
+                        <note>This review article appeared in
 									the Foreign Appendix to <hi rendition="#italics">
                               <title>
                                  <ref target="people.html#ReviewMonthly">The Monthly
 												Review</ref>
                               </title>
-                           </hi>, Vol. 34 (January-April
-									1801), pp. 542-544. The marked copy of the <hi rendition="#italics">
+                           </hi>, second series, volume 34, 1801, pages 542-544. The marked copy of the <hi rendition="#italics">
                               <title>
                                  <ref target="people.html#ReviewMonthly">Monthly
 												Review</ref>
@@ -579,13 +630,25 @@
                               <name>Elizabeth
 											Moody</name>
                            </ref> and her husband, <ref target="people.html#MoodyChristopherLake">Christopher Lake
-										Moody</ref>. This edition of the article is produced by Emma
+                              Moody</ref>. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
+                              <name>Elizabeth Moody</name>
+                           </ref> as the author of this review from an editor's
+                           marked copy of <hi rend="#italics">
+                              <title>
+                                 <ref target="people.html#ReviewMonthly">The Monthly
+                              Review</ref>
+                              </title>
+                           </hi>. See Nangle, <hi rendition="#italics">
+                              <title>The Montly Review, Second
+                                    Series, 1790-1815: Indexes of Contributors and
+                                    Articles</title>
+                           </hi>, Clarendon Press, 1955. This edition of the article is produced by Emma
 									Wiley and Mary A. Waters.</note>
                      </hi>
                   </title>
                </bibl>
             </head>
-            <p rendition="#pnoindent">
+            <p rendition="#noindent">
                <hi rendition="#largest">R</hi>
                <hi rendition="#smcaps">ecollecting</hi> the pleasure which we formerly received from the inventive
 					genius and sprightly talents of the deceased author of these volumes, we took
@@ -625,7 +688,8 @@
 					turn form and recount a tale, including the most interesting events of their
 					life, without invading the sacred recesses of confidence. This proposition being
 					accepted by the whole party, each narrates a personal memoir; and the general
-					conclusion from the whole is that the parts of <milestone unit="signature" n="11" rendition="#center"/>
+					conclusion from the whole is that the parts of <lb/>
+               <fw type="sig" rendition="#center">11</fw>
                <pb n="543"/>our lives, which have contributed
 					most to our happiness, are those which have originated in virtuous sentiments,
 					or have been occupied in acts of benevolence.</p>
@@ -638,7 +702,7 @@
                      <l>Say, for thou canst, what is it to be wise?</l>
                      <l>'Tis but to know how little can be known, </l>
                      <l>To see all others' faults and feel our own.<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#PopeAlexander">Alexander Pope</ref>, <hi rendition="#italics">
                                  <title>Essay on Man</title>
                               </hi> (1733-4), Epistle
@@ -722,7 +786,7 @@
                   <title>Mercure</title>
                </hi>
                <hi rendition="#sup">
-                  <note place="foot">The
+                  <note>The
 							French literary journal <hi rendition="#italics">
                         <title>Mercure de
 									France</title>

@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Smollet</title>
-            <title type="subordinate" level="m">The British Novelists</title>
+            <title type="sub" level="m">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -37,7 +38,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="subordinate">with an Essay and Prefaces,
+                  <title type="sub">with an Essay and Prefaces,
                             Biographical and Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
@@ -54,6 +55,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -295,7 +343,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -508,11 +556,20 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="8">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#LM" when="20200611" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -527,7 +584,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+               <item>Added new taxonomies into headers</item>
             </list>
          </change>
          <change who="#MW" when="2016-09-15" n="4">
@@ -566,14 +623,14 @@
             <head>
                <bibl>
                   <author type="writer">
-                     <lb rendition="#center"/>
                      <name>
                         <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
                      </name>
                   </author>
+                  <lb/>
                   <title type="main" level="a">
                      <ref target="people.html#SmollettTobias">SMOLLET</ref>.<hi rendition="#sup">
-                        <note place="foot">
+                        <note>
                            <title level="m">
                               <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
@@ -598,7 +655,7 @@
                   </title>
                </bibl>
             </head>
-            <p rendition="#pnoindent">
+            <p rendition="#noindent">
                <ref target="people.html#SmollettTobias">
                   <hi rendition="#largest">T</hi>
                   <hi rendition="#smcaps">OBIAS</hi>
@@ -609,7 +666,7 @@
                     year 1721, at the farm of Dalquhurn on the banks of the Leven, amidst some of
                     the most picturesque scenery of Scotland, to the beauties of which he afterwards
                     paid an elegant poetical tribute.<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <hi rendition="#italics">
                         <title>The Tears of Scotland</title>
                      </hi>
@@ -626,8 +683,11 @@
             <p>
                <ref target="people.html#SmollettTobias">Tobias</ref>, the subject of this
                     memoir, was put to school at Dumbarton, where it is recorded that the first
-                    efforts of his genius were shown in a copy of verses to the memory of <ref target="people.html#WallaceWilliam">Wallace</ref>, <fw type="vol" rendition="#smcaps" place="bottom-left">vol. xxx.</fw>
-               <milestone unit="signature" n="a" rendition="#center"/>
+                    efforts of his genius were shown in a copy of verses to the memory of <ref target="people.html#WallaceWilliam">Wallace</ref>, <lb/>
+               <fw type="vol">
+                  <hi rendition="#smcaps">vol. xxx.</hi>
+               </fw>
+               <fw type="sig">a</fw>
                <pb n="ii"/> several of whose adventures took place in the vicinity; for he had
                     always a large share of that national spirit by which his countrymen are
                     generally distinguished. Young <ref target="people.html#SmollettTobias">Tobias</ref>, however, was not always in the heroic mood. Many stories are
@@ -653,7 +713,7 @@
                     were uncommonly liberal, he used to observe, in the latter article. <pb n="iii"/> He soon got a situation as surgeon's mate in a ship of the line, and
                     acted as such in the unfortunate expedition to Carthagena which took place in
                     the year 1741.<hi rendition="#sup">
-                  <note place="foot">This disastrous battle
+                  <note>This disastrous battle
                             between British and Spanish forces over territory now part of
                             present-day Columbia was decided more by disease and demoralization that
                             by military prowess. British commander Admiral Edward Vernon was blamed
@@ -682,10 +742,11 @@
                     theatres, and, on their rejection, printed by subscription; a mode of publicity
                     by which unsuccessful candidates have not unfrequently vindicated the sagacity
                     of the managers. He does not seem to have studied euphony in the piece, if one
-                    may judge by the following speci-<milestone unit="signature" n="a 2" rendition="#center"/>
+                    may judge by the following speci-<lb/>
+               <fw type="sig">a 2</fw>
                <pb n="iv"/> men,—"<hi rendition="#italics">While grimly smiling
                         Grime</hi>."<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <hi rendition="#italics">
                         <title>The Regicide</title>
                      </hi>
@@ -728,7 +789,7 @@
                      <l>My sympathizing verse shall flow,</l>
                      <l>"Mourn, hapless Caledonia, mourn</l>
                      <l>Thy banish'd peace, thy laurels torn."<hi rendition="#sup">
-                           <note place="foot">Lines 49-56 of <ref target="people.html#SmollettTobias">Tobias
+                           <note>Lines 49-56 of <ref target="people.html#SmollettTobias">Tobias
                                         Smollet</ref>'s poem <title>
                                  <hi rendition="#italics">The Tears of Scotland</hi>
                               </title>
@@ -739,7 +800,7 @@
                </quote>
             </p>
             <p>He also wrote two Satirical Epistles,<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <title>
                         <hi rendition="#italics">Advice: A Satire</hi>
                      </title>
@@ -779,7 +840,7 @@
                     deathbed, the opening of the will, and the disappointment of the gaping cousins,
                     are all admirably drawn, and probably contain much of the author's own
                     story on the death of his <ref target="people.html#SirJamesSmollett">grandfather</ref>. The character of a British tar<hi rendition="#sup">
-                  <note place="foot">Slang for a common sailor.</note>
+                  <note>Slang for a common sailor.</note>
                </hi> is portrayed in that
                     of Tom Bowling, uncle to the hero of the piece. It has been the original of most
                     sailor characters which have been since exhibited. He is drawn brave, blunt,
@@ -828,7 +889,7 @@
                     account of a classical feast, supposed to have been held by a learned physician
                     and other gentlemen, after the manner of the ancients. In this there is humour,
                     and a display of learning, though in the former it is inferior to Scriblerus.<hi rendition="#sup">
-                  <note place="foot">Psuedonymous author of <hi rendition="#italics">The Memoirs of Martinus Scriblerus</hi> and
+                  <note>Psuedonymous author of <hi rendition="#italics">The Memoirs of Martinus Scriblerus</hi> and
                             other satirical works. The authors behind the name were members of The
                             Scriblers Club, including but not limited to: <ref target="people.html#SwiftJonathan">Jonathan Swift</ref>, <ref target="people.html#PopeAlexander">Alexander Pope</ref>, <ref target="people.html#agayJohn">John Gay</ref>, <ref target="people.html#ArbuthnotJohn">John Arbuthnot</ref>, and <ref target="people.html#ParnellThomas">Thomas Parnell</ref>.</note>
                </hi>
@@ -890,15 +951,18 @@
                     his relations and friends, particularly his mother, to whom he introduced
                     himself as a stranger. She was a woman of strong sense, and a great share of
                     humour, which she retained to the end of life. She did not know him at first;
-                    but as he could not entirely keep <fw type="vol" rendition="#smcaps" place="bottom-left">vol. xxx.</fw>
-               <milestone unit="signature" n="b" rendition="#center"/>
+                    but as he could not entirely keep <lb/>
+               <fw type="vol">
+                  <hi rendition="#smcaps">vol. xxx.</hi>
+               </fw>
+               <fw type="sig">b</fw>
                <pb n="x"/> his countenance, she threw her arms about his neck, saying,
                     "Ah! my son, your old roguish smile has betrayed you at once."</p>
             <p>On his return to London he engaged in <title>
                   <hi rendition="#italics">The
                             Critical Review</hi>
                </title>,<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <title>
                         <hi rendition="#italics">The Critical
                                 Review</hi>
@@ -974,7 +1038,8 @@
                     truth, for wrongs done him in a work of fiction.</p>
             <p>
                <ref target="people.html#SmollettTobias">Smollet</ref>, having decidedly taken
-                    his political party, was engaged to write in defence of the <milestone unit="signature" n="b2" rendition="#center"/>
+                    his political party, was engaged to write in defence of the <lb/>
+               <fw type="sig">b2</fw>
                <pb n="xii"/> measures of the <ref target="people.html#StuartJohn">Earl of
                         Bute</ref>, which he did in a weekly paper called <title>
                   <hi rendition="#italics">The Briton</hi>
@@ -1026,7 +1091,7 @@
                     he had come at. 'I'll tell it,' said Smelfungus, 'to the
                     world.' 'You had better tell it,' said I, 'to your
                         physician.'"<hi rendition="#sup">
-                  <note place="foot">From Chapter
+                  <note>From Chapter
                             18, "In the Street. Calais" of <ref target="people.html#SterneLaurence">Sterne</ref>'s <title>
                         <hi rendition="#italics">A Sentimental
                                     Journey through France and Italy</hi>
@@ -1044,7 +1109,8 @@
                   <hi rendition="#italics">Humphrey Clinker</hi>
                </title>. It was indeed the last of his
                     publications. His complaints returned upon him with renewed violence, and he
-                        <milestone unit="signature" n="b3" rendition="#center"/>
+                        <lb/>
+               <fw type="sig">b3</fw>
                <pb n="xiv"/> was advised to try again change of air and climate; but as his
                     circumstances could but ill support the expense of the voyage, his friends
                     applied to the ministry to obtain the office of consul at Leghorn or Nice, by
@@ -1132,7 +1198,7 @@
                             Guide,</hi>
                </title>
                <hi rendition="#sup">
-                  <note place="foot">A popular
+                  <note>A popular
                             epistle by <ref target="people.html#AnsteyChristopher">Christopher
                                 Anstey</ref>, published in 1766.</note>
                </hi> which has suggested

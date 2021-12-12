@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Goldsmith</title>
-            <title type="subordinate" level="m">The British Novelists</title>
+            <title type="sub" level="m">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -37,7 +38,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="subordinate">with an Essay and Prefaces, Biographical and
+                  <title type="sub">with an Essay and Prefaces, Biographical and
                             Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
@@ -54,6 +55,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -295,7 +343,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -508,11 +556,20 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="8">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#LM" when="20200611" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -527,7 +584,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+               <item>Added new taxonomies into headers</item>
             </list>
          </change>
          <change who="#MW" when="2016-09-25" n="4">
@@ -567,14 +624,14 @@
             <head>
                <bibl>
                   <author type="writer">
-                     <lb rendition="#center"/>
                      <name>
                         <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
                      </name>
                   </author>
+                  <lb/>
                   <title type="main" level="a">
                      <ref target="people.html#agoldsmithOliver">GOLDSMITH</ref>.<hi rendition="#sup">
-                        <note place="foot">
+                        <note>
                            <title level="m">
                               <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
@@ -600,7 +657,7 @@
                   </title>
                </bibl>
             </head>
-            <p rendition="#pnoindent">
+            <p rendition="#noindent">
                <hi rendition="#largest">O</hi>NE of the most pleasing
                     novels of a modern cast is <title>
                   <hi rendition="#italics">The Vicar of
@@ -621,13 +678,16 @@
                     professional studies, and he was obliged to quit it clandestinely on account of
                     a debt he had contracted;—it is said, for a fellow-student, but probably
                     the consequence of that mutual accommodation which often subsists between young
-                        <fw type="vol" rendition="#smcaps" place="bottom-left">vol.
-                        xxiii.</fw>
-               <milestone unit="signature" n="a" rendition="#center"/>
+                        <lb/>
+               <fw type="vol">
+                  <hi rendition="#smcaps">vol.
+                        xxiii.</hi>
+               </fw>
+               <fw type="sig" rendition="#center">a</fw>
                <pb n="ii"/> and thoughtless companions. He was pursued, and arrested at Sunderland; but
                     was released through the friendship of two fellow-students. The world was now
                     all before him,<hi rendition="#sup">
-                  <note place="foot">See Milton, <title>
+                  <note>See Milton, <title>
                         <hi rendition="#italics">Paradise Lost</hi>
                      </title> Bk. XII,
                             646.</note>
@@ -653,7 +713,7 @@
                     thought would sometimes intrude, as he found himself, <quote>
                   <lg type="stanza">
                      <l>"Remote, unfriended, melancholy, slow,"<hi rendition="#sup">
-                           <note place="foot">Line 1 of <ref target="people.html#agoldsmithOliver">Oliver
+                           <note>Line 1 of <ref target="people.html#agoldsmithOliver">Oliver
                                             Goldsmith</ref>'s poem <title>
                                  <hi rendition="#italics">The Traveller</hi>
                               </title>
@@ -673,7 +733,7 @@
                </title>, he
                     represents himself as leading "with tuneless pipe the sportive
                         choir"<hi rendition="#sup">
-                  <note place="foot">Lines 243-4 of <ref target="people.html#agoldsmithOliver">Oliver Goldsmith</ref>'s
+                  <note>Lines 243-4 of <ref target="people.html#agoldsmithOliver">Oliver Goldsmith</ref>'s
                             poem <title>
                         <hi rendition="#italics">The Traveller</hi>
                      </title> (1764),
@@ -693,7 +753,8 @@
                     had assisted in liberating him from the arrest, who, though he with difficulty
                     recognised him through the forlorn appearance he made, generously shared his
                     purse with him while he staid in London.</p>
-            <milestone unit="signature" n="a 2" rendition="#center"/>
+            <lb/>
+            <fw type="sig" rendition="#center">a 2</fw>
             <pb n="iv"/>
             <p>
                <ref target="people.html#agoldsmithOliver">Goldsmith</ref> did not remain long in
@@ -756,13 +817,14 @@
                     variety of works, from which he drew a very comfortable subsistence. The
                     furniture of his mind was various, but his knowledge was superficial. Taste
                     supplied in him the deficiencies of science: his style was easy and flowing, and
-                    every thing <milestone unit="signature" n="a 3" rendition="#center"/>
+                    every thing <lb/>
+               <fw type="sig" rendition="#center">a 3</fw>
                <pb n="vi"/>he wrote, whether in verse or prose, bore the impression of his
                     talent. Even to those publications which he compiled for booksellers, he
                     communicated something of the charm of his own genius; and <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref> said of him with equal
                     felicity and truth, "Nullum fere scribendi genus non tetigit, nullum quod
                     tetigit non ornavit."<hi rendition="#sup">
-                  <note place="foot">Taken from
+                  <note>Taken from
                                 <ref target="people.html#JohnsonSamuel">Samuel Johnson</ref>'s
                             epitaph for <ref target="people.html#agoldsmithOliver">Oliver
                                 Goldsmith</ref>. These lines roughly translate to "who left scarcely
@@ -797,7 +859,7 @@
                     without much success, though it possessed a good share of comic merit and
                     originality. The public taste was at that time very much for sentimental
                         comedy—<hi rendition="#italics">la comédie larmoyante</hi>,<hi rendition="#sup">
-                  <note place="foot">"Tearful comedy," a popular
+                  <note>"Tearful comedy," a popular
                             genre on the eighteenth-century French stage.</note>
                </hi>— and
                             <title>
@@ -805,7 +867,7 @@
                </title>, a play of
                         <ref target="people.html#KellyHugh">Kelly</ref>'s, was acted with great
                     applause at the other house.<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <title>
                         <hi rendition="#italics">False Delicacy</hi>
                      </title> opened in 1768
@@ -925,14 +987,14 @@
                     gooseberry wine. We are at once touched and diverted with the harmless vanities
                     of the whole group, joined with innocence and benevolence. The character of the
                     vicar somewhat resembles Par-<pb n="xi"/>son Adams,<hi rendition="#sup">
-                  <note place="foot">The protagonist's companion in <title>
+                  <note>The protagonist's companion in <title>
                         <hi rendition="#italics">The History of the Adventures of Joseph
                                     Andrews</hi>
                      </title> (1742), by <ref target="people.html#FieldingHenry">Henry Fielding</ref>.</note>
                </hi>
                     and perhaps still more the author's own village pastor, "a man to all
                     the country dear."<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#agoldsmithOliver">Goldsmith</ref>, <hi rendition="#italics">The Deserted Village</hi> (1770)
                         141.</note>
                </hi> He is distinguished from the former by an admirable vein of
@@ -960,7 +1022,7 @@
                     must not be forgotten that this novel is enriched with two specimens of the
                     author's poetical powers. The first, "When lovely woman stoops to
                         folly,"<hi rendition="#sup">
-                  <note place="foot">The short poem is sung
+                  <note>The short poem is sung
                             by the Vicar's daughter after she has been seduced.</note>
                </hi> is
                     wonderfully pathetic. It is sweet as music, and polished like a gem. <title>
@@ -970,7 +1032,7 @@
                         <ref target="people.html#PercyThomas">Percy</ref>'s <title>
                   <hi rendition="#italics">Friar of Orders grey</hi>
                </title>;<hi rendition="#sup">
-                  <note place="foot">Printed in <ref target="people.html#PercyThomas">Percy</ref>'s <title>
+                  <note>Printed in <ref target="people.html#PercyThomas">Percy</ref>'s <title>
                         <hi rendition="#italics">Reliques
                                     of Ancient English Poetry</hi>
                      </title> (1765). </note>

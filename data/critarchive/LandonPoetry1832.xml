@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">On the Ancient and Modern Influence Of Poetry.</title>
-            <title type="subordinate" level="j">New Monthly Magazine and Literary
+            <title type="sub" level="j">New Monthly Magazine and Literary
 					Journal</title>
             <author type="writer">
                <name>Letitia Landon</name>
@@ -49,6 +50,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -290,7 +338,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -502,6 +550,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change who="#LM" when="20210922" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
          <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
@@ -551,16 +608,16 @@
          <div type="essay">
             <head>
                <bibl>
-                  <lb rendition="#center"/>
                   <author type="writer">
                      <ref target="people.html#LandonLetitia">
                         <name>Letitia
 							Landon</name>
                      </ref>
                   </author>
+                  <lb/>
                   <title type="main" level="a">ON THE ANCIENT AND MODERN INFLUENCE OF
 								POETRY.<hi rendition="#sup">
-                        <note place="foot">
+                        <note>
                            <title level="j">
                               <hi rendition="#italics">New Monthly Magazine and Literary
 											Journal</hi>
@@ -615,7 +672,7 @@
 					creations of earliest time. Look from thence to the fierce regions of the
 					North,—how full is the Scandinavian faith of the wild and wonderful! or to
 					the East, how gorgeous their tales of enchantment, with their delicate Peris,<hi rendition="#sup">
-                  <note place="foot">Supernatural beings of Persian mythology
+                  <note>Supernatural beings of Persian mythology
 							endowed with grace and beauty.</note>
                </hi> and the fallen and fearful
 					spirits in their subterranean caverns!—again, the faith of Brahma, with
@@ -642,14 +699,14 @@
 					that some great original curse has been said over them, and that they are given
 					over into the hand of man and not of God. And in simple truth that curse has
 					been slavery. The Helots<hi rendition="#sup">
-                  <note place="foot">Serfs of ancient
+                  <note>Serfs of ancient
 							Sparta.</note>
                </hi> even of Greece were uninspired. "A slave cannot
 					be eloquent," said <ref target="people.html#Longinus">
                   <name>Longinus</name>
                </ref>
                <hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#LandonLetitia">
                         <name>Landon</name>
                      </ref>
@@ -689,7 +746,8 @@
 					now a breathing space is allowed for reflection on the sin of sacrificing
 					man's most valuable possession—life. But what part has the poet taken
 					in these scenes of bloodshed? One certainly of amelioration. If he has sung of
-						con-<milestone unit="signature" n="2 H 2" rendition="#center"/>
+						con-<lb/>
+               <fw type="sig" rendition="#center">2 H 2</fw>
                <pb n="468"/>querors, the qualities held up to admiration were those of magnanimity and
 					generosity. He has spoken of the love of liberty as holding light the love of
 					life; and the highest eulogium of a warrior was that he died in defence of his
@@ -730,7 +788,7 @@
 					speaking of the fine arts, &amp;c. says, "The aristocracy do well to
 					encourage poetry: it is by fiction themselves exist—and what is poetry but
 						fiction?"<hi rendition="#sup">
-                  <note place="foot">Not
+                  <note>Not
 						identified.</note>
                </hi> fiction; its merit and its power lie alike in its
 					truth: to one heart the aspiring and elevated will come home; to another the
@@ -743,7 +801,7 @@
 					weariness. To another, poetry will be a vision and a delight, because the virtue
 					of which he dreams is there realized—and because the "love which his
 					spirit has painted"<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#ByronGeorge">
                         <name>Byron</name>
                      </ref>,"Stanzas to [Augusta]"
@@ -779,7 +837,7 @@
 					a fresh charm from being linked with some associate verse! Who that has these or
 					similar recollections but would keep the ear open, and the heart alive, to the
 					"song that lightens the languid way!"<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#MooreThomas">
                         <name>Sir Thomas
 									Moore's</name>
@@ -799,7 +857,7 @@
 					much dwelt upon the advocates of circumstance. Switzerland is a most beautiful
 					country, yet what great poet has it ever produced? The spirit which in ancient
 					days peopled grove and mountain with Dryad and Oread,<hi rendition="#sup">
-                  <note place="foot"> Nymphs from classical mythology.</note>
+                  <note> Nymphs from classical mythology.</note>
                </hi> or, in modern
 					times, with associations, must be in him who sees, not in the object seen. How
 					many there are, leading a life of literary leisure, living in a romantic
@@ -834,7 +892,7 @@
 					enthusiasm is nature's own gift to the poet. <hi rendition="#italics">Poeta
 						nascitur non fit</hi>
                <hi rendition="#sup">
-                  <note place="foot"> The poet is
+                  <note> The poet is
 							born, not made.</note>
                </hi> is, like many other old truths, the very
 					truth after all.</p>
@@ -852,7 +910,7 @@
                   <name>Wordsworth</name>
                </ref> truly says, "that, with the young,
 					poetry is a passion;"<hi rendition="#sup">
-                  <note place="foot"> Essay,
+                  <note> Essay,
 							"Supplementary to the Preface" to <hi rendition="#italics">Lyrical Ballads.</hi> (1815) </note>
                </hi> and there will always be
 					youth in the world to indulge the hopes, and feel the warm and fresh emotions,
@@ -910,7 +968,7 @@
 					his name rather than his writings. There is a base macadamizing spirit in
 					literature; we seek to level all the high places of old. But till we can deny
 					that fine "farther looking hope"<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#WordsworthWilliam">
                         <name>Wordsworth</name>
                      </ref>, "The Force of Prayer, or, The
@@ -928,7 +986,7 @@
                   <lg type="stanza">
                      <l>A heavenly breath</l>
                      <l>Along an earthly lyre.<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#BlanchardLaman">
                                  <name>Laman
 												Blanchard</name>
@@ -941,7 +999,7 @@
             </p>
             <p>Methinks there are some mysteries in the soul on whose precincts it were well to
 					"tread with unsandalled foot."<hi rendition="#sup">
-                  <note place="foot">An untraced but commonly repeated poetic phrase.</note>
+                  <note>An untraced but commonly repeated poetic phrase.</note>
                </hi> Poetry
 					like religion requires faith, and we are the better and happier for yielding it.
 					The imagination is to the mind what life is to the body—its vivifying and
@@ -951,7 +1009,7 @@
                   <lg type="stanza">
                      <l>Which bid the perished pleasures move</l>
                      <l>In mournful mockery o'er the soul of love;<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#ColeridgeSamuel">Samuel Taylor Coleridge</ref>,
 										"Lines On an Autumnal Evening"
 								7-8.</note>
@@ -985,7 +1043,7 @@
 								die,—</l>
                      <l rendition="#indent1">The poet's task is done—Oh,
 								Immortality! <hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#WhiteheadCharles">
                                  <name>Charles
 												Whitehead</name>
@@ -999,7 +1057,7 @@
                </ref>, "My
 					task has been my delight; I have not looked either to guerdon or praise, and to
 					me Poetry is its own exceeding great reward."<hi rendition="#sup">
-                  <note place="foot">Preface to <hi rendition="#italics">The Poetical Works of
+                  <note>Preface to <hi rendition="#italics">The Poetical Works of
 								S. T. Coleridge</hi> (London: William Pickering, 1828).</note>
                </hi>
             </p>

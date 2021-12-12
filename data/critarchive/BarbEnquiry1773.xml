@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">An Inquiry into Those Kinds of Distress which Excite
                     Agreeable Sensations: With a Tale </title>
-            <title type="subordinate" level="m">Miscellaneous Pieces, in Prose,</title>
+            <title type="sub" level="m">Miscellaneous Pieces, in Prose,</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -29,14 +30,14 @@
                <analytic>
                   <title type="main" level="a">An Inquiry into Those Kinds of Distress which
                             Excite Agreeable Sensations: With a Tale </title>
-                  <title type="subordinate" level="m">Miscellaneous Pieces, in Prose,</title>
+                  <title type="sub" level="m">Miscellaneous Pieces, in Prose,</title>
                   <author type="writer">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
                   </author>
                </analytic>
                <monogr>
                   <title type="main" level="m">Miscellaneous Pieces, in Prose</title>
-                  <title type="subordinate" level="m">By J. and A. L. Aikin</title>
+                  <title type="sub" level="m">By J. and A. L. Aikin</title>
                   <author type="writer">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
                   </author>
@@ -53,31 +54,51 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been changed: " for “," for ”,
-                        ' for ‘, and ' for ’.</p>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all hyphens have been typed on the U.S.
-                        keyboard</p>
-               <p>Em-dashes have been rendered as —</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
             </hyphenation>
-            <normalization method="markup">
-               <p>Spelling has not been regularized.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-                        such, the content recorded in brackets.</p>
-               <p>Compositors' catchwords and running titles have been silently
-                        eliminated.</p>
+            <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
             </normalization>
-            <normalization>
+            <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>£ has been used for £, the pound sign</p>
                <p>All other characters, those with accents, non-breaking spaces, etc., have
-                        been encoded in HTML entity decimals.</p>
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -88,133 +109,367 @@
                   <catDesc>citation only</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="g">
-               <bibl>ARC Genre Categories, July 1, 2017</bibl>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
                <category xml:id="g1">
-                  <catDesc>Advertisement</catDesc>
+                  <catDesc>pageimage</catDesc>
                </category>
                <category xml:id="g2">
-                  <catDesc>Animation</catDesc>
+                  <catDesc>biography</catDesc>
                </category>
                <category xml:id="g3">
-                  <catDesc>Bibliography</catDesc>
+                  <catDesc>biographical essay</catDesc>
                </category>
                <category xml:id="g4">
-                  <catDesc>Catalog</catDesc>
+                  <catDesc>poetry pamphlet</catDesc>
                </category>
                <category xml:id="g5">
-                  <catDesc>Chronology</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>Citation</catDesc>
+                  <catDesc>poetry book</catDesc>
                </category>
                <category xml:id="g6">
-                  <catDesc>Collection</catDesc>
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
                </category>
                <category xml:id="g8">
-                  <catDesc>Correspondence</catDesc>
+                  <catDesc>drama</catDesc>
                </category>
                <category xml:id="g9">
-                  <catDesc>Criticism</catDesc>
+                  <catDesc>table of contents</catDesc>
                </category>
                <category xml:id="g10">
-                  <catDesc>Drama</catDesc>
+                  <catDesc>table of illustrations</catDesc>
                </category>
                <category xml:id="g11">
-                  <catDesc>Ephemera</catDesc>
+                  <catDesc>picture</catDesc>
                </category>
                <category xml:id="g12">
-                  <catDesc>Essay</catDesc>
+                  <catDesc>index</catDesc>
                </category>
                <category xml:id="g13">
-                  <catDesc>Fiction</catDesc>
+                  <catDesc>notes</catDesc>
                </category>
                <category xml:id="g14">
-                  <catDesc>Film, Documentary</catDesc>
+                  <catDesc>frontispiece</catDesc>
                </category>
                <category xml:id="g15">
-                  <catDesc>Film, Experimental</catDesc>
+                  <catDesc>inscription page</catDesc>
                </category>
                <category xml:id="g16">
-                  <catDesc>Film, Narrative</catDesc>
+                  <catDesc>book boards</catDesc>
                </category>
                <category xml:id="g17">
-                  <catDesc>Film, Other</catDesc>
+                  <catDesc>titlepage</catDesc>
                </category>
                <category xml:id="g18">
-                  <catDesc>Historiography</catDesc>
+                  <catDesc>preface</catDesc>
                </category>
                <category xml:id="g19">
-                  <catDesc>Interview</catDesc>
+                  <catDesc>advertisement</catDesc>
                </category>
                <category xml:id="g20">
-                  <catDesc>Life Writing</catDesc>
+                  <catDesc>foreword</catDesc>
                </category>
                <category xml:id="g21">
-                  <catDesc>Liturgy</catDesc>
+                  <catDesc>acknowledgments</catDesc>
                </category>
                <category xml:id="g22">
-                  <catDesc>Musical Analysis</catDesc>
+                  <catDesc>collection literary annual</catDesc>
                </category>
                <category xml:id="g23">
-                  <catDesc>Music, Other</catDesc>
+                  <catDesc>collection miscellany</catDesc>
                </category>
                <category xml:id="g24">
-                  <catDesc>Musical Work</catDesc>
+                  <catDesc>collection anthology</catDesc>
                </category>
                <category xml:id="g25">
-                  <catDesc>Musical Score</catDesc>
+                  <catDesc>collection beauties</catDesc>
                </category>
                <category xml:id="g26">
-                  <catDesc>Nonficition</catDesc>
+                  <catDesc>collection juvenile</catDesc>
                </category>
                <category xml:id="g27">
-                  <catDesc>Paratext</catDesc>
+                  <catDesc>collection religious</catDesc>
                </category>
                <category xml:id="g28">
-                  <catDesc>Performance</catDesc>
+                  <catDesc>collection travels</catDesc>
                </category>
                <category xml:id="g29">
-                  <catDesc>Philosophy</catDesc>
+                  <catDesc>mixed</catDesc>
                </category>
                <category xml:id="g30">
-                  <catDesc>Photograph</catDesc>
+                  <catDesc>essay</catDesc>
                </category>
                <category xml:id="g31">
-                  <catDesc>Political Statement</catDesc>
+                  <catDesc>review</catDesc>
                </category>
                <category xml:id="g32">
-                  <catDesc>Poetry</catDesc>
+                  <catDesc>letter</catDesc>
                </category>
                <category xml:id="g33">
-                  <catDesc>Religion</catDesc>
+                  <catDesc>fragment poem</catDesc>
                </category>
                <category xml:id="g34">
-                  <catDesc>Reference Works</catDesc>
+                  <catDesc>fragment story</catDesc>
                </category>
                <category xml:id="g35">
-                  <catDesc>Review</catDesc>
+                  <catDesc>fragment novel</catDesc>
                </category>
                <category xml:id="g36">
-                  <catDesc>Scripture</catDesc>
+                  <catDesc>literary criticism book</catDesc>
                </category>
                <category xml:id="g37">
-                  <catDesc>Sermon</catDesc>
+                  <catDesc>literary criticism collection</catDesc>
                </category>
                <category xml:id="g38">
-                  <catDesc>Speech</catDesc>
+                  <catDesc>bibliography</catDesc>
                </category>
                <category xml:id="g39">
-                  <catDesc>Translation</catDesc>
+                  <catDesc>engraving</catDesc>
                </category>
                <category xml:id="g40">
-                  <catDesc>Travel Writing</catDesc>
+                  <catDesc>reproduction</catDesc>
                </category>
                <category xml:id="g41">
-                  <catDesc>Unspecified</catDesc>
+                  <catDesc>figure</catDesc>
                </category>
                <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+               <category xml:id="g72">
+                  <catDesc>literary criticism article</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one word before
+							hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="ag">
+               <bibl>ARC Genre Categories, July 1, 2017</bibl>
+               <category xml:id="ag1">
+                  <catDesc>Advertisement</catDesc>
+               </category>
+               <category xml:id="ag2">
+                  <catDesc>Animation</catDesc>
+               </category>
+               <category xml:id="ag3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="ag4">
+                  <catDesc>Catalog</catDesc>
+               </category>
+               <category xml:id="ag5">
+                  <catDesc>Chronology</catDesc>
+               </category>
+               <category xml:id="ag7">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="ag6">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="ag8">
+                  <catDesc>Correspondence</catDesc>
+               </category>
+               <category xml:id="ag9">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="ag10">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="ag11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="ag12">
+                  <catDesc>Essay</catDesc>
+               </category>
+               <category xml:id="ag13">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="ag14">
+                  <catDesc>Film, Documentary</catDesc>
+               </category>
+               <category xml:id="ag15">
+                  <catDesc>Film, Experimental</catDesc>
+               </category>
+               <category xml:id="ag16">
+                  <catDesc>Film, Narrative</catDesc>
+               </category>
+               <category xml:id="ag17">
+                  <catDesc>Film, Other</catDesc>
+               </category>
+               <category xml:id="ag18">
+                  <catDesc>Historiography</catDesc>
+               </category>
+               <category xml:id="ag19">
+                  <catDesc>Interview</catDesc>
+               </category>
+               <category xml:id="ag20">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="ag21">
+                  <catDesc>Liturgy</catDesc>
+               </category>
+               <category xml:id="ag22">
+                  <catDesc>Musical Analysis</catDesc>
+               </category>
+               <category xml:id="ag23">
+                  <catDesc>Music, Other</catDesc>
+               </category>
+               <category xml:id="ag24">
+                  <catDesc>Musical Work</catDesc>
+               </category>
+               <category xml:id="ag25">
+                  <catDesc>Musical Score</catDesc>
+               </category>
+               <category xml:id="ag26">
+                  <catDesc>Nonficition</catDesc>
+               </category>
+               <category xml:id="ag27">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="ag28">
+                  <catDesc>Performance</catDesc>
+               </category>
+               <category xml:id="ag29">
+                  <catDesc>Philosophy</catDesc>
+               </category>
+               <category xml:id="ag30">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="ag31">
+                  <catDesc>Political Statement</catDesc>
+               </category>
+               <category xml:id="ag32">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="ag33">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="ag34">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="ag35">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="ag36">
+                  <catDesc>Scripture</catDesc>
+               </category>
+               <category xml:id="ag37">
+                  <catDesc>Sermon</catDesc>
+               </category>
+               <category xml:id="ag38">
+                  <catDesc>Speech</catDesc>
+               </category>
+               <category xml:id="ag39">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="ag40">
+                  <catDesc>Travel Writing</catDesc>
+               </category>
+               <category xml:id="ag41">
+                  <catDesc>Unspecified</catDesc>
+               </category>
+               <category xml:id="ag42">
                   <catDesc>Visual Art</catDesc>
                </category>
             </taxonomy>
@@ -295,11 +550,20 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change who="#LM" when="20210922" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
          <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added full text taxonomy</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="5">
@@ -345,29 +609,29 @@
          <div type="essay">
             <head>
                <bibl>
-                  <lb rendition="#center"/>
                   <author type="writer">
                      <ref target="people.html#BarbauldMrs">
                         <name>Anna Letitia
                                 Barbauld</name>
                      </ref>
                   </author>
+                  <lb/>
                   <title type="main" level="a">
-                     <lb rendition="#center"/>AN <lb rendition="#center"/>
+                      AN <lb/>
                      <hi rendition="#largest">ENQUIRY</hi>
-                     <lb rendition="#center"/>
+                     <lb/>
                      <hi rendition="#smcaps">into those kinds
                                 of</hi>
-                     <lb rendition="#center"/>
+                     <lb/>
                      <hi rendition="#large">DISTRESS</hi>
-                     <lb rendition="#center"/>
+                     <lb/>
                      <hi rendition="#smcaps">which excite</hi>
-                     <lb rendition="#center"/>
+                     <lb/>
                      <hi rendition="#large">AGREEABLE
                                 SENSATIONS.</hi>
                      <hi rendition="#sup">
-                        <note place="foot">
-                           <title type="subordinate" level="m">
+                        <note>
+                           <title type="sub" level="m">
                               <hi rendition="#italics">Miscellaneous Pieces, in Prose,</hi>
                            </title> by <ref target="people.html#AikinJohn">J.</ref> and <ref target="people.html#BarbauldMrs">A.L. Aikin</ref> (London:
                                     Printed for J. Johnson, in St. Paul's Church-yard, 1773),
@@ -386,7 +650,7 @@
                   </title>
                </bibl>
             </head>
-            <p rendition="#pnoindent">
+            <p rendition="#noindent">
                <hi rendition="#largest">I</hi>t is undoubtedly true,
                     though a phænomenon of the human mind difficult to account for, that the
                     representation of distress frequently gives pleasure; from <pb n="191"/>which
@@ -408,7 +672,7 @@
                      <l>—————— of sorrows upon
                                 sorrows</l>
                      <l>Even to a lamentable length of woe.<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <hi rendition="#italics">
                                  <title>Ulysses</title>
                               </hi> IV.i. by <ref target="people.html#RoweNicholas">Nicholas Rowe</ref>.
@@ -440,11 +704,12 @@
                     to be thrown into strong contractions; the other relaxes the frame, opens the
                     features, and produces tears. When we crush a noxious or loathsome animal, we
                     may sympathize strongly with the pain it suffers, but with far different
-                        <milestone n="O" unit="signature" rendition="center"/>
+                        <lb/>
+               <fw type="sig">O</fw>
                <pb n="194"/>emotions
                     from the tender sentiment we feel for the dog of <ref target="people.html#Ulysses">Ulysses</ref>, who crawled to meet his
                     long-lost master, looked up, and died at his feet.<hi rendition="#sup">
-                  <note place="foot">After a decade of fighting in the Trojan War and a
+                  <note>After a decade of fighting in the Trojan War and a
                             decade-long return voyage, <ref target="people.html#Ulysses">Ulysses</ref> returned to his native Ithaca. When he arrived home,
                             he had been so changed during his twenty year absence that he was
                             recognized only by his old and faithful nurse Eurycleia, who noticed a
@@ -464,7 +729,7 @@
                     produces tears is wholly without a mixture of pleasure. When Joseph's
                     brethren were sent to buy corn, if they had perished in the desart by wild
                     beasts, or been reduced (as in the horrid adventures of a Pierre de Vaud<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#BarbauldMrs">Barbauld</ref> refers to the account in <title>
                         <hi rendition="#italics">The Shipwreck And Adventures Of Monsieur
                                     Pierre Viaud: A Native Of Bourdeaux, And Captain Of A Ship.
@@ -476,16 +741,17 @@
                     we might have shuddered, but we should not have wept for them. The gush of tears
                     is when Joseph made himself known to his brethren, and fell on their neck, and
                     kissed them.<hi rendition="#sup">
-                  <note place="foot">See <title>Genesis</title>
+                  <note>See <title>Genesis</title>
                             42-45. </note>
                </hi> When Hubert prepares to burn out prince
                     Arthur's eyes, the shocking circumstance, of itself, would only affect us
                     with horror; it is the amiable simplicity of the young prince, and his innocent
                     affection to his intended murderer that draws our tears, and excites that tender
-                    sorrow which we love to feel, <milestone n="O 2" unit="signature" rendition="center"/>
+                    sorrow which we love to feel, <lb/>
+               <fw type="sig">O 2</fw>
                <pb n="196"/>and which refines the heart while we do
                     feel it.<hi rendition="#sup">
-                  <note place="foot">According to the legend, Arthur
+                  <note>According to the legend, Arthur
                             I, Duke of Brittany (1187-1203) had been named successor to the throne
                             over his uncle John, King of England (1167-1216), who therefore had the
                             young duke imprisoned. The prison warden, Hubert de Burgh, was ordered
@@ -521,10 +787,11 @@
                     deep a shade: all his pieces are full of violent and gloomy passions, and so
                     over-wrought with horror, that instead of awakening any pleasing sensibility,
                     they leave on the mind an impression of sadness mixed with terror. <ref target="people.html.#ShakespeareWilliam">Shakespear</ref> is sometimes
-                    guilty of presenting scenes too <milestone n="O 3" unit="signature" rendition="center"/>
+                    guilty of presenting scenes too <lb/>
+               <fw type="sig">O 3</fw>
                <pb n="198"/>shocking. Such is the trampling out of
                     Gloster's eyes;<hi rendition="#sup">
-                  <note place="foot">See <hi rendition="#italics">
+                  <note>See <hi rendition="#italics">
                         <title>King Lear</title>
                      </hi>
                         III.vii.</note>
@@ -551,7 +818,7 @@
                   <lg type="stanza">
                      <l>And when let loose from torments, all one wound,</l>
                      <l>Run with my mangled arms, and crush him dead.<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <hi rendition="#italics">The Massacre of
                                             Paris; A Tragedy</hi> III.i.22-7.</note>
                         </hi>
@@ -565,7 +832,7 @@
                     the dreadful ingenuity of that savage people, than with the fatal mistake of the
                     lover in the <title>Spectator</title>, who pierced an artery in the arm of his
                     mistress as he was letting her blood.<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <hi rendition="#italics">Spectator</hi> No. 368 (Friday, 2 May
                             1712).</note>
                </hi> Tragedy and romance-writers are likewise apt to make
@@ -574,7 +841,8 @@
                     express any strong emotion otherwise than by swoonings or death; so that a
                     person experienced in this kind of reading, when a girl faints away at parting
                     with her lover, or a hero kills himself for the loss of his mistress, considers
-                    it as the established <milestone n="O 4" unit="signature" rendition="center"/>
+                    it as the established <lb/>
+               <fw type="sig">O 4</fw>
                <pb n="200"/>etiquette upon such occasions, and turns over the pages with
                     the utmost coolness and unconcern; whereas real sensibility and a more intimate
                     knowledge of human nature would have suggested a thousand little touches of
@@ -602,7 +870,7 @@
                      <l>And fierce devours it like a mountain beast;</l>
                      <l>He sucks the marrow and the blood he drains,</l>
                      <l>Nor entrails, flesh, nor solid bone remains.<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <hi rendition="#italics">The Odyssey of
                                             Homer</hi>, translated by <ref target="people.html#PopeAlexander">Alexander Pope</ref>
                                         (London: Bernard Lintot, 1725-1726) IX.342-9, slightly
@@ -614,7 +882,7 @@
                   <lg type="stanza">
                      <l>In the wide dungeon she devours her food,</l>
                      <l>And the flesh trembles while she churns the blood.<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <hi rendition="#italics">The
                                             Odyssey of Homer</hi>, translated by <ref target="people.html#PopeAlexander">Alexander Pope</ref>
                                         (London: Bernard Lintot, 1725-1726)
@@ -629,7 +897,7 @@
                     principal figures than is usually met with in common life. A late genius,
                     indeed, in whimsical mood, gave us a lady with her nose crushed for the heroine
                     of his story;<hi rendition="#sup">
-                  <note place="foot">The eponymous heroine of
+                  <note>The eponymous heroine of
                                 <ref target="people.html#FieldingHenry">Henry Fielding's</ref>
                      <hi rendition="#italics">
                         <title> Amelia</title>
@@ -640,7 +908,7 @@
                     kept a good deal out of sight, whenever it does recur to the imagination we are
                     hurt and disgusted. It was an heroic instance of virtue in the nuns of a certain
                     abbey, who cut off their noses and lips to avoid violation;<hi rendition="#sup">
-                  <note place="foot">Threatened by an invasion of Viking pirates, St.
+                  <note>Threatened by an invasion of Viking pirates, St.
                             Ebba, the ninth-century abbess of the monastery of Coldingham, urged her
                             nuns to disfigure themselves in this way. They successfully avoided
                             rape, but the pirates returned to burn the monastery and its inhabitants
@@ -648,7 +916,7 @@
                </hi> yet this would make a very bad subject for a
                     poem or play. Something akin to this is the representation of any thing
                     unnatural; of which kind is the famous story of the Roman charity,<hi rendition="#sup">
-                  <note place="foot">Referring to the story of Cimon and his
+                  <note>Referring to the story of Cimon and his
                             daughter Pero. When Cimon was starving in prison, Pero visited him to
                             feed him from her own breast. The incident had inspired many visual
                             representation, including a painting by Jean-Baptiste Grueze entitled
@@ -678,7 +946,7 @@
                      <l>The tatter'd remnant of an old strip'd hanging,</l>
                      <l>Which serv'd to keep her carcase from the cold;</l>
                      <l>So there was nothing of a piece about her.<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#OtwayThomas">Thomas
                                             Otway</ref>, <hi rendition="#italics">
                                  <title>The
@@ -691,7 +959,7 @@
                     into pity we turn away with aversion. Indeed the author only intended it to
                     strike horror. But how different are the sentiments we feel for the lovely
                         Belvidera!<hi rendition="#sup">
-                  <note place="foot">Character in <ref target="people.html#OtwayThomas">Otway</ref>'s <hi rendition="#italics">
+                  <note>Character in <ref target="people.html#OtwayThomas">Otway</ref>'s <hi rendition="#italics">
                         <title>Venice Preserv'd</title>
                      </hi>
                             (1682).</note>
@@ -737,7 +1005,7 @@
                     one of a less elevated character: and perhaps we should feel a livelier emotion
                     of tenderness for <ref target="people.html#Lovelace">Lovelace</ref>'s
                         Rose-bud,<hi rendition="#sup">
-                  <note place="foot">An inn-keeper's daughter,
+                  <note>An inn-keeper's daughter,
                             nicknamed so by the libertine <ref target="people.html#Lovelace">Lovelace</ref>, who declines to seduce her partly because her
                             relatives acknowledged his power by pleading with him to "spare" the
                             girl's innocence and partly because he feared an account of the
@@ -771,7 +1039,8 @@
                     springs of pity with the finest hand have mingled light strokes of pleasantry
                     and mirth in their most pathetic passages. Very different is the conduct of many
                     novel writers, who by plunging us into scenes of distress without end or limit,
-                    exhaust the powers, <milestone n="P" unit="signature" rendition="center"/>
+                    exhaust the powers, <lb/>
+               <fw type="sig">P</fw>
                <pb n="210"/>and before the conclusion either render us insensible to every
                     thing, or fix a real sadness upon the mind. The uniform stile of tragedies is
                     one reason why they affect so little. In our old plays all the force of language
@@ -795,7 +1064,8 @@
                     shall never feel again with equal force, are wasted without advantage. Nothing
                     is more dangerous than to let virtuous impressions of any kind pass through the
                     mind without producing their proper effect. The awakenings of remorse, virtuous
-                    shame and indignation, the glow of moral approba- <milestone n="P 2" unit="signature" rendition="center"/>
+                    shame and indignation, the glow of moral approba- <lb/>
+               <fw type="sig">P 2</fw>
                <pb n="212"/>tion, if they do not lead
                     to action, grow less and less vivid every time they recur, till at length the
                     mind grows absolutely callous. The being affected with a pathetic story is
@@ -820,7 +1090,8 @@
             <p>
                <hi rendition="#smcaps">It</hi> would perhaps be better, if our romances were
                     more like those of the old stamp, which tended to raise human nature, and
-                    inspire a certain grace and dig- <milestone n="P 3" unit="signature" rendition="center"/>
+                    inspire a certain grace and dig- <lb/>
+               <fw type="sig">P 3</fw>
                <pb n="214"/>nity of manners of which we have hardly the
                     idea. The high notions of honour, the wild and fanciful spirit of adventure and
                     romantic love, elevated the mind; our novels tend to depress and enfeeble it.
@@ -841,7 +1112,8 @@
                     seemed embellished by their presence. They were inseparable companions, and
                     their growing attachment was favoured by Jupiter, who had decreed that a lasting
                     union should be solemnized between them so soon as they were arrived at maturer
-                    years. But in the mean time the sons of men deviated <milestone n="P 4" unit="signature" rendition="center"/>
+                    years. But in the mean time the sons of men deviated <lb/>
+               <fw type="sig">P 4</fw>
                <pb n="216"/>from their native
                     innocence; vice and ruin over-ran the earth with giant strides; and <ref target="people.html#Astraea">Astrea</ref> with her train of celestial
                     visitants forsook their polluted abodes. Love alone remained, having been stolen

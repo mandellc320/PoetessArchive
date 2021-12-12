@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Dr. Moore</title>
-            <title type="subordinate" level="m">The British Novelists</title>
+            <title type="sub" level="m">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -37,7 +38,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="subordinate">with an Essay and Prefaces, Biographical and
+                  <title type="sub">with an Essay and Prefaces, Biographical and
                             Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
@@ -54,6 +55,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -295,7 +343,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -508,11 +556,20 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="8">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#LM" when="20200611" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -527,7 +584,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+               <item>Added new taxonomies into headers</item>
             </list>
          </change>
          <change who="#MW" when="2016-08-25" n="4">
@@ -571,16 +628,17 @@
                      <ref target="people.html#BarbauldMrs">Anna
                                 Letitia Barbauld</ref>
                   </author>
+                  <lb/>
                   <title type="main" level="a">
                      <ref target="people.html#MooreJohn">DR.
-                                MOORE</ref>.<hi rendition="#sup">
-                        <note place="foot">
-                           <title level="m">
-                              <hi rendition="#italics">The British Novelists; with an
+                                MOORE</ref>.
+                        <note>
+                        <title level="m">
+                           <hi rendition="#italics">The British Novelists; with an
                                             Essay; and Prefaces, Biographical and Critical, by <ref target="people.html#BarbauldMrs">Mrs.
                                             Barbauld</ref>
-                              </hi>
-                           </title>, 50 Vols. (London: Printed
+                           </hi>
+                        </title>, 50 Vols. (London: Printed
                                     for F.C. and J. Rivington; W. Otridge and Son; A. Strahan; T.
                                     Payne; G. Robinson; W. Lowndes; Wilkie and Robinson; Scatcherd
                                     and Letterman; J. Walker; Vernor, Hood, and Sharpe; R. Lea; J.
@@ -593,34 +651,36 @@
                                     Creech, Edinburgh; and Wilson and Son, York, 1810), 34: i-vii.
                                     Rachel Dejmal and Mary A. Waters co-edited this essay for <hi rendition="#italics">The Criticism
                             Archive</hi>.</note>
-                     </hi>
                   </title>
                </bibl>
             </head>
-            <p rendition="#pnoindent">
+            <p rendition="#noindent">
                <hi rendition="#largest">A</hi>MONG modern novels of English growth, few possess
                     greater excellence than <title>
                   <hi rendition="#italics">Zeluco</hi>
                </title>. Its
                     author, <ref target="people.html#MooreJohn">J<hi rendition="#smcaps">ohn</hi>
                             M<hi rendition="#smcaps">oore</hi>, M.D.</ref>, well known to the world
-                    by several successful publications, was born at Stirling in the year 1730.<hi rendition="#sup">
-                  <note place="foot">Most records agree that Moore was born
+                    by several successful publications, was born at Stirling in the year 1730.
+                  <note>Most records agree that Moore was born
                             in 1729.</note>
-               </hi> He lost his father, a minister of the Scotch
+                He lost his father, a minister of the Scotch
                     church, in his infancy; and his mother, upon that event, removed with him to
                     Glasgow. He was educated for the medical profession, and, after attending the
                     University lectures, was received, at the early age of seventeen, as
                     surgeon's mate in the allied army in Flanders, then commanded by the <ref target="people.html#CumberlandWilliam">Duke of Cumberland</ref>. He returned
                     to England on the peace which took place the year after, and, after passing some
-                    time in London, visited Paris in the course of professional improvement.<hi rendition="#sup">
-                  <note place="foot">Paris was at the time the epicenter of medical research
+                    time in London, visited Paris in the course of professional improvement.
+                  <note>Paris was at the time the epicenter of medical research
                             and training. </note>
-               </hi>Here he spent two years in attendance on the lectures and hospitals; and
+               Here he spent two years in attendance on the lectures and hospitals; and
                     was at the same time patronized by the <ref target="people.html#AlbemarleGeorgeKeppel">Duke of Albemarle</ref>, the
                     English ambassador, who appointed him surgeon to his household; but being
-                    offered a partnership with Mr. <fw type="vol" rendition="smcaps" place="bottom-left">vol. xxxiv.</fw>
-               <milestone unit="signature" n="a" rendition="#center"/>
+                    offered a partnership with Mr. <lb/>
+               <fw type="vol">
+                  <hi rendition="smcaps">vol. xxxiv.</hi>
+               </fw>
+               <fw type="sig">a</fw>
                <pb n="ii"/> (afterwards Dr.) <ref target="people.html#agordonJohn">Gordon</ref>, he returned, and, after
                     spending some more time in London, settled at Glasgow. Here he continued to
                     practise for a few years with that gentleman, and afterwards alone, till he was
@@ -672,8 +732,8 @@
                   </hi>
                </title>. 2 vols. These are written with more
                     discernment and impartiality than most publications of the time, but the
-                    crowding events of subsequent periods have thrown them out of date.<hi rendition="#sup">
-                  <note place="foot">Shortly after <ref target="people.html#LouisXVIKingofFrance">Louis XVI</ref> was
+                    crowding events of subsequent periods have thrown them out of date.
+                  <note>Shortly after <ref target="people.html#LouisXVIKingofFrance">Louis XVI</ref> was
                             guillotined in January 1793, England declared war with France.
                             Thereafter followed the French Reign of Terror as well as rigorous
                             repression of political dissent in England, the guillotining of
@@ -681,7 +741,6 @@
                             establishment of a republic, and, eventually, the 1799 coup and rise of
                                 <ref target="people.html#Napoleon">Napoleon</ref>, who remained
                             Emperor at the time Barbauld penned this essay.</note>
-               </hi>
             </p>
             <p>
                <ref target="people.html#MooreJohn">Dr. Moore</ref>'s frequent and
@@ -692,7 +751,8 @@
                     1786 a volume entitled <title>
                   <hi rendition="#italics">Medical</hi>
                </title>
-               <milestone unit="signature" n="a 2" rendition="center"/>
+               <lb/>
+               <fw type="sig">a 2</fw>
                <pb n="iv"/>
                <title>
                   <hi rendition="#italics">Sketches</hi>
@@ -713,22 +773,21 @@
                </title> in 1800: the latter was the
                     offspring of his declining years. </p>
             <p>
-               <ref target="people.html#MooreJohn">Dr. Moore</ref> died in 1803 at Richmond,<hi rendition="#sup">
-                  <note place="foot">Again, most sources disagree with <ref target="people.html#BarbauldMrs">Barbauld</ref>, dating <ref target="people.html#MooreJohn">Moore</ref>'s death in
+               <ref target="people.html#MooreJohn">Dr. Moore</ref> died in 1803 at Richmond,
+                  <note>Again, most sources disagree with <ref target="people.html#BarbauldMrs">Barbauld</ref>, dating <ref target="people.html#MooreJohn">Moore</ref>'s death in
                             1802.</note>
-               </hi> where he had spent in retirement the last years of his
+                where he had spent in retirement the last years of his
                     life, delighting himself with the opening prospects of his rising family, five
                     sons and a daughter. He lived long enough to pride himself in the growing
                     reputation and brilliant career of one of these sons; but, happily for himself,
                     not long enough to witness the disappointment of his fondest hopes, in the
-                    premature death of this gallant and unfortunate hero.<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#MooreJohn">Moore</ref>'s son
+                    premature death of this gallant and unfortunate hero.
+                  <note>
+                  <ref target="people.html#MooreJohn">Moore</ref>'s son
                                 <ref target="people.html#MooreSirJohn">Sir John Moore</ref>,
                             commander of British forces, lost his life fighting the French imperial
                             army in the 1809 Battle of Corruna on the north coast of
                         Spain.</note>
-               </hi>
                <ref target="people.html#MooreJohn">Dr. Moore</ref> enjoyed the esteem of a
                     numerous circle of acquaintance, by whom his social and companionable qualities
                     will long be remembered. His person was large, his eye-brows remarkably thick,
@@ -748,11 +807,11 @@
                     model of depravity. Zeluco is painted as radically vicious, without the
                     intermixture of any one good quality; but, if the perfectly virtuous character
                     is to be considered, for so we are sometimes told, as out of nature, "a
-                    faultless monster whom the world ne'er saw,"<hi rendition="#sup">
-                  <note place="foot">John Sheffield, Duke of Buckinghamshire, <title>
-                        <hi rendition="#italics">Essay on Poetry</hi>
-                     </title>, 1723. </note>
-               </hi> it is to be hoped a perfectly vicious character is at least as
+                    faultless monster whom the world ne'er saw,"
+                  <note>John Sheffield, Duke of Buckinghamshire, <title>
+                     <hi rendition="#italics">Essay on Poetry</hi>
+                  </title>, 1723. </note>
+                it is to be hoped a perfectly vicious character is at least as
                     extraordinary a production. There is no degree of atrocity to which human nature
                     may not arrive from time and circumstances; want and misery harden the heart as
                     well as the features: but it is scarcely conceivable that a youth coming into
@@ -766,10 +825,9 @@
                     reaches, like the character of Satan, the sublime of guilt. The attachment
                     between the wife and her lover is managed with great delicacy; yet if she
                     preserves <pb n="vi"/> her virtue, it may be said to be <hi rendition="#italics">heureusement:</hi>
-               <hi rendition="#sup">
-                  <note place="foot">luckily; fortunately; that is, due to good fortune rather
+               <note>luckily; fortunately; that is, due to good fortune rather
                             than exertion of firm character. </note>
-               </hi> and amiable and excellent as they both are, it may admit of a doubt how
+                and amiable and excellent as they both are, it may admit of a doubt how
                     far it is favourable to good morals to interest the reader in a passion for a
                     married woman, however unhappily she may be yoked. The character of Signora
                     Sporza is drawn with spirit; it is quite a foreign one. The conversation-pieces
@@ -787,43 +845,39 @@
                     of the author, there is a great deal of forcible reasoning against the
                     slave-trade; and there is no stroke in <ref target="people.html#SterneLaurence">Sterne</ref> of a finer pathos than the answer of the dying Hanno, when he
                     was told that his cruel master would broil in hell to all eternity—"I
-                    hope he will not suffer so long."<hi rendition="#sup">
-                  <note place="foot">
-                     <hi rendition="#italics">Zeluco</hi> (London: A. Strahan
+                    hope he will not suffer so long."<note>
+                  <hi rendition="#italics">Zeluco</hi> (London: A. Strahan
                             and T. Cadell, 1789) XV:128. </note>
-               </hi> The young may melt into tears at <title>
+                The young may melt into tears at <title>
                   <hi rendition="#italics">Julia
                             Mandeville</hi>
                </title>
-               <hi rendition="#sup">
-                  <note place="foot">
-                     <title>
-                        <hi rendition="#italics">The History of Lady Julia
+               <note>
+                  <title>
+                     <hi rendition="#italics">The History of Lady Julia
                                     Mandeville</hi>
-                     </title> is a sentimental novel by <ref target="people.html#BrookeFrances">Frances Brooke</ref> published in
+                  </title> is a sentimental novel by <ref target="people.html#BrookeFrances">Frances Brooke</ref> published in
                             1763.</note>
-               </hi> and <title>
+                and <title>
                   <hi rendition="#italics">The Man of
                             Feeling</hi>
-               </title>;<hi rendition="#sup">
-                  <note place="foot">
-                     <title>
-                        <hi rendition="#italics">The Man of Feeling</hi>
-                     </title> is a
+               </title>;<note>
+                  <title>
+                     <hi rendition="#italics">The Man of Feeling</hi>
+                  </title> is a
                             sentimental novel by <ref target="people.html#MackenzieHenry">Henry
                                 Mackenzie</ref> published in 1771.</note>
-               </hi> the romantic will
+                the romantic will
                     love to shudder at <pb n="vii"/>
                <title>
                   <hi rendition="#italics">Udolpho</hi>
-               </title>;<hi rendition="#sup">
-                  <note place="foot">
-                     <title>
-                        <hi rendition="#italics">The Mysteries of
+               </title>;<note>
+                  <title>
+                     <hi rendition="#italics">The Mysteries of
                                     Udolpho</hi>
-                     </title> is a gothic novel by <ref target="people.html#RadcliffeAnn">Ann Radcliffe</ref> published in
+                  </title> is a gothic novel by <ref target="people.html#RadcliffeAnn">Ann Radcliffe</ref> published in
                             1794.</note>
-               </hi> but those of mature age, who know what human nature
+                but those of mature age, who know what human nature
                     is, will take up again and again <ref target="people.html#MooreJohn">Dr.
                         Moore</ref>'s <title>
                   <hi rendition="#italics">Zeluco</hi>
@@ -838,9 +892,8 @@
                     conversation-pieces. <ref target="people.html#MooreJohn">Dr. Moore</ref> tells a
                     story well, but it must be allowed he makes the most of it. He has not spared
                     his own profession, but has some lively strictures on the incapacity and <hi rendition="#italics">charlatanerie</hi>
-               <hi rendition="#sup">
-                  <note place="foot">Deception; fraud. </note>
-               </hi> of pretenders in it. He drew with a free pen; and from his acquaintance
+               <note>Deception; fraud. </note>
+                of pretenders in it. He drew with a free pen; and from his acquaintance
                     with life, and facility in dialogue, it seems probable that he would have
                     succeeded in comedy, if he had turned his thoughts that way. <title>
                   <hi rendition="#italics">Mordaunt</hi>

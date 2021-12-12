@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Mrs. Radcliffe</title>
-            <title type="subordinate" level="m">The British Novelists</title>
+            <title type="sub" level="m">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -37,7 +38,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="subordinate">with an Essay and Prefaces,
+                  <title type="sub">with an Essay and Prefaces,
                             Biographical and Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
@@ -54,6 +55,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -295,7 +343,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -508,11 +556,20 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="8">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#LM" when="20200611" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added full text taxonomy</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -527,7 +584,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+               <item>Added new taxonomies into headers</item>
             </list>
          </change>
          <change who="#MW" when="2016-06-21" n="4">
@@ -568,16 +625,16 @@
             <head>
                <bibl>
                   <author type="writer">
-                     <lb rendition="#center"/>
                      <ref target="people.html#BarbauldMrs">
                         <name>Anna Letitia Barbauld</name>
                      </ref>
                   </author>
+                  <lb/>
                   <title type="main" level="a">
                      <ref target="people.html#RadcliffeAnn">MRS.
                                 RADCLIFFE.</ref>
                      <hi rendition="#sup">
-                        <note place="foot">
+                        <note>
                            <title level="m">
                               <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
@@ -611,7 +668,7 @@
                     with suspense, prolonged and wrought up to the most intense feeling, by
                     mysterious hints and obscure intimations of unseen danger. The scenery of her
                     tales is in "time-shook towers,"<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#CarterElizabeth">Elizabeth
                                 Carter</ref>, "<title>Ode to Wisdom</title>" 3
                             (1747).</note>
@@ -622,8 +679,11 @@
                     singular, atrocious. They are not of English growth; their guilt is tinged with
                     a darker hue than that of the bad and profligate characters we see in the world
                     about us; they seem almost to belong to an unearthly sphere of powerful
-                    mischief. But to the terror <fw type="vol" rendition="#smcaps" place="bottom-left">vol. xliii.</fw>
-               <milestone unit="signature" rendition="#center" n="a"/>
+                    mischief. But to the terror <lb/>
+               <fw type="vol">
+                  <hi rendition="#smcaps">vol. xliii.</hi>
+               </fw>
+               <fw type="sig">a</fw>
                <pb n="ii"/>produced by the machinations of guilt, and the perception of danger,
                     this writer has had the art to unite another, and possibly a stronger feeling.
                     There is, perhaps, in every breast at all susceptible of the influence of
@@ -632,7 +692,7 @@
                     low-whispered sounds, obscure glimpses of objects, flitting forms, tend to raise
                     in the mind that thrilling, mysterious terror, which has for its object the
                     "powers unseen and mightier far than we."<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#PopeAlexander">Alexander
                                 Pope</ref>, <title>
                         <hi rendition="#italics">Essay on
@@ -650,7 +710,7 @@
                   <hi rendition="#italics">The Romance of the
                         Forest</hi>
                </title>, and in some respects it is perhaps the best.<hi rendition="#sup">
-                  <note place="foot">This 1795 novel is actually
+                  <note>This 1795 novel is actually
                             Radcliffe's third. While Barbauld might almost be justified in
                             ignoring Radcliffe's first, <title>
                         <hi rendition="#italics">The
@@ -691,7 +751,7 @@
                      <l>———— if thou couldst see me without eyes, </l>
                      <l>Hear me without thine ears, and make reply </l>
                      <l>Without a tongue, &amp;c.<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>'s <title>
                                  <hi rendition="#italics">King John</hi>
                               </title>
@@ -714,7 +774,8 @@
                     that in many countries the stiletto is resorted to without scruple; treats as
                     trivial his former deviations from integrity; and, by lulling his conscience and
                     awakening his cupidity, draws him to his purpose. </p>
-            <milestone unit="signature" rendition="#center" n="a 2"/>
+            <lb/>
+            <fw type="sig">a 2</fw>
             <pb n="iv"/>
             <p> There are many situations in this novel which strike strongly upon the
                     imagination. Who can read without a shudder, that Adeline in her lonely chamber
@@ -736,7 +797,7 @@
                     by natural means. They are not always, however, <hi rendition="#italics">well</hi> accounted for; and the mind experiences a sort of disappointment
                     and shame at having felt so much from appearances which had nothing in them
                     beyond "this visible diurnal sphere."<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#MiltonJohn">Milton</ref>,
                                     <title>
                         <hi rendition="#italics">Paradise Lost</hi>
@@ -772,7 +833,7 @@
                             <title>
                   <hi rendition="#italics">The Sicilian</hi>
                </title>.<hi rendition="#sup">
-                  <note place="foot">Barbauld describes <title>
+                  <note>Barbauld describes <title>
                         <hi rendition="#italics">The Italian</hi>
                      </title> (1797). Radcliffe
                             never wrote a novel called <title>
@@ -797,7 +858,7 @@
                     terrific shape, "if shape it might be called, that shape had none
                     distinguishable;"—all these affect the mind more powerfully than any
                     regular or distinct images of danger or of woe.<hi rendition="#sup">
-                  <note place="foot">In <title>
+                  <note>In <title>
                         <hi rendition="#italics">A Philosophical Enquiry
                                     into the Origin of Our Ideas of the Sublime and
                                 Beautiful</hi>
@@ -842,13 +903,13 @@
                   <hi rendition="#italics">Tom
                         Jones</hi>
                </title>,<hi rendition="#sup">
-                  <note place="foot">1749 novel by
+                  <note>1749 novel by
                                 <ref target="people.html#FieldingHenry">Henry
                         Fielding</ref>.</note>
                </hi> or the Harrels in <hi rendition="#italics">
                   <title>Cecilia</title>;</hi>
                <hi rendition="#sup">
-                  <note place="foot">1782 novel by <ref target="people.html#BurneyFanny">Fanny
+                  <note>1782 novel by <ref target="people.html#BurneyFanny">Fanny
                             Burney</ref>.</note>
                </hi> the interest is painfully strong while we
                     read, and when once we have read it, it is nothing; we are ashamed of our
@@ -876,7 +937,7 @@
                   <hi rendition="#italics">The Sea Nymph</hi>
                </title>, "Down down
                     a hundred fathom deep!"<hi rendition="#sup">
-                  <note place="foot">The first
+                  <note>The first
                             line of the poem "The Sea Nymph," which appears in Chapter II of
                                     <title>
                         <hi rendition="#italics">The Mysteries of
@@ -894,7 +955,7 @@
                   <hi rendition="#italics">The Sicilian</hi>
                </title> is the last of <ref target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>'s
                         performances.<hi rendition="#sup">
-                  <note place="foot">Radcliffe's <hi rendition="#italics">
+                  <note>Radcliffe's <hi rendition="#italics">
                         <title>Gaston de Blondeville</title>
                      </hi> was
                             published posthumously in 1826.</note>
@@ -907,7 +968,7 @@
                   <hi rendition="#italics">Travels in Germany and
                             Holland</hi>
                </title>. <hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <title>
                         <hi rendition="#italics">A Journey Made in the Summer of 1794,
                                     through Holland and the Western Frontier of Germany, with a

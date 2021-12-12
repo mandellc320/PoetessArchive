@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">On Artificial Taste</title>
-            <title type="subordinate" level="j">The Monthly Magazine</title>
+            <title type="sub" level="j">The Monthly Magazine</title>
             <author type="writer">
                <name> Mary Wollstonecraft </name>
             </author>
@@ -49,6 +50,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -290,7 +338,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -502,6 +550,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change who="#LM" when="20210922" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
          <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
@@ -551,16 +608,14 @@
          <div type="essay">
             <head>
                <bibl>
-                  <lb rendition="#center"/>
                   <author type="writer">
                      <ref target="people.html#WollstonecraftMary">Mary
                             Wollstonecraft</ref>
                   </author>
-                  <lb rendition="#center"/>
-                  <title type="main" level="a">
-                     <lb rendition="#center"/>On Artificial
+                  <lb/>
+                  <title type="main" level="a">On Artificial
                                 Taste.<hi rendition="#sup">
-                        <note place="foot">"On Artificial Taste,"
+                        <note>"On Artificial Taste,"
                                     the title by which this essay is usually known, was the running
                                     header created by the <hi rendition="#italics">
                               <title>Monthly
@@ -588,11 +643,11 @@
                </bibl>
             </head>
             <lb/>
-            <p rendition="#pnoindent">
+            <p rendition="#noindent">
                <hi rendition="#italics">To the Editor of the Monthly Magazine</hi>. </p>
             <p>
                <hi rendition="#smcaps">sir</hi>, </p>
-            <p rendition="#pnoindent">
+            <p rendition="#noindent">
                <hi rendition="#largest">A</hi> TASTE for rural scenes, in the present state of
                     society, appears to me to be very often an artificial sentiment, rather inspired
                     by poetry and romances, than a real perception of the beauties of nature; but,
@@ -603,7 +658,7 @@
             <p> I have been led into these reflections by observing, when I have resided for any
                     length of time in the country, how few people seem to contemplate nature with
                     their own eyes. I have “brushed the dew away”<hi rendition="#sup">
-                  <note place="foot">A commonplace idea appearing in a wide variety of early
+                  <note>A commonplace idea appearing in a wide variety of early
                             British poetry, including <ref target="people.html#MiltonJohn">Milton</ref> and <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, but <ref target="people.html#WollstonecraftMary">Wollstonecraft</ref> may draw her quote more immediately from <hi rendition="#italics">
                         <title>Reflections on Death</title>
                      </hi> (1763)
@@ -721,7 +776,7 @@
                <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref>, I know, has taken
                     some pains to prove, that a strong mind, accidentally led to some particular
                     study in which it excels, is a genius.<hi rendition="#sup">
-                  <note place="foot">See "Life of <ref target="people.html#CowleyAbraham">[Abraham]
+                  <note>See "Life of <ref target="people.html#CowleyAbraham">[Abraham]
                                 Cowley</ref>," <hi rendition="#italics">
                         <title>Works of the
                                     English Poets with prefaces, Biographical and Critical, by <ref target="people.html#JohnsonSamuel">Samuel
@@ -737,7 +792,7 @@
                         Johnson</ref>, in fact, appears sometimes to be of the same opinion;
                     especially when he observes "that <ref target="people.html#ThomsonJames">Thomson</ref> looked on nature with the eye which she only gives to a
                         poet."<hi rendition="#sup">
-                  <note place="foot">"Life of <ref target="people.html#ThomsonJames">[James] Thomson</ref>," <hi rendition="#italics">
+                  <note>"Life of <ref target="people.html#ThomsonJames">[James] Thomson</ref>," <hi rendition="#italics">
                         <title>Works of the English Poets with
                                     prefaces, Biographical and Critical, by <ref target="people.html#JohnsonSamuel">Samuel
                                     Johnson</ref>

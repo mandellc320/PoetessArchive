@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Miss Burney</title>
-            <title type="subordinate" level="m">The British Novelists</title>
+            <title type="sub" level="m">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -37,7 +38,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="subordinate">with an Essay and Prefaces,
+                  <title type="sub">with an Essay and Prefaces,
                             Biographical and Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
@@ -54,6 +55,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -295,7 +343,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -508,7 +556,16 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="8">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#LM" when="20200611" n="7">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -567,15 +624,15 @@
             <head>
                <bibl>
                   <author type="writer">
-                     <lb rendition="#center"/>
                      <ref target="people.html#BarbauldMrs">
                         <name>Anna Letitia Barbauld</name>
                      </ref>
                   </author>
+                  <lb/>
                   <title type="main" level="a">
                      <ref target="people.html#BurneyFanny">MISS
                                 BURNEY</ref>.<hi rendition="#sup">
-                        <note place="foot">
+                        <note>
                            <title level="m">
                               <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
@@ -625,9 +682,11 @@
                         Burney</ref> composed her <title>
                   <hi rendition="#italics">Evelina</hi>
                </title>
-               <fw type="vol" rendition="#smcaps" place="bottom-left">vol.
-                        xxxviii.</fw>
-               <milestone unit="signature" n="a" rendition="#center"/>
+               <lb/>
+               <fw type="vol">
+                  <hi rendition="#smcaps">vol.
+                  xxxviii</hi>.</fw>
+               <fw type="sig">a</fw>
                <pb n="ii"/>when she was in
                     the early bloom of youth, about seventeen. She wrote it without the knowledge of
                     any of her friends. With the modesty of a young woman, and the diffidence of a
@@ -679,7 +738,8 @@
                     pleased; and the interest the public took in the young writer was rewarded with
                     fresh pleasure by the publication of <title>
                   <hi rendition="#italics">Cecilia</hi>
-               </title>, than which it would be difficult <milestone unit="signature" n="a 2" rendition="#center"/>
+               </title>, than which it would be difficult <lb/>
+               <fw type="sig">a 2</fw>
                <pb n="iv"/>to find a novel with more various and
                     striking beauties. Among these may be reckoned the style, which is so varied,
                     according to the characters introduced, that, without any information from the
@@ -711,7 +771,7 @@
                     simplicity and tenderness much resembles that of Emily in <title>
                   <hi rendition="#italics">Sir Charles Grandison</hi>
                </title>.<hi rendition="#sup">
-                  <note place="foot">Novel by <ref target="people.html#RichardsonSamuel">Samuel
+                  <note>Novel by <ref target="people.html#RichardsonSamuel">Samuel
                             Richardson</ref>.</note>
                </hi> If resemblances are sought for, it may
                     also be observed that the situation of Cecilia with Mrs. Delville is similar to
@@ -728,7 +788,8 @@
                     the happiness of the lovers, that the reader is scarcely able to say whether the
                     story ends happily or unhappily. It is true that in human life things are
                     generally so balanced; but in fictitious writings it is more agreeable, if they
-                    are not <milestone unit="signature" n="a 3" rendition="#center"/>
+                    are not <lb/>
+               <fw type="sig">a 3</fw>
                <pb n="vi"/>meant to end tragically, to leave on the mind the rainbow colours of
                     delight in their full glow and beauty.</p>
             <p> But the finest part of these volumes is the very moral and instructive story of
@@ -768,7 +829,7 @@
                     and it was thought, we must presume, the most appropriate reward of her
                     exertions, and the happiest method of fostering her genius, that she was made
                         <hi rendition="#italics">dresser</hi> to Her Majesty.<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#BurneyFanny">Burney</ref>
                             served as lady in waiting to Charlotte, queen to <ref target="people.html#ageorgeIIIKingofGreatBritain">George III</ref>,
                             from 1786-1791.</note>
@@ -833,7 +894,7 @@
                     with excess of painful feeling. At the conclusion of <title>
                   <hi rendition="#italics">Clarissa</hi>
                </title>,<hi rendition="#sup">
-                  <note place="foot">Novel by <ref target="people.html#RichardsonSamuel">Samuel
+                  <note>Novel by <ref target="people.html#RichardsonSamuel">Samuel
                                 Richardson</ref>.</note>
                </hi> we are dismissed in calm and not
                     unpleasing sorrow; but on the winding up of <title>

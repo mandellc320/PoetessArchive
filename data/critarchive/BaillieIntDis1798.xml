@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Introductory Discourse</title>
-            <title type="subordinate" level="m">A Series of Plays: in Which it is Attempted to
+            <title type="sub" level="m">A Series of Plays: in Which it is Attempted to
                Delineate the Stronger Passions </title>
             <author type="writer">
                <name> Joanna Baillie </name>
@@ -54,6 +55,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -295,7 +343,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                     hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -507,6 +555,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change who="#LM" when="20210922" n="7">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
          <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
@@ -562,8 +619,9 @@
                         <name>Joanna Baillie</name>
                      </ref>
                   </author>
+                  <lb/>
                   <title type="main" level="a">INTRODUCTORY DISCOURSE.<hi rendition="#sup">
-                        <note place="foot">This essay introduced the first volume of Baillie’s
+                        <note>This essay introduced the first volume of Baillie’s
                               <title level="m">
                               <hi rendition="#italics">A Series of Plays: in which it is attempted
                                  to delineate the stronger passions of the mind—each passion being
@@ -592,7 +650,8 @@
                it his taste or his humour might direct, without any previous trespass upon his time
                or his patience. But they are part of an extensive design: of one which, as far as my
                information goes, has nothing exactly similar to it in any language: of one which a
-               whole life time will be <milestone unit="signature" n="b" rendition="#smcaps"/>
+               whole life time will be <lb/>
+               <fw type="sig">b</fw>
                <pb n="2"/> limited enough to accomplish; and which has, therefore, a considerable
                chance of being cut short by that hand which nothing can resist. </p>
             <p>Before I explain the plan of this work, I must make a demand upon the patience of my
@@ -628,7 +687,8 @@
                with.</p>
             <p>I will readily allow that the dress and the manners of men, rather than their
                characters and disposition are the subjects of our common conversation, and seem
-               chiefly to occupy the mul- <milestone unit="signature" n="b 2" rendition="#smcaps"/>
+               chiefly to occupy the mul- <lb/>
+               <fw type="sig">b 2</fw>
                <pb n="4"/>titude. But let it be remembered that it is much easier to express our
                observations upon these. It is easier to communicate to another how a man wears his
                wig and cane, what kind of house he inhabits, and what kind of table he keeps, than
@@ -662,7 +722,7 @@
                such circumstances, or struggling with the terrible apprehensions which such a
                situation impresses, must be the powerful incentive, which makes us press forward to
                behold what we shrink from, and wait with trembling expectation for what we dread.<hi rendition="#sup">
-                  <note place="foot">In confirmation of this opinion I may venture to say,
+                  <note>In confirmation of this opinion I may venture to say,
                      that<!--<pb n="6"/>--> of the great numbers who go to see a publick execution,
                      there are but very few who would not run away from, and avoid it, if they
                      happened to meet with it unexpectedly. We find people stopping to look at a
@@ -683,7 +743,7 @@
                circumstance connected with it, except the very act itself of inflicting death. To
                lift up the roof of his dungeon, like the <hi rendition="#italics">Diable
                   boiteux</hi>,<hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <title>
                         <hi rendition="#italics">The Lame Devil</hi>
                      </title>, a novel by <ref target="people.html#LeSageAlain">Alain René Le
@@ -759,7 +819,8 @@
             <p>It is not merely under the violent agitations of passion, that man so rouses and
                interests us; even the smallest indications of an unquiet mind, the restless eye, the
                muttering lip, the half-checked exclamation, and the hasty start, will set our
-               attention as anxiously upon the watch, as the <milestone unit="signature" n="1" rendition="#smcaps"/>
+               attention as anxiously upon the watch, as the <lb/>
+               <fw type="sig">1</fw>
                <pb n="11"/> first distant flashes of a gathering storm. When some great explosion of
                passion bursts forth, and some consequent catastrophe happens, if we are at all
                acquainted with the unhappy perpetrator, how minutely will we endeavour to remember
@@ -820,7 +881,7 @@
                philosopher who foretold the phenomenon. Knowing what situation of life he is about
                to be thrown into, they perceive in the man, who, like Hazael, says, "is thy servant
                a dog that he should do this thing?"<hi rendition="#sup">
-                  <note place="foot">See II Kings 8:13. </note>
+                  <note>See II Kings 8:13. </note>
                </hi> the foul and ferocious murderer. A man of this contemplative character
                partakes, in some degree, of the entertainment of the Gods, who were supposed to look
                down upon this world and the inhabitants of it, as we do upon a theatrical
@@ -857,7 +918,7 @@
                battles fought in the moon, if it is not impressed upon our minds, by some
                circumstances attending them, that men subject to like weaknesses and passions with
                ourselves, were the combatants.<hi rendition="#sup">
-                  <note place="foot">Let two great battles be described to us with all the force and
+                  <note>Let two great battles be described to us with all the force and
                      clearness of the most able pen. In the first let the most admirable exertions
                      of military skill in the General, and the most unshaken courage in the
                      soldiers, gain over an equal or superiour number of brave opponents a compleat
@@ -897,7 +958,8 @@
                will impose upon the latter a very difficult task, in retaining what she is concerned
                with alone. </p>
             <p>In argumentative and philosophical writings, the effect which the author's reasoning
-               produces <milestone unit="signature" n="c" rendition="#smcaps"/>
+               produces <lb/>
+               <fw type="sig">c</fw>
                <pb n="18"/> on our minds depends not entirely on the justness of it. The images and
                examples that he calls to his aid, to explain and illustrate his meaning, will very
                much affect the attention we are able to bestow upon it, and consequently the
@@ -932,7 +994,8 @@
                delighted with it, though we are foolish enough to admire at the same time, all the
                nonsense with which it is surrounded. After all the wonderful incidents, dark
                mysteries, and secrets revealed, which eventful novel so liberally presents to us;
-               after the beautiful fairy ground, and even <milestone unit="signature" n="c 2" rendition="#smcaps"/>
+               after the beautiful fairy ground, and even <lb/>
+               <fw type="sig">c 2</fw>
                <pb n="20"/> the grand and sublime scenes of nature with which descriptive novel so
                often enchants us; those works which most strongly characterize human nature in the
                middling and lower classes of society, where it is to be discovered by stronger and
@@ -1034,7 +1097,7 @@
                clown would detect, into the most skilful depictments of the heart. I can think of
                   <pb n="26"/> no stronger instance to shew how powerfully this love of nature
                dwells within us.<hi rendition="#sup">
-                  <note place="foot">It appears to me a very strong testimony of the excellence of
+                  <note>It appears to me a very strong testimony of the excellence of
                         <ref target="people.html#ShakespeareWilliam">our great national
                         Dramatist</ref>, that so many people have been employed in finding out
                      obscure and refined beauties, in which appear to ordinary observation his very
@@ -1061,7 +1124,7 @@
                and men in the whimsical decorations of fancy would have displayed the characters and
                actions of their heroes, the folly and absurdity of their fellow-citizens, had no
                Priests of <ref target="people.html#Bacchus">Bacchus</ref> ever existed.<hi rendition="#sup">
-                  <note place="foot">Though the progress of society would have given us the Drama,
+                  <note>Though the progress of society would have given us the Drama,
                      independently of the particular cause of its first commencement, the peculiar
                      circumstances connected with its origin, have had considerable influence upon
                      its character and style, in the ages through which it has passed even to our
@@ -1140,7 +1203,8 @@
                It is for her to present to us the great and striking characters that are to be found
                amongst men, in a way which the poet, the novelist, and the historian can but
                imperfectly attempt. But above all, to her, and to her only it belongs to unveil to
-               us the human mind under the dominion of those strong and fixed passions,<milestone unit="signature" n="3" rendition="#smcaps"/>
+               us the human mind under the dominion of those strong and fixed passions,<lb/>
+               <fw type="sig">3</fw>
                <pb n="31"/> which, seemingly unprovoked by outward circumstances, will from small
                beginnings brood within the breast, till all the better dispositions, all the fair
                gifts of nature are borne down before them. Those passions which conceal themselves
@@ -1181,7 +1245,7 @@
                imitation and interest; as though they had entirely forgotten that it is only from
                creatures like ourselves that we feel, and therefore, only from creatures like
                ourselves that we receive the instruction of example. <hi rendition="#sup">
-                  <note place="foot">To a being perfectly free from all human infirmity our sympathy
+                  <note>To a being perfectly free from all human infirmity our sympathy
                      refuses to extend. Our Saviour himself, whose character is so beautiful, and so
                      harmoniously consistent; in whom, with outward proofs of his mission less
                      strong than those that are offered to us, I should still be compelled to
@@ -1197,12 +1261,13 @@
                </hi> Thus, passionate and impetuous warriors, who are proud, irritable, and
                vindictive, but generous, daring, and disinterested; setting their lives at a pin's
                fee for the good of others, but incapable of curbing their own humour of a moment to
-               gain the whole world for themselves; who will pluck <milestone unit="signature" n="d" rendition="#smcaps"/>
+               gain the whole world for themselves; who will pluck <lb/>
+               <fw type="sig">d</fw>
                <pb n="34"/> the orbs of heaven from their places, and crush the whole universe in
                one grasp, are called forth to kindle in our souls the generous contempt of every
                thing abject and base; but with an effect proportionably feeble, as the hero is made
                to exceed in courage and fire what the standard of humanity will agree to.<hi rendition="#sup">
-                  <note place="foot">In all burlesque imitations of tragedy, those plays in which
+                  <note>In all burlesque imitations of tragedy, those plays in which
                      this hero is pre-eminent, are always exposed to bear the great brunt of the
                      ridicule; which proves how popular they have been, and how many poets, and good
                      ones too, have been employed upon them. That they have been so popular,
@@ -1232,7 +1297,7 @@
                weakness of sensibility, are made to sigh out their sorrows in one unvaried strain of
                studied pathos, whilst this constant demand upon our feelings makes us absolutely
                incapable of answering it.<hi rendition="#sup">
-                  <note place="foot">Were it not, that in tragedies where these heroes preside, the
+                  <note>Were it not, that in tragedies where these heroes preside, the
                      same soft tones of sorrow are so often repeated in our ears, till we are
                      perfectly tired of it, they are more fitted to interest us than any other: both
                      because in seeing them, we own the ties of kindred between ourselves and the
@@ -1245,9 +1310,10 @@
                feelings of humanity; and villains as delighting in all manner of treachery and
                deceit, and acting upon many occasions for the very love of villainy itself; though
                the perfectly wicked are as ill fitted for the purposes of warning, as the perfectly
-               virtuous are for those of <milestone unit="signature" n="d 2" rendition="#smcaps"/>
+               virtuous are for those of <lb/>
+               <fw type="sig">d 2</fw>
                <pb n="36"/> example.<hi rendition="#sup">
-                  <note place="foot">I have said nothing here in regard to female character, though
+                  <note>I have said nothing here in regard to female character, though
                      in many tragedies it is brought forward as the principal one of the piece,
                      because what I have said of the above characters is likewise applicable to it.
                      I believe there is no man that ever lived, who has behaved in a certain manner,
@@ -1334,7 +1400,7 @@
                taken away. This is an injury by no means compensated, but very greatly aggravated by
                embellishing, in return, the speeches of passion with the ingenious conceits, and
                compleat similies of premeditated thought.<hi rendition="#sup">
-                  <note place="foot">This, perhaps, more than any thing else has injured the higher
+                  <note>This, perhaps, more than any thing else has injured the higher
                      scenes of tragedy. For having made such free use of bold hyperbolical language
                      in the inferior parts, the poet when he arrives at the highly impassioned sinks
                      into total inability; or if he will force himself to rise still higher on the
@@ -1438,7 +1504,7 @@
                interesting nor striking. It only affords us that kind of moral instruction which an
                essay or a poem could as well have conveyed, and, though amusing in the closet, is
                but feebly attractive in the Theatre.<hi rendition="#sup">
-                  <note place="foot">These plays are generally the work of men, whose judgment and
+                  <note>These plays are generally the work of men, whose judgment and
                      acute observation, enable them admirably well to generalize, and apply to
                      classes of men the remarks they have made upon individuals; yet know not how to
                      dress up, with any natural congruity, an imaginary individual in the attributes
@@ -1497,7 +1563,8 @@
                instruction, adapted to general application. We find in its varied scenes an exercise
                of the mind analogous to that which we all, less or more, find out for ourselves,
                amidst the mixed groupes of people whom we meet with in society; and which I have
-               already mentioned as an exercise universally pleasing to<milestone unit="signature" n="e" rendition="#smcaps"/>
+               already mentioned as an exercise universally pleasing to<lb/>
+               <fw type="sig">e</fw>
                <pb n="50"/>man. As the distinctions which it is its highest aim to discriminate, are
                those of nature and not situation, they are judged of by all ranks of men; for a
                peasant will very clearly perceive in the character of a peer, those native
@@ -1533,7 +1600,8 @@
                contrasted with them; but when the are still in full vigour of mind, eagerly engaged
                with the world, joining the activity of youth to the providence of age, and offer to
                our attention objects sufficiently interesting and instructive. It is to be regretted
-               that strong <milestone unit="signature" n="e 2" rendition="#smcaps"/>
+               that strong <lb/>
+               <fw type="sig">e 2</fw>
                <pb n="52"/> contrasts of character are too often attempted, instead of those
                harmonious shades of it, which nature so beautifully varies, and which we so greatly
                delight in, whenever we clearly distinguish them. It is to be regretted that in place
@@ -1569,7 +1637,7 @@
                belongs to her, it is too frequently done in the serious spirit of tragedy; and this
                has produced so many of those serious comick plays, which so much divide and distract
                our attention.<hi rendition="#sup">
-                  <note place="foot"> Such plays, however excellent the parts may be of which they
+                  <note> Such plays, however excellent the parts may be of which they
                      are composed, can never produce the same strength and<!--<pb n="54"/>--> unity
                      of effect upon our minds which we receive from plays of a simpler undivided
                      construction. If the serious and distressing scenes make a deep impression, we
@@ -1613,7 +1681,8 @@
                imperfect manner. The story of the lovers is acted over before us, whilst the
                characteristicks of that passion by which they are actuated, and which is the great
                master-spring of the whole, are faintly to be discovered. We are generally introduced
-               to a lover after he has <milestone unit="signature" n="6"/>
+               to a lover after he has <lb/>
+               <fw type="sig">6</fw>
                <pb n="56"/> long been acquainted with his mistress, and wants but the consent of
                some stubborn relation, relief from some embarrassment of situation, or the clearing
                up some mistake or love-quarrel occasioned by malice or accident, to make him
@@ -1645,7 +1714,7 @@
                arrow against the hardened rock; yet to those with whom they are but new, and less
                assured guests, this may prove a more successful mode of attack than any other. </p>
             <p>It was the saying of a sagacious Scotchman,<hi rendition="#sup">
-                  <note place="foot">See <hi rendition="#italics">
+                  <note>See <hi rendition="#italics">
                         <ref target="people.html#FletcherAndrew">Andrew Fletcher</ref>: Political
                         Works</hi>, ed. John Robertson (Cambridge University Press, 1997)
                      179.</note>
@@ -1693,7 +1762,7 @@
                scene. But where simplicity of plot is necessary, there is a very great danger of
                making a piece appear bare and unvaried, and nothing but great force and truth in the
                delineations of nature will prevent it from being tiresome.<hi rendition="#sup">
-                  <note place="foot">To make up for this simplicity of plot, the shew and
+                  <note>To make up for this simplicity of plot, the shew and
                      decorations of the theatre ought to be allowed, to plays written upon this
                      plan, in their full extent. How fastidious soever some poets may be in regard
                      to these matters, it is much better to relieve our tired-out attention with a
@@ -1792,7 +1861,8 @@
                more upon this subject, but submit myself to the judgment of my reader. </p>
             <p>It may, perhaps, be supposed from my publishing these plays, that I have written them
                for the closet rather than the stage. If upon perusing them with attention, the
-               reader is disposed to think they are better calculated for the first than <milestone unit="signature" n="f" rendition="#smcaps"/>
+               reader is disposed to think they are better calculated for the first than <lb/>
+               <fw type="sig">f</fw>
                <pb n="66"/> the last, let him impute it to want of skill in the authour, and not to
                any previous design. A play, but of small poetical merit, that is suited to strike
                and interest the spectator, to catch the attention of him who will not, and of him
@@ -1826,11 +1896,12 @@
                strength of my own judgment; but the friends to whom I have shewn my manuscripts are
                partial to me, and their approbation which in the case of any indifferent person
                would be in my mind completely decisive, goes but a little way in relieving me from
-               these apprehensions. To step beyond the <milestone unit="signature" n="f 2" rendition="#smcaps"/>
+               these apprehensions. To step beyond the <lb/>
+               <fw type="sig">f 2</fw>
                <pb n="68"/> circle of my own immediate friends in quest of opinion, from the
                particular temper of my mind I feel an uncommon repugnance: I can with less pain to
                myself bring them before the publick at once, and submit to its decision.<hi rendition="#sup">
-                  <note place="foot">The first of these plays, indeed, has been shewn to two or
+                  <note>The first of these plays, indeed, has been shewn to two or
                      three Gentlemen whom I have not the honour of reckoning amongst my friends. One
                      of them, who is a man of distinguished talents, has honoured it with very
                      flattering approbation; and, at his suggestion, one or two slight alterations
@@ -1905,7 +1976,7 @@
                reward his trouble than I dare venture to promise him; and for the pains he has
                already taken, and that which he intends to take for me, I request that he will
                accept of my grateful acknowledgments. <hi rendition="#sup">
-                  <note place="foot">
+                  <note>
                      <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>, more than any of
                      our poets, gives peculiar and appropriate distinction to the characters of his
                      tragedies. The remarks I have made, in regard to the little variety of

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -26,7 +27,7 @@
             <biblStruct>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="subordinate">with an Essay and Prefaces,
+                  <title type="sub">with an Essay and Prefaces,
 							Biographical and Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
@@ -42,6 +43,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -283,7 +331,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -495,14 +543,23 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="8">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#LM" when="20200611" n="7">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
                <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
             </list>
          </change>
-         <change who="#LM" when="20190110" n="5">
+         <change who="#LM" when="20190110" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -581,78 +638,85 @@
          <div type="collection">
             <head>
                <bibl>
+                  <author type="writer">
+                     <ref target="people.html#BarbauldMrs">
+                        <name>Anna Letitia Barbauld</name>
+                     </ref>
+                  </author>
                   <title type="main" level="m">
                      <title>The British Novelists; </title>
                   </title>
-                  <title type="subordinate" level="m">
+                  <title type="sub" level="m">
                      <title>with an Essay, and Prefaces Biographical and
-											Critical</title>, by Mrs. <ref target="people.html#BarbauldMrs">Barbauld</ref>.</title>London, 1810.
-					</bibl>
+											Critical</title>, by Mrs. <ref target="people.html#BarbauldMrs">Barbauld</ref>.</title>
+               </bibl>
             </head>
-            <head>Table of Contents</head>
+            <head>
+               <hi rendition="#largest">Table of Contents</hi>
+            </head>
             <list type="simple">
                <item>
-                  <ref target="BageBritNov1810.html">Mr. Bage</ref>
+                  <ref target="BarbBageBritNov1810.html">Mr. Bage</ref>
                </item>
                <item>
-                  <ref target="BrookeBritNov1810.html">Mrs. Brooke</ref>
+                  <ref target="BarbBrookeBritNov1810.html">Mrs. Brooke</ref>
                </item>
                <item>
-                  <ref target="BurneyBritNov1810.html">Miss Burney</ref>
+                  <ref target="BarbBurneyBritNov1810.html">Miss Burney</ref>
                </item>
                <item>
-                  <ref target="DefoeBritNov1810.html">De Foe</ref>
+                  <ref target="BarbDefoeBritNov1810.html">De Foe</ref>
                </item>
                <item>
-                  <ref target="EdgeworthBritNov1810.html">Miss Edgeworth</ref>
+                  <ref target="BarbEdgeworthBritNov1810.html">Miss Edgeworth</ref>
                </item>
                <item>
-                  <ref target="FieldingBritNov1810.html">Fielding</ref>
+                  <ref target="BarbFieldingBritNov1810.html">Fielding</ref>
                </item>
                <item>
-                  <ref target="GoldsmithBritNov1810.html">Goldsmith</ref>
+                  <ref target="BarbGoldsmithBritNov1810.html">Goldsmith</ref>
                </item>
                <item>
-                  <ref target="GravesBritNov1810.html">Graves</ref>
+                  <ref target="BarbGravesBritNov1810.html">Graves</ref>
                </item>
                <item>
-                  <ref target="HawkesworthBritNov1810.html">Hawkesworth</ref>
+                  <ref target="BarbHawkesworthBritNov1810.html">Hawkesworth</ref>
                </item>
                <item>
-                  <ref target="InchbaldBritNov1810.html">Mrs. Inchbald</ref>
+                  <ref target="BarbInchbaldBritNov1810.html">Mrs. Inchbald</ref>
                </item>
                <item>
-                  <ref target="JohnsonBritNov1810.html">Johnson</ref>
+                  <ref target="BarbJohnsonBritNov1810.html">Johnson</ref>
                </item>
                <item>
-                  <ref target="LennoxBritNov1810.html">Mrs. Lennox</ref>
+                  <ref target="BarbLennoxBritNov1810.html">Mrs. Lennox</ref>
                </item>
                <item>
-                  <ref target="MackenzieBritNov1810.html">Mackenzie</ref>
+                  <ref target="BarbMackenzieBritNov1810.html">Mackenzie</ref>
                </item>
                <item>
-                  <ref target="MooreBritNov1810.html">Dr. Moore</ref>
+                  <ref target="BarbMooreBritNov1810.html">Dr. Moore</ref>
                </item>
                <item>
-                  <ref target="OriginProgBritNov1810.html">On the Origin and Progress of Novel-Writing.</ref>
+                  <ref target="BarbOriginProgBritNov1810.html">On the Origin and Progress of Novel-Writing.</ref>
                </item>
                <item>
-                  <ref target="RadcliffeBritNov1810.html">Mrs. Radcliffe</ref>
+                  <ref target="BarbRadcliffeBritNov1810.html">Mrs. Radcliffe</ref>
                </item>
                <item>
-                  <ref target="ReeveBritNov1810.html">Clara Reeve</ref>
+                  <ref target="BarbReeveBritNov1810.html">Clara Reeve</ref>
                </item>
                <item>
-                  <ref target="RichardBritNov1810.html">Richardson</ref>
+                  <ref target="BarbRichardBritNov1810.html">Richardson</ref>
                </item>
                <item>
-                  <ref target="SmithBritNov1810.html">Mrs. Charlotte Smith</ref>
+                  <ref target="BarbSmithBritNov1810.html">Mrs. Charlotte Smith</ref>
                </item>
                <item>
-                  <ref target="SmolletBritNov1810.html">Smollet</ref>
+                  <ref target="BarbSmolletBritNov1810.html">Smollet</ref>
                </item>
                <item>
-                  <ref target="WalpoleBritNov1810.html">Walpole</ref>
+                  <ref target="BarbWalpoleBritNov1810.html">Walpole</ref>
                </item>
             </list>
          </div>

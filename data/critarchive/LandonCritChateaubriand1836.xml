@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns:PA="http://www.poetessarchive.org/#schema" type="text">
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">"The Criticism of Chateaubriand"</title>
-            <title type="subordinate" level="j">The New Monthly Magazine and Literary
-					Journal</title>
+            <title type="sub" level="j">The New Monthly Magazine and Literary
+               Journal</title>
             <author type="writer">
                <name>Letita Elizabeth Landon</name>
             </author>
@@ -35,12 +36,12 @@
                   <author type="writer">L. E. L. (Letitia Elizabeth Landon), 1802-1838</author>
                </analytic>
                <monogr>
-                  <title type="main" level="j">The New Monthly Magazine and Literary
-							Journal</title>
+                  <title type="main" level="j">The New Monthly Magazine and Literary Journal</title>
                   <imprint>
-                     <date when="1836">1836</date>
-                     <biblScope unit="vol">48</biblScope>
-                     <biblScope unit="no">189</biblScope>
+                     <date when="1836-09">September 1836</date>
+                     <biblScope unit="series">second</biblScope>
+                     <biblScope unit="volume">48</biblScope>
+                     <biblScope unit="issue">189</biblScope>
                      <biblScope unit="page">62-68</biblScope>
                   </imprint>
                </monogr>
@@ -48,6 +49,53 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
                <bibl>Full Text or Citation</bibl>
@@ -289,7 +337,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                            hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -493,22 +541,24 @@
                   <item>Essay</item>
                </list>
             </keywords>
-            <catRef target="#ft1" scheme="#ft"/>
+            <catRef scheme="#ft" target="#ft1"/>
             <catRef target="#ag9 #ag12" scheme="#ag"/>
             <catRef target="#f13" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef target="#g72 #g30 " scheme="#g"/>
+            <catRef scheme="#g" target="#g72 #g30 "/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20200611" n="6">
+         <change who="#LM" when="20210922" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#MW" when="2019-12-18" n="5">
+         <change who="#MW" when="20191218" n="5">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
             <list type="simple">
@@ -522,7 +572,7 @@
                <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
-         <change who="#MW" when="2018-03-05" n="3">
+         <change who="#MW" when="20180305" n="3">
             <label>Changed by</label>
             <name>Mary Waters</name>
             <list type="simple">
@@ -530,14 +580,14 @@
                <item>Editorial additions</item>
             </list>
          </change>
-         <change who="#EW" when="2017-05-05" n="2">
+         <change who="#EW" when="20170505" n="2">
             <label>Changed by</label>
             <name>Emma Wiley</name>
             <list type="simple">
                <item>TEI encoding</item>
             </list>
          </change>
-         <change who="#MW" when="2017-05-05" n="1">
+         <change who="#MW" when="20170505" n="1">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
             <list type="simple">
@@ -546,177 +596,158 @@
          </change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xmlns:PA="http://www.poetessarchive.org/#schema">
       <body>
          <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
                      <ref target="people.html#LandonLetitia">
-                        <name>Letita Elizabeth
-									Landon</name>
+                        <name>Letita Elizabeth Landon</name>
                      </ref>
                   </author>
+                  <lb/>
                   <title type="main" level="a">
                      <hi rendition="#smcaps">The Criticism of <ref target="people.html#Chateaubriand">Chateaubriand</ref>
                      </hi>
                      <hi rendition="#sup">
-                        <note place="foot">
+                        <note>
                            <title level="j">
-                              <ref target="people.html#LandonLetitia">Letita Elizabeth
-											Landon</ref>, <hi rendition="#italics">
-                                 <title>The New
-												Monthly Magazine and Literary Journal</title>
+                              <ref target="people.html#LandonLetitia">Letita Elizabeth Landon</ref>,
+                                 <hi rendition="#italics">
+                                 <title>The New Monthly Magazine and Literary Journal</title>
                               </hi>
-                           </title> (2nd series), vol. 48 (September 1836), pp.
-									62-68, London: <ref target="people.html#ColburnHenry">Henry
-										Colburn</ref>, 13, Great Marlborough Street, printed by
-									William Clowes and Sons, Stamford Street. Bookseller <ref target="people.html#ColburnHenry">Henry Colburn</ref>, owner
-									of the <hi rendition="#italics">
-                              <title>New Monthly
-											Magazine</title>
-                           </hi>, was known for using his
-									periodicals to puff publications from his own house. He probably
-									requested this article in order to promote <hi rendition="#italics">
-                              <title>Sketches of English literature;
-											with considerations on the spirit of the times, men and
-											revolutions, by the <ref target="people.html#Chateaubriand">Viscount de
-												Chateaubriand</ref>
+                           </title> (2nd series), vol. 48 (September 1836), pp. 62-68, London: <ref target="people.html#ColburnHenry">Henry Colburn</ref>, 13, Great
+                           Marlborough Street, printed by William Clowes and Sons, Stamford Street.
+                           Bookseller <ref target="people.html#ColburnHenry">Henry Colburn</ref>,
+                           owner of the <hi rendition="#italics">
+                              <title>New Monthly Magazine</title>
+                           </hi>, was known for using his periodicals to puff publications from his
+                           own house. He probably requested this article in order to promote <hi rendition="#italics">
+                              <title>Sketches of English literature; with considerations on the
+                                 spirit of the times, men and revolutions, by the <ref target="people.html#Chateaubriand">Viscount de
+                                    Chateaubriand</ref>
                               </title>
                            </hi>. <ref target="people.html#ColburnHenry">Colburn</ref> had just
-									published the first edition of <ref target="people.html#Chateaubriand">Chateaubriand</ref>'s <hi rendition="#italics">
+                           published the first edition of <ref target="people.html#Chateaubriand">Chateaubriand</ref>'s <hi rendition="#italics">
                               <title>Sketches</title>
-                           </hi> and was soon to print a
-									second edition. Emma Wiley and Mary A. Waters
-									co-edited this edition for <hi rendition="#italics">The Criticism
-										Archive</hi>.</note>
+                           </hi> and was soon to print a second edition. The essay is attributed to
+                              <ref target="people.html#LandonLetitia">Landon</ref> in <hi rendition="#italics">
+                              <title>The Wellesley Index to Victorian
+                                 Periodicals, 1824-1900</title>
+                           </hi>, ed. Walter E. Houghton,
+                           University of Toronto Press, 1966. Emma Wiley and Mary A. Waters
+                           co-edited this edition for <hi rendition="#italics">The Criticism
+                              Archive</hi>.</note>
                      </hi>
                   </title>
                </bibl>
             </head>
             <p>
                <hi rendition="#large">I</hi>
-               <hi rendition="#smcaps">t</hi> must be a very universal maxim to suit all circumstances, and yet there is one
-					which may be applied on all occasions—"Judge not" is the general
-					motto. Take the actions of our nearest friends, and how little do we know of the
-					hopes that instigated, or of the fears that prevailed! We sometimes cannot avoid
-					owning that we ourselves have committed a fault, but how we gloss it
-					over—how we take temperament and temptation into account, till at length
-					it appears to be a thing inevitable—redeemed by the regret it has
-					occasioned, and the lesson it has given. Not so do we reason for
-					others—then we look to the isolated fact, not to the causes: the error
-					shuts out the excuse. The truth is, we know nothing of each other excepting by
-					the aid of philosophy and of poetry; philosophy, that analyzes our thoughts, and
-					poetry that expresses our feelings. Little of the examination of the one, or of
-					the tenderness of the other, enters into our daily opinions, and yet by them we
-					alone know the hidden heart within. "Judge not" is the first great
-					rule of the moral world; it is equally applicable to the literary one. Yesterday
-					is constantly reversing the decree of to-day; our notion of our contemporaries
-					is biassed in many ways—vanities, envyings, and prejudices are things
-							<quote>
+               <hi rendition="#smcaps">t</hi> must be a very universal maxim to suit all
+               circumstances, and yet there is one which may be applied on all occasions—"Judge not"
+               is the general motto. Take the actions of our nearest friends, and how little do we
+               know of the hopes that instigated, or of the fears that prevailed! We sometimes
+               cannot avoid owning that we ourselves have committed a fault, but how we gloss it
+               over—how we take temperament and temptation into account, till at length it appears
+               to be a thing inevitable—redeemed by the regret it has occasioned, and the lesson it
+               has given. Not so do we reason for others—then we look to the isolated fact, not to
+               the causes: the error shuts out the excuse. The truth is, we know nothing of each
+               other excepting by the aid of philosophy and of poetry; philosophy, that analyzes our
+               thoughts, and poetry that expresses our feelings. Little of the examination of the
+               one, or of the tenderness of the other, enters into our daily opinions, and yet by
+               them we alone know the hidden heart within. "Judge not" is the first great rule of
+               the moral world; it is equally applicable to the literary one. Yesterday is
+               constantly reversing the decree of to-day; our notion of our contemporaries is
+               biassed in many ways—vanities, envyings, and prejudices are things <quote>
                   <lg type="stanza">
                      <l>All taking many shapes, and bearing many names;<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#ByronGeorge">Byron</ref>, <hi rendition="#italics">
                                  <title>Manfred</title>
-                              </hi>, Act III, scene i, line
-										148.</note>
+                              </hi>, Act III, scene i, line 148.</note>
                         </hi>
                      </l>
                   </lg>
-               </quote> but all alike shutting out the light. Time is the great
-					leveller, but he is also the sanctifier and the beautifier. If our judgement,
-					then, of our own literature be liable to so many objections, what must it be
-					when we attempt to decide on that of a foreign nation; the maxim, "Judge
-					not," must indeed be the first principle laid down. No stranger can enter
-					into one great charm thrown around the poetry of every country—namely,
-					that of association. Unconsciously to ourselves, we connect with our favourite
-					writers the emotions which first made us seek in them for expression, and with
-					the scenes amid which we turned their pages. Did we read them in summer, under
-					the silver shiver of the aspen?—they have gathered to themselves the
-					sunshine raining through the leaves, and the freshness on the open air. Were
-					they our companions by the hearth-side on a long winter evening?—they are
-					linked with pleasant memories of comfort and of home. It is impossible for a
-					stranger to share these subtle sympathies, and yet their atmosphere is around
-					the literature of every nation. But literary, like all other commerce, has its
-					incalculable advantages: the merchant brings with him not only wealth, but
-					knowledge. Communication is in itself civilization; we wear away our own
-					prejudices only by contact with those of others. We are forced into making
-					allowances, by seeing how much we need that they should be made for ourselves. </p>
+               </quote> but all alike shutting out the light. Time is the great leveller, but he is
+               also the sanctifier and the beautifier. If our judgement, then, of our own literature
+               be liable to so many objections, what must it be when we attempt to decide on that of
+               a foreign nation; the maxim, "Judge not," must indeed be the first principle laid
+               down. No stranger can enter into one great charm thrown around the poetry of every
+               country—namely, that of association. Unconsciously to ourselves, we connect with our
+               favourite writers the emotions which first made us seek in them for expression, and
+               with the scenes amid which we turned their pages. Did we read them in summer, under
+               the silver shiver of the aspen?—they have gathered to themselves the sunshine raining
+               through the leaves, and the freshness on the open air. Were they our companions by
+               the hearth-side on a long winter evening?—they are linked with pleasant memories of
+               comfort and of home. It is impossible for a stranger to share these subtle
+               sympathies, and yet their atmosphere is around the literature of every nation. But
+               literary, like all other commerce, has its incalculable advantages: the merchant
+               brings with him not only wealth, but knowledge. Communication is in itself
+               civilization; we wear away our own prejudices only by contact with those of others.
+               We are forced into making allowances, by seeing how much we need that they should be
+               made for ourselves. </p>
             <p>
-               <ref target="people.html#Chateaubriand">Chateaubriand</ref> says, in an
-					admirable spirit of candour, "In living literature no person is a competent
-					judge but of works written in his own language. I have expressed my opinion
-					concerning a number of English writers; it is very possible that I may be
-					mistaken, that my admiration and my censure may be equally misplaced, and that
-					my conclusions may appear impertinent and ridiculous on the other side of the
-						Channel."<hi rendition="#sup">
-                  <note place="foot">This and Landon's
-							other quotations from <ref target="people.html#Chateaubriand">Chateaubriand</ref> can be found in his <hi rendition="#italics">
-                        <title>Sketches of English Literature; with Considerations on
-									the Spirit of the Times, Men, and Revolutions</title>
-                     </hi>
-							(London: <ref target="people.html#ColburnHenry">Henry Colburn</ref>,
-							1836). In many cases, quotation is loose. In this instance, for example,
-							several sentences are silently omitted (see 2nd ed. vol. II, p.
-							232).</note>
-               </hi> They can appear neither ridiculous nor impertinent;
-						we<pb n="63"/> may, and we do differ from many of these conclusions, but we
-					feel that they have been drawn by a clever man, and drawn, too, in a spirit of
-					candour. If any man be entitled to form a judgment, that man is <ref target="people.html#Chateaubriand">Chateaubriand</ref>. A poet himself, his
-					whole life has been a poet's education, and he has studied our literature
-					next to his own. But there is something in the French and the English character
-					so essentially opposed, that it is impossible for them to understand each other.
-					Now a nation's character is in its literature. Some writer says, "The
-					great difference of the two nations is, that the one lives out of doors and the
-					other in; the one thinks of the people that are looking at him, and the other
-					thinks of himself."<hi rendition="#sup">
-                  <note place="foot">Not yet
-							identified.</note>
-               </hi> This principle will account for the frequent
-					self-reference in these pages, which, however, has more the appearance than the
-					reality of vanity. An Englishman is timid of drawing attention to
-					himself—he is afraid of being laughed at; a Frenchman, on the contrary,
-					relies on your indulgence. <ref target="people.html#Chateaubriand">Chateaubriand</ref> believes that genius is a moral problem, which it is
-					matter of general attraction to solve; and he submits rather than advances his
-					pretensions to the public, with a quiet conviction of their interest, which an
-					English writer, however successful, would be too well aware of his and our
-					national characteristics, to adventure. The style of the author of
-						"<title>Atala</title>"<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#Chateaubriand">Chateaubriand</ref>'s 1801
-							novel of ill-fated love between two American Indians of opposing
-							tribes.</note>
-               </hi> has no parallel in our literature—it is what
-					supplies in France the place of blank verse; it is redundant in epithet and
-					simile, many of which appear to us grandiloquent: for example, <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> is called "the
-					young butcher of Strafford."<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#Chateaubriand">Chateaubriand</ref>,
-							"Contemporaries of <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>," <hi rendition="#italics">
-                        <title>Sketches of
-									English Literature; With Considerations on the Spirit of the
-									Times, Men, and Revolutions,</title>
-                     </hi> Second ed., London:
-								<ref target="people.html#ColburnHenry">Henry Colburn</ref>, 1837,
-							vol. I, p. 303.</note>
-               </hi> Again, speaking of our writers among the
-					lower classes, he says, "At the present day it is a blacksmith that
-					shines—Vulcan was the son of Jupiter:"<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#Chateaubriand">Chateaubriand</ref>, "The Lake School—Poets Among the
-							Working Classes," <hi rendition="#italics">
-                        <title>Sketches of
-									English Literature; With Considerations on the Spirit of the
-									Times, Men, and Revolutions,</title>
-                     </hi> Second ed., London:
-								<ref target="people.html#ColburnHenry">Henry Colburn</ref>, 1837,
-							vol. II, p. 312.</note>
-               </hi> the illustration is rather magnificent.
-					By-the-by, to what blacksmith does he allude?—we must confess our
-					ignorance. There is a curious little instance of the mistakes inevitable to
-					foreign critics: <ref target="people.html#Chateaubriand">Chateaubriand</ref>
-					quotes, as a charming specimen of our simple ballad poetry, a stanza of a song:—<quote>
+               <ref target="people.html#Chateaubriand">Chateaubriand</ref> says, in an admirable
+               spirit of candour, "In living literature no person is a competent judge but of works
+               written in his own language. I have expressed my opinion concerning a number of
+               English writers; it is very possible that I may be mistaken, that my admiration and
+               my censure may be equally misplaced, and that my conclusions may appear impertinent
+               and ridiculous on the other side of the Channel."<hi rendition="#sup">
+                  <note>This and Landon's other quotations from <ref target="people.html#Chateaubriand">Chateaubriand</ref> can be found in his
+                        <hi rendition="#italics">
+                        <title>Sketches of English Literature; with Considerations on the Spirit of
+                           the Times, Men, and Revolutions</title>
+                     </hi> (London: <ref target="people.html#ColburnHenry">Henry Colburn</ref>,
+                     1836). In many cases, quotation is loose. In this instance, for example,
+                     several sentences are silently omitted (see 2nd ed. vol. II, p. 232).</note>
+               </hi> They can appear neither ridiculous nor impertinent; we<pb n="63"/> may, and we
+               do differ from many of these conclusions, but we feel that they have been drawn by a
+               clever man, and drawn, too, in a spirit of candour. If any man be entitled to form a
+               judgment, that man is <ref target="people.html#Chateaubriand">Chateaubriand</ref>. A
+               poet himself, his whole life has been a poet's education, and he has studied our
+               literature next to his own. But there is something in the French and the English
+               character so essentially opposed, that it is impossible for them to understand each
+               other. Now a nation's character is in its literature. Some writer says, "The great
+               difference of the two nations is, that the one lives out of doors and the other in;
+               the one thinks of the people that are looking at him, and the other thinks of
+                  himself."<hi rendition="#sup">
+                  <note>Not yet identified.</note>
+               </hi> This principle will account for the frequent self-reference in these pages,
+               which, however, has more the appearance than the reality of vanity. An Englishman is
+               timid of drawing attention to himself—he is afraid of being laughed at; a Frenchman,
+               on the contrary, relies on your indulgence. <ref target="people.html#Chateaubriand">Chateaubriand</ref> believes that genius is a moral problem, which it is matter
+               of general attraction to solve; and he submits rather than advances his pretensions
+               to the public, with a quiet conviction of their interest, which an English writer,
+               however successful, would be too well aware of his and our national characteristics,
+               to adventure. The style of the author of "<title>Atala</title>"<hi rendition="#sup">
+                  <note>
+                     <ref target="people.html#Chateaubriand">Chateaubriand</ref>'s 1801 novel of
+                     ill-fated love between two American Indians of opposing tribes.</note>
+               </hi> has no parallel in our literature—it is what supplies in France the place of
+               blank verse; it is redundant in epithet and simile, many of which appear to us
+               grandiloquent: for example, <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> is called "the young butcher of Strafford."<hi rendition="#sup">
+                  <note>
+                     <ref target="people.html#Chateaubriand">Chateaubriand</ref>, "Contemporaries of
+                        <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>," <hi rendition="#italics">
+                        <title>Sketches of English Literature; With Considerations on the Spirit of
+                           the Times, Men, and Revolutions,</title>
+                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry
+                        Colburn</ref>, 1837, vol. I, p. 303.</note>
+               </hi> Again, speaking of our writers among the lower classes, he says, "At the
+               present day it is a blacksmith that shines—Vulcan was the son of Jupiter:"<hi rendition="#sup">
+                  <note>
+                     <ref target="people.html#Chateaubriand">Chateaubriand</ref>, "The Lake
+                     School—Poets Among the Working Classes," <hi rendition="#italics">
+                        <title>Sketches of English Literature; With Considerations on the Spirit of
+                           the Times, Men, and Revolutions,</title>
+                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry
+                        Colburn</ref>, 1837, vol. II, p. 312.</note>
+               </hi> the illustration is rather magnificent. By-the-by, to what blacksmith does he
+               allude?—we must confess our ignorance. There is a curious little instance of the
+               mistakes inevitable to foreign critics: <ref target="people.html#Chateaubriand">Chateaubriand</ref> quotes, as a charming specimen of our simple ballad poetry, a
+               stanza of a song:—<quote>
                   <lg type="stanza">
                      <l rendition="#indent4">Where tarries my love,</l>
                      <l rendition="#indent4">Where tarries my love,</l>
@@ -724,17 +755,16 @@
                      <l rendition="#indent4">Come hither my dove,</l>
                      <l rendition="#indent4">I will write to my love,</l>
                      <l>And send him a letter by thee.<hi rendition="#sup">
-                           <note place="foot">The first stanza is part of a traditional Scottish ballad,
-										"Why Tarries My Love?" It's tone is
-										sentimental, with the dove that carries the message dying
-										from exhaustion as it reaches its destination. The parodic
-										reworking that features the quoted resolution has not been
-										located.</note>
+                           <note>The first stanza is part of a traditional Scottish
+                              ballad, "Why Tarries My Love?" It's tone is sentimental, with the dove
+                              that carries the message dying from exhaustion as it reaches its
+                              destination. The parodic reworking that features the quoted resolution
+                              has not been located.</note>
                         </hi>
                      </l>
                   </lg>
                </quote> He appears perfectly ignorant that the song is a burlesque. The lover
-					receives the letter, but <quote>
+               receives the letter, but <quote>
                   <lg type="stanza">
                      <l rendition="#indent4">The generous youth,</l>
                      <l rendition="#indent4">Full of valour and truth,</l>
@@ -743,269 +773,238 @@
                      <l rendition="#indent4">His true love he toasted, </l>
                      <l>And mounted and gallop'd away.</l>
                   </lg>
-               </quote> A singular sample of the tender melancholy which marks our
-					lyrics!</p>
+               </quote> A singular sample of the tender melancholy which marks our lyrics!</p>
             <p>
-               <ref target="people.html#Chateaubriand">Chateaubriand</ref>'s life has been
-					that of a poet; a life, however, an exception to the general rule. He has known
-					his share of toil and of trouble—he has been poor, proscribed, and
-					imprisoned; still he is among those who, <quote>
+               <ref target="people.html#Chateaubriand">Chateaubriand</ref>'s life has been that of a
+               poet; a life, however, an exception to the general rule. He has known his share of
+               toil and of trouble—he has been poor, proscribed, and imprisoned; still he is among
+               those who, <quote>
                   <lg type="stanza">
                      <l rendition="#indent8">All their wand'rings past, </l>
                      <l>Have safe return'd to die at home at last.<hi rendition="#sup">
-                           <note place="foot">Adapted from <ref target="people.html#agoldsmithOliver">Oliver
-											Goldsmith</ref>, <hi rendition="#italics">
-                                 <title>The
-												Deserted Village</title>
-                              </hi>, lines
-									95-6.</note>
+                           <note>Adapted from <ref target="people.html#agoldsmithOliver">Oliver Goldsmith</ref>, <hi rendition="#italics">
+                                 <title>The Deserted Village</title>
+                              </hi>, lines 95-6.</note>
                         </hi>
                      </l>
                   </lg>
-               </quote> There are few, very few, whose later years of a poetical
-					career are spent <pb n="64"/>under the shadow of their own laurels; yet what
-					strange contrasts will his memoirs present! Now a wanderer in the deserts of the
-					East—then comparing the empire of yesterday with the progress of to-day in
-					the United States—now in the midst of the classical mania which
-					caricatured the horrors of the French revolution—next meditating on their
-					realities amid the ruins of Rome. First an impoverished exile in England, and in
-					the course of a few years an ambassador at our Court. The genius of <ref target="people.html#Chateaubriand">Chateaubriand</ref> is best characterized
-					by the word—picturesque. In the North, he dwells with delight on the
-					massive cathedrals, where painted windows shed <quote>
+               </quote> There are few, very few, whose later years of a poetical career are spent
+                  <pb n="64"/>under the shadow of their own laurels; yet what strange contrasts will
+               his memoirs present! Now a wanderer in the deserts of the East—then comparing the
+               empire of yesterday with the progress of to-day in the United States—now in the midst
+               of the classical mania which caricatured the horrors of the French revolution—next
+               meditating on their realities amid the ruins of Rome. First an impoverished exile in
+               England, and in the course of a few years an ambassador at our Court. The genius of
+                  <ref target="people.html#Chateaubriand">Chateaubriand</ref> is best characterized
+               by the word—picturesque. In the North, he dwells with delight on the massive
+               cathedrals, where painted windows shed <quote>
                   <lg type="stanza">
                      <l>A dim, religious light;<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#MiltonJohn">Milton</ref>, <hi rendition="#italics">
                                  <title>Il Penseroso</title>
-                              </hi>,
-										line 160.</note>
+                              </hi>, line 160.</note>
                         </hi>
                      </l>
                   </lg>
-               </quote> and on the fallen castles, where the ivy is now the only
-					banner. In the South, he is impressed with the cedar rising like a natural
-					temple, and with the stately relics of <quote>
+               </quote> and on the fallen castles, where the ivy is now the only banner. In the
+               South, he is impressed with the cedar rising like a natural temple, and with the
+               stately relics of <quote>
                   <lg type="stanza">
                      <l>The marble wastes of Tadmor.<hi rendition="#sup">
-                           <note place="foot">In a letter to <ref target="people.html#MurrayJohn1778">John Murray</ref> published, reviewed, and widely
-										quoted as Letter to **** ****** , on the Rev. <ref target="people.html#BowlesWilliam">W.L.
-										Bowles</ref>' <hi rendition="#italics">
+                           <note>In a letter to <ref target="people.html#MurrayJohn1778">John Murray</ref> published,
+                              reviewed, and widely quoted as Letter to **** ****** , on the Rev.
+                                 <ref target="people.html#BowlesWilliam">W.L. Bowles</ref>' <hi rendition="#italics">
                                  <title>Strictures on the Life and Writings of <ref target="people.html#PopeAlexander">Pope</ref>
                                  </title>
-                              </hi> (1821), <ref target="people.html#ByronGeorge">Byron</ref> compares
-											<ref target="people.html#BowlesWilliam">Bowles</ref>'s work to "<title>Solitude: An
-											Ode</title>" (1763) by Dr. <ref target="people.html#agraingerJames">[James]
-											Grainger</ref>.</note>
+                              </hi> (1821), <ref target="people.html#ByronGeorge">Byron</ref>
+                              compares <ref target="people.html#BowlesWilliam">Bowles</ref>'s work
+                              to "<title>Solitude: An Ode</title>" (1763) by Dr. <ref target="people.html#agraingerJames">[James] Grainger</ref>.</note>
                         </hi>
                      </l>
                   </lg>
-               </quote> He was the first who introduced into French literature that
-					feeling for the beauty of nature, and that tendency to reverie, which are of
-					Scandinavian origin. But we shall give the more accurate idea of a very
-					remarkable work, by selecting portions for examination. We shall therefore pass
-					in review the observations on <ref target="people.html#LutherMartin">Luther</ref>, <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>, <ref target="people.html#MiltonJohn">Milton</ref>, <ref target="people.html#ScottWalter">Scott</ref>, and <ref target="people.html#ByronGeorge">Byron</ref>. </p>
+               </quote> He was the first who introduced into French literature that feeling for the
+               beauty of nature, and that tendency to reverie, which are of Scandinavian origin. But
+               we shall give the more accurate idea of a very remarkable work, by selecting portions
+               for examination. We shall therefore pass in review the observations on <ref target="people.html#LutherMartin">Luther</ref>, <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>, <ref target="people.html#MiltonJohn">Milton</ref>, <ref target="people.html#ScottWalter">Scott</ref>, and <ref target="people.html#ByronGeorge">Byron</ref>. </p>
             <p>
                <hi rendition="#smcaps">
                   <ref target="people.html#LutherMartin">Luther</ref>
-               </hi>.—The characteristic of our author's mind which we
-					have called picturesque is essentially opposed to a just appreciation of <ref target="people.html#LutherMartin">Luther</ref>. He clings with regret to the
-					golden chalices and fragrant incense of Catholicism. He forms, in his
-					mind's eye, the picture of a monk after one <ref target="people.html#ReniGuido">Guido</ref>'s head, "pale,
-					penetrating, and spiritual;<hi rendition="#sup">
-                  <note place="foot">Precise quote
-							not identified.</note>
-               </hi>" and "Christ, at once a pontiff
-					and a victim, lived in celibacy, and quitted the earth at the close of his
-						youth."<hi rendition="#sup">
-                  <note place="foot">
+               </hi>.—The characteristic of our author's mind which we have called picturesque is
+               essentially opposed to a just appreciation of <ref target="people.html#LutherMartin">Luther</ref>. He clings with regret to the golden chalices and fragrant incense
+               of Catholicism. He forms, in his mind's eye, the picture of a monk after one <ref target="people.html#ReniGuido">Guido</ref>'s head, "pale, penetrating, and
+                  spiritual;<hi rendition="#sup">
+                  <note>Precise quote not identified.</note>
+               </hi>" and "Christ, at once a pontiff and a victim, lived in celibacy, and quitted
+               the earth at the close of his youth."<hi rendition="#sup">
+                  <note>
                      <ref target="people.html#Chateaubriand">Chateaubriand</ref>, <hi rendition="#italics">
-                        <title>Sketches of English Literature; With
-									Considerations on the Spirit of the Times, Men, and
-									Revolutions,</title>
-                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry Colburn</ref>, 1837, vol. I,
-							p. 170.</note>
-               </hi> Such is the ideal, but it is the ideal only. Neither
-					is the following image more accurate:—"Like <ref target="people.html#Socrates">Socrates</ref>, Protestantism may be said to
-					have called minds into existence; but, unfortunately, the intelligences which it
-					has ushered into life are only beautiful slaves."<hi rendition="#sup">
-                  <note place="foot">
+                        <title>Sketches of English Literature; With Considerations on the Spirit of
+                           the Times, Men, and Revolutions,</title>
+                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry
+                        Colburn</ref>, 1837, vol. I, p. 170.</note>
+               </hi> Such is the ideal, but it is the ideal only. Neither is the following image
+               more accurate:—"Like <ref target="people.html#Socrates">Socrates</ref>, Protestantism
+               may be said to have called minds into existence; but, unfortunately, the
+               intelligences which it has ushered into life are only beautiful slaves."<hi rendition="#sup">
+                  <note>
                      <ref target="people.html#Chateaubriand">Chateaubriand</ref>, <hi rendition="#italics">
-                        <title>Sketches of
-									English Literature; With Considerations on the Spirit of the
-									Times, Men, and Revolutions,</title>
-                     </hi> Second ed., London:
-								<ref target="people.html#ColburnHenry">Henry Colburn</ref>, 1837,
-							vol. I, p. 203-4.</note>
-               </hi> Are such minds as those of <ref target="people.html#BaconFrancis">Bacon</ref> and of <ref target="people.html#LockeJohn">Locke</ref> only "beautiful
-					slaves?" and can the many channels of inquiry thrown open by the
-					Reformation be considered other than as conduits to truth? We are quite prepared
-					to admit that we do not do justice to the beneficial influence exercised by the
-					Catholic church on the darker ages. It was the republic of the time, supported
-					by democratic talent. The man of ability found in the church his theatre of
-					action; all other avenues to power or to distinction were barred by the sword,
-					which was given as a birthright to the noble. But in the ranks of the Catholic
-					faith the equality, or rather the superiority of intellect was asserted; and
-					when king and chief knelt at the chair of St. Peter, it was the triumph of
-					thought over strength—it was the weak mind subjugated by the strong. But,
-					as usual, the authority outlived its necessity—other influences began
-					their activity; and again, as usual, one of those men arose who embody their
-					epoch, and carry its spirit into action. That man was <ref target="people.html#LutherMartin">Luther</ref>. He was an
-					enthusiast—enthusiasm is needed for action; calculation never
-					acts—it is a passive principle. He was fierce, angry, and governed by
-					impulse; but we must remember the old Greek proverb, "Motives are from man,
-					but impulse is from Heaven." These qualities only the better fitted the
-					instrument to its purpose. It is touching <pb n="65"/>to note the tender
-					feelings of the man running in a soft under-current beneath the violence of the
-					fanatic preacher: speaking of his children he says, "What must have been
-					Abraham's feelings, when he consented to sacrifice and slaughter his only
-					son? Assuredly he never said a word on the subject to Sarah."<hi rendition="#sup">
-                  <note place="foot">
+                        <title>Sketches of English Literature; With Considerations on the Spirit of
+                           the Times, Men, and Revolutions,</title>
+                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry
+                        Colburn</ref>, 1837, vol. I, p. 203-4.</note>
+               </hi> Are such minds as those of <ref target="people.html#BaconFrancis">Bacon</ref>
+               and of <ref target="people.html#LockeJohn">Locke</ref> only "beautiful slaves?" and
+               can the many channels of inquiry thrown open by the Reformation be considered other
+               than as conduits to truth? We are quite prepared to admit that we do not do justice
+               to the beneficial influence exercised by the Catholic church on the darker ages. It
+               was the republic of the time, supported by democratic talent. The man of ability
+               found in the church his theatre of action; all other avenues to power or to
+               distinction were barred by the sword, which was given as a birthright to the noble.
+               But in the ranks of the Catholic faith the equality, or rather the superiority of
+               intellect was asserted; and when king and chief knelt at the chair of St. Peter, it
+               was the triumph of thought over strength—it was the weak mind subjugated by the
+               strong. But, as usual, the authority outlived its necessity—other influences began
+               their activity; and again, as usual, one of those men arose who embody their epoch,
+               and carry its spirit into action. That man was <ref target="people.html#LutherMartin">Luther</ref>. He was an enthusiast—enthusiasm is needed for action; calculation
+               never acts—it is a passive principle. He was fierce, angry, and governed by impulse;
+               but we must remember the old Greek proverb, "Motives are from man, but impulse is
+               from Heaven." These qualities only the better fitted the instrument to its purpose.
+               It is touching <pb n="65"/>to note the tender feelings of the man running in a soft
+               under-current beneath the violence of the fanatic preacher: speaking of his children
+               he says, "What must have been Abraham's feelings, when he consented to sacrifice and
+               slaughter his only son? Assuredly he never said a word on the subject to Sarah."<hi rendition="#sup">
+                  <note>
                      <ref target="people.html#Chateaubriand">Chateaubriand</ref>, <hi rendition="#italics">
-                        <title>Sketches of
-									English Literature; With Considerations on the Spirit of the
-									Times, Men, and Revolutions,</title>
-                     </hi> Second ed., London:
-								<ref target="people.html#ColburnHenry">Henry Colburn</ref>, 1837,
-							vol. I, p. 171, quoting Luther.</note>
+                        <title>Sketches of English Literature; With Considerations on the Spirit of
+                           the Times, Men, and Revolutions,</title>
+                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry
+                        Colburn</ref>, 1837, vol. I, p. 171, quoting Luther.</note>
                </hi>
             </p>
-            <p> Again while deploring the death of his infant daughter:—"Elizabeth,
-					my little girl is dead. Strange to say, her loss has left me a sick heart, a
-					woman's heart—so intense is my sorrow. I never could have imagined
-					that a father could feel so much tenderness for his child. Her features, her
-					words, her gestures, during life and on her death-bed, are deeply engraven in my
-					heart. Oh, my obedient and dutiful daughter! The very death of Christ (and what
-					in comparison are all other deaths!) cannot, as it should, drive her from my
-						memory."<hi rendition="#sup">
-                  <note place="foot">
+            <p> Again while deploring the death of his infant daughter:—"Elizabeth, my little girl
+               is dead. Strange to say, her loss has left me a sick heart, a woman's heart—so
+               intense is my sorrow. I never could have imagined that a father could feel so much
+               tenderness for his child. Her features, her words, her gestures, during life and on
+               her death-bed, are deeply engraven in my heart. Oh, my obedient and dutiful daughter!
+               The very death of Christ (and what in comparison are all other deaths!) cannot, as it
+               should, drive her from my memory."<hi rendition="#sup">
+                  <note>
                      <ref target="people.html#Chateaubriand">Chateaubriand</ref>, <hi rendition="#italics">
-                        <title>Sketches of English Literature; With
-									Considerations on the Spirit of the Times, Men, and
-									Revolutions,</title>
-                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry Colburn</ref>, 1837, vol. I,
-							p. 172, quoting Luther.</note>
+                        <title>Sketches of English Literature; With Considerations on the Spirit of
+                           the Times, Men, and Revolutions,</title>
+                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry
+                        Colburn</ref>, 1837, vol. I, p. 172, quoting Luther.</note>
                </hi>
             </p>
             <p>
-               <ref target="people.html#Chateaubriand">Chateaubriand</ref> appears to us to
-					attach too much importance to <ref target="people.html#HenryVIIIKingofEngland">Henry VIII</ref>. He influenced nothing but the present, of whose
-					circumstances he was at once the toy and the tyrant. He left nothing but a
-					warning as to how power was again entrusted to one hand. He was the last feudal
-					king—and was the type of a system that expired with himself. Brave,
-					magnificent, and courteous, he was cruel, profuse, and uncertain. In the
-					meantime England was in a state of progression; then were first sown the seeds
-					of those great principles which led to the revolution. <ref target="people.html#HenryVIIIKingofEngland">Henry</ref> carried the vices of
-					feudalism to excess, and it is the excess that leads to the remedy. The reign of
-					force was yielding to the reign of opinion, and to this day the struggle is
-					carried on by an engine thus characterized by <ref target="people.html#LutherMartin">Luther</ref>—"The press is the
-					last and the supreme gift—the <hi rendition="#italics">summum et postremum
-						donum,</hi> by means of which the Almighty promotes the things of the
-					Gospel. It is the last blaze that bursts forth before the extinction of the
-					world. Thanks be to God, we at last behold its splendor."<hi rendition="#sup">
-                  <note place="foot">
+               <ref target="people.html#Chateaubriand">Chateaubriand</ref> appears to us to attach
+               too much importance to <ref target="people.html#HenryVIIIKingofEngland">Henry
+                  VIII</ref>. He influenced nothing but the present, of whose circumstances he was
+               at once the toy and the tyrant. He left nothing but a warning as to how power was
+               again entrusted to one hand. He was the last feudal king—and was the type of a system
+               that expired with himself. Brave, magnificent, and courteous, he was cruel, profuse,
+               and uncertain. In the meantime England was in a state of progression; then were first
+               sown the seeds of those great principles which led to the revolution. <ref target="people.html#HenryVIIIKingofEngland">Henry</ref> carried the vices of
+               feudalism to excess, and it is the excess that leads to the remedy. The reign of
+               force was yielding to the reign of opinion, and to this day the struggle is carried
+               on by an engine thus characterized by <ref target="people.html#LutherMartin">Luther</ref>—"The press is the last and the supreme gift—the <hi rendition="#italics">summum et postremum donum,</hi> by means of which the
+               Almighty promotes the things of the Gospel. It is the last blaze that bursts forth
+               before the extinction of the world. Thanks be to God, we at last behold its
+                  splendor."<hi rendition="#sup">
+                  <note>
                      <ref target="people.html#Chateaubriand">Chateaubriand</ref>, <hi rendition="#italics">
-                        <title>Sketches of
-									English Literature; With Considerations on the Spirit of the
-									Times, Men, and Revolutions,</title>
-                     </hi> Second ed., London:
-								<ref target="people.html#ColburnHenry">Henry Colburn</ref>, 1837,
-							vol. I, p. 171, quoting Luther.</note>
+                        <title>Sketches of English Literature; With Considerations on the Spirit of
+                           the Times, Men, and Revolutions,</title>
+                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry
+                        Colburn</ref>, 1837, vol. I, p. 171, quoting Luther.</note>
                </hi>
             </p>
             <p>
                <hi rendition="#smcaps">
                   <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>
-               </hi>—The great fault of <ref target="people.html#Chateaubriand">Chateaubriand</ref>'s remarks on
-						<ref target="people.html#ShakespeareWilliam">Shakspeare</ref> is, that they
-					address themselves to a by-gone school of criticism; <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref>'s is very far from
-					being the national opinion; and the alterations and adaptations made in <ref target="people.html#CharlesIIKingofEngland">Charles the Second</ref>'s
-					time are held anything but orthodox in the present day. But we shall not enter
-					into the question of preference between the rival queens of the French and the
-					English stage: the foreign critic does not and cannot understand us. But what
-					does our author mean by saying that "all <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>'s young female
-					characters are formed on one model?"<hi rendition="#sup">
-                  <note place="foot">
+               </hi>—The great fault of <ref target="people.html#Chateaubriand">Chateaubriand</ref>'s remarks on <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> is, that they address themselves to a by-gone school of
+               criticism; <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref>'s is very far
+               from being the national opinion; and the alterations and adaptations made in <ref target="people.html#CharlesIIKingofEngland">Charles the Second</ref>'s time are
+               held anything but orthodox in the present day. But we shall not enter into the
+               question of preference between the rival queens of the French and the English stage:
+               the foreign critic does not and cannot understand us. But what does our author mean
+               by saying that "all <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>'s
+               young female characters are formed on one model?"<hi rendition="#sup">
+                  <note>
                      <ref target="people.html#Chateaubriand">Chateaubriand</ref>, <hi rendition="#italics">
-                        <title>Sketches of English Literature; With
-									Considerations on the Spirit of the Times, Men, and
-									Revolutions,</title>
-                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry Colburn</ref>, 1837, vol. I,
-							p. 179-80.</note>
-               </hi> He might as well say that the rose and the violet
-					resemble each other because they are both sweet. Take, for example, two placed
-					in similar situations—namely, disguised in male attire; and yet what can
-					be more essentially different than the characters of <ref target="people.html#Rosalind">Rosalind</ref> and <ref target="people.html#Viola">Viola</ref>? The last, whose heart <quote>
+                        <title>Sketches of English Literature; With Considerations on the Spirit of
+                           the Times, Men, and Revolutions,</title>
+                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry
+                        Colburn</ref>, 1837, vol. I, p. 179-80.</note>
+               </hi> He might as well say that the rose and the violet resemble each other because
+               they are both sweet. Take, for example, two placed in similar situations—namely,
+               disguised in male attire; and yet what can be more essentially different than the
+               characters of <ref target="people.html#Rosalind">Rosalind</ref> and <ref target="people.html#Viola">Viola</ref>? The last, whose heart <quote>
                   <lg type="stanza">
                      <l>Tender thought clothes like a dove,</l>
                      <l>With the wings of care,<hi rendition="#sup">
-                           <note place="foot">
-                              <ref target="people.html#ShelleyPercy">Percy Bysshe
-											Shelley</ref>, "From the Arabic: An Imitation" (1821),
-										lines 11-12.</note>
+                           <note>
+                              <ref target="people.html#ShelleyPercy">Percy Bysshe Shelley</ref>,
+                              "From the Arabic: An Imitation" (1821), lines 11-12.</note>
                         </hi>
                      </l>
                   </lg>
                </quote> dreaming, devoted, silent, but dying of her silence. The first, on the
-					contrary, is "a gay creature of the element;"<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#MiltonJohn">Milton</ref>,
-								<hi rendition="#italics">Comus,</hi> line 299, altered.</note>
-               </hi>
-					a coquette, who delights in teasing the lover, whose danger yet sends the blood
-					from her cheek—witty, sarcastic, with her deeper feelings shrouded as it
-					were in sunshine. What have she and Viola in common? <fw type="vol" place="bottom-left">
-                  <hi rendition="#italics">Sept.</hi>—<hi rendition="#smcaps"> Vol. xlviii. no. clxxxix.</hi>
+               contrary, is "a gay creature of the element;"<hi rendition="#sup">
+                  <note>
+                     <ref target="people.html#MiltonJohn">Milton</ref>, <hi rendition="#italics">Comus,</hi> line 299, altered.</note>
+               </hi> a coquette, who delights in teasing the lover, whose danger yet sends the blood
+               from her cheek—witty, sarcastic, with her deeper feelings shrouded as it were in
+               sunshine. What have she and Viola in common? <lb/>
+               <fw type="vol">
+                  <hi rendition="#italics">Sept.</hi>—<hi rendition="#smcaps"> Vol. xlviii. no.
+                     clxxxix.</hi>
                </fw>
-               <milestone unit="signature" n="F" rendition="#center"/>
+               <fw type="sig" rendition="#center">F</fw>
             </p>
             <pb n="66"/>
-            <p> But <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> has always
-					been a point for dispute between ours and foreign critics. We confess that the
-					present article appears to us a complete Border-land of debatable questions. But
-					what shall we say of the opinion on the sonnets?—"There is more of
-					poetry, imagination and melancholy, than sensibility, passion and depth. <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> loved; but he
-					believed no more in love than he believed in anything else. A woman was to him a
-					bird, a zephyr, a flower which charms and passes away."<hi rendition="#sup">
-                  <note place="foot">
+            <p> But <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> has always been a
+               point for dispute between ours and foreign critics. We confess that the present
+               article appears to us a complete Border-land of debatable questions. But what shall
+               we say of the opinion on the sonnets?—"There is more of poetry, imagination and
+               melancholy, than sensibility, passion and depth. <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> loved; but he believed no
+               more in love than he believed in anything else. A woman was to him a bird, a zephyr,
+               a flower which charms and passes away."<hi rendition="#sup">
+                  <note>
                      <ref target="people.html#Chateaubriand">Chateaubriand</ref>, <hi rendition="#italics">
-                        <title>Sketches of
-									English Literature; With Considerations on the Spirit of the
-									Times, Men, and Revolutions,</title>
-                     </hi> Second ed., London:
-								<ref target="people.html#ColburnHenry">Henry Colburn</ref>, 1837,
-							vol. I, p. 315.</note>
+                        <title>Sketches of English Literature; With Considerations on the Spirit of
+                           the Times, Men, and Revolutions,</title>
+                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry
+                        Colburn</ref>, 1837, vol. I, p. 315.</note>
                </hi>
             </p>
-            <p> We will not enter on the spirit of the sonnets, because this has already been
-					done in so masterly a manner, in the pages of this very Magazine, that we need
-					only refer to the articles of last year, on the 'Sonnets of <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>,'—a
-					series of papers eloquent and complete, and bringing out the truth by the light
-					of the imagination.<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#LandonLetitia">Landon</ref> references the
-							series "The Confessions of <ref target="people.html#ShakespeareWilliam">William
-							Shakspeare</ref>" in the <hi rendition="#italics">
-                        <title>New
-									Monthly Magazine</title>
-                     </hi> vol. XLIII, no. 169 (January
-							1835), pp. 1-9 and no. 171 (March 1835), pp. 306-12; vol. XLIV, no. 175
-							(July 1835), pp. 319-36; and vol. XLV, no. 177 (September 1835), pp.
-							47-69. </note>
-               </hi> But we protest against the light assertion that
-						"<ref target="people.html#ShakespeareWilliam">Shakspeare</ref> no more
-					believed in love than he believed in anything else!" Why, the very element
-					of poetry is faith—faith in the beautiful, the divine, and the true. No
-					one was ever great in any pursuit without earnestness,—and who can be in
-					earnest without belief? It was from his own heart that <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> drew his glorious
-					and his touching creations, of which all nature attest the truth. Doubt never
-					was and never will be the atmosphere of genius. He had the true poet's
-					generous reliance on futurity when he wrote <quote>
+            <p> We will not enter on the spirit of the sonnets, because this has already been done
+               in so masterly a manner, in the pages of this very Magazine, that we need only refer
+               to the articles of last year, on the 'Sonnets of <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>,'—a series of papers
+               eloquent and complete, and bringing out the truth by the light of the imagination.<hi rendition="#sup">
+                  <note>
+                     <ref target="people.html#LandonLetitia">Landon</ref> references the series "The
+                     Confessions of <ref target="people.html#ShakespeareWilliam">William
+                        Shakspeare</ref>" in the <hi rendition="#italics">
+                        <title>New Monthly Magazine</title>
+                     </hi> vol. XLIII, no. 169 (January 1835), pp. 1-9 and no. 171 (March 1835), pp.
+                     306-12; vol. XLIV, no. 175 (July 1835), pp. 319-36; and vol. XLV, no. 177
+                     (September 1835), pp. 47-69. </note>
+               </hi> But we protest against the light assertion that "<ref target="people.html#ShakespeareWilliam">Shakspeare</ref> no more believed in love
+               than he believed in anything else!" Why, the very element of poetry is faith—faith in
+               the beautiful, the divine, and the true. No one was ever great in any pursuit without
+               earnestness,—and who can be in earnest without belief? It was from his own heart that
+                  <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> drew his glorious
+               and his touching creations, of which all nature attest the truth. Doubt never was and
+               never will be the atmosphere of genius. He had the true poet's generous reliance on
+               futurity when he wrote <quote>
                   <lg type="stanza">
                      <l>Not marble, not the gilded monuments</l>
                      <l>Of princes, shall outlive this powerful rhyme.<hi rendition="#sup">
-                           <note place="foot">
-                              <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, "Sonnet 55," lines 1-2, slightly
-										altered.</note>
+                           <note>
+                              <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>,
+                              "Sonnet 55," lines 1-2, slightly altered.</note>
                         </hi>
                      </l>
                   </lg>
@@ -1013,9 +1012,9 @@
                   <lg type="stanza">
                      <l>Yet do thy worst, old Time: despite thy wrong,</l>
                      <l>My love shall in my verse live ever young.<hi rendition="#sup">
-                           <note place="foot">
-                              <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, "Sonnet 19," lines
-									13-14.</note>
+                           <note>
+                              <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>,
+                              "Sonnet 19," lines 13-14.</note>
                         </hi>
                      </l>
                   </lg>
@@ -1024,175 +1023,156 @@
             <p>
                <hi rendition="#smcaps">
                   <ref target="people.html#MiltonJohn">Milton</ref>.</hi>—To this subject <ref target="people.html#Chateaubriand">Chateaubriand</ref> has brought all his
-					enthusiasm; and his estimate of <ref target="people.html#MiltonJohn">Milton</ref> is infinitely more English—we might say more true, than
-					his estimate of <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>.
-					We should say this arises from having no standard of comparison by which to try
-					the merits of "Paradise Lost." There is nothing like it in French
-					literature, and the critic has no preconceived notions to whose test the foreign
-					work must submit. In speaking of the drama, he is fettered by early associations
-					of admiration, links as slight as those charmed threads Monimia wound the hands
-					of Thalaba, and as impossible to break.<hi rendition="#sup">
-                  <note place="foot">In the eighth book of <ref target="people.html#SoutheyRobert">Robert
-								Southey</ref>'s <hi rendition="#italics">
-                        <title>Thalaba the
-									Destroyer</title>
-                     </hi>, a strange woman named Maimuna spins such
-							a thread and binds the hero with it.</note>
-               </hi> But in reading <ref target="people.html#MiltonJohn">Milton</ref>, he is "fancy free,"
-					and has to make the rules by which he judges. Moreover, <ref target="people.html#MiltonJohn">Milton</ref> is less national than <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>; he belongs more to
-					that apart world of imagination, solemn, and stately, which is to be entered by
-					the ideal faculty alone. Thus has been produced a fine and elaborate criticism,
-					written in the noblest spirit of appreciation. </p>
+               enthusiasm; and his estimate of <ref target="people.html#MiltonJohn">Milton</ref> is
+               infinitely more English—we might say more true, than his estimate of <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>. We should say this
+               arises from having no standard of comparison by which to try the merits of "Paradise
+               Lost." There is nothing like it in French literature, and the critic has no
+               preconceived notions to whose test the foreign work must submit. In speaking of the
+               drama, he is fettered by early associations of admiration, links as slight as those
+               charmed threads Monimia wound the hands of Thalaba, and as impossible to break.<hi rendition="#sup">
+                  <note>In the eighth book of <ref target="people.html#SoutheyRobert">Robert Southey</ref>'s <hi rendition="#italics">
+                        <title>Thalaba the Destroyer</title>
+                     </hi>, a strange woman named Maimuna spins such a thread and binds the hero
+                     with it.</note>
+               </hi> But in reading <ref target="people.html#MiltonJohn">Milton</ref>, he is "fancy
+               free," and has to make the rules by which he judges. Moreover, <ref target="people.html#MiltonJohn">Milton</ref> is less national than <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>; he belongs more to that
+               apart world of imagination, solemn, and stately, which is to be entered by the ideal
+               faculty alone. Thus has been produced a fine and elaborate criticism, written in the
+               noblest spirit of appreciation. </p>
             <p>
                <hi rendition="#smcaps">
                   <ref target="people.html#ScottWalter">Scott</ref>
-               </hi>.—We confess that we are not surprised to find that <ref target="people.html#Chateaubriand">Chateaubriand</ref> does not appreciate
-						<ref target="people.html#ScottWalter">Walter Scott</ref>. Never were two
-					minds more dissimilar. But the reason that he gives is very
-					strange:—"I speak on this subject with some vexation, because I, who
-					have described, loved, sung, and extolled so much the old Christian temples, am
-					dying of spleen from hearing them so constantly depreciated. There was left me a
-					last illusion—a cathedral: it has been taken from me by storm."<hi rendition="#sup">
-                  <note place="foot">
+               </hi>.—We confess that we are not surprised to find that <ref target="people.html#Chateaubriand">Chateaubriand</ref> does not appreciate <ref target="people.html#ScottWalter">Walter Scott</ref>. Never were two minds more
+               dissimilar. But the reason that he gives is very strange:—"I speak on this subject
+               with some vexation, because I, who have described, loved, sung, and extolled so much
+               the old Christian temples, am dying of spleen from hearing them so constantly
+               depreciated. There was left me a last illusion—a cathedral: it has been taken from me
+               by storm."<hi rendition="#sup">
+                  <note>
                      <ref target="people.html#Chateaubriand">Chateaubriand</ref>, <hi rendition="#italics">
-                        <title>Sketches of
-									English Literature; With Considerations on the Spirit of the
-									Times, Men, and Revolutions,</title>
-                     </hi> Second ed., London:
-								<ref target="people.html#ColburnHenry">Henry Colburn</ref>, 1837,
-							vol. I, p. 306.</note>
+                        <title>Sketches of English Literature; With Considerations on the Spirit of
+                           the Times, Men, and Revolutions,</title>
+                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry
+                        Colburn</ref>, 1837, vol. I, p. 306.</note>
                </hi>
             </p>
             <p> This seems a most extraordinary complaint to make against the <pb n="67"/>
                <ref target="people.html#ScottWalter">poet of Melrose Abbey</ref>;<hi rendition="#sup">
-                  <note place="foot">
-                     <ref target="people.html#ScottWalter">Scott</ref> described Melrose Abbey in his narrative poem <hi rendition="#italics">
-                        <title>The Lay of the Last
-								Minstrel</title>
+                  <note>
+                     <ref target="people.html#ScottWalter">Scott</ref> described Melrose Abbey in
+                     his narrative poem <hi rendition="#italics">
+                        <title>The Lay of the Last Minstrel</title>
                      </hi>.</note>
-               </hi> but we may safely leave <ref target="people.html#ScottWalter">Scott</ref>'s reputation to its own
-					security. As was said of the royal power, in the celebrated vote of the Commons
-					in <ref target="people.html#ageorgeIIIKingofGreatBritain">George the
-					Third</ref>'s time—"It has increased, is increasing, and will
-					increase." </p>
+               </hi> but we may safely leave <ref target="people.html#ScottWalter">Scott</ref>'s
+               reputation to its own security. As was said of the royal power, in the celebrated
+               vote of the Commons in <ref target="people.html#ageorgeIIIKingofGreatBritain">George
+                  the Third</ref>'s time—"It has increased, is increasing, and will increase." </p>
             <p>
                <hi rendition="#smcaps">
-                  <ref target="people.html#ByronGeorge">Byron</ref>.</hi>—Little is said about <ref target="people.html#ByronGeorge">the author of
-						"<title>Lara,</title>"</ref> excepting <ref target="people.html#Chateaubriand">Chateaubriand</ref>'s surprise that
-					he should not ever have been mentioned by the English poet. We do not remember
-					any French writer named by <ref target="people.html#ByronGeorge">Byron</ref> but
-						<ref target="people.html#StaelGermainede">Madame de Stael</ref>, and that
-					was the result of personal acquaintance. <ref target="people.html#ByronGeorge">Byron</ref> wanted one element of greatness—that of appreciation. We
-					refer this to his social education; and there never was a period of worse taste,
-					of falser affectations, and of less generous feeling, than the epoch to which he
-					belonged. But to discuss the influence of society on <ref target="people.html#ByronGeorge">Byron</ref>'s genius would be too
-					complicated a subject. We must bring our observations to a close with the most
-					remarkable page in <ref target="people.html#Chateaubriand">Chateaubriand</ref>'s two volumes. The following is an encouraging
-					literary picture:—</p>
+                  <ref target="people.html#ByronGeorge">Byron</ref>.</hi>—Little is said about <ref target="people.html#ByronGeorge">the author of "<title>Lara,</title>"</ref>
+               excepting <ref target="people.html#Chateaubriand">Chateaubriand</ref>'s surprise that
+               he should not ever have been mentioned by the English poet. We do not remember any
+               French writer named by <ref target="people.html#ByronGeorge">Byron</ref> but <ref target="people.html#StaelGermainede">Madame de Stael</ref>, and that was the
+               result of personal acquaintance. <ref target="people.html#ByronGeorge">Byron</ref>
+               wanted one element of greatness—that of appreciation. We refer this to his social
+               education; and there never was a period of worse taste, of falser affectations, and
+               of less generous feeling, than the epoch to which he belonged. But to discuss the
+               influence of society on <ref target="people.html#ByronGeorge">Byron</ref>'s genius
+               would be too complicated a subject. We must bring our observations to a close with
+               the most remarkable page in <ref target="people.html#Chateaubriand">Chateaubriand</ref>'s two volumes. The following is an encouraging literary
+               picture:—</p>
             <p>
-               <hi rendition="#italics">Calamities of Genius.</hi>—"<ref target="people.html#MiltonJohn">Milton</ref>, proscribed and poor, descended
-					in utter blindness to the tomb. <ref target="people.html#DrydenJohn">Dryden</ref>, towards the close of his life, was compelled to sell his
-					talents piece-meal to support existence. 'Little cause have I,' said
-					he, 'to bless my stars for being born an Englishman. It is quite enough for
-					one century, that it should have neglected a <ref target="people.html#CowleyAbraham">Cowley</ref>, and seen a <ref target="people.html#ButlerSamuel">Butler</ref> starved to death.' <ref target="people.html#OtwayThomas">Otway</ref>, at a later period, choked
-					himself with a piece of bread thrown to him to relieve his hunger. What were not
-					the sufferings of <ref target="people.html#SavageRichard">Savage</ref>,
-					composing at street corners, writing his verses on scraps of paper picked out of
-					the kennel, expiring in a prison, and leaving his corpse to the pity of a
-					gaoler, who defrayed the expense of his interment! <ref target="people.html#ChattertonThomas">Chatterton</ref>, after being many
-					days without food, destroyed himself by poison."<hi rendition="#sup">
-                  <note place="foot">
+               <hi rendition="#italics">Calamities of Genius.</hi>—"<ref target="people.html#MiltonJohn">Milton</ref>, proscribed and poor, descended in
+               utter blindness to the tomb. <ref target="people.html#DrydenJohn">Dryden</ref>,
+               towards the close of his life, was compelled to sell his talents piece-meal to
+               support existence. 'Little cause have I,' said he, 'to bless my stars for being born
+               an Englishman. It is quite enough for one century, that it should have neglected a
+                  <ref target="people.html#CowleyAbraham">Cowley</ref>, and seen a <ref target="people.html#ButlerSamuel">Butler</ref> starved to death.' <ref target="people.html#OtwayThomas">Otway</ref>, at a later period, choked himself
+               with a piece of bread thrown to him to relieve his hunger. What were not the
+               sufferings of <ref target="people.html#SavageRichard">Savage</ref>, composing at
+               street corners, writing his verses on scraps of paper picked out of the kennel,
+               expiring in a prison, and leaving his corpse to the pity of a gaoler, who defrayed
+               the expense of his interment! <ref target="people.html#ChattertonThomas">Chatterton</ref>, after being many days without food, destroyed himself by
+                  poison."<hi rendition="#sup">
+                  <note>
                      <ref target="people.html#Chateaubriand">Chateaubriand</ref>, <hi rendition="#italics">
-                        <title>Sketches of
-									English Literature; With Considerations on the Spirit of the
-									Times, Men, and Revolutions,</title>
-                     </hi> Second ed., London:
-								<ref target="people.html#ColburnHenry">Henry Colburn</ref>, 1837,
-							vol. I, p. 208. <ref target="people.html#Chateaubriand">Chateaubriand</ref> loosely quotes a letter from <ref target="people.html#DrydenJohn">Dryden</ref> to <ref target="people.html#RochesterJohnWilmot">the Earl of
-							Rochester</ref>. These various writers served as oft-cited examples of
-							neglected or reviled artistic genius.</note>
+                        <title>Sketches of English Literature; With Considerations on the Spirit of
+                           the Times, Men, and Revolutions,</title>
+                     </hi> Second ed., London: <ref target="people.html#ColburnHenry">Henry
+                        Colburn</ref>, 1837, vol. I, p. 208. <ref target="people.html#Chateaubriand">Chateaubriand</ref> loosely quotes a letter from <ref target="people.html#DrydenJohn">Dryden</ref> to <ref target="people.html#RochesterJohnWilmot">the Earl of Rochester</ref>. These
+                     various writers served as oft-cited examples of neglected or reviled artistic
+                     genius.</note>
                </hi>
             </p>
-            <p> No one can deny—no one would think of denying—the vast benefit which
-					literature has conferred on mankind; and with what ingratitude has it ever been
-					received! "The late remorse of love,"<hi rendition="#sup">
-                  <note place="foot">
+            <p> No one can deny—no one would think of denying—the vast benefit which literature has
+               conferred on mankind; and with what ingratitude has it ever been received! "The late
+               remorse of love,"<hi rendition="#sup">
+                  <note>
                      <ref target="people.html#ByronGeorge">Byron</ref>, <hi rendition="#italics">
-                        <title>Childe Harold's
-								Pilgrimage</title>
+                        <title>Childe Harold's Pilgrimage</title>
                      </hi> (1818), Canto IV, stanza 137.</note>
-               </hi>
-					the monody and the monument have been, and still are, it guerdon. The most
-					successful author pays too dear a price for success. We do not believe, in the
-					present day, that there is a single popular writer who does not bitterly regret
-					the hour he took pen in hand. The fame is far off, and like sunshine seen in the
-					distance, while only the cold wind is felt on the actual path. The wider circle
-					think but little of all you have done for their gratification, until it is too
-					late to think at all. The nearer circle of intimates and acquaintances never
-					forgive the distinction which separates you from themselves. But genius will at
-					last learn the bitter lesson of all experience: like everything else in the
-					present day, it will be taught to calculate. Its gifted ones will at length <quote>
+               </hi> the monody and the monument have been, and still are, it guerdon. The most
+               successful author pays too dear a price for success. We do not believe, in the
+               present day, that there is a single popular writer who does not bitterly regret the
+               hour he took pen in hand. The fame is far off, and like sunshine seen in the
+               distance, while only the cold wind is felt on the actual path. The wider circle think
+               but little of all you have done for their gratification, until it is too late to
+               think at all. The nearer circle of intimates and acquaintances never forgive the
+               distinction which separates you from themselves. But genius will at last learn the
+               bitter lesson of all experience: like everything else in the present day, it will be
+               taught to calculate. Its gifted ones will at length <quote>
                   <lg type="stanza">
                      <l rendition="#indent9">compress</l>
                      <l>The god within them!<hi rendition="#sup">
-                           <note place="foot">
+                           <note>
                               <ref target="people.html#ByronGeorge">Byron</ref>, <hi rendition="#italics">
                                  <title>The Prophesy of <ref target="people.html#Dante">Dante</ref>
                                  </title>
-                              </hi>, Canto IV, lines 4-5
-										(1821).</note>
+                              </hi>, Canto IV, lines 4-5 (1821).</note>
                         </hi>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p> Fame is but a beautiful classic delusion. The inspiration of the poet is like
-					the inspiration of the Delphic oracles: what was once held divine is now
-					confessed the promptings of an evil spirit mocking the votaries of whom it made
-					victims. We firmly believe that the time is fast approaching when no more books
-					will be written. The once writers will say—"Why should we sacrifice
-					our whole existence to obtain a vain praise, which, after all, never comes
-					sufficiently home to us to be enjoyed? Why should we devote, to this most barren
-					pursuit, industry<milestone unit="signature" n="F2" rendition="#center"/>
-               <pb n="68"/> and talent, which in any other line, would be certain of that
-					worldly success, which, as we live in the world, is the only success to be
-					desired?" Even poets must at last learn wisdom. The bitterness and
-					hollowness of praise will be perceived; and then who will be at the trouble of
-					writing a book? Again we repeat, the time is fast approaching when no more books
-					will be written. </p>
+            <p> Fame is but a beautiful classic delusion. The inspiration of the poet is like the
+               inspiration of the Delphic oracles: what was once held divine is now confessed the
+               promptings of an evil spirit mocking the votaries of whom it made victims. We firmly
+               believe that the time is fast approaching when no more books will be written. The
+               once writers will say—"Why should we sacrifice our whole existence to obtain a vain
+               praise, which, after all, never comes sufficiently home to us to be enjoyed? Why
+               should we devote, to this most barren pursuit, industry<lb/>
+               <fw type="sig" rendition="#center">F2</fw>
+               <pb n="68"/> and talent, which in any other line, would be certain of that worldly
+               success, which, as we live in the world, is the only success to be desired?" Even
+               poets must at last learn wisdom. The bitterness and hollowness of praise will be
+               perceived; and then who will be at the trouble of writing a book? Again we repeat,
+               the time is fast approaching when no more books will be written. </p>
             <p>
-               <hi rendition="#smcaps">Note.</hi>—The list of "literary
-					calamities" is far from being exhausted even in the present day. We quote
-					the following letter addressed by <ref target="people.html#OrsayAlfred">Comte
-					   D'Orsay</ref> to the "<title>Court Journal</title>,"<hi rendition="#sup">
-                  <note place="foot">The <hi rendition="#italics">
+               <hi rendition="#smcaps">Note.</hi>—The list of "literary calamities" is far from
+               being exhausted even in the present day. We quote the following letter addressed by
+                  <ref target="people.html#OrsayAlfred">Comte D'Orsay</ref> to the "<title>Court
+                  Journal</title>,"<hi rendition="#sup">
+                  <note>The <hi rendition="#italics">
                         <title>Court Journal</title>
                      </hi>, like the <hi rendition="#italics">
                         <title>New Monthly Magazine</title>
-                     </hi>,
-					         was one of <ref target="people.html#ColburnHenry">Henry
-					            Colburn</ref>'s publications. The letter that follows here was quoted in
-					         several other <ref target="people.html#ColburnHenry">Colburn</ref>
-					         periodicals as well.</note>
-               </hi> as a
-					practical illustration of the above theory:— </p>
+                     </hi>, was one of <ref target="people.html#ColburnHenry">Henry Colburn</ref>'s
+                     publications. The letter that follows here was quoted in several other <ref target="people.html#ColburnHenry">Colburn</ref> periodicals as well.</note>
+               </hi> as a practical illustration of the above theory:— </p>
             <quote>
                <p>
-                  <hi rendition="#smcaps">Sir</hi>,—By a judgement of the <hi rendition="#italics">Court Royale</hi> of Paris, a tedious and expensive
-						lawsuit, in which M. <ref target="people.html#KockPaulde">Paul de Kock</ref>
-						was, in the first instance, successful, has been unexpectedly decided
-						against him; and that celebrated author is only reduced to sudden
-						destitution by the costs of the award, but, in being forbidden the right to
-						publish a complete collection of his numerous works, deprived of hope to
-						repair his loss from the resources of his own industry and genius. </p>
-               <p> Under circumstances so cruel and unforeseen, and in the full reliance both
-						on the generosity of the British public, and the sympathy which unites the
-						cultivators of literature in either country, it is proposed to open a
-						subscription at Messrs. Ransoms',<hi rendition="#sup">
-                     <note place="foot">London banking firm.</note>
-                  </hi> Pall Mall East, on
-						behalf of the <ref target="people.html#SmollettTobias">Smollett</ref> of
-						France.</p>
+                  <hi rendition="#smcaps">Sir</hi>,—By a judgement of the <hi rendition="#italics">Court Royale</hi> of Paris, a tedious and expensive lawsuit, in which M. <ref target="people.html#KockPaulde">Paul de Kock</ref> was, in the first instance,
+                  successful, has been unexpectedly decided against him; and that celebrated author
+                  is only reduced to sudden destitution by the costs of the award, but, in being
+                  forbidden the right to publish a complete collection of his numerous works,
+                  deprived of hope to repair his loss from the resources of his own industry and
+                  genius. </p>
+               <p> Under circumstances so cruel and unforeseen, and in the full reliance both on the
+                  generosity of the British public, and the sympathy which unites the cultivators of
+                  literature in either country, it is proposed to open a subscription at Messrs.
+                     Ransoms',<hi rendition="#sup">
+                     <note>London banking firm.</note>
+                  </hi> Pall Mall East, on behalf of the <ref target="people.html#SmollettTobias">Smollett</ref> of France.</p>
                <p>
                   <hi rendition="#indent20">I have the honour to be,</hi>
                </p>
@@ -1207,8 +1187,8 @@
                   </hi>
                </p>
             </quote>
-            <p> This letter is written in a generous and enlightened spirit: its appeal is made
-					in behalf of poverty and talent. In our time, can such appeal be made in vain? </p>
+            <p> This letter is written in a generous and enlightened spirit: its appeal is made in
+               behalf of poverty and talent. In our time, can such appeal be made in vain? </p>
             <p>
                <hi rendition="#flushRight">L.E.L.</hi>
             </p>
