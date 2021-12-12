@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Art. II. Madame Dudevant's Novels.</title>
+            <title type="sub" level="j">The Foreign Quarterly Review</title>
+            <author type="writer">
+               <name>Mary Margaret Busk</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Co-Editor</resp>
+               <name xml:id="JDP">Jonathan Pinkerton</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>BuskMMmeDudevantNovs1834</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Art. II. Madame Dudevant's Novels</title>
+                  <author type="writer">Busk, M. M.</author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="j">The Foreign Quarterly Review</title>
+                  <imprint>
+                     <date when="1834-12">December 1834</date>
+                     <biblScope unit="vol">14</biblScope>
+                     <biblScope unit="issue">28</biblScope>
+                     <biblScope unit="page">271-297</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+               <category xml:id="g72">
+                  <catDesc>literary criticism article</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one word before
+							hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="ag">
+               <bibl>ARC Genre Categories, July 1, 2017</bibl>
+               <category xml:id="ag1">
+                  <catDesc>Advertisement</catDesc>
+               </category>
+               <category xml:id="ag2">
+                  <catDesc>Animation</catDesc>
+               </category>
+               <category xml:id="ag3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="ag4">
+                  <catDesc>Catalog</catDesc>
+               </category>
+               <category xml:id="ag5">
+                  <catDesc>Chronology</catDesc>
+               </category>
+               <category xml:id="ag7">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="ag6">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="ag8">
+                  <catDesc>Correspondence</catDesc>
+               </category>
+               <category xml:id="ag9">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="ag10">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="ag11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="ag12">
+                  <catDesc>Essay</catDesc>
+               </category>
+               <category xml:id="ag13">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="ag14">
+                  <catDesc>Film, Documentary</catDesc>
+               </category>
+               <category xml:id="ag15">
+                  <catDesc>Film, Experimental</catDesc>
+               </category>
+               <category xml:id="ag16">
+                  <catDesc>Film, Narrative</catDesc>
+               </category>
+               <category xml:id="ag17">
+                  <catDesc>Film, Other</catDesc>
+               </category>
+               <category xml:id="ag18">
+                  <catDesc>Historiography</catDesc>
+               </category>
+               <category xml:id="ag19">
+                  <catDesc>Interview</catDesc>
+               </category>
+               <category xml:id="ag20">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="ag21">
+                  <catDesc>Liturgy</catDesc>
+               </category>
+               <category xml:id="ag22">
+                  <catDesc>Musical Analysis</catDesc>
+               </category>
+               <category xml:id="ag23">
+                  <catDesc>Music, Other</catDesc>
+               </category>
+               <category xml:id="ag24">
+                  <catDesc>Musical Work</catDesc>
+               </category>
+               <category xml:id="ag25">
+                  <catDesc>Musical Score</catDesc>
+               </category>
+               <category xml:id="ag26">
+                  <catDesc>Nonficition</catDesc>
+               </category>
+               <category xml:id="ag27">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="ag28">
+                  <catDesc>Performance</catDesc>
+               </category>
+               <category xml:id="ag29">
+                  <catDesc>Philosophy</catDesc>
+               </category>
+               <category xml:id="ag30">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="ag31">
+                  <catDesc>Political Statement</catDesc>
+               </category>
+               <category xml:id="ag32">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="ag33">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="ag34">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="ag35">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="ag36">
+                  <catDesc>Scripture</catDesc>
+               </category>
+               <category xml:id="ag37">
+                  <catDesc>Sermon</catDesc>
+               </category>
+               <category xml:id="ag38">
+                  <catDesc>Speech</catDesc>
+               </category>
+               <category xml:id="ag39">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="ag40">
+                  <catDesc>Travel Writing</catDesc>
+               </category>
+               <category xml:id="ag41">
+                  <catDesc>Unspecified</catDesc>
+               </category>
+               <category xml:id="ag42">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+                      xml:id="f">
+               <bibl>ARC Format Categories, July 1, 2017</bibl>
+               <category xml:id="f1">
+                  <catDesc>Codex</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>Dataset</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>Drawing</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>Illustration</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>Interactive Resource</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>Map</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>Moving Image</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>Notated Music</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>Page Proofs</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>Pamphlet</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>Periodical</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>Physcial Object</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>Roll</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>Sheet</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>Sound</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>Still Image</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>Typescript</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>Criticism</item>
+                  <item>Review Article</item>
+               </list>
+            </keywords>
+            <catRef scheme="#ft" target="#ft1"/>
+            <catRef target="#ag9 #ag35" scheme="#ag"/>
+            <catRef target="#f13" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef scheme="#g" target="#g72 #g31 #g50"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20210922" n="4">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#MW" when="20210620" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#JDP" when="20201215" n="2">
+            <label>Changed by</label>
+            <name>Jonathan Pinkerton</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay" org="uniform" sample="complete" part="N">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <ref target="people.html#BuskMary">
+                        <name>Mary Margaret Busk</name>
+                     </ref>
+                  </author>
+                  <lb/>
+                  <title>A<hi rendition="#smcaps">rt</hi>. II—1. <title>
+                        <hi rendition="#italics">Indiana</hi>
+                     </title>
+                     <hi rendition="#italics">, par </hi>
+                     <ref target="people.html#SandGeorge">G. Sand</ref>. 4me. édit. 2
+							tom. 8vo. Paris, 1834.<lb/>2. <title>
+                        <hi rendition="#italics">Valentine</hi>
+                     </title>
+                     <hi rendition="#italics">, par </hi>
+                     <ref target="people.html#SandGeorge">G. Sand</ref>. 3me. édit. 2
+							tom. 8vo. Paris, 1834.<lb/>3. <title>
+                        <hi rendition="#italics">Lelia</hi>
+                     </title>
+                     <hi rendition="#italics">, par </hi>
+                     <ref target="people.html#SandGeorge">G. Sand</ref>. 2 tom. 8vo. Paris,
+							1832.<lb/>4. <title>
+                        <hi rendition="#italics">Rose et
+								Blanche</hi>
+                     </title>
+                     <hi rendition="#italics">, par </hi>
+                     <ref target="people.html#SandGeorge">J. Sand</ref>. 2 tom. 8vo. Paris,
+							1833.<lb/>5. <title>
+                        <hi rendition="#italics">Le Secretaire
+								Intime</hi>
+                     </title>
+                     <hi rendition="#italics">, par </hi>
+                     <ref target="people.html#SandGeorge">G. Sand</ref>. 2 tom. 8vo. Paris,
+							1834.<lb/>6. <title>
+                        <hi rendition="#italics">Jacques</hi>
+                     </title>
+                     <hi rendition="#italics">, par </hi>
+                     <ref target="people.html#SandGeorge">George Sand</ref>. 2 tom. 8vo.
+							Paris, 1834.<hi rendition="#sup">
+                        <note>The article appeared
+									in <title>
+                              <hi rendition="#italics">The Foreign Quarterly
+											Review</hi>
+                           </title>, vol. 14, no. 28, December 1834,
+									271-97, and was attributed to <ref target="people.html#BuskMary">
+                              <name>Mary Margaret Busk</name>
+                           </ref> in <hi rendition="#italics">
+                              <title>The Wellesley Index to Victorian
+											Periodicals 1824-1900</title>
+                           </hi>, ed. Walter E.
+									Houghton, University of Toronto Press, 1966. This text was
+									prepared for <hi rendition="#italics">The Criticism Archive</hi>
+									by Jonathan Pinkerton and Mary A.
+						Waters.</note>
+                     </hi>
+                  </title>
+               </bibl>
+            </head>
+            <p>T<hi rendition="#smcaps">he</hi> string of novels above enumerated, taken in
+					combination with their <ref target="people.html#SandGeorge">author</ref>,
+					constitute a moral phenomenon, perhaps not one of the least remarkable of these
+					our phenomenon-teeming days. The points co-operating to the construction of this
+					phenomenon are of course multifarious. One is, the inconceivable discrepancy,
+					and that of an unwonted kind, between the earlier and later productions of one
+					and the same <ref target="people.html#SandGeorge">author</ref>. The first two
+					works, but especially the first, of the <hi rendition="#italics">soi-disant<hi rendition="#sup">
+                     <note>So-called.</note>
+                  </hi>
+               </hi>
+               <ref target="people.html#SandGeorge">George Sand</ref>, were so replete with
+					talent and with knowledge of human nature, so boldly conceived and so
+					brilliantly executed,—were written in a style so animated, so graphically
+					delightful, displayed portraits hit off with such admirable power and
+					spirit,—even if not always wrought out in the conduct of the story in
+					perfect keeping with the original sketch,—as we have rarely seen
+					surpassed. Gladly did we hail them, as harbingers of the rising of a new and
+					radiant, if not perfectly salutiferous star, above the literary horizon. The
+					succeeding works published under the same name, far from showing the improved
+					mastery of the art usually acquired by practice,<pb n="272"/>are, as though the
+					mine had been thus quickly exhausted, so immeasurably inferior to their
+					predecessors in every thing, (except, perhaps, boldness of conception, which now
+					sometimes increases from originality to extravagance,) that but for their
+					similarity of tone and temper, we should hardly know how to credit their
+					fraternal relationship. If we are indeed to believe that <ref target="people.html#SandGeorge">George Sand</ref> is one individual, and not
+					two or more individuals,—we look not upon the J. once substituted for the
+					G. as any argument, because, to say nothing of public opinion, <title>
+                  <hi rendition="#italics">Lelia</hi>
+               </title>, to which we chiefly allude,
+					bears the G.—we cannot suggest, for the unriddling of the mystery, a
+					better key than the remark of a shrewd and witty friend of our own youth, who
+					was wont to say, "It is when a man has got a bad name that he may go to
+					sleep, since nothing he can do will ever change it; when he has a good one, he
+					must labor like a horse to keep it." Of a surety <ref target="people.html#SandGeorge">George Sand</ref> agrees not with our
+					friend, but having deserved and gained a high—a very high—literary
+					reputation, fancies he may go to sleep, and fearlessly publish the somnambulic
+					effusions of his repose.</p>
+            <p>The second point is, that even those novels which we rank highest in the scale,
+							<title>
+                  <hi rendition="#italics">Indiana</hi>
+               </title> and <title>
+                  <hi rendition="#italics">Valentine</hi>
+               </title>, although not actually
+					immoral, certainly not licentious, are often so daring in situation and in
+					graphic delineation, are so generally deficient in refined delicacy, in glowing
+					love of, and delight in, virtue, that we should hesitate about recommending even
+					these to our fair and youthful readers. It may be thought that in the present
+					state of French literature, at least in the departments of the drama and of
+					prose fiction, this want of delicacy and of moral sense rather detracts from
+					than enhances the singularity we have ascribed to the productions before us; but
+					the reader will possibly abandon that opinion when informed of our third point,
+					to wit, that <ref target="people.html#SandGeorge">George Sand</ref> is only a
+						<hi rendition="#italics">pseudonyme</hi>, and that the real <ref target="people.html#SandGeorge">author</ref> of them is a lady, and a lady
+					(as we have been informed, but cannot vouch) of unblemished character, whose
+					name is <ref target="people.html#SandGeorge">Madame Dudevant</ref>.</p>
+            <p>The astonishment created by the discovery of the sex and individuality of the
+					writer augments an hundred, nay, a million-fold, as we peruse the subsequent
+					writings of the same highly, but perversely endowed <ref target="people.html#SandGeorge">authoress</ref>, who, in <title>
+                  <hi rendition="#italics">Lelia</hi>
+               </title>, seems almost ignorant, and
+					quite reckless, of the difference between right and wrong. The most favourable
+					hypothesis we can frame respecting our disguised lady is, that having been
+					harshly treated by society, and especially unfortunate in the conjugal relation,
+					she has been exasperated into the determined hostility to both, which, despite
+					her protestations to the contrary, her publications exhibit, and in the
+					irritation of unhappiness has lost the sensitive pudicity of her sex.</p>
+            <p>But we cannot expect our readers to go along with us in these<pb n="273"/>generalities. To enable them to do so, we must enter into particulars, and we
+					believe the only way of unfolding our phenomenon will be to give short sketches
+					of, and an extract or two from, all these tales. But in order to give the <ref target="people.html#SandGeorge">authoress</ref> fair play, we will begin
+					with extracts from the prefaces. In that to <title>
+                  <hi rendition="#italics">Indiana</hi>
+               </title> she says —</p>
+            <quote>
+               <p>The narrator hopes that after hearing his tale to the end, few auditors
+						will deny the <hi rendition="#italics">morality</hi> which results from his
+						facts, and there, as in all that is human, is triumphant. As he finished it,
+						he felt his conscience clear, and judged that the legal code which here upon
+						earth must regulate the throbbing of man's bosom, ought in fairness to
+						acquit him. He flatters himself that he has related without rancour the
+						paltry miseries of society, has described without too much passion the
+						passions of humanity. . . .</p>
+               <p>Perhaps you will do him justice if you allow that he has shown you the being
+						who strives to get rid of a legitimate curb very wretched, the heart that
+						revolts against the decrees of fate very desolate. If he has not assigned
+						the fairest part to the one of his personages who represents <hi rendition="#italics">law</hi>, if he has shown under a still less lively
+						aspect him who represents <hi rendition="#italics">opinion,</hi> you will
+						see a third who represents <hi rendition="#italics">illusion,</hi> and who
+						cruelly mocks and disappoints the vain hopes, the wild enterprises of
+						passion. In short, you will see, that if he has not strewed roses on the
+						ground where the law pens the wills of men, like the appetites of sheep, he
+						has thrown nettles upon the path that leads from it.</p>
+               <p rendition="#center">*                *                *</p>
+               <p>Indiana is woman, the feeble being commissioned to represent the <hi rendition="#italics">passions oppressed</hi>, or, if you like it better,
+							<hi rendition="#italics">repressed</hi> by the <hi rendition="#italics">laws;</hi> here is will struggling with necessity; here is love dashing
+						his blind brow against all the obstacles of civilization. But the serpent
+						wears and breaks his teeth in striving to gnaw a file; the soul exhausts its
+						energies in wrestling with the positive of life.</p>
+            </quote>
+            <p>Against this statement, we must be allowed to set a sort of aphoristic
+					exclamation in <title>
+                  <hi rendition="#italics">Valentine</hi>
+               </title>, which,
+					not being assigned to any personage in the novel, must be taken as expressing
+					the writer's own opinion.</p>
+            <quote>
+               <p>Poor woman, poor society, where the heart can find no genuine enjoyment,
+						save in the forgetfulness of all duty, of all reason!</p>
+            </quote>
+            <p>But on the other hand, in the preface to <title>
+                  <hi rendition="#italics">Le
+							Secretaire Intime</hi>
+               </title>, <ref target="people.html#SandGeorge">Madame Dudevant</ref> has again vindicated or explained her views, and from
+					this vindication or explanation, likewise, we are bound in justice to offer
+					extracts.</p>
+            <quote>
+               <p>The author deems it his duty to declare, that he never meant to draw up an
+						indictment against society, against the institutions by which it is
+						governed, against humanity itself, as has been recently asserted. Intentions
+						of this sort would ill become him; neither his talent, nor his will, nor yet
+						his hopes, deserve so serious an impeachment. He well knows that the
+						majority value highly institutions which they find<pb n="274"/>convenient,
+						and, thank God, pride and folly have not yet bewildered him so far, as to
+						induce the belief that a word of his could overthrow what exists. . . .
+						.</p>
+               <p>
+                  <title>
+                     <hi rendition="#italics">Indiana</hi>
+                  </title> and <title>
+                     <hi rendition="#italics">Valentine</hi>
+                  </title> are not then a satire
+						against marriage, but pictures true or false (that the reader must decide)
+						of the moral sufferings inflicted upon a delicate and pure soul by imperious
+						brutality and by polished egotism. As marriage and love may very well exist
+						independently of these two conditions, the poetical truth of the picture has
+						nothing to do with the institutions and the passions that serve to frame
+						it.</p>
+            </quote>
+            <p>This last sentence seems to refer to the <hi rendition="#italics">Secretaire
+						Intime</hi> itself, of which hereafter. We now turn to the earlier novels;
+					and as <title>
+                  <hi rendition="#italics">Indiana</hi>
+               </title> is that in which the
+					ticklish situations are managed with the nearest approach to delicacy, and is in
+					every respect our favourite, we shall devote our principal attention to it.</p>
+            <p>
+               <title>
+                  <hi rendition="#italics">Indiana</hi>
+               </title> is the story of a marriage,
+					unhappy from difference of age, station, opinions, feelings, disposition, in
+					short, every thing in which contrariety is most inimical to happiness in the
+					intimate association of wedlock. The husband is a surly half-pay veteran of the
+					imperial army, low-born, uneducated, violent, jealous, and infirm; the wife, a
+					noble Creole of Spanish race, lovely and good, with all the unregulated
+					sensibility, or shall we say susceptibility? of tropical climates. She deems
+					that she does her duty fully to the disagreeable partner of her life and master
+					of her destiny, by personal fidelity and coldly implicit obedience, without an
+					effort either to care for him, or to soothe and soften him into an object of, at
+					least, respect and kindliness. She, Indiana, falls in love with a hero, whom, as
+					a somewhat novel character, we must let the <ref target="people.html#SandGeorge">authoress</ref> herself paint. Her portrait of him displays that
+					intermixture of general satirical touches in which she excels.</p>
+            <quote>
+               <p>M. Raymon de Ramière was neither a coxcomb nor a libertine. . . . He
+						was a man of principle, when he reasoned with himself. But impetuous
+						passions often hurried him out of his systems. <hi rendition="#italics">Then</hi> he was no longer capable of reflexion, or he avoided
+						summoning himself to the bar of his own conscience; he committed faults,
+						unknown, as it were, to himself, and the man of yesterday exerted himself to
+						deceive the man of tomorrow. . . . . Raymon had the art of being often
+						guilty without making himself hated, often capricious without being
+						offensive. He occasionally succeeded in obtaining the pity of those who had
+						most cause for being angry with him.</p>
+               <p rendition="#center">*                *                *                *                *</p>
+               <p>Raymon was an exception from the rule, that he who speaks eloquently of his
+						love is little in love. He expressed his passion skilfully, and felt it
+						fervently. Only it was not his passion that made him eloquent, it was his
+						eloquence that fired his passion. He took a fancy to a woman; he became
+						eloquent to seduce her, and, whilst seducing, became desperately enamoured
+						of her. . . . Raymon had committed for<pb n="275"/>love what are called
+							follies.<hi rendition="#sup">
+                     <note>Not crimes, observe. Is
+								that illustrative of the state of Parisian society? [<ref target="people.html#BuskMary">Busk</ref>'s
+							note.]</note>
+                  </hi> He had run away with a young lady of condition (and
+						still is a bachelor); he had compromised women of high rank; he had fought
+						two or three celebrated duels; he had betrayed the disorder of his heart,
+						the delirium of his thoughts, to a whole rout, a whole theatre. A man who
+						does all this without fear of being laughed at or execrated, and who
+						succeeds in escaping both,<hi rendition="#sup">
+                     <note>Being
+								laughed at, perhaps; if he escaped their curses, his loves must have
+								been of a kind not to require very artful seduction. [<ref target="people.html#BuskMary">Busk</ref>'s
+							note.]</note>
+                  </hi> is thenceforth invulnerable; he may risk every thing,
+						hope every thing.</p>
+               <p rendition="#center">*                *                *                *                *</p>
+               <p>Raymon possessed inconceivable power over all that surrounded him, for with
+						all his faults, he was a superior man in society. . . . . He was one of the
+						men who have held most empire, most influence over your thoughts, whatever
+						may be your opinion now. You have devoured his political pamphlets, and
+						often have you been hurried away, whilst reading the newspapers of those
+						days, by the irresistible charm of his style, by the graces of his
+						courteous, his worldly argumentation.</p>
+               <p>I speak to you of an era already far distant from us, who no longer reckon by
+						centuries, or even by reigns, but by ministers. I speak to you of the
+						Martignac year<hi rendition="#sup">
+                     <note>Jean Baptiste Gay,
+								vicomte de Martignac (1778-1832) was Prime Minister of France from
+								1828-1829.</note>
+                  </hi>. . . . .</p>
+               <p>Placed by his birth and fortune amongst the partizans of absolute royalty,
+						Raymon sacrificed to the <hi rendition="#italics">young</hi> ideas of his
+						day by a devoted attachment to the Charter. At least he thought he did so,
+						and laboured to prove it. But conventions that have fallen to desuetude are
+						subject to various interpretations, and this was already the case with <ref target="people.html#LouisXVIIIKingofFrance">Louis XVIII</ref>'s <hi rendition="#italics">Charte</hi>, as with the Gospel of Christ. . . .
+						Raymon, like other inexperienced heads, fancied it still possible to be a
+						conscientious journalist. Error! At a season when deference to the voice of
+						reason is only pretended, in order the more effectually to stifle it. Free
+						from political passions, Raymon believed he was disinterested, and deceived
+						himself; for society, as then organized, was to him favourable and
+						advantageous; it could not be deranged without lessening the sum of his
+						enjoyments, and that perfect quietude of situation, which extends to the
+						thoughts, is a wonderful teacher of moderation.</p>
+               <p rendition="#center">*                *                *                *                *</p>
+               <p>Preserved by his fortune from the necessity of writing for bread, Raymon used
+						his pen from inclination, and (as he said and believed) from duty. His rare
+						power of refuting positive truth by sheer talent rendered him invaluable to
+						the ministry,—whom he served better by his impartial resistance, than
+						did its creatures by their blind devotion,—and yet more precious to a
+						young and elegant world, willing to abjure the ridicule of obsolete
+						privileges, but not to lose their existing advantages.</p>
+            </quote>
+            <p>The manner of this new-fashioned, liberalized <ref target="people.html#Lovelace">Lovelace</ref>'s passion for poor Indiana may be easily imagined, even
+					without the information given upon one occasion.</p>
+            <quote>
+               <p>He had two days good, which he thus allotted. The remainder of<pb n="276"/>the closing day to affect, the morrow to persuade, his intended victim,
+						and the following day to his triumph.</p>
+            </quote>
+            <p>The reader is accordingly held in constant dread of seeing the impassioned and
+					confiding Creole fall a victim to the seducer's arts and eloquence. She is
+					saved, sometimes by fainting fits produced by extraordinary nervous sensibility,
+					but generally, as well in reputation as in fact, by the intervention of her
+					cousin, Sir Ralph Brown, who, first introduced as a caricature of all the faults
+					and dulness ascribed by continental writers to Englishmen, proves in the end to
+					be the very <hi rendition="#italics">prosopopeia</hi> of heroic self-immolating
+					virtue. Passionately in love with Indiana, even from her infancy, he has
+					uniformly sacrificed his feelings to his duties, and quietly suffers himself,
+					after Indiana's ill-assorted marriage, to be considered a cold egoist, lest
+					her sympathy for his real agonies should inflame his passion to such an
+					ungovernable, unconcealable pitch, as, by arousing her husband's jealousy,
+					should prevent his incessant care of her.</p>
+            <p>To return to Raymon and Indiana. We shall give the scene that really decides her
+					fate, as, of its kind the most possible, from greater delicacy,—or must we
+					say less indelicacy?—to translate. But some preliminary statements will be
+					requisite. During an indispensable absence of Delmare, Indiana's husband,
+					the vigilant guardianship of Sir Ralph foils and irritates Raymon's
+					passion. The lover secretly gives Indiana a letter complaining of her apparent
+					mistrust, and urging a thousand sophistical reasons why she should admit him at
+					night to her chamber, where his respect will be inviolate and inviolable. She
+					answers;</p>
+            <quote>
+               <p>"Who, <hi rendition="#italics">I</hi> fear thee, Raymon! Oh no! not
+						now. I know too well how thou lovest me; my belief in thy love is too
+						intoxicating. Come then. Neither do I fear myself; did I love thee less, I
+						might, perhaps, be less calm, but I love thee as thou thyself dreamest not.
+						Go away early to prevent Ralph's distrust. Return at midnight; you know
+						the park and the house: here is the key of the postern gate; fasten it after
+						you."</p>
+            </quote>
+            <p>Such perfect confidence almost subdues the libertine, but further proofs of Sir
+					Ralph's suspicions dissipate his good intentions, and he arrives,
+					determined not to lose the opportunity. Meanwhile Sir Ralph, after Raymon's
+					departure, seeks to warn Indiana, without mortifying her by showing his
+					knowledge of her imprudence. For this purpose he reveals to her his conviction,
+					that Raymon, prior to his acquaintance with herself, had seduced her
+					foster-sister and attendant, Noun, and afterwards, by his desertion, driven the
+					wretched girl to suicide. Indiana, who had once surprised Raymon with Noun in
+					her own chamber, but supposed he came for herself and had bribed Noun to admit
+					him, now re-<pb n="277"/>solves to ascertain the truth. She receives her lover
+					more gravely than usual.</p>
+            <quote>
+               <p>Raymon, surprised at this reception, ascribed it to some chaste scruple,
+						some delicate reserve of youthful womanhood. He fell at her feet,
+						saying,</p>
+               <p>"My best beloved, can you then fear me?"</p>
+               <p>But he immediately observed that Madame Delmare held something in her hand,
+						which she seemed, with a playful affectation of gravity, to spread out
+						before him. He stooped, and saw a mass of black hair, of unequal lengths,
+						cut off hastily as it seemed, and which Indiana was smoothing in her
+						hands.</p>
+               <p>"Do you recognize this?" she asked, fixing upon him her translucent
+						eyes, that emitted a penetrating greenish brightness. </p>
+               <p>Raymon hesitated; he looked at the handkerchief that dressed her head, and
+						thought he understood.</p>
+               <p>"Naughty child!" said he, taking the tresses from her. "Why
+						cut them off? They were so beautiful, and I so loved them."</p>
+               <p>"You asked me yesterday," said she with a strange smile, "if I
+						would sacrifice them to you."</p>
+               <p>"Oh, Indiana!" exclaimed Raymon, "well thou knowest that
+						henceforward thou must to me be still more beautiful. Give, give; I will not
+						regret the absence from thy forehead of those tresses I daily admired, but
+						which I may now daily kiss and caress unquestioned—give them to me
+						that they may never quit me more."</p>
+               <p>But as he took them, as he collected in his hand that profusion of locks,
+						some of which hung down to the floor, Raymon felt in them a something harsh
+						and dry, which he had never observed in the glossy bands upon Indiana's
+						brow. He experienced a nervous shiver as he felt them cold and heavy, as
+						though long cut, as he perceived that they had lost their perfumed moisture,
+						their vital warmth. . . . .</p>
+               <p>"This is not <hi rendition="#italics">your</hi> hair," said he, as
+						he untied the silk handkerchief that concealed Madame Delmare's
+						tresses.</p>
+               <p>They were uninjured, and fell in all their luxuriance about her shoulders.
+						But she, with a gesture of repulse, and still showing him the cut hair,
+						said,</p>
+               <p>"Know you not these locks? Have you never admired, never caressed them?
+						Has one wet night" (Noun had drowned herself, and his way this night
+						had led him past the spot where her body was found) "robbed them of all
+						their perfume? Have you not one recollection, one tear, for her who wore
+						this ring?"</p>
+               <p>Raymon sank upon a chair, and Noun's hair dropped from his hand. So many
+						painful emotions overpowered him. He was a bilious man, whose blood
+						circulated rapidly, whose nerves were singularly excitable. He shivered from
+						head to foot, and fell in a swoon upon the floor.</p>
+               <p>When he recovered, Madame Delmare was on her knees by his side, bathing him
+						in her tears, and imploring his forgiveness. But Raymon no longer loved
+						her.</p>
+               <p>"You have wounded me dreadfully," said he; "wounded me to a
+						degree that you cannot heal. You can never restore my confidence in<lb/>
+                  <fw type="vol">
+                     <hi rendition="#smcaps">vol. xiv. no.
+								xxviii.</hi>
+                  </fw>
+                  <fw type="sig" rendition="#right">u</fw>
+                  <pb n="278"/>your heart; you have shown me how full
+						of revenge and cruelty it is. Poor Noun! Unfortunate girl! It was against
+						her I sinned, not against you! . . . And it is you who upbraid me with her
+						death!—you, whom I have loved so passionately as to forget her, as to
+						brave these agonies of remorse!—you, who on the faith of a kiss, have
+						made me cross that river, that bridge, alone, with terror by my side,
+						pursued by the infernal illusion of my crime! And when you discover how
+						deliriously I love you, you strike your woman's nails into my heart, to
+						seek there a little remnant of blood that may stream for you." . . .
+						.</p>
+               <p>Madame Delmare made no reply. Motionless, pale, her hair dishevelled, her
+						lips violet, her eyes glazed, she awakened Raymon's pity. Taking her
+						hand, he said,</p>
+               <p>"And yet, so blind is my love for thee that I can still
+						forget—against my will I feel I can—the past and the present,
+						both the crime that blights my life, and the atrocity thou has just
+						perpetrated. Love me, and I forgive thee."</p>
+               <p>Do you understand? Raymon offered Indiana his compassion, and she was happy
+						to accept it! . . . .</p>
+               <p>Madame Delmare's despair rekindled desire together with pride in her
+						lover's heart. When he saw her so fearful of losing his love, so humble
+						before him, so resigned to receive his laws for the future, and his
+						justification of the past, he recollected the purpose for which he had
+						deceived Sir Ralph's watchfulness; he felt the advantage of his
+						position. . . . . He waited till Indiana's heart was broken by her own
+						sobs—till she had anticipated the horrors of desertion—till her
+						distracting terrors had exhausted her strength. Then, when he saw her
+						exhausted, expiring at his feet, awaiting her death in a word, he violently
+						caught her in his arms and clasped her to his breast. She yielded like an
+						infant; she gave up her lips to him unresistingly; she was almost dead.</p>
+               <p>But suddenly starting, as from a dream, she broke from his burning caresses,
+						fled to the end of the room occupied by the picture of Sir Ralph, and as if
+						placing herself under the protection of that grave personage, with his pure
+						brow, his calm lips, she pressed herself against the portrait, palpitating,
+						bewildered, full of strange terrors. Raymon thought she was afraid of
+						herself and was his.</p>
+               <p>Authoritatively he snatched her from her asylum, and told her that he had
+						come determined to keep his promises, but that her cruelty had released him
+						from his oaths.</p>
+            </quote>
+            <p>The struggle, which we beg to be excused translating, continues, and at length
+					Indiana seems about to be subdued by the common-place reproach, at which Raymon
+					almost sneers whilst uttering it, of want of love. But now</p>
+            <quote>
+               <p>A short dry knock at her door stopped the blood in her arteries. Raymon
+						and she remained motionless, not daring to breathe.</p>
+               <p>Then a paper was slid under the door—it was a leaf of a pocket-book,
+						upon which these words were almost illegibly pencilled.</p>
+               <p>"Your husband is here. R<hi rendition="#smcaps">alph</hi>."</p>
+               <p rendition="#center">*                *                *                *                *</p>
+               <pb n="279"/>
+               <p>"Well then," said Raymon, enthusiastically catching her in his
+						arms, "since death environs us, be mine!" Be thy last word one of
+						love; my last breath happiness!"</p>
+               <p>"This moment of terror and of courage," she replied, "might
+						have been the happiest of my life; but you have spoiled it."</p>
+               <p>Wheels were heard in the farm yard; the castle bell was pulled by a rude and
+						impatient hand.</p>
+               <p>"I know that ring," said Indiana, coldly attentive; "Ralph
+						never spoke false. But you have time to fly. Go."</p>
+            </quote>
+            <p>Raymon now perforce obeys, and scarcely has he passed the postern by which he had
+					entered, when</p>
+            <quote>
+               <p>Sir Ralph presented himself, and accosting him as coldly as if they had
+						met at a rout, said,</p>
+               <p>"Be pleased to give me that key; should it be sought, there is no harm
+						in its being found in my hands."</p>
+               <p>Raymon would have preferred the most deadly insult to this ironical
+						generosity. He said,</p>
+               <p>"I am not the man to forget a real service, but I am the man to avenge
+						an affront, to punish treachery."</p>
+               <p>Sir Ralph, without any change of tone or countenance, rejoined—"I
+						desire not your gratitude, and shall quietly await your revenge. But this is
+						not the moment for conversation; there is your road; think of Madame
+						Delmare." And he disappeared.</p>
+            </quote>
+            <p>Indiana now writes a letter to Raymon, ending thus:—</p>
+            <quote>
+               <p>Not to be more beloved than Noun! Oh if I thought it! Yet she was more
+						beautiful, far more beautiful, than me! Why then prefer me? You must needs
+						have loved me otherwise, and better. This is what I wanted to say. Will you
+						renounce the wish of being my lover in the way you were hers? If you will, I
+						can still esteem you, can believe in your remorse, your sincerity, your
+						love. If not, think no more of me; you will never see me again. I may die of
+						it, but I had rather die than stoop to be merely your
+						mistress.                                     I.</p>
+            </quote>
+            <p>This pride offends Raymon, and he resolves to humble it by making her his
+					mistress. He accordingly, professing submission, pursues her with all the arts
+					of the most consummate seducer; and she at length agrees to elope from her
+					husband, when he, Delmare, shall embark for the Isle of Bourbon. The moment
+					arrives.</p>
+            <quote>
+               <p>One morning, on coming home from a ball, Raymon found Madame Delmare in
+						his chamber. She had come at midnight; during five long hours she had been
+						waiting his return. . . . .</p>
+               <p>"I was waiting for you," said she, mildly. "During the days
+						that you have not come to me, things have occurred that you must know, and I
+						left my home last night to impart them to you."</p>
+               <p>"Incredible imprudence!" exclaimed Raymon, carefully shutting the
+						door. "And my servants, who know that you are here! for they told me
+						so."</p>
+               <lb/>
+               <fw type="sig" rendition="#right">u 2</fw>
+               <pb n="280"/>
+               <p>"I did not conceal myself," said she coolly; "and as to the
+						word you use, I think it ill chosen."</p>
+               <p>"I said imprudence, I should have said madness."</p>
+               <p>"I, for my part, should have said courage; but no matter;
+						listen."</p>
+            </quote>
+            <p>She now tell him that M. Delmare sets out in three days for Bordeaux, there to
+					embark for the Isle of Bourbon; and, what might not have been anticipated from
+					the manner of the preceding dialogue, that she has eloped, and is to come live
+					with him. Raymon is by no means delighted with the prospect.</p>
+            <quote>
+               <p>The crisis was urgent. . . . One more effort of imagination, thought
+						Raymon to himself—one more love scene. And starting up with vivacity,
+						he exclaimed—</p>
+               <p>"Never! Never will I accept such sacrifices! When I told thee I would,
+						Indiana, it was boasting, or rather it was self-calumny; for a poltroon only
+						would deliberately dishonour the woman he loves. Thou, in thy ignorance of
+						life, hast not appreciated the importance of the step; and I, in my despair
+						at the prospect of losing thee, would not reflect."</p>
+               <p>"Reflection has speedily returned to you!" said she, withdrawing
+						her hand, which he sought to take.</p>
+               <p>"Indiana," he resumed, "see you not that you impose dishonour
+						upon me, reserving the heroism for yourself, and that you condemn me because
+						I would remain worthy of your love? Couldst thou still love me, say, simple
+						and ignorant woman, were I to sacrifice thy life to my pleasure, thy
+						reputation to my interests?"</p>
+               <p>"You contradict yourself," rejoined Indiana. "If by remaining
+						with you I make you happy, what should you fear from opinion? Do you care
+						more for it than for me?"</p>
+               <p>"Not on my own account do I care for it, Indiana!"</p>
+               <p>"On mine then? I foresaw your scruples, and to free you from all
+						remorse, I have taken the active part. I did not wait for you to snatch me
+						from my home; I did not even consult you previously to quitting it for ever.
+						That decisive step is taken, and your conscience cannot reproach you with
+						it. At this moment, Raymon, I am dishonoured. In your absence I counted upon
+						that clock the hours that consummated my disgrace, and now, although the
+						dawning day finds my brow as pure as it was yesterday, in public opinion I
+						am a lost woman."</p>
+               <p rendition="#center">*                *                *                *                *</p>
+               <p>A sudden thought shot through Raymon's brain. The moment was come to
+						conquer this woman's pride, or it never would come. She had just
+						offered him every sacrifice that he did not desire, and there she stood
+						before him, in haughty confidence that she ran no dangers beyond those she
+						had foreseen. Raymon saw the mode of freeing himself from her importunate
+						devotion, or of profiting by it. He was too much Delmare's friend to
+						rob him of his wife; he ought to content himself with seducing her.</p>
+               <p>"Thou art right, my Indiana!" he exclaimed with fervour. "Thou
+						recall'st me to myself, thou awakenest my transports, which the idea of
+						thy perils, the fear of injuring thee, had frozen. . . . . . Let him come<pb n="281"/>then to tear thee from my raptures—the stupid husband who
+						locks thee up, and goes to sleep upon his gross violence. Henceforward thou
+						art no longer his; thou art my beloved, my companion, my mistress!"</p>
+               <p>Whilst so speaking, Raymon gradually heated himself, as was his wont, in
+						pleading his passions. The situation was striking, was romantic; it offered
+						dangers that seasoned it with all the effect of a fashionable drama. . . .
+						He acted passion so as to deceive himself, and, shame to the silly woman!
+						she gave herself up in delight to these illusive demonstrations—she
+						felt happy, radiant with joy and hope—she forgave everything—she
+						was almost on the point of granting everything.</p>
+               <p>But Raymon lost himself by his precipitation. . . . The clock struck seven.
+						It is time to make an end, thought he; I must get her quietly home before
+						Delmare comes here. He became more urgent and less tender. . . . . Indiana
+						was recalled to herself; she repulsed the attacks of cold egotistical
+						vice.</p>
+            </quote>
+            <p>Raymon now gets into a pet, and drinks a large glass of water.</p>
+            <quote>
+               <p>It calmed his delirium and cooled his love. He looked ironically at
+						Indiana, and said—"Come, Madam, it is time to go home."</p>
+               <p>A ray of light dawned upon Indiana, and revealed to her Raymon's
+						soul.</p>
+            </quote>
+            <p>Indiana now falls into a state of stupefaction that alarms Raymon, who seeks his
+					mother's assistance. The old lady soothes the wretched young woman, and
+					recals her to herself. But Indiana insists upon going home alone, and on
+					foot.</p>
+            <quote>
+               <p>In vain Madame de Ramière trembled to see her, thus weakened and
+						disordered, undertake so long a walk.</p>
+               <p>"I have strength enough," she replied. "A word of
+						Raymon's has given it me."</p>
+            </quote>
+            <p>As was to be expected, she loses her way, and, absorbed in melancholy reverie,
+					wanders along the banks of the Seine, beyond the limits of Paris.</p>
+            <quote>
+               <p>Insensibly she found herself on the brink of the water, which drove masses
+						of ice to her feet, breaking them with a dry, cold sound against the stones
+						that protected the banks. The greenish, murmuring water exercised an
+						attractive force over Indiana's senses. One accustoms oneself to
+						dreadful ideas; once fairly admitted, one comes to take pleasure in them.
+						The example of Noun's suicide had so long solaced Indiana's hours
+						of despair, that suicide had gradually become to her mind voluptuously
+						alluring. A single idea, that of religion, had withheld her from yielding to
+						it. But at this moment no consistent thought swayed her exhausted brain. She
+						scarcely knew that there was a God, scarcely recollected that Raymon
+						existed, and walked on, nearer and nearer to the river, obedient to the
+						instinct of misfortune, to the magnetism of suffering.</p>
+               <p>When she felt the piercing cold of the water that now bathed her feet, she
+						awoke as from somnambulism, and looking around, saw Paris far behind her,
+						the Seine flying from beneath her feet, hurrying along<pb n="282"/>the white
+						reflection of the houses, the greyish blue of the sky. This continuous
+						movement of the water, and the immobility of the ground, became confused in
+						her disordered perceptions, and she thought that the water slept, that the
+						earth fled. At this moment of vertigo she leant against a wall, and stooped,
+						as fascinated, towards what seemed a solid mass. . . . . . But the barking
+						of a dog that frolicked around her distracted her attention, delaying for an
+						instant the accomplishment of her purpose. And now a man, who, guided by the
+						dog's voice, was hurrying forward, seized her by the waist, dragged her
+						away, and laid her down upon the fragments of a deserted boat. She looked
+						him in the face, but knew him not. He knelt beside her, wrapped her in his
+						cloak, took her hands in his own to warm them, and called upon her name. But
+						her brain was too feeble to make an effort; for eight-and-forty hours she
+						had forgotten to eat.</p>
+               <p>When some degree of warmth circulated through her benumbed limbs, she saw
+						Ralph on his knees before her, holding her hands, watching her eyes for a
+						gleam of sense.</p>
+               <p>"Did you meet Noun?" she asked; and bewildered by a degree of <hi rendition="#italics">monomania</hi>, added, "I saw her go this
+						way," pointing to the river, "and wanted to follow her; but she
+						went too fast, and I had not power to walk! 'Twas like a
+						night-mare!"</p>
+            </quote>
+            <p>Even after this bitter lesson, an artfully pathetic letter, written by Raymon
+					when, after his mother's death, a fit of sickness made him feel the want of
+					a fond woman's cares, induces Indiana to fly from her husband and her
+					cousin, secretly quit the Isle of Bourbon, and recross the Atlantic, to give
+					herself up to him. Luckily, in the interval, he had recovered, forgotten his
+					letter, and married a high-spirited heiress, who drives Indiana out of her house
+					within a very few and safe minutes from her entering it. Again Sir Ralph, who
+					had immediately followed her back to France, is her guardian angel; but he fails
+					in all his endeavours to recover her from the torpor of despair into which she
+					has now sunk. At length, considering her case as hopeless, he proposes to her
+					that they should return to the Isle of Bourbon, (Delmare was dead,) and there
+					commit suicide together. To this sociable <hi rendition="#italics">felo-de-se</hi>
+               <hi rendition="#sup">
+                  <note>"Felon of him-
+							or herself," a legal term describing someone who commits suicide or
+							an illegal act that results in their own death.</note>
+               </hi> scheme she
+					gladly assents, and again they traverse the Atlantic. But before leaping arm in
+					arm from the brow of a rock into the foaming cataract, which they have selected
+					as the scene of their self-slaughter, Sir Ralph wishes that his heart should at
+					last be better known to Indiana, and tells her the whole story of his love, his
+					sufferings, his self-immolation, if not to her happiness, yet to the mitigation
+					of the evils that oppressed her. The result may be anticipated. They do not kill
+					themselves; but whether they marry, or dispense with a ceremony which, whatever
+					she may be pleased to aver, <ref target="people.html#SandGeorge">Madame
+						Dudevant</ref> assuredly does not patronize, is not clearly stated.</p>
+            <pb n="283"/>
+            <p>
+               <title>
+                  <hi rendition="#italics">Valentine</hi>
+               </title> is the next best of these
+					novels, and though, in our opinion, inferior to <title>
+                  <hi rendition="#italics">Indiana</hi>
+               </title>, not much so. Its object, (begging the <ref target="people.html#SandGeorge">authoress</ref>'s pardon,) we cannot
+					help believing to be an attack upon the existing institutions of society, as
+					well as the delineation of the follies and prejudices of the divers classes of
+					society, including the vices of the higher grades; for the writer's own
+					prepossessions are all manifestly democratic, and she paints her old <hi rendition="#italics">Marquise</hi>, Valentine's grandmother, such as we
+					can fancy none but the female partners of the <ref target="people.html#OrleansPhilippe">Regent Orleans</ref>'s orgies, or
+					the associates of <ref target="people.html#BecuJeanne">Madame du Barri</ref> in
+					the <hi rendition="#italics">petits appartements</hi> of <ref target="people.html#LouisXVKingofFrance">Louis XV</ref>.—and to have
+					been one even of these last would make her <hi rendition="#italics">very</hi>
+					old,—for without disputing the immorality of the French nobility prior to
+					the revolution, we must observe that the high polish of their manners sufficed
+					to insure general external decorum. And yet, to our conservative eyes, even
+					these sketches establish the necessity, or at least the advantage, of a clear
+					and marked distinction of ranks.</p>
+            <p>Valentine de Raimbault herself is the gentlest, purest, calmest of high-born
+					maidens; she is affianced to an elegant and courtly diplomatist, the Comte de
+					Lansac, whom she really likes, and believes that she loves as warmly as her
+					nature is capable of loving; and she seems altogether as happily secured as may
+					be against the dangers that we have seen besetting the path of poor Indiana.
+					Moreover, she has a warning example in an elder sister, Louise, who having,
+					several years before the opening of the tale, fallen a victim to the arts of
+					man, has been turned out of doors, with the living proof of her shame, whilst
+					her noble seducer was shot by her father in a duel. Louise is now secreted in a
+					farm house upon the Raimbault estate, the mistress of which had been her nurse;
+					and the secret intercourse between the two fondly attached sisters involves
+					Valentine in an intimacy with Benedict Lhery, the farmer's over-educated
+					nephew, whence springs all the mischief, and indeed all the story. Benedict, who
+					is spoiled for a farmer, without being fitted for a learned profession, or made
+					quite a gentleman, is the betrothed bridegroom of his equally over-educated
+					cousin Athénaïs; but regardless of her passionate attachment to him,
+					his fastidiousness only sees and disdains in her the follies and affectations
+					engendered by an unsuitable education, and some weeks before our introduction to
+					the parties, he had fallen in love with Louise, and been coldly rejected by her,
+					notwithstanding that she ardently returned his passion. Her motive is neither
+					pride of rank, nor humility of repentance—of this last sentiment the <ref target="people.html#SandGeorge">author</ref> seems to have no idea—but
+					respect for his engagement to Athénaïs, and for the wishes of her own
+					kind hosts, the Lherys.</p>
+            <pb n="284"/>
+            <p>We will give the first meeting of Valentine and Benedict, as a specimen of <ref target="people.html#SandGeorge">Madame Dudevant</ref>'s powers, in a
+					different style from the disagreeable and difficult scenes that we had to
+					translate, as best we could, in <title>
+                  <hi rendition="#italics">Indiana</hi>
+               </title>. It is May-day, and the village festival assembles the
+					neighbourhood of all ranks upon the green. Old Lhery takes the arm of his
+					nephew, who is newly returned from college, to present him to his landlady, the
+					Dowager Comtesse de Raimbault, a rich plebeian, whose wealth has bought back the
+					Raimbault estates and castle, (confiscated during the revolution,) which she has
+					now visited to celebrate her daughter's marriage in feudal style.</p>
+            <quote>
+               <p>Valentine was seated upon the turf between her mother, the Comtesse de
+						Raimbault, and her grandmother, the Marquise de Raimbault. Benedict knew
+						none of these three ladies, but he had heard so much of them at the farm,
+						that he was prepared for the icy, disdainful notice of the one, and the
+						familiar, chatty reception of the other of the elder ladies. It seemed as if
+						the old <hi rendition="#italics">Marquise</hi> sought by her talkative
+						fussiness to compensate her daughter-in-law's contemptuous silence. But
+						even this affectation of popularity was stamped with the habitual tone of
+						feudal protection.</p>
+               <p>"What, is that Benedict?" she exclaimed. "Is that the poppet
+						that I have seen at his mother's breast? Good morrow, my lad. I am
+						delighted to see thee so tall, and so well dressed. Thou art so like thy
+						mother that it is awful. Well, but dost' know that we are old
+						acquaintance? Thou art the godson of my poor son, the General, who fell at
+						Waterloo. 'Twas I gave thee thy first frock, but thou dostn't
+						remember much of that. How long is't ago? Thou must be
+						eighteen."</p>
+               <p>"I am two and twenty, Madam," returned Benedict.</p>
+               <p>"The deuce you are!" exclaimed the <hi rendition="#italics">Marquise</hi>, "How time flies! I thought thee about the age of my
+						granddaughter. . . . . Valentine, speak to Benedict, 'tis the nephew of
+						our good Lhery, the intended of thy little playfellow
+						Athénaïs—Speak to him, child."</p>
+            </quote>
+            <p>The democratically haughty Benedict is exasperated by this pompous
+					affability.</p>
+            <quote>
+               <p>He had fixed a bold and mocking gaze upon Valentine. . . . But the
+						expression of that beautiful face was so sweet and serene, the sound of that
+						voice so pure and so soothing, that the young man dropped his eyes and
+						blushed like a girl.</p>
+               <p>"Ah Sir," said she, "what I can say to you most sincerely, is,
+						that I love Athénaïs like a sister. Pray bring her to me, I have
+						been long seeking without finding her, and would fain embrace her."</p>
+               <p>Benedict bowed profoundly, and soon returned with his cousin.
+						Athénaïs now walked about the <hi rendition="#italics">fête</hi>, arm in arm with the noble daughter of the Counts of
+						Raimbault; and although she affected to take this as a matter of course, as
+						Valentine really did, she could not disguise the triumph of her proud joy,
+						as she met the women who envied, and strove to run her down.</p>
+               <pb n="285"/>
+               <p>The fiddle now gave the signal for the <hi rendition="#italics">Bourrée</hi> (a provincial dance), Athénaïs was engaged
+						to dance it with one of the youths who had waylaid her, and she requested
+						Mademoiselle de Raimbault to be her <hi rendition="#italics">vis-a-vis</hi>
+                  <hi rendition="#sup">
+                     <note>"Face to
+								face"; in this case, her counterpart taking the opposing
+								position in a dance formation.</note>
+                  </hi>.</p>
+               <p>"I must wait till I am asked," Valentine answered with a smile.</p>
+               <p>"Well then, Benedict," exclaimed Athénaïs eagerly,
+						"go and ask Mademoiselle."</p>
+               <p>The intimidated Benedict consulted Valentine's eyes. In their soft and
+						candid expression he read the wish to accept his offer, and took a step
+						towards her. But the <hi rendition="#italics">Comtesse</hi> suddenly touched
+						her arm, saying loud enough to be heard by Benedict;</p>
+               <p>"My child, I forbid your dancing <hi rendition="#italics">la
+							bourrée</hi> with any one but M. de Lansac."</p>
+               <p>Benedict now first observed a very handsome young man, upon whose arm the <hi rendition="#italics">Comtesse</hi> leant; and he recollected the name of
+						Mademoiselle de Raimbault's intended. He understood the mother's
+						motive. At a certain <hi rendition="#italics">trill</hi> of the fiddle,
+						executed before beginning <hi rendition="#italics">la bourrée</hi>,
+						every gentleman, by immemorial custom, salutes his partner. The Comte de
+						Lansac, too well bred to allow himself such a liberty in public, compromised
+						matters with the laws of Berry, by respectfully kissing Valentine's
+						hand.</p>
+               <p>He then tried a few steps, but finding it impossible to catch the measure of
+						this dance, which no stranger ever could dance well, he stopped and said to
+						Valentine—</p>
+               <p>"I have now done my part, and at your mother's command installed
+						you here; but my awkwardness must not spoil your pleasure. You had a partner
+						waiting you; allow me to resign my claim to him." And turning to
+						Benedict, he added, in a tone of exquisite politeness, "Will you, sir,
+						kindly be my substitute? You will acquit yourself far better than me."
+						. . . .</p>
+               <p>The Countess was satisfied with the diplomatic manner in which her intended
+						son-in-law had arranged the affair. But suddenly the fiddler, facetious and
+						waggish as are all genuine artists, interrupted the air of the dance, and
+						with a malicious affectation, repeated the imperative <hi rendition="#italics">trill</hi>. The new dancer is bound to salute his
+						partner. Benedict turns pale, and is out of countenance, Daddy Lhery,
+						frightened at the anger that he sees in the eyes of the Countess, springs to
+						the musician and implores him to go on with the dance. The village <ref target="people.html#Orpheus">Orpheus</ref> will listen to nothing;
+						triumphant amidst peals of laughter and of <hi rendition="#italics">bravos</hi>, he persists in not resuming the air until the
+						indispensable form is gone through. The other dancers grow impatient. Madame
+						de Raimbault is about to take away her daughter. But M. de Lansac, a
+						courtier and a man of sense, feeling the ridicule of the scene, again
+						addresses Benedict:</p>
+               <p>"Come, sir, must I again authorize you to enforce a right, of which I
+						dared not avail myself? You spare me nothing of your triumph."</p>
+               <p>Benedict pressed his quivering lips to the velvet cheek of the young
+						Countess. A sudden sensation of pride and joy animated him for an instant,
+						but he observed that Valentine, amidst her blushes, was laughing heartily at
+						the incident; and he recollected that when M. de Lansac kissed her hand, she
+						had likewise blushed, but had not laughed.</p>
+            </quote>
+            <pb n="286"/>
+            <p>That very evening Benedict becomes the agent in the stolen interviews between the
+					two noble sisters; and, notwithstanding the fair promise of the blush unalloyed
+					by a laugh, he and Valentine presently fall head over ears in love with each
+					other. Both are, however, conscious of the insuperable obstacles that sever
+					them; and although Benedict refuses to fulfil his engagement with
+					Athénaïs, Valentine so far fulfils hers with M. de Lansac, as to go
+					through the marriage ceremony: but she excludes him from the bridal chamber upon
+					a plea of illness, and puts herself to sleep with a good dose of opium.
+					Meanwhile, Benedict, a pair of loaded pistols in his pocket, has concealed
+					himself in this same bridal chamber, with the benevolent intention of preserving
+					unsullied the virgin purity of his beloved, by blowing out either the
+					bridegroom's brains or hers, and then his own. Of the nocturnal scene that
+					ensues suffice it to say, that the lover, in point of fact, respects the purity
+					he had come to guard; but despairing of being able to guard it much longer, upon
+					going away before daylight he executes so much of his original purpose as to
+					blow out his own brains. He does the job imperfectly, however, and recovers. But
+					Valentine is made really ill by the shock of the first report; and ill M. de
+					Lansac leaves her, thus avoiding the inconvenience of taking a wife with him
+					upon his diplomatic mission to Petersburg.</p>
+            <p>Fifteen months of platonic love follow, guarded by the vigilance of poor Louise,
+					who, though distracted with jealousy, carefully watches over her darling sister.
+					At the end of this time M. de Lansac returns unexpectedly from Russia; but it is
+					the importunity of creditors, not love for the wife whose fortune is to satisfy
+					them, that brings him back. Without offering to penetrate into her maiden bower,
+					he desires Valentine to sign papers that enable him to sell her estates, shows
+					her that he is aware of her connexion with Benedict and believes it to be
+					criminal, repulses her attempts at confession, refuses her request to save her
+					from danger by taking her away with him, and departs. And now the virtue of the
+					lovers is at length exhausted. <ref target="people.html#SandGeorge">Madame
+						Dudevant</ref> says:—</p>
+            <quote>
+               <p>It was a fatal moment, that, sooner or later, must arrive. There is too
+						much temerity in hoping to subdue passion at the age of twenty, and amidst
+						daily interviews. . . .</p>
+               <p>When the moment of repentance came, it was terrible. Then bitterly did
+						Benedict lament a happiness that cost him so dear. His fault was visited
+						with the severest punishment that could have been inflicted upon him; he saw
+						Valentine weep, and pine away in sorrow.</p>
+            </quote>
+            <p>But time is not given to see what would have come of this repentance. Valentine
+					is expelled from the home of her fathers<pb n="287"/>by her base husband's
+					creditors, and seeks shelter at the farm, which Benedict had ceased to inhabit,
+					since his rejection of his cousin's hand. There Athénaïs, who had
+					consoled herself and married, gives up her own room to Valentine, whom Benedict
+					privately visits, to discuss and arrange their future plans, M. de Lansac
+					having, meanwhile, obligingly got himself shot in a duel. The husband of
+					Athénaïs, who had been absent, coming home at night, sees a man in his
+					wife's room, and shoots him as he goes away. Valentine dies of despair, the
+					remorseful murderer drinks himself to death, the wealthy Lherys purchase the
+					Raimbault domains and <hi rendition="#italics">chateau</hi>, and the pretty,
+					young and widowed Athénaïs marries the illegitimate son of Louise.</p>
+            <lb/>
+            <p>Of the third of this series of novels, <title>
+                  <hi rendition="#italics">Lelia</hi>
+               </title>, we shall speak much more briefly. It is decidedly the
+					worst, and we strongly suspect that few readers who chanced to begin their
+					acquaintance with the set by its perusal, would think of opening another of
+						them[<hi rendition="#italics">sic</hi>] To give such an analysis of
+							<title>
+                  <hi rendition="#italics">Lelia</hi>
+               </title> as we have given of
+							<title>
+                  <hi rendition="#italics">Valentine</hi>
+               </title> is impossible,
+					since much of the detail of the story is such as respect for our readers and
+					ourselves must prevent our even alluding to. Like <title>
+                  <hi rendition="#italics">Valentine</hi>
+               </title>, it is an attack upon the
+					existing laws of society, and to say the truth, though for the reasons above
+					intimated we cannot explain, its satire seems to be directed nearly as much
+					against those of nature. But we will endeavour, by a few brief words concerning
+					the story and its characters, to give the reader some idea of the nature of this
+					most extraordinary production of a woman, not belonging to the <ref target="people.html#WilsonHarriette">Harriette Wilson</ref> class, and to
+					show that its popularity in France, and all this lady's writings are, we
+					are assured, highly popular, is no wise owing to the usual arts and address of a
+					story teller.</p>
+            <p>A very young, pure, and enthusiastic poet is in love with a mysterious beauty,
+					Lelia, a compound of romance, <hi rendition="#italics">ultra</hi>-German
+					transcendentalism, and the coldest irony. She, who has had one regular intrigue,
+					and been somewhat disgusted therewith, returns his passion <hi rendition="#italics">platonically</hi>, tricks him into mistaking a
+					courtezan (her sister) for herself, and laughs at him for being so duped into
+					illusory happiness. Hereupon our pure enthusiast, in rage, revenge,
+					mortification, and despair, plunges headlong into an <hi rendition="#italics">ultra</hi>-extravagance of debauchery, of which he is about to die, when he
+					prevents the catastrophe by suicide. The female character presented to us as the
+					most amiable in disposition, the most consistent and rational in conduct, is the
+					aforesaid courtezan; and the male preacher and pattern of virtue is a gentleman
+					who, after running a career of wild libertinism and yet wilder gambling, has
+					committed forgery, been convicted, branded,<pb n="288"/>and sent to the galleys,
+					where he has duly served his time, and learned philosophy and morality. We must
+					add, though the remark be far inferior in importance to the preceding, that the
+					poet, the ex-galley slave, and Lelia herself, are all so mystically metaphysical
+					in their conversations and reasonings, as actually to bewilder a plain English
+					intellect, and make us despair of finding anything at once decent and
+					intelligible to extract.</p>
+            <p>But perhaps that obtuseness of perception, which the French deem indigenous to
+					our foggy isle (<hi rendition="#italics">isle brumeuse</hi>), may have given us
+					a false view of <title>
+                  <hi rendition="#italics">Lelia</hi>
+               </title>; and by good
+					luck we have the means of enabling the reader to balance our opinion against the
+					fair <ref target="people.html#SandGeorge">author</ref>'s own. In the
+					already cited preface to <title>
+                  <hi rendition="#italics">Le Secretaire
+							Intime</hi>
+               </title>, after the justification of <title>
+                  <hi rendition="#italics">Indiana</hi>
+               </title> and <title>
+                  <hi rendition="#italics">Valentine</hi>
+               </title> that has been given, she
+					goes on to speak of <title>
+                  <hi rendition="#italics">Lelia</hi>
+               </title>
+               <hi rendition="#italics">:</hi>
+            </p>
+            <quote>
+               <p>But may not poesy overstep the bounds of these peaceable felicities, these
+						persevering credulities? (To wit, those of women who go on loving and
+						trusting again and again.) Is she not entitled to take for the subject of
+						her studies those sad exceptions, who, upon being undeceived, pass from
+						disappointment to despair, from despair to doubt, from doubt to irony, from
+						irony to pity, and from pity to serene impassive resignation—a
+						religious disdain of all that is not God or Thought.</p>
+               <p rendition="#center">*                *                *                *</p>
+               <p>Sensual happiness, pleasure heedless of yesterday and to-morrow, the triumph
+						of the body over the soul, may appear to Irony herself, with all her pride
+						and self-sufficiency, a subject rather of regret than of compassion. The
+						silent and lonely insulation of thought wrapped up in itself may give
+						serenity, but not happiness. In presence of those joys to which she cannot
+						condescend, Reason may be permitted to grieve over the desart atmosphere in
+						which she has taken refuge. There is nothing in this resigned sadness like
+						the apology of libertinism. The wise man may envy the courtesan without
+						ceasing to be wise. <ref target="people.html#Plato">Plato</ref> may be
+						jealous of <ref target="people.html#Aspasia">Aspasia</ref>, without prizing
+						less highly the lessons of <ref target="people.html#Socrates">Socrates</ref>.</p>
+               <p>That Doubt, born of Disappointment, should unreservedly admire Passion
+						sanctified by trial and pain—should kneel to the man who has traversed
+						vice and its attendant tortures, in order to rise laboriously to the
+						serenity of courage and of lucid conceptions,—is that a subject of
+						scandal? . . .</p>
+               <p>If these three tales' (<title>
+                     <hi rendition="#italics">Indiana</hi>
+                  </title>, <title>
+                     <hi rendition="#italics">Valentine</hi>
+                  </title>, and <title>
+                     <hi rendition="#italics">Lelia</hi>
+                  </title>) 'are to all thinking minds what they are to
+						himself, the author cannot divine how a portraiture of domestic morals that
+						had seemed correct, how a detail of the internal conflicts of a woman long
+						hesitating between duty and passion, that had been thought true to nature,
+						can suddenly lose all the merit attributed to them, because Thought, after
+						having exposed Brutality and Egotism, takes a fancy to attack
+						Enthusiasm.</p>
+            </quote>
+            <lb/>
+            <p>
+               <title>
+                  <hi rendition="#italics">Lelia</hi>
+               </title> was speedily followed by
+							<title>
+                  <hi rendition="#italics">Rose et Blanche</hi>
+               </title>, in every
+					respect a less objectionable work, and less inferior to <title>
+                  <hi rendition="#italics">Indiana</hi>
+               </title>, but<pb n="289"/>another
+					assault upon the existing state of the world, and amongst other parts thereof,
+					upon that beautifully Christian institution which might well reconcile the
+					philanthropic mind to all that is censurable in the Roman Catholic
+					faith—we mean that of <hi rendition="#italics">les Soeurs de la
+						Charité</hi> (the Sisters of Charity). <ref target="people.html#SandGeorge">Madame Dudevant</ref> does not, indeed, deny
+					the merits of these uncloistered <hi rendition="#italics">locomotive</hi> nuns,
+					their services to suffering humanity, or the superiority of their disinterested
+					pious zeal, over the mercenary cares of paid hospital servants; but she strips
+					them altogether of the poetic charm with which the imagination loves to invest a
+					delicate, highly educated, highly born and affluent woman, overcoming the
+					disgust of habitual refinement, the innate repugnance of the senses, in order to
+					devote her whole existence to a sad ministering to "all those ills that
+					flesh is heir to."<hi rendition="#sup">
+                  <note>
+                     <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi rendition="#italics">
+                        <title>Hamlet</title>
+                     </hi>, Act III, scene i,
+							lines 61-2, somewhat altered.</note>
+               </hi> She presents us in her <hi rendition="#italics">Soeur de la Charité</hi> with an excellent but
+						coarse-<hi rendition="#italics">issima</hi> sick nurse, rigidly chaste, but
+					deriding and despising every species of delicacy and sensibility, as defects
+					that must unfit their luckless possessor for the discharge of her duties to male
+					patients, and even suffering her tongue to echo the oaths, slang, and almost the
+					more offensive expressions, to which her attendance upon such patients has
+					inured her ear.</p>
+            <p>The story is this. Rose is a young strolling actress, born, almost upon the
+					stage, of the most profligate of affectionate mothers, and brought up behind the
+					scenes. From innate purity she resists her mother's exhortations and
+					commands to eke out the scanty earnings of her honest art by the ampler gains of
+					that infamous traffic, which, in France at least, is too often combined with the
+					profession of a public performer. At length her mother's reproaches and
+					filial duty wring from her a loathing obedience, when the depth and dignity of
+					her despair constrain the young profligate to whom she is sold to respect her
+					innocence. This is a bold, we think a fine conception, and from the pen of a
+					Scott, we can fancy such an incident as beautiful and sublime as it is
+					overpowering. But we regret to say, that in the hands of the present writer,
+					this scene, so difficult to manage, is not as well executed as conceived, nor
+					yet touched with the nice delicacy requisite to allow of our extracting it. The
+					conquered libertine places Rose first with his devotee sister, then in a convent
+					for education, and she resolves to love her deliverer hopelessly and eternally.
+					Her former profession being discovered, she is expelled the convent, returns to
+					the stage, and acquires a high character alike for virtue and for talent. Here
+					she captivates her original protector, Horace Cazalés, and they are upon
+					the point of marriage; but the Cazalés family successfully labour to
+						pre-<pb n="290"/>vent so disreputable an alliance, and succeed in estranging
+					him from the actress.</p>
+            <p>Meanwhile, Blanche is a novice in the Parisian convent, where Rose was a boarder,
+					and a romantic friendship has sprung up between the two young girls. Blanche
+					falls in love with the drawing-master, another libertine, who returns her
+					passion, but not ardently enough to think of incumbering himself with a
+					portionless wife. Chance throws in her way, amongst his drawings, a paper,
+					written by his bosom friend Horace Cazalés, confessing his having, two or
+					three years since, taken a shameless advantage of the imbecility of a poor idiot
+					girl, Denise Lazare, bequeathed to his care by her dying father, to whom he,
+					Horace, owed the preservation of his life, and stating that he had subsequently
+					placed her in a convent at Bordeaux. This paper strangely disorders Blanche,
+					whose recollections of anything prior to a recent violent nervous illness are
+					quite indistinct. She shows the paper to her confessor, and reveals her confused
+					recollections and fears; but he argues against them as nervous delusions, and
+					the preparations for her taking the veil proceed. We will extract the scene of
+					her profession, as again in a different style from those we have already
+					given.</p>
+            <quote>
+               <p>Upon this day the church, its inlaid floor waxed like that of a <hi rendition="#italics">salon</hi>, and resplendent as a mirror, was
+						dressed out with flowers, as for the gayest of festivals. The walls were
+						tapestried with garlands, the pavement of the choir was strewed with
+						rose-leaves, the vaulted roof impregnated with incense. The great silver
+						chandeliers, the golden angels of the tabernacle and of the cross, the <hi rendition="#italics">rosettes</hi> of the gothic frame-work, glittered
+						with light and sunshine; and the metal flowers heaped upon the shrines,
+						rendered the altar radiant with the splendour reflected from their brilliant
+						surfaces. The organ poured out floods of its own full and vibratory harmony;
+						the bell rebounded with joyous cadences in its Italian belfry; the metallic
+						and penetrating voices of young maidens floated dyingly away, from arcade to
+						arcade, amidst the clouds of incense and of melody. Whilst gazing upon the
+						chapel thus dazzling, whilst breathing such perfumes, whilst inhaling the
+						inebriating mystic humidity that seized the soul at the foot of the columns,
+						whilst plunging in the extacy which thrilled every fibre, deluged every
+						recess of that soul, it might have been difficult to guess that a poor girl
+						in the vigour of her age, in the first bloom of her beauty, was about to be
+						affianced to eternal seclusion. . . .</p>
+               <p>The clergy invited to the ceremony adorned the choir with the luxury of their
+						wealth, with the splendour of their glory. . . . . The galleries were
+						thronged with the numerous friends of the community, as an author fills the
+						pit of the theatre with friends to applaud his piece; the back of the chapel
+						was occupied by the nuns in long black mantles; the pupils and boarders
+						filled the middle portion, separated by gratings from the other two; and the
+						crowd that had been unable to make way into the<pb n="291"/>galleries,
+						pressed into that part of the church whence profane eyes could not pierce
+						the veil that divided them from the nuns.</p>
+               <p>But at a given signal, after the customary chaunts and a short address from
+						the confessor, the Abbé P——, the black curtain glided back
+						upon its rods, and the whole chapter of the Augustine nuns was seen, ranged
+						in a semicircle of stalls. Alone, kneeling before a praying desk, the
+						novice, richly attired, enveloped in a white Indian shawl and a silver lama
+						veil, awaited her <hi rendition="#italics">parents</hi>, represented,
+						according to custom, by two kindly disposed individuals. The Abbé
+						Causcalmon, with his dignified demeanor and venerable countenance, was
+						invariably commissioned to play the father. He arose gravely, went forward,
+						and offered his hand to a tall <hi rendition="#italics">Soeur de
+							Charité</hi>, (sister Olympie, who had brought Blanche from a
+						Bordeaux convent to this,) who knelt amongst the spectators, and together
+						crossing the nave of the church, they approached the novice. The worthy <hi rendition="#italics">Abbé</hi>, accustomed to such solemnities,
+						moved with due deliberation. Not so sister Olympie, whose presence Blanche
+						had solicited, and who, impatient of an idle ceremony, dragged the <hi rendition="#italics">Abbé</hi> by the arm, and, to his great
+						discomposure hurried him forwards. . . . . . But despite her air of hurry,
+						sister Olympie was in tears. She loved not the cloistered life, could not
+						comprehend its use, and pitied those who were dedicated to it. . . .</p>
+               <p>The <hi rendition="#italics">father</hi> and <hi rendition="#italics">mother</hi>, each taking a hand of the novice, again crossed the nave,
+						and led her to the high altar, where Monseigneur the archbishop of
+						V—— awaited her, seated in a magnificent arm chair, and turning
+						his back upon the <hi rendition="#italics">Holy of Holies</hi>, before which
+						knelt the multitude.</p>
+               <p>Attired as for a bridal day, radiant in diamonds, satin, lace, and flowers,
+						the novice, trembling like a leaf beaten by the winds, advanced with
+						difficulty to a cushion placed at <hi rendition="#italics">Monseigneur's</hi> feet. The rich dress, taken from the convent
+						treasury only for such occasions, heightened the elegance of her lofty
+						stature, now timidly bent, and the dazzling whiteness of her bare arms and
+						shoulders. Her heart throbbed under the belt of pearls, and when sister
+						Olympie awkwardly threw back the veil which had concealed that lovely face
+						from all eyes, she seemed a beautiful alabaster virgin from the chisel of
+							<ref target="people.html#CanovaAntonio">Canova</ref>. A murmur of
+						admiration, regret, and pity, arose from the throng that pressed forward to
+						look upon her.</p>
+               <p>"My dear daughter," said the archbishop, "what do you
+						ask?"</p>
+               <p>The <hi rendition="#italics">father</hi> and <hi rendition="#italics">mother</hi> answered, "We present our beloved daughter to the
+						minister of the Lord, that she, now the betrothed of Christ, may become his
+						bride."</p>
+               <p>"It is well," returned the prelate, "let her approach, and may
+						the Lord give ear to her prayers!"</p>
+               <p>The novice arose.</p>
+               <p>"You are affianced to the Lord, my dear daughter."</p>
+               <p>"Yes, father," answered sister Blanche, so softly and timidly, that
+						scarce could the sound of her voice be heard.</p>
+               <p>"Since when?"</p>
+               <p>"More than three years."</p>
+               <pb n="292"/>
+               <p>"Have you reached the age at which you can dispose of
+						yourself?"</p>
+               <p>"I am upwards of twenty-one years old.</p>
+               <p>"What is your name, my dear sister?"</p>
+               <p>"Sister Blanche."</p>
+               <p>"That is your conventual name; but your name amongst men?"</p>
+               <p>"Blanche.—I never knew" . . . . .</p>
+               <p>"Denise Lazare," said sister Olympie, in audible accents.</p>
+               <p>The effect of this name seemed magical upon several persons near the altar.
+						The Abbé P——, who stood upon its steps, uttered an
+						exclamation of surprise, and hastened towards the novice with a vivacity not
+						belonging to his age. Sister Blanche shuddered as though a red-hot iron had
+						touched her; and her pale face was crimsoned. She half arose, as if to
+						protest against sister Olympie's sentence. But suddenly, casting her
+						bewildered eyes around, she grasped the Abbé P——'s
+						arm, and clinging to it with all her strength she stretched out her other
+						hand towards a man, lividly pale, who had detached himself from the crowd,
+						and stood before her, motionless, his hair on end, his lips blue. Then,
+						collecting all the courage inspired by terror and distraction,</p>
+               <p>"'Tis he, 'tis he!" she exclaimed, seeking to hide
+						herself under the folds of her confessor's white official robe, and
+						fell senseless upon the richly flowered carpet of the altar.</p>
+               <p>The pale man, in whom the reader will have recognized Horace Cazalés,
+						had stood petrified from the moment the novice's veil was removed. But
+						when she recognized him, when she had blasted him with her dreadful gaze, he
+						sprang towards her, and would have followed sister Olympie, who, in her
+						robust arms, was carrying Blanche off toward the choir, had not the
+						Abbé P——, with his air of blended mildness and severity,
+						seized him by the coat.</p>
+               <p>"No scandal, sir," said he to Horace in an under tone. "I know
+						every thing. I will have the honour of waiting upon you in the course of the
+						day; withdraw."</p>
+            </quote>
+            <p rendition="#center"/>
+            <p>Horace Cazalés is now persuaded by his devout sister, that it is his duty,
+					forgetting the actress Rose, to marry his former victim; as is Blanche by a
+					young ascetic Jesuit confessor, substituted for the unmanageably rational
+					Jesuit, Abbé P——, that it is her's to efface her
+					unconscious pollution by the Church's sanction, and to save her
+					polluter's soul by accepting his hand. She dies of agitation and suffering
+					upon the evening of her wedding-day, and Rose again forsakes the theatre to take
+					the veil in the convent—the superior who had expelled her being
+					changed,—where she had known and loved Blanche.</p>
+            <p>The reader will have observed that there is much to dislike as well as to like in
+							<title>
+                  <hi rendition="#italics">Rose et Blanche</hi>
+               </title>. It is less
+					animated and interesting in its progress than <title>
+                  <hi rendition="#italics">Indiana</hi>
+               </title> and <hi rendition="#italics">Valentine;</hi> but
+					what we feel most disposed to censure is, that Rose, who, surrounded by vice,
+					had conceived and loved virtue as something poetically beautiful and heroic,
+					finds it so dull, so prosaically commonplace<pb n="293"/>in the devotee's
+						<hi rendition="#italics">chateau</hi>, and in the convent, during her first
+					residence there, that we cannot help fearing she should repent her resistance to
+					her mother's will. Nor is this irksome feeling relieved by representations
+					of her self-satisfaction in her own good conduct, during her second theatrical
+					career. Then we see her first engrossed by her love for Horace, and willing to
+					sacrifice to him her hardly earned reputation, nay, in her secret heart, even
+					her long high-prized virtue, and afterwards broken-hearted by his desertion, and
+					the death of Blanche. Has our <ref target="people.html#SandGeorge">authoress</ref> no suspicion of the secret and proud self-enjoyment of
+					arduous virtue?</p>
+            <lb/>
+            <p>The next of our <ref target="people.html#SandGeorge">authoress</ref>'s
+					publications is a collection of tales, to which the longest, <title>
+                  <hi rendition="#italics">Le Secretaire Intime</hi>
+               </title>, gives its name:
+					and, as the shorter tales are merely so many, not very interesting, versions of
+					the <ref target="people.html#SandGeorge">authoress</ref>'s favourite
+					theses, to wit, virtue without absolute chastity, and the difficulty to the
+					heart of woman of loving a second time after the disappointment of its first
+					affections, to the <hi rendition="#italics">Secretaire Intime</hi> we shall
+					confine out[<hi rendition="#italics">sic</hi>] attention; the rather that we
+					here find, what we suspect to be <ref target="people.html#SandGeorge">George
+						Sand</ref>'s or <ref target="people.html#SandGeorge">Madame
+						Dudevant</ref>'s <hi rendition="#italics">beau ideal</hi> of wedded
+					life.</p>
+            <p>This is the story of a young Frenchman (Count St. Julien,) of a noble but decayed
+					family, austerely educated by a conscientious Catholic priest, who runs away
+					from his father's dilapidated <hi rendition="#italics">ci-devant
+						chateau</hi> in disgust upon learning that his mother had, in the days of
+					her youth, been frail. On the road he falls in with a beautiful Italian
+					princess, in a rather theatrical <hi rendition="#italics">costume</hi>, but the
+					actual reigning sovereign of dominions, some few miles square, in Friuli; he
+					pleases her fancy, and is engaged as her confidential secretary. Princess
+					Quintilia Cavalcanti immediately becomes to her new secretary an object of
+					admiration, curiosity, perplexity and suspicion. She is incomparably beautiful,
+					intellectual, zealous in her sovereign duties, and learned, and almost equally
+					giddy, coquettish and frivolous; whilst her frank good humour too often
+					degenerates into a sort of hail-fellow-well-met manner, into masculine
+					coarseness, for—<hi rendition="#italics">horresco referens</hi>,<hi rendition="#sup">
+                  <note>"I shudder as I tell it," an
+							expression from <ref target="people.html#Virgil">Virgil</ref>'s <hi rendition="#italics">
+                        <title>Aeneid</title>
+                     </hi>, Book II, line
+							204.</note>
+               </hi> but the truth must be told—the beautiful princess
+					smokes! St. Julien is immediately assailed with reports of her licentiousness
+					and cruelty. A French traveller boasts of having had a <hi rendition="#italics">bal d'opera</hi>
+               <hi rendition="#sup">
+                  <note>A large ball
+							or dance, likely masked, and so often an occasion for illicit trysts
+							under at least the pretence of anonymity.</note>
+               </hi> intrigue with her
+					at Paris. A story is current at her court of a certain Max, the illegitimate son
+					of a German prince, and her first love, who had unaccountably disappeared after
+					a public quarrel with her, and was believed to be buried in a certain pavilion,
+					further notorious as the usual scene of her assignations. An equerry intimates
+					that he has been a favoured lover, and owes his life, as a discarded one, solely
+					to his extreme dis-<lb/>
+               <fw type="vol">
+                  <hi rendition="#smcaps">vol. xiv. no. xxviii.</hi>
+               </fw>
+               <fw type="sig" rendition="#right">x</fw>
+               <pb n="294"/>cretion; and a page, whom the princess
+					persists in treating as a child, and admitting to the familiarity of a child,
+					incessantly rallies St. Julien upon his stupidity and dulness, in not uniting
+					the post of favourite to that of confidential secretary. A thousand accidents
+					confirm these degrading ideas of Quintilia, which are contradicted only by want
+					of actual evidence, and by her apparent tranquil consciousness of
+					self-approbation. The unhappy secretary meanwhile is madly in love with his
+					princess, utterly at a loss whether to think her the first of created beings, or
+					another <ref target="people.html#CatherineIIEmpressofRussia">Catherine II</ref>.
+					of Russia, jealous of every body, and thoroughly miserable. At length he hazards
+					a declaration of his passion, which is received with irony, and followed by a
+					confession of his uncertainties about her character. Some days afterwards, the
+					princess sends for him, desires him to turn his love into friendship, and, to
+					prove her value for this last sentiment from him, gives him an explanation,
+					which, however, explains nothing, except, perhaps, some of the writer's
+					peculiar notions. The passage that seems to bear this interpretation is as
+					follows:—</p>
+            <quote>
+               <p>Do not take me for a virtuous woman, Julien. I know not what virtue is; I
+						believe in it as I do in Providence, without defining or comprehending it. I
+						know not what it is to struggle against oneself; I never had occasion to do
+						so; I never subjected myself to principles; I have never felt a want of
+						them; I never was hurried further than I chose to go; I have fully indulged
+						all my fancies, and never found myself in danger. A man who feels in his
+						soul no shameful wound requiring concealment may drink to intoxication, and
+						lay bare to view all the recesses of his conscience. A woman who does not
+						love vice need not fear it; she may traverse its mire without a single stain
+						upon her gown;<hi rendition="#sup">
+                     <note>This seems rather
+								easier for man in his doublet and hose, than for woman in her
+								flowing robes.—Petticoats are apt to get sadly draggled in the
+								mire. [<ref target="people.html#BuskMary">Busk</ref>'s
+								note.]</note>
+                  </hi> she may touch the foulness of soul of others, as
+						the sister of charity touches the leprosy in the hospital. She has the
+						privilege of toleration and pardon: if she does not use it she must be
+						wicked. To be chaste and wicked is to be cold, to be chaste and kind is to
+						be good. I never thought this difficult for well governed minds.</p>
+            </quote>
+            <p>We will add an extract or two, exhibiting princess Quintilia as she appears to
+					St. Julien and the reader. She has been for months shut up in her cabinet with
+					her secretary, studying the philosophy of government, preparing codes of law,
+					maturing projects for promoting the happiness of her subjects.</p>
+            <quote>
+               <p>Six months had passed thus. One evening the work was finished; the
+						princess had been more serious and thoughtful than usual; she wrote with her
+						own hand a last page in the register that Julien offered her. While she
+						wrote, Ginetta, (a favourite waiting maid,) who had stolen softly into the
+						room, waited anxiously, her quick eye glancing interrogatively, now at the
+						door where Julien perceived the skirt of Galeotto (the page), now at the
+						darkened and knitted brow of the prin-<pb n="295"/>cess. The princess laid
+						down her pen absently, buried her head in her hands, took the pen up again,
+						played a moment with a lock of her hair that had broken loose, started,
+						wrote a few figures, signed the register, closed and pushed it away. Then
+						rising, she turned to Ginetta, and stuck the pen amidst her black locks. The
+						chambermaid uttered a cry of joy. "Have you done at last, madam?"
+						she exclaimed. "Will that beautiful hand quit the pen to resume the
+						scepter and the fan? . . . May I toss to the winds the ugly pen that you
+						have placed in my hair, and that feels as heavy as lead?"</p>
+               <p>"Make an <hi rendition="#italics">auto-da-fé</hi>
+                  <hi rendition="#sup">
+                     <note>"Act of faith"; refers to
+								the penance imposed by the Spanish and Portuguese Inquisitions on
+								heretics. Torture was often involved, which could culminate with
+								public execution by burning at the stake. </note>
+                  </hi> of it an thou
+						wilt," answered Quintilia; "I work no more this
+					year."</p>
+            </quote>
+            <p>She now, to the mortification of St. Julien, gives herself up to mirth with
+					Ginetta and Galeotto, and devotes her attention as exclusively to inventing
+					dresses for a fancy ball, as she had previously done to legislation and
+					political economy.</p>
+            <quote>
+               <p>The ball was magnificent. Thanks to one of the princess's most
+						whimsical devices, the whole court represented an immense collection of
+						butterflies and other insects. Variegated tight dresses fitted close to the
+						shape; great wings of different materials, adjusted by invisible wires, were
+						unfolded behind the shoulders, or along the back; and no one could
+						sufficiently admire the correctness of the tints and shades, the cut and
+						position of the wings; even the countenance of each insect was imitated by
+						the head-dress of the personifier. . . . .</p>
+               <p>The princess herself had regulated the choice and the distribution of the
+						costumes. She had consulted twenty naturalists, and turned over every
+						entomological work in her library, to obtain a degree of perfection, capable
+						of maddening with delight all professors of natural history. . . .</p>
+               <p>The apartments were hung and carpeted with flowers, and amongst garlands of
+						roses, silken ladders were hidden, fixed to the walls or hanging from the
+						roof. The boldest insects climbed up these fragile supports, and displayed
+						themselves and their wings below the ceiling or between the pillars. . . .
+						Quintilia, surrounded by professions of love and adoration, gave herself up
+						to the pleasure of being admired, with a youthfulness of intoxication that
+						distracted St. Julien.</p>
+            </quote>
+            <p>The favourite librarian, a profound naturalist, now affects to take a red
+					scarabeus or <hi rendition="#italics">criocère</hi>
+               <hi rendition="#sup">
+                  <note>The particular species of insect, a small reddish
+						beetle.</note>
+               </hi> for the ghost of a
+					scarabeus that he had philosophically slain; the princess is amusing herself
+					with the scene, which seems ending in a joyous recognition, when the <hi rendition="#italics">Abbate</hi> Scipione, who acts as master of the
+					ceremonies, leads her aside to the balcony, where St. Julien is lurking angry
+					and unseen, to tell her that the red scarabeus is masked contrary to order, and
+					that nobody knows who he is. She indignantly orders him to be turned out after
+					telling his name.</p>
+            <quote>
+               <p>"Sir," said the <hi rendition="#italics">abbate</hi> to the <hi rendition="#italics">criocère</hi>, with an arrogance assumed for the first time in
+						his life, "who are you? Her highness insists upon knowing."</p>
+               <lb/>
+               <fw type="sig" rendition="#right">x 2</fw>
+               <pb n="296"/>
+               <p>The stranger whispered his name to the master of the ceremonies, but he was
+						not affected by it as the librarian had been. "I do not know you,"
+						said he, "and as you are not invited, I am commanded to show you
+						out."</p>
+               <p>"First tell the princess my name," rejoined the stranger, "and
+						if she then commands me to withdraw . . . ."</p>
+               <p rendition="#center">*                *                *                *                *</p>
+               <p>"Rosenheim!" exclaimed the princess violently, "did I hear
+						aright? Speak louder. Or, no! no! rather speak
+						lower,—Rosenheim?"</p>
+               <p>"Rosenheim," repeated the <hi rendition="#italics">abbate</hi>,
+						ready to faint.</p>
+               <p>But the princess, instead of crushing him with her anger, sprang with a loud
+						cry of joy to his neck, and forcibly embraced him, ejaculating the while:
+						"Ah! <hi rendition="#italics">l'abbate!</hi> my dear <hi rendition="#italics">abbate!</hi>"</p>
+            </quote>
+            <p>This mysteriously introduced Rosenheim proves in the end to be the murdered Max
+					himself, who is privately married to Quintilia, and prefers injuring her
+					reputation by stolen interviews, to appearing openly as her husband. And this we
+					apprehend to be <ref target="people.html#SandGeorge">Madame
+					Dudevant</ref>'s notion of conjugal felicity; an opinion strongly
+					corroborated by an observation of the old librarian, the confidant of Max and
+					Quintilia, who is commissioned to reveal the state of affairs to St. Julien,
+					prior to his final dismissal from the court; a fate which he had justly brought
+					upon himself by a mad attempt upon the princess's person, as well as by his
+					impertinent prying into her secrets. The librarian ends his explanation with
+					these words:—</p>
+            <quote>
+               <p>This union continues so beautiful and so pure, that it proves the
+						excellence of those laws of <ref target="people.html#Lycurgus">Lycurgus</ref> which obliged husbands to visit their wives with all the
+						precautions employed by lovers, to avoid detection.</p>
+            </quote>
+            <lb/>
+            <p>The last novel upon our list has made its appearance since our remarks upon the
+					preceding ones were written; the space which these have already occupied warns
+					us to be brief in what we have to say of this new production of our prolific
+						<ref target="people.html#SandGeorge">authoress</ref>. In powerful writing
+					and vigorous portraiture, <title>
+                  <hi rendition="#italics">Jacques</hi>
+               </title>
+					bears more resemblance to <title>
+                  <hi rendition="#italics">Indiana</hi>
+               </title>
+					and <title>
+                  <hi rendition="#italics">Valentine</hi>
+               </title>, than to its three
+					immediate predecessors; and one reason of this may be, that the object of it is
+					the same with those two remarkable productions. Decidedly, <ref target="people.html#SandGeorge">Madame Dudevant</ref> is so much more at
+					home in her delineations of matrimonial miseries, (of which in fact <title>
+                  <hi rendition="#italics">Jacques</hi>
+               </title> is but a third picture,) than
+					in any other field, that she would well deserve to be called the <hi rendition="#italics">Anti-matrimonial Novelist</hi>, if such a title implied
+					any enviable distinction. Notwithstanding the repeated disclaimers which we have
+					seen she has made of the imputed (fairly enough, we think) tendency of her
+					works, she has in this new one put the following declaration into the mouth of
+					the hero, which<pb n="297"/>must be received, we suppose, as a proof that her
+					own sentiments on the subject remain unaltered.</p>
+            <quote>
+               <p>I have not changed my opinion, I have not become reconciled to society,
+						and marriage I still look upon as one of its most odious institutions. I
+						doubt not that it will be abolished, if mankind make any progress towards
+						justice and reason; a more humane and not less sacred tie will replace it,
+						and secure the existence of the children who shall be born to one man and
+						one woman, without enchaining for ever the liberty of either. But men are
+						too coarse (<hi rendition="#italics">grossiers</hi>) and women too cowardly
+							(<hi rendition="#italics">lâches</hi>) to demand a law more noble
+						than the law of iron which rules them; to beings without conscience and
+						without virtue, heavy chains are necessary. In this age it is impossible to
+						realise the ameliorations which a few generous spirits dream of; these
+						spirits forget that they are a century in advance of their contemporaries,
+						and that before the law can be changed, man himself must be
+					changed.</p>
+            </quote>
+            <p>His actions, however, are not in unison with his professions; he
+					marries—and is punished accordingly.</p>
+            <p>In the present instance, the <ref target="people.html#SandGeorge">authoress</ref>
+					has illustrated the impossibility of constant love, and wedded happiness, by the
+					fate of a union, the counterpart of which is certainly not of frequent
+					occurrence in actual life. The husband, Jacques, is a man, who, having lived
+					through the tempest of <ref target="people.html#Napoleon">Napoleon</ref>'s
+					triumphs and fate, and had some score of impassioned intrigues in as many years,
+					becomes, at the age of thirty-five, tired of active life and turns philosopher,
+					and fancies it happiness to lie on the sofa and smoke hour after hour by the
+					side of his wife; and the lady is a pretty, ignorant, romantic school-girl of
+					seventeen, who has nothing upon earth with which to occupy her solitude except
+					her love and admiration of her silent, smoking husband. Jacques himself is, we
+					must confess, a personage the prototype of whom we never had the good luck to
+					meet with, or hear of. Men there are still, we doubt not, even in these
+					degenerate days, who can drink a whole company under the table, and walk
+					steadily away. But that a boy of fifteen, the first time he pollutes his lips
+					with tobacco or alcohol, should smoke and swill brandy, at the discretion of a
+					whole regiment, without perceptible effect upon head, stomach, or nerves, is a
+					physiological phenomenon as startling, as his laming, in a previously determined
+					manner, a professed duellist, the very first time he wields a sabre. One who
+					begins so is not to be judged by common rules; wherefore we have not a word to
+					say upon the probability of his committing suicide, to enable his faithless wife
+					to marry her paramour. The character of this personage, the fickle, impetuous,
+					selfish Octave, is true to nature; as is, we fear, the passion he inspires in
+					the tender heart of the sweet but silly heroine, Fernande. Many of the minor
+					characters are admirable sketches. The rough veterans of the Imperial army are
+					hit off with a spirited, a masculine hand.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">To the Artist</title>
+            <title type="sub" level="j">Artist.</title>
+            <author type="writer">
+               <name>Elizabeth Inchbald</name>
+            </author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Co-Editor</resp>
+               <name xml:id="LD">Laura DeWitt</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>InchbaldOnNovWriting1807</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">To the Artist.</title>
+                  <author type="writer">Inchbald, Elizabeth, 1753-1821</author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="j">Artist.</title>
+                  <imprint>
+                     <date when="1807-06-13">June 13 1807</date>
+                     <biblScope unit="vol">1</biblScope>
+                     <biblScope unit="issue">14</biblScope>
+                     <biblScope unit="page">9-19</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre and Material Form</bibl>
+               <category xml:id="g1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>biographical essay</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>poetry pamphlet</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>poetry book</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>poem</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>picture</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>titlepage</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>collection literary annual</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>collection miscellany</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>collection anthology</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>collection beauties</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>collection juvenile</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>collection religious</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>collection travels</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>mixed</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>fragment poem</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>fragment story</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>fragment novel</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>literary criticism book</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>literary criticism collection</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="g40">
+                  <catDesc>reproduction</catDesc>
+               </category>
+               <category xml:id="g41">
+                  <catDesc>figure</catDesc>
+               </category>
+               <category xml:id="g42">
+                  <catDesc>graph</catDesc>
+               </category>
+               <category xml:id="g43">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g44">
+                  <catDesc>table</catDesc>
+               </category>
+               <category xml:id="g45">
+                  <catDesc>musical score</catDesc>
+               </category>
+               <category xml:id="g46">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g47">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g48">
+                  <catDesc>political pamphlet</catDesc>
+               </category>
+               <category xml:id="g49">
+                  <catDesc>political cartoon</catDesc>
+               </category>
+               <category xml:id="g50">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="g51">
+                  <catDesc>historical monograph</catDesc>
+               </category>
+               <category xml:id="g52">
+                  <catDesc>historical essay</catDesc>
+               </category>
+               <category xml:id="g53">
+                  <catDesc>philosophical treatise</catDesc>
+               </category>
+               <category xml:id="g54">
+                  <catDesc>philosophical essay</catDesc>
+               </category>
+               <category xml:id="g55">
+                  <catDesc>religious pamphlet</catDesc>
+               </category>
+               <category xml:id="g56">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g57">
+                  <catDesc>theology</catDesc>
+               </category>
+               <category xml:id="g58">
+                  <catDesc>religious book</catDesc>
+               </category>
+               <category xml:id="g59">
+                  <catDesc>essay on education</catDesc>
+               </category>
+               <category xml:id="g60">
+                  <catDesc>educational treatise</catDesc>
+               </category>
+               <category xml:id="g61">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="g62">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g63">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g64">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="g65">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="g66">
+                  <catDesc>picture of building</catDesc>
+               </category>
+               <category xml:id="g67">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g68">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g69">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g70">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="g71">
+                  <catDesc>printersmark</catDesc>
+               </category>
+               <category xml:id="g72">
+                  <catDesc>literary criticism article</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcsh">
+                  <catDesc>Library of Congress Subject Headings, reduced to one word before
+							hyphen</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+                      xml:id="ag">
+               <bibl>ARC Genre Categories, July 1, 2017</bibl>
+               <category xml:id="ag1">
+                  <catDesc>Advertisement</catDesc>
+               </category>
+               <category xml:id="ag2">
+                  <catDesc>Animation</catDesc>
+               </category>
+               <category xml:id="ag3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="ag4">
+                  <catDesc>Catalog</catDesc>
+               </category>
+               <category xml:id="ag5">
+                  <catDesc>Chronology</catDesc>
+               </category>
+               <category xml:id="ag7">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="ag6">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="ag8">
+                  <catDesc>Correspondence</catDesc>
+               </category>
+               <category xml:id="ag9">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="ag10">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="ag11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="ag12">
+                  <catDesc>Essay</catDesc>
+               </category>
+               <category xml:id="ag13">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="ag14">
+                  <catDesc>Film, Documentary</catDesc>
+               </category>
+               <category xml:id="ag15">
+                  <catDesc>Film, Experimental</catDesc>
+               </category>
+               <category xml:id="ag16">
+                  <catDesc>Film, Narrative</catDesc>
+               </category>
+               <category xml:id="ag17">
+                  <catDesc>Film, Other</catDesc>
+               </category>
+               <category xml:id="ag18">
+                  <catDesc>Historiography</catDesc>
+               </category>
+               <category xml:id="ag19">
+                  <catDesc>Interview</catDesc>
+               </category>
+               <category xml:id="ag20">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="ag21">
+                  <catDesc>Liturgy</catDesc>
+               </category>
+               <category xml:id="ag22">
+                  <catDesc>Musical Analysis</catDesc>
+               </category>
+               <category xml:id="ag23">
+                  <catDesc>Music, Other</catDesc>
+               </category>
+               <category xml:id="ag24">
+                  <catDesc>Musical Work</catDesc>
+               </category>
+               <category xml:id="ag25">
+                  <catDesc>Musical Score</catDesc>
+               </category>
+               <category xml:id="ag26">
+                  <catDesc>Nonficition</catDesc>
+               </category>
+               <category xml:id="ag27">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="ag28">
+                  <catDesc>Performance</catDesc>
+               </category>
+               <category xml:id="ag29">
+                  <catDesc>Philosophy</catDesc>
+               </category>
+               <category xml:id="ag30">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="ag31">
+                  <catDesc>Political Statement</catDesc>
+               </category>
+               <category xml:id="ag32">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="ag33">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="ag34">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="ag35">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="ag36">
+                  <catDesc>Scripture</catDesc>
+               </category>
+               <category xml:id="ag37">
+                  <catDesc>Sermon</catDesc>
+               </category>
+               <category xml:id="ag38">
+                  <catDesc>Speech</catDesc>
+               </category>
+               <category xml:id="ag39">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="ag40">
+                  <catDesc>Travel Writing</catDesc>
+               </category>
+               <category xml:id="ag41">
+                  <catDesc>Unspecified</catDesc>
+               </category>
+               <category xml:id="ag42">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+                      xml:id="f">
+               <bibl>ARC Format Categories, July 1, 2017</bibl>
+               <category xml:id="f1">
+                  <catDesc>Codex</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>Dataset</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>Drawing</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>Illustration</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>Interactive Resource</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>Map</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>Moving Image</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>Notated Music</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>Page Proofs</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>Pamphlet</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>Periodical</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>Physcial Object</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>Roll</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>Sheet</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>Sound</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>Still Image</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>Typescript</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcsh">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>Criticism</item>
+                  <item>Essay</item>
+               </list>
+            </keywords>
+            <catRef scheme="#ft" target="#ft1"/>
+            <catRef target="#ag9 #ag12" scheme="#ag"/>
+            <catRef target="#f13" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef scheme="#g" target="#g30 #g50 #g72"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="20210922" n="4">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list>
+         </change>
+         <change who="#MW" when="20210620" n="3">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Revised encoding and editing</item>
+            </list>
+         </change>
+         <change who="#LD" when="20190508" n="2">
+            <label>Changed by</label>
+            <name>Laura DeWitt</name>
+            <list type="simple">
+               <item>TEI encoding</item>
+               <item>Changed editing</item>
+            </list>
+         </change>
+         <change who="#MW" when="20181113" n="1">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Created Edition</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="essay" org="uniform" sample="complete" part="N">
+            <head>
+               <bibl>
+                  <author type="writer">
+                     <ref target="people.html#InchbaldMrs">
+                        <name>Elizabeth Inchbald</name>
+                     </ref>
+                  </author>
+                  <lb/>
+                  <title>
+                     <hi rendition="#italics">TO THE ARTIST.</hi>
+                     <hi rendition="#sup">
+                        <note>
+                           <title>
+                              <hi rendition="#italics">The Artist;
+											a Collection of Essays, Relative to Painting, Poetry,
+											Sculpture, Architecture, the Drama, Discoveries of
+											Science, and Various Other Subjects.</hi>
+                           </title> Edited
+									by Prince Hoare. Vol. 1, no. 14, Saturday, June 13, 1807, pp.
+									9-19. Laura DeWitt and Mary A. Waters co-edited this edition for
+										<hi rendition="#italics">The Criticism Archive</hi>.
+								</note>
+                     </hi>________ </title>
+               </bibl>
+            </head>
+            <p>
+               <hi rendition="#smcaps">Sir,</hi>
+            </p>
+            <p>IF the critical knowledge of an art was invariably combined with the successful
+					practice of it, I would here proudly take my rank among artists, and give
+					instructions on the art of writing Novels.—But though I humbly confess
+					that I have not the slightest information to impart, that may tend to produce a
+					good novel; yet it may not be wholly incompatible with the useful design of your
+					publication, if I show—how to avoid writing a very bad one.</p>
+            <p>Observe, that your hero and heroine be neither of them too bountiful. The
+					prodigious sums of money which are given away every year in novels, ought, in
+					justice, to be subject to the property tax; by which regulation, the national
+					treasury, or every such book, would be highly benefited.</p>
+            <p>Beware how you imitate <ref target="people.html#RadcliffeAnn">Mrs.
+						Radcliffe</ref>, or <ref target="people.html#EdgeworthMaria">Maria</ref>
+               <lb/>
+               <fw type="vol">No. 14.</fw>
+               <fw type="sig">c</fw>
+               <pb n="10"/>
+               <ref target="people.html#EdgeworthMaria">Edgeworth</ref>; you cannot equal them;
+					and those readers who most admire their works, will most despise yours.</p>
+            <p>Take care to reckon up the many times you make use of the words
+					"Amiable," "Interesting," "Elegant,"
+					"Sensibility," "Delicacy," "Feeling." Count each
+					of these words over before you send your manuscript to be printed, and be sure
+					to erase half the number you have written;—you may erase again when your
+					first proof comes from the press—again, on having a revise—and then
+					mark three or four, as mistakes of the printer, in your Errata.</p>
+            <p>Examine likewise, and for the same purpose, the various times you have made your
+					heroine blush, and your hero turn pale—the number of times he has pressed
+					her hand to his "trembling lips," and she his letters to her
+					"beating heart"—the several times he has been
+					"speechless" and she "all emotion," the one "struck to
+					the soul;" the other "struck dumb."</p>
+            <p>The lavish use of "tears," both in "showers" and
+					"floods," should next be scrupulously avoided; though many a gentle
+					reader will weep on being told that others are weeping, and require no greater
+					cause to excite their compassion. </p>
+            <pb n="11"/>
+            <p>Consider well before you introduce a child into your work. To maim the characters
+					of men and women is no venial offence; but to destroy innocent babes is most
+					ferocious cruelty: and yet this savage practice has, of late, arrived at such
+					excess, that numberless persons of taste and sentiment have declared—they
+					will never read another novel, unless the advertisement which announces the
+					book, adds (as in advertisements for letting Lodgings) <hi rendition="#italics">There are no children.</hi>
+            </p>
+            <p>When you are contriving that incident where your heroine is in danger of being
+					drowned, burnt, or her neck broken by the breaking of an axle-tree—for
+					without perils by fire, water, or coaches, your book would be
+					incomplete—it might be advisable to suffer her to be rescued from
+					impending death by the sagacity of a dog, a fox, a monkey, or a hawk; any one to
+					whom she cannot give her hand in marriage; for whenever the deliverer is a fine
+					young man, the catastrophe of your plot is foreseen, and suspense
+					extinguished.</p>
+            <p>Let not your ambition to display variety cause you to produce such a number of
+					personages in your story, as shall create perplexity, dissipate curiosity, and
+					confound recollection. But if, to show your powers of invention, <lb/>
+               <fw type="sig">c 2</fw>
+               <pb n="12"/>you are resolved
+					to introduce your reader to a new acquaintance in every chapter, and in every
+					chapter snatch away his old one; he will soon have the consolation to
+					perceive—they are none of them worth his regret.</p>
+            <p>Respect virtue—nor let her be so warm or so violent as to cause
+					derision:—nor vice so enormous as to resemble insanity. No one can be
+					interested for an enthusiast—nor gain instruction for a madman. </p>
+            <p>And when you have written as good a novel as you can—compress it into three
+					or four short volumes at most; or the man of genius, whose moments are precious,
+					and on whose praise all your fame depends, will not find time to read the
+					production, till you have committed suicide in consequence of its ill reception
+					with the public.</p>
+            <p>There are two classes of readers among this public, of whom it may not be wholly
+					from the purpose to give a slight account. The first are all hostile to
+					originality. They are so devoted to novel-reading, that they admire one novel
+					because it puts them in mind of another, which they admired a few days before.
+					By them it is required, that a novel should be like a novel; that is, the
+					majority of those compositions; for the minor part describe fic-<pb n="13"/>titious characters and events merely as they are in real life:—ordinary
+					representations, beneath the concern of a true voracious novel-reader.</p>
+            <p>Such an one (more especially of the female sex) is indifferent to the fate of
+					nations, or the fate of her own family, whilst some critical situation in a
+					romance agitates her whole frame! Her neighbour might meet with an accidental
+					death in the next street, the next house, or the next room, and the shock would
+					be trivial, compared to her having just read—"that the amiable Sir
+					Altamont, beheld the interesting Eudocia, faint in the arms of his thrice happy
+					rival."</p>
+            <p>Affliction, whether real or imaginary, must be refined,—and calamity
+					elegant, before this novel-reader can be roused to "sympathetic
+					sensation." Equally unsusceptible is her delicate soul to vulgar happiness.
+					Ease and content are mean possessions! She requires transport, rapture, bliss,
+					extatic [sic] joy, in the common occurrences of every day. </p>
+            <p>She saunters pensively in shady bowers, or strides majestically through brilliant
+					circles. She dresses by turns like a Grecian statue and a pastoral nymph: then
+						<pb n="14"/> fancies herself as beautiful as the undone heroine in
+							"<title>
+                  <hi rendition="#italics">Barbarous
+					Seduction;</hi>
+               </title>" and has no objection to become equally
+					fortunate.</p>
+            <p>To the healthy, that food is nourishment, which to the sickly proves their
+					poison. Such is the quality of books to the strong, and to the weak of
+					understanding.—Lady Susan is of another class of readers, and has good
+					sense.—Let her therefore read certain well-written novels, and she will
+					receive intimation of two or three foibles, the self-same as those, which,
+					adhering to her conduct, cast upon all her virtues a degree of
+					ridicule.—These failings are beneath the animadversions of the pulpit.
+					They are so trivial yet so awkward, that neither sermons, history, travels, nor
+					biography, could point them out with propriety. They are ludicrous, and can only
+					be described and reformed by a humourist.</p>
+            <p>And what book so well as a novel, could show to the enlightened Lord
+					Henry——the arrogance of his extreme condescension? Or insinuate to
+					the judgment of Lady Eliza——the wantonness of her excessive
+					reserve?</p>
+            <p>What friend could whisper so well to Lady Autumnal—that affected simplicity
+					at forty, is more despicable <pb n="15"/>than affected knowledge at
+					fifteen?—And by what better means could the advice be conveyed to Sir John
+					Egotist—to pine no more at what the world may say of him; for that men
+					like himself are too insignificant for the world to know.</p>
+            <p>A novel could most excellently represent to the valiant General B—, that
+					though he can forgive the miser's love of gold, the youth's
+					extravagance and even profligacy; that although he has a heart to tolerate all
+					female faults, and to compassionate human depravity of every kind; he still
+					exempts from this his universal clemency—the poor delinquent soldier.</p>
+            <p>The General's wife, too, forgives all injuries done to her neighbours: those
+					to herself are of such peculiar kind, that it would be encouragement to
+					offenders, not to seek vengeance.—The lovely Clarissa will pardon every
+					one—except the mantua-maker who spoils her shape.—And good Sir
+					Gormand never bears malice to a soul on earth—but to the cook who spoils
+					his dinner.</p>
+            <p>That Prebendary is merciful to a proverb—excluding negligence towards holy
+					things—of which he thinks himself the holiest. Certain novels might make
+					these people think a second time.</p>
+            <pb n="16"/>
+            <p>Behold the Countess of L——! Who would presume to tell that once
+					celebrated beauty—that she is now too wrinkled for curling hair; and her
+					complexion too faded for the mixture of blooming pink? Should her husband convey
+					such unwelcome news, he would be more detested than he is at present! Were her
+					children or her waiting-maid to impart such intelligence, they would experience
+					more of her peevishness than ever!—A novel assumes a freedom of speech to
+					which all its readers must patiently listen; and by which, if they are wise,
+					they will know how to profit.</p>
+            <p>The Novelist is a free agent. He lives in a land of liberty, whilst the Dramatic
+					Writer exists but under a despotic government.—Passing over the subjection
+					in which an author of plays is held by the Lord Chamberlain’s office, and the
+					degree of dependence which he has on his actors—he is the very slave of the
+					audience. He must have their tastes and prejudices in view, not to correct, but
+					to humour them. Some auditors of a theatre, like some aforesaid novel-readers,
+					love to see that which they have seen before; and originality, under the
+					opprobrious name of innovation, might be fatal to a drama, where the will of
+					such critics is the law, and execution instantly follows judgment.</p>
+            <pb n="17"/>
+            <p>In the opinion of these theatrical juries, Virtue and Vice attach to situations,
+					more than to characters: at least, so they will have the stage represent. The
+					great moral inculcated in all modern plays constantly is—for the rich to
+					love the poor. As if it was not much more rare, and a task by far more
+					difficult—for the poor to love the rich.—And yet, what author shall
+					presume to expose upon the stage, certain faults, almost inseparable from the
+					indigent? What dramatic writer dares to expose in a theatre, the consummate
+					vanity of a certain rank of paupers, who boast of that wretched state as a
+					sacred honour, although it be the result of indolence or criminality? Who dares
+					to show an audience, the privilege, of poverty debased into the instrument of
+					ingratitude?—"I am poor and therefore slighted"—cries the
+					unthankful beggar; whilst his poverty is his sole recommendation to his friends;
+					and for which alone, they pay him much attention, and some respect. </p>
+            <p>What dramatist would venture to bring upon the stage—that which so
+					frequently occurs in real life—a benefactor living in awe of the object of
+					his bounty; trembling in the presence of the man whom he supports, lest by one
+					inconsiderate word, he should seem to remind him of the <lb/>
+               <fw type="vol">No. 14.</fw>
+               <fw type="sig">d</fw>
+               <pb n="18"/>predicament in which they stand with each
+					other; or by an involuntary look, seem to glance at such and such
+					obligations?</p>
+            <p>Who, moreover, dares to exhibit upon the stage, a benevolent man, provoked by his
+					crafty dependant—for who is proof against ungratefulness?—to become
+					that very tyrant, which he unjustly had reported him?</p>
+            <p>Again.—The giver of alms, as well as the alms-receiver, must be revered on
+					the stage.—That rich proprietor of land, Lord Forecast, who shall dare to
+					bring him upon the boards of a theatre, and show—that, on the subject of
+					the poor, the wily Forecast accomplishes two most important designs? By keeping
+					the inhabitants of his domain steeped in poverty, he retains his vast
+					superiority on earth; then secures, by acts of charity, a chance for heaven. </p>
+            <p>A dramatist must not speak of national concerns, except in one dull round of
+					panegyrick. He must not allude to the feeble minister of state, nor to the
+					ecclesiastical coxcomb.</p>
+            <p>Whilst the poor dramatist is, therefore, confined to a few particular provinces;
+					the novel-writer has the whole world to range, in search of men and topics.
+						Kings,<pb n="19"/> warriors, statesmen, churchmen, are all subjects of his
+					power. The mighty and the mean, the common-place and the extraordinary, the
+					profane and the sacred, all are prostrate before his muse. Nothing is forbidden,
+					nothing is withheld from the imitation of a novelist, except—other
+					novels.<lb/>
+               <hi rendition="#flushRight">
+                  <hi rendition="#italics">
+                     <ref target="people.html#InchbaldMrs">E. I.  </ref>
+                  </hi>
+               </hi>
+            </p>
+            <p/>
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>
