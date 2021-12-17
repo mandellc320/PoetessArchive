@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader xmlns:PA="http://www.poetessarchive.org/#schema" type="text">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Review of The Rival Mothers by Madame de Genlis</title>
-            <title type="sub" level="j">The Monthly Review</title>
+            <title type="sub">The Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -31,8 +31,8 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. XIII. The Rival Mothers, or Calumny.
-							Translated from the French of Madame de Genlis.</title>
+                  <title type="main" level="a">Art. XIII. The Rival Mothers, or Calumny. Translated
+                     from the French of Madame de Genlis.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -50,28 +50,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -85,15 +84,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -336,11 +344,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -470,7 +479,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -548,7 +557,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="6">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -594,108 +611,104 @@
          </change>
       </revisionDesc>
    </teiHeader>
-   <text xmlns:PA="http://www.poetessarchive.org/#schema">
+   <text>
       <body>
          <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
-                        <name>Elizabeth
-								Moody</name>
+                        <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
-                     <lb/>
-                     <hi rendition="#smcaps">Art</hi>. XIII.
-									<title>
-                        <hi rendition="#italics">The Rival Mothers, or
-									Calumny.</hi> Translated from the French of <ref target="people.html#agenlisStephanie">Madame de Genlis</ref>. 4
-								Vols. <hi rendition="#smcaps">12</hi>mo. 18s. sewed. Longman and Co.
-								1801</title>.<hi rendition="#sup">
-                        <note>This review
-									article appeared in <hi rendition="#italics">
-                              <title level="j">The Monthly Review</title>
-                           </hi>, second series, volume 36, October
-                           1801, pages 187-188. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's
-                           marked copy of <hi rend="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-                              Review</ref>
-                              </title>
-                           </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-                                    Series, 1790-1815: Indexes of Contributors and
-                                    Articles</title>
-                           </hi>, Clarendon Press, 1955. This edition of the article is produced by Emma Wiley and Mary A. Waters.</note>
-                     </hi>
+                     <hi rendition="#smcaps">Art</hi>. XIII. <title>
+                        <hi rendition="#italics">The Rival Mothers, or Calumny.</hi> Translated from
+                        the French of <ref target="people.html#agenlisStephanie">Madame de
+                           Genlis</ref>. 4 Vols. <hi rendition="#smcaps">12</hi>mo. 18s. sewed.
+                        Longman and Co. 1801</title>.<note>This review article appeared in <hi
+                           rendition="#italics">
+                           <title level="j">The Monthly Review</title>
+                        </hi>, second series, volume 36, October 1801, pages 187-188. Benjamin
+                        Nangle identifies <ref target="people.html#MoodyElizabeth">
+                           <name>Elizabeth Moody</name>
+                        </ref> as the author of this review from an editor's marked copy of <hi
+                           rendition="#italics">
+                           <title>
+                              <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                           </title>
+                        </hi>. See Nangle, <hi rendition="#italics">
+                           <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                              Contributors and Articles</title>
+                        </hi>, Clarendon Press, 1955. This edition of the article is produced by
+                        Emma Wiley and Mary A. Waters.</note>
                   </title>
                </bibl>
             </head>
             <p rendition="#noindent">
                <hi rendition="#largest">T</hi>
-               <hi rendition="#smcaps">he</hi> literary reputation of <ref target="people.html#agenlisStephanie">Madame de Genlis</ref> is so well established, that the public are readily
-					disposed to anticipate pleasure from every new production of her cultivated
-					mind; and we have satisfaction in acknowledging, after having perused the
-					volumes before us, that disappointment has not superseded expectation. We regret
-					that this ingenious lady should have had reason for complaining of the insidious
-					enemy <hi rendition="#italics">Calumny</hi>: but, if she has been enabled to
-					support its injustice with the fortitude inspired by conscious innocence, (such
-					as she de-<pb n="187"/>scribes to be the recompense of the injured Pauline,) she will not (as
-					a moralist) regret the experience, whatever painful sensations it may have
-					occasioned.</p>
-            <p> The <hi rendition="#italics">Rival Mothers</hi> are two ladies who enter the
-					lists of competition on the subject of maternal affection. If they do not stand
-					on fair and equal ground respecting pretension, since they cannot both be the
-					mother, they meet at least on the point of conduct. Each makes an important
-					sacrifice to the little idol Léocadie:— the sacrifice of <hi rendition="#italics">reputation</hi> is offered by one to the preservation
-					of the infant; and that of parental intercourse and endearment is endured by the
-					other, for the <hi rendition="#italics">maintenance of her reputation</hi>. Yet,
-					as the latter incessantly demonstrates, by the frequent testimonials of
-					unremitting superintendence, that her heart never relaxes on the affectionate
-					interests of maternal love and duty, Solomon himself might have been puzzled to
-					decide which was the real parent; while the extravagant personal fondness of
-					Pauline might have contributed to impose on even his sagacity. </p>
-            <p> The narrative of the novel is pleasing and interesting. The characters, indeed,
-					are delineated <hi rendition="#italics">à la française</hi>; and
-					exceptions consequently arise against a few occasional tints of unnatural
-					colouring; which, by overstepping the modesty of nature, gives too much the
-					semblance of romance to the work, and is not adapted to that species of writing
-					in which, the author tells us, the story is meant as a vehicle to convey the
-					principles of sound and pure morality. We also differ from <ref target="people.html#agenlisStephanie">Madame de Genlis</ref> on the subject
-					of reputation. Her heroine, Pauline, stands chargeable with gross
-					inconsistencies on this head. She is represented as tremblingly alive to general
-					sensibility on the subject of virtue, yet she is apparently indifferent to its
-					appropriate estimation in the opinion of others; and she throws away her good
-					name, "as 'twere a careless trifle."—She is attacked by the
-					grossest calumny:—accused of adultery, hypocrisy, and falsehood;—
-					yet she writes to her friend—''<hi rendition="#italics">Do not
-						bewail the loss of my reputation</hi>; <hi rendition="#italics">it is of all
-						the illusions of life, that which I regret the least and despise the
-						most.</hi>' Of what value, then, is the jewel reputation; if such
-					apathy, is to be attached to it?—By this indifference to character, <ref target="people.html#agenlisStephanie">Madame de Genlis</ref> loses sight of
-					her professedly supreme object, the encouragement and improvement of morals;
-					since the desire of being esteemed by the world, if it ought not to be the <hi rendition="#italics">primum mobile</hi> of our actions, must at least be
-					admitted as a stimulating principle, without which the current of virtue would
-					be liable to stagnate. Though often a charming <hi rendition="#italics">human
-						creature</hi>, this lady is but too apt to degenerate into a <hi rendition="#italics">French court lady;</hi> one moment, we admire her; the
-					next, we despise the formal painted wooden <pb n="188"/>doll. We turn with disgust from the
-					allegoric garden, the romantic machinery, and the theatrical personifications;
-					and we would also gladly erase the many unnatural events that crowd her novel:
-					yet let us remember that French and English <hi rendition="#italics">Nature</hi>
-					differs, and that the author is acquainted only with the former;— whom we
-					consider as a degenerate goddess. </p>
-            <p> The style of these letters is sprightly and animated, bidding defiance to the
-					foul fiend <hi rendition="#italics">Ennui</hi>.—The translator of a work
-					of this kind finds it almost impossible to transfuse into another language that
-					spirit and vivacity, with that beautiful and elegant <hi rendition="#italics">tour de phrase</hi>, which so peculiarly characterize the French writers of
-					eminence; and mere fidelity produces flatness and insipidity. In many passages,
-					however, the present translator is successful in catching a ray of the author’s
-					illuminated pencil; and the version of the ingenious lines with the <hi rendition="#italics">double sens</hi>, found in the oratory, is extremely
-					well executed. </p>
+               <hi rendition="#smcaps">he</hi> literary reputation of <ref
+                  target="people.html#agenlisStephanie">Madame de Genlis</ref> is so well
+               established, that the public are readily disposed to anticipate pleasure from every
+               new production of her cultivated mind; and we have satisfaction in acknowledging,
+               after having perused the volumes before us, that disappointment has not superseded
+               expectation. We regret that this ingenious lady should have had reason for
+               complaining of the insidious enemy <hi rendition="#italics">Calumny</hi>: but, if she
+               has been enabled to support its injustice with the fortitude inspired by conscious
+               innocence, (such as she de-<pb n="187"/>scribes to be the recompense of the injured
+               Pauline,) she will not (as a moralist) regret the experience, whatever painful
+               sensations it may have occasioned.</p>
+            <p> The <hi rendition="#italics">Rival Mothers</hi> are two ladies who enter the lists
+               of competition on the subject of maternal affection. If they do not stand on fair and
+               equal ground respecting pretension, since they cannot both be the mother, they meet
+               at least on the point of conduct. Each makes an important sacrifice to the little
+               idol Léocadie:— the sacrifice of <hi rendition="#italics">reputation</hi> is offered
+               by one to the preservation of the infant; and that of parental intercourse and
+               endearment is endured by the other, for the <hi rendition="#italics">maintenance of
+                  her reputation</hi>. Yet, as the latter incessantly demonstrates, by the frequent
+               testimonials of unremitting superintendence, that her heart never relaxes on the
+               affectionate interests of maternal love and duty, Solomon himself might have been
+               puzzled to decide which was the real parent; while the extravagant personal fondness
+               of Pauline might have contributed to impose on even his sagacity. </p>
+            <p> The narrative of the novel is pleasing and interesting. The characters, indeed, are
+               delineated <hi rendition="#italics">à la française</hi>; and exceptions consequently
+               arise against a few occasional tints of unnatural colouring; which, by overstepping
+               the modesty of nature, gives too much the semblance of romance to the work, and is
+               not adapted to that species of writing in which, the author tells us, the story is
+               meant as a vehicle to convey the principles of sound and pure morality. We also
+               differ from <ref target="people.html#agenlisStephanie">Madame de Genlis</ref> on the
+               subject of reputation. Her heroine, Pauline, stands chargeable with gross
+               inconsistencies on this head. She is represented as tremblingly alive to general
+               sensibility on the subject of virtue, yet she is apparently indifferent to its
+               appropriate estimation in the opinion of others; and she throws away her good name,
+               "as 'twere a careless trifle."—She is attacked by the grossest calumny:—accused of
+               adultery, hypocrisy, and falsehood;— yet she writes to her friend—''<hi
+                  rendition="#italics">Do not bewail the loss of my reputation</hi>; <hi
+                  rendition="#italics">it is of all the illusions of life, that which I regret the
+                  least and despise the most.</hi>' Of what value, then, is the jewel reputation; if
+               such apathy, is to be attached to it?—By this indifference to character, <ref
+                  target="people.html#agenlisStephanie">Madame de Genlis</ref> loses sight of her
+               professedly supreme object, the encouragement and improvement of morals; since the
+               desire of being esteemed by the world, if it ought not to be the <hi
+                  rendition="#italics">primum mobile</hi> of our actions, must at least be admitted
+               as a stimulating principle, without which the current of virtue would be liable to
+               stagnate. Though often a charming <hi rendition="#italics">human creature</hi>, this
+               lady is but too apt to degenerate into a <hi rendition="#italics">French court
+                  lady;</hi> one moment, we admire her; the next, we despise the formal painted
+               wooden <pb n="188"/>doll. We turn with disgust from the allegoric garden, the
+               romantic machinery, and the theatrical personifications; and we would also gladly
+               erase the many unnatural events that crowd her novel: yet let us remember that French
+               and English <hi rendition="#italics">Nature</hi> differs, and that the author is
+               acquainted only with the former;— whom we consider as a degenerate goddess. </p>
+            <p> The style of these letters is sprightly and animated, bidding defiance to the foul
+               fiend <hi rendition="#italics">Ennui</hi>.—The translator of a work of this kind
+               finds it almost impossible to transfuse into another language that spirit and
+               vivacity, with that beautiful and elegant <hi rendition="#italics">tour de
+                  phrase</hi>, which so peculiarly characterize the French writers of eminence; and
+               mere fidelity produces flatness and insipidity. In many passages, however, the
+               present translator is successful in catching a ray of the author’s illuminated
+               pencil; and the version of the ingenious lines with the <hi rendition="#italics"
+                  >double sens</hi>, found in the oratory, is extremely well executed. </p>
          </div>
       </body>
    </text>

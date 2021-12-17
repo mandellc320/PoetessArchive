@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Review of Le Paradis Reconquis</title>
-            <title type="sub" level="j">Monthly Review</title>
+            <title type="sub">Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -31,10 +31,9 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. XIII. Le Paradis Reconquis: Poëme,
-							imité de Milton, par L.R. Lafaye, Gradué en l'Université
-							de Paris, Maitre de Langue Françòise. 12mo. pp. 141. 5s.
-							sewed. Bell. 1789.</title>
+                  <title type="main" level="a">Art. XIII. Le Paradis Reconquis: Poëme, imité de
+                     Milton, par L.R. Lafaye, Gradué en l'Université de Paris, Maitre de Langue
+                     Françòise. 12mo. pp. 141. 5s. sewed. Bell. 1789.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -51,28 +50,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -86,15 +84,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -337,11 +344,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -471,7 +479,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -549,7 +557,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="7">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -603,152 +619,141 @@
                <bibl>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
-                        <name>Elizabeth
-								Moody</name>
+                        <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title type="main" level="a">A<hi rendition="#smcaps">rt.</hi> XIII. <hi rendition="#italics"> Le Paradis Reconquis: Poëme, imité
-								de <ref target="people.html#MiltonJohn">Milton</ref>, par </hi> L.R.
-								L<hi rendition="#smcaps">afaye</hi>, <hi rendition="#italics">Gradué en l'Université de Paris, Maitre de Langue
-								Françòise</hi>. 12mo. pp. 141. 5s. sewed. Bell. 1789.<hi rendition="#sup">
-                        <note>
-                           <title level="j">This book
-										review originally appeared in the <ref target="people.html#ReviewMonthly">
-                                 <name>
-                                    <hi rendition="#italics">Monthly
-											Review</hi>
-                                 </name>
-                              </ref>, Vol. 81, December 1789, p.p.
-										535-537. No information on LaFaye has been located beyond
-										his self-description in his book title. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                                 <name>Elizabeth Moody</name>
-                              </ref> as the author of this review from an editor's
-									marked copy of <hi rend="#italics">
-                                 <title>
-                                    <ref target="people.html#ReviewMonthly">The Monthly
-										Review</ref>
-                                 </title>
-                              </hi>. See Nangle, <hi rendition="#italics">
-                                 <title>The Montly Review, First
-												Series, 1749-1789: Indexes of Contributors and
-												Articles</title>
-                              </hi>, Clarendon Press, 1934. Mary A. Waters and
-										Zachary Parker edited this essay for <hi rendition="#italics">The Criticism
-									Archive</hi>.</title>
-                        </note>
-                     </hi>
+                  <title type="main" level="a">A<hi rendition="#smcaps">rt.</hi> XIII. <hi
+                        rendition="#italics"> Le Paradis Reconquis: Poëme, imité de <ref
+                           target="people.html#MiltonJohn">Milton</ref>, par </hi> L.R. L<hi
+                        rendition="#smcaps">afaye</hi>, <hi rendition="#italics">Gradué en
+                        l'Université de Paris, Maitre de Langue Françòise</hi>. 12mo. pp. 141. 5s.
+                     sewed. Bell. 1789.<note>
+                        <title level="j">This book review originally appeared in the <ref
+                              target="people.html#ReviewMonthly">
+                              <name>
+                                 <hi rendition="#italics">Monthly Review</hi>
+                              </name>
+                           </ref>, Vol. 81, December 1789, p.p. 535-537. No information on LaFaye
+                           has been located beyond his self-description in his book title. Benjamin
+                           Nangle identifies <ref target="people.html#MoodyElizabeth">
+                              <name>Elizabeth Moody</name>
+                           </ref> as the author of this review from an editor's marked copy of <hi
+                              rendition="#italics">
+                              <title>
+                                 <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                              </title>
+                           </hi>. See Nangle, <hi rendition="#italics">
+                              <title>The Montly Review, First Series, 1749-1789: Indexes of
+                                 Contributors and Articles</title>
+                           </hi>, Clarendon Press, 1934. Mary A. Waters and Zachary Parker edited
+                           this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>.</title>
+                     </note>
                   </title>
                </bibl>
             </head>
             <p>
                <hi rendition="#largest">W</hi>HAT shall we say of this imitation? That we have
-					searched for its appendage, a resemblance, and cannot find it. What can we say
-					of an arrangement of words in the form of blank verse, destitute of cadence and
-					harmony? What but that it is prose in the shape of poetry? Monsieur Lafaye will,
-					perhaps, reply to us with the surprise of <ref target="people.html#Moliere">Moliere</ref>'s <hi rendition="#italics">Bourgeois Gentilhomme</hi>,
-						"<hi rendition="#italics">par ma foy, ily a plus de quarante ans que je
-						dis de la prose, sas que j'en susse rien</hi>." But we do not expect
-					him to subjoin the following part of the speech as an address to the Reviewers,
-						"<hi rendition="#italics">&amp; je vous suis le plus obligé du
-						monde de m'avoir <lb/>
-                  <fw type="sig" rendition="#center">M m 4</fw>
-               </hi>
+               searched for its appendage, a resemblance, and cannot find it. What can we say of an
+               arrangement of words in the form of blank verse, destitute of cadence and harmony?
+               What but that it is prose in the shape of poetry? Monsieur Lafaye will, perhaps,
+               reply to us with the surprise of <ref target="people.html#Moliere">Moliere</ref>'s
+                  <hi rendition="#italics">Bourgeois Gentilhomme</hi>, "<hi rendition="#italics">par
+                  ma foy, ily a plus de quarante ans que je dis de la prose, sas que j'en susse
+                  rien</hi>." But we do not expect him to subjoin the following part of the speech
+               as an address to the Reviewers, "<hi rendition="#italics">&amp; je vous suis le plus
+                  obligé du monde de m'avoir</hi>
+               <lb/><fw type="sig">M m 4</fw>
                <pb n="536"/>
-               <hi rendition="#italics">apris cela:</hi>" be that as it may, we must
-					proceed on our journey; we have many regions to pass through; from the river
-					Jordan we must fly to Mount Olympus; and from Olympus we must make all possible
-					haste to get back into the wilderness of Judea: but, alas! we Reviewers have not
-					the privileges which our poetical travellers enjoy—we are confined both by
-					time and space. For this reason, <ref target="people.html#lafayelr">Monsieur
-						Lafaye</ref> must excuse us if we do not follow him through the whole of his
-					flights and peregrinations.</p>
-            <p>This poem consists of six cantos; and the subject is as follows:—Satan,
-					elated with the success which he met with when he attempted the seduction of
-					Eve, meditates a victory over Jesus Christ, while he is in the wilderness: but
-					as it is proper that he should consult his peers before he proceeds to business,
-					he summoneth the assembly to Mount Olympus; and, in the first canto, page 8, we
-					are introduced to this no very formidable body, considering they are
-					devils—</p>
+               <hi rendition="#italics">apris cela:</hi>" be that as it may, we must proceed on our
+               journey; we have many regions to pass through; from the river Jordan we must fly to
+               Mount Olympus; and from Olympus we must make all possible haste to get back into the
+               wilderness of Judea: but, alas! we Reviewers have not the privileges which our
+               poetical travellers enjoy—we are confined both by time and space. For this reason,
+                  <ref target="people.html#lafayelr">Monsieur Lafaye</ref> must excuse us if we do
+               not follow him through the whole of his flights and peregrinations.</p>
+            <p>This poem consists of six cantos; and the subject is as follows:—Satan, elated with
+               the success which he met with when he attempted the seduction of Eve, meditates a
+               victory over Jesus Christ, while he is in the wilderness: but as it is proper that he
+               should consult his peers before he proceeds to business, he summoneth the assembly to
+               Mount Olympus; and, in the first canto, page 8, we are introduced to this no very
+               formidable body, considering they are devils—</p>
             <quote>
                <p>
-                  <hi rendition="#italics">Chétive assemblée! où chacun tremble.</hi>
-						p. 3. l. 15.</p>
+                  <hi rendition="#italics">Chétive assemblée! où chacun tremble.</hi> p. 3. l.
+                  15.</p>
             </quote>
             <p>Satan, in a long speech (for he is a most verbose orator), communicates his grand
-					design; which, meeting with general approbation, he sets out on his journey; and
-					with the characteristic vivacity of a French demon, says</p>
+               design; which, meeting with general approbation, he sets out on his journey; and with
+               the characteristic vivacity of a French demon, says</p>
             <quote>
-               <p>
-                  <hi rendition="#italics">———— gaimant</hi>
-               </p>
-               <p>
-                  <hi rendition="#italics">Je vais, mon dessein jadis prospére,</hi>
-               </p>
-               <p>
-                  <hi rendition="#italics">Verse en mon sein le beaume de l'espoir.</hi>
-               </p>
-            </quote>
-            <p>Arrived at the desart, he approaches our Saviour under the appearance of an old
-					man, in search of strayed cattle; he is likewise looking for some sticks to make
-					a faggot. He enters into conversation with Jesus; and the temptation by which he
-					hopes to seduce the Saviour of the world, is an offer to shew him the way out of
-					the wilderness. His proposal being rejected with contempt, Satan makes a bow,
-					and vanishes.</p>
-            <p>In the second canto, the ArchFiend again assembles his peers. The council appear
-					to be rather tumultuous. Belial is a very turbulent member, and expresses
-					himself with great acrimony toward the race of David:</p>
+               <lg>
+                  <l><hi rendition="#italics">———— gaimant</hi></l>
+                  <l><hi rendition="#italics">Je vais, mon dessein jadis prospére,</hi></l>
+                  <l><hi rendition="#italics">Verse en mon sein le beaume de l'espoir.</hi></l>
+               </lg></quote>
+            <p>Arrived at the desart, he approaches our Saviour under the appearance of an old man,
+               in search of strayed cattle; he is likewise looking for some sticks to make a faggot.
+               He enters into conversation with Jesus; and the temptation by which he hopes to
+               seduce the Saviour of the world, is an offer to shew him the way out of the
+               wilderness. His proposal being rejected with contempt, Satan makes a bow, and
+               vanishes.</p>
+            <p>In the second canto, the Arch Fiend again assembles his peers. The council appear to
+               be rather tumultuous. Belial is a very turbulent member, and expresses himself with
+               great acrimony toward the race of David:</p>
             <quote>
-               <p>
-                  <hi rendition="#italics">Parbleu! Comme je sis dégringoler</hi>
-               </p>
-               <p>
-                  <hi rendition="#italics">Toute la famille, sans oublier</hi>
-               </p>
-               <p>
-                  <hi rendition="#italics">Roi Salomon, avec sa sagesse.</hi>
-               </p>
+               <lg type="stanza">
+                  <l>
+                     <hi rendition="#italics">Parbleu! Comme je sis dégringoler</hi>
+                  </l>
+                  <l>
+                     <hi rendition="#italics">Toute la famille, sans oublier</hi>
+                  </l>
+                  <l>
+                     <hi rendition="#italics">Roi Salomon, avec sa sagesse.</hi>
+                  </l>
+               </lg>
             </quote>
             <p>And this <hi rendition="#italics">Roi Solomon</hi> he talks of taking by the
-					nose.</p>
-            <p>In the third canto, Satan renews his temptations in the wilderness; and supposing
-					our Saviour to be very hungry, invites him to eat:—by the power of his
-					magic wand, a table rises in the desart, <hi rendition="#italics">royalement
-						fervie</hi>, on which are displayed all the dainties that the most excellent
-					French cookery can supply, game and poultry,</p>
+               nose.</p>
+            <p>In the third canto, Satan renews his temptations in the wilderness; and supposing our
+               Saviour to be very hungry, invites him to eat:—by the power of his magic wand, a
+               table rises in the desart, <hi rendition="#italics">royalement fervie</hi>, on which
+               are displayed all the dainties that the most excellent French cookery can supply,
+               game and poultry,</p>
             <pb n="537"/>
             <quote>
-               <p>
-                  <hi rendition="#italics">Bardés, bouillies, rotis, venaison,</hi>
-               </p>
-               <p>
-                  <hi rendition="#italics">Coulis transparens, &amp; sauces
-							ambrées,</hi>
-               </p>
-               <p>
-                  <hi rendition="#italics">Patisseries en tourèttes, gateaux,</hi>
-               </p>
-               <p>
-                  <hi rendition="#italics">Les poissons les plus rares, de
-						source,</hi>
-               </p>
-               <p>
-                  <hi rendition="#italics">Riviéres, étangs, &amp;c.</hi>
-               </p>
+               <lg type="stanza">
+                  <l>
+                     <hi rendition="#italics">Bardés, bouillies, rotis, venaison,</hi>
+                  </l>
+                  <l>
+                     <hi rendition="#italics">Coulis transparens, &amp; sauces ambrées,</hi>
+                  </l>
+                  <l>
+                     <hi rendition="#italics">Patisseries en tourèttes, gateaux,</hi>
+                  </l>
+                  <l>
+                     <hi rendition="#italics">Les poissons les plus rares, de source,</hi>
+                  </l>
+                  <l>
+                     <hi rendition="#italics">Riviéres, étangs, &amp;c.</hi>
+                  </l>
+               </lg>
             </quote>
-            <p>This repast is exhibited <hi rendition="#italics">sous un pavillon de
-						verdure</hi>, ornamented with fruits and flowers; a splendid buffet presents
-					itself, covered with vases of gold and crystal, and attended by Genii with
-					purple wings. In another part of the desart, Nymphs are dancing <hi rendition="#italics">sous des bouquets d'arbres</hi>; while in another,
-					Zephyrus, Pomona, and the train of Flora, are forming garlands and preparing
-					fruits.—This is pretty scenery for an opera. But as we cannot promise to
-					steer this little French bark safe into port, through the channel of English
-					criticism, we will (without loading it with any more of our strictures) leave it
-					to seek an harbour on its native coast;—it may chance to meet there with a
-					more propitious gale. As to ourselves, we must be candid enough to confess that
-					our English Satan has obtained so much popularity, through the skilful
-					management of our immortal <ref target="people.html#MiltonJohn">Milton</ref>,
-					that we can by no means tolerate French devils. </p>
+            <p>This repast is exhibited <hi rendition="#italics">sous un pavillon de verdure</hi>,
+               ornamented with fruits and flowers; a splendid buffet presents itself, covered with
+               vases of gold and crystal, and attended by Genii with purple wings. In another part
+               of the desart, Nymphs are dancing <hi rendition="#italics">sous des bouquets
+                  d'arbres</hi>; while in another, Zephyrus, Pomona, and the train of Flora, are
+               forming garlands and preparing fruits.—This is pretty scenery for an opera. But as we
+               cannot promise to steer this little French bark safe into port, through the channel
+               of English criticism, we will (without loading it with any more of our strictures)
+               leave it to seek an harbour on its native coast;—it may chance to meet there with a
+               more propitious gale. As to ourselves, we must be candid enough to confess that our
+               English Satan has obtained so much popularity, through the skilful management of our
+               immortal <ref target="people.html#MiltonJohn">Milton</ref>, that we can by no means
+               tolerate French devils. </p>
          </div>
       </body>
    </text>

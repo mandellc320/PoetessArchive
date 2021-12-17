@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" level="a">Modern Italian Romances pt 1.</title>
+				<title type="sub" level="j">Monthly Chronicle</title>
+				<author type="writer">
+					<name>Mary Shelley</name>
+				</author>
+				<respStmt>
+					<resp>Editor</resp>
+					<name xml:id="MW">Mary A. Waters</name>
+				</respStmt>
+				<respStmt>
+					<resp>Co-Editor</resp>
+					<name xml:id="LD">Laura DeWitt</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<idno>ShelleyModItRomI1838</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title level="s">The Criticism Archive</title>
+				<respStmt>
+					<resp>Edited by</resp>
+					<name type="person" ref="#MW">Mary A. Waters</name>
+				</respStmt>
+				<idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title type="main" level="a">Modern Italian Romances.</title>
+						<author type="writer">Shelley, Mary, 1797-1851</author>
+					</analytic>
+					<monogr>
+						<title type="main" level="j">Monthly Chronicle</title>
+						<imprint>
+							<date when="1838-11">November 1838</date>
+							<biblScope unit="vol">2</biblScope>
+							<biblScope unit="page">415-428</biblScope>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+        	<editorialDecl>
+        		<quotation>
+        			<p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+        			<p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+        		</quotation>
+        		<hyphenation eol="none">
+        			<p>Any dashes occurring in line breaks have been removed.</p>
+        			<p>All hyphens have been typed on the U.S. keyboard.</p>
+        			<p>em-dashes have been recorded originally using the &#8212;</p>
+        		</hyphenation>
+        		<normalization method="silent">
+        			<p>Long "s" (&#383;) has been silently modernized.</p>
+        			<p>Page numbers appear at the beginning of each page, no matter where originally
+        				placed.</p>
+        			<p>Compositors' catchwords and running titles have been silently eliminated.</p>
+        			<p>Spelling has not been regularized.</p>
+        		</normalization>
+        		<normalization method="markup">
+        			<p>&amp; has been used for the ampersand sign.</p>
+        			<p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p>
+        			<p>Writing in other hands appearing on these manuscripts has been indicated as
+        				such, the content recorded in brackets.</p>
+        		</normalization>
+        	</editorialDecl>
+			<tagsDecl>
+				<rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+				<rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+				<rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+				<rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+				<rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+				<rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+				<rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+				<rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+				<rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+				<rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+				<rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+				<rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+				<rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+				<rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+				<rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+				<rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+				<rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+				<rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+				<rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+			</tagsDecl>
+			<classDecl>
+				<taxonomy xml:id="ft">
+					<bibl>Full Text or Citation</bibl>
+					<category xml:id="ft1">
+						<catDesc>full text</catDesc>
+					</category>
+					<category xml:id="ft2">
+						<catDesc>citation only</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="ps">
+					<bibl>Primary or Secondary</bibl>
+					<category xml:id="ps1">
+						<catDesc>primary</catDesc>
+					</category>
+					<category xml:id="ps2">
+						<catDesc>secondary</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="g">
+					<bibl>Genre and Material Form</bibl>
+					<category xml:id="g1">
+						<catDesc>pageimage</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>biography</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>biographical essay</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>poetry pamphlet</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>poetry book</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>poem</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>story</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>drama</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>table of contents</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>table of illustrations</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>picture</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>index</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>notes</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>frontispiece</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>inscription page</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>book boards</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>titlepage</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>preface</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>advertisement</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>foreword</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>acknowledgments</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>collection literary annual</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>collection miscellany</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>collection anthology</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>collection beauties</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>collection juvenile</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>collection religious</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>collection travels</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>mixed</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>essay</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>review</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>letter</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>fragment poem</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>fragment story</catDesc>
+					</category>
+					<category xml:id="g35">
+						<catDesc>fragment novel</catDesc>
+					</category>
+					<category xml:id="g36">
+						<catDesc>literary criticism book</catDesc>
+					</category>
+					<category xml:id="g37">
+						<catDesc>literary criticism collection</catDesc>
+					</category>
+					<category xml:id="g38">
+						<catDesc>bibliography</catDesc>
+					</category>
+					<category xml:id="g39">
+						<catDesc>engraving</catDesc>
+					</category>
+					<category xml:id="g40">
+						<catDesc>reproduction</catDesc>
+					</category>
+					<category xml:id="g41">
+						<catDesc>figure</catDesc>
+					</category>
+					<category xml:id="g42">
+						<catDesc>graph</catDesc>
+					</category>
+					<category xml:id="g43">
+						<catDesc>map</catDesc>
+					</category>
+					<category xml:id="g44">
+						<catDesc>table</catDesc>
+					</category>
+					<category xml:id="g45">
+						<catDesc>musical score</catDesc>
+					</category>
+					<category xml:id="g46">
+						<catDesc>music</catDesc>
+					</category>
+					<category xml:id="g47">
+						<catDesc>satire</catDesc>
+					</category>
+					<category xml:id="g48">
+						<catDesc>political pamphlet</catDesc>
+					</category>
+					<category xml:id="g49">
+						<catDesc>political cartoon</catDesc>
+					</category>
+					<category xml:id="g50">
+						<catDesc>periodical</catDesc>
+					</category>
+					<category xml:id="g51">
+						<catDesc>historical monograph</catDesc>
+					</category>
+					<category xml:id="g52">
+						<catDesc>historical essay</catDesc>
+					</category>
+					<category xml:id="g53">
+						<catDesc>philosophical treatise</catDesc>
+					</category>
+					<category xml:id="g54">
+						<catDesc>philosophical essay</catDesc>
+					</category>
+					<category xml:id="g55">
+						<catDesc>religious pamphlet</catDesc>
+					</category>
+					<category xml:id="g56">
+						<catDesc>sermon</catDesc>
+					</category>
+					<category xml:id="g57">
+						<catDesc>theology</catDesc>
+					</category>
+					<category xml:id="g58">
+						<catDesc>religious book</catDesc>
+					</category>
+					<category xml:id="g59">
+						<catDesc>essay on education</catDesc>
+					</category>
+					<category xml:id="g60">
+						<catDesc>educational treatise</catDesc>
+					</category>
+					<category xml:id="g61">
+						<catDesc>list of subscribers</catDesc>
+					</category>
+					<category xml:id="g62">
+						<catDesc>allegory</catDesc>
+					</category>
+					<category xml:id="g63">
+						<catDesc>introduction</catDesc>
+					</category>
+					<category xml:id="g64">
+						<catDesc>slipcase</catDesc>
+					</category>
+					<category xml:id="g65">
+						<catDesc>dedication</catDesc>
+					</category>
+					<category xml:id="g66">
+						<catDesc>picture of building</catDesc>
+					</category>
+					<category xml:id="g67">
+						<catDesc>floorplans</catDesc>
+					</category>
+					<category xml:id="g68">
+						<catDesc>photograph</catDesc>
+					</category>
+					<category xml:id="g69">
+						<catDesc>translation</catDesc>
+					</category>
+					<category xml:id="g70">
+						<catDesc>manuscript</catDesc>
+					</category>
+					<category xml:id="g71">
+						<catDesc>printersmark</catDesc>
+					</category>
+					<category xml:id="g72">
+						<catDesc>literary criticism article</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="keyword">
+					<category xml:id="lcsh">
+						<catDesc>Library of Congress Subject Headings, reduced to one word before
+							hyphen</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy
+					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+					xml:id="ag">
+					<bibl>ARC Genre Categories, July 1, 2017</bibl>
+					<category xml:id="ag1">
+						<catDesc>Advertisement</catDesc>
+					</category>
+					<category xml:id="ag2">
+						<catDesc>Animation</catDesc>
+					</category>
+					<category xml:id="ag3">
+						<catDesc>Bibliography</catDesc>
+					</category>
+					<category xml:id="ag4">
+						<catDesc>Catalog</catDesc>
+					</category>
+					<category xml:id="ag5">
+						<catDesc>Chronology</catDesc>
+					</category>
+					<category xml:id="ag7">
+						<catDesc>Citation</catDesc>
+					</category>
+					<category xml:id="ag6">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="ag8">
+						<catDesc>Correspondence</catDesc>
+					</category>
+					<category xml:id="ag9">
+						<catDesc>Criticism</catDesc>
+					</category>
+					<category xml:id="ag10">
+						<catDesc>Drama</catDesc>
+					</category>
+					<category xml:id="ag11">
+						<catDesc>Ephemera</catDesc>
+					</category>
+					<category xml:id="ag12">
+						<catDesc>Essay</catDesc>
+					</category>
+					<category xml:id="ag13">
+						<catDesc>Fiction</catDesc>
+					</category>
+					<category xml:id="ag14">
+						<catDesc>Film, Documentary</catDesc>
+					</category>
+					<category xml:id="ag15">
+						<catDesc>Film, Experimental</catDesc>
+					</category>
+					<category xml:id="ag16">
+						<catDesc>Film, Narrative</catDesc>
+					</category>
+					<category xml:id="ag17">
+						<catDesc>Film, Other</catDesc>
+					</category>
+					<category xml:id="ag18">
+						<catDesc>Historiography</catDesc>
+					</category>
+					<category xml:id="ag19">
+						<catDesc>Interview</catDesc>
+					</category>
+					<category xml:id="ag20">
+						<catDesc>Life Writing</catDesc>
+					</category>
+					<category xml:id="ag21">
+						<catDesc>Liturgy</catDesc>
+					</category>
+					<category xml:id="ag22">
+						<catDesc>Musical Analysis</catDesc>
+					</category>
+					<category xml:id="ag23">
+						<catDesc>Music, Other</catDesc>
+					</category>
+					<category xml:id="ag24">
+						<catDesc>Musical Work</catDesc>
+					</category>
+					<category xml:id="ag25">
+						<catDesc>Musical Score</catDesc>
+					</category>
+					<category xml:id="ag26">
+						<catDesc>Nonficition</catDesc>
+					</category>
+					<category xml:id="ag27">
+						<catDesc>Paratext</catDesc>
+					</category>
+					<category xml:id="ag28">
+						<catDesc>Performance</catDesc>
+					</category>
+					<category xml:id="ag29">
+						<catDesc>Philosophy</catDesc>
+					</category>
+					<category xml:id="ag30">
+						<catDesc>Photograph</catDesc>
+					</category>
+					<category xml:id="ag31">
+						<catDesc>Political Statement</catDesc>
+					</category>
+					<category xml:id="ag32">
+						<catDesc>Poetry</catDesc>
+					</category>
+					<category xml:id="ag33">
+						<catDesc>Religion</catDesc>
+					</category>
+					<category xml:id="ag34">
+						<catDesc>Reference Works</catDesc>
+					</category>
+					<category xml:id="ag35">
+						<catDesc>Review</catDesc>
+					</category>
+					<category xml:id="ag36">
+						<catDesc>Scripture</catDesc>
+					</category>
+					<category xml:id="ag37">
+						<catDesc>Sermon</catDesc>
+					</category>
+					<category xml:id="ag38">
+						<catDesc>Speech</catDesc>
+					</category>
+					<category xml:id="ag39">
+						<catDesc>Translation</catDesc>
+					</category>
+					<category xml:id="ag40">
+						<catDesc>Travel Writing</catDesc>
+					</category>
+					<category xml:id="ag41">
+						<catDesc>Unspecified</catDesc>
+					</category>
+					<category xml:id="ag42">
+						<catDesc>Visual Art</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
+					xml:id="f">
+					<bibl>ARC Format Categories, July 1, 2017</bibl>
+					<category xml:id="f1">
+						<catDesc>Codex</catDesc>
+					</category>
+					<category xml:id="f2">
+						<catDesc>Collection</catDesc>
+					</category>
+					<category xml:id="f3">
+						<catDesc>Dataset</catDesc>
+					</category>
+					<category xml:id="f4">
+						<catDesc>Drawing</catDesc>
+					</category>
+					<category xml:id="f5">
+						<catDesc>Illustration</catDesc>
+					</category>
+					<category xml:id="f6">
+						<catDesc>Interactive Resource</catDesc>
+					</category>
+					<category xml:id="f7">
+						<catDesc>Manuscript</catDesc>
+					</category>
+					<category xml:id="f8">
+						<catDesc>Map</catDesc>
+					</category>
+					<category xml:id="f9">
+						<catDesc>Moving Image</catDesc>
+					</category>
+					<category xml:id="f10">
+						<catDesc>Notated Music</catDesc>
+					</category>
+					<category xml:id="f11">
+						<catDesc>Page Proofs</catDesc>
+					</category>
+					<category xml:id="f12">
+						<catDesc>Pamphlet</catDesc>
+					</category>
+					<category xml:id="f13">
+						<catDesc>Periodical</catDesc>
+					</category>
+					<category xml:id="f14">
+						<catDesc>Physcial Object</catDesc>
+					</category>
+					<category xml:id="f15">
+						<catDesc>Roll</catDesc>
+					</category>
+					<category xml:id="f16">
+						<catDesc>Sheet</catDesc>
+					</category>
+					<category xml:id="f17">
+						<catDesc>Sound</catDesc>
+					</category>
+					<category xml:id="f18">
+						<catDesc>Still Image</catDesc>
+					</category>
+					<category xml:id="f19">
+						<catDesc>Typescript</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="#lcsh">
+					<list type="simple">
+						<item>English literature</item>
+						<item>Criticism</item>
+						<item>Review Article</item>
+					</list>
+				</keywords>
+				<catRef scheme="#ft" target="#ft1"/>
+				<catRef scheme="#ag" target="#ag9 #ag35"/>
+				<catRef scheme="#f" target="#f13"/>
+				<catRef scheme="#p" target="#ps1"/>
+				<catRef scheme="#g" target="#g31 #g50 #g72"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+				<change who="#LM" when="20211214">
+					<label>Changed by</label>
+					<name>Laura Mandell</name>
+					<list type="simple">
+						<item>had to roll back due to xml versioning error, revisions as below
+							but starting with August and March 2021 XML</item>
+					</list>
+				</change>
+				<change who="#LM" when="20210922">
+					<label>Changed by</label>
+					<name>Laura Mandell</name>
+					<list type="simple">
+						<item>Added header teiHeader07232021.xml</item>
+						<item>changed milestone sig to fw sig</item>
+						<item>inserted line break before fw</item>
+					</list>
+				</change>
+			<change who="#MW" when="20210720" n="3">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list type="simple">
+					<item>Revised encoding and editing</item>
+				</list>
+			</change>
+			<change who="#LD" when="20210524" n="2">
+				<label>Changed by</label>
+				<name>Laura DeWitt</name>
+				<list type="simple">
+					<item>TEI encoding</item>
+					<item>Changed editing</item>
+				</list>
+			</change>
+			<change who="#MW" when="20181113" n="1">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list type="simple">
+					<item>Created Edition</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="essay">
+				<head>
+					<bibl>
+						<author type="writer">
+							<ref target="people.html#ShelleyMary">
+								<name>Mary Shelley</name>
+							</ref>
+						</author>
+						<title>MODERN ITALIAN ROMANCES.<note><title><hi rendition="#italics">Monthly Chronicle; A
+											National Journal of Politics, Literature, Science, and
+											Art</hi></title>, vol. II, November 1838, pp. 415-428.
+									Laura DeWitt and Mary A. Waters co-edited this edition for <hi
+										rendition="#italics">The Criticism Archive</hi>.
+								</note>
+						</title></bibl></head>
+				<p rendition="#noindent">I<hi rendition="#smcaps">t</hi> is the fashion to call the
+					Italians fallen and degraded; and none are more acrimonious in their censures
+					than the Anglo-Italians&#8212;a race which, while forgetting their patriotic
+					duties in the delights of that paradisaics climate&#8212;while availing
+					themselves of the benevolence and courtesy of the inhabitants&#8212;and while
+					eating the fruits of that fertile land&#8212;without care or annoyance, repay
+					the advantages they enjoy by abusing the natives. There is a gentleness, a
+					facility, a kindliness in the Italians which spreads an atmosphere of repose
+					around them. Their visitors feel and enjoy this; but, far from being grateful,
+					they blind themselves to the virtues which benefit themselves, and fix their
+					eyes on the faults which are injurious only to the Italians. They even go
+					further, and often rail the louder, while they imitate more grossly the vices
+					they denounce.</p>
+
+				<p>Most of the defects of the Italians are those that always arise in a society
+					debarred from active duties. An Italian has no career, and can find occupation
+					only in intrigue and vice. The utter hopelessness that pervades their political
+					atmosphere, the stagnation of every territorial or commercial enterprise, the
+					discouragement cast over every improvement,&#8212;all these are checks to
+					laudable ambition; and yet such is not entirely checked. How many Italian hearts
+					beat high for their country. When any opening has presented itself, how many
+					victims have rushed into the breach. Perhaps in the history of no people in the
+					world has there appeared so tenacious a love of country and of liberty, nor so
+					great a readiness shown to make every sacrifice to acquire independence, nor so
+					confirmed and active an hatred for tyranny.</p>
+
+				<p>After various struggles, and the destruction of their best citizens by the
+					despot, still the Italians pant for freedom, and hope to attain it. The
+					well-educated among them feel that their chief duty is, to counteract the
+					pernicious effects of slavery and superstition in debasing the national
+					character. To do this, several of the most eminent have turned authors, and
+					risked property and safety for the holy task of disseminating principles and
+					sentiments which, in their effect, will keep alive a sense of their rights in
+					the minds of their countrymen, and render them worthy of the liberty they hope
+					one day to see them enjoy.</p>
+
+				<p>They are fortunate in one circumstance&#8212;the soil they would cultivate is
+					rich and fertile. The thing that chiefly strikes any one conversant with the
+					Italians, is their quick and clear understandings. In unfrequented parts of
+					England, the people are stupid, and even savage. In France, they are still
+					worse. They may practise the domestic virtues, but their minds are shrunk and
+					shrivelled, or covered by so impenetrable an husk, that there are no means of
+					having communication with them. The facilities of intercourse&#8212;for ever
+					multiplying in this country&#8212;and the better education that subsists, has
+					partly done away with this state of things; but in Italy, the peasant of its
+					remotest regions is a conversable being. He has intelligence, imagination, and
+					the power of expression. He has fewer prejudices in favour of old habits, a
+					greater reverence for knowledge in others: it is easy, therefore, to teach him.
+					While the same divine bounty that has gifted him with a capacity to understand,
+					has been also extended to his instructors; and the educated men of Italy are
+					singularly able, laborious, <lb/><fw type="sig"><hi rendition="#smcaps">e e 4</hi></fw><pb n="416"/>and enlightened. Italians are
+					found to excel in every province of literature. The names of their poets rank
+					among the highest: their novelists, either tragic or comic, are unsurpassed:
+					their historians yield only to those of the ancient world. In science, in
+					morals, in every species of inventive or disquisitive literature, we find
+					Italians among the foremost in desert. No wonder their rulers fear such a
+					people, and put in action all their efforts either to crush or turn aside from
+					any, to them injurious, purpose, the labours of their men of genius and
+					learning. Thus <ref target="people.html#FoscoloUgo">Ugo Foscolo</ref> was
+					banished; thus <ref target="people.html#MontiVincenzo">Monti</ref> was
+					corrupted; the eloquent and admirable productions of the lover of liberty were
+					proscribed; and not only were the writings of the slave impregnated with a base
+					spirit, but his very subjects were dictated to him. To turn aside the thoughts
+					of the men of letters from an elevated and useful aim, <ref
+						target="people.html#MontiVincenzo">Monti</ref> was commanded to raise that
+					pitiful war of words which sprung from his
+						&quot;<title>Proposta</title>.&quot;<note>A work making arguments about the reformation of national language, the
+							first part of which was published in 1817.</note> The Austrian
+					government well understood the Italian spirit, when it excited the Royal
+					Institute of Milan to busy itself in the reform of the national dictionary, and
+					imposed on <ref target="people.html#MontiVincenzo">Monti</ref> the task of
+					overthrowing the authority of the &quot;Della Crusca,&quot;<note>The oldest linguistic academy in the world, based in
+							Florence, Italy. Founded in 1583, the academy strove to maintain the
+							purity of the Italian language.</note> and of asserting the
+					propriety of adopting, as the classic language of Italy, a language not wholly
+					Tuscan, but intermingled with modes of speech peculiar to other provinces. <ref
+						target="people.html#MontiVincenzo">Monti</ref> and his son-in-law, <ref
+						target="people.html#PerticariGiulio">Perticari</ref>, began what they called
+					a crusade against the &quot;Della Crusca.&quot; <ref
+						target="people.html#PerticariGiulio">Perticari</ref>, young and virtuous,
+					and led by <ref target="people.html#MontiVincenzo">Monti</ref>, was probably
+					innocent of any sinister motive. <ref target="people.html#MontiVincenzo"
+						>Monti</ref> himself entered into the views of the Austrians: he knew his
+					countrymen, and the unfortunate prejudices in Italy, which makes one portion the
+					rival and enemy of another. The effect of his attack was electric. As if it had
+					been the cause of independence, each literary man arose to defend the system of
+					his country. The Tuscans thought their territory invaded, their dearest
+					privileges undermined: the war continued for years. At present, many of the
+					chief combatants are no more, while the few survivors may wonder at their folly
+					at being thus entrapped to forget the nobler uses of their talents in so puerile
+					a question; they may feel that had one among them written a book, in which
+					genius and power had been clothed in elegant and forcible language, drawn either
+					from the purest Tuscan source, or mingled with modes of speech deemed less
+					classical, yet not less true to feeling, it had been a far better answer than
+					volumes of verbal dispute. </p>
+
+				<p>The Austrians, though they corrupted one of the greatest geniuses of Italy (<ref
+						target="people.html#MontiVincenzo">Monti</ref>), and sent another (<ref
+						target="people.html#FoscoloUgo">Foscolo</ref>) to die in a foreign land, and
+					were successful in causing all the talents of the country to be absorbed by a
+					war of words, yet enjoyed only a temporary success. Deeper interests were
+					awakened among the Italians during the outbreaks and struggles which marked the
+					years 1820-21. Since then, their writers have been thoroughly awakened to the
+					importance of their task in enlightening their countrymen, and in teaching them
+					either lessons of Christian virtue, or animating them to a love of liberty. </p>
+
+				<p>A very excellent article has appeared in the eleventh number of &quot;<title>The
+						London and Westminster Review</title>,&quot; written, we believe, by a
+					peculiarly clever and well-informed Italian resident in this country, named <ref
+						target="people.html#MazziniGiuseppe">Mazzini</ref>,<note>&quot;Italian Literature since 1830,&quot; <hi
+								rendition="#italics"><title>London &amp; Westminster
+								Review</title></hi> vol. IV and XXVIII, October 1837, pp. 132-68. The article,
+							indexed as &quot;Italian Literature since 1830&quot; features an actual
+							title listing the eleven books that make up the core discussion.
+							Originally attributed to <ref target="people.html#MazziniGiuseppe"
+								>Mazzini</ref> alone, it is now identified by the <hi
+								rendition="#italics"><title>Wellesley Index to Victorian Periodicals
+									1824-1900</title></hi> (vol. III, p. 590) as a collaborative
+							piece with Angelo Usiglio, whose initials comprise the
+						signature.</note> which throws great light on the moving springs of
+					Italian literature. The author has, with great judgment, divided the writers of
+					his country into two classes, both bent on ameliorating the character of their
+					fellow countrymen, but by different means: the one aims at fostering the, so to
+					speak, inoffensive virtues; the other, burning with a hatred of the oppressor,
+					and with a thirst for the deliverance of their native land, endeavors to
+					strengthen and elevate&#8212;to teach the Italians to become patriots and
+					citizens&#8212;to inspire, <pb n="417"/>not resignation, but hope&#8212;not
+					merely piety and benevolence, but ardour for the dissemination of the blessings
+					of civilisation and freedom&#8212;not simply fortitude, but active courage,
+					without which higher virtues, they are aware that Italy can never be delivered
+					and renovated.</p>
+
+				<p>Amidst the whole field of literature which <ref
+						target="people.html#MazziniGiuseppe">Mazzini</ref> glances over, we select
+					only one portion&#8212;its novels and romances.</p>
+
+				<p>When a new sort of literature was, as it were, discovered, and men of the first
+					talent in France and England occupied themselves by the composition of romances
+					and novels&#8212;all sorts of fictitious adventure in prose, whether belonging
+					to past ages or modern manners&#8212;it was to be supposed that the Italians
+					would shine also in the same career. At first, however, they did not originate
+					any work of the sort worthy of themselves, and it grew into a common opinion
+					that the spirit of Italy was so crushed and deadened, that their writers had
+					fallen into a low scale. <ref target="people.html#FoscoloUgo">Ugo Foscolo</ref>
+					was a mere imitator in his &quot;<title>Jacopo Ortis</title>.&quot; But <ref
+						target="people.html#FoscoloUgo">Foscolo</ref> was strictly a didactic
+					writer. His refined and discerning mind, his eloquent and enthusiastic spirit,
+					which dictated his labours on <ref target="people.html#PetrarcaFrancesco"
+						>Petrarch</ref> and <ref target="people.html#Dante">Dante</ref>, and his
+					poem of the &quot;<title>Sepolcri</title>&quot;&#8212;the most finished elegy of
+					modern Italy, was not inventive of facts. &quot;<title>Jacopo
+					Ortis</title>&quot; was a vehicle for opinions and emotions&#8212;not an epic,
+					whose incidents and conduct were to interest and delight. </p>
+
+				<p><ref target="people.html#ManzoniAlessandro">Manzoni</ref> redeemed the reputation
+					of his country. The &quot;<title>Promessi Sposi</title>,&quot; translated into
+					every European language, is proof that the Italians are still themselves. It
+					yields to no romance of any country in graphic descriptions&#8212;in
+					eloquence&#8212;in touching incident and forcible reflection. It is, however, so
+					entirely Italian in all its parts, that it can only be truly relished in its
+					native guise. It has seized and individualised, as it were, various species of
+					human beings, specimens of which can be found only in that soil; and thus, to a
+					certain degree, its reputation must be local. Any one conversant with the
+					Italian character perceives at once the truth and vividness of the picture; to
+					others it is a fancy piece, and cannot come home in the same way to their
+					experience and sympathies; besides that, the translation is vapid and lifeless,
+					and incapable of communicating the spirit of the original. The excellence of
+					this work consists, in the first place, in its admirable discrimination and
+					representation of character. Its personages are not shadows and vague
+					generalities, but men and women stamped with individuality. They all live and
+					move before us&#8212;we feel as if we should recognise if we saw them&#8212;and
+					those who have been in Italy have seen such, and perceive not portraits, but
+					vivid resemblances. We have seen and recognise Don Abbondio, and his servant
+					Perpetua; their modes of thinking and phraseology are all familiar to us, though
+					graced in the work with the ideality which marks the perfection of art. The
+					spirit and reality of such portions as may pass for episodes, the stories of
+					Gertrude and Cristofero, are unsurpassed in any work, in any language, for
+					interest, truth, and beauty. The conversion of the Innominato&#8212;the riots at
+					Milan&#8212;the progress, prevalence, and cessation of the plague, are passages
+					of high-wrought eloquence that carry the reader along with them. They show not
+					only the deepest knowledge of the human heart, but a vivid graphic talent,
+					surpassing that of every modern tale-writer. The defect of the work is its
+					whole. Admirable in parts, it wants the artifice of plot, which should make the
+					interest rise continually. From the moment that Lucia is liberated by the
+					Innominato, the story, such as it is, comes to a stop. Much of this arises from
+					the character of her betrothed. She herself, gentle, resigned, and affectionate,
+					interests us more than that sort of person in a book usually does; but Renzo is
+					not her fitting lover. It is <pb n="418"/>true that he is nature itself, the
+					absolute portrait of an Italian rustic. We ought to be content that Lucia, a
+					Milanese peasant, should have for a husband a person in the same situation of
+					life; but the sweetness and blameless simplicity of the heroine removes her from
+					the vulgarities of her situation, while Renzo is immersed in them; the
+					discrepancy jars on our taste, and injures the tale as a work of art.</p>
+
+				<p>The author of the &quot;<title>Promessi Sposi</title>&quot; has not aimed at
+					inspiring ardour for liberty and hatred of the tyrant: his lessons are rather
+					those of piety and resignation. In any other work we might blame this; but the
+					truth is so much better than declamation, and the picture he gives of the evils
+					of misrule and ignorance is so forcible, that it stands in lieu of didactic
+					tirades. The effect of the book being to impress the reader with a deep sense of
+					the mischiefs that ensue from a people being kept in a state of bigotry and
+					ignorance, and from a foreign, inert, and short-sighted government, every
+					un-prejudiced person must reap a well-founded hatred of tyrants and superstition
+					from such worth a thousand diatribes.</p>
+
+				<p>This want of a generous and enlarged aim is more to be deplored for the author
+					than the work. <ref target="people.html#ManzoniAlessandro">Manzoni</ref> is a
+					man of first-rate genius. Besides the &quot;<title>Promessi Sposi</title>,&quot;
+					he has written two tragedies<note><hi rendition="#italics"><title>Il Conte di Carmagnola</title></hi>
+							(1819) and <hi rendition="#italics"><title>Adelchi</title></hi>
+							(1822).</note>&#8212; poems rather than dramas, composed according
+					to the French notion of the Athenian theatre, but interspersed with choruses. As
+					dramas, these plays are defective&#8212;as poems, they are highly beautiful.
+					There is, in particular, a chorus in the &quot;<title>Camaledole</title>&quot;
+					on the horrors of war and the blessings of peace, which may rank among the most
+					beautiful lyrics in the Italian language. But the want of moral energy that
+					blinds a Milanese to the real evils that afflict his country, superstition and
+					despotism, has fallen heavily on the poet. <ref
+						target="people.html#ManzoniAlessandro">Manzoni</ref> has become a bigot and
+					a slave. His life is spent in churches. His thoughts and actions are under the
+					government of a priest, in obedience to whose dictates he has destroyed a
+					beautiful romance on the subject of <ref target="people.html#Napoleon"
+						>Napoleon.</ref> Thus that system of thought which teaches, &quot;Humble
+					thyself, pray, be resigned to thy misfortunes; heaven is thy country, the things
+					of this world are unworthy of thy attention, knowledge is vanity, and justice
+					here below a dream<note>Article in
+								&quot;<title>The London and Westminster Review</title>,&quot; No.
+							XI. [<ref target="people.html#ShelleyMary">Shelley</ref>&apos;s
+							note]</note>,&quot; has fallen with club-like weight on the head of
+					this illustrious man, crushing his genius, rendering him ungrateful to his
+					Creator for the surpassing gifts of mind lavished on him, causing him to
+					&quot;hide his light under a bushel;&quot; so that, at the great account, when
+					asked to what use he put the vast bounty of God, in giving him powers of soul
+					superior to the multitude, he can only answer, &quot;I disdained your gift, and
+					regarded the telling of my beads as the chief end and aim of an intelligent
+					being’s life.&quot; Miserable, indeed, are the effects of catholicism, which
+					causes the believer to surrender his conscience into the hands of another; which
+					deprives man of his best privilege, that of judging by his innate sense of right
+					and wrong; and utterly brutalises him, as he regulates his sense of duty by a
+					fictitious code of morality, invented for the sole purpose of enslaving him,
+					instead of resting it on the plain precepts of enlightened religion; which,
+					while it teaches us to &quot;love our neighbour as ourself,&quot; will also
+					teach that the best proof a man of genius can give of his obedience to this
+					command, is to enlighten the ignorant, and animate to virtue the
+					demoralised&#8212;a task that can in no way be so well fulfilled as by the
+					multiplication of works that will convince the head of the excellence of right,
+					and warm the heart with courage to exercise it. </p>
+
+				<p>Next to <ref target="people.html#ManzoniAlessandro">Manzoni</ref>, as a novelist,
+					we may rank his son-in-law, <ref target="people.html#AzeglioMassimo"
+						>Azeglio</ref>, author of &quot;<title>Hector Fieramosca</title>.&quot; This
+					work has enjoyed great reputation in <pb n="419"/>Italy, and, though far below
+					the <title>Promessi Sposi</title> in genius, possesses considerable merit.</p>
+
+				<p>&quot;The Duel of Barletta&quot; (La Sfida di Barletta)<note
+							place="foot">The famouns 1503 duel, fought tournament style with the
+							historical Ettore Fieramosca and 12 compatriot contenders opposing 13
+							French, is depicted in <ref target="people.html#AzeglioMassimo"
+								>Azeglio</ref>&apos;s novel <hi rendition="#italics"><title>Ettore
+									Fieramosca</title></hi>. </note> is naturally a favourite
+					topic with the Italians. Being so often stigmatised as cowards, they turn with
+					pride to this glorious achievement. Its origin is briefly as
+					follows:&#8212;Naples had been reigned over by a branch of the house of Aragon
+					for the space of sixty-five years, when <ref target="people.html#CharlesVIII"
+						>Charles VIII.</ref>, King of France, was stimulated by the treachery and
+					ambition of a prince of Milan to bring forward the claim of the house of Anjou.
+					He (and then first those disastrous wars began, when the French met the Spaniard
+					on the fields of Italy) entered the Peninsula, and overran and possessed himself
+					of Naples: but, on his return to his native kingdom, he lost his conquest as
+					speedily as he had gained it. On his death, which soon after followed, his
+					successor, <ref target="people.html#LouisXII">Louis XII.</ref>, prosecuted the
+					same claim to the Neapolitan crown. <ref target="people.html#FrederickIV"
+						>Frederic</ref>, king of Naples, turned for assistance to his relative, <ref
+						target="people.html#FerdinandIIAragon">Ferdinand</ref> of Spain, who, making
+					the fairest promises, acted with the utmost treachery. He and <ref
+						target="people.html#LouisXII">Louis</ref> agreed to dispossess the reigning
+					sovereign, and to divide the kingdom between them. <ref
+						target="people.html#LouisXII">Louis</ref> was to possess the Abruzzi and the
+					Terra di Lavoro; <ref target="people.html#FerdinandIIAragon">Ferdinand</ref>,
+					Calabria and Puglia. The Pope ratified this compact. For a time, however, it was
+					kept secret. <ref target="people.html#LouisXII">Louis</ref> invaded Naples, but
+						<ref target="people.html#FerdinandIIAragon">Ferdinand</ref> promised his
+					kinsman succour, and sent, apparently for that purpose, him whom the Spaniards
+					name the &quot;great captain,&quot; &#8212; <ref
+						target="people.html#CordobaGonzalo">Gonzalvo de Cordova</ref>. The
+					catastrophe was soon brought about: the French overran the northern portion of
+					the kingdom of Naples; Capua was besieged, and taken by treason; and <ref
+						target="people.html#FrederickIV">Frederic</ref>, while he hoped to find
+					assistance in the Spaniards, was informed of the treachery of <ref
+						target="people.html#FerdinandIIAragon">Ferdinand</ref>. Dispossessed of his
+					kingdom, he first retired to Ischia, and afterwards took refuge in France. The
+					French and Spaniards, after some resistance on the part of the eldest son of
+						<ref target="people.html#FrederickIV">Frederic</ref>, possessed themselves
+					of the land: peace, however, was not the result. The division they had agreed
+					upon was not made so carefully but that room was left to dispute the boundaries.
+					At first, the rival pretensions were amicably arranged in a meeting of <ref
+						target="people.html#ArmagnacLouis">Louis d&apos;Armagnac</ref>, Duc de
+					N&#233;mours, the French viceroy, with <ref target="people.html#CordobaGonzalo"
+						>Gonzalvo de Cordova</ref>: but this was of short duration, and war speedily
+					broke out. The Spanish party was weak and unprovided, and <ref
+						target="people.html#CordobaGonzalo">Gonzalvo</ref>, to gain time, fortified
+					himself at Barletta, there to await the arrival of succour from Spain, and to
+					wear out the French by a war of outposts. The Neapolitans themselves were
+					divided; the Aragonese party adhering to Spain; the partisans of the house of
+					Anjou, to France: the former, however, considered themselves as the real
+					patriotic party, and treated their antagonists as traitors.</p>
+
+				<p>The<ref target="people.html#ArmagnacLouis"> Duc de N&#233;mours</ref> blockaded
+					Barletta: both generals avoided attacks and general engagements, while the
+					numerous chivalry on both sides satisfied their martial tastes and thirst for
+					honour by various challenges and duels. <ref target="people.html#CordobaGonzalo"
+						>Gonzalvo</ref> reaped every advantage from this species of warfare, and in
+					the delay that ensued. The <ref target="people.html#ArmagnacLouis">Duc de
+						N&#233;mours</ref> endeavoured to draw his antagonist into battle, and
+					failed; but, while despising an enemy who refused to fight, he marched with the
+					utmost carelessness. The Spaniards fell on his troops, and made a great many
+					prisoners.</p>
+
+				<p>Among these was Charles Hennuyer de la Motte, a French officer of distinguished
+					bravery. He and his friends in misfortune were invited to partake of a feast
+					given by <ref target="people.html#MendozaDiego">Mendoza</ref>, his conqueror.
+					During the conversation that took place on this occasion, <ref
+						target="people.html#MendozaDiego">Mendoza</ref> attributed his victory to
+					the admirable mon&#339;uvring of the Italian cavalry, commanded by <ref
+						target="people.html#ColonnaProspero">Prospero Colonna</ref>. The French
+					despised the Italians; and La Motte exclaimed that, vanquished as they were on
+					all occasions, they could not presume to compare <pb n="420"/>with the French in
+					any species of warfare, and were only worthy to hold the stirrup to the knights
+					of France. The good humour of the festival was not interrupted by this insult,
+					but, on the morrow, <ref target="people.html#ColonnaProspero">Prospero
+						Colonna</ref> called on La Motte to retract his words: he refused. The
+					honour of both nations appeared to be engaged; and the generals on either side
+					permitted the question to be decided by an appeal to arms. Thirteen Italians and
+					thirteen Frenchman, completely armed, agreed to meet in the lists to fight till
+					they fell, or were made prisoners. The lists were selected midway between
+					Barletta and the quarters of the <ref target="people.html#ArmagnacLouis">Duc de
+						N&#233;mours</ref>. They were surrounded only by a furrow made by a
+					ploughshare; but it was settled that, whoever among the combatants could be
+					driven beyond this boundary, must surrender as vanquished. The Italians were
+					victorious. The French having in their presumption neglected to bring with them
+					the hundred apiece, agreed on as ransom, were led prisoners to Barletta.</p>
+
+				<p>Such is the history of the celebrated challenge which <ref
+						target="people.html#AzeglioMassimo">Azeglio</ref> has made the ornament of
+					his tale. This work has already been translated&#8212;badly enough; but the mere
+					English reader has probably gathered the gist of the story from the translation,
+					as well as from any skeleton account that we can give. The first thing that
+					strikes the Italian reader, on commencing the perusal, is the purity and elegant
+					simplicity of the style. This merit is lost in the translation. It is more
+					difficult, perhaps, to translate well from the Italian than any other language;
+					for the peculiarity of its prose is a wordiness unendurable in any other; and it
+					requires a thorough knowledge of the genius of the language, as well as
+					considerable practice in authorship, at once to preserve the peculiar style of
+					the author, and to produce a readable book. </p>
+
+				<p>The beauty of <ref target="people.html#AzeglioMassimo">Azeglio</ref>&apos;s
+					writing is very great: it is forcible, without exaggeration; elegant, without
+					effort; and in this is very well adapted to the characteristic of his work,
+					which derives its merit from its story, rather than from masterly delineation of
+					character. It is not that the plot is perfect, especially according to our
+					ideas; but it is congruous in its parts, and deeply interesting as a whole. The
+					ill-fated pair of lovers are presented to us in situations full of pathos: the
+					delicacy of sentiment and heroism which they display redeems their position from
+					its usual difficulties. A wife, disliking her husband, and loving another man,
+					is a subject, the topics of which are so obvious, that it is rather a favourite
+					with modern novel-writers; yet it is always infinitely displeasing. <ref
+						target="people.html#AzeglioMassimo">Azeglio</ref> has managed it far better
+					than any other: the passionate, yet regulated, love of the gentle Ginevra, which
+					she broods over in her island convent; the deep, religious devotion of
+					Fieramosca to her and to virtue; the dark terrors that surround them, as well as
+					the chivalric glory that adorns and gilds both themselves and all that surrounds
+					them, sheds grace over every page; and, though these characters are rather
+					shadowed forth than strongly marked, and others are but sketched, yet the few
+					lines we perceive are masterly, and so much in keeping, that though the whole
+					picture is, so to speak, presented in a subdued light, there is no obscurity,
+					nor confusion, nor distortion. The only fault we find is in the personage <ref
+						target="people.html#BorgiaCesare">C&#230;sar Borgia</ref>. He acts at once
+					too subordinate and too influential a part. Kept for the most part in the
+					background, he yet is the most important actor on the scene:&#8212;nor does his
+					conduct seem natural: he, the most restless and fiery of men, is described as
+					being content to remain secreted for many days in a secret chamber of his
+					enemy&apos;s fortress, for no sufficing reason, and then, unexpectedly, the most
+					disgusting and heinous crime is thrown in his path, which he commits, and then
+					disappears. We may be hypercritical: it would be unnatural to place a romance in
+					that age, and <pb n="421"/>people it with such personages, and not introduce
+					crime in the foreground. But a romance-writer must never rest the justification
+					of his plot on bare truth, without adding the dress of art. In real life, our
+					acts and impulses are often most motiveless, in our own eyes, when once past;
+					but in fiction we ought always to feel the enchainment of events as inevitable.
+						<ref target="people.html#AzeglioMassimo">Azeglio</ref> wished to paint his
+					heroine the greatest virtue triumphing over the greatest misfortune: for this he
+					makes her die deceived as to her lover, and believing him inconstant. We feel
+					the heroism of her character, but recoil from the trial to which it is put, and
+					we would fain that Donna Elvira, herself undeceived, had undeceived Ginevra, and
+					that her last moment had been gladdened by the consciousness of
+					Fieramosca&apos;s truth, which, if she had already forgiven her rival, would not
+					have detracted from the height of her virtue. We scarcely know any passage in
+					any author impregnated with a more pathetic spirit than the conclusion of the
+					novel. The night that Fieramosca passes preceding the great duel; his endeavours
+					to believe that all is well with Ginevra; and the unquiet emotions inspired by
+					the scarce audible psalmody over the dead, and by the beams of the light which,
+					in truth, was placed beside the corpse of her he loved, whom he thought living;
+					are touched with a truth and delicacy that go to the heart. The lighter parts of
+					the work are also admirable: the bull-fight&#8212;the feast&#8212;the characters
+					of Fanfulla, Paredes, &amp;c., are entertaining and sprightly; and the
+					description of the great duel itself is brilliant and spirited. There is both
+					pathos and humour in different portions of the tale, but there is no wit. The
+					Italians are not a witty people, nor does their language lend itself to wit: the
+					peculiarity before mentioned, its wordiness, is against a quality whose
+					characteristic is brevity and terseness. <ref
+						target="people.html#ManzoniAlessandro">Manzoni</ref> is highly humorous in
+						<title>Don Abbondio</title>, but he is never witty; and the same with <ref
+						target="people.html#AzeglioMassimo">Azeglio</ref>; the same with every other
+					Italian prose writer; the same will be found in their conversation. In this, as
+					in almost every other quality of mind, they are in contrast with the French.</p>
+
+				<p>The challenge of the Barletta is so dear to the Italians, that it has been
+					selected to adorn the pages of another novel of great merit. &quot;<title>The
+						first Viceroy of Naples</title>&quot; (<title>Il Primo Vicere di
+						Napoli</title>) deserves honourable mention in this account of Italian
+					romances. It is the work of <ref target="people.html#CapocciErnesto"
+						>Capocci</ref>, a Neapolitan, a celebrated astronomer, and a man of profound
+					learning. Deeming that the acknowledgement of so light a production might injure
+					his reputation as a man of science, he has put the name of Belmonte, which was
+					that of his mother, in the titlepage; and, with that pride in honouring those
+					they love, which belongs to the Italians, he has dedicated it to his wife, a
+					lady of great merit and talents.</p>
+
+				<p>The warriors of Barletta are the heroes of this tale. Fieramosca and Brancaleone
+					are introduced as principal personages; and one of the first incidents is the
+					meeting of the latter with his friend&apos;s sister, and their mutual and sudden
+					attachment. But the spirit of the romance is in absolute contrast with <ref
+						target="people.html#AzeglioMassimo">Azeglio</ref>&apos;s.
+						&quot;<title>Hector Fieramosca</title>&quot; is a tale of living, struggling
+					humanity: it describes individuals suffering misfortune and deep sorrow,
+					occasioned by such events as grow out of the situation of their country, and the
+					characters of their contemporaries. It is almost too real for fiction in its
+					disappointments, long-enduring griefs, and tragic catastrophe; while
+						&quot;<title>The First Viceroy of Naples</title>&quot; is, as far as plot is
+					concerned, the commonplace loves of a boy and girl, whose attachment, after a
+					series of adventures and disasters, ends in a happy marriage. One of the chief
+					merits of this book is its simplicity, both of style and sentiment. Wearied by
+					the tendency to bombast now prevailing in literature, the reader is charmed by
+					the <pb n="422"/>ease of the language, and becomes interested unawares in the
+					tissue of incidents, artlessly but agreeably combined. The tale begins with the
+					siege of Capua, mentioned in the sketch given above of the progress of these
+					wars; and here an episode is introduced, which is a good specimen of the manner
+					and power of the author, though, from its length, it must be somewhat
+					abridged.</p>
+
+				<p>Antonello Caracciolo, the head of one of the noblest families of Naples, was a
+					youth of great promise; he was courteous and gentle; and this in spite of the
+					evil lessons of a natural brother, Raymond, who stimulated him to acts of folly
+					and vice: his only faults were such as belonged to his few years. He became
+					enamoured of a peasant girl, the daughter of one of his Calabrian vassals. This
+					girl had a brother, Rocco, a man of giant force and vehement passions, a
+					ruffian&#8212;who was only not a bandit, because he still loved his parents and
+					his sister. Raymond perceived his brother&apos;s attachment to Constance, and
+					conceived a plan of villany to get her into his power. A man had been
+					assassinated near her dwelling; her brother was at a distance. Raymond accused
+					her father of the murder, and threw him into prison; and then instigated her
+					mother to go, accompanied by Constance, and throw herself at Antonello&apos;s
+					feet. The conclusion may be guessed: the daughter was led away, the mother
+					roughly dismissed, but with the intimation that her request was granted. The
+					father was liberated, and returned; but, when he found that the ransom paid was
+					his daughter&apos;s honour, he broke out into the fiercest imprecations; and his
+					son suddenly at this moment returning, he threatened to curse him unless he
+					washed out the stain on the family by some act of dire revenge. Rocco, foiled in
+					his attempt to see Raymond, is driven by insult to assassinate several of
+					Antonello&apos;s followers, and flies to the mountains. That same night terrible
+					signs of his fury were visible in the vast possessions of the prince, and
+					dreadful fires marked the fatal rise of the most famous bandit of an age in
+					which so many flourished.</p>
+
+				<p>The father appealed for vengeance for his wrongs to his sovereign. Antonello had
+					taken refuge in Naples with his peasant mistress, to whom he had become
+					passionately attached. An order was issued that the family of Caracciolo should
+					deliver him up to justice; and when this command was disobeyed, a party of
+					masons were sent to raze the houses of the family, with an order to level one
+					after the other to the ground, till Antonello should be found. On this the
+					unfortunate youth was delivered up, and condemned to death. The tale
+					continues:&#8212;</p>
+				<quote><p>Then a marriage was mentioned, which at first gave rise to rejoicing; but,
+						when the family began no longer to fear for the life of their relative, they
+						declared that death was to be preferred to such a disgrace. Nor was there a
+						noble to whom it did not appear excessive injustice to proceed as severely
+						as if the two parties had been of equal rank. It seemed strange to them to
+						give the same attention to the complaints of an injured vassal, as if he
+						were a count or a baron. But every father and every brother, born out of the
+						privileged class, exulted in his heart, as the chimera, which had a hundred
+						times risen in his mind, of impartial justice in such cases, appeared on the
+						point of being realised.</p>
+					<p>One morning the inhabitants of the market-place saw a black scaffold elevated
+						in the middle of the square; and immediately a vast crowd assembled, more
+						than usually eager to witness so important an execution. The spacious
+						circuit was soon filled, and soon the press grew so great, that the people,
+						jammed together, appeared to lose all elasticity, and to be fused into one
+						mass. There were people on the belfreys, at the windows in the balconies:
+						they covered the tops of the houses, the sides of the fountains, the <pb
+							n="423"/>cornices of the shops and palaces. The unfortunate Antonello,
+						taken from his dungeon, was led in a cart through one of those narrow alleys
+						of the old city of Naples, in which there were none but the cart and the
+						guard that escorted it. When this party turned into the market-place, the
+						vast crowd, with one voice, uttered a loud involuntary shout. The hapless
+						youth, dismayed by the spectacle, almost lost his senses. The terrible truth
+						presented to his sight was hidden by a delirium not less terrible. A mist is
+						before his eyes&#8212;a ringing in his ears&#8212;a cold moisture pervades
+						his body&#8212;his heart palpitates to bursting&#8212;trembling and
+						tottering, every thing turns round&#8212;all seems giving way, and falling
+						into an abyss. The vehement curiosity of the multitude at first sight of
+						Caracciolo immediately changed to pity. Each uncovered his head at the sign
+						of salvation that headed the sad procession, and all remained still and
+						silent. It was a solemn spectacle, when each of so many thousands of men was
+						so preoccupied, that you might have fancied yourself in a desert. At the
+						sudden change the delirium of Antonello also changed: it appeared to him as
+						if the pavement of the immense square had been taken up, and that, instead
+						of stones, it was laid down with human heads, and that he and the
+						executioner were alone in the empty space, while the latter stretched out
+						his hand to seize his hair. O horror! his head is about to fall among the
+						rest! He wished to shriek&#8212;to stop&#8212;to fly! but an irresistible
+						force&#8212;the power of fate&#8212;prevents his moving, and carries him on
+						towards the scaffold. The cart proceeded amidst the press, which, deaf to
+						the signs of the attendants, opened with difficulty to the curvets and leaps
+						of the horses of the armed men, and then closing behind, as the waves of the
+						sea after a vessel, while it seemed to the unfortunate man that at these
+						moments the earth was opening to swallow him. Those who were near saw
+						clearly the internal struggles caused by these visions in the contortion of
+						his limbs and convulsion of his features, but the violence of the agony
+						prevented its long continuance, and he fell fainting in the arms of the
+						priest. When they arrived at the foot of the scaffold, he came to himself,
+						and sighed, and exclaimed, in a voice of woe, &quot;My God! where am I? am I
+						alive? where is Constance? where my mother?&quot; Then, opening his eyes, he
+						looked fixedly round, till, shuddering and turning away, he cried, &quot;No,
+						no!&#8212;he is still there&#8212;No&#8212;I am not yet dead!&quot; Now the
+						comforting voice of the holy minister came to his aid, and the unexpected
+						sight of his Constance, who had arrived by another way, entirely restored
+						his courage. Forgetting the chains that held him back, he was about to
+						advance and embrace her. Hope returned, and he thought, &quot;It cannot be
+						true&#8212;the duchess does not hate me&#8212;how have I injured her? she
+						has always been kind to me&#8212;I cannot forget it: at the last festival at
+						Poggio Reale the duchess and the king were peculiarly courteous: it is a
+						mere show, no more. What wild beast, what tiger, would be so cruel? and to
+						one of my rank&#8212;and at my age! No, it is impossible&#8212;it is folly
+						to imagine otherwise! Constance is all my regret; the hapless Constance,
+						made by me the fable of her native place, and now of the whole kingdom.
+						Unhappy girl&#8212;I suffer, and deserve it; but you, innocent creature,
+						you, indeed, will become the wife of Antonello Caracciolo yet; so that it
+						will seem that I am forced to marry her, while, in truth, there is nothing
+						in the world I desire more&#8212;nothing&#8212;not even life!&quot; And
+						these same thoughts passed through the minds of the spectators.</p>
+					<p>They ascend the scaffold. The feebleness of the youth need not excite
+						surprise&#8212;who ascends between two white-clad monks, and seems bowed by
+						age. See you not how each step adds years to his age? That ill-omened throng
+						of priests and monks freeze the blood, and the extreme youth of <pb n="424"
+						/>the condemned man inspires deep pity. But the sight of the girl, who was
+						the innocent cause of the punishment, excited a more tender emotion, and
+						softened the hardest heart. The peril of Antonello, whom she already
+						regarded as a beloved husband, was an insupportable torment to her. Now,
+						pale and ghastly, she had fallen if she had not been supported&#8212;now,
+						changing colour and blushing, she trembled and shuddered, and was convulsed
+						as by the most acute pain. Sometimes she raised her eyes to heaven,
+						sometimes she turned them fearfully round to find a spot where she could
+						look without meeting the gaze of others&#8212;sometimes she covered her face
+						with her hands, as she appeared to invoke death or the termination of her
+						agony.</p>
+					<p>An altar and a block were both placed on the scaffold. When the two young
+						beings drew near to celebrate the enforced nuptials, they rushed into each
+						other&apos;s arms, and held each other in a long embrace. They were forcibly
+						separated, that the rite might be fulfilled; Constance was dowered by the
+						prince according to his rank: she received the bridal ring, and the priest
+						blessed them. The crowd who witnessed this moving ceremony could not
+						restrain from tears&#8212;the very agents wept; and who would not? But all
+						did not finish here. The same priest who had pronounced the sacred words
+						which gave rise to a new source of life, the very same chaunted forth the
+						comforting psalms that were used to precede the death of the condemned, and
+						to announce the violent separation of a being, guilty though he were, yet
+						our fellow-creature, from the rest of the world. What a tremendous moment!
+						New sprung hope had pitilessly deceived the unfortunate Antonello. Hope had
+						given him strength to feel the spasms of agony till the last moment, as is
+						made manifest by the accent in which he repeats the prayers. And yet he
+						doubts; he does not abandon hope; but, alas! the executioner seizes him, and
+						forces him to kneel beside the block.</p>
+					<p>Already the axe is raised, when a murmur, none knows whence originating, and
+						then a clamour, is heard among the crowd, crying, Pardon! pardon! And can it
+						be? A horseman endeavours to make his way towards the scaffold. Room is
+						eagerly made. Does he not bring a pardon? Profound silence returns. None can
+						take their eyes from him, yet all desire to gaze on Antonello, and they are
+						eager to see both at once. The officer being arrived opposite, made a sign
+						to those on the scaffold; and in a moment, the severed head of Caracciolo
+						was seen shaking, hanging by the hair, as it was held up by the
+						blood-stained hand of the executioner. The eyes were seen to roll, and words
+						and blood to flow from the lips. At the same moment, a piercing shriek was
+						heard, as it were the concentrated expression of general horror; and the
+						woman who gave forth that shriek fell on the ground.</p>
+					<p>A gloomy murmur arose from the sea of heads. It moved and opened in a hundred
+						parts, and the whole crowd, horrified and frightened, separated at once. The
+						ill-fated Constance never rose more. Whether it were surprise, or shame, at
+						finding herself the object of so many eyes at an ignominious
+						spectacle&#8212;whether compassion for her lover, or whether poison had been
+						given her, as was reported, by his relations&#8212;she died.</p>
+					<p>The marble effigy of these unhappy lovers, placed above the arch of the
+						steeple of St. Eligio, in the midst of the market-place, reminds the
+						passer-by of their miserable fate.</p></quote>
+
+				<p>The account given in this work of the duel itself is peculiarly striking. The
+					unaffected simplicity of the style rises into dignity when supported by the
+					importance of the subject. It is, in some respects, superior to <ref
+						target="people.html#AzeglioMassimo">Azeglio</ref>&apos;s, especially in the
+					interest it excites. The duel in &quot;<title>Hector Fieramosca</title>&quot; is
+					placed at the end of the work. The reader has been deeply affected by the <pb
+						n="425"/>wrongs and death of Ginevra: the duel serves neither to avenge her,
+					nor to advance any portion of the story; and loses its natural interest from its
+					taking place when that of the story to which it is appended has drawn to the
+					close. In <ref target="people.html#CapocciErnesto">Belmonte</ref>&apos;s romance
+					it takes place early in the tale, and the personages are full of ardour, hope,
+					and enjoyment. We extract a portion, as a further specimen of the merits of this
+					work; a good translation of which we should be glad to see among our English
+					romances.</p>
+
+				<quote><p>The Italian combatants had heard mass, and sworn to die rather than
+						survive a defeat, and to defend each other till death. They then set forward
+						to the appointed place. Half way they met their four judges, who told them
+						that they had conferred with the judges of the adverse party, and fixed the
+						conditions of the fight; but that the French had not yet arrived. However,
+						Hector Fieramosca, believing the hour agreed upon to be not far off, thought
+						it right not to delay: and, advancing slowly for the space of another mile,
+						arrived at the field. It was a lonely spot, half way between Quarata and
+						Andria, where even now may be seen the fragments of the monument which was
+						erected there in memory of that glorious day, excellently adapted by nature
+						for the purpose; for the soil around is wavy with various irregularities;
+						but here it becomes completely even and plain, and, for a sufficient space,
+						spreads itself into the form of an amphitheatre, unencumbered by any
+						hinderance of tree or rock, while an olive wood flourishes around, forming,
+						as it were, a thick garland. The little plain, being rather low, was
+						covered, through the effects of rain, by a fine shingle, and offered a
+						perfect arena for the man&#339;uvres of the horsemen. On this occasion, the
+						lists selected in the midst of this plain were surrounded by a furrow that
+						enclosed about the eighth part of a mile, and was marked at intervals by
+						large stones. Due egress was given between these to the combatants, who,
+						defeated in the combat, were forced to surrender as vanquished. A seat was
+						prepared for the judges at one extremity of the field, on a jutting ridge of
+						earth, and a magnificent scarlet canopy was raised under the olives. Before
+						and around, but lower down, stood the trumpeters and heralds, who attended
+						on the joust.</p>
+					<p>When the Italians arrived, they were struck by the singular aspect of the
+						field. There was no crowd pressing to and fro without the lists&#8212;no
+						waving of scarfs and handkerchiefs&#8212;no impatient nor welcoming cries at
+						the appearance of the combatants&#8212;all was lonely and quiet. But this
+						gave a more solemn aspect to the scene, as this solitude did not arise from
+						any want of spectators, but from urgent necessity, and, so to speak, a holy
+						reverence: for afar off, in the neighbourhood of Andria and Corato, were to
+						be seen many companies of horsemen, who had no other object than to wait on
+						the necessities of the combat; and, scattered abroad through the country on
+						the limits of the field, innumerable groups of spectators were to be seen
+						clustered upon straw-ricks and trees, who, in a moment, could have walled in
+						the circuit of the lists, had they been allowed to approach.</p>
+					<p>The Italians dismounted, and, kneeling down, implored the protection of the
+						God of Armies; and then, while waiting for the arrival of the enemy, Hector
+						addressed his party thus:&#8212;&quot;Brothers and companions, I should be
+						devoid of understanding, did I think, by my words, to inspire with courage
+						warriors chosen by our illustrious leader as the flower of his troop. No, my
+						friends, we know each other well. But, since the enemy have not yet made
+						their appearance, I have thought it right in this interval to open my mind,
+						which augurs undoubted victory. In times past, many have fought for the sake
+						of private enmity&#8212;others to acquire wealth or power&#8212;others for
+						the love of ladies. But you combat for honour and glory, the <lb/><fw type="vol"><hi rendition="#smcaps">vol. ii.</hi></fw><fw
+							type="sig"><hi rendition="#smcaps">f f</hi></fw><pb n="426"
+						/>most precious and noblest reward that fortune can offer to the brave. And
+						you must also reflect, that you fight to-day, not only for your own glory,
+						but for that of the whole Italian nation. May this inspire you, and gift you
+						with immortal renown, making you famous examples of patriotic valour, and
+						the enduring theme of noble recollection to posterity. Yes, my friends, this
+						combat will be regarded with infinite anxiety by the army, by Italy, by the
+						whole world; and the names of the valiant men who shall remain conquerers on
+						the field will go down to the remotest posterity. I will not allude to the
+						enemy&apos;s arrogance and injurious contempt. May Heaven avert that any of
+						us survive to see the seal put to our shame. What more famous pass of arms
+						than this can our descendants ever witness? In every other it is a mere game
+						and display: this will be a fierce battle. In others, the nature of the
+						arms, and the rules by which they are to be used, is established&#8212;in
+						this we choose for ourselves as in war itself. In a tournament the point of
+						the lance is blunt&#8212;the swords have no edge&#8212;it is dishonourable
+						to wound a horse&#8212;it is a felony to strike with the point. Here we
+						wield lances, clubs, swords, and daggers; and happy is he who can plunge the
+						blade into the heart of his adversary. Yes, happy is he who can reach the
+						heart of him who desires to dishonour his bride, his sister, and his mother;
+						for such is he who dares to vituperate our country, and cover it with
+						infamy. Wherefore, war and death to the French! with every weapon, war and
+						death!&quot; At this moment he perceived some on the opposite side appear:
+						he became silent, and, ordering his helmet to be laced, they mounted their
+						horses, placed their lances in the rests, and began to canter lightly, and
+						to caricole about the field, that they might become familiar with it.</p>
+					<p>The French now presented themselves. First came a gentleman carrying the
+						helmet and lance of Monseigneur de la Motte; twelve other gentlemen
+						followed, two by two, who in like manner carried the lances and helmets of
+						their friends. Then, at fitting intervals, the six couples of combatants
+						followed, armed and mounted as the Italians were; then came La Motte alone;
+						behind him came his spotted charger, and, lastly, the twelve chargers, led
+						by twelve gentlemen, two by two.</p>
+					<p>La Motte, seeing that the Italian cavaliers were prepared, alighted from his
+						hack, and caused his comrades to dismount also. Custom demanded that the
+						leader, on such an occasion, should make a short harangue; but the eager La
+						Motte, excited by the sight of the enemy, and naturally adverse to all
+						formality, burst forth at once. &quot;There they are, my friends, only
+						thirteen&#8212;thirteen exactly, as we are! Shall we allow ourselves to be
+						vanquished at equal arms&#8212;we, who have always seen a double and a
+						triple number fly before us? By my faith! this is the first time we have met
+						so exactly; and the best is that they are all alike, and there is not one
+						Spaniard among them. Poor wretches! not another word about them; there they
+						are&#8212;you behold them so light and airy&#8212;in a little while not one
+						will be seen on the field. Come, let us teach them how arrogant they are to
+						compete with the cavaliers of the King of France. But, I implore you, spare
+						that youth on the bay, with a blue and white scarf: it belongs to me to
+						attack that <hi rendition="#italics">millantatore</hi><note>Braggart; loudmouth.</note> Fieramosca; but
+						afterwards I have a particular engagement with that boy&#8212;reserve him
+						for me&#8212;he challenged me, <hi rendition="#italics">morbleu!</hi><note>An expression of surprise, emphasis,
+								or exasperation.</note>&#8212;so have a care of him.&quot;</p>
+					<p>They then knelt, and addressed a prayer to Heaven, armed themselves, and,
+						being in the saddle, began also with infinite delight to scour the field;
+						and then the standards were placed at each extremity of the field, in
+						expectation of the moment when the judges should give the signal for
+						battle.</p></quote>
+
+				<p>The combat itself is described with great vivacity, and in particular the <pb
+						n="427"/>encounter of La Motte and Brancaleone. Brancaleone is the hero of
+					the tale, but he is a mere youth; and the author, while he wished to attribute
+					to him the honour of vanquishing the French leader, felt that it was too much to
+					make him fall by his hand. But he extricates himself from this difficulty
+					admirably. They had already met and fought, and been separated in the
+					m&#234;l&#233;e, and now they met again. &quot;The dauntless La Motte had begun
+					to lose faith in his unvanquishable prowess; since in this species of skirmish
+					his giant stature and immense strength were of less avail than the agility of
+					the youth, whom with presumptuous confidence he had despised. He writhed, and
+					foamed, and became confused through rage; his desire to conquer became a balk;
+					and the more blindly he rushed on to wound his adversary, the more he exposed
+					himself to his blows. So much blood flowed from his body, and he was wounded in
+					so many places, that he no longer feared injury, since, could he strike to earth
+					his daring adversary, he had been content to be killed by a thousand wounds. At
+					length, among the innumerable blows dealt by La Motte, one reached its aim, and
+					poor Brancaleone also poured out a river of blood; and, on recovering from the
+					stroke, he staggered so that his enemy thought it all over with him. Then his
+					boldness returned; believing that his victory was secure, he turned his eyes to
+					the other combatants, to gather the triumph of the entire conflict. And, though
+					his companions strewed the field, yet, as he saw some among them still on
+					horseback, fighting valiantly, he believed that, could he lend his aid, they
+					would conquer. He therefore changed his mode of attack, and became cautious, and
+					as avaricious of his blood as before he had been lavish. On the other side,
+					Brancaleone, who believed that the blood he spilt must inevitably occasion his
+					death, gave, as a light that expires, the last flame, and threw himself on La
+					Motte with inexpressible fury; while he, warding off the blows, continued to
+					back, and waited to take advantage of some good opportunity, afforded by the
+					other’s fury, to end the great struggle by a blow with his club. But, at this
+					crisis, he heard the cry around&#8212;&apos;La Motte, prisoner! Prisoner, La
+					Motte!&apos; Both paused: La Motte looked around&#8212;he perceived that he had
+					passed the furrow, and was without the lists! A heavy groan burst from him, and
+					he fell with extended arms, as if struck by a thunderbolt.&quot;</p>
+
+				<p>The story of this work turns on the loves of Brancaleone and Giacinta, the sister
+					of Fieramosca; the brother being at first friendly, and then adverse, to their
+					marriage. The prince of Caracciolo, drawn on by the instigations of his bastard
+					brother, Raymond, seeks her hand; and Hector is desirous of this alliance. The
+					prince is assassinated under circumstances that cause poor Brancaleone to be
+					more than suspected. He is thrown into prison, and condemned; he escapes, and
+					flies to the mountains, Giacinta being the companion of his flight. The most
+					pleasing passages of the work are those that describe the wanderings of the
+					lovers, and their residence at the rude but hospitable village of Picinisco. The
+					interest is never high-drawn, but the purity of the style, and the artless
+					simplicity of the narrative, spread a grace over the pages, very unlike the
+					inflated and exaggerated sentiment now the fashion in French romances. The
+					village life at Picinisco is a picture full of innocence and repose. It is
+					disturbed by the inroads of some notorious banditti, the leader of whom is Rocco
+					del Pizzo, brother of the unfortunate Constance, who, under the name of
+					Gambalunga, spreads terror around; and who declared, in scoff of the guard of
+					hunters among Picinisco, that, when they least expected it, he would appear
+					alone among them, and carry off the prettiest girl in the village. His success
+					in this enterprise is amusingly told:&#8212;</p>
+				<quote><p>On the days of festival the devout inhabitants descended to the old church
+						of Santa Maria, placed at the foot of the moun-<lb/><fw type="sig"><hi rendition="#smcaps">f f 2</hi></fw><pb n="428"/>tain,
+						on the top of which, at the distance of a long musket-shot, stands
+						Picinisco. It was the last Sunday of the month, and the children of Ser
+						Ilario had betaken themselves betimes to the church, that they might be
+						among the first to occupy the sides of the confessional of the Canon Crolla,
+						who was the confessor in vogue among these good girls. When they reached the
+						sacristy, they saw, leaning against the great stone eagle which may still be
+						seen near the great gate of the church, a strong youth, who, from his blue
+						cloak, his black nose, and the marks of heat in his face, seemed to be a
+						courier from San Donato. When he saw them approach, he met them with the
+						usual salutation, <hi rendition="#italics">Gesu e Maria</hi>, and, holding
+						out a letter, said, &quot;Thank God! that at last I found some one who can
+						read this paper. My master bade me be speedy; and I have been waiting half
+						an hour here, and cannot find a soul who can read. I know it is for a
+						certain Giannantonio, but I cannot remember his surname.&quot;</p>
+					<p>Celestina took the letter in her hand, saying to herself, as she tried to
+						decipher the writing, &quot;How stupid the people of San Donato are! they
+						make a long journey, and do not know to whom they are going. This fellow
+						does not look silly; and yet he fancies some one can read among these
+						villages! Were it not for the signora, I had never learnt so much.&quot;</p>
+					<p>Her sisters proceeded to the confessional; and she read
+						&quot;Gian&#8212;antonio&#8212;Ar&#8212;,&quot; &quot;Arcaro&#8212;Arcaro.
+						Now I recollect,&quot; said the messenger. &quot;Well,&quot; said the girl,
+						&quot;Giannantonio Arcaro, my friend, does not live at Picinisco, but at Aia
+						del Lupo.&quot; &quot;And where is Aia del Lupo?&quot;
+						&quot;Look&#8212;there are houses&#8212;behind the hill.&quot; &#8212;
+							&quot;<hi rendition="#italics">Cospetto!</hi><note>An exclamation of surprise or wonder.</note> I
+						thought myself arrived, and I am two miles off. How shall I get back to San
+						Donato before dinner? What shall I do? my master bade me hurry. My good
+						girl, be charitable, show me the shortest way.&quot; &quot;That before you,
+						take that road&#8212;when you get to the fountain, turn to the left, and
+						take the path&#8212;but it would be easier to show you the way than to make
+						you understand it;&quot; and, doing what she said, followed by the youth,
+						she reached the fountain, and pointed out the lane of a cross-way which he
+						was to take. But at this moment his eyes lighted up with a fierce
+						expression, which made her eager to return; so she said, &quot;Now I have
+						shown you the way, good bye, friend.&quot; &quot;No, my dear, I do not
+						understand; be so good as to go with me as far as the lane.&quot;
+						&quot;Really&#8212;and what do you take me for, good man! I have lost time
+						coming so far: go, in God&apos;s name! for I must hasten to church.&quot;
+						&quot;You are right, my pretty angel, but you must sometimes do a good turn
+						by a neighbour. I am in a greater hurry, perhaps, than you, my
+						dear&#8212;Come&#8212;come as far as that. With so pretty a face, you must
+						not be hard-hearted. I only ask you to go so far.&quot; &quot;No, no, good
+						man; I have staid too long; good bye.&quot; &quot;Well, then, I must begin
+						already to relieve you from the trouble of walking;&quot; and, so saying, he
+						took her up in his arms, and, in spite of her cries and endeavours to get
+						loose, ran off as if he were carrying a child. This was Gambalunga, the bold
+						Gambalunga, in person. His comrades, who were waiting for him, hidden on the
+						hill of Santa Croce, no sooner saw him than they leapt forth with joyful
+						acclamations.</p></quote>
+
+				<p>The pursuit of the villagers, with Brancaleone at their head, brings on the
+					catastrophe of the story, which, after many perils to the lovers, and romantic
+					incidents, ends happily. The whole presents a pleasing and lively picture of the
+					Italians&#8212;their vehement passions, which lead them right on to their
+					object, accompanied, at the same time, by a sense of natural justice and
+					open-hearted frankness, and adorned by unaffected and gentle manners. This, too,
+					mixed up with so much of wickedness in the bad characters as give darker shades
+					of interest to the tale. We think a translation of this romance would be popular
+					in England.</p>
+
+				<p rendition="#center">[<hi rendition="#italics">To be
+					continued.</hi>]&#160;&#160;&#160;&#160;&#160;&#160;</p>
+			</div>
+		</body>
+	</text>
+</TEI>

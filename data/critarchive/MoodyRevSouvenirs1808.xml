@@ -3,9 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Art. XV. Les Souvenirs de Felicie L***;
-                    i.e. The Recollections of Felicia L***.</title>
-            <title type="sub" level="j">The Monthly Review</title>
+            <title type="main" level="a">Art. XV. Les Souvenirs de Felicie L***; i.e. The
+               Recollections of Felicia L***.</title>
+            <title type="sub">The Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -32,9 +32,9 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. XV. Les Souvenirs de Felicie
-                            L***; i.e. The Recollections of Felicia L***. By
-                            Mad. de Genlis. 12mo. 2 vols. Paris. 1808.</title>
+                  <title type="main" level="a">Art. XV. Les Souvenirs de Felicie L***; i.e. The
+                     Recollections of Felicia L***. By Mad. de Genlis. 12mo. 2 vols. Paris.
+                     1808.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -53,28 +53,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -88,15 +87,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -339,11 +347,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -473,7 +482,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -552,7 +561,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="4">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -587,7 +604,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="essay" org="uniform" sample="complete" part="N">
+         <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
@@ -595,224 +612,211 @@
                         <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title>A<hi rendition="#smcaps">rt</hi>. XV. <hi rendition="#italics">Les
-                                Souvenirs de Felicie L***</hi>; <hi rendition="#italics">i.e.</hi> The Recollections of Felicia L***. By <ref target="people.html#GenlisStephanie">Mad. <hi rendition="#smcaps">de</hi> G<hi rendition="#smcaps">enlis</hi>
-                     </ref>. 12mo. 2
-                            vols. Paris. 1808.<hi rendition="#sup">
-                        <note>
+                        Souvenirs de Felicie L***</hi>; <hi rendition="#italics">i.e.</hi> The
+                     Recollections of Felicia L***. By <ref target="people.html#GenlisStephanie"
+                        >Mad. <hi rendition="#smcaps">de</hi> G<hi rendition="#smcaps">enlis</hi>
+                     </ref>. 12mo. 2 vols. Paris. 1808.<note>
+                        <title>
+                           <hi rendition="#italics">The Monthly Review</hi>
+                        </title>, vol. 56, second series, Foreign Appendix, 1808, pp. 542-544.
+                        Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
+                           <name>Elizabeth Moody</name>
+                        </ref> as the author of this review from an editor's marked copy of <hi
+                           rendition="#italics">
                            <title>
-                              <hi rendition="#italics">The Monthly Review</hi>
-                           </title>,
-                                vol. 56, second series, Foreign Appendix, 1808, pp. 542-544. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's
-                                marked copy of <hi rend="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-                                    Review</ref>
-                              </title>
-                           </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-                                            Series, 1790-1815: Indexes of Contributors and
-                                            Articles</title>
-                           </hi>, Clarendon Press, 1955. The last paragraph
-                                    of this review was authored by George Edward Griffiths, at that
-                                    point the periodical's editor. Jonathan Pinkerton and Mary
-                                    A. Waters prepared this edition of the article for <title>
-                              <hi rendition="#italics">The Criticism Archive</hi>
-                           </title>.
-                                </note>
-                     </hi>
+                              <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                           </title>
+                        </hi>. See Nangle, <hi rendition="#italics">
+                           <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                              Contributors and Articles</title>
+                        </hi>, Clarendon Press, 1955. The last paragraph of this review was authored
+                        by George Edward Griffiths, at that point the periodical's editor. Jonathan
+                        Pinkerton and Mary A. Waters prepared this edition of the article for <title>
+                           <hi rendition="#italics">The Criticism Archive</hi>
+                        </title>. </note>
                   </title>
                </bibl>
             </head>
-            <p>P<hi rendition="#smcaps">ersuaded</hi> that a good writer cannot be <hi rendition="#italics">written down but by himself</hi>,<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#BoswellJames">James
-                                Boswell</ref> quoting <ref target="people.html#JohnsonSamuel">Samuel
-                                Johnson</ref> on 1 October 1773 in <hi rendition="#italics">
-                        <title>The Journal of a Tour to the Hebrides with <ref target="people.html#JohnsonSamuel">Samuel Johnson</ref>,
-                                    LL.D.</title>
-                     </hi> (1785) p. 338.</note>
-               </hi> we become
-                    apprehensive for the pen that seems to promise no end to its labours. It must,
-                    we think, tire at last;—and, to prevent being caught tripping, it were to
-                    be wished that a brilliant career might finish with <hi rendition="#italics">éclat</hi>, and the close of a celebrated literary life be marked by
-                    this praise,</p>
+            <p>P<hi rendition="#smcaps">ersuaded</hi> that a good writer cannot be <hi
+                  rendition="#italics">written down but by himself</hi>,<note>
+                  <ref target="people.html#BoswellJames">James Boswell</ref> quoting <ref
+                     target="people.html#JohnsonSamuel">Samuel Johnson</ref> on 1 October 1773 in
+                     <hi rendition="#italics">
+                     <title>The Journal of a Tour to the Hebrides with <ref
+                           target="people.html#JohnsonSamuel">Samuel Johnson</ref>, LL.D.</title>
+                  </hi> (1785) p. 338.</note> we become apprehensive for the pen that seems to
+               promise no end to its labours. It must, we think, tire at last;—and, to prevent being
+               caught tripping, it were to be wished that a brilliant career might finish with <hi
+                  rendition="#italics">éclat</hi>, and the close of a celebrated literary life be
+               marked by this praise,</p>
             <p>
                <quote>
                   <hi rendition="#italics">Nothing became it like the leaving it.</hi>
-                  <hi rendition="#sup">
-                     <note>Paraphrasing <ref target="people.html#ShakespeareWilliam">William
-                                    Shakespeare</ref>'s tragedy, <title>
-                           <hi rendition="#italics">Macbeth</hi>
-                        </title>, "nothing in
-                                his life / Became him like the leaving it; he died / As one that had
-                                been studied in his death / To throw away the dearest thing he owed,
-                                / As 'twere a careless trifle" (Act I, scene iv, lines
-                                7-11).</note>
-                  </hi>
+                  <note>Paraphrasing <ref target="people.html#ShakespeareWilliam">William
+                        Shakespeare</ref>'s tragedy, <title>
+                        <hi rendition="#italics">Macbeth</hi>
+                     </title>, "nothing in his life / Became him like the leaving it; he died / As
+                     one that had been studied in his death / To throw away the dearest thing he
+                     owed, / As 'twere a careless trifle" (Act I, scene iv, lines 7-11).</note>
                </quote>
             </p>
             <p>Under the title of <title>
                   <hi rendition="#italics">Souvenirs</hi>
-               </title>, <ref target="people.html#GenlisStephanie">Mad. <hi rendition="#smcaps">de</hi>
-                            G<hi rendition="#smcaps">enlis</hi>
-               </ref> here presents us with a
-                    miscellany of anecdotes of courts, details of villagers, and what she terms <hi rendition="#italics">historiettes</hi>, or little histories, <hi rendition="#italics">bonmots</hi>, and jests; many among the latter of which
-                    are not unworthy of our own countryman of laughing memory, <ref target="people.html#MillerJoe">Joe Miller</ref>. We are told that these
-                    choice morsels have been already dispersed through thirty volumes of the <hi rendition="#italics">Bibliothèque des Romans</hi>;<hi rendition="#sup">
-                  <note>A French literary collection that appeared in
-                            periodic installments between 1775 and 1789.</note>
-               </hi> and as they
-                    have been often copied in the journals, and printed in foreign countries, it was
-                    a duty which the fair writer seemed to owe to these wandering effusions of the
-                    muse, to collect them into an edition, and to prevent them from being pirated by
-                    others.</p>
-            <p>The first page leads us to expect a detailed account of <ref target="people.html#GenlisStephanie">Mad. <hi rendition="#smcaps">de</hi>
-                        G.</ref>'s residence in England, and of the many civilities which she
-                    received during her long stay in what she denominates the pretty town of Bury:
-                    yet, even after the mention which she makes of this <hi rendition="#italics">jolie ville</hi>
-               <hi rendition="#sup">
-                  <note>Pretty
-                        town.</note>
-               </hi> and the pleasant society which it afforded, not a tittle
-                    of a grateful <hi rendition="#italics">Souvenir</hi> drops from her pen. 'A
-                    small society, composed of five or six persons, <hi rendition="#italics">très spirituelles</hi>,<hi rendition="#sup">
-                  <note>Very
-                            witty or intellectual.</note>
-               </hi> assembled together every day from the
-                    hours of seven till half-past ten: the amusement consisted of music and
-                    conversation; and the evenings passed very agreeably.' <hi rendition="#italics">Fort agréablement</hi> seems but a vapid <hi rendition="#italics">éloge</hi>
-               <hi rendition="#sup">
-                  <note>Praise.</note>
-               </hi> from the pen of a French-woman, whose language is
-                    generally glowing with expressions of more rapturous signification; and <ref target="people.html#GenlisStephanie">Mad. <hi rendition="#smcaps">de</hi>
-                            G<hi rendition="#smcaps">enlis</hi>
-               </ref>, by excluding from her
-                    vocabulary the words <hi rendition="#italics">charming</hi>, <hi rendition="#italics">enchanting</hi>, &amp;c., excites the suspicion that
-                    this little society had not produced very lively sensations of enjoyment. Here,
-                        <pb n="543"/> however, it was that the plan was projected of a journey to
-                    the delightful cottage of Llangollen; and as this <hi rendition="#italics">Souvenir</hi> seems to have afforded more entertainment to the writer than
-                    any other that resulted from her English travels, it also communicates a
-                    superior degree of interest in the detail. Yet the hasty manner, in which this
-                    visit of curiosity was instantaneously adopted and arranged, is scarcely a less
-                    extraordinary event in the chapter of accidents than the motive which suggested
-                    its accomplishment. It is thus related:</p>
+               </title>, <ref target="people.html#GenlisStephanie">Mad. <hi rendition="#smcaps"
+                     >de</hi> G<hi rendition="#smcaps">enlis</hi>
+               </ref> here presents us with a miscellany of anecdotes of courts, details of
+               villagers, and what she terms <hi rendition="#italics">historiettes</hi>, or little
+               histories, <hi rendition="#italics">bonmots</hi>, and jests; many among the latter of
+               which are not unworthy of our own countryman of laughing memory, <ref
+                  target="people.html#MillerJoe">Joe Miller</ref>. We are told that these choice
+               morsels have been already dispersed through thirty volumes of the <hi
+                  rendition="#italics">Bibliothèque des Romans</hi>;<note>A French literary
+                  collection that appeared in periodic installments between 1775 and 1789.</note>
+               and as they have been often copied in the journals, and printed in foreign countries,
+               it was a duty which the fair writer seemed to owe to these wandering effusions of the
+               muse, to collect them into an edition, and to prevent them from being pirated by
+               others.</p>
+            <p>The first page leads us to expect a detailed account of <ref
+                  target="people.html#GenlisStephanie">Mad. <hi rendition="#smcaps">de</hi>
+               G.</ref>'s residence in England, and of the many civilities which she received during
+               her long stay in what she denominates the pretty town of Bury: yet, even after the
+               mention which she makes of this <hi rendition="#italics">jolie ville</hi>
+               <note>Pretty town.</note> and the pleasant society which it afforded, not a tittle of
+               a grateful <hi rendition="#italics">Souvenir</hi> drops from her pen. 'A small
+               society, composed of five or six persons, <hi rendition="#italics">très
+                  spirituelles</hi>,<note>Very witty or intellectual.</note> assembled together
+               every day from the hours of seven till half-past ten: the amusement consisted of
+               music and conversation; and the evenings passed very agreeably.' <hi
+                  rendition="#italics">Fort agréablement</hi> seems but a vapid <hi
+                  rendition="#italics">éloge</hi>
+               <note>Praise.</note> from the pen of a French-woman, whose language is generally
+               glowing with expressions of more rapturous signification; and <ref
+                  target="people.html#GenlisStephanie">Mad. <hi rendition="#smcaps">de</hi> G<hi
+                     rendition="#smcaps">enlis</hi>
+               </ref>, by excluding from her vocabulary the words <hi rendition="#italics"
+                  >charming</hi>, <hi rendition="#italics">enchanting</hi>, &amp;c., excites the
+               suspicion that this little society had not produced very lively sensations of
+               enjoyment. Here, <pb n="543"/> however, it was that the plan was projected of a
+               journey to the delightful cottage of Llangollen; and as this <hi rendition="#italics"
+                  >Souvenir</hi> seems to have afforded more entertainment to the writer than any
+               other that resulted from her English travels, it also communicates a superior degree
+               of interest in the detail. Yet the hasty manner, in which this visit of curiosity was
+               instantaneously adopted and arranged, is scarcely a less extraordinary event in the
+               chapter of accidents than the motive which suggested its accomplishment. It is thus
+               related:</p>
             <p>
-               <quote>One evening, the subject of our conversation happening to turn on
-                        friendship, I said that I would willingly undertake a very considerable
-                        journey to see <hi rendition="#italics">two friends</hi> who had been <hi rendition="#italics">long</hi> united by the ties of
-                        friendship.—"Well, madame," replied <ref target="people.html#Castlereagh">Mr. Stewart</ref>
-                  <hi rendition="#sup">
-                     <note>Eldest son of Lord Londonderry. [Moody's
-                                note]. Better known as <ref target="people.html#Castlereagh">Lord
-                                    Castlereagh</ref>, Robert Stewart succeeded his father, the 1st
-                                Marquess of Londonderry, in 1821.</note>
-                  </hi>, "go to
-                        Llangollen; you will there see the model of perfect friendship; and the
-                        picture will please you so much the more, as it will be presented by two
-                        women who are still young, and in every respect charming. Do you wish to
-                        know the history of <ref target="people.html#ButlerEleanorLady">Lady Eleanor
-                            Butler</ref> and of <ref target="people.html#PonsonbySarah">Miss
-                            Ponsonby</ref>?"—"I shall be delighted with
-                        it."—"Then I will relate it."—At these words, we
-                        drew our little circle around Mr. Stewart:—he paused a moment for the
-                        purpose of recollection, and then began the narrative nearly in these
-                        terms.</quote>
+               <quote>One evening, the subject of our conversation happening to turn on friendship,
+                  I said that I would willingly undertake a very considerable journey to see <hi
+                     rendition="#italics">two friends</hi> who had been <hi rendition="#italics"
+                     >long</hi> united by the ties of friendship.—"Well, madame," replied <ref
+                     target="people.html#Castlereagh">Mr. Stewart</ref>
+                  <note>Eldest son of Lord Londonderry. [Moody's note]. Better known as <ref
+                        target="people.html#Castlereagh">Lord Castlereagh</ref>, Robert Stewart
+                     succeeded his father, the 1st Marquess of Londonderry, in 1821.</note>, "go to
+                  Llangollen; you will there see the model of perfect friendship; and the picture
+                  will please you so much the more, as it will be presented by two women who are
+                  still young, and in every respect charming. Do you wish to know the history of
+                     <ref target="people.html#ButlerEleanorLady">Lady Eleanor Butler</ref> and of
+                     <ref target="people.html#PonsonbySarah">Miss Ponsonby</ref>?"—"I shall be
+                  delighted with it."—"Then I will relate it."—At these words, we drew our little
+                  circle around Mr. Stewart:—he paused a moment for the purpose of recollection, and
+                  then began the narrative nearly in these terms.</quote>
             </p>
-            <p>We have not space for the insertion of this very novel history; for the accuracy
-                    of which, moreover, we are not able to answer: but we must refer the reader to
-                    Vol. i. p. 3. We cannot, however, fail to participate with <ref target="people.html#GenlisStephanie">Mad. <hi rendition="#smcaps">de</hi>
-                            G<hi rendition="#smcaps">enlis</hi>
-               </ref> in the enthusiasm which her
-                    romantic imagination imbibed from the scenery of Llangollen, and the
-                    extraordinary attachment of its inhabitants; and the <hi rendition="#italics">tout ensemble</hi> must have possessed a mind like hers with such visionary
-                    ideas, that we are not surprized at the effect of Fancy, when it produced the
-                    music of the spheres from the wild and random notes of an Eolian harp. In her
-                    subsequent reflections, nevertheless, <ref target="people.html#GenlisStephanie">Mad. <hi rendition="#smcaps">de</hi> G.</ref> does not appear to be the
-                    advocate of such excentric connections as form the union between Lady Eleanor
-                    Butler and Miss Ponsonby, and she leaves Llangollen apparently <hi rendition="#italics">dis-enchanted</hi>. Yet we are almost sorry when she
-                    takes leave of the friends, and changes her recollections to <hi rendition="#italics">bon mots</hi> and jests. These are very commonly
-                    introduced without analogy, or association of ideas; and the scene shifts
-                    rapidly from the famous <hi rendition="#italics">Vaucanson</hi>,<hi rendition="#sup">
-                  <note>Jacques de Vaucanson (1709-1782), a
-                            French inventor who did indeed create a mechanical duck that "ate" grain
-                            and then discharged "feces" that was pre-stored in a separate
-                            compartment.</note>
-               </hi> the greatest mechanic of his day, who made an
-                    automaton which played on the flute, and a duck that both ate and <hi rendition="#italics">digested</hi> its food, to a merry anecdote of a miser:
-                    which we will favour with our particular notice, in compliment to the fair
-                    author, because it seems to have given her peculiar delight: <pb n="544"/>
+            <p>We have not space for the insertion of this very novel history; for the accuracy of
+               which, moreover, we are not able to answer: but we must refer the reader to Vol. i.
+               p. 3. We cannot, however, fail to participate with <ref
+                  target="people.html#GenlisStephanie">Mad. <hi rendition="#smcaps">de</hi> G<hi
+                     rendition="#smcaps">enlis</hi>
+               </ref> in the enthusiasm which her romantic imagination imbibed from the scenery of
+               Llangollen, and the extraordinary attachment of its inhabitants; and the <hi
+                  rendition="#italics">tout ensemble</hi> must have possessed a mind like hers with
+               such visionary ideas, that we are not surprized at the effect of Fancy, when it
+               produced the music of the spheres from the wild and random notes of an Eolian harp.
+               In her subsequent reflections, nevertheless, <ref
+                  target="people.html#GenlisStephanie">Mad. <hi rendition="#smcaps">de</hi> G.</ref>
+               does not appear to be the advocate of such excentric connections as form the union
+               between Lady Eleanor Butler and Miss Ponsonby, and she leaves Llangollen apparently
+                  <hi rendition="#italics">dis-enchanted</hi>. Yet we are almost sorry when she
+               takes leave of the friends, and changes her recollections to <hi rendition="#italics"
+                  >bon mots</hi> and jests. These are very commonly introduced without analogy, or
+               association of ideas; and the scene shifts rapidly from the famous <hi
+                  rendition="#italics">Vaucanson</hi>,<note>Jacques de Vaucanson (1709-1782), a
+                  French inventor who did indeed create a mechanical duck that "ate" grain and then
+                  discharged "feces" that was pre-stored in a separate compartment.</note> the
+               greatest mechanic of his day, who made an automaton which played on the flute, and a
+               duck that both ate and <hi rendition="#italics">digested</hi> its food, to a merry
+               anecdote of a miser: which we will favour with our particular notice, in compliment
+               to the fair author, because it seems to have given her peculiar delight: <pb n="544"
+               />
             </p>
             <p>
-               <quote>M. <hi rendition="#italics">de C****</hi>, very rich, but
-                        blinded by a cataract formed on both his eyes, came to Paris from the
-                        remotest part of Languedoc, to consult a surgeon; who told him that it was
-                        time for him to perform the operation of couching, for the success of which
-                        he would be answerable. M. <hi rendition="#italics">de
-                            C****</hi> inquired what would be the expence of the
-                        operation: fifty guineas, replied <hi rendition="#italics">Granjean</hi>.—M. <hi rendition="#italics">de C.</hi> remonstrated
-                        grievously against the charge, and was disposed to make a bargain, to lower
-                        the price: but <hi rendition="#italics">Granjean</hi> was inflexible; and M.
-                            <hi rendition="#italics">de C.</hi> had nothing left but patience,
-                        submission, and non-resistance. Some days afterward, the surgeon performed
-                        the operation; when, having removed the cataract from the right eye, M. <hi rendition="#italics">de C.</hi> exclaimed with transport, that his sight
-                        was perfectly restored. Come then, said <hi rendition="#italics">Granjean</hi>, let us proceed to the other eye. Stay a moment, replied
-                        M. <hi rendition="#italics">de C.</hi>:—you take fifty guineas for the
-                        whole operation; that is, five-and-twenty for each eye: now as I see quite
-                        as well as is necessary, and as I wish to see, I shall content myself with
-                        one eye: to recover the other would be a very useless luxury; there are your
-                            <hi rendition="#italics">five-and-twenty guineas</hi>.</quote>
+               <quote>M. <hi rendition="#italics">de C****</hi>, very rich, but blinded by a
+                  cataract formed on both his eyes, came to Paris from the remotest part of
+                  Languedoc, to consult a surgeon; who told him that it was time for him to perform
+                  the operation of couching, for the success of which he would be answerable. M. <hi
+                     rendition="#italics">de C****</hi> inquired what would be the expence of the
+                  operation: fifty guineas, replied <hi rendition="#italics">Granjean</hi>.—M. <hi
+                     rendition="#italics">de C.</hi> remonstrated grievously against the charge, and
+                  was disposed to make a bargain, to lower the price: but <hi rendition="#italics"
+                     >Granjean</hi> was inflexible; and M. <hi rendition="#italics">de C.</hi> had
+                  nothing left but patience, submission, and non-resistance. Some days afterward,
+                  the surgeon performed the operation; when, having removed the cataract from the
+                  right eye, M. <hi rendition="#italics">de C.</hi> exclaimed with transport, that
+                  his sight was perfectly restored. Come then, said <hi rendition="#italics"
+                     >Granjean</hi>, let us proceed to the other eye. Stay a moment, replied M. <hi
+                     rendition="#italics">de C.</hi>:—you take fifty guineas for the whole
+                  operation; that is, five-and-twenty for each eye: now as I see quite as well as is
+                  necessary, and as I wish to see, I shall content myself with one eye: to recover
+                  the other would be a very useless luxury; there are your <hi rendition="#italics"
+                     >five-and-twenty guineas</hi>.</quote>
             </p>
-            <p>With one more sprightly anecdote, we shall close our extracts; and as it relates
-                    to our celebrated countryman Mr. <ref target="people.html#GibbonEdward">Gibbon</ref>, we think that it will not be uninteresting to the reader:</p>
+            <p>With one more sprightly anecdote, we shall close our extracts; and as it relates to
+               our celebrated countryman Mr. <ref target="people.html#GibbonEdward">Gibbon</ref>, we
+               think that it will not be uninteresting to the reader:</p>
             <p>
-               <quote>I hear from Lausanne that Mr. <ref target="people.html#GibbonEdward">Gibbon</ref> has been settled there for some time,<hi rendition="#sup">
-                     <note>The historian <ref target="people.html#GibbonEdward">Edward Gibbon</ref> spend
-                                several years after leaving Oxford in Lausanne, returning there
-                                later in life to again spend several years.</note>
-                  </hi> and is
-                        extremely well received. He is, they tell me, grown so prodigiously fat,
-                        that he walks with great difficulty: yet with this figure, and his strange
-                        face, Mr. <ref target="people.html#GibbonEdward">Gibbon</ref> is infinitely
-                        gallant, and is fallen in love with a beautiful woman, <ref target="people.html#MontolieuIsabelle">Madame <hi rendition="#italics">de Crouzas</hi>
-                  </ref>.<hi rendition="#sup">
-                     <note>After
-                                the death of her first husband, Benjamin de Crouzas, <ref target="people.html#MontolieuIsabelle">Madame de Crouzas</ref>
-                                married Baron Louis de Montolieu.</note>
-                  </hi> One day, finding
-                        himself with her <hi rendition="#italics">tête à tête</hi>
-                        for the first time, and desirous of availing himself of so favourable a
-                        moment, he fell suddenly on his knees, and made a declaration of his flame
-                        in the most passionate terms. <ref target="people.html#MontolieuIsabelle">Madame <hi rendition="#italics">de Crouzas</hi>
-                  </ref> replied in a
-                        manner sufficiently repulsive to discourage every temptation to renew the
-                        scene, and Mr. <ref target="people.html#GibbonEdward">Gibbon</ref> appeared
-                        embarrassed: but he nevertheless retained his prostrate attitude; and
-                        notwithstanding Madame's repeated invitation to re-seat himself on his
-                        chair, he was motionless and silent.—"But, sir," repeated
-                            <ref target="people.html#MontolieuIsabelle">Madame <hi rendition="#italics">de Crouzas</hi>
-                  </ref>, "rise, I beseech
-                        you."—"Alas, Madame," at length answered this
-                        unfortunate lover, "<hi rendition="#italics">I am not able</hi>."
-                        In truth, the corpulency of his person totally impeded the possibility of
-                        his recovering his legs without assistance. <ref target="people.html#MontolieuIsabelle">Madame <hi rendition="#italics">de C</hi>
-                  </ref>. then rang the bell, and desired the servant to
-                        help Mr. <ref target="people.html#GibbonEdward">Gibbon</ref> to
-                        rise.</quote>
+               <quote>I hear from Lausanne that Mr. <ref target="people.html#GibbonEdward"
+                     >Gibbon</ref> has been settled there for some time,<note>The historian <ref
+                        target="people.html#GibbonEdward">Edward Gibbon</ref> spend several years
+                     after leaving Oxford in Lausanne, returning there later in life to again spend
+                     several years.</note> and is extremely well received. He is, they tell me,
+                  grown so prodigiously fat, that he walks with great difficulty: yet with this
+                  figure, and his strange face, Mr. <ref target="people.html#GibbonEdward"
+                     >Gibbon</ref> is infinitely gallant, and is fallen in love with a beautiful
+                  woman, <ref target="people.html#MontolieuIsabelle">Madame <hi rendition="#italics"
+                        >de Crouzas</hi>
+                  </ref>.<note>After the death of her first husband, Benjamin de Crouzas, <ref
+                        target="people.html#MontolieuIsabelle">Madame de Crouzas</ref> married Baron
+                     Louis de Montolieu.</note> One day, finding himself with her <hi
+                     rendition="#italics">tête à tête</hi> for the first time, and desirous of
+                  availing himself of so favourable a moment, he fell suddenly on his knees, and
+                  made a declaration of his flame in the most passionate terms. <ref
+                     target="people.html#MontolieuIsabelle">Madame <hi rendition="#italics">de
+                        Crouzas</hi>
+                  </ref> replied in a manner sufficiently repulsive to discourage every temptation
+                  to renew the scene, and Mr. <ref target="people.html#GibbonEdward">Gibbon</ref>
+                  appeared embarrassed: but he nevertheless retained his prostrate attitude; and
+                  notwithstanding Madame's repeated invitation to re-seat himself on his chair, he
+                  was motionless and silent.—"But, sir," repeated <ref
+                     target="people.html#MontolieuIsabelle">Madame <hi rendition="#italics">de
+                        Crouzas</hi>
+                  </ref>, "rise, I beseech you."—"Alas, Madame," at length answered this unfortunate
+                  lover, "<hi rendition="#italics">I am not able</hi>." In truth, the corpulency of
+                  his person totally impeded the possibility of his recovering his legs without
+                  assistance. <ref target="people.html#MontolieuIsabelle">Madame <hi
+                        rendition="#italics">de C</hi>
+                  </ref>. then rang the bell, and desired the servant to help Mr. <ref
+                     target="people.html#GibbonEdward">Gibbon</ref> to rise.</quote>
             </p>
-            <p>Here <ref target="people.html#GenlisStephanie">Mad. <hi rendition="#smcaps">de</hi> G<hi rendition="#smcaps">enlis</hi>
-               </ref> takes leave of the
-                        <hi rendition="#italics">gros Monsieur </hi>
-               <ref target="people.html#GibbonEdward">Gibbon</ref>, and directs her satiric pen
-                    to another ill-starred lover, whose stature was in the extreme of opposition;
-                    and the little man was even more ludicrously punished for an unwelcome
-                    declaration, by being <hi rendition="#italics">placed upon the
-                        chimney-piece</hi>.</p>
-            <p>In revenge for the treatment of this unhappy wight, we shall now put the fair
-                    writer herself upon the shelf.</p>
+            <p>Here <ref target="people.html#GenlisStephanie">Mad. <hi rendition="#smcaps">de</hi>
+                     G<hi rendition="#smcaps">enlis</hi>
+               </ref> takes leave of the <hi rendition="#italics">gros Monsieur </hi>
+               <ref target="people.html#GibbonEdward">Gibbon</ref>, and directs her satiric pen to
+               another ill-starred lover, whose stature was in the extreme of opposition; and the
+               little man was even more ludicrously punished for an unwelcome declaration, by being
+                  <hi rendition="#italics">placed upon the chimney-piece</hi>.</p>
+            <p>In revenge for the treatment of this unhappy wight, we shall now put the fair writer
+               herself upon the shelf.</p>
          </div>
       </body>
    </text>

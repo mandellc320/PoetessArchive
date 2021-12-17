@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Mrs. Brooke</title>
-            <title type="sub" level="m">The British Novelists</title>
+            <title type="sub">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -57,28 +57,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+        				placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p>
                <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+        				such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -556,7 +555,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="8">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below
+						but starting with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -565,7 +572,7 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#LM" when="20200611" n="7">
+         <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -628,19 +635,17 @@
                         <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
                      </name>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
                      <ref target="people.html#BrookeFrances">MRS.
                                 BROOKE.</ref>
-                     <hi rendition="#sup">
-                        <note>
-                           <title level="m">
-                              <hi rendition="#italics">The British Novelists;
+                     <note>
+                        <title level="m">
+                           <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
                                             by <ref target="people.html#BarbauldMrs">Mrs.
                                                 Barbauld</ref>
-                              </hi>
-                           </title>, 50 Vols. (London:
+                           </hi>
+                        </title>, 50 Vols. (London:
                                     Printed for F.C. and J. Rivington; W. Otridge and Son; A.
                                     Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
                                     Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
@@ -652,7 +657,6 @@
                                     Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.; W.
                                     Creech, Edinburgh; and Wilson and Son, York, 1810), 27:i-ii.
                                     Mary A. Waters edited this edition for <hi rendition="#italics">The Criticism Archive</hi>.</note>
-                     </hi>
                   </title>
                </bibl>
             </head>
@@ -666,39 +670,33 @@
                     periodical paper entitled <title>
                   <hi rendition="#italics">The Old
                         Maid</hi>
-               </title>,<hi rendition="#sup">
-                  <note>A weekly
+               </title>,<note>A weekly
                             periodical published on Saturdays from November 15, 1755 to July 24,
-                            1756 under the pseudonym "Mary Singleton."</note>
-               </hi> and some pieces
+                            1756 under the pseudonym "Mary Singleton."</note> and some pieces
                     for the theatre. She translated <title>
                   <hi rendition="#italics">Lady Catesby’s
                             Letters</hi>
                </title>
-               <hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Letters from Juliet Lady
+               <note>
+                  <hi rendition="#italics">
+                     <title>Letters from Juliet Lady
                                 Catesby</title>
-                     </hi>, (1759), an epistolary novel by <ref target="people.html#RiccoboniMarie">Marie
-                        Riccoboni</ref>.</note>
-               </hi> from the French, and several other works. The
+                  </hi>, (1759), an epistolary novel by <ref target="people.html#RiccoboniMarie">Marie
+                        Riccoboni</ref>.</note> from the French, and several other works. The
                     two novels by which she is best known are <title>
                   <hi rendition="#italics">Emily
                             Montague</hi>
                </title>, and <title>
                   <hi rendition="#italics">Lady Julia
                             Mandeville</hi>
-               </title>.<hi rendition="#sup">
-                  <note>Novels
+               </title>.<note>Novels
                             published 1769 and 1763, respectively. <hi rendition="#italics">
-                        <title>The History of Lady Julia Mandeville</title>
-                     </hi> is the
+                     <title>The History of Lady Julia Mandeville</title>
+                  </hi> is the
                             novel featured in <hi rendition="#italics">
-                        <title>The British
+                     <title>The British
                                     Novelists</title>
-                     </hi>.</note>
-               </hi> The latter is a simple, well
+                  </hi>.</note> The latter is a simple, well
                     connected story, told with elegance and strong effect. It is a forcible appeal
                     to the feelings against the savage practice of duelling. <title>
                   <hi rendition="#italics">Emily Montague</hi>
@@ -711,11 +709,12 @@
             <p> What can be more animated than the description of the breaking up of the vast
                     body of ice which forms what is called the <hi rendition="#italics">bridge</hi>,
                     from Quebec to Point Levi? "The ice before the town being five feet thick,
-                    a league in length, <lb/>
-               <fw type="vol">
+                    a league in length,
+               <lb/><fw type="vol">
                   <hi rendition="#smcaps">vol.
-                        xxvii</hi>.</fw>
-               <fw type="sig" rendition="#center">a</fw>
+                        xxvii.</hi>
+               </fw>
+               <fw type="sig">a</fw>
                <pb n="ii"/>and more than a mile broad, resists for a long time the rapid tide that
                     attempts to force it from the banks. At length," she says, "the hour
                     is come. I have been with a crowd of both sexes, and all ranks, hailing the

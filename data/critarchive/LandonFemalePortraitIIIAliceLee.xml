@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Female Portrait Gallery, From Sir Walter Scott. By the
-					Author of "The Improvvisatrice." No. III.—Alice Lee.</title>
+               Author of "The Improvvisatrice." No. III.—Alice Lee.</title>
             <title type="sub" level="j">New Monthly Magazine and Humorist</title>
             <author type="writer">
                <name>Letitia E. Landon</name>
@@ -32,9 +32,8 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Female Portrait Gallery, From Sir Walter Scott.
-							By the Author of "The Improvvisatrice." No. III.—Alice
-							Lee.</title>
+                  <title type="main" level="a">Female Portrait Gallery, From Sir Walter Scott. By
+                     the Author of "The Improvvisatrice." No. III.—Alice Lee.</title>
                   <author type="writer">Landon, Letitia E., 1802-1838</author>
                </analytic>
                <monogr>
@@ -53,28 +52,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -88,15 +86,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -339,11 +346,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -473,7 +481,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -552,7 +560,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="4">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -587,482 +603,429 @@
    </teiHeader>
    <text>
       <body>
-         <div type="essay" org="uniform" sample="complete" part="N">
+         <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
                      <ref target="people.html#LandonLetitia">
-                        <name>Letitia E. Landon</name>
+                        <name>Letitia Elizabeth Landon</name>
                      </ref>
+                     <lb/>
                   </author>
-                  <lb/>
-                  <title>FEMALE PORTRAIT GALLERY, FROM <ref target="people.html#ScottWalter">SIR WALTER SCOTT</ref>. <lb/>
-                     <hi rendition="#smcaps">by <ref target="people.html#LandonLetitia">the author of "the
-									improvvisatrice."</ref>
+                  <title>FEMALE PORTRAIT GALLERY, FROM <ref target="people.html#ScottWalter">SIR
+                        WALTER SCOTT</ref>. <lb/>
+                     <hi rendition="#smcaps">by <ref target="people.html#LandonLetitia">the author
+                           of "the improvvisatrice."</ref>
                      </hi>
                      <lb/>No. III.—<hi rendition="#smcaps">Alice Lee.</hi>
-                     <hi rendition="#sup">
-                        <note>
-                           <hi rendition="#italics">
-                              <title>New Monthly Magazine and Humorist</title>
-                           </hi>,
-									second series, vol. 52, no. 208, April 1838, pp. 480-485.
-									Alice Lee is a character from <ref target="people.html#ScottWalter">Sir Walter
-									Scott</ref>'s 1826 novel <hi rendition="#italics">
-                              <title>Woodstock</title>
-                           </hi>. Laura DeWitt and Mary A.
-									Waters co-edited this edition for <hi rendition="#italics">The
-										Criticism Archive</hi>.</note>
-                     </hi>
+                     <note>
+                        <hi rendition="#italics">
+                           <title>New Monthly Magazine and Humorist</title>
+                        </hi>, second series, vol. 52, no. 208, April 1838, pp. 480-485. Alice Lee
+                        is a character from <ref target="people.html#ScottWalter">Sir Walter
+                           Scott</ref>'s 1826 novel <hi rendition="#italics">
+                           <title>Woodstock</title>
+                        </hi>. Laura DeWitt and Mary A. Waters co-edited this edition for <hi
+                           rendition="#italics">The Criticism Archive</hi>.</note>
                   </title>
                </bibl>
             </head>
             <p>From <title>Marmion</title> to <title>Woodstock</title>
-               <hi rendition="#sup">
-                  <note>
+               <note>
+                  <hi rendition="#italics">
+                     <title>Marmion</title>
+                  </hi> is <ref target="people.html#ScottWalter">Scott</ref>'s 1808 long narrative
+                  poem.</note> is a wide step—it passes over the greater portion of <ref
+                  target="people.html#ScottWalter">Sir Walter</ref>'s life—they belong indeed to
+               periods as widely different as they are widely apart. <title>Marmion</title> belongs
+               to the spring, <title>Woodstock</title> to the autumn. The one is fresh, eager, and
+               impetuous, there are the winds of March, and the flowers of April; it abounds with
+               that prodigality of power and beauty which belongs to the year's first and lavish
+               season. The other has the same power and the same beauty—but the exercise of the one
+               is skilful, and the display of the other mellowed. But it is in the writer's self
+               that the chief change is found—many a hue has faded from the landscape—many a green
+               leaf turned yellow since the exquisite introductions ushered in the various cantos.
+               Many a pulse, too, has lost its elasticity—many a warm quick emotion sleeps to awaken
+               no more: the heart loses its youth while the mind is in all its vigour. In one of the
+               memoranda of the deeply-affecting journal in the last volume of "<ref
+                  target="people.html#ScottWalter">Scott</ref>'s Life," he observes:—"People say
+               that the whole human frame in all its parts and divisions, is gradually, in the act,
+               decaying and renewing. What a curious timepiece it would be that could indicate to us
+               the moment this gradual and insensible change had so completely taken place that no
+               atom was left of the original person who had existed at a certain period, but there
+               existed in his stead another person having the same thews and sinews, the same face
+               and lineaments, the same consciousness—a new ship built on an old plank—a pair of
+               transmigrated stockings like those of <ref target="people.html#CutlerJohn">Sir John
+                  Cutler</ref>, all green without one thread of the original black left! singular,
+               to be at once another and the same."<note>From <hi rendition="#italics">
+                     <title>The Journal of <ref target="people.html#ScottWalter">Sir Walter
+                           Scott</ref>
+                     </title>
+                  </hi> for 1 January, 1826. <ref target="people.html#ScottWalter">Scott</ref>
+                  refers to an anecdote from the works of the <ref
+                     target="people.html#ScriblerusClub">Scriblerus Club,</ref> later collected in
                      <hi rendition="#italics">
-                        <title>Marmion</title>
-                     </hi> is
-								<ref target="people.html#ScottWalter">Scott</ref>'s 1808 long
-							narrative poem.</note>
-               </hi> is a wide step—it passes over the
-					greater portion of <ref target="people.html#ScottWalter">Sir Walter</ref>'s
-					life—they belong indeed to periods as widely different as they are widely
-					apart. <title>Marmion</title> belongs to the spring, <title>Woodstock</title> to
-					the autumn. The one is fresh, eager, and impetuous, there are the winds of
-					March, and the flowers of April; it abounds with that prodigality of power and
-					beauty which belongs to the year's first and lavish season. The other has
-					the same power and the same beauty—but the exercise of the one is skilful,
-					and the display of the other mellowed. But it is in the writer's self that
-					the chief change is found—many a hue has faded from the
-					landscape—many a green leaf turned yellow since the exquisite
-					introductions ushered in the various cantos. Many a pulse, too, has lost its
-					elasticity—many a warm quick emotion sleeps to awaken no more: the heart
-					loses its youth while the mind is in all its vigour. In one of the memoranda of
-					the deeply-affecting journal in the last volume of "<ref target="people.html#ScottWalter">Scott</ref>'s Life," he
-					observes:—"People say that the whole human frame in all its parts and
-					divisions, is gradually, in the act, decaying and renewing. What a curious
-					timepiece it would be that could indicate to us the moment this gradual and
-					insensible change had so completely taken place that no atom was left of the
-					original person who had existed at a certain period, but there existed in his
-					stead another person having the same thews and sinews, the same face and
-					lineaments, the same consciousness—a new ship built on an old
-					plank—a pair of transmigrated stockings like those of <ref target="people.html#CutlerJohn">Sir John Cutler</ref>, all green without one
-					thread of the original black left! singular, to be at once another and the
-						same."<hi rendition="#sup">
-                  <note>From <hi rendition="#italics">
-                        <title>The Journal of <ref target="people.html#ScottWalter">Sir Walter
-									Scott</ref>
-                        </title>
-                     </hi> for 1 January, 1826. <ref target="people.html#ScottWalter">Scott</ref> refers to an anecdote
-							from the works of the <ref target="people.html#ScriblerusClub">Scriblerus Club,</ref> later collected in <hi rendition="#italics">
-                        <title>Memoirs of the Extraordinary Life, Works, and
-									Discoveries of Martinus Scriblerus</title>
-                     </hi> (1741).
-							According to the story, <ref target="people.html#CutlerJohn">Sir John
-								Cutler</ref>'s wool stockings had been so often mended with
-							silk that he no longer recognized them as the same pair of stockings.
-						</note>
-               </hi>
+                     <title>Memoirs of the Extraordinary Life, Works, and Discoveries of Martinus
+                        Scriblerus</title>
+                  </hi> (1741). According to the story, <ref target="people.html#CutlerJohn">Sir
+                     John Cutler</ref>'s wool stockings had been so often mended with silk that he
+                  no longer recognized them as the same pair of stockings. </note>
             </p>
             <pb n="481"/>
-            <p>By-the-by, this doctrine of perpetual transmigration would be a curious plea to
-					urge for the non-fulfilment of former engagements; seven years is I believe the
-					term allotted for the entire change. Now, might not a man encumbered with debt
-					plead at the expiration of the period in the Courts of Westminster, that he was
-					not the person who actually contracted those debts? Or might not an inconstant
-					couple sue for a divorce, on the plea that neither were the individuals who
-					originally married? But as— <quote>
+            <p>By-the-by, this doctrine of perpetual transmigration would be a curious plea to urge
+               for the non-fulfilment of former engagements; seven years is I believe the term
+               allotted for the entire change. Now, might not a man encumbered with debt plead at
+               the expiration of the period in the Courts of Westminster, that he was not the person
+               who actually contracted those debts? Or might not an inconstant couple sue for a
+               divorce, on the plea that neither were the individuals who originally married? But
+               as— <quote>
                   <lg type="stanza">
                      <l>In these nice quibbles of the law,</l>
-                     <l>Good sooth, I am no wiser than a daw,<hi rendition="#sup">
-                           <note>A slightly altered quotation from <ref target="people.html#ShakespeareWilliam">William
-											Shakespeare</ref>'s <hi rendition="#italics">
-                                 <title>Henry VI</title>
-                              </hi>, Part I, Act II, scene
-										iv, lines 17-18.</note>
-                        </hi>
+                     <l>Good sooth, I am no wiser than a daw,<note>A slightly altered quotation from
+                              <ref target="people.html#ShakespeareWilliam">William
+                           Shakespeare</ref>'s <hi rendition="#italics">
+                              <title>Henry VI</title>
+                           </hi>, Part I, Act II, scene iv, lines 17-18.</note>
                      </l>
                   </lg>
                </quote> I shall leave these intricate questions to closer casuists. But if the
-					outward world be changed, how much more changed is that within! <quote>
+               outward world be changed, how much more changed is that within! <quote>
                   <lg type="stanza">
                      <l>'Tis not from youth's smooth cheek alone,</l>
                      <l rendition="#indent1">The bloom that fades so fast,</l>
                      <l>But the tender bloom of the heart is gone</l>
-                     <l rendition="#indent1">Before its youth be past.<hi rendition="#sup">
-                           <note>From <ref target="people.html#ByronGeorge">Byron</ref>'s
-											"<title>Stanzas for Music: There's Not a Joy
-											the World Can Give</title>," lines 3-4, slightly
-										altered.</note>
-                        </hi>
+                     <l rendition="#indent1">Before its youth be past.<note>From <ref
+                              target="people.html#ByronGeorge">Byron</ref>'s "<title>Stanzas for
+                              Music: There's Not a Joy the World Can Give</title>," lines 3-4,
+                           slightly altered.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>We set out in life, generous, frank, and confiding; the first emotion is always
-					kind and lofty—we are eager to love, for we feel that affection is
-					enjoyment, and that "happiness was born a twin. The world seems filled with
-					beauty, and our very fancies are tangible delights."<hi rendition="#sup">
-                  <note>A quote partially drawn from <ref target="people.html#ByronGeorge">Byron</ref>'s <hi rendition="#italics">
-                        <title>Don Juan</title>
-                     </hi>, Canto II, stanza
-							clxxii.</note>
-               </hi>
+            <p>We set out in life, generous, frank, and confiding; the first emotion is always kind
+               and lofty—we are eager to love, for we feel that affection is enjoyment, and that
+               "happiness was born a twin. The world seems filled with beauty, and our very fancies
+               are tangible delights."<note>A quote partially drawn from <ref
+                     target="people.html#ByronGeorge">Byron</ref>'s <hi rendition="#italics">
+                     <title>Don Juan</title>
+                  </hi>, Canto II, stanza clxxii.</note>
                <quote>
                   <lg type="stanza">
                      <l>We clothe the palpable and the familiar</l>
-                     <l>With golden exhalations from the dawn.<hi rendition="#sup">
-                           <note>From <ref target="people.html#ColeridgeSamuel">Coleridge</ref>'s translation of <hi rendition="#italics">
-                                 <title>The Death of
-												Wallenstein</title>
-                              </hi>, by <ref target="people.html#SchillerFriedrich">Friedrich
-											Schiller</ref>, Act V, Scene III, slightly
-										altered.</note>
-                        </hi>
+                     <l>With golden exhalations from the dawn.<note>From <ref
+                              target="people.html#ColeridgeSamuel">Coleridge</ref>'s translation of
+                              <hi rendition="#italics">
+                              <title>The Death of Wallenstein</title>
+                           </hi>, by <ref target="people.html#SchillerFriedrich">Friedrich
+                              Schiller</ref>, Act V, Scene III, slightly altered.</note>
                      </l>
                   </lg>
-               </quote> But the mist melts away, and with it half the loveliness of
-					the landscape: we are startled to find in how many illusions we have indulged.
-					The dew-drops that glittered as if just melted from some fairy rainbow, are
-					shaken from the bough, and there hangs the bare and thorny branch—old
-					friends have fallen from us, and their memory is sad:— <quote>
+               </quote> But the mist melts away, and with it half the loveliness of the landscape:
+               we are startled to find in how many illusions we have indulged. The dew-drops that
+               glittered as if just melted from some fairy rainbow, are shaken from the bough, and
+               there hangs the bare and thorny branch—old friends have fallen from us, and their
+               memory is sad:— <quote>
                   <lg type="stanza">
                      <l>They come in long procession led</l>
-                     <l>The cold, the faithless, and the dead.<hi rendition="#sup">
-                           <note>From <ref target="people.html#ScottWalter">Scott</ref>'s poem <hi rendition="#italics">
-                                 <title>The Lady of the Lake</title>
-                              </hi>, Canto
-										First, "The Chase," stanza xxxiii.</note>
-                        </hi>
+                     <l>The cold, the faithless, and the dead.<note>From <ref
+                              target="people.html#ScottWalter">Scott</ref>'s poem <hi
+                              rendition="#italics">
+                              <title>The Lady of the Lake</title>
+                           </hi>, Canto First, "The Chase," stanza xxxiii.</note>
                      </l>
                   </lg>
-               </quote> It is no longer easy to supply their place—love is no
-					longer the easy and the credulous. We investigate the motive, where we once
-					trusted to the impulse: we doubt, because we have been deceived: we cannot
-					choose but remember how often our kindliest feelings have been wasted, and our
-					confidence been betrayed. The dark past flings its shadow forward on our path
-					like a perpetual warning; it is no longer easy to spring into the sunshine. We
-					all grow wiser, but assuredly we are grown colder and graver. The sadness of
-					youth is half poetry. <ref target="people.html#WordsworthWilliam">Wordsworth</ref> truly says <quote>
+               </quote> It is no longer easy to supply their place—love is no longer the easy and
+               the credulous. We investigate the motive, where we once trusted to the impulse: we
+               doubt, because we have been deceived: we cannot choose but remember how often our
+               kindliest feelings have been wasted, and our confidence been betrayed. The dark past
+               flings its shadow forward on our path like a perpetual warning; it is no longer easy
+               to spring into the sunshine. We all grow wiser, but assuredly we are grown colder and
+               graver. The sadness of youth is half poetry. <ref
+                  target="people.html#WordsworthWilliam">Wordsworth</ref> truly says <quote>
                   <lg type="stanza">
                      <l>In youth sad fancies we affect,</l>
                      <l>In luxury of disrespect,</l>
                      <l>Of our own prodigal excess</l>
-                     <l>Of too familiar happiness.<hi rendition="#sup">
-                           <note>From <ref target="people.html#WordsworthWilliam">Wordsworth</ref>'s "<title>Ode to
-											Lycoris</title>," Stanza II, lines 23-6, somewhat
-										altered.</note>
-                        </hi>
+                     <l>Of too familiar happiness.<note>From <ref
+                              target="people.html#WordsworthWilliam">Wordsworth</ref>'s "<title>Ode
+                              to Lycoris</title>," Stanza II, lines 23-6, somewhat altered.</note>
                      </l>
                   </lg>
-               </quote> Youth has sorrows, but maturity has cares, and the care is harder to
-					bear than the sorrow. Circumstances, too, may change around us; and the trouble
-					that comes late in the day is a heavy burden. We have no longer the alacrity of
-					spirit that feels but half the weight it carries. I know nothing so touching as
-					the account in "<title>
-                  <ref target="people.html#ScottWalter">Scott</ref>'s Memoirs</title>" of how different the modes of
-					composition which led to the production of <title>Marmion</title> and of
-						<title>Woodstock</title>. The poet of <title>Marmion</title> delighted in
-					the external impulse—the verse rose sounding in his ears while loitering
-						<lb/>
+               </quote> Youth has sorrows, but maturity has cares, and the care is harder to bear
+               than the sorrow. Circumstances, too, may change around us; and the trouble that comes
+               late in the day is a heavy burden. We have no longer the alacrity of spirit that
+               feels but half the weight it carries. I know nothing so touching as the account in "<title>
+                  <ref target="people.html#ScottWalter">Scott</ref>'s Memoirs</title>" of how
+               different the modes of composition which led to the production of
+                  <title>Marmion</title> and of <title>Woodstock</title>. The poet of
+                  <title>Marmion</title> delighted in the external impulse—the verse rose sounding
+               in his ears while loitering <lb/>
                <fw type="vol">
-                  <hi rendition="#italics">April</hi>.<hi rendition="#smcaps">—vol. lii. no. ccviii.</hi>
+                  <hi rendition="#italics">April</hi>.<hi rendition="#smcaps">—vol. lii. no.
+                     ccviii.</hi>
                </fw>
-               <fw type="sig">2 i</fw>
-               <pb n="482"/>beneath the tall
-					old ash-trees with the wind in their branches and the sunshine on their leaves.
-					He caught his melody when <quote>
+               <fw type="sig">
+                  <hi rendition="#smcaps">2 i</hi>
+               </fw>
+               <pb n="482"/>beneath the tall old ash-trees with the wind in their branches and the
+               sunshine on their leaves. He caught his melody when <quote>
                   <lg type="stanza">
                      <l rendition="#indent6">—— thoughts awake</l>
-                     <l>By lone St. Mary's silent lake.<hi rendition="#sup">
-                           <note>Taken from <ref target="people.html#ScottWalter">Scott</ref>'s <hi rendition="#italics">
-                                 <title>Marmion</title>
-                              </hi>,
-										Introduction to Canto II, lines 146-7.</note>
-                        </hi>
+                     <l>By lone St. Mary's silent lake.<note>Taken from <ref
+                              target="people.html#ScottWalter">Scott</ref>'s <hi
+                              rendition="#italics">
+                              <title>Marmion</title>
+                           </hi>, Introduction to Canto II, lines 146-7.</note>
                      </l>
                   </lg>
-               </quote> The battle of Flodden filled his mind when "he used to delight in
-					walking his powerful black steed up and down by himself on the Porto Bello sands
-					within the beating of the surge, and now and then you would see him plunge in
-					his spurs, and go off as if at the charge, with the spray dashing about him. As
-					we rode back to Musselburgh, he often came and placed himself beside me<hi rendition="#sup">
-                  <note>Mr. Skene. [<ref target="people.html#LandonLetitia">Landon</ref>'s note]. <ref target="people.html#LandonLetitia">Landon</ref> refers to James
-							Skene (1775-1864), an attorney, watercolorist, and sometime literary man
-							originally from Rubislaw near Aberdeen, who was a close friend of <ref target="people.html#ScottWalter">Scott</ref>. This and several of
-							the other prose quotes that follow are from <ref target="people.html#LockhartJohn">John Gibson Lockhart</ref>'s
-								<hi rendition="#italics">Memoirs of the Life of <ref target="people.html#ScottWalter">Sir Walter Scott</ref>
-                     </hi>
-							(1837-8).</note>
-               </hi> to repeat the verses that he had been composing
-					during the pauses of our exercise." <ref target="people.html#LockhartJohn">Lockhart</ref> remarks, "I well remember his saying, as I rode with
-					him across the hills from Ashetiel to Newark one day in his declining
-					years—'Oh, man, I had many a grand gallop among these braes, when I
-					was thinking of <title>Marmion</title>, but a trotting canny pony must serve me
-					now.'"</p>
+               </quote> The battle of Flodden filled his mind when "he used to delight in walking
+               his powerful black steed up and down by himself on the Porto Bello sands within the
+               beating of the surge, and now and then you would see him plunge in his spurs, and go
+               off as if at the charge, with the spray dashing about him. As we rode back to
+               Musselburgh, he often came and placed himself beside me<note>Mr. Skene. [<ref
+                     target="people.html#LandonLetitia">Landon</ref>'s note]. <ref
+                     target="people.html#LandonLetitia">Landon</ref> refers to James Skene
+                  (1775-1864), an attorney, watercolorist, and sometime literary man originally from
+                  Rubislaw near Aberdeen, who was a close friend of <ref
+                     target="people.html#ScottWalter">Scott</ref>. This and several of the other
+                  prose quotes that follow are from <ref target="people.html#LockhartJohn">John
+                     Gibson Lockhart</ref>'s <hi rendition="#italics">Memoirs of the Life of <ref
+                        target="people.html#ScottWalter">Sir Walter Scott</ref>
+                  </hi> (1837-8).</note> to repeat the verses that he had been composing during the
+               pauses of our exercise." <ref target="people.html#LockhartJohn">Lockhart</ref>
+               remarks, "I well remember his saying, as I rode with him across the hills from
+               Ashetiel to Newark one day in his declining years—'Oh, man, I had many a grand gallop
+               among these braes, when I was thinking of <title>Marmion</title>, but a trotting
+               canny pony must serve me now.'"</p>
             <p>
-               <ref target="people.html#ScottWalter">Scott</ref> apologising—ah, how
-					needlessly!—for the exquisite epistles to his friends in
-						"<title>Marmion</title>" says—"I was still young,
-					light-hearted, and happy—and 'out of the abundance of the heart the
-					mouth speaketh.'"<hi rendition="#sup">
-                  <note>Luke
-							6:45.</note>
-               </hi>
+               <ref target="people.html#ScottWalter">Scott</ref> apologising—ah, how needlessly!—for
+               the exquisite epistles to his friends in "<title>Marmion</title>" says—"I was still
+               young, light-hearted, and happy—and 'out of the abundance of the heart the mouth
+                  speaketh.'"<note>Luke 6:45.</note>
                <quote>
                   <lg type="stanza">
-                     <l>Look on this picture and on this.<hi rendition="#sup">
-                           <note>Slightly altered from <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>'s <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi>, Act III, Scene IV, line
-										63.</note>
-                        </hi>
+                     <l>Look on this picture and on this.<note>Slightly altered from <ref
+                              target="people.html#ShakespeareWilliam">Shakespeare</ref>'s <hi
+                              rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi>, Act III, Scene IV, line 63.</note>
                      </l>
                   </lg>
-               </quote> It would be sacrilege to alter one word of <ref target="people.html#LockhartJohn">Lockhart</ref>'s touching, deeply
-					touching, description of his literary labours years afterwards.</p>
-            <p>"He read, and noted, and indexed, with the pertinacity of some pale compiler
-					in the British Museum; but rose from such employment, not radiant and buoyant as
-					after he had been feasting himself among the teeming harvests of fancy, but with
-					an aching brow, and eyes on which the dimness of years had began to plant some
-					specks, before they were subjected again to that straining over small print and
-					difficult MS, which had no doubt been familiar to them in the early time, when,
-					in Shortreed's<hi rendition="#sup">
-                  <note>Robert Shortreed
-							(1762-1829) was sheriff-substitute of Jedburgh and friend of <ref target="people.html#ScottWalter">Sir Walter Scott</ref>. As <ref target="people.html#ScottWalter">Scott</ref>'s guide, Shortreed
-							and <ref target="people.html#ScottWalter">Scott</ref> explored
-							Liddesdale together, and their adventures inspired much of <ref target="people.html#ScottWalter">Scott</ref>'s work.
-						</note>
-               </hi> phrase, 'he was making himself.' It was a pleasant
-					sight when one happened to take a peep into his den, to see the white head
-					erect, and the smile of conscious inspiration on his lips; while the pen, held
-					boldly and at a commanding distance, glanced steadily and gaily along a fast
-					blackening page of the '<title>Talisman</title>.'<hi rendition="#sup">
-                  <note>The title of <ref target="people.html#ScottWalter">Scott</ref>'s 1825 novel.</note>
-               </hi> It now often made me
-					sorry to catch a glimpse of him; stooping and poring with his spectacles, amidst
-					piles of authorities, a little note-book in the left hand, that had always been
-					at liberty for patting Maida."<hi rendition="#sup">
-                  <note>Reportedly <ref target="people.html#ScottWalter">Scott</ref>'s
-							favorite dog, Maida was a <hi rendition="#italics">Highland
-								Deerhound</hi> and <hi rendition="#italics">Pyrenean Wolfdog</hi>
-							crossbreed, named after the Battle of Maida during the <ref target="people.html#Napoleon">Napoleonic</ref> Wars.</note>
-               </hi>
-               <ref target="people.html#ScottWalter">Sir Walter</ref> himself often alludes in
-					his Journal to his disinclination for composition, and the way in which, during
-					the progress of <title>Woodstock</title>, he had to force his mind to the task.
-					In one part, it is "I hope to sleep better to-night; if I do not, I shall
-					get ill, and then I shall not be able to keep my engagements."<hi rendition="#sup">
-                  <note>For January 26, 1826, slightly
-							altered.</note>
-               </hi> Then come continual enumerations of the number of
-					pages written, and remarks on the physical weakness. "I am a good deal
-					jaded, and will not work till after dinner. There is a sort of drowsy
-					vacillation of the mind attends fatigue with me:—I can command my pen as
-					the school-copy recommends, but cannot equally command my thoughts, and often
-					write one word for another."<hi rendition="#sup">
-                  <note>February 23, 1826.</note>
-               </hi> In addition are perpetual recurrences to
-					the pecuniary difficulties in which he is involved:—difficulties whose
-					endurance sets the rack and wheel at defiance; they are— <quote>
+               </quote> It would be sacrilege to alter one word of <ref
+                  target="people.html#LockhartJohn">Lockhart</ref>'s touching, deeply touching,
+               description of his literary labours years afterwards.</p>
+            <p>"He read, and noted, and indexed, with the pertinacity of some pale compiler in the
+               British Museum; but rose from such employment, not radiant and buoyant as after he
+               had been feasting himself among the teeming harvests of fancy, but with an aching
+               brow, and eyes on which the dimness of years had began to plant some specks, before
+               they were subjected again to that straining over small print and difficult MS, which
+               had no doubt been familiar to them in the early time, when, in
+                  Shortreed's<note>Robert Shortreed (1762-1829) was sheriff-substitute of Jedburgh
+                  and friend of <ref target="people.html#ScottWalter">Sir Walter Scott</ref>. As
+                     <ref target="people.html#ScottWalter">Scott</ref>'s guide, Shortreed and <ref
+                     target="people.html#ScottWalter">Scott</ref> explored Liddesdale together, and
+                  their adventures inspired much of <ref target="people.html#ScottWalter"
+                     >Scott</ref>'s work. </note> phrase, 'he was making himself.' It was a pleasant
+               sight when one happened to take a peep into his den, to see the white head erect, and
+               the smile of conscious inspiration on his lips; while the pen, held boldly and at a
+               commanding distance, glanced steadily and gaily along a fast blackening page of the
+                  '<title>Talisman</title>.'<note>The title of <ref target="people.html#ScottWalter"
+                     >Scott</ref>'s 1825 novel.</note> It now often made me sorry to catch a glimpse
+               of him; stooping and poring with his spectacles, amidst piles of authorities, a
+               little note-book in the left hand, that had always been at liberty for patting
+                  Maida."<note>Reportedly <ref target="people.html#ScottWalter">Scott</ref>'s
+                  favorite dog, Maida was a <hi rendition="#italics">Highland Deerhound</hi> and <hi
+                     rendition="#italics">Pyrenean Wolfdog</hi> crossbreed, named after the Battle
+                  of Maida during the <ref target="people.html#Napoleon">Napoleonic</ref>
+                  Wars.</note>
+               <ref target="people.html#ScottWalter">Sir Walter</ref> himself often alludes in his
+               Journal to his disinclination for composition, and the way in which, during the
+               progress of <title>Woodstock</title>, he had to force his mind to the task. In one
+               part, it is "I hope to sleep better to-night; if I do not, I shall get ill, and then
+               I shall not be able to keep my engagements."<note>For January 26, 1826, slightly
+                  altered.</note> Then come continual enumerations of the number of pages written,
+               and remarks on the physical weakness. "I am a good deal jaded, and will not work till
+               after dinner. There is a sort of drowsy vacillation of the mind attends fatigue with
+               me:—I can command my pen as the school-copy recommends, but cannot equally command my
+               thoughts, and often write one word for another."<note>February 23, 1826.</note> In
+               addition are perpetual recurrences to the pecuniary difficulties in which he is
+               involved:—difficulties whose endurance sets the rack and wheel at defiance; they are— <quote>
                   <lg type="stanza">
                      <l>Tortures the poor alone can know,</l>
-                     <l>The proud alone can feel.<hi rendition="#sup">
-                           <note>From
-											<ref target="people.html#HalleckFitzGreene">Fitz-Greene
-											Halleck</ref>'s poem "<title>
-                                 <ref target="people.html#BurnsRobert">Burns</ref>, to a
-											Rose, Brought from Near Alloway Kirk, in Ayrshire, in
-											the Autumn of 1822</title>," lines 95-6. Written in
-										1822 during a trip to Europe, the poem was first published
-										in 1827 as one of the "other poems" in <hi rendition="#italics">
-                                 <title>Alnwick Castle, with Other
-												Poems</title>
-                              </hi> (1827).</note>
-                        </hi>
+                     <l>The proud alone can feel.<note>From <ref
+                              target="people.html#HalleckFitzGreene">Fitz-Greene Halleck</ref>'s
+                           poem "<title>
+                              <ref target="people.html#BurnsRobert">Burns</ref>, to a Rose, Brought
+                              from Near Alloway Kirk, in Ayrshire, in the Autumn of 1822</title>,"
+                           lines 95-6. Written in 1822 during a trip to Europe, the poem was first
+                           published in 1827 as one of the "other poems" in <hi rendition="#italics">
+                              <title>Alnwick Castle, with Other Poems</title>
+                           </hi> (1827).</note>
                      </l>
                   </lg>
                </quote>
-               <pb n="483"/>Yet these were the circumstances under which
-						<title>Woodstock</title>, one of the most striking and original of his
-					works, was produced. The history of most fictions would be far stranger than the
-					fictions themselves; but it would be a dark and sad chronicle. Half the works
-					that constitute the charm of our leisure, that give their own interest to the
-					long November evening, or add to the charm of a summer noon beneath the
-					greenwood tree, are the offspring of poverty and of pain. <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref> wrote
-						<title>Rasselas</title> to pay the last decent respect of the living to the
-					dead—his mother's funeral expenses. How often is the writer obliged
-					to put his own trouble, his suffering, or his sorrow aside, to finish his task!
-					The hand may tremble, the eyes fill with unbidden tears, and the temples throb
-					with feverish pain, yet how often is there some hard and harsh necessity, which
-					says, "the work must be done." Readers, in general, think little of
-					this: they will say, "Dear! how delightful to be able to write such
-					charming things! how it must amuse you!" I believe if there were only the
-					author's amusement in the case it would fall very short of their own; not
-					but what composition has its moments of keen and rapid delight when the scene
-					rises vividly before you, and the mind is warm with the consciousness of its own
-					powers: but these are only "angel visits," they do not form the staple
-					of any work. Literature soon becomes a power, not what it once was, a passion;
-					but literary success, like all others, is only to be obtained, and retained, by
-					labour—and labour and inclination do not always go together. Take all our
-					most eminent writers, and the quantity of work, hard work, they have got
-					through, will be found enormous and perpetual. Literature, as a profession,
-					allows little leisure, and less indulgence. The readers are the gainers: to them
-					how little difference does it make that <title>Marmion</title> was written in
-					youth, health, and prosperity; while <title>Woodstock</title> was the weary task
-					of breaking health, and broken fortunes—their amusement is the same! But
-					even to the most careless, a deeper interest is thrown around these volumes, and
-					every little touch of individuality seems like the familiar intercourse of a
-					friend. <ref target="people.html#LockhartJohn">Lockhart</ref> says in the
-					Memoir, "I know not how others interpreted various passages in
-						<title>Woodstock</title>, but there were not a few that carried deep
-					meaning, for such of <ref target="people.html#ScottWalter">Scott</ref>'s
-					own friends as were acquainted with, not his pecuniary misfortunes alone, but
-					the drooping health of his wife, and the consolation afforded him by the dutiful
-					devotion of his daughter Anne, in whose character and demeanour a change had
-					occurred exactly similar to that painted in poor Alice Lee—'a light
-					joyous air, with something of a humorous expression, which seemed to be looking
-					for amusement, had vanished before the touch of affection, and a calm melancholy
-					had supplied its place, which seemed on the watch to administer comfort to
-						others.'"<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Woodstock</title>
-                     </hi>, Chapter
-							Thirteen. The portion from <ref target="people.html#LockhartJohn">Lockhart</ref>'s <hi rendition="#italics">
-                        <title>Memoirs</title>
-                     </hi> comes from Volume 4, Chapter LXXI
-							for 1826.</note>
-               </hi>
+               <pb n="483"/>Yet these were the circumstances under which <title>Woodstock</title>,
+               one of the most striking and original of his works, was produced. The history of most
+               fictions would be far stranger than the fictions themselves; but it would be a dark
+               and sad chronicle. Half the works that constitute the charm of our leisure, that give
+               their own interest to the long November evening, or add to the charm of a summer noon
+               beneath the greenwood tree, are the offspring of poverty and of pain. <ref
+                  target="people.html#JohnsonSamuel">Dr. Johnson</ref> wrote <title>Rasselas</title>
+               to pay the last decent respect of the living to the dead—his mother's funeral
+               expenses. How often is the writer obliged to put his own trouble, his suffering, or
+               his sorrow aside, to finish his task! The hand may tremble, the eyes fill with
+               unbidden tears, and the temples throb with feverish pain, yet how often is there some
+               hard and harsh necessity, which says, "the work must be done." Readers, in general,
+               think little of this: they will say, "Dear! how delightful to be able to write such
+               charming things! how it must amuse you!" I believe if there were only the author's
+               amusement in the case it would fall very short of their own; not but what composition
+               has its moments of keen and rapid delight when the scene rises vividly before you,
+               and the mind is warm with the consciousness of its own powers: but these are only
+               "angel visits," they do not form the staple of any work. Literature soon becomes a
+               power, not what it once was, a passion; but literary success, like all others, is
+               only to be obtained, and retained, by labour—and labour and inclination do not always
+               go together. Take all our most eminent writers, and the quantity of work, hard work,
+               they have got through, will be found enormous and perpetual. Literature, as a
+               profession, allows little leisure, and less indulgence. The readers are the gainers:
+               to them how little difference does it make that <title>Marmion</title> was written in
+               youth, health, and prosperity; while <title>Woodstock</title> was the weary task of
+               breaking health, and broken fortunes—their amusement is the same! But even to the
+               most careless, a deeper interest is thrown around these volumes, and every little
+               touch of individuality seems like the familiar intercourse of a friend. <ref
+                  target="people.html#LockhartJohn">Lockhart</ref> says in the Memoir, "I know not
+               how others interpreted various passages in <title>Woodstock</title>, but there were
+               not a few that carried deep meaning, for such of <ref
+                  target="people.html#ScottWalter">Scott</ref>'s own friends as were acquainted
+               with, not his pecuniary misfortunes alone, but the drooping health of his wife, and
+               the consolation afforded him by the dutiful devotion of his daughter Anne, in whose
+               character and demeanour a change had occurred exactly similar to that painted in poor
+               Alice Lee—'a light joyous air, with something of a humorous expression, which seemed
+               to be looking for amusement, had vanished before the touch of affection, and a calm
+               melancholy had supplied its place, which seemed on the watch to administer comfort to others.'"<note>
+                  <hi rendition="#italics">
+                     <title>Woodstock</title>
+                  </hi>, Chapter Thirteen. The portion from <ref target="people.html#LockhartJohn"
+                     >Lockhart</ref>'s <hi rendition="#italics">
+                     <title>Memoirs</title>
+                  </hi> comes from Volume 4, Chapter LXXI for 1826.</note>
             </p>
-            <p>There is a very touching allusion to Miss Scott's anxiety about her
-					father's enjoyments, in the Diary:—"Anne is practising Scottish
-					songs, which I take as a kind compliment to my own taste, as her's leads
-					her chiefly to foreign music. I think the good girl sees that I want and must
-					miss her sister's peculiar talent in singing the airs of our native
-					country, which, imperfect as my musical ear is, make, and have always made, the
-					most pleasing impression on me; and so, if she puts a constraint on herself for
-					my sake, I can only say in requital, 'God bless her!'"<hi rendition="#sup">
-                  <note>For December 7, 1825.</note>
-               </hi> There
-					is sunshine in a shady place, and it is soothing to imagine the pleasure that
-						<ref target="people.html#ScottWalter">Scott</ref> must have had while
-					investing the creature of his <lb/>
-               <fw type="sig">2 i 2</fw>
-               <pb n="484"/>imagination with the love and devotion
-					which had been his own solace. There is a striking reality about the character
-					of Alice Lee. They are indeed unfortunate who can recall no likeness, who are
-					not reminded of some actual instance of affection lightening adversity, and
-					shedding its own sweetness over the sorrow which it could at least share. Alice
-					Lee is among the most loveable of <ref target="people.html#ScottWalter">Scott</ref>'s feminine creations. No writer possessed, to a greater
-					degree, that faculty which <ref target="people.html#ColeridgeSamuel">Coleridge</ref> so prettily describes in one line— <quote>
+            <p>There is a very touching allusion to Miss Scott's anxiety about her father's
+               enjoyments, in the Diary:—"Anne is practising Scottish songs, which I take as a kind
+               compliment to my own taste, as her's leads her chiefly to foreign music. I think the
+               good girl sees that I want and must miss her sister's peculiar talent in singing the
+               airs of our native country, which, imperfect as my musical ear is, make, and have
+               always made, the most pleasing impression on me; and so, if she puts a constraint on
+               herself for my sake, I can only say in requital, 'God bless her!'"<note>For December
+                  7, 1825.</note> There is sunshine in a shady place, and it is soothing to imagine
+               the pleasure that <ref target="people.html#ScottWalter">Scott</ref> must have had
+               while investing the creature of his <lb/><fw type="sig">
+                  <hi rendition="#smcaps">2 i 2</hi>
+               </fw>
+               <pb n="484"/>imagination with the love and devotion which had been his own solace.
+               There is a striking reality about the character of Alice Lee. They are indeed
+               unfortunate who can recall no likeness, who are not reminded of some actual instance
+               of affection lightening adversity, and shedding its own sweetness over the sorrow
+               which it could at least share. Alice Lee is among the most loveable of <ref
+                  target="people.html#ScottWalter">Scott</ref>'s feminine creations. No writer
+               possessed, to a greater degree, that faculty which <ref
+                  target="people.html#ColeridgeSamuel">Coleridge</ref> so prettily describes in one
+               line— <quote>
                   <lg type="stanza">
-                     <l>My eyes make pictures when they're shut.<hi rendition="#sup">
-                           <note>The first line of <ref target="people.html#ColeridgeSamuel">Coleridge</ref>'s poem "<title>A Day
-											Dream</title>."</note>
-                        </hi>
+                     <l>My eyes make pictures when they're shut.<note>The first line of <ref
+                              target="people.html#ColeridgeSamuel">Coleridge</ref>'s poem "<title>A
+                              Day Dream</title>."</note>
                      </l>
                   </lg>
                </quote> And every appearance of Alice Lee is a picture. We see her first in the
-					shadowy twilight, the light step of youth subdued to the heavier tread of age;
-					and in the dialogue that follows, with what force, and yet what delicacy, we are
-					made acquainted with the innermost recesses of the maiden's heart! Alice is
-					at the most interesting period of a woman's existence—when the
-					character is gradually forming under circumstances that develop all latent
-					qualities. The rose has opened to the summer—the girl has suddenly become
-					a woman.</p>
-            <p>Alice Lee's predominate feeling is attachment to her father: her love for
-					her cousin is a gentle and quiet love; it belongs to the ease and familiarity of
-					childhood; it is constantly subdued by a rival and holier sentiment.
-					Alice's devotion to her father is not merely the fulfilment of a duty, it
-					is a warmer and keener emotion—there is pity and enthusiasm blended with
-					her filial piety—she sees the kind-hearted old man bowed by adversity,
-					mortified in all those innocent vanities which sit closely to every heart; his
-					old age is deprived of those comforts with which youth may dispense—but
-					which are hard to lose when they are, and have long been, matters both of right
-					and habit. No wonder that his child clings to him with a deeper, sadder,
-					tenderness. Who can avoid bringing the picture home to <ref target="people.html#ScottWalter">Scott</ref> himself? his difficulties seem
-					peculiarly adapted to awaken the most painful sympathy. They came upon him in
-					his old age, yet were met with the noblest spirit of resistance. From the time
-					that he felt labour to be a duty—with what unflinching earnestness did he
-					set about that labour! Not even when working to achieve the dearest objects of
-					his ambition—to become the master of Abbotsford—to settle an eldest
-					and beloved son in life—did <ref target="people.html#ScottWalter">Scott</ref> exert himself as he did when the exertion was for his
-					creditors. It seems doubly hard when we think how much others had to do with the
-					burden whose weight was upon him even to the grave.</p>
-            <p>While on this subject, may I be permitted a few words concerning one to whose
-					memory but harsh and scanty justice has been allotted—I allude to the late
-						<ref target="people.html#ConstableArchibald">Mr. Constable</ref>? Perhaps I
-					may be biassed by the recollection of kindness extended to myself when very
-					young. <ref target="people.html#ConstableArchibald">Mr. Constable</ref> was the
-					first publisher with whom I had ever any communication. His peculiarly kind and
-					courteous manner (I went to visit some near relatives in the North under his
-					escort) left an indelible impression. I was then a child in everything,
-					especially judgment; and would as little now venture to pronounce on affairs of
-					which I can know nothing. But I may be allowed to dwell on the general
-					benevolence of <ref target="people.html#ConstableArchibald">Mr.
-					Constable</ref>'s character. <ref target="people.html#ScottWalter">Sir
-						Walter Scott</ref> particularly remarks, that <ref target="people.html#ConstableArchibald">Constable</ref>'s individual
-					expenses were moderate, and within what his income would have seemed to justify:
-					if he failed, it was in the cause of that literature to which he devoted himself
-					with an enthusiasm of an order far beyond the mere <pb n="485"/>speculations of
-					profit. There must have been delicacy, as well as generosity, in the mind that
-					concealed from the author any comparative failure in the sale of his works, lest
-					it should damp his genius. Look what its first great publisher did for the
-					publishing trade in Edinburgh; with him it rose into existence and prosperity,
-					and with him it died. He originated our first periodical—and, both in
-					literature and in politics, what vast influence has been, and is exercised by
-					the "<title>
-                  <ref target="people.html#EdinburghReview">Edinburgh
-							Review</ref>
-               </title>!" He, too, was the first person who saw the
-					growing demand of the public mind for intellectual food; and the plan of cheap
-					publication, so general now, and profitable to so many, was <ref target="people.html#ConstableArchibald">Mr. Constable</ref>'s idea. In
-					his long career, how many owed to him kindness and assistance—and how
-					melancholy were its closing scenes! The body destroyed—the mind broken
-					down: such was the close of the great publisher—and of the great
-					author!</p>
-            <p>"<title>Woodstock</title>" belongs to a better time. <ref target="people.html#ScottWalter">Scott</ref> felt his powers vigorous as
-					ever—and no one could imagine and dwell upon such a creation as Alice Lee,
-					and not be the better and the happier. Every time she appears on the scene she
-					brings with her an atmosphere of purity and beauty. How lovely is the scene
-					conjured up in the little hut, when the evening hymn disturbs, but to make
-					musical, the silence of the forest glades; and the words of faith and hope,
-					cheering the gentle and maiden heart, which was their worthy temple! Again, in
-					what a noble and high spirit is her rejection of Charles's ungenerous suit.
-					Only one of a school, whose profligacy was the cold result of vanity, could have
-					insulted a purity so simple and so apparent, by dishonourable affection. But it
-					is mockery to use the word affection in such a case. I do not believe that
-					affection can exist without truth, without the ideal, and without blending with
-					itself all that is best and most earnest in our nature. Charles thinks far less
-					of Alice than of the sneer of Buckingham and the jest of Rochester.</p>
+               shadowy twilight, the light step of youth subdued to the heavier tread of age; and in
+               the dialogue that follows, with what force, and yet what delicacy, we are made
+               acquainted with the innermost recesses of the maiden's heart! Alice is at the most
+               interesting period of a woman's existence—when the character is gradually forming
+               under circumstances that develop all latent qualities. The rose has opened to the
+               summer—the girl has suddenly become a woman.</p>
+            <p>Alice Lee's predominate feeling is attachment to her father: her love for her cousin
+               is a gentle and quiet love; it belongs to the ease and familiarity of childhood; it
+               is constantly subdued by a rival and holier sentiment. Alice's devotion to her father
+               is not merely the fulfilment of a duty, it is a warmer and keener emotion—there is
+               pity and enthusiasm blended with her filial piety—she sees the kind-hearted old man
+               bowed by adversity, mortified in all those innocent vanities which sit closely to
+               every heart; his old age is deprived of those comforts with which youth may
+               dispense—but which are hard to lose when they are, and have long been, matters both
+               of right and habit. No wonder that his child clings to him with a deeper, sadder,
+               tenderness. Who can avoid bringing the picture home to <ref
+                  target="people.html#ScottWalter">Scott</ref> himself? his difficulties seem
+               peculiarly adapted to awaken the most painful sympathy. They came upon him in his old
+               age, yet were met with the noblest spirit of resistance. From the time that he felt
+               labour to be a duty—with what unflinching earnestness did he set about that labour!
+               Not even when working to achieve the dearest objects of his ambition—to become the
+               master of Abbotsford—to settle an eldest and beloved son in life—did <ref
+                  target="people.html#ScottWalter">Scott</ref> exert himself as he did when the
+               exertion was for his creditors. It seems doubly hard when we think how much others
+               had to do with the burden whose weight was upon him even to the grave.</p>
+            <p>While on this subject, may I be permitted a few words concerning one to whose memory
+               but harsh and scanty justice has been allotted—I allude to the late <ref
+                  target="people.html#ConstableArchibald">Mr. Constable</ref>? Perhaps I may be
+               biassed by the recollection of kindness extended to myself when very young. <ref
+                  target="people.html#ConstableArchibald">Mr. Constable</ref> was the first
+               publisher with whom I had ever any communication. His peculiarly kind and courteous
+               manner (I went to visit some near relatives in the North under his escort) left an
+               indelible impression. I was then a child in everything, especially judgment; and
+               would as little now venture to pronounce on affairs of which I can know nothing. But
+               I may be allowed to dwell on the general benevolence of <ref
+                  target="people.html#ConstableArchibald">Mr. Constable</ref>'s character. <ref
+                  target="people.html#ScottWalter">Sir Walter Scott</ref> particularly remarks, that
+                  <ref target="people.html#ConstableArchibald">Constable</ref>'s individual expenses
+               were moderate, and within what his income would have seemed to justify: if he failed,
+               it was in the cause of that literature to which he devoted himself with an enthusiasm
+               of an order far beyond the mere <pb n="485"/>speculations of profit. There must have
+               been delicacy, as well as generosity, in the mind that concealed from the author any
+               comparative failure in the sale of his works, lest it should damp his genius. Look
+               what its first great publisher did for the publishing trade in Edinburgh; with him it
+               rose into existence and prosperity, and with him it died. He originated our first
+               periodical—and, both in literature and in politics, what vast influence has been, and
+               is exercised by the "<title>
+                  <ref target="people.html#EdinburghReview">Edinburgh Review</ref>
+               </title>!" He, too, was the first person who saw the growing demand of the public
+               mind for intellectual food; and the plan of cheap publication, so general now, and
+               profitable to so many, was <ref target="people.html#ConstableArchibald">Mr.
+                  Constable</ref>'s idea. In his long career, how many owed to him kindness and
+               assistance—and how melancholy were its closing scenes! The body destroyed—the mind
+               broken down: such was the close of the great publisher—and of the great author!</p>
+            <p>"<title>Woodstock</title>" belongs to a better time. <ref
+                  target="people.html#ScottWalter">Scott</ref> felt his powers vigorous as ever—and
+               no one could imagine and dwell upon such a creation as Alice Lee, and not be the
+               better and the happier. Every time she appears on the scene she brings with her an
+               atmosphere of purity and beauty. How lovely is the scene conjured up in the little
+               hut, when the evening hymn disturbs, but to make musical, the silence of the forest
+               glades; and the words of faith and hope, cheering the gentle and maiden heart, which
+               was their worthy temple! Again, in what a noble and high spirit is her rejection of
+               Charles's ungenerous suit. Only one of a school, whose profligacy was the cold result
+               of vanity, could have insulted a purity so simple and so apparent, by dishonourable
+               affection. But it is mockery to use the word affection in such a case. I do not
+               believe that affection can exist without truth, without the ideal, and without
+               blending with itself all that is best and most earnest in our nature. Charles thinks
+               far less of Alice than of the sneer of Buckingham and the jest of Rochester.</p>
             <p>As I said before, a series of pictures might be formed of Alice in the various
-					situations of "<title>Woodstock</title>." There are three which have
-					always singularly impressed my imagination. The first is the little turret, with
-					Dr. Rochecliffe in the little turret-chamber, when he proposes to her to make a
-					seeming assignation with the King: there is the dignity that would light her
-					eyes, the timidity that would colour her cheek, and the intuitive sense of right
-					that could not for a moment tamper with its fine sense of maidenly propriety.
-					Then the second, where she stands in the green coppice looking, as she thinks,
-					her last on the lover who leaves her under the most bitter perversion of her
-					real meaning: her cheek is white as monumental marble, and her long fair curls
-					damp with the heavy dews—they are the faint outward sign of what is
-					passing in her heart. The third is where, escaped from a danger which had seemed
-					so certain and so imminent, she throws herself half in thankfulness, half in
-					affection, into her father's arms, and then is suddenly recalled into a
-					sweet and timid consciousness of Markham Everard's presence.</p>
-            <p>None of <ref target="people.html#ScottWalter">Sir Walter</ref>'s novels end
-					more satisfactorily than "<title>Woodstock</title>." There could be
-					but one destiny for Alice—the genial and quiet circle of an English home,
-					whose days are filled with pleasant duties, and whose sphere lies around the
-					hearth. The devoted daughter is what she ought to be—the affectionate
-					mother and the happy wife.</p>
-            <p>
-               <hi rendition="#flushRight">
-                  <ref target="people.html#LandonLetitia">L. E.
-							L.</ref>
-               </hi>
+               situations of "<title>Woodstock</title>." There are three which have always
+               singularly impressed my imagination. The first is the little turret, with Dr.
+               Rochecliffe in the little turret-chamber, when he proposes to her to make a seeming
+               assignation with the King: there is the dignity that would light her eyes, the
+               timidity that would colour her cheek, and the intuitive sense of right that could not
+               for a moment tamper with its fine sense of maidenly propriety. Then the second, where
+               she stands in the green coppice looking, as she thinks, her last on the lover who
+               leaves her under the most bitter perversion of her real meaning: her cheek is white
+               as monumental marble, and her long fair curls damp with the heavy dews—they are the
+               faint outward sign of what is passing in her heart. The third is where, escaped from
+               a danger which had seemed so certain and so imminent, she throws herself half in
+               thankfulness, half in affection, into her father's arms, and then is suddenly
+               recalled into a sweet and timid consciousness of Markham Everard's presence.</p>
+            <p>None of <ref target="people.html#ScottWalter">Sir Walter</ref>'s novels end more
+               satisfactorily than "<title>Woodstock</title>." There could be but one destiny for
+               Alice—the genial and quiet circle of an English home, whose days are filled with
+               pleasant duties, and whose sphere lies around the hearth. The devoted daughter is
+               what she ought to be—the affectionate mother and the happy wife.</p>
+            <p rendition="#right">
+                  <ref target="people.html#LandonLetitia">L. E. L.</ref>
             </p>
             <p/>
             <p>  </p>

@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Art. 27. The School for Fashion.</title>
-            <title type="sub" level="j">The Monthly Review</title>
+            <title type="sub">The Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -31,8 +31,8 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. 27. The School for Fashion. By Mrs.
-							Thicknesse. 8vo. 2 Vols. 12s. Boards. Debrett, &amp;c. 1800.</title>
+                  <title type="main" level="a">Art. 27. The School for Fashion. By Mrs. Thicknesse.
+                     8vo. 2 Vols. 12s. Boards. Debrett, &amp;c. 1800.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -50,28 +50,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -85,15 +84,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -336,11 +344,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -470,7 +479,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -549,7 +558,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="4">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -584,7 +601,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="essay" org="uniform" sample="complete" part="N">
+         <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
@@ -592,77 +609,65 @@
                         <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title>Art. 27. <hi rendition="#italics">The School for Fashion</hi>. By
-								<ref target="people.html#ThicknesseAnn">Mrs. Thicknesse.</ref> 8vo.
-							2 Vols. 12s. Boards. Debrett, &amp;c. 1800.<hi rendition="#sup">
-                        <note>
+                  <title>Art. 27. <hi rendition="#italics">The School for Fashion</hi>. By <ref
+                        target="people.html#ThicknesseAnn">Mrs. Thicknesse.</ref> 8vo. 2 Vols. 12s.
+                     Boards. Debrett, &amp;c. 1800.<note>
+                        <title>
+                           <hi rendition="#italics">The Monthly Review</hi>
+                        </title>, vol. 35, second series, August 1801, pp. 430-31. Benjamin Nangle
+                        identifies <ref target="people.html#MoodyElizabeth">
+                           <name>Elizabeth Moody</name>
+                        </ref> as the author of this review from an editor's marked copy of <hi
+                           rendition="#italics">
                            <title>
-                              <hi rendition="#italics">The Monthly
-											Review</hi>
-                           </title>, vol. 35, second series, August
-									1801, pp. 430-31. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's marked
-									copy of <hi rend="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-												Review</ref>
-                              </title>
-                           </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-											Series, 1790-1815: Indexes of Contributors and
-											Articles</title>
-                           </hi>, Clarendon Press, 1955. Jon
-									Pinkerton and Mary A. Waters prepared this edition for <hi rendition="#italics">The Criticism Archive</hi>.
-								</note>
-                     </hi>
+                              <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                           </title>
+                        </hi>. See Nangle, <hi rendition="#italics">
+                           <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                              Contributors and Articles</title>
+                        </hi>, Clarendon Press, 1955. Jon Pinkerton and Mary A. Waters prepared this
+                        edition for <hi rendition="#italics">The Criticism Archive</hi>. </note>
                   </title>
                </bibl>
             </head>
-            <p>These volumes contain a variety of miscellaneous matter, divided into chapters.
-					They commence with a description of Bon-Ton Hall, where we are rather surprised
-					to meet with only those <hi rendition="#italics">shades of fashion</hi> who are
-					now walking in the <hi rendition="#italics">Elysian fields</hi>. It is long,
-					very long, since the Duchess of Queensberry dressed like a beggar woman, with a
-					tucked up linen gown and an old black bonnet, diverting herself and the world by
-					going about in masquerade:<hi rendition="#sup">
-                  <note>Born Catherine
-							Hyde, the eccentric wife of the third Duke of Queensberry was known for
-							her masquerade parties and her unfashionable habits of
-						dress.</note>
-               </hi> —but we have no other objection to renewing our
-					acquaintance with this whimsical but worthy Duchess, than that she is here
-					completely out of her place, because, when we look to the title, we expect to
-					meet with <hi rendition="#italics">fashionables</hi> of the present day, not
-					those of antiquity. The great personages who formed the circle at Bon-Ton Hall,
-					and whom we recollect by the initials of their names, having exhibited
-					themselves on a theatre on which the scenes have long been closed, the curtain
-					let down, and the actors and actresses disappeared, we can say no more to them
-					than "peace be to their manes."</p>
-            <p>The indecorous freedoms, also, introduced through the familiarity of the stay
-					maker and the hair dresser, no longer make us tremble for our young people;
-					though, as every age has its peculiar incentives to vice and folly, the present
-					times may have other <hi rendition="#italics">fashions</hi> of an equally <hi rendition="#italics">objectionable</hi> nature. In the dedication to
-							<title>
+            <p>These volumes contain a variety of miscellaneous matter, divided into chapters. They
+               commence with a description of Bon-Ton Hall, where we are rather surprised to meet
+               with only those <hi rendition="#italics">shades of fashion</hi> who are now walking
+               in the <hi rendition="#italics">Elysian fields</hi>. It is long, very long, since the
+               Duchess of Queensberry dressed like a beggar woman, with a tucked up linen gown and
+               an old black bonnet, diverting herself and the world by going about in
+                  masquerade:<note>Born Catherine Hyde, the eccentric wife of the third Duke of
+                  Queensberry was known for her masquerade parties and her unfashionable habits of
+                  dress.</note> —but we have no other objection to renewing our acquaintance with
+               this whimsical but worthy Duchess, than that she is here completely out of her place,
+               because, when we look to the title, we expect to meet with <hi rendition="#italics"
+                  >fashionables</hi> of the present day, not those of antiquity. The great
+               personages who formed the circle at Bon-Ton Hall, and whom we recollect by the
+               initials of their names, having exhibited themselves on a theatre on which the scenes
+               have long been closed, the curtain let down, and the actors and actresses
+               disappeared, we can say no more to them than "peace be to their manes."</p>
+            <p>The indecorous freedoms, also, introduced through the familiarity of the stay maker
+               and the hair dresser, no longer make us tremble for our young people; though, as
+               every age has its peculiar incentives to vice and folly, the present times may have
+               other <hi rendition="#italics">fashions</hi> of an equally <hi rendition="#italics"
+                  >objectionable</hi> nature. In the dedication to <title>
                   <hi rendition="#italics">Fashion</hi>
-               </title>, however, which is
-					written with spirit, we question whether <ref target="people.html#ThicknesseAnn">Mrs. T.</ref> be not rather too severe on the reigning goddess: since,
-					after the scenes described at Bon-Ton hall, it appears that she was as much
-					"the demon of impudence" at that period as at the present, with
-					scarcely any exception even of Grecian drapery.</p>
-            <p>As this miscellany is detailed in rather a desultory manner, it produces a
-					sensation on the reader similar to that which we have occasionally experienced
-					from great talkers, whose discourse consists of disjointed materials, and who,
-					by rapidly passing from one subject <lb/>
-               <fw type="sig">7</fw>
-               <pb n="431"/> to another, leave the hearer's attention at a remote
-					distance, unless he be a very good listener.—Euterpe's travels on the
-					continent, furnished (we apprehend) from the late <ref target="people.html#ThicknessePhilip">Mr. T.</ref>'s common place book,
-					abound with such very extraordinary anecdotes, that they must often impose a
-					hard task on the reader, in requiring him to find credulity sufficient for the
-					occasion: yet, in general, we have been amused by them; and they merit praise
-					for some pertinent and sensible remarks.</p>
+               </title>, however, which is written with spirit, we question whether <ref
+                  target="people.html#ThicknesseAnn">Mrs. T.</ref> be not rather too severe on the
+               reigning goddess: since, after the scenes described at Bon-Ton hall, it appears that
+               she was as much "the demon of impudence" at that period as at the present, with
+               scarcely any exception even of Grecian drapery.</p>
+            <p>As this miscellany is detailed in rather a desultory manner, it produces a sensation
+               on the reader similar to that which we have occasionally experienced from great
+               talkers, whose discourse consists of disjointed materials, and who, by rapidly
+               passing from one subject <lb/><fw type="sig">7</fw>
+               <pb n="431"/> to another, leave the hearer's attention at a remote distance, unless
+               he be a very good listener.—Euterpe's travels on the continent, furnished (we
+               apprehend) from the late <ref target="people.html#ThicknessePhilip">Mr. T.</ref>'s
+               common place book, abound with such very extraordinary anecdotes, that they must
+               often impose a hard task on the reader, in requiring him to find credulity sufficient
+               for the occasion: yet, in general, we have been amused by them; and they merit praise
+               for some pertinent and sensible remarks.</p>
          </div>
       </body>
    </text>

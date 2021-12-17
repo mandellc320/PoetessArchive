@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Review of Sempronia</title>
-            <title type="sub" level="j">Monthly Review</title>
+            <title type="sub">Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -31,8 +31,8 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. 34. Sempronia 12mo. 3 Vols. 9s. sewed.
-                            Lane. 1790.</title>
+                  <title type="main" level="a">Art. 34. Sempronia 12mo. 3 Vols. 9s. sewed. Lane.
+                     1790.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -50,28 +50,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -85,15 +84,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -336,11 +344,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -470,7 +479,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -548,7 +557,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="6">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -601,52 +618,43 @@
                <bibl>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
-                        <name>Elizabeth
-                                Moody</name>
+                        <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title type="main" level="a">Art. 34. <hi rendition="#italics"> Sempronia.
-                            </hi> 12mo. 3 Vols. 9s. sewed. Lane. 1790.<hi rendition="#sup">
-                        <note>
-                           <hi rendition="#italics">
-                              <title>The Monthly
-                                            Review</title>
-                           </hi>, second series, vol. 4, March 1791, p.
-                            	343. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's
-                            	marked copy of <hi rend="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-                            		Review</ref>
-                              </title>
-                           </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-                            				Series, 1790-1815: Indexes of Contributors and
-                            				Articles</title>
-                           </hi>, Clarendon Press, 1955. This edition of this review article was prepared by Mary A.
-                                    Waters with transcription and encoding assistance by Ismael
-                                    Escalera. <hi rendition="#italics">
-                              <title>Sempronia</title>
-                           </hi>
-                                    is an anonymously published epistolary
-                            novel.</note>
-                     </hi>
+                  <title type="main" level="a">Art. 34. <hi rendition="#italics"> Sempronia. </hi>
+                     12mo. 3 Vols. 9s. sewed. Lane. 1790.<note>
+                        <hi rendition="#italics">
+                           <title>The Monthly Review</title>
+                        </hi>, second series, vol. 4, March 1791, p. 343. Benjamin Nangle identifies
+                           <ref target="people.html#MoodyElizabeth">
+                           <name>Elizabeth Moody</name>
+                        </ref> as the author of this review from an editor's marked copy of <hi
+                           rendition="#italics">
+                           <title>
+                              <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                           </title>
+                        </hi>. See Nangle, <hi rendition="#italics">
+                           <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                              Contributors and Articles</title>
+                        </hi>, Clarendon Press, 1955. This edition of this review article was
+                        prepared by Mary A. Waters with transcription and encoding assistance by
+                        Ismael Escalera. <hi rendition="#italics">
+                           <title>Sempronia</title>
+                        </hi> is an anonymously published epistolary novel.</note>
                   </title>
                </bibl>
             </head>
-            <p>If Reviewers are said to be liberal of their censures, let it not also be said
-                    that they are "niggards of their praise:" it is with pleasure that we
-                    bestow a tribute of our approbation on the fair Sempronia. The style of these
-                    letters is, on the whole, elegant; and though incidents are not sufficiently
-                    numerous and various to make the narrative interesting, the reader may discern,
-                    throughout the work, the latent possibilities of excellence; and may infer, from
-                    the writer's style, that she is capable of painting a <hi rendition="#italics">good story</hi> with all it's necessary
-                    embellishments.—We would recommend it to her, in future, to pay a more
-                    diligent attention to the correctness of her publications, and not to usher them
-                    into the world in so much haste. May she remember that haste does not always
-                    promote <hi rendition="#italics">good speed</hi>. </p>
+            <p>If Reviewers are said to be liberal of their censures, let it not also be said that
+               they are "niggards of their praise:" it is with pleasure that we bestow a tribute of
+               our approbation on the fair Sempronia. The style of these letters is, on the whole,
+               elegant; and though incidents are not sufficiently numerous and various to make the
+               narrative interesting, the reader may discern, throughout the work, the latent
+               possibilities of excellence; and may infer, from the writer's style, that she is
+               capable of painting a <hi rendition="#italics">good story</hi> with all it's
+               necessary embellishments.—We would recommend it to her, in future, to pay a more
+               diligent attention to the correctness of her publications, and not to usher them into
+               the world in so much haste. May she remember that haste does not always promote <hi
+                  rendition="#italics">good speed</hi>. </p>
          </div>
       </body>
    </text>

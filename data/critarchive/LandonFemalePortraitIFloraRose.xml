@@ -3,8 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Female Portrait Gallery, No. I.—Flora M'Ivor
-					and Rose Bradwardine.</title>
+            <title type="main" level="a">Female Portrait Gallery, No. I.—Flora M'Ivor and Rose
+               Bradwardine.</title>
             <title type="sub" level="j">New Monthly Magazine and Humorist</title>
             <author type="writer">
                <name>Letitia E. Landon</name>
@@ -32,9 +32,9 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Female Portrait Gallery, From Sir Walter Scott.
-							By the Author of "The Improvisatrice." No. I.—Flora
-							M'Ivor and Rose Bradwardine.</title>
+                  <title type="main" level="a">Female Portrait Gallery, From Sir Walter Scott. By
+                     the Author of "The Improvisatrice." No. I.—Flora M'Ivor and Rose
+                     Bradwardine.</title>
                   <author type="writer">Landon, Letitia E., 1802-1838</author>
                </analytic>
                <monogr>
@@ -53,28 +53,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -88,15 +87,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -339,11 +347,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -473,7 +482,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -552,7 +561,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="4">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -587,393 +604,343 @@
    </teiHeader>
    <text>
       <body>
-         <div type="essay" org="uniform" sample="complete" part="N">
+         <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
                      <ref target="people.html#LandonLetitia">
-                        <name>Letitia Landon</name>
+                        <name>Letitia Elizabeth Landon</name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title>FEMALE PORTRAIT GALLERY, FROM <ref target="people.html#ScottWalter">SIR WALTER SCOTT</ref>. <lb/>
-                     <hi rendition="#smcaps">by <ref target="people.html#LandonLetitia">the author of "the
-									improvisatrice."</ref>
+                  <title>FEMALE PORTRAIT GALLERY, FROM <ref target="people.html#ScottWalter">SIR
+                        WALTER SCOTT</ref>. <lb/>
+                     <hi rendition="#smcaps">by <ref target="people.html#LandonLetitia">the author
+                           of "the improvisatrice."</ref>
                      </hi>
-                     <lb/>______<lb/>No. I.—<hi rendition="#smcaps">Flora M'Ivor and
-								Rose Bradwardine.</hi>
-                     <hi rendition="#sup">
-                        <note>
-                           <hi rendition="#italics">
-                              <title>New Monthly Magazine and
-											Humorist</title>
-                           </hi>, second series, vol. 52, no.
-									205, January 1838, pp. 35-39. In <ref target="people.html#ScottWalter">Sir Walter
-									Scott</ref>'s novel <hi rendition="#italics">Waverly</hi>
-									(1814), Rose and Flora are both candidates for the affections of
-									the title character, Edward Waverley. They represent the
-									differing loyalties and ideals between lowland and highland
-									Scottish nobility. Laura DeWitt and Mary Waters co-edited this
-									edition for <hi rendition="#italics">The Criticism
-									Archive</hi>.</note>
-                     </hi>
+                     <lb/>______<lb/>No. I.—<hi rendition="#smcaps">Flora M'Ivor and Rose
+                        Bradwardine.</hi>
+                     <note>
+                        <hi rendition="#italics">
+                           <title>New Monthly Magazine and Humorist</title>
+                        </hi>, second series, vol. 52, no. 205, January 1838, pp. 35-39. In <ref
+                           target="people.html#ScottWalter">Sir Walter Scott</ref>'s novel <hi
+                           rendition="#italics">Waverly</hi> (1814), Rose and Flora are both
+                        candidates for the affections of the title character, Edward Waverley. They
+                        represent the differing loyalties and ideals between lowland and highland
+                        Scottish nobility. Laura DeWitt and Mary Waters co-edited this edition for
+                           <hi rendition="#italics">The Criticism Archive</hi>.</note>
                   </title>
                </bibl>
             </head>
             <p>
-               <ref target="people.html#ScottWalter">Sir Walter Scott</ref> was the <ref target="people.html#LutherMartin">Luther</ref> of literature. He reformed
-					and he regenerated. To say that he founded a new school is not saying the whole
-					truth; for there is something narrow in the idea of a school, and his influence
-					has been universal. Indeed, there is no such thing as a school in literature;
-					each great writer is his own original, and "none but himself can be his
-						parallel."<hi rendition="#sup">
-                  <note>A phrase frequently
-							attributed to <ref target="people.html#Virgil">Virgil and often recycled
-								by other authors</ref>.</note>
-               </hi> We hear of the school of <ref target="people.html#DrydenJohn">Dryden</ref> and of <ref target="people.html#PopeAlexander">Pope</ref>, but where are the imitators?
-					Parnassus is the very reverse of Mont Blanc.<hi rendition="#sup">
-                  <note>In Greek mythology, Parnassus is the mountain which is home
-							to the Muses and considered the source of poetry and music and is
-							therefore associated with classical literature and aesthetics. Mont
-							Blanc, a mountain near the Lake of Geneva, where <ref target="people.html#ShelleyPercy">Percy Shelley</ref>, <ref target="people.html#ShelleyMary">Mary Shelley</ref>, <ref target="people.html#ByronGeorge">Lord Byron</ref>, and <ref target="people.html#PolidoriJohn">John Polidori</ref> vacationed
-							together and drew inspiration for their writings, particularly through
-							their famous ghost story contest. Associated with the Romantic movement,
-							the mountain is referenced in the works of the former three, most
-							notably in <ref target="people.html#ShelleyMary">Mary
-							Shelley</ref>'s <hi rendition="#italics">
-                        <title>Frankenstein</title>
-                     </hi>.</note>
-               </hi> There the summit
-					is gained by treading closely in the steps of the guides; but in the first, the
-					height is only to be reached by a pathway of our own. The influence of a genius
-					like <ref target="people.html#ScottWalter">Scott</ref>'s is shown by the
-					fresh and new spirit he pours into literature.</p>
-            <p>No merely literary man ever before exercised the power over his age exercised by
-						<ref target="people.html#ScottWalter">Scott</ref>. It is curious to note the
-					wealth circulated through his means, and the industry and intelligence to which
-					he gave the impetus. The innkeepers of Scotland ought to have no sign but his
-					head. When <title>Waverley</title> appeared, a tour through Scotland was an
-					achievement: now, how few there are but have passed an autumn at least amid its
-					now classic scenery. I own it gave my picturesque fancies at first a shock, to
-					hear of a steam-boat on Loch Katrine; but I was wrong. Nothing could be a more
-					decisive proof of the increased communication between England and
-					Scotland—and communication is the regal road to improvement of every kind.
-					How many prejudices have floated away on the tremulous line of vapour following
-					the steam-vessel; and what a store of poetical enjoyment must the voyagers have
-					carried home! More than one touch of that sly humour, which seems to me
-					peculiarly and solely marking the <hi rendition="#italics">Scotch</hi>, has been
-					bestowed on the cockney invaders of the "land of brown heath and shaggy
-						wood."<hi rendition="#sup">
-                  <note>From <ref target="people.html#ScottWalter">Scott</ref>'s <hi rendition="#italics">
-                        <title>The Lay of the Last
-								Minstrel</title>
-                     </hi>, canto VI, stanza II, line 9.</note>
-               </hi> May
-					I, a Londoner bred, say a word in defence of the feeling which takes such to the
-					shore of <quote>
+               <ref target="people.html#ScottWalter">Sir Walter Scott</ref> was the <ref
+                  target="people.html#LutherMartin">Luther</ref> of literature. He reformed and he
+               regenerated. To say that he founded a new school is not saying the whole truth; for
+               there is something narrow in the idea of a school, and his influence has been
+               universal. Indeed, there is no such thing as a school in literature; each great
+               writer is his own original, and "none but himself can be his parallel."<note>A phrase
+                  frequently attributed to <ref target="people.html#Virgil">Virgil and often
+                     recycled by other authors</ref>.</note> We hear of the school of <ref
+                  target="people.html#DrydenJohn">Dryden</ref> and of <ref
+                  target="people.html#PopeAlexander">Pope</ref>, but where are the imitators?
+               Parnassus is the very reverse of Mont Blanc.<note>In Greek mythology, Parnassus is
+                  the mountain which is home to the Muses and considered the source of poetry and
+                  music and is therefore associated with classical literature and aesthetics. Mont
+                  Blanc, a mountain near the Lake of Geneva, where <ref
+                     target="people.html#ShelleyPercy">Percy Shelley</ref>, <ref
+                     target="people.html#ShelleyMary">Mary Shelley</ref>, <ref
+                     target="people.html#ByronGeorge">Lord Byron</ref>, and <ref
+                     target="people.html#PolidoriJohn">John Polidori</ref> vacationed together and
+                  drew inspiration for their writings, particularly through their famous ghost story
+                  contest. Associated with the Romantic movement, the mountain is referenced in the
+                  works of the former three, most notably in <ref target="people.html#ShelleyMary"
+                     >Mary Shelley</ref>'s <hi rendition="#italics">
+                     <title>Frankenstein</title>
+                  </hi>.</note> There the summit is gained by treading closely in the steps of the
+               guides; but in the first, the height is only to be reached by a pathway of our own.
+               The influence of a genius like <ref target="people.html#ScottWalter">Scott</ref>'s is
+               shown by the fresh and new spirit he pours into literature.</p>
+            <p>No merely literary man ever before exercised the power over his age exercised by <ref
+                  target="people.html#ScottWalter">Scott</ref>. It is curious to note the wealth
+               circulated through his means, and the industry and intelligence to which he gave the
+               impetus. The innkeepers of Scotland ought to have no sign but his head. When
+                  <title>Waverley</title> appeared, a tour through Scotland was an achievement: now,
+               how few there are but have passed an autumn at least amid its now classic scenery. I
+               own it gave my picturesque fancies at first a shock, to hear of a steam-boat on Loch
+               Katrine; but I was wrong. Nothing could be a more decisive proof of the increased
+               communication between England and Scotland—and communication is the regal road to
+               improvement of every kind. How many prejudices have floated away on the tremulous
+               line of vapour following the steam-vessel; and what a store of poetical enjoyment
+               must the voyagers have carried home! More than one touch of that sly humour, which
+               seems to me peculiarly and solely marking the <hi rendition="#italics">Scotch</hi>,
+               has been bestowed on the cockney invaders of the "land of brown heath and shaggy
+                  wood."<note>From <ref target="people.html#ScottWalter">Scott</ref>'s <hi
+                     rendition="#italics">
+                     <title>The Lay of the Last Minstrel</title>
+                  </hi>, canto VI, stanza II, line 9.</note> May I, a Londoner bred, say a word in
+               defence of the feeling which takes such to the shore of <quote>
                   <lg type="stanza">
                      <l>"Lovely Loch Achray! </l>
                      <l>Where shall they find on foreign land,</l>
-                     <l>So lone a lake, so sweet a strand?"<hi rendition="#sup">
-                           <note>From <ref target="people.html#ScottWalter">Scott</ref>'s <hi rendition="#italics">
-                                 <title>Lady
-												of the Lake</title>
-                              </hi>, canto VI, "The Guard
-										Room," stanza XV.</note>
-                        </hi>
+                     <l>So lone a lake, so sweet a strand?"<note>From <ref
+                              target="people.html#ScottWalter">Scott</ref>'s <hi
+                              rendition="#italics">
+                              <title>Lady of the Lake</title>
+                           </hi>, canto VI, "The Guard Room," stanza XV.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>But the dwellers in the country have little understanding of, and therefore
-					little sympathy with, the longing for green fields which haunts the dweller in
-					towns. The secret dream of almost every inhabitant in those dusky streets where
-					even a fresh thought would scarcely seem to enter, is to realise an
-					independence, and go and live in the country. Where is every holiday spent but
-					in the country! What do the smoky geraniums, so carefully tended in many a
-					narrow street and blind alley attest, but the inherent love of the country! To
-					whom do the blooming and sheltered villas, which are a national feature in
-					English landscape, belong, but to men who pass the greater part of their lives
-					in small dim counting-houses! This love of nature is divinely given to keep
-					alive, even in the most toiling and world-worn existence, something of the
-					imaginative and the apart. It is a positive good quality; and one <lb/>
-               <fw type="sig">d 2</fw>
-               <pb n="36"/>good quality has
-					some direct, or indirect tendency to produce another. It were an unphilosophical
-					creation, that of a human being— <quote>
+            <p>But the dwellers in the country have little understanding of, and therefore little
+               sympathy with, the longing for green fields which haunts the dweller in towns. The
+               secret dream of almost every inhabitant in those dusky streets where even a fresh
+               thought would scarcely seem to enter, is to realise an independence, and go and live
+               in the country. Where is every holiday spent but in the country! What do the smoky
+               geraniums, so carefully tended in many a narrow street and blind alley attest, but
+               the inherent love of the country! To whom do the blooming and sheltered villas, which
+               are a national feature in English landscape, belong, but to men who pass the greater
+               part of their lives in small dim counting-houses! This love of nature is divinely
+               given to keep alive, even in the most toiling and world-worn existence, something of
+               the imaginative and the apart. It is a positive good quality; and one <lb/><fw
+                  type="sig">
+                  <hi rendition="#smcaps">d 2</hi>
+               </fw>
+               <pb n="36"/>good quality has some direct, or indirect tendency to produce another. It
+               were an unphilosophical creation, that of a human being— <quote>
                   <lg type="stanza">
-                     <l>"Linked with one virtue, and a thousand crimes."<hi rendition="#sup">
-                           <note>From <ref target="people.html#ByronGeorge">Byron</ref>'s <hi rendition="#italics">
-                                 <title>The Corsair</title>
-                              </hi>,
-										canto III, stanza XXIV, line 1863.</note>
-                        </hi>
+                     <l>"Linked with one virtue, and a thousand crimes."<note>From <ref
+                              target="people.html#ByronGeorge">Byron</ref>'s <hi
+                              rendition="#italics">
+                              <title>The Corsair</title>
+                           </hi>, canto III, stanza XXIV, line 1863.</note>
                      </l>
                   </lg>
-               </quote> That virtue would have been a sweet lure to better companions.
-						<ref target="people.html#SchillerFriedrich">Schiller</ref> is nearer truth
-					when he says— <quote>
+               </quote> That virtue would have been a sweet lure to better companions. <ref
+                  target="people.html#SchillerFriedrich">Schiller</ref> is nearer truth when he
+               says— <quote>
                   <lg type="stanza">
                      <l>"Never, believe me, appear the immortals—</l>
-                     <l>Never alone."<hi rendition="#sup">
-                           <note>From <ref target="people.html#ColeridgeSamuel">Samuel Taylor
-											Coleridge</ref>'s "<title>The Visit of the
-											Gods</title>," in imitation of <ref target="people.html#SchillerFriedrich">Friedrich
-											Schiller, lines 1-3.</ref>. </note>
-                        </hi>
+                     <l>Never alone."<note>From <ref target="people.html#ColeridgeSamuel">Samuel
+                              Taylor Coleridge</ref>'s "<title>The Visit of the Gods</title>," in
+                           imitation of <ref target="people.html#SchillerFriedrich">Friedrich
+                              Schiller, lines 1-3.</ref>. </note>
                      </l>
                   </lg>
                </quote>
             </p>
             <p>
-               <ref target="people.html#ScottWalter">Scott</ref> has a peculiar faculty of
-					awakening this love of the country, and of idealising it into a love of the
-					picturesque. Who can wonder then, that when such descriptions came accompanied
-					with all the associations of romance—all the interest of stirring
-					narrative—that a visit to "Caledonia, stern and wild,"<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                        <title>Lay of the Last
-									Minstrel</title>
-                     </hi>, canto VI, stanza II, line 17.</note>
-               </hi>
-					became the day-dream of all who looked to their summer excursion as the delight
-					and reward of the year. I have never visited Scotland—in all human
-					probability I never shall; but were a fairy, that pleasant remover of all
-					ordinary difficulties, to give me the choice of what country I wished to see, my
-					answer would be—Scotland; and that solely to realise the pictures, which
-					reading <ref target="people.html#ScottWalter">Scott</ref> has made part of my
-					memory.</p>
+               <ref target="people.html#ScottWalter">Scott</ref> has a peculiar faculty of awakening
+               this love of the country, and of idealising it into a love of the picturesque. Who
+               can wonder then, that when such descriptions came accompanied with all the
+               associations of romance—all the interest of stirring narrative—that a visit to
+               "Caledonia, stern and wild,"<note>
+                  <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
+                     <title>Lay of the Last Minstrel</title>
+                  </hi>, canto VI, stanza II, line 17.</note> became the day-dream of all who looked
+               to their summer excursion as the delight and reward of the year. I have never visited
+               Scotland—in all human probability I never shall; but were a fairy, that pleasant
+               remover of all ordinary difficulties, to give me the choice of what country I wished
+               to see, my answer would be—Scotland; and that solely to realise the pictures, which
+               reading <ref target="people.html#ScottWalter">Scott</ref> has made part of my
+               memory.</p>
             <p>Another noticeable fact is, the number of books which have grown out of the
-						<title>Waverley</title> novels.<hi rendition="#sup">
-                  <note>The
-							long series of novels that began with <ref target="people.html#ScottWalter">Scott</ref>'s anonymous
-							publication of <hi rendition="#italics">
-                        <title>Waverley; or, 'Tis
-									Sixty Years Since</title>
-                     </hi>. The subsequent novels appeared
-							under the sobriquet "By the Author of <hi rendition="#italics">
-                        <title>Waverley</title>
-                     </hi>."</note>
-               </hi> How many local
-					and antiquarian tomes have brought forth a world of curious and attractive
-					information, in which no one before took an interest! And here I may be allowed
-					to allude to the prejudice, for such it is, that the historical novel is likely
-					to be taken for, and to interfere with history. Not such novels as <ref target="people.html#ScottWalter">Scott</ref> wrote, certainly. In the first
-					place, his picture of the time is as exact as it is striking: the reader must
-					inevitably add to his stock of knowledge, as well as of amusement: he must
-					acquire a general notion of the time; its good and its evil are brought in a
-					popular shape before him; while the estimate of individual character is as true
-					as it is forcible. Secondly, there must be something inherently vacant and
-					unproductive in the mind which his pages stimulate to no further inquiry.</p>
-            <p>In such hands it would be of little consequence whether a fictitious or an actual
-					chronicle were placed—either would lead to no result. <ref target="people.html#ScottWalter">Scott</ref>'s works have done more
-					towards awakening a rational curiosity, than a whole world of catechisms and
-					abridgments would ever have accomplished. History has been read owing to his
-					stimulus.</p>
-            <p>Prose fiction was at its lowest ebb when <title>Waverley</title> appeared. <ref target="people.html#ScottWalter">Scott</ref> gives in his preface a most
-					amusing picture of the supply then in the market: a castle was no castle without
-					a ghost, or at least what seemed one till the last chapter, and the heroine was
-					a less actual creation than the harp which ever accompanied her. These heroines
-					were always faultless: the heroes were divided into two classes; either as
-					perfect as their impossible mistresses, or else rakes who were reformed in the
-					desperate extremity of a third volume. <title>Waverley</title> must have taken
-					the populace of novel readers quite by surprise: there is in its pages the germ
-					of every excellence, afterwards so fully developed—the description, like a
-					painting; the skill in giving the quaint and peculiar in character; the dramatic
-					narrative, and above all, that tone of romance before unknown to English prose
-					literature. Flora M'Ivor is the first conception of female character in
-					which the highly imaginative is the element.</p>
-            <p>Perhaps we must except the <ref target="people.html#Clementina">Clementina</ref>
-					of <ref target="people.html#RichardsonSamuel">Richardson</ref>—a poetical
-						<pb n="37"/>creation, which only genius could have conceived amid the formal
-					and narrow-motived circle which surrounded her. Clarissa is more domestic and
-					pathetic; though in the whole range of our dramatic poetry, so fertile in
-					touching situation, there is nothing more heart-rending than the visit of her
-					cousin to her in the last volume. He finds the happy and blooming girl whom he
-					left the idol of her home circle, accustomed to affection and attention,
-					surrounded by cheerful pleasures and graceful duties—he finds her in a
-					miserable lodging, among strangers, faded, heart-broken, and for daily employ
-					making her shroud. A French critic says: "Even <ref target="people.html#RichardsonSamuel">Richardson</ref> himself did not dare
-					hazard making Clarissa in love with his hero."<hi rendition="#sup">
-                  <note>Probably <ref target="people.html#Chateaubriand">Chateaubriand</ref>, whose <hi rendition="#italics">
-                        <title>Sketches
-									of English Literature</title>
-                     </hi> (1836) Landon had reviewed
-							two years earlier.</note>
-               </hi>
-               <ref target="people.html#RichardsonSamuel">Richardson</ref> had far too fine a
-					perception of character to do any such thing. What was there in <ref target="people.html#Lovelace">Lovelace</ref> that Clarissa should love him?
-					He is witty; but wit is the last quality to excite passion, or to secure
-					affection. Liberty is the element of love; and from the first he surrounds her
-					with restraint, and inspires her with distrust. Moreover, he makes no appeal to
-					the generosity of her nature; and to interest those generous feelings, so active
-					in the feminine temperament, is the first step in gaining the citadel of her
-					heart. To have loved, would not have detracted one touch from the delicate
-					colouring of Clarissa's character; to have loved a man like <ref target="people.html#Lovelace">Lovelace</ref> would. In nothing, more than in
-					attachment is "the nature subdued to what it works in."<hi rendition="#sup">
-                  <note>From <ref target="people.html#ShakespeareWilliam">William
-							Shakespeare</ref>'s "<title>Sonnet CXI</title>," lines
-							6-7, slightly altered.</note>
-               </hi> But <ref target="people.html#Lovelace">Lovelace</ref> is now an historical picture;
-					it represents a class long since passed away, and originally of foreign
-					importation. It belonged to the French <hi rendition="#italics">régime</hi>, when the young men of birth and fortune had no sphere of
-					activity but the camp; all more honourable and useful occupation shut, and when,
-					as regarded his country, he was a civil cipher. The <ref target="people.html#Lovelace">Lovelace</ref> or the Lauzun<hi rendition="#sup">
-                  <note>Armand-Louis de Gontaut-Biron, Duc de
-							Lauzun (1747-1793) had a notable reputation as a lover and seducer. His
-								<hi rendition="#italics">
-                        <title>Memoirs of the Duc de
-								Lauzun</title>
-                     </hi> was published in England in 1822.</note>
-               </hi>
-					could never have been more than an exception in our stirring country, where
-					pursuits and responsibility are in the lot of all. They may, however, be noted
-					as proofs that where the political standard is low, the moral standard will be
-					still lower.</p>
-            <p>Excepting, therefore, the impassioned Italian of <title>Sir Charles
-						Grandison</title>, Flora M'Ivor is the first female character of our
-					novels in which poetry is the basis of the composition. She has all <ref target="people.html#Clementina">Clementine</ref> wants; picturesque
-					accessories, and the strong moral purpose. Generally speaking, the mind of a
-					woman is developed by the heart; the being is incomplete till love brings out
-					either its strength or its weakness. This is not the case with the beautiful
-					Highlander; and <ref target="people.html#ScottWalter">Scott</ref> is the first
-					who has drawn a heroine, and put the usual master-passion aside. We believe few
-					women go down to the grave without at some time or other feeling the full force
-					of the affections. Flora, had not her career been cut short in the very fulness
-					of its flower, would have loved, loved with all the force of a character formed
-					before it loved. <ref target="people.html#ScottWalter">Scott</ref>'s
-					picture is, at the time when she is introduced, as full of truth as of beauty.
-					The strong mind has less immediate need of an object than the weak one. Rose
-					Bradwardine falls in love at once, compelled by "the sweet necessity of
-					loving." Flora M'Ivor feels no such necessity; her imagination is
-					occupied; her on-lookings to the future, excited by the fortunes of the
-					ill-fated House to which her best sympathies and most earnest hopes are given.
-					The House of Stuart<hi rendition="#sup">
-                  <note>
+                  <title>Waverley</title> novels.<note>The long series of novels that began with
+                     <ref target="people.html#ScottWalter">Scott</ref>'s anonymous publication of
                      <hi rendition="#italics">
-                        <title>Waverly</title>
-                     </hi> depicts the 1745
-							Jacobite Uprising, in which Scottish forces supported the attempt of
-								<ref target="people.html#CharlesEdwardPrince">Prince Charles Edward
-								Stuart</ref> to regain the throne of England for the Stuart line.
-							Grandson of <ref target="people.html#JamesIIKingofEngland">King James
-								II</ref> (the Catholic <ref target="people.html#JamesIIKingofEngland">James VII of
-								Scotland</ref>), who had been driven from the throne during the
-							Protestant Revolution of 1688, <ref target="people.html#CharlesEdwardPrince">Prince Charles Edward
-							</ref> was known as "Bonnie Prince Charlie," "Young
-							Chevalier," or "The Young Pretender," depending on
-							one's political sympathies. Although the uprising posed a serious
-							threat to the English throne, the Scottish forces were ultimately
-							defeated by <ref target="people.html#GeorgeIKingofGreatBritain">George
-								I</ref>'s army, led by the <ref target="people.html#CumberlandWilliam">Duke of Cumberland</ref> at
-							the brutal Battle of Culloden in 1746.</note>
-               </hi> has at once her sense
-					of justice and of generosity on its side; it is connected with the legends of
-					her earliest years; she is impelled towards it with true female adherence to the
-					unfortunate. Moreover, her affections have already an object in her <pb n="38"/>brother. There is no attachment stronger, more unselfish, than the love
-					between brother and sister, thrown on the world orphans at an early age, with
-					none to love them save each other. They feel how much they stand alone, and this
-					draws them more together. Constant intercourse has given that perfect
-					understanding which only familiarity can do; hopes, interests, sorrows, are
-					alike in common. Each is to either a source of pride; it is the tenderness of
-					love without its fears, and the confidence of marriage, without its graver and
-					more anxious character. The fresh impulses of youth are all warm about the
-					heart.</p>
+                     <title>Waverley; or, 'Tis Sixty Years Since</title>
+                  </hi>. The subsequent novels appeared under the sobriquet "By the Author of <hi
+                     rendition="#italics">
+                     <title>Waverley</title>
+                  </hi>."</note> How many local and antiquarian tomes have brought forth a world of
+               curious and attractive information, in which no one before took an interest! And here
+               I may be allowed to allude to the prejudice, for such it is, that the historical
+               novel is likely to be taken for, and to interfere with history. Not such novels as
+                  <ref target="people.html#ScottWalter">Scott</ref> wrote, certainly. In the first
+               place, his picture of the time is as exact as it is striking: the reader must
+               inevitably add to his stock of knowledge, as well as of amusement: he must acquire a
+               general notion of the time; its good and its evil are brought in a popular shape
+               before him; while the estimate of individual character is as true as it is forcible.
+               Secondly, there must be something inherently vacant and unproductive in the mind
+               which his pages stimulate to no further inquiry.</p>
+            <p>In such hands it would be of little consequence whether a fictitious or an actual
+               chronicle were placed—either would lead to no result. <ref
+                  target="people.html#ScottWalter">Scott</ref>'s works have done more towards
+               awakening a rational curiosity, than a whole world of catechisms and abridgments
+               would ever have accomplished. History has been read owing to his stimulus.</p>
+            <p>Prose fiction was at its lowest ebb when <title>Waverley</title> appeared. <ref
+                  target="people.html#ScottWalter">Scott</ref> gives in his preface a most amusing
+               picture of the supply then in the market: a castle was no castle without a ghost, or
+               at least what seemed one till the last chapter, and the heroine was a less actual
+               creation than the harp which ever accompanied her. These heroines were always
+               faultless: the heroes were divided into two classes; either as perfect as their
+               impossible mistresses, or else rakes who were reformed in the desperate extremity of
+               a third volume. <title>Waverley</title> must have taken the populace of novel readers
+               quite by surprise: there is in its pages the germ of every excellence, afterwards so
+               fully developed—the description, like a painting; the skill in giving the quaint and
+               peculiar in character; the dramatic narrative, and above all, that tone of romance
+               before unknown to English prose literature. Flora M'Ivor is the first conception of
+               female character in which the highly imaginative is the element.</p>
+            <p>Perhaps we must except the <ref target="people.html#Clementina">Clementina</ref> of
+                  <ref target="people.html#RichardsonSamuel">Richardson</ref>—a poetical <pb n="37"
+               />creation, which only genius could have conceived amid the formal and narrow-motived
+               circle which surrounded her. Clarissa is more domestic and pathetic; though in the
+               whole range of our dramatic poetry, so fertile in touching situation, there is
+               nothing more heart-rending than the visit of her cousin to her in the last volume. He
+               finds the happy and blooming girl whom he left the idol of her home circle,
+               accustomed to affection and attention, surrounded by cheerful pleasures and graceful
+               duties—he finds her in a miserable lodging, among strangers, faded, heart-broken, and
+               for daily employ making her shroud. A French critic says: "Even <ref
+                  target="people.html#RichardsonSamuel">Richardson</ref> himself did not dare hazard
+               making Clarissa in love with his hero."<note>Probably <ref
+                     target="people.html#Chateaubriand">Chateaubriand</ref>, whose <hi
+                     rendition="#italics">
+                     <title>Sketches of English Literature</title>
+                  </hi> (1836) Landon had reviewed two years earlier.</note>
+               <ref target="people.html#RichardsonSamuel">Richardson</ref> had far too fine a
+               perception of character to do any such thing. What was there in <ref
+                  target="people.html#Lovelace">Lovelace</ref> that Clarissa should love him? He is
+               witty; but wit is the last quality to excite passion, or to secure affection. Liberty
+               is the element of love; and from the first he surrounds her with restraint, and
+               inspires her with distrust. Moreover, he makes no appeal to the generosity of her
+               nature; and to interest those generous feelings, so active in the feminine
+               temperament, is the first step in gaining the citadel of her heart. To have loved,
+               would not have detracted one touch from the delicate colouring of Clarissa's
+               character; to have loved a man like <ref target="people.html#Lovelace">Lovelace</ref>
+               would. In nothing, more than in attachment is "the nature subdued to what it works
+                  in."<note>From <ref target="people.html#ShakespeareWilliam">William
+                     Shakespeare</ref>'s "<title>Sonnet CXI</title>," lines 6-7, slightly
+                  altered.</note> But <ref target="people.html#Lovelace">Lovelace</ref> is now an
+               historical picture; it represents a class long since passed away, and originally of
+               foreign importation. It belonged to the French <hi rendition="#italics">régime</hi>,
+               when the young men of birth and fortune had no sphere of activity but the camp; all
+               more honourable and useful occupation shut, and when, as regarded his country, he was
+               a civil cipher. The <ref target="people.html#Lovelace">Lovelace</ref> or the
+                  Lauzun<note>Armand-Louis de Gontaut-Biron, Duc de Lauzun (1747-1793) had a notable
+                  reputation as a lover and seducer. His <hi rendition="#italics">
+                     <title>Memoirs of the Duc de Lauzun</title>
+                  </hi> was published in England in 1822.</note> could never have been more than an
+               exception in our stirring country, where pursuits and responsibility are in the lot
+               of all. They may, however, be noted as proofs that where the political standard is
+               low, the moral standard will be still lower.</p>
+            <p>Excepting, therefore, the impassioned Italian of <title>Sir Charles
+               Grandison</title>, Flora M'Ivor is the first female character of our novels in which
+               poetry is the basis of the composition. She has all <ref
+                  target="people.html#Clementina">Clementine</ref> wants; picturesque accessories,
+               and the strong moral purpose. Generally speaking, the mind of a woman is developed by
+               the heart; the being is incomplete till love brings out either its strength or its
+               weakness. This is not the case with the beautiful Highlander; and <ref
+                  target="people.html#ScottWalter">Scott</ref> is the first who has drawn a heroine,
+               and put the usual master-passion aside. We believe few women go down to the grave
+               without at some time or other feeling the full force of the affections. Flora, had
+               not her career been cut short in the very fulness of its flower, would have loved,
+               loved with all the force of a character formed before it loved. <ref
+                  target="people.html#ScottWalter">Scott</ref>'s picture is, at the time when she is
+               introduced, as full of truth as of beauty. The strong mind has less immediate need of
+               an object than the weak one. Rose Bradwardine falls in love at once, compelled by
+               "the sweet necessity of loving." Flora M'Ivor feels no such necessity; her
+               imagination is occupied; her on-lookings to the future, excited by the fortunes of
+               the ill-fated House to which her best sympathies and most earnest hopes are given.
+               The House of Stuart<note>
+                  <hi rendition="#italics">
+                     <title>Waverly</title>
+                  </hi> depicts the 1745 Jacobite Uprising, in which Scottish forces supported the
+                  attempt of <ref target="people.html#CharlesEdwardPrince">Prince Charles Edward
+                     Stuart</ref> to regain the throne of England for the Stuart line. Grandson of
+                     <ref target="people.html#JamesIIKingofEngland">King James II</ref> (the
+                  Catholic <ref target="people.html#JamesIIKingofEngland">James VII of
+                     Scotland</ref>), who had been driven from the throne during the Protestant
+                  Revolution of 1688, <ref target="people.html#CharlesEdwardPrince">Prince Charles
+                     Edward </ref> was known as "Bonnie Prince Charlie," "Young Chevalier," or "The
+                  Young Pretender," depending on one's political sympathies. Although the uprising
+                  posed a serious threat to the English throne, the Scottish forces were ultimately
+                  defeated by <ref target="people.html#GeorgeIKingofGreatBritain">George I</ref>'s
+                  army, led by the <ref target="people.html#CumberlandWilliam">Duke of
+                     Cumberland</ref> at the brutal Battle of Culloden in 1746.</note> has at once
+               her sense of justice and of generosity on its side; it is connected with the legends
+               of her earliest years; she is impelled towards it with true female adherence to the
+               unfortunate. Moreover, her affections have already an object in her <pb n="38"
+               />brother. There is no attachment stronger, more unselfish, than the love between
+               brother and sister, thrown on the world orphans at an early age, with none to love
+               them save each other. They feel how much they stand alone, and this draws them more
+               together. Constant intercourse has given that perfect understanding which only
+               familiarity can do; hopes, interests, sorrows, are alike in common. Each is to either
+               a source of pride; it is the tenderness of love without its fears, and the confidence
+               of marriage, without its graver and more anxious character. The fresh impulses of
+               youth are all warm about the heart.</p>
             <p>It would have been an impossibility for Flora to have attached herself to Edward
-					Waverley. A woman must look up to love: she may deceive herself, but she must
-					devoutly believe in the superiority of her lover. With one so constituted as
-					Flora—proud, high-minded, with that tendency to idealise inseparable from
-					the imagination, Flora must have admired before she could have loved. The object
-					of her attachment must have had something to mark him out from "the
-					undistinguishable many."<hi rendition="#sup">
-                  <note>From <ref target="people.html#ColeridgeSamuel">Coleridge</ref>'s
-							translation of <hi rendition="#italics">The Death of Wallenstein</hi>,
-							by <ref target="people.html#SchillerFriedrich">Friedrich Schiller</ref>,
-							Act V, Scene IV.</note>
-               </hi> Now, Edward Waverley is just like
-					nine-tenths of our acquaintance, or at least what they seem to
-					us—pleasant, amiable, and gentlemanlike, but without one atom of the
-					picturesque or the poetical about them. Flora is rather the idol of his
-					imagination than of his heart, and it might well be made a question whether he
-					be most in love with the rocky torrent, the Highland harp, the Gaelic ballad, or
-					the lovely singer. They would have been unhappy had they married. Flora's
-					decision of temper would have deepened into harshness, when placed in the
-					unnatural position of exercising it for a husband; while Edward would have had
-					too much quickness of perception not to know the influence to which he
-					submitted—he would have been mortified even while too indolent to resist.
-					Respect and reserve would have become their household deities; and where these
-					alone reign, the hearth is but cold.</p>
-            <p>Rose Bradwardine is just the ideal of a girl—simple, affectionate, ready to
-					please and to be pleased—likely to be formed by her associates, ill-fitted
-					to be placed in difficult situations; but whose sweet and kindly nature is
-					brought out by happiness and sunshine. She would be content to gaze on the plans
-					her husband drew for "ornamental grottoes and temples,"<hi rendition="#sup">
-                  <note>Not a direct quote, but a paraphrase of
-							Flora's rather dismissive description of Waverley's future
-							domestic life. See Volume 3, Chapter 5.</note>
-               </hi> and, content that
-					they were his, ask not if his talents did not need a more useful range and a
-					higher purpose. Rose would have kept her husband for ever at Waverley
-					Honour—Flora would have held <quote>
+               Waverley. A woman must look up to love: she may deceive herself, but she must
+               devoutly believe in the superiority of her lover. With one so constituted as
+               Flora—proud, high-minded, with that tendency to idealise inseparable from the
+               imagination, Flora must have admired before she could have loved. The object of her
+               attachment must have had something to mark him out from "the undistinguishable
+                  many."<note>From <ref target="people.html#ColeridgeSamuel">Coleridge</ref>'s
+                  translation of <hi rendition="#italics">The Death of Wallenstein</hi>, by <ref
+                     target="people.html#SchillerFriedrich">Friedrich Schiller</ref>, Act V, Scene
+                  IV.</note> Now, Edward Waverley is just like nine-tenths of our acquaintance, or
+               at least what they seem to us—pleasant, amiable, and gentlemanlike, but without one
+               atom of the picturesque or the poetical about them. Flora is rather the idol of his
+               imagination than of his heart, and it might well be made a question whether he be
+               most in love with the rocky torrent, the Highland harp, the Gaelic ballad, or the
+               lovely singer. They would have been unhappy had they married. Flora's decision of
+               temper would have deepened into harshness, when placed in the unnatural position of
+               exercising it for a husband; while Edward would have had too much quickness of
+               perception not to know the influence to which he submitted—he would have been
+               mortified even while too indolent to resist. Respect and reserve would have become
+               their household deities; and where these alone reign, the hearth is but cold.</p>
+            <p>Rose Bradwardine is just the ideal of a girl—simple, affectionate, ready to please
+               and to be pleased—likely to be formed by her associates, ill-fitted to be placed in
+               difficult situations; but whose sweet and kindly nature is brought out by happiness
+               and sunshine. She would be content to gaze on the plans her husband drew for
+               "ornamental grottoes and temples,"<note>Not a direct quote, but a paraphrase of
+                  Flora's rather dismissive description of Waverley's future domestic life. See
+                  Volume 3, Chapter 5.</note> and, content that they were his, ask not if his
+               talents did not need a more useful range and a higher purpose. Rose would have kept
+               her husband for ever at Waverley Honour—Flora would have held <quote>
                   <lg type="stanza">
                      <l>"Shame to the coward thought that ere betrayed</l>
-                     <l>The noon of manhood to a myrtle shade.<hi rendition="#sup">
-                           <note>From <ref target="people.html#CampbellThomas">Thomas Campbell</ref>'s <hi rendition="#italics">
-                                 <title>The Pleasures of Hope</title>
-                              </hi>, Part II,
-										lines 53-4.</note>
-                        </hi>
+                     <l>The noon of manhood to a myrtle shade.<note>From <ref
+                              target="people.html#CampbellThomas">Thomas Campbell</ref>'s <hi
+                              rendition="#italics">
+                              <title>The Pleasures of Hope</title>
+                           </hi>, Part II, lines 53-4.</note>
                      </l>
                   </lg>
-               </quote> But, alas! to such—the decided and the daring—Fate
-					deals a terrible measure of retribution. I know nothing in the whole range of
-					fiction—that fiction whose truth is life—so deeply affecting as
-					"Flora in a large gloomy apartment, seated by a latticed window, sewing
-					what seemed to be a garment of white flannel."<hi rendition="#sup">
-                  <note>Slightly altered from <hi rendition="#italics">
-                        <title>Waverley</title>
-                     </hi>, Volume 3, Chapter 20.</note>
-               </hi>
-					It is the shroud of her brother—the last of his ancient line—the
-					brave—the generous—the dearly-loved Fergus! How bitter is her
-					anguish when she exclaims, "The strength of mind on which Flora prided
-					herself has murdered her brother! Volatile and ardent, he would have divided his
-					energies amid a thousand objects. It was I who taught him to concentrate them.
-					Oh! that I could recollect that I had but once said to him 'He that
-					striketh with the sword shall die by the sword!'"<hi rendition="#sup">
-                  <note>From the same scene, with Flora quoting
-								<title>Matthew</title> 26:52.</note>
-               </hi>
+               </quote> But, alas! to such—the decided and the daring—Fate deals a terrible measure
+               of retribution. I know nothing in the whole range of fiction—that fiction whose truth
+               is life—so deeply affecting as "Flora in a large gloomy apartment, seated by a
+               latticed window, sewing what seemed to be a garment of white flannel."<note>Slightly
+                  altered from <hi rendition="#italics">
+                     <title>Waverley</title>
+                  </hi>, Volume 3, Chapter 20.</note> It is the shroud of her brother—the last of
+               his ancient line—the brave—the generous—the dearly-loved Fergus! How bitter is her
+               anguish when she exclaims, "The strength of mind on which Flora prided herself has
+               murdered her brother! Volatile and ardent, he would have divided his energies amid a
+               thousand objects. It was I who taught him to concentrate them. Oh! that I could
+               recollect that I had but once said to him 'He that striketh with the sword shall die
+               by the sword!'"<note>From the same scene, with Flora quoting <title>Matthew</title>
+                  26:52.</note>
             </p>
             <p>
-               <pb n="39"/>It is a fearful responsibility, the exercise of influence: let our
-					own conduct bring its own consequences—we may well meet the worst; not so
-					when we have led another to pursue any given line of action: if they suffer, how
-					tenfold is that suffering visited on ourselves! For Flora life could offer
-					nothing but the black veil of the Benedictine convent. There are no associations
-					so precious as those of our earlier years. It is upon them that the heart turns
-					back amid after-cares and sorrows:—the nursery, the old garden, the green
-					field, remain the latest things that memory cherishes. They keep alive something
-					of their own freshness and purity; and the affections belonging to those
-					uncalculating hours have a faith and warmth unknown to after-life. To this
-					ordinary but most sweet love Flora had added the ideal and the
-					picturesque—and love, to reach its highest order, must be worked up by the
-					imagination. She saw in her brother the chieftain of their line—the last
-					descendant of Ivor. He was the support of the cause whose loyalty to its
-					ill-fated adherents was as religion—their lofty enthusiasm was as much in
-					common as their daily habits; they looked back and they looked forward together.
-					When the last Vich Ian Vohr had perished on the scaffold, there remained for his
-					lonely and devoted sister but the convent—a brief resting-place before the
-					grave.</p>
-            <p>
-               <hi rendition="#flushRight">
-                  <ref target="people.html#LandonLetitia">L. E.
-							L.</ref>
-               </hi>
+               <pb n="39"/>It is a fearful responsibility, the exercise of influence: let our own
+               conduct bring its own consequences—we may well meet the worst; not so when we have
+               led another to pursue any given line of action: if they suffer, how tenfold is that
+               suffering visited on ourselves! For Flora life could offer nothing but the black veil
+               of the Benedictine convent. There are no associations so precious as those of our
+               earlier years. It is upon them that the heart turns back amid after-cares and
+               sorrows:—the nursery, the old garden, the green field, remain the latest things that
+               memory cherishes. They keep alive something of their own freshness and purity; and
+               the affections belonging to those uncalculating hours have a faith and warmth unknown
+               to after-life. To this ordinary but most sweet love Flora had added the ideal and the
+               picturesque—and love, to reach its highest order, must be worked up by the
+               imagination. She saw in her brother the chieftain of their line—the last descendant
+               of Ivor. He was the support of the cause whose loyalty to its ill-fated adherents was
+               as religion—their lofty enthusiasm was as much in common as their daily habits; they
+               looked back and they looked forward together. When the last Vich Ian Vohr had
+               perished on the scaffold, there remained for his lonely and devoted sister but the
+               convent—a brief resting-place before the grave.</p>
+            <p rendition="#right">
+                  <ref target="people.html#LandonLetitia">L. E. L.</ref>
             </p>
-            <p/>
-            <p>  </p>
          </div>
       </body>
    </text>

@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Hawkesworth</title>
-            <title type="sub" level="m">The British Novelists</title>
+            <title type="sub">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -38,7 +38,8 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="sub">with an Essay and Prefaces, Biographical and Critical</title>
+                  <title type="sub">with an Essay and Prefaces,
+                            Biographical and Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
                   </editor>
@@ -56,28 +57,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-                  references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on the
-                  U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-                  placed.</p>
+        				placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+        				such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -91,24 +91,15 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
-               block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
-               block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
-               block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
-               block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
-               block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
-               block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
-               block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
-               block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
-               block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -351,7 +342,7 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-                     hyphen</catDesc>
+							hyphen</catDesc>
                </category>
             </taxonomy>
             <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
@@ -564,7 +555,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="8">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below
+						but starting with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -573,11 +572,11 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#LM" when="20200611" n="7">
+         <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy</item>
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -592,7 +591,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers</item>
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
          <change who="#MW" when="2016-09-25" n="4">
@@ -635,86 +634,97 @@
                         <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
                      </name>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
-                     <ref target="people.html#HawkesworthJohn">HAWKESWORTH</ref>.<hi rendition="#sup">
-                        <note>
-                           <title level="m">
-                              <hi rendition="#italics">The British Novelists; with an Essay; and
-                                 Prefaces, Biographical and Critical, by <ref target="people.html#BarbauldMrs">Mrs. Barbauld</ref>
-                              </hi>
-                           </title>, 50 Vols. (London: Printed for F.C. and J. Rivington; W. Otridge
-                           and Son; A. Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and
-                           Robinson; Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe;
-                           R. Lea; J. Nunn; Lackington and Co.; Clarke and Son; C. Law; Longman,
-                           Hurst, Rees, and Orme; Cadell and Davies; E. Jeffery; J.K. Newman; Crosby
-                           and Co.; J. Carpenter; S. Bagster; T. Booth; J. Murray; J. and J.
-                           Richardson; Black, Parry, and Kingsbury; J. Harding; R. Phillips; J.
-                           Mawman; J. Booker; J. Asperne; R. Baldwin; Mathews and Leigh; J. Faulder;
-                           Johnson and Co.; Sherwood and Co.; J. Miller; W. Creech, Edinburgh; and
-                           Wilson and Son, York, 1810), 26: i-ii. Victoria Wynn and Mary A. Waters
-                           co-edited this essay for <hi rendition="#italics">The Criticism
-                              Archive</hi>. </note>
-                     </hi>
+                     <ref target="people.html#HawkesworthJohn">HAWKESWORTH</ref>.<note>
+                        <title level="m">
+                           <hi rendition="#italics">The British Novelists;
+                                            with an Essay; and Prefaces, Biographical and Critical,
+                                            by <ref target="people.html#BarbauldMrs">Mrs.
+                                                Barbauld</ref>
+                           </hi>
+                        </title>, 50 Vols. (London:
+                                    Printed for F.C. and J. Rivington; W. Otridge and Son; A.
+                                    Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
+                                    Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
+                                    Lea; J. Nunn; Lackington and Co.; Clarke and Son; C. Law;
+                                    Longman, Hurst, Rees, and Orme; Cadell and Davies; E. Jeffery;
+                                    J.K. Newman; Crosby and Co.; J. Carpenter; S. Bagster; T. Booth;
+                                    J. Murray; J. and J. Richardson; Black, Parry, and Kingsbury; J.
+                                    Harding; R. Phillips; J. Mawman; J. Booker; J. Asperne; R.
+                                    Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.;
+                                    Sherwood and Co.; J. Miller; W. Creech, Edinburgh; and Wilson
+                                    and Son, York, 1810), 26: i-ii. Victoria Wynn and Mary A. Waters
+                                    co-edited this essay for <hi rendition="#italics">The Criticism
+                                        Archive</hi>. </note>
                   </title>
                </bibl>
             </head>
             <p rendition="#noindent">
-               <hi rendition="#largest">T</hi>HE praise which was universally bestowed on the little
-               Eastern tales which <ref target="people.html#HawkesworthJohn">Dr. Hawkesworth</ref>
-               had introduced in the papers of his <title>
+               <hi rendition="#largest">T</hi>HE praise which was
+                    universally bestowed on the little Eastern tales which <ref target="people.html#HawkesworthJohn">Dr. Hawkesworth</ref> had introduced in
+                    the papers of his <title>
                   <hi rendition="#italics">Adventurer</hi>
-               </title>, probably suggested to him the idea of giving a more extended story in the
-               same style, and produced his <title>
-                  <hi rendition="#italics">Almoran and Hamet</hi>
-               </title>. It is not, however, equal to the beautiful allegory of the <hi rendition="#italics">ring</hi>, <note>
-                  <ref target="people.html#BarbauldMrs">Barbauld</ref> probably refers to a story in
-                  the <title>
+               </title>,
+                    probably suggested to him the idea of giving a more extended story in the same
+                    style, and produced his <title>
+                  <hi rendition="#italics">Almoran and
+                        Hamet</hi>
+               </title>. It is not, however, equal to the beautiful allegory of
+                    the <hi rendition="#italics">ring</hi>,<note>
+                  <ref target="people.html#BarbauldMrs">Barbauld</ref> probably
+                            refers to a story in the <title>
                      <hi rendition="#italics">Adventurer</hi>
-                  </title> (No. 20, Saturday, January 13, 1753; continued through No. 21, Tuesday,
-                  January 15 and No. 22, Saturday, January 20). With <ref target="people.html#JohnsonSamuel">Samuel Johnson</ref>, Hawkesworth edited
-                  this journal and authored much of the contents. </note> or the sublime imagery of <title>
+                  </title> (No. 20, Saturday, January 13, 1753;
+                            continued through No. 21, Tuesday, January 15 and No. 22, Saturday,
+                            January 20). With <ref target="people.html#JohnsonSamuel">Samuel
+                                Johnson</ref>, Hawkesworth edited this journal and authored much of
+                            the contents. </note> or the sublime imagery of <title>
                   <hi rendition="#italics">Carazan</hi>
-               </title>. <note>
-                  <title>"Carazan's Dream, an Eastern Story"</title> appeared in the <title>
+               </title>.<note>
+                  <title>"Carazan's Dream, an Eastern
+                                Story"</title> appeared in the <title>
                      <hi rendition="#italics">Adventurer</hi>
-                  </title> No. 132 (Saturday, February 9, 1754).</note> In extended compositions of
-               this kind, we miss the captivating richness and wildness of the genuine Eastern
-               tales; and the desire to elicit a moral is commonly too apparent. The style also,
-               which is generally adopted in these tales, inclines to the turgid, and is apt to
-               become tiresome in a narrative of any length. <title>
+                  </title> No. 132 (Saturday, February 9,
+                            1754).</note> In extended compositions of this kind, we miss the
+                    captivating richness and wildness of the genuine Eastern tales; and the desire
+                    to elicit a moral is commonly too apparent. The style also, which is generally
+                    adopted in these tales, inclines to the turgid, and is apt to become tiresome in
+                    a narrative of any length. <title>
                   <hi rendition="#italics">Vathek</hi>
                </title>
                <note>
-                  <ref target="people.html#BeckfordWilliam">William Beckford</ref> first published
-                  this novel in Switzerland in 1787.</note> is the only modern composition which has
-               seized the genuine spirit of the Arabian tales: there is indeed in that fiction so
-               much of the fancy peculiar to the East, that it is difficult to imagine it has not
-               had some genuine tale of that origin for its basis.</p>
+                  <ref target="people.html#BeckfordWilliam">William Beckford</ref> first
+                            published this novel in Switzerland in 1787.</note>is the only
+                    modern composition which has seized the genuine spirit of the Arabian tales:
+                    there is indeed in that fiction so much of the fancy peculiar to the East, that
+                    it is difficult to imagine it has not had some genuine tale of that origin for
+                    its basis.</p>
             <p>
                <title>
                   <hi rendition="#italics">Almoran and Hamet</hi>
-               </title> may, notwithstanding, be read with a degree of pleasure, especially
-                  by<lb/>
+               </title> may,
+                    notwithstanding, be read with a degree of pleasure, especially by<lb/>
                <fw type="vol">
                   <hi rendition="#smcaps">vol. xxvi.</hi>
                </fw>
-               <fw type="sig" rendition="#center">b</fw>
-               <pb n="ii"/>youth, to whom the allegorical mode of writing is generally more
-               agreeable than it is to those of more advanced life. The design is to show that no
-               outward circumstances, even such as may be produced by changing the course of nature,
-               are sufficient to procure happiness, if the mind is not fitted for it by virtuous
-               dispositions. There is merit in the idea of making Almoran, under the form of Hamet,
-               incapable of taking advantage of his transformation in securing the affections of his
-               mistress, which become immediately alienated from that beloved form, when she finds
-               the mind of her supposed lover no longer the same. She despises Almoran under the
-               form of Hamet, and transfers her love to the real Hamet, believing him to be Almoran:
-               but much more might have been made of the frame of the story than is made of it.</p>
+               <fw type="sig">b</fw>
+               <pb n="ii"/>youth, to whom the
+                    allegorical mode of writing is generally more agreeable than it is to those of
+                    more advanced life. The design is to show that no outward circumstances, even
+                    such as may be produced by changing the course of nature, are sufficient to
+                    procure happiness, if the mind is not fitted for it by virtuous dispositions.
+                    There is merit in the idea of making Almoran, under the form of Hamet, incapable
+                    of taking advantage of his transformation in securing the affections of his
+                    mistress, which become immediately alienated from that beloved form, when she
+                    finds the mind of her supposed lover no longer the same. She despises Almoran
+                    under the form of Hamet, and transfers her love to the real Hamet, believing him
+                    to be Almoran: but much more might have been made of the frame of the story than
+                    is made of it.</p>
             <p>
-               <ref target="people.html#HawkesworthJohn">Dr. Hawkesworth</ref>'s genius was not of
-               the first order; but it was elegant, pleasing, and remarkably adapted to those
-               purposes of moral instruction and innocent entertainment to which he uniformly
-               devoted it.</p>
+               <ref target="people.html#HawkesworthJohn">Dr. Hawkesworth</ref>'s genius was
+                    not of the first order; but it was elegant, pleasing, and remarkably adapted to
+                    those purposes of moral instruction and innocent entertainment to which he
+                    uniformly devoted it.</p>
          </div>
       </body>
    </text>

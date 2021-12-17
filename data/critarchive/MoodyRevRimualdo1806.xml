@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader xmlns:PA="http://www.poetessarchive.org/#schema" type="text">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Review of "Rimualdo" by Ireland</title>
-            <title type="sub" level="j">The Monthly Review</title>
+            <title type="sub">The Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -28,7 +28,7 @@
             <biblStruct>
                <analytic>
                   <title type="main" level="a">Art. 25. Rimualdo; or, The Castle of Badajos. A
-							Romance. By W. H. Ireland.</title>
+                     Romance. By W. H. Ireland.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -46,28 +46,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -81,15 +80,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -332,11 +340,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -466,7 +475,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -544,7 +553,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="6">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -590,102 +607,94 @@
          </change>
       </revisionDesc>
    </teiHeader>
-   <text xmlns:PA="http://www.poetessarchive.org/#schema">
+   <text>
       <body>
          <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
-                        <name>Elizabeth
-								Moody</name>
+                        <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title type="main" level="a">Art. 25. <hi rendition="#italics">Rimualdo;</hi> or, The Castle of Badajos. A Romance. By <ref target="people.html#IrelandWH">W. H. Ireland</ref>. <hi rendition="#smcaps">12</hi>mo. 4 Vols. 14s. Boards. Longman and
-							Rees. 1800.<hi rendition="#sup">
-                        <note>This review article
-									appeared in <title level="j">
-                              <hi rendition="#italics">The
-											Monthly Review</hi>
-                           </title>, second series, vol. 34, February 1806, pages 203-4. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's
-                           marked copy of <hi rend="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-                              Review</ref>
-                              </title>
-                           </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-                                    Series, 1790-1815: Indexes of Contributors and
-                                    Articles</title>
-                           </hi>, Clarendon Press, 1955. This edition of the article is produced by Mary A. Waters.
-					</note>
-                     </hi>
+                  <title type="main" level="a">Art. 25. <hi rendition="#italics">Rimualdo;</hi> or,
+                     The Castle of Badajos. A Romance. By <ref target="people.html#IrelandWH">W. H.
+                        Ireland</ref>. <hi rendition="#smcaps">12</hi>mo. 4 Vols. 14s. Boards.
+                     Longman and Rees. 1800.<note>This review article appeared in <title level="j">
+                           <hi rendition="#italics">The Monthly Review</hi>
+                        </title>, second series, vol. 34, February 1806, pages 203-4. Benjamin
+                        Nangle identifies <ref target="people.html#MoodyElizabeth">
+                           <name>Elizabeth Moody</name>
+                        </ref> as the author of this review from an editor's marked copy of <hi
+                           rendition="#italics">
+                           <title>
+                              <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                           </title>
+                        </hi>. See Nangle, <hi rendition="#italics">
+                           <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                              Contributors and Articles</title>
+                        </hi>, Clarendon Press, 1955. This edition of the article is produced by
+                        Mary A. Waters. </note>
                   </title>
                </bibl>
             </head>
-            <p>The title of romance still invigorates our spirits. Old as we are, it recalls to
-					our recollection the stories in which our youth delighted, of wandering knights,
-					tilts, tournaments, enchanted castles, formidable giants, sea monsters,
-					distressed damsels, tremendous fights, and impossible valour. We forget,
-					however, that "the days of chivalry are gone;" and that, in the <hi rendition="#italics">present-day romance</hi>, we must expect little other
-					amusement than the oglio of the modern novel supplies: consisting of unnatural
-					parents,—persecuted lovers,—murders,—haunted
-					apartments,—winding sheets, and winding stair-cases,—subterraneous
-					passages,—lamps that are dim and perverse, and that always go out when
-					they should not,—monasteries,—caves,—monks, tall, thin, and
-					withered, with lank abstemious cheeks,—dreams,—groans,—and
-					spectres.</p>
-            <p> Such is the outline of the <hi rendition="#italics">modern</hi> romance; and
-						<ref target="people.html#IrelandWH">Mr. Ireland</ref>'s copy is not
-					unworthy of its numerous prototypes. We have here, in the personages of the
-					drama, a parent and a husband in the Marquis of Badajos, as wicked and as
-					unnatural as any with whom we have before had the honor of being
-					acquainted.—We have a son in the Condé Rimualdo, as eminent for
-					filial piety as Æneas himself.—We have patient suffering innocence in
-					the fair Constanza, equalling, if not transcending any of our novel
-					heroines.—We have <hi rendition="#italics">very good</hi> haunted
-					towers,—and a <hi rendition="#italics">spectre</hi> that stands supremely
-					eminent over the whole race of ghosts.—Hamlets and Banquos were no more
-					than <hi rendition="#italics">mawkins</hi> in a cherry-tree, compared with that
-					terrific vision which Rimualdo encounters on entering the old ruined chapel in
-					the forest.—Though familiarized very much, lately, to these apparitions,
-					we did not feel inclined to go to bed, till we had puffed away the recollection
-					of this spectre in a whiff of tobacco, and re-animated our fleeting spirits by a
-					double draught of old October: which will not be matter of surprise to the
-					reader, when he learns that the hero himself, the brave Rimualdo, dropped down
-					in a swoon immediately on seeing it! </p>
+            <p>The title of romance still invigorates our spirits. Old as we are, it recalls to our
+               recollection the stories in which our youth delighted, of wandering knights, tilts,
+               tournaments, enchanted castles, formidable giants, sea monsters, distressed damsels,
+               tremendous fights, and impossible valour. We forget, however, that "the days of
+               chivalry are gone;" and that, in the <hi rendition="#italics">present-day
+                  romance</hi>, we must expect little other amusement than the oglio of the modern
+               novel supplies: consisting of unnatural parents,—persecuted lovers,—murders,—haunted
+               apartments,—winding sheets, and winding stair-cases,—subterraneous passages,—lamps
+               that are dim and perverse, and that always go out when they should
+               not,—monasteries,—caves,—monks, tall, thin, and withered, with lank abstemious
+               cheeks,—dreams,—groans,—and spectres.</p>
+            <p> Such is the outline of the <hi rendition="#italics">modern</hi> romance; and <ref
+                  target="people.html#IrelandWH">Mr. Ireland</ref>'s copy is not unworthy of its
+               numerous prototypes. We have here, in the personages of the drama, a parent and a
+               husband in the Marquis of Badajos, as wicked and as unnatural as any with whom we
+               have before had the honor of being acquainted.—We have a son in the Condé Rimualdo,
+               as eminent for filial piety as Æneas himself.—We have patient suffering innocence in
+               the fair Constanza, equalling, if not transcending any of our novel heroines.—We have
+                  <hi rendition="#italics">very good</hi> haunted towers,—and a <hi
+                  rendition="#italics">spectre</hi> that stands supremely eminent over the whole
+               race of ghosts.—Hamlets and Banquos were no more than <hi rendition="#italics"
+                  >mawkins</hi> in a cherry-tree, compared with that terrific vision which Rimualdo
+               encounters on entering the old ruined chapel in the forest.—Though familiarized very
+               much, lately, to these apparitions, we did not feel inclined to go to bed, till we
+               had puffed away the recollection of this spectre in a whiff of tobacco, and
+               re-animated our fleeting spirits by a double draught of old October: which will not
+               be matter of surprise to the reader, when he learns that the hero himself, the brave
+               Rimualdo, dropped down in a swoon immediately on seeing it! </p>
             <p> Murder is in this romance too much <hi rendition="#italics">the order of the
-						day</hi>. We have murders in castles, in forests, and in cottages; and, to
-					borrow a word from the author, we are too frequently <hi rendition="#italics">enhorrored.—Raw head and bloody bones</hi> is continually at our
-					heels, through a long journey of 926 pages; and we were therefore happy to get
-					rid of him, and to leave our terrified fellow-travellers calmly settled in the
-					unhaunted Castilio di Montalvan. </p>
+                  day</hi>. We have murders in castles, in forests, and in cottages; and, to borrow
+               a word from the author, we are too frequently <hi rendition="#italics"
+                  >enhorrored.—Raw head and bloody bones</hi> is continually at our heels, through a
+               long journey of 926 pages; and we were therefore happy to get rid of him, and to
+               leave our terrified fellow-travellers calmly settled in the unhaunted Castilio di
+               Montalvan. </p>
             <p>
-               <ref target="people.html#IrelandWH">Mr. Ireland</ref>'s language is
-					animated and flowing, when it is <hi rendition="#italics">not inflated</hi> with
-					pomposity. The Escurial (for the scene of action is in Spain) is well and
-					minutely described; and the Castle of Badajos is a pleasing picture: but, like
-					some sister <hi rendition="#italics">Novelists</hi>, he deals too profusely in
-					poetic description, and the common operations of Nature are never detailed in
-					common language. Morning never appears without 'Aurora's tints that
-					crown the summits of the distant mountains.'—The sun never rises but
-					'as the imperial charioteer of day, hast'ning his car of blazing light
-					towards green ocean's occidental flood-gate.' <pb n="204"/>The moon is always full
-					orb'd, yet never looks <hi rendition="#italics">full</hi> at us, but peeps
-					behind fleecy clouds.—Night never forgets to assume the appropriate
-					dignity of her sable mantle, with which (when she is not in a good humour)
-					'she overspreads heaven's countless luminaries;' —and if
-					the hero and heroine are in a storm, God alone can help them,—for then
-					'impetuous winds blow from <hi rendition="#italics">every direction</hi>
-						(<hi rendition="#italics">all at once</hi>), flakey lightning emblazons
-					night's ebon robe, and full charged clouds <hi rendition="#italics">discharge</hi> tremendous explosions.' </p>
+               <ref target="people.html#IrelandWH">Mr. Ireland</ref>'s language is animated and
+               flowing, when it is <hi rendition="#italics">not inflated</hi> with pomposity. The
+               Escurial (for the scene of action is in Spain) is well and minutely described; and
+               the Castle of Badajos is a pleasing picture: but, like some sister <hi
+                  rendition="#italics">Novelists</hi>, he deals too profusely in poetic description,
+               and the common operations of Nature are never detailed in common language. Morning
+               never appears without 'Aurora's tints that crown the summits of the distant
+               mountains.'—The sun never rises but 'as the imperial charioteer of day, hast'ning his
+               car of blazing light towards green ocean's occidental flood-gate.' <pb n="204"/>The
+               moon is always full orb'd, yet never looks <hi rendition="#italics">full</hi> at us,
+               but peeps behind fleecy clouds.—Night never forgets to assume the appropriate dignity
+               of her sable mantle, with which (when she is not in a good humour) 'she overspreads
+               heaven's countless luminaries;' —and if the hero and heroine are in a storm, God
+               alone can help them,—for then 'impetuous winds blow from <hi rendition="#italics"
+                  >every direction</hi> (<hi rendition="#italics">all at once</hi>), flakey
+               lightning emblazons night's ebon robe, and full charged clouds <hi
+                  rendition="#italics">discharge</hi> tremendous explosions.' </p>
             <p> Thus is poetic imagery blended with prose detail; producing a medley of
-					heterogeneous language totally destructive of good writing, by violating those
-					principles of harmonious congruity which form the basis of a correct and
-					uncontaminated diction. </p>
+               heterogeneous language totally destructive of good writing, by violating those
+               principles of harmonious congruity which form the basis of a correct and
+               uncontaminated diction. </p>
          </div>
       </body>
    </text>

@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Dr. Moore</title>
-            <title type="sub" level="m">The British Novelists</title>
+            <title type="sub">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -57,28 +57,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+        				placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p>
                <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+        				such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -556,7 +555,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="8">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below
+						but starting with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -565,11 +572,11 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#LM" when="20200611" n="7">
+         <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy</item>
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -584,7 +591,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers</item>
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
          <change who="#MW" when="2016-08-25" n="4">
@@ -628,11 +635,9 @@
                      <ref target="people.html#BarbauldMrs">Anna
                                 Letitia Barbauld</ref>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
                      <ref target="people.html#MooreJohn">DR.
-                                MOORE</ref>.
-                        <note>
+                                MOORE</ref>.<note>
                         <title level="m">
                            <hi rendition="#italics">The British Novelists; with an
                                             Essay; and Prefaces, Biographical and Critical, by <ref target="people.html#BarbauldMrs">Mrs.
@@ -661,19 +666,15 @@
                </title>. Its
                     author, <ref target="people.html#MooreJohn">J<hi rendition="#smcaps">ohn</hi>
                             M<hi rendition="#smcaps">oore</hi>, M.D.</ref>, well known to the world
-                    by several successful publications, was born at Stirling in the year 1730.
-                  <note>Most records agree that Moore was born
-                            in 1729.</note>
-                He lost his father, a minister of the Scotch
+                    by several successful publications, was born at Stirling in the year 1730.<note>Most records agree that Moore was born
+                            in 1729.</note> He lost his father, a minister of the Scotch
                     church, in his infancy; and his mother, upon that event, removed with him to
                     Glasgow. He was educated for the medical profession, and, after attending the
                     University lectures, was received, at the early age of seventeen, as
                     surgeon's mate in the allied army in Flanders, then commanded by the <ref target="people.html#CumberlandWilliam">Duke of Cumberland</ref>. He returned
                     to England on the peace which took place the year after, and, after passing some
-                    time in London, visited Paris in the course of professional improvement.
-                  <note>Paris was at the time the epicenter of medical research
-                            and training. </note>
-               Here he spent two years in attendance on the lectures and hospitals; and
+                    time in London, visited Paris in the course of professional improvement.<note>Paris was at the time the epicenter of medical research
+                            and training. </note>Here he spent two years in attendance on the lectures and hospitals; and
                     was at the same time patronized by the <ref target="people.html#AlbemarleGeorgeKeppel">Duke of Albemarle</ref>, the
                     English ambassador, who appointed him surgeon to his household; but being
                     offered a partnership with Mr. <lb/>
@@ -732,8 +733,7 @@
                   </hi>
                </title>. 2 vols. These are written with more
                     discernment and impartiality than most publications of the time, but the
-                    crowding events of subsequent periods have thrown them out of date.
-                  <note>Shortly after <ref target="people.html#LouisXVIKingofFrance">Louis XVI</ref> was
+                    crowding events of subsequent periods have thrown them out of date.<note>Shortly after <ref target="people.html#LouisXVIKingofFrance">Louis XVI</ref> was
                             guillotined in January 1793, England declared war with France.
                             Thereafter followed the French Reign of Terror as well as rigorous
                             repression of political dissent in England, the guillotining of
@@ -751,8 +751,9 @@
                     1786 a volume entitled <title>
                   <hi rendition="#italics">Medical</hi>
                </title>
-               <lb/>
-               <fw type="sig">a 2</fw>
+               <lb/><fw type="sig">
+                  <hi rendition="center">a 2</hi>
+               </fw>
                <pb n="iv"/>
                <title>
                   <hi rendition="#italics">Sketches</hi>
@@ -773,16 +774,13 @@
                </title> in 1800: the latter was the
                     offspring of his declining years. </p>
             <p>
-               <ref target="people.html#MooreJohn">Dr. Moore</ref> died in 1803 at Richmond,
-                  <note>Again, most sources disagree with <ref target="people.html#BarbauldMrs">Barbauld</ref>, dating <ref target="people.html#MooreJohn">Moore</ref>'s death in
-                            1802.</note>
-                where he had spent in retirement the last years of his
+               <ref target="people.html#MooreJohn">Dr. Moore</ref> died in 1803 at Richmond,<note>Again, most sources disagree with <ref target="people.html#BarbauldMrs">Barbauld</ref>, dating <ref target="people.html#MooreJohn">Moore</ref>'s death in
+                            1802.</note> where he had spent in retirement the last years of his
                     life, delighting himself with the opening prospects of his rising family, five
                     sons and a daughter. He lived long enough to pride himself in the growing
                     reputation and brilliant career of one of these sons; but, happily for himself,
                     not long enough to witness the disappointment of his fondest hopes, in the
-                    premature death of this gallant and unfortunate hero.
-                  <note>
+                    premature death of this gallant and unfortunate hero.<note>
                   <ref target="people.html#MooreJohn">Moore</ref>'s son
                                 <ref target="people.html#MooreSirJohn">Sir John Moore</ref>,
                             commander of British forces, lost his life fighting the French imperial
@@ -807,11 +805,9 @@
                     model of depravity. Zeluco is painted as radically vicious, without the
                     intermixture of any one good quality; but, if the perfectly virtuous character
                     is to be considered, for so we are sometimes told, as out of nature, "a
-                    faultless monster whom the world ne'er saw,"
-                  <note>John Sheffield, Duke of Buckinghamshire, <title>
+                    faultless monster whom the world ne'er saw,"<note>John Sheffield, Duke of Buckinghamshire, <title>
                      <hi rendition="#italics">Essay on Poetry</hi>
-                  </title>, 1723. </note>
-                it is to be hoped a perfectly vicious character is at least as
+                  </title>, 1723. </note> it is to be hoped a perfectly vicious character is at least as
                     extraordinary a production. There is no degree of atrocity to which human nature
                     may not arrive from time and circumstances; want and misery harden the heart as
                     well as the features: but it is scarcely conceivable that a youth coming into
@@ -826,8 +822,7 @@
                     between the wife and her lover is managed with great delicacy; yet if she
                     preserves <pb n="vi"/> her virtue, it may be said to be <hi rendition="#italics">heureusement:</hi>
                <note>luckily; fortunately; that is, due to good fortune rather
-                            than exertion of firm character. </note>
-                and amiable and excellent as they both are, it may admit of a doubt how
+                            than exertion of firm character. </note> and amiable and excellent as they both are, it may admit of a doubt how
                     far it is favourable to good morals to interest the reader in a passion for a
                     married woman, however unhappily she may be yoked. The character of Signora
                     Sporza is drawn with spirit; it is quite a foreign one. The conversation-pieces
@@ -847,8 +842,7 @@
                     was told that his cruel master would broil in hell to all eternity—"I
                     hope he will not suffer so long."<note>
                   <hi rendition="#italics">Zeluco</hi> (London: A. Strahan
-                            and T. Cadell, 1789) XV:128. </note>
-                The young may melt into tears at <title>
+                            and T. Cadell, 1789) XV:128. </note> The young may melt into tears at <title>
                   <hi rendition="#italics">Julia
                             Mandeville</hi>
                </title>
@@ -857,8 +851,7 @@
                      <hi rendition="#italics">The History of Lady Julia
                                     Mandeville</hi>
                   </title> is a sentimental novel by <ref target="people.html#BrookeFrances">Frances Brooke</ref> published in
-                            1763.</note>
-                and <title>
+                            1763.</note> and <title>
                   <hi rendition="#italics">The Man of
                             Feeling</hi>
                </title>;<note>
@@ -866,8 +859,7 @@
                      <hi rendition="#italics">The Man of Feeling</hi>
                   </title> is a
                             sentimental novel by <ref target="people.html#MackenzieHenry">Henry
-                                Mackenzie</ref> published in 1771.</note>
-                the romantic will
+                                Mackenzie</ref> published in 1771.</note> the romantic will
                     love to shudder at <pb n="vii"/>
                <title>
                   <hi rendition="#italics">Udolpho</hi>
@@ -876,8 +868,7 @@
                      <hi rendition="#italics">The Mysteries of
                                     Udolpho</hi>
                   </title> is a gothic novel by <ref target="people.html#RadcliffeAnn">Ann Radcliffe</ref> published in
-                            1794.</note>
-                but those of mature age, who know what human nature
+                            1794.</note> but those of mature age, who know what human nature
                     is, will take up again and again <ref target="people.html#MooreJohn">Dr.
                         Moore</ref>'s <title>
                   <hi rendition="#italics">Zeluco</hi>
@@ -892,8 +883,7 @@
                     conversation-pieces. <ref target="people.html#MooreJohn">Dr. Moore</ref> tells a
                     story well, but it must be allowed he makes the most of it. He has not spared
                     his own profession, but has some lively strictures on the incapacity and <hi rendition="#italics">charlatanerie</hi>
-               <note>Deception; fraud. </note>
-                of pretenders in it. He drew with a free pen; and from his acquaintance
+               <note>Deception; fraud. </note> of pretenders in it. He drew with a free pen; and from his acquaintance
                     with life, and facility in dialogue, it seems probable that he would have
                     succeeded in comedy, if he had turned his thoughts that way. <title>
                   <hi rendition="#italics">Mordaunt</hi>

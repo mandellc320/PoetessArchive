@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Review of The English in Italy</title>
-            <title type="sub" level="j">The Westminster Review</title>
+            <title type="sub">The Westminster Review</title>
             <author type="writer">
                <name> Mary Wollstonecraft Shelley </name>
             </author>
@@ -48,28 +48,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -83,15 +82,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -334,11 +342,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -468,7 +477,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -546,7 +555,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="7">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -600,827 +617,736 @@
                <bibl>
                   <author type="writer">
                      <name>
-                        <ref target="people.html#ShelleyMary">Mary
-							Shelley</ref>
+                        <ref target="people.html#ShelleyMary">Mary Shelley</ref>
                      </name>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
                      <hi rendition="#smcaps">Art</hi>. IV.—1. <hi rendition="#italics">
                         <title>The English in Italy</title>
-                     </hi>. 3 vols. London. 1826.
-								<lb/>2. <hi rendition="#italics">
+                     </hi>. 3 vols. London. 1826. <lb/>2. <hi rendition="#italics">
                         <title>Continental Adventures. A Novel</title>
-                     </hi>. 3 vols.
-							London. 1826. <lb/>3. <hi rendition="#italics">
+                     </hi>. 3 vols. London. 1826. <lb/>3. <hi rendition="#italics">
                         <title>Diary of an Ennuyée.</title>
-                     </hi> London. 1826.<hi rendition="#sup">
-                        <note xml:id="ftn1" n="1">This review
-									article appeared in <title level="j">
-                              <hi rendition="#italics">The Westminster Review</hi>
-                           </title>, vol. 6 (October
-									1826), pp. 325-41. <hi rendition="#italics">
-                              <title>The English
-											in Italy</title>
-                           </hi> was authored by <ref target="people.html#PhippsConstantineHenry"> Constantine
-										Henry Phipps, Marquess of Normanby</ref>. <ref target="people.html#EatonCharlotte">Charlotte A. Eaton
-										(</ref> authored <hi rendition="#italics">
-                              <title>Continental
-											Adventures. A Novel</title>
-                           </hi>. <hi rendition="#italics">
-                              <title>Diary of an
-										Ennuyée</title>
-                           </hi> is by <ref target="people.html#JamesonAnna">Anna Jameson</ref>. This review
-									article is attributed to Mary Shelley in <hi rendition="#italics">
-                              <title>The Wellesley Index to Victorian
-											Periodicals 1824-1900</title>
-                           </hi>, ed. Wa;ter E.
-									Houghton, University of Toronto Press, 1966. Krystal
-									J. Iseminger and Mary A. Waters prepared the current edition of
-									this article for <hi rendition="#italics">The Criticism
-										Archive.</hi>
-                        </note>
-                     </hi>
+                     </hi> London. 1826.<note xml:id="ftn1" n="1">This review article appeared in
+                           <title level="j">
+                           <hi rendition="#italics">The Westminster Review</hi>
+                        </title>, vol. 6 (October 1826), pp. 325-41. <hi rendition="#italics">
+                           <title>The English in Italy</title>
+                        </hi> was authored by <ref target="people.html#PhippsConstantineHenry">
+                           Constantine Henry Phipps, Marquess of Normanby</ref>. <ref
+                           target="people.html#EatonCharlotte">Charlotte A. Eaton (</ref> authored
+                           <hi rendition="#italics">
+                           <title>Continental Adventures. A Novel</title>
+                        </hi>. <hi rendition="#italics">
+                           <title>Diary of an Ennuyée</title>
+                        </hi> is by <ref target="people.html#JamesonAnna">Anna Jameson</ref>. This
+                        review article is attributed to Mary Shelley in <hi rendition="#italics">
+                           <title>The Wellesley Index to Victorian Periodicals 1824-1900</title>
+                        </hi>, ed. Wa;ter E. Houghton, University of Toronto Press, 1966. Krystal J.
+                        Iseminger and Mary A. Waters prepared the current edition of this article
+                        for <hi rendition="#italics">The Criticism Archive.</hi>
+                     </note>
                   </title>
                </bibl>
             </head>
             <p rendition="#noindent">
-               <hi rendition="#largest">W</hi>HEN peace came, after many
-					long years of war, when our island prison was opened to us, and our watery exit
-					from it was declared practicable, it was the paramount wish of every English
-					heart, ever addicted to vagabondizing, to hasten to the continent, and to
-					imitate our forefathers in their almost forgotten custom, of spending the
-					greater part of their lives and fortunes in their carriages on the post-roads of
-					the continent. With the brief and luckless exception of the peace of Amiens,<hi rendition="#sup">
-                  <note>March 1802-May 1803.
-							"Luckless" because short lived, this period offered a brief
-							reprise from "long years of war" with France from 1793 until
-							the capture and temporary exile of <ref target="people.html#Napoleon">Napoleon</ref> in 1814. <ref target="people.html#Napoleon">Napoleon</ref> escaped from exile in February 1815 and was only
-							finally defeated in June of the same year.</note>
-               </hi> the continent had
-					not been open for the space of more than one-and- twenty years; a new generation
-					had sprung up, and the whole of this, who had money and time at command, poured,
-					in one vast<pb n="326"/> stream, across the Pas de Calais into France: in their
-					numbers, and their eagerness to proceed forward, they might be compared to the
-					Norwegian rats, who always go right on, and when they come to an opposing
-					stream, still pursue their route, till a bridge is formed of the bodies of the
-					drowned, over which the living pass in safety. The simile holds good in more
-					ways than one: the first emigrants, it is true, were not wholly killed, but the
-					miseries they endured, of dirty packets and wretched inns, were the substratum
-					from which has arisen the elegant steam-packet, and the improved state of the
-					continental hotels. But in those early days of migration, in the summer of 1814,
-					every inconvenience was hailed as a new chapter in the romance of our travels;
-					the worst annoyance of all, the Custom-house, was amusing as a novelty; we saw
-					with extasy the strange costume of the French women, read with delight our own
-					descriptions in the passport, looked with curiosity on every <hi rendition="#italics">plât</hi>, fancying that the fried-leaves of
-					artichokes were frogs; we saw shepherds in opera-hats, and post-boys in
-					jack-boots; and (<hi rendition="#italics">pour comble de merveille</hi>
-               <hi rendition="#sup">
-                  <note>To crown the wonder.</note>
-               </hi>) heard
-					little boys and girls talk French: it was acting a novel, being an incarnate
-					romance. But these days are now vanished: frequent landings at Calais have
-					deprived it of its captivating novelty. Many of our children, under the guidance
-					of foreign nursery-maids, lisp French as well as any little wood-shod urchin
-					among the natives. We have learned to curse the <hi rendition="#italics">douane</hi>,<hi rendition="#sup">
-                  <note>Customs
-							checkpoint.</note>
-               </hi> and denounce passports as tyrannical and
-					insufferable impediments to our free progress.</p>
-            <p>When France palled on our travelled appetites, which always crave for something
-					new, Italy came into vogue. As preparatives for our pilgrimage to that county,
-					whose charm is undying, we devoured the fabulous descriptions of <ref target="people.html#EustaceJohnChetwode">Eustace</ref>, and well-poised
-					sentences of <ref target="people.html#ForsythJoseph">Forsyth</ref>, and a
-					traveller from Italy inspired us almost with devotional respect. We do not think
-					that we are guilty of any exaggeration when we affirm, that even now that the
-					English are almost cloyed with foreign travel, a journey to Italy is still
-					regarded with enthusiastic transport, and when visited, that country is quitted
-					with greater regret than any other, and the peculiarity of its situation
-					accounts for this. We all wish to burst our watery bound, and to wander in
-					search of a more genial climate than that enjoyed (according to the vulgarism,
-						<hi rendition="#italics">he enjoys a very bad state of health</hi>) by our
-					native land. Neither France, Germany, nor Switzerland, content the swallow
-					English. La belle France is now acknowledged to be the most unpictuesque, dull,
-					miserable-looking country in the world. The name of Germany is sufficient in
-					itself to inspire a kind of metaphysical gloom, enlightened only <pb n="327"/>by
-					meteoric flashes from the Hartz or the Elbe. Passing the Jura, surrounded by the
-					mighty Alps, we ramble delightedly over Switzerland, till the snow and ice,
-					ushered in by the chilling Biz, cause us to escape from the approach of a winter
-					more severe than our own. We fly to Italy; we eat the lotus; we cannot tear
-					ourselves away. It is the land of romance, and therefore pleases the young; of
-					classic lore, and thus possesses charms for the learned. Its petty states and
-					tiny courts, with all the numerous titles enjoyed by their frequenters, gild it
-					for the worldly. The man of peace and domesticity finds in its fertile soil, and
-					the happiness of its peasantry, an ameliorated likeness of beloved but starving
-					England. The society is facile; the towns illustrious by the reliques they
-					contain of the arts of ancient times, or the middle ages; while its rural
-					districts attach us, through the prosperity they exhibit, their plenteous
-					harvests, the picturesque arrangement of their farms, the active life every
-					where apparent, the novelty of their modes of culture, the grace which a sunny
-					sky sheds over labours which in this county are toilsome and unproductive.</p>
+               <hi rendition="#largest">W</hi>HEN peace came, after many long years of war, when our
+               island prison was opened to us, and our watery exit from it was declared practicable,
+               it was the paramount wish of every English heart, ever addicted to vagabondizing, to
+               hasten to the continent, and to imitate our forefathers in their almost forgotten
+               custom, of spending the greater part of their lives and fortunes in their carriages
+               on the post-roads of the continent. With the brief and luckless exception of the
+               peace of Amiens,<note>March 1802-May 1803. "Luckless" because short lived, this
+                  period offered a brief reprise from "long years of war" with France from 1793
+                  until the capture and temporary exile of <ref target="people.html#Napoleon"
+                     >Napoleon</ref> in 1814. <ref target="people.html#Napoleon">Napoleon</ref>
+                  escaped from exile in February 1815 and was only finally defeated in June of the
+                  same year.</note> the continent had not been open for the space of more than
+               one-and- twenty years; a new generation had sprung up, and the whole of this, who had
+               money and time at command, poured, in one vast<pb n="326"/> stream, across the Pas de
+               Calais into France: in their numbers, and their eagerness to proceed forward, they
+               might be compared to the Norwegian rats, who always go right on, and when they come
+               to an opposing stream, still pursue their route, till a bridge is formed of the
+               bodies of the drowned, over which the living pass in safety. The simile holds good in
+               more ways than one: the first emigrants, it is true, were not wholly killed, but the
+               miseries they endured, of dirty packets and wretched inns, were the substratum from
+               which has arisen the elegant steam-packet, and the improved state of the continental
+               hotels. But in those early days of migration, in the summer of 1814, every
+               inconvenience was hailed as a new chapter in the romance of our travels; the worst
+               annoyance of all, the Custom-house, was amusing as a novelty; we saw with extasy the
+               strange costume of the French women, read with delight our own descriptions in the
+               passport, looked with curiosity on every <hi rendition="#italics">plât</hi>, fancying
+               that the fried-leaves of artichokes were frogs; we saw shepherds in opera-hats, and
+               post-boys in jack-boots; and (<hi rendition="#italics">pour comble de merveille</hi>
+               <note>To crown the wonder.</note>) heard little boys and girls talk French: it was
+               acting a novel, being an incarnate romance. But these days are now vanished: frequent
+               landings at Calais have deprived it of its captivating novelty. Many of our children,
+               under the guidance of foreign nursery-maids, lisp French as well as any little
+               wood-shod urchin among the natives. We have learned to curse the <hi
+                  rendition="#italics">douane</hi>,<note>Customs checkpoint.</note> and denounce
+               passports as tyrannical and insufferable impediments to our free progress.</p>
+            <p>When France palled on our travelled appetites, which always crave for something new,
+               Italy came into vogue. As preparatives for our pilgrimage to that county, whose charm
+               is undying, we devoured the fabulous descriptions of <ref
+                  target="people.html#EustaceJohnChetwode">Eustace</ref>, and well-poised sentences
+               of <ref target="people.html#ForsythJoseph">Forsyth</ref>, and a traveller from Italy
+               inspired us almost with devotional respect. We do not think that we are guilty of any
+               exaggeration when we affirm, that even now that the English are almost cloyed with
+               foreign travel, a journey to Italy is still regarded with enthusiastic transport, and
+               when visited, that country is quitted with greater regret than any other, and the
+               peculiarity of its situation accounts for this. We all wish to burst our watery
+               bound, and to wander in search of a more genial climate than that enjoyed (according
+               to the vulgarism, <hi rendition="#italics">he enjoys a very bad state of health</hi>)
+               by our native land. Neither France, Germany, nor Switzerland, content the swallow
+               English. La belle France is now acknowledged to be the most unpictuesque, dull,
+               miserable-looking country in the world. The name of Germany is sufficient in itself
+               to inspire a kind of metaphysical gloom, enlightened only <pb n="327"/>by meteoric
+               flashes from the Hartz or the Elbe. Passing the Jura, surrounded by the mighty Alps,
+               we ramble delightedly over Switzerland, till the snow and ice, ushered in by the
+               chilling Biz, cause us to escape from the approach of a winter more severe than our
+               own. We fly to Italy; we eat the lotus; we cannot tear ourselves away. It is the land
+               of romance, and therefore pleases the young; of classic lore, and thus possesses
+               charms for the learned. Its petty states and tiny courts, with all the numerous
+               titles enjoyed by their frequenters, gild it for the worldly. The man of peace and
+               domesticity finds in its fertile soil, and the happiness of its peasantry, an
+               ameliorated likeness of beloved but starving England. The society is facile; the
+               towns illustrious by the reliques they contain of the arts of ancient times, or the
+               middle ages; while its rural districts attach us, through the prosperity they
+               exhibit, their plenteous harvests, the picturesque arrangement of their farms, the
+               active life every where apparent, the novelty of their modes of culture, the grace
+               which a sunny sky sheds over labours which in this county are toilsome and
+               unproductive.</p>
             <p>This preference accorded to Italy by the greater part of the emigrant English has
-					given rise to a new race or sect among our countrymen, who have lately been
-					dubbed Anglo-Italians. The Anglo-Italian has many peculiar marks which
-					distinguish him from the mere traveler, or true <ref target="people.html#JohnBull">John Bull</ref>. First, he understands
-					Italian, and this rescues himself from a thousand ludicrous mishaps which occur
-					to those who fancy that a little Anglo-French will suffice to convey
-					intelligence of their wants and wishes to the natives of Italy; the record of
-					his travels is no longer confined, according to <ref target="people.html#PhippsConstantineHenry">lord Normanby</ref>'s vivid
-					description, to how he had been "starved here, upset there, and robbed
-					every where" [<title>
-                  <hi rendition="#italics">The English in
-						Italy</hi>
-               </title>, vol. ii. p. 229]<hi rendition="#sup">
-                  <note>Shelley's reference.</note>
-               </hi>. Your Anglo-Italian ceases to
-					visit the churches and palaces, guide-book in hand; anxious, not to see, but to
-					say that he has seen. Without attempting to adopt the customs of the natives, he
-					attaches himself to some of the most refined among them, and appreciates their
-					native talent and simple manners; he has lost the critical mania in a real taste
-					for the beautiful, acquired by a frequent sight of the best models of ancient
-					and modern art.</p>
+               given rise to a new race or sect among our countrymen, who have lately been dubbed
+               Anglo-Italians. The Anglo-Italian has many peculiar marks which distinguish him from
+               the mere traveler, or true <ref target="people.html#JohnBull">John Bull</ref>. First,
+               he understands Italian, and this rescues himself from a thousand ludicrous mishaps
+               which occur to those who fancy that a little Anglo-French will suffice to convey
+               intelligence of their wants and wishes to the natives of Italy; the record of his
+               travels is no longer confined, according to <ref
+                  target="people.html#PhippsConstantineHenry">lord Normanby</ref>'s vivid
+               description, to how he had been "starved here, upset there, and robbed every where" [<title>
+                  <hi rendition="#italics">The English in Italy</hi>
+               </title>, vol. ii. p. 229]<note>Shelley's reference.</note>. Your Anglo-Italian
+               ceases to visit the churches and palaces, guide-book in hand; anxious, not to see,
+               but to say that he has seen. Without attempting to adopt the customs of the natives,
+               he attaches himself to some of the most refined among them, and appreciates their
+               native talent and simple manners; he has lost the critical mania in a real taste for
+               the beautiful, acquired by a frequent sight of the best models of ancient and modern
+               art.</p>
             <p>Upon the whole, the Anglo-Italians may be pronounced a well-informed, clever, and
-					active race; they pity greatly those of their un-Italianized countrymen, who are
-					endowed with <ref target="people.html#Spurzheim">Spurzheim</ref>'s bump,
-					denominated stayathomeativeness; and in compassion of their narrow experience
-					have erected a literature calculated to disseminate among them a portion of that
-					taste and knowledge acquired in the Peninsula. <ref target="people.html#ByronGeorge">Lord Byron</ref> may be <pb n="328"/>
-					considered the father of the Anglo-Italian literature, and
-						<title>Beppo</title>
-               <hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#ByronGeorge">Byron</ref>'s 1818 comic poem
-							set in Venice.</note>
-               </hi> as being the first product of that school;
-						<ref target="people.html#PhippsConstantineHenry">lord Normanby</ref> brings
-					up the rear. The plan of his work, entitled, "<title>The English in
-						Italy</title>" is excellent. It is difficult, after a long residence in
-					a foreign country, to collect one's variety of experience into one focus.
-					The detached anecdotes and observations on manners, made at various periods and
-					places, are grouped in the mind, while it is impossible to select any form of
-					journal, letter, or narrative, which will combine the mass in an intelligible
-					form, and cause the reader to seize, as the author did, the conclusions to be
-					drawn from such multifarious materials. Besides, though mere travellers are
-					culpably negligent on this score, the resident Anglo-Italian is withheld by
-					honour, from the exposition of facts and names. <ref target="people.html#PhippsConstantineHenry">Lord Normanby</ref> has hit upon
-					a medium both novel and entertaining. He has given a series of tales, in which
-					the English and Italians alike figure; the contrast between the two nations adds
-					to the interest of these sketches, while the colouring of fiction is thrown over
-					truths, which it would be difficult to convey in any other manner. It is
-					impossible to read "<title>The English in Italy</title>" without being
-					struck at every page with the verity of the delineations of character and
-					manners, and without admiring the skill with which the noble author has seized
-					and expressed the slight shadowings, and evanescent lights, peculiar to the
-					complicated form of Italian society, which must have escaped a ruder pen. We
-					frequently, it is true, dissent from his lordship's opinions and
-					conclusions, but we always assent to the truth of his facts.</p>
+               active race; they pity greatly those of their un-Italianized countrymen, who are
+               endowed with <ref target="people.html#Spurzheim">Spurzheim</ref>'s bump, denominated
+               stayathomeativeness; and in compassion of their narrow experience have erected a
+               literature calculated to disseminate among them a portion of that taste and knowledge
+               acquired in the Peninsula. <ref target="people.html#ByronGeorge">Lord Byron</ref> may
+               be <pb n="328"/> considered the father of the Anglo-Italian literature, and
+                  <title>Beppo</title>
+               <note>
+                  <ref target="people.html#ByronGeorge">Byron</ref>'s 1818 comic poem set in
+                  Venice.</note> as being the first product of that school; <ref
+                  target="people.html#PhippsConstantineHenry">lord Normanby</ref> brings up the
+               rear. The plan of his work, entitled, "<title>The English in Italy</title>" is
+               excellent. It is difficult, after a long residence in a foreign country, to collect
+               one's variety of experience into one focus. The detached anecdotes and observations
+               on manners, made at various periods and places, are grouped in the mind, while it is
+               impossible to select any form of journal, letter, or narrative, which will combine
+               the mass in an intelligible form, and cause the reader to seize, as the author did,
+               the conclusions to be drawn from such multifarious materials. Besides, though mere
+               travellers are culpably negligent on this score, the resident Anglo-Italian is
+               withheld by honour, from the exposition of facts and names. <ref
+                  target="people.html#PhippsConstantineHenry">Lord Normanby</ref> has hit upon a
+               medium both novel and entertaining. He has given a series of tales, in which the
+               English and Italians alike figure; the contrast between the two nations adds to the
+               interest of these sketches, while the colouring of fiction is thrown over truths,
+               which it would be difficult to convey in any other manner. It is impossible to read
+                  "<title>The English in Italy</title>" without being struck at every page with the
+               verity of the delineations of character and manners, and without admiring the skill
+               with which the noble author has seized and expressed the slight shadowings, and
+               evanescent lights, peculiar to the complicated form of Italian society, which must
+               have escaped a ruder pen. We frequently, it is true, dissent from his lordship's
+               opinions and conclusions, but we always assent to the truth of his facts.</p>
             <p>The first (and it is the best) of his longer stories is entitled
-						<title>L'Amoroso</title>. It is the tale of a high-bred English girl,
-					who, enchanted with the beauty of Naples, the softness of its climate, the
-					vivacious and easy tone of society, and the ardour of her Italian lover,
-					sacrifices her first <hi rendition="#italics">half</hi> love (first loves are,
-					for the most part, we fear, half loves), and gives her hand to a Neapolitan
-					count. The gradual development of her Italian husband's feelings, her
-					awakening to the truth of her situation, and the growth of her despair, is
-					admirably managed; yet in all this there is something besides the comparative
-					merits of English and Italian domestic customs. We can none of us attempt, with
-					impunity, to engraft ourselves on foreign stocks: the habits of our childhood
-					cling to us, and we seek in vain for symapthy from those who have travelled life
-					quite on a different road from that which we have followed. We are far from
-					advocating the Italian conjugal system, which puts the axe to domestic
-					happiness, and deeply embitters the childhood of the <pb n="329"/> offspring of
-					the divided parents; nevertheless, we must observe, that the misery suffered by
-					the English girl in Italy would on other accounts, but in no minor degree,
-					become the lot of an Italian married to an Englishman. Let us imagine the
-					daughter of a Neapolitan noble, dragged from her beautiful country and sunny
-					clime, deprived of her box at the opera, her ride on the Corso, her cortège
-					of devoted servants, her circle of complaisant friends, her <hi rendition="#italics">dolce far niente</hi>;<hi rendition="#sup">
-                  <note>Pleasant idleness.</note>
-               </hi> to the toils and dulness of
-					an English home—to the cares of housekeeping—a charge not imposed on
-					Italian females—her snug, but monotonous, fire-side, her sentry-box of a
-					house; to our cloudy sky; to the labour of giving dinners and entertaining
-					evening parties; to those numerous etiquettes easy to the natives, unattainable
-					by foreigners; to the <hi rendition="#italics">sotto voce</hi>
-               <hi rendition="#sup">
-                  <note>Soft voice or undertone.</note>
-               </hi>
-					tone (if the metaphor be admissible) which characterizes our social intercourse,
-					to the necessity of for ever wearing that thick and ample veil of propriety
-					which we throw over every act and word: introduce the ardent, simple-hearted,
-					undisguising Italian to this world, so opposite to her own, and she would
-					experience the same heart-sickening disappointment that visited the heart of the
-					heroine of the <title>Amoroso</title>. To us, and particularly to our females,
-					these laws of constraint are the music, the accompaniment by which they regulate
-					their steps until they cannot walk without it; and the veil before spoken of is
-					as necessary to their sense of decency as their very habiliments. It is natural,
-					therefore, that the English girl of the tale should be transfixed with grief at
-					the request from her husband to conform with Italian customs; and it is also
-					inevitable that the first step she takes in compliance with this request must
-					sin against Italian etiquette, and, though liberty is offered her, that she
-					should find that even the excess of freedom does not permit her the exact
-					liberty she wants.</p>
-            <p>The "<title>Politico</title>" contains a rapid but masterly sketch of
-					the Piedmontese revolution. The author, it is true, judging only from the
-					apparent effects, blames this sudden burst of impatience on the part of Italians
-					any longer to bear their galling chains. He says, that they had better have
-					waited a few years, as if the capacity of waiting did not engender a callousness
-					to the evils of tyranny, incompatible with a generous love of liberty. The
-					revolution ended unfortunately, it is true; but, most certainly, if the attempt
-					had not been made, the Italians would have lost their characteristic of being
-					slaves "ognor frementi,"<hi rendition="#sup">
-                  <note>Forever enraged; Shelley uses the phrase in <hi rendition="#italics">
-                        <title>Frankenstein</title>
-                     </hi> about the Milanese who longed
-							to free Lombardy from Austrian domination.</note>
-               </hi> and have sunk
-					into as degraded an existence as that of the Fanariotes of Constantinople.<hi rendition="#sup">
-                  <note>The Phanariotes were a highly skilled
-							Greek population in this Ottoman city who attained significant wealth
-							and influence. Proponents of Greek liberation portrayed them as
-							assimilationist, lacking in nationalistic commitment. </note>
-               </hi> From
-					the smothered fire of this crushed revolt a brighter flame will hereafter rise:
-					it was a glimmer, a flash, a reflection, sent back from the blaze <lb/>
+                  <title>L'Amoroso</title>. It is the tale of a high-bred English girl, who,
+               enchanted with the beauty of Naples, the softness of its climate, the vivacious and
+               easy tone of society, and the ardour of her Italian lover, sacrifices her first <hi
+                  rendition="#italics">half</hi> love (first loves are, for the most part, we fear,
+               half loves), and gives her hand to a Neapolitan count. The gradual development of her
+               Italian husband's feelings, her awakening to the truth of her situation, and the
+               growth of her despair, is admirably managed; yet in all this there is something
+               besides the comparative merits of English and Italian domestic customs. We can none
+               of us attempt, with impunity, to engraft ourselves on foreign stocks: the habits of
+               our childhood cling to us, and we seek in vain for symapthy from those who have
+               travelled life quite on a different road from that which we have followed. We are far
+               from advocating the Italian conjugal system, which puts the axe to domestic
+               happiness, and deeply embitters the childhood of the <pb n="329"/> offspring of the
+               divided parents; nevertheless, we must observe, that the misery suffered by the
+               English girl in Italy would on other accounts, but in no minor degree, become the lot
+               of an Italian married to an Englishman. Let us imagine the daughter of a Neapolitan
+               noble, dragged from her beautiful country and sunny clime, deprived of her box at the
+               opera, her ride on the Corso, her cortège of devoted servants, her circle of
+               complaisant friends, her <hi rendition="#italics">dolce far
+                  niente</hi>;<note>Pleasant idleness.</note> to the toils and dulness of an English
+               home—to the cares of housekeeping—a charge not imposed on Italian females—her snug,
+               but monotonous, fire-side, her sentry-box of a house; to our cloudy sky; to the
+               labour of giving dinners and entertaining evening parties; to those numerous
+               etiquettes easy to the natives, unattainable by foreigners; to the <hi
+                  rendition="#italics">sotto voce</hi>
+               <note>Soft voice or undertone.</note> tone (if the metaphor be admissible) which
+               characterizes our social intercourse, to the necessity of for ever wearing that thick
+               and ample veil of propriety which we throw over every act and word: introduce the
+               ardent, simple-hearted, undisguising Italian to this world, so opposite to her own,
+               and she would experience the same heart-sickening disappointment that visited the
+               heart of the heroine of the <title>Amoroso</title>. To us, and particularly to our
+               females, these laws of constraint are the music, the accompaniment by which they
+               regulate their steps until they cannot walk without it; and the veil before spoken of
+               is as necessary to their sense of decency as their very habiliments. It is natural,
+               therefore, that the English girl of the tale should be transfixed with grief at the
+               request from her husband to conform with Italian customs; and it is also inevitable
+               that the first step she takes in compliance with this request must sin against
+               Italian etiquette, and, though liberty is offered her, that she should find that even
+               the excess of freedom does not permit her the exact liberty she wants.</p>
+            <p>The "<title>Politico</title>" contains a rapid but masterly sketch of the Piedmontese
+               revolution. The author, it is true, judging only from the apparent effects, blames
+               this sudden burst of impatience on the part of Italians any longer to bear their
+               galling chains. He says, that they had better have waited a few years, as if the
+               capacity of waiting did not engender a callousness to the evils of tyranny,
+               incompatible with a generous love of liberty. The revolution ended unfortunately, it
+               is true; but, most certainly, if the attempt had not been made, the Italians would
+               have lost their characteristic of being slaves "ognor frementi,"<note>Forever
+                  enraged; Shelley uses the phrase in <hi rendition="#italics">
+                     <title>Frankenstein</title>
+                  </hi> about the Milanese who longed to free Lombardy from Austrian
+                  domination.</note> and have sunk into as degraded an existence as that of the
+               Fanariotes of Constantinople.<note>The Phanariotes were a highly skilled Greek
+                  population in this Ottoman city who attained significant wealth and influence.
+                  Proponents of Greek liberation portrayed them as assimilationist, lacking in
+                  nationalistic commitment. </note> From the smothered fire of this crushed revolt a
+               brighter flame will hereafter rise: it was a glimmer, a flash, a reflection, sent
+               back from the blaze <lb/>
                <fw type="vol">
                   <hi rendition="#smcaps">vol. vi.—w. r.</hi>
                </fw>
-               <fw type="sig">z</fw>
-               <pb n="330"/>just then kindled
-					by the Spaniards: both are quenched now, but not for ever.</p>
+               <fw type="sig">
+                  <hi rendition="#smcaps">z</hi>
+               </fw>
+               <pb n="330"/>just then kindled by the Spaniards: both are quenched now, but not for
+               ever.</p>
             <p>If the Italians could have viewed the Spanish struggle, and still submitted
-					uncontending to the Austrian, they could never more have lifted their heads as a
-					nation, nor possessed any claim to our commiseration. One of the chief causes,
-					indeed, of the failure of the revolt of 1820-21 was political despair. This
-					despair originated in the disarmed state of the natives, and the terror
-					engendered by the Austrian bayonets. In every Italian state, except Tuscany,
-					this fear was joined to a never-dying hatred of their oppressive rulers; which
-					made them on the alert to seize every opportunity to rebel against their
-					tyrants. While the flame of revolt spread from the Alps to Brundusium, Tuscany
-					alone was tranquil. They talked of liberty, but their enthusiasm began and ended
-					in talk. The grand duke appreciated so well the quiescence of his loving
-					subjects, that when the Austrian minister presented him with a list of
-					sixty-seven Carbonari worthy of incarceration, Ferdinand refused to look at it.
-					He did not believe, he said, that these men were Carbonari, but he was sure if
-					he imprisoned them they would become so. Who, indeed, were to form the patriotic
-					band? Not the peasants: the idea of political liberty never entered their heads.
-					They work hard, and their genial climate lightens their labour of all the misery
-					which renders the peasant's life so irksome in this country; yet still,
-					from the utter want of money and traffic, their hardest labour only enables them
-					to labour on. In the cities neither the rich nor the poor are willing to risk
-					their wealth or their safety. There is another class of persons, the men of
-					letters and students at the universities. The first are peacefully inclined, the
-					second unprincipled: they are ready for riot, but they are little fitted for any
-					commotion which has for its aim a noble and enlightened purpose. Yet we do not
-					think the emancipation of Italy far off. In one circumstance, Italy is far
-					better situated than Spain—in case of a revolution. Religion is here no
-					enemy of political liberty. Napoleon gave a blow to Italian superstition, from
-					which it will never recover. By destroying the wealth of the priests, he has
-					destroyed their influence. The higher classes are liberal in their opinions, and
-					the little bigotry that subsists among the lower orders is wholly untinged by
-					the spirit of persecution. The great and immoveable foundation-stone, the
-					boundary mark of Italian liberty, which still subsists, though no superstructure
-					is thereto added, is their natural talent. In spite of college restrictions, in
-					spite of almost universal ignorance, their native genius flourishes; their
-					untaught courtesy, their love for the fine arts, the <pb n="331"/>poetry with
-					which their sunny sky endows them, prevent their being brutified; and this Italy
-					possesses in her own bosom the germs of regeneration, which, in spite of their
-					late overthrow, will in the end give birth to their emancipation. </p>
-            <p>But to return to "<title>The English in Italy</title>" The
-						"<title>Sbarbuto</title>" approaches nearest to a failure of any
-					of the sketches; the hero is a kind of ideal of <ref target="people.html#ByronGeorge">lord Byron</ref>. The "dear Corsair
-						expression,"<hi rendition="#sup">
-                  <note>From <ref target="people.html#MooreThomas">Thomas Moore</ref>, <title>
-                        <hi rendition="#italics">The Fudge Family in Paris</hi>,
-								"Letter V. From Miss Biddy Fudge to Miss
-								Dorothy——,"</title> where the protagonist describes
-							the mode of expression as "half savage, half
-						soft."</note>
-               </hi> now going out of fashion, is introduced, and the
-					mixed character of bandit and dandy is carried to its height. Truth of
-					description and liveliness of narrative, two chief characteristics of this
-					author, render even this strange anomaly interesting. The conclusion of the tale
-					is singularly abrupt, but it may be observed that all <ref target="people.html#PhippsConstantineHenry">lord Normanby</ref>'s
-					catastrophes are faulty; that of "<title>Matilda</title>" has been
-					justly censured.<hi rendition="#sup">
-                  <note>Shelley perhaps refers
-							to the article in the <hi rendition="#italics">
-                        <title>London
-									Magazine</title>
-                     </hi>, new series, vol. 4, January 1826, pp.
-							47-8, where the reviewer not only condemns the tale but castigates the
-							six other literary journals that had given it positive notice for their
-							collusion with <ref target="people.html#ColburnHenry">Henry
-								Colburn</ref>, a publisher notorious for puffing, and a business
-							associate of <ref target="people.html#PhippsConstantineHenry">Normanby</ref>'s publishers, Saunders and Otway.</note>
-               </hi>
-					The author wished to pourtray the evils resulting from certain modes of action,
-					and yet the tragic conclusion of the tale is entirely independent of the chain
-					of unhappy events which were to appear of necessity to arise from the
-					heroine's departure from the moral laws of her country. The conclusion of
-					the "<title>Sbarbuto</title>" is still worse, and our imagination
-					received a most disagreeable baulk, when, on turning the last page of this tale,
-					we found that was indeed the last.</p>
-            <p>The sketches called the "<title>Zingari,</title>" which detail a
-					variety of adventures which have befallen the gipsy English in Italy, are
-					perhaps the best part of the book. There is nothing outré, nothing of
-					caricature in any of these portraits. We recognize many well-known faces, and at
-					each successive narration remember a <hi rendition="#italics">pendant</hi> that
-					has come within our own experience. Utter ignorance of the Italian language is
-					the source of many of the ludicrous situations in which the English get
-					involved. French does not, as has been said, carry the traveller through Italy;
-					those who depend on it, will find their support fail them at the first Italian
-					town they enter. Besides, the Italians speak French with peculiar awkwardness;
-					they are unable to accentuate its unutterable consonants and slip-shod vowels.
-					When an Italian has welcomed a foreigner with gravity, and even with sulkiness,
-					answering their introduction with a few mispnounced French phrases, if replied
-					to in their own language, their case of manner returns, and they become as
-					graceful and facile in conversation as before they were repulsive.<hi rendition="#sup">
-                  <note>Innumerable are the anecdotes that might
-							be related of the ridiculous mistakes of the un-Italianized English in
-							Italy. A gentleman at Rome said to us one day, "These Italians have
-							no idea of morality or virtue; the fine arts are the only things they
-							think worth praising. I was speaking to signora D—— of a
-							young lady whom I described as, Di gran genio, bella, amabile, e pol
-							virtuosissima [Of great genius, beautiful, charming, and very virtuous],
-							on which the algnora asked with <!--<pb n="332"/>-->vivacity, Davvero si
-							conosce forse nella musica?" [Are you knowledgeable in music?] We
-							were near the same gentleman at a conversazione, he was looking over
-							some pieces of music, when an Italian lady, apropos of his occupation,
-							asked, "E virtuoso lei?" [And is she accomplished?]—
-							"Lo spero," [I should hope so!] replied the astonished
-							Englishman, and then turned to us to remark on the oddity of catechizing
-							a gentleman concerning his virtue; forgetful that even with us
-							virtù [virtuosity; expertise in the arts] is not virtue. Foreigners
-							may murder English, but an Englishman's assassination of French and
-							Italian is even more entire and remorseless. We heard one of our
-							countrymen in Paris, in felicitous Anglo-French, ask the driver of a
-							fiacre, "Pouvez-vous aller à rue Saint Honoré dans vingt
-							cinq minuits?" [Can you get to rue Saint Honoré in twenty five
-							midnight?] [<ref target="people.html#ShelleyMary">Shelley's</ref>
-							note].</note>
-               </hi> The tales <lb/>
-               <fw type="sig">z2</fw>
-               <pb n="332"/> of the "<title>Zingari,</title>" may serve as so many
-					lessons to all future travelers as to what they may seek and what they may shun
-					in Italy. We may learn the perils of Vetturino travelling<hi rendition="#sup">
-                  <note>Travelling by four-wheeled carriage.</note>
-               </hi>
-					from "<title>The Economist,</title>" assured that the details are by
-					no means caricatured; and we may reap still more serious profit from the
-					sketches entitled, "<title>Change of Air</title>," and
-						"<title>Boyhood Abroad</title>." And yet, as is frequently the
-					case, further experience overthrows the minor one, and the discomforts and
-					dangers which are the lot of an invalid traveler in Italy will change to
-					comforts and safety, if he becomes a resident there. If, indeed, the invalid
-					travel, like <ref target="people.html#PhippsConstantineHenry">lord
-						Normanby</ref>'s hero, from one town to another, from one bad inn and
-					cold lodging to another a match for the last, he may certainly return from such
-					pursuit of health worse than he went. But let him fix on some city for a
-					constant residence: Pisa we recommend as most equable in climate; let him get
-					his English comforts about him, as he may with ease and cheapness from the free
-					port of Leghorn, not twelve miles distant, and he will then find the advantage
-					of a southern residence. The streets of Pisa are quiet, and the whole town wears
-					a sober, scholastic aspect. The north side of the Lung Arno, looking towards the
-					south, is warm at mid-winter, and always presents a delightful promenade. The
-					rides round the town are beautiful; you have your choice of the pine forest of
-					the Cascina, or the road along the plain that skirts the neighbouring hills,
-					which, covered with olives, chestnuts, and last, toward their summit, with
-					pines, are, though not high, remarkably picturesque. The whole road from Vico
-					Pisano to Lucca, some twenty or thirty miles, presenting successive pictures of
-					fertility in the plain, and of the view of ravine or precipice in the mountains,
-					is within four miles of one or other of the gates of Pisa. The neighbourhood to
-					the sea is an advantage not to be omitted. Let an invalid to this, and he will
-					speedily acquire the health and spirits, the promise of which drew him from his
-						home.<hi rendition="#sup">
-                  <note>We were about to add that in
-							the Professor Vaccà he would find an able substitute for any
-							English medical aid; but alas! this estimable man is now dead, and we
-							can do no more than consecrate this note to his
-							<!--<pb n="333"/>-->memory. His talents were of the highest order, and
-							as a practical surgeon he stood in the first rank of his profession. His
-							private virtues secured for him universal esteem; he was gentle, yet
-							full of enthusiasm; a select specimen of Italian virtue and genius.
-								[<ref target="people.html#ShelleyMary">Shelley's</ref>
-							note].</note>
-               </hi>
+               uncontending to the Austrian, they could never more have lifted their heads as a
+               nation, nor possessed any claim to our commiseration. One of the chief causes,
+               indeed, of the failure of the revolt of 1820-21 was political despair. This despair
+               originated in the disarmed state of the natives, and the terror engendered by the
+               Austrian bayonets. In every Italian state, except Tuscany, this fear was joined to a
+               never-dying hatred of their oppressive rulers; which made them on the alert to seize
+               every opportunity to rebel against their tyrants. While the flame of revolt spread
+               from the Alps to Brundusium, Tuscany alone was tranquil. They talked of liberty, but
+               their enthusiasm began and ended in talk. The grand duke appreciated so well the
+               quiescence of his loving subjects, that when the Austrian minister presented him with
+               a list of sixty-seven Carbonari worthy of incarceration, Ferdinand refused to look at
+               it. He did not believe, he said, that these men were Carbonari, but he was sure if he
+               imprisoned them they would become so. Who, indeed, were to form the patriotic band?
+               Not the peasants: the idea of political liberty never entered their heads. They work
+               hard, and their genial climate lightens their labour of all the misery which renders
+               the peasant's life so irksome in this country; yet still, from the utter want of
+               money and traffic, their hardest labour only enables them to labour on. In the cities
+               neither the rich nor the poor are willing to risk their wealth or their safety. There
+               is another class of persons, the men of letters and students at the universities. The
+               first are peacefully inclined, the second unprincipled: they are ready for riot, but
+               they are little fitted for any commotion which has for its aim a noble and
+               enlightened purpose. Yet we do not think the emancipation of Italy far off. In one
+               circumstance, Italy is far better situated than Spain—in case of a revolution.
+               Religion is here no enemy of political liberty. Napoleon gave a blow to Italian
+               superstition, from which it will never recover. By destroying the wealth of the
+               priests, he has destroyed their influence. The higher classes are liberal in their
+               opinions, and the little bigotry that subsists among the lower orders is wholly
+               untinged by the spirit of persecution. The great and immoveable foundation-stone, the
+               boundary mark of Italian liberty, which still subsists, though no superstructure is
+               thereto added, is their natural talent. In spite of college restrictions, in spite of
+               almost universal ignorance, their native genius flourishes; their untaught courtesy,
+               their love for the fine arts, the <pb n="331"/>poetry with which their sunny sky
+               endows them, prevent their being brutified; and this Italy possesses in her own bosom
+               the germs of regeneration, which, in spite of their late overthrow, will in the end
+               give birth to their emancipation. </p>
+            <p>But to return to "<title>The English in Italy</title>" The "<title>Sbarbuto</title>"
+               approaches nearest to a failure of any of the sketches; the hero is a kind of ideal
+               of <ref target="people.html#ByronGeorge">lord Byron</ref>. The "dear Corsair
+                  expression,"<note>From <ref target="people.html#MooreThomas">Thomas Moore</ref>, <title>
+                     <hi rendition="#italics">The Fudge Family in Paris</hi>, "Letter V. From Miss
+                     Biddy Fudge to Miss Dorothy——,"</title> where the protagonist describes the
+                  mode of expression as "half savage, half soft."</note> now going out of fashion,
+               is introduced, and the mixed character of bandit and dandy is carried to its height.
+               Truth of description and liveliness of narrative, two chief characteristics of this
+               author, render even this strange anomaly interesting. The conclusion of the tale is
+               singularly abrupt, but it may be observed that all <ref
+                  target="people.html#PhippsConstantineHenry">lord Normanby</ref>'s catastrophes are
+               faulty; that of "<title>Matilda</title>" has been justly censured.<note>Shelley
+                  perhaps refers to the article in the <hi rendition="#italics">
+                     <title>London Magazine</title>
+                  </hi>, new series, vol. 4, January 1826, pp. 47-8, where the reviewer not only
+                  condemns the tale but castigates the six other literary journals that had given it
+                  positive notice for their collusion with <ref target="people.html#ColburnHenry"
+                     >Henry Colburn</ref>, a publisher notorious for puffing, and a business
+                  associate of <ref target="people.html#PhippsConstantineHenry">Normanby</ref>'s
+                  publishers, Saunders and Otway.</note> The author wished to pourtray the evils
+               resulting from certain modes of action, and yet the tragic conclusion of the tale is
+               entirely independent of the chain of unhappy events which were to appear of necessity
+               to arise from the heroine's departure from the moral laws of her country. The
+               conclusion of the "<title>Sbarbuto</title>" is still worse, and our imagination
+               received a most disagreeable baulk, when, on turning the last page of this tale, we
+               found that was indeed the last.</p>
+            <p>The sketches called the "<title>Zingari,</title>" which detail a variety of
+               adventures which have befallen the gipsy English in Italy, are perhaps the best part
+               of the book. There is nothing outré, nothing of caricature in any of these portraits.
+               We recognize many well-known faces, and at each successive narration remember a <hi
+                  rendition="#italics">pendant</hi> that has come within our own experience. Utter
+               ignorance of the Italian language is the source of many of the ludicrous situations
+               in which the English get involved. French does not, as has been said, carry the
+               traveller through Italy; those who depend on it, will find their support fail them at
+               the first Italian town they enter. Besides, the Italians speak French with peculiar
+               awkwardness; they are unable to accentuate its unutterable consonants and slip-shod
+               vowels. When an Italian has welcomed a foreigner with gravity, and even with
+               sulkiness, answering their introduction with a few mispnounced French phrases, if
+               replied to in their own language, their case of manner returns, and they become as
+               graceful and facile in conversation as before they were repulsive.<note>Innumerable
+                  are the anecdotes that might be related of the ridiculous mistakes of the
+                  un-Italianized English in Italy. A gentleman at Rome said to us one day, "These
+                  Italians have no idea of morality or virtue; the fine arts are the only things
+                  they think worth praising. I was speaking to signora D—— of a young lady whom I
+                  described as, Di gran genio, bella, amabile, e pol virtuosissima [Of great genius,
+                  beautiful, charming, and very virtuous], on which the algnora asked with
+                  <!--<pb n="332"/>-->vivacity, Davvero si conosce forse nella musica?" [Are you
+                  knowledgeable in music?] We were near the same gentleman at a conversazione, he
+                  was looking over some pieces of music, when an Italian lady, apropos of his
+                  occupation, asked, "E virtuoso lei?" [And is she accomplished?]— "Lo spero," [I
+                  should hope so!] replied the astonished Englishman, and then turned to us to
+                  remark on the oddity of catechizing a gentleman concerning his virtue; forgetful
+                  that even with us virtù [virtuosity; expertise in the arts] is not virtue.
+                  Foreigners may murder English, but an Englishman's assassination of French and
+                  Italian is even more entire and remorseless. We heard one of our countrymen in
+                  Paris, in felicitous Anglo-French, ask the driver of a fiacre, "Pouvez-vous aller
+                  à rue Saint Honoré dans vingt cinq minuits?" [Can you get to rue Saint Honoré in
+                  twenty five midnight?] [<ref target="people.html#ShelleyMary">Shelley's</ref>
+                  note].</note> The tales <lb/><fw type="sig">z2</fw>
+               <pb n="332"/> of the "<title>Zingari,</title>" may serve as so many lessons to all
+               future travelers as to what they may seek and what they may shun in Italy. We may
+               learn the perils of Vetturino travelling<note>Travelling by four-wheeled
+                  carriage.</note> from "<title>The Economist,</title>" assured that the details are
+               by no means caricatured; and we may reap still more serious profit from the sketches
+               entitled, "<title>Change of Air</title>," and "<title>Boyhood Abroad</title>." And
+               yet, as is frequently the case, further experience overthrows the minor one, and the
+               discomforts and dangers which are the lot of an invalid traveler in Italy will change
+               to comforts and safety, if he becomes a resident there. If, indeed, the invalid
+               travel, like <ref target="people.html#PhippsConstantineHenry">lord Normanby</ref>'s
+               hero, from one town to another, from one bad inn and cold lodging to another a match
+               for the last, he may certainly return from such pursuit of health worse than he went.
+               But let him fix on some city for a constant residence: Pisa we recommend as most
+               equable in climate; let him get his English comforts about him, as he may with ease
+               and cheapness from the free port of Leghorn, not twelve miles distant, and he will
+               then find the advantage of a southern residence. The streets of Pisa are quiet, and
+               the whole town wears a sober, scholastic aspect. The north side of the Lung Arno,
+               looking towards the south, is warm at mid-winter, and always presents a delightful
+               promenade. The rides round the town are beautiful; you have your choice of the pine
+               forest of the Cascina, or the road along the plain that skirts the neighbouring
+               hills, which, covered with olives, chestnuts, and last, toward their summit, with
+               pines, are, though not high, remarkably picturesque. The whole road from Vico Pisano
+               to Lucca, some twenty or thirty miles, presenting successive pictures of fertility in
+               the plain, and of the view of ravine or precipice in the mountains, is within four
+               miles of one or other of the gates of Pisa. The neighbourhood to the sea is an
+               advantage not to be omitted. Let an invalid to this, and he will speedily acquire the
+               health and spirits, the promise of which drew him from his home.<note>We were about
+                  to add that in the Professor Vaccà he would find an able substitute for any
+                  English medical aid; but alas! this estimable man is now dead, and we can do no
+                  more than consecrate this note to his <!--<pb n="333"/>-->memory. His talents were
+                  of the highest order, and as a practical surgeon he stood in the first rank of his
+                  profession. His private virtues secured for him universal esteem; he was gentle,
+                  yet full of enthusiasm; a select specimen of Italian virtue and genius. [<ref
+                     target="people.html#ShelleyMary">Shelley's</ref> note].</note>
             </p>
             <pb n="333"/>
             <p>We are surprised that <ref target="people.html#PhippsConstantineHenry">lord
-						Normanby</ref> has not introduced more of the country life of Italy, which
-					bears a peculiar stamp, and which is pregnant with interest and beauty.
-					Generally speaking, our countrymen see only the surface of the country, and are
-					unaware of the minutiæ of the peasant's life, and their mode of
-					agriculture. They are connoisseurs in paintings, and frequenters of
-					drawing-rooms; but the inferior classes of their fellow beings possess no
-					interest for them; and yet it is in the country of Italy that you see most of
-					the true Italian character, and most enjoy the exhaustless delights of that
-					sunny clime. The very aspect of the country to a cursory observer will prove
-					this assertion. The use of oxen in their agricultural labours is seemingly a
-					small, and yet, in truth, a great improvement to the picturesque of the rural
-					scene. The oxen of Italy surpass, in beauty of form, in the sleekness of their
-					dove-coloured skin, and the soft expression of their large eyes, all other
-					animals of their species. In every part of Italy we encounter, during our walks,
-					in lanes bordered by elms and sallows, to which the vines are trained and
-					festooned, frequent wains drawn by these animals, yoked by the neck; and the
-					dark-eyed driver, with his sun-burnt limbs, in no manner detracts from the
-					beauty of the picture. It is curious in Italy to observe the great advantage the
-					peasants possess as to personal appearance, over the town's-people. The
-					inhabitants of the cities, whether rich or poor are for the most part low in
-					stature, sallow-complexioned, bent shouldered; but if while you are induced, by
-					the appearance of the citizens, to lament the degeneracy of Italian beauty, you
-					wander in the country, or enter the market-place, to which, on certain days, the
-					country people resort, you are immediately convinced that you now behold the
-					models of the Italian painters. You are struck by groups resembling those fine
-					fellows represented in the paintings of the Adoration of the Shepherds. Their
-					very occupation adds to their pictorial appearance. They are employed among the
-					vines, or following the oxen-drawn plough, whose rough mechanism is such as <ref target="people.html#Virgil">Virgil</ref> describes; frequently in summer
-					they work merely in a shirt, and the white colour of the linen contrasts well
-					with limbs whose veins seem to flow with dark wine. The women, less hard-worked
-					than the French <hi rendition="#italics">paysannes</hi>,<hi rendition="#sup">
-                  <note>Rustics or peasants.</note>
-               </hi> perform the lighter
-					labours of the farm, and, notwithstanding the shade of their large straw-hats,
-					soon acquire a<pb n="334"/>deep but healthy hue; in an evening they are seen
-					returning from fetching water at the spring, bearing their pitchers of an
-					antique shape on their heads, stepping freely under the burthen. Of course we do
-					not pretend to say that all, or even that the greater part of them, are
-					handsome; but they have, for the most part, pleasing expressions of countenance,
-					and the beauty you do encounter is of a high character; their brows are finely
-					moulded, their eyes soft and large; the cheeks sink gently towards the chin, and
-					their lips remind you of those chiselled by Greek sculptors. Such we have seen
-					in the evening emerging from the trellised <hi rendition="#italics">pergole</hi>,<hi rendition="#sup">
-                  <note>Arbor or
-							trellis.</note>
-               </hi> or vine-walks, singing in perfect tune, and with
-					clear, though loud voices, the simple but beautiful melodies peculiar to the
-					Italian peasantry.</p>
+                  Normanby</ref> has not introduced more of the country life of Italy, which bears a
+               peculiar stamp, and which is pregnant with interest and beauty. Generally speaking,
+               our countrymen see only the surface of the country, and are unaware of the minutiæ of
+               the peasant's life, and their mode of agriculture. They are connoisseurs in
+               paintings, and frequenters of drawing-rooms; but the inferior classes of their fellow
+               beings possess no interest for them; and yet it is in the country of Italy that you
+               see most of the true Italian character, and most enjoy the exhaustless delights of
+               that sunny clime. The very aspect of the country to a cursory observer will prove
+               this assertion. The use of oxen in their agricultural labours is seemingly a small,
+               and yet, in truth, a great improvement to the picturesque of the rural scene. The
+               oxen of Italy surpass, in beauty of form, in the sleekness of their dove-coloured
+               skin, and the soft expression of their large eyes, all other animals of their
+               species. In every part of Italy we encounter, during our walks, in lanes bordered by
+               elms and sallows, to which the vines are trained and festooned, frequent wains drawn
+               by these animals, yoked by the neck; and the dark-eyed driver, with his sun-burnt
+               limbs, in no manner detracts from the beauty of the picture. It is curious in Italy
+               to observe the great advantage the peasants possess as to personal appearance, over
+               the town's-people. The inhabitants of the cities, whether rich or poor are for the
+               most part low in stature, sallow-complexioned, bent shouldered; but if while you are
+               induced, by the appearance of the citizens, to lament the degeneracy of Italian
+               beauty, you wander in the country, or enter the market-place, to which, on certain
+               days, the country people resort, you are immediately convinced that you now behold
+               the models of the Italian painters. You are struck by groups resembling those fine
+               fellows represented in the paintings of the Adoration of the Shepherds. Their very
+               occupation adds to their pictorial appearance. They are employed among the vines, or
+               following the oxen-drawn plough, whose rough mechanism is such as <ref
+                  target="people.html#Virgil">Virgil</ref> describes; frequently in summer they work
+               merely in a shirt, and the white colour of the linen contrasts well with limbs whose
+               veins seem to flow with dark wine. The women, less hard-worked than the French <hi
+                  rendition="#italics">paysannes</hi>,<note>Rustics or peasants.</note> perform the
+               lighter labours of the farm, and, notwithstanding the shade of their large
+               straw-hats, soon acquire a<pb n="334"/>deep but healthy hue; in an evening they are
+               seen returning from fetching water at the spring, bearing their pitchers of an
+               antique shape on their heads, stepping freely under the burthen. Of course we do not
+               pretend to say that all, or even that the greater part of them, are handsome; but
+               they have, for the most part, pleasing expressions of countenance, and the beauty you
+               do encounter is of a high character; their brows are finely moulded, their eyes soft
+               and large; the cheeks sink gently towards the chin, and their lips remind you of
+               those chiselled by Greek sculptors. Such we have seen in the evening emerging from
+               the trellised <hi rendition="#italics">pergole</hi>,<note>Arbor or trellis.</note> or
+               vine-walks, singing in perfect tune, and with clear, though loud voices, the simple
+               but beautiful melodies peculiar to the Italian peasantry.</p>
             <p>It is true that, in thus eulogizing the country of Italy, our remarks must be
-					understood as being principally confined to Tuscany. In Lombardy the abundance
-					of pasture-land is inimical to the happiness of the peasantry; nor are we
-					sufficiently acquainted with the rural districts of the Roman and Neapolitan
-					states, to speak with precision concerning their inhabitants. In Tuscany the
-					farms are usually small, and held at long leases; the rent is often paid in
-					kind, and the landlord receives as his share one half of the produce. The
-					expenses are also shared between the landholder and the cultivator, the former
-					providing the heavy stock, cattle, ploughs, out-houses, wine-presses, &amp;c.;
-					the peasantry the lighter utensils, and repairs of hedges, sluices, &amp;c. The
-					smallness of the farms renders the farmer almost always the labourer; a hired
-					workman is rare among them; and the cottager, we should almost call him, with a
-					farm of twelve acres, whose family is sufficiently large to cultivate the land,
-					and whose share of corn and wine suffices to maintain that family without extra
-					purchase, considers himself rich; for, then, the superfluous money he obtains by
-					the sale of vegetables, fruit, and the better kind of wine, clothes his family,
-					and keeps his farm and house in repair. Their lives would be deemed, and justly
-					deemed, hard in England, for our unbenign climate would render painful the
-					continual out-door work, which is light to them.</p>
-            <p>The Tuscan name for their small farms is <hi rendition="#italics">podere</hi>,<hi rendition="#sup">
-                  <note>Farmsteads.</note>
-               </hi> and in
-					appearance they resemble what we imagine to have been the first attempts at
-					agriculture, every thing being cultivated in patches. A podere generally
-					contains six or eight acres; they are hedged in; in the neighborhood of Leghorn
-					the hedges are of myrtle, which, like all evergreens, are fragrant even when out
-					of bloom; and when in flower, their spicy odour gives a taste of Indian climes.
-					Little hay is raised, for the Indian <pb n="335"/> corn is much used in its
-					stead; so after the spring-labour of pruning the vines, the wheat is the first
-					harvest. The wheat-fields are planted with rows of trees, to which the vines
-					cling; and the shade, far from being detrimental, is considered a shelter for
-					the crops. When the wheat is gathered in, and threshed on the threshing-floor,
-					constructed in the open air, with all the care that <ref target="people.html#Virgil">Virgil</ref> advises, the land is again sown
-					with Indian corn. This is a beautiful harvest. The men cut it down, and the
-					women and children sit round the threshing-floor, taking the grain from the pod,
-					loosening it from the stalk, and spreading it in the sun, till its paler orange
-					hue deepens to a fiery glow. The vintage follows—an universal feast. The
-					men pluck the fruit from the trees, which is received and deposited in the vats
-					by the women and children. The plucking of the olives brings up the rear of
-					their <hi rendition="#italics">raccolte</hi>.<hi rendition="#sup">
-                  <note>Harvests.</note>
-               </hi> But it is not the mere sowing, and
-					the harvests that demand labour; the long droughts force them to construct
-					sluices through every part of the podere, and the water-wheel is for ever at
-					work to irrigate the land; nature the while is busy and noisy. During the day
-					the loud cicale, with ceaseless chirp, fill the air with sound, and in the
-					evening the fire-flies come out from the myrtle hedges, and form a thousand
-					changing and flashing constellations on the green corn-fields, which is their
-					favourite resort. Meanwhile the <hi rendition="#italics">contadini</hi>
-               <hi rendition="#sup">
-                  <note>Peasants or rustics.</note>
-               </hi> cheer
-					themselves with songs, either singly, in harmony, or in response. One of the
-					favourite games among the Tuscan peasants (we have forgotten the name of it),
-					especially during the time of the vintage, is singularly poetic. A man on one
-					tree, will challenge another perched afar off, calling out the name of a flower;
-					the challenged responds with an extempore couplet, sometimes founded on the
-					metaphoric meaning attached, of the flower's name, sometimes given at
-					random, and then returns the challenge by naming another flower, which is
-					replied to in the same manner. We have unluckily preserved but two of these
-					impromptus, and they are both on the same flower:— <quote>
+               understood as being principally confined to Tuscany. In Lombardy the abundance of
+               pasture-land is inimical to the happiness of the peasantry; nor are we sufficiently
+               acquainted with the rural districts of the Roman and Neapolitan states, to speak with
+               precision concerning their inhabitants. In Tuscany the farms are usually small, and
+               held at long leases; the rent is often paid in kind, and the landlord receives as his
+               share one half of the produce. The expenses are also shared between the landholder
+               and the cultivator, the former providing the heavy stock, cattle, ploughs,
+               out-houses, wine-presses, &amp;c.; the peasantry the lighter utensils, and repairs of
+               hedges, sluices, &amp;c. The smallness of the farms renders the farmer almost always
+               the labourer; a hired workman is rare among them; and the cottager, we should almost
+               call him, with a farm of twelve acres, whose family is sufficiently large to
+               cultivate the land, and whose share of corn and wine suffices to maintain that family
+               without extra purchase, considers himself rich; for, then, the superfluous money he
+               obtains by the sale of vegetables, fruit, and the better kind of wine, clothes his
+               family, and keeps his farm and house in repair. Their lives would be deemed, and
+               justly deemed, hard in England, for our unbenign climate would render painful the
+               continual out-door work, which is light to them.</p>
+            <p>The Tuscan name for their small farms is <hi rendition="#italics"
+                  >podere</hi>,<note>Farmsteads.</note> and in appearance they resemble what we
+               imagine to have been the first attempts at agriculture, every thing being cultivated
+               in patches. A podere generally contains six or eight acres; they are hedged in; in
+               the neighborhood of Leghorn the hedges are of myrtle, which, like all evergreens, are
+               fragrant even when out of bloom; and when in flower, their spicy odour gives a taste
+               of Indian climes. Little hay is raised, for the Indian <pb n="335"/> corn is much
+               used in its stead; so after the spring-labour of pruning the vines, the wheat is the
+               first harvest. The wheat-fields are planted with rows of trees, to which the vines
+               cling; and the shade, far from being detrimental, is considered a shelter for the
+               crops. When the wheat is gathered in, and threshed on the threshing-floor,
+               constructed in the open air, with all the care that <ref target="people.html#Virgil"
+                  >Virgil</ref> advises, the land is again sown with Indian corn. This is a
+               beautiful harvest. The men cut it down, and the women and children sit round the
+               threshing-floor, taking the grain from the pod, loosening it from the stalk, and
+               spreading it in the sun, till its paler orange hue deepens to a fiery glow. The
+               vintage follows—an universal feast. The men pluck the fruit from the trees, which is
+               received and deposited in the vats by the women and children. The plucking of the
+               olives brings up the rear of their <hi rendition="#italics"
+                  >raccolte</hi>.<note>Harvests.</note> But it is not the mere sowing, and the
+               harvests that demand labour; the long droughts force them to construct sluices
+               through every part of the podere, and the water-wheel is for ever at work to irrigate
+               the land; nature the while is busy and noisy. During the day the loud cicale, with
+               ceaseless chirp, fill the air with sound, and in the evening the fire-flies come out
+               from the myrtle hedges, and form a thousand changing and flashing constellations on
+               the green corn-fields, which is their favourite resort. Meanwhile the <hi
+                  rendition="#italics">contadini</hi>
+               <note>Peasants or rustics.</note> cheer themselves with songs, either singly, in
+               harmony, or in response. One of the favourite games among the Tuscan peasants (we
+               have forgotten the name of it), especially during the time of the vintage, is
+               singularly poetic. A man on one tree, will challenge another perched afar off,
+               calling out the name of a flower; the challenged responds with an extempore couplet,
+               sometimes founded on the metaphoric meaning attached, of the flower's name, sometimes
+               given at random, and then returns the challenge by naming another flower, which is
+               replied to in the same manner. We have unluckily preserved but two of these
+               impromptus, and they are both on the same flower:— <quote>
                   <lg type="stanza">
                      <l rendition="#indent1">Fior di cent' erbe!</l>
                      <l>Non bimbi voglion bene a loro mamma,</l>
                      <l>Quanto io alla speransa mia.</l>
                      <l rendition="#indent1">Fior di cent' erbe!</l>
                      <l>Se un sospiro avesse la parola,</l>
-                     <l>Quanto bell' ambasciator sarebbe.<hi rendition="#sup">
-                           <note>
-                              <quote>
-                                 <lg type="stanza">
-                                    <l rendition="#indent1">Flower from 100 seeds! </l>
-                                    <l>Children do not love their mother, </l>
-                                    <l>As much as I love my hope. </l>
-                                    <l rendition="#indent1">Flower from 100 seeds! </l>
-                                    <l>If a sigh would have a voice, </l>
-                                    <l>How wonderful a messenger it would be. </l>
-                                 </lg>
-                              </quote>
-                           </note>
-                        </hi>
+                     <l>Quanto bell' ambasciator sarebbe.<note>
+                           <quote>
+                              <lg type="stanza">
+                                 <l rendition="#indent1">Flower from 100 seeds! </l>
+                                 <l>Children do not love their mother, </l>
+                                 <l>As much as I love my hope. </l>
+                                 <l rendition="#indent1">Flower from 100 seeds! </l>
+                                 <l>If a sigh would have a voice, </l>
+                                 <l>How wonderful a messenger it would be. </l>
+                              </lg>
+                           </quote>
+                        </note>
                      </l>
                   </lg>
                </quote>
             </p>
             <p>It is this exhaustless fertility that makes Italy a paradise, and affords
-					never-ending variety of object to the residents. With us nature is parsimonious,
-					if not frugal; her very magnificence is that of a well-regulated mansion, where,
-					though great show is made, there is no waste. In Italy she superabounds,<pb n="336"/> overflows, and, like a prodigal, casts immense treasures to the
-					winds. This abundance is not displayed alone in inanimate nature; but among the
-					Italians themselves there exist rich stores of talent, useless it is true, in
-					the general sense of the term, which are displayed to the delight of their
-					countrymen and astonishment of travellers. We cannot give a better idea of what
-					we mean than by instancing their improvisatori,<hi rendition="#sup">
-                  <note>Italy had a long tradition of improvisational poets, but
-							they drew particular interest from early nineteenth-century visitors to
-							the country. Famous <hi rendition="#italics">improvisatore</hi> traveled
-							widely in Europe, performed before large audiences, attained recognition
-							from the wealthy and nobility, and were depicted in the fiction and
-							poetry of writers across the continent. <ref target="people.html#ShelleyMary">Mary Shelley</ref> was one who
-							regarded their performances as inspired, while some others of her
-							contemporaries expressed more sceptical assessments. <ref target="people.html#Sgricci">Sgricci</ref>, mentioned below, is
-							probably the most celebrated improvisatore of the time.</note>
-               </hi> who
-					pour out, as a cataract does water, poetic imagery and language; but except that
-					the genial moisture somewhat fertilizes the near bordering banks, it reaches the
-					ocean of oblivion, leaving no trace behind. <ref target="people.html#Sgricci">Sgricci</ref> may be given as an example. He is well read, and profoundly
-					versed in the works of the Greek metaphysicians and historians, as well as their
-					poets. The mode of his improvisation is wonderful, and different from the usual
-					style of these exhibitions. When he comes on the stage, his personal appearance,
-					animated countenance, and regular features, lost in his daily costume, strike
-					you with admiration. It is the custom for those who choose, to leave at the door
-					of the theatre a slip of paper, on which is written a subject for a tragic
-					drama. We were present at three of these performances. The subject of the first
-					was "<title>Ifegenia in Tauride;</title>" the plan of the tragedy was
-					closely copied from <ref target="people.html#Euripides">Euripides</ref>; but the
-					words and poetry were his own, and we were continually startled by images of
-					dazzling beauty, and a flow of language which never degenerated into mere words,
-					but, on the contrary, was instinct with energy and pathos.</p>
+               never-ending variety of object to the residents. With us nature is parsimonious, if
+               not frugal; her very magnificence is that of a well-regulated mansion, where, though
+               great show is made, there is no waste. In Italy she superabounds,<pb n="336"/>
+               overflows, and, like a prodigal, casts immense treasures to the winds. This abundance
+               is not displayed alone in inanimate nature; but among the Italians themselves there
+               exist rich stores of talent, useless it is true, in the general sense of the term,
+               which are displayed to the delight of their countrymen and astonishment of
+               travellers. We cannot give a better idea of what we mean than by instancing their
+                  improvisatori,<note>Italy had a long tradition of improvisational poets, but they
+                  drew particular interest from early nineteenth-century visitors to the country.
+                  Famous <hi rendition="#italics">improvisatore</hi> traveled widely in Europe,
+                  performed before large audiences, attained recognition from the wealthy and
+                  nobility, and were depicted in the fiction and poetry of writers across the
+                  continent. <ref target="people.html#ShelleyMary">Mary Shelley</ref> was one who
+                  regarded their performances as inspired, while some others of her contemporaries
+                  expressed more sceptical assessments. <ref target="people.html#Sgricci"
+                     >Sgricci</ref>, mentioned below, is probably the most celebrated improvisatore
+                  of the time.</note> who pour out, as a cataract does water, poetic imagery and
+               language; but except that the genial moisture somewhat fertilizes the near bordering
+               banks, it reaches the ocean of oblivion, leaving no trace behind. <ref
+                  target="people.html#Sgricci">Sgricci</ref> may be given as an example. He is well
+               read, and profoundly versed in the works of the Greek metaphysicians and historians,
+               as well as their poets. The mode of his improvisation is wonderful, and different
+               from the usual style of these exhibitions. When he comes on the stage, his personal
+               appearance, animated countenance, and regular features, lost in his daily costume,
+               strike you with admiration. It is the custom for those who choose, to leave at the
+               door of the theatre a slip of paper, on which is written a subject for a tragic
+               drama. We were present at three of these performances. The subject of the first was
+                  "<title>Ifegenia in Tauride;</title>" the plan of the tragedy was closely copied
+               from <ref target="people.html#Euripides">Euripides</ref>; but the words and poetry
+               were his own, and we were continually startled by images of dazzling beauty, and a
+               flow of language which never degenerated into mere words, but, on the contrary, was
+               instinct with energy and pathos.</p>
             <p>
                <title>Inez de Castro</title> was a tragedy he gave at Lucca, the subject being
-					imposed on him by the arch-duchess, who was in the theatre. When towards the
-					end, he caused the audience to understand that the prince, Don Pedro, husband of
-					Inez, drawing a curtain, suddenly displays to his father the bodies of his
-					murdered wife and children, the same thrill was felt, nay, far greater than if
-					the real mock bodies (the implied bull must be excused) had been brought
-					forward. His words were so living, that you saw them, not decked out with stage
-					trickery, but in the true livery of death, livid, stiff, and cold. The last
-					tragedy we heard was the <title>Death of Hector</title>.<hi rendition="#sup">
-                  <note>The same subject was subsequently given him at
-							Turin, and a short-hand writer took it down, and it was published. The
-							plot resembled the one we heard, otherwise it struck us as inferior in
-							poetry, and was certainly a very different production. The plot is not
-							the least admirable part of these impromptu dramas. When a novel subject
-							is given, it is of course arranged during the heat of inspiration and
-							delivery; it never lags; the interest is continually increasing, and the
-							scenes grow naturally from each other. They are shorter than our
-							five-act plays, being, on the Greek plan, interspersed with choruses.
-								[<ref target="people.html#ShelleyMary">Shelley's</ref>
-							note].</note>
-               </hi> In it you were trans-<pb n="337"/>ported within the
-					walls of Troy, and heard mad Cassandra denouncing its fall. Speaking afterwards
-					to the poet, he said that he did not remember much about any other part; but he
-					had a vivid recollection that when he poured forth the ravings of the
-					prophetess, he no longer saw the theatre; Troy was around him; Troy burning;
-					Priam stabbed at his altar, and the women dragged lamenting away in chains. From
-					all this magical creation of talent, what resulted? The poet himself forgets all
-					his former imaginations, and is hurried on to create fresh imagery, while the
-					effects of his former inspirations are borne away with the breath that uttered
-					them, never again to be recalled— <quote>
+               imposed on him by the arch-duchess, who was in the theatre. When towards the end, he
+               caused the audience to understand that the prince, Don Pedro, husband of Inez,
+               drawing a curtain, suddenly displays to his father the bodies of his murdered wife
+               and children, the same thrill was felt, nay, far greater than if the real mock bodies
+               (the implied bull must be excused) had been brought forward. His words were so
+               living, that you saw them, not decked out with stage trickery, but in the true livery
+               of death, livid, stiff, and cold. The last tragedy we heard was the <title>Death of
+                  Hector</title>.<note>The same subject was subsequently given him at Turin, and a
+                  short-hand writer took it down, and it was published. The plot resembled the one
+                  we heard, otherwise it struck us as inferior in poetry, and was certainly a very
+                  different production. The plot is not the least admirable part of these impromptu
+                  dramas. When a novel subject is given, it is of course arranged during the heat of
+                  inspiration and delivery; it never lags; the interest is continually increasing,
+                  and the scenes grow naturally from each other. They are shorter than our five-act
+                  plays, being, on the Greek plan, interspersed with choruses. [<ref
+                     target="people.html#ShelleyMary">Shelley's</ref> note].</note> In it you were
+                  trans-<pb n="337"/>ported within the walls of Troy, and heard mad Cassandra
+               denouncing its fall. Speaking afterwards to the poet, he said that he did not
+               remember much about any other part; but he had a vivid recollection that when he
+               poured forth the ravings of the prophetess, he no longer saw the theatre; Troy was
+               around him; Troy burning; Priam stabbed at his altar, and the women dragged lamenting
+               away in chains. From all this magical creation of talent, what resulted? The poet
+               himself forgets all his former imaginations, and is hurried on to create fresh
+               imagery, while the effects of his former inspirations are borne away with the breath
+               that uttered them, never again to be recalled— <quote>
                   <lg type="stanza">
-                     <l>Nec revocare situs, aut jungere carmina curst.<hi rendition="#sup">
-                           <note>"neither to recover the verses nor
-										return them to order," <ref target="people.html#Virgil">Virgil</ref>, <hi rendition="#italics">
-                                 <title>Aeneid</title>
-                              </hi>, Book III, line
-										451.</note>
-                        </hi>
+                     <l>Nec revocare situs, aut jungere carmina curst.<note>"neither to recover the
+                           verses nor return them to order," <ref target="people.html#Virgil"
+                              >Virgil</ref>, <hi rendition="#italics">
+                              <title>Aeneid</title>
+                           </hi>, Book III, line 451.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p rendition="#noindent">For the rest, he acquires the enthusiastic praises of some
-					few of the more refined of his countrymen—for <ref target="people.html#Sgricci">Sgricci</ref>'s poetry is of too classic
-					and elevated a nature to please the multitude—and the animated
-					recollection of those few English who understand sufficient Italian to
-					appreciate his genius. </p>
+            <p rendition="#noindent">For the rest, he acquires the enthusiastic praises of some few
+               of the more refined of his countrymen—for <ref target="people.html#Sgricci"
+                  >Sgricci</ref>'s poetry is of too classic and elevated a nature to please the
+               multitude—and the animated recollection of those few English who understand
+               sufficient Italian to appreciate his genius. </p>
             <p>Italy is an exhaustless theme to those who, having been long residents there, are
-					familiar with its novel and beauteous aspect. But our limits warn us not to
-					pursue our digression, and oblige us to turn our attention to those other works
-					whose titles head our article. We shall not dilate much upon them; for the scope
-					of our present writing is to treat of Italy, and as these volumes do not bear
-					the same perfect Italian stamp as those of <ref target="people.html#PhippsConstantineHenry">lord Normanby</ref>, they may be
-					passed more cursorily over. </p>
-            <p>"<title>Continental Adventures</title>" are the production of the very
-					clever <ref target="people.html#EatonCharlotte">authoress of "<title>Rome
-							in the Nineteenth Century.</title>
-               </ref>" This latter publication
-					is an inestimable guide to all who visit the Eternal City, and even to those at
-					home, more than any other work on the same subject, gives a faithful account of
-					the wonders of that metropolis of the world. "<title>Continental
-						Adventures</title>" is on another and a worse plan. It mixes real
-					scenes with fictitious ones, not in the style of the "<title>English in
-						Italy,</title>" where the manners of the natives form the ground-work
-					of the tales, but in the mode of a common novel—a novel of the day: a lady
-					and her lover, the baulks to love, the rival, and the denouement, all English:
-					and the "<title>Continental Adventures</title>" are merely, that while
-					the hero and heroine are <hi rendition="#italics">progressing</hi> towards the
-					fulfillment of their hopes, they ramble about Switzerland, and the lady, in
-					particular, endures so many perils, that we really think that no female in real
-					life could have undergone them without becoming prematurely grey. She commences
-					by breaking her collar-bone and two of her fingers;<pb n="338"/>is twice in
-					imminent danger of perishing in snow-drifts; narrowly escapes tumbling down a
-					precipice; is nearly shot by a robber in one of the Alpine Ravines; and last, is
-					carried away by Italian banditti, at whose hands death was the least evil she
-					expected, and from whom she saves herself by the administration of a piece of
-					opium, which she had fortunately put into her <hi rendition="#italics">pocket</hi> the day before. The story of the novel is commonplace enough,
-					and the gordian knot, tied just at the end, then to be cut, is confused, and
-					even displeasing. The discovery of relationship in a forbidden degree between
-					lovers is always disagreeable; and the mode by which these lovers are found to
-					be related, disfiguring the sacred associations always blended with a
-					mother's name, is even revolting. The <ref target="people.html#EatonCharlotte">authoress</ref> is evidently nearly
-					related to Scotland, though we believe she is not Scotch. She has a taste for
-					humour, and her comedy is generally very entertaining, though she too often
-					falls into a comedian's worst fault, of wire-drawing a comic scene, till it
-					becomes tedious; and once or twice she is guilty of giving them for their
-					foundation subjects hardly admissible on the score of propriety. The book is,
-					however, written with great spirit, and is very entertaining. Some of the scenes
-					of real life are sketched with fidelity and true humour. The
-					Côche-d'Eau on the Rhone is one of these, and the Reverend Saunders
-					M'Muckleman is throughout a genuine comic character. Her descriptions of
-					scenery are, however, the best part of the book; they are varied and faithful.
-					We select one, as a specimen of the style in which they are executed:—</p>
+               familiar with its novel and beauteous aspect. But our limits warn us not to pursue
+               our digression, and oblige us to turn our attention to those other works whose titles
+               head our article. We shall not dilate much upon them; for the scope of our present
+               writing is to treat of Italy, and as these volumes do not bear the same perfect
+               Italian stamp as those of <ref target="people.html#PhippsConstantineHenry">lord
+                  Normanby</ref>, they may be passed more cursorily over. </p>
+            <p>"<title>Continental Adventures</title>" are the production of the very clever <ref
+                  target="people.html#EatonCharlotte">authoress of "<title>Rome in the Nineteenth
+                     Century.</title>
+               </ref>" This latter publication is an inestimable guide to all who visit the Eternal
+               City, and even to those at home, more than any other work on the same subject, gives
+               a faithful account of the wonders of that metropolis of the world.
+                  "<title>Continental Adventures</title>" is on another and a worse plan. It mixes
+               real scenes with fictitious ones, not in the style of the "<title>English in
+                  Italy,</title>" where the manners of the natives form the ground-work of the
+               tales, but in the mode of a common novel—a novel of the day: a lady and her lover,
+               the baulks to love, the rival, and the denouement, all English: and the
+                  "<title>Continental Adventures</title>" are merely, that while the hero and
+               heroine are <hi rendition="#italics">progressing</hi> towards the fulfillment of
+               their hopes, they ramble about Switzerland, and the lady, in particular, endures so
+               many perils, that we really think that no female in real life could have undergone
+               them without becoming prematurely grey. She commences by breaking her collar-bone and
+               two of her fingers;<pb n="338"/>is twice in imminent danger of perishing in
+               snow-drifts; narrowly escapes tumbling down a precipice; is nearly shot by a robber
+               in one of the Alpine Ravines; and last, is carried away by Italian banditti, at whose
+               hands death was the least evil she expected, and from whom she saves herself by the
+               administration of a piece of opium, which she had fortunately put into her <hi
+                  rendition="#italics">pocket</hi> the day before. The story of the novel is
+               commonplace enough, and the gordian knot, tied just at the end, then to be cut, is
+               confused, and even displeasing. The discovery of relationship in a forbidden degree
+               between lovers is always disagreeable; and the mode by which these lovers are found
+               to be related, disfiguring the sacred associations always blended with a mother's
+               name, is even revolting. The <ref target="people.html#EatonCharlotte">authoress</ref>
+               is evidently nearly related to Scotland, though we believe she is not Scotch. She has
+               a taste for humour, and her comedy is generally very entertaining, though she too
+               often falls into a comedian's worst fault, of wire-drawing a comic scene, till it
+               becomes tedious; and once or twice she is guilty of giving them for their foundation
+               subjects hardly admissible on the score of propriety. The book is, however, written
+               with great spirit, and is very entertaining. Some of the scenes of real life are
+               sketched with fidelity and true humour. The Côche-d'Eau on the Rhone is one of these,
+               and the Reverend Saunders M'Muckleman is throughout a genuine comic character. Her
+               descriptions of scenery are, however, the best part of the book; they are varied and
+               faithful. We select one, as a specimen of the style in which they are executed:—</p>
             <quote>
-               <p>The glaciers of the Aar, which we visited from the Grimsel, present a
-						scene which I am convinced the world cannot equal; which none who have
-						beheld it can ever forget, and none who have not seen it can ever conceive.
-						I will not mock you with a futile attempt at description. You cannot picture
-						the scene; but you can form some idea of the awe-struck astonishment which
-						filled our minds, when, after surmounting all the difficulties of the way,
-						we found ourselves standing amidst a world of ice, extending around,
-						beneath, above us; far beyond where the straining sight, in every direction,
-						vainly sought to follow the interminable frozen leagues of glaciers, propped
-						up in towering pyramids or shapeless heaps, or opening into yawning gulphs
-						and unfathomable fissures. The tremendous barren rocks and mountains of the
-						impenetrable Alps, amidst which the terrific Finsteraarhorn reared his
-						granitic pyramid of fourteen thousand feet, appeared alone amidst this world
-						of desolation. Eternal and boundless wastes of ice, naked and inaccessible
-						mountains of rock, which had stood unchanged and untrodden from creation,
-						were the only objects which met our view. Hitherto, with all we had seen of
-						desolation and horror, there was some contrast, some relief. The glaciers of
-						Chamouni are bordered by glowing harvests; the<pb n="339"/>glaciers of
-						Grindelwald are bounded by its romantic vale; the glaciers of the Schiedeck
-						shine forth amidst its majestic woods. Even among the savage rocks and
-						torrents of the Grimsel, though animated life is seen no more, the drooping
-						birch and feathery larch protrude their storm-beaten branches from the
-						crevices of the precipices; and the lonely pine-tree is seen on high, where
-						no hand can ever reach it. But here there is no trace of vegetation, no
-						blade of grass, no bush, no tree; no spreading weed or creeping lichen
-						invades the cold still desolation of the icy desert. It is the death of
-						nature. We seemed placed in a creation in which there is no principle of
-						life; translated to another orb, where existence is extinct, and where
-						death, unresisted, holds his terrific reign. The only sound which meets the
-						ear is that of the loud detonation of the ice, as it bursts open into new
-						abysses, with the crash of thunder, and reverberates from the wild rocks
-						like the voice of the mountain storms.—Vol. ii. p. 134,</p>
+               <p>The glaciers of the Aar, which we visited from the Grimsel, present a scene which
+                  I am convinced the world cannot equal; which none who have beheld it can ever
+                  forget, and none who have not seen it can ever conceive. I will not mock you with
+                  a futile attempt at description. You cannot picture the scene; but you can form
+                  some idea of the awe-struck astonishment which filled our minds, when, after
+                  surmounting all the difficulties of the way, we found ourselves standing amidst a
+                  world of ice, extending around, beneath, above us; far beyond where the straining
+                  sight, in every direction, vainly sought to follow the interminable frozen leagues
+                  of glaciers, propped up in towering pyramids or shapeless heaps, or opening into
+                  yawning gulphs and unfathomable fissures. The tremendous barren rocks and
+                  mountains of the impenetrable Alps, amidst which the terrific Finsteraarhorn
+                  reared his granitic pyramid of fourteen thousand feet, appeared alone amidst this
+                  world of desolation. Eternal and boundless wastes of ice, naked and inaccessible
+                  mountains of rock, which had stood unchanged and untrodden from creation, were the
+                  only objects which met our view. Hitherto, with all we had seen of desolation and
+                  horror, there was some contrast, some relief. The glaciers of Chamouni are
+                  bordered by glowing harvests; the<pb n="339"/>glaciers of Grindelwald are bounded
+                  by its romantic vale; the glaciers of the Schiedeck shine forth amidst its
+                  majestic woods. Even among the savage rocks and torrents of the Grimsel, though
+                  animated life is seen no more, the drooping birch and feathery larch protrude
+                  their storm-beaten branches from the crevices of the precipices; and the lonely
+                  pine-tree is seen on high, where no hand can ever reach it. But here there is no
+                  trace of vegetation, no blade of grass, no bush, no tree; no spreading weed or
+                  creeping lichen invades the cold still desolation of the icy desert. It is the
+                  death of nature. We seemed placed in a creation in which there is no principle of
+                  life; translated to another orb, where existence is extinct, and where death,
+                  unresisted, holds his terrific reign. The only sound which meets the ear is that
+                  of the loud detonation of the ice, as it bursts open into new abysses, with the
+                  crash of thunder, and reverberates from the wild rocks like the voice of the
+                  mountain storms.—Vol. ii. p. 134,</p>
             </quote>
-            <p>These volumes contain the best description and guide to Switzerland that we have
-					ever seen, but Italy makes only a small portion of them. We have some animated
-					scenes on the romantic lake of Como, and visit, with the personages of the
-					novel, the galleries and palaces of Florence; but a guide-book and a romance
-					form an incongruous mixture, and we certainly wish that they should be separated
-					in future. </p>
-            <p>"<title>The Diary of an Ennuyée,</title>"is a very well written
-					and interesting imposture. Well written and interesting it is true, but still an
-					imposture, and that not of a kind which is admissible. The very laws of <hi rendition="#italics">cavaliere servente</hi>ism in Italy are not more
-					delicate, subtle, and yet strict, than those of fiction, and they are
-					transgressed in the volume before us. A fiction must contain no glaring
-					improbability, and yet it must never divest itself of a certain idealism, which
-					forms its chief beauty. Once in Italy we saw a drama, which was any thing but
-					dramatic, and we were reminded of it by the pages of the book before us. The
-					hero was an English Milord who had a diseased arm; no medical attendant was able
-					to afford him any relief; one doctor, one alone could cure this otherwise mortal
-					disorder; but this doctor refused to exert his skill until his friend <hi rendition="#italics">Jenkisson</hi>, who was imprisoned in the Tower under
-					suspicion of treasonable practices, should be liberated by the sick Milord, who
-					was also a secretary of state; but Milord was too patriotic to sacrifice public
-					good to his private advantage. Miledi, in the mean time, ran from her husband to
-					the doctor, adjuring the one and supplicating the other, while Milord, with his
-					bound-up arm, groaning when on the stage, and shrieking while behind it, formed
-					a most distressing foreground to the picture. You actually felt for the poor
-					man; and a greater verity of scenic illusion (such as it was) was produced by
-					that bandaged arm, and the moaning and crippled action of the patient than <ref target="people.html#KeanEdmund">Kean</ref> or <ref target="people.html#PastaGiuditta">Pasta</ref>
-               <pb n="340"/> usually effect
-					in their portentous identifications with ideal woe. That our readers may not be
-					left in a painful suspense, we proceed to inform them, that when Milord was at
-					his last gasp, and the doctor stood unmoved in the midst of his kneeling and
-					supplicating relatives, Jenkisson himself, whose innocence had been discovered,
-					appeared; a general reconciliation took place; and the doctor was proceeding to
-					work a cure, when the curtain fell. </p>
-            <p>We do not wish to cast an air of ridicule over the volume before us, which we
-					read, really believing in it as we read, with great interest; but having
-					discovered that the sensitive, heart- broken, dying, dead diarist is a
-					fictitious personage, we are angry at the trick of art that excited our real
-					sympathy; and we were led to a conviction that the circumstances that demand our
-					deepest interest as a reality, are, when feigned, not of an high order of
-					idealism, and consequently the fraud being discovered, the fictitious part of
-					the book falls below the usual rate of novel interest.</p>
-            <p>But to leave this criticism, or hypercriticism, let us advert to the real merits
-					of the work. It is written with great spirit and great enthusiasm: the
-					descriptions are vivid, the anecdotes entertaining, and the whole style displays
-					intelligence and feeling. The few traits recorded of Italian manners are
-					felicitously seized, and the English party is well sketched, from the quiet,
-					retiring, suffering, ideal authoress, to the blundering and vivacious
-					L——, who may stand as a specimen of a whole tribe of English rovers
-					in Italy. We turn over the pages to find an extract, which our limits will not
-					permit us to make long. We hesitated between the account of the eruption of
-					Vesuvius, the description of the improvisatore Sestini,<hi rendition="#sup">
-                  <note>Like <ref target="people.html#Sgricci">Tomasso
-								Sgricci</ref>, Bernardo Sestini made a sensation as an
-							improvvisatore.</note>
-               </hi> the Capanna and Gesu Bambino, always
-					exhibited in the convents during Christmas,<hi rendition="#sup">
-                  <note>Nativity scene.</note>
-               </hi> the Diarist's Adventure
-					with the Governor of Lerici—between these and the following one, which we
-					have fixed upon as one of the most interesting anecdotes in the book:—</p>
+            <p>These volumes contain the best description and guide to Switzerland that we have ever
+               seen, but Italy makes only a small portion of them. We have some animated scenes on
+               the romantic lake of Como, and visit, with the personages of the novel, the galleries
+               and palaces of Florence; but a guide-book and a romance form an incongruous mixture,
+               and we certainly wish that they should be separated in future. </p>
+            <p>"<title>The Diary of an Ennuyée,</title>"is a very well written and interesting
+               imposture. Well written and interesting it is true, but still an imposture, and that
+               not of a kind which is admissible. The very laws of <hi rendition="#italics"
+                  >cavaliere servente</hi>ism in Italy are not more delicate, subtle, and yet
+               strict, than those of fiction, and they are transgressed in the volume before us. A
+               fiction must contain no glaring improbability, and yet it must never divest itself of
+               a certain idealism, which forms its chief beauty. Once in Italy we saw a drama, which
+               was any thing but dramatic, and we were reminded of it by the pages of the book
+               before us. The hero was an English Milord who had a diseased arm; no medical
+               attendant was able to afford him any relief; one doctor, one alone could cure this
+               otherwise mortal disorder; but this doctor refused to exert his skill until his
+               friend <hi rendition="#italics">Jenkisson</hi>, who was imprisoned in the Tower under
+               suspicion of treasonable practices, should be liberated by the sick Milord, who was
+               also a secretary of state; but Milord was too patriotic to sacrifice public good to
+               his private advantage. Miledi, in the mean time, ran from her husband to the doctor,
+               adjuring the one and supplicating the other, while Milord, with his bound-up arm,
+               groaning when on the stage, and shrieking while behind it, formed a most distressing
+               foreground to the picture. You actually felt for the poor man; and a greater verity
+               of scenic illusion (such as it was) was produced by that bandaged arm, and the
+               moaning and crippled action of the patient than <ref target="people.html#KeanEdmund"
+                  >Kean</ref> or <ref target="people.html#PastaGiuditta">Pasta</ref>
+               <pb n="340"/> usually effect in their portentous identifications with ideal woe. That
+               our readers may not be left in a painful suspense, we proceed to inform them, that
+               when Milord was at his last gasp, and the doctor stood unmoved in the midst of his
+               kneeling and supplicating relatives, Jenkisson himself, whose innocence had been
+               discovered, appeared; a general reconciliation took place; and the doctor was
+               proceeding to work a cure, when the curtain fell. </p>
+            <p>We do not wish to cast an air of ridicule over the volume before us, which we read,
+               really believing in it as we read, with great interest; but having discovered that
+               the sensitive, heart- broken, dying, dead diarist is a fictitious personage, we are
+               angry at the trick of art that excited our real sympathy; and we were led to a
+               conviction that the circumstances that demand our deepest interest as a reality, are,
+               when feigned, not of an high order of idealism, and consequently the fraud being
+               discovered, the fictitious part of the book falls below the usual rate of novel
+               interest.</p>
+            <p>But to leave this criticism, or hypercriticism, let us advert to the real merits of
+               the work. It is written with great spirit and great enthusiasm: the descriptions are
+               vivid, the anecdotes entertaining, and the whole style displays intelligence and
+               feeling. The few traits recorded of Italian manners are felicitously seized, and the
+               English party is well sketched, from the quiet, retiring, suffering, ideal authoress,
+               to the blundering and vivacious L——, who may stand as a specimen of a whole tribe of
+               English rovers in Italy. We turn over the pages to find an extract, which our limits
+               will not permit us to make long. We hesitated between the account of the eruption of
+               Vesuvius, the description of the improvisatore Sestini,<note>Like <ref
+                     target="people.html#Sgricci">Tomasso Sgricci</ref>, Bernardo Sestini made a
+                  sensation as an improvvisatore.</note> the Capanna and Gesu Bambino, always
+               exhibited in the convents during Christmas,<note>Nativity scene.</note> the Diarist's
+               Adventure with the Governor of Lerici—between these and the following one, which we
+               have fixed upon as one of the most interesting anecdotes in the book:—</p>
             <quote>
-               <p>Last night we had a numerous party, and Signor P—— and his
-						daughter came to sing. <hi rendition="#italics">She</hi> is a private singer
-						of great talent, and came attended by her lover, or her <hi rendition="#italics">fiancé</hi>, who, according to the Italian
-						custom, attends his mistress every where during the few weeks which precede
-						their marriage. He is a young artist, a favourite pupil of <ref target="people.html#Camuccini">Camuccini</ref>, and of very quiet,
-						unobstrusive manners. La P. has the misfortune to be plain; her features are
-						irregular, her complexion of a sickly paleness, and though her eyes are
-						large and dark, they appeared totally devoid of luster and expression. Her
-						plainness, the bad taste of her dress, her awkward figure, and her timid and
-						embarrassed deportment, all furnished matter of amusement and observation to
-						some young people (English of course), whose propensities for <hi rendition="#italics">quizzing</hi> exceeded their good breeding and good
-						nature. Though La P. does not under-<pb n="341"/> stand a word of either
-						French or English, I thought she could not mistake the significant looks and
-						whispers of which she was the object, and I was in pain for her and for her
-						modest lover. I drew my chair to the piano, and tried to divert her
-						attention, by keeping her in conversation, but could get no farther than a
-						few questions, which were answered in monosyllables. At length she sang, and
-						sang divinely; I found the pale automaton had a soul as well as a voice.
-						After giving us with faultless execution, as well as great expression, some
-						of <ref target="people.html#Rossini">Rossini</ref>'s finest songs, she
-						sang the beautiful and difficult cavatina in <title>Otello</title>,
-							"<hi rendition="#italics">Assia al piè d'un
-						salice,</hi>" with the most enchanting style and pathos, and then stood
-						as unmoved as a statue, while the company applauded loud and long. A moment
-						afterwards, as she stooped to take up a music-book, her lover, who had edged
-						himself by degrees from the door to the piano, bent his head too, and
-						murmured, in a low voice, but with the most passionate accent, "O
-						brava, brava, cara!" She replied only by a look, but it was such a
-						look! I never saw a human countenance so entirely, so instantaneously
-						changed in character; the vacant eyes kindled and beamed with tenderness:
-						the pale cheek glowed, and a bright smile playing round her mouth, just
-						parted her lips sufficiently to discover a set of teeth like pearls. I could
-						have called her at that moment beautiful; but the change was as transient as
-						sudden; it passed like a gleam of light over her face, and vanished; and by
-						the time the book was placed on the desk, she looked as plain, as stupid,
-						and statue-like as ever. I was the only person who witnessed this little
-						bye-scene, and it gave me pleasant thoughts and interest for the rest of the
-						evening.—p. 207.</p>
+               <p>Last night we had a numerous party, and Signor P—— and his daughter came to sing.
+                     <hi rendition="#italics">She</hi> is a private singer of great talent, and came
+                  attended by her lover, or her <hi rendition="#italics">fiancé</hi>, who, according
+                  to the Italian custom, attends his mistress every where during the few weeks which
+                  precede their marriage. He is a young artist, a favourite pupil of <ref
+                     target="people.html#Camuccini">Camuccini</ref>, and of very quiet, unobstrusive
+                  manners. La P. has the misfortune to be plain; her features are irregular, her
+                  complexion of a sickly paleness, and though her eyes are large and dark, they
+                  appeared totally devoid of luster and expression. Her plainness, the bad taste of
+                  her dress, her awkward figure, and her timid and embarrassed deportment, all
+                  furnished matter of amusement and observation to some young people (English of
+                  course), whose propensities for <hi rendition="#italics">quizzing</hi> exceeded
+                  their good breeding and good nature. Though La P. does not under-<pb n="341"/>
+                  stand a word of either French or English, I thought she could not mistake the
+                  significant looks and whispers of which she was the object, and I was in pain for
+                  her and for her modest lover. I drew my chair to the piano, and tried to divert
+                  her attention, by keeping her in conversation, but could get no farther than a few
+                  questions, which were answered in monosyllables. At length she sang, and sang
+                  divinely; I found the pale automaton had a soul as well as a voice. After giving
+                  us with faultless execution, as well as great expression, some of <ref
+                     target="people.html#Rossini">Rossini</ref>'s finest songs, she sang the
+                  beautiful and difficult cavatina in <title>Otello</title>, "<hi
+                     rendition="#italics">Assia al piè d'un salice,</hi>" with the most enchanting
+                  style and pathos, and then stood as unmoved as a statue, while the company
+                  applauded loud and long. A moment afterwards, as she stooped to take up a
+                  music-book, her lover, who had edged himself by degrees from the door to the
+                  piano, bent his head too, and murmured, in a low voice, but with the most
+                  passionate accent, "O brava, brava, cara!" She replied only by a look, but it was
+                  such a look! I never saw a human countenance so entirely, so instantaneously
+                  changed in character; the vacant eyes kindled and beamed with tenderness: the pale
+                  cheek glowed, and a bright smile playing round her mouth, just parted her lips
+                  sufficiently to discover a set of teeth like pearls. I could have called her at
+                  that moment beautiful; but the change was as transient as sudden; it passed like a
+                  gleam of light over her face, and vanished; and by the time the book was placed on
+                  the desk, she looked as plain, as stupid, and statue-like as ever. I was the only
+                  person who witnessed this little bye-scene, and it gave me pleasant thoughts and
+                  interest for the rest of the evening.—p. 207.</p>
             </quote>
-            <p>We hope to heaven all this is true, and not false as the Ennuyée herself.
-					One thing alone at all atones for her deception. We longed, while reading her
-					work, to thank the fair <ref target="people.html#JamesonAnna">authoress</ref>
-					for reviving many a half-forgotten Italian scene, and for shedding a beautiful
-					light over many a favourite spot; we regretted that our gratitude was due to the
-					dead; but since the writer lives, we no longer have this painful debt heavy at
-					our hearts, and we pay it with the praise she entirely merits.</p>
-            <p>We shall hail with pleasure any new production from the pen of any one of the
-					writers of these works; and we were not a little gratified at the announcement
-					of <ref target="people.html#PhippsConstantineHenry">Lord Normanby</ref>'s
-						"<title>Historiettes.</title>" We hope that in these he has a
-					little abated an offensive display of superiority of rank. It is unworthy of the
-					enlightened heir of a peerage thus to prize himself above nine-tenths of his
-					readers on account of his adventitious advantages, and very absurd to shew it.
-					We remember, in former times, that this nobleman had a warm love for talent,
-					though its possessor was unendowed either with rank or fashion; we hope the
-					generous feeling is not dead. His lordship has too much real talent not to feel
-					and appreciate the nobility of nature as well as that of birth, and some
-					indication of such a feeling would give a grace to his productions, in which, at
-					present, they are deficient. </p>
+            <p>We hope to heaven all this is true, and not false as the Ennuyée herself. One thing
+               alone at all atones for her deception. We longed, while reading her work, to thank
+               the fair <ref target="people.html#JamesonAnna">authoress</ref> for reviving many a
+               half-forgotten Italian scene, and for shedding a beautiful light over many a
+               favourite spot; we regretted that our gratitude was due to the dead; but since the
+               writer lives, we no longer have this painful debt heavy at our hearts, and we pay it
+               with the praise she entirely merits.</p>
+            <p>We shall hail with pleasure any new production from the pen of any one of the writers
+               of these works; and we were not a little gratified at the announcement of <ref
+                  target="people.html#PhippsConstantineHenry">Lord Normanby</ref>'s
+                  "<title>Historiettes.</title>" We hope that in these he has a little abated an
+               offensive display of superiority of rank. It is unworthy of the enlightened heir of a
+               peerage thus to prize himself above nine-tenths of his readers on account of his
+               adventitious advantages, and very absurd to shew it. We remember, in former times,
+               that this nobleman had a warm love for talent, though its possessor was unendowed
+               either with rank or fashion; we hope the generous feeling is not dead. His lordship
+               has too much real talent not to feel and appreciate the nobility of nature as well as
+               that of birth, and some indication of such a feeling would give a grace to his
+               productions, in which, at present, they are deficient. </p>
          </div>
       </body>
    </text>

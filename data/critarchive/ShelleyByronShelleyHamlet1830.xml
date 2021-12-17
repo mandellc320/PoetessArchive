@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Byron and Shelley on the Character of Hamlet</title>
-            <title type="sub" level="j">The New Monthly Magazine</title>
+            <title type="sub">The New Monthly Magazine</title>
             <author type="writer">
                <name>Mary Wollstonecraft Shelley</name>
             </author>
@@ -23,12 +23,11 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Byron and Shelley on the Character of
-							Hamlet</title>
+                  <title type="main" level="a">Byron and Shelley on the Character of Hamlet</title>
                   <author type="writer">Shelley, Mary, 1797-1851</author>
                </analytic>
                <monogr>
-                  <title type="sub" level="j">The New Monthly Magazine</title>
+                  <title type="sub">The New Monthly Magazine</title>
                   <imprint>
                      <date when="1830-10">October 1830</date>
                      <biblScope unit="series">second</biblScope>
@@ -42,28 +41,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -77,15 +75,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -328,11 +335,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -462,7 +470,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -541,7 +549,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="4">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -582,908 +598,761 @@
                   <author type="writer">
                      <name>Mary Shelley</name>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
-                     <ref target="people.html#ByronGeorge">BYRON</ref> AND <ref target="people.html#ShelleyPercy">SHELLEY</ref> ON THE CHARACTER OF <ref target="people.html#Hamlet">HAMLET</ref>
-                     <hi rendition="#sup">
-                        <note xml:id="ftn1" n="1">
-                           <title level="j">
-                              <hi rendition="#italics">The New Monthly
-										Magazine</hi>
-                           </title> 29 (October 1830): 327-36. This review
-									article is attributed to Mary Shelley in <hi rendition="#italics">
-                              <title>The Wellesley Index to Victorian
-											Periodicals 1824-1900</title>
-                           </hi>, ed. Wa;ter E.
-									Houghton, University of Toronto Press, 1966. This edition of the
-									article was prepared for <hi rendition="#italics">The Criticism
-										Archive</hi> by Victoria L. Stewart and Mary A.
-									Waters.
-							</note>
-                     </hi>
+                     <ref target="people.html#ByronGeorge">BYRON</ref> AND <ref
+                        target="people.html#ShelleyPercy">SHELLEY</ref> ON THE CHARACTER OF <ref
+                        target="people.html#Hamlet">HAMLET</ref>
+                     <note xml:id="ftn1" n="1">
+                        <title level="j">
+                           <hi rendition="#italics">The New Monthly Magazine</hi>
+                        </title> 29 (October 1830): 327-36. This review article is attributed to
+                        Mary Shelley in <hi rendition="#italics">
+                           <title>The Wellesley Index to Victorian Periodicals 1824-1900</title>
+                        </hi>, ed. Wa;ter E. Houghton, University of Toronto Press, 1966. This
+                        edition of the article was prepared for <hi rendition="#italics">The
+                           Criticism Archive</hi> by Victoria L. Stewart and Mary A. Waters. </note>
                   </title>
                </bibl>
             </head>
             <p>
                <hi rendition="#large">I</hi>
-               <hi rendition="#smcaps">t</hi> was indeed a
-					delightful day. We had spent the hot time under some of the old, over-canopying
-					chestnuts of the Grand Duke's wood; and perceiving now the green and golden
-					light of sunset through the valleys of tree-tops, we began to wind our way home
-					through the wilderness of underwood, following the track of a little path or
-					sheepwalk, which led though the forest, as it gradually opened, and ended in the
-					stately avenue of the Grand Duke's palace. Here, in the wide space, under
-					those lofty trees, we were no longer constrained to walk singly, and <ref target="people.html#ShelleyPercy">Shelley</ref> placed himself beside <ref target="people.html#ByronGeorge">Lord Byron</ref>, who led the way through
-					the trees: "You seem very ineffable this evening," said he. </p>
-            <p>"I have been reading," he replied,
-					"<title>Hamlet</title>."</p>
+               <hi rendition="#smcaps">t</hi> was indeed a delightful day. We had spent the hot time
+               under some of the old, over-canopying chestnuts of the Grand Duke's wood; and
+               perceiving now the green and golden light of sunset through the valleys of tree-tops,
+               we began to wind our way home through the wilderness of underwood, following the
+               track of a little path or sheepwalk, which led though the forest, as it gradually
+               opened, and ended in the stately avenue of the Grand Duke's palace. Here, in the wide
+               space, under those lofty trees, we were no longer constrained to walk singly, and
+                  <ref target="people.html#ShelleyPercy">Shelley</ref> placed himself beside <ref
+                  target="people.html#ByronGeorge">Lord Byron</ref>, who led the way through the
+               trees: "You seem very ineffable this evening," said he. </p>
+            <p>"I have been reading," he replied, "<title>Hamlet</title>."</p>
             <p>"No wonder then you are melancholy."</p>
-            <p>"No," said <ref target="people.html#ByronGeorge">Lord Byron</ref>,
-					"'tis not so much melancholy, but I feel perplexed, confused, and
-					inextricably self-involved; a nightmare sensation of impotence and vain
-					endeavour weighs upon me, whether my own or <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>'s. Nor do I at
-					all recognize in my feelings that calmness and grandeur which you said the other
-					day one always felt in the presence of great genius."</p>
+            <p>"No," said <ref target="people.html#ByronGeorge">Lord Byron</ref>, "'tis not so much
+               melancholy, but I feel perplexed, confused, and inextricably self-involved; a
+               nightmare sensation of impotence and vain endeavour weighs upon me, whether my own or
+                  <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>'s. Nor do I at all
+               recognize in my feelings that calmness and grandeur which you said the other day one
+               always felt in the presence of great genius."</p>
             <p>
-               <hi rendition="#italics">Shelley</hi>. I understand you! 'Tis a feeling one
-					but too often feels; when an object stands before one, unintelligible,
-					"wrapped in its own formless horror like a ghost."<hi rendition="#sup">
-                  <note>Paraphrase of <ref target="people.html#ShelleyPercy">Percy Shelley</ref>'s <hi rendition="#italics">
-                        <title>The
-									Cenci</title>
-                     </hi>, Act III, scene i, lines 110-11.</note>
-               </hi>
+               <hi rendition="#italics">Shelley</hi>. I understand you! 'Tis a feeling one but too
+               often feels; when an object stands before one, unintelligible, "wrapped in its own
+               formless horror like a ghost."<note>Paraphrase of <ref
+                     target="people.html#ShelleyPercy">Percy Shelley</ref>'s <hi
+                     rendition="#italics">
+                     <title>The Cenci</title>
+                  </hi>, Act III, scene i, lines 110-11.</note>
             </p>
             <pb n="328"/>
             <p>
-               <hi rendition="#italics">Byron</hi>. I don't wonder you quote that line of
-					yours. It is one of the best you ever wrote. I think it great affectation not to
-					quote oneself. </p>
+               <hi rendition="#italics">Byron</hi>. I don't wonder you quote that line of yours. It
+               is one of the best you ever wrote. I think it great affectation not to quote oneself. </p>
             <p>
                <hi rendition="#italics">Shelley</hi>. But you must not let <title>Hamlet</title>
-					pass. Pray go on with your observations upon it, if not disagreeable. </p>
+               pass. Pray go on with your observations upon it, if not disagreeable. </p>
             <p>
-               <hi rendition="#italics">Byron</hi>. It takes some time for one's feelings
-					to form themselves into any definite and expressible shapes—just as they
-					say that it takes three days for the rain-water to get to the rivers—one
-					for the ground, one for the drains, and one for the ditches: and it is very hard
-					of any one to come as you do now, and trampling over one's feelings, while
-					they are yet soft with the drenching of your Castalian dew, to stamp
-					uneffaceably the impression of the moment. </p>
+               <hi rendition="#italics">Byron</hi>. It takes some time for one's feelings to form
+               themselves into any definite and expressible shapes—just as they say that it takes
+               three days for the rain-water to get to the rivers—one for the ground, one for the
+               drains, and one for the ditches: and it is very hard of any one to come as you do
+               now, and trampling over one's feelings, while they are yet soft with the drenching of
+               your Castalian dew, to stamp uneffaceably the impression of the moment. </p>
             <p>
                <hi rendition="#italics">Shelley</hi>. Oh, I assure you we wont print you down at
-					your word. You may say just the contrary, if it please your Lordship, to-morrow;
-					but sufficient for the evening is the opinion thereof. </p>
+               your word. You may say just the contrary, if it please your Lordship, to-morrow; but
+               sufficient for the evening is the opinion thereof. </p>
             <p>
-               <hi rendition="#italics">Byron</hi>. Why, believe me, I have no opinion of any
-					sort. If I had but an opinion—what can any man want more? But now I am
-					like a nothing, a want, a privation. What <hi rendition="#italics">is</hi>
-               <ref target="people.html#Hamlet"> Hamlet</ref>? What means he? Are we, too, like
-					him, the creatures of some incomprehensible sport, and the real universe just
-					such another story, where all the deepest feelings, and dearest sympathies are
-					insulted, and the understanding mocked? And yet we live on, as we read on, for <quote>
+               <hi rendition="#italics">Byron</hi>. Why, believe me, I have no opinion of any sort.
+               If I had but an opinion—what can any man want more? But now I am like a nothing, a
+               want, a privation. What <hi rendition="#italics">is</hi>
+               <ref target="people.html#Hamlet"> Hamlet</ref>? What means he? Are we, too, like him,
+               the creatures of some incomprehensible sport, and the real universe just such another
+               story, where all the deepest feelings, and dearest sympathies are insulted, and the
+               understanding mocked? And yet we live on, as we read on, for <quote>
                   <lg type="stanza">
-                     <l rendition="#indent7">————Who would
-								lose</l>
+                     <l rendition="#indent7">————Who would lose</l>
                      <l>Though full of pain, this intellectual being,</l>
-                     <l>These thoughts that wander through eternity?<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#MiltonJohn">John Milton</ref>, <hi rendition="#italics">
-                                 <title>Paradise Lost</title>
-                              </hi>,
-										Book II, lines 146-8. </note>
-                        </hi>
+                     <l>These thoughts that wander through eternity?<note>
+                           <ref target="people.html#MiltonJohn">John Milton</ref>, <hi
+                              rendition="#italics">
+                              <title>Paradise Lost</title>
+                           </hi>, Book II, lines 146-8. </note>
                      </l>
                   </lg>
-               </quote> And who can read this wonderful play without the profoundest
-					emotion? And yet what is it but a colossal enigma? We love <ref target="people.html#Hamlet">Hamlet</ref> even as we love ourselves. Yet
-					consider his character, and where is either goodness or greatness? He betrays
-						<ref target="people.html#Ophelia">Ophelia</ref>'s gentlest love; he
-					repulses her in a cruel manner; and when in the most touching way, she speaks to
-					him, and returns his presents, he laughs her off like a man of the town. At her
-					grave, at the new-made grave of <ref target="people.html#Ophelia">Ophelia</ref>
-					his first love, whom his own unkindness had blasted in the very bud of her
-					beauty, in the morn and liquid dew of youth, what is the behaviour of <ref target="people.html#Hamlet">Hamlet</ref>? A blank—worse than a blank;
-					a few ranting lines, instead of true feeling, that prove him perfectly
-					heartless. Then his behaviour in the grave, and his insult to <ref target="people.html#Laertes">Laertes</ref>, why the gentlest verdict one can
-					give is insanity. But he seems by nature, and in his soberest moods, fiend-like
-					in cruelty. His old companions <ref target="people.html#RosencrantzGuildenstern">Rosencrantz and Guildenstern</ref>, he murders without the least
-					compunction; he desires them to be put to sudden death, "not shriving-time
-						allowed."<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act V, scene ii,
-							line 47.</note>
-               </hi> And the same diabolical refinement of revenge, when
-					he finds the <ref target="people.html#Claudius">King</ref> at his prayers,
-					induces him to wait for some more horrid time, "when he is drunk, asleep,
-					or in his rage,"<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act III, scene iii,
-							line 89.</note>
-               </hi> to assassinate him, that "his soul may be as
-					damned and black as hell, whereto he goes."<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act
-							III, scene iii, lines 94-5.</note>
-               </hi>
-               <ref target="people.html#Polonius">Polonius</ref>, the father of <ref target="people.html#Ophelia">Ophelia</ref>, he does actually kill; and for
-					this does he lament or atone for what he has done, by any regret or remorse?
-					"I’ll lug the guts into the neighbour room."—"You shall
-					nose him as you go up the stairs into the lobby!"<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act
-							III, scene iv, line 212 and Act IV, scene iii, lines 36-7.</note>
-               </hi>
+               </quote> And who can read this wonderful play without the profoundest emotion? And
+               yet what is it but a colossal enigma? We love <ref target="people.html#Hamlet"
+                  >Hamlet</ref> even as we love ourselves. Yet consider his character, and where is
+               either goodness or greatness? He betrays <ref target="people.html#Ophelia"
+                  >Ophelia</ref>'s gentlest love; he repulses her in a cruel manner; and when in the
+               most touching way, she speaks to him, and returns his presents, he laughs her off
+               like a man of the town. At her grave, at the new-made grave of <ref
+                  target="people.html#Ophelia">Ophelia</ref> his first love, whom his own unkindness
+               had blasted in the very bud of her beauty, in the morn and liquid dew of youth, what
+               is the behaviour of <ref target="people.html#Hamlet">Hamlet</ref>? A blank—worse than
+               a blank; a few ranting lines, instead of true feeling, that prove him perfectly
+               heartless. Then his behaviour in the grave, and his insult to <ref
+                  target="people.html#Laertes">Laertes</ref>, why the gentlest verdict one can give
+               is insanity. But he seems by nature, and in his soberest moods, fiend-like in
+               cruelty. His old companions <ref target="people.html#RosencrantzGuildenstern"
+                  >Rosencrantz and Guildenstern</ref>, he murders without the least compunction; he
+               desires them to be put to sudden death, "not shriving-time allowed."<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act V, scene ii, line 47.</note> And the same diabolical refinement of
+               revenge, when he finds the <ref target="people.html#Claudius">King</ref> at his
+               prayers, induces him to wait for some more horrid time, "when he is drunk, asleep, or
+               in his rage,"<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act III, scene iii, line 89.</note> to assassinate him, that "his soul may
+               be as damned and black as hell, whereto he goes."<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act III, scene iii, lines 94-5.</note>
+               <ref target="people.html#Polonius">Polonius</ref>, the father of <ref
+                  target="people.html#Ophelia">Ophelia</ref>, he does actually kill; and for this
+               does he lament or atone for what he has done, by any regret or remorse? "I’ll lug the
+               guts into the neighbour room."—"You shall nose him as you go up the stairs into the lobby!"<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act III, scene iv, line 212 and Act IV, scene iii, lines 36-7.</note>
             </p>
             <p>But suppose him heartless, though he is for ever lamenting, and complaining, and
-					declaiming about the false-heartedness of every one else; Richard is
-						heartless—Iago—Edmund.<hi rendition="#sup">
-                  <note>Villainous characters in <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>'s plays <hi rendition="#italics">
-                        <title>Richard III</title>
-                     </hi>, <hi rendition="#italics">
-                        <title>Othello</title>
-                     </hi>, and <hi rendition="#italics">
-                        <title>King Lear</title>
-                     </hi>, respectively. </note>
-               </hi> The
-					tragic poet of course deals<pb n="329"/>not in your good-boy characters. But
-					neither is he, as Richard is, a hero, a man of mighty strength of mind. He is,
-					according to his own admission, as "unlike <ref target="people.html#Hercules">Hercules</ref>" as possible. He does not,
-					as a great and energetic mind does, exult under the greatness of a grand object.
-					He is weak; so miserably weak as even to complain of his own weakness. He says <quote>
+               declaiming about the false-heartedness of every one else; Richard is
+                  heartless—Iago—Edmund.<note>Villainous characters in <ref
+                     target="people.html#ShakespeareWilliam">Shakespeare</ref>'s plays <hi
+                     rendition="#italics">
+                     <title>Richard III</title>
+                  </hi>, <hi rendition="#italics">
+                     <title>Othello</title>
+                  </hi>, and <hi rendition="#italics">
+                     <title>King Lear</title>
+                  </hi>, respectively. </note> The tragic poet of course deals<pb n="329"/>not in
+               your good-boy characters. But neither is he, as Richard is, a hero, a man of mighty
+               strength of mind. He is, according to his own admission, as "unlike <ref
+                  target="people.html#Hercules">Hercules</ref>" as possible. He does not, as a great
+               and energetic mind does, exult under the greatness of a grand object. He is weak; so
+               miserably weak as even to complain of his own weakness. He says <quote>
                   <lg type="stanza">
                      <l>The time is out of joint—O cruel spite,</l>
-                     <l>That ever I was born to set it right.<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act I, scene v, lines
-										188-9.</note>
-                        </hi>
+                     <l>That ever I was born to set it right.<note>
+                           <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act I, scene v, lines 188-9.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>And yet he is always boasting and bragging of his own powers, and scorning every
-					one else, and he swears he will sweep to his revenge, "with wings as swift
-					as meditation or the thoughts of love."<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act I,
-							scene v, lines 29-30.</note>
-               </hi> For revenge was his love. But in truth
-					he loved it, <ref target="people.html#ShelleyPercy">Shelley</ref>, after your
-					own heart, most platonically; for his heart is too faint to win it fairly, and
-					he contents himself with laughing at himself, mocking his own conscious
-					cowardice, and venting his spleen in names, instead of doing any thing like a
-					man. So irresolute is he, that he envies the players, he envies Fortinbras,<hi rendition="#sup">
-                  <note>In <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi>, Fortinbras, heir-apparent to the
-							throne of Norway, is a character of action and resolution.</note>
-               </hi>
-               <ref target="people.html#Laertes">Laertes</ref>, any one that can do any thing.
-					Weak, irresolute, a talking sophist. Yet——O I am sick of this most
-					lame and impotent hero? </p>
+            <p>And yet he is always boasting and bragging of his own powers, and scorning every one
+               else, and he swears he will sweep to his revenge, "with wings as swift as meditation
+               or the thoughts of love."<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act I, scene v, lines 29-30.</note> For revenge was his love. But in truth
+               he loved it, <ref target="people.html#ShelleyPercy">Shelley</ref>, after your own
+               heart, most platonically; for his heart is too faint to win it fairly, and he
+               contents himself with laughing at himself, mocking his own conscious cowardice, and
+               venting his spleen in names, instead of doing any thing like a man. So irresolute is
+               he, that he envies the players, he envies Fortinbras,<note>In <hi
+                     rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi>, Fortinbras, heir-apparent to the throne of Norway, is a character of action
+                  and resolution.</note>
+               <ref target="people.html#Laertes">Laertes</ref>, any one that can do any thing. Weak,
+               irresolute, a talking sophist. Yet——O I am sick of this most lame and impotent hero? </p>
             <p>
-               <hi rendition="#italics">Shelley</hi>. And yet we recognize in him something that
-					we cannot but love and sympathise with, and a grandeur of tone which we
-					instinctively reverence. </p>
+               <hi rendition="#italics">Shelley</hi>. And yet we recognize in him something that we
+               cannot but love and sympathise with, and a grandeur of tone which we instinctively
+               reverence. </p>
             <p>
-               <hi rendition="#italics">Byron</hi>. Then <ref target="people.html#Ophelia">Ophelia</ref>, how gross are the scenes of her madness! She, too, seems as
-					inconsistent and as false a character as her faithless lover. The graceful and
-					gentle <ref target="people.html#Ophelia">Ophelia</ref> changes somehow or other
-					as shapes change in a dream, into an insane gypsy, singing no very delicate
-					songs. <ref target="people.html#Laertes">Laertes</ref> is a braggadocio kind of
-					fellow, and as for the rest of them, <ref target="people.html#Claudius">King</ref> and <ref target="people.html#Gertrude">Queen</ref>, and <ref target="people.html#Polonius">Polonius</ref>:—why do we, through five
-					long acts, interest ourselves in the fates and fortunes of such pitiful
-					beings?</p>
+               <hi rendition="#italics">Byron</hi>. Then <ref target="people.html#Ophelia"
+                  >Ophelia</ref>, how gross are the scenes of her madness! She, too, seems as
+               inconsistent and as false a character as her faithless lover. The graceful and gentle
+                  <ref target="people.html#Ophelia">Ophelia</ref> changes somehow or other as shapes
+               change in a dream, into an insane gypsy, singing no very delicate songs. <ref
+                  target="people.html#Laertes">Laertes</ref> is a braggadocio kind of fellow, and as
+               for the rest of them, <ref target="people.html#Claudius">King</ref> and <ref
+                  target="people.html#Gertrude">Queen</ref>, and <ref target="people.html#Polonius"
+                  >Polonius</ref>:—why do we, through five long acts, interest ourselves in the
+               fates and fortunes of such pitiful beings?</p>
             <p>
-               <hi rendition="#italics">Shelley</hi>. But do you not admire the buried majesty
-					of Denmark "revisiting the glimpses of the moon?"<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi>
-							Act I, scene iv, line 53.</note>
-               </hi>
+               <hi rendition="#italics">Shelley</hi>. But do you not admire the buried majesty of
+               Denmark "revisiting the glimpses of the moon?"<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act I, scene iv, line 53.</note>
             </p>
-            <p>"Alas! poor ghost!" said <ref target="people.html#ByronGeorge">Byron</ref>. "I had forgot it, but the ghost is as whimsical a person
-					as any of the others. It seems to come and go without any reason at all. Why
-					should it make all that bustle in the cellarage when it cries out
-						'Swear!'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act I, scene
-							v.</note>
-               </hi> in echo to <ref target="people.html#Hamlet">Hamlet</ref>?
-					Why should it appear so unexpectedly and uselessly in that scene with his
-					mother? But ask not why, seek not reason, or consistency, or art, in the wild
-					rhapsodies of this uncultivated genius." </p>
+            <p>"Alas! poor ghost!" said <ref target="people.html#ByronGeorge">Byron</ref>. "I had
+               forgot it, but the ghost is as whimsical a person as any of the others. It seems to
+               come and go without any reason at all. Why should it make all that bustle in the
+               cellarage when it cries out 'Swear!'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act I, scene v.</note> in echo to <ref target="people.html#Hamlet"
+                  >Hamlet</ref>? Why should it appear so unexpectedly and uselessly in that scene
+               with his mother? But ask not why, seek not reason, or consistency, or art, in the
+               wild rhapsodies of this uncultivated genius." </p>
             <p>
-               <hi rendition="#italics">Shelley</hi>. Are you then so orthodox in any thing as
-					to think <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> a man of
-					no art or thought—a prophet of poetry, possessed by a spirit
-					unintelligible to himself?</p>
+               <hi rendition="#italics">Shelley</hi>. Are you then so orthodox in any thing as to
+               think <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> a man of no art
+               or thought—a prophet of poetry, possessed by a spirit unintelligible to himself?</p>
             <p>
-               <hi rendition="#italics">Byron</hi>. My dear fellow, who can read this very play,
-					and call <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> a
-					thoughtful artist? Let us rise a little higher, and consider the whole play, and
-					the play as a whole. The story, the action, after the first prologue and
-					preparation of this ghost, remain stagnant; all the rest is stationary,
-					episodical, useless. What is Fortinbras to the usurpation of the King, or the
-					revenge of <ref target="people.html#Hamlet">Hamlet</ref>, or any part of the
-					plot? nor do <ref target="people.html#Ophelia">Ophelia</ref> or <ref target="people.html#Polonius">Polonius</ref> conduce to the main of the
-					story, or to the progress of the interest. Add <hi rendition="#italics">quantum
-						suff.</hi>
-               <hi rendition="#sup">
-                  <note>Shortened for <hi rendition="#italics">quantum sufficit</hi>- a sufficient
-							quantity.</note>
-               </hi> of courtiers, players, grave-diggers, clowns, and
-					such like stuff, ridiculous and incongruous,<pb n="330"/>and out of all keeping
-					with the high-heeled, tragic strut; useless, in truth, in relation to the play
-					considered in itself; but I suppose poor <ref target="people.html#ShakespeareWilliam">Will</ref> found sufficient use and
-					reason in the pence and praises of the gods of the galleries. And thus this
-					will-o'th-wisp, this meteor of genius, leads us poor mortals, who would
-					fain analyze his nature and detect his "airy purposes," a weary and a
-					fruitless chase; while the simpler solution of the difficulty would be, that
-						<ref target="people.html#ShakespeareWilliam">Shakspeare</ref> was a man of
-					great genius but no art, and much preferred satisfying his hostess of the
-					Mermaid with a good night's profit, to satisfying the troublesome and
-					inquisitive readers of future ages, which he dreamed not of." </p>
-            <p>This seemed to make <ref target="people.html#ShelleyPercy">Shelley</ref>
-					melancholy, and we walked in silence through the arched gateway into the public
-					road; nothing was heard but the echo of our steps. I felt a kind of sorrow and
-					mournful shame, as if the glory of man was proved indeed to be the "dream
-					of a shadow." "But," said <ref target="people.html#ShelleyPercy">Shelley</ref>, beginning again, with the kind of wedgelike, thin voice with
-					which a man brings in a solid argument that he is sure of, "What do you
-					exactly mean by a great genius without art? do you mean a man who throws out in
-					his writings some odd passages of great beauty, but leaves the whole, as a
-					whole, rude and unformed?" </p>
+               <hi rendition="#italics">Byron</hi>. My dear fellow, who can read this very play, and
+               call <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> a thoughtful
+               artist? Let us rise a little higher, and consider the whole play, and the play as a
+               whole. The story, the action, after the first prologue and preparation of this ghost,
+               remain stagnant; all the rest is stationary, episodical, useless. What is Fortinbras
+               to the usurpation of the King, or the revenge of <ref target="people.html#Hamlet"
+                  >Hamlet</ref>, or any part of the plot? nor do <ref target="people.html#Ophelia"
+                  >Ophelia</ref> or <ref target="people.html#Polonius">Polonius</ref> conduce to the
+               main of the story, or to the progress of the interest. Add <hi rendition="#italics"
+                  >quantum suff.</hi>
+               <note>Shortened for <hi rendition="#italics">quantum sufficit</hi>- a sufficient
+                  quantity.</note> of courtiers, players, grave-diggers, clowns, and such like
+               stuff, ridiculous and incongruous,<pb n="330"/>and out of all keeping with the
+               high-heeled, tragic strut; useless, in truth, in relation to the play considered in
+               itself; but I suppose poor <ref target="people.html#ShakespeareWilliam">Will</ref>
+               found sufficient use and reason in the pence and praises of the gods of the
+               galleries. And thus this will-o'th-wisp, this meteor of genius, leads us poor
+               mortals, who would fain analyze his nature and detect his "airy purposes," a weary
+               and a fruitless chase; while the simpler solution of the difficulty would be, that
+                  <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> was a man of great
+               genius but no art, and much preferred satisfying his hostess of the Mermaid with a
+               good night's profit, to satisfying the troublesome and inquisitive readers of future
+               ages, which he dreamed not of." </p>
+            <p>This seemed to make <ref target="people.html#ShelleyPercy">Shelley</ref> melancholy,
+               and we walked in silence through the arched gateway into the public road; nothing was
+               heard but the echo of our steps. I felt a kind of sorrow and mournful shame, as if
+               the glory of man was proved indeed to be the "dream of a shadow." "But," said <ref
+                  target="people.html#ShelleyPercy">Shelley</ref>, beginning again, with the kind of
+               wedgelike, thin voice with which a man brings in a solid argument that he is sure of,
+               "What do you exactly mean by a great genius without art? do you mean a man who throws
+               out in his writings some odd passages of great beauty, but leaves the whole, as a
+               whole, rude and unformed?" </p>
             <p>
                <hi rendition="#italics">Byron</hi>. Take it that way, if you will.</p>
             <p>
                <hi rendition="#italics">Shelley</hi>. Well then, what do we mean by a beautiful
-					passage or line? Is not a line, as well as your outspread heroics, or a tragedy,
-					a whole, and only as a whole, beautiful in itself? as, for instance, "How
-					sweet the moonlight sleeps upon this bank."<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi rendition="#italics">
-                        <title>The Merchant of
-									Venice</title>
-                     </hi> Act V, scene i, line 54.</note>
-               </hi> Now,
-					examining this line, we perceive that all the parts are formed in relation to
-					one another, and that it is consequently a whole. "Sleep," we see, is
-					a reduplication of the pure and gentle sound of sweet; and as the beginning of
-					the former symphonizes with the beginning <hi rendition="#italics">s</hi> of the
-					latter, so also the <hi rendition="#italics">l</hi> in moonlight prepares one
-					for the <hi rendition="#italics">l</hi> in sleep, and glides gently into it; and
-					in the conclusion, one may perceive that the word "bank" is determined
-					by the preceding words, and that the <hi rendition="#italics">b</hi> which it
-					begins with is but a deeper intonation of the two <hi rendition="#italics">p</hi>'s which come before it; sleeps upon this slope, would have been
-					effeminate; sleeps upon this rise, would have been harsh and inharmonious.</p>
+               passage or line? Is not a line, as well as your outspread heroics, or a tragedy, a
+               whole, and only as a whole, beautiful in itself? as, for instance, "How sweet the
+               moonlight sleeps upon this bank."<note>
+                  <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi
+                     rendition="#italics">
+                     <title>The Merchant of Venice</title>
+                  </hi> Act V, scene i, line 54.</note> Now, examining this line, we perceive that
+               all the parts are formed in relation to one another, and that it is consequently a
+               whole. "Sleep," we see, is a reduplication of the pure and gentle sound of sweet; and
+               as the beginning of the former symphonizes with the beginning <hi
+                  rendition="#italics">s</hi> of the latter, so also the <hi rendition="#italics"
+                  >l</hi> in moonlight prepares one for the <hi rendition="#italics">l</hi> in
+               sleep, and glides gently into it; and in the conclusion, one may perceive that the
+               word "bank" is determined by the preceding words, and that the <hi
+                  rendition="#italics">b</hi> which it begins with is but a deeper intonation of the
+               two <hi rendition="#italics">p</hi>'s which come before it; sleeps upon this slope,
+               would have been effeminate; sleeps upon this rise, would have been harsh and
+               inharmonious.</p>
             <p>
-               <hi rendition="#italics">Byron</hi>. Heavens! do you imagine, my dear <ref target="people.html#ShelleyPercy">Shelley</ref>, that <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> had any thing of
-					the kind in his head when he struck off that pretty line? If any one had told
-					him all this about your p's and s's, he would just have said,
-					"Pish!" </p>
+               <hi rendition="#italics">Byron</hi>. Heavens! do you imagine, my dear <ref
+                  target="people.html#ShelleyPercy">Shelley</ref>, that <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref> had any thing of the kind
+               in his head when he struck off that pretty line? If any one had told him all this
+               about your p's and s's, he would just have said, "Pish!" </p>
             <p>
                <hi rendition="#italics">Shelley</hi>. Well, be that as it may, are there not the
-					coincidences, I suppose you would call them, that I showed in the line? </p>
+               coincidences, I suppose you would call them, that I showed in the line? </p>
             <p>
-               <hi rendition="#italics">Byron</hi>. There are. But the beauty of the line does
-					not lie in sounds and syllables, and such mechanical contrivances, but in the
-					beautiful metaphor of the moonlight sleeping. </p>
+               <hi rendition="#italics">Byron</hi>. There are. But the beauty of the line does not
+               lie in sounds and syllables, and such mechanical contrivances, but in the beautiful
+               metaphor of the moonlight sleeping. </p>
             <p>
-               <hi rendition="#italics">Shelley</hi>. Indeed, that also is very beautiful. In
-					every single line, the poet must organize many simultaneous operations, both the
-					meaning of the words and their emphatic arrangement, and then the flow and
-					melting together of their symphony; and the whole must also be united with the
-					current of the rythm [<hi rendition="#italics">sic</hi>]. </p>
+               <hi rendition="#italics">Shelley</hi>. Indeed, that also is very beautiful. In every
+               single line, the poet must organize many simultaneous operations, both the meaning of
+               the words and their emphatic arrangement, and then the flow and melting together of
+               their symphony; and the whole must also be united with the current of the rythm [<hi
+                  rendition="#italics">sic</hi>]. </p>
             <p>
-               <hi rendition="#italics">Byron</hi>. Well, then, I'm glad I'm not a
-					poet! It must be like making out one's expenses for a journey, I think, all
-					this calculation! </p>
+               <hi rendition="#italics">Byron</hi>. Well, then, I'm glad I'm not a poet! It must be
+               like making out one's expenses for a journey, I think, all this calculation! </p>
             <p>
-               <hi rendition="#italics">Shelley</hi>. I don't say that a poet must
-					necessarily be conscious of all this, no more than a lady is conscious of every
-					graceful move-<pb n="331"/>ment. But I do say that they all depend upon reason,
-					in which they live and move, and have their being; and that he who brings them
-					out into the light of distinct consciousness, beside satisfying an instinctive
-					desire of his own nature, will be more secure and more commanding. But what
-					makes this metaphor beautiful? To represent the tranquillity of moonlight is the
-					object of the line; and the sleep is beautiful, because it gives a more intense
-					and living form of the same idea; the rythm beautifully falls in with this, and
-					just lets the cadence of the emphasis dwell upon the sound and sense of the
-					sweet word "sleep;" and the alliteration assimilates the rest of the
-					line into one harmonious symmetry. This line, therefore, is it not altogether a
-					work of art?</p>
+               <hi rendition="#italics">Shelley</hi>. I don't say that a poet must necessarily be
+               conscious of all this, no more than a lady is conscious of every graceful move-<pb
+                  n="331"/>ment. But I do say that they all depend upon reason, in which they live
+               and move, and have their being; and that he who brings them out into the light of
+               distinct consciousness, beside satisfying an instinctive desire of his own nature,
+               will be more secure and more commanding. But what makes this metaphor beautiful? To
+               represent the tranquillity of moonlight is the object of the line; and the sleep is
+               beautiful, because it gives a more intense and living form of the same idea; the
+               rythm beautifully falls in with this, and just lets the cadence of the emphasis dwell
+               upon the sound and sense of the sweet word "sleep;" and the alliteration assimilates
+               the rest of the line into one harmonious symmetry. This line, therefore, is it not
+               altogether a work of art?</p>
             <p>
-               <hi rendition="#italics">Byron</hi>. If it is, I don’t see what this has to do
-					with the discussion about <title>Hamlet</title>
+               <hi rendition="#italics">Byron</hi>. If it is, I don’t see what this has to do with
+               the discussion about <title>Hamlet</title>
             </p>
             <p>
-               <hi rendition="#italics">Shelley</hi>. Why, just this. You recollect, you said
-						<ref target="people.html#ShakespeareWilliam">Shakspeare</ref> was a great
-					genius with no art? </p>
+               <hi rendition="#italics">Shelley</hi>. Why, just this. You recollect, you said <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref> was a great genius with
+               no art? </p>
             <p>
                <hi rendition="#italics">Byron</hi>. Yes. </p>
             <p>
-               <hi rendition="#italics">Shelley</hi>. And that you meant by that, a man who
-					would strike out two or three good lines, and purple patches of poetry in his
-					work, but who leaves the whole unfinished? </p>
+               <hi rendition="#italics">Shelley</hi>. And that you meant by that, a man who would
+               strike out two or three good lines, and purple patches of poetry in his work, but who
+               leaves the whole unfinished? </p>
             <p>
                <hi rendition="#italics">Byron</hi>. Yes. </p>
             <p>
-               <hi rendition="#italics">Shelley</hi>. And we afterwards agreed that every line,
-					or part of a line, that was good, was made good by art only? </p>
+               <hi rendition="#italics">Shelley</hi>. And we afterwards agreed that every line, or
+               part of a line, that was good, was made good by art only? </p>
             <p>
                <hi rendition="#italics">Byron</hi>. Well! </p>
             <p>
-               <hi rendition="#italics">Shelley</hi>. Why, then, this is the conclusion, that a
-					man of great genius, but little art, means only, one who is able to perceive in
-					the small what his powers are not wide enough to comprehend in the greater. </p>
+               <hi rendition="#italics">Shelley</hi>. Why, then, this is the conclusion, that a man
+               of great genius, but little art, means only, one who is able to perceive in the small
+               what his powers are not wide enough to comprehend in the greater. </p>
             <p>
-               <hi rendition="#italics">Byron</hi>. Well, well—for heaven's sake,
-					what does it signify about the words, art, or genius? This does not explain
-						<title>Hamlet</title>. </p>
+               <hi rendition="#italics">Byron</hi>. Well, well—for heaven's sake, what does it
+               signify about the words, art, or genius? This does not explain <title>Hamlet</title>. </p>
             <p>
-               <hi rendition="#italics">Shelley</hi>. Only that, if what I have said is true,
-					and if <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> is one of
-					the most glorious names among mankind, and <title>Hamlet</title> one of his most
-					famous plays, it is more than probable that he was not so blind as you would
-					make him; and that there must be some point of view, if we could find it, some
-					proper distance and happy light, in which the whole would appear a beautiful
-					whole. I once attempted a kind of commentary upon this very play, and if you
-					will allow me, I will read it to you.</p>
+               <hi rendition="#italics">Shelley</hi>. Only that, if what I have said is true, and if
+                  <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> is one of the most
+               glorious names among mankind, and <title>Hamlet</title> one of his most famous plays,
+               it is more than probable that he was not so blind as you would make him; and that
+               there must be some point of view, if we could find it, some proper distance and happy
+               light, in which the whole would appear a beautiful whole. I once attempted a kind of
+               commentary upon this very play, and if you will allow me, I will read it to you.</p>
             <p>
                <ref target="people.html#ByronGeorge">Byron</ref>, though half provoked and half
-					amused, with what he thought the mad and ridiculous speculations and
-					imaginations of his friend, agreed—and, after dinner, <ref target="people.html#ShelleyPercy">Shelley</ref> read us out his view of <ref target="people.html#Hamlet">Hamlet</ref>:—</p>
-            <p>"The character of <ref target="people.html#Hamlet">Hamlet</ref> himself we
-					must first endeavour to penetrate into, and if we can understand this central
-					germ, we shall be better able to follow the poet in the conception and
-					organization of his great work, and to see how every part is what it is
-					necessarily, and bears in itself the reason of its existence and its form.</p>
-            <p>"The character of <ref target="people.html#Hamlet">Hamlet</ref>, as I take
-					it, represents the profound philosopher; or, rather, the errors to which a
-					contemplative and ideal mind is liable: for of necessity the lessons of the
-					tragic poet are like the demonstrations, <hi rendition="#italics">ex
-						absurdo</hi>,<hi rendition="#sup">
-                  <note>From absurdity or from
-							extremes.</note>
-               </hi> of <ref target="people.html#Parmenides">Parmenides</ref>, since the mind's eye is so dull and blinded, so
-					'drunk-asleep,' to use <ref target="people.html#Hamlet">Hamlet</ref>'s words, as not by intuition to recognize the beauty of
-					virtue, to prove it, as it were, by the clashing contradiction of the two
-					opposite extremes: as, if a man derived a more sensible, or rather sensual,
-					consciousness of health,<pb n="332"/>which also is indeed a gift of the same
-					Apollo who bestows upon us truth and beauty, from having been previously in
-					sickness:— there is but one demonstration of the excellence of health, and
-					that is disease. </p>
-            <p>"Purposing, therefore, to body forth a character so deeply, indeed, and
-					pre-eminently tragic, but most hard to fix and bring down into the definite
-					world of action, as it seemed to lie beyond it in the sphere of thought, silent
-					and invisible, <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>
-					invented the sublime idea of the ghost; an outward and visible sign of the
-					sudden apparitions of the mysterious world within us. The ghost of his father,
-					clad in complete steel, revisiting the glimpses of the moon, may be considered
-					as a great purpose coming suddenly upon a meditative mind. All the outward
-					circumstance and actual reality, of course, immediately become necessary as the
-					laws and conditions of the visible world into which it is translated. Now <ref target="people.html#Hamlet">Hamlet</ref> the father was a man of action: his
-					character is finely realized for us in two admirable lines, where, describing
-					the appearance of this buried majesty, Marcellus says— <quote>
+               amused, with what he thought the mad and ridiculous speculations and imaginations of
+               his friend, agreed—and, after dinner, <ref target="people.html#ShelleyPercy"
+                  >Shelley</ref> read us out his view of <ref target="people.html#Hamlet"
+                  >Hamlet</ref>:—</p>
+            <p>"The character of <ref target="people.html#Hamlet">Hamlet</ref> himself we must first
+               endeavour to penetrate into, and if we can understand this central germ, we shall be
+               better able to follow the poet in the conception and organization of his great work,
+               and to see how every part is what it is necessarily, and bears in itself the reason
+               of its existence and its form.</p>
+            <p>"The character of <ref target="people.html#Hamlet">Hamlet</ref>, as I take it,
+               represents the profound philosopher; or, rather, the errors to which a contemplative
+               and ideal mind is liable: for of necessity the lessons of the tragic poet are like
+               the demonstrations, <hi rendition="#italics">ex absurdo</hi>,<note>From absurdity or
+                  from extremes.</note> of <ref target="people.html#Parmenides">Parmenides</ref>,
+               since the mind's eye is so dull and blinded, so 'drunk-asleep,' to use <ref
+                  target="people.html#Hamlet">Hamlet</ref>'s words, as not by intuition to recognize
+               the beauty of virtue, to prove it, as it were, by the clashing contradiction of the
+               two opposite extremes: as, if a man derived a more sensible, or rather sensual,
+               consciousness of health,<pb n="332"/>which also is indeed a gift of the same Apollo
+               who bestows upon us truth and beauty, from having been previously in sickness:— there
+               is but one demonstration of the excellence of health, and that is disease. </p>
+            <p>"Purposing, therefore, to body forth a character so deeply, indeed, and pre-eminently
+               tragic, but most hard to fix and bring down into the definite world of action, as it
+               seemed to lie beyond it in the sphere of thought, silent and invisible, <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref> invented the sublime idea
+               of the ghost; an outward and visible sign of the sudden apparitions of the mysterious
+               world within us. The ghost of his father, clad in complete steel, revisiting the
+               glimpses of the moon, may be considered as a great purpose coming suddenly upon a
+               meditative mind. All the outward circumstance and actual reality, of course,
+               immediately become necessary as the laws and conditions of the visible world into
+               which it is translated. Now <ref target="people.html#Hamlet">Hamlet</ref> the father
+               was a man of action: his character is finely realized for us in two admirable lines,
+               where, describing the appearance of this buried majesty, Marcellus says— <quote>
                   <lg type="stanza">
                      <l>So frown'd he once, when in an angry parle</l>
-                     <l>He smote the sledded Polack on the ice.<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act I, scene i, lines
-										62-3.</note>
-                        </hi>
+                     <l>He smote the sledded Polack on the ice.<note>
+                           <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act I, scene i, lines 62-3.</note>
                      </l>
                   </lg>
-               </quote> But his son <ref target="people.html#Hamlet">Hamlet</ref>,
-					brooding over the remembrance of his father, has embarked upon that shoreless
-					sea of melancholy, <quote>
+               </quote> But his son <ref target="people.html#Hamlet">Hamlet</ref>, brooding over the
+               remembrance of his father, has embarked upon that shoreless sea of melancholy, <quote>
                   <lg type="stanza">
                      <l>Whose bottom none could ever sound, or find</l>
                      <l>The ooze, to show what coast his sluggish craft</l>
-                     <l>Might easiliest harbor in.<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Cymbeline</title>
-                              </hi> Act
-										IV, scene ii, lines 204-6.</note>
-                        </hi>
+                     <l>Might easiliest harbor in.<note>
+                           <hi rendition="#italics">
+                              <title>Cymbeline</title>
+                           </hi> Act IV, scene ii, lines 204-6.</note>
                      </l>
                   </lg>
-               </quote> At the time when the play opens, he is about thirty years old,
-					as we learn from the clown in the fifth act. He is by birth a German; and from
-					indulging in the inactive habits of that deep-thinking nation, he has become
-					'fat, and scant of breath,'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act V, scene ii,
-							line 287.</note>
-               </hi> as the <ref target="people.html#Gertrude">Queen</ref> says. He has passed all his life at Wittenberg, famous in <ref target="people.html#ShakespeareWilliam">Shakspeare's</ref> time, as the
-					college of Dr. Faustus;<hi rendition="#sup">
-                  <note>Johann Georg
-							Faust, a fifteenth-century German astrologer and alchemist, is widely
-							regarded as the inspiration for the character Faust or Dr. Faustus from
-							the plays of <ref target="people.html#Marlowe">Christopher Marlowe</ref>
-							and <ref target="people.html#Goethe">Johann Wolfgang von
-							Goethe</ref>.</note>
-               </hi> and we know that he had there been very much
-					with the players. At the court, he still lived a recluse life, complaining of
-					the excesses of the times, and 'walking for hours in the lobby'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act II, scene ii, lines 160-1,
-							altered.</note>
-               </hi> reading or meditating.</p>
+               </quote> At the time when the play opens, he is about thirty years old, as we learn
+               from the clown in the fifth act. He is by birth a German; and from indulging in the
+               inactive habits of that deep-thinking nation, he has become 'fat, and scant of breath,'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act V, scene ii, line 287.</note> as the <ref target="people.html#Gertrude"
+                  >Queen</ref> says. He has passed all his life at Wittenberg, famous in <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare's</ref> time, as the college of
+               Dr. Faustus;<note>Johann Georg Faust, a fifteenth-century German astrologer and
+                  alchemist, is widely regarded as the inspiration for the character Faust or Dr.
+                  Faustus from the plays of <ref target="people.html#Marlowe">Christopher
+                     Marlowe</ref> and <ref target="people.html#Goethe">Johann Wolfgang von
+                     Goethe</ref>.</note> and we know that he had there been very much with the
+               players. At the court, he still lived a recluse life, complaining of the excesses of
+               the times, and 'walking for hours in the lobby'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act II, scene ii, lines 160-1, altered.</note> reading or meditating.</p>
             <p>"The play opens with mysterious notes of preparation,— <quote>
                   <lg type="stanza">
-                     <l>And prologues to the omen'd coming-on.<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act I, scene i, line
-										123.</note>
-                        </hi>
+                     <l>And prologues to the omen'd coming-on.<note>
+                           <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act I, scene i, line 123.</note>
                      </l>
                   </lg>
-               </quote> We are far removed from all the stir of society, in the
-					solitude of the open air and darkness; only distant noises from the palace come
-					at intervals, making solitude more solitary; the soldiers of the watch begin
-					talking mysteriously about the signs of the times, 'dreaming on things to
-						come,'<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>,
-								"<title>Sonnet 107</title>" line 2.</note>
-               </hi> when the
-					ghost appears. In the next scene, we come back into the pomp and pride of the
-					world, and kings and courtiers: <ref target="people.html#Hamlet">Hamlet</ref> is
-					among them, but not of them. His very first words are most significant of his
-					character, when he exclaims, 'Seems, Madam! I know not seems.'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act I, scene ii, line
-						76.</note>
-               </hi> Observe, too, when Horatio tells him of this wonderful
-					appearance, how philosophical his questions are, as of a man trying to realize
-					completely, in his own mind, the image of the thing. The mysterious
-					contradiction between reality and ideality, one of the most profound questions
-					of ontology, is strongly shown in the beginning of this dialogue. 'My
-					father! methinks I see my father!'—'O where, my Lord?'
-					cries Horatio, starting in terror. 'In my mind's eye,
-						Horatio.'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act I, scene ii,
-							lines 184-5.</note>
-               </hi> To this subject <ref target="people.html#Hamlet">Hamlet</ref> recurs again, in the conversation
-					with his two good friends: 'There is,' says he, 'nothing <pb n="333"/>either good or bad, but thinking makes it so.'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act II, scene ii, lines
-							249-50.</note>
-               </hi> And again, in another place, where Osric asks
-					'if he knows <ref target="people.html#Laertes">Laertes</ref>?' he
-					replies, 'I dare not confess that, lest I should compare with him in
-					excellence; for to know a man well were to know oneself.'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act V, scene ii, lines
-							138-40.</note>
-               </hi>
+               </quote> We are far removed from all the stir of society, in the solitude of the open
+               air and darkness; only distant noises from the palace come at intervals, making
+               solitude more solitary; the soldiers of the watch begin talking mysteriously about
+               the signs of the times, 'dreaming on things to come,'<note>
+                  <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, "<title>Sonnet
+                     107</title>" line 2.</note> when the ghost appears. In the next scene, we come
+               back into the pomp and pride of the world, and kings and courtiers: <ref
+                  target="people.html#Hamlet">Hamlet</ref> is among them, but not of them. His very
+               first words are most significant of his character, when he exclaims, 'Seems, Madam! I
+               know not seems.'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act I, scene ii, line 76.</note> Observe, too, when Horatio tells him of
+               this wonderful appearance, how philosophical his questions are, as of a man trying to
+               realize completely, in his own mind, the image of the thing. The mysterious
+               contradiction between reality and ideality, one of the most profound questions of
+               ontology, is strongly shown in the beginning of this dialogue. 'My father! methinks I
+               see my father!'—'O where, my Lord?' cries Horatio, starting in terror. 'In my mind's
+               eye, Horatio.'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act I, scene ii, lines 184-5.</note> To this subject <ref
+                  target="people.html#Hamlet">Hamlet</ref> recurs again, in the conversation with
+               his two good friends: 'There is,' says he, 'nothing <pb n="333"/>either good or bad,
+               but thinking makes it so.'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act II, scene ii, lines 249-50.</note> And again, in another place, where
+               Osric asks 'if he knows <ref target="people.html#Laertes">Laertes</ref>?' he replies,
+               'I dare not confess that, lest I should compare with him in excellence; for to know a
+               man well were to know oneself.'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act V, scene ii, lines 138-40.</note>
             </p>
-            <p>"In the next scene of the first act, <ref target="people.html#Hamlet">Hamlet</ref>, in the midst of a long metaphysical speculation, in which he
-					had forgot all time and place, is suddenly visited by the apparition. He breaks
-					off in terror. When the ghost has faded from him, he is left overcome with his
-					feelings, and with the weight of the commanded action. He confuses his external
-					body with his inner self, as if he were nothing but a spirit; and when he says
-					that he will raze out all that he learned from experience or from thought,
-							<quote>
+            <p>"In the next scene of the first act, <ref target="people.html#Hamlet">Hamlet</ref>,
+               in the midst of a long metaphysical speculation, in which he had forgot all time and
+               place, is suddenly visited by the apparition. He breaks off in terror. When the ghost
+               has faded from him, he is left overcome with his feelings, and with the weight of the
+               commanded action. He confuses his external body with his inner self, as if he were
+               nothing but a spirit; and when he says that he will raze out all that he learned from
+               experience or from thought, <quote>
                   <lg type="stanza">
                      <l>And thy commandment all alone shall live</l>
-                     <l>Within the book and volume of my brain,<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act I, scene v, lines
-										102-3.</note>
-                        </hi>
+                     <l>Within the book and volume of my brain,<note>
+                           <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act I, scene v, lines 102-3.</note>
                      </l>
                   </lg>
                </quote>he takes out his real tablets and writes it down. </p>
-            <p>"The levity of his expressions afterwards is most true to nature; and the
-					mysterious movements of the ghost make flesh and blood shudder to think upon the
-					invisible world that is around us, and within us, and whose purposes, and silent
-					operations and recoilings, are to us most awfully unaccountable. </p>
-            <p>"But the great artist, between these two more intense scenes, has interposed
-					a gentler shade, which not only relieves and alleviates the deeper interests of
-					the tragedy, but brings out also many new views of <ref target="people.html#Hamlet">Hamlet</ref>'s character, and marks the
-					moral of the whole more deeply. She was a beautiful young creature, <quote>
+            <p>"The levity of his expressions afterwards is most true to nature; and the mysterious
+               movements of the ghost make flesh and blood shudder to think upon the invisible world
+               that is around us, and within us, and whose purposes, and silent operations and
+               recoilings, are to us most awfully unaccountable. </p>
+            <p>"But the great artist, between these two more intense scenes, has interposed a
+               gentler shade, which not only relieves and alleviates the deeper interests of the
+               tragedy, but brings out also many new views of <ref target="people.html#Hamlet"
+                  >Hamlet</ref>'s character, and marks the moral of the whole more deeply. She was a
+               beautiful young creature, <quote>
                   <lg type="stanza">
-                     <l>Forward, not permanent; sweet, not lasting,<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act I, scene iii, line
-										8.</note>
-                        </hi>
+                     <l>Forward, not permanent; sweet, not lasting,<note>
+                           <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act I, scene iii, line 8.</note>
                      </l>
                   </lg>
-               </quote> but not the woman to fix or seriously engage the mighty mind
-					of <ref target="people.html#Hamlet">Hamlet</ref>; and thus he is here also
-					perplexed with the difference between mind and body; and she, like a dew-drop
-					from a lion's mane, is shaken to air. As to old politic <ref target="people.html#Polonius">Polonius</ref>, his precepts are most amusing;
-					certainly they are the very reverse of <ref target="people.html#Hamlet">Hamlet</ref>'s ignorance of all external seemings, as they appear to
-					know nothing but appearances, and they all follow each other, after the manner
-					of his own sage simile, 'as the night the day,'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi>
-							Act I, scene iii, line 79.</note>
-               </hi> that is, without any method of
-					reason. </p>
-            <p>"The whole play is a play of plots and contrivances of all sorts, and an
-					endless extravagance of ingenuity in every thing; and the first scene of this
-					act shows us <ref target="people.html#Polonius">Polonius</ref>, who is a kind of
-					mock <ref target="people.html#Hamlet">Hamlet</ref>, or a <ref target="people.html#Hamlet">Hamlet</ref> grown old, and with nothing left of
-					'the soul of wit' but the husk and 'frothing circumstance,'
-					the limbs and outward flourishes—<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act II, scene
-							ii, lines 90-1.</note>
-               </hi>and here we see him working at his little
-					underplots with windlasses and with assays of bias— <quote>
+               </quote> but not the woman to fix or seriously engage the mighty mind of <ref
+                  target="people.html#Hamlet">Hamlet</ref>; and thus he is here also perplexed with
+               the difference between mind and body; and she, like a dew-drop from a lion's mane, is
+               shaken to air. As to old politic <ref target="people.html#Polonius">Polonius</ref>,
+               his precepts are most amusing; certainly they are the very reverse of <ref
+                  target="people.html#Hamlet">Hamlet</ref>'s ignorance of all external seemings, as
+               they appear to know nothing but appearances, and they all follow each other, after
+               the manner of his own sage simile, 'as the night the day,'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act I, scene iii, line 79.</note> that is, without any method of reason. </p>
+            <p>"The whole play is a play of plots and contrivances of all sorts, and an endless
+               extravagance of ingenuity in every thing; and the first scene of this act shows us
+                  <ref target="people.html#Polonius">Polonius</ref>, who is a kind of mock <ref
+                  target="people.html#Hamlet">Hamlet</ref>, or a <ref target="people.html#Hamlet"
+                  >Hamlet</ref> grown old, and with nothing left of 'the soul of wit' but the husk
+               and 'frothing circumstance,' the limbs and outward flourishes—<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act II, scene ii, lines 90-1.</note>and here we see him working at his
+               little underplots with windlasses and with assays of bias— <quote>
                   <lg type="stanza">
-                     <l>By indirections to find directions out.<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act II, scene i, line
-										63.</note>
-                        </hi>
+                     <l>By indirections to find directions out.<note>
+                           <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act II, scene i, line 63.</note>
                      </l>
                   </lg>
                </quote>
-               <ref target="people.html#Hamlet">Hamlet</ref>, meanwhile, in pursuance of his
-					plan of pretending madness, which, indeed, he does by indulging into excess his
-					own real feelings, and thus feeding the loneliness of his heart with exaggerated
-					solitude; led now by the instinct of his shock at the detected infamy of his
-					mother, has frightened poor <ref target="people.html#Ophelia">Ophelia</ref>, and
-					so set off all these sage old folk— <quote>
+               <ref target="people.html#Hamlet">Hamlet</ref>, meanwhile, in pursuance of his plan of
+               pretending madness, which, indeed, he does by indulging into excess his own real
+               feelings, and thus feeding the loneliness of his heart with exaggerated solitude; led
+               now by the instinct of his shock at the detected infamy of his mother, has frightened
+               poor <ref target="people.html#Ophelia">Ophelia</ref>, and so set off all these sage
+               old folk— <quote>
                   <lg type="stanza">
-                     <l>Who hunt the trail of policy so sure—<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act II, scene ii, line 47,
-										altered.</note>
-                        </hi>
+                     <l>Who hunt the trail of policy so sure—<note>
+                           <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act II, scene ii, line 47, altered.</note>
                      </l>
                   </lg>
-               </quote>on the very scent which he intended; where let us leave them in
-					full sonorous cry. </p>
+               </quote>on the very scent which he intended; where let us leave them in full sonorous
+               cry. </p>
             <pb n="334"/>
-            <p>"The next scenes are too insignificant to require any comment, excepting,
-					perhaps, <ref target="people.html#Hamlet">Hamlet</ref>'s letter. Many have
-					agreed with <ref target="people.html#Polonius">Polonius</ref> in thinking
-					'beautified' a vile phrase; but it is just of a piece with his
-					signature,—'while this machine is to him, <ref target="people.html#Hamlet">Hamlet</ref>,'—;and only shows in
-					every thing his metaphysical turn of thought. 'My soul's idol'
-					sounds ordinary, but <ref target="people.html#Hamlet">Hamlet</ref>, I do not
-					doubt, meant it more accurately.<hi rendition="#sup">
-                  <note>Quotes
-							from <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act II, scene
-							ii, lines 109-11 and 124.</note>
-               </hi>
+            <p>"The next scenes are too insignificant to require any comment, excepting, perhaps,
+                  <ref target="people.html#Hamlet">Hamlet</ref>'s letter. Many have agreed with <ref
+                  target="people.html#Polonius">Polonius</ref> in thinking 'beautified' a vile
+               phrase; but it is just of a piece with his signature,—'while this machine is to him,
+                  <ref target="people.html#Hamlet">Hamlet</ref>,'—;and only shows in every thing his
+               metaphysical turn of thought. 'My soul's idol' sounds ordinary, but <ref
+                  target="people.html#Hamlet">Hamlet</ref>, I do not doubt, meant it more
+                  accurately.<note>Quotes from <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act II, scene ii, lines 109-11 and 124.</note>
             </p>
             <p>"<ref target="people.html#RosencrantzGuildenstern">Rosencrantz and
-						Guildenstern</ref>, as Goethe well observes, are a brace of those half
-					creatures, who, taken single, would be nothing, and always take care to go in
-					couples. How deplorable would the smiling but crooked-councilling <ref target="people.html#RosencrantzGuildenstern">Rosencrantz</ref> have been
-					without the gilded and guileful Guildenstern! But here come men much more to
-						<ref target="people.html#Hamlet">Hamlet</ref>'s taste—how
-					heartily he welcomes them!—there are the players. The introduction of
-					these players is one of the most admirable and artful inventions of any in all
-					Shakspeare. They represent the whole body of literature, 'whose object is,
-					and always has been,' as <ref target="people.html#Hamlet">Hamlet</ref> with
-					his usual profundity observes, 'to hold up the mirror to nature,'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act III, scene ii, lines
-							21-2.</note>
-               </hi> and is dedicated to the same light-giving God who
-					bestows upon us the heaven-descended γνωθι
-						σεαντον.<hi rendition="#sup">
-                  <note>Know thyself.</note>
-               </hi> We have here an opportunity of
-					learning something of <ref target="people.html#Hamlet">Hamlet</ref>'s
-					taste, and we accordingly find him deeply delighted with the most lofty and
-					imaginative poetry that ever swept over a theatre in tragic pall.</p>
-            <p>"The verses themselves, as that most excellent critic <ref target="people.html#SchlegelAW">Schlegel</ref> observes, are necessarily
-					elevated two degrees above nature to modesty of nature, that they might stand
-					out from the rest, as a play within a play. They seem like a thing seen through
-					a magnifying glass; and are, indeed, one of the most extraordinary productions
-					of wondrous Shakspearian art. <ref target="people.html#Hamlet">Hamlet</ref>'s soliloquy, which crowns and concludes the act, is not
-					merely the casual product of a chance situation, but, like every work of <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>'s mind,
-					contains or implies a profound view of some important question—in the
-					present case the relative situations of the two loftiest divisions of human
-					intellect—the poet's and the philosopher's. In his next
-					soliloquy, the famous 'To be or not to be,'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act
-							III, scene i, lines 55-87. The soliloquy also includes the line on
-							"the pangs of despised love" below.</note>
-               </hi> we may observe
-					developed, in a grand style, the peculiarity of <ref target="people.html#Hamlet">Hamlet</ref>'s mind, its tendency to idealize every thing; he quite
-					forgets the reality of the case, and impersonates in one all the ills that flesh
-					is heir to— <quote>
+               Guildenstern</ref>, as Goethe well observes, are a brace of those half creatures,
+               who, taken single, would be nothing, and always take care to go in couples. How
+               deplorable would the smiling but crooked-councilling <ref
+                  target="people.html#RosencrantzGuildenstern">Rosencrantz</ref> have been without
+               the gilded and guileful Guildenstern! But here come men much more to <ref
+                  target="people.html#Hamlet">Hamlet</ref>'s taste—how heartily he welcomes
+               them!—there are the players. The introduction of these players is one of the most
+               admirable and artful inventions of any in all Shakspeare. They represent the whole
+               body of literature, 'whose object is, and always has been,' as <ref
+                  target="people.html#Hamlet">Hamlet</ref> with his usual profundity observes, 'to
+               hold up the mirror to nature,'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act III, scene ii, lines 21-2.</note> and is dedicated to the same
+               light-giving God who bestows upon us the heaven-descended γνωθι σεαντον.<note>Know
+                  thyself.</note> We have here an opportunity of learning something of <ref
+                  target="people.html#Hamlet">Hamlet</ref>'s taste, and we accordingly find him
+               deeply delighted with the most lofty and imaginative poetry that ever swept over a
+               theatre in tragic pall.</p>
+            <p>"The verses themselves, as that most excellent critic <ref
+                  target="people.html#SchlegelAW">Schlegel</ref> observes, are necessarily elevated
+               two degrees above nature to modesty of nature, that they might stand out from the
+               rest, as a play within a play. They seem like a thing seen through a magnifying
+               glass; and are, indeed, one of the most extraordinary productions of wondrous
+               Shakspearian art. <ref target="people.html#Hamlet">Hamlet</ref>'s soliloquy, which
+               crowns and concludes the act, is not merely the casual product of a chance situation,
+               but, like every work of <ref target="people.html#ShakespeareWilliam"
+               >Shakspeare</ref>'s mind, contains or implies a profound view of some important
+               question—in the present case the relative situations of the two loftiest divisions of
+               human intellect—the poet's and the philosopher's. In his next soliloquy, the famous
+               'To be or not to be,'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act III, scene i, lines 55-87. The soliloquy also includes the line on "the
+                  pangs of despised love" below.</note> we may observe developed, in a grand style,
+               the peculiarity of <ref target="people.html#Hamlet">Hamlet</ref>'s mind, its tendency
+               to idealize every thing; he quite forgets the reality of the case, and impersonates
+               in one all the ills that flesh is heir to— <quote>
                   <lg type="stanza">
-                     <l>The pangs of despised love, the law's delay,
-								&amp;c.</l>
+                     <l>The pangs of despised love, the law's delay, &amp;c.</l>
                   </lg>
                </quote>
             </p>
-            <p>"And this we must bear in mind against the scene at <ref target="people.html#Ophelia">Ophelia</ref>'s grave, for <ref target="people.html#Hamlet">Hamlet</ref> was not selfish. </p>
-            <p>"But he was disposed to idealize to excess. What a deep feeling both of his
-					weakness, and yet the grandeur of his strength is conveyed in his address to his
-					friend— <quote>
+            <p>"And this we must bear in mind against the scene at <ref target="people.html#Ophelia"
+                  >Ophelia</ref>'s grave, for <ref target="people.html#Hamlet">Hamlet</ref> was not
+               selfish. </p>
+            <p>"But he was disposed to idealize to excess. What a deep feeling both of his weakness,
+               and yet the grandeur of his strength is conveyed in his address to his friend— <quote>
                   <lg type="stanza">
-                     <l>Horatio, thou art e'en as <hi rendition="#italics">just</hi> a
-								man,</l>
-                     <l>As e'er my conversation cop'd withal.<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act III, scene ii, lines
-										54-5.</note>
-                        </hi>
+                     <l>Horatio, thou art e'en as <hi rendition="#italics">just</hi> a man,</l>
+                     <l>As e'er my conversation cop'd withal.<note>
+                           <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act III, scene ii, lines 54-5.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>After the play, he is much in the same state of uncertainty and vacillation in
-					which the ghost left him; he recoils and swerves from action; and it is an
-					instinctive feeling of this sort that makes him impatient even of the
-					necessities of versification,—any thing necessary he feels a disposition
-					to resist or avoid. <quote>
+            <p>After the play, he is much in the same state of uncertainty and vacillation in which
+               the ghost left him; he recoils and swerves from action; and it is an instinctive
+               feeling of this sort that makes him impatient even of the necessities of
+               versification,—any thing necessary he feels a disposition to resist or avoid. <quote>
                   <lg type="stanza">
                      <l>For thou dost know, O Damon dear,</l>
                      <l rendition="#indent1">This realm dismantled was</l>
                      <l>Of Jove himself, and now reigns here,</l>
-                     <l rendition="#indent1">A very, very—peacock.<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act III, scene ii, lines
-										281-4. Horatio's comment on rhyming, below, follows as
-										the next line.</note>
-                        </hi>
+                     <l rendition="#indent1">A very, very—peacock.<note>
+                           <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act III, scene ii, lines 281-4. Horatio's comment on rhyming,
+                           below, follows as the next line.</note>
                      </l>
                   </lg>
                </quote>
             </p>
             <pb n="335"/>
-            <p>"'You might have rhymed,' says the man of just sense, Horatio. But
-					there is the same lame and impotent conclusion in every thing he does. Soon
-					after this, when he tries to lash himself into exertion, reminding himself of
-					the ghostly time of night, and graves giving up their dead, and vaunting as
-					extravagantly as falsely, 'Now could I drink hot blood' &amp;c.<hi rendition="#sup">
-                  <note>The entire speech occurs in <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act III, scene ii,
-							lines 388-99.</note>
-               </hi> his considerations about killing his mother,
-					and determinations <hi rendition="#italics">not</hi> to do it, are but a bitter
-					though unconscious mockery of himself, and just an antistrophe to his curious
-					refinements on the murder of the king. In both cases it is but the excess of an
-					over ingenious intellect, <quote>
+            <p>"'You might have rhymed,' says the man of just sense, Horatio. But there is the same
+               lame and impotent conclusion in every thing he does. Soon after this, when he tries
+               to lash himself into exertion, reminding himself of the ghostly time of night, and
+               graves giving up their dead, and vaunting as extravagantly as falsely, 'Now could I
+               drink hot blood' &amp;c.<note>The entire speech occurs in <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act III, scene ii, lines 388-99.</note> his considerations about killing his
+               mother, and determinations <hi rendition="#italics">not</hi> to do it, are but a
+               bitter though unconscious mockery of himself, and just an antistrophe to his curious
+               refinements on the murder of the king. In both cases it is but the excess of an over
+               ingenious intellect, <quote>
                   <lg type="stanza">
-                     <l>With thinking too precisely on the event.<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act IV, scene iv, line
-										41.</note>
-                        </hi>
+                     <l>With thinking too precisely on the event.<note>
+                           <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act IV, scene iv, line 41.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>"There is a deep meaning signified in the next scene with his mother, where,
-					in the midst of his declamation, gazing upon the picture, the reality suddenly
-					comes. Always his profound meditations seem without beginning or end, while he
-					wanders in a wilderness of thought, and enterprises of great moment, while he is
-					declaiming with the player, or tracing the dust of imperial Cæsar to a
-					bunghole, or flattering his own weakness with proving to himself the shallowness
-					of all the actions and the actors of life, become 'sicklied o'er with
-					this pale cast, and lose the name of action.'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act
-							III, scene i, lines 84-7, altered.</note>
-               </hi> Whenever he does any
-					thing, he seems astonished at himself, and calls it rashness. <quote>
+            <p>"There is a deep meaning signified in the next scene with his mother, where, in the
+               midst of his declamation, gazing upon the picture, the reality suddenly comes. Always
+               his profound meditations seem without beginning or end, while he wanders in a
+               wilderness of thought, and enterprises of great moment, while he is declaiming with
+               the player, or tracing the dust of imperial Cæsar to a bunghole, or flattering his
+               own weakness with proving to himself the shallowness of all the actions and the
+               actors of life, become 'sicklied o'er with this pale cast, and lose the name of action.'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act III, scene i, lines 84-7, altered.</note> Whenever he does any thing, he
+               seems astonished at himself, and calls it rashness. <quote>
                   <lg type="stanza">
-                     <l>Rashly, and praised be rashness for it—<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act V, scene ii, lines
-										6-7.</note>
-                        </hi>
+                     <l>Rashly, and praised be rashness for it—<note>
+                           <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act V, scene ii, lines 6-7.</note>
                      </l>
                   </lg>
-               </quote>as he tells his friend Horatio, he set about his deliverance
-					from the false ambassadors. In the next lines he gives, in my opinion, the moral
-					of the whole: <quote>
+               </quote>as he tells his friend Horatio, he set about his deliverance from the false
+               ambassadors. In the next lines he gives, in my opinion, the moral of the whole: <quote>
                   <lg type="stanza">
                      <l rendition="#indent12">Let us know</l>
                      <l>There's a divinity that shapes our ends,</l>
-                     <l>Rough hew them how we will.<hi rendition="#sup">
-                           <note>With Horatio's response in the next line, <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act V,
-										scene ii, lines 9-11.</note>
-                        </hi>
+                     <l>Rough hew them how we will.<note>With Horatio's response in the next line,
+                              <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act V, scene ii, lines 9-11.</note>
                      </l>
                   </lg>
                </quote>
             </p>
             <p>"'That is most certain,' Horatio replies.</p>
-            <p>"How different is <ref target="people.html#Laertes">Laertes</ref>. <hi rendition="#italics">His</hi> father also has been murdered—but he at
-					once collects the people, storms the palace, compels the king, at his peril, to
-					account for the murder. Nothing, he cries, shall stop him, but 'my will,
-					not all the world's.'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act IV, scene v,
-							lines 138.</note>
-               </hi> His will he follows impetuously; he looks not to
-					right or left, with "considering too curiously."<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi>
-							Act V, scene i, line 206.</note>
-               </hi> But he errs on the other side. He
-					raises the mob—he would, he says, of <ref target="people.html#Hamlet">Hamlet</ref>, 'cut his throat in church.'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi>
-							Act IV, scene vii, line 126.</note>
-               </hi> He does kill him with a
-					treacherous poisoned rapier. His thoughts are so fixed upon his end, that he
-					sees not any thing between. </p>
-            <p>"Now such a rash gunpowder spark as this <ref target="people.html#Laertes">Laertes</ref>, <ref target="people.html#Hamlet">Hamlet</ref> must at once
-					have envied and despised. Well, they meet at the grave of <ref target="people.html#Ophelia">Ophelia</ref>—for the simple young
-					creature, half by accident, and half on purpose, in her half-witted state,
-					drowned herself. The simplicity of her girlish youthfulness, and the manner in
-					which <ref target="people.html#Hamlet">Hamlet</ref> had wooed her, became
-					sufficiently evident in her ballads; her character was necessarily what it
-					is—for in a play so full of thought, and the deepest interests of the
-					soul, a more strong passion would have been a note, 'harsh, and of
-					dissonant mood.'<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#MiltonJohn">Milton</ref>, <hi rendition="#italics">
-                        <title>Samson Agonistes</title>
-                     </hi> line
-							662.</note>
-               </hi>
+            <p>"How different is <ref target="people.html#Laertes">Laertes</ref>. <hi
+                  rendition="#italics">His</hi> father also has been murdered—but he at once
+               collects the people, storms the palace, compels the king, at his peril, to account
+               for the murder. Nothing, he cries, shall stop him, but 'my will, not all the world's.'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act IV, scene v, lines 138.</note> His will he follows impetuously; he looks
+               not to right or left, with "considering too curiously."<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act V, scene i, line 206.</note> But he errs on the other side. He raises
+               the mob—he would, he says, of <ref target="people.html#Hamlet">Hamlet</ref>, 'cut his
+               throat in church.'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act IV, scene vii, line 126.</note> He does kill him with a treacherous
+               poisoned rapier. His thoughts are so fixed upon his end, that he sees not any thing
+               between. </p>
+            <p>"Now such a rash gunpowder spark as this <ref target="people.html#Laertes"
+                  >Laertes</ref>, <ref target="people.html#Hamlet">Hamlet</ref> must at once have
+               envied and despised. Well, they meet at the grave of <ref
+                  target="people.html#Ophelia">Ophelia</ref>—for the simple young creature, half by
+               accident, and half on purpose, in her half-witted state, drowned herself. The
+               simplicity of her girlish youthfulness, and the manner in which <ref
+                  target="people.html#Hamlet">Hamlet</ref> had wooed her, became sufficiently
+               evident in her ballads; her character was necessarily what it is—for in a play so
+               full of thought, and the deepest interests of the soul, a more strong passion would
+               have been a note, 'harsh, and of dissonant mood.'<note>
+                  <ref target="people.html#MiltonJohn">Milton</ref>, <hi rendition="#italics">
+                     <title>Samson Agonistes</title>
+                  </hi> line 662.</note>
             </p>
-            <p>"<ref target="people.html#Hamlet">Hamlet</ref>, when he discovers her death,
-					only says, 'What! the fair <ref target="people.html#Ophelia">Ophelia</ref>!'<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>Hamlet</title>
-                     </hi> Act V, scene i, line
-							242.</note>
-               </hi> But when this <ref target="people.html#Laertes">Laertes</ref>, who always so outran his thoughts with an excess of
-					hair-brained action, leaps into the grave, and declaims 'with such an
-					emphasis and phrase of sorrow,' <ref target="people.html#Hamlet">Hamlet</ref> is thrown into a towering passion, and conscious of the
-					weakness and<pb n="336"/>vagueness of his own feelings on the occasion, he cries
-					out, in the bitterness of his contempt, both for <ref target="people.html#Laertes">Laertes</ref> and himself <quote>
+            <p>"<ref target="people.html#Hamlet">Hamlet</ref>, when he discovers her death, only
+               says, 'What! the fair <ref target="people.html#Ophelia">Ophelia</ref>!'<note>
+                  <hi rendition="#italics">
+                     <title>Hamlet</title>
+                  </hi> Act V, scene i, line 242.</note> But when this <ref
+                  target="people.html#Laertes">Laertes</ref>, who always so outran his thoughts with
+               an excess of hair-brained action, leaps into the grave, and declaims 'with such an
+               emphasis and phrase of sorrow,' <ref target="people.html#Hamlet">Hamlet</ref> is
+               thrown into a towering passion, and conscious of the weakness and<pb n="336"
+               />vagueness of his own feelings on the occasion, he cries out, in the bitterness of
+               his contempt, both for <ref target="people.html#Laertes">Laertes</ref> and himself <quote>
                   <lg type="stanza">
                      <l rendition="#indent6">——Show me what thou'lt do!</l>
-                     <l>Woul't weep, woul't fight, woul't fast, woul't
-								tear thyself,</l>
-                     <l>Woul't drink up esel? eat a crocodile?'<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act V, scene i, lines
-										274-6.</note>
-                        </hi>
+                     <l>Woul't weep, woul't fight, woul't fast, woul't tear thyself,</l>
+                     <l>Woul't drink up esel? eat a crocodile?'<note>
+                           <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act V, scene i, lines 274-6.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>"What falseness is all this sorrow of yours!— I could do just as much,
-					Come, what shall we do?—weep, or fast, or tear our hair, or drink vinegar,
-					or eat crocodiles to make ourselves shed false tears! &amp;c. But <ref target="people.html#Hamlet">Hamlet</ref> is ever a perfect gentleman, and
-					his apology to <ref target="people.html#Laertes">Laertes</ref> is one of those
-					gentle mellowing and softenings of a strong outline which <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> so well understood.
-					With regard to his alleged cruelty, this appearance arose from his philosophical
-					habit of seeing every thing as laws, or necessary consequences.</p>
-            <p>As <ref target="people.html#Spinoza">Spinoza</ref> says of himself, 'humanas
-					actions non ridere, non lugere, neque detestari, sed
-					intelligere'—'neither to laugh at, or bewail, or detest the
-					actions of men; but to understand them.'<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#Spinoza">Spinoza</ref>, <hi rendition="#italics">
-                        <title>Tractatus Politicus</title>
-                     </hi> (1677)
-							Ch I, sect 4.</note>
-               </hi> He allowed the two false courtiers no shriving
-					time, because it was necessary for his plot—if they should be heard, all
-					would be found out—and he says, 'they come not near my
-					conscience,' viewing it as a general and necessary case. <quote>
+            <p>"What falseness is all this sorrow of yours!— I could do just as much, Come, what
+               shall we do?—weep, or fast, or tear our hair, or drink vinegar, or eat crocodiles to
+               make ourselves shed false tears! &amp;c. But <ref target="people.html#Hamlet"
+                  >Hamlet</ref> is ever a perfect gentleman, and his apology to <ref
+                  target="people.html#Laertes">Laertes</ref> is one of those gentle mellowing and
+               softenings of a strong outline which <ref target="people.html#ShakespeareWilliam"
+                  >Shakspeare</ref> so well understood. With regard to his alleged cruelty, this
+               appearance arose from his philosophical habit of seeing every thing as laws, or
+               necessary consequences.</p>
+            <p>As <ref target="people.html#Spinoza">Spinoza</ref> says of himself, 'humanas actions
+               non ridere, non lugere, neque detestari, sed intelligere'—'neither to laugh at, or
+               bewail, or detest the actions of men; but to understand them.'<note>
+                  <ref target="people.html#Spinoza">Spinoza</ref>, <hi rendition="#italics">
+                     <title>Tractatus Politicus</title>
+                  </hi> (1677) Ch I, sect 4.</note> He allowed the two false courtiers no shriving
+               time, because it was necessary for his plot—if they should be heard, all would be
+               found out—and he says, 'they come not near my conscience,' viewing it as a general
+               and necessary case. <quote>
                   <lg type="stanza">
                      <l>'Tis dangerous when the baser nature comes,</l>
                      <l>Between the pass and fell incensed points</l>
-                     <l>Of mighty opposites.<hi rendition="#sup">
-                           <note>
-                              <hi rendition="#italics">
-                                 <title>Hamlet</title>
-                              </hi> Act V, scene ii, lines
-								58-62.</note>
-                        </hi>
+                     <l>Of mighty opposites.<note>
+                           <hi rendition="#italics">
+                              <title>Hamlet</title>
+                           </hi> Act V, scene ii, lines 58-62.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>"What noble lines! But we have passed a hundred admirable and significant
-					groups and views; we have missed the clown and the gravedigger. In <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> 'one may suck
-					matter out of every thing, as a weasel sucks eggs,' as Jacques says.<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">
-                        <title>As You Like It</title>
-                     </hi> Act II, scene v, lines
-							12-13, altered.</note>
-               </hi> These
-					clowns are very like their betters, they are not thinking of the thing they are
-					about; but make themselves happy in the exercise of an endless ingenuity.</p>
+            <p>"What noble lines! But we have passed a hundred admirable and significant groups and
+               views; we have missed the clown and the gravedigger. In <ref
+                  target="people.html#ShakespeareWilliam">Shakspeare</ref> 'one may suck matter out
+               of every thing, as a weasel sucks eggs,' as Jacques says.<note>
+                  <hi rendition="#italics">
+                     <title>As You Like It</title>
+                  </hi> Act II, scene v, lines 12-13, altered.</note> These clowns are very like
+               their betters, they are not thinking of the thing they are about; but make themselves
+               happy in the exercise of an endless ingenuity.</p>
             <p>"Fortinbras shuts the scene. He surrounds the play as with a frame. </p>
-            <p>"It appears, therefore, that <title>Hamlet</title> is, in itself, a complete
-					and reasonable whole, composed in an harmonious proportion of difference and
-					similitude, into one expressive unity." </p>
+            <p>"It appears, therefore, that <title>Hamlet</title> is, in itself, a complete and
+               reasonable whole, composed in an harmonious proportion of difference and similitude,
+               into one expressive unity." </p>
             <p>
-               <ref target="people.html#ShelleyPercy">Shelley</ref>, as he finished, looked up,
-					and found <ref target="people.html#ByronGeorge">Lord Byron</ref> fast
-					asleep.</p>
+               <ref target="people.html#ShelleyPercy">Shelley</ref>, as he finished, looked up, and
+               found <ref target="people.html#ByronGeorge">Lord Byron</ref> fast asleep.</p>
          </div>
       </body>
    </text>

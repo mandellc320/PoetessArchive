@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Johnson</title>
-            <title type="sub" level="m">The British Novelists</title>
+            <title type="sub">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -61,28 +61,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+        				placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p>
                <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+        				such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -560,7 +559,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="8">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below
+						but starting with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -569,11 +576,11 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#LM" when="20200611" n="7">
+         <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy</item>
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -588,7 +595,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers</item>
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
          <change who="#MW" when="2016-09-15" n="4">
@@ -631,17 +638,15 @@
                         <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
                      </name>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
-                     <ref target="people.html#JohnsonSamuel">JOHNSON</ref>.<hi rendition="#sup">
-                        <note>
-                           <title level="m">
-                              <hi rendition="#italics">The British Novelists;
+                     <ref target="people.html#JohnsonSamuel">JOHNSON</ref>.<note>
+                        <title level="m">
+                           <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
                                             by <ref target="people.html#BarbauldMrs">Mrs.
                                                 Barbauld</ref>
-                              </hi>
-                           </title>, 50 Vols. (London:
+                           </hi>
+                        </title>, 50 Vols. (London:
                                     Printed for F.C. and J. Rivington; W. Otridge and Son; A.
                                     Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
                                     Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
@@ -654,7 +659,6 @@
                                     Sherwood and Co.; J. Miller; W. Creech, Edinburgh; and Wilson
                                     and Son, York, 1810), 26: i-viii. Justina Violette, Victoria
                                     Wynn, and Mary A. Waters co-edited this essay for <hi rendition="#italics">The Criticism Archive</hi>. </note>
-                     </hi>
                   </title>
                </bibl>
             </head>
@@ -685,7 +689,8 @@
                     mountains, and only to be entered through a cavern closed up with massy gates of
                     iron, which were thrown <lb/>
                <fw type="vol">
-                  <hi rendition="#smcaps">vol. xxvi</hi>.</fw>
+                  <hi rendition="#smcaps">vol. xxvi.</hi>
+               </fw>
                <fw type="sig">a</fw>
                <pb n="ii"/>open only once a year, on the annual visit of the emperor. At that
                     time artists and teachers of every kind, capable of contributing to the
@@ -729,8 +734,7 @@
                     for <hi rendition="#italics">him</hi>. Except he is indolent or fastidious, he
                     will seldom hesitate upon his choice of life. The same position holds good with
                     regard to duty. We may bewilder ourselves in abstract questions of general good,
-                    or puzzle our moral sense with imagi-<lb/>
-               <fw type="sig">a2</fw>
+                    or puzzle our moral sense with imagi-<lb/><fw type="sig">a 2</fw>
                <pb n="iv"/>nary cases of conscience; but it is
                     generally obvious enough to every man what duty dictates to him, in each
                     particular case, as it comes before him.</p>
@@ -800,8 +804,7 @@
                     imitation, of the Eastern style, a style which has been commonly adopted in
                             <title>
                   <hi rendition="#italics">Almoran and Hamet</hi>
-               </title>,
-                  <note>Written by <ref target="people.html#HawkesworthJohn">John Hawkesworth</ref> and
+               </title>,<note>Written by <ref target="people.html#HawkesworthJohn">John Hawkesworth</ref> and
                             published in 1761. It appears in the same volume of <title>
                      <hi rendition="#italics">The British Novelists</hi>
                   </title> as does
@@ -810,10 +813,8 @@
                   </title>.</note>
                <title>
                   <hi rendition="#italics">Tales of the Genii</hi>
-               </title>,
-                  <note>Written by <ref target="people.html#RidleyJames">James Ridley</ref> and published
+               </title>,<note>Written by <ref target="people.html#RidleyJames">James Ridley</ref> and published
                             under the pseudonym "Sir Charles Morell" in 1764.</note>
-               
                     and other works, in which the costume is taken from nations whose remoteness
                     destroys the idea of colloquial familiarity. We silence our reason by the laws
                     we have imposed upon our fancy, and are content that both Nekayah and her female
@@ -867,15 +868,13 @@
                </title>, and <title>
                   <hi rendition="#italics">Vision of
                             Theodore</hi>
-               </title>,
-                  <note>"<title>The Vision of
+               </title>,<note>"<title>The Vision of
                             Theodore, the Hermit of Teneriffe</title>" appeared in <title>
                      <hi rendition="#italics">The Preceptor: Containing a Course of General
                                 Education</hi>
                   </title>, a collection assembled and published by
                         bookseller <ref target="people.html#DodsleyRobert">Robert Dodsley</ref> in
-                                1748.</note>
-                must give him an honourable place among those writers who deck
+                                1748.</note> must give him an honourable place among those writers who deck
                     philosophy with the ornamented diction and the flowers of fancy.</p>
             <p>It should not be forgotten to be noticed in praise of <title>
                   <hi rendition="#italics">Rasselas</hi>

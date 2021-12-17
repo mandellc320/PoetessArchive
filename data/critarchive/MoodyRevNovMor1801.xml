@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Art. 19. Novelle Morali.</title>
-            <title type="sub" level="j">The Monthly Review</title>
+            <title type="sub">The Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -31,9 +31,8 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. 19. Novelle Morali, di G. Polidori,
-                            Maestro di Lingua Italiano. Small 12mo. Two Parts. 4s. sewed. Wallis,
-                            &amp;c. </title>
+                  <title type="main" level="a">Art. 19. Novelle Morali, di G. Polidori, Maestro di
+                     Lingua Italiano. Small 12mo. Two Parts. 4s. sewed. Wallis, &amp;c. </title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -51,28 +50,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -86,15 +84,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -337,11 +344,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -471,7 +479,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -550,7 +558,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="4">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -585,7 +601,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="essay" org="uniform" sample="complete" part="N">
+         <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
@@ -593,49 +609,42 @@
                         <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title>Art. 19. <hi rendition="#italics">Novelle Morali, di <ref target="people.html#PolidoriGaetano">G. Polidori</ref>, Maestro
-                                di Lingua Italiano.</hi> Small 12mo. Two Parts. 4s. sewed. Wallis,
-                                &amp;c.<hi rendition="#sup">
-                        <note>
+                  <title>Art. 19. <hi rendition="#italics">Novelle Morali, di <ref
+                           target="people.html#PolidoriGaetano">G. Polidori</ref>, Maestro di Lingua
+                        Italiano.</hi> Small 12mo. Two Parts. 4s. sewed. Wallis, &amp;c.<note>
+                        <title>
+                           <hi rendition="#italics">The Monthly Review</hi>
+                        </title>, vol. 34, second series, April 1801, p. 426. Benjamin Nangle
+                        identifies <ref target="people.html#MoodyElizabeth">
+                           <name>Elizabeth Moody</name>
+                        </ref> as the author of this review from an editor's marked copy of <hi
+                           rendition="#italics">
                            <title>
-                              <hi rendition="#italics">The Monthly Review</hi>
-                           </title>,
-                                    vol. 34, second series, April 1801, p. 426. Benjamin Nangle
-                                    identifies <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's marked
-                                    copy of <hi rend="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-                                                Review</ref>
-                              </title>
-                           </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-                                            Series, 1790-1815: Indexes of Contributors and
-                                            Articles</title>
-                           </hi>, Clarendon Press, 1955. Jonathan
-                                    Pinkerton and Mary A. Waters prepared this edition of the
-                                    article for <hi rendition="#italics">The Criticism
-                                    Archive</hi>.</note>
-                     </hi>
+                              <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                           </title>
+                        </hi>. See Nangle, <hi rendition="#italics">
+                           <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                              Contributors and Articles</title>
+                        </hi>, Clarendon Press, 1955. Jonathan Pinkerton and Mary A. Waters prepared
+                        this edition of the article for <hi rendition="#italics">The Criticism
+                           Archive</hi>.</note>
                   </title>
                </bibl>
             </head>
-            <p>These two small volumes contain pretty little Italian stories, ingeniously
-                    calculated to answer the purpose for which <ref target="people.html#PolidoriGaetano">the author</ref> tells us they were
-                    written; namely, that of conveying instruction in the Italian language through
-                    the medium of a moral narrative. In his Dedication, he asserts this to be his
-                    plan:</p>
+            <p>These two small volumes contain pretty little Italian stories, ingeniously calculated
+               to answer the purpose for which <ref target="people.html#PolidoriGaetano">the
+                  author</ref> tells us they were written; namely, that of conveying instruction in
+               the Italian language through the medium of a moral narrative. In his Dedication, he
+               asserts this to be his plan:</p>
             <p>
-               <quote>The end, (he says) which I propose to myself, is to combine instruction
-                        with morality; and at the same time that I am teaching the Italian language,
-                        to give such examples of virtue rewarded and vice punished, as may lead the
-                        minds of my young scholars to the knowlege of morals on which the happiness
-                        of their lives will in a great measure depend.</quote>
+               <quote>The end, (he says) which I propose to myself, is to combine instruction with
+                  morality; and at the same time that I am teaching the Italian language, to give
+                  such examples of virtue rewarded and vice punished, as may lead the minds of my
+                  young scholars to the knowlege of morals on which the happiness of their lives
+                  will in a great measure depend.</quote>
             </p>
             <p>The stories are very amusing, and the comic and the grave have their several
-                    merits.</p>
+               merits.</p>
          </div>
       </body>
    </text>

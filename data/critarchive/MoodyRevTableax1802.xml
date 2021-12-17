@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Review of Tableaux de Famille by Fontaine</title>
-            <title type="sub" level="j">The Monthly Review</title>
+            <title type="sub">The Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -53,28 +53,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -88,15 +87,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -339,11 +347,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -473,7 +482,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -551,7 +560,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="6">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -607,41 +624,39 @@
                         <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
-                     <lb/>
                      <hi rendition="#smcaps">Art</hi>. XVI. <hi rendition="#italics">Tableaux de
                         Famille</hi>, &amp;c. <hi rendition="#italics">i.e.</hi> Family Pictures, or
-                     the Journal of Charles Engleman. Translated from the German of <hi rendition="#smcaps">
+                     the Journal of Charles Engleman. Translated from the German of <hi
+                        rendition="#smcaps">
                         <ref target="people.html#LafontaineAugust">Augustus de la Fontaine</ref>
-                     </hi>, by the Author of <title>Caroline of Litchfield</title> (<ref target="people.html#MontolieuIsabelle">Madame <hi rendition="#italics">de
+                     </hi>, by the Author of <title>Caroline of Litchfield</title> (<ref
+                        target="people.html#MontolieuIsabelle">Madame <hi rendition="#italics">de
                            Crousaz</hi>
                      </ref>). <hi rendition="smcaps">12</hi>mo. 2 Vols. Paris. 1801. Imported by de
-                     Boffe, London.<hi rendition="#sup">
-                        <note>This review article appeared in the Foreign Appendix to
-                              <hi rendition="#italics">
-                              <title>The Monthly Review</title>
-                           </hi>, second series, vol. 37, Foreign Appendix, 1802, pp. 531-533. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's
-                           marked copy of <hi rend="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-                              Review</ref>
-                              </title>
-                           </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-                                    Series, 1790-1815: Indexes of Contributors and
-                                    Articles</title>
-                           </hi>, Clarendon Press, 1955. This edition of the
-                           article was produced by Emma Wiley and Mary A. Waters. </note>
-                     </hi>
+                     Boffe, London.<note>This review article appeared in the Foreign Appendix to <hi
+                           rendition="#italics">
+                           <title>The Monthly Review</title>
+                        </hi>, second series, vol. 37, Foreign Appendix, 1802, pp. 531-533. Benjamin
+                        Nangle identifies <ref target="people.html#MoodyElizabeth">
+                           <name>Elizabeth Moody</name>
+                        </ref> as the author of this review from an editor's marked copy of <hi
+                           rendition="#italics">
+                           <title>
+                              <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                           </title>
+                        </hi>. See Nangle, <hi rendition="#italics">
+                           <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                              Contributors and Articles</title>
+                        </hi>, Clarendon Press, 1955. This edition of the article was produced by
+                        Emma Wiley and Mary A. Waters. </note>
                   </title>
                </bibl>
             </head>
             <p rendition="#noindent">
                <hi rendition="#largest">I</hi>
-               <hi rendition="#smcaps">n</hi> the preface to this work, Madame <hi rendition="#italics">Crousaz</hi> gives an animated and ingenious description of
+               <hi rendition="#smcaps">n</hi> the preface to this work, Madame <hi
+                  rendition="#italics">Crousaz</hi> gives an animated and ingenious description of
                that difficult though humble province of literature,—translation; and she thus
                replies to a friend, who compliments her on her peculiar excellence in this line:
                   <quote>Yet I know nothing so ungrateful and thankless as the task of the
@@ -666,8 +681,7 @@
                   <l>Like the lyre, at second hand,</l>
                   <l>Stript of all it proud command,</l>
                   <l rendition="#indent2">Torn from Genius and the Muse.</l>
-                  <lb/>
-                  <fw type="sig" rendition="#center">M m 2</fw>
+                  <lb/><fw type="sig">M m 2</fw>
                   <pb n="532"/>
                   <l>So labor'd <hi rendition="#italics">versions</hi> oft efface</l>
                   <l>All the poet's fleeting grace,</l>
@@ -677,26 +691,26 @@
                   <l>Which its beauteous form required.</l>
                </lg>
             </quote>
-            <p>We have before observed<hi rendition="#sup">
-                  <note>See M.R. Vol. xxiv. N.S. p. 565, &amp;c. [Moody's note].</note>
-               </hi>, respecting the writing of M. <hi rendition="#smcaps">De la Fontaine</hi>, that
-               one of his qualities is to rise in the reader's estimation by gradual and progressive
-               advances; and this is surely preferable to the art of sinking, in which so many are
-               equal proficients. The first chapter of the volume before us is intitled, by the
-               journalist, 'My Commision of Biography,' and contains a whimsical relation of the
-               circumstances whence he derived the commission, with the manner of his being invested
-               with it. It is a painting of the Shandean school, and not a bad copy of the mock
-               solemnity of Sterne's affected pathos:
-            <quote>This infant (added my father, pointing to me,) shall inherit this <hi rendition="#italics">
+            <p>We have before observed<note>See M.R. Vol. xxiv. N.S. p. 565, &amp;c. [Moody's
+                  note].</note>, respecting the writing of M. <hi rendition="#smcaps">De la
+                  Fontaine</hi>, that one of his qualities is to rise in the reader's estimation by
+               gradual and progressive advances; and this is surely preferable to the art of
+               sinking, in which so many are equal proficients. The first chapter of the volume
+               before us is intitled, by the journalist, 'My Commision of Biography,' and contains a
+               whimsical relation of the circumstances whence he derived the commission, with the
+               manner of his being invested with it. It is a painting of the Shandean school, and
+               not a bad copy of the mock solemnity of Sterne's affected pathos: <quote>This infant
+                  (added my father, pointing to me,) shall inherit this <hi rendition="#italics">
                      <title>Bible</title>
-                  </hi> after my death; and promise me, my Charles, that you will fill all these blank
-               leaves with the actions and occurrences of your life, be they good or bad:— promise
-               me, my child,— My father rose from his seat, his eye was animated, his voice had
-               something of peculiar solemnity,—my uncle rose also, and laid down his pipe,—my
-               mother clasped her hands. This scene, and the solemn silence which accompanied it,
-               impressed my mind with awe; I advanced—I gave my hand to my father—he took off his
-               cap—my uncle held out his hand—and my mother embraced me with tears in her
-               eyes—while, to my father's benediction, which accompanied the <hi rendition="#italics">
+                  </hi> after my death; and promise me, my Charles, that you will fill all these
+                  blank leaves with the actions and occurrences of your life, be they good or bad:—
+                  promise me, my child,— My father rose from his seat, his eye was animated, his
+                  voice had something of peculiar solemnity,—my uncle rose also, and laid down his
+                  pipe,—my mother clasped her hands. This scene, and the solemn silence which
+                  accompanied it, impressed my mind with awe; I advanced—I gave my hand to my
+                  father—he took off his cap—my uncle held out his hand—and my mother embraced me
+                  with tears in her eyes—while, to my father's benediction, which accompanied the
+                     <hi rendition="#italics">
                      <title>Bible</title>
                   </hi>, every one said—<hi rendition="#smcaps">Amen</hi>.</quote>
             </p>
@@ -717,7 +731,8 @@
             <pb n="533"/>
             <p> A love-story soon presents itself; and the journal improves (as Charles very rightly
                conjectured it would) with the melancholy history of the beautiful Susette; who is
-               dismissed from her father's protection for a fault perhaps <hi rendition="#italics">unpardonable</hi>, but certainly not so <hi rendition="#italics">unnatural</hi>
+               dismissed from her father's protection for a fault perhaps <hi rendition="#italics"
+                  >unpardonable</hi>, but certainly not so <hi rendition="#italics">unnatural</hi>
                as the conduct of her parent who, in consequence of her frailty, abandons for ever
                his only child. We must not, however, give too much attention (partial as we are to
                beauty) to this <hi rendition="#italics">picture</hi>. <hi rendition="#italics">Le
@@ -728,7 +743,8 @@
                influence of these ruddy locks.</p>
             <p> The character of the artful Julia is the best sketch of the painter; in which the
                triumph of vice over virtue, and of virtue over vice, with the struggles between
-               ambition and love, are touches of an animated and ingenious pencil. In the <hi rendition="#italics">picture</hi> of the school, we are amused by the master's
+               ambition and love, are touches of an animated and ingenious pencil. In the <hi
+                  rendition="#italics">picture</hi> of the school, we are amused by the master's
                whimsical method of classing his scholars according to the impression which his ideas
                receive from their infantine physiognomy; and we smile at the conceit of the aquiline
                noses being characteristics of distinguished birth, seldom to be found among the

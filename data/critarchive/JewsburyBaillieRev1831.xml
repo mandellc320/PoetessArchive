@@ -51,28 +51,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -86,15 +85,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -337,11 +345,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -471,7 +480,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -541,7 +550,7 @@
                   <item>Book review</item>
                </list>
             </keywords>
-            <catRef scheme="#ft" target="#ft1"/>
+            <catRef target="#ft1" scheme="#ft"/>
             <catRef target="#ag9 #ag35" scheme="#ag"/>
             <catRef target="#f13" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
@@ -549,7 +558,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="6">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -558,7 +575,7 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#MW" when="20191218" n="5">
+         <change who="#MW" when="2019-12-18" n="5">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
             <list type="simple">
@@ -572,7 +589,7 @@
                <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
-         <change who="#MW" when="20180715" n="3">
+         <change>
             <name>Mary A. Waters</name>
             <date>2018-07-15</date>
             <list type="simple">
@@ -580,14 +597,14 @@
                <item>document ID change</item>
             </list>
          </change>
-         <change who="#KI" when="20170205" n="2">
+         <change>
             <name xml:id="KI"> Krystal J. Iseminger</name>
             <date>2017-02-05</date>
             <list type="simple">
                <item>TEI encoding</item>
             </list>
          </change>
-         <change who="#MW" when="20101201" n="1">
+         <change>
             <name xml:id="MW">Mary A. Waters</name>
             <date>2010-12-01</date>
             <list type="simple">
@@ -606,38 +623,36 @@
                         <ref target="people.html#JewsburyMaria">Maria Jane Jewsbury</ref>
                      </name>
                   </author>
-                  <lb/>
-                  <title type="main" level="a">The Nature and Dignity of Christ.<hi rendition="#sup">
-                        <note>Review of <hi rendition="#italics">The Nature and Dignity
-                              of Christ</hi>. By <ref target="people.html#BaillieJoanna">Joanna
-                              Baillie</ref>. London, 1831. Longman &amp; Co., <title level="j">
-                              <hi rendition="#italics">The Athenæum</hi>
-                           </title> no. 187 (Saturday, 28 May 1831): 337. The article held the lead
-                           position for that weekly number. Monica Correa Fryckstedt attributes the
-                           article to <ref target="people.html#JewsburyMaria">Maria Jane
-                              Jewsbury</ref> in "<title>The Hidden Rill: The Life and Career of
-                                 <ref target="people.html#JewsburyMaria">Maria Jane
-                              Jewsbury</ref>
-                           </title>," <hi rendition="#italics">
-                              <title>Bulletin
-                                 of the John Rylands University Library of Manchester</title>
-                           </hi>
-                           Part II, Vol. 67 1984-1984, pp. 450-473. Part I of the article appeared
-                           in Vol. 66, 1982-1984, pp. 177-203. </note>
-                     </hi>
+                  <title type="main" level="a">The Nature and Dignity of Christ.<note>Review of <hi
+                           rendition="#italics">The Nature and Dignity of Christ</hi>. By <ref
+                           target="people.html#BaillieJoanna">Joanna Baillie</ref>. London, 1831.
+                        Longman &amp; Co., <title level="j">
+                           <hi rendition="#italics">The Athenæum</hi>
+                        </title> no. 187 (Saturday, 28 May 1831): 337. The article held the lead
+                        position for that weekly number. Monica Correa Fryckstedt attributes the
+                        article to <ref target="people.html#JewsburyMaria">Maria Jane Jewsbury</ref>
+                        in "<title>The Hidden Rill: The Life and Career of <ref
+                              target="people.html#JewsburyMaria">Maria Jane Jewsbury</ref>
+                        </title>," <hi rendition="#italics">
+                           <title>Bulletin of the John Rylands University Library of
+                              Manchester</title>
+                        </hi> Part II, Vol. 67 1984-1984, pp. 450-473. Part I of the article
+                        appeared in Vol. 66, 1982-1984, pp. 177-203. </note>
                   </title>
                </bibl>
             </head>
             <p rendition="#noindent"/>
             <p>
-               <ref target="people.html#BaillieJoanna">J<hi rendition="#smcaps">oanna</hi> B<hi rendition="#smcaps">aillie</hi>
+               <ref target="people.html#BaillieJoanna">J<hi rendition="#smcaps">oanna</hi> B<hi
+                     rendition="#smcaps">aillie</hi>
                </ref> holds that rank amongst our elder modern authors, and her poetry is so
                connected with that re-awakening of our literature which took place about the
                commencement of the present century, that whatever she writes, however slight, or
                however unequal to the works which made her fame, has a peculiar claim to respectful
                attention. Of <ref target="people.html#BaillieJoanna">Joanna Baillie</ref>'s
                intellectual strength, of her profound knowledge of the workings of passion, rendered
-               more extraordinary by the placidity with which she herself delineates them—of <ref target="people.html#BaillieJoanna">Joanna Baillie</ref>'s genius and language,
+               more extraordinary by the placidity with which she herself delineates them—of <ref
+                  target="people.html#BaillieJoanna">Joanna Baillie</ref>'s genius and language,
                which are both so essentially old-English, deep, sound, vigorous, unfeigned, and
                unadulterate—we are proud to express our admiration. It would afford a subject for a
                long and not uninteresting article to point out the striking difference in the mind
@@ -645,7 +660,8 @@
                women of the present time: those who have not perused their writings in connexion,
                will hardly believe how great is the difference;—what a commentary the perusal
                affords on the entire change that has obtained in habits, manners, feelings,
-               education, tastes, and life! Amongst the elders—with <ref target="people.html#BaillieJoanna">Joanna Baillie</ref> at their head, as regards
+               education, tastes, and life! Amongst the elders—with <ref
+                  target="people.html#BaillieJoanna">Joanna Baillie</ref> at their head, as regards
                mind—the distinguishing features are nerve, simplicity, vigour, continuity,
                unambitious earnestness, and good English. We find also elaborate and
                skilfully-developed plots. Amongst our distinguished women of later date, we find
@@ -664,29 +680,30 @@
                masculine; our younger ones are integrally feminine—women of fashionable as well as
                studious life, women generally, who not only write books but abound in elegant
                accomplishments.</p>
-            <p>We have not, and are not likely to have at present, another <ref target="people.html#WollstonecraftMary">Mary Wolstencroft</ref> (we merely speak
-               of her as having exhibited grasp of mind), another <ref target="people.html#InchbaldMrs">Mrs. Inchbald</ref>, another <ref target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>—<ref target="people.html#BaillieJoanna">Joanna Baillie</ref> is their only
+            <p>We have not, and are not likely to have at present, another <ref
+                  target="people.html#WollstonecraftMary">Mary Wolstencroft</ref> (we merely speak
+               of her as having exhibited grasp of mind), another <ref
+                  target="people.html#InchbaldMrs">Mrs. Inchbald</ref>, another <ref
+                  target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>—<ref
+                  target="people.html#BaillieJoanna">Joanna Baillie</ref> is their only
                representative; adding, to the power of mind which they possessed, that dignified
-               play of fancy, that amplitude of calm, bold thought, and that "accomplishment of
-                  verse"<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#WordsworthWilliam">William Wordsworth</ref>, <title>
-                        <hi rendition="#italics">The Excursion</hi>
-                     </title>, Book First, The Wanderer 77-80.</note>
-               </hi> which they possessed not. Modern imaginative literature in England owes much to
-               her '<title>Plays on the Passions</title>;'<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#BaillieJoanna">Baillie</ref>'s <title>
-                        <hi rendition="#italics">Plays on the Passions</hi>
-                     </title> was published in three volumes as <title>
-                        <hi rendition="#italics">A Series of Plays in which it is Attempted to
-                           Delineate the Stronger passions of the Mind </hi>
-                     </title> (1798-1812). <title>
-                        <hi rendition="#italics">Ethewald </hi>
-                     </title> and <title>
-                        <hi rendition="#italics">Count Basil </hi>
-                     </title> (see below) are two of her plays. </note>
-               </hi> perhaps more than to any other publication except '<title>
+               play of fancy, that amplitude of calm, bold thought, and that "accomplishment of verse"<note>
+                  <ref target="people.html#WordsworthWilliam">William Wordsworth</ref>, <title>
+                     <hi rendition="#italics">The Excursion</hi>
+                  </title>, Book First, The Wanderer 77-80.</note> which they possessed not. Modern
+               imaginative literature in England owes much to her '<title>Plays on the
+                  Passions</title>;'<note>
+                  <ref target="people.html#BaillieJoanna">Baillie</ref>'s <title>
+                     <hi rendition="#italics">Plays on the Passions</hi>
+                  </title> was published in three volumes as <title>
+                     <hi rendition="#italics">A Series of Plays in which it is Attempted to
+                        Delineate the Stronger passions of the Mind </hi>
+                  </title> (1798-1812). <title>
+                     <hi rendition="#italics">Ethewald </hi>
+                  </title> and <title>
+                     <hi rendition="#italics">Count Basil </hi>
+                  </title> (see below) are two of her plays. </note> perhaps more than to any other
+               publication except '<title>
                   <ref target="people.html#PercyThomas">Percy</ref>'s Reliques</title>;' at all
                events, our greatest poets, who were young when her plays appeared, have nearly all
                borne testimony to the advantage and delight with which they perused them. With all
@@ -696,19 +713,22 @@
                strong sensibility and uncultivated taste do not dote upon '<title>Basil</title>,' or
                quote from '<title>Ethwald</title>;' and we never, by any chance, saw a line of hers
                transcribed in an album! One or two of her Shakespearian snatches of song have been
-               set to music; but, (to quote the words of an able critic,) "The celebrity of <ref target="people.html#BaillieJoanna">Joanna Baillie</ref> has been of a most
+               set to music; but, (to quote the words of an able critic,) "The celebrity of <ref
+                  target="people.html#BaillieJoanna">Joanna Baillie</ref> has been of a most
                peculiar nature; her fame has had about it a peculiar purity. It has been the
-               unparticipated treasure of the world of taste and intellect."<hi rendition="#sup">
-                  <note>William Harness, "Celebrated Female Writers: <ref target="people.html#BaillieJoanna">Joanna Baillie</ref>," <hi rendition="#italics">Blackwood's Edinburgh Magazine</hi> 16 (August 1824):
-                     165.</note>
-               </hi> We know that with this illustrious authoress there is a noble carelessness of
-               praise, partly consequent on her years, her standing in society, and her having
-               simply written at the instigation of her own genius; obeying the voice from the
-               shrine, and not the command of the outer-court worshippers; but still, we feel vexed
-               to see women of later date, and, however gifted, every way inferior to <ref target="people.html#BaillieJoanna">Joanna Baillie</ref>, written about, and
-               likenessed, and lithographed, before <hi rendition="#smcaps">her</hi>—the senior and
-               superior of all.</p>
-            <p>These casual remarks will prove that we appreciate <ref target="people.html#BaillieJoanna">Joanna Baillie</ref>; we can, therefore, with
+               unparticipated treasure of the world of taste and intellect."<note>William Harness,
+                  "Celebrated Female Writers: <ref target="people.html#BaillieJoanna">Joanna
+                     Baillie</ref>," <hi rendition="#italics">Blackwood's Edinburgh Magazine</hi> 16
+                  (August 1824): 165.</note> We know that with this illustrious authoress there is a
+               noble carelessness of praise, partly consequent on her years, her standing in
+               society, and her having simply written at the instigation of her own genius; obeying
+               the voice from the shrine, and not the command of the outer-court worshippers; but
+               still, we feel vexed to see women of later date, and, however gifted, every way
+               inferior to <ref target="people.html#BaillieJoanna">Joanna Baillie</ref>, written
+               about, and likenessed, and lithographed, before <hi rendition="#smcaps">her</hi>—the
+               senior and superior of all.</p>
+            <p>These casual remarks will prove that we appreciate <ref
+                  target="people.html#BaillieJoanna">Joanna Baillie</ref>; we can, therefore, with
                better grace express our regret that she has just published the little work, the name
                of which heads this notice. It is controversial, and controversy is best left to
                learned divines—certainly better left alone by ladies.</p>

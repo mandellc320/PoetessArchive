@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Review of Pictures of Life</title>
-            <title type="sub" level="j">Monthly Review</title>
+            <title type="sub">Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -31,12 +31,12 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. 52. Monument du Costume Physique &amp;
-							Moral de la Fin du dix huitieme Siécle; ou, Tableaux de la Vie.
-							Small 8vo. 2 Vols. pp: 360 in all. 6s. Boards. Dilly. 1790. <lb/> Art.
-							53. Pictures of Life: or, a Record of Manners, Physical and Moral, on
-							the Close of the Eighteenth Century. Translated from the French. Small
-							8vo. 2 Vols. pp: 440, in all. 6s. Boards. Dilly. 1790.</title>
+                  <title type="main" level="a">Art. 52. Monument du Costume Physique &amp; Moral de
+                     la Fin du dix huitieme Siécle; ou, Tableaux de la Vie. Small 8vo. 2 Vols. pp:
+                     360 in all. 6s. Boards. Dilly. 1790. <lb/> Art. 53. Pictures of Life: or, a
+                     Record of Manners, Physical and Moral, on the Close of the Eighteenth Century.
+                     Translated from the French. Small 8vo. 2 Vols. pp: 440, in all. 6s. Boards.
+                     Dilly. 1790.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -54,28 +54,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -89,15 +88,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -340,11 +348,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -474,7 +483,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -552,7 +561,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="7">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -607,76 +624,75 @@
                <bibl>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
-                        <name>Elizabeth
-								Moody</name>
+                        <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title type="main" level="a"/>
-                  <title> Art. 52. <hi rendition="#italics">Monument du Costume Physique &amp;
-								Moral de la Fin du dix huitieme Siécle; ou, Tableaux de la
-								Vie.</hi> Small 8vo. 2 Vols. pp: 360 in all. 6s. Boards. Dilly.
-							1790.<lb/> Art. 53. <hi rendition="#italics">Pictures of Life</hi>: or,
-							a Record of Manners, Physical and Moral, on the Close of the Eighteenth
-							Century. Translated from the French. Small 8vo. 2 Vols. pp: 440, in all.
-							6s. Boards. Dilly. 1790.<hi rendition="sup">
+                  <title> Art. 52. <hi rendition="#italics">Monument du Costume Physique &amp; Moral
+                        de la Fin du dix huitieme Siécle; ou, Tableaux de la Vie.</hi> Small 8vo. 2
+                     Vols. pp: 360 in all. 6s. Boards. Dilly. 1790.<lb/> Art. 53. <hi
+                        rendition="#italics">Pictures of Life</hi>: or, a Record of Manners,
+                     Physical and Moral, on the Close of the Eighteenth Century. Translated from the
+                     French. Small 8vo. 2 Vols. pp: 440, in all. 6s. Boards. Dilly. 1790.<hi
+                        rendition="sup">
                         <note>
                            <hi rendition="#italics">
                               <title>Monthly Review</title>
-                           </hi>, second series, vol.
-								4, January 1791, pages 106-107. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
+                           </hi>, second series, vol. 4, January 1791, pages 106-107. Benjamin
+                           Nangle identifies <ref target="people.html#MoodyElizabeth">
                               <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's
-								marked copy of <hi rend="#italics">
+                           </ref> as the author of this review from an editor's marked copy of <hi
+                              rendition="#italics">
                               <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-									Review</ref>
+                                 <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
                               </title>
                            </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-											Series, 1790-1815: Indexes of Contributors and
-											Articles</title>
-                           </hi>, Clarendon Press, 1955. This edition of
-									this review article was edited by Mary A. Waters with
-									transcription, encoding, and editorial assistance by Dillon
-									Cullinan. The book comprises 26 illustrations by the artists
-									Sigmund Freudenberger (1745-1801) and Jean-Michel Moreau
-									(1741-1814) with text by Nicolas Edme Restif de La Bretonne
-									(1734-1806), a writer of novels, short stories, legal and
-									philosophical essays, historiography, autobiography, and even
-									pornography.</note>
+                              <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                                 Contributors and Articles</title>
+                           </hi>, Clarendon Press, 1955. This edition of this review article was
+                           edited by Mary A. Waters with transcription, encoding, and editorial
+                           assistance by Dillon Cullinan. The book comprises 26 illustrations by the
+                           artists Sigmund Freudenberger (1745-1801) and Jean-Michel Moreau
+                           (1741-1814) with text by Nicolas Edme Restif de La Bretonne (1734-1806),
+                           a writer of novels, short stories, legal and philosophical essays,
+                           historiography, autobiography, and even pornography.</note>
                      </hi>
                   </title>
                </bibl>
             </head>
-            <p>The author of these descriptions sets out with promising to exhibit pictures of
-					the modes of thinking, and manners of acting, <hi rendition="#italics">peculiar</hi> to the present age: this led us to expect some novelty in the
-					subjects of these <hi rendition="#italics">paintings</hi>; of course we were a
-					little disappointed to meet with none but <hi rendition="#italics">old
-						pictures</hi>: the same dissipation, the same <hi rendition="#italics">frivolité</hi>, and disposition to gallantry, and the same general
-					profligacy among the great, are here represented as they have been so often
-					described in past ages: nor can we perceive any <hi rendition="#italics">peculiar</hi> excellence in this painter's performances: his <hi rendition="#italics">colours</hi> are often coarse: he has not taken a good
-					likeness of Nature, either in her moral or physical character; and she is mostly
-					drawn in <hi rendition="#italics">unbecoming dresses</hi>. In a picture of her
-					in her physical capacity, we are presented with an <hi rendition="#italics">accouchement</hi>
+            <p>The author of these descriptions sets out with promising to exhibit pictures of the
+               modes of thinking, and manners of acting, <hi rendition="#italics">peculiar</hi> to
+               the present age: this led us to expect some novelty in the subjects of these <hi
+                  rendition="#italics">paintings</hi>; of course we were a little disappointed to
+               meet with none but <hi rendition="#italics">old pictures</hi>: the same dissipation,
+               the same <hi rendition="#italics">frivolité</hi>, and disposition to gallantry, and
+               the same general profligacy among the great, are here represented as they have been
+               so often described in past ages: nor can we perceive any <hi rendition="#italics"
+                  >peculiar</hi> excellence in this painter's performances: his <hi
+                  rendition="#italics">colours</hi> are often coarse: he has not taken a good
+               likeness of Nature, either in her moral or physical character; and she is mostly
+               drawn in <hi rendition="#italics">unbecoming dresses</hi>. In a picture of her in her
+               physical capacity, we are presented with an <hi rendition="#italics"
+                  >accouchement</hi>
                <hi rendition="sup">
                   <note>Birth of a baby.</note>
-               </hi>. This is a favourite subject with the artist,
-					and he <pb n="107"/>paints it <hi rendition="#italics">con amore</hi>
+               </hi>. This is a favourite subject with the artist, and he <pb n="107"/>paints it <hi
+                  rendition="#italics">con amore</hi>
                <hi rendition="sup">
                   <note>Tenderly; lovingly.</note>
-               </hi> The
-					companion to it is a mother surrounded with <hi rendition="#italics">one-and-twenty children</hi>, a <hi rendition="#italics">groupe</hi> that
-					not a little enhances our admiration of <hi rendition="#italics">French
-						population:</hi> nor can we contemplate this Galtic Hecuba<hi rendition="sup">
-                  <note>Wife of King Priam of Troy. They had 19 children
-						together.</note>
-               </hi> without some degree of respect. Among the best of the
-					pictures, is a gambling party, where the fatal consequences of that pernicious
-					vice are affectingly pourtrayed. A melancholy story, displaying some of the
-					cruel effects of the present commotions in France, concludes the <hi rendition="#italics">exhibition</hi>.</p>
-            <p>The translator is a faithful copyist: but the <hi rendition="#italics">colouring</hi> to which we object, in some of the <hi rendition="#italics">original</hi> pictures, is still coarser in the <hi rendition="#italics">copies</hi>—This is not the fault of the translator, but of the
-					languages.</p>
+               </hi> The companion to it is a mother surrounded with <hi rendition="#italics"
+                  >one-and-twenty children</hi>, a <hi rendition="#italics">groupe</hi> that not a
+               little enhances our admiration of <hi rendition="#italics">French population:</hi>
+               nor can we contemplate this Galtic Hecuba<hi rendition="sup">
+                  <note>Wife of King Priam of Troy. They had 19 children together.</note>
+               </hi> without some degree of respect. Among the best of the pictures, is a gambling
+               party, where the fatal consequences of that pernicious vice are affectingly
+               pourtrayed. A melancholy story, displaying some of the cruel effects of the present
+               commotions in France, concludes the <hi rendition="#italics">exhibition</hi>.</p>
+            <p>The translator is a faithful copyist: but the <hi rendition="#italics">colouring</hi>
+               to which we object, in some of the <hi rendition="#italics">original</hi> pictures,
+               is still coarser in the <hi rendition="#italics">copies</hi>—This is not the fault of
+               the translator, but of the languages.</p>
          </div>
       </body>
    </text>

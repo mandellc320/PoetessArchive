@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Mrs. Radcliffe</title>
-            <title type="sub" level="m">The British Novelists</title>
+            <title type="sub">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -38,8 +38,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="sub">with an Essay and Prefaces,
-                            Biographical and Critical</title>
+                  <title type="sub">with an Essay and Prefaces, Biographical and Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
                   </editor>
@@ -57,28 +56,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -92,15 +90,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -343,11 +350,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -477,7 +485,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -556,7 +564,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="8">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -565,11 +581,11 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#LM" when="20200611" n="7">
+         <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy</item>
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -584,7 +600,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers</item>
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
          <change who="#MW" when="2016-06-21" n="4">
@@ -629,352 +645,278 @@
                         <name>Anna Letitia Barbauld</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
-                     <ref target="people.html#RadcliffeAnn">MRS.
-                                RADCLIFFE.</ref>
-                     <hi rendition="#sup">
-                        <note>
-                           <title level="m">
-                              <hi rendition="#italics">The British Novelists;
-                                            with an Essay; and Prefaces, Biographical and Critical,
-                                            by <ref target="people.html#BarbauldMrs">Mrs.
-                                                Barbauld</ref>
-                              </hi>
-                           </title>, 50 Vols. (London:
-                                    Printed for F.C. and J. Rivington; W. Otridge and Son; A.
-                                    Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
-                                    Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
-                                    Lea; J. Nunn; Lackington and Co.; Clarke and Son; C. Law;
-                                    Longman, Hurst, Rees, and Orme; Cadell and Davies; E. Jeffery;
-                                    J.K. Newman; Crosby and Co.; J. Carpenter; S. Bagster; T. Booth;
-                                    J. Murray; J. and J. Richardson; Black, Parry, and Kingsbury; J.
-                                    Harding; R. Phillips; J. Mawman; J. Booker; J. Asperne; R.
-                                    Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.;
-                                    Sherwood and Co.; J. Miller; W. Creech, Edinburgh; and Wilson
-                                    and Son, York, 1810), 43:i-viii. Mary A. Waters edited this
-                                    edition for <hi rendition="#italics">The Criticism
-                                    Archive</hi>.</note>
-                     </hi>
+                     <ref target="people.html#RadcliffeAnn">MRS. RADCLIFFE.</ref>
+                     <note>
+                        <title level="m">
+                           <hi rendition="#italics">The British Novelists; with an Essay; and
+                              Prefaces, Biographical and Critical, by <ref
+                                 target="people.html#BarbauldMrs">Mrs. Barbauld</ref>
+                           </hi>
+                        </title>, 50 Vols. (London: Printed for F.C. and J. Rivington; W. Otridge
+                        and Son; A. Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
+                        Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R. Lea; J.
+                        Nunn; Lackington and Co.; Clarke and Son; C. Law; Longman, Hurst, Rees, and
+                        Orme; Cadell and Davies; E. Jeffery; J.K. Newman; Crosby and Co.; J.
+                        Carpenter; S. Bagster; T. Booth; J. Murray; J. and J. Richardson; Black,
+                        Parry, and Kingsbury; J. Harding; R. Phillips; J. Mawman; J. Booker; J.
+                        Asperne; R. Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.;
+                        Sherwood and Co.; J. Miller; W. Creech, Edinburgh; and Wilson and Son, York,
+                        1810), 43:i-viii. Mary A. Waters edited this edition for <hi
+                           rendition="#italics">The Criticism Archive</hi>.</note>
                   </title>
                </bibl>
             </head>
             <p rendition="pnoindent">
                <hi rendition="#largest">T</hi>HOUGH every production which is good in its kind
-                    entitles its author to praise, a greater distinction is due to those which stand
-                    at the head of a class; and such are undoubtedly the novels of <ref target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>,—which exhibit
-                    a genius of no common stamp. She seems to scorn to move those passions which
-                    form the interest of common novels: she alarms the soul with terror; agitates it
-                    with suspense, prolonged and wrought up to the most intense feeling, by
-                    mysterious hints and obscure intimations of unseen danger. The scenery of her
-                    tales is in "time-shook towers,"<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#CarterElizabeth">Elizabeth
-                                Carter</ref>, "<title>Ode to Wisdom</title>" 3
-                            (1747).</note>
-               </hi> vast uninhabited castles, winding stair-cases, long
-                    echoing aisles; or, if abroad, lonely heaths, gloomy forests, and abrupt
-                    precipices, the haunt of banditti;—the canvass and the figures of <ref target="people.html#RosaSalvatore">Salvator Rosa</ref>. Her living
-                    characters correspond to the scenery:—their wicked projects are dark,
-                    singular, atrocious. They are not of English growth; their guilt is tinged with
-                    a darker hue than that of the bad and profligate characters we see in the world
-                    about us; they seem almost to belong to an unearthly sphere of powerful
-                    mischief. But to the terror <lb/>
+               entitles its author to praise, a greater distinction is due to those which stand at
+               the head of a class; and such are undoubtedly the novels of <ref
+                  target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>,—which exhibit a genius of
+               no common stamp. She seems to scorn to move those passions which form the interest of
+               common novels: she alarms the soul with terror; agitates it with suspense, prolonged
+               and wrought up to the most intense feeling, by mysterious hints and obscure
+               intimations of unseen danger. The scenery of her tales is in "time-shook towers,"<note>
+                  <ref target="people.html#CarterElizabeth">Elizabeth Carter</ref>, "<title>Ode to
+                     Wisdom</title>" 3 (1747).</note> vast uninhabited castles, winding stair-cases,
+               long echoing aisles; or, if abroad, lonely heaths, gloomy forests, and abrupt
+               precipices, the haunt of banditti;—the canvass and the figures of <ref
+                  target="people.html#RosaSalvatore">Salvator Rosa</ref>. Her living characters
+               correspond to the scenery:—their wicked projects are dark, singular, atrocious. They
+               are not of English growth; their guilt is tinged with a darker hue than that of the
+               bad and profligate characters we see in the world about us; they seem almost to
+               belong to an unearthly sphere of powerful mischief. But to the terror <lb/>
                <fw type="vol">
                   <hi rendition="#smcaps">vol. xliii.</hi>
                </fw>
                <fw type="sig">a</fw>
-               <pb n="ii"/>produced by the machinations of guilt, and the perception of danger,
-                    this writer has had the art to unite another, and possibly a stronger feeling.
-                    There is, perhaps, in every breast at all susceptible of the influence of
-                    imagination, the germ of a certain superstitious dread of the world unknown,
-                    which easily suggests the ideas of commerce with it. Solitude, darkness,
-                    low-whispered sounds, obscure glimpses of objects, flitting forms, tend to raise
-                    in the mind that thrilling, mysterious terror, which has for its object the
-                    "powers unseen and mightier far than we."<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#PopeAlexander">Alexander
-                                Pope</ref>, <title>
-                        <hi rendition="#italics">Essay on
-                                Man</hi>
-                     </title> III, 251-2, slightly altered.</note>
-               </hi> But these
-                    ideas are suggested only; for it is the peculiar management of this author,
-                    that, though she gives, as it were, a glimpse of the world of terrible shadows,
-                    she yet stops short of any thing really supernatural: for all the strange and
-                    alarming circumstances brought forward in the narrative are explained in the
-                    winding up of the story by natural causes; but in the mean time the reader has
-                    felt their full impression.</p>
+               <pb n="ii"/>produced by the machinations of guilt, and the perception of danger, this
+               writer has had the art to unite another, and possibly a stronger feeling. There is,
+               perhaps, in every breast at all susceptible of the influence of imagination, the germ
+               of a certain superstitious dread of the world unknown, which easily suggests the
+               ideas of commerce with it. Solitude, darkness, low-whispered sounds, obscure glimpses
+               of objects, flitting forms, tend to raise in the mind that thrilling, mysterious
+               terror, which has for its object the "powers unseen and mightier far than we."<note>
+                  <ref target="people.html#PopeAlexander">Alexander Pope</ref>, <title>
+                     <hi rendition="#italics">Essay on Man</hi>
+                  </title> III, 251-2, slightly altered.</note> But these ideas are suggested only;
+               for it is the peculiar management of this author, that, though she gives, as it were,
+               a glimpse of the world of terrible shadows, she yet stops short of any thing really
+               supernatural: for all the strange and alarming circumstances brought forward in the
+               narrative are explained in the winding up of the story by natural causes; but in the
+               mean time the reader has felt their full impression.</p>
             <p>The first production of this lady, in which her peculiar genius was strikingly
-                    developed, is <title>
-                  <hi rendition="#italics">The Romance of the
-                        Forest</hi>
-               </title>, and in some respects it is perhaps the best.<hi rendition="#sup">
-                  <note>This 1795 novel is actually
-                            Radcliffe's third. While Barbauld might almost be justified in
-                            ignoring Radcliffe's first, <title>
-                        <hi rendition="#italics">The
-                                    Castles of Athlin and Dunbayne</hi>
-                     </title> (1789), readers
-                            usually regard the 1790 <title>
-                        <hi rendition="#italics">A Sicilian
-                                    Romance</hi>
-                     </title> as a work of merit. Since Barbauld seems to
-                            confuse the title of <title>
-                        <hi rendition="#italics">A Sicilian
-                                    Romance</hi>
-                     </title> with that of <title>
-                        <hi rendition="#italics">The Italian</hi>
-                     </title> (see below),
-                            perhaps this confusion explains the omission.</note>
-               </hi> It turns upon
-                    the machinations of a profligate villain and his agent against an amiable and
-                    unprotected girl, whose birth and fortunes have been involved in obscurity by
-                    crime and perfidy. The character of La Motte, the agent, is drawn with spirit.
-                    He is represented as weak and timid, gloomy and arbitrary in his family, drawn
-                    by extravagance into vice and atrocious actions; capable of remorse, but not
-                    capable of withstanding temptation. There is a <pb n="iii"/>scene between him
-                    and the more hardened marquis, who is tempting him to commit murder, which has
-                    far more nature and truth than the admired scene between King John and
-                        Hubert, in which the writer's imagination has led him
-                    rather to represent the action to which the king is endeavouring to work his
-                    instrument, as it would be seen by a person who had a great horror of its guilt,
-                    than in the manner in which he ought to represent it in order to win him to his
-                    purpose: <quote>
+               developed, is <title>
+                  <hi rendition="#italics">The Romance of the Forest</hi>
+               </title>, and in some respects it is perhaps the best.<note>This 1795 novel is
+                  actually Radcliffe's third. While Barbauld might almost be justified in ignoring
+                  Radcliffe's first, <title>
+                     <hi rendition="#italics">The Castles of Athlin and Dunbayne</hi>
+                  </title> (1789), readers usually regard the 1790 <title>
+                     <hi rendition="#italics">A Sicilian Romance</hi>
+                  </title> as a work of merit. Since Barbauld seems to confuse the title of <title>
+                     <hi rendition="#italics">A Sicilian Romance</hi>
+                  </title> with that of <title>
+                     <hi rendition="#italics">The Italian</hi>
+                  </title> (see below), perhaps this confusion explains the omission.</note> It
+               turns upon the machinations of a profligate villain and his agent against an amiable
+               and unprotected girl, whose birth and fortunes have been involved in obscurity by
+               crime and perfidy. The character of La Motte, the agent, is drawn with spirit. He is
+               represented as weak and timid, gloomy and arbitrary in his family, drawn by
+               extravagance into vice and atrocious actions; capable of remorse, but not capable of
+               withstanding temptation. There is a <pb n="iii"/>scene between him and the more
+               hardened marquis, who is tempting him to commit murder, which has far more nature and
+               truth than the admired scene between King John and Hubert, in which the writer's
+               imagination has led him rather to represent the action to which the king is
+               endeavouring to work his instrument, as it would be seen by a person who had a great
+               horror of its guilt, than in the manner in which he ought to represent it in order to
+               win him to his purpose: <quote>
                   <lg type="stanza">
-                     <l rendition="#indent8">—————If the
-                                midnight bell</l>
+                     <l rendition="#indent8">—————If the midnight bell</l>
                      <l>Did with his iron tongue and brazen mouth </l>
                      <l>Sound one unto the drowsy ear of night, </l>
                      <l>If this same were a churchyard where we stand, </l>
                      <l>And thou possessed with a thousand wrongs, </l>
                      <l>———— if thou couldst see me without eyes, </l>
                      <l>Hear me without thine ears, and make reply </l>
-                     <l>Without a tongue, &amp;c.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>'s <title>
-                                 <hi rendition="#italics">King John</hi>
-                              </title>
-                                        III.iii.37-50, the first five lines of which serve as part
-                                        of an epigraph to Chapter 14 of <title>
-                                 <hi rendition="#italics">The Romance of the
-                                            Forest</hi>
-                              </title>. Radcliffe’s epigraph continues with
-                                        the lines that Barbauld here deletes.</note>
-                        </hi>
+                     <l>Without a tongue, &amp;c.<note>
+                           <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>'s <title>
+                              <hi rendition="#italics">King John</hi>
+                           </title> III.iii.37-50, the first five lines of which serve as part of an
+                           epigraph to Chapter 14 of <title>
+                              <hi rendition="#italics">The Romance of the Forest</hi>
+                           </title>. Radcliffe’s epigraph continues with the lines that Barbauld
+                           here deletes.</note>
                      </l>
                   </lg>
-               </quote>What must be the effect of such imagery, but to infuse into the
-                    mind of Hubert that horror of the crime with which the spectator views the deed,
-                    and which it was the business, indeed, of <ref target="people.html#ShakespeareWilliam">Shakespear</ref> to impress upon the
-                    mind of the spectator, but not of King John to impress upon Hubert? In the scene
-                    referred to, on the other hand, the Marquis, whose aim is to tempt La Motte to
-                    the commission of murder, begins by attempting to lower his sense of virtue, by
-                    representing it as the effect of prejudices imbibed in early youth; reminds him
-                    that in many countries the stiletto is resorted to without scruple; treats as
-                    trivial his former deviations from integrity; and, by lulling his conscience and
-                    awakening his cupidity, draws him to his purpose. </p>
+               </quote>What must be the effect of such imagery, but to infuse into the mind of
+               Hubert that horror of the crime with which the spectator views the deed, and which it
+               was the business, indeed, of <ref target="people.html#ShakespeareWilliam"
+                  >Shakespear</ref> to impress upon the mind of the spectator, but not of King John
+               to impress upon Hubert? In the scene referred to, on the other hand, the Marquis,
+               whose aim is to tempt La Motte to the commission of murder, begins by attempting to
+               lower his sense of virtue, by representing it as the effect of prejudices imbibed in
+               early youth; reminds him that in many countries the stiletto is resorted to without
+               scruple; treats as trivial his former deviations from integrity; and, by lulling his
+               conscience and awakening his cupidity, draws him to his purpose. </p>
             <lb/>
             <fw type="sig">a 2</fw>
             <pb n="iv"/>
-            <p> There are many situations in this novel which strike strongly upon the
-                    imagination. Who can read without a shudder, that Adeline in her lonely chamber
-                    at the abbey hardly dared to lift her eyes to the glass, lest she should see
-                    another face than her own reflected from it? or who does not sympathize with her
-                    feelings, when, thinking she has effected her escape with Peter, she hears a
-                    strange voice, and finds herself on horseback in a dark night carried away by an
-                    unknown ruffian?</p>
+            <p> There are many situations in this novel which strike strongly upon the imagination.
+               Who can read without a shudder, that Adeline in her lonely chamber at the abbey
+               hardly dared to lift her eyes to the glass, lest she should see another face than her
+               own reflected from it? or who does not sympathize with her feelings, when, thinking
+               she has effected her escape with Peter, she hears a strange voice, and finds herself
+               on horseback in a dark night carried away by an unknown ruffian?</p>
             <p> The next work which proceeded from <ref target="people.html#RadcliffeAnn">Mrs.
-                        Radcliffe</ref>'s pen was <title>
-                  <hi rendition="#italics">The Mysteries
-                            of Udolpho</hi>
-               </title>. Similar to the former in the turn of its
-                    incidents, and the nature of the feelings it is meant to excite, it abounds
-                    still more with instances of mysterious and terrific appearances, but has
-                    perhaps less of character, and a more imperfect story. It has been the aim in
-                    this work to assemble appearances of the most impressive kind, which continually
-                    present the idea of supernatural agency, but which are at length accounted for
-                    by natural means. They are not always, however, <hi rendition="#italics">well</hi> accounted for; and the mind experiences a sort of disappointment
-                    and shame at having felt so much from appearances which had nothing in them
-                    beyond "this visible diurnal sphere."<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#MiltonJohn">Milton</ref>,
-                                    <title>
-                        <hi rendition="#italics">Paradise Lost</hi>
-                     </title> Bk.
-                            7, 22.</note>
-               </hi> The moving of the pall in the funereal chamber is of
-                    this nature. The curtain which no one dares to undraw, interests us strongly; we
-                    feel the utmost stings and throbs of curiosity; but we have been affected so
-                    repeatedly, the suspense has been so long protracted, and expectation raised so
-                    high, that no ex-<pb n="v"/>planation can satisfy, no imagery of horrors can
-                    equal the vague shapings of our imagination.</p>
+                  Radcliffe</ref>'s pen was <title>
+                  <hi rendition="#italics">The Mysteries of Udolpho</hi>
+               </title>. Similar to the former in the turn of its incidents, and the nature of the
+               feelings it is meant to excite, it abounds still more with instances of mysterious
+               and terrific appearances, but has perhaps less of character, and a more imperfect
+               story. It has been the aim in this work to assemble appearances of the most
+               impressive kind, which continually present the idea of supernatural agency, but which
+               are at length accounted for by natural means. They are not always, however, <hi
+                  rendition="#italics">well</hi> accounted for; and the mind experiences a sort of
+               disappointment and shame at having felt so much from appearances which had nothing in
+               them beyond "this visible diurnal sphere."<note>
+                  <ref target="people.html#MiltonJohn">Milton</ref>, <title>
+                     <hi rendition="#italics">Paradise Lost</hi>
+                  </title> Bk. 7, 22.</note> The moving of the pall in the funereal chamber is of
+               this nature. The curtain which no one dares to undraw, interests us strongly; we feel
+               the utmost stings and throbs of curiosity; but we have been affected so repeatedly,
+               the suspense has been so long protracted, and expectation raised so high, that no
+                  ex-<pb n="v"/>planation can satisfy, no imagery of horrors can equal the vague
+               shapings of our imagination.</p>
             <p> The story of <title>
                   <hi rendition="#italics">Udolpho</hi>
-               </title> is more
-                    complicated and perplexed than that of <title>
-                  <hi rendition="#italics">The
-                            Romance of the Forest</hi>
+               </title> is more complicated and perplexed than that of <title>
+                  <hi rendition="#italics">The Romance of the Forest</hi>
                </title>
-               <hi rendition="#italics">;</hi> but it
-                    turns, like that, on the terrors and dangers of a young lady confined in a
-                    castle. The character of her oppressor, Montoni, is less distinctly marked than
-                    that of La Motte; and it is a fault in the story, that its unravelling depends
-                    but little on the circumstances that have previously engaged our attention.
-                    Another castle is introduced; wonders are multiplied upon us; and the interest
-                    we had felt in the castle of Udolpho in the Appenines, is suddenly transferred
-                    to Chateau le Blanc among the Pyrenees.</p>
+               <hi rendition="#italics">;</hi> but it turns, like that, on the terrors and dangers
+               of a young lady confined in a castle. The character of her oppressor, Montoni, is
+               less distinctly marked than that of La Motte; and it is a fault in the story, that
+               its unravelling depends but little on the circumstances that have previously engaged
+               our attention. Another castle is introduced; wonders are multiplied upon us; and the
+               interest we had felt in the castle of Udolpho in the Appenines, is suddenly
+               transferred to Chateau le Blanc among the Pyrenees.</p>
             <p>
                <title>
                   <hi rendition="#italics">The Mysteries of Udolpho</hi>
-               </title> is the
-                    most popular of this author's performances, and as such has been chosen for
-                    this Selection; but perhaps it is exceeded in strength by her next publication,
-                            <title>
+               </title> is the most popular of this author's performances, and as such has been
+               chosen for this Selection; but perhaps it is exceeded in strength by her next
+               publication, <title>
                   <hi rendition="#italics">The Sicilian</hi>
-               </title>.<hi rendition="#sup">
-                  <note>Barbauld describes <title>
-                        <hi rendition="#italics">The Italian</hi>
-                     </title> (1797). Radcliffe
-                            never wrote a novel called <title>
-                        <hi rendition="#italics">The
-                                    Sicilian.</hi>
-                     </title>
-                  </note>
-               </hi> Nothing can be finer than the
-                    opening of this story. An Englishman on his travels, walking through a church,
-                    sees a dark figure stealing along the aisles. He is informed that he is an
-                    assassin. On expressing his astonishment that he should find shelter there, he
-                    is told that such adventures are common in Italy. His companion then points to a
-                    confessional in an obscure aisle of the church. "There," says he,
-                    "in that cell, such a tale of horror was once poured into the ear of a
-                    priest as overwhelmed him with astonishment, nor was the secret ever
-                    disclosed." This prelude, like the tuning of an instrument by a skilful
-                    hand, has the effect of producing at once in the mind a tone of feeling cor-<pb n="vi"/>respondent to the future story. In this, as in the former
-                    productions, the curiosity of the reader is kept upon the stretch by mystery and
-                    wonder. The author seems perfectly to understand that obscurity, as <ref target="people.html#BurkeEdmund">Burke</ref> has asserted, is a strong
-                    ingredient in the sublime:—a face shrowded in a cowl; a narrative suddenly
-                    suspended; deep guilt half revealed; the untold secrets of a prison-house; the
-                    terrific shape, "if shape it might be called, that shape had none
-                    distinguishable;"—all these affect the mind more powerfully than any
-                    regular or distinct images of danger or of woe.<hi rendition="#sup">
-                  <note>In <title>
-                        <hi rendition="#italics">A Philosophical Enquiry
-                                    into the Origin of Our Ideas of the Sublime and
-                                Beautiful</hi>
-                     </title>, <ref target="people.html#BurkeEdmund">Edmund
-                                Burke</ref> stressed obscurity as a critical characteristic of the
-                            sublime. <ref target="people.html#BurkeEdmund">Burke</ref>'s work
-                            helped bring new respectability to Gothic literature and formed a
-                            standard in British aesthetics through the Romantic period and beyond.
-                            The quotation from <ref target="people.html#MiltonJohn">Milton</ref>'s description of Death in <title>
-                        <hi rendition="#italics">Paradise Lost</hi>
-                     </title> (Bk. II, 667)
-                            serves Burke as one of the most powerful examples of the effect of
-                            obscurity in producing ideas of the sublime.</note>
-               </hi>
+               </title>.<note>Barbauld describes <title>
+                     <hi rendition="#italics">The Italian</hi>
+                  </title> (1797). Radcliffe never wrote a novel called <title>
+                     <hi rendition="#italics">The Sicilian.</hi>
+                  </title>
+               </note> Nothing can be finer than the opening of this story. An Englishman on his
+               travels, walking through a church, sees a dark figure stealing along the aisles. He
+               is informed that he is an assassin. On expressing his astonishment that he should
+               find shelter there, he is told that such adventures are common in Italy. His
+               companion then points to a confessional in an obscure aisle of the church. "There,"
+               says he, "in that cell, such a tale of horror was once poured into the ear of a
+               priest as overwhelmed him with astonishment, nor was the secret ever disclosed." This
+               prelude, like the tuning of an instrument by a skilful hand, has the effect of
+               producing at once in the mind a tone of feeling cor-<pb n="vi"/>respondent to the
+               future story. In this, as in the former productions, the curiosity of the reader is
+               kept upon the stretch by mystery and wonder. The author seems perfectly to understand
+               that obscurity, as <ref target="people.html#BurkeEdmund">Burke</ref> has asserted, is
+               a strong ingredient in the sublime:—a face shrowded in a cowl; a narrative suddenly
+               suspended; deep guilt half revealed; the untold secrets of a prison-house; the
+               terrific shape, "if shape it might be called, that shape had none
+               distinguishable;"—all these affect the mind more powerfully than any regular or
+               distinct images of danger or of woe.<note>In <title>
+                     <hi rendition="#italics">A Philosophical Enquiry into the Origin of Our Ideas
+                        of the Sublime and Beautiful</hi>
+                  </title>, <ref target="people.html#BurkeEdmund">Edmund Burke</ref> stressed
+                  obscurity as a critical characteristic of the sublime. <ref
+                     target="people.html#BurkeEdmund">Burke</ref>'s work helped bring new
+                  respectability to Gothic literature and formed a standard in British aesthetics
+                  through the Romantic period and beyond. The quotation from <ref
+                     target="people.html#MiltonJohn">Milton</ref>'s description of Death in <title>
+                     <hi rendition="#italics">Paradise Lost</hi>
+                  </title> (Bk. II, 667) serves Burke as one of the most powerful examples of the
+                  effect of obscurity in producing ideas of the sublime.</note>
             </p>
-            <p> But this novel has also high merit in the character of Schedoni, which is
-                    strikingly drawn, as is his personal appearance. "His figure," says
-                    the author, "was striking, but not so from grace. It was tall, and though
-                    extremely thin, his limbs were large and uncouth; and as he stalked along,
-                    wrapped in the black garments of his order, there was something terrible in his
-                    air, something almost superhuman. His cowl too, as it threw a shade over the
-                    livid paleness of his face, increased its severe character, and gave an effect
-                    to his large melancholy eye which approached to horror. His physiognomy bore the
-                    trace of many passions, which seemed to have fixed the features they no longer
-                    animated. His eyes were so piercing that they seemed to penetrate with a single
-                    glance into the hearts of men, and to read their most secret thoughts; few
-                    persons could support their scrutiny, or even endure to meet them twice." A
-                    striking figure for the painter to transfer to the canvass; perhaps some <pb n="vii"/>picture might originally have suggested it. The scene where this
-                    singular character is on the point of murdering his own daughter, as she then
-                    appears to be, is truly tragical, and wrought up with great strength and pathos.
-                    It is impossible not to be interested in the situation of Ellen, in the convent,
-                    when her lamp goes out while she is reading a paper on which her fate depends;
-                    and again when, in making her escape, she has just got to the end of the long
-                    vaulted passage, and finds the door locked, and herself betrayed. The scenes of
-                    the Inquisition are too much protracted, and awaken more curiosity than they
-                    fully gratify; perhaps than any story can gratify.</p>
-            <p> In novels of this kind, where the strong charm of suspense and mystery is
-                    employed, we hurry through with suspended breath, and in a kind of agony of
-                    expectation; but when we are come to the end of the story, the charm is
-                    dissolved, we have no wish to read it again; we do not recur to it as we do to
-                    the characters of Western in <title>
-                  <hi rendition="#italics">Tom
-                        Jones</hi>
-               </title>,<hi rendition="#sup">
-                  <note>1749 novel by
-                                <ref target="people.html#FieldingHenry">Henry
-                        Fielding</ref>.</note>
-               </hi> or the Harrels in <hi rendition="#italics">
+            <p> But this novel has also high merit in the character of Schedoni, which is strikingly
+               drawn, as is his personal appearance. "His figure," says the author, "was striking,
+               but not so from grace. It was tall, and though extremely thin, his limbs were large
+               and uncouth; and as he stalked along, wrapped in the black garments of his order,
+               there was something terrible in his air, something almost superhuman. His cowl too,
+               as it threw a shade over the livid paleness of his face, increased its severe
+               character, and gave an effect to his large melancholy eye which approached to horror.
+               His physiognomy bore the trace of many passions, which seemed to have fixed the
+               features they no longer animated. His eyes were so piercing that they seemed to
+               penetrate with a single glance into the hearts of men, and to read their most secret
+               thoughts; few persons could support their scrutiny, or even endure to meet them
+               twice." A striking figure for the painter to transfer to the canvass; perhaps some
+                  <pb n="vii"/>picture might originally have suggested it. The scene where this
+               singular character is on the point of murdering his own daughter, as she then appears
+               to be, is truly tragical, and wrought up with great strength and pathos. It is
+               impossible not to be interested in the situation of Ellen, in the convent, when her
+               lamp goes out while she is reading a paper on which her fate depends; and again when,
+               in making her escape, she has just got to the end of the long vaulted passage, and
+               finds the door locked, and herself betrayed. The scenes of the Inquisition are too
+               much protracted, and awaken more curiosity than they fully gratify; perhaps than any
+               story can gratify.</p>
+            <p> In novels of this kind, where the strong charm of suspense and mystery is employed,
+               we hurry through with suspended breath, and in a kind of agony of expectation; but
+               when we are come to the end of the story, the charm is dissolved, we have no wish to
+               read it again; we do not recur to it as we do to the characters of Western in <title>
+                  <hi rendition="#italics">Tom Jones</hi>
+               </title>,<note>1749 novel by <ref target="people.html#FieldingHenry">Henry
+                     Fielding</ref>.</note> or the Harrels in <hi rendition="#italics">
                   <title>Cecilia</title>;</hi>
-               <hi rendition="#sup">
-                  <note>1782 novel by <ref target="people.html#BurneyFanny">Fanny
-                            Burney</ref>.</note>
-               </hi> the interest is painfully strong while we
-                    read, and when once we have read it, it is nothing; we are ashamed of our
-                    feelings, and do not wish to recall them.</p>
-            <p> There are beauties in <ref target="people.html#RadcliffeAnn">Mrs.
-                        Radcliffe</ref>'s volumes, which would perhaps have more effect if our
-                    curiosity were less excited,—for her descriptions are rich and
-                    picturesque. Switzerland, the south of France, Venice, the valleys of Piedmont,
-                    the bridge, the cataract, and especially the charming bay of Naples, the dances
-                    of the peasants, with the vine-dressers and the fishermen, <pb n="viii"/>have
-                    employed her pencil. Though love is but of a secondary interest in her story,
-                    there is a good deal of tenderness in the parting scenes between Emily and
-                    Valancourt in <title>
-                  <hi rendition="#italics">The Mysteries of
-                        Udolpho</hi>
-               </title>, when she dismisses him, who is still the object of her
-                    tenderness, on account of his irregularities.</p>
+               <note>1782 novel by <ref target="people.html#BurneyFanny">Fanny Burney</ref>.</note>
+               the interest is painfully strong while we read, and when once we have read it, it is
+               nothing; we are ashamed of our feelings, and do not wish to recall them.</p>
+            <p> There are beauties in <ref target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>'s
+               volumes, which would perhaps have more effect if our curiosity were less excited,—for
+               her descriptions are rich and picturesque. Switzerland, the south of France, Venice,
+               the valleys of Piedmont, the bridge, the cataract, and especially the charming bay of
+               Naples, the dances of the peasants, with the vine-dressers and the fishermen, <pb
+                  n="viii"/>have employed her pencil. Though love is but of a secondary interest in
+               her story, there is a good deal of tenderness in the parting scenes between Emily and
+               Valancourt in <title>
+                  <hi rendition="#italics">The Mysteries of Udolpho</hi>
+               </title>, when she dismisses him, who is still the object of her tenderness, on
+               account of his irregularities.</p>
             <p> It ought not to be forgotten that there are many elegant pieces of poetry
-                    interspersed through the volumes of <ref target="people.html#RadcliffeAnn">Mrs.
-                        Radcliffe</ref>; among which are to be distinguished as exquisitely sweet
-                    and fanciful, the <title>
+               interspersed through the volumes of <ref target="people.html#RadcliffeAnn">Mrs.
+                  Radcliffe</ref>; among which are to be distinguished as exquisitely sweet and
+               fanciful, the <title>
                   <hi rendition="#italics">Song to a Spirit</hi>
-               </title>,
-                    and <title>
+               </title>, and <title>
                   <hi rendition="#italics">The Sea Nymph</hi>
-               </title>, "Down down
-                    a hundred fathom deep!"<hi rendition="#sup">
-                  <note>The first
-                            line of the poem "The Sea Nymph," which appears in Chapter II of
-                                    <title>
-                        <hi rendition="#italics">The Mysteries of
-                                Udolpho</hi>
-                     </title> is "Down, down a thousand fathom
-                        deep,".</note>
-               </hi> They might be sung by <ref target="people.html#ShakespeareWilliam">Shakespear</ref>'s Ariel. The
-                    true lovers of poetry are almost apt to regret its being brought in as an
-                    accompaniment to narrative, where it is generally neglected; for not one in a
-                    hundred, of those who read and can judge of novels, are at all able to
-                    appreciate the merits of a copy of verses, and the common reader is always
-                    impatient to get on with the story.</p>
+               </title>, "Down down a hundred fathom deep!"<note>The first line of the poem "The Sea
+                  Nymph," which appears in Chapter II of <title>
+                     <hi rendition="#italics">The Mysteries of Udolpho</hi>
+                  </title> is "Down, down a thousand fathom deep,".</note> They might be sung by
+                  <ref target="people.html#ShakespeareWilliam">Shakespear</ref>'s Ariel. The true
+               lovers of poetry are almost apt to regret its being brought in as an accompaniment to
+               narrative, where it is generally neglected; for not one in a hundred, of those who
+               read and can judge of novels, are at all able to appreciate the merits of a copy of
+               verses, and the common reader is always impatient to get on with the story.</p>
             <p>
                <title>
                   <hi rendition="#italics">The Sicilian</hi>
                </title> is the last of <ref target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>'s
-                        performances.<hi rendition="#sup">
-                  <note>Radcliffe's <hi rendition="#italics">
-                        <title>Gaston de Blondeville</title>
-                     </hi> was
-                            published posthumously in 1826.</note>
-               </hi> Some have said that, if she
-                    wishes to rise in the horrors of her next, she must place her scene in the
-                    infernal regions. She would not have many steps to descend thither from the
-                    courts of the Inquisition.</p>
+                  performances.<note>Radcliffe's <hi rendition="#italics">
+                     <title>Gaston de Blondeville</title>
+                  </hi> was published posthumously in 1826.</note> Some have said that, if she
+               wishes to rise in the horrors of her next, she must place her scene in the infernal
+               regions. She would not have many steps to descend thither from the courts of the
+               Inquisition.</p>
             <p> Mrs. <ref target="people.html#RadcliffeAnn">Radcliffe</ref> has also published,
-                    jointly with her husband, <title>
-                  <hi rendition="#italics">Travels in Germany and
-                            Holland</hi>
-               </title>. <hi rendition="#sup">
-                  <note>
-                     <title>
-                        <hi rendition="#italics">A Journey Made in the Summer of 1794,
-                                    through Holland and the Western Frontier of Germany, with a
-                                    Return Down the Rhine</hi>
-                     </title> (1795).</note>
-               </hi>
+               jointly with her husband, <title>
+                  <hi rendition="#italics">Travels in Germany and Holland</hi>
+               </title>. <note>
+                  <title>
+                     <hi rendition="#italics">A Journey Made in the Summer of 1794, through Holland
+                        and the Western Frontier of Germany, with a Return Down the Rhine</hi>
+                  </title> (1795).</note>
             </p>
          </div>
       </body>

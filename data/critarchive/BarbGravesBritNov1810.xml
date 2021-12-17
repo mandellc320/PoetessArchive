@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Graves</title>
-            <title type="sub" level="m">The British Novelists</title>
+            <title type="sub">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -38,8 +38,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="sub">with an Essay and Prefaces,
-                            Biographical and Critical</title>
+                  <title type="sub">with an Essay and Prefaces, Biographical and Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
                   </editor>
@@ -57,28 +56,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -92,15 +90,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -343,11 +350,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -477,7 +485,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -556,7 +564,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="7">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -569,7 +585,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy</item>
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="5">
@@ -584,7 +600,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers</item>
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
          <change who="#MW" when="2016-09-28" n="3">
@@ -616,171 +632,153 @@
    <text>
       <body>
          <div type="essay">
-            <head rendition="#center">
+            <head>
                <bibl>
                   <author type="writer">
                      <name>
                         <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
                      </name>
                   </author>
-                  <lb/>
-                  <title type="main" level="a">THE LIFE OF THE AUTHOR [<ref target="people.html#agravesRichard">Richard Graves</ref>].<hi rendition="#sup">
-                        <note>
-                           <title level="m">
-                              <hi rendition="#italics">The British Novelists;
-                                            with an Essay; and Prefaces, Biographical and Critical,
-                                            by <ref target="people.html#BarbauldMrs">Mrs. Barbauld</ref>
-                              </hi>
-                           </title>, 50 Vols. (London:
-                                    Printed for F.C. and J. Rivington; W. Otridge and Son; A.
-                                    Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
-                                    Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
-                                    Lea; J. Nunn; Lackington and Co.; Clarke and Son; C. Law;
-                                    Longman, Hurst, Rees, and Orme; Cadell and Davies; E. Jeffery;
-                                    J.K. Newman; Crosby and Co.; J. Carpenter; S. Bagster; T. Booth;
-                                    J. Murray; J. and J. Richardson; Black, Parry, and Kingsbury; J.
-                                    Harding; R. Phillips; J. Mawman; J. Booker; J. Asperne; R.
-                                    Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.; W.
-                                    Creech, Edinburgh; and Wilson and Son, York, 1810), 32: 1-5. This
-                                    essay appears prefaced to <title>
-                              <hi rendition="#italics">The
-                                            Spiritual Quixote; or, The Summer's Ramble of Mr.
-                                            Geoffry Wildgoose. A Comic Romance. To Which is Prefixed
-                                            The Life of the Author.</hi>
-                           </title> which is the <ref target="people.html#agravesRichard">Graves</ref>' novel
-                                    featured in the British Novelists series. Rachel Dejmal and Mary
-                                    A. Waters co-edited this essay for <hi rendition="#italics">The
-                                        Criticism Archive</hi>. </note>
-                     </hi>
+                  <title type="main" level="a">THE LIFE OF THE AUTHOR [<ref
+                        target="people.html#agravesRichard">Richard Graves</ref>].<note>
+                        <title level="m">
+                           <hi rendition="#italics">The British Novelists; with an Essay; and
+                              Prefaces, Biographical and Critical, by <ref
+                                 target="people.html#BarbauldMrs">Mrs. Barbauld</ref>
+                           </hi>
+                        </title>, 50 Vols. (London: Printed for F.C. and J. Rivington; W. Otridge
+                        and Son; A. Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
+                        Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R. Lea; J.
+                        Nunn; Lackington and Co.; Clarke and Son; C. Law; Longman, Hurst, Rees, and
+                        Orme; Cadell and Davies; E. Jeffery; J.K. Newman; Crosby and Co.; J.
+                        Carpenter; S. Bagster; T. Booth; J. Murray; J. and J. Richardson; Black,
+                        Parry, and Kingsbury; J. Harding; R. Phillips; J. Mawman; J. Booker; J.
+                        Asperne; R. Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.; W.
+                        Creech, Edinburgh; and Wilson and Son, York, 1810), 32: 1-5. This essay
+                        appears prefaced to <title>
+                           <hi rendition="#italics">The Spiritual Quixote; or, The Summer's Ramble
+                              of Mr. Geoffry Wildgoose. A Comic Romance. To Which is Prefixed The
+                              Life of the Author.</hi>
+                        </title> which is the <ref target="people.html#agravesRichard">Graves</ref>'
+                        novel featured in the British Novelists series. Rachel Dejmal and Mary A.
+                        Waters co-edited this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>. </note>
                   </title>
                </bibl>
             </head>
             <p rendition="#noindent">
-               <hi rendition="#largest">T</hi>HIS ingenious novel was the
-                    production of the Rev. <ref target="people.html#agravesRichard">Richard
-                        Graves</ref>, rector of Claverton in Somersetshire; a gentleman who has been
-                    considerably distinguished in the literary world for above half a century. His
-                    father was <ref target="people.html#agravesRichardSr.">Richard Graves</ref>, Esq.
-                    of Mickleton in Gloucestershire, who died in 1729, and was a man of learning,
-                    particularly in the history and antiquities of his country.</p>
+               <hi rendition="#largest">T</hi>HIS ingenious novel was the production of the Rev.
+                  <ref target="people.html#agravesRichard">Richard Graves</ref>, rector of Claverton
+               in Somersetshire; a gentleman who has been considerably distinguished in the literary
+               world for above half a century. His father was <ref
+                  target="people.html#agravesRichardSr.">Richard Graves</ref>, Esq. of Mickleton in
+               Gloucestershire, who died in 1729, and was a man of learning, particularly in the
+               history and antiquities of his country.</p>
             <p>The author of this work was born at Mickleton, the seat of his father and
-                    grandfather, on May 4, 1715, and received his early education under the Rev. Mr.
-                        Smith,<hi rendition="#sup">
-                  <note>David Oakleaf writes,
-                            "Educated at the school run by the local curate, William Smith,
-                                [<ref target="people.html#agravesRichard">Richard Graves</ref>] read
-                                <ref target="people.html#Hesiod">Hesiod</ref> and <ref target="people.html#Homer">Homer</ref> at the age of twelve."
-                            (Oakleaf, David. "Graves, Richard (1763-1829)." <hi rendition="#italics">
-                        <title>Oxford Dictionary of National
-                                    Biography</title>
-                     </hi>. Ed. H.C.G. Matthew and Brian Harrison.
-                            Vol. 23. New York: Oxford UP, 2004. 390.)</note>
-               </hi> the curate of the
-                    parish. About the age of thirteen he was removed thence to the school of
-                    Abingdon in Berkshire; the reputation of which, at that time, stood very high.
-                    At the age of sixteen, he was chosen scholar of Pembroke college, Oxford, where
-                    he was soon distinguished for uncommon proficiency.</p>
-            <p>Such was his eagerness for classical knowledge, that he had not been long at
-                    Oxford before he join-<lb/>
+               grandfather, on May 4, 1715, and received his early education under the Rev. Mr.
+                  Smith,<note>David Oakleaf writes, "Educated at the school run by the local curate,
+                  William Smith, [<ref target="people.html#agravesRichard">Richard Graves</ref>]
+                  read <ref target="people.html#Hesiod">Hesiod</ref> and <ref
+                     target="people.html#Homer">Homer</ref> at the age of twelve." (Oakleaf, David.
+                  "Graves, Richard (1763-1829)." <hi rendition="#italics">
+                     <title>Oxford Dictionary of National Biography</title>
+                  </hi>. Ed. H.C.G. Matthew and Brian Harrison. Vol. 23. New York: Oxford UP, 2004.
+                  390.)</note> the curate of the parish. About the age of thirteen he was removed
+               thence to the school of Abingdon in Berkshire; the reputation of which, at that time,
+               stood very high. At the age of sixteen, he was chosen scholar of Pembroke college,
+               Oxford, where he was soon distinguished for uncommon proficiency.</p>
+            <p>Such was his eagerness for classical knowledge, that he had not been long at Oxford
+               before he join-<lb/>
                <fw type="vol">
-                  <hi rendition="#smcaps">vol. xxxii</hi>.</fw>
-               <fw type="sig">
-                  <hi rendition="#smcaps">b</hi>
+                  <hi rendition="#smcaps">vol. xxxii.</hi>
                </fw>
-               <pb n="2"/> ed a small party of young men, who assembled in the evenings to read
-                        <ref target="people.html#Epictetus">Epictetus</ref>, <ref target="people.html#Theophrastus">Theophrastus</ref>, and such Greek
-                    authors as were not, at that time, recommended in the common course of study;
-                    and it is much to the credit of this party, that their only beverage at these
-                    meetings, was water. It was about this time that he became acquainted with <ref target="people.html#ShenstoneWilliam">Shenstone</ref> the poet; and their
-                    intimacy, which continued till the death of the latter, was frequently renewed
-                    by epistolary correspondence, part of which has been published. There does not
-                    appear to have been a perfect coincidence of sentiment between them in matters
-                    of taste; but in general there was a congeniality, and a harmony of opinion and
-                    friendship, which added not inconsiderably to the happiness of both.</p>
+               <fw type="sig"><hi rendition="#smcaps">b</hi></fw>
+               <pb n="2"/> ed a small party of young men, who assembled in the evenings to read <ref
+                  target="people.html#Epictetus">Epictetus</ref>, <ref
+                  target="people.html#Theophrastus">Theophrastus</ref>, and such Greek authors as
+               were not, at that time, recommended in the common course of study; and it is much to
+               the credit of this party, that their only beverage at these meetings, was water. It
+               was about this time that he became acquainted with <ref
+                  target="people.html#ShenstoneWilliam">Shenstone</ref> the poet; and their
+               intimacy, which continued till the death of the latter, was frequently renewed by
+               epistolary correspondence, part of which has been published. There does not appear to
+               have been a perfect coincidence of sentiment between them in matters of taste; but in
+               general there was a congeniality, and a harmony of opinion and friendship, which
+               added not inconsiderably to the happiness of both.</p>
             <p>In 1736, <ref target="people.html#agravesRichard">Mr. Graves</ref> having left
-                    Pembroke, was elected a fellow of All Souls; but, instead of pursuing
-                    theological studies, as he first intended, he was led to the study of physic,
-                    and attended two courses of anatomical lectures in London. From this, however,
-                    he was diverted by a long and dangerous illness, which left him in a very
-                    languid state; and on his recovery, he resumed his original intention, and was
-                    admitted to holy orders in 1740, at which time also he took his master's
-                    degree.</p>
-            <p>Some time after he went to reside with <ref target="people.html#FitzherbertWilliam">Mr. Fitzherbert</ref>, at Tissington
-                    in Derbyshire, who had a donative in his gift, and was desirous of the company
-                    of a clergyman. In this house, <ref target="people.html#agravesRichard">Mr.
-                        Graves</ref> enjoyed the advantage of elegant society for nearly<pb n="3"/>
-                    three years. While making a tour in the north, he accidentally met with a
-                    relation at Scarborough, <ref target="people.html#KnightSamuel">Dr. Samuel
-                        Knight</ref>, archdeacon of Berkshire, by whose recommendation he obtained a
-                    curacy near Oxford; which, at this time, became necessary, as he had come into
-                    office in his college, and was obliged to reside within a convenient distance.
-                    For this purpose he lodged with a gentleman farmer in the neighbourhood, whose
-                    youngest daughter, a very amiable young lady, so far captivated him, that he
-                    resigned his fellowship and married her.<hi rendition="#sup">
-                  <note>In late 1746 or early 1747 <ref target="people.html#agravesRichard">Graves</ref> eloped with Lucy Bartholomew, the daughter of an
-                            Aldworth farmer.</note>
-               </hi> This incident, with some fictitious
-                    circumstances, is supposed to be related in the present work, in the history of
-                    Mr. Rivers.</p>
-            <p>About the year 1750, he was presented by <ref target="people.html#SkrineWilliam">Mr. Skrine</ref> to the rectory of Claverton, on which he resided very
-                    constantly during the whole of his life; and filled up his time, as well as
-                    improved his circumstances, by taking a few pupils to be educated with his
-                    children. In 1763 he was presented to the living of Kilmersdon, through the
-                    interest of his steady friend <ref target="people.html#AllenRalph">Ralph
-                        Allen</ref>, Esq. of Prior Park, who likewise procured him a scarf<hi rendition="#sup">
-                  <note>In token of Graves's appointment as
-                            Lady Chatham's chaplain.</note>
-               </hi> from <ref target="people.html#PittHester">Lady Chatham</ref>.</p>
+               Pembroke, was elected a fellow of All Souls; but, instead of pursuing theological
+               studies, as he first intended, he was led to the study of physic, and attended two
+               courses of anatomical lectures in London. From this, however, he was diverted by a
+               long and dangerous illness, which left him in a very languid state; and on his
+               recovery, he resumed his original intention, and was admitted to holy orders in 1740,
+               at which time also he took his master's degree.</p>
+            <p>Some time after he went to reside with <ref target="people.html#FitzherbertWilliam"
+                  >Mr. Fitzherbert</ref>, at Tissington in Derbyshire, who had a donative in his
+               gift, and was desirous of the company of a clergyman. In this house, <ref
+                  target="people.html#agravesRichard">Mr. Graves</ref> enjoyed the advantage of
+               elegant society for nearly<pb n="3"/> three years. While making a tour in the north,
+               he accidentally met with a relation at Scarborough, <ref
+                  target="people.html#KnightSamuel">Dr. Samuel Knight</ref>, archdeacon of
+               Berkshire, by whose recommendation he obtained a curacy near Oxford; which, at this
+               time, became necessary, as he had come into office in his college, and was obliged to
+               reside within a convenient distance. For this purpose he lodged with a gentleman
+               farmer in the neighbourhood, whose youngest daughter, a very amiable young lady, so
+               far captivated him, that he resigned his fellowship and married her.<note>In late
+                  1746 or early 1747 <ref target="people.html#agravesRichard">Graves</ref> eloped
+                  with Lucy Bartholomew, the daughter of an Aldworth farmer.</note> This incident,
+               with some fictitious circumstances, is supposed to be related in the present work, in
+               the history of Mr. Rivers.</p>
+            <p>About the year 1750, he was presented by <ref target="people.html#SkrineWilliam">Mr.
+                  Skrine</ref> to the rectory of Claverton, on which he resided very constantly
+               during the whole of his life; and filled up his time, as well as improved his
+               circumstances, by taking a few pupils to be educated with his children. In 1763 he
+               was presented to the living of Kilmersdon, through the interest of his steady friend
+                  <ref target="people.html#AllenRalph">Ralph Allen</ref>, Esq. of Prior Park, who
+               likewise procured him a scarf<note>In token of Graves's appointment as Lady Chatham's
+                  chaplain.</note> from <ref target="people.html#PittHester">Lady Chatham</ref>.</p>
             <p>Although <ref target="people.html#agravesRichard">Mr. Graves</ref> frequently
-                    employed his pen on light and gay subjects, he did not commence author until the
-                    year 1765, when he published <title>The Festoon</title>, a collection of
-                    Epigrams, chosen with great judgment, and prefaced by a valuable critical essay
-                    on that species of composition, for which he received a silver medal, offered
-                    by<lb/>
-               <fw type="sig">
-                  <hi rendition="#smcaps">b 2</hi>
-               </fw>
-               <pb n="4"/> the
-                    proprietors of a periodical work for the best essay on that subject. The success
-                    of <title>The Festoon</title> was, however, not great; although, perhaps, as
-                    much as he expected. It was followed, at short intervals, by <title>Lucubrations
-                        in Prose and Rhime</title> — <title>The Spiritual Quixote</title>
-                    — <title>A Treatise on Politeness</title>, translated from the Italian of
-                        <ref target="people.html#DellaCasaGiovanni">De la Casa</ref>, archbishop of
-                    Benevento — <title>Columella, or the Distressed Anchorite</title> —
-                        <title>Euphrosyne</title>, consisting of poetical pieces —
-                        <title>Eugenius, or Anecdotes of the Golden Vale</title> —
-                        <title>Recollections of some Particulars in the Life of <ref target="people.html#ShenstoneWilliam">Mr. Shenstone</ref>
-               </title>
-                    — <title>Plexippus, or the Aspiring Plebeian</title> — <title>The
-                        Rout-Fleurettes</title>, a translation of Archbishop <ref target="people.html#FenelonFrancois">Fenelon</ref>'s <title>Ode on
-                        Solitude</title>, &amp;c. — <title>The Life of Commodus</title>, from
-                    the Greek of <ref target="people.html#Herodian">Herodian</ref> — <title>Hiero, on
-                        the Condition of Royalty</title>, from <ref target="people.html#Xenophon">Xenophon</ref>
-                    — <title>The Meditations of <ref target="people.html#AureliusMarcus">Antoninus</ref>
-               </title>, from the Greek — <title>The Reveries of
-                        Solitude</title> — <title>The Coalition, or Rehearsal of the Pastoral
-                            Opera of Echo and Narcissus</title> — <title>Sermons on various Subjects</title>
-                    — <title>The Farmer's Son</title>, as a counterpart to <ref target="people.html#AnsteyChristopher">Mr. Anstey</ref>'s
-                        <title>Farmer's Daughter</title> — <title>The Invalid, with the
-                        obvious Means of enjoying Long Life, by a Nonagenarian</title> — and
-                        <title>Senilities</title>.</p>
-            <p>The merit of these compositions is various; but the general character of all <ref target="people.html#agravesRichard">Mr. Graves</ref>'s works resolves
-                    itself into benevolence, instruction, and harmless amusement. He was himself the
-                    amiable character he frequently portrays; and, by habits of cheerfulness and
-                    temperance, prolonged his life free from blame and care, until his ninetieth
-                    year, when he expired after a very short illness.<pb n="5"/>
+               employed his pen on light and gay subjects, he did not commence author until the year
+               1765, when he published <title>The Festoon</title>, a collection of Epigrams, chosen
+               with great judgment, and prefaced by a valuable critical essay on that species of
+               composition, for which he received a silver medal, offered by<lb/><fw type="sig"><hi
+                     rendition="#smcaps">b 2</hi></fw>
+               <pb n="4"/> the proprietors of a periodical work for the best essay on that subject.
+               The success of <title>The Festoon</title> was, however, not great; although, perhaps,
+               as much as he expected. It was followed, at short intervals, by <title>Lucubrations
+                  in Prose and Rhime</title> — <title>The Spiritual Quixote</title> — <title>A
+                  Treatise on Politeness</title>, translated from the Italian of <ref
+                  target="people.html#DellaCasaGiovanni">De la Casa</ref>, archbishop of Benevento —
+                  <title>Columella, or the Distressed Anchorite</title> — <title>Euphrosyne</title>,
+               consisting of poetical pieces — <title>Eugenius, or Anecdotes of the Golden
+                  Vale</title> — <title>Recollections of some Particulars in the Life of <ref
+                     target="people.html#ShenstoneWilliam">Mr. Shenstone</ref>
+               </title> — <title>Plexippus, or the Aspiring Plebeian</title> — <title>The
+                  Rout-Fleurettes</title>, a translation of Archbishop <ref
+                  target="people.html#FenelonFrancois">Fenelon</ref>'s <title>Ode on
+                  Solitude</title>, &amp;c. — <title>The Life of Commodus</title>, from the Greek of
+                  <ref target="people.html#Herodian">Herodian</ref> — <title>Hiero, on the Condition
+                  of Royalty</title>, from <ref target="people.html#Xenophon">Xenophon</ref> —
+                  <title>The Meditations of <ref target="people.html#AureliusMarcus">Antoninus</ref>
+               </title>, from the Greek — <title>The Reveries of Solitude</title> — <title>The
+                  Coalition, or Rehearsal of the Pastoral Opera of Echo and Narcissus</title> —
+                  <title>Sermons on various Subjects</title> — <title>The Farmer's Son</title>, as a
+               counterpart to <ref target="people.html#AnsteyChristopher">Mr. Anstey</ref>'s
+                  <title>Farmer's Daughter</title> — <title>The Invalid, with the obvious Means of
+                  enjoying Long Life, by a Nonagenarian</title> — and <title>Senilities</title>.</p>
+            <p>The merit of these compositions is various; but the general character of all <ref
+                  target="people.html#agravesRichard">Mr. Graves</ref>'s works resolves itself into
+               benevolence, instruction, and harmless amusement. He was himself the amiable
+               character he frequently portrays; and, by habits of cheerfulness and temperance,
+               prolonged his life free from blame and care, until his ninetieth year, when he
+               expired after a very short illness.<pb n="5"/>
             </p>
-            <p>Of the works now enumerated, the <title>Spiritual Quixote</title>, has been by
-                    far the most popular. Independent of the design, which at the time of
-                    publication, was an object of some importance, the execution of it made it soon
-                    be ranked among those productions which are chiefly admired for ingenuity of
-                    fiction. By occasionally introducing real characters and authenticated
-                    narratives, he has also diffused a charm over the whole, by which curiosity is
-                    excited and gratified in the most pleasing manner. <lb/>
-               <fw type="sig">
-                  <hi rendition="#smcaps">b 3</hi>
-               </fw>
+            <p>Of the works now enumerated, the <title>Spiritual Quixote</title>, has been by far
+               the most popular. Independent of the design, which at the time of publication, was an
+               object of some importance, the execution of it made it soon be ranked among those
+               productions which are chiefly admired for ingenuity of fiction. By occasionally
+               introducing real characters and authenticated narratives, he has also diffused a
+               charm over the whole, by which curiosity is excited and gratified in the most
+               pleasing manner. <lb/><fw type="sig"><hi rendition="#smcaps">b 3</hi></fw>
             </p>
          </div>
       </body>

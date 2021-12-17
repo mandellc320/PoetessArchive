@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">"On Novel Writing"</title>
-            <title type="sub" level="j">The Literary Magazine and American
+            <title type="sub">The Literary Magazine and American
 					Register</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
@@ -50,28 +50,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+        				placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p>
                <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+        				such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -548,20 +547,21 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="7">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below
+						but starting with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
                <item>Added header teiHeader07232021.xml</item>
                <item>changed milestone sig to fw sig</item>
                <item>inserted line break before fw</item>
-            </list>
-         </change>
-         <change who="#LM" when="20200611" n="6">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added full text taxonomy</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="5">
@@ -576,7 +576,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers</item>
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
          <change who="#MW" when="2016-07-15" n="3">
@@ -603,20 +603,19 @@
          </change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xmlns:PA="http://www.poetessarchive.org/#schema">
       <body>
          <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
                      <ref target="people.html#BarbauldMrs">
-                        <name>Anna Letitia Barbauld</name>
+                        <name>Anna Letitia
+								Barbauld</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
-                     <hi rendition="#smcaps">
-                        <lb/>on novel writing</hi>.<lb/>
+                     <hi rendition="#smcaps">on novel writing</hi>.<lb/>
                      <hi rendition="#italics">
                         <ref target="people.html#BarbauldMrs">By
 									Mrs. Barbauld.</ref>
@@ -701,17 +700,15 @@
                   </hi> is an early-sixteenth century romance by <ref target="people.html#RodriquezdeMontalvo">Rodríguez de
 								Montalvo"</ref> with versions preceeding it by a century or more.
 								<ref target="people.html#SoutheyRobert">Robert Southey</ref>'s
-							translation into English appeared in 1803. </note>
-                They were truly
+							translation into English appeared in 1803. </note> They were truly
 					historical, but they heightened the traditionary adventures of heroes with
 					marvellous tales of giants, enchantments, and other supernatural contrivances.
 					But we must not suppose that even these fictions were always regarded, as we now
 					regard them, as the mere play of fancy: "<hi rendition="#italics">le vrai
-						seul est aimable</hi>"<note>"the truth alone is beautiful"; <ref target="people.html#Boileau">Boileau</ref>, <title>
+						seul est aimable</hi>" <note>"the truth alone is beautiful"; <ref target="people.html#Boileau">Boileau</ref>, <title>
                      <hi rendition="#italics">Epitre IX</hi>
                   </title> (1674) 43.
-						</note>
-                was always so far a maxim, that no work of fancy can greatly
+						</note> was always so far a maxim, that no work of fancy can greatly
 					succeed, which is not founded on popular belief: but what is truth? In ancient
 					times, talismans, and sympathetic powders, and all-healing charms, were
 					generally credited.</p>
@@ -721,14 +718,12 @@
                   <hi rendition="#italics">Orlando
 						Furioso</hi>
                </title>
-               <note>By <ref target="people.html#Ariosto">Ariosto</ref>.</note>
-                is a
+               <note>By <ref target="people.html#Ariosto">Ariosto</ref>.</note> is a
 					chivalrous romance in verse. </p>
             <p> As the spirit of warlike adventure subsided, these fictions softened, by
 					degrees, into the languishing and amorous tales of the French school....into
 						<title>Clelias</title> and <title>Cassandras</title>.<note>Novels by <ref target="people.html#ScuderyMadeleine">Mme. de Scudéry</ref> and <ref target="people.html#LaCalprenede">La Calprenède</ref>
-							respectively.</note>
-                I might, indeed, have mentioned, before these,
+							respectively.</note> I might, indeed, have mentioned, before these,
 					a romance of a peculiar kind, the <title>Astrea</title> of <ref target="people.html#UrfeHonored">d' Urfé</ref>, which all France
 					read with eagerness, when first published. It is a pastoral romance, and its
 					celebrity was owing to its abounding with allusions to the amours of the court
@@ -858,8 +853,7 @@
                      <hi rendition="#italics">Spectator</hi>
                   </title> No. 37 (Thursday,
 							April 12, 1711). The novels are by <ref target="people.html#UrfeHonored">d'Urfé</ref> and <ref target="people.html#ScuderyMadeleine">Mme. de
-							Scudéry</ref>.</note>
-                but there does not occur either there,
+							Scudéry</ref>.</note> but there does not occur either there,
 					or, I believe, in any other part of the work, the name of one English novel, the
 						<title>Atalantis</title> excepted. Plays are often mentioned as a favourite
 					and dangerous part of ladies' reading. </p>
@@ -899,8 +893,7 @@
                   <title>
                      <hi rendition="#italics">Rambler</hi>
                   </title> 97 (Tuesday, February
-							19, 1751).</note>
-                The novelist has, indeed, all the advantage of
+							19, 1751).</note> The novelist has, indeed, all the advantage of
 					the preacher in introducing useful maxims and sentiments of virtue; an advantage
 					which <ref target="people.html#RichardsonSamuel">Richardson</ref> made large use
 					of; and he has besides the power of impressing them upon the heart, through the

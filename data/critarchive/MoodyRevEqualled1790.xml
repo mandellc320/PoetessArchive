@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Art. 46. The Negroe equalled by few Europeans.</title>
-            <title type="sub" level="j">The Monthly Review</title>
+            <title type="sub">The Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -32,8 +32,7 @@
             <biblStruct>
                <analytic>
                   <title type="main" level="a">Art. 46. The Negroe equalled by few Europeans.
-                            Translated from the French. 12mo. 3 Vols. 9s. Sewed. Robinsons.
-                            1790.</title>
+                     Translated from the French. 12mo. 3 Vols. 9s. Sewed. Robinsons. 1790.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -51,28 +50,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -86,15 +84,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -337,11 +344,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -471,7 +479,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -549,7 +557,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="5">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -599,79 +615,73 @@
                         <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title>Art. 46. <hi rendition="#italics">The Negroe equalled by few
-                                Europeans.</hi> Translated from the French. 12mo. 3 Vols. 9s. Sewed.
-                            Robinsons. 1790.<hi rendition="#sup">
-                        <note>[<ref target="people.html#LavalléeJoseph">Joseph
-                                        Lavallée</ref>] <title>
-                              <hi rendition="#italics">The
-                                            Monthly Review</hi>
-                           </title>, second series, vol. 3,
-                                    November 1790, pp. 348-349. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's marked
-                                    copy of <hi rend="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-                                                Review</ref>
-                              </title>
-                           </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-                                            Series, 1790-1815: Indexes of Contributors and
-                                            Articles</title>
-                           </hi>, Clarendon Press, 1955. Jonathan
-                                    Pinkerton and Mary A. Waters prepared this edition for <hi rendition="#italics">The Criticism Archive</hi>.</note>
-                     </hi>
+                        Europeans.</hi> Translated from the French. 12mo. 3 Vols. 9s. Sewed.
+                     Robinsons. 1790.<note>[<ref target="people.html#LavalléeJoseph">Joseph
+                           Lavallée</ref>] <title>
+                           <hi rendition="#italics">The Monthly Review</hi>
+                        </title>, second series, vol. 3, November 1790, pp. 348-349. Benjamin Nangle
+                        identifies <ref target="people.html#MoodyElizabeth">
+                           <name>Elizabeth Moody</name>
+                        </ref> as the author of this review from an editor's marked copy of <hi
+                           rendition="#italics">
+                           <title>
+                              <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                           </title>
+                        </hi>. See Nangle, <hi rendition="#italics">
+                           <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                              Contributors and Articles</title>
+                        </hi>, Clarendon Press, 1955. Jonathan Pinkerton and Mary A. Waters prepared
+                        this edition for <hi rendition="#italics">The Criticism Archive</hi>.</note>
                   </title>
                </bibl>
             </head>
             <p>Among a variety of incidents, this story contains some that are interesting and
-                    amusing: but what must principally recommend it to those readers whose hearts
-                    partake of the milk of human kindness, is the gentle and amiable spirit of
-                    benevolence that seems to inspire the pen of the author: most pathetically does
-                    it plead the cause of that unfortunate race, whose wretched existence has for
-                    many years been made subservient to the purposes of fostering the base passions
-                    of avarice and pride. If Negroes were indeed such as <ref target="people.html#LavalléeJoseph">this author</ref> represents them,
-                    so superior are they in virtue to Eu-<lb/>
-               <fw type="sig" rendition="#center">2</fw>
-               <pb n="349"/>ropeans, that instead of being our slaves,
-                    they ought to be our masters: the picture, however, we fancy, is <hi rendition="#italics">too highly coloured</hi>. Itanoka, the principal
-                    figure, verifies what the title of the book asserts; he is indeed <title>
+               amusing: but what must principally recommend it to those readers whose hearts partake
+               of the milk of human kindness, is the gentle and amiable spirit of benevolence that
+               seems to inspire the pen of the author: most pathetically does it plead the cause of
+               that unfortunate race, whose wretched existence has for many years been made
+               subservient to the purposes of fostering the base passions of avarice and pride. If
+               Negroes were indeed such as <ref target="people.html#LavalléeJoseph">this
+                  author</ref> represents them, so superior are they in virtue to Eu-<lb/><fw type="sig"
+                  >2</fw>
+               <pb n="349"/>ropeans, that instead of being our slaves, they ought to be our masters:
+               the picture, however, we fancy, is <hi rendition="#italics">too highly coloured</hi>.
+               Itanoka, the principal figure, verifies what the title of the book asserts; he is
+               indeed <title>
                   <hi rendition="#italics">a Negroe equalled by few Europeans</hi>
-               </title>;
-                    possessing a portion of virtue that borders on a <hi rendition="#italics">monopoly</hi>; and we cannot help wishing that some of it could be brought
-                    to our market, and distributed among our <hi rendition="#italics">white
-                        brethren</hi>. Itanoka, after having encountered various misfortunes,
-                    (brought on him by the perfidy and ingratitude of Europeans,) becomes, by a
-                    sudden transition from adversity to prosperity, the master of a plantation, and
-                    the ruler over slaves whose fellow-slave he had been. This revolution affords
-                    him an opportunity of contrasting his amiable humanity with the diabolical
-                    tyranny and oppression of the European masters; whose injustice and barbarity to
-                    the poor Africans, he frequently (with what truth or justice we know not,)
-                    describes, and as frequently reprobates. 'If riches,' says he,
-                    addressing himself to them, 'which offer the means of solacing human
-                    miseries, have served to harden your minds; if the sciences, whose object is to
-                    enlighten men, have but increased your pride; if your compassionate religion has
-                    no influence on your hearts; you must be the most vile, the most corrupt of men;
-                    to possess all the treasures which can give energy to virtue, and to turn them
-                    all into the means of vice! It is a degree of depravity, of which the whole
-                    world beside gives no example.'</p>
+               </title>; possessing a portion of virtue that borders on a <hi rendition="#italics"
+                  >monopoly</hi>; and we cannot help wishing that some of it could be brought to our
+               market, and distributed among our <hi rendition="#italics">white brethren</hi>.
+               Itanoka, after having encountered various misfortunes, (brought on him by the perfidy
+               and ingratitude of Europeans,) becomes, by a sudden transition from adversity to
+               prosperity, the master of a plantation, and the ruler over slaves whose fellow-slave
+               he had been. This revolution affords him an opportunity of contrasting his amiable
+               humanity with the diabolical tyranny and oppression of the European masters; whose
+               injustice and barbarity to the poor Africans, he frequently (with what truth or
+               justice we know not,) describes, and as frequently reprobates. 'If riches,' says he,
+               addressing himself to them, 'which offer the means of solacing human miseries, have
+               served to harden your minds; if the sciences, whose object is to enlighten men, have
+               but increased your pride; if your compassionate religion has no influence on your
+               hearts; you must be the most vile, the most corrupt of men; to possess all the
+               treasures which can give energy to virtue, and to turn them all into the means of
+               vice! It is a degree of depravity, of which the whole world beside gives no
+               example.'</p>
             <p>It is painful to us to dwell on the instances of cruelty here said to have been
-                    inflicted by the white people, on a feeble, subdued, defenceless race; to read
-                    of whips and scourges, hard labour, short allowances of food and sleep, joined
-                    to the loss of liberty, and the separation from friends and dearest connections.
-                    We must therefore dismiss the melancholy subject, and seek relief in the
-                    consolatory hope, that religion and morality will diffuse the light of their
-                    truths more and more on European hearts; and lead them to consider that humanity
-                    is a principle which not only endears man most to his fellow-creatures, but is
-                    undoubtedly that which will make him most acceptable to his Creator; and that
-                    however men may be induced to suppose themselves authorized by prejudice,
-                    custom, and the law of nations, to usurp a dominion over the unhappy Negroes,
-                    and to exercise that dominion with injustice—whatever appeal they may make
-                    from their consciences to <hi rendition="#italics">these tribunals,</hi> let
-                    them remember, that an hour will most assuredly come, when they will be judged
-                    at a tribunal from which there will be no appeal.</p>
+               inflicted by the white people, on a feeble, subdued, defenceless race; to read of
+               whips and scourges, hard labour, short allowances of food and sleep, joined to the
+               loss of liberty, and the separation from friends and dearest connections. We must
+               therefore dismiss the melancholy subject, and seek relief in the consolatory hope,
+               that religion and morality will diffuse the light of their truths more and more on
+               European hearts; and lead them to consider that humanity is a principle which not
+               only endears man most to his fellow-creatures, but is undoubtedly that which will
+               make him most acceptable to his Creator; and that however men may be induced to
+               suppose themselves authorized by prejudice, custom, and the law of nations, to usurp
+               a dominion over the unhappy Negroes, and to exercise that dominion with
+               injustice—whatever appeal they may make from their consciences to <hi
+                  rendition="#italics">these tribunals,</hi> let them remember, that an hour will
+               most assuredly come, when they will be judged at a tribunal from which there will be
+               no appeal.</p>
          </div>
       </body>
    </text>

@@ -3,9 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Art. 20. The Morlands. Tales illustrative of the Simple
-                    and Surprising.</title>
-            <title type="sub" level="j">The Monthly Review</title>
+            <title type="main" level="a">Art. 20. The Morlands. Tales illustrative of the Simple and
+               Surprising.</title>
+            <title type="sub">The Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -32,9 +32,9 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. 20. The Morlands. Tales illustrative of
-                            the Simple and Surprising. By R. C. Dallas, Esq. 12mo. 4 Vols. 1l. 1s.
-                            Boards. Longman and Co.</title>
+                  <title type="main" level="a">Art. 20. The Morlands. Tales illustrative of the
+                     Simple and Surprising. By R. C. Dallas, Esq. 12mo. 4 Vols. 1l. 1s. Boards.
+                     Longman and Co.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -52,28 +52,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -87,15 +86,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -338,11 +346,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -472,7 +481,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -551,7 +560,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="4">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -586,7 +603,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="essay" org="uniform" sample="complete" part="N">
+         <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
@@ -594,81 +611,77 @@
                         <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title>Art. 20. <hi rendition="#italics">The Morlands</hi>. Tales
-                            illustrative of the Simple and Surprising. By <ref target="people.html#DallasRobertCharles">R. C. Dallas, Esq.</ref>
-                            12mo. 4 Vols. 1l. 1s. Boards. Longman and Co.<hi rendition="#sup">
-                        <note>
+                  <title>Art. 20. <hi rendition="#italics">The Morlands</hi>. Tales illustrative of
+                     the Simple and Surprising. By <ref target="people.html#DallasRobertCharles">R.
+                        C. Dallas, Esq.</ref> 12mo. 4 Vols. 1l. 1s. Boards. Longman and Co.<note>
+                        <title>
+                           <hi rendition="#italics">The Monthly Review</hi>
+                        </title>, vol. 50, second series, July 1806, pp. 317-318. Benjamin Nangle
+                        identifies <ref target="people.html#MoodyElizabeth">
+                           <name>Elizabeth Moody</name>
+                        </ref> as the author of this review from an editor's marked copy of <hi
+                           rendition="#italics">
                            <title>
-                              <hi rendition="#italics">The Monthly
-                                            Review</hi>
-                           </title>, vol. 50, second series, July 1806, pp.
-                                317-318. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's
-                                marked copy of <hi rend="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-                                    Review</ref>
-                              </title>
-                           </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-                                            Series, 1790-1815: Indexes of Contributors and
-                                            Articles</title>
-                           </hi>, Clarendon Press, 1955. Jonathan Pinkerton and Mary A. Waters created this edition for <hi rendition="#italics                                                 ">The Criticism Archive</hi>.</note>
-                     </hi>
+                              <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                           </title>
+                        </hi>. See Nangle, <hi rendition="#italics">
+                           <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                              Contributors and Articles</title>
+                        </hi>, Clarendon Press, 1955. Jonathan Pinkerton and Mary A. Waters created
+                        this edition for <hi
+                           rendition="#italics                                                 ">The
+                           Criticism Archive</hi>.</note>
                   </title>
                </bibl>
             </head>
-            <p>We perfectly agree with Mr. <ref target="people.html#DallasRobertCharles">Dallas</ref> that the value of these works of imagination consists in the
-                    faithful picture of mankind which they present; and that 'when the author
-                    transports the reader into the regions of improbability, his only view is to
-                    amuse idleness and to gratify wonder,—the passion of children.' <ref target="people.html#DallasRobertCharles">Mr. D</ref>'s just
-                    discriminations of character are evidences of his acquaintance with the world;
-                    and the blended lights and shades, with which his pictures, make them as the
-                    French say "<hi rendition="#italics">sauter aux yeux</hi>."<hi rendition="#sup">
-                  <note> Springs to the eyes; to become
-                            vividly evident.</note>
-               </hi> These lights and shades constitute the tempered
-                    virtues which form that kind of equivocal character "<hi rendition="#italics">good in the main</hi>;" and personages of this
-                    description are the friends of Morland. The Curate of Reading, though
-                    affectionately interested in Morland's welfare, comes suddenly into his
-                    room like Job's messenger, and acquaints him with the series of misfortunes
-                    that had befallen him,—the death of his only protectress, the privation of
-                    his little fortune, of his situation, of his studies, of his every happiness in
-                    life,—with the most philosophic apathy, though with tears in his eyes, and
-                    the sympathetic address on opening his Pandora's box, of<pb n="318"/>"having bad news to tell his <hi rendition="#italics">dear
-                    Ned</hi>." In this well wrought dialogue, we see one of Job's
-                    comforters sitting for the picture of the Reading Curate; and from this
-                    conference we pass to the reception which Morland experiences from the Vicar of
-                    Holcomb, and which may serve as a farther illustration of the truth of the
-                    proposition, "that gifts of benevolence and humanity are not <hi rendition="#italics">always</hi> brought in baskets of
-                    flowers."—The comic scene of the passionate Whitaker, who quarrels
-                    with his tables and chairs for being placed on castors, and spinning him round
-                    the room, owing to an angry jerk given by himself in the rage of disappointment,
-                    it is worthy of <ref target="people.html#Moliere">
+            <p>We perfectly agree with Mr. <ref target="people.html#DallasRobertCharles"
+                  >Dallas</ref> that the value of these works of imagination consists in the
+               faithful picture of mankind which they present; and that 'when the author transports
+               the reader into the regions of improbability, his only view is to amuse idleness and
+               to gratify wonder,—the passion of children.' <ref
+                  target="people.html#DallasRobertCharles">Mr. D</ref>'s just discriminations of
+               character are evidences of his acquaintance with the world; and the blended lights
+               and shades, with which his pictures, make them as the French say "<hi
+                  rendition="#italics">sauter aux yeux</hi>."<note> Springs to the eyes; to become
+                  vividly evident.</note> These lights and shades constitute the tempered virtues
+               which form that kind of equivocal character "<hi rendition="#italics">good in the
+                  main</hi>;" and personages of this description are the friends of Morland. The
+               Curate of Reading, though affectionately interested in Morland's welfare, comes
+               suddenly into his room like Job's messenger, and acquaints him with the series of
+               misfortunes that had befallen him,—the death of his only protectress, the privation
+               of his little fortune, of his situation, of his studies, of his every happiness in
+               life,—with the most philosophic apathy, though with tears in his eyes, and the
+               sympathetic address on opening his Pandora's box, of<pb n="318"/>"having bad news to
+               tell his <hi rendition="#italics">dear Ned</hi>." In this well wrought dialogue, we
+               see one of Job's comforters sitting for the picture of the Reading Curate; and from
+               this conference we pass to the reception which Morland experiences from the Vicar of
+               Holcomb, and which may serve as a farther illustration of the truth of the
+               proposition, "that gifts of benevolence and humanity are not <hi rendition="#italics"
+                  >always</hi> brought in baskets of flowers."—The comic scene of the passionate
+               Whitaker, who quarrels with his tables and chairs for being placed on castors, and
+               spinning him round the room, owing to an angry jerk given by himself in the rage of
+               disappointment, it is worthy of <ref target="people.html#Moliere">
                   <hi rendition="#italics">Moliere</hi>
-               </ref>; and the dialogue that follows, between Morland and
-                    the Vicar, is a finish to the picture.—The reader will not resign his
-                    pleasure here, but will pursue the narrative with sufficient interest in the
-                    fate of the hero, through a long journey of three volumes, without impatience
-                    for that harbour of rest, the <hi rendition="#italics">denouement</hi>; yet,
-                    that we may not trespass on the rules of our critical veracity, we must confess
-                    a <hi rendition="#italics">gape</hi> or <hi rendition="#italics">two</hi> on the
-                    fantastic scenery at <hi rendition="#italics">Broke Hall</hi>, and the
-                    exaggerated character of the lady of that mansion. Many excellent reflections,
-                    and precepts of the best morality, occur in the work: we wish that our young
-                    Collegians were all <hi rendition="#italics">Morlands;</hi> and that the family
-                    of the Jones's would people a colony!—Having already given our
-                    sentiments on works of the imagination, and agreed with Mr. D. that such will
-                    please most as are most restrained within the pale of probability, we may be
-                    supposed to have no partiality for the second tale, which forms the fourth
-                    volume; indeed we may be allowed to wish that Mr. D. had not thought it
-                    necessary to maintain his position by the proof of illustration, which exhibits
-                    a narrative of events as romantic as the fictions of <ref target="people.html#Ariosto">Ariosto</ref>. We also disapprove the plan of
-                    fabricating one story on the basis of a preceding tale: it is building one house
-                    on the top of another, and exposing them to the chance of both falling
-                    together.</p>
+               </ref>; and the dialogue that follows, between Morland and the Vicar, is a finish to
+               the picture.—The reader will not resign his pleasure here, but will pursue the
+               narrative with sufficient interest in the fate of the hero, through a long journey of
+               three volumes, without impatience for that harbour of rest, the <hi
+                  rendition="#italics">denouement</hi>; yet, that we may not trespass on the rules
+               of our critical veracity, we must confess a <hi rendition="#italics">gape</hi> or <hi
+                  rendition="#italics">two</hi> on the fantastic scenery at <hi rendition="#italics"
+                  >Broke Hall</hi>, and the exaggerated character of the lady of that mansion. Many
+               excellent reflections, and precepts of the best morality, occur in the work: we wish
+               that our young Collegians were all <hi rendition="#italics">Morlands;</hi> and that
+               the family of the Jones's would people a colony!—Having already given our sentiments
+               on works of the imagination, and agreed with Mr. D. that such will please most as are
+               most restrained within the pale of probability, we may be supposed to have no
+               partiality for the second tale, which forms the fourth volume; indeed we may be
+               allowed to wish that Mr. D. had not thought it necessary to maintain his position by
+               the proof of illustration, which exhibits a narrative of events as romantic as the
+               fictions of <ref target="people.html#Ariosto">Ariosto</ref>. We also disapprove the
+               plan of fabricating one story on the basis of a preceding tale: it is building one
+               house on the top of another, and exposing them to the chance of both falling
+               together.</p>
          </div>
       </body>
    </text>

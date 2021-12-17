@@ -3,10 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Review of <hi rendition="#italics">The
-					Lamentation</hi>
+            <title type="main" level="a">Review of <hi rendition="#italics">The Lamentation</hi>
             </title>
-            <title type="sub" level="j">Monthly Review</title>
+            <title type="sub">Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -33,9 +32,10 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. II, <hi rendition="#italics">The Lamentation.</hi> A poem. In two parts. To
-							which are added other Miscellaneous Pieces, in Blank Verse and Rhyme.
-							Crown 8vo. pp. 200. 6s. Boards. White. 1801.</title>
+                  <title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. II, <hi
+                        rendition="#italics">The Lamentation.</hi> A poem. In two parts. To which
+                     are added other Miscellaneous Pieces, in Blank Verse and Rhyme. Crown 8vo. pp.
+                     200. 6s. Boards. White. 1801.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -53,28 +53,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -88,15 +87,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -339,11 +347,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -473,7 +482,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -551,7 +560,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="6">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -606,81 +623,68 @@
                <bibl>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
-                        <name>Elizabeth
-								Moody</name>
+                        <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. II. <hi rendition="#italics">The Lamentation.</hi> A Poem. In two Parts. To
-							which are added other Miscellaneous Pieces, in Blank Verse and Rhyme.
-							Crown 8vo. pp. 200. 6s. Boards. White. 1801.<hi rendition="#sup">
-                        <note>
-                           <title level="j">This book review originally
-										appeared in the <ref target="people.html#ReviewMonthly">
-                                 <name>
-                                    <hi rendition="#italics">Monthly
-												Review</hi>
-                                 </name>
-                              </ref>, second series, vol. 7, January 1802,
-										pp. 9-12. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                                 <name>Elizabeth Moody</name>
-                              </ref> as the author of this review from an editor's
-										marked copy of <hi rend="#italics">
-                                 <title>
-                                    <ref target="people.html#ReviewMonthly">The Monthly
-											Review</ref>
-                                 </title>
-                              </hi>. See Nangle, <hi rendition="#italics">
-                                 <title>The Montly Review, Second
-													Series, 1790-1815: Indexes of Contributors and
-													Articles</title>
-                              </hi>, Clarendon Press, 1955. Mary A. Waters and Zachary Parker edited this
-										essay for <hi rendition="#italics">The Criticism
-											Archive</hi>.</title>
-                        </note>
-                     </hi>
+                  <title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. II. <hi
+                        rendition="#italics">The Lamentation.</hi> A Poem. In two Parts. To which
+                     are added other Miscellaneous Pieces, in Blank Verse and Rhyme. Crown 8vo. pp.
+                     200. 6s. Boards. White. 1801.<note>
+                        <title level="j">This book review originally appeared in the <ref
+                              target="people.html#ReviewMonthly">
+                              <name>
+                                 <hi rendition="#italics">Monthly Review</hi>
+                              </name>
+                           </ref>, second series, vol. 7, January 1802, pp. 9-12. Benjamin Nangle
+                           identifies <ref target="people.html#MoodyElizabeth">
+                              <name>Elizabeth Moody</name>
+                           </ref> as the author of this review from an editor's marked copy of <hi
+                              rendition="#italics">
+                              <title>
+                                 <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                              </title>
+                           </hi>. See Nangle, <hi rendition="#italics">
+                              <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                                 Contributors and Articles</title>
+                           </hi>, Clarendon Press, 1955. Mary A. Waters and Zachary Parker edited
+                           this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>.</title>
+                     </note>
                   </title>
                </bibl>
             </head>
-            <p rendition="#noindent">M<hi rendition="#smcaps">ythology</hi> tells us that, in
-					days of yore, the man who slept on the top of Parnassus became a poet: —he
-					slept, he waked, <quote>
+            <p rendition="#noindent">M<hi rendition="#smcaps">ythology</hi> tells us that, in days
+               of yore, the man who slept on the top of Parnassus became a poet: —he slept, he
+               waked, <quote>
                   <lg type="stanza">
-                     <l>And lisp’d in numbers, for the numbers came.<hi rendition="#sup">
-                           <note>Alexander Pope, <hi rendition="#italics">
-                                 <title>Epistle to Dr.
-										Arbuthnot</title>
-                              </hi> (1735). </note>
-                        </hi>
+                     <l>And lisp’d in numbers, for the numbers came.<note>Alexander Pope, <hi
+                              rendition="#italics">
+                              <title>Epistle to Dr. Arbuthnot</title>
+                           </hi> (1735). </note>
                      </l>
                   </lg>
-               </quote>Now whether this part
-					of the mountain has been swallowed up by an earthquake, or worn out by continual
-					usage; whether the identical spot, the once favoured soil of inspiration, be so
-					overgrown by weeds as to be rendered impervious; or whether the would-be
-					Bard—now anticipates his nap, and falls into his trance in the middle or
-					at the bottom of the hill;—may be matter worthy of the investigation of
-					the speculative inquirer, who feels himself anxiously solicitous to account for
-					the degeneracy of the race of poets. To us these desultory ideas have occurred
-					from venerable recollection of the sublime worthies of antient days: but we are
-					ready to pay the due tribute of praise to all our modern Bards, whose merits we
-					would not appreciate by the rules of invidious comparison; and we shall readily
-					allow that, if the poems before us do not rank in the first class of excellence,
-					they are yet far above mediocrity.</p>
+               </quote>Now whether this part of the mountain has been swallowed up by an earthquake,
+               or worn out by continual usage; whether the identical spot, the once favoured soil of
+               inspiration, be so overgrown by weeds as to be rendered impervious; or whether the
+               would-be Bard—now anticipates his nap, and falls into his trance in the middle or at
+               the bottom of the hill;—may be matter worthy of the investigation of the speculative
+               inquirer, who feels himself anxiously solicitous to account for the degeneracy of the
+               race of poets. To us these desultory ideas have occurred from venerable recollection
+               of the sublime worthies of antient days: but we are ready to pay the due tribute of
+               praise to all our modern Bards, whose merits we would not appreciate by the rules of
+               invidious comparison; and we shall readily allow that, if the poems before us do not
+               rank in the first class of excellence, they are yet far above mediocrity.</p>
             <pb n="10"/>
-            <p>The poetical oglio<hi rendition="#sup">
-                  <note>Miscellany.</note>
-               </hi>
-					here presented to us supplies a variety that may suit every taste; and the
-					author tells us, in his preface, that his subjects have been produced under the
-					very different impressions of joy and sorrow. Hence flow Lamentations, Elegies,
-					Pastorals, Songs, and Sonnets.—The volume opens with the poem which, as
-					being most considerable in size, gives title to the publication. Here we travel
-					through the most dreary and gloomy paths of human life. The muse addresses an
-					invocation to melancholy; and the pensive mind, obedient to the summons,
-					accompanies her to the end of the journey. This poem, however, is correctly
-					moral and religious, and will meet the approbation of the reflecting reader. The
-					destructive vice of gaming is reprobated with a virtuous indignation:</p>
+            <p>The poetical oglio<note>Miscellany.</note> here presented to us supplies a variety
+               that may suit every taste; and the author tells us, in his preface, that his subjects
+               have been produced under the very different impressions of joy and sorrow. Hence flow
+               Lamentations, Elegies, Pastorals, Songs, and Sonnets.—The volume opens with the poem
+               which, as being most considerable in size, gives title to the publication. Here we
+               travel through the most dreary and gloomy paths of human life. The muse addresses an
+               invocation to melancholy; and the pensive mind, obedient to the summons, accompanies
+               her to the end of the journey. This poem, however, is correctly moral and religious,
+               and will meet the approbation of the reflecting reader. The destructive vice of
+               gaming is reprobated with a virtuous indignation:</p>
             <quote>
                <lg type="stanza">
                   <l>O love of play! thou certain source of woe,</l>
@@ -690,8 +694,8 @@
                </lg>
             </quote>
             <p>In page 42, we have a pleasing illustration of the superior state of happiness
-					resulting from the retired life of virtuous innocence,when contrasted with the
-					scenes of vice and pampered luxury:</p>
+               resulting from the retired life of virtuous innocence,when contrasted with the scenes
+               of vice and pampered luxury:</p>
             <quote>
                <lg type="stanza">
                   <l>O then for ever let us fly those scenes!</l>
@@ -703,9 +707,9 @@
                   <l>That virtue and that happiness reside.</l>
                </lg>
             </quote>
-            <p>From the miscellaneous compositions, were it not that our boundary is
-					circumscribed, we could select more than one poem which pleases us:—the
-					following, on Lelia, obtains a preference:</p>
+            <p>From the miscellaneous compositions, were it not that our boundary is circumscribed,
+               we could select more than one poem which pleases us:—the following, on Lelia, obtains
+               a preference:</p>
             <quote>
                <lg type="stanza">
                   <l>O had I Titian’s skill to trace</l>
@@ -735,11 +739,11 @@
                   <l rendition="#indent1">And prostrate lays the proudest heart.</l>
                </lg>
             </quote>
-            <p>Among the Songs, we find several that are sprightly and convivial; and the poet
-					seems to celebrate the juice of the grape and the charms of his mistress equally
-						<hi rendition="#italics">con amore</hi>. His devotion to both is pleasantly
-					manifested in the following lines; though here the little blind Deity is a more
-					principal object of worship that the jolly God:</p>
+            <p>Among the Songs, we find several that are sprightly and convivial; and the poet seems
+               to celebrate the juice of the grape and the charms of his mistress equally <hi
+                  rendition="#italics">con amore</hi>. His devotion to both is pleasantly manifested
+               in the following lines; though here the little blind Deity is a more principal object
+               of worship that the jolly God:</p>
             <quote>
                <lg type="stanza">
                   <l>You ask for a song, and, by Jove!</l>
@@ -757,9 +761,11 @@
                   <l>And though never told by the tongue,</l>
                   <l rendition="#indent1">The eyes are still sure to discover.</l>
                   <l>‘Tis th’ essence of spiritual flame,</l>
-                  <l rendition="#indent1">The source of each tender <hi rendition="#italics">emotion</hi>,</l>
+                  <l rendition="#indent1">The source of each tender <hi rendition="#italics"
+                        >emotion</hi>,</l>
                   <l>A feeling that fills the whole frame,</l>
-                  <l rendition="#indent1">And speaks in each feature and <hi rendition="#italics">motion</hi>.</l>
+                  <l rendition="#indent1">And speaks in each feature and <hi rendition="#italics"
+                        >motion</hi>.</l>
                </lg>
                <lg type="stanza">
                   <l>It warms ev’ry thought of the soul,</l>
@@ -803,10 +809,10 @@
                   <l rendition="#indent1">So long as he’s lov’d by the lasses?</l>
                </lg>
             </quote>
-            <p> We are glad to leave the author merrier at the conclusion of his volume than we
-					find him at the beginning: but, before we part, we must comply with our usual
-					custom of adding a few mild strictures, where they are requisite. In his blank
-					verse, he is too frequently prosaic: <hi rendition="#italics">e. g.</hi>
+            <p> We are glad to leave the author merrier at the conclusion of his volume than we find
+               him at the beginning: but, before we part, we must comply with our usual custom of
+               adding a few mild strictures, where they are requisite. In his blank verse, he is too
+               frequently prosaic: <hi rendition="#italics">e. g.</hi>
             </p>
             <quote>
                <lg type="stanza">
@@ -825,36 +831,30 @@
                   <l rendition="#indent1">Can well expect to be.</l>
                </lg>
             </quote>
-            <p>In his rhyme, the poet’s ear has often failed to perceive the effect that the
-					simple transposition of a word produces, in the harmony of numbers: while his
-					alliterations are still more obviously harsh and unpleasing; as in the line,
-					page 189, in a poem on sleep:</p>
-            <quote>
-               <hi rendition="#italics">Which—whilst waking.</hi>
-            </quote>
-            <p>It may be said that such faults are trifles: but, with respect to a writer’s
-					reputation,</p>
+            <p>In his rhyme, the poet’s ear has often failed to perceive the effect that the simple
+               transposition of a word produces, in the harmony of numbers: while his alliterations
+               are still more obviously harsh and unpleasing; as in the line, page 189, in a poem on
+               sleep:</p>
             <quote>
                <lg type="stanza">
-                  <l>————<hi rendition="#italics">Hæ nugæ
-								seria ducent</hi>
+                  <l><hi rendition="#italics">Which—whilst waking.</hi></l>
+               </lg></quote>
+            <p>It may be said that such faults are trifles: but, with respect to a writer’s
+               reputation,</p>
+            <quote>
+               <lg type="stanza">
+                  <l>————<hi rendition="#italics">Hæ nugæ seria ducent</hi>
                   </l>
                   <l>
-                     <hi rendition="#italics">In mala derisum semel exceptumque
-								sinistrè.</hi>
-                     <hi rendition="#sup">
-                        <note>"These trifles will bring that friend into serious
-									trouble, if once he has been laughed down and given an unlucky
-									reception." Horace, <hi rendition="#italics">
-                              <title>Ars
-											Poetica</title>
-                           </hi> l. 451-2 (Translation from <hi rendition="#italics">
-                              <title>Horace: Satires, Epistles, and
-											Ars Poetica, with an English Translation by H. Rushton
-											Fairclough</title>
-                           </hi>, William Heinemann and Harvard
-									University Press, 1942.</note>
-                     </hi>
+                     <hi rendition="#italics">In mala derisum semel exceptumque sinistrè.</hi>
+                     <note>"These trifles will bring that friend into serious trouble, if once he
+                        has been laughed down and given an unlucky reception." Horace, <hi
+                           rendition="#italics">
+                           <title>Ars Poetica</title>
+                        </hi> l. 451-2 (Translation from <hi rendition="#italics">
+                           <title>Horace: Satires, Epistles, and Ars Poetica, with an English
+                              Translation by H. Rushton Fairclough</title>
+                        </hi>, William Heinemann and Harvard University Press, 1942.</note>
                   </l>
                </lg>
             </quote>

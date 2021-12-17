@@ -45,28 +45,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+        				placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p>
                <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+        				such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -543,7 +542,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="8">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below
+						but starting with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -552,14 +559,14 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#LM" when="20200611" n="7">
+         <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
                <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
             </list>
          </change>
-         <change who="#LM" when="20190110" n="6">
+         <change who="#LM" when="20190110" n="5">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -638,22 +645,15 @@
          <div type="collection">
             <head>
                <bibl>
-                  <author type="writer">
-                     <ref target="people.html#BarbauldMrs">
-                        <name>Anna Letitia Barbauld</name>
-                     </ref>
-                  </author>
                   <title type="main" level="m">
                      <title>The British Novelists; </title>
                   </title>
-                  <title type="sub" level="m">
+                  <title type="sub">
                      <title>with an Essay, and Prefaces Biographical and
 											Critical</title>, by Mrs. <ref target="people.html#BarbauldMrs">Barbauld</ref>.</title>
                </bibl>
             </head>
-            <head>
-               <hi rendition="#largest">Table of Contents</hi>
-            </head>
+            <head>Table of Contents</head>
             <list type="simple">
                <item>
                   <ref target="BarbBageBritNov1810.html">Mr. Bage</ref>

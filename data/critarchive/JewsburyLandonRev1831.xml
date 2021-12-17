@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Romance and Reality</title>
-            <title type="sub" level="j">
+            <title type="sub">
                <title>The Athenæum </title>
             </title>
             <author type="writer">
@@ -50,28 +50,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -85,15 +84,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -336,11 +344,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -470,7 +479,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -540,7 +549,7 @@
                   <item>History</item>
                </list>
             </keywords>
-            <catRef scheme="#ft" target="#ft1"/>
+            <catRef target="#ft1" scheme="#ft"/>
             <catRef target="#ag9 #ag35" scheme="#ag"/>
             <catRef target="#f13" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
@@ -548,7 +557,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="6">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -600,524 +617,440 @@
                <bibl>
                   <author type="writer">
                      <name>
-                        <ref target="people.html#JewsburyMaria">Maria
-									Jane Jewsbury</ref>
+                        <ref target="people.html#JewsburyMaria">Maria Jane Jewsbury</ref>
                      </name>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
-                     <hi rendition="#italics">Romance and
-								Reality</hi>. By <ref target="people.html#LandonLetitia">L. E.
-								L.</ref>, Author of 'The Improvisatrice,' &amp;c. 3 vols.
-							London. 1831. Colburn &amp; Bentley.<hi rendition="#sup">
-                        <note>This review article appeared in <title>
-                              <hi rendition="#italics">The Athenæum</hi>
-                           </title> no.
-									215 (Saturday, December 10, 1831): 793-7. The essay is
-									attributed to <ref target="people.html#JewsburyMaria">Jewsbury</ref> in <hi rendition="#italics">
-                              <title>The
-											Athenaeum Projects: Index of Reviews and
-											Reviewers</title>
-                           </hi>, https://athenaeum.city.ac.uk/.
-									The <hi rendition="#italics">Criticism Archive</hi> edition of
-									this article was prepared by Mary A. Waters and Krystal J.
-									Iseminger. </note>
-                     </hi>
+                     <hi rendition="#italics">Romance and Reality</hi>. By <ref
+                        target="people.html#LandonLetitia">L. E. L.</ref>, Author of 'The
+                     Improvisatrice,' &amp;c. 3 vols. London. 1831. Colburn &amp; Bentley.<note>This
+                        review article appeared in <title>
+                           <hi rendition="#italics">The Athenæum</hi>
+                        </title> no. 215 (Saturday, December 10, 1831): 793-7. The essay is
+                        attributed to <ref target="people.html#JewsburyMaria">Jewsbury</ref> in <hi
+                           rendition="#italics">
+                           <title>The Athenaeum Projects: Index of Reviews and Reviewers</title>
+                        </hi>, https://athenaeum.city.ac.uk/. The <hi rendition="#italics">Criticism
+                           Archive</hi> edition of this article was prepared by Mary A. Waters and
+                        Krystal J. Iseminger. </note>
                   </title>
                </bibl>
             </head>
             <p rendition="#noindent">
                <hi rendition="#largest">W</hi>
-               <hi rendition="#smcaps">e</hi> were always of opinion that <ref target="people.html#LandonLetitia">Miss Landon</ref>'s poetry failed in giving a just estimate of <ref target="people.html#LandonLetitia">Miss Landon</ref>'s powers. Glowing
-					with imagery, radiant with bright words, seductive with fond fancies, <quote>
+               <hi rendition="#smcaps">e</hi> were always of opinion that <ref
+                  target="people.html#LandonLetitia">Miss Landon</ref>'s poetry failed in giving a
+               just estimate of <ref target="people.html#LandonLetitia">Miss Landon</ref>'s powers.
+               Glowing with imagery, radiant with bright words, seductive with fond fancies, <quote>
                   <lg type="stanza">
                      <l rendition="#indent1">Full of carving strange and sweet,</l>
                      <l rendition="#indent1">All made out of the carver's brain,</l>
-                     <l rendition="#indent1">For a lady's chamber meet,—<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ColeridgeSamuel">Samuel Taylor
-											Coleridge</ref>,  <title>
-                                 <hi rendition="#italics">Christabel</hi>
-                              </title> (1816)
-								173-5.</note>
-                        </hi>
+                     <l rendition="#indent1">For a lady's chamber meet,—<note>
+                           <ref target="people.html#ColeridgeSamuel">Samuel Taylor Coleridge</ref>,  <title>
+                              <hi rendition="#italics">Christabel</hi>
+                           </title> (1816) 173-5.</note>
                      </l>
                   </lg>
-               </quote>picturesque, arabesque, and romanesque, it yet lacked vigour
-					and variety—often abounded in carelessness, and dealt too much in the
-					superficial. It bore too great a resemblance to <ref target="people.html#Thalaba">Thalaba</ref>'s palace in the desert, a
-					structure that Mr. <ref target="people.html#CanningGeorge">Canning</ref>
-					probably had in his mind when he said of all splendid but unsubstantial
-					creations, "they rose in the mists of the morning, but dissolved in the
-					noonday sun."<hi rendition="#sup">
-                  <note>Untraced.</note>
-               </hi>
-					Sand often contains gold, yet sand makes a sorry foundation, and we have often
-					wished that <ref target="people.html#LandonLetitia">L. E. L.</ref> would dig
-					till she reached the rock. So far from agreeing with the objections brought by
-					many grave and corporate critics against the superabundance of "Love"
-					in her verses, we have wished for more that could really deserve the
-					name,—taking leave to think that the sparkling sentiment which has
-					idleness and self-will for its parents, and an impersonation of moonlight and a
-					serenade for bridemaids, bore passing small resemblance to intense yet rational
-					feeling; real, yet not ungovernable energy of soul. Again, without going the
-					length of other "robustious periwigged"<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <title>
-                        <hi rendition="#italics">Hamlet</hi>
-                     </title> III.ii..9.</note>
-               </hi> objections raised
-					against her landscape drawing, we have ventured to wish her on more familiar
-					terms with lady Nature; and, finally, as she has undoubtedly founded a poetic
-					school, we have unfeignedly wished that she would whip some dozen of her
-					scholars. The faults of an original may be merged in the light of his beauties;
-					but the faults of a copyist call for the wet sponge of annihilation. What made
-					us think that <ref target="people.html#LandonLetitia">Miss Landon</ref>
-					possessed "powers that she had never used," were occasional lines and
-					passages manifesting, not merely thought, but a capacity for speculating upon
-					thought—a deeper looking into man's heart and destiny—and
-					loftier aspirations after all "that is very far off," than might
-					beseem troubadours and improvisatrici. '<title>Erinna</title>,'
-					notwithstanding its incorrect versification, proved that there was iron in the
-					rose; the '<title>Lines on Life</title>,' breathed wisdom born of
-					tears and nursed of truth; whilst the majority of her later poems have proved
-					her in possession not only of the genii of the lamp, but of the master of the
-					genii; not only of fancy, that builds with gold and gems, but of truth and
-					thought, that bring the living spirit to inhabit. In that most convenient of
-						places—<hi rendition="#italics">somewhere</hi>, we remember to have
-					read an apologue, which, as not inapplicable, we shall narrate. When the Queen
-					of Sheba went to prove King Solomon with hard questions, she appeared one day
-					before him with two wreaths of flowers, the one natural, the other artificial,
-					but both so apparently alike as to render her request that he would distinguish
-					them at a distance somewhat difficult of performance. The wisest of men and best
-					of botanists was puzzled—but, observing a bee outside one of the palace
-					windows, he ordered its admission and watched is movements. The little honey
-					merchant was neither to be deceived nor allured by the bright hues of the
-					artificial wreath, but guided the monarch's decision by settling instantly
-					on one really composed of the roses of Sharon and the lilies of the valley.
-					Would that all poets allowed a bee (sympathy) to discern for them the difference
-					between the false and true—<ref target="people.html#LandonLetitia">Miss
-						Landon</ref> has done so of late, and if her verses have not glittered quite
-					so much with diamond dust, or exhaled so much of the spice islands, the absence
-					has been well supplied by fresh dews and natural brightness. It is a
-					flower-garden beside a fairy tale.</p>
+               </quote>picturesque, arabesque, and romanesque, it yet lacked vigour and
+               variety—often abounded in carelessness, and dealt too much in the superficial. It
+               bore too great a resemblance to <ref target="people.html#Thalaba">Thalaba</ref>'s
+               palace in the desert, a structure that Mr. <ref target="people.html#CanningGeorge"
+                  >Canning</ref> probably had in his mind when he said of all splendid but
+               unsubstantial creations, "they rose in the mists of the morning, but dissolved in the
+               noonday sun."<note>Untraced.</note> Sand often contains gold, yet sand makes a sorry
+               foundation, and we have often wished that <ref target="people.html#LandonLetitia">L.
+                  E. L.</ref> would dig till she reached the rock. So far from agreeing with the
+               objections brought by many grave and corporate critics against the superabundance of
+               "Love" in her verses, we have wished for more that could really deserve the
+               name,—taking leave to think that the sparkling sentiment which has idleness and
+               self-will for its parents, and an impersonation of moonlight and a serenade for
+               bridemaids, bore passing small resemblance to intense yet rational feeling; real, yet
+               not ungovernable energy of soul. Again, without going the length of other "robustious periwigged"<note>
+                  <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <title>
+                     <hi rendition="#italics">Hamlet</hi>
+                  </title> III.ii..9.</note> objections raised against her landscape drawing, we
+               have ventured to wish her on more familiar terms with lady Nature; and, finally, as
+               she has undoubtedly founded a poetic school, we have unfeignedly wished that she
+               would whip some dozen of her scholars. The faults of an original may be merged in the
+               light of his beauties; but the faults of a copyist call for the wet sponge of
+               annihilation. What made us think that <ref target="people.html#LandonLetitia">Miss
+                  Landon</ref> possessed "powers that she had never used," were occasional lines and
+               passages manifesting, not merely thought, but a capacity for speculating upon
+               thought—a deeper looking into man's heart and destiny—and loftier aspirations after
+               all "that is very far off," than might beseem troubadours and improvisatrici.
+                  '<title>Erinna</title>,' notwithstanding its incorrect versification, proved that
+               there was iron in the rose; the '<title>Lines on Life</title>,' breathed wisdom born
+               of tears and nursed of truth; whilst the majority of her later poems have proved her
+               in possession not only of the genii of the lamp, but of the master of the genii; not
+               only of fancy, that builds with gold and gems, but of truth and thought, that bring
+               the living spirit to inhabit. In that most convenient of places—<hi
+                  rendition="#italics">somewhere</hi>, we remember to have read an apologue, which,
+               as not inapplicable, we shall narrate. When the Queen of Sheba went to prove King
+               Solomon with hard questions, she appeared one day before him with two wreaths of
+               flowers, the one natural, the other artificial, but both so apparently alike as to
+               render her request that he would distinguish them at a distance somewhat difficult of
+               performance. The wisest of men and best of botanists was puzzled—but, observing a bee
+               outside one of the palace windows, he ordered its admission and watched is movements.
+               The little honey merchant was neither to be deceived nor allured by the bright hues
+               of the artificial wreath, but guided the monarch's decision by settling instantly on
+               one really composed of the roses of Sharon and the lilies of the valley. Would that
+               all poets allowed a bee (sympathy) to discern for them the difference between the
+               false and true—<ref target="people.html#LandonLetitia">Miss Landon</ref> has done so
+               of late, and if her verses have not glittered quite so much with diamond dust, or
+               exhaled so much of the spice islands, the absence has been well supplied by fresh
+               dews and natural brightness. It is a flower-garden beside a fairy tale.</p>
             <p>But it was to the prose work intended to proceed from her pen that we looked with
-					most expectation, as the test, trial, and, if the truth must be told, triumph of
-						<ref target="people.html#LandonLetitia">Miss Landon</ref>, and of our own
-					particular opinion of her mind. The work is here; we have read it with as much
-					attention as if it had been theology, and as much excitement as if it had been
-					treason. To call it a novel is incorrect; plot, incident, and narrative of all
-					kinds, would go into a nut, or, to be literally correct, into a walnut-shell.
-					Let not lover of history and mystery, no demander of event and catastrophe, no
-					old-fashioned believer in its being equally the duty of governments to put down
-					plots, and of novelists to purvey them—no person who reads a book merely
-					to know what happens in it, sit down to '<title>Romance and
-					Reality</title>.' If they inquire of us, "who or what is the
-					Romance?"—"who or what is the Reality?" we cannot answer,
-					for the very primitive reason of not knowing. Those who care little about story,
-					or who can wait for it till the third volume, will find real and delightful
-					occupation in its pages. The correct title of the work would have been
-						'<title>Maxims and Characters</title>'—for it is composed of
-					essays, criticisms, sketches of life, portraits living and dead, opinions on
-					manners, descriptions of feeling, all served up with so much wit that the
-					authoress might never have been sad,—with so much poetic and moral feeling
-					that she might never have been gay. Perused as a work of fiction, it is too
-					desultory and incorrect to be satisfactory; it must be read as a brilliant, and
-					sometimes profound commentary on the life of this "century of
-					crowds"—as the result of keen and varied observation and reflection:
-					in this view we cannot but esteem it a remarkable evidence of talent. We ask the
-					poetry of the authoress, where, till now, dwelt the brave good sense—the
-					sarcasm bitter with medicine, not poison—the remarks that, beginning in
-					levity, die off into reflection—the <hi rendition="#italics">persiflage</hi> that is only a feint to conceal love of the beautiful and
-					longing after the true? and the '<title>Improvisatrice</title>,' the
-						'<title>Troubadour</title>,' and the '<title>Venetian
-						Bracelet</title>,' answer—"Where?" How much there is
-					that poetry cannot or must not convey. As the Ettrick Shepherd<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#HoggJames">James Hogg</ref>.</note>
-               </hi> says, "Blessings on the man who
-					first invented sleep"<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#HoggJames">The Ettrick Shepherd</ref> quotes the
-							oft-referenced remark by the character Sancho Panza in <ref target="people.html#Cervantes">Cervantes</ref>'s <hi rendition="#italics">Don Quixote.</hi>
-                  </note>
-               </hi>—so we say,
-					"Honour to the patriarchs, who undoubtedly all wrote in prose!" But
-					for 'Romance and Reality' in prose, half our island might never have
-					awoke from their dream that <ref target="people.html#LandonLetitia">L. E.
-						L.</ref>, was an avatar of blue eyes, flaxen ringlets, and a susceptible
-					heart! The counter conviction, that her genius is infinitely more like an arrow,
-					barbed at one end and feathered at the other, will dismay a thousand fancies,
-					the cherished growth of albums and sixteen. Take for example the following
-					outline of a domestic day and a domestic savage; we are heathens if they would
-					not be recognized at the foot of the Pyramids.</p>
+               most expectation, as the test, trial, and, if the truth must be told, triumph of <ref
+                  target="people.html#LandonLetitia">Miss Landon</ref>, and of our own particular
+               opinion of her mind. The work is here; we have read it with as much attention as if
+               it had been theology, and as much excitement as if it had been treason. To call it a
+               novel is incorrect; plot, incident, and narrative of all kinds, would go into a nut,
+               or, to be literally correct, into a walnut-shell. Let not lover of history and
+               mystery, no demander of event and catastrophe, no old-fashioned believer in its being
+               equally the duty of governments to put down plots, and of novelists to purvey them—no
+               person who reads a book merely to know what happens in it, sit down to
+                  '<title>Romance and Reality</title>.' If they inquire of us, "who or what is the
+               Romance?"—"who or what is the Reality?" we cannot answer, for the very primitive
+               reason of not knowing. Those who care little about story, or who can wait for it till
+               the third volume, will find real and delightful occupation in its pages. The correct
+               title of the work would have been '<title>Maxims and Characters</title>'—for it is
+               composed of essays, criticisms, sketches of life, portraits living and dead, opinions
+               on manners, descriptions of feeling, all served up with so much wit that the
+               authoress might never have been sad,—with so much poetic and moral feeling that she
+               might never have been gay. Perused as a work of fiction, it is too desultory and
+               incorrect to be satisfactory; it must be read as a brilliant, and sometimes profound
+               commentary on the life of this "century of crowds"—as the result of keen and varied
+               observation and reflection: in this view we cannot but esteem it a remarkable
+               evidence of talent. We ask the poetry of the authoress, where, till now, dwelt the
+               brave good sense—the sarcasm bitter with medicine, not poison—the remarks that,
+               beginning in levity, die off into reflection—the <hi rendition="#italics"
+                  >persiflage</hi> that is only a feint to conceal love of the beautiful and longing
+               after the true? and the '<title>Improvisatrice</title>,' the
+                  '<title>Troubadour</title>,' and the '<title>Venetian Bracelet</title>,'
+               answer—"Where?" How much there is that poetry cannot or must not convey. As the
+               Ettrick Shepherd<note>
+                  <ref target="people.html#HoggJames">James Hogg</ref>.</note> says, "Blessings on
+               the man who first invented sleep"<note>
+                  <ref target="people.html#HoggJames">The Ettrick Shepherd</ref> quotes the
+                  oft-referenced remark by the character Sancho Panza in <ref
+                     target="people.html#Cervantes">Cervantes</ref>'s <hi rendition="#italics">Don
+                     Quixote.</hi>
+               </note>—so we say, "Honour to the patriarchs, who undoubtedly all wrote in prose!"
+               But for 'Romance and Reality' in prose, half our island might never have awoke from
+               their dream that <ref target="people.html#LandonLetitia">L. E. L.</ref>, was an
+               avatar of blue eyes, flaxen ringlets, and a susceptible heart! The counter
+               conviction, that her genius is infinitely more like an arrow, barbed at one end and
+               feathered at the other, will dismay a thousand fancies, the cherished growth of
+               albums and sixteen. Take for example the following outline of a domestic day and a
+               domestic savage; we are heathens if they would not be recognized at the foot of the
+               Pyramids.</p>
             <quote>
-               <p>Monday and two o'clock found Emily in Harley Street, rather sooner
-						than she was expected, as was evident from that silken rustle which marks a
-						female retreat. A discreet visitor on such occasions advances straight to
-						the window or the glass: Emily did the latter; and five minutes of
-						contemplation ascertained the fact that her <hi rendition="#italics">capote</hi>
-                  <hi rendition="#sup">
-                     <note>Though the word more
-								often means a long cloak, in this case it seems more likely to refer
-								to a "close-fitting cap" (<hi rendition="#italics">
-                           <title>Oxford
-										English Dictionary</title>
-                        </hi>.</note>
-                  </hi> would endure a
-						slight tendency to the left. She then took a seat on the hard, or, as they
-						say of hounds, the hide-bound sofa—the five minutes lengthened into
-						twenty, and she sought for amusement at a most literary-looking table. Alas!
-						she had read the novels—for treatises she had no taste—and two
-						German volumes, and three Latin, together with a scientific journal, gave
-						her a cold chill. While thus employed, a red-faced, loud-voiced servant girl
-						threw open the door, and howled, 'If you please, ma'am, Master
-						Adolphus has thrown the Library of Entertaining Knowledge at Master
-						Alfred's head, because he tore the Catechism of Conchology;' but
-						before Miss Arundel could express her regret at such misapplication of
-						knowledge, the girl had vanished in all the dismay of a mistake.</p>
-               <p>At last Mrs. Smithson appeared. 'My dear Emily, you have waited—I
-						forgot to tell you that I devote the early part of the day to the dear
-						children—I never allow my literary and domestic duties to interfere:
-						you cannot commence the important business of education too soon, and I am
-						but just emerged from the study.'</p>
-               <p>This was a little at variance both with servant's appearance and her own
-						laboured toilette, whose want of neatness was the result of hurry and bad
-						taste, not of after-disorganisation. It is amazing how oppressive is the<pb n="794"/> cleverness of some people, as if it were quite a duty in you
-						to be clever too—or, as I once heard a little child say, 'Oh,
-						mamma, I always speak to Mrs. S. in such dictionary words!'</p>
-               <p>'Slowly and sadly' did the morning pass. Alas! for the victim of
-						friendship, whom sentiment or silliness seduces into passing a long day! The
-						upright sitting on the repulsive sofa—the mental exhaustion in
-						searching after topics of conversation, which, like the breeze in <ref target="people.html#ByronGeorge">Byron</ref>'s description of a
-						calm, 'come not'—the gossip that, out of sheer desperation,
-						darkens into scandal; if ever friends or feelings are sacrificed under
-						temptation too strong to be resisted, it is in the conversational pauses of
-						a long day; and worst of all, a long day between people who have scarcely an
-						idea or an acquaintance in common, for the one to be exchanged, or the other
-						abused—communication or condemnation equally out of the question. Mrs.
-						Smithson secretly pitied herself for wasting her colloquial powers on that
-						social non-entity, a young lady; and Miss Arundel was somewhat bewildered by
-						the march of her former friend's intellect. Divers of those elegant
-						harmonies, which make musical the flight of time in London, verified the old
-						rhyme, that <quote>
+               <p>Monday and two o'clock found Emily in Harley Street, rather sooner than she was
+                  expected, as was evident from that silken rustle which marks a female retreat. A
+                  discreet visitor on such occasions advances straight to the window or the glass:
+                  Emily did the latter; and five minutes of contemplation ascertained the fact that
+                  her <hi rendition="#italics">capote</hi>
+                  <note>Though the word more often means a long cloak, in this case it seems more
+                     likely to refer to a "close-fitting cap" (<hi rendition="#italics">
+                        <title>Oxford English Dictionary</title>
+                     </hi>.</note> would endure a slight tendency to the left. She then took a seat
+                  on the hard, or, as they say of hounds, the hide-bound sofa—the five minutes
+                  lengthened into twenty, and she sought for amusement at a most literary-looking
+                  table. Alas! she had read the novels—for treatises she had no taste—and two German
+                  volumes, and three Latin, together with a scientific journal, gave her a cold
+                  chill. While thus employed, a red-faced, loud-voiced servant girl threw open the
+                  door, and howled, 'If you please, ma'am, Master Adolphus has thrown the Library of
+                  Entertaining Knowledge at Master Alfred's head, because he tore the Catechism of
+                  Conchology;' but before Miss Arundel could express her regret at such
+                  misapplication of knowledge, the girl had vanished in all the dismay of a
+                  mistake.</p>
+               <p>At last Mrs. Smithson appeared. 'My dear Emily, you have waited—I forgot to tell
+                  you that I devote the early part of the day to the dear children—I never allow my
+                  literary and domestic duties to interfere: you cannot commence the important
+                  business of education too soon, and I am but just emerged from the study.'</p>
+               <p>This was a little at variance both with servant's appearance and her own laboured
+                  toilette, whose want of neatness was the result of hurry and bad taste, not of
+                  after-disorganisation. It is amazing how oppressive is the<pb n="794"/> cleverness
+                  of some people, as if it were quite a duty in you to be clever too—or, as I once
+                  heard a little child say, 'Oh, mamma, I always speak to Mrs. S. in such dictionary
+                  words!'</p>
+               <p>'Slowly and sadly' did the morning pass. Alas! for the victim of friendship, whom
+                  sentiment or silliness seduces into passing a long day! The upright sitting on the
+                  repulsive sofa—the mental exhaustion in searching after topics of conversation,
+                  which, like the breeze in <ref target="people.html#ByronGeorge">Byron</ref>'s
+                  description of a calm, 'come not'—the gossip that, out of sheer desperation,
+                  darkens into scandal; if ever friends or feelings are sacrificed under temptation
+                  too strong to be resisted, it is in the conversational pauses of a long day; and
+                  worst of all, a long day between people who have scarcely an idea or an
+                  acquaintance in common, for the one to be exchanged, or the other
+                  abused—communication or condemnation equally out of the question. Mrs. Smithson
+                  secretly pitied herself for wasting her colloquial powers on that social
+                  non-entity, a young lady; and Miss Arundel was somewhat bewildered by the march of
+                  her former friend's intellect. Divers of those elegant harmonies, which make
+                  musical the flight of time in London, verified the old rhyme, that <quote>
                      <lg type="stanza">
                         <l rendition="#indent15">Come what may,</l>
-                        <l>Time and the tide wear through the roughest day.<hi rendition="#sup">
-                              <note>
-                                 <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi rendition="#italics">
-                                    <title>Macbeth</title>
-                                 </hi> Act I, scene iii,
-											lines 146-7, slightly altered.</note>
-                           </hi>
+                        <l>Time and the tide wear through the roughest day.<note>
+                              <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi
+                                 rendition="#italics">
+                                 <title>Macbeth</title>
+                              </hi> Act I, scene iii, lines 146-7, slightly altered.</note>
                         </l>
                      </lg>
                   </quote>
                </p>
-               <p>The muffin-boy announced three o'clock—the pot-boy clanking his
-						empty pewter was symptomatic of four—the bellman tolling the knell of
-						the post announced five—and, at length, a heavy hard-hearted rap
-						proclaimed the return of Mr. Smithson; a gruff voice was hear in the
-						passage—a ponderous step on the stairs—the door and his boots
-						creaked, and in came the author of the treatise on bats and beetles,
-						followed by a blue-coated, nankeen-trousered young man, whose countenance
-						and curls united that happy mixture of carmine and charcoal which constitute
-						the Apollo of a Compton Street counter.<hi rendition="#sup">
-                     <note>At the time of this writing, Compton Street was a
-								commercial hub in an area that attracted a substantial population of
-								exiles, particularly from France.</note>
-                  </hi> Mr. Smithson was
-						equally sullen and solemn-looking, with a mouth made only to swear, and a
-						brow to scowl—a tyrant in a small way—one who would be arbitrary
-						about a hash, and obstinate respecting an oyster—one of those tempers
-						which, like a domestic east wind, 'sparks neither man nor beast,'
-						from the unhappy footman that he cursed, to the unlucky dog that he
-						kicked.</p>
-               <p>A minute specimen of humanity, in a livery like a jealous lover's, of
-						'green and yellow melancholy,' announced dinner. Mr. Smithson
-						stalked up to Emily, Mr. Perkins simpered up to the hostess, and they
-						entered a dismal-looking parlour, whose brick-red walls and ditto curtains
-						were scantily lighted by a single lamp, though it was of the last new
-						patent—to which a dim fire, in its first stage of infant weakness,
-						gave small assistance.</p>
-               <p>Mr. Smithson, who, as member of a public office, thought that church and
-						state ought to be supported,—which support he conceived to consist in
-						strict adherence to certain forms,—muttered something which sounded
-						much more like a growl than a grace, and dinner commenced.</p>
-               <p>At the top was a cod's shoulders and head, whose intellectual faculties
-						were rather over much developed; and at the bottom was soup called
-						Mulligatawny—some indefinite mixture of curry powder and duck's
-						feet, the first spoonful of which called from its master a look of thunder
-						and lightning up the table. To this succeeded a couple of most cadaverous
-						fowls, a huge haunch of mutton, raw and red enough even for an Abyssinian,
-						flanked by rissoles and oyster patties, which had evidently, like Tom
-							Tough,<hi rendition="#sup">
-                     <note>Central speaking character
-								of a song by <ref target="people.html#DibdinCharlesSr">Charles
-									Dibdin</ref>.</note>
-                  </hi> seen 'a deal of service:'
-						these were followed by some sort of nameless pudding—and so much for
-						the luxury of a family dinner, which is enough to make one beg next time to
-						be treated as a stranger.</p>
-               <p>Conversation there was none—Mr. Smithson kindly sparing the lungs of
-						his friends, at the expense of his own. First, the fire was sworn
-						at—then, the draught from the door—then, the poor little footboy
-						was encouraged by the pleasant intelligence that he was the stupidest
-						blockhead in the world. Mr. Perkins sat preserving his silence and his
-						simper: and to the lady of the house it was evidently quite matter of
-						habit—a sort of accompaniment she would almost have missed.</p>
-               <p>The truth is, Mr. Smithson had just married some twenty years too
-						late—with his habits, like his features, quite set, and both in a
-						harsh mould. Young Lady! looking out for an establishment—mediating on
-						the delights of a house of your own—two maids and a man, over whom you
-						are set in absolute authority—do anything rather than marry a
-						confirmed bachelor—venture on one who has been successful with seven
-						succeeding wives, with ten small children ready made to order—walk off
-						with some tall youth, who considers a wife and a razor definitive signs of
-						his growth and his sense; but shun the establishment of a bachelor who has
-						hung a pendulum between temptation and prudence till the age
-						of——; but of all subjects, age is the one on which it is most
-						invidious to descant.</p>
+               <p>The muffin-boy announced three o'clock—the pot-boy clanking his empty pewter was
+                  symptomatic of four—the bellman tolling the knell of the post announced five—and,
+                  at length, a heavy hard-hearted rap proclaimed the return of Mr. Smithson; a gruff
+                  voice was hear in the passage—a ponderous step on the stairs—the door and his
+                  boots creaked, and in came the author of the treatise on bats and beetles,
+                  followed by a blue-coated, nankeen-trousered young man, whose countenance and
+                  curls united that happy mixture of carmine and charcoal which constitute the
+                  Apollo of a Compton Street counter.<note>At the time of this writing, Compton
+                     Street was a commercial hub in an area that attracted a substantial population
+                     of exiles, particularly from France.</note> Mr. Smithson was equally sullen and
+                  solemn-looking, with a mouth made only to swear, and a brow to scowl—a tyrant in a
+                  small way—one who would be arbitrary about a hash, and obstinate respecting an
+                  oyster—one of those tempers which, like a domestic east wind, 'sparks neither man
+                  nor beast,' from the unhappy footman that he cursed, to the unlucky dog that he
+                  kicked.</p>
+               <p>A minute specimen of humanity, in a livery like a jealous lover's, of 'green and
+                  yellow melancholy,' announced dinner. Mr. Smithson stalked up to Emily, Mr.
+                  Perkins simpered up to the hostess, and they entered a dismal-looking parlour,
+                  whose brick-red walls and ditto curtains were scantily lighted by a single lamp,
+                  though it was of the last new patent—to which a dim fire, in its first stage of
+                  infant weakness, gave small assistance.</p>
+               <p>Mr. Smithson, who, as member of a public office, thought that church and state
+                  ought to be supported,—which support he conceived to consist in strict adherence
+                  to certain forms,—muttered something which sounded much more like a growl than a
+                  grace, and dinner commenced.</p>
+               <p>At the top was a cod's shoulders and head, whose intellectual faculties were
+                  rather over much developed; and at the bottom was soup called Mulligatawny—some
+                  indefinite mixture of curry powder and duck's feet, the first spoonful of which
+                  called from its master a look of thunder and lightning up the table. To this
+                  succeeded a couple of most cadaverous fowls, a huge haunch of mutton, raw and red
+                  enough even for an Abyssinian, flanked by rissoles and oyster patties, which had
+                  evidently, like Tom Tough,<note>Central speaking character of a song by <ref
+                        target="people.html#DibdinCharlesSr">Charles Dibdin</ref>.</note> seen 'a
+                  deal of service:' these were followed by some sort of nameless pudding—and so much
+                  for the luxury of a family dinner, which is enough to make one beg next time to be
+                  treated as a stranger.</p>
+               <p>Conversation there was none—Mr. Smithson kindly sparing the lungs of his friends,
+                  at the expense of his own. First, the fire was sworn at—then, the draught from the
+                  door—then, the poor little footboy was encouraged by the pleasant intelligence
+                  that he was the stupidest blockhead in the world. Mr. Perkins sat preserving his
+                  silence and his simper: and to the lady of the house it was evidently quite matter
+                  of habit—a sort of accompaniment she would almost have missed.</p>
+               <p>The truth is, Mr. Smithson had just married some twenty years too late—with his
+                  habits, like his features, quite set, and both in a harsh mould. Young Lady!
+                  looking out for an establishment—mediating on the delights of a house of your
+                  own—two maids and a man, over whom you are set in absolute authority—do anything
+                  rather than marry a confirmed bachelor—venture on one who has been successful with
+                  seven succeeding wives, with ten small children ready made to order—walk off with
+                  some tall youth, who considers a wife and a razor definitive signs of his growth
+                  and his sense; but shun the establishment of a bachelor who has hung a pendulum
+                  between temptation and prudence till the age of——; but of all subjects, age is the
+                  one on which it is most invidious to descant.</p>
                <p>The cloth was removed, and sudden commotion filled the passage: <quote>
                      <lg type="stanza">
                         <l>At once there rose so wild a yell</l>
                         <l>Within that dark and narrow dell,</l>
-                        <l rendition="#indent9">&amp;c. &amp;c. &amp;c.<hi rendition="#sup">
-                              <note>
-                                 <ref target="people.html#ScottWalter">Sir Walter
-												Scott</ref>, <hi rendition="#italics">
-                                    <title>The
-												Lady of the Lake</title>
-                                 </hi> Canto VI, Stanza
-											xvii, lines 1-2.</note>
-                           </hi>
+                        <l rendition="#indent9">&amp;c. &amp;c. &amp;c.<note>
+                              <ref target="people.html#ScottWalter">Sir Walter Scott</ref>, <hi
+                                 rendition="#italics">
+                                 <title>The Lady of the Lake</title>
+                              </hi> Canto VI, Stanza xvii, lines 1-2.</note>
                         </l>
                      </lg>
-                  </quote>and in came Master Adolphus and Master Alfred in full cry,
-						having disputed by the way which was to go first—also a baby, eloquent
-						as infancy usually is, and, like most youthful orators, more easily heard
-						than understood. The boys quartered themselves on the unfortunate strangers;
-						and Mrs. Smithson took the infant, which Emily duly declared was the
-						sweetest little creature she had ever seen. On going up stairs, Emily found
-						Mlle. Hyacinthe shivering—for, with the usual inhumanity of friends,
-						there was no fire; and it was one of those wet, miserable evenings, gratis
-						copies distributed by November through the year. i. 123.</p>
+                  </quote>and in came Master Adolphus and Master Alfred in full cry, having disputed
+                  by the way which was to go first—also a baby, eloquent as infancy usually is, and,
+                  like most youthful orators, more easily heard than understood. The boys quartered
+                  themselves on the unfortunate strangers; and Mrs. Smithson took the infant, which
+                  Emily duly declared was the sweetest little creature she had ever seen. On going
+                  up stairs, Emily found Mlle. Hyacinthe shivering—for, with the usual inhumanity of
+                  friends, there was no fire; and it was one of those wet, miserable evenings,
+                  gratis copies distributed by November through the year. i. 123.</p>
             </quote>
-            <p>Certainly, reading the two first volumes of '<title>Romance and
-						Reality</title>' is exceedingly like reading a volume of <ref target="people.html#WalpoleHorace">Horace Walpole</ref>'s Letters (only
-					that the names and news are newer), or, if acquainted with literary London, like
-					passing an evening with half your acquaintance. In this respect the book answers
-					to a magazine, saves postage, and, if carried on extensively, might do away with
-					the necessity of newspapers. On this topic we commend the authoress to the
-					fatherly care of that most delightful person, Dr. Folliott, whose opinions, as
-					found in '<title>Crotchet Castle</title>,'<hi rendition="#sup">
-                  <note>
-                     <title>
-                        <hi rendition="#italics">Crotchet
-								Castle</hi>
-                     </title> (1831), a satire by Thomas Love Peacock
-							(1785-1866), features the bigoted Tory cleric, Dr. Folliot.</note>
-               </hi>
-					we here transcribe:—</p>
+            <p>Certainly, reading the two first volumes of '<title>Romance and Reality</title>' is
+               exceedingly like reading a volume of <ref target="people.html#WalpoleHorace">Horace
+                  Walpole</ref>'s Letters (only that the names and news are newer), or, if
+               acquainted with literary London, like passing an evening with half your acquaintance.
+               In this respect the book answers to a magazine, saves postage, and, if carried on
+               extensively, might do away with the necessity of newspapers. On this topic we commend
+               the authoress to the fatherly care of that most delightful person, Dr. Folliott,
+               whose opinions, as found in '<title>Crotchet Castle</title>,'<note>
+                  <title>
+                     <hi rendition="#italics">Crotchet Castle</hi>
+                  </title> (1831), a satire by Thomas Love Peacock (1785-1866), features the bigoted
+                  Tory cleric, Dr. Folliot.</note> we here transcribe:—</p>
             <quote>
                <p>
-                  <hi rendition="#italics">Mr. Eavesdrop</hi>.—Me Sir! What have I
-						done, Sir, that I am to be poisoned, Sir?</p>
+                  <hi rendition="#italics">Mr. Eavesdrop</hi>.—Me Sir! What have I done, Sir, that I
+                  am to be poisoned, Sir?</p>
                <p>
-                  <hi rendition="#italics">The Rev. Dr. Folliott</hi>.—Sir, you have
-						published a character of your facetious friend, the Rev. Dr. F., wherein you
-						have sketched off me: me, Sir, even to my nose and wig. What business have
-						the public with my nose and wig?</p>
+                  <hi rendition="#italics">The Rev. Dr. Folliott</hi>.—Sir, you have published a
+                  character of your facetious friend, the Rev. Dr. F., wherein you have sketched off
+                  me: me, Sir, even to my nose and wig. What business have the public with my nose
+                  and wig?</p>
                <p>
-                  <hi rendition="#italics">Mr. E</hi>.—Sir, it is all good-humoured: all
-						in <hi rendition="#italics">bonhommie</hi>: all friendly and
-						complimentary.</p>
+                  <hi rendition="#italics">Mr. E</hi>.—Sir, it is all good-humoured: all in <hi
+                     rendition="#italics">bonhommie</hi>: all friendly and complimentary.</p>
                <p>
-                  <hi rendition="#italics">Rev. Dr. F</hi>.—Sir, you have been very
-						unfacetious. You have dished me up like a savory omelette, to gratify the
-						appetite of the reading rabble for gossip. The next time, Sir, I will
-						respond with the <hi rendition="#italics">argumentum baculinum</hi>. Print
-						that, Sir: put it on record as a promise of the Rev. Dr. F. which shall be
-						most faithfully kept with an exemplary bamboo.</p>
+                  <hi rendition="#italics">Rev. Dr. F</hi>.—Sir, you have been very unfacetious. You
+                  have dished me up like a savory omelette, to gratify the appetite of the reading
+                  rabble for gossip. The next time, Sir, I will respond with the <hi
+                     rendition="#italics">argumentum baculinum</hi>. Print that, Sir: put it on
+                  record as a promise of the Rev. Dr. F. which shall be most faithfully kept with an
+                  exemplary bamboo.</p>
                <p>
                   <hi rendition="#italics">Mr. E</hi>.—Your cloth protects you, Sir.</p>
                <p>
-                  <hi rendition="#italics">Rev. Dr. F</hi>.—My bamboo shall protect me,
-						Sir.</p>
+                  <hi rendition="#italics">Rev. Dr. F</hi>.—My bamboo shall protect me, Sir.</p>
                <p>
-                  <hi rendition="#italics">Mr. Crotchet</hi>.—Doctor, Doctor, you are
-						growing too polemical.</p>
+                  <hi rendition="#italics">Mr. Crotchet</hi>.—Doctor, Doctor, you are growing too
+                  polemical.</p>
                <p>
-                  <hi rendition="#italics">Rev. Dr. F</hi>.—Sir, my blood boils. What
-						business have the public with my nose and wig?"</p>
+                  <hi rendition="#italics">Rev. Dr. F</hi>.—Sir, my blood boils. What business have
+                  the public with my nose and wig?"</p>
             </quote>
-            <p>L. E. L.'s "takings" are for the most part "friendly and
-					complimentary"—nevertheless, some are so caustic, that, unless she
-					omits them in a second edition, it might be well to publish a literary copy of
-					the advertisement to Rowland's Kalydor,<hi rendition="#sup">
-                  <note>Rowland's Kalydor, a patent preparation for the
-							complexion, was advertised as producing relaxation and dispelling
-							irritability.</note>
-               </hi> particularly that part which states its
-					soothing qualities for "gentlemen whose chins are tender after
-					shaving." Against her second edition, too, or, rather against her next
-					work, we would remind her, that what has been said of bagpipe music may be said
-					of witticisms where too numerous—"the one half would sound better for
-					the other half not being heard." The first volume is as full of points as a
-					packet of needles, and, as the writer says of some one's attitude, fails of
-					being easy by being elaborate. This over-abundance of repartees, similes, and
-					epigrams, becomes tiresome to the dull, and teazing to the quick; makes wit look
-					too like hard work, and the author too much resemble a vivacious juggler—a
-							<quote>
+            <p>L. E. L.'s "takings" are for the most part "friendly and complimentary"—nevertheless,
+               some are so caustic, that, unless she omits them in a second edition, it might be
+               well to publish a literary copy of the advertisement to Rowland's
+                  Kalydor,<note>Rowland's Kalydor, a patent preparation for the complexion, was
+                  advertised as producing relaxation and dispelling irritability.</note>
+               particularly that part which states its soothing qualities for "gentlemen whose chins
+               are tender after shaving." Against her second edition, too, or, rather against her
+               next work, we would remind her, that what has been said of bagpipe music may be said
+               of witticisms where too numerous—"the one half would sound better for the other half
+               not being heard." The first volume is as full of points as a packet of needles, and,
+               as the writer says of some one's attitude, fails of being easy by being elaborate.
+               This over-abundance of repartees, similes, and epigrams, becomes tiresome to the
+               dull, and teazing to the quick; makes wit look too like hard work, and the author too
+               much resemble a vivacious juggler—a <quote>
                   <lg type="stanza">
                      <l>Katerfelto, with his hair on end</l>
-                     <l>At his own wonders, wondering for his bread.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#CowperWilliam">
-											William Cowper</ref> (1731-1800), <title>
-                                 <hi rendition="#italics">The Task</hi>: The Winter
-											Evening</title> (1785) 86-7.</note>
-                        </hi>
+                     <l>At his own wonders, wondering for his bread.<note>
+                           <ref target="people.html#CowperWilliam"> William Cowper</ref>
+                           (1731-1800), <title>
+                              <hi rendition="#italics">The Task</hi>: The Winter Evening</title>
+                           (1785) 86-7.</note>
                      </l>
                   </lg>
-               </quote> We think we dare read this riddle: to be natural, earnest, and
-					quietly dignified, even as an author, requires no less moral courage than to be
-					so in daily life. Ridicule is society's fear of God, and entertainment its
-					"pearl of great price."<hi rendition="#sup">
-                  <note>From
-							the fourteenth-century alliterative poem <title>
-                        <hi rendition="#italics">The Pearl</hi>
-                     </title>.</note>
-               </hi> An author of the <hi rendition="#italics">beau monde</hi> puts wit in his first volume to
-					purchase leave to throw heart, truth, and sentiment into his last. <ref target="people.html#LandonLetitia">Miss Landon</ref>'s third volume is
-					exempt from all the faults of the two others; there is no want of story, which
-					is so concentrated in its pages, that, with a little introduction, and the
-					entire smother of the Higgs' family, it might be printed separately, a
-					perfectly true, pure, pleasant specimen of fiction. It is effective, without
-					effect being strained after, and contains passages full of power, beauty, and
-					simplicity. The epigrammatic style is dropped; the narrative flows sweetly yet
-					sadly along; and the history of the grave and noble Beatrice—of the
-					self-will and repentings of the less firmly strung Emily, would redeem an
-					Almack's of young ladies, and "a wilderness of monkeys."<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>,
-									<title>
-                        <hi rendition="#italics">The Merchant of
-								Venice</hi>
-                     </title> III.i.122-3.</note>
-               </hi> We give a specimen from
-					this part of the work:—</p>
+               </quote> We think we dare read this riddle: to be natural, earnest, and quietly
+               dignified, even as an author, requires no less moral courage than to be so in daily
+               life. Ridicule is society's fear of God, and entertainment its "pearl of great
+                  price."<note>From the fourteenth-century alliterative poem <title>
+                     <hi rendition="#italics">The Pearl</hi>
+                  </title>.</note> An author of the <hi rendition="#italics">beau monde</hi> puts
+               wit in his first volume to purchase leave to throw heart, truth, and sentiment into
+               his last. <ref target="people.html#LandonLetitia">Miss Landon</ref>'s third volume is
+               exempt from all the faults of the two others; there is no want of story, which is so
+               concentrated in its pages, that, with a little introduction, and the entire smother
+               of the Higgs' family, it might be printed separately, a perfectly true, pure,
+               pleasant specimen of fiction. It is effective, without effect being strained after,
+               and contains passages full of power, beauty, and simplicity. The epigrammatic style
+               is dropped; the narrative flows sweetly yet sadly along; and the history of the grave
+               and noble Beatrice—of the self-will and repentings of the less firmly strung Emily,
+               would redeem an Almack's of young ladies, and "a wilderness of monkeys."<note>
+                  <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <title>
+                     <hi rendition="#italics">The Merchant of Venice</hi>
+                  </title> III.i.122-3.</note> We give a specimen from this part of the work:—</p>
             <quote>
-               <p>No one person in a thousand is capable of a real passion—that
-						intense and overwhelming feeling, before which all others sink into
-						nothingness. It asks for head and heart—now, many are deficient in
-						both. Idleness and vanity cause, in nine cases out of ten, that state of
-						excitement which is called being in love. I have heard some even talk of
-						their disappointments, as if such a word could be used in the plural. To be
-						crossed in love, forsooth—why, such a heart could bear as many crosses
-						as a raspberry tart.</p>
-               <p>But Beatrice loved with all the vividness of unwasted and unworn feeling, and
-						with all the confidence of youth. Proud, earnest, and enthusiastic, passion
-						was touched with all the poetry of her own nature. Her lover was the idol,
-						invested by her ardent imagination with all humanity's 'highest
-						attributes.' Undegraded by the ideas of flirtation, vanity, interest,
-						or establishment, her love was as simple as it was beautiful. Her life had
-						passed in solitude, but it had been the solitude of both refinement and
-						exertion. She was unworldly, but not untaught. She had read extensively and
-						variously. Much of her reading had been of a kind unusual to either her sex
-						or age; but she had loved to talk<pb n="795"/> with her father on the
-						subjects which engaged him; and the investigations which were to analyze the
-						state of mankind, and the theories which were to ameliorate it, became to
-						her matters of attraction, because they were also those of affection.</p>
+               <p>No one person in a thousand is capable of a real passion—that intense and
+                  overwhelming feeling, before which all others sink into nothingness. It asks for
+                  head and heart—now, many are deficient in both. Idleness and vanity cause, in nine
+                  cases out of ten, that state of excitement which is called being in love. I have
+                  heard some even talk of their disappointments, as if such a word could be used in
+                  the plural. To be crossed in love, forsooth—why, such a heart could bear as many
+                  crosses as a raspberry tart.</p>
+               <p>But Beatrice loved with all the vividness of unwasted and unworn feeling, and with
+                  all the confidence of youth. Proud, earnest, and enthusiastic, passion was touched
+                  with all the poetry of her own nature. Her lover was the idol, invested by her
+                  ardent imagination with all humanity's 'highest attributes.' Undegraded by the
+                  ideas of flirtation, vanity, interest, or establishment, her love was as simple as
+                  it was beautiful. Her life had passed in solitude, but it had been the solitude of
+                  both refinement and exertion. She was unworldly, but not untaught. She had read
+                  extensively and variously. Much of her reading had been of a kind unusual to
+                  either her sex or age; but she had loved to talk<pb n="795"/> with her father on
+                  the subjects which engaged him; and the investigations which were to analyze the
+                  state of mankind, and the theories which were to ameliorate it, became to her
+                  matters of attraction, because they were also those of affection.</p>
                <p>Natural scenery has no influence on the character till associated with human
-						feelings: the poet repays his inspiration by the interest he flings round
-						the objects which inspired it. Beatrice had early learnt this association of
-						nature with humanity. She was as well acquainted with the English literature
-						and language as with her own; and the melancholy and reflective character of
-						its poetry suited well a young spirit early broken by sorrow, and left,
-						moreover, to entire loneliness. The danger of a youth so spent was, that the
-						mind would become too ideal—that mornings, passed with some favourite
-						volume by the dropping fountain, or beneath the shadowy ilex, would induce
-						habits of romantic dreaming, utterly at variance with the stern necessities
-						of life.</p>
-               <p>But Beatrice had been forced into a wholesome course of active exertion.
-						Obliged to think and to act for herself—to have others dependent on
-						her efforts—to know that each day brought its employment, her mind
-						strengthened with its discipline. The duties that excited also invigorated.
-						The keen feeling, the delicate taste, were accustomed to subjection, and
-						romance refined, without weakening. </p>
-               <p rendition="#center">
-						*               *               *               *</p>
-               <p>Beatrice was grave; silent, except when much interested; reserved, save when
-						under the influence of some strong feeling; with manners whose refinement
-						was that of inherently pure taste, and much mental cultivation, touched,
-						too, with the native grace inseparable from the very beautiful:
-						self-possessed, from self-reliance, and with a stately bearing,
-						which—call it prejudice, or pride, or dignity—spoke the
-						consciousness of high descent, and an unquestioned superiority. The pride of
-						birth is a noble feeling.</p>
-               <p>Lorraine, on the contrary, was animated—more likely to be amused than
-						excited—with a general expression of indifference not easily roused to
-						interest. His manners had that fine polish only to be given by society, and
-						that of the best. His thoughts and feelings were kept in the
-						back-ground—not from native reserve, but from fear of
-						raillery—that suspicion of our hearers which is one of the first
-						lessons taught in the world. His habits were luxurious—hers were
-						simple; he was witty and sarcastic—she scarcely understood the meaning
-						of ridicule; his rules of action were many—as those rules must be on
-						which the judgments of others are to operate—hers were only those of
-						right and wrong. A whole life spent in society inevitably refers its action
-						to the general opinion. Beatrice, as yet, looked not beyond the action
-						itself.</p>
+                  feelings: the poet repays his inspiration by the interest he flings round the
+                  objects which inspired it. Beatrice had early learnt this association of nature
+                  with humanity. She was as well acquainted with the English literature and language
+                  as with her own; and the melancholy and reflective character of its poetry suited
+                  well a young spirit early broken by sorrow, and left, moreover, to entire
+                  loneliness. The danger of a youth so spent was, that the mind would become too
+                  ideal—that mornings, passed with some favourite volume by the dropping fountain,
+                  or beneath the shadowy ilex, would induce habits of romantic dreaming, utterly at
+                  variance with the stern necessities of life.</p>
+               <p>But Beatrice had been forced into a wholesome course of active exertion. Obliged
+                  to think and to act for herself—to have others dependent on her efforts—to know
+                  that each day brought its employment, her mind strengthened with its discipline.
+                  The duties that excited also invigorated. The keen feeling, the delicate taste,
+                  were accustomed to subjection, and romance refined, without weakening. </p>
+               <p rendition="#center"> *               *               *               *</p>
+               <p>Beatrice was grave; silent, except when much interested; reserved, save when under
+                  the influence of some strong feeling; with manners whose refinement was that of
+                  inherently pure taste, and much mental cultivation, touched, too, with the native
+                  grace inseparable from the very beautiful: self-possessed, from self-reliance, and
+                  with a stately bearing, which—call it prejudice, or pride, or dignity—spoke the
+                  consciousness of high descent, and an unquestioned superiority. The pride of birth
+                  is a noble feeling.</p>
+               <p>Lorraine, on the contrary, was animated—more likely to be amused than excited—with
+                  a general expression of indifference not easily roused to interest. His manners
+                  had that fine polish only to be given by society, and that of the best. His
+                  thoughts and feelings were kept in the back-ground—not from native reserve, but
+                  from fear of raillery—that suspicion of our hearers which is one of the first
+                  lessons taught in the world. His habits were luxurious—hers were simple; he was
+                  witty and sarcastic—she scarcely understood the meaning of ridicule; his rules of
+                  action were many—as those rules must be on which the judgments of others are to
+                  operate—hers were only those of right and wrong. A whole life spent in society
+                  inevitably refers its action to the general opinion. Beatrice, as yet, looked not
+                  beyond the action itself.</p>
                <p rendition="#center">*               *               *               *</p>
                <p>Some slight chance usually rivets the attention; it did so now. On one of the
-						tablets were inscribed various names of an apparently large family, the
-						dates of the different deaths singularly near to each other. Emily felt as
-						if her own solitary situation had never weighted upon her thoughts till now.
-						'Many are kind to me, but none care for me.' Youth with its
-						affection an impulse and a delight, judges others by itself, and exaggerates
-						its claims.</p>
+                  tablets were inscribed various names of an apparently large family, the dates of
+                  the different deaths singularly near to each other. Emily felt as if her own
+                  solitary situation had never weighted upon her thoughts till now. 'Many are kind
+                  to me, but none care for me.' Youth with its affection an impulse and a delight,
+                  judges others by itself, and exaggerates its claims.</p>
                <p>Strange it is that people (unless in the way of ostentation) never value the
-						blessings they possess. But if life has a happiness over which the primeval
-						curse has passed and harmed not, it is the early and long-enduring affection
-						of blood and habit. The passion which concentrates its strength and beauty
-						upon one, is a rich and terrible stake, the end whereof is death;—the
-						living light of existence is burnt out in an hour—and what remains?
-						The dust and the darkness. But the love which is born in childhood—an
-						instinct deepening into a principle—retains to the end something of
-						the freshness belonging to the hour of its birth: the amusement
-						partaken—the trifling quarrel made up—the sorrows shared
-						together—the punishment in which all were involved—the plans for
-						the future, so fairytale-like and so false, in which all indulged: so true
-						it is that love's slightest links are its strongest!</p>
-               <p>There is something inexpressibly touching in the story of Ishmael, the youth
-						who was sent into the wilderness of life with his bow and his arrow,
-						'his hand against every man, and every man's hand against
-						him.' Even in our crowded, busy, and social world, on how many is this
-						doom pronounced! What love makes allowances like household love?—what
-						takes an interest in small sorrows and small successes like household love?
-						God forgive those (and I would not even say forgive, were not Divine mercy
-						illimitable,) who turn the household alter to a place of strife! Domestic
-						dissension is the sacrilege of the heart. iii. 89-117.</p>
+                  blessings they possess. But if life has a happiness over which the primeval curse
+                  has passed and harmed not, it is the early and long-enduring affection of blood
+                  and habit. The passion which concentrates its strength and beauty upon one, is a
+                  rich and terrible stake, the end whereof is death;—the living light of existence
+                  is burnt out in an hour—and what remains? The dust and the darkness. But the love
+                  which is born in childhood—an instinct deepening into a principle—retains to the
+                  end something of the freshness belonging to the hour of its birth: the amusement
+                  partaken—the trifling quarrel made up—the sorrows shared together—the punishment
+                  in which all were involved—the plans for the future, so fairytale-like and so
+                  false, in which all indulged: so true it is that love's slightest links are its
+                  strongest!</p>
+               <p>There is something inexpressibly touching in the story of Ishmael, the youth who
+                  was sent into the wilderness of life with his bow and his arrow, 'his hand against
+                  every man, and every man's hand against him.' Even in our crowded, busy, and
+                  social world, on how many is this doom pronounced! What love makes allowances like
+                  household love?—what takes an interest in small sorrows and small successes like
+                  household love? God forgive those (and I would not even say forgive, were not
+                  Divine mercy illimitable,) who turn the household alter to a place of strife!
+                  Domestic dissension is the sacrilege of the heart. iii. 89-117.</p>
             </quote>
-            <p>With these extracts we close '<title>Romance and
-					Reality</title>'—trusting, nay, believing, that <ref target="people.html#LandonLetitia">Miss Landon</ref>'s next prose work
-					will exhibit all the merits of this, matured, and all its faults avoided. To
-					conceive some <hi rendition="#italics">whole</hi> in a strain of high mood,
-					consecrated by high purpose, and crowned with high reward, is not more than she
-					is capable of—not more than she ought to effect:— <quote>
+            <p>With these extracts we close '<title>Romance and Reality</title>'—trusting, nay,
+               believing, that <ref target="people.html#LandonLetitia">Miss Landon</ref>'s next
+               prose work will exhibit all the merits of this, matured, and all its faults avoided.
+               To conceive some <hi rendition="#italics">whole</hi> in a strain of high mood,
+               consecrated by high purpose, and crowned with high reward, is not more than she is
+               capable of—not more than she ought to effect:— <quote>
                   <lg type="stanza">
                      <l>Shadows of beauty,</l>
                      <l rendition="#indent1">Shadows of power,</l>
                      <l>Rise to your duty—</l>
-                     <l rendition="#indent1">This is the hour.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ByronGeorge">Byron</ref>, <title>
-                                 <hi rendition="#italics">The
-												Deformed Transformed</hi>
-                              </title> (1822)
-										I.i.157-60.</note>
-                        </hi>
+                     <l rendition="#indent1">This is the hour.<note>
+                           <ref target="people.html#ByronGeorge">Byron</ref>, <title>
+                              <hi rendition="#italics">The Deformed Transformed</hi>
+                           </title> (1822) I.i.157-60.</note>
                      </l>
                   </lg>
                </quote>

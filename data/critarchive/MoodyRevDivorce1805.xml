@@ -3,9 +3,8 @@
    <teiHeader xmlns:PA="http://www.poetessarchive.org/#schema" type="text">
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Review of Fiévée's "Le
-					Divorce," etc.</title>
-            <title type="sub" level="j">The Monthly Review</title>
+            <title type="main" level="a">Review of Fiévée's "Le Divorce," etc.</title>
+            <title type="sub">The Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -32,9 +31,9 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. XII. <title>Le Divorce</title>, &amp;c.;
-							i.e. <title>The Divorce, the False Revolutionist, and the Heroism of
-								Women; Three Novels</title>. By M. Fiévée.</title>
+                  <title type="main" level="a">Art. XII. <title>Le Divorce</title>, &amp;c.; i.e.
+                        <title>The Divorce, the False Revolutionist, and the Heroism of Women; Three
+                        Novels</title>. By M. Fiévée.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -53,28 +52,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -88,15 +86,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -339,11 +346,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -473,7 +481,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -551,7 +559,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="7">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -607,107 +623,101 @@
                         <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
                      <hi rendition="#smcaps">
                         <hi rendition="#smcaps">Art</hi>. XII. </hi>
                      <title>
                         <hi rendition="#italics">
-                           <title>Le Divorce</title>,</hi> &amp;c.;
-								i.e. <title>
-                           <title>The Divorce</title>, <title>the False
-										Revolutionist</title>, and <title>the Heroism of
-										Women</title>; Three Novels</title>
+                           <title>Le Divorce</title>,</hi> &amp;c.; i.e. <title>
+                           <title>The Divorce</title>, <title>the False Revolutionist</title>, and
+                              <title>the Heroism of Women</title>; Three Novels</title>
                      </title>. By M. <hi rendition="#smcaps">
                         <ref target="people.html#FieveeJoseph">Fiévée</ref>
-                     </hi>. <hi rendition="#smcaps">12</hi>mo.
-							3s. Dulau and Co. London.<hi rendition="#sup">
-                        <note>Review
-									article appearing in the Foreign Appendix for <title level="j">
-                              <hi rendition="#italics">The Monthly
-										Review</hi>
-                           </title>, second series, volume 46, Foreign Appendix, 1805, pages
-                           539-41. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's
-                           marked copy of <hi rend="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-                              Review</ref>
-                              </title>
-                           </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-                                    Series, 1790-1815: Indexes of Contributors and
-                                    Articles</title>
-                           </hi>, Clarendon Press, 1955. This edition of the article is produced by Emma Wiley and Mary A. Waters.</note>
-                     </hi>
+                     </hi>. <hi rendition="#smcaps">12</hi>mo. 3s. Dulau and Co. London.<note>Review
+                        article appearing in the Foreign Appendix for <title level="j">
+                           <hi rendition="#italics">The Monthly Review</hi>
+                        </title>, second series, volume 46, Foreign Appendix, 1805, pages 539-41.
+                        Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
+                           <name>Elizabeth Moody</name>
+                        </ref> as the author of this review from an editor's marked copy of <hi
+                           rendition="#italics">
+                           <title>
+                              <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                           </title>
+                        </hi>. See Nangle, <hi rendition="#italics">
+                           <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                              Contributors and Articles</title>
+                        </hi>, Clarendon Press, 1955. This edition of the article is produced by
+                        Emma Wiley and Mary A. Waters.</note>
                   </title>
                </bibl>
             </head>
             <p rendition="#noindent">
                <hi rendition="#largest">O</hi>
-               <hi rendition="#smcaps">f</hi> all the absurd and capricious institutions which France, under
-					either her old or her new <hi rendition="#italics">Régime</hi>, has
-					dignified by the name of <hi rendition="#italics">Law</hi>, the modern divorce
-					claims the pre-eminence for cruelty and injustice;—at least, if Madame <hi rendition="#italics">Dormeuil</hi>’s relation is to be
-					accredited.—Mme. <hi rendition="#italics">Dormeuil</hi> was a beautiful
-					and accomplished young woman, and married to a handsome and well-informed young
-					man. Six years of perfect happiness they enjoyed together, and perhaps Hymen
-					thought this was as large a portion of felicity as he commonly allows; for after
-					this period, a degree of languor and insipidity is too often found consequent on
-					a state of uninterrupted tranquility. Mons. <hi rendition="#italics">Dormeuil</hi> required variety, and sought it in the scenes of dissipation;
-					and hence proceeded those vicious and libertine pursuits which never fail to
-					undermine the conjugal affection. Among other depravities, the <hi rendition="#italics">French Husband</hi> had a mistress whom he wished to
-					marry; and, as the Legislature had so easily and so conveniently devised the
-					means of breaking old chains, and forging new, he resolved on availing himself
-					of so desirable a privilege, and being divorced from his amiable and most
-					affectionate wife. Madame <hi rendition="#italics">Dormeuil</hi> protests
-					against the divorce, with an obstinacy as inflexible as was that of <ref target="people.html#CatherineofAragon">Catherine of Arragon</ref>:—she
-					protested against all the formalities necessary to ascertain the separation, and
-					she insisted on keeping the name and arms of <hi rendition="#italics">Dormeuil</hi>, and on being the true and <pb n="540"/>lawful wife of the old
-					Régime:—she was, however, divorced against her consent, and Monsieur
-					married his new Love.</p>
-            <p> Of this connection, also, the inconstant husband grew tired; and he felt the
-					same inclination to be emancipated from the second captivity, which had induced
-					him to break the first. The matter being so easily adjusted, and the remedy for
-					matrimonial ennui so immediately at hand, <hi rendition="#italics">Dormeuil</hi>
-					is a second time <hi rendition="#italics">divorced</hi>; and with his first wife
-					he became once more desperately in love. Her affections were never alienated
-					from him, but stood the brunt of all his cruelties with the most persevering
-					affection:— but the same firmness, which had directed her conduct in
-					opposing the divorce, now supported her in refusing to renew the <hi rendition="#italics">ci-devant</hi> nuptial vow; since that act would have
-					been acknowleging the <hi rendition="#italics">legality of the divorce</hi>,
-					which she had with so much pertinacity refused to sanction. The situation of
-					Monsieur and Madame now becomes whimsically laughable; they love each other to
-					distraction: but they must not live together, and renew the conjugal
-					endearments, because she <hi rendition="#italics">is not his wife</hi>, and
-					would be liable to be considered as his mistress; and it would be a breach of
-					good morality, which would necessarily implicate her reputation on the ground of
-					decorum, were they again to inhabit the same house. We leave the reader to Mme.
-						<hi rendition="#italics">Dormeuil</hi>’s own description of the caprices of
-					her destiny; which she details with refined and romantic sentiments of prudery,
-					truly <hi rendition="#italics">French, and extremely artificial and
-						unnatural</hi>.</p>
+               <hi rendition="#smcaps">f</hi> all the absurd and capricious institutions which
+               France, under either her old or her new <hi rendition="#italics">Régime</hi>, has
+               dignified by the name of <hi rendition="#italics">Law</hi>, the modern divorce claims
+               the pre-eminence for cruelty and injustice;—at least, if Madame <hi
+                  rendition="#italics">Dormeuil</hi>’s relation is to be accredited.—Mme. <hi
+                  rendition="#italics">Dormeuil</hi> was a beautiful and accomplished young woman,
+               and married to a handsome and well-informed young man. Six years of perfect happiness
+               they enjoyed together, and perhaps Hymen thought this was as large a portion of
+               felicity as he commonly allows; for after this period, a degree of languor and
+               insipidity is too often found consequent on a state of uninterrupted tranquility.
+               Mons. <hi rendition="#italics">Dormeuil</hi> required variety, and sought it in the
+               scenes of dissipation; and hence proceeded those vicious and libertine pursuits which
+               never fail to undermine the conjugal affection. Among other depravities, the <hi
+                  rendition="#italics">French Husband</hi> had a mistress whom he wished to marry;
+               and, as the Legislature had so easily and so conveniently devised the means of
+               breaking old chains, and forging new, he resolved on availing himself of so desirable
+               a privilege, and being divorced from his amiable and most affectionate wife. Madame
+                  <hi rendition="#italics">Dormeuil</hi> protests against the divorce, with an
+               obstinacy as inflexible as was that of <ref target="people.html#CatherineofAragon"
+                  >Catherine of Arragon</ref>:—she protested against all the formalities necessary
+               to ascertain the separation, and she insisted on keeping the name and arms of <hi
+                  rendition="#italics">Dormeuil</hi>, and on being the true and <pb n="540"/>lawful
+               wife of the old Régime:—she was, however, divorced against her consent, and Monsieur
+               married his new Love.</p>
+            <p> Of this connection, also, the inconstant husband grew tired; and he felt the same
+               inclination to be emancipated from the second captivity, which had induced him to
+               break the first. The matter being so easily adjusted, and the remedy for matrimonial
+               ennui so immediately at hand, <hi rendition="#italics">Dormeuil</hi> is a second time
+                  <hi rendition="#italics">divorced</hi>; and with his first wife he became once
+               more desperately in love. Her affections were never alienated from him, but stood the
+               brunt of all his cruelties with the most persevering affection:— but the same
+               firmness, which had directed her conduct in opposing the divorce, now supported her
+               in refusing to renew the <hi rendition="#italics">ci-devant</hi> nuptial vow; since
+               that act would have been acknowleging the <hi rendition="#italics">legality of the
+                  divorce</hi>, which she had with so much pertinacity refused to sanction. The
+               situation of Monsieur and Madame now becomes whimsically laughable; they love each
+               other to distraction: but they must not live together, and renew the conjugal
+               endearments, because she <hi rendition="#italics">is not his wife</hi>, and would be
+               liable to be considered as his mistress; and it would be a breach of good morality,
+               which would necessarily implicate her reputation on the ground of decorum, were they
+               again to inhabit the same house. We leave the reader to Mme. <hi rendition="#italics"
+                  >Dormeuil</hi>’s own description of the caprices of her destiny; which she details
+               with refined and romantic sentiments of prudery, truly <hi rendition="#italics"
+                  >French, and extremely artificial and unnatural</hi>.</p>
             <p> The author informs us that he suppressed the publication of the second of these
-					novels for some time, because he dared not to print it, lest a resemblance might
-					be discovered between the characters which he describes, and those which
-					personally existed when it was written. We have only to observe on this <hi rendition="#italics">head</hi>, that we give him credit for his prudence in
-					taking care of his <hi rendition="#italics">own</hi>. In this novel, as in most
-					others, Love is the burden of the song; and the cabals of politics, the union of
-					party, and the enthusiasm of patriotism, are all superseded by the irresistible
-					control of the little deity. The lovely and innocent Adéle exchanged the
-					horrors of a prison for the arms of an affectionate husband, and was without
-					doubt very well pleased with the bargain: at the same time, the <hi rendition="#italics">revolutionist</hi> most probably preserved himself from
-					the guillotine by his amorous apostacy. Love was therefore the protector of
-					both.</p>
+               novels for some time, because he dared not to print it, lest a resemblance might be
+               discovered between the characters which he describes, and those which personally
+               existed when it was written. We have only to observe on this <hi rendition="#italics"
+                  >head</hi>, that we give him credit for his prudence in taking care of his <hi
+                  rendition="#italics">own</hi>. In this novel, as in most others, Love is the
+               burden of the song; and the cabals of politics, the union of party, and the
+               enthusiasm of patriotism, are all superseded by the irresistible control of the
+               little deity. The lovely and innocent Adéle exchanged the horrors of a prison for the
+               arms of an affectionate husband, and was without doubt very well pleased with the
+               bargain: at the same time, the <hi rendition="#italics">revolutionist</hi> most
+               probably preserved himself from the guillotine by his amorous apostacy. Love was
+               therefore the protector of both.</p>
             <p> The third story exhibits those romantic and self-denying practices, which the
-					writers of novels dignify with the name of heroism. Our days of romance,
-					however, have been so long past, that we are utterly incapable of deciding on
-					the <pb n="541"/>merits or demerits of these sentimental heroines; who inflict so much misery
-					on themselves, by erecting the standard of virtue on false principles.</p>
-            <p> M. <hi rendition="#smcaps">Fiévée</hi>’s novels are agreeably written,
-					in correct and elegant French; and, altogether, they are interesting and
-					affecting.</p>
+               writers of novels dignify with the name of heroism. Our days of romance, however,
+               have been so long past, that we are utterly incapable of deciding on the <pb n="541"
+               />merits or demerits of these sentimental heroines; who inflict so much misery on
+               themselves, by erecting the standard of virtue on false principles.</p>
+            <p> M. <hi rendition="#smcaps">Fiévée</hi>’s novels are agreeably written, in correct
+               and elegant French; and, altogether, they are interesting and affecting.</p>
          </div>
       </body>
    </text>

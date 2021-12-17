@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Mrs. Lennox</title>
-            <title type="sub" level="m">The British Novelists</title>
+            <title type="sub">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -57,28 +57,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+        				placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p>
                <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+        				such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -556,7 +555,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="8">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below
+						but starting with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -565,11 +572,11 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#LM" when="20200611" n="7">
+         <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy</item>
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -584,7 +591,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers</item>
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
          <change who="#MW" when="2016-08-21" n="4">
@@ -627,19 +634,17 @@
                         <name>Anna Letitia Barbauld</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
                      <ref target="people.html#LennoxCharlotte">MRS.
                                 LENNOX.</ref>
-                     <hi rendition="#sup">
-                        <note>
-                           <title level="m">
-                              <hi rendition="#italics">The British Novelists;
+                     <note>
+                        <title level="m">
+                           <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
                                             by <ref target="people.html#BarbauldMrs">Mrs.
                                                 Barbauld</ref>
-                              </hi>
-                           </title>, 50 Vols. (London:
+                           </hi>
+                        </title>, 50 Vols. (London:
                                     Printed for F.C. and J. Rivington; W. Otridge and Son; A.
                                     Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
                                     Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
@@ -653,7 +658,6 @@
                                     and Son, York, 1810), 24:i-iv. Mary A. Waters edited this
                                     edition for <hi rendition="#italics">The Criticism
                                     Archive</hi>.</note>
-                     </hi>
                   </title>
                </bibl>
             </head>
@@ -669,20 +673,18 @@
                </title>, as also <title>
                   <hi rendition="#italics">
                      <ref target="people.html#BrumoyPierre">Brumoy</ref>'s Greek Theatre</hi>
-               </title>.<hi rendition="#sup">
-                  <note>Lennox published her translation, <hi rendition="#italics">
-                        <title>Memoirs of <ref target="people.html#DukeofSully">Maximilian de Bethune, Duke
+               </title>.<note>Lennox published her translation, <hi rendition="#italics">
+                     <title>Memoirs of <ref target="people.html#DukeofSully">Maximilian de Bethune, Duke
                                         of Sully</ref>
-                        </title>
-                     </hi> in 1751, while her translation
+                     </title>
+                  </hi> in 1751, while her translation
                             of <ref target="people.html#BrumoyPierre">Brumoy</ref>'s <hi rendition="#italics">
-                        <title>Le Théâtre des
+                     <title>Le Théâtre des
                                 Grecs</title>
-                     </hi> (1730) appeared as <hi rendition="#italics">
-                        <title>The Greek Theatre of Father Brumoy</title>
-                     </hi> in
-                            1759.</note>
-               </hi> She likewise gave to the world <title>
+                  </hi> (1730) appeared as <hi rendition="#italics">
+                     <title>The Greek Theatre of Father Brumoy</title>
+                  </hi> in
+                            1759.</note> She likewise gave to the world <title>
                   <hi rendition="#italics">Shakespear Illustrated</hi>
                </title>, in three
                     volumes; being a collection of the tales and histories upon which the plays of
@@ -732,11 +734,9 @@
                     heroine and a gentleman who is introduced to her <pb n="iii"/>as one who
                     possesses a great knowledge of history and of the ancients, and whom she
                     strangely perplexes by questions and anecdotes of Cyrus, and Cletia, and
-                    Horatius Cocles,<hi rendition="#sup">
-                  <note>Characters in the
+                    Horatius Cocles,<note>Characters in the
                             various French fictions that <ref target="people.html#LennoxCharlotte">Lennox</ref>'s novel spoofs, based on historical
-                        figures.</note>
-               </hi> which he cannot explain or answer by any information
+                        figures.</note> which he cannot explain or answer by any information
                     his reading has furnished him with. The young lady's cousin is represented
                     as more patient of her extravagancies than most modern lovers would be; but she
                     is painted as amiable, and, like <ref target="people.html#DonQuixote">Don
@@ -764,7 +764,7 @@
                     things in them to admire; nor is it very improbable that, in the rage for
                     reviving every thing that is old, they may make their appearance again in a
                     modern quarto of hot-pressed paper, with a life and an engraving from the
-                    original portrait of <ref target="people.html#ScuderyMadeleine">Mad<hi rendition="#sup">lle</hi> Scudery</ref> by <ref target="people.html#NanteuilRobert">Nanteuil</ref>, with her elegant verses
+                    original portrait of <ref target="people.html#ScuderyMadeleine">Madlle Scudery</ref> by <ref target="people.html#NanteuilRobert">Nanteuil</ref>, with her elegant verses
                     under it.</p>
             <p> The style of <ref target="people.html#LennoxCharlotte">Mrs. Lennox</ref> is
                     easy, but it does not rise to the elegance attained by many more modern female
@@ -778,14 +778,12 @@
                     sentiment and the very words brought forward to ridicule the modern German
                     plays, in the well-known humorous parody of them in <ref target="people.html#AntiJacobin">
                   <title>The Anti-Jacobin</title>
-               </ref>!<hi rendition="#sup">
-                  <note>From "<title>The Rovers; or, the
+               </ref>!<note>From "<title>The Rovers; or, the
                                 Double Arrangement</title>" (<title>
-                        <hi rendition="#italics">Anti-Jacobin; or, Weekly Examiner</hi>
-                     </title> no. 31 [11 June
+                     <hi rendition="#italics">Anti-Jacobin; or, Weekly Examiner</hi>
+                  </title> no. 31 [11 June
                             1798]), a parody of German drama, especially that of <ref target="people.html#SchillerFriedrich">Friedrich Schiller</ref>.
                         </note>
-               </hi>
             </p>
          </div>
       </body>

@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Poets of Rural Life.—Cowper.</title>
-            <title type="sub" level="j">The New Monthly Magazine</title>
+            <title type="sub">The New Monthly Magazine</title>
             <author type="writer">
                <name>Emily Taylor</name>
             </author>
@@ -37,7 +37,7 @@
                <monogr>
                   <title type="main" level="j">The New Monthly Magazine</title>
                   <imprint>
-                     <date when="1821-08">1821-08</date>
+                     <date when="1821-08">August 1821</date>
                      <biblScope unit="vol">2</biblScope>
                      <biblScope unit="issue">8</biblScope>
                      <biblScope unit="page">153-157</biblScope>
@@ -49,28 +49,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -84,15 +83,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -335,11 +343,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -469,7 +478,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -548,7 +557,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="4">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -583,7 +600,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="essay" org="uniform" sample="complete" part="N">
+         <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
@@ -591,226 +608,206 @@
                         <name>Emily Taylor</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title>
-                     <hi rendition="#smcaps">poets of rural life</hi>.—<hi rendition="#smcaps">cowper</hi>.<hi rendition="#sup">
-                        <note>
-                           <hi rendition="#italics">
-                              <title>The New Monthly
-											Magazine</title>
-                           </hi>, vol. 2, August 1821, pp. 153-7.
-									The essay is attributed to <ref target="people.html#TaylorEmily">Emily Taylor</ref> in <hi rendition="#italics">
-                              <title>The Wellesley Index to Victorian
-												Periodicals 1824-1900</title>
-                           </hi>, ed. Wa;ter E.
-									Houghton, University of Toronto Press, 1966. This essay was edited for <hi rendition="#italics">
-                              <title>The Criticism
-										Archive</title>
-                           </hi> by Jon Pinkerton and Mary A.
-									Waters.</note>
-                     </hi>
+                     <hi rendition="#smcaps">poets of rural life</hi>.—<hi rendition="#smcaps"
+                        >cowper</hi>.<note>
+                        <hi rendition="#italics">
+                           <title>The New Monthly Magazine</title>
+                        </hi>, vol. 2, August 1821, pp. 153-7. The essay is attributed to <ref
+                           target="people.html#TaylorEmily">Emily Taylor</ref> in <hi
+                           rendition="#italics">
+                           <title>The Wellesley Index to Victorian Periodicals 1824-1900</title>
+                        </hi>, ed. Wa;ter E. Houghton, University of Toronto Press, 1966. This essay
+                        was edited for <hi rendition="#italics">
+                           <title>The Criticism Archive</title>
+                        </hi> by Jon Pinkerton and Mary A. Waters.</note>
                   </title>
                </bibl>
             </head>
-            <p>T<hi rendition="#smcaps">here</hi> is scarcely a poet of any note in the annals
-					of literature who has not expressed his enthusiastic admiration for the rural
-					life. Yet a very small proportion of our bards have resided in the country, and,
-					with few exceptions, we can scarcely name a set of men less apparently satisfied
-					with seclusion, or whose practice has appeared more decidedly at variance with
-					profession. We do not find fault with them for their conformity to their real
-					notions of enjoyment; on the contrary, we think the world has gained much by it.
-					But there is no occasion for any deception in the matter, and accordingly we
-					find it is daily becoming a more simple and natural thing, if we may so speak,
-					to be a poet. With all our admiration for departed genius, and, in individual
-					instances, for its vast attainments, we cannot be insensible to this great charm
-					of our modern poetry. We have done with poetical priestcraft. We see in our
-					bards a race of men, not set apart, like Druids, for holy and solemn purposes,
-					but mingling in our avocations, giving and collecting sweets from the social as
-					well as from the solitary scene; men who feel keenly, and imagine promptly; men
-					whom we are little inclined to take for our guides, "spiritual or
-					temporal," but who nevertheless do sometimes quicken both body and soul:
-					and while we think ourselves indebted to them for much that makes the rugged
-					prospect of life look beautiful, we hold that the advantages of our communion
-					are strictly mutual. Now and then a poetical Pope, or, if it pleases our readers
-					better, a literary arch-druid, will start up, and plead for the almost-forgotten
-					supremacy of the bard; but we, meanwhile, like not such extorted homage, and are
-					better pleased with those wholesome, sweet, and life-cheering strains, which are
-					evidently the product of minds kept in exercise by constant communion with their
-					fellows, than with the lonely and mystical musings of the solitary dreamer. The
-					retired poet is not, generally speaking, an agreeable character. We have no
-					sympathy with a being who, while pretending to a more than ordinary relish for
-						<hi rendition="#italics">natural</hi>, seems to have little perception of
-						<hi rendition="#italics">social</hi>, beauty. Give us the bard who can bring
-					to our fire-sides the light and warmth of his genius; who can place in new and
-					beautiful colours the circumstances of our daily lives; whose heart seems to be
-					touched with human kindness. With all <hi rendition="#italics">this</hi>, reason
-					and experience tell us, may be joined a most exuberant imagination and a refined
-					taste. Indeed, it is remarkable, that poetical genius has generally thriven much
-					better in society than in solitude. Even our best descriptive poets have seldom
-					been secluded men. Nothing, it will readily be acknowledged, can be more
-					exquisite than some of <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>'s descriptions:<lb/>
+            <p>T<hi rendition="#smcaps">here</hi> is scarcely a poet of any note in the annals of
+               literature who has not expressed his enthusiastic admiration for the rural life. Yet
+               a very small proportion of our bards have resided in the country, and, with few
+               exceptions, we can scarcely name a set of men less apparently satisfied with
+               seclusion, or whose practice has appeared more decidedly at variance with profession.
+               We do not find fault with them for their conformity to their real notions of
+               enjoyment; on the contrary, we think the world has gained much by it. But there is no
+               occasion for any deception in the matter, and accordingly we find it is daily
+               becoming a more simple and natural thing, if we may so speak, to be a poet. With all
+               our admiration for departed genius, and, in individual instances, for its vast
+               attainments, we cannot be insensible to this great charm of our modern poetry. We
+               have done with poetical priestcraft. We see in our bards a race of men, not set
+               apart, like Druids, for holy and solemn purposes, but mingling in our avocations,
+               giving and collecting sweets from the social as well as from the solitary scene; men
+               who feel keenly, and imagine promptly; men whom we are little inclined to take for
+               our guides, "spiritual or temporal," but who nevertheless do sometimes quicken both
+               body and soul: and while we think ourselves indebted to them for much that makes the
+               rugged prospect of life look beautiful, we hold that the advantages of our communion
+               are strictly mutual. Now and then a poetical Pope, or, if it pleases our readers
+               better, a literary arch-druid, will start up, and plead for the almost-forgotten
+               supremacy of the bard; but we, meanwhile, like not such extorted homage, and are
+               better pleased with those wholesome, sweet, and life-cheering strains, which are
+               evidently the product of minds kept in exercise by constant communion with their
+               fellows, than with the lonely and mystical musings of the solitary dreamer. The
+               retired poet is not, generally speaking, an agreeable character. We have no sympathy
+               with a being who, while pretending to a more than ordinary relish for <hi
+                  rendition="#italics">natural</hi>, seems to have little perception of <hi
+                  rendition="#italics">social</hi>, beauty. Give us the bard who can bring to our
+               fire-sides the light and warmth of his genius; who can place in new and beautiful
+               colours the circumstances of our daily lives; whose heart seems to be touched with
+               human kindness. With all <hi rendition="#italics">this</hi>, reason and experience
+               tell us, may be joined a most exuberant imagination and a refined taste. Indeed, it
+               is remarkable, that poetical genius has generally thriven much better in society than
+               in solitude. Even our best descriptive poets have seldom been secluded men. Nothing,
+               it will readily be acknowledged, can be more exquisite than some of <ref
+                  target="people.html#ShakespeareWilliam">Shakespeare</ref>'s descriptions:<lb/>
                <fw type="vol">
                   <hi rendition="#smcaps">vol. ii. no. viii.</hi>
                </fw>
-               <fw type="sig" rendition="#center">M</fw>
-               <pb n="154"/>yet <hi rendition="#italics">he</hi> did not spend his days and
-					years in musing on the world of natural beauty. In accordance with this, we may
-					observe that all his sweet and refreshing descriptions come in, in the way of
-					digression: he pauses amid the hurry and business of action, to rest us with
-					Lorenzo and Jessica in "the sweet moonlight;" and even while leading
-					us along in the rapid career of ambition, he brings before our eyes, in lovely
-					contrast, a view of the peaceful beauties of nature. None but a quick observer
-					could have done this: but a habit of ready observation is chiefly to be acquired
-					in active life; and hence it is, we think, that social habits are favourable to
-					the improvement of the poetical character. It has been said, however, that
-					retirement is desirable, not only or chiefly as it acquaints the poet with
-					nature, but as it acquaints him with himself. This is very true; and we
-					perfectly agree with <ref target="people.html#WordsworthWilliam">Mr.
-						Wordsworth</ref>;—</p>
+               <fw type="sig"><hi rendition="#smcaps">m</hi></fw>
+               <pb n="154"/>yet <hi rendition="#italics">he</hi> did not spend his days and years in
+               musing on the world of natural beauty. In accordance with this, we may observe that
+               all his sweet and refreshing descriptions come in, in the way of digression: he
+               pauses amid the hurry and business of action, to rest us with Lorenzo and Jessica in
+               "the sweet moonlight;" and even while leading us along in the rapid career of
+               ambition, he brings before our eyes, in lovely contrast, a view of the peaceful
+               beauties of nature. None but a quick observer could have done this: but a habit of
+               ready observation is chiefly to be acquired in active life; and hence it is, we
+               think, that social habits are favourable to the improvement of the poetical
+               character. It has been said, however, that retirement is desirable, not only or
+               chiefly as it acquaints the poet with nature, but as it acquaints him with himself.
+               This is very true; and we perfectly agree with <ref
+                  target="people.html#WordsworthWilliam">Mr. Wordsworth</ref>;—</p>
             <quote>
                <lg type="stanza">
                   <l>Whose mind is but the mind of his own eyes,</l>
-                  <l>He is a slave, the meanest we can meet.<hi rendition="#sup">
-                        <note>
-                           <ref target="people.html#WordsworthWilliam">Wordsworth</ref>'s <title>Poems</title>, vol. ii.
-									"I am not one," &amp;c. [Taylor's
-								note.]</note>
-                     </hi>
+                  <l>He is a slave, the meanest we can meet.<note>
+                        <ref target="people.html#WordsworthWilliam">Wordsworth</ref>'s
+                           <title>Poems</title>, vol. ii. "I am not one," &amp;c. [Taylor's
+                        note.]</note>
                   </l>
                </lg>
             </quote>
-            <p>However, the poet who trusts to meditation upon his own mind alone for
-					improvement, will, we fear, find himself in the predicament of the religionist,
-					who relies, for his spiritual progress, on solitariness and self-watching. Both
-					disdain the aliment upon which mind and heart are fed, and both are in imminent
-					danger of starvation. Both also are liable to fall into that great error, the
-					darling child of solitude, an overweening sense of self-importance, and a
-					contempt of their brethren of mankind. In the little poem from which we have
-					above quoted, we find much to censure. The man who can thus deliberately set at
-					nought the advantages of communion with his fellows, who can remark upon the
-					scandalous, trifling, and unprofitable discourse of some, leaving us to infer
-					that such, and no better, is to be met with in the world, may find hearers to
-					whom he can descant, <quote>
+            <p>However, the poet who trusts to meditation upon his own mind alone for improvement,
+               will, we fear, find himself in the predicament of the religionist, who relies, for
+               his spiritual progress, on solitariness and self-watching. Both disdain the aliment
+               upon which mind and heart are fed, and both are in imminent danger of starvation.
+               Both also are liable to fall into that great error, the darling child of solitude, an
+               overweening sense of self-importance, and a contempt of their brethren of mankind. In
+               the little poem from which we have above quoted, we find much to censure. The man who
+               can thus deliberately set at nought the advantages of communion with his fellows, who
+               can remark upon the scandalous, trifling, and unprofitable discourse of some, leaving
+               us to infer that such, and no better, is to be met with in the world, may find
+               hearers to whom he can descant, <quote>
                   <lg type="stanza">
-                     <l>Of personal themes, and such as <hi rendition="#italics">he</hi>
-								loves best,</l>
+                     <l>Of personal themes, and such as <hi rendition="#italics">he</hi> loves
+                        best,</l>
                      <l>Matters wherein right voluble <hi rendition="#italics">he is;</hi>
-                        <hi rendition="#sup">
-                           <note>Adapted from <ref target="people.html#WordsworthWilliam">William
-											Wordsworth</ref>, <title>"Personal Talk," III,
-												<hi rendition="#italics">
-                                    <title>Poems, in Two
-												Volumes</title>
-                                 </hi> (Longman, Hurst, Rees, and
-											Orme, 1807), vol. II, pp. 120-121.
-								</title>
-                           </note>
-                        </hi>
+                        <note>Adapted from <ref target="people.html#WordsworthWilliam">William
+                              Wordsworth</ref>, <title>"Personal Talk," III, <hi
+                                 rendition="#italics">
+                                 <title>Poems, in Two Volumes</title>
+                              </hi> (Longman, Hurst, Rees, and Orme, 1807), vol. II, pp. 120-121.
+                           </title>
+                        </note>
                      </l>
                   </lg>
-               </quote> but can hardly expect to find listening ears, admiring eyes,
-					and applauding tongues in every circle. We are apt to reckon the religious
-					bigotry of <ref target="people.html#CowperWilliam">Cowper</ref> the worst
-					blemish of <title>the Task</title>.<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#CowperWilliam">Cowper</ref>, <hi rendition="#italics">
-                        <title>The Task</title>
-                     </hi> (<ref target="people.html#JohnsonJoseph">J. Johnson</ref>,
-						1785).</note>
-               </hi> That bigotry, however, had in it nothing personal; and we
-					can far better tolerate the timid Christian, when we see him shrinking from a
-					world, whose practices he has learnt to conceive as evil, than we can bear with
-					the man whose assumed superiority is that of intellect, not of principle. But of
-					all people, the poet, <pb n="155"/>perhaps, has the least excuse for being a
-					dogmatist. "To him all that is interesting or amiable in human character,
-					all that excites or engages our benevolent affections: all the truths which make
-					the heart feel better and more happy—all these supply materials out of
-					which he forms and peoples a world of his own, where no inconveniences damp our
-					enjoyments, where no shades darken our prospects."<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#StewartDugald">Dugald
-								Stewart</ref>. [Taylor's note.] Stewart, <hi rendition="#italics">
-                        <title>Elements of the Philosophy of the Human
-									Mind</title>
-                     </hi> Vol. I (1792), Ch. VII, "Of
-							Imagination."</note>
-               </hi> His object is, to catch the fleeting ideas
-					of grandeur and of beauty, from whatever sources derived, by whatever objects
-					suggested; to fix them, and embody them for himself, for us, and for ages to
-					come. Perish the criticism that would damp the ardour of his research! and
-					perish the odious spirit of sectarianism, that would throw a shade over the
-					glories of poetical liberty!</p>
-            <p>We have thus prefaced the few remarks we intend to make upon the poems of <ref target="people.html#CowperWilliam">Cowper</ref>, in order to preclude the
-					idea that our partialities are, <hi rendition="#italics">generally</hi>, in
-					favour of retirement as the nurse of poetical talent,—an idea to which our
-					fervent admiration for <ref target="people.html#CowperWilliam">the Bard of
-						Weston</ref> might possibly lead. We think the case of <ref target="people.html#CowperWilliam">Cowper</ref>, however, a peculiar one.
-					From the constitution of his mind it appears that his life must either have been
-						<hi rendition="#italics">that</hi> which it really was, or <hi rendition="#italics">a scene</hi> of excessive misery. All speculations,
-					therefore, upon what he might have been under different circumstances, are
-					cruelly misplaced. We regard him as one whose lot was cast for him without
-					revoke; and we think of him as a poet who had nothing to do with systems, whose
-					peculiarities were those of his own mind, and who wrote simply as he felt or
-					imagined. Every one must allow that in spirit he was far from a dogmatist. His
-					gentle and affectionate heart taught him the value of those social pleasures
-					from which he felt himself for ever excluded:—hence there is not the
-					smallest particle of the leaven of selfishness in his censures of the vices of
-					society; not one word from whence we can reasonably infer that the poet was
-					retaliating upon the world the wrongs which he had received. The character of
-					Cowper's mind, though acute and penetrating, was not, doubtless, very
-					enlarged. He was too timid a Christian to be a good metaphysician, and has
-					written nothing which it requires any stretch of the faculties fully to
-					comprehend. In this respect, indeed, he differs widely from <ref target="people.html#WordsworthWilliam">Mr. Wordsworth</ref>, who, though
-					often too mystical for the common run of poetical readers, is far better
-					acquainted with the human mind. <ref target="people.html#WordsworthWilliam">Mr.
-						Wordsworth</ref>, however, when he stoops from his highest and most
-					successful flights, is sure to affront common readers by being over trite and
-					obvious. Not so <ref target="people.html#CowperWilliam">Cowper</ref>.<lb/>
-               <fw type="sig" rendition="#center">M 2</fw>
-               <pb n="156"/> Natural and easy
-					as he is, he is never babyish. The man, the scholar, and the poet, never are
-					forgotten. We should be at a loss to point out any author throughout whose
-					volumes we could discern the presence of such perfect and entire
-					simplicity—yet only in one or two instances does it seem to have led him
-					into details inconsistent with the dignity of poetry.</p>
-            <p>A great deal has been said upon a question which we would fain avoid, if remarks
-					upon <ref target="people.html#CowperWilliam">Cowper</ref> could be written
-					without touching upon it. It has been thought improper to blend devotional
-					addresses to the Supreme Being with appeals to the imagination; and poets who
-					have done this are considered by many as having infringed on the province of
-					fancy, and sinned against good taste. We perfectly agree with those who only
-					mean to protest against our implicitly adopting the poet's creed; but,
-					loving and respecting religion ourselves, we cannot see any thing objectionable
-					in giving her cause all the advantage which good taste and good scholarship can
-					bring to it. A great many people, doubtless, will admire such a poet as <ref target="people.html#CowperWilliam">Cowper</ref> for his piety, who know
-					little about poetry—but where is the harm of this? Such people, if they
-					are not gifted by nature or education with an understanding capable of
-					appreciating the highest kinds of poetical merit, are alive to the perception of
-					beauty of some sort, and seeing religious and moral truths presented before them
-					in an amiable and striking point of view, they catch a degree of refinement to
-					which they would otherwise have been strangers. It is no slight merit to have
-					raised and purified the devotional feelings of numbers, as Cowper has done.</p>
-            <p>But the Poems of <ref target="people.html#CowperWilliam">Cowper</ref> have often
-					been accounted melancholy, and melancholy they are to us, who read them with the
-					lively recollection of the poet's life before us. Yet it is not the fashion
-					of our day to complain of our bards for indulging in depressing
-					contemplations—many are allowed to mourn like <ref target="people.html#CowperWilliam">Cowper</ref>, who know but little of the
-					hope that, in his darkest hours, kept its station near him, ready to comfort and
-					cheer every moment which the black fiend of melancholy deigned to spare to her
-					victim. It has cheered us, many a time, to think that over so dark a life such
-					gleams of comfort came; that such awful visitations of evil should be
-					interspersed with such exquisite perceptions of good; that the miseries of this
-					life should be so often relieved by clear and decisive anticipations of that
-					which is to come. Religion and nature are infinitely endeared to us while we
-					observe their beneficial influence on the poet's mind.</p>
-            <p>In conclusion—to wish <ref target="people.html#CowperWilliam">Cowper</ref>
-					other than he was, except with regard to his indescribable sufferings, is almost
-					impossible. But we do not wish for other Cowpers. That depression which<pb n="157"/> unfitted him for the world, kept him from the desire of literary
-					dictation. He stood alone — but his loneliness was not the effect of
-					pride. For most poets a very different lot is desirable.<hi rendition="#flushRight">
+               </quote> but can hardly expect to find listening ears, admiring eyes, and applauding
+               tongues in every circle. We are apt to reckon the religious bigotry of <ref
+                  target="people.html#CowperWilliam">Cowper</ref> the worst blemish of <title>the
+                  Task</title>.<note>
+                  <ref target="people.html#CowperWilliam">Cowper</ref>, <hi rendition="#italics">
+                     <title>The Task</title>
+                  </hi> (<ref target="people.html#JohnsonJoseph">J. Johnson</ref>, 1785).</note>
+               That bigotry, however, had in it nothing personal; and we can far better tolerate the
+               timid Christian, when we see him shrinking from a world, whose practices he has
+               learnt to conceive as evil, than we can bear with the man whose assumed superiority
+               is that of intellect, not of principle. But of all people, the poet, <pb n="155"
+               />perhaps, has the least excuse for being a dogmatist. "To him all that is
+               interesting or amiable in human character, all that excites or engages our benevolent
+               affections: all the truths which make the heart feel better and more happy—all these
+               supply materials out of which he forms and peoples a world of his own, where no
+               inconveniences damp our enjoyments, where no shades darken our prospects."<note>
+                  <ref target="people.html#StewartDugald">Dugald Stewart</ref>. [Taylor's note.]
+                  Stewart, <hi rendition="#italics">
+                     <title>Elements of the Philosophy of the Human Mind</title>
+                  </hi> Vol. I (1792), Ch. VII, "Of Imagination."</note> His object is, to catch the
+               fleeting ideas of grandeur and of beauty, from whatever sources derived, by whatever
+               objects suggested; to fix them, and embody them for himself, for us, and for ages to
+               come. Perish the criticism that would damp the ardour of his research! and perish the
+               odious spirit of sectarianism, that would throw a shade over the glories of poetical
+               liberty!</p>
+            <p>We have thus prefaced the few remarks we intend to make upon the poems of <ref
+                  target="people.html#CowperWilliam">Cowper</ref>, in order to preclude the idea
+               that our partialities are, <hi rendition="#italics">generally</hi>, in favour of
+               retirement as the nurse of poetical talent,—an idea to which our fervent admiration
+               for <ref target="people.html#CowperWilliam">the Bard of Weston</ref> might possibly
+               lead. We think the case of <ref target="people.html#CowperWilliam">Cowper</ref>,
+               however, a peculiar one. From the constitution of his mind it appears that his life
+               must either have been <hi rendition="#italics">that</hi> which it really was, or <hi
+                  rendition="#italics">a scene</hi> of excessive misery. All speculations,
+               therefore, upon what he might have been under different circumstances, are cruelly
+               misplaced. We regard him as one whose lot was cast for him without revoke; and we
+               think of him as a poet who had nothing to do with systems, whose peculiarities were
+               those of his own mind, and who wrote simply as he felt or imagined. Every one must
+               allow that in spirit he was far from a dogmatist. His gentle and affectionate heart
+               taught him the value of those social pleasures from which he felt himself for ever
+               excluded:—hence there is not the smallest particle of the leaven of selfishness in
+               his censures of the vices of society; not one word from whence we can reasonably
+               infer that the poet was retaliating upon the world the wrongs which he had received.
+               The character of Cowper's mind, though acute and penetrating, was not, doubtless,
+               very enlarged. He was too timid a Christian to be a good metaphysician, and has
+               written nothing which it requires any stretch of the faculties fully to comprehend.
+               In this respect, indeed, he differs widely from <ref
+                  target="people.html#WordsworthWilliam">Mr. Wordsworth</ref>, who, though often too
+               mystical for the common run of poetical readers, is far better acquainted with the
+               human mind. <ref target="people.html#WordsworthWilliam">Mr. Wordsworth</ref>,
+               however, when he stoops from his highest and most successful flights, is sure to
+               affront common readers by being over trite and obvious. Not so <ref
+                  target="people.html#CowperWilliam">Cowper</ref>.<lb/><fw type="sig"><hi rendition="#smcaps">m 2</hi></fw>
+               <pb n="156"/> Natural and easy as he is, he is never babyish. The man, the scholar,
+               and the poet, never are forgotten. We should be at a loss to point out any author
+               throughout whose volumes we could discern the presence of such perfect and entire
+               simplicity—yet only in one or two instances does it seem to have led him into details
+               inconsistent with the dignity of poetry.</p>
+            <p>A great deal has been said upon a question which we would fain avoid, if remarks upon
+                  <ref target="people.html#CowperWilliam">Cowper</ref> could be written without
+               touching upon it. It has been thought improper to blend devotional addresses to the
+               Supreme Being with appeals to the imagination; and poets who have done this are
+               considered by many as having infringed on the province of fancy, and sinned against
+               good taste. We perfectly agree with those who only mean to protest against our
+               implicitly adopting the poet's creed; but, loving and respecting religion ourselves,
+               we cannot see any thing objectionable in giving her cause all the advantage which
+               good taste and good scholarship can bring to it. A great many people, doubtless, will
+               admire such a poet as <ref target="people.html#CowperWilliam">Cowper</ref> for his
+               piety, who know little about poetry—but where is the harm of this? Such people, if
+               they are not gifted by nature or education with an understanding capable of
+               appreciating the highest kinds of poetical merit, are alive to the perception of
+               beauty of some sort, and seeing religious and moral truths presented before them in
+               an amiable and striking point of view, they catch a degree of refinement to which
+               they would otherwise have been strangers. It is no slight merit to have raised and
+               purified the devotional feelings of numbers, as Cowper has done.</p>
+            <p>But the Poems of <ref target="people.html#CowperWilliam">Cowper</ref> have often been
+               accounted melancholy, and melancholy they are to us, who read them with the lively
+               recollection of the poet's life before us. Yet it is not the fashion of our day to
+               complain of our bards for indulging in depressing contemplations—many are allowed to
+               mourn like <ref target="people.html#CowperWilliam">Cowper</ref>, who know but little
+               of the hope that, in his darkest hours, kept its station near him, ready to comfort
+               and cheer every moment which the black fiend of melancholy deigned to spare to her
+               victim. It has cheered us, many a time, to think that over so dark a life such gleams
+               of comfort came; that such awful visitations of evil should be interspersed with such
+               exquisite perceptions of good; that the miseries of this life should be so often
+               relieved by clear and decisive anticipations of that which is to come. Religion and
+               nature are infinitely endeared to us while we observe their beneficial influence on
+               the poet's mind.</p>
+            <p>In conclusion—to wish <ref target="people.html#CowperWilliam">Cowper</ref> other than
+               he was, except with regard to his indescribable sufferings, is almost impossible. But
+               we do not wish for other Cowpers. That depression which<pb n="157"/> unfitted him for
+               the world, kept him from the desire of literary dictation. He stood alone — but his
+               loneliness was not the effect of pride. For most poets a very different lot is
+                  desirable.</p>
+            <p rendition="#right">
                   <ref target="people.html#TaylorEmily">E.T.</ref>
-               </hi>
-            </p>
+               </p>
          </div>
       </body>
    </text>

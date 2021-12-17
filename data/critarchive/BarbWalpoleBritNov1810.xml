@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Walpole</title>
-            <title type="sub" level="m">The British Novelists</title>
+            <title type="sub">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -38,8 +38,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="sub">with an Essay and Prefaces, Biographical and
-                            Critical</title>
+                  <title type="sub">with an Essay and Prefaces, Biographical and Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
                   </editor>
@@ -57,28 +56,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -92,15 +90,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -343,11 +350,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -477,7 +485,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -556,7 +564,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="8">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -565,11 +581,11 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#LM" when="20200611" n="7">
+         <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy</item>
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -584,7 +600,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers</item>
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
          <change who="#MW" when="2016-08-30" n="4">
@@ -627,147 +643,120 @@
                         <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
                      </name>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
-                     <ref target="people.html#WalpoleHorace">WALPOLE</ref>.<hi rendition="#sup">
-                        <note>
-                           <title level="m">
-                              <hi rendition="#italics">The British Novelists;
-                                            with an Essay; and Prefaces, Biographical and Critical,
-                                            by <ref target="people.html#BarbauldMrs">Mrs.
-                                                Barbauld</ref>
-                              </hi>
-                           </title>, 50 Vols. (London:
-                                    Printed for F.C. and J. Rivington; W. Otridge and Son; A.
-                                    Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
-                                    Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
-                                    Lea; J. Nunn; Lackington and Co.; Clarke and Son; C. Law;
-                                    Longman, Hurst, Rees, and Orme; Cadell and Davies; E. Jeffery;
-                                    J.K. Newman; Crosby and Co.; J. Carpenter; S. Bagster; T. Booth;
-                                    J. Murray; J. and J. Richardson; Black, Parry, and Kingsbury; J.
-                                    Harding; R. Phillips; J. Mawman; J. Booker; J. Asperne; R.
-                                    Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.;
-                                    Sherwood and Co.; J. Miller; W. Creech, Edinburgh; and Wilson
-                                    and Son, York, 1810), 22: i-iii. Pages are numbered i-iii though
-                                    the essay and <ref target="people.html#WalpoleHorace">Walpole</ref>'s novel <title>
-                              <hi rendition="#italics">The Castle of Otranto</hi>
-                           </title> appear in the volume
-                                    after <ref target="people.html#ReeveClara">Clara
-                                    Reeve</ref>'s <title>
-                              <hi rendition="#italics">The Old
-                                            English Baron</hi>
-                           </title>. Victoria Wynn and Mary A.
-                                    Waters co-edited this essay for <hi rendition="#italics">The
-                                        Criticism Archive</hi>. </note>
-                     </hi>
+                     <ref target="people.html#WalpoleHorace">WALPOLE</ref>.<note>
+                        <title level="m">
+                           <hi rendition="#italics">The British Novelists; with an Essay; and
+                              Prefaces, Biographical and Critical, by <ref
+                                 target="people.html#BarbauldMrs">Mrs. Barbauld</ref>
+                           </hi>
+                        </title>, 50 Vols. (London: Printed for F.C. and J. Rivington; W. Otridge
+                        and Son; A. Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
+                        Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R. Lea; J.
+                        Nunn; Lackington and Co.; Clarke and Son; C. Law; Longman, Hurst, Rees, and
+                        Orme; Cadell and Davies; E. Jeffery; J.K. Newman; Crosby and Co.; J.
+                        Carpenter; S. Bagster; T. Booth; J. Murray; J. and J. Richardson; Black,
+                        Parry, and Kingsbury; J. Harding; R. Phillips; J. Mawman; J. Booker; J.
+                        Asperne; R. Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.;
+                        Sherwood and Co.; J. Miller; W. Creech, Edinburgh; and Wilson and Son, York,
+                        1810), 22: i-iii. Pages are numbered i-iii though the essay and <ref
+                           target="people.html#WalpoleHorace">Walpole</ref>'s novel <title>
+                           <hi rendition="#italics">The Castle of Otranto</hi>
+                        </title> appear in the volume after <ref target="people.html#ReeveClara"
+                           >Clara Reeve</ref>'s <title>
+                           <hi rendition="#italics">The Old English Baron</hi>
+                        </title>. Victoria Wynn and Mary A. Waters co-edited this essay for <hi
+                           rendition="#italics">The Criticism Archive</hi>. </note>
                   </title>
                </bibl>
             </head>
             <p rendition="#noindent">
                <title>
                   <hi rendition="#italics">
-                     <hi rendition="#largest">T</hi>HE Castle of
-                            Otranto</hi>
-               </title> was written by The Honourable <ref target="people.html#WalpoleHorace">Horace Walpole</ref>, son of Sir <ref target="people.html#WalpoleRobert">Robert Walpole</ref>, who at the close of
-                    his life became Earl of Orford. It was printed at Strawberry Hill, and composed,
-                    the author tells us in one of his letters, in eight days or rather evenings.
-                    Though a slight performance, it is calculated to make a great impression upon
-                    those who relish the fictions of the <title>
-                  <hi rendition="#italics">Arabian
-                            Tales</hi>
-               </title>, and similar performances. It was one of the first of
-                    the modern productions founded on appearances of terror. </p>
-            <p> Since this author's time, from the perusal of Mrs. <ref target="people.html#RadcliffeAnn">Radcliffe</ref>'s productions and
-                    some of the German tales, we may be said to have "supped full with
-                        horrors,"<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi rendition="#italics">Macbeth</hi> V.v.13.</note>
-               </hi> but none of
-                    those compositions have a livelier play of fancy than <title>
+                     <hi rendition="#largest">T</hi>HE Castle of Otranto</hi>
+               </title> was written by The Honourable <ref target="people.html#WalpoleHorace">Horace
+                  Walpole</ref>, son of Sir <ref target="people.html#WalpoleRobert">Robert
+                  Walpole</ref>, who at the close of his life became Earl of Orford. It was printed
+               at Strawberry Hill, and composed, the author tells us in one of his letters, in eight
+               days or rather evenings. Though a slight performance, it is calculated to make a
+               great impression upon those who relish the fictions of the <title>
+                  <hi rendition="#italics">Arabian Tales</hi>
+               </title>, and similar performances. It was one of the first of the modern productions
+               founded on appearances of terror. </p>
+            <p> Since this author's time, from the perusal of Mrs. <ref
+                  target="people.html#RadcliffeAnn">Radcliffe</ref>'s productions and some of the
+               German tales, we may be said to have "supped full with horrors,"<note>
+                  <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi
+                     rendition="#italics">Macbeth</hi> V.v.13.</note> but none of those compositions
+               have a livelier play of fancy than <title>
                   <hi rendition="#italics">The Castle of Otranto</hi>
-               </title>. It is the
-                    sportive effusion of a man of genius, who throws the reins loose upon the neck
-                    of his imagination. The large limbs of the gigantic figure which inhabits the
-                    castle, and which are visible at intervals; the plumes of the helmet, which rise
-                    and wave with ominous meaning; and the various enchant-<lb/>
+               </title>. It is the sportive effusion of a man of genius, who throws the reins loose
+               upon the neck of his imagination. The large limbs of the gigantic figure which
+               inhabits the castle, and which are visible at intervals; the plumes of the helmet,
+               which rise and wave with ominous meaning; and the various enchant-<lb/>
                <fw type="vol">
                   <hi rendition="#smcaps">vol. xxii.</hi>
                </fw>
                <fw type="sig">b</fw>
-               <pb n="ii"/>ments of the place,
-                    are imagined with the richness and wildness of poetic fancy. A sufficient degree
-                    of interest is thrown into the novel part of the story; but in the characters of
-                    some of the attendants there is an attempt at humour which has not
-                    succeeded.</p>
-            <p>The works of <ref target="people.html#WalpoleHorace">Horace Walpole</ref> are
-                    well known. He was a gentleman author, and wrote and printed for his own
-                    amusement, living in literary ease at his elegant seat of Strawberry Hill, in
-                    the architecture and furniture of which he has also shown a predilection for the
-                    romantic ideas connected with gothic and chivalrous times. He always moved in
-                    the highest circles of company, and joined the man of fashion and man of wit to
-                    the elegant scholar. Mr. <ref target="people.html#WalpoleHorace">Walpole</ref>
-                    was fond of French literature, and few Englishmen have more imbibed the spirit
-                    and taste of the writers of that nation. His little jeu d'esprit upon <ref target="people.html#RousseauJeanJacques">Rousseau</ref> is well known.<hi rendition="#sup">
-                  <note>Published in a British newspaper in 1766
-                            as a letter from the King of Prussia to <ref target="people.html#RousseauJeanJacques">Rousseau</ref>, <ref target="people.html#WalpoleHorace">Walpole</ref>'s satire mocks
-                                <ref target="people.html#RousseauJeanJacques">Rousseau</ref>'s
-                            fear of persecution for his political writings.</note>
-               </hi>
+               <pb n="ii"/>ments of the place, are imagined with the richness and wildness of poetic
+               fancy. A sufficient degree of interest is thrown into the novel part of the story;
+               but in the characters of some of the attendants there is an attempt at humour which
+               has not succeeded.</p>
+            <p>The works of <ref target="people.html#WalpoleHorace">Horace Walpole</ref> are well
+               known. He was a gentleman author, and wrote and printed for his own amusement, living
+               in literary ease at his elegant seat of Strawberry Hill, in the architecture and
+               furniture of which he has also shown a predilection for the romantic ideas connected
+               with gothic and chivalrous times. He always moved in the highest circles of company,
+               and joined the man of fashion and man of wit to the elegant scholar. Mr. <ref
+                  target="people.html#WalpoleHorace">Walpole</ref> was fond of French literature,
+               and few Englishmen have more imbibed the spirit and taste of the writers of that
+               nation. His little jeu d'esprit upon <ref target="people.html#RousseauJeanJacques"
+                  >Rousseau</ref> is well known.<note>Published in a British newspaper in 1766 as a
+                  letter from the King of Prussia to <ref target="people.html#RousseauJeanJacques"
+                     >Rousseau</ref>, <ref target="people.html#WalpoleHorace">Walpole</ref>'s satire
+                  mocks <ref target="people.html#RousseauJeanJacques">Rousseau</ref>'s fear of
+                  persecution for his political writings.</note>
             </p>
             <p>
                <title>
                   <hi rendition="#italics">The Castle of Otranto</hi>
-               </title> is much in the
-                    spirit of the tales of <ref target="people.html#HamiltonAnthony">Count
-                        Hamilton</ref>. In one of those tales we meet with a vast leg of a giant,
-                    which probably suggested the prodigy in the former. <ref target="people.html#WalpoleHorace">Horace Walpole</ref> wrote, <title>
-                  <hi rendition="#italics">A Catalogue of royal and noble
-                    Authors</hi>
+               </title> is much in the spirit of the tales of <ref
+                  target="people.html#HamiltonAnthony">Count Hamilton</ref>. In one of those tales
+               we meet with a vast leg of a giant, which probably suggested the prodigy in the
+               former. <ref target="people.html#WalpoleHorace">Horace Walpole</ref> wrote, <title>
+                  <hi rendition="#italics">A Catalogue of royal and noble Authors</hi>
                </title>; <title>
-                  <hi rendition="#italics">Anecdotes of Painting,
-                            enlarged from Vertue</hi>
+                  <hi rendition="#italics">Anecdotes of Painting, enlarged from Vertue</hi>
                </title>; <title>
-                  <hi rendition="#italics">An
-                            Essay on modern Gardening</hi>
-               </title>, in which there is a good deal of
-                    taste; and <title>
+                  <hi rendition="#italics">An Essay on modern Gardening</hi>
+               </title>, in which there is a good deal of taste; and <title>
                   <hi rendition="#italics">The Mysterious Mother,</hi>
-               </title> a
-                    tragedy. The last work was much spoken of while it was handed about with a
-                    certain air of secrecy,<hi rendition="#sup">
-                  <note>The first Gothic
-                            drama ever written, <title>
-                        <hi rendition="#italics">The Mysterious
-                                    Mother</hi>
-                     </title> explores an intense and incestuous
-                            relationship between a mother and a son. The subject matter was
-                            considered too heightened and graphic for eighteenth-century audiences
-                            and the play was not intended for public performance.</note>
-               </hi> but
-                    sunk into neglect soon after it was published. Not but that there are some fine
-                    lines, and some strong moral sentiment in the piece; but no play<pb n="iii"/>could be expected to support itself under a subject so disgustingly repulsive.
-                    The story itself is in the <title>
-                  <hi rendition="#italics">Gesta
-                        Romanorum</hi>
-               </title>,<hi rendition="#sup">
-                  <note>A collection
-                            of Latin folklore probably compiled during the late
-                            thirteenth-century.</note>
-               </hi> and in <ref target="people.html#TaylorJeremy">Taylor</ref>'s <title>
+               </title> a tragedy. The last work was much spoken of while it was handed about with a
+               certain air of secrecy,<note>The first Gothic drama ever written, <title>
+                     <hi rendition="#italics">The Mysterious Mother</hi>
+                  </title> explores an intense and incestuous relationship between a mother and a
+                  son. The subject matter was considered too heightened and graphic for
+                  eighteenth-century audiences and the play was not intended for public
+                  performance.</note> but sunk into neglect soon after it was published. Not but
+               that there are some fine lines, and some strong moral sentiment in the piece; but no
+                  play<pb n="iii"/>could be expected to support itself under a subject so
+               disgustingly repulsive. The story itself is in the <title>
+                  <hi rendition="#italics">Gesta Romanorum</hi>
+               </title>,<note>A collection of Latin folklore probably compiled during the late
+                  thirteenth-century.</note> and in <ref target="people.html#TaylorJeremy"
+                  >Taylor</ref>'s <title>
                   <hi rendition="#italics">Cases of Conscience</hi>
-               </title>; and as in a play
-                    it never could be acted, it had better have remained in the form of a story.</p>
+               </title>; and as in a play it never could be acted, it had better have remained in
+               the form of a story.</p>
             <p>
-               <ref target="people.html#WalpoleHorace">Lord Orford</ref>'s works have been
-                    published since his death, in a pompous edition,<hi rendition="#sup">
-                  <note>Walpole’s collected works were edited by close family
-                            friend <ref target="people.html#BerryMary">Mary Berry</ref> and
-                            published in five large volumes in 1798.</note>
-               </hi> with his letters
-                    and some posthumous fragments, in both of which there is a good deal of light
-                    easy wit and entertaining court anecdote; but what is new in them has not been
-                    made very accessible to the public in general, as it is not to be had without
-                    purchasing works which they were long before in possession of.</p>
+               <ref target="people.html#WalpoleHorace">Lord Orford</ref>'s works have been published
+               since his death, in a pompous edition,<note>Walpole’s collected works were edited by
+                  close family friend <ref target="people.html#BerryMary">Mary Berry</ref> and
+                  published in five large volumes in 1798.</note> with his letters and some
+               posthumous fragments, in both of which there is a good deal of light easy wit and
+               entertaining court anecdote; but what is new in them has not been made very
+               accessible to the public in general, as it is not to be had without purchasing works
+               which they were long before in possession of.</p>
             <p/>
          </div>
       </body>

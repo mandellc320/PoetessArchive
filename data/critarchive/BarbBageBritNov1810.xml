@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Mr. Bage</title>
-            <title type="sub" level="m">The British Novelists</title>
+            <title type="sub">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -61,28 +61,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+        				placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p>
                <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+        				such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -560,7 +559,22 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="7">
+         <change who="#MW" when="20211214">
+            <label>Changed by</label>
+            <name>Mary Waters</name>
+            <list type="simple">
+               <item>line break added to forme work tags</item>
+            </list>
+         </change>
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below
+						but starting with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -633,16 +647,14 @@
                         <name>Anna Letitia Barbauld</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
-                     <ref target="people.html#BageRobert">MR. BAGE</ref>.<hi rendition="#sup">
-                        <note>
-                           <title level="m">
-                              <hi rendition="#italics">The British Novelists;
+                     <ref target="people.html#BageRobert">MR. BAGE</ref>.<note>
+                        <title level="m">
+                           <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
                                             by <ref target="people.html#BarbauldMrs">Mrs. Barbauld</ref>
-                              </hi>
-                           </title>, 50 Vols. (London:
+                           </hi>
+                        </title>, 50 Vols. (London:
                                     Printed for F.C. and J. Rivington; W. Otridge and Son; A.
                                     Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
                                     Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
@@ -656,7 +668,6 @@
                                     Michael Cole, Rachel Dejmal, and Mary A. Waters co-edited this
                                     essay for <hi rendition="#italics">The Criticism Archive</hi>.
                                 </note>
-                     </hi>
                   </title>
                </bibl>
             </head>
@@ -679,11 +690,11 @@
                     teacher at Birmingham, where he spent an evening every week for the purpose of
                     instruction.</p>
             <p>Living in a retired situation, and always a man of business, though his company
-                    was much sought after by those who knew him, it was not <lb/>
-               <fw type="vol">
+                    was much sought after by those who knew him, it was not
+               <lb/><fw type="vol">
                   <hi rendition="#smcaps">vol. xlviii.</hi>
                </fw>
-               <fw type="sig" rendition="#center">a</fw>
+               <fw type="sig">a</fw>
                <pb n="ii"/>his lot to mix in the fashionable or literary circles, and
                     his works show more of thought than of refinement.—He is said to have
                     first applied to his pen in order to divert his thoughts from a heavy pecuniary

@@ -3,9 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Review of Frédéric; i.e. Frederic, a
-					Novel</title>
-            <title type="sub" level="j">Monthly Review</title>
+            <title type="main" level="a">Review of Frédéric; i.e. Frederic, a Novel</title>
+            <title type="sub">Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -32,9 +31,8 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. XI. Frédéric; i.e. Frederic, a
-							Novel. By J. F., Author of La Dot de Suzette. 12mo. 3 Vols.
-							Paris.—London, De Boffe.</title>
+                  <title type="main" level="a">Art. XI. Frédéric; i.e. Frederic, a Novel. By J. F.,
+                     Author of La Dot de Suzette. 12mo. 3 Vols. Paris.—London, De Boffe.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -53,28 +51,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -88,15 +85,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -339,11 +345,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -473,7 +480,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -552,7 +559,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="5">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -594,120 +609,120 @@
    </teiHeader>
    <text>
       <body>
-         <div type="essay" org="uniform" sample="complete" part="N">
+         <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
-                        <name>Elizabeth
-								Moody</name>
+                        <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. XI. <hi rendition="#italics">Frédéric; i.e.</hi> Frederic, a
-							Novel. By <ref target="people.html#FieveeJoseph">J. F.</ref>, Author of
-								<hi rendition="#italics">La Dot de Suzette</hi>. 12mo. 3 Vols.
-							Paris.—London, De Boffe.<hi rendition="#sup">
-                        <note>This book review originally appeared in the <ref target="people.html#ReviewMonthly">
-                              <hi rendition="#italics">
-                                 <title level="j">Monthly Review</title>
-                              </hi>
-                           </ref>, second series, 
-									Vol. 34, Foreign Appendix, 1801, pp. 531-532. A brief notice of
-									the later English translation appears in <ref target="people.html#ReviewMonthly">
-                              <hi rendition="#italics">
-                                 <title level="j">The Monthly
-										Review</title>
-                              </hi>
-                           </ref>, vol. 50, no. 2, June 1806, p. 221.
-								Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's
-								marked copy of <hi rend="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-									Review</ref>
-                              </title>
-                           </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-											Series, 1790-1815: Indexes of Contributors and
-											Articles</title>
-                           </hi>, Clarendon Press, 1955. Zachary Parker and Mary A. Waters edited this essay for <hi rendition="#italics">The Criticism
-							Archive</hi>.</note>
-                     </hi>
+                  <title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. XI. <hi
+                        rendition="#italics">Frédéric; i.e.</hi> Frederic, a Novel. By <ref
+                        target="people.html#FieveeJoseph">J. F.</ref>, Author of <hi
+                        rendition="#italics">La Dot de Suzette</hi>. 12mo. 3 Vols. Paris.—London, De
+                        Boffe.<note>This book review originally appeared in the <ref
+                           target="people.html#ReviewMonthly">
+                           <hi rendition="#italics">
+                              <title level="j">Monthly Review</title>
+                           </hi>
+                        </ref>, second series, Vol. 34, Foreign Appendix, 1801, pp. 531-532. A brief
+                        notice of the later English translation appears in <ref
+                           target="people.html#ReviewMonthly">
+                           <hi rendition="#italics">
+                              <title level="j">The Monthly Review</title>
+                           </hi>
+                        </ref>, vol. 50, no. 2, June 1806, p. 221. Benjamin Nangle identifies <ref
+                           target="people.html#MoodyElizabeth">
+                           <name>Elizabeth Moody</name>
+                        </ref> as the author of this review from an editor's marked copy of <hi
+                           rendition="#italics">
+                           <title>
+                              <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                           </title>
+                        </hi>. See Nangle, <hi rendition="#italics">
+                           <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                              Contributors and Articles</title>
+                        </hi>, Clarendon Press, 1955. Zachary Parker and Mary A. Waters edited this
+                        essay for <hi rendition="#italics">The Criticism Archive</hi>.</note>
                   </title>
                </bibl>
             </head>
-            <p>T<hi rendition="#smcaps">his</hi> little work presents us with an amusing
-					narrative, interspersed with sprightly anecdotes, acute observations, and
-					interesting events. The hero of the story is a Foundling; whose parents, more
-					humane than the sentimental <hi rendition="#italics">Rousseau</hi>, did not send
-					him to an hospital and abandon him for ever, but cherished him, and provided for
-					his happiness by an unremitting superintendance. He commences his juvenile
-					career, however, under the tuition of a philosophical pedagogue whose system is
-					founded on that of <hi rendition="#italics">Rousseau</hi>; and poor Frederic
-					(like Emilius) is therefore first condemned to suffer a variety of experimental
-					caprices for the benefit of his mind, and is at last sent to an obscure mechanic
-					to learn a handy-craft employment for the benefit of his body. The <hi rendition="#italics">Curé de Mareil</hi>, the gentleman in question, is
-					well described; and, though seemingly a fancy sketch, he is a living
-					picture:</p>
+            <p>T<hi rendition="#smcaps">his</hi> little work presents us with an amusing narrative,
+               interspersed with sprightly anecdotes, acute observations, and interesting events.
+               The hero of the story is a Foundling; whose parents, more humane than the sentimental
+                  <hi rendition="#italics">Rousseau</hi>, did not send him to an hospital and
+               abandon him for ever, but cherished him, and provided for his happiness by an
+               unremitting superintendance. He commences his juvenile career, however, under the
+               tuition of a philosophical pedagogue whose system is founded on that of <hi
+                  rendition="#italics">Rousseau</hi>; and poor Frederic (like Emilius) is therefore
+               first condemned to suffer a variety of experimental caprices for the benefit of his
+               mind, and is at last sent to an obscure mechanic to learn a handy-craft employment
+               for the benefit of his body. The <hi rendition="#italics">Curé de Mareil</hi>, the
+               gentleman in question, is well described; and, though seemingly a fancy sketch, he is
+               a living picture:</p>
             <p>
-               <quote>The <hi rendition="#italics">Curé de Mareil</hi>, without being
-						contradictory, never agreed with any person in opinion; and, as he seldom
-						remained many days in the same way of thinking, it might be said that in
-						this respect he treated others as he served himself. His elocution was easy,
-						graceful, and animated by discussion; and his mind seemed to derive a vigour
-						from it, which abandoned him when he was given up to his own reflections. As
-						he had the mania of reducing every thing into system; as there is no system
-						that has not its vulnerable side; and as the weakness of his character did
-						not permit him to maintain that which he no longer believed, nor to believe
-						any thing long; he was opinionated without being obstinate, deducing false
-						inferences without ceasing to reason justly, well informed without having
-						one idea in connection with another, and always possessing the power of
-						persuading others, without the faculty of convincing himself.</quote>
+               <quote>The <hi rendition="#italics">Curé de Mareil</hi>, without being contradictory,
+                  never agreed with any person in opinion; and, as he seldom remained many days in
+                  the same way of thinking, it might be said that in this respect he treated others
+                  as he served himself. His elocution was easy, graceful, and animated by
+                  discussion; and his mind seemed to derive a vigour from it, which abandoned him
+                  when he was given up to his own reflections. As he had the mania of reducing every
+                  thing into system; as there is no system that has not its vulnerable side; and as
+                  the weakness of his character did not permit him to maintain that which he no
+                  longer believed, nor to believe any thing long; he was opinionated without being
+                  obstinate, deducing false inferences without ceasing to reason justly, well
+                  informed without having one idea in connection with another, and always possessing
+                  the power of persuading others, without the faculty of convincing himself.</quote>
             </p>
             <p>From the whimsical school of this systematic professor, Frederic is conveyed to
-					Paris, to be placed in some situation of employment:—but it seems as if he
-					were destined to be persecuted by philosophers, as St. Anthony was by demons,
-					for he is no sooner emancipated from one than he falls into the hands of
-					another.—Mons. <hi rendition="#italics">de Vignoral</hi>, in whose house
-					he was placed as a sort of clerk, was originally a poor <hi rendition="#italics">gentleman;</hi> who would have been sent to the plough, had not a great
-					prelate treated him with an education. By means of this bounty, he made a
-					progress in learning by which he acquired distinguished reputation: but, having
-					paid his court to placemen without obtain-</p>
+               Paris, to be placed in some situation of employment:—but it seems as if he were
+               destined to be persecuted by philosophers, as St. Anthony was by demons, for he is no
+               sooner emancipated from one than he falls into the hands of another.—Mons. <hi
+                  rendition="#italics">de Vignoral</hi>, in whose house he was placed as a sort of
+               clerk, was originally a poor <hi rendition="#italics">gentleman;</hi> who would have
+               been sent to the plough, had not a great prelate treated him with an education. By
+               means of this bounty, he made a progress in learning by which he acquired
+               distinguished reputation: but, having paid his court to placemen without obtain-</p>
             <pb n="532"/>
-            <p rendition="#noindentp">ing any eligible situation, —nothing better being
-					offered to him than a commission in the army, to which his personal <hi rendition="#italics">courage</hi> was not adequate, —he presumed for
-					better success on the <hi rendition="#italics">courage</hi> of his <hi rendition="#italics">mind</hi>, and decided on the <hi rendition="#italics">profession</hi> of P<hi rendition="#smcaps">hilosophy</hi>.</p>
-            <p>Under this gentleman, Frederic’s employment was to transcribe
-					manuscripts,—a wearisome business for a handsome young man; and he must
-					inevitably have died of <hi rendition="#italics">ennui</hi>, if Mons. <hi rendition="#italics">de Vignoral</hi> had not had a <hi rendition="#italics">philosophe coquette</hi> for his wife, the principles of whose system were
-					better adapted to the taste and disposition of a gay young Frenchman. Madame
-						<hi rendition="#italics">de V</hi>.’s philosophy consisted in obeying nature,
-					and following her instincts in a school rather more prejudicial to the pupil’s
-					morals than either of the preceding; and from which he did not escape
-					uncontaminated. He had, however, still more danger to encounter from his
-					protectress, Madame <hi rendition="#italics">de Sponasi</hi>, an <hi rendition="#italics">atheistical philosopher</hi>, with whom he was taken to
-					live on quitting the situation which he held under Mons. <hi rendition="#italics">de Vignoral</hi>. Frederic is very properly cautioned
-					by his friend Philip, before he enters on the task of conciliating this lady’s
-					esteem, <hi rendition="#italics">de ne parler jamais de la
-					Divinité</hi>.—Our hero at length shakes off his <hi rendition="#italics">philosophers</hi>; and, after having passed through a
-					variety of rugged and intricate paths, having met with many perplexing
-					adventures, and having committed as many disgraceful immoralities, he reaches
-					the harbour of virtue: where we have the pleasure of leaving him, repenting of
-					illicit amours, and fixing vagrant affections in the bosom of chastity.
-					Adèle, the goddess who reclaims him, is a charming creature: but the
-					features of her character have too philosophical a complexion, and are not
-					natural to a very young woman.—The other portraits are skillfully drawn,
-					and we could with pleasure enlarge on many of them: but our limits are bounded,
-					and our pens must not play truant.</p>
-            <p>Though this author introduces his readers to the vicious characters and practices
-					of the <hi rendition="#italics">Crebillon</hi> school, he exhibits them in a
-					more chaste and delicate manner; and the denouement of Madame <hi rendition="#italics">de Sponasi</hi>’s intrigue, as related by the good
-					Philip, is a sketch which manifests considerable talents. If the style of the
-					work be not in the first class of elegance, it is rarely so reprehensible as not
-					to atone by its wit and sprightliness: but the writer himself acknowledges, with
-					apparent indifference, that he has committed ‘some rather <hi rendition="#italics">aukward</hi> faults.’</p>
+            <p rendition="#noindentp">ing any eligible situation, —nothing better being offered to
+               him than a commission in the army, to which his personal <hi rendition="#italics"
+                  >courage</hi> was not adequate, —he presumed for better success on the <hi
+                  rendition="#italics">courage</hi> of his <hi rendition="#italics">mind</hi>, and
+               decided on the <hi rendition="#italics">profession</hi> of P<hi rendition="#smcaps"
+                  >hilosophy</hi>.</p>
+            <p>Under this gentleman, Frederic’s employment was to transcribe manuscripts,—a
+               wearisome business for a handsome young man; and he must inevitably have died of <hi
+                  rendition="#italics">ennui</hi>, if Mons. <hi rendition="#italics">de
+                  Vignoral</hi> had not had a <hi rendition="#italics">philosophe coquette</hi> for
+               his wife, the principles of whose system were better adapted to the taste and
+               disposition of a gay young Frenchman. Madame <hi rendition="#italics">de V</hi>.’s
+               philosophy consisted in obeying nature, and following her instincts in a school
+               rather more prejudicial to the pupil’s morals than either of the preceding; and from
+               which he did not escape uncontaminated. He had, however, still more danger to
+               encounter from his protectress, Madame <hi rendition="#italics">de Sponasi</hi>, an
+                  <hi rendition="#italics">atheistical philosopher</hi>, with whom he was taken to
+               live on quitting the situation which he held under Mons. <hi rendition="#italics">de
+                  Vignoral</hi>. Frederic is very properly cautioned by his friend Philip, before he
+               enters on the task of conciliating this lady’s esteem, <hi rendition="#italics">de ne
+                  parler jamais de la Divinité</hi>.—Our hero at length shakes off his <hi
+                  rendition="#italics">philosophers</hi>; and, after having passed through a variety
+               of rugged and intricate paths, having met with many perplexing adventures, and having
+               committed as many disgraceful immoralities, he reaches the harbour of virtue: where
+               we have the pleasure of leaving him, repenting of illicit amours, and fixing vagrant
+               affections in the bosom of chastity. Adèle, the goddess who reclaims him, is a
+               charming creature: but the features of her character have too philosophical a
+               complexion, and are not natural to a very young woman.—The other portraits are
+               skillfully drawn, and we could with pleasure enlarge on many of them: but our limits
+               are bounded, and our pens must not play truant.</p>
+            <p>Though this author introduces his readers to the vicious characters and practices of
+               the <hi rendition="#italics">Crebillon</hi> school, he exhibits them in a more chaste
+               and delicate manner; and the denouement of Madame <hi rendition="#italics">de
+                  Sponasi</hi>’s intrigue, as related by the good Philip, is a sketch which
+               manifests considerable talents. If the style of the work be not in the first class of
+               elegance, it is rarely so reprehensible as not to atone by its wit and sprightliness:
+               but the writer himself acknowledges, with apparent indifference, that he has
+               committed ‘some rather <hi rendition="#italics">aukward</hi> faults.’</p>
          </div>
       </body>
    </text>

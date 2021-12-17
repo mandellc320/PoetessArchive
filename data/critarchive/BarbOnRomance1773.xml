@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">On Romances, an Imitation</title>
-            <title type="sub" level="a">Miscellaneous Pieces, in Prose</title>
+            <title type="sub">Miscellaneous Pieces, in Prose</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -38,7 +38,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">Miscellaneous Pieces, in Prose</title>
-                  <title type="sub" level="m">By J. and A. L. Aikin</title>
+                  <title type="sub">By J. and A. L. Aikin</title>
                   <author type="writer">
                      <name>Aikin, John, 1747-1822</name>
                   </author>
@@ -58,28 +58,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -93,15 +92,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -344,11 +352,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -478,7 +487,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -556,7 +565,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="7">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -569,7 +586,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy</item>
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="5">
@@ -584,7 +601,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers</item>
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
          <change who="#MW" when="2016-07-15" n="3">
@@ -617,114 +634,103 @@
                <bibl>
                   <author type="writer">
                      <name>
-                        <ref target="people.html#BarbauldMrs">Anna Letitia
-                                Barbauld</ref>
+                        <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
                      </name>
                   </author>
-                  <lb/>
-                  <title type="main" level="a">
-                     ON <lb/>
+                  <title type="main" level="a">ON <lb/>
                      <hi rendition="#large">ROMANCES,</hi>
-                     <lb/>AN IMITATION.<hi rendition="#sup">
-                        <note>
-                           <title>
-                              <hi rendition="#italics">Miscellaneous Pieces, in Prose,
-                                            by <ref target="people.html#AikinJohn">J.</ref> and <ref target="people.html#BarbauldMrs">A. L.
-                                            Aikin</ref>
-                              </hi>
-                           </title>, (London: Printed for J.
-                                    Johnson, in St. Paul's Church-Yard), 1773, 39-46. Mary A. Waters
-                                    and Rachel Dejmal co-edited this essay for <hi rendition="#italics">The Criticism
-                            Archive</hi>.</note>
-                     </hi>
+                     <lb/>AN IMITATION.<note>
+                        <title>
+                           <hi rendition="#italics">Miscellaneous Pieces, in Prose, by <ref
+                                 target="people.html#AikinJohn">J.</ref> and <ref
+                                 target="people.html#BarbauldMrs">A. L. Aikin</ref>
+                           </hi>
+                        </title>, (London: Printed for J. Johnson, in St. Paul's Church-Yard), 1773,
+                        39-46. Mary A. Waters and Rachel Dejmal co-edited this essay for <hi
+                           rendition="#italics">The Criticism Archive</hi>.</note>
                   </title>
                </bibl>
             </head>
             <p rendition="#noindent">
-               <hi rendition="#largest">O</hi>F all the multifarious
-                    productions which the efforts of superior genius, or the labours of scholastic
-                    industry, have crowded upon the world, none are perused with more insatiable
-                    avidity, or disseminated with more universal applause, than the narrations of
-                    feigned events, descriptions of imaginary scenes, and deline-<lb/>
-               <fw type="sig">D 4</fw>
-               <pb n="40"/>ations of ideal
-                    characters. The celebrity of other authors is confined within very narrow
-                    limits. The Geometrician and Divine, the Antiquary and Critic, however
-                    distinguished by uncontested excellence, can only hope to please those whom a
-                    conformity of disposition has engaged in similar pursuits; and must be content
-                    to be regarded by the rest of the world with the smile of frigid indifference,
-                    or the contemptuous sneer of self-sufficient folly. The collector of shells and
-                    the anatomist of insects is little inclined to enter into theological disputes:
-                    the Divine is not apt to regard with veneration the uncouth diagrams and tedious
-                    calculations of the Astronomer: the man whose life has been consumed in
-                    adjusting the disputes of lexicographers, or elucidating the learning of
-                    antiquity, cannot easily bend his thoughts to recent transactions, or readily
-                    interest himself in the<pb n="41"/>unimportant history of his contemporaries:
-                    and the Cit, who knows no business but acquiring wealth, and no pleasure but
-                    displaying it, has a heart equally shut up to argument and fancy, to the
-                    batteries of syllogism, and the arrows of wit. To the writer of fiction alone,
-                    every ear is open, and every tongue lavish of applause; curiosity sparkles in
-                    every eye, and every bosom is throbbing with concern.</p>
-            <p>I<hi rendition="#smcaps">t</hi> is however easy to account for this enchantment.
-                    To follow the chain of perplexed ratiocination, to view with critical skill the
-                    airy architecture of systems, to unravel the web of sophistry, or weigh the
-                    merits of opposite hypotheses, requires perspicacity, and presupposes learning.
-                    Works of this kind, therefore, are not so well adapted to the generality of
-                    readers as familiar and colloquial composition;<pb n="42"/>for few can reason,
-                    but all can feel; and many who cannot enter into an argument, may yet listen to
-                    a tale. The writer of Romance has even an advantage over those who endeavour to
-                    amuse by the play of fancy; who from the fortuitous collision of dissimilar
-                    ideas produce the scintillations of wit; or by the vivid glow of poetical
-                    imagery delight the imagination with colours of ideal radiance. The attraction
-                    of the magnet is only exerted upon similar particles; and to taste the beauties
-                    of <ref target="people.html#Homer">Homer</ref> it is requisite to partake his
-                    fire: but every one can relish the author who represents common life, because
-                    every one can refer to the originals from whence his ideas were taken. He
-                    relates events to which all are liable, and applies to passions which all have
-                    felt. The gloom of solitude, the languor of inaction, the corrosions of
-                    disappointment, and the toil of thought, induce men to<pb n="43"/>step aside
-                    from the rugged road of life, and wander in the fairy land of fiction; where
-                    every bank is sprinkled with flowers, and every gale loaded with perfume; where
-                    every event introduces a hero, and every cottage is inhabited by a Grace.
-                    Invited by these flattering scenes, the student quits the investigation of
-                    truth, in which he perhaps meets with no less fallacy, to exhilerate his mind
-                    with new ideas, more agreeable, and more easily attained: the busy relax their
-                    attention by desultory reading, and smooth the agitation of a ruffled mind with
-                    images of peace, tranquillity, and pleasure: the idle and the gay relieve the
-                    listlessness of leisure, and diversify the round of life by a rapid series of
-                    events pregnant with rapture and astonishment; and the pensive solitary fills up
-                    the vacuities of his heart by interesting himself in the fortunes of imaginary
-                    beings, and forming connections with ideal excellence.</p>
+               <hi rendition="#largest">O</hi>F all the multifarious productions which the efforts
+               of superior genius, or the labours of scholastic industry, have crowded upon the
+               world, none are perused with more insatiable avidity, or disseminated with more
+               universal applause, than the narrations of feigned events, descriptions of imaginary
+               scenes, and deline-<lb/><fw type="sig">D 4</fw>
+               <pb n="40"/>ations of ideal characters. The celebrity of other authors is confined
+               within very narrow limits. The Geometrician and Divine, the Antiquary and Critic,
+               however distinguished by uncontested excellence, can only hope to please those whom a
+               conformity of disposition has engaged in similar pursuits; and must be content to be
+               regarded by the rest of the world with the smile of frigid indifference, or the
+               contemptuous sneer of self-sufficient folly. The collector of shells and the
+               anatomist of insects is little inclined to enter into theological disputes: the
+               Divine is not apt to regard with veneration the uncouth diagrams and tedious
+               calculations of the Astronomer: the man whose life has been consumed in adjusting the
+               disputes of lexicographers, or elucidating the learning of antiquity, cannot easily
+               bend his thoughts to recent transactions, or readily interest himself in the<pb
+                  n="41"/>unimportant history of his contemporaries: and the Cit, who knows no
+               business but acquiring wealth, and no pleasure but displaying it, has a heart equally
+               shut up to argument and fancy, to the batteries of syllogism, and the arrows of wit.
+               To the writer of fiction alone, every ear is open, and every tongue lavish of
+               applause; curiosity sparkles in every eye, and every bosom is throbbing with
+               concern.</p>
+            <p>I<hi rendition="#smcaps">t</hi> is however easy to account for this enchantment. To
+               follow the chain of perplexed ratiocination, to view with critical skill the airy
+               architecture of systems, to unravel the web of sophistry, or weigh the merits of
+               opposite hypotheses, requires perspicacity, and presupposes learning. Works of this
+               kind, therefore, are not so well adapted to the generality of readers as familiar and
+               colloquial composition;<pb n="42"/>for few can reason, but all can feel; and many who
+               cannot enter into an argument, may yet listen to a tale. The writer of Romance has
+               even an advantage over those who endeavour to amuse by the play of fancy; who from
+               the fortuitous collision of dissimilar ideas produce the scintillations of wit; or by
+               the vivid glow of poetical imagery delight the imagination with colours of ideal
+               radiance. The attraction of the magnet is only exerted upon similar particles; and to
+               taste the beauties of <ref target="people.html#Homer">Homer</ref> it is requisite to
+               partake his fire: but every one can relish the author who represents common life,
+               because every one can refer to the originals from whence his ideas were taken. He
+               relates events to which all are liable, and applies to passions which all have felt.
+               The gloom of solitude, the languor of inaction, the corrosions of disappointment, and
+               the toil of thought, induce men to<pb n="43"/>step aside from the rugged road of
+               life, and wander in the fairy land of fiction; where every bank is sprinkled with
+               flowers, and every gale loaded with perfume; where every event introduces a hero, and
+               every cottage is inhabited by a Grace. Invited by these flattering scenes, the
+               student quits the investigation of truth, in which he perhaps meets with no less
+               fallacy, to exhilerate his mind with new ideas, more agreeable, and more easily
+               attained: the busy relax their attention by desultory reading, and smooth the
+               agitation of a ruffled mind with images of peace, tranquillity, and pleasure: the
+               idle and the gay relieve the listlessness of leisure, and diversify the round of life
+               by a rapid series of events pregnant with rapture and astonishment; and the pensive
+               solitary fills up the vacuities of his heart by interesting himself in the fortunes
+               of imaginary beings, and forming connections with ideal excellence.</p>
             <pb n="44"/>
             <p>I<hi rendition="#smcaps">t</hi> is, indeed, no ways extraordinary that the mind
-                    should be charmed by fancy, and attracted by pleasure; but that we should listen
-                    to the groans of misery, and delight to view the exacerbations of complicated
-                    anguish, that we should chuse to chill the bosom with imaginary fears, and dim
-                    the eyes with fictitious sorrow, seems a kind of paradox of the heart, and only
-                    to be credited because it is universally felt. Various are the hypotheses which
-                    have been formed to account for the disposition of the mind to riot in this
-                    species of intellectual luxury. Some have imagined that we are induced to
-                    acquiesce with greater patience in our own lot, by beholding pictures of life
-                    tinged with deeper horrors, and loaded with more excruciating calamities; as, to
-                    a person suddenly emerging out of a dark room, the faintest glimmering of
-                    twilight assumes a lustre from the contrasted gloom. O-<pb n="45"/>thers, with
-                    yet deeper refinement, suppose that we take upon ourselves this burden of
-                    adscititious sorrows in order to feast upon the consciousness of our own virtue.
-                    We commiserate others (say they) that we may applaud ourselves; and the sigh of
-                    compassionate sympathy is always followed by the gratulations of self-complacent
-                    esteem. But surely they who would thus reduce the sympathetic emotions of pity
-                    to a system of refined selfishness, have but ill attended to the genuine
-                    feelings of humanity. It would however exceed the limits of this paper, should I
-                    attempt an accurate investigation of these sentiments. But let it be remembered,
-                    that we are more attracted by those scenes which interest our passions, or
-                    gratify our curiosity, than those which delight our fancy: and so far from being
-                    indifferent to the miseries of others, we are, at the time, totally regardless
-                    of our own. And <pb n="46"/>let not those, on whom the hand of time has
-                    impressed the characters of oracular wisdom, censure with too much acrimony
-                    productions which are thus calculated to please the imagination, and interest
-                    the heart. They teach us to think, by inuring us to feel: they ventilate the
-                    mind by sudden gusts of passion; and prevent the stagnation of thought, by a
-                    fresh infusion of dissimilar ideas.</p>
+               should be charmed by fancy, and attracted by pleasure; but that we should listen to
+               the groans of misery, and delight to view the exacerbations of complicated anguish,
+               that we should chuse to chill the bosom with imaginary fears, and dim the eyes with
+               fictitious sorrow, seems a kind of paradox of the heart, and only to be credited
+               because it is universally felt. Various are the hypotheses which have been formed to
+               account for the disposition of the mind to riot in this species of intellectual
+               luxury. Some have imagined that we are induced to acquiesce with greater patience in
+               our own lot, by beholding pictures of life tinged with deeper horrors, and loaded
+               with more excruciating calamities; as, to a person suddenly emerging out of a dark
+               room, the faintest glimmering of twilight assumes a lustre from the contrasted gloom.
+                  O-<pb n="45"/>thers, with yet deeper refinement, suppose that we take upon
+               ourselves this burden of adscititious sorrows in order to feast upon the
+               consciousness of our own virtue. We commiserate others (say they) that we may applaud
+               ourselves; and the sigh of compassionate sympathy is always followed by the
+               gratulations of self-complacent esteem. But surely they who would thus reduce the
+               sympathetic emotions of pity to a system of refined selfishness, have but ill
+               attended to the genuine feelings of humanity. It would however exceed the limits of
+               this paper, should I attempt an accurate investigation of these sentiments. But let
+               it be remembered, that we are more attracted by those scenes which interest our
+               passions, or gratify our curiosity, than those which delight our fancy: and so far
+               from being indifferent to the miseries of others, we are, at the time, totally
+               regardless of our own. And <pb n="46"/>let not those, on whom the hand of time has
+               impressed the characters of oracular wisdom, censure with too much acrimony
+               productions which are thus calculated to please the imagination, and interest the
+               heart. They teach us to think, by inuring us to feel: they ventilate the mind by
+               sudden gusts of passion; and prevent the stagnation of thought, by a fresh infusion
+               of dissimilar ideas.</p>
          </div>
       </body>
    </text>

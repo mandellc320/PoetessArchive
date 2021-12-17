@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Miss Burney</title>
-            <title type="sub" level="m">The British Novelists</title>
+            <title type="sub">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -57,28 +57,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+        				placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p>
                <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+        				such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -556,7 +555,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="8">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below
+						but starting with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -565,7 +572,7 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#LM" when="20200611" n="7">
+         <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -628,18 +635,16 @@
                         <name>Anna Letitia Barbauld</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
                      <ref target="people.html#BurneyFanny">MISS
-                                BURNEY</ref>.<hi rendition="#sup">
-                        <note>
-                           <title level="m">
-                              <hi rendition="#italics">The British Novelists;
+                                BURNEY</ref>.<note>
+                        <title level="m">
+                           <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
                                             by <ref target="people.html#BarbauldMrs">Mrs.
                                                 Barbauld</ref>
-                              </hi>
-                           </title>, 50 Vols. (London:
+                           </hi>
+                        </title>, 50 Vols. (London:
                                     Printed for F.C. and J. Rivington; W. Otridge and Son; A.
                                     Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
                                     Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
@@ -651,7 +656,6 @@
                                     Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.; W.
                                     Creech, Edinburgh; and Wilson and Son, York, 1810), 38:i-xi.
                                     Mary A. Waters edited this edition for <hi rendition="#italics">The Criticism Archive</hi>. </note>
-                     </hi>
                   </title>
                </bibl>
             </head>
@@ -685,7 +689,8 @@
                <lb/>
                <fw type="vol">
                   <hi rendition="#smcaps">vol.
-                  xxxviii</hi>.</fw>
+                        xxxviii.</hi>
+               </fw>
                <fw type="sig">a</fw>
                <pb n="ii"/>when she was in
                     the early bloom of youth, about seventeen. She wrote it without the knowledge of
@@ -738,8 +743,7 @@
                     pleased; and the interest the public took in the young writer was rewarded with
                     fresh pleasure by the publication of <title>
                   <hi rendition="#italics">Cecilia</hi>
-               </title>, than which it would be difficult <lb/>
-               <fw type="sig">a 2</fw>
+               </title>, than which it would be difficult <lb/><fw type="sig">a 2</fw>
                <pb n="iv"/>to find a novel with more various and
                     striking beauties. Among these may be reckoned the style, which is so varied,
                     according to the characters introduced, that, without any information from the
@@ -770,10 +774,8 @@
                     helplessness of unrestrained affection in Miss Belfield, whose character of
                     simplicity and tenderness much resembles that of Emily in <title>
                   <hi rendition="#italics">Sir Charles Grandison</hi>
-               </title>.<hi rendition="#sup">
-                  <note>Novel by <ref target="people.html#RichardsonSamuel">Samuel
-                            Richardson</ref>.</note>
-               </hi> If resemblances are sought for, it may
+               </title>.<note>Novel by <ref target="people.html#RichardsonSamuel">Samuel
+                            Richardson</ref>.</note> If resemblances are sought for, it may
                     also be observed that the situation of Cecilia with Mrs. Delville is similar to
                     that of <ref target="people.html#Marivaux">Marivaux</ref>'s Marianne with
                     the mother of Valville. </p>
@@ -788,8 +790,7 @@
                     the happiness of the lovers, that the reader is scarcely able to say whether the
                     story ends happily or unhappily. It is true that in human life things are
                     generally so balanced; but in fictitious writings it is more agreeable, if they
-                    are not <lb/>
-               <fw type="sig">a 3</fw>
+                    are not <lb/><fw type="sig">a 3</fw>
                <pb n="vi"/>meant to end tragically, to leave on the mind the rainbow colours of
                     delight in their full glow and beauty.</p>
             <p> But the finest part of these volumes is the very moral and instructive story of
@@ -828,12 +829,10 @@
                     countries, it has been usual in one way or other to hold out to literary merit;
                     and it was thought, we must presume, the most appropriate reward of her
                     exertions, and the happiest method of fostering her genius, that she was made
-                        <hi rendition="#italics">dresser</hi> to Her Majesty.<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#BurneyFanny">Burney</ref>
+                        <hi rendition="#italics">dresser</hi> to Her Majesty.<note>
+                  <ref target="people.html#BurneyFanny">Burney</ref>
                             served as lady in waiting to Charlotte, queen to <ref target="people.html#ageorgeIIIKingofGreatBritain">George III</ref>,
-                            from 1786-1791.</note>
-               </hi> She held this post for several years, during
+                            from 1786-1791.</note> She held this post for several years, during
                     which the duties of her situation seem to have engrossed her whole time. Her
                     state of health at length obliged her to resign it, and she was soon after
                     married to <ref target="people.html#ArblayGen">M. D'Arblay</ref>, a French
@@ -893,10 +892,8 @@
                     humiliating, to admit of a happy conclusion. The mind has been harassed and worn
                     with excess of painful feeling. At the conclusion of <title>
                   <hi rendition="#italics">Clarissa</hi>
-               </title>,<hi rendition="#sup">
-                  <note>Novel by <ref target="people.html#RichardsonSamuel">Samuel
-                                Richardson</ref>.</note>
-               </hi> we are dismissed in calm and not
+               </title>,<note>Novel by <ref target="people.html#RichardsonSamuel">Samuel
+                                Richardson</ref>.</note> we are dismissed in calm and not
                     unpleasing sorrow; but on the winding up of <title>
                   <hi rendition="#italics">Cecilia</hi>
                </title> and <title>

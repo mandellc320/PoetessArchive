@@ -31,11 +31,9 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Female Portrait Gallery, From Sir Walter Scott.
-							By the Author of "The Improvvisatrice." No.
-							II.—Constance.</title>
-                  <author type="writer">L. E. L. (Letitia Elizabeth Landon),
-							1802-1838</author>
+                  <title type="main" level="a">Female Portrait Gallery, From Sir Walter Scott. By
+                     the Author of "The Improvvisatrice." No. II.—Constance.</title>
+                  <author type="writer">L. E. L. (Letitia Elizabeth Landon), 1802-1838</author>
                </analytic>
                <monogr>
                   <title type="main" level="j">The New Monthly Magazine and Humorist</title>
@@ -53,28 +51,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -88,15 +85,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -339,11 +345,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -473,7 +480,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -551,7 +558,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="4">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -587,7 +602,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="essay" org="uniform" sample="complete" part="N">
+         <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
@@ -595,254 +610,216 @@
                         <name>Letitia Elizabeth Landon</name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title>FEMALE PORTRAIT GALLERY, FROM <ref target="people.html#ScottWalter">SIR WALTER SCOTT</ref>.<hi rendition="#sup">
-                        <note>Continued from No. ccv., p.39. [Editor's note]</note>
-                     </hi>
+                  <title>FEMALE PORTRAIT GALLERY, FROM <ref target="people.html#ScottWalter">SIR
+                        WALTER SCOTT</ref>.<note>Continued from No. ccv., p.39. [Editor's
+                        note]</note>
                      <lb/>
-                     <hi rendition="#smcaps">by <ref target="people.html#LandonLetitia">the
-									author of "the improvvisatrice."</ref>
+                     <hi rendition="#smcaps">by <ref target="people.html#LandonLetitia">the author
+                           of "the improvvisatrice."</ref>
                      </hi>
-                     <lb/> No.
-								II.—C<hi rendition="#smcaps">onstance</hi>. <hi rendition="#sup">
-                        <note>
-                           <hi rendition="#italics">
-                              <title>The New Monthly
-										Magazine and Humorist</title>
-                           </hi>, second series, vol. 52, no. 206,
-									February 1838, pp. 183-189. Constance is a character in <ref target="people.html#ScottWalter">Scott</ref>'s <hi rendition="#italics">
-                              <title>Marmion: A Tale of Flodden
-											Field</title>
-                           </hi>, a historical romance poem first
-									published in 1808.</note>
-                     </hi>
+                     <lb/> No. II.—C<hi rendition="#smcaps">onstance</hi>. <note>
+                        <hi rendition="#italics">
+                           <title>The New Monthly Magazine and Humorist</title>
+                        </hi>, second series, vol. 52, no. 206, February 1838, pp. 183-189.
+                        Constance is a character in <ref target="people.html#ScottWalter"
+                           >Scott</ref>'s <hi rendition="#italics">
+                           <title>Marmion: A Tale of Flodden Field</title>
+                        </hi>, a historical romance poem first published in 1808.</note>
                   </title>
                </bibl>
             </head>
-            <p> I<hi rendition="#smcaps">t</hi> is a curious thing, after years have elapsed, to
-					go back upon the pages of a favourite author. Nothing shows us more forcibly the
-					change that has taken place in ourselves. The book is a mental mirror—the mind
-					starts from its own face, so much freshness, and so much fire has passed away.
-					The colours and the light of youth have gone together. The judgment of the man
-					rarely confirms that of the boy. What was once sweet has become mawkish, and the
-					once exquisite simile appears little more than an ingenious conceit. The
-					sentiment which the heart once beat to applaud has now no answering key-note
-					within, and the real is perpetually militating against the imagined. It is a
-					great triumph to the poet when we return to the volume, and find that our early
-					creed was, after all, the true religion. Few writers stand this test so well as
-						<ref target="people.html#ScottWalter">Sir Walter Scott</ref>. We read him at
-					first with an eagerness impetuous as his own verse: years elapse, we again take
-					up those living pages, and we find ourselves carried away as before. Our choice
-					has changed, perhaps, as to favourites passages, but we still find favourites.
-					Scott is the epic poet of England; he does for chivalry what <ref target="people.html#Homer">Homer</ref> did for the heroic age. He caught it
-					just fading into dim oblivion, living by tradition, veiled by superstition,
-					uncertain and exaggerated; yet not less the chaos from whence sprang the
-					present, which must trace to that morning checquered darkness, the acquisitions
-					and the characteristics of to-day. What constitutes the great epic poet? his
-					power of revivifying the past. It is not till a nation has gained a certain
-					point in civilization that it desires to look back; but when action allows a
-					breathing time for thought, and the mechanical and customary has succeeded to
-					the adventurous and unexpected, then we desire to trace the Nile of our moral
-					progress to its far and hidden fountains. It is this desire which is the
-					inspiration of <ref target="people.html#ScottWalter">Walter Scott</ref>. From
-					the dim waters he evokes the shining spirit, and from scattered fragments
-					constructs the glorious whole. We cannot sympathize with the regret that he
-					expresses in one of the exquisite introductions to
-						<title>"Marmion,"</title> when but for want of kingly
-					countenance— <quote>
+            <p> I<hi rendition="#smcaps">t</hi> is a curious thing, after years have elapsed, to go
+               back upon the pages of a favourite author. Nothing shows us more forcibly the change
+               that has taken place in ourselves. The book is a mental mirror—the mind starts from
+               its own face, so much freshness, and so much fire has passed away. The colours and
+               the light of youth have gone together. The judgment of the man rarely confirms that
+               of the boy. What was once sweet has become mawkish, and the once exquisite simile
+               appears little more than an ingenious conceit. The sentiment which the heart once
+               beat to applaud has now no answering key-note within, and the real is perpetually
+               militating against the imagined. It is a great triumph to the poet when we return to
+               the volume, and find that our early creed was, after all, the true religion. Few
+               writers stand this test so well as <ref target="people.html#ScottWalter">Sir Walter
+                  Scott</ref>. We read him at first with an eagerness impetuous as his own verse:
+               years elapse, we again take up those living pages, and we find ourselves carried away
+               as before. Our choice has changed, perhaps, as to favourites passages, but we still
+               find favourites. Scott is the epic poet of England; he does for chivalry what <ref
+                  target="people.html#Homer">Homer</ref> did for the heroic age. He caught it just
+               fading into dim oblivion, living by tradition, veiled by superstition, uncertain and
+               exaggerated; yet not less the chaos from whence sprang the present, which must trace
+               to that morning checquered darkness, the acquisitions and the characteristics of
+               to-day. What constitutes the great epic poet? his power of revivifying the past. It
+               is not till a nation has gained a certain point in civilization that it desires to
+               look back; but when action allows a breathing time for thought, and the mechanical
+               and customary has succeeded to the adventurous and unexpected, then we desire to
+               trace the Nile of our moral progress to its far and hidden fountains. It is this
+               desire which is the inspiration of <ref target="people.html#ScottWalter">Walter
+                  Scott</ref>. From the dim waters he evokes the shining spirit, and from scattered
+               fragments constructs the glorious whole. We cannot sympathize with the regret that he
+               expresses in one of the exquisite introductions to <title>"Marmion,"</title> when but
+               for want of kingly countenance— <quote>
                   <lg type="stanza">
                      <l>Dryden, in immortal strain,</l>
-                     <l>Had raised the Table Round again.<hi rendition="#sup">
-                           <note>From <ref target="people.html#ScottWalter">Sir
-											Walter Scott</ref>'s <title>
-                                 <hi rendition="#italics"> Marmion: A Tale of Flodden
-												Field</hi>
-                              </title>, Introduction to Canto First,
-										lines 275-6.</note>
-                        </hi>
+                     <l>Had raised the Table Round again.<note>From <ref
+                              target="people.html#ScottWalter">Sir Walter Scott</ref>'s <title>
+                              <hi rendition="#italics"> Marmion: A Tale of Flodden Field</hi>
+                           </title>, Introduction to Canto First, lines 275-6.</note>
                      </l>
                   </lg>
                </quote>
-               <ref target="people.html#DrydenJohn">Dryden</ref> lived in an age when the
-					political and moral standards were set at too low a water-mark for the high
-					tides of poetry. With the most splendid and vigorous versification, with an
-					energy of satire and wit that had the point of the dagger and the weight of the
-					axe, <ref target="people.html#DrydenJohn">Dryden</ref> was deficient in what
-						<ref target="people.html#ScottWalter">Scott</ref> possessed. He would have
-					lacked the picturesque which calls up yesterday, and the sentiment which links
-					it with to-day. The machinery of guardian angels which he proposed is enough to
-					show that the first design was a failure. It is a great poetical mis-
-				<pb n="184"/>
-				take to revive exploded superstition. The gods are
-					effective in <ref target="people.html#Homer">Homer</ref>, because both the age
-					of which he wrote and that in which he wrote believed devoutly in the terrors of
-					their thunder. But the guardian angels of England, Ireland, and
-						Scotland—<ref target="people.html#GeorgeSaint">St. George</ref>, <ref target="people.html#PatrickSaint">St. Patrick</ref>, and <ref target="people.html#AndrewApostleSaint">St. Andrew</ref>—could never
-					have been more than ingenious human inventions. Scott did as much with
-					superstition as any modern writer could venture. He gave the omen, the prophecy,
-					and the gramarye,<hi rendition="#sup">
-                  <note>Magic or
-							sorcery.</note>
-               </hi> without which the picture he drew would have been
-					incomplete. And what a picture he has drawn! how true, how breathing! It is
-					England exactly as England was—full of tumult and of adventure, but with a
-					rude sense of justice and a dawn of information destined to produce such vast
-					after-growth of knowledge and prosperity. No writer has the art of conveying so
-					much by a slight intimation. Sir Hugh the Heron Bold<hi rendition="#sup">
-                  <note>A character from <ref target="people.html#ScottWalter">Scott</ref>'s, <hi rendition="#italics">
-                        <title>Marmion</title>
-                     </hi> who receives Marmion at Norham Castle
-							in the first Canto.</note>
-               </hi> urges his invitation on the English
-					Baron, that he "may breathe his war-horse well,"<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#ScottWalter">Scott</ref>,
-								<hi rendition="#italics">
-                        <title>Marmion</title>
-                     </hi>, Canto First,
-							"The Castle," stanza XIV, line 218.</note>
-               </hi> for— <quote>
+               <ref target="people.html#DrydenJohn">Dryden</ref> lived in an age when the political
+               and moral standards were set at too low a water-mark for the high tides of poetry.
+               With the most splendid and vigorous versification, with an energy of satire and wit
+               that had the point of the dagger and the weight of the axe, <ref
+                  target="people.html#DrydenJohn">Dryden</ref> was deficient in what <ref
+                  target="people.html#ScottWalter">Scott</ref> possessed. He would have lacked the
+               picturesque which calls up yesterday, and the sentiment which links it with to-day.
+               The machinery of guardian angels which he proposed is enough to show that the first
+               design was a failure. It is a great poetical mis- <pb n="184"/> take to revive
+               exploded superstition. The gods are effective in <ref target="people.html#Homer"
+                  >Homer</ref>, because both the age of which he wrote and that in which he wrote
+               believed devoutly in the terrors of their thunder. But the guardian angels of
+               England, Ireland, and Scotland—<ref target="people.html#GeorgeSaint">St.
+               George</ref>, <ref target="people.html#PatrickSaint">St. Patrick</ref>, and <ref
+                  target="people.html#AndrewApostleSaint">St. Andrew</ref>—could never have been
+               more than ingenious human inventions. Scott did as much with superstition as any
+               modern writer could venture. He gave the omen, the prophecy, and the
+                  gramarye,<note>Magic or sorcery.</note> without which the picture he drew would
+               have been incomplete. And what a picture he has drawn! how true, how breathing! It is
+               England exactly as England was—full of tumult and of adventure, but with a rude sense
+               of justice and a dawn of information destined to produce such vast after-growth of
+               knowledge and prosperity. No writer has the art of conveying so much by a slight
+               intimation. Sir Hugh the Heron Bold<note>A character from <ref
+                     target="people.html#ScottWalter">Scott</ref>'s, <hi rendition="#italics">
+                     <title>Marmion</title>
+                  </hi> who receives Marmion at Norham Castle in the first Canto.</note> urges his
+               invitation on the English Baron, that he "may breathe his war-horse well,"<note>
+                  <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
+                     <title>Marmion</title>
+                  </hi>, Canto First, "The Castle," stanza XIV, line 218.</note> for— <quote>
                   <lg type="stanza">
                      <l>The Scots can rein a mettled steed,</l>
                      <l rendition="#indent2">And love to couch a spear.</l>
                      <l>St. George! a stirring life they lead</l>
-                     <l rendition="#indent2">That have such neighbours near.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                                 <title>Marmion</title>
-                              </hi>, Canto
-										Sixth, "The Battle," stanza XIX, lines
-										221-4.</note>
-                        </hi>
+                     <l rendition="#indent2">That have such neighbours near.<note>
+                           <ref target="people.html#ScottWalter">Scott</ref>, <hi
+                              rendition="#italics">
+                              <title>Marmion</title>
+                           </hi>, Canto Sixth, "The Battle," stanza XIX, lines 221-4.</note>
                      </l>
                   </lg>
-               </quote> Wat Tinlyn gives in three lines an equally vivid notion of the
-					consequences of such "pleasant pastime:"— <quote>
+               </quote> Wat Tinlyn gives in three lines an equally vivid notion of the consequences
+               of such "pleasant pastime:"— <quote>
                   <lg type="stanza">
                      <l>They burn'd my little lonely tower;</l>
                      <l>The foul fiend rive their souls therefore!</l>
-                     <l>It had not been burn'd a year or more.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">The Lay of the
-											Last Minstrel</hi> (1805), Canto IV, stanza vi. The
-										speaker is Wat Tinlinn.</note>
-                        </hi>
+                     <l>It had not been burn'd a year or more.<note>
+                           <ref target="people.html#ScottWalter">Scott</ref>, <hi
+                              rendition="#italics">The Lay of the Last Minstrel</hi> (1805), Canto
+                           IV, stanza vi. The speaker is Wat Tinlinn.</note>
                      </l>
                   </lg>
                </quote>
             </p>
             <p> Not to have your house burned over your head for a twelvemonth seems an unwonted
-					piece of domestic quiet. The metre, too, of these noble poems was admirably
-					chosen. It is entirely English—it belongs to the period it
-					illustrates—and the battle alone in <title>"Marmion"</title> may
-					show what was its spirit and strength. It must, indeed, have rung like a silver
-					trumpet amid the silken inanities of the Hayley and Seward school. It is quite
-					odd now to read the sort of deprecating praise with which these poems were
-					received by the established critical authorities. The expression of popular
-					applause is too strong to be resisted, but while <ref target="people.html#ScottWalter">Mr. Scott's</ref> talents are
-					universally admitted, he is constantly admonished to choose some loftier theme,
-					as if any theme could have been better suited to a great national poet than one
-					belonging to the history of that country whose youth is renewed in his stirring
-					lines.</p>
-            <p> Never did any one age produce two minds so essentially opposed as those of <ref target="people.html#ByronGeorge">Byron</ref> and <ref target="people.html#ScottWalter">Scott</ref>. <ref target="people.html#ByronGeorge">Byron</ref> idealised and expressed that
-					bitter spirit of discontent which has at the present moment taken a more
-					material and tangible form. He is the incarnation of November. From time
-					immemorial it has been an Englishman's privilege to grumble, and <ref target="people.html#ByronGeorge">Byron</ref> gave picturesque language to
-					the universal feeling. He embodied in his heroes what is peculiarly our insular
-					character—its shyness, its sensitiveness, and its tendency to morbid
-					despondency. <ref target="people.html#ScottWalter">Scott</ref>, on the contrary,
-					took the more commercial and fighting side of the character; he embodied its
-					enterprise and resistance. The difference is strongly shown in the delineation
-					of their two most marked heroes—<title>"Lara"</title>
-               <hi rendition="#sup">
-                  <note>From <ref target="people.html#ByronGeorge">Byron</ref>'s <title>
-                        <hi rendition="#italics">Lara, A Tale</hi>
-                     </title>, a tragic
-							narrative poem first published in 1814.</note>
-               </hi> and
-						<title>"Marmion."</title> Both are men brave, unscrupulous, and
-					accustomed <pb n="185"/> to action; but Lara turns disgusted from a world which
-					to him has neither an illusion nor a pleasure. Marmion, on the contrary, desires
-					to pursue his career of worldly advancement: he looks forward to increased
-					riches and power, and indulges in no misanthropic misgivings as to the worth of
-					the acquisition when once gained. Both are attended by a Page—that
-					favourite creation of the olden dramatists; <ref target="people.html#ByronGeorge">Byron's</ref> is little more than the
-					shadowy but graceful outline: <ref target="people.html#ScottWalter">Scott</ref>
-					has worked out his creation truly and severely. The Pages in the old drama are
-					entirely poetical creations; they occupy the debatable ground between the
-					fanciful and the existing; they belong exclusively to the romantic in
-					literature. They could only have been fancied when poetry delighted to hold love
-					a creed as well as a passion. The heart called up the ideal to redeem the real,
-					and an attachment was elevated by disinterestedness and moral beauty. There is
-					none of this high-toned imagination in the classic fictions. Women were then
-					considered as articles of property. The <quote>
+               piece of domestic quiet. The metre, too, of these noble poems was admirably chosen.
+               It is entirely English—it belongs to the period it illustrates—and the battle alone
+               in <title>"Marmion"</title> may show what was its spirit and strength. It must,
+               indeed, have rung like a silver trumpet amid the silken inanities of the Hayley and
+               Seward school. It is quite odd now to read the sort of deprecating praise with which
+               these poems were received by the established critical authorities. The expression of
+               popular applause is too strong to be resisted, but while <ref
+                  target="people.html#ScottWalter">Mr. Scott's</ref> talents are universally
+               admitted, he is constantly admonished to choose some loftier theme, as if any theme
+               could have been better suited to a great national poet than one belonging to the
+               history of that country whose youth is renewed in his stirring lines.</p>
+            <p> Never did any one age produce two minds so essentially opposed as those of <ref
+                  target="people.html#ByronGeorge">Byron</ref> and <ref
+                  target="people.html#ScottWalter">Scott</ref>. <ref
+                  target="people.html#ByronGeorge">Byron</ref> idealised and expressed that bitter
+               spirit of discontent which has at the present moment taken a more material and
+               tangible form. He is the incarnation of November. From time immemorial it has been an
+               Englishman's privilege to grumble, and <ref target="people.html#ByronGeorge"
+                  >Byron</ref> gave picturesque language to the universal feeling. He embodied in
+               his heroes what is peculiarly our insular character—its shyness, its sensitiveness,
+               and its tendency to morbid despondency. <ref target="people.html#ScottWalter"
+                  >Scott</ref>, on the contrary, took the more commercial and fighting side of the
+               character; he embodied its enterprise and resistance. The difference is strongly
+               shown in the delineation of their two most marked heroes—<title>"Lara"</title>
+               <note>From <ref target="people.html#ByronGeorge">Byron</ref>'s <title>
+                     <hi rendition="#italics">Lara, A Tale</hi>
+                  </title>, a tragic narrative poem first published in 1814.</note> and
+                  <title>"Marmion."</title> Both are men brave, unscrupulous, and accustomed <pb
+                  n="185"/> to action; but Lara turns disgusted from a world which to him has
+               neither an illusion nor a pleasure. Marmion, on the contrary, desires to pursue his
+               career of worldly advancement: he looks forward to increased riches and power, and
+               indulges in no misanthropic misgivings as to the worth of the acquisition when once
+               gained. Both are attended by a Page—that favourite creation of the olden dramatists;
+                  <ref target="people.html#ByronGeorge">Byron's</ref> is little more than the
+               shadowy but graceful outline: <ref target="people.html#ScottWalter">Scott</ref> has
+               worked out his creation truly and severely. The Pages in the old drama are entirely
+               poetical creations; they occupy the debatable ground between the fanciful and the
+               existing; they belong exclusively to the romantic in literature. They could only have
+               been fancied when poetry delighted to hold love a creed as well as a passion. The
+               heart called up the ideal to redeem the real, and an attachment was elevated by
+               disinterestedness and moral beauty. There is none of this high-toned imagination in
+               the classic fictions. Women were then considered as articles of property. The <quote>
                   <lg type="stanza">
                      <l>Seven lovely captives of the Lesbian line,</l>
-                     <l>Skill' d in each art, unmatch'd in form divine—<hi rendition="#sup">
-                           <note>From <ref target="people.html#Homer">Homer</ref>'s <title>
-                                 <hi rendition="#italics">Iliad</hi>
-                              </title>, translated
-										by <ref target="people.html#PopeAlexander">Alexander
-											Pope</ref>, Book IX, lines 165-6.</note>
-                        </hi>
+                     <l>Skill' d in each art, unmatch'd in form divine—<note>From <ref
+                              target="people.html#Homer">Homer</ref>'s <title>
+                              <hi rendition="#italics">Iliad</hi>
+                           </title>, translated by <ref target="people.html#PopeAlexander">Alexander
+                              Pope</ref>, Book IX, lines 165-6.</note>
                      </l>
                   </lg>
                </quote> with whom <ref target="people.html#Agamemnon">Agamemnon</ref> seeks to
-					propitiate the wrath of <ref target="people.html#Achilles">Achilles</ref>—hold an inferior place to the "twice ten vases of
-					refulgent gold"<hi rendition="#sup">
-                  <note>In <ref target="people.html#PopeAlexander">Pope's</ref> translation,
-							the line appears in Book IX, line 345 as "twice ten vases of
-							refulgent mould."</note>
-               </hi>—or to the twelve race-horses
-					destined to form part of the offering. <ref target="people.html#Achilles">Achilles</ref>, though he protests that he loves the "beautiful
-					captive of his spear,"<hi rendition="#sup">
-                  <note>Referring to
-							Briseïs, a Trojan woman taken captive by <ref target="people.html#Achilles">Achilles</ref> from a previous siege.
-								<ref target="people.html#Achilles">Achilles</ref> and <ref target="people.html#Agamemnon">Agamemnon</ref>'s quarrel begins
-							over her.</note>
-               </hi> yet, not only parts with her, but, what would
-					almost have been worse to a woman, parts with her without an adieu, and she is
-					received again in silent indifference. She departs without a farewell, and
-					returns without a welcome. Briseïs, however, loses ground in our sympathy, by
-					her lamentation over the body of <ref target="people.html#Patroclus">Patroclus</ref>:— <quote>
+               propitiate the wrath of <ref target="people.html#Achilles">Achilles</ref>—hold an
+               inferior place to the "twice ten vases of refulgent gold"<note>In <ref
+                     target="people.html#PopeAlexander">Pope's</ref> translation, the line appears
+                  in Book IX, line 345 as "twice ten vases of refulgent mould."</note>—or to the
+               twelve race-horses destined to form part of the offering. <ref
+                  target="people.html#Achilles">Achilles</ref>, though he protests that he loves the
+               "beautiful captive of his spear,"<note>Referring to Briseïs, a Trojan woman taken
+                  captive by <ref target="people.html#Achilles">Achilles</ref> from a previous
+                  siege. <ref target="people.html#Achilles">Achilles</ref> and <ref
+                     target="people.html#Agamemnon">Agamemnon</ref>'s quarrel begins over
+                  her.</note> yet, not only parts with her, but, what would almost have been worse
+               to a woman, parts with her without an adieu, and she is received again in silent
+               indifference. She departs without a farewell, and returns without a welcome. Briseïs,
+               however, loses ground in our sympathy, by her lamentation over the body of <ref
+                  target="people.html#Patroclus">Patroclus</ref>:— <quote>
                   <lg type="stanza">
                      <l>The first loved consort of my virgin bed,</l>
                      <l>Before these eyes in fatal battle bled:</l>
                      <l>Thy friendly hand uprear'd me from the plain,</l>
                      <l>And dried my sorrows for a husband slain.</l>
                      <l>Achilles' care you promised I should prove,</l>
-                     <l>The first, the dearest partner of his love.<hi rendition="#sup">
-                           <note>From <ref target="people.html#Homer">Homer</ref>'s <title>
-                                 <hi rendition="#italics">
-												Iliad</hi>
-                              </title> (<ref target="people.html#PopeAlexander">Pope</ref>'s
-										translation), Book XIX, lines 309-16.</note>
-                        </hi>
+                     <l>The first, the dearest partner of his love.<note>From <ref
+                              target="people.html#Homer">Homer</ref>'s <title>
+                              <hi rendition="#italics"> Iliad</hi>
+                           </title> (<ref target="people.html#PopeAlexander">Pope</ref>'s
+                           translation), Book XIX, lines 309-16.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p> Certainly the promise of a second husband may be very effective consolation for
-					the loss of the first; still it says little for the delicacy or the constancy of
-					the lady who was so consoled. But Christianity brought its own heaven to the
-					things of earth; every passion was refined, and every affection exalted. Only
-					under the purifying influence of that inward world to which it gave light, could
-					sentiment have had its birth—and sentiment is the tenth Muse and the
-					fourth Grace of modern poetry.</p>
-            <p> But in the description of Constance<hi rendition="#sup">
-                  <note>In
-								<ref target="people.html#ScottWalter">Scott</ref>'s <title>
-                        <hi rendition="#italics"> Marmion: A Tale of Flodden
-								Field</hi>
-                     </title>, Constance is a dishonest nun and rejected
-							mistress to Marmion. In hopes of winning him back, she aids him in
-							forging a letter to implicate in treason the fiance of Clara de Clare,
-							Marmion's current love interest. Constance ends up immured in a
-							convent for having broken her holy vows.</note>
-               </hi> there also is that
-					strong perception of the actual, which is <ref target="people.html#ScottWalter">Scott's</ref> most marked characteristic. He paints her exactly what
-					in all probability she would have been; he works out the severe lesson of
-					retribution and of degradation. What is the current of Marmion's mind, when <quote>
+            <p> Certainly the promise of a second husband may be very effective consolation for the
+               loss of the first; still it says little for the delicacy or the constancy of the lady
+               who was so consoled. But Christianity brought its own heaven to the things of earth;
+               every passion was refined, and every affection exalted. Only under the purifying
+               influence of that inward world to which it gave light, could sentiment have had its
+               birth—and sentiment is the tenth Muse and the fourth Grace of modern poetry.</p>
+            <p> But in the description of Constance<note>In <ref target="people.html#ScottWalter"
+                     >Scott</ref>'s <title>
+                     <hi rendition="#italics"> Marmion: A Tale of Flodden Field</hi>
+                  </title>, Constance is a dishonest nun and rejected mistress to Marmion. In hopes
+                  of winning him back, she aids him in forging a letter to implicate in treason the
+                  fiance of Clara de Clare, Marmion's current love interest. Constance ends up
+                  immured in a convent for having broken her holy vows.</note> there also is that
+               strong perception of the actual, which is <ref target="people.html#ScottWalter"
+                  >Scott's</ref> most marked characteristic. He paints her exactly what in all
+               probability she would have been; he works out the severe lesson of retribution and of
+               degradation. What is the current of Marmion's mind, when <quote>
                   <lg type="stanza">
                      <l>Constance, late betray'd and scorn'd,</l>
                      <l>All lovely on his soul return'd:</l>
@@ -852,14 +829,11 @@
                      <l>Crimson'd with shame, with terror mute,</l>
                      <l>Dreading alike, escape, pursuit;</l>
                      <l>Till love, victorious o'er alarms,</l>
-                     <l>Hid fears and blushes in his arms?<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                                 <title>Marmion</title>
-                              </hi>, Canto
-										Third, "The Hostel, or Inn," stanza XVI, lines
-										268-75</note>
-                        </hi>
+                     <l>Hid fears and blushes in his arms?<note>
+                           <ref target="people.html#ScottWalter">Scott</ref>, <hi
+                              rendition="#italics">
+                              <title>Marmion</title>
+                           </hi>, Canto Third, "The Hostel, or Inn," stanza XVI, lines 268-75</note>
                      </l>
                   </lg>
                </quote> Such is the first picture; what is the second? <quote>
@@ -871,64 +845,55 @@
                      <l>No more of virgin terror speaks</l>
                      <l>The blood that mantled in her cheeks:</l>
                      <l>Fierce and unfeminine are there,</l>
-                     <l>Frenzy for joy, for grief despair.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ScottWalter">Scott</ref>, <title>
-                                 <hi rendition="#italics">Marmion</hi>
-                              </title>, Canto Third, "The
-										Hostel, or Inn," stanza XVI, lines
-								276-83.</note>
-                        </hi>
+                     <l>Frenzy for joy, for grief despair.<note>
+                           <ref target="people.html#ScottWalter">Scott</ref>, <title>
+                              <hi rendition="#italics">Marmion</hi>
+                           </title>, Canto Third, "The Hostel, or Inn," stanza XVI, lines
+                           276-83.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p> It is the strangest problem of humanity—one too, for which the closest
-					investigation can never quite account—to trace the progress by which
-					innocence becomes guilt, and how those who formerly trembled to think of crime,
-					are led on to commit that at which they once shuddered. The man the most steeped
-					in wickedness, must have had his innocent and his happy moments—a child,
-					he must have played in the sunshine with spirits as light as the golden curls
-					that toss on the wind. His little hands must have been clasped in prayer at his
-					mother's knee; he must, during some moment of youth's generous warmth,
-					have pitied human suffering, and wondered how man's blood could ever be
-					shed by man: and if this holds good of man—how much more so of woman! But
-					that it is one of those stern truths which experience forces us to know—we
-					never could believe in murder as a feminine crime; yet, from the days of <ref target="people.html#Clytemnestra">Clytemnestra</ref>, down to those of Mrs.
-					Johnson, who took her trial for murder, "looking very respectable in a
-					black silk cloak and straw bonnet," woman has been urged on to that last
-					and most desperate wickedness. But the causes of masculine sin are more various
-					than those which act upon the gentler sex. A woman's crime has almost
-					always its origin in that which was given to be the sweetest and best part of
-					her nature—her affections: a man's influence is much greater over a
-					woman than hers over him—almost unconsciously she models her sentiments
-					upon his—she adopts his opinions, she acquires the greater portion of her
-					information through his means. As to her character—by character, I would
-					wish to express that mental bent, which, once taken, always influences, more or
-					less, that character—"Love gave it energy, as love gave it
-						birth."<hi rendition="#sup">
-                  <note>"The Ettrick
-							Shepherd" [<ref target="people.html#HoggJames">James Hogg</ref>],
-								"<title>The Skylark</title>," <hi rendition="#italics">
-                        <title>Forget Me Not, A Christmas and New Year's Present
-									for 1828</title>
-                     </hi>, page 27, line 9, slightly
-						altered.</note>
-               </hi> An attachment is a woman's great step in life; for
-					the first time she is called up to decide; and on that decision how much of the
-					future will rest! There are, of course, many exceptions to this rule—there
-					are instances in which the wife has been the redeeming angel—but, in nine
-					cases out of ten, the man raises or depresses his companion to his own moral
-					level. I remember once staying with a lady who was robbed of a valuable gold
-					chain. The policeman was sent for, and his first inquiry was, as to who
-					"the maid kept company with? for the London thieves have a regular set of
-					lovers—and that is how half the robberies are committed." Constance
-					is worked out in darker colours than <ref target="people.html#ScottWalter">Scott</ref> often uses for his feminine portraits. Our sex, at least, ought
-					to be grateful to him, for how divine is the faith he holds in all that is good
-					in us! Even with <pb n="187"/> Constance, how much the soul is "subdued by
-					pity!"—how is the horror relieved by beauty! I know no description
-					conveying such an idea of exquisite loveliness, as that of Constance before her
-					judges:— <quote>
+            <p> It is the strangest problem of humanity—one too, for which the closest investigation
+               can never quite account—to trace the progress by which innocence becomes guilt, and
+               how those who formerly trembled to think of crime, are led on to commit that at which
+               they once shuddered. The man the most steeped in wickedness, must have had his
+               innocent and his happy moments—a child, he must have played in the sunshine with
+               spirits as light as the golden curls that toss on the wind. His little hands must
+               have been clasped in prayer at his mother's knee; he must, during some moment of
+               youth's generous warmth, have pitied human suffering, and wondered how man's blood
+               could ever be shed by man: and if this holds good of man—how much more so of woman!
+               But that it is one of those stern truths which experience forces us to know—we never
+               could believe in murder as a feminine crime; yet, from the days of <ref
+                  target="people.html#Clytemnestra">Clytemnestra</ref>, down to those of Mrs.
+               Johnson, who took her trial for murder, "looking very respectable in a black silk
+               cloak and straw bonnet," woman has been urged on to that last and most desperate
+               wickedness. But the causes of masculine sin are more various than those which act
+               upon the gentler sex. A woman's crime has almost always its origin in that which was
+               given to be the sweetest and best part of her nature—her affections: a man's
+               influence is much greater over a woman than hers over him—almost unconsciously she
+               models her sentiments upon his—she adopts his opinions, she acquires the greater
+               portion of her information through his means. As to her character—by character, I
+               would wish to express that mental bent, which, once taken, always influences, more or
+               less, that character—"Love gave it energy, as love gave it birth."<note>"The Ettrick
+                  Shepherd" [<ref target="people.html#HoggJames">James Hogg</ref>], "<title>The
+                     Skylark</title>," <hi rendition="#italics">
+                     <title>Forget Me Not, A Christmas and New Year's Present for 1828</title>
+                  </hi>, page 27, line 9, slightly altered.</note> An attachment is a woman's great
+               step in life; for the first time she is called up to decide; and on that decision how
+               much of the future will rest! There are, of course, many exceptions to this
+               rule—there are instances in which the wife has been the redeeming angel—but, in nine
+               cases out of ten, the man raises or depresses his companion to his own moral level. I
+               remember once staying with a lady who was robbed of a valuable gold chain. The
+               policeman was sent for, and his first inquiry was, as to who "the maid kept company
+               with? for the London thieves have a regular set of lovers—and that is how half the
+               robberies are committed." Constance is worked out in darker colours than <ref
+                  target="people.html#ScottWalter">Scott</ref> often uses for his feminine
+               portraits. Our sex, at least, ought to be grateful to him, for how divine is the
+               faith he holds in all that is good in us! Even with <pb n="187"/> Constance, how much
+               the soul is "subdued by pity!"—how is the horror relieved by beauty! I know no
+               description conveying such an idea of exquisite loveliness, as that of Constance
+               before her judges:— <quote>
                   <lg type="stanza">
                      <l>Her sex a page's dress belied,</l>
                      <l>Obscured her charms, but could not hide.</l>
@@ -949,263 +914,208 @@
                      <l>That neither sense nor pulse she lacks,</l>
                      <l>You might have thought a form of wax,</l>
                      <l>Wrought to the very life, was there,</l>
-                     <l>So still she was, so pale, so fair.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                                 <title>Marmion</title>
-                              </hi>, Canto Second,
-										"The Convent," stanza XX and XXI, lines 384-414,
-										with omissions.</note>
-                        </hi>
+                     <l>So still she was, so pale, so fair.<note>
+                           <ref target="people.html#ScottWalter">Scott</ref>, <hi
+                              rendition="#italics">
+                              <title>Marmion</title>
+                           </hi>, Canto Second, "The Convent," stanza XX and XXI, lines 384-414,
+                           with omissions.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p> It is wonderful how much <ref target="people.html#ScottWalter">Scott</ref>
-					contrives to suggest to the imagination. The above picture brings
-					Constance's previous existence so vividly to mind! The fugitive nun is
-					again beneath the sway from whence she once fled:—she fled, timid,
-					trusting, and hopeful; the beating heart, impatient of restraint, and confident
-					of happiness—the lurking daring shown in the very escape; and the native
-					courage in the resolve that could brave all the terrors of superstition; time
-					passes on— <quote>
+            <p> It is wonderful how much <ref target="people.html#ScottWalter">Scott</ref> contrives
+               to suggest to the imagination. The above picture brings Constance's previous
+               existence so vividly to mind! The fugitive nun is again beneath the sway from whence
+               she once fled:—she fled, timid, trusting, and hopeful; the beating heart, impatient
+               of restraint, and confident of happiness—the lurking daring shown in the very escape;
+               and the native courage in the resolve that could brave all the terrors of
+               superstition; time passes on— <quote>
                   <lg type="stanza">
                      <l>For three long years I bow'd my pride,</l>
-                     <l>A horse-boy in his train to ride.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                                 <title>Marmion</title>
-                              </hi>, Canto Second,
-										"The Convent," stanza XX, lines
-								504-5.</note>
-                        </hi>
+                     <l>A horse-boy in his train to ride.<note>
+                           <ref target="people.html#ScottWalter">Scott</ref>, <hi
+                              rendition="#italics">
+                              <title>Marmion</title>
+                           </hi>, Canto Second, "The Convent," stanza XX, lines 504-5.</note>
                      </l>
                   </lg>
-               </quote> Here again the spirit of determination is shown; Constance will not
-					dwell alone, apart— <quote>
+               </quote> Here again the spirit of determination is shown; Constance will not dwell
+               alone, apart— <quote>
                   <lg type="stanza">
-                     <l>Within some lonely bower.<hi rendition="#sup">
-                           <note>The
-										phrase appears with slight variations in several poems <ref target="people.html#LandonLetitia">Landon</ref> may have
-								known, but she may here be alluding to <hi rendition="#italics">
-                                 <title>Marmion</title>
-                              </hi>, Canto
-								First, "The Castle," stanza XV, line
-								249</note>
-                        </hi>
+                     <l>Within some lonely bower.<note>The phrase appears with slight variations in
+                           several poems <ref target="people.html#LandonLetitia">Landon</ref> may
+                           have known, but she may here be alluding to <hi rendition="#italics">
+                              <title>Marmion</title>
+                           </hi>, Canto First, "The Castle," stanza XV, line 249</note>
                      </l>
                   </lg>
-               </quote> No; she will keep at her lover's side—in the wide and weary
-					world she has nothing to do but to wait upon Marmion's steps. But even that
-					haughty spirit has its sad weak moments: Sir Hugh has <quote>
+               </quote> No; she will keep at her lover's side—in the wide and weary world she has
+               nothing to do but to wait upon Marmion's steps. But even that haughty spirit has its
+               sad weak moments: Sir Hugh has <quote>
                   <lg type="stanza">
                      <l>Often mark'd his cheeks were wet</l>
-                     <l>With tears he fain would hide.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                                 <title>Marmion</title>
-                              </hi>, Canto
-										First, "The Castle," stanza XV, lines
-										240-1.</note>
-                        </hi>
+                     <l>With tears he fain would hide.<note>
+                           <ref target="people.html#ScottWalter">Scott</ref>, <hi
+                              rendition="#italics">
+                              <title>Marmion</title>
+                           </hi>, Canto First, "The Castle," stanza XV, lines 240-1.</note>
                      </l>
                   </lg>
                </quote> It is a cruel proof of the want of generosity in human nature, that an
-					affection too utterly self-sacrificing always meets with an evil return. The
-					obligation for which we know there is no requital becomes a burden hard to be
-					borne; we take refuge in ingratitude. Secondly, the conscience is never quite
-					without <quote>
+               affection too utterly self-sacrificing always meets with an evil return. The
+               obligation for which we know there is no requital becomes a burden hard to be borne;
+               we take refuge in ingratitude. Secondly, the conscience is never quite without <quote>
                   <lg type="stanza">
                      <l>That shuddering chill</l>
-                     <l>Which follows fast on deed of ill.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ByronGeorge">Byron</ref>, "<title>Parisina</title>,"
-										(1816), stanza IV, lines 63-4, slightly
-								altered.</note>
-                        </hi>
+                     <l>Which follows fast on deed of ill.<note>
+                           <ref target="people.html#ByronGeorge">Byron</ref>,
+                              "<title>Parisina</title>," (1816), stanza IV, lines 63-4, slightly
+                           altered.</note>
                      </l>
                   </lg>
                </quote>
                <pb n="188"/> And we are glad to lay the blame on any rather than ourselves; and
-					lastly—for small misfortunes are harder to bear than great ones—we
-					are impatient under the minor annoyances, inevitable in
-					consequence:—Marmion had not so much exhausted his love for Constance as
-					that he was <quote>
+               lastly—for small misfortunes are harder to bear than great ones—we are impatient
+               under the minor annoyances, inevitable in consequence:—Marmion had not so much
+               exhausted his love for Constance as that he was <quote>
                   <lg type="stanza">
                      <l>Weary to hear the desperate maid</l>
-                     <l>Threaten by turn, beseech, upbraid.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                                 <title>Marmion</title>
-                              </hi>, Canto Third, "The
-										Hostel, or Inn," stanza XV, lines 240-1, slightly
-										altered.</note>
-                        </hi>
+                     <l>Threaten by turn, beseech, upbraid.<note>
+                           <ref target="people.html#ScottWalter">Scott</ref>, <hi
+                              rendition="#italics">
+                              <title>Marmion</title>
+                           </hi>, Canto Third, "The Hostel, or Inn," stanza XV, lines 240-1,
+                           slightly altered.</note>
                      </l>
                   </lg>
                </quote>
             </p>
             <p> Years of misery and mortification had done their work: right and wrong were
-					confounded together in the first instance. Constance could neither look forward
-					nor back; she was forced to exist intensely in the present; and that is one of
-					the worst punishments that guilt can know. Our youth is gone from us with all
-					its kindlinesses, its innocent fondness, and its graceful amusements; memory can
-					only <quote>
+               confounded together in the first instance. Constance could neither look forward nor
+               back; she was forced to exist intensely in the present; and that is one of the worst
+               punishments that guilt can know. Our youth is gone from us with all its kindlinesses,
+               its innocent fondness, and its graceful amusements; memory can only <quote>
                   <lg type="stanza">
-                     <l rendition="indent4">lead us back</l>
+                     <l rendition="#indent15">lead us back</l>
                      <l>In mournful mockery o'er the shining track</l>
                      <l>Of our young life, and point out every ray</l>
-                     <l>Of hope and truth we've lost upon the way.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#MooreThomas">Thomas Moore</ref>, <hi rendition="#italics">
-                                 <title>Lalla Rookh</title>
-                              </hi> (1817), "The
-										Veiled Prophet of Khorassan," slightly
-									altered.</note>
-                        </hi>
+                     <l>Of hope and truth we've lost upon the way.<note>
+                           <ref target="people.html#MooreThomas">Thomas Moore</ref>, <hi
+                              rendition="#italics">
+                              <title>Lalla Rookh</title>
+                           </hi> (1817), "The Veiled Prophet of Khorassan," slightly altered.</note>
                      </l>
                   </lg>
-               </quote> Our future is obscure and threatening; the eyes involuntarily turn
-					away—they can see nothing but the phantom—more terrible for its
-					indistinctness—of slow, but certain retribution. Remorse, unattended by
-					repentance, always works for evil—it adds bitterness and anger to
-					error.</p>
-            <p> Such are the dark materials<hi rendition="#sup">
-                  <note>An allusion
-							to <ref target="people.html#MiltonJohn">Milton</ref>, <hi rendition="#italics">
-                        <title>Paradise Lost</title>
-                     </hi>, Book 2, line
-							916.</note>
-               </hi> out of which the character of Constance is formed; we
-					can trace its degradation step by step—we see how the timid has grown
-					hardened—the resolute reckless—and the affectionate only passionate.
-					Constant contact with coarser natures has seared the finer perceptions, and the
-					sense of right and wrong is deadened by hardship, suffering, and evil communion.
-					The character so formed has now to be worked upon by the most fearful passion
-					which can agitate the human heart—that which is strong as death and cruel
-					as the grave—the passion of jealousy. The name of jealousy is often taken
-					in vain—<ref target="people.html#HenryVIIIKingofEngland">Henry VIII</ref>.
-					is called jealous when he was only tyrannical;—the mere desire of
-					influence, envy, and irritability of temper, are often veiled under the name of
-					jealousy; and many a husband and wife talk of "being jealous," while
-					in reality profoundly indifferent to each other, and only desiring a decent
-					excuse for anger: it is oftener envy than any other feeling. But the passion of
-					jealousy cannot exist without the passion of love, and is like its parent,
-					creative, impetuous, and credulous. Earth holds no misery so great as that of
-					doubting the affection, which is dearer than life itself—and perhaps it
-					takes its worst shape to a woman. Her attachment is to her more than it ever can
-					be to a man. It enters into her ordinary course of existence—it belongs to
-					the small sweet cares of every day—while it is not less the great aim and
-					end of her being. With her, but "once to doubt" is not "once to
-					be resolved,"<hi rendition="#sup">
-                  <note>Loosely quoting <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi rendition="#italics">
-                        <title>Othello</title>
-                     </hi>, Act III, scene
-							iii, lines 179-80.</note>
-               </hi> but to plunge into a chaos of small
-					distracting fears. How much more must this be the case when the affection has
-					been one of sacrifice and of dishonour! Constance must have watched for weary
-					hours the slightest sign of change—she must have feared before she
-					felt—expected long before it came—yet scarce believed when it did
-					come. At length the fatal hour arrives; she knows that she is "betrayed and
-						scorned."<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                        <title>Marmion</title>
-                     </hi>, Canto Third,
-							"The Hostel, or Inn," stanza XVI, line 268.</note>
-               </hi> In the
-					fearful solitude of Lindisfarne, how bitterly must she have num- <pb n="189"/>
-					bered every sacrifice made to "that false knight and falser lover!"
-					Youth, innocence, hours of tender watchfulness, hope on earth, and belief in
-					heaven—all these have been given for his sake, who leaves her to perish by
-					a dreadful death—and, what is the worst sting of that death, leaves her
-					for another;—she has attempted the life of her rival, and failed:—a
-					darker doom yet remains, she will <quote>
+               </quote> Our future is obscure and threatening; the eyes involuntarily turn away—they
+               can see nothing but the phantom—more terrible for its indistinctness—of slow, but
+               certain retribution. Remorse, unattended by repentance, always works for evil—it adds
+               bitterness and anger to error.</p>
+            <p> Such are the dark materials<note>An allusion to <ref target="people.html#MiltonJohn"
+                     >Milton</ref>, <hi rendition="#italics">
+                     <title>Paradise Lost</title>
+                  </hi>, Book 2, line 916.</note> out of which the character of Constance is formed;
+               we can trace its degradation step by step—we see how the timid has grown hardened—the
+               resolute reckless—and the affectionate only passionate. Constant contact with coarser
+               natures has seared the finer perceptions, and the sense of right and wrong is
+               deadened by hardship, suffering, and evil communion. The character so formed has now
+               to be worked upon by the most fearful passion which can agitate the human heart—that
+               which is strong as death and cruel as the grave—the passion of jealousy. The name of
+               jealousy is often taken in vain—<ref target="people.html#HenryVIIIKingofEngland"
+                  >Henry VIII</ref>. is called jealous when he was only tyrannical;—the mere desire
+               of influence, envy, and irritability of temper, are often veiled under the name of
+               jealousy; and many a husband and wife talk of "being jealous," while in reality
+               profoundly indifferent to each other, and only desiring a decent excuse for anger: it
+               is oftener envy than any other feeling. But the passion of jealousy cannot exist
+               without the passion of love, and is like its parent, creative, impetuous, and
+               credulous. Earth holds no misery so great as that of doubting the affection, which is
+               dearer than life itself—and perhaps it takes its worst shape to a woman. Her
+               attachment is to her more than it ever can be to a man. It enters into her ordinary
+               course of existence—it belongs to the small sweet cares of every day—while it is not
+               less the great aim and end of her being. With her, but "once to doubt" is not "once
+               to be resolved,"<note>Loosely quoting <ref target="people.html#ShakespeareWilliam"
+                     >Shakespeare</ref>, <hi rendition="#italics">
+                     <title>Othello</title>
+                  </hi>, Act III, scene iii, lines 179-80.</note> but to plunge into a chaos of
+               small distracting fears. How much more must this be the case when the affection has
+               been one of sacrifice and of dishonour! Constance must have watched for weary hours
+               the slightest sign of change—she must have feared before she felt—expected long
+               before it came—yet scarce believed when it did come. At length the fatal hour
+               arrives; she knows that she is "betrayed and scorned."<note>
+                  <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
+                     <title>Marmion</title>
+                  </hi>, Canto Third, "The Hostel, or Inn," stanza XVI, line 268.</note> In the
+               fearful solitude of Lindisfarne, how bitterly must she have num- <pb n="189"/> bered
+               every sacrifice made to "that false knight and falser lover!" Youth, innocence, hours
+               of tender watchfulness, hope on earth, and belief in heaven—all these have been given
+               for his sake, who leaves her to perish by a dreadful death—and, what is the worst
+               sting of that death, leaves her for another;—she has attempted the life of her rival,
+               and failed:—a darker doom yet remains, she will <quote>
                   <lg type="stanza">
                      <l>Give him to the headsman's stroke,</l>
-                     <l>Although her heart that instant broke.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                                 <title>Marmion</title>
-                              </hi>, Canto Second, "The
-										Convent," stanza XXX, lines 563-4, altered.</note>
-                        </hi>
+                     <l>Although her heart that instant broke.<note>
+                           <ref target="people.html#ScottWalter">Scott</ref>, <hi
+                              rendition="#italics">
+                              <title>Marmion</title>
+                           </hi>, Canto Second, "The Convent," stanza XXX, lines 563-4,
+                           altered.</note>
                      </l>
                   </lg>
-               </quote> Marmion shall not live on with a fairer bride—that heart, which
-					had been so unutterably precious to her, shall never be the resting-place of
-					another. The fierce and daring love which has ruled her through life is with her
-					even in death. She gave the fatal packet— <quote>
+               </quote> Marmion shall not live on with a fairer bride—that heart, which had been so
+               unutterably precious to her, shall never be the resting-place of another. The fierce
+               and daring love which has ruled her through life is with her even in death. She gave
+               the fatal packet— <quote>
                   <lg type="stanza">
                      <l>But to assure her soul that none</l>
-                     <l>Shall ever wed with Marmion.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                                 <title>Marmion</title>
-                              </hi>, Canto
-										Second, "The Convent," stanza XXX, lines 559-60, slightly
-										altered.</note>
-                        </hi>
+                     <l>Shall ever wed with Marmion.<note>
+                           <ref target="people.html#ScottWalter">Scott</ref>, <hi
+                              rendition="#italics">
+                              <title>Marmion</title>
+                           </hi>, Canto Second, "The Convent," stanza XXX, lines 559-60, slightly
+                           altered.</note>
                      </l>
                   </lg>
-               </quote> There is here one exquisite touch of knowledge in feminine
-					nature—the grave yawns beneath her feet, opened by her lover's
-					falsehood—her revenge has pointed the pathway to his scaffold—yet
-					her heart turns to him with an inconsistent reliance—and menaces that dark
-					conclave with fiery visitings if "Marmion's vengeance late should
-						wake:"<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                        <title>Marmion</title>
-                     </hi>, Canto Second, "The
-							Convent," stanza XXXI, lines 571-2, altered.</note>
-               </hi> she has yet a
-					lingering pride in the brave and powerful baron <quote>
+               </quote> There is here one exquisite touch of knowledge in feminine nature—the grave
+               yawns beneath her feet, opened by her lover's falsehood—her revenge has pointed the
+               pathway to his scaffold—yet her heart turns to him with an inconsistent reliance—and
+               menaces that dark conclave with fiery visitings if "Marmion's vengeance late should wake:"<note>
+                  <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
+                     <title>Marmion</title>
+                  </hi>, Canto Second, "The Convent," stanza XXXI, lines 571-2, altered.</note> she
+               has yet a lingering pride in the brave and powerful baron <quote>
                   <lg type="stanza">
-                     <l>First amid England's chivalry.<hi rendition="#sup">
-                           <note>Probably altered from <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                                 <title>Marmion</title>
-                              </hi>, Canto
-										Fourth, "The Camp," stanza VIII, line 178.</note>
-                        </hi>
+                     <l>First amid England's chivalry.<note>Probably altered from <ref
+                              target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
+                              <title>Marmion</title>
+                           </hi>, Canto Fourth, "The Camp," stanza VIII, line 178.</note>
                      </l>
                   </lg>
                </quote>
                <ref target="people.html#ScottWalter">Scott</ref> deprecates censure on him who <quote>
                   <lg type="stanza">
-                     <l rendition="#indent4">Died a gallant knight—</l>
-                     <l>With sword in hand for England's right.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                                 <title>Marmion</title>
-                              </hi>, Canto Sixth, "The
-										Battle," stanza XXXVII, lines 1145-6.</note>
-                        </hi>
+                     <l rendition="#indent6">Died a gallant knight—</l>
+                     <l>With sword in hand for England's right.<note>
+                           <ref target="people.html#ScottWalter">Scott</ref>, <hi
+                              rendition="#italics">
+                              <title>Marmion</title>
+                           </hi>, Canto Sixth, "The Battle," stanza XXXVII, lines 1145-6.</note>
                      </l>
                   </lg>
-               </quote> Still more might we deprecate it for her "who died in Holy
-						Isle."<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
-                        <title>Marmion</title>
-                     </hi>, Canto Sixth, "The
-							Battle," stanza XXXI, lines 945.</note>
-               </hi> The morality of pity is
-					deeper and truer than that of censure. The sweetest and best qualities of our
-					nature may be turned to evil, by the strong force of circumstance and of
-					temptation.</p>
-            <p> Constance is but the general history of those who escape from the convent cell
-					of restraint, and lose the softest feathers of the dove's wing in the
-					effort; a few feverish years flit by—and then comes the end—despair
-					and death!—For such a grave there is but one inscription—"<hi rendition="#italics">Implora pace!</hi>"<hi rendition="#sup">
-                  <note>"I beg for peace".</note>
-               </hi>
+               </quote> Still more might we deprecate it for her "who died in Holy Isle."<note>
+                  <ref target="people.html#ScottWalter">Scott</ref>, <hi rendition="#italics">
+                     <title>Marmion</title>
+                  </hi>, Canto Sixth, "The Battle," stanza XXXI, lines 945.</note> The morality of
+               pity is deeper and truer than that of censure. The sweetest and best qualities of our
+               nature may be turned to evil, by the strong force of circumstance and of
+               temptation.</p>
+            <p> Constance is but the general history of those who escape from the convent cell of
+               restraint, and lose the softest feathers of the dove's wing in the effort; a few
+               feverish years flit by—and then comes the end—despair and death!—For such a grave
+               there is but one inscription—"<hi rendition="#italics">Implora pace!</hi>"<note>"I
+                  beg for peace".</note>
             </p>
-            <p>
-               <hi rendition="#flushRight">
-                  <ref target="LandonLetitia">L.E.L.</ref>
-               </hi>
+            <p rendition="#right">
+               <ref target="LandonLetitia">L.E.L.</ref>
             </p>
             <p> </p>
          </div>

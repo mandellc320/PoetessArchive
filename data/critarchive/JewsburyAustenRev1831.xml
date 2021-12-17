@@ -51,28 +51,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -86,15 +85,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -337,11 +345,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -471,7 +480,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -542,7 +551,7 @@
                   <item>Essay</item>
                </list>
             </keywords>
-            <catRef scheme="#ft" target="#ft1"/>
+            <catRef target="#ft1" scheme="#ft"/>
             <catRef target="#ag9 #ag20 #ag12" scheme="#ag"/>
             <catRef target="#f13" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
@@ -550,7 +559,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="6">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -573,7 +590,7 @@
                <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
-         <change who="#MW" when="20180715" n="3">
+         <change>
             <name>Mary A. Waters</name>
             <date>2018-07-15</date>
             <list type="simple">
@@ -581,14 +598,14 @@
                <item>document ID change</item>
             </list>
          </change>
-         <change who="#KI" when="20170205" n="2">
+         <change>
             <name xml:id="KI"> Krystal J. Iseminger</name>
             <date>2017-02-05</date>
             <list type="simple">
                <item>TEI encoding</item>
             </list>
          </change>
-         <change who="#MW" when="20101201" n="1">
+         <change>
             <name xml:id="MW">Mary A. Waters</name>
             <date>2010-12-01</date>
             <list type="simple">
@@ -607,31 +624,25 @@
                         <ref target="people.html#JewsburyMaria">Maria Jane Jewsbury</ref>
                      </name>
                   </author>
-                  <lb/>
-                  <title type="main" level="a">
-                     LITERARY WOMEN No. II.<hi rendition="#sup">
-                        <note>For No.I. <ref target="people.html#HemansFelicia">Mrs.
-                              Hemans</ref>—see <title>Atheæum</title>, No. 172 [<hi rendition="#italics">
-                              <title>Athenæum</title>
-                           </hi> note].</note>
-                     </hi>
+                  <title type="main" level="a">LITERARY WOMEN No. II.<note>For No.I. <ref
+                           target="people.html#HemansFelicia">Mrs. Hemans</ref>—see
+                           <title>Athenaæum</title>, No. 172 [<hi rendition="#italics">
+                           <title>Athenaæum</title>
+                        </hi> note].</note>
                      <lb/>
-                     <ref target="people.html#AustenJane">JANE AUSTEN</ref>.<hi rendition="#sup">
-                        <note>
-                           <title level="j">
-                              <hi rendition="#italics">The Athenæum</hi>
-                           </title> no. 200 (August 27, 1831): 553-4. Monica Correa Fryckstedt
-                           attributes the article to <ref target="people.html#JewsburyMaria">Maria
-                              Jane Jewsbury</ref> in "<title>The Hidden Rill: The Life and
-                              Career of <ref target="people.html#JewsburyMaria">Maria Jane
-                                 Jewsbury</ref>
-                           </title>," <hi rendition="#italics">
-                              <title>Bulletin of the John Rylands University Library of
-                                 Manchester</title>
-                           </hi> Part II, Vol. 67 1984-1984, pp. 450-473.
-                           Part I of the article appeared in Vol. 66, 1982-1984, pp. 177-203. This
-                           edition created by Krystal J. Iseminger and Mary A. Waters.</note>
-                     </hi>
+                     <ref target="people.html#AustenJane">JANE AUSTEN</ref>.<note>
+                        <title level="j">
+                           <hi rendition="#italics">The Athenæum</hi>
+                        </title> no. 200 (August 27, 1831): 553-4. Monica Correa Fryckstedt
+                        attributes the article to <ref target="people.html#JewsburyMaria">Maria Jane
+                           Jewsbury</ref> in "<title>The Hidden Rill: The Life and Career of <ref
+                              target="people.html#JewsburyMaria">Maria Jane Jewsbury</ref>
+                        </title>," <hi rendition="#italics">
+                           <title>Bulletin of the John Rylands University Library of
+                              Manchester</title>
+                        </hi> Part II, Vol. 67 1984-1984, pp. 450-473. Part I of the article
+                        appeared in Vol. 66, 1982-1984, pp. 177-203. This edition created by Krystal
+                        J. Iseminger and Mary A. Waters.</note>
                   </title>
                </bibl>
             </head>
@@ -665,7 +676,8 @@
                engrafting literary habits on those peculiarly set apart for the female sex, and for
                those who may doubt how far literary reputation is attainable, without a greater
                sacrifice to notoriety than they may deem compatible with female happiness and
-               delicacy, it is pleasant to have so triumphant a reference as <ref target="people.html#AustenJane">Miss Austen</ref>. Being dead, she may be quoted
+               delicacy, it is pleasant to have so triumphant a reference as <ref
+                  target="people.html#AustenJane">Miss Austen</ref>. Being dead, she may be quoted
                without impropriety. Placed by Providence in easy and elegant circumstances—endowed
                preeminently with good sense, and a placid unobtrusive temperament, she passed
                unscathed through the ordeals of authorship, and, in addition to exciting
@@ -677,21 +689,22 @@
                well to attract notice to her discrimination. She was, we suspect, like one of her
                own heroines, "incurably gentle," and acted on the principle of another, that "if a
                women have the misfortune of knowing anything, she should conceal it as well as she
-                  can."<hi rendition="#sup">
-                  <note>See <ref target="people.html#AustenJane">Austen</ref>'s <title>
-                        <hi rendition="#italics">Northanger Abbey</hi>
-                     </title>, Chapter 14 for her ironic use of this same courtesy-book style
-                     injunction. "Incurably gentle" is <ref target="people.html#AustenJane">Austen</ref>'s description of Fanny Price in <hi rendition="#italics">
-                        <title>Mansfield Park</title>
-                     </hi> Chapter 33.</note>
-               </hi> Besides this, whilst literature was a delightful occupation, it was not a
-               profession to <ref target="people.html#AustenJane">Miss Austen</ref>; she was not
-               irrational enough to despise reputation and profit when they sought her, but she
-               became an authoress entirely from taste and inclination; and as her judgment made her
-               severely critical before she published her works, her unambitious temper was amply
-               satisfied with the attention bestowed upon them by the public.</p>
+                  can."<note>See <ref target="people.html#AustenJane">Austen</ref>'s <title>
+                     <hi rendition="#italics">Northanger Abbey</hi>
+                  </title>, Chapter 14 for her ironic use of this same courtesy-book style
+                  injunction. "Incurably gentle" is <ref target="people.html#AustenJane"
+                     >Austen</ref>'s description of Fanny Price in <hi rendition="#italics">
+                     <title>Mansfield Park</title>
+                  </hi> Chapter 33.</note> Besides this, whilst literature was a delightful
+               occupation, it was not a profession to <ref target="people.html#AustenJane">Miss
+                  Austen</ref>; she was not irrational enough to despise reputation and profit when
+               they sought her, but she became an authoress entirely from taste and inclination; and
+               as her judgment made her severely critical before she published her works, her
+               unambitious temper was amply satisfied with the attention bestowed upon them by the
+               public.</p>
             <p>Unlike that of many writers, <ref target="people.html#AustenJane">Miss
-               Austen</ref>'s fame has grown fastest since she died; there was no <hi rendition="#italics">éclat</hi> about her first, or second, or third appearance;
+               Austen</ref>&amp;s fame has grown fastest since she died; there was no <hi
+                  rendition="#italics">éclat</hi> about her first, or second, or third appearance;
                the public took time to make up its mind; and she, not having staked her hopes of
                happiness on success or failure, and not being obliged by circumstances to stake
                something more tangible on these results, could afford to wait for the decision of
@@ -709,44 +722,40 @@
                the circle of those who knew her when alive— <quote>
                   <lg type="stanza">
                      <l>A violet by a mossy stone</l>
-                     <l>Half hidden from the eye.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#WordsworthWilliam">Wordsworth</ref>,
-                                 <title>"Song"</title> ("She dwelt among th' untrodden ways")
-                              5-6.</note>
-                        </hi>
+                     <l>Half hidden from the eye.<note>
+                           <ref target="people.html#WordsworthWilliam">Wordsworth</ref>,
+                              <title>"Song"</title> ("She dwelt among th' untrodden ways")
+                           5-6.</note>
                      </l>
                   </lg>
                </quote>
             </p>
             <p>With regard to her genius, we must adventure a few remarks. She herself compares her
                productions to a little bit of ivory two inches wide, worked upon with a brush so
-               fine that little effect is produced after much labour.<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#AustenJane">Austen</ref>'s famous description of her
-                     work as "The little bit (two Inches wide) of Ivory on which I work with so fine
-                     a Brush, as produces little effect after much labour," which so powerfully
-                     influenced the reception of her work, appears in her 16-17 December 1816 letter
-                     to James Edward Austen.</note>
-               </hi> It is so; her portraits are perfect likenesses, admirably finished, many of
-               them gems, but it is all miniature-painting; and, satisfied with being inimitable in
-               one line, she never essayed canvas and oils—never tried her hand at a majestic daub.
-               Her "two inches of ivory" just describes her preparations for a tale of three
-               volumes. A village—two families connected together—three or four interlopers, out of
-               whom are to spring a little <hi rendition="#italics">tracaserie</hi>—a village or a
-               country town, and by means of village and country town visiting and gossiping, a real
-               plot shall thicken, and its "rear of darkness"<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#MiltonJohn">Milton</ref>,<title>"L'Allegro"</title>
-                     (1654) 50.</note>
-               </hi> never be scattered till six pages off <hi rendition="#italics">Finis</hi>.<hi rendition="#sup">
-                  <note>Compare the phrasing with <ref target="people.html#AustenJane">Austen</ref>'s declaration that "3 or 4 Families in a Country Village is
-                     the very thing to work on" (Letter to Anna Austen, 9-18 September 1814).</note>
-               </hi> The plots are simple in construction, and yet intricate in developement;—the
-               main characters, those that the reader feels sure are to love, marry, and make
-               mischief, are introduced in the first or second chapter; the work is all done by half
-               a dozen people; no person, scene, or sentence, is ever introduced needless to the
-               matter in hand—no catastrophes, or discoveries, or surprises of a grand nature are
+               fine that little effect is produced after much labour.<note>
+                  <ref target="people.html#AustenJane">Austen</ref>'s famous description of her work
+                  as "The little bit (two Inches wide) of Ivory on which I work with so fine a
+                  Brush, as produces little effect after much labour," which so powerfully
+                  influenced the reception of her work, appears in her 16-17 December 1816 letter to
+                  James Edward Austen.</note> It is so; her portraits are perfect likenesses,
+               admirably finished, many of them gems, but it is all miniature-painting; and,
+               satisfied with being inimitable in one line, she never essayed canvas and oils—never
+               tried her hand at a majestic daub. Her "two inches of ivory" just describes her
+               preparations for a tale of three volumes. A village—two families connected
+               together—three or four interlopers, out of whom are to spring a little <hi
+                  rendition="#italics">tracaserie</hi>—a village or a country town, and by means of
+               village and country town visiting and gossiping, a real plot shall thicken, and its
+               "rear of darkness"<note>
+                  <ref target="people.html#MiltonJohn">Milton</ref>,<title>"L'Allegro"</title>
+                  (1654) 50.</note> never be scattered till six pages off <hi rendition="#italics"
+                  >Finis</hi>.<note>Compare the phrasing with <ref target="people.html#AustenJane"
+                     >Austen</ref>'s declaration that "3 or 4 Families in a Country Village is the
+                  very thing to work on" (Letter to Anna Austen, 9-18 September 1814).</note> The
+               plots are simple in construction, and yet intricate in developement;—the main
+               characters, those that the reader feels sure are to love, marry, and make mischief,
+               are introduced in the first or second chapter; the work is all done by half a dozen
+               people; no person, scene, or sentence, is ever introduced needless to the matter in
+               hand—no catastrophes, or discoveries, or surprises of a grand nature are
                allowed—neither children nor fortunes are lost or found by accident—the mind is never
                taken off the level surface of life—the reader breakfasts, dines, walks, and gossips,
                with the various worthies, till a process of transmutation takes place in him, and he
@@ -760,68 +769,70 @@
                hour of every day, and in every speech to every person. Her conversations would be
                tiresome but for this; and her personages, the fellows to whom may be met in the
                streets or drank tea with at half an hour's notice, would excite no interest. But in
-                  <ref target="people.html#AustenJane">Miss Austen</ref>'s hands we see into their
+                  <ref target="people.html#AustenJane">Miss Austen</ref>n's hands we see into their
                hearts and hopes, their motives, their struggles within themselves; and a sympathy is
                induced, which, if extended to daily life and the world at large, would make the
                reader a more amiable person. We think some of Miss Austen's works deficient in
                delineations of a high cast of character, in an exalted tone of thought and feeling,
-               a religious bias that can be seen as well as understood; <ref target="people.html#AustenJane">Miss Austen</ref> seemed afraid of imparting
-               imagination to her favourites, and conceived good sense the <hi rendition="#italics">ultima Thule</hi>
-               <hi rendition="#sup">
-                  <note>In ancient Greek and Latin times, Thule was believed the most
-                     northern place in the world. Hence, <hi rendition="#italics">ultima Thule</hi>
-                     is the farthest possible limit of discovery and travel (<hi rendition="#italics">
-                        <title>Oxford English Dictionary</title>
-                     </hi>).</note>
-               </hi> of moral possessions. Good sense <hi rendition="#italics">is</hi> very good,
-               but St. Leon's Marguerite, and Rebecca, and Desdemona,<hi rendition="#sup">
-                  <note>Characters from <ref target="people.html#agodwinWilliam">William Godwin</ref>'s <title>
-                        <hi rendition="#italics">St. Leon: A Tale of the Sixteenth Century</hi>
-                     </title> (1799), Sir <ref target="people.html#ScottWalter">Walter Scott</ref>'s <title>
-                        <hi rendition="#italics">Ivanhoe</hi>
-                     </title> (1819), and <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>'s <title>
-                        <hi rendition="#italics">Othello</hi>
-                     </title>, respectively. </note>
-               </hi> and many other glorious shadows of the brain, possessed something more.
-               However, the author of '<title>Pride and Prejudice</title>,' &amp;c., limited herself
-               to this every-day world; and to return to the point of view in which her books yield
-               moral benefit, we must think it a reader's own fault who does not close her pages
-               with more charity in his heart towards unpretending, if prosing worth—with a higher
-               estimation of simple kindness and sincere good-will—with a quickened sense of the
-               duty of bearing and forbearing in domestic intercourse, and of the pleasure of adding
-               to the little comforts even of persons who are neither wits nor beauties—who, in a
-               word, does not feel more disposed to be benevolent. Miss Bates and her mother, Mrs.
-               Jennings, old Mrs. Musgrave, all the foils who with half, or at most three quarters
-               of an idea, are humble in their ignorance and happy in their simplicity—then the
-               fools, who are only too life-like, from Mr. Rushworth and his "forty-two speeches"
-               out of '<title>Lovers Vows</title>,' to Sir Walter Elliot, who hates the naval
-               profession because it enables plebeians to fight their way to a title, and makes a
-               man mahogany-colour before he is forty—then her worldly selfish people, who are
-               delightful and benevolent everywhere but where it is their first duty, or at every
-               one's expense but their own—Mrs. Elton's pretension, Aunt Norris's second-hand
-               charity, all are inimitable. Characters of another grade, those very troublesome
-               persons to draw, heroes and heroines, have in <ref target="people.html#AustenJane">Miss Austen</ref>'s pages spirit and reality. The hero is not a suit of
-               fashionable clothes, and a set of fashionable phrases; the heroine is not a
-               ball-dress, a fainting fit, and a volume of poetry; they too are taken from life, and
-               are distinguished one from another. Caroline Morland, artless and sometimes a little
-               awkward; Emma Woodhouse, clever, spoiled, candid, faulty, and yet delightful; Fanny
-               Price, with her meekness and humility, her loving, loveable, and most forgiving
-               temper, her weeping-willow spirit that principle strengthens into decision and
-               self-dependence—none of these are alike, and none appeal to our good graces by virtue
-               of any qualities that sisters and cousins in real life may not and do not possess. We
-               sometimes feel that <ref target="people.html#AustenJane">Miss Austen</ref>'s works
-               deal rather too largely with the commonplace, petty, and disagreeable side of human
-               nature—that we should enjoy more frequent sketches of the wise and high-hearted—that
-               some of the books are too completely pages out of the world. In the last posthumous
-               tale ('<title>Persuasion</title>') there is a strain of a higher mood; there is still
-               the exquisite delineation of common life, such life as we hear, and see, and make
-               part of, with the addition of a finer, more poetic, yet equally real tone of thought
-               and action in the principals. <ref target="people.html#AustenJane">Miss Austen</ref>
-               was sparing in her introduction of nobler characters, for they are scattered
-               sparingly in life, but the books in which she describes them most we like most; they
-               may not amuse so much at the moment, but they interest more deeply and more happily.
-               In many respects <ref target="people.html#AustenJane">Miss Austen</ref> resembled
-                  <ref target="people.html#CrabbeGeorge">Crabbe</ref>: she had not his genius for
+               a religious bias that can be seen as well as understood; <ref
+                  target="people.html#AustenJane">Miss Austen</ref> seemed afraid of imparting
+               imagination to her favourites, and conceived good sense the <hi rendition="#italics"
+                  >ultima Thule</hi>
+               <note>In ancient Greek and Latin times, Thule was believed the most northern place in
+                  the world. Hence, <hi rendition="#italics">ultima Thule</hi> is the farthest
+                  possible limit of discovery and travel (<hi rendition="#italics">
+                     <title>Oxford English Dictionary</title>
+                  </hi>).</note> of moral possessions. Good sense <hi rendition="#italics">is</hi>
+               very good, but St. Leon's Marguerite, and Rebecca, and Desdemona,<note>Characters
+                  from <ref target="people.html#agodwinWilliam">William Godwin</ref>'s <title>
+                     <hi rendition="#italics">St. Leon: A Tale of the Sixteenth Century</hi>
+                  </title> (1799), Sir <ref target="people.html#ScottWalter">Walter Scott</ref>'s <title>
+                     <hi rendition="#italics">Ivanhoe</hi>
+                  </title> (1819), and <ref target="people.html#ShakespeareWilliam"
+                     >Shakespeare</ref>'s <title>
+                     <hi rendition="#italics">Othello</hi>
+                  </title>, respectively. </note> and many other glorious shadows of the brain,
+               possessed something more. However, the author of '<title>Pride and
+               Prejudice</title>,' &amp;c., limited herself to this every-day world; and to return
+               to the point of view in which her books yield moral benefit, we must think it a
+               reader's own fault who does not close her pages with more charity in his heart
+               towards unpretending, if prosing worth—with a higher estimation of simple kindness
+               and sincere good-will—with a quickened sense of the duty of bearing and forbearing in
+               domestic intercourse, and of the pleasure of adding to the little comforts even of
+               persons who are neither wits nor beauties—who, in a word, does not feel more disposed
+               to be benevolent. Miss Bates and her mother, Mrs. Jennings, old Mrs. Musgrave, all
+               the foils who with half, or at most three quarters of an idea, are humble in their
+               ignorance and happy in their simplicity—then the fools, who are only too life-like,
+               from Mr. Rushworth and his "forty-two speeches" out of '<title>Lovers Vows</title>,'
+               to Sir Walter Elliot, who hates the naval profession because it enables plebeians to
+               fight their way to a title, and makes a man mahogany-colour before he is forty—then
+               her worldly selfish people, who are delightful and benevolent everywhere but where it
+               is their first duty, or at every one's expense but their own—Mrs. Elton's pretension,
+               Aunt Norris's second-hand charity, all are inimitable. Characters of another grade,
+               those very troublesome persons to draw, heroes and heroines, have in <ref
+                  target="people.html#AustenJane">Miss Austen</ref>'s pages spirit and reality. The
+               hero is not a suit of fashionable clothes, and a set of fashionable phrases; the
+               heroine is not a ball-dress, a fainting fit, and a volume of poetry; they too are
+               taken from life, and are distinguished one from another. Caroline Morland, artless
+               and sometimes a little awkward; Emma Woodhouse, clever, spoiled, candid, faulty, and
+               yet delightful; Fanny Price, with her meekness and humility, her loving, loveable,
+               and most forgiving temper, her weeping-willow spirit that principle strengthens into
+               decision and self-dependence—none of these are alike, and none appeal to our good
+               graces by virtue of any qualities that sisters and cousins in real life may not and
+               do not possess. We sometimes feel that <ref target="people.html#AustenJane">Miss
+                  Austen</ref>'s works deal rather too largely with the commonplace, petty, and
+               disagreeable side of human nature—that we should enjoy more frequent sketches of the
+               wise and high-hearted—that some of the books are too completely pages out of the
+               world. In the last posthumous tale ('<title>Persuasion</title>') there is a strain of
+               a higher mood; there is still the exquisite delineation of common life, such life as
+               we hear, and see, and make part of, with the addition of a finer, more poetic, yet
+               equally real tone of thought and action in the principals. <ref
+                  target="people.html#AustenJane">Miss Austen</ref> was sparing in her introduction
+               of nobler characters, for they are scattered sparingly in life, but the books in
+               which she describes them most we like most; they may not amuse so much at the moment,
+               but they interest more deeply and more happily. In many respects <ref
+                  target="people.html#AustenJane">Miss Austen</ref> resembled <ref
+                  target="people.html#CrabbeGeorge">Crabbe</ref>: she had not his genius for
                grappling with the passions, and forcing them to pass before the reader in living,
                suffering, bodily forms—but <ref target="people.html#CrabbeGeorge">Crabbe</ref> in
                his lighter moods, unveiling the surface of things, playing with the follies of man,
@@ -829,23 +840,22 @@
                   <ref target="people.html#CrabbeGeorge">Crabbe</ref> himself, when not describing
                the terrible, is scarcely superior to the accomplished subject of this article. Her
                death has made a chasm in our light literature, the domestic novel with its
-               home-borne incidents, its "familiar matter of to-day,"<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#WordsworthWilliam">Wordsworth</ref>, "The Solitary
-                     Reaper" 22.</note>
-               </hi> its slight array of names and great cognizance of people and things, its
-               confinement to country life, and total oblivion of costume, manners, the<pb n="554"/>
-               great world, and "the mirror of fashion."<hi rendition="#sup">
-                  <note>Published from 1798-1828, the popular <title>
-                        <hi rendition="#italics">Ladies' Monthly Museum</hi>
-                     </title> featured "The Mirror of Fashion" color plates of the latest clothing
-                     styles for women.</note>
-               </hi> Every species of composition, is, when good, to be admired in its way; but the
-               revival of the domestic novel would make a pleasant interlude to the showy, sketchy,
-               novels of high life. Hampshire (<ref target="people.html#AustenJane">Miss
-                  Austen</ref>'s county) still possesses a female writer richly endowed with some of
-               her predecessor's qualifications for this species of writing, and possessing on her
-               own account a higher faculty of imagination. We allude to <ref target="people.html#SoutheyCaroline">Caroline Bowles</ref>.</p>
+               home-borne incidents, its "familiar matter of to-day,"<note>
+                  <ref target="people.html#WordsworthWilliam">Wordsworth</ref>, "The Solitary
+                  Reaper" 22.</note> its slight array of names and great cognizance of people and
+               things, its confinement to country life, and total oblivion of costume, manners,
+                  the<pb n="554"/> great world, and "the mirror of fashion."<note>Published from
+                  1798-1828, the popular <title>
+                     <hi rendition="#italics">Ladies' Monthly Museum</hi>
+                  </title> featured "The Mirror of Fashion" color plates of the latest clothing
+                  styles for women.</note> Every species of composition, is, when good, to be
+               admired in its way; but the revival of the domestic novel would make a pleasant
+               interlude to the showy, sketchy, novels of high life. Hampshire (<ref
+                  target="people.html#AustenJane">Miss Austen</ref>'s county) still possesses a
+               female writer richly endowed with some of her predecessor's qualifications for this
+               species of writing, and possessing on her own account a higher faculty of
+               imagination. We allude to <ref target="people.html#SoutheyCaroline">Caroline
+                  Bowles</ref>.</p>
          </div>
       </body>
    </text>

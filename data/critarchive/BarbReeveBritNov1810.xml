@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Clara Reeve</title>
-            <title type="sub" level="m">The British Novelists</title>
+            <title type="sub">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -38,8 +38,7 @@
                </analytic>
                <monogr>
                   <title type="main" level="m">The British Novelists</title>
-                  <title type="sub">with an Essay and Prefaces,
-                            Biographical and Critical</title>
+                  <title type="sub">with an Essay and Prefaces, Biographical and Critical</title>
                   <editor role="editor">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
                   </editor>
@@ -57,28 +56,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -92,15 +90,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -343,11 +350,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -477,7 +485,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -556,7 +564,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="8">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -565,11 +581,11 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#LM" when="20200611" n="7">
+         <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy</item>
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -584,7 +600,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers</item>
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
          <change who="#MW" when="2016-07-15" n="4">
@@ -627,112 +643,96 @@
                         <name>Anna Letitia Barbauld</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
-                     <ref target="people.html#ReeveClara">CLARA
-                                REEVE.</ref>
-                     <hi rendition="#sup">
-                        <note>
-                           <title level="m">
-                              <hi rendition="#italics">The British Novelists;
-                                            with an Essay; and Prefaces, Biographical and Critical,
-                                            by <ref target="people.html#BarbauldMrs">Mrs.
-                                                Barbauld</ref>
-                              </hi>
-                           </title>, 50 Vols. (London:
-                                    Printed for F.C. and J. Rivington; W. Otridge and Son; A.
-                                    Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
-                                    Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
-                                    Lea; J. Nunn; Lackington and Co.; Clarke and Son; C. Law;
-                                    Longman, Hurst, Rees, and Orme; Cadell and Davies; E. Jeffery;
-                                    J.K. Newman; Crosby and Co.; J. Carpenter; S. Bagster; T. Booth;
-                                    J. Murray; J. and J. Richardson; Black, Parry, and Kingsbury; J.
-                                    Harding; R. Phillips; J. Mawman; J. Booker; J. Asperne; R.
-                                    Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.;
-                                    Sherwood and Co.; J. Miller; W. Creech, Edinburgh; and Wilson
-                                    and Son, York, 1810), 22:i-iii. Mary A. Waters edited this
-                                    edition for <hi rendition="#italics">The Criticism
-                                    Archive</hi>.</note>
-                     </hi>
+                     <ref target="people.html#ReeveClara">CLARA REEVE.</ref>
+                     <note>
+                        <title level="m">
+                           <hi rendition="#italics">The British Novelists; with an Essay; and
+                              Prefaces, Biographical and Critical, by <ref
+                                 target="people.html#BarbauldMrs">Mrs. Barbauld</ref>
+                           </hi>
+                        </title>, 50 Vols. (London: Printed for F.C. and J. Rivington; W. Otridge
+                        and Son; A. Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
+                        Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R. Lea; J.
+                        Nunn; Lackington and Co.; Clarke and Son; C. Law; Longman, Hurst, Rees, and
+                        Orme; Cadell and Davies; E. Jeffery; J.K. Newman; Crosby and Co.; J.
+                        Carpenter; S. Bagster; T. Booth; J. Murray; J. and J. Richardson; Black,
+                        Parry, and Kingsbury; J. Harding; R. Phillips; J. Mawman; J. Booker; J.
+                        Asperne; R. Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.;
+                        Sherwood and Co.; J. Miller; W. Creech, Edinburgh; and Wilson and Son, York,
+                        1810), 22:i-iii. Mary A. Waters edited this edition for <hi
+                           rendition="#italics">The Criticism Archive</hi>.</note>
                   </title>
                </bibl>
             </head>
             <p rendition="pnoindent">
                <title>
                   <hi rendition="#italics">
-                     <hi rendition="#largest">T</hi>HE Old English
-                            Baron,</hi>
-               </title> though a novel of but a moderate degree of merit,
-                    has been always a great favourite with the novel-reading public, and as such is
-                    here introduced; for, though subsequent publications of more elegance and more
-                    invention have caused it to slide down from the place it once held; it is still
-                    generally agreeable to young people who are fond of the serious and the
-                    wonderful; and as it inspires none but noble and proper sentiments, it can do
-                    them no harm, except it should make them afraid to go up stairs to bed, by
-                    themselves, on a winter's night. </p>
-            <p> This work is something of a medium between the old romance and the modern novel.
-                    The scene is placed in England, in the reigns of Henry the Fifth and Sixth; the
-                    manners such as they are supposed to be in chivalrous times. The story is simple
-                    and well connected: it turns upon the discovery of a murder, and the consequent
-                    restoration of an heir to his title and estate. The opening is
-                    striking:—Sir Philip, the old baron, is a fine character; the man- <lb/>
+                     <hi rendition="#largest">T</hi>HE Old English Baron,</hi>
+               </title> though a novel of but a moderate degree of merit, has been always a great
+               favourite with the novel-reading public, and as such is here introduced; for, though
+               subsequent publications of more elegance and more invention have caused it to slide
+               down from the place it once held; it is still generally agreeable to young people who
+               are fond of the serious and the wonderful; and as it inspires none but noble and
+               proper sentiments, it can do them no harm, except it should make them afraid to go up
+               stairs to bed, by themselves, on a winter's night. </p>
+            <p> This work is something of a medium between the old romance and the modern novel. The
+               scene is placed in England, in the reigns of Henry the Fifth and Sixth; the manners
+               such as they are supposed to be in chivalrous times. The story is simple and well
+               connected: it turns upon the discovery of a murder, and the consequent restoration of
+               an heir to his title and estate. The opening is striking:—Sir Philip, the old baron,
+               is a fine character; the man- <lb/>
                <fw type="vol">
                   <hi rendition="#smcaps">vol. xxii.</hi>
                </fw>
                <fw type="sig">a</fw>
                <pb n="ii"/> ners and dialogue of the peasants are sufficiently well executed. </p>
-            <p> With regard to the wonderful part of the story, the writer does not, like <ref target="people.html#WalpoleHorace">the author of <hi rendition="#italics">
+            <p> With regard to the wonderful part of the story, the writer does not, like <ref
+                  target="people.html#WalpoleHorace">the author of <hi rendition="#italics">
                      <title>The Castle of Otranto</title>
                   </hi>
-               </ref>, give unlimited
-                    play to her imagination in the supernatural means she employs. She says in her
-                    preface, "We can conceive and allow for the appearance of a ghost."
-                    The appearances she has introduced are therefore such as, till lately, coincided
-                    with the belief, perhaps, of the generality of readers; haunted rooms, presaging
-                    dreams, groans, clanking of chains, and apparitions of murdered persons; such
-                    ornaments as, the author seems to think, come within the verge—the utmost
-                    verge of probability; and to those whose minds are thus properly imbued, the
-                    story will be striking. At present we should require these appearances to be
-                    more artful, or more singular. </p>
-            <p> The chief fault of it is, that we foresee the conclusion before we have read
-                    twenty pages: but this is not the case with the young and unpractised reader;
-                    and those who have read <hi rendition="#italics">
-                  <title>The Old English
-                            Baron</title>
-               </hi> at an early time of life are generally conscious at a
-                    much later period of the impression it once made upon their youthful fancy. </p>
+               </ref>, give unlimited play to her imagination in the supernatural means she employs.
+               She says in her preface, "We can conceive and allow for the appearance of a ghost."
+               The appearances she has introduced are therefore such as, till lately, coincided with
+               the belief, perhaps, of the generality of readers; haunted rooms, presaging dreams,
+               groans, clanking of chains, and apparitions of murdered persons; such ornaments as,
+               the author seems to think, come within the verge—the utmost verge of probability; and
+               to those whose minds are thus properly imbued, the story will be striking. At present
+               we should require these appearances to be more artful, or more singular. </p>
+            <p> The chief fault of it is, that we foresee the conclusion before we have read twenty
+               pages: but this is not the case with the young and unpractised reader; and those who
+               have read <hi rendition="#italics">
+                  <title>The Old English Baron</title>
+               </hi> at an early time of life are generally conscious at a much later period of the
+               impression it once made upon their youthful fancy. </p>
             <p>
                <ref target="people.html#ReeveClara">Mrs. Clara Reeve</ref>, the author, wrote a
-                    variety of novels with different success: her last was <hi rendition="#italics">
-                  <title>Memoirs of Sir Roger de Clarendon, natural Son of <ref target="people.html#EdwardPrinceofWales">Edward the Black
-                                Prince</ref>; with Anecdotes of the Times</title>
-               </hi>. In this work
-                    she has shown a good deal of reading, and has exhibited all that could be met
-                    with of the ceremonies and usages <pb n="iii"/> of the splendid reign of <ref target="people.html#EdwardIIIKingofEngland">Edward the Third</ref>, joined
-                    to that high sense of virtue supposed to belong to the chivalrous times, but for
-                    which they are entirely indebted to the writers of romance. <ref target="people.html#ReeveClara">Mrs. Reeve</ref> also translated, from the
-                    Latin, <hi rendition="#italics">
-                  <ref target="people.html#BarclayJohn">Barclay</ref>'s <title>Argenis and Parthenis</title>
-               </hi>, and
-                    published it under the title of <hi rendition="#italics">
-                  <title>The
-                            Phœnix</title>
+               variety of novels with different success: her last was <hi rendition="#italics">
+                  <title>Memoirs of Sir Roger de Clarendon, natural Son of <ref
+                        target="people.html#EdwardPrinceofWales">Edward the Black Prince</ref>; with
+                     Anecdotes of the Times</title>
+               </hi>. In this work she has shown a good deal of reading, and has exhibited all that
+               could be met with of the ceremonies and usages <pb n="iii"/> of the splendid reign of
+                  <ref target="people.html#EdwardIIIKingofEngland">Edward the Third</ref>, joined to
+               that high sense of virtue supposed to belong to the chivalrous times, but for which
+               they are entirely indebted to the writers of romance. <ref
+                  target="people.html#ReeveClara">Mrs. Reeve</ref> also translated, from the Latin,
+                  <hi rendition="#italics">
+                  <ref target="people.html#BarclayJohn">Barclay</ref>'s <title>Argenis and
+                     Parthenis</title>
+               </hi>, and published it under the title of <hi rendition="#italics">
+                  <title>The Phœnix</title>
                </hi>, and she wrote <hi rendition="#italics">
                   <title>The Progress of Romance</title>
-               </hi>; an account of works of
-                    fiction, interspersed with reflections, in dialogue. </p>
+               </hi>; an account of works of fiction, interspersed with reflections, in dialogue. </p>
             <p> This lady died at Ipswich, in Jan. 1808, at the age of seventy; in very narrow
-                    circumstances, notwithstanding she had written so much. She thus expresses
-                    herself on some occasion in a letter to a friend: "I have been all my life
-                    straitened in my circumstances, and used my pen to support a scanty
-                    establishment; yet, to the best of my knowledge, I have drawn it on the side of
-                    truth, virtue and morality." <hi rendition="#sup">
-                  <note>Ipswich, April 18, 1792. "<title>An Account of Clara
-                            Reeve</title>" <title>
-                        <hi rendition="#italics">Monthly
-                                    Magazine</hi>
-                     </title> 24 (January 1808): 601.</note>
-               </hi>
+               circumstances, notwithstanding she had written so much. She thus expresses herself on
+               some occasion in a letter to a friend: "I have been all my life straitened in my
+               circumstances, and used my pen to support a scanty establishment; yet, to the best of
+               my knowledge, I have drawn it on the side of truth, virtue and morality."
+                  <note>Ipswich, April 18, 1792. "<title>An Account of Clara Reeve</title>" <title>
+                     <hi rendition="#italics">Monthly Magazine</hi>
+                  </title> 24 (January 1808): 601.</note>
             </p>
          </div>
       </body>

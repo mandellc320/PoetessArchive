@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Review of Men and Manners</title>
-            <title type="sub" level="j">Monthly Review</title>
+            <title type="sub">Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -31,8 +31,8 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. V. Men and Manners. By Francis Lathom.
-							12mo. 4 Vols. 14s. sewed. Wright, &amp;c. 1799.</title>
+                  <title type="main" level="a">Art. V. Men and Manners. By Francis Lathom. 12mo. 4
+                     Vols. 14s. sewed. Wright, &amp;c. 1799.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -50,28 +50,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -85,15 +84,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -336,11 +344,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -470,7 +479,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -548,7 +557,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="6">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -602,263 +619,235 @@
                <bibl>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
-                        <name>Elizabeth
-								Moody</name>
+                        <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. V. <hi rendition="#italics">Men and Manners</hi>. By <ref target="people.html#LathomFrancis">Francis Lathom</ref>. 12mo. 4
-							Vols. 14s. sewed. Wright, &amp;c. 1799. <hi rendition="#sup">
-                        <note>
+                  <title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. V. <hi
+                        rendition="#italics">Men and Manners</hi>. By <ref
+                        target="people.html#LathomFrancis">Francis Lathom</ref>. 12mo. 4 Vols. 14s.
+                     sewed. Wright, &amp;c. 1799. <note>
+                        <title>
+                           <hi rendition="#italics">Monthly Review</hi>
+                        </title>, second series, volume 31, February 1800, pages 136-141. Benjamin
+                        Nangle identifies <ref target="people.html#MoodyElizabeth">
+                           <name>Elizabeth Moody</name>
+                        </ref> as the author of this review from an editor's marked copy of <hi
+                           rendition="#italics">
                            <title>
-                              <hi rendition="#italics">Monthly
-										Review</hi>
-                           </title>, second series, volume 31, February 1800, pages
-								136-141. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                              <name>Elizabeth Moody</name>
-                           </ref> as the author of this review from an editor's
-								marked copy of <hi rend="#italics">
-                              <title>
-                                 <ref target="people.html#ReviewMonthly">The Monthly
-									Review</ref>
-                              </title>
-                           </hi>. See Nangle, <hi rendition="#italics">
-                              <title>The Montly Review, Second
-											Series, 1790-1815: Indexes of Contributors and
-											Articles</title>
-                           </hi>, Clarendon Press, 1955. This edition of this review was prepared for <hi rendition="#italics">The Criticism Archive</hi> by Maegan
-									Bull and Mary A. Waters.</note>
-                     </hi>
+                              <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                           </title>
+                        </hi>. See Nangle, <hi rendition="#italics">
+                           <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                              Contributors and Articles</title>
+                        </hi>, Clarendon Press, 1955. This edition of this review was prepared for
+                           <hi rendition="#italics">The Criticism Archive</hi> by Maegan Bull and
+                        Mary A. Waters.</note>
                   </title>
                </bibl>
             </head>
             <p>
                <hi rendition="#largest">T</hi>
-               <hi rendition="#smcaps">he</hi> title of this
-					production leads us to examine the <hi rendition="#italics">dramatis
-						personæ</hi> as a painter examines the several pictures of a collected
-					groupe of figures, representing a variety of characters; and, according to this
-					mode of examination, we shall pass our strictures on the <hi rendition="#italics">pictures</hi> exhibited on this canvas. The most
-					prominent figure of the piece is Sir Gilbert Oxmondeley; who, from having been
-					born plain Gilbert Oxmondeley, and been bred to the trade of a glover and hosier
-					in Cheapside, is turned round on the sportive wheel of fortune, and thrown into
-					the rank of baroner, with the appendage of four thousand pounds in a year. Such
-					a change in circumstances naturally produces a change of manners; which are well
-					described in the author's own words: </p>
+               <hi rendition="#smcaps">he</hi> title of this production leads us to examine the <hi
+                  rendition="#italics">dramatis personæ</hi> as a painter examines the several
+               pictures of a collected groupe of figures, representing a variety of characters; and,
+               according to this mode of examination, we shall pass our strictures on the <hi
+                  rendition="#italics">pictures</hi> exhibited on this canvas. The most prominent
+               figure of the piece is Sir Gilbert Oxmondeley; who, from having been born plain
+               Gilbert Oxmondeley, and been bred to the trade of a glover and hosier in Cheapside,
+               is turned round on the sportive wheel of fortune, and thrown into the rank of
+               baroner, with the appendage of four thousand pounds in a year. Such a change in
+               circumstances naturally produces a change of manners; which are well described in the
+               author's own words: </p>
             <pb n="137"/>
             <quote>
-               <p> The baronet, as is natural to suppose, in a man undergoing so sudden a
-						change of circumstances, lost what few good qualities he had ever possessed,
-						in such vicious ones, as he had never before dreamt of;—his sentiments
-						and manners underwent as speedy a metamorphose, as the house and furniture
-						of Goody Baucis and her good man Philemon.<hi rendition="#sup">
-                     <note>From <ref target="people.html#SwiftJonathan">Jonathan
-									Swift</ref>'s <hi rendition="#italics">
-                           <title>Baucis and
-										Philemon, Imitated from Ovid</title>
-                        </hi>
-							(1709).</note>
-                  </hi> The counter-bow and smirk, with the indiscriminately
-						applied sentences of, "much obliged to your
-						ladyship,"—"thank you, sir," were converted into a
-						stiff gait and sneer at the little world below him, with a continual
-						grumbling cough in his throat, which seemed to say, "dam'me,
-						don't you know who I am?" </p>
+               <p> The baronet, as is natural to suppose, in a man undergoing so sudden a change of
+                  circumstances, lost what few good qualities he had ever possessed, in such vicious
+                  ones, as he had never before dreamt of;—his sentiments and manners underwent as
+                  speedy a metamorphose, as the house and furniture of Goody Baucis and her good man
+                     Philemon.<note>From <ref target="people.html#SwiftJonathan">Jonathan
+                        Swift</ref>'s <hi rendition="#italics">
+                        <title>Baucis and Philemon, Imitated from Ovid</title>
+                     </hi> (1709).</note> The counter-bow and smirk, with the indiscriminately
+                  applied sentences of, "much obliged to your ladyship,"—"thank you, sir," were
+                  converted into a stiff gait and sneer at the little world below him, with a
+                  continual grumbling cough in his throat, which seemed to say, "dam'me, don't you
+                  know who I am?" </p>
             </quote>
-            <p> This is a good painting.—Miss Eliza, Sir Gilbert's daughter, has
-					educated herself principally by the assistance of novels, and consequently
-					marries the first man who asks the honor of her fair hand, reduces herself to
-					poverty, and flies from her creditors to the stage.—This, though not an
-					original, is a good <hi rendition="#italics">copy</hi>.—The family of the
-					Hutchinbuncks is well executed; and the Dutch boy, or man in miniature, is <hi rendition="#italics">alive</hi>:—but the foundling Rachel is too
-					formal, sententious, and affected, for a country girl bred up in a
-					parsonage-house with the good simple Mr. Morden: the <hi rendition="#italics">colours</hi> are therefore not natural. </p>
-            <p> Jonathan Parkinson, the quaker and no quaker, (being only so called by the <hi rendition="#italics">world</hi> because he wore plain clothes and a flat
-					crown'd hat, lest he should offend the memory of his ancestors; and who
-					retained also for the same reason the peculiarity of that stiff phraseology used
-					by the sect,) forms the picture which pleases us the least in the piece. It <hi rendition="#italics">may be</hi> that, as Jonathan Parkinson is not friendly
-					to our court of criticism, he must allow for our being a little <hi rendition="#italics">piqued</hi> that a man, who is exalted by the
-					liberality of his sentiments, should so set his face against poor Reviewers as
-					to refuse all acquaintance with us, and to <hi rendition="#italics">judge
-						us</hi> severely without knowing us: for Jonathan's own words are, on
-					being presented by a bookseller with two <hi rendition="#italics">new
-						Reviews</hi>,—"I do thank thee, friend, for thy civility, but <hi rendition="#italics">I do never read </hi>
-               <hi rendition="#smcaps">those books</hi>."—Now human creatures are
-					not always good Christians, and so disposed to forgive as they ought to be; it
-					may therefore be considered as a venial sin, if we exult a little over the
-					fallible virtue of this <hi rendition="#italics">preacher</hi> and <hi rendition="#italics">pattern of moral rectitude;</hi> and if we <hi rendition="#italics">smile</hi> when we see him peeping over the shoulder of
-					the frail Miss Darlington, who presents him with two illegitimate pledges of an
-					illicit amour. The <hi rendition="#italics">costume</hi> of this <hi rendition="#italics">portrait</hi> is ill preserved. </p>
+            <p> This is a good painting.—Miss Eliza, Sir Gilbert's daughter, has educated herself
+               principally by the assistance of novels, and consequently marries the first man who
+               asks the honor of her fair hand, reduces herself to poverty, and flies from her
+               creditors to the stage.—This, though not an original, is a good <hi
+                  rendition="#italics">copy</hi>.—The family of the Hutchinbuncks is well executed;
+               and the Dutch boy, or man in miniature, is <hi rendition="#italics">alive</hi>:—but
+               the foundling Rachel is too formal, sententious, and affected, for a country girl
+               bred up in a parsonage-house with the good simple Mr. Morden: the <hi
+                  rendition="#italics">colours</hi> are therefore not natural. </p>
+            <p> Jonathan Parkinson, the quaker and no quaker, (being only so called by the <hi
+                  rendition="#italics">world</hi> because he wore plain clothes and a flat crown'd
+               hat, lest he should offend the memory of his ancestors; and who retained also for the
+               same reason the peculiarity of that stiff phraseology used by the sect,) forms the
+               picture which pleases us the least in the piece. It <hi rendition="#italics">may
+                  be</hi> that, as Jonathan Parkinson is not friendly to our court of criticism, he
+               must allow for our being a little <hi rendition="#italics">piqued</hi> that a man,
+               who is exalted by the liberality of his sentiments, should so set his face against
+               poor Reviewers as to refuse all acquaintance with us, and to <hi rendition="#italics"
+                  >judge us</hi> severely without knowing us: for Jonathan's own words are, on being
+               presented by a bookseller with two <hi rendition="#italics">new Reviews</hi>,—"I do
+               thank thee, friend, for thy civility, but <hi rendition="#italics">I do never read </hi>
+               <hi rendition="#smcaps">those books</hi>."—Now human creatures are not always good
+               Christians, and so disposed to forgive as they ought to be; it may therefore be
+               considered as a venial sin, if we exult a little over the fallible virtue of this <hi
+                  rendition="#italics">preacher</hi> and <hi rendition="#italics">pattern of moral
+                  rectitude;</hi> and if we <hi rendition="#italics">smile</hi> when we see him
+               peeping over the shoulder of the frail Miss Darlington, who presents him with two
+               illegitimate pledges of an illicit amour. The <hi rendition="#italics">costume</hi>
+               of this <hi rendition="#italics">portrait</hi> is ill preserved. </p>
             <p> The dashing Cranberry, the cold-blooded Alfred, the gamester Lady Paragon, the
-					swindler Blackman, the travell'd Sir Bauble, and many others, are rather
-					daubings than good pictures;—the colours are unnatural.—We give the
-					following chapter as a specimen of the work: </p>
+               swindler Blackman, the travell'd Sir Bauble, and many others, are rather daubings
+               than good pictures;—the colours are unnatural.—We give the following chapter as a
+               specimen of the work: </p>
             <pb n="138"/>
             <quote>
-               <p> In the evening, a clod-pole, who had been employed by Miss Oxmondeley to
-						carry Emily's letter to her brother, returned with the answer; and
-						having received his promised reward from the hand of Eliza, she flew with
-						the letter to Emily, for whom it was directed. </p>
-               <p> It contained the wished for information, that the beaus, as Eliza called
-						them, were highly flattered by the invitation, and would be at Fairford
-						early in the morning. </p>
-               <p> "Dear me," said Emily, "what will Sir Gilbert say to their
-						coming so soon in the morning?" </p>
-               <p> "Oh," said Miss Oxmondeley, "I'll tell him they come
-						early on purpose to see the lions." </p>
-               <p> "Dear me," returned Emily, "why you have no lions here, have
-						you?" </p>
-               <p> When Miss Oxmondeley could suppress her laughter sufficiently to explain
-						herself, Emily much approved of her friend's intention; but Rachel said
-						she feared it was a hazardous plan, as she hardly imagined the gentlemen
-						would investigate the curiosities of Fairford with the leisure or attention
-						Sir Gilbert would expect, from the account she had just given him of their
-						taste.</p>
-               <p>"Oh!" replied Eliza, "leave that to me, I know every step my
-						father takes in the morning, and will lead them a different way from that I
-						know he has taken; and when we meet, which I'll contrive shan't be
-						till dinner, I'll tell him, I have been forced to show them all about
-						myself, as I could not find him." </p>
+               <p> In the evening, a clod-pole, who had been employed by Miss Oxmondeley to carry
+                  Emily's letter to her brother, returned with the answer; and having received his
+                  promised reward from the hand of Eliza, she flew with the letter to Emily, for
+                  whom it was directed. </p>
+               <p> It contained the wished for information, that the beaus, as Eliza called them,
+                  were highly flattered by the invitation, and would be at Fairford early in the
+                  morning. </p>
+               <p> "Dear me," said Emily, "what will Sir Gilbert say to their coming so soon in the
+                  morning?" </p>
+               <p> "Oh," said Miss Oxmondeley, "I'll tell him they come early on purpose to see the
+                  lions." </p>
+               <p> "Dear me," returned Emily, "why you have no lions here, have you?" </p>
+               <p> When Miss Oxmondeley could suppress her laughter sufficiently to explain herself,
+                  Emily much approved of her friend's intention; but Rachel said she feared it was a
+                  hazardous plan, as she hardly imagined the gentlemen would investigate the
+                  curiosities of Fairford with the leisure or attention Sir Gilbert would expect,
+                  from the account she had just given him of their taste.</p>
+               <p>"Oh!" replied Eliza, "leave that to me, I know every step my father takes in the
+                  morning, and will lead them a different way from that I know he has taken; and
+                  when we meet, which I'll contrive shan't be till dinner, I'll tell him, I have
+                  been forced to show them all about myself, as I could not find him." </p>
                <p> "But should the deceit be discovered"—said Rachel. </p>
-               <p> "I'll contrive some excuse, I warrant me, to bring us off,"
-						said Miss Oxmondeley. </p>
+               <p> "I'll contrive some excuse, I warrant me, to bring us off," said Miss Oxmondeley. </p>
                <p> "And if it should not"—continued Rachel hesitatingly. </p>
-               <p> "Why all the better," replied Eliza, insensible to the very gentle
-						reproof Rachel ventured to give to her improper conduct. </p>
-               <p> "I was quite frightened at dinner," said Emily, "when you
-						told your papa about their coming." </p>
-               <p> "Oh, I know how to cuff him over," replied Eliza, half ashamed she
-						did not possess absolute dominion over her father. </p>
+               <p> "Why all the better," replied Eliza, insensible to the very gentle reproof Rachel
+                  ventured to give to her improper conduct. </p>
+               <p> "I was quite frightened at dinner," said Emily, "when you told your papa about
+                  their coming." </p>
+               <p> "Oh, I know how to cuff him over," replied Eliza, half ashamed she did not
+                  possess absolute dominion over her father. </p>
                <p> "And now he does not know Alfred is to be here," returned Emily. </p>
                <p> "I have a trick to introduce him with," replied Eliza. </p>
-               <p> "I think you run great risks, Miss Oxmondeley," said Rachel,
-						"of incurring Sir Gilbert's displeasure, to obtain a gratification
-						which the anxiety that its purchase occasions must, in my opinion, in a
-						great measure outweigh." </p>
-               <p> "Oh! that's half the pleasure," returned Miss Oxmondeley;
-						"it is so romantic to impose on a father, and so delightful to plan
-						schemes and stratagems for seeing the pretty fellows." </p>
+               <p> "I think you run great risks, Miss Oxmondeley," said Rachel, "of incurring Sir
+                  Gilbert's displeasure, to obtain a gratification which the anxiety that its
+                  purchase occasions must, in my opinion, in a great measure outweigh." </p>
+               <p> "Oh! that's half the pleasure," returned Miss Oxmondeley; "it is so romantic to
+                  impose on a father, and so delightful to plan schemes and stratagems for seeing
+                  the pretty fellows." </p>
                <p> Rachel durst admonish no farther, on so slight an acquaintance, with one
-						acknowledged by the world so far her superior in rank, and remained silent.
-						Emily Morden, who never thought for herself, was always of opinion of the
-						last speaker. </p>
+                  acknowledged by the world so far her superior in rank, and remained silent. Emily
+                  Morden, who never thought for herself, was always of opinion of the last speaker. </p>
                <pb n="139"/>
                <p> On the succeeding day, Sir Gilbert, as was his usual custom, walked into his
-						grounds immediately after breakfast; he had strolled nearly the round, had
-						rested once in the hermitage, and stopped twice to admire the Chinese
-						temple, (his favorite building, because it had cost the largest sum in
-						erecting,) when proceeding, he arrived within a few paces of the ruin, which
-						represented the angle of a gothic building, with a dilapidated window
-						supported between two mouldering pillars; as he stood viewing the venerable
-						structure, a voice behind it called out "Here's at your cock
-						robin," and immediately a large stone flew over his head. </p>
+                  grounds immediately after breakfast; he had strolled nearly the round, had rested
+                  once in the hermitage, and stopped twice to admire the Chinese temple, (his
+                  favorite building, because it had cost the largest sum in erecting,) when
+                  proceeding, he arrived within a few paces of the ruin, which represented the angle
+                  of a gothic building, with a dilapidated window supported between two mouldering
+                  pillars; as he stood viewing the venerable structure, a voice behind it called out
+                  "Here's at your cock robin," and immediately a large stone flew over his head. </p>
                <p> "Hollo! hollo!" exclaimed the astonished baronet. </p>
                <p> "Hollo! hollo!" repeated a voice. </p>
-               <p> "What's here, an echo?" cried another speaker. "Hollo!
-						hollo! again." </p>
-               <p> The baronet was mean while rapidly approaching, and distinctly heard his
-						daughter say, "Oh Lud a mercy, it's papa, I dare say! I hope he
-						did not see us." </p>
+               <p> "What's here, an echo?" cried another speaker. "Hollo! hollo! again." </p>
+               <p> The baronet was mean while rapidly approaching, and distinctly heard his daughter
+                  say, "Oh Lud a mercy, it's papa, I dare say! I hope he did not see us." </p>
                <p> "I'll climb up these stones and peep," said the first voice. </p>
-               <p> In a few seconds, a face appeared through the frame-work of the window; and
-						in less than in an instant the fragment of antiquity, in reality no more
-						firmly built than it was really meant to appear, yielded to the weight
-						imposed upon it, crumbled, fell, and carried with it to the ground the
-						person in question. </p>
-               <p> The scene fallen, the actors behind it became conspicuous; and Miss
-						Oxmondeley, Mr. Cranberry, and Rachel, appeared standing in various
-						attitudes of terror and surprise—Miss Emily and Alfred sitting on the
-						grass, at a short distance from the scene of action, and John Morden lying
-						prostrate amongst the ruined ruins. </p>
-               <p> "Here's a pretty spot of work!" cried the baronet, "the
-						mouldering walls of my abbey all in ruins!—How the devil came you to
-						climb up it, you imp of vexation?" </p>
+               <p> In a few seconds, a face appeared through the frame-work of the window; and in
+                  less than in an instant the fragment of antiquity, in reality no more firmly built
+                  than it was really meant to appear, yielded to the weight imposed upon it,
+                  crumbled, fell, and carried with it to the ground the person in question. </p>
+               <p> The scene fallen, the actors behind it became conspicuous; and Miss Oxmondeley,
+                  Mr. Cranberry, and Rachel, appeared standing in various attitudes of terror and
+                  surprise—Miss Emily and Alfred sitting on the grass, at a short distance from the
+                  scene of action, and John Morden lying prostrate amongst the ruined ruins. </p>
+               <p> "Here's a pretty spot of work!" cried the baronet, "the mouldering walls of my
+                  abbey all in ruins!—How the devil came you to climb up it, you imp of vexation?" </p>
                <p> "Have you hurt yourself," said Eliza, advancing to John. </p>
-               <p> "Oh, no!" said he, rising gently, while he held one hand on his
-						back, and rubbed his left knee with the other. </p>
-               <p> "If you had broken your neck, I should not have pitied you," cried
-						the baronet. </p>
-               <p> "If he had," returned Eliza, "it would have signified little
-						to him, whether you had or not—your compassion would be of much more
-						consequence to him now, for I'm sure he's hurt." </p>
-               <p> "Here's at your cock Robin, indeed!" exclaimed Sir Gilbert,
-						settling the flaps of his waistcoat with both his hands, and moving about
-						his fingers in painful agitation. </p>
+               <p> "Oh, no!" said he, rising gently, while he held one hand on his back, and rubbed
+                  his left knee with the other. </p>
+               <p> "If you had broken your neck, I should not have pitied you," cried the baronet. </p>
+               <p> "If he had," returned Eliza, "it would have signified little to him, whether you
+                  had or not—your compassion would be of much more consequence to him now, for I'm
+                  sure he's hurt." </p>
+               <p> "Here's at your cock Robin, indeed!" exclaimed Sir Gilbert, settling the flaps of
+                  his waistcoat with both his hands, and moving about his fingers in painful
+                  agitation. </p>
                <p> "Give me leave to introduce Mr. Cranberry to you, papa." </p>
                <p> Cranberry bowed, scraped, muttered a great deal, and said nothing. </p>
-               <p> "How do you do, sir?" said Sir Gilbert impatiently.—
-						"If it had been my Chinese temple, instead of this ruin, I'd have
-						broken your neck for you, myself, puppy!" he continued, turning to
-						John. </p>
-               <p> "Is there a Chinese-temple in these gardens?" asked Cranberry with
-						affected eagerness and pleasure. </p>
+               <p> "How do you do, sir?" said Sir Gilbert impatiently.— "If it had been my Chinese
+                  temple, instead of this ruin, I'd have broken your neck for you, myself, puppy!"
+                  he continued, turning to John. </p>
+               <p> "Is there a Chinese-temple in these gardens?" asked Cranberry with affected
+                  eagerness and pleasure. </p>
                <pb n="140"/>
-               <p> "Yes sir, yes sir," answered Sir Gilbert, placidity returning to
-						his bow. </p>
-               <p> Cranberry had already received his cue from Eliza, and now turning quickly
-						round to Rachel, exclaimed, "Oh, you cruel creature, not to point it
-						out to me, when you know my partiality for those buildings!" </p>
-               <p> John Morden, advancing to Sir Gilbert, said, "I beg pardon, Sir
-						Gilbert, but I thought those mock ruins had always been built
-						stronger." </p>
-               <p> "Well, well," said the baronet, "it is some consolation that
-						I can afford to build another." </p>
-               <p> "If I might be allowed to speak," said Cranberry, "I think it
-						gives the idea it was meant to convey much more forcibly in its present
-						state than it did before." </p>
-               <p> "Indeed!" replied the baronet, "Surely not:" he gave a
-						moment's pause to observation, then added, "let me stand where you
-						do a minute, sir, if you please." </p>
-               <p> Eliza ran up to her father, and peeping over his shoulder, "Oh,
-						decidedly, decidedly," she cried. </p>
+               <p> "Yes sir, yes sir," answered Sir Gilbert, placidity returning to his bow. </p>
+               <p> Cranberry had already received his cue from Eliza, and now turning quickly round
+                  to Rachel, exclaimed, "Oh, you cruel creature, not to point it out to me, when you
+                  know my partiality for those buildings!" </p>
+               <p> John Morden, advancing to Sir Gilbert, said, "I beg pardon, Sir Gilbert, but I
+                  thought those mock ruins had always been built stronger." </p>
+               <p> "Well, well," said the baronet, "it is some consolation that I can afford to
+                  build another." </p>
+               <p> "If I might be allowed to speak," said Cranberry, "I think it gives the idea it
+                  was meant to convey much more forcibly in its present state than it did before." </p>
+               <p> "Indeed!" replied the baronet, "Surely not:" he gave a moment's pause to
+                  observation, then added, "let me stand where you do a minute, sir, if you please." </p>
+               <p> Eliza ran up to her father, and peeping over his shoulder, "Oh, decidedly,
+                  decidedly," she cried. </p>
                <p> "Decidedly, what?" asked the baronet. </p>
                <p> "More mutilated, papa," answered she. </p>
                <p> "Oh, infinitely more ruinous and dilapidated," added Cranberry. </p>
-               <p> "But my robin is lost," said Sir Gilbert, with a sigh; "I
-						don't like that."</p>
-               <p>"Ay, flown away," cried John, still holding his knee; "it
-						would have been a good thing for me, if I could have taken wing like
-						it:" a wink to Eliza and Cranberry followed this sentence. </p>
-               <p> "Why, did you really think it was alive?" asked the baronet, with
-						pleasure sparkling in his eyes. </p>
+               <p> "But my robin is lost," said Sir Gilbert, with a sigh; "I don't like that."</p>
+               <p>"Ay, flown away," cried John, still holding his knee; "it would have been a good
+                  thing for me, if I could have taken wing like it:" a wink to Eliza and Cranberry
+                  followed this sentence. </p>
+               <p> "Why, did you really think it was alive?" asked the baronet, with pleasure
+                  sparkling in his eyes. </p>
                <p> "Why was it not?" said John, with affected surprise. </p>
-               <p> "Ha! ha! ha!" exclaimed Sir Gilbert, unable to contain his extacy;
-						"you were really taken in then, ha! ha! ha! you are not the first that
-						has been taken in about that robin." </p>
-               <p> "No, nor the last neither," said Eliza, looking archly at her
-						companions. </p>
-               <p> "No, no, no," returned the baronet; "I can't help
-						laughing though at the thoughts of it;—I can easily have the ruin
-						mended, and another bird put up." </p>
-               <p> "Besides you can vary your subject, and the deception will have the
-						better effect," remarked Cranberry. </p>
-               <p> "True, sir, true, so it will; those that have seen it before, will
-						think the robin has flown away, indeed," returned the baronet. </p>
+               <p> "Ha! ha! ha!" exclaimed Sir Gilbert, unable to contain his extacy; "you were
+                  really taken in then, ha! ha! ha! you are not the first that has been taken in
+                  about that robin." </p>
+               <p> "No, nor the last neither," said Eliza, looking archly at her companions. </p>
+               <p> "No, no, no," returned the baronet; "I can't help laughing though at the thoughts
+                  of it;—I can easily have the ruin mended, and another bird put up." </p>
+               <p> "Besides you can vary your subject, and the deception will have the better
+                  effect," remarked Cranberry. </p>
+               <p> "True, sir, true, so it will; those that have seen it before, will think the
+                  robin has flown away, indeed," returned the baronet. </p>
                <p> "But the Chinese temple, Sir Gilbert—" </p>
-               <p> "I'm on the road to it now," answered the exulting baronet;
-						"walk you behind Eliza," continued he, "you have seen it
-						often enough, and it is not worth a pin, without you have a clear view of it
-						breaking upon you from amongst the trees;—walk on, sir, walk on, the
-						path will lead you to it;" and on they moved, Eliza and John rejoicing
-						in the happy change John's maneuver had worked on the baronet's
-						temper. </p>
+               <p> "I'm on the road to it now," answered the exulting baronet; "walk you behind
+                  Eliza," continued he, "you have seen it often enough, and it is not worth a pin,
+                  without you have a clear view of it breaking upon you from amongst the trees;—walk
+                  on, sir, walk on, the path will lead you to it;" and on they moved, Eliza and John
+                  rejoicing in the happy change John's maneuver had worked on the baronet's temper.
+               </p>
             </quote>
             <pb n="141"/>
-            <p> We are sorry that we have not been more entertained with the whole of this
-					novel: but we readily acknowledge that we have occasionally received pleasure
-					from the comic powers of Mr. Lathom; and that we have met with scenes not
-					unworthy of the drama, where the ridicule is well painted which resulted from
-					pride, ostentation, and vanity, grafted on low birth, mean education, and
-					defective intellects. Prolixity is the great fault of this author, and it is
-					indeed too common an error. It is to be wished that writers of all descriptions
-					would study the <hi rendition="#italics">multum in parvo</hi>,<hi rendition="#sup">
-                  <note>Much matter within a small
-						compass.</note>
-               </hi> and the happy art of compressing. <hi rendition="#italics">How</hi> to <hi rendition="#italics">begin</hi>, and
-						<hi rendition="#italics">how</hi> to <hi rendition="#italics">finish</hi>,
-					are points of difficulty: but <hi rendition="#italics">when</hi> to <hi rendition="#italics">finish</hi> requires the most resolution. </p>
-            <lb/>
-            <fw type="sig">9</fw>
+            <p> We are sorry that we have not been more entertained with the whole of this novel:
+               but we readily acknowledge that we have occasionally received pleasure from the comic
+               powers of Mr. Lathom; and that we have met with scenes not unworthy of the drama,
+               where the ridicule is well painted which resulted from pride, ostentation, and
+               vanity, grafted on low birth, mean education, and defective intellects. Prolixity is
+               the great fault of this author, and it is indeed too common an error. It is to be
+               wished that writers of all descriptions would study the <hi rendition="#italics"
+                  >multum in parvo</hi>,<note>Much matter within a small compass.</note> and the
+               happy art of compressing. <hi rendition="#italics">How</hi> to <hi
+                  rendition="#italics">begin</hi>, and <hi rendition="#italics">how</hi> to <hi
+                  rendition="#italics">finish</hi>, are points of difficulty: but <hi
+                  rendition="#italics">when</hi> to <hi rendition="#italics">finish</hi> requires
+               the most resolution. </p>
          </div>
       </body>
    </text>

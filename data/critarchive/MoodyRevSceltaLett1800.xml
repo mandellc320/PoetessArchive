@@ -3,9 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Art. 17. Scelta di Lettere familiari, degli Autori
-					pieù Celebri &amp;c.</title>
-            <title type="sub" level="j">Monthly Review</title>
+            <title type="main" level="a">Art. 17. Scelta di Lettere familiari, degli Autori pieù
+               Celebri &amp;c.</title>
+            <title type="sub">Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -32,13 +32,11 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. 17. Scelta di
-								Lettere familiari, degli Autori
-								pieù Celebri, &amp;c. A Collection of familiar Letters, by
-							the most celebrated Authors; for the Use of Students in the Italian
-							Language: with Accents, to mark the Pronunciation of all the doubtful
-							Words. By Leonardo Nardini. 12mo. pp. 264. 3s. Dulau and Co.
-							1800.</title>
+                  <title type="main" level="a">Art. 17. Scelta di Lettere familiari, degli Autori
+                     pieù Celebri, &amp;c. A Collection of familiar Letters, by the most celebrated
+                     Authors; for the Use of Students in the Italian Language: with Accents, to mark
+                     the Pronunciation of all the doubtful Words. By Leonardo Nardini. 12mo. pp.
+                     264. 3s. Dulau and Co. 1800.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -56,28 +54,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -91,15 +88,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -342,11 +348,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -476,7 +483,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -555,7 +562,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="4">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -591,67 +606,78 @@
    </teiHeader>
    <text>
       <body>
-         <div type="essay" org="uniform" sample="complete" part="N">
+         <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
-                        <name>Elizabeth
-								Moody</name>
+                        <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title type="main" level="a">
-                     <hi rendition="#sup">Art. 17. <hi rendition="#italics">Scelta di Lettere familiari</hi>, <hi rendition="#italics">degli Autori pieù Celebri</hi>,
-								&amp;c. A Collection of familiar Letters, by the most celebrated
-								Authors; for the Use of Students in the Italian Language: with
-								Accents, to mark the Pronunciation of all the doubtful Words. By
-									<ref target="people.html#NardiniLeonardo">Leonardo
-								Nardini</ref>. 12mo. pp. 264. 3s. Dulau and Co. 1800.<note>
-                           <title level="j">This book review originally
-										appeared in the <ref target="people.html#ReviewMonthly">
-                                 <name>
-                                    <hi rendition="#italics">Monthly
-												Review</hi>
-                                 </name>
-                              </ref>, Vol. 33, second series, November 1800,
-										pp. 309-310. Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
-                                 <name>Elizabeth Moody</name>
-                              </ref> as the author of this review from an editor's
-										marked copy of <hi rend="#italics">
-                                 <title>
-                                    <ref target="people.html#ReviewMonthly">The Monthly
-												Review</ref>
-                                 </title>
-                              </hi>. See Nangle, <hi rendition="#italics">
-                                 <title>The Montly Review, Second
-												Series, 1790-1815: Indexes of Contributors and
-												Articles</title>
-                              </hi>, Clarendon Press, 1955. Mary
-										A. Waters and Zachary Parker edited this essay for <hi rendition="#italics">The Criticism
-									Archive</hi>.</title>
-                        </note>
-                     </hi>
+                  <title type="main" level="a">Art. 17. <hi rendition="#italics">Scelta di Lettere
+                        familiari</hi>, <hi rendition="#italics">degli Autori pieù Celebri</hi>,
+                     &amp;c. A Collection of familiar Letters, by the most celebrated Authors; for
+                     the Use of Students in the Italian Language: with Accents, to mark the
+                     Pronunciation of all the doubtful Words. By <ref
+                        target="people.html#NardiniLeonardo">Leonardo Nardini</ref>. 12mo. pp. 264.
+                     3s. Dulau and Co. 1800.<note>
+                        <title level="j">This book review originally appeared in the <ref
+                              target="people.html#ReviewMonthly">
+                              <name>
+                                 <hi rendition="#italics">Monthly Review</hi>
+                              </name>
+                           </ref>, Vol. 33, second series, November 1800, pp. 309-310. Benjamin
+                           Nangle identifies <ref target="people.html#MoodyElizabeth">
+                              <name>Elizabeth Moody</name>
+                           </ref> as the author of this review from an editor's marked copy of <hi
+                              rendition="#italics">
+                              <title>
+                                 <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                              </title>
+                           </hi>. See Nangle, <hi rendition="#italics">
+                              <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                                 Contributors and Articles</title>
+                           </hi>, Clarendon Press, 1955. Mary A. Waters and Zachary Parker edited
+                           this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>.</title>
+                     </note>
                   </title>
                </bibl>
             </head>
             <p>The English public have given considerable encouragement to this method of
-					book-making; and, to say the truth, when selections are conducted with judgement
-					and taste, they cannot fail of being accept-<pb n="310"/>able. They bring
-					together, within a narrow compass, interesting pieces which are generally
-					scattered through many volumes, and afford considerable entertainment at a very
-					moderate price;—no trifling recommendation in these hard times. To the
-					compiler of this little volume of Italian Letters, the praise of judicious
-					discrimination is due; and his collection will be thankfully received by the
-					Italian student who wishes to improve, and to write this elegant language with
-					facility and correctness. <ref target="people.html#AlgarottiFrancesco">Algarotti</ref>—<ref target="people.html#BemboPietro">Bembo</ref>—<ref target="people.html#BentivoglioGuido">Bentivoglio</ref>—<ref target="people.html#BoccaliniT">Boccalini</ref>—<ref target="people.html#CastiglioneBaldassarre">Castiglione</ref>—<ref target="people.html#CaroAnnibal">Caro</ref>—<ref target="people.html#FabriDomenico">Fabri</ref>—<ref target="people.html#GalileiGalileo">Galileo</ref>— <ref target="people.html#ClementXIV">Ganganelli</ref>—<ref target="people.html#GuariniBattista">Guarini</ref>—<ref target="people.html#BenedictXIV">Lambertini</ref>— <ref target="people.html#MachiavelliNiccolo">Machiavelli</ref>—<ref target="people.html#MascardiAgostino">Mascardi</ref>—<ref target="people.html#MetastasioPietro">Metastasio</ref>— <ref target="people.html#RediFrancesco">Redi</ref>—<ref target="people.html#TassoTorquato">Tasso</ref>—<ref target="people.html#TolomeiClaudio">Tolomei</ref>—<ref target="people.html#ZanottiF">Zanotti</ref>, and
-					others, are here laid under contribution; and, when drawing from such rich and
-					various sources, it is no great compliment to the editor to say that this volume
-					is both amusing and instructive. A letter from <ref target="people.html#ClementXIV">Ganganelli</ref> to a friend, on the
-					subject of travelling in Italy, peculiarly merits those epithets on account of
-					its style, its method of detail, and its reflections.</p>
+               book-making; and, to say the truth, when selections are conducted with judgement and
+               taste, they cannot fail of being accept-<pb n="310"/>able. They bring together,
+               within a narrow compass, interesting pieces which are generally scattered through
+               many volumes, and afford considerable entertainment at a very moderate price;—no
+               trifling recommendation in these hard times. To the compiler of this little volume of
+               Italian Letters, the praise of judicious discrimination is due; and his collection
+               will be thankfully received by the Italian student who wishes to improve, and to
+               write this elegant language with facility and correctness. <ref
+                  target="people.html#AlgarottiFrancesco">Algarotti</ref>—<ref
+                  target="people.html#BemboPietro">Bembo</ref>—<ref
+                  target="people.html#BentivoglioGuido">Bentivoglio</ref>—<ref
+                  target="people.html#BoccaliniT">Boccalini</ref>—<ref
+                  target="people.html#CastiglioneBaldassarre">Castiglione</ref>—<ref
+                  target="people.html#CaroAnnibal">Caro</ref>—<ref
+                  target="people.html#FabriDomenico">Fabri</ref>—<ref
+                  target="people.html#GalileiGalileo">Galileo</ref>— <ref
+                  target="people.html#ClementXIV">Ganganelli</ref>—<ref
+                  target="people.html#GuariniBattista">Guarini</ref>—<ref
+                  target="people.html#BenedictXIV">Lambertini</ref>— <ref
+                  target="people.html#MachiavelliNiccolo">Machiavelli</ref>—<ref
+                  target="people.html#MascardiAgostino">Mascardi</ref>—<ref
+                  target="people.html#MetastasioPietro">Metastasio</ref>— <ref
+                  target="people.html#RediFrancesco">Redi</ref>—<ref
+                  target="people.html#TassoTorquato">Tasso</ref>—<ref
+                  target="people.html#TolomeiClaudio">Tolomei</ref>—<ref
+                  target="people.html#ZanottiF">Zanotti</ref>, and others, are here laid under
+               contribution; and, when drawing from such rich and various sources, it is no great
+               compliment to the editor to say that this volume is both amusing and instructive. A
+               letter from <ref target="people.html#ClementXIV">Ganganelli</ref> to a friend, on the
+               subject of travelling in Italy, peculiarly merits those epithets on account of its
+               style, its method of detail, and its reflections.</p>
             <p>The accentuation of doubtful words will prove of great use to those who study the
-					Italian language without a preceptor.</p>
+               Italian language without a preceptor.</p>
          </div>
       </body>
    </text>

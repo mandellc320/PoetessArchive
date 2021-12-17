@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
+	<teiHeader type="text">
 		<fileDesc>
 			<titleStmt>
 				<title xml:lang="en">People List</title>
@@ -36,6 +36,7 @@
 					<resp>Co-Editor</resp>
 					<name xml:id="JDP">Jonathan Pinkerton</name>
 				</respStmt>
+
 			</titleStmt>
 			<publicationStmt>
 				<idno>people</idno>
@@ -48,8 +49,8 @@
 				</respStmt>
 				<idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
 			</seriesStmt>
-			<sourceDesc >
-				<biblStruct >
+			<sourceDesc default="false">
+				<biblStruct default="false">
 					<analytic>
 						<title>People List</title>
 						<author type="writer">
@@ -71,15 +72,6 @@
 		</fileDesc>
 		<encodingDesc>
 			<classDecl>
-				<taxonomy xml:id="ft">
-					<bibl>Full Text or Citation</bibl>
-					<category xml:id="ft1">
-						<catDesc>full text</catDesc>
-					</category>
-					<category xml:id="ft2">
-						<catDesc>citation only</catDesc>
-					</category>
-				</taxonomy>
 				<taxonomy xml:id="ps">
 					<bibl>Primary or Secondary</bibl>
 					<category xml:id="ps1">
@@ -525,7 +517,6 @@
 				<catRef target="#f6" scheme="#f"/>
 				<catRef target="#ps1" scheme="#p"/>
 				<catRef scheme="#g" target="#g3 "/>
-				<catRef target="#ft1" scheme="#ft"/>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
@@ -551,7 +542,8 @@
 				<label>Changed by</label>
 				<name>Laura Mandell</name>
 				<list type="simple">
-					<item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+					<item>Added new taxonomies into headers using
+						&apos;changeHeaderCritArc.xsl&apos;</item>
 				</list>
 			</change>
 			<change who="#MW" when="2016-09-25" n="6">
@@ -643,6 +635,18 @@
 							Western theatrical tradition, the first playwright to achieve official
 							recognition in ancient Greece. [RD]</gloss>
 					</item>
+					<item><term xml:id="Agamemnon">Agamemnon (Library of Congress Name
+							Authority)&#8212;</term>
+						<gloss>In <ref target="#Homer">Homer</ref>&apos;'s <hi rendition="#italics"
+									><title>Iliad</title></hi>, Agamemnon was a king of Mycenae and
+							brother to Menelaus, whose wife <ref target="#Helen">Helen</ref> eloped
+							to Troy with her lover Paris. Agamemnon commanded the united Greek armed
+							forces in the Trojan War. As the Greeks were departing for Troy, they
+							found that the winds were insufficient to set sail. In response to a
+							prophesy that her sacrifice was demanded by the gods, Agamemnon slew his
+							daughter Iphigenia. In revenge, Agamemnon was killed by his wife <ref
+								target="#Clytemnestra">Clytemnestra</ref> and her lover Aegisthus on
+							his return from Troy. [JDP]</gloss></item>
 					<item>
 						<term xml:id="AikinAnnaLetitia">Aikin, Anna Letitia&#8212; </term>
 						<gloss>See <ref target="#BarbauldMrs">Barbauld, Mrs. (Anna Letitia)</ref>.
@@ -768,6 +772,12 @@
 								Esq.</title></hi> (two volumes published separately in 1756 and
 							1766). [MW] </gloss>
 					</item>
+					<item><term xml:id="AndrewApostleSaint">Andrew, Apostle, Saint (Library of
+							Congress Name Authority)&#8212;</term>
+						<gloss>Andrew the Apostle or Saint Andrew was born in Galilee and brother to
+							Saint Peter. In the <title>New Testament</title>, he was an apostle of
+							Jesus. [MW]</gloss>
+					</item>
 					<item>
 						<term xml:id="AndrewsGoodman">Goodman Andrews&#8212; </term>
 						<gloss>Father to the title character in <ref target="#RichardsonSamuel"
@@ -829,6 +839,13 @@
 							are expressed through the Delphic Oracle. [MW]</gloss>
 					</item>
 					<item>
+						<term xml:id="ApolloniusofTyana">Apollonius, of Tyana (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss>Greek philosopher and mystic from the town of Tyana, now part of
+							Turkey. He was author of a life of Pythagoras and is associated with
+							Neopythagorean thought. [JDP] [MW]</gloss>
+					</item>
+					<item>
 						<term xml:id="Apuleius">Apuleius [n.d.] (Library of Congress Name
 							Authority); c.124-after 170 (<hi rendition="#italics"
 									><title>Encyclopedia Britannica</title></hi>)&#8212; </term>
@@ -843,8 +860,8 @@
 						<term xml:id="ArblayGen">Arblay, Alexandre Jean Baptiste Piochard, comte
 							d&apos;, 1754-1818 (Library of Congress Name Authority)&#8212; </term>
 						<gloss>&#201;migr&#233; French general and adjutant to General Lafayette. In
-							1793 D&apos;arblay married <ref target="#BurneyFanny">Fanny Burney</ref>
-							[MW] </gloss>
+							1793 D&apos;arblay married <ref target="#BurneyFanny">Fanny
+							Burney</ref>. [MW] </gloss>
 					</item>
 					<item>
 						<term xml:id="ArblayMadameD">Arblay, Madame D&apos;&#8212; </term>
@@ -853,9 +870,9 @@
 					<item>
 						<term xml:id="ArbuthnotJohn">Arbuthnot, John, 1667-1735 (Library of Congress
 							Name Authority)&#8212; </term>
-						<gloss> Founder of the Scriblerus Club, which included <ref
-								target="#PopeAlexander">Alexander Pope</ref> and <ref
-								target="#SwiftJonathan">Jonathan Swift</ref> among the members.
+						<gloss> Founder of the <ref target="#ScriblerusClub">Scriblerus Club</ref>,
+							which included <ref target="#PopeAlexander">Alexander Pope</ref> and
+								<ref target="#SwiftJonathan">Jonathan Swift</ref> among the members.
 							Arbuthnot authored a series of pamphlets originating the fictional
 							figure <ref target="#JohnBull">John Bull</ref>, the personification of
 							English national character. [MW] </gloss>
@@ -866,6 +883,22 @@
 						<gloss> Emperor who ruled the Eastern half of the Roman empire while his
 							younger brother <ref target="#Honorius">Honorius</ref> ruled the western
 							half. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="Archimedes">Archimedes (Library of Congress Name
+							Authority)&#8212; </term>
+						<gloss> A Greek mathematician, physicist, engineer, inventor, and
+							astronomer. [JDP]</gloss>
+					</item>
+					<item>
+						<term xml:id="Ariel">Ariel&#8212;</term>
+						<gloss>The &quot;airy spirit&quot; in <ref target="#ShakespeareWilliam"
+								>William Shakespeare</ref>&apos;s <hi rendition="#italics"
+									><title>The Tempest</title></hi>. Although Ariel is trapped
+							under Prospero&apos;s command, Ariel is quite powerful himself, with a
+							range of abilities and a host of followers beneath him. Ultimately,
+							Ariel manipulates Prospero by appealing to his humanity in order to gain
+							his freedom. [LD] </gloss>
 					</item>
 					<item>
 						<term xml:id="Ariosto">Ariosto, Lodovico, 1474-1533 (Library of Congress
@@ -893,7 +926,7 @@
 							B.C.), <title><hi rendition="#italics">Plutus</hi></title> (also known
 							as <title><hi rendition="#italics">Wealth</hi></title>, 408; revised
 							388), and <title><hi rendition="#italics">Frogs (405 B.C.)</hi></title>
-							are among the best known. [RD], [MW]</gloss>
+							are among the best known. [RD] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="ArkwrightRichard">Arkwright, Richard, Sir, 1732-1792 (Library
@@ -902,6 +935,16 @@
 							importantly, an innovative spinning frame, Arkwright became a leader in
 							the mechanization of cotton manufacturing and the development of the
 							factory system for textile production. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="ArmagnacLouis">Armagnac, Louis d&apos;, Duke of Nemours,
+							1472-1503 (<hi rendition="#italics">Encyclopedia
+							Britannica</hi>)&#8212;</term>
+						<gloss>Known for his titles as Duc de Nemours and Count of Guise, Louis
+							d&apos;Armagnac participated in the Italian campaigns under <ref
+								target="#CharlesVIII">Charles VIII</ref> of France and later became
+							the French viceroy of Naples under <ref target="#LouisXII">Louis
+								XII</ref>. [LD]</gloss>
 					</item>
 					<item>
 						<term xml:id="ArmstrongJohn">Armstrong, John, 1709-1779 (Library of Congress
@@ -932,7 +975,6 @@
 							earth became dominated by iniquity, ascended to the heavens and became
 							the constellation Virgo. [MW]</gloss>
 					</item>
-
 					<item>
 						<term xml:id="Ate">At&#233; &#8212; </term>
 						<gloss>Goddess of error, delusion, and rash action. [MW]</gloss>
@@ -1009,6 +1051,13 @@
 							(1788), <title><hi rendition="#italics">Man as he is</hi></title>
 							(1792), and <title><hi rendition="#italics">Hermsprong, or Man as He Is
 									Not</hi></title> (1796). [RD]</gloss>
+					</item>
+					<item>
+						<term xml:id="MalatestaIV">Baglioni, Malatesta, 1491-1531 (Library of
+							Congress Name Authority)&#8212;</term>
+						<gloss>Umbrian lord and condottiero (captain of a mercenary company),
+							remembered primarily for his betrayal of the Florentine army to the
+							Imperial forces during the Siege of Florence. [LD] </gloss>
 					</item>
 					<item>
 						<term xml:id="BaillieJoanna">Baillie, Joanna, 1762-1851 &#8212; </term>
@@ -1136,7 +1185,22 @@
 							Nathanael in the Fourth Gospel and the New Testament. Stories of his
 							martyrdom describe two methods; in one, he was flayed alive. This
 							version is featured in works by several prominent artists, including
-							Michelangelo, Tiepolo, and Ribera. [VW] [MW]</gloss>
+								<ref target="BuonarrotiMichelangelo">Michelangelo</ref>, Tiepolo,
+							and Ribera. [VW] [MW]</gloss>
+					</item>
+					<item>
+						<term xml:id="BeattieJames">Beattie, James, 1735-1803 (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss>Scottish poet and philosopher. His best known work, <hi
+								rendition="#italics"><title>Essay on the Nature and Immutability of
+									Truth</title></hi> (1770) was both successful and influential.
+							His poem <hi rendition="#italics"><title>The Minstrel</title></hi>
+							(1771-1774) details the natural education of a young shepherd who
+							eventually attains poetic genius. He published a number of other
+							philosphical, theological, and linguistic works, several collections of
+							poems, and, in 1778, a collection entitled <hi rendition="#italics"
+									><title>Essays on Poetry and Music As They Affect the
+									Mind</title></hi>. [JDP] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="BeaufortHenry">Beaufort, Henry, 1374-1447 (Library of Congress
@@ -1269,6 +1333,35 @@
 							[ZP]</gloss>
 					</item>
 					<item>
+						<term xml:id="BenedictXIV">Benedict XIV, Pope, 1675-1758 (Library of
+							Congress Name Authority)&#8212;</term>
+						<gloss>Born born Prospero Lorenzo Lambertini, became Pope in 1740. Among
+							other activities, in 1741 he issued a papal bull against enslavement of
+							indigenous peoples in the Americas, but, unfortunately, the edict went
+							unenforced. [MW]</gloss>
+					</item>
+					<item>
+						<term xml:id="BenthamJeremy">Bentham, Jeremy, 1748-1832 (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss> A British philosopher, jurist, and social reformer, considered the
+							father of Utilitarianism. Bentham's social reform publications included
+							his <hi rendition="#italics"><title>Panopticon</title></hi> (1791) on
+							prison reform, particularly remembered today in consequence of Michel
+							Foucault&apos;s commentary on the idea. In <hi rendition="#italics"
+									><title>Principles of Morals and Legislation</title></hi>
+							(1789), his most important work, and <hi rendition="#italics"
+									><title>Fragment on Government</title></hi> (1776), the source
+							of his declaration that " it is the greatest happiness of the greatest
+							number that is the measure of right and wrong," he laid out the
+							principles of Utilitarianism, a philosophy that advocated language that
+							served as a vehicle for accurately communicating information, a purpose
+							that the figurative and imaginative aspects of poetry could only
+							threaten. Bentham did, however, favor the expansion of individual and
+							economic freedom; equal rights for women in property, voting, and
+							divorce; decriminalizing of homosexual acts; and the abolition of
+							slavery, the death penalty, and physical punishment. [JDP] [MW}</gloss>
+					</item>
+					<item>
 						<term xml:id="BentivoglioGuido">Bentivoglio, Guido, 1577 (Library of
 							Congress Name Authority)&#8212;</term>
 						<gloss>Italian diplomat, cardinal, and historian. Notable works include <hi
@@ -1339,8 +1432,8 @@
 						<term xml:id="BlanchardLaman"> Blanchard, Samuel Laman 1804-1845 (Library of
 							Congress Name Authority)&#8212; </term>
 						<gloss>A minor poet, essayist, and editor, Blanchard was the biographer of
-								<ref target="people.html#LandonLetitia"><name>Letitia Elizabeth
-									Landon</name></ref>. [VS] </gloss>
+								<ref target="#LandonLetitia"><name>Letitia Elizabeth
+								Landon</name></ref>. [VS] </gloss>
 					</item>
 					<item>
 						<term xml:id="BlessingtonMarguerite">Blessington, Marguerite, Countess of,
@@ -1375,10 +1468,20 @@
 					<item>
 						<term xml:id="Boccaccio">Boccaccio, Giovanni, 1313-1375 (Library of Congress
 							Name Authority)&#8212; </term>
-						<gloss>
-							<hi rendition="#italics"><title>The Decameron</title></hi> (1348-1353)
+						<gloss> Italian writer, poet, and Renaissance humanist. <hi
+								rendition="#italics"><title>The Decameron</title></hi> (1348-1353)
 							is his collection of 100 tales that inspired fiction by many subsequent
 							writers. [MW] </gloss>
+					</item>
+					<item><term xml:id="BoccaliniT">Boccalini, Triano, 1556-1613 (British
+							Library)&#8212; </term>
+						<gloss>Italian historical and satirical writer who served in various
+							government functionary positions. His best known works include <hi
+								rendition="#italics"><title>Ragguagli di Parmaso</title></hi>
+							(1612), <hi rendition="#italics"><title>Centuria Seconda</title></hi>
+							(1613), and the posthumously published <hi rendition="#italics"
+									><title>Pietra di Paragone Politico</title></hi> (1615).
+							[MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="BoiardoMatteo">Boiardo, Matteo Maria, 1440 or 41-1494 (Library
@@ -1426,11 +1529,20 @@
 									><title>Familiar Epistle to the Most Impudent Man
 								Living</title></hi> (1749); and <hi rendition="#italics"
 									><title>Letters on the Study and Use of History</title></hi>
-							(1752).[RD], [VW], [MW]</gloss>
+							(1752). [RD] [VW] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="Boreas">Boreas&#8212;</term>
 						<gloss>Greek god of the north wind. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="BorgiaCesare">Borgia, Cesare, 1476?-1507 (Library of Congress
+							Name Authority)&#8212;</term>
+						<gloss>Illigitimate son of Pope Alexander VI, he served in the Italian Wars.
+							Though he was able to ascend to power, he was not able to solidify and
+							retain it, thus inspiring <ref target="#MachiavelliNiccolo">Niccolo
+								Machiavelli</ref> to write <hi rendition="#italics"><title>The
+									Prince</title></hi></gloss>
 					</item>
 					<item>
 						<term xml:id="BoswellJames">Boswell, James, 1740-1795 (Library of Congress
@@ -1571,6 +1683,87 @@
 									of History, Politics, and Science</title></hi> (1807-1809). [MW]
 						</gloss>
 					</item>
+					<item><term xml:id="BrowneWilliam">Browne, William, 1590-approximately 1645
+							(Library of Congress Name Authority)&#8212;</term>
+						<gloss> An English pastoral poet with an acute eye for nature, known for his
+							long poem <hi rendition="#italics"><title>Britannia&apos;s
+									Pastorals</title></hi>, two parts published in 1613 and 1616,
+							with a third unfinished part printed posthumously in 1832 (1613-16). Two
+							of his poems appeared as well in <title><hi rendition="#italics">The
+									Shepheard&apos;s Pipe</hi></title>, a collection of ecologues by
+							various authors. [JDP] [MW]</gloss>
+					</item>
+					<item><term xml:id="BrowningElizabeth">Browning, Elizabeth Barrett, 1806-1861
+							(Library of Congress Name Authority)&#8212;</term>
+						<gloss> As one of the most accomplished poets of nineteenth-century Britain,
+							Elizabeth Barrett was proposed as a possible successor to <ref
+								target="WordsworthWilliam">William Wordsworth</ref> as poet
+							laureate. Barrett enjoyed a physically active and intellectually
+							vigorous childhood. Under the guidance of her brother Edward&apos;s
+							tutor and the family&apos;s neighbor, classicist Hugh Stuart Boyd, she
+							studied Greek, Latin, Hebrew, and several modern continental languages,
+							becoming deeply versed in these literatures and eventually producing
+							several translations from Greek poetry, including one of <ref
+								target="#Aeschylus">Aeschylus</ref>&apos;s <hi rendition="#italics"
+									><title>Prometheus Bound</title></hi>, first published in 1833.
+							She began writing poetry as a very young child, and by fourteen had
+							penned <hi rendition="#italics"><title>The Battle of
+								Marathon</title></hi> (1820), which her father had privately
+							printed. By age fifteen she was publishing publicly as well, two of her
+							poems appearing anonymously in the <hi rendition="#italics"><title>New
+									Monthly Magazine</title></hi>. That same year Elizabeth Barrett
+							and several of her siblings fell ill of an uncertain disorder that may
+							have been either tuberculosis of the spine or bronchitis. Sent to a spa
+							for treatment, she returned an invalid under physician&apos;s orders to
+							avoid intellectually strenuous pursuits. Nevertheless, she continued to
+							read, study, and write, producing <hi rendition="#italics"><title>An
+									Essay on the Mind</title></hi> (1826) as well as several shorter
+							poems by age 20. Despite her poetic success, the next decade brought her
+							several crushing losses and a dangerous intensification of her illness:
+							the unexpected death of her much-loved mother in 1828, the loss of the
+							family home, and, in 1838 a hemorrhage of her lungs which forced her to
+							a spa on England&apos;s south coast, where she spent the next three
+							years, and where her brother Edward, with whom she was exceptionally
+							close, drowned in 1840. By the time she returned to London in 1841,
+							again under orders to avoid intellectual stimulation, both her physical
+							and emotional health seemed irretrievably broken. Yet her poetry
+							appeared regularly in periodicals and popular gift annuals, and <hi
+								rendition="#italics"><title>The Seraphim, and Other
+								Poems</title></hi> was published in 1838. Despite her illness, too,
+							when Barrett returned to London she enjoyed a widening circle of
+							literary and artistic acquaintances, including <ref
+								target="WordsworthWilliam">William Wordsworth</ref>, Walter Savage
+							Landor, Mary Russell Mitford, art critic <ref target="#JamesonAnna">Anna
+								Jameson</ref>, and painter Benjamin Robert Hayden. Her second volume
+							of poetry, <hi rendition="#italics"><title>Poems</title></hi> (1844),
+							established her beyond question as a significant poet. It also brought
+							her a warm letter from Robert Browning, initiating a passionate
+							courtship that culminated, because of her father&apos;s fervent
+							opposition to her marriage, in the couple&apos;s elopement and departure
+							for Italy in 1846. During their courtship, Elizabeth composed the
+							sonnets collected as <hi rendition="#italics"><title>Sonnets from the
+									Portuguese</title></hi>, which appeared in an expanded 1850
+							edition of <hi rendition="#italics"><title>Poems</title></hi>. Under the
+							influence of a more active life and the genial Italian climate,
+							Elizabeth&apos;s health improved dramatically. She continued to publish,
+							with <hi rendition="#italics"><title>Casa Guidi Windows</title></hi>
+							(1851), her response to the Italian struggle for independence the next
+							major work to appear. Her epic poem <hi rendition="#italics"
+									><title>Aurora Leigh</title></hi> (1856) details the maturation
+							and career of a fictional female poet, and is often compared to
+							Wordsworth&apos;s autobiographical epic, <hi rendition="#italics"
+									><title>The Prelude</title></hi> (1850). Strong in its criticism
+							of Victorian social mores, particularly the restrictive attitudes toward
+							women, the poem scandalized many critics, but enjoyed immediate public
+							success. Her last volume to be published in her lifetime, <hi
+								rendition="#italics"><title>Poems before Congress</title></hi>
+							(1860), returns to the subject of Italian politics. Having enjoyed a
+							period of relatively good health after her marriage, Elizabeth Barrett
+							Browning&apos;s health again began to deteriorate, and in 1861 a rupture
+							in her lungs proved fatal. She left behind a body of work that
+							contemporaries praised as placing her at the apex of female poetic
+							tradition and even her detractors recognized for its combination of
+							sensitivity and intellectual depth. [MW]</gloss></item>
 					<item>
 						<term xml:id="BruceJames">Bruce, James, 1730-1794(Library of Congress Name
 							Authority)&#8212;</term>
@@ -1606,7 +1799,7 @@
 									Historia</hi></title>, published posthumously in 1582, was the
 							inspiration for <ref target="#SmollettTobias">Tobias
 							Smollett</ref>&apos;s unsuccessful play <title><hi rendition="#italics"
-									>The Regicide</hi></title> (1749). [vw], [MW]</gloss>
+									>The Regicide</hi></title> (1749). [VW] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="BudgellEustace">Budgell, Eustace, 1686-1737 (Library of
@@ -1642,8 +1835,8 @@
 							non-consecutive terms (first as a reformer, then returning after 11
 							years as a Conservative) before being appointed colonial secretary in
 							1858. His personal life became notorious after an acrimonious divorce,
-							followed his ex-wife <ref target="people.html#LyttonRosinaBulwer"
-								>Rosina</ref>&apos;s publication of her thinly fictionalized <hi
+							followed his ex-wife <ref target="#LyttonRosinaBulwer"
+							>Rosina</ref>&apos;s publication of her thinly fictionalized <hi
 								rendition="#italics"><title>Cheveley, or the Man of
 								Honour</title></hi> (1839), a bitter satire of her ex-husband&apos;s
 							infidelities. Bulwer&apos;s literary career began while he was still at
@@ -1691,7 +1884,7 @@
 								rendition="#italics"><title>A Strange Story</title></hi> (1862); <hi
 								rendition="#italics"><title>The Parisians</title></hi> (1873); and
 								<hi rendition="#italics"><title>Kenelm Chillingly: His Adventures
-									and Opinions</title></hi> (1873). [KI] and [MW]</gloss>
+									and Opinions</title></hi> (1873). [KI] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="BunyanJohn">Bunyan, John, 1628-1688 (Library of Congress Name
@@ -1759,12 +1952,11 @@
 					<item>
 						<term xml:id="BurnsGilbert">Burns, Gilbert 1760?-1827 (Library of Congress
 							Name Authority)&#8212; </term>
-						<gloss>Gilbert and his brother, poet <ref target="people.html#BurnsRobert"
-									><name>Robert Burns</name></ref>, took a joint lease of their
-							father&apos;s farm at Mossgiel near Mauchline, Scotland where they both
-							worked as farmers. Gilbert wrote letters to various people in his
-							lifetime, which have served in uncovering the life of his famous
-							brother. [VS]</gloss>
+						<gloss>Gilbert and his brother, poet <ref target="#BurnsRobert"><name>Robert
+									Burns</name></ref>, took a joint lease of their father&apos;s
+							farm at Mossgiel near Mauchline, Scotland where they both worked as
+							farmers. Gilbert wrote letters to various people in his lifetime, which
+							have served in uncovering the life of his famous brother. [VS]</gloss>
 					</item>
 					<item>
 						<term xml:id="BurnsRobert">Burns, Robert, 1759-1796 (Library of Congress
@@ -1788,12 +1980,65 @@
 								rendition="#italics"><title> Anatomy of Melancholy</title></hi>
 							(1621) contains a rich trove of legendary love stories. [MW] </gloss>
 					</item>
+					<item><term xml:id="BuskMary">Busk, M. M. (Library of Congress Name
+							Authority)&#8212;</term><gloss>Born in London in 1779 as Mary Margaret
+							Blair, this author, translator, and journalist was educated by her
+							mother, with possible assistance from masters. In addition to history,
+							composition, and a seemingly unusual understanding of the sciences, she
+							developed proficiency in French, Italian, Latin, Dutch, German, and
+							Spanish. Her father was a successful non-conformist businessman with an
+							inclination to gamble, connected with many of the leading intellectuals
+							of the day, and Mary Margaret was exposed to their conversation, another
+							probable informal source of education. She married barrister William
+							Busk (1769-1849) in 1796. William was initially prosperous, but after
+							some losses sustained in an expensive and unsuccessful parliamentary
+							election campaign, he was insolvent, and Mary Margaret turned to writing
+							for remuneration, publishing for the first time when she was in her 40s.
+							Family connections to <hi rendition="#italics"><title>Blackwood&apos;s
+									Edinburgh Magazine</title></hi> enabled her to break into
+							periodical work, initially anonymously, but soon she began negotiating
+							with periodical editors under her own name. She contributed a large
+							number of articles to each of the <hi rendition="#italics"
+									><title>Foreign Quarterly Review</title></hi>, <hi
+								rendition="#italics"><title>Blackwood&apos;s Edinburgh
+									Magazine</title></hi>, and the <hi rendition="#italics"
+									><title>Athenaeum</title></hi>, as well as perhaps a few
+							contributions to other periodicals, theorizing about and reviewing
+							literature in all the languages in which she had facility. Her work
+							offers a substantial contribution to familiarizing British audiences
+							with a broad range of foreign literature. In addition to her reviewing
+							work, she authored poems, plays, tales, and histories. Some of her more
+							noteworthy publications include the novel <hi rendition="#italics"
+									><title>Zeal and Experience</title></hi> (1819); <hi
+								rendition="#italics"><title>Tales of Fault and Feeling</title></hi>
+							(1825); <hi rendition="#italics"><title>History of Spain and
+									Portugal</title></hi> (1833); <hi rendition="#italics"
+									><title>Plays and Poems</title></hi> (1837); <hi
+								rendition="#italics"><title>Biographical Sketches European and
+									Asiatic</title></hi> (1847), intended for children; and <hi
+								rendition="#italics"><title>Mediaeval Popes, Emperors, Kings, and
+									Crusaders, or, Germany, Italy, and Palestine, from a.d. 1125 to
+									a.d. 1268</title></hi>, a work in four volumes (1854-1856). Busk
+							died in 1863. [MW]</gloss></item>
 					<item>
 						<term xml:id="StuartJohn">Bute, John Stuart, Earl of, 1713-1792 (Library of
 							Congress Name Authority)&#8212; </term>
 						<gloss>British politician and tutor to <ref
 								target="#GeorgeIIIKingofGreatBritain">King George III</ref>.
 							[VW]</gloss>
+					</item>
+					<item>
+						<term xml:id="ButlerEleanorLady">Butler, Eleanor, Lady, 1739-1829(Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss>Irish noblewoman, known as one of the &quot;Ladies of
+							Llangollen&quot;. With <ref target="#PonsonbySarah">Sarah
+							Ponsonby</ref>, the subject of <ref target="#WordsworthWilliam">William
+								Wordsworth</ref>&apos;s sonnet &quot;<title>To the Lady E.B and the
+								Hon. Miss P.</title>&quot;. She and Ponsonby left conventional
+							marriages to move to Llangollen in Wales and cohabitate, fascinating and
+							scandalizing contemporaries by wearing men&apos;s clothing. Though many
+							observers believed that the two were a sexual couple, diary evidence
+							suggest that may not have been the case.</gloss>
 					</item>
 					<item>
 						<term xml:id="ButlerSamuel">Butler, Samuel, 1612-1680 (Library of Congress
@@ -1911,7 +2156,7 @@
 							Campbell was recognized most widely for the poem <hi
 								rendition="#italics">The Pleasures of Hope</hi>(1799) and the
 							seven-volume survey of canon poets<hi rendition="#italics">Specimens of
-								the British Poets</hi> (1819). [VS] and [MW] </gloss>
+								the British Poets</hi> (1819). [VS] [MW] </gloss>
 					</item>
 					<item>
 						<term xml:id="Camuccini">Camuccini, Vincenzo, 1771-1844 (Library of Congress
@@ -1951,10 +2196,9 @@
 								Review</ref></hi></title>, which he co-founded, and the <title><hi
 									rendition="#italics"><ref target="#QuarterlyReview">Quarterly
 										Review</ref></hi></title>. His health failed soon after his
-							Prime Minister appointment, and he died in August of the same year. [KI
-							and MW]</gloss>
+							Prime Minister appointment, and he died in August of the same year. [KI]
+							[MW]</gloss>
 					</item>
-
 					<item>
 						<term xml:id="Camoes">Cam&#245;es, Lu&#237;s de, 1524?-1580 (Library of
 							Congress Name Authority)&#8212; </term>
@@ -1964,6 +2208,23 @@
 							explorer Vasco da Gama&apos;s discovery of the sea route to India. Some
 							of its details may have been partly based on Cam&#245;es&apos;s own
 							travels in the east. [MW] </gloss>
+					</item>
+					<item><term xml:id="CanovaAntonio">Canova, Antonio, 1757-1822 (Library of
+							Congress Name Authority)&#8212;</term><gloss> An Italian neoclassical
+							sculptor. [JDP]</gloss></item>
+					<item>
+						<term xml:id="CapocciErnesto">Di Belmonte, E. C. (Ernesto Capocci),
+							1798-1864 (Library of Congress Name Authority)&#8212;</term>
+						<gloss>Italian author, astronomer, mathematician, and politician. Capocci
+							published his fiction under the name &quot;Belmonte&quot; to avoid
+							damaging his reputation as a professional. Under this name he published
+							his historical novel <hi rendition="#italics"><title>Il primo
+									vicer&#232; di Napoli</title></hi> in 1837. He also authored a
+							science fiction novella called <hi rendition="#italics"><title>Relazione
+									del viaggio alla Luna fatto da una donna nell&apos;anno di
+									grazia 2057</title></hi> (<hi rendition="#italics"><title>Report
+									of the Trip to the Moon done by a Woman in the Year of our Lord
+									2057</title></hi>) [LD] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="Caravaggio">Caravaggio, Michelangelo Merisi da, 1573-1610
@@ -2001,9 +2262,9 @@
 							Name Authority)&#8212;</term>
 						<gloss> Roman poet, translator, and critic whose notable works include <hi
 								rendition="#italics"><title>Gli Straccioni</title></hi> (1544), a
-							translation of Virgil's <hi rendition="#italics">Aeneid</hi> (1581) and,
-							posthumously, <hi rendition="#italics">Lettere familiare</hi> (1572-74).
-							[ZP]</gloss></item>
+							translation of Virgil&apos;s <hi rendition="#italics">Aeneid</hi>
+							(1581), and, posthumously, <hi rendition="#italics">Lettere
+								familiare</hi> (1572-74). [ZP]</gloss></item>
 					<item>
 						<term xml:id="CarterElizabeth">Carter, Elizabeth, 1717-1806 (Library of
 							Congress Name Authority)&#8212; </term>
@@ -2035,11 +2296,26 @@
 								target="#LaCalprenede">Calpren&#232;de</ref>. [MW] </gloss>
 					</item>
 					<item>
-						<term xml:id="CastiglioneBaldassarre">Castiglione,Baldassarre, conte,
+						<term xml:id="CastiglioneBaldassarre">Castiglione, Baldassarre, conte,
 							1478-1529 (Library of Congress Name Authority)&#8212;</term>
-						<gloss>Italian diplomat, courtier, and writer, most well known for his work
-								<hi rendition="#italics"><title>Il libro del cortegiano</title></hi>
-							(1528). [ZP]</gloss></item>
+						<gloss>Italian diplomat, courtier, and writer, whose most well known
+							literary work was <hi rendition="#italics"><title>Il libro del
+									cortegiano</title></hi> (1528). [ZP]</gloss></item>
+					<item>
+						<term xml:id="Castlereagh">Castlereagh, Robert Stewart, Viscount, 1769-1822
+							(Library of Congress Name Authority)&#8212; </term>
+						<gloss>The Irish-born Robert Stewart had a highly influential career in
+							British politics and foreign service. He played a key role in subduing
+							the Irish rebellion of 1798 and in the Act of Union of 1800. At that
+							time, he was criticized for his mild approach toward the Irish and his
+							tolerance for Catholicism. Later he was associated with harsh repressive
+							measures, especially as memorialized in <ref target="#ShelleyPercy"
+								>Percy Bysshe Shelley</ref>&apos;s poem &quot;<title>The Mask of
+								Anarchy</title>.&quot; He became the 2nd Marquess of Londonderry in
+							1821, following the death of his father, the 1st Marquess. In 1822,
+							suffering from psychological distress associated with overwork, he
+							committed suicide. </gloss>
+					</item>
 					<item>
 						<term xml:id="CatherineofAragon">Catherine, of Aragon, Queen, consort of
 							Henry VIII, King of England, 1485-1536 (Library of Congress Name
@@ -2055,6 +2331,14 @@
 							the duration of her life. Before her marriage, as ambassador to England
 							for Aragon, Catherine was the first European woman ambassador.</gloss>
 					</item>
+					<item><term xml:id="CatherineIIEmpressofRussia">Catherine II, Empress of Russia,
+							1729-1796 (Library of Congress Name Authority)&#8212;</term><gloss>
+							Often known as &quot;Catherine the Great,&quot; Catherine II presided
+							over a period of prosperity in which Russia, after which the country
+							emerged as a world power. Born Sophie von Anhalt-Zerbst, she came to
+							power in consequence of a coup overthrowing her husband, Peter III. She
+							saw herself as an enlightened ruler, writing on education and
+							patronizing the arts. [JDP] [MW]</gloss></item>
 					<item>
 						<term xml:id="Cato">Cato the Younger, 95 BCE-46 BCE (<hi
 								rendition="#italics">Encyclopedia Britannica</hi>) &#8212; </term>
@@ -2073,6 +2357,15 @@
 						<term xml:id="CavendishMargaret">Cavendish, Margaret&#8212; </term>
 						<gloss>See <ref target="#NewcastleMargaret">Newcastle, Margaret Cavendish,
 								Duchess of</ref>. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="CenciBeatrice">Cenci, Beatrice, 1577-1599 (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss>Daughter of Count Francesco Cenci, who abused his wife and raped
+							Beatrice numerous times. After unsuccessfully reporting him to
+							authorities, Beatrice, her stepmother, and her brothers murdered the
+							Count. They were tortured and executed, becoming a legend of resistance
+							to tyranny.</gloss>
 					</item>
 					<item>
 						<term xml:id="Cervantes">Cervantes Saavedra, Miguel de, 1547-1616 (Library
@@ -2114,6 +2407,14 @@
 							Roncesvalles (Roncevaux) in 778. [MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="CharlesIAnjou">Charles I, King of Naples, 1226-1285 (Library
+							of Congress Name Authority)&#8212;</term>
+						<gloss>Member of the French Capetian dynasty, King of Sicily and Naples,
+							also known as &quot;Charles of Anjou.&quot; Charles I created an
+							impressive empire through his exploits in Italy, though it dissolved
+							prior to his death. [LD]</gloss>
+					</item>
+					<item>
 						<term xml:id="CharlesIIKingofEngland">Charles II, King of England, 1630-1685
 							(Library of Congress Name Authority)&#8212; </term>
 						<gloss> Exiled to France during the English Civil Wars and Interregnum,
@@ -2122,6 +2423,19 @@
 							with him to inaugurate a reign of relative political stability and
 							flourishing arts but characterized by detractors as profligate and
 							immoral. [MW] </gloss>
+					</item>
+					<item><term xml:id="CharlesV">Charles V, Holy Roman Emperor, 1500-1558 (Library
+							of Congress Name Authority)&#8212;</term>
+						<gloss>Archduke of Austria, King of Spain, and Holy Roman Emperor beginning
+							in 1519. His reign was largely characterized by his struggle to hold the
+							Catholic empire together in the wake of the Protestant Reformation in
+							Europe. [LD] </gloss>
+					</item>
+					<item><term xml:id="CharlesVIII">Charles VIII, King of France, 1470-1498
+							(Library of Congress Name Authority)&#8212;</term>
+						<gloss>King of France beginning in 1483, Charles VIII began the French
+							expeditions into Italy that lasted until the mid-16th century. [LD]
+						</gloss>
 					</item>
 					<item>
 						<term xml:id="CharlesEdwardPrince">Charles Edward, Prince, grandson of <ref
@@ -2247,6 +2561,31 @@
 						</gloss>
 					</item>
 					<item>
+						<term xml:id="ClanvoweJohn">Clanvowe, John, Sir, 1341?-1391 (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss> An an English diplomat, soldier and poet. He was born to a Marcher
+							family originally of Welsh extraction. He himself was probably of mixed
+							Anglo-Welsh origin. He held lands that lay in the present-day
+							Radnorshire district of Powys and in Herefordshire. He was a personal
+							friend of <ref target="#ChaucerGeoffrey">Geoffrey Chaucer</ref>. He was
+							one of the &quot;Lollard knights&quot; (with supposedly heretical views)
+							at the court of <ref target="#RichardIIKingofEngland">King Richard
+								II</ref>. Clanvowe&apos;s best-known work was <hi
+								rendition="#italics"><title>The Boke of Cupide, God of Love, or The
+									Cuckoo and the Nightingale</title></hi>, a 14th-century debate
+							poem influenced by <ref target="#ChaucerGeoffrey">Chaucer</ref>&apos;s
+								<hi rendition="#italics"><title>Parliament of Fowls</title></hi>. He
+							is believed to be the father of <ref target="#ClanvoweThomas">Sir Thomas
+								Clanvowe</ref>. [JDP]</gloss>
+					</item>
+					<item>
+						<term xml:id="ClanvoweThomas">Clanvowe, Thomas, Sir, active 1400 (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss> An English courtier, poet, and sheriff of Herefordshire, believed to
+							be the son of <ref target="#ClanvoweJohn">Sir John Clanvowe</ref>.
+							[JDP]</gloss>
+					</item>
+					<item>
 						<term xml:id="ClarissaHarlowe">Clarissa Harlowe&#8212; </term>
 						<gloss>Heroine of <ref target="#RichardsonSamuel">Samuel
 							Richardson</ref>&apos;s novel <hi rendition="#italics"
@@ -2265,29 +2604,48 @@
 						<gloss>The eponymous heroine of a novel by <ref target="#ScuderyMadeleine"
 								>Mme. de Scud&#233;ry</ref>. [MW] </gloss>
 					</item>
+					<item><term xml:id="ClementVII">Clement VII, Pope, 1478-1534 (Library of
+							Congress Name Authority)&#8212;</term>
+						<gloss>Born Giulio de&apos;Medici, Clement VII&apos;s eleven years of papal
+							authority were characterized by religious, military, and political
+							conflict in the wake of the Protestant Reformation. [LD] </gloss>
+					</item>
 					<item>
 						<term xml:id="ClementXIV">Clement XIV, Pope, 1705-1774 (Library of Congress
 							Name Authority)&#8212;</term>
-						<gloss>Born Giovanni Vincenzo Antonio Ganganelli, was the pope from
-							1769-1774. Authored the brief <hi rendition="#italics"><title>Dominus ac
-									Redemptor</title></hi> (1773), which suppressed the Society of
-							the Jesuits. [ZP]</gloss>
+						<gloss>Born Giovanni Vincenzo Antonio Ganganelli, Clement XIV was the pope
+							from 1769-1774. He authored the brief <hi rendition="#italics"
+									><title>Dominus ac Redemptor</title></hi> (1773), which
+							suppressed the Society of the Jesuits. [ZP]</gloss>
 					</item>
 					<item>
 						<term xml:id="Clementina">Clementina della Porretta &#8212; </term>
 						<gloss>Character in <ref target="#RichardsonSamuel">Samuel
 							Richardson</ref>&apos;s <hi rendition="#italics"><title>The History of
-									Sir Charles Grandison</title></hi> (1754). [MW] </gloss>
+									Sir Charles Grandison</title></hi> (1753-4). Clementina, an
+							Italian woman, is one of the four rivals vying for the affection of the
+							eponymous hero. [MW] [LD] </gloss>
 					</item>
 					<item>
-						<term xml:id="Cl&#233;ryJean-Baptiste"> Cl&#233;ry, M., 1759-1809 (Library of
-							Congress Name Authority)&#8212; </term>
+						<term xml:id="Cl&#233;ryJean-Baptiste"> Cl&#233;ry, M., 1759-1809 (Library
+							of Congress Name Authority)&#8212; </term>
 						<gloss>Jean Baptiste Cl&#233;ry, the personal <hi rendition="#italics"
-							>cameriere</hi> (valet) of <ref target="#LouisXVIKingofFrance"/>King
-							Louis XVI during his imprisonment, published his journal of the revolution
-							in 1798. It contained a moving account of the king&apos;s treatment at the
-							hands of the revolutionary government and his last farewell to his family before his death.
-							[JDP] and [MW] </gloss>
+								>cameriere</hi> (valet) of <ref target="#LouisXVIKingofFrance"/>King
+							Louis XVI during his imprisonment, published his journal of the
+							revolution in 1798. It contained a moving account of the king&apos;s
+							treatment at the hands of the revolutionary government and his last
+							farewell to his family before his death. [JDP] [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="Clytemnestra">Clytemnestra, Queen of Mycenae (Library of
+							Congress Name Authority)&#8212;</term>
+						<gloss>According to <hi rendition="#italics"><title>The
+								Oresteia</title></hi> by <ref target="#Aeschylus">Aeschylus</ref>,
+							Clytemnestra was enraged when her husband and king of Mycenae <ref
+								target="#Agamemnon">Agamemnon</ref> sacrificed their daughter
+							Iphigenia to propitiate the gods and gain favorable winds to sail to
+							Troy to make war. On his return from the seige of Troy, she and her
+							lover Aegisthus killed him. [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="ColburnHenry">Colburn, Henry, d. 1855 (Library of Congress
@@ -2423,11 +2781,17 @@
 						</gloss>
 					</item>
 					<item>
+						<term xml:id="ColonnaProspero">Colonna, Prospero, 1452-1523 (<hi
+								rendition="#italics">Encyclopedia Britannica</hi>)&#8212;</term>
+						<gloss>Italian noble and condottiero (captain of a mercenary company)
+							serving Spain and the Papal States during the Italian wars. [LD]</gloss>
+					</item>
+					<item>
 						<term xml:id="ColonnaVittoria">Colonna, Vittoria, 1492-1547 (Library of
 							Congress Name Authority)&#8212; </term>
 						<gloss>Italian Renaissance poet particularly esteemed for her love poems to
-							her husbnad, Ferrante d'Avalos, Marquis of Pescara, who died from war
-							wounds. [MW]</gloss>
+							her husbnad, Ferrante d&apos;Avalos, Marquis of Pescara, who died from
+							war wounds. [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="CongreveWilliam">Congreve, William, 1670-1729 (Library of
@@ -2453,6 +2817,14 @@
 						<gloss> Corneille&apos;s drama <hi rendition="#italics"><title>Le
 									Cid</title></hi> (1637) was inspired by a twelfth century
 							Spanish narrative. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="CosimoI">Cosimo I, Grand-Duke of Tuscany, 1519-1574 (Library
+							of Congress Name Authority)&#8212;</term>
+						<gloss>A member of the Medici family, Cosimo I was elected Duke of Florence
+							with the support of <ref target="#CharlesV">Charles V</ref> in 1537.
+							Cosimo I brought the whole of Tuscany under his control by 1569 and
+							became known as &quot;Cosimo the Great.&quot; [LD] </gloss>
 					</item>
 					<item>
 						<term xml:id="CottinMadame">Cottin, Madame (Sophie), 1770-1807 (Library of
@@ -2499,9 +2871,10 @@
 						<gloss>Poet who is sometimes viewed as a precursor to the Romantic poets
 							partly for his sensitive and accurate descriptions of nature. His best
 							known works include <hi rendition="#italics"><title>The
-								Task</title></hi> (1785) and &quot;<title>The Castaway</title>&quot;
-							(1803). He was subject to severe bouts of depression with a strong
-							religious overtone for much of his life. [MW] </gloss>
+								Task</title></hi> (<ref target="#JohnsonJoseph">J. Johnson</ref>,
+							1785) and &quot;<title>The Castaway</title>&quot; (1803). He was subject
+							to severe bouts of depression with a strong religious overtone for much
+							of his life. [MW] </gloss>
 					</item>
 					<item>
 						<term xml:id="CrabbeGeorge">Crabbe, George, 1754-1832 (Library of Congress
@@ -2537,6 +2910,22 @@
 									rendition="#italics">Miscellanies</hi></title>, published one
 							year prior to her death, he wrote, &quot;one from whom I draw all the
 							solid Comfort of my Life.&quot; [RD]</gloss>
+					</item>
+					<item>
+						<term xml:id="CrashawRichard">Crashaw, Richard, 1613?-1649 (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss> An English poet and lyricist with profoundly High Church beliefs,
+							Crashaw was forced to flee to the continent after the rise of the
+							seventeenth-century Puritan government, converting to Catholicism in
+							1645. He lived first in France, then Italy. He was best known for a
+							collection of primarily mystical religious poems, <hi
+								rendition="#italics"><title>Steps to the Temple. Sacred Poems, With
+									other Delights of the Muses</title></hi> (1646) and the
+							posthumously-published <hi rendition="#italics"><title>Carmen Deo
+									Nostro</title></hi> (1652). By the nineteenth century he was
+							admired primarily for the musicality of his verse and the delicacy of
+							his language, and some of his work has inspired or been set to music.
+							[JDP] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="Crassus">Crassus, Marcus Licinius [n.d.] (Library of Congress
@@ -2597,6 +2986,13 @@
 							Highland Jacobites after the Battle of Culloden in 1746. [MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="CutlerJohn">Cutler, Sir John, 1st Baronet of Tothill Street,
+							Westminster, 1607-1693 (History of Parliament Trust)&#8212;</term>
+						<gloss>Knighted and made Baronet in 1660 for his financial support of the
+							Restoration, Sir John Cutler was a grocer, financier, and Member of
+							Parliament. [LD]</gloss>
+					</item>
+					<item>
 						<term xml:id="CyrustheGreat">Cyrus, King of Persia, d. 529 B.C. (Library of
 							Congress Name Authority)&#8212; </term>
 						<gloss>Founder of the Persian empire. [MW] </gloss>
@@ -2610,6 +3006,27 @@
 					<item>
 						<term xml:id="DArblayMadame">D&apos;Arblay, Madame&#8212; </term>
 						<gloss>See <ref target="#BurneyFanny">Burney, Fanny</ref>. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="DallasRobertCharles">Dallas, Robert Charles, 1754-1824
+							(Library of Congress Name Authority)&#8212; </term>
+						<gloss>A Jamaican-born poet and novelist, Dallas&apos;s fictional works
+							included <hi rendition="#italics"><title>Percival, or Nature
+									Vindicated</title></hi> (1801), <hi rendition="#italics"
+									><title>Aubrey</title></hi> (1804), <hi rendition="#italics"
+									><title>The Morelands. Tales Illustrative of the Simple and
+									Surprising</title></hi> (1805), <hi rendition="#italics"
+									><title>The Knights: Tales Illustrative of the
+									Marvellous</title></hi> (1808), and <hi rendition="#italics"
+									><title>Sir Francis Darrell; Or the Vortex</title></hi> (1820).
+							He also published a volume of poems, two dramas, and some polemical
+							works. He had a connection for some years with <ref
+								target="#ByronGeorge">Byron</ref>, and his <hi rendition="#italics"
+									><title>Recollections of the Life of Lord Byron from the year
+									1808 to the end of 1814</title></hi> (1825) was published
+							posthumously. He also authored <hi rendition="#italics">The History of
+								the Maroons from their Origin to the Establishment of their Chief
+								Tribe at Sierra Leone<title/></hi> (1803). </gloss>
 					</item>
 					<item>
 						<term xml:id="Dante">Dante Alighieri, 1265-1321 (Library of Congress Name
@@ -2725,13 +3142,19 @@
 									Delicacy of Manners</hi></title> (1558). [RD]</gloss>
 					</item>
 					<item>
+						<term xml:id="DelilleJacques"> Delille, Jacques, 1738-1813. Malheur et la
+							piti&#233; (Library of Congress Name Authority)&#8212; </term>
+						<gloss>French author, primarily of poetry, whose first fame rested on his
+							translations of <ref target="#Virgil">Virgil</ref>. [JDP] [MW] </gloss>
+					</item>
+					<item>
 						<term xml:id="Desdemona"> Desdemona (Fictitious character) (Library of
 							Congress Name Authority)&#8212; </term>
 						<gloss> Wife of <ref target="#Othello">Othello</ref> in <ref
-								target="people.html#ShakespeareWilliam">William
-							Shakespeare</ref>&apos;s tragedy, <hi rendition="#italics"
-									><title>Othello, the Moor of Venice</title></hi>. In the play,
-							she is murdered by her jealous, manipulated husband. [JDP] </gloss>
+								target="#ShakespeareWilliam">William Shakespeare</ref>&apos;s
+							tragedy, <hi rendition="#italics"><title>Othello, the Moor of
+									Venice</title></hi>. In the play, she is murdered by her
+							jealous, manipulated husband. [JDP] </gloss>
 					</item>
 					<item>
 						<term xml:id="DesmaraisJean">Jean Desmarais&#8212;</term><gloss>Character in
@@ -2771,9 +3194,12 @@
 							Congress Name Authority)&#8212; </term>
 						<gloss> A British writer, essayist, and scholar, Isaac D&apos;Israeli
 							created such works as <hi rendition="#italics"><title>Curiosities of
-									Literature</title></hi> and <hi rendition="#italics"
-									><title>Literary Character of Men of Genius, Drawn From Their
-									own Feelings and Confessions</title></hi> [VS] </gloss>
+									Literature</title></hi> (1791) and <hi rendition="#italics"
+									><title>The Literary Character of Men of Genius, Drawn From
+									Their own Feelings and Confessions</title></hi> (1818), a
+							revision of <hi rendition="#italics"><title>An Essay on the Manners and
+									Genius of the Literary Character</title></hi> (1795). [VS]
+							[MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="DodsleyRobert">Dodsley, Robert, 1703-1764 (Library of Congress
@@ -2795,6 +3221,25 @@
 						<gloss>The eponymous hero of the novel by <ref target="#Cervantes"
 								>Cervantes</ref> muddles the line between reality and fiction as a
 							result of his reading chivalric romances. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="DraytonMichael">Drayton, Michael, 1563-1631 (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss> An extremely prolific English poet and playwright who worked in a
+							wide range of poetic genres and who frequently collaborated on plays
+							with Henry Chettle and Thomas Dekker. Among Drayton&apos;s many
+							publications, just a few of note include <hi rendition="#italics"
+									><title>Idea. The Shepheards Garland</title></hi> (1593); <hi
+								rendition="#italics"><title>Ideas Mirrour</title></hi> (1594); <hi
+								rendition="#italics"><title>Endimion and Phobe</title></hi> (1595);
+								<hi rendition="#italics"><title>Englands Heroicall
+								Epistles</title></hi> (1597); <hi rendition="#italics"
+									><title>Poly-Olbion</title></hi> (1612-1622); <hi
+								rendition="#italics"><title>The Battaile of Agincourt</title></hi>
+							(1627); and <hi rendition="#italics"><title>Nimphidia, the Court of
+									Fayrie</title></hi> (1627). He also published several volumes of
+							poems on historical or mythical personages and historical subjects.
+							[MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="DrydenJohn">Dryden, John, 1631-1700 (Library of Congress Name
@@ -2850,6 +3295,12 @@
 								rendition="#italics"><title>Love Triumphant</title></hi> (1694).
 							[MW] </gloss>
 					</item>
+					<item><term xml:id="BecuJeanne">Du Barry, Jeanne B&#233;cu, comtesse, 1743-1793
+							(Library of Congress Name Authority)&#8212;</term><gloss> Born Jeanne
+							B&#233;cu, Du Barry was a courtesan in French aristocratic circles who
+							became the last ma&#238;tresse-en-titre, or official mistress, of King
+							Louis XV. She was beheaded during the Reign of Terror in 1793. [JDP]
+							[MW]</gloss></item>
 					<item>
 						<term xml:id="DuChateletEmilie">Du Ch&#226;telet, Gabrielle Emilie Le
 							Tonnelier de Breteuil, marquise, 1706-1749 (Library of Congress Name
@@ -2993,7 +3444,6 @@
 							Eaton (1780-1832). After Stephen Eaton&apos;s death, Charlotte Eaton
 							continued to carry on the family banking business as a senior partner
 							until her own death in 1859. [MW] </gloss></item>
-
 					<item>
 						<term xml:id="EchlinElizabeth">Echlin, Elizabeth, Lady, 1704?-1782? (Library
 							of Congress Name Authority)&#8212; </term>
@@ -3057,11 +3507,34 @@
 							Hundred Years War with France. [MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="EdwardIVKingofEngland">Edward IV, King of England, 1442-1483
+							(Library of Congress Name Authority)&#8212; </term>
+						<gloss> Called, until 1459, Earl of March, Edward IV, the House of York
+							representative, became King of England in June 1461 during the War of
+							the Roses after deposing Lancastrian King Henry VI. In October 1470
+							Henry VI was briefly reinstalled on the throne, but was defeated and
+							then died in May 1471, when Edward returned to the throne and held power
+							until his death. [JDP] </gloss>
+					</item>
+					<item>
 						<term xml:id="EdwardPrinceofWales">Edward, Prince of Wales, 1330-1376
 							(Library of Congress Name Authority)&#8212; </term>
 						<gloss> Known as The Black Prince allegedly because of the black armor he
 							wore as a commander in the Hundred Years War, Edward was heir apparent
 							to <ref target="#EdwardIIIKingofEngland">Edward III</ref>. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="EdwardsRichard">Edwards, Richard, 1523?-1566 (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss> An English farmer, poet, dramatist, and composer, sometimes known as
+							Richard Edwardes. His play <hi rendition="#italics"><title>Palamon and
+									Arcite</title></hi>, now lost, was performed for the court of
+								<ref target="#ElizabethIQueenofEngland">Elizabeth I</ref> in 1566.
+								<hi rendition="#italics"><title>The excellent Comedie of two the
+									moste faithfullest Freendes, Damon and Pithias</title></hi>
+							(published 1571) is his only now-extant drama. Some of his poems
+							appeared in the <hi rendition="#italics"><title>Paradise of Dainty
+									Devices</title></hi> (1576). [JDP] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="EdwardsThomas">Edwards, Thomas, 1699-1757 (Library of Congress
@@ -3083,6 +3556,15 @@
 							Sometimes known as &quot;the Virgin Queen&quot; for the fact that never
 							married, she presided over what many regarded as a golden age of British
 							arts and expansionism. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="ElizabethofYork">Elizabeth, Queen, consort of Henry VII, King
+							of England, 1465-1503 (Library of Congress Name Authority)&#8212; </term>
+						<gloss> The daughter of <ref target="#EdwardIVKingofEngland">Edward
+							IV</ref>, Elizabeth of York was married to <ref
+								target="#HenryVIIKingofEngland">Henry VII</ref> in 1486, thereby
+							uniting the houses of York and Lancaster over the British throne and
+							effectively ending The Wars of the Roses. [JDP]</gloss>
 					</item>
 					<item>
 						<term xml:id="EmilyJervois">Emily Jervois&#8212; </term>
@@ -3136,11 +3618,19 @@
 							(1814). [MW]</gloss>
 					</item>
 					<item>
-						<term xml:id="FabriAlessandro">Fabri, Alessandro, 1691-1768 (Library of
-							Congress Name Authority)&#8212;</term>
+						<term xml:id="FabriDomenico">Fabri, Domenico, 1711-1761 (Library of Congress
+							Name Authority)&#8212;</term>
 						<gloss>Italian writer, author of <hi rendition="#italics">Delle lettere
 								familiari d&apos;alcuni Bolognesi del nostro secolo</hi> (1744).
 							[ZP]</gloss>
+					</item>
+					<item>
+						<term xml:id="FabyanRobert">Fabyan, Robert, -1513 (Library of Congress Name
+							Authority)&#8212; </term>
+						<gloss> A late fifteenth-century London sheriff who redacted a number of
+							sources on events in British history into <title><hi
+									rendition="#italics">The Concordance of Chronicles</hi></title>.
+							Also known as Robert Fabian. [JDP]</gloss>
 					</item>
 					<item>
 						<term xml:id="FairfaxEdward">Fairfax, Edward, d. 1635 (Library of Congress
@@ -3169,6 +3659,22 @@
 							virtues of an enlightened monarch, while incorporating at the same time
 							a critique on <ref target="#LouisXIVKingofFrance">Louis XIV</ref>&apos;s
 							ideology of monarchy by divine right. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="FerdinandIIAragon">Ferdinand V, King of Spain, 1452-1516
+							(Library of Congress Name Authority)&#8212;</term>
+						<gloss>Ferdinand the Catholic, most commonly known as &quot;Ferdinand of
+							Aragon,&quot; reigned as King of Aragon (as Ferdinand II) from 1479 to
+							his death, as well as joint sovereign of Spain alongside wife Queen
+							Isabella I from 1474-1504. His reign saw the unification of the Spanish
+							kingdoms and the beginnings of Spanish imperialism. [LD] </gloss>
+					</item>
+					<item><term xml:id="FerruccioFrancesco">Ferrucci, Francesco, 1489-1530 (Library
+							of Congress Name Authority)&#8212;</term>
+						<gloss>Italian military leader defending Florence against Holy Roman Emperor
+								<ref target="#CharlesV">Charles V</ref> and Pope <ref
+								target="#ClementVII">Clement VII</ref> during the Siege of Florence.
+							[LD] </gloss>
 					</item>
 					<item>
 						<term xml:id="FieldingEdmund">Fielding, Edmund, 1680-1741 (<title><hi
@@ -3319,10 +3825,55 @@
 									1803</title></hi> (1813). [MW]</gloss>
 					</item>
 					<item>
+						<term xml:id="FoscoloUgo">Foscolo, Ugo, 1778-1827 (Library of Congress Name
+							Authority)&#8212;</term>
+						<gloss>Revered Italian poet and novelist whose works express Italian
+							sentiments and anxieties during the Napoleonic Wars and French
+							Revolution. Early an enthusiast for <ref target="#Napoleon"
+								>Napoleon</ref>, he debuted on the literary scene with a poem
+							entitled <hi rendition="#italics"><title>A Bonaparte
+								liberatore</title></hi> (1797). His disillusionment soon after was
+							expressed in his novel <hi rendition="#italics"><title>Ultime lettere di
+									Jacopo Ortis</title></hi> (1802), modeled on <ref
+								target="#Goethe">Goethe</ref>&apos;s <hi rendition="#italics"
+									><title>Sorrows of Young Werther</title></hi>. Foscolo&apos;s
+							most famous work was <hi rendition="#italics"><title>Dei
+									Sepolcri</title></hi> (1807). [LD] [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="FrancisII">Francis II, Holy Roman Emperor, 1768-1835 (Library
+							of Congress Name Authority)&#8212;</term>
+						<gloss>The last Holy Roman Emperor from 1792-1806. Francis II also held the
+							titles of King of Hungary and King of Bohemia, eventually naming himself
+							Emperor of Austria in response to <ref target="#Napoleon"
+							>Napoleon</ref>&apos;s coronation as Emperor of the French. [LD]
+						</gloss>
+					</item>
+					<item>
 						<term xml:id="FraserJamesBaillie">Fraser, James Baillie, 1783-1856 (Library
 							of Congress Name Authority)&#8212;</term>
 						<gloss>Scottish picturesque watercolorist, romance author, and travel
 							writer. [MW]</gloss>
+					</item>
+					<item><term xml:id="FrederickIHolyRomanEmperor">Frederick I, Holy Roman Emperor,
+							approximately 1123-1190 (Library of Congress Name
+							Authority)&#8212;</term>
+						<gloss>Son of a Duke and Duke&apos;s daughter, Frederick I was Duke of
+							Swabia, German king, and finally Holy Roman Emperor beginning in 1152.
+							Also known as Frederick Barbarossa, his reign was characterized by his
+							defiance of papal power and struggle for German predominance in Europe.
+							Remembered for his political and military brilliance, Frederick I died
+							during the Third Crusade. [LD]</gloss>
+					</item>
+					<item>
+						<term xml:id="FrederickIV">Frederick I, King of Naples, 1451-1504 (Library
+							of Congress Name Authority)&#8212;</term>
+						<gloss>Last king from the House of Trast&#225;mara, ruling from 1496-1501,
+							more commonly known as &quot;Frederick IV&quot; as the fourth ruling
+							Frederick of Sicily. In 1501 Frederick was deposed by <ref
+								target="#LouisXII">Louis XII</ref> of France and his cousin King
+								<ref target="#FerdinandIIAragon">Ferdinand II</ref> of Aragon. [LD]
+						</gloss>
 					</item>
 					<item>
 						<term xml:id="FuseliHenry">Fuseli, Henry, 1741-1825 (Library of Congress
@@ -3370,8 +3921,8 @@
 									militare</title></hi> (1606), <hi rendition="#italics"
 									><title>Sidereus Nuncius</title></hi> (1610), <hi
 								rendition="#italics"><title>Discorso intorno alle cose che stanno in
-									su l'acqua, o che in quella si muovono</title></hi> (1612), <hi
-								rendition="#italics"><title>Istoria e dimostaziono intorno alle
+									su l&apos;acqua, o che in quella si muovono</title></hi> (1612),
+								<hi rendition="#italics"><title>Istoria e dimostaziono intorno alle
 									macchie solari</title></hi> (1613), <hi rendition="#italics"
 									><title>Discorso del flusso e reflusso del mare</title></hi>
 							(1616), <hi rendition="#italics"><title>Discorso delle
@@ -3432,7 +3983,7 @@
 									Ton; or, High Life above Stairs</hi></title> (1775); <title><hi
 									rendition="#italics">The Theatrical Candidates</hi></title>
 							(1775); and <title><hi rendition="#italics">May Day; or, The Little
-									Gipsy</hi></title> (also a libretto; 1775).[MW]</gloss>
+									Gipsy</hi></title> (also a libretto; 1775). [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="GayJohn">Gay, John, 1685-1732 (Library of Congress Name
@@ -3468,19 +4019,22 @@
 					<item>
 						<term xml:id="GenlisStephanie">Genlis, St&#233;phanie F&#233;licit&#233;,
 							comtesse de, 1746-1830 (Library of Congress Name Authority)&#8212; </term>
-						<gloss> Among French women writers, Mme. de Genlis was one of the more popular
-							with Romantic-era British women writers. Her didactic fiction and
-							educational works included <hi rendition="#italics"><title>Ad&#232;le et
-								Th&#233;odore</title></hi> (1782), which features the characters
-							Cecile, the Duchesse de C***, and M. and Mad. Lagaraye. <hi
-								rendition="#italics"><title>Les Veill&#233;es du Chateau</title></hi>
-							(1784) was translated into English as <hi rendition="#italics"><title>Tales
-								of the Castle; or, Stories of Instruction and Delight</title></hi>
-							(1785). <hi rendition="#italics"><title>Les petits &#233;migr&#233;s</title></hi>
-							(1798) appeared in English as <hi rendition="#italics"><title>The Young
-								Exiles, or, Correspondence of some Juvenile Emigrants</title></hi> in 1799. <hi rendition="#italics"><title>Les
-									M&#232;res rivales, ou la calomnie</title></hi> (1800) was
-							translated as <hi rendition="#italics"><title>Rival Mothers; or, The
+						<gloss> Among French women writers, Mme. de Genlis was one of the more
+							popular with Romantic-era British women writers. Her didactic fiction
+							and educational works included <hi rendition="#italics"
+									><title>Ad&#232;le et Th&#233;odore</title></hi> (1782), which
+							features the characters Cecile, the Duchesse de C***, and M. and Mad.
+							Lagaraye. <hi rendition="#italics"><title>Les Veill&#233;es du
+									Chateau</title></hi> (1784) was translated into English as <hi
+								rendition="#italics"><title>Tales of the Castle; or, Stories of
+									Instruction and Delight</title></hi> (1785). <hi
+								rendition="#italics"><title>Les petits
+								&#233;migr&#233;s</title></hi> (1798) appeared in English as <hi
+								rendition="#italics"><title>The Young Exiles, or, Correspondence of
+									some Juvenile Emigrants</title></hi> in 1799. <hi
+								rendition="#italics"><title>Les M&#232;res rivales, ou la
+									calomnie</title></hi> (1800) was translated as <hi
+								rendition="#italics"><title>Rival Mothers; or, The
 								Calumny</title></hi> (1800). [MW] </gloss>
 					</item>
 					<item>
@@ -3522,6 +4076,14 @@
 						<gloss> Prince Regent for George III from 1811, he became king with his
 							father&apos;s death in 1820. [MW] </gloss>
 					</item>
+					<item>
+						<term xml:id="GeorgeSaint">George, Saint, -303 (Library of Congress Name
+							Authority)&#8212; </term><gloss> Born in Cappadocia in Asia Minor, he
+							became one of the most venerated saints in Christianity. As a soldier in
+							Roman service, he was sentenced to death for refusing to repudiate his
+							Christianity. In legend, he slew a dragon that was terrorizing a village
+							populace by demanding human sacrifices. England is one of several
+							nations claiming George as a patron saint. [MW] </gloss></item>
 					<item>
 						<term xml:id="Gertrude">Gertrude, Queen of Denmark</term>
 						<gloss>Character in <ref target="#ShakespeareWilliam">William
@@ -3605,10 +4167,11 @@
 					<item>
 						<term xml:id="Goldoni">Goldoni, Carlo, 1707-1793 (Library of Congress Name
 							Authority)&#8212; </term>
-						<gloss> A prolific Italian playwright who introduced elements of realism
-							into dramatic characterizations to help reform the Italian stage. Among
-							his extensive list of dramatic works, his stage adaptations of <ref
-								target="#RichardsonSamuel">Samuel Richardson</ref>&apos;s <hi
+						<gloss> A prolific Italian playwright known for his innovations in the
+							dramatic form commedia dell&apos;arte who also introduced elements of
+							realism into dramatic characterizations to help reform the Italian
+							stage. Among his extensive list of dramatic works, his stage adaptations
+							of <ref target="#RichardsonSamuel">Samuel Richardson</ref>&apos;s <hi
 								rendition="#italics"><title>Pamela</title></hi> (1740-1) include <hi
 								rendition="#italics"><title>Pamela Nubile</title></hi> (1750) and
 								<hi rendition="#italics"><title>Pamela Maritata</title></hi> (1759).
@@ -3661,6 +4224,14 @@
 									Animated Nature</title></hi> was published in 1795. [MW]</gloss>
 					</item>
 					<item>
+						<term xml:id="CordobaGonzalo">Fern&#225;ndez de C&#243;rdoba, Gonzalo,
+							1453-1515 (Library of Congress Name Authority)&#8212;</term>
+						<gloss>Spanish general and statesman whose military brilliance earned him
+							the title &quot;The Great Captain.&quot; His most famous military
+							campaigns included the Italian Wars and the Conquest of Granada. [LD]
+						</gloss>
+					</item>
+					<item>
 						<term xml:id="GordonJohn">Gordon, John &#8212; </term>
 						<gloss>A surgeon at the University of Glasgow and mentor to <ref
 								target="#SmollettTobias">Tobias Smollett</ref> and <ref
@@ -3672,7 +4243,7 @@
 							(Fulton, H.L. &quot;Moore, John (1729-1802).&quot; <hi
 								rendition="#italics"><title>Oxford Dictionary of National
 									Biography</title></hi>. Ed. H.C.G. Matthew and Brian Harrison.
-							Vol. 38. New York: Oxford UP, 2004. 970.) [VW][RD]</gloss>
+							Vol. 38. New York: Oxford UP, 2004. 970.) [VW] [RD]</gloss>
 					</item>
 					<item>
 						<term xml:id="GoslingLady">Gosling, Lady&#8212; </term>
@@ -3688,6 +4259,20 @@
 									Biography</title></hi>)&#8212; </term>
 						<gloss>Judge of the king&apos;s bench and maternal grandfather to the
 							novelist <ref target="#FieldingHenry">Henry Fielding</ref>. [RD]</gloss>
+					</item>
+					<item>
+						<term xml:id="GowerJohn">Gower, John, 1325?-1408 (Library of Congress Name
+							Authority)&#8212; </term>
+						<gloss> An English poet, contemporary of <ref target="#LanglandWilliam"
+								>William Langland</ref> and a personal friend of <ref
+								target="#ChaucerGeoffrey">Geoffrey Chaucer</ref>. He is remembered
+							primarily for three major works, <title><hi rendition="#italics">the
+									Mirour de l&apos;Omme</hi></title> (c. 1376-1379), <title><hi
+									rendition="#italics">Vox Clamantis</hi></title> (c. 1377-1381),
+							and <title><hi rendition="#italics">Confessio Amantis</hi></title> (c.
+							1390-1392), three long poems written in French, Latin, and English
+							respectively, which are united by common moral and political themes.
+							[JDP]</gloss>
 					</item>
 					<item>
 						<term xml:id="GrafignyMme">Grafigny, Mme de (Fran&#231;oise
@@ -3834,10 +4419,45 @@
 									tragicomica</title></hi> (1602). His <hi rendition="#italics"
 									><title>Lettere</title></hi> appeared in 1593. [MW]</gloss>
 					</item>
-
+					<item>
+						<term xml:id="GuerrazziFD">Guerrazzi, Francesco Domenico, 1804-1873 (Library
+							of Congress Name Authority)&#8212;</term>
+						<gloss>Italian politician, historical novelist, and translator involved in
+							the Italian unification movement. His novels <hi rendition="#italics"
+									><title>La battaglio di Benevento</title></hi> (1827) and <hi
+								rendition="#italics"><title>L&apos;assedio di Firenze</title></hi>
+								(<hi rendition="#italics"><title>The Siege of Florence</title></hi>,
+							1836) were particularly designed to inspire fervent patriotism. Included
+							among his other more important works of fiction were <hi
+								rendition="#italics"><title>Veronica Cybo</title></hi> (1838), <hi
+								rendition="#italics"><title>Isabella Orsini</title></hi> (1844), <hi
+								rendition="#italics"><title>Serpicina</title></hi> (1847), <hi
+								rendition="#italics"><title>Beatrice Cenci</title></hi> (1853), <hi
+								rendition="#italics"><title>Storia di un moscone</title></hi>
+							(1858), <hi rendition="#italics"><title>Pasquale Paoli</title></hi>
+							(1860), and <hi rendition="#italics"><title>Il buco neor</title></hi>
+							(1862). [LD] [MW]</gloss>
+					</item>
+					<item>
+						<term xml:id="GuicciardiniFrancesco">Guicciardini, Francesco, 1483-1540
+							(Library of Congress Name Authority)&#8212;</term>
+						<gloss>Florentine general of the papal army, governor, and historian, best
+							known for his work <hi rendition="#italics">The History of Italy</hi>.
+							[LD] </gloss>
+					</item>
 					<item>
 						<term xml:id="Guido">Guido&#8212; </term>
 						<gloss> See <ref target="#ReniGuido">Reni, Guido</ref>. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="HalleckFitzGreene">Halleck, Fitz-Greene, 1790-1867 (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss>American poet and leading member of the Knickerbocker Group,
+							remembered primarily for his satires. His <hi rendition="#italics"
+									><title>Alnwick Castle, with Other Poems</title></hi> was
+							published in 1827, followed by his collected <hi rendition="#italics"
+									><title>Poetical works of Fitz-Greene Halleck</title></hi> in
+							1847. [LD] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="HallerAlbrechtvon">Haller, Albrecht von, 1708-1777 (Library of
@@ -3934,6 +4554,26 @@
 							contributions to the field of literature. [MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="Hannibal">Hannibal, 247 B.C.-182 B.C. (Library of Congress
+							Name Authority)&#8212;</term>
+						<gloss>Carthaginian statesman and general leading the forces of Carthage
+							against Rome during the Second Punic War. Alongside <ref
+								target="#AfricanusScipio">Scipio Africanus</ref> and <ref
+								target="#AlexandertheGreat">Alexander the Great</ref>, Hannibal is
+							considered to be one of the greatest military minds of Mediterranian
+							antiquity. [LD]</gloss>
+					</item>
+					<item>
+						<term xml:id="HardyngJohn">Hardyng, John, 1378-1465? (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss> A late fourteenth and early fifteenth-century soldier turned
+							historian, author of <hi rendition="#italics"><title>The Chronicle of
+									John Hardyng</title></hi>, printed in London by Grafton in 1543
+							and recently suggested as a source for Sir Thomas Malory&apos;s <hi
+								rendition="#italics"><title>Morte Darthur</title></hi>.
+							[JDP]</gloss>
+					</item>
+					<item>
 						<term xml:id="HarleyRobert">Harley, Robert&#8212; </term>
 						<gloss> See <ref target="#OxfordRobertHarley">Oxford, Robert Harley, Earl
 								of</ref>, 1661-1724. [MW] </gloss>
@@ -3942,6 +4582,13 @@
 						<term xml:id="Harmodius">Harmodius&#8212; </term>
 						<gloss> Ancient writer whose work is known through later quotations rather
 							than through surviving texts. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="HarpokratesEgyptiandeity">Harpokrates (Egyptian deity)
+							(Library of Congress Name Authority)&#8212; </term>
+						<gloss> Also Harpocrates; the Greek version of one aspect of the Egyptian
+							god <ref target="#HorusEgyptiandeity">Horus</ref>, who represented in
+							this form the rising sun. [JDP]</gloss>
 					</item>
 					<item>
 						<term xml:id="HarringtonJames">Harrington, James, 1611-1677 (Library of
@@ -3966,6 +4613,18 @@
 							(1775), Hartley&apos;s ideas exerted broad influence on literature,
 							philosophy, medicine, psychology, and issues such as education and
 							reform. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="HawesStephen">Hawes, Stephen, -1523? (Library of Congress Name
+							Authority)&#8212; </term>
+						<gloss> English poet, author of <hi rendition="#italics"><title>The Example
+									of Vertu</title></hi> (1504); <hi rendition="#italics"
+									><title>The Passetyme of Pleasure</title></hi> (1509); <hi
+								rendition="#italics"><title>The Conuercyon of Swerers</title></hi>
+							(1509); A Joyfull Medytacyon to all Englonde of the Coronacyon of Our
+							Moost Natural Soverayne Lorde Kynge Henry the Eyght (1509); and <hi
+								rendition="#italics"><title>The Comforte of Lovers</title></hi>
+							(1515). [JDP] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="HawkesworthJohn">Hawkesworth, John, 1715?-1773 (Library of
@@ -4153,7 +4812,7 @@
 								religious poems</hi> (1834); <hi rendition="#italics">National
 								Lyrics, and Songs for Music</hi> (1835); and the posthumous <hi
 								rendition="#italics">Poetical Remains of the late Mrs. Hemans</hi>,
-							edited by D. M. Moir (1836). [VS] and [MW]</gloss>
+							edited by D. M. Moir (1836). [VS] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="HenryIVKingofFrance">Henry IV, King of France, 1553-1610
@@ -4162,6 +4821,13 @@
 							known almost as much for his numerous love affairs as for his political
 							effectiveness during a period of extreme hostility and widespread
 							violence between Catholics and Protestants. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="HenryVIIKingofEngland">Henry VII, King of England, 1457-1509
+							(Library of Congress Name Authority)&#8212; </term>
+						<gloss> King of England, reigning from when he siezed the crown from <ref
+								target="#RichardIIIKingofEngland">Richard III</ref> in August 1485
+							to his death in April 1509. [JDP] </gloss>
 					</item>
 					<item>
 						<term xml:id="HenryVIIIKingofEngland">Henry VIII, King of England, 1491-1547
@@ -4181,7 +4847,7 @@
 					<item>
 						<term xml:id="HerbertMary">Herbert, Mary, Countess of Pembroke&#8212; </term>
 						<gloss> See <ref target="#PembrokeMarySidney">Pembroke, Mary Sidney
-								Herbert</ref> [MW] </gloss>
+								Herbert</ref>. [MW] </gloss>
 					</item>
 					<item>
 						<term xml:id="Herodian">Herodian (Library of Congress Name Authority)&#8218; </term>
@@ -4237,10 +4903,10 @@
 					<item>
 						<term xml:id="HillIsabel"> Hill, Isabel, 1800-1842 (Library of Congress Name
 							Authority)&#8212; </term>
-						<gloss>Translator of <ref target="people.html#StaelGermainede"><name> Madame
-									de Sta&#235;l&apos;s 1807 work</name></ref>
-							<hi rendition="#italics"><title>Corinne; Or, Italy</title></hi>
-							(1833).[VS]</gloss>
+						<gloss>Translator of <ref target="#StaelGermainede"><name> Madame de
+									Sta&#235;l&apos;s 1807 work</name></ref>
+							<hi rendition="#italics"><title>Corinne; Or, Italy</title></hi> (1833).
+							[VS]</gloss>
 					</item>
 					<item>
 						<term xml:id="HillJohn">Hill, John, 1714?-1775 (Library of Congress Name
@@ -4256,7 +4922,7 @@
 										target="#CanningElizabeth">Elizabeth Canning</ref>
 									Considered</hi></title> (1753) was hostile to Canning and
 							Fielding, arguing in favor of the perjury verdict that resulted in
-							Canning&apos;s transportation to Connecticut.[RD] and [MW]</gloss>
+							Canning&apos;s transportation to Connecticut. [RD] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="HoadlyDrBenjamin">Hoadly, Dr. (Benjamin), 1706-1757 (Library
@@ -4264,6 +4930,17 @@
 						<gloss> Physician and researcher into electricity, Hoadly authored one
 							enormously popular dramatic comedy, <hi rendition="#italics"><title>The
 									Suspicious Husband</title></hi> (1747). [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="HoccleveThomas">Hoccleve, Thomas, 1370?-1450? (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss> An English poet and clerk, sometimes known as Thomas Occleve. Some
+							of his better works include &quot;The Letter of Cupid,&quot; <hi
+								rendition="#italics"><title>The Regement of Princes</title></hi>
+							(1411-1412), &quot;The Complaint,&quot; &quot;The Dialogue with a
+							Friend,&quot; &quot;How to Die,&quot; &quot;Prologue and a Miracle of
+							the Blessed Virgin,&quot; and &quot;Mother of God.&quot; [JDP]
+							[MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="HogarthWilliam">Hogarth, William, 1697-1764 (Library of
@@ -4358,6 +5035,15 @@
 							authored <hi rendition="#italics"><title>Ars Poetica</title></hi> (c. 19
 							B.C.), a major landmark in the history of literary criticism and theory.
 							[MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="HorusEgyptiandeity">Horus (Egyptian deity) (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss> One of the most significant ancient Egyptian dieties. He served many
+							functions, most notably god of kingship and the sky. He was known as
+								<ref target="#HarpokratesEgyptiandeity">Harpocrates</ref> to the
+							Ptolemaic Greeks, and was represented in a youthful form, which
+							signified the rising sun. [JDP]</gloss>
 					</item>
 					<item>
 						<term xml:id="HowardJohn">Howard, John, 1726-1790 (Library of Congress Name
@@ -4458,14 +5144,14 @@
 					<item>
 						<term xml:id="IrelandWH">Ireland, W. H. (William Henry), 1777-1835 (Library
 							of Congress Name Authority)&#8212; </term>
-						<gloss>Better known as a forger of <ref
-								target="people.html#ShakespeareWilliam">Shakespeare</ref>
-							manuscripts and documents, author William Henry Ireland also produced
-							poetry, much of it satirical, a biography of Napoleon, a few volumes of
-							verse tales (<hi rendition="#italics"><title>The Fisher Boy</title></hi>
-							[1808] and <hi rendition="#italics"><title>The Sailor Boy</title></hi>
-							[1809]), several picturesque travel volumes in collaboration with minor
-							landscape artists, some largely spurious histories, and the novels <hi
+						<gloss>Better known as a forger of <ref target="#ShakespeareWilliam"
+								>Shakespeare</ref> manuscripts and documents, author William Henry
+							Ireland also produced poetry, much of it satirical, a biography of
+							Napoleon, a few volumes of verse tales (<hi rendition="#italics"
+									><title>The Fisher Boy</title></hi> [1808] and <hi
+								rendition="#italics"><title>The Sailor Boy</title></hi> [1809]),
+							several picturesque travel volumes in collaboration with minor landscape
+							artists, some largely spurious histories, and the novels <hi
 								rendition="#italics"><title>The Abbess, a Romance</title></hi>
 							(1799), <hi rendition="#italics"><title>Rimualdo; or, The Castle of
 									Badajos</title></hi> (1800), and <hi rendition="#italics"
@@ -4567,16 +5253,15 @@
 									Princess Amelia of Saxony</title></hi>, by Amelia, Princess of
 							Saxony (1840). [MW] </gloss>
 					</item>
-
 					<item>
 						<term xml:id="JeffreyFrancis">Jeffrey, Francis Jeffrey, Lord, 1773-1850
 							(Library of Congress Name Authority)&#8212;</term>
 						<gloss>Minimally successful in the legal profession for which he was
 							trained, Jeffrey found his calling in 1802 when he and a few of his
 							friends founded the <hi rendition="#italics"><ref
-									target="people.html#EdinburghReview"><title>Edinburgh
-										Review</title></ref></hi>, with Jeffrey taking over as
-							editor in 1803. Though Jeffrey often expressed literary views vigorously
+									target="#EdinburghReview"><title>Edinburgh
+								Review</title></ref></hi>, with Jeffrey taking over as editor in
+							1803. Though Jeffrey often expressed literary views vigorously
 							unsympathetic to the Romantic authors of his day, espousing judgments
 							that have not stood the test of time, he remains a major figure in the
 							history of literary criticism, journalism, and the development of the
@@ -4634,13 +5319,13 @@
 								rendition="#italics">The Three Histories: The History of an
 								Enthusiast. The History of a Nonchalant. The History of a
 								Realist</hi> (1830) was Jewsbury&apos;s last full-length publication
-							and also contains a tribute to <ref target="people.html#HemansFelicia"
+							and also contains a tribute to <ref target="#HemansFelicia"
 									><name>Hemans</name></ref> in the form of a portrait of a gifted
 							woman artist. From 1830-1832, Jewsbury published a number of significant
 							literary critical essays in the <hi rendition="#italics"
 								>Athenaeum<title/></hi>. A few weeks short of her thirty-third
 							birthday, Jewsbury died of cholera, cutting short a promising literary
-							career.[VS] </gloss>
+							career. [VS] </gloss>
 					</item>
 					<item>
 						<term xml:id="SaintJohn">Saint John&#8212; </term>
@@ -4721,6 +5406,40 @@
 						</gloss>
 					</item>
 					<item>
+						<term xml:id="JonsonBen">Jonson, Ben, 1573?-1637 (Library of Congress Name
+							Authority)&#8212; </term>
+						<gloss> An English playwright, poet, and literary critic, whose artistry
+							exerted a lasting impact upon English poetry and stage comedy. He
+							popularised the comedy of humours, a genre of comedy based on characters
+							who each show one or two overriding traits based on the dominance of
+							corresponding bodily humours. Known for satirical plays and for his
+							lyric poetry, he is generally regarded as the second most important
+							English dramatist, after <ref target="#ShakespeareWilliam">William
+								Shakespeare</ref>, during the reign of <ref
+								target="#JamesIKingofEngland">James I</ref>. Among his works are the
+							dramas <hi rendition="#italics"><title>Every Man and his
+								Humour</title></hi> (1598); <hi rendition="#italics"><title>Every
+									Man Out of His Humour</title></hi> (1599); <hi
+								rendition="#italics"><title>The Fountaine of Selfe-love; or,
+									Cynthias Revells</title></hi> (1600); <hi rendition="#italics"
+									><title>Poetaster</title></hi> (1601); <hi rendition="#italics"
+									><title>Sejanus his Fall</title></hi> (1603); <hi
+								rendition="#italics"><title>The Mask of Blackness</title></hi>
+							(1605); <hi rendition="#italics"><title>Volpone; or, the
+								Foxe</title></hi> (1605-6); <hi rendition="#italics"><title>Epicene,
+									or the Silent Woman</title></hi> (1609-10); <hi
+								rendition="#italics"><title>The Alchemist</title></hi> (1610); <hi
+								rendition="#italics"><title>Love Restored</title></hi> (1612); <hi
+								rendition="#italics"><title>Bartholomew Fayre</title></hi> (1614);
+								<hi rendition="#italics"><title>The Devil is an Ass</title></hi>
+							(1616); <hi rendition="#italics"><title>Mercurie Vindicated from the
+									Alchemists at Court</title></hi> (1616); <hi
+								rendition="#italics"><title>The Staple of News</title></hi> (1626);
+								<hi rendition="#italics"><title>The Magnetic Lady</title></hi>
+							(1631); and <hi rendition="#italics"><title>A Tale of a Tub</title></hi>
+							(1633). [JDP]</gloss>
+					</item>
+					<item>
 						<term xml:id="Jupiter">Jupiter (Roman deity)(Library of Congress Name
 							Authority)&#8212; </term>
 						<gloss>Jupiter, often called Jove in English, is the king of gods in the
@@ -4750,7 +5469,7 @@
 							(1790; <title><hi rendition="#italics">Critique of
 								Judgement</hi></title>) then followed. Kant also published a number
 							of essays in the <title><hi rendition="#italics">Berliner
-									Monatsschrift</hi></title>. [VW] and [MW}</gloss>
+									Monatsschrift</hi></title>. [VW] [MW}</gloss>
 					</item>
 					<item>
 						<term xml:id="KeanEdmund">Kean, Edmund, 1787-1833 (Library of Congress Name
@@ -4765,7 +5484,7 @@
 							(1768). Also a periodical essayist, Kelly assisted <ref
 								target="#LennoxCharlotte">Charlotte Lennox</ref> with her popular
 									<title><hi rendition="#italics">Lady&apos;s Museum</hi></title>
-							(1760-1). [VW and MW]</gloss>
+							(1760-1). [VW] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="KlingerFriedrich">Klinger, Friedrich Maximilian, 1752-1831
@@ -4821,7 +5540,7 @@
 							gifted conversationalist, Knowles published her &quot;<title>Dialogue
 								between Dr. Johnson and Mrs. Knowles</title>&quot; in the <title><hi
 									rendition="#italics">Gentleman&apos;s Magazine</hi></title> in
-							June 1971. [RD] and [MW]</gloss>
+							June 1971. [RD] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="KockPaulde">Kock, Paul de, 1793-1871 (Library of Congress Name
@@ -4931,12 +5650,17 @@
 							of Sir Multon Lambard (1675-1758), of Seven Oaks in Kent. [MW] </gloss>
 					</item>
 					<item>
-						<term xml:id="LambertiniJean-Baptiste">Lambertini, Jean-Baptiste,
-							approximately 1570-1630 (Library of Congress Name
-							Authority)&#8212;</term>
-						<gloss>Author of <hi rendition="#italics"><title>Theatrum regium, siue,
-									Regum Hispaniae series et compendiosa narratio</title></hi>.
-							[MW]</gloss>
+						<term xml:id="LearKingofBritain">Lear, King of England (Legendary character)
+							(Library of Congress Name Authority)&#8212;</term>
+						<gloss>Protagonist of <ref target="#ShakespeareWilliam">William
+								Shakespeare</ref>&apos;s tragedy <hi rendition="#italics"
+									><title>King Lear</title></hi>. King Lear begins the play as a
+							conceited, shallow character, concerned with power and appearances
+							rather than responsibility and genuine devotion. After a period of
+							increasing insanity, King Lear experiences an epiphany that leads to his
+							remorse, humility, and empathy. However, the play ends tragically, with
+							the death of King Lear&apos;s daughter and Lear&apos;s return to
+							madness. [LD] </gloss>
 					</item>
 					<item>
 						<term xml:id="LandonLetitia">L. E. L. (Letitia Elizabeth Landon), 1802-1838
@@ -4988,6 +5712,14 @@
 							day. [MW]</gloss>
 					</item>
 					<item>
+						<term xml:id="LanglandWilliam">Langland, William, 1330?-1400? (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss> A cleric from the Malvern Hills sometimes referred to as Robert De
+							Langlonde or Robert Langley, author of the dream vision poem <title><hi
+									rendition="#italics">Piers Plowman</hi></title> (c.1367-70).
+							[JDP]</gloss>
+					</item>
+					<item>
 						<term xml:id="LathomFrancis">Lathom, Francis, 1774-1832 (Library of Congress
 							Name Authority)&#8212; </term>
 						<gloss>Originally an actor and playwright, Lathom soon turned gothic
@@ -4997,7 +5729,7 @@
 									Ollada</title></hi> (1795). <hi rendition="#italics"><title>The
 									Midnight Bell</title></hi> (1798) is one of the novels Isabella
 							Thorpe plans to peruse with Catherine Morland in <ref
-								target="people.html#AustenJane">Jane Austen</ref>&apos;s <hi
+								target="#AustenJane">Jane Austen</ref>&apos;s <hi
 								rendition="#italics"><title>Northanger Abbey</title></hi> (1818).
 								<hi rendition="#italics"><title>Men and Manners</title></hi> (1799)
 							is regarded as his best work. [MW] </gloss>
@@ -5014,11 +5746,11 @@
 						<term xml:id="Lavall&#233;eJoseph">Lavall&#233;e, Joseph, 1747-1816 (Library
 							of Congress Name Authority)&#8212; </term>
 						<gloss>Joseph Lavall&#233;e, the marquis de Bois-Robert, was a prolific
-							French author, translator, and man of letters. [JDP and MW] </gloss>
+							French author, translator, and man of letters. [JDP] [MW] </gloss>
 					</item>
 					<item><term xml:id="Laura">Laura&#8212; </term>
 						<gloss>The addressee of many love sonnets by the Italian author <ref
-								target="#PetrarcaFrancesco">Petrarch</ref>. [KI and MW] </gloss>
+								target="#PetrarcaFrancesco">Petrarch</ref>. [KI] [MW] </gloss>
 					</item>
 					<item>
 						<term xml:id="LavaterJohann">Lavater, Johann Caspar, 1741-1801 (Library of
@@ -5036,6 +5768,14 @@
 						<gloss>Politician, political economist, and eighth earl of Lauderdale. He
 							was was Keeper of the Great Seal of Scotland and represented Scotland in
 							the House of Lords. [RD]</gloss>
+					</item>
+					<item>
+						<term xml:id="Layamon">Layamon, active 1200 (Library of Congress Name
+							Authority)&#8212; </term>
+						<gloss>La&#541;amon was a late twelfth-century priest, author of the
+									<title><hi rendition="#italics">Brut</hi></title>, a history of
+							England during the Arthurian era. He is also sometimes known as Laweman
+							or Lawman, among other spellings. [JDP] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="LeakeJames">Leake, James, -1764 (Library of Congress Name
@@ -5086,7 +5826,6 @@
 									d‘Alfarache</title></hi> (1599-1604), by <ref
 								target="#AlemanMateo">Mateo Alemán</ref>. [MW] </gloss>
 					</item>
-
 					<item>
 						<term xml:id="LeTourneurP">Le Tourneur, P. (Pierre), 1736-1788 (Library of
 							Congress Name Authority)&#8212; </term>
@@ -5128,7 +5867,7 @@
 								>Shakespeare</ref> drew many of his plots. She also produced an
 							essay periodical, the <title><hi rendition="#italics">Lady&apos;s
 									Museum</hi></title> (1760-1) under the pseudonym &quot;The
-							Trifler&quot;. Though not the only woman writer of this time to run a
+							Trifler.&quot; Though not the only woman writer of this time to run a
 							periodical, she was something of an innovator, partly because with a
 							title page blazoning &quot;by the author of <title><hi
 									rendition="#italics">The Female Quixote</hi></title>&quot;
@@ -5183,6 +5922,23 @@
 								Abyssinia</hi></title> was published in 1735. [VW]</gloss>
 					</item>
 					<item>
+						<term xml:id="LockhartJohn">Lockhart, J. G. (John Gibson), 1794-1854
+							(Library of Congress Name Authority)&#8212; </term>
+						<gloss>Scottish biographer, novelist, editor, and critic, as well as close
+							friend, son-in-law, and biographer of <ref target="#ScottWalter">Sir
+								Walter Scott</ref>. He contributed to <hi rendition="#italics"
+									><title>Blackwood&apos;s Edinburgh Magazine</title></hi> and the
+								<hi rendition="#italics"><ref target="#QuarterlyReview"
+										><title>Quarterly Review</title></ref></hi>, editing the
+							latter from 1825-1853. Among other works, he published a <hi
+								rendition="#italics"><title>Life of <ref target="#BurnsRobert"
+										>Robert Burns</ref></title></hi> in 1828 and is best
+							remembered for his <hi rendition="#italics">Memoirs of the Life of <ref
+									target="#ScottWalter">Sir Walter Scott</ref></hi> (1837-8),
+							which is considered as one of the great biographies in the English
+							language. [LD] [MW] </gloss>
+					</item>
+					<item>
 						<term xml:id="LockeJohn">Locke, John, 1632-1704 (Library of Congress Name
 							Authority)&#8212; </term>
 						<gloss> Locke&apos;s <hi rendition="#italics"><title>Essay Concerning Human
@@ -5234,6 +5990,11 @@
 								<hi rendition="#italics"><title>The Fair Penitent</title></hi>
 							(1703), whose name became a byword for a cavalier seducer. [MW] </gloss>
 					</item>
+					<item><term xml:id="LouisXII">Louis XII, King of France, 1462-1515 (Library of
+							Congress Name Authority)&#8212;</term>
+						<gloss>King from 1498, Louis XII had immense domestic popularity despite his
+							disastrous mishandling of the Italian wars. [LD] </gloss>
+					</item>
 					<item>
 						<term xml:id="LouisXIVKingofFrance">Louis XIV, King of France, 1638-1715
 							(Library of Congress Name Authority)&#8212; </term>
@@ -5242,6 +6003,14 @@
 							achievement. He was responsible for the construction of the Palace of
 							Versailles, an architectural marvel. [MW] </gloss>
 					</item>
+					<item>
+						<term xml:id="LouisXVKingofFrance">Louis XV, King of France, 1710-1774
+							(Library of Congress Name Authority)&#8212; </term>
+						<gloss> Sometimes known &quot;Louis the Beloved,&quot; Louis XV was the King
+							of France for fifty-nine years, the second longest in French history.
+							Notwithstanding this, his reign is sometimes criticized for failing to
+							address those issues that led to the French Revolution and Reign of
+							Terror. [JDP] </gloss></item>
 					<item>
 						<term xml:id="LouisXVIKingofFrance">Louis XVI, King of France, 1754-1793
 							(Library of Congress Name Authority)&#8212; </term>
@@ -5254,6 +6023,18 @@
 							classes, and his palace was stormed by a revolutionary mob in 1789. [MW]
 						</gloss>
 					</item>
+					<item>
+						<term xml:id="LouisXVIIIKingofFrance">Louis XVIII, King of France, 1755-1824
+							(Library of Congress Name Authority)&#8212; </term>
+						<gloss> Born the Count of Provence, Louis XVIII, sometimes known as
+							&quot;the Desired,&quot; was the King of France from 1814-1824. Before
+							his reign, he spent twenty-three years in exile during the French
+							revolution and the subsequent Napoleonic empire, and was exiled again
+							during the &quot;Hundred Days&quot; reign of <ref target="#Napoleon"
+								>Napoleon</ref> after his escape from prison on the island of Elba.
+							While Louis XVIII's 1814 Charter established France as a constitutional
+							monarchy and instituted progressive reform, he subsequently retracted or
+							violated several key measures. [JDP] [MW]</gloss></item>
 					<item>
 						<term xml:id="LouvetdeCouvray">Louvet de Couvray, Jean-Baptiste, 1760-1797
 							(Library of Congress Name Authority)&#8212; </term>
@@ -5294,6 +6075,41 @@
 						<gloss> The German theologian whose challenges to church practice formed the
 							foundation of the Protestant Reformation. [MW] </gloss>
 					</item>
+					<item><term xml:id="Lycurgus">Lycurgus (Library of Congress Name
+							Authority)&#8212;</term><gloss> A Spartan political figure, said to have
+							founded the institutions of ancient Sparta, possibly around the ninth-
+							or eighth-century B.C., though scholars are unable to conclusively
+							determine whether he is a historical or purely legendary figure.
+							Included in the laws he is credited with is a provision that newlyweds
+							meet by night in the manner of secret lovers so as to preserve the
+							husband from exhaustion due to excessive lovemaking.
+						[JDP]</gloss></item>
+					<item>
+						<term xml:id="LydgateJohn">Lydgate, John, 1370?-1451? (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss> An English poet associated for most of his life with the Benedictine
+							Abbey at Bury St Edmunds. He deeply admired <ref
+								target="#ChaucerGeoffrey">Geoffrey Chaucer</ref>, and many of his
+							works show that influence. He authored <hi rendition="#italics"
+									><title>The Complaint of the Black Knight</title></hi>; <hi
+								rendition="#italics"><title>The Temple of Glas</title></hi>; <hi
+								rendition="#italics"><title>The Floure of Curtesy</title></hi>; <hi
+								rendition="#italics"><title>Reson and Sensuallyte</title></hi>; <hi
+								rendition="#italics"><title>The Life of Our Lady</title></hi>; <hi
+								rendition="#italics"><title>Troy Book</title></hi>; <hi
+								rendition="#italics"><title>The Siege of Thebes</title></hi>; <hi
+								rendition="#italics"><title>The Serpent of Division</title></hi>;
+								<hi rendition="#italics"><title>The Pilgrimage of the Life of
+									Man</title></hi>; <hi rendition="#italics"><title>The Dance of
+									Death</title></hi>; <hi rendition="#italics"><title>Fall of
+									Princes</title></hi>; <hi rendition="#italics"><title>The Lives
+									of Saints Edmund and Fremund</title></hi> (1433); <hi
+								rendition="#italics"><title>The Lives of Saint Albon and Saint
+									Amphabel</title></hi>; <hi rendition="#italics"><title>Secrees
+									of the Old Philosoffres</title></hi>; and <hi
+								rendition="#italics"><title>The Testament of Lydgate</title></hi>.
+							[JDP] [MW]</gloss>
+					</item>
 					<item>
 						<term xml:id="LytteltonGeorge">Lyttelton, George Lyttelton, Baron, 1709-1773
 							(Library of Congress Name Authority)&#8212; </term>
@@ -5304,8 +6120,8 @@
 							writers of his day including <ref target="#PopeAlexander">Alexander
 								Pope</ref> and <ref target="#FieldingHenry">Henry Fielding</ref>.
 							His most famous satirical work, <title><hi rendition="#italics"
-									>Dialogues of the Dead</hi></title> was published in
-							1760.[VW][RD]</gloss>
+									>Dialogues of the Dead</hi></title> was published in 1760. [VW]
+							[RD]</gloss>
 					</item>
 					<item>
 						<term xml:id="LyttonRosinaBulwer">Lytton, Rosina Bulwer Lytton, Baroness,
@@ -5363,8 +6179,8 @@
 									Livio</title></hi> (1531) round off the body of his major
 							political works. In addtion, he published a number of lesser political
 							tracts, some histories, a couple of black comedies, a biography of
-							Castruccio Castracani (1520), a novella, and some poetry. [ZP and
-							MW]</gloss>
+							Castruccio Castracani (1520), a novella, and some poetry. [ZP]
+							[MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="MackenzieHenry">Mackenzie, Henry, 1745-1831 (Library of
@@ -5440,6 +6256,13 @@
 							only result in more widespread and intense future misery. [MW]</gloss>
 					</item>
 					<item>
+						<term xml:id="Manfred">Manfred, King of Naples and Sicily, approximately
+							1232-1266 (Library of Congress Name Authority)&#8212;</term>
+						<gloss>Ruler of Italy during a period of civil war and succession disputes.
+							Manfred was overthrown and killed by <ref target="#CharlesIAnjou"
+								>Charles of Anjou</ref> at the Battle of Benevento. [LD]</gloss>
+					</item>
+					<item>
 						<term xml:id="ManleyMrs">Manley, Mrs. (Mary de la Rivière), 1663-1724
 							(Library of Congress Name Authority)&#8212; </term>
 						<gloss> Author of the satirical <hi rendition="#italics">roman a clef </hi>
@@ -5448,6 +6271,14 @@
 									><title>S</title></hi><hi rendition="#italics"><title>ecret
 									Memoirs and Manners of Several Persons of Quality</title></hi>
 							(1709) resulted in her arrest for libel. [MW] </gloss>
+					</item>
+					<item><term xml:id="ManzoniAlessandro">Manzoni, Alessandro, 1785-1873 (Library
+							of Congress Name Authority)&#8212;</term>
+						<gloss>Italian novelist and poet whose historical novel <hi
+								rendition="#italics"><title>I promessi sposi [The
+								Betrothed]</title></hi> (1827) gained popularity for its patriotic
+							themes and earned Manzoni&apos;s status as a keystone Italian author.
+							[LD]</gloss>
 					</item>
 					<item>
 						<term xml:id="MapWalter">Map, Walter, fl. 1200 (Library of Congress Name
@@ -5544,6 +6375,11 @@
 									Western Islands of Scotland</title></hi> (1703). [MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="MartineauHarriet">Martineau, Harriet, 1802-1876 (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss>Novelist, social theorist, and literary critic.</gloss>
+					</item>
+					<item>
 						<term xml:id="MaryQueenofScots">Mary, Queen of Scots, 1542-1587 (Library of
 							Congress Name Authority)&#8212; </term>
 						<gloss> Forced to flee to England after being deposed from rule over a
@@ -5560,6 +6396,15 @@
 							published <hi rendition="#italics"><title>Congiura del conte
 									Fieschi</title></hi> in 1629 and <hi rendition="#italics"
 									><title>Arte istorica</title></hi> in 1636. [MW]</gloss>
+					</item>
+					<item><term xml:id="AzeglioMassimo">Azeglio, Massimo D&apos;, 1798-1866 (Library
+							of Congress Name Authority)&#8212;</term>
+						<gloss>Italian painter, novelist, and statesman who campaigned for the
+							consolidation of the fragmented Italian states into a centralized union.
+							He was author of two historical novels, <hi rendition="#italics"
+									><title>Ettore Fieramosca</title></hi> (1833) and <hi
+								rendition="#italics"><title>Niccol&#242; dei Lapi</title></hi>
+							(1841). [LD] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="MassingerPhilip">Massinger, Philip, 1583-1640 (Library of
@@ -5590,6 +6435,65 @@
 								Lover</title></hi> (1636). [MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="MazziniGiuseppe">Mazzini, Giuseppe, 1805-1872 (Library of
+							Congress Name Authority)&#8212;</term>
+						<gloss>An Italian revolutionary exiled to London for instigating
+							insurrection. Founder of the journal <hi rendition="#italics"
+									><title>Pensiero ed azione</title></hi> (&quot;Thought and
+							Action&quot;) and author of numerous essays and several pamphlets as
+							well as <hi rendition="#italics"><title>Dei Doveri dell&apos;uomo [The
+									Duties of Man]</title></hi> (1860). [LD] </gloss>
+					</item>
+					<item><term xml:id="Medici">Medici&#8212;</term>
+						<gloss>The Florentine Medici family rose to power on the temendous wealth
+							created through the family bank that, during the fifteenth century, was
+							the largest bank in Europe. On that basis, they created a political
+							dynasty that ruled Florence and Tuscany from the fifteenth to eighteenth
+							centuries, yielding four popes and many marriages into powerful families
+							across Europe. [LD] </gloss>
+					</item>
+					<item>
+						<term xml:id="MediciAlessandro">Medici, Alessandro de&apos;, 1510-1537
+							(Library of Congress Name Authority)&#8212;</term>
+						<gloss>Nicknamed &quot;the Moor&quot; for his dark complexion, Alessandro
+							was most likely the illegitimate son of <ref target="#ClementVII">Giulio
+								de&apos; Medici</ref>, born to a servant of African descent. As <ref
+								target="#ClementVII">Pope Clement VII</ref>, Giulio selected
+							Alessandro as the Duke of Florence. Alessandro ruled from 1532 until his
+							assassination by a distant cousin in 1537. Although initially admired by
+							his subjects, Alessandro became regarded as a corrupt figure due to his
+							misuse of taxes and attempts to extend his power. [LD] </gloss>
+					</item>
+					<item>
+						<term xml:id="MediciGiovanni">Medici, Giovanni de&apos;, 1498-1526 (Library
+							of Congress Name Authority)&#8212;</term>
+						<gloss>Born Lodovico de&apos; Medici, Giovanni assumed the name of his
+							father, who had died shortly after his son was born. The younger
+							Giovanni became the most distinguished soldier in the history of the
+								<ref target="#Medici">Medici</ref> family, serving the Papal States,
+							the French, and <ref target="#CharlesV">Emperor Charles V</ref> before
+							returning to the French service against the Emperor. Giovanni died from
+							a battle wound received in the War of the League of Cognac. [LD]
+						</gloss>
+					</item>
+					<item>
+						<term xml:id="MediciGiuliano">Medici, Giuliano de&apos;, 1453-1478 (Library
+							of Congress Name Authority)&#8212;</term>
+						<gloss>Co-ruler of Florence alongside his brother, &quot;<ref
+								target="#MediciLorenzo">Lorenzo the Magnificent</ref>.&quot;
+							Giuliano was assassinated as part of the Pazzi Conspiracy to displace
+							Medici rule. [LD] </gloss>
+					</item>
+					<item>
+						<term xml:id="MediciLorenzo">Medici, Lorenzo de&apos;, 1449-1492 (Library of
+							Congress Name Authority)&#8212;</term>
+						<gloss>Florentine banker, ruler, and patron of Renaissance artists,
+							including <ref target="#SimoniMichelangelo">Michelangelo</ref>. He was
+							known as &quot;Lorenzo the Magnificent&quot; for his political
+							brilliance and enthusiastic patronage of art which furthered the
+							cultural development of Florence. [LD] </gloss>
+					</item>
+					<item>
 						<term xml:id="Memnon">Memnon&#8212; </term>
 						<gloss> In Greek myth, King of the Ethiopians, and slayer of Achilles in the
 							Trojan War. The colossi of Memnon consist of two huge statues on the
@@ -5599,9 +6503,22 @@
 							a sound. [MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="MendozaDiego">Hurtado de Mendoza, Diego (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss>Son of the powerful Castillan family of Mendoza and general in the
+							Italian wars, living from 1469-1536 and eventually serving under <ref
+								target="#CordobaGonzalo">Gonzalo Fern&#225;ndez de
+								C&#243;rdoba</ref>. [LD]</gloss>
+					</item>
+					<item>
 						<term xml:id="Menippus">Menippus, of Gadara [n.d.] (Library of Congress Name
 							Authority)&#8212; </term>
 						<gloss> Cynic philosopher of the third century B.C. [MW] </gloss>
+					</item>
+					<item><term xml:id="Mephistopheles">Mephistopheles&#8212;</term>
+						<gloss>A demon in German folklore, appearing in Faustian legend. He serves
+							as agent for the bargain in which the Faust character sells his soul to
+							the devil in exchange for earthly knowledge and power. [LD] </gloss>
 					</item>
 					<item>
 						<term xml:id="MerimeeProsper">M&#233;rim&#233;e, Prosper, 1803-1870 (Library
@@ -5675,31 +6592,46 @@
 								Clelia</title></hi> (1762), <hi rendition="#italics"
 									><title>Ruggerio</title></hi> (1771), and <hi
 								rendition="#italics"><title>Estratto della Poetica
-									d'Aristotele</title></hi> (1782). His librettos and vocal pieces
-							include <hi rendition="#italics"><title>Siroe, re di Persia</title></hi>
-							(1728), <hi rendition="#italics"><title>Cantone in Utica</title></hi>
-							(1727), <hi rendition="#italics"><title>Ezio</title></hi> (1728), <hi
+									d&apos;Aristotele</title></hi> (1782). His librettos and vocal
+							pieces include <hi rendition="#italics"><title>Siroe, re di
+									Persia</title></hi> (1728), <hi rendition="#italics"
+									><title>Cantone in Utica</title></hi> (1727), <hi
+								rendition="#italics"><title>Ezio</title></hi> (1728), <hi
 								rendition="#italics"><title>Semiramide riconosciuta</title></hi>
 							(1729), <hi rendition="#italics"><title>Alessandro
 									nell&apos;Indie</title></hi> (1730), <hi rendition="#italics"
 									><title>Artaserse</title></hi> (1730), <hi rendition="#italics"
 									><title>La Libert&#224;</title></hi> (1733), and <hi
-								rendition="#italics"><title>La partenza</title></hi> (1746). [ZP and
-							MW]</gloss>
+								rendition="#italics"><title>La partenza</title></hi> (1746). [ZP]
+							[MW]</gloss>
+					</item>
+					<item>
+						<term xml:id="BuonarrotiMichelangelo">Michelangelo Buonarroti, 1475-1564
+							(Library of Congress Name Authority)&#8212;</term>
+						<gloss>Italian sculptor, painter, poet, and architect during the High
+							Renaissance, Michelangelo is considered as one of the quintessential
+							figures influencing Western art. His best known works include his
+							sculpture <hi rendition="#italics">David</hi>, his scenes of
+								<title>Genesis</title> painted on the ceiling of the Sistine Chapel,
+							and his architectural design of St. Peter&apos;s Basilica. Michelangelo
+							also participated in the Siege of Florence from 1528-1529, designing the
+							city&apos;s fortifications to protect against the rule of the <ref
+								target="#Medici">Medici</ref>. [LD]</gloss>
 					</item>
 					<item>
 						<term xml:id="MillerJoe">Miller, Joe, 1684-1738 (Library of Congress Name
 							Authority)&#8212; </term>
 						<gloss>Joseph Miller was a London comic actor whose humor inspired the
-							compilation <hi rendition="#italics"><title>Joe Miller's Jests: or, the
-								Wit's Vade-Mecum. Being a collection of the most brilliant jests,
-								the politest repartees, the most elegant bons mots, and the most
-								pleasant short stories in the English Language. First carefully
-								collected in the company, and many of them transcribed from the
-								mouth, of the facetious gentleman whose name they bear, and now set
-								forth and published by his lamentable friend and former companion,
-								Elijah Jenkins, Esq.</title></hi> [pseudonym for <ref target="#MottleyJohn">John
-									Mottley</ref>]. [MW] </gloss>
+							compilation <hi rendition="#italics"><title>Joe Miller&apos;s Jests: or,
+									the Wit&apos;s Vade-Mecum. Being a collection of the most
+									brilliant jests, the politest repartees, the most elegant bons
+									mots, and the most pleasant short stories in the English
+									Language. First carefully collected in the company, and many of
+									them transcribed from the mouth, of the facetious gentleman
+									whose name they bear, and now set forth and published by his
+									lamentable friend and former companion, Elijah Jenkins,
+									Esq.</title></hi> [pseudonym for <ref target="#MottleyJohn">John
+								Mottley</ref>]. [MW] </gloss>
 					</item>
 					<item>
 						<term xml:id="MillerPhilip">Miller, Philip, 1691-1771 (Library of Congress
@@ -5854,9 +6786,9 @@
 							During his tenure, <ref target="#GriffithsRalph">Ralph Griffiths</ref>
 							assembled an expert staff of contributors, including <ref
 								target="#GoldsmithOliver">Oliver Goldsmith</ref>, <ref
-								target="people.html#BurneyCharles">Dr. Charles Burney</ref>, and
-							other notables in their fields, to produce a journal respected for its
-							high intellectual standards and appealing as well for its Whig,
+								target="#BurneyCharles">Dr. Charles Burney</ref>, and other notables
+							in their fields, to produce a journal respected for its high
+							intellectual standards and appealing as well for its Whig,
 							antiestablishment perspective. It was also the first major literary
 							review to employ women as regular contributors (<ref
 								target="#MoodyElizabeth">Elizabeth Moody</ref> and <ref
@@ -5878,7 +6810,16 @@
 					<item>
 						<term xml:id="MontiVincenzo">Monti, Vincenzo, 1754-1828 (Library of Congress
 							Name Authority)&#8212; </term>
-						<gloss>Italian poet and man of letters. [MW]</gloss>
+						<gloss>Italian poet and man of letters. He authored a substantial body of
+							poetry, including several significant translations, but is best
+							remembered for his translation of <ref target="#Homer"
+							>Homer</ref>&apos;s <hi rendition="#italics"><title>Illiad</title></hi>.
+							Initially opposed to the French Revolution, he switched to admiring <ref
+								target="#Napoleon">Napoleon</ref> during his ascendancy and empire,
+							converting again to supporting the Austrian Empire after <ref
+								target="#Napoleon">Napoleon</ref>&apos;s fall. Monti&apos;s poetry
+							is criticized by some as emphasizing formal precision while reflecting
+							obsequious political inconsistency. [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="MontolieuIsabelle">Montolieu, Isabelle de, 1751-1832 (Library
@@ -5891,7 +6832,7 @@
 							In addition, Montolieu produced over 100 volumes of translations and is
 							cited as the first translator of <ref target="#AustenJane">Jane
 								Austen</ref>&apos;s work into French. She married Benjamin de
-							Crousaz in 1769, but the marriage lasted only a few years before Crousaz
+							Crouzas in 1769, but the marriage lasted only a few years before Crousaz
 							died in 1775. In 1786 she married Baron Louis de Montolieu, who also
 							pre-deceased her in 1800. In 1813 she published <hi rendition="#italics"
 									><title>Le Robinson suisse ou Journal d&apos;un p&#232;re de
@@ -5901,7 +6842,6 @@
 									><title>Swiss Family Robinson</title></hi> by William Henry
 							Giles Kingston (1879). [MW]</gloss>
 					</item>
-
 					<item>
 						<term xml:id="MoodyChristopherLake">Moody, Christopher Lake, 1743-1815
 							(Benjamin Christie Nangle, <title><hi rendition="#italics">The </hi><ref
@@ -6004,7 +6944,6 @@
 								target="#ByronGeorge">Byron</ref> remains valuable today. [VS]
 						</gloss>
 					</item>
-
 					<item>
 						<term xml:id="MoraisFranciscode">Morais, Francisco de, ca. 1500-1572
 							(Library of Congress Name Authority)&#8212; </term>
@@ -6116,21 +7055,22 @@
 						</gloss>
 					</item>
 					<item>
-						<term xml:id="MottleyJohn">Mottley, John, 1692-1750 LOC name (Library of
-							Congress Name Authority)&#8212; </term>
-						<gloss>A writer in several genres, Mottley was most prolific as a dramatist. He
-							authored <hi rendition="#italics"><title>The Imperial Captives: a
-								Tragedy</title></hi> (1720); <hi rendition="#italics"
+						<term xml:id="MottleyJohn">Mottley, John, 1692-1750 (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss>A writer in several genres, Mottley was most prolific as a dramatist.
+							He authored <hi rendition="#italics"><title>The Imperial Captives: a
+									Tragedy</title></hi> (1720); <hi rendition="#italics"
 									><title>Antiochus: a Tragedy</title></hi> (1721); <hi
-										rendition="#italics"><title>Penelope, a Dramatic Opera</title></hi>
-							(1728; with Thomas Cooke); <hi rendition="#italics"><title>The Craftsman: Or
-								Weekly Journalist, a Farce</title></hi> (1728); the comic <hi
-									rendition="#italics"><title>The Widow Bewitch'd</title></hi> (1730); and
-							<hi rendition="#italics"><title>The Devil To Pay; Or, the Wives
-								Metamorphos'd</title></hi> (1731; with Charles Coffey. He also
-							compiled several volumes of jokes. Some of his publications appeared under
-							the pseudonyms Robert Seymour and Elijah Jenkins. See <ref
-								target="#MillerJoe">Joe Miller</ref>. [MW] </gloss>
+								rendition="#italics"><title>Penelope, a Dramatic Opera</title></hi>
+							(1728; with Thomas Cooke); <hi rendition="#italics"><title>The
+									Craftsman: Or Weekly Journalist, a Farce</title></hi> (1728);
+							the comic <hi rendition="#italics"><title>The Widow
+									Bewitch&apos;d</title></hi> (1730); and <hi rendition="#italics"
+									><title>The Devil To Pay; Or, the Wives
+									Metamorphos&apos;d</title></hi> (1731; with Charles Coffey. He
+							also compiled several volumes of jokes. Some of his publications
+							appeared under the pseudonyms Robert Seymour and Elijah Jenkins. See
+								<ref target="#MillerJoe">Joe Miller</ref>. [MW] </gloss>
 					</item>
 					<item>
 						<term xml:id="MulsoHester">Mulso, Hester&#8212; </term>
@@ -6173,8 +7113,8 @@
 							pseudonym Charles Ranger, Esq., and publications. He also published
 							political journalism throughout his writing career. In 1762 he published
 									<title><hi rendition="#italics">The Works of Henry Fielding,
-									Esq; with the Life of the Author</hi></title>. [RD and
-							MW]</gloss>
+									Esq; with the Life of the Author</hi></title>. [RD]
+							[MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="MurrayJohn1778">Murray, John, 1778-1843 (Library of Congress
@@ -6187,9 +7127,10 @@
 								target="#ColeridgeSamuel">Samuel Taylor Coleridge</ref>, <ref
 								target="#ScottWalter">Walter Scott</ref>, <ref
 								target="#SoutheyRobert">Robert Southey</ref>, and many others. He
-							helped establish and published the <hi rendition="#italics"
-									><title>Quarterly Review</title></hi> and participated for a
-							time in <hi rendition="#italics"><title>Blackwood&apos;s Edinburgh
+							helped establish and published the <hi rendition="#italics"><ref
+									target="#QuarterlyReview"><title>Quarterly
+								Review</title></ref></hi> and participated for a time in <hi
+								rendition="#italics"><title>Blackwood&apos;s Edinburgh
 									Magazine</title></hi>. [MW] </gloss>
 					</item>
 					<item>
@@ -6227,7 +7168,7 @@
 							engraving from the status of a craft to that of an art. As an official
 							engraver for <ref target="#LouisXIVKingofFrance">Louis XIV</ref> he
 							produced hundreds of portraits, including likenesses of many of the
-							notable and high ranking figures of his day [MW] </gloss>
+							notable and high ranking figures of his day. [MW] </gloss>
 					</item>
 					<item>
 						<term xml:id="Napoleon">Napoleon I, Emperor of the French, 1769-1821</term>
@@ -6250,6 +7191,14 @@
 							towards non-combatants, including women and children. Napoleon&apos;s
 							battle strategies are still studied in military schools today.
 							[MW]</gloss>
+					</item>
+					<item>
+						<term xml:id="NardiniLeonardo">Nardini, Leonardo (Library of Congress Name
+							Authority)&#8212;</term>
+						<gloss>Author of various selections and editions of drama, poetry, opera,
+							and prose, including <hi rendition="#italics"><title>Scelta di Lettere
+									familiari, degli Autori pie&#249; Celebri</title></hi> (1800).
+							[ZP] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="NeckerJacques">Necker, Jacques, 1732-1804 (Library of Congress
@@ -6320,11 +7269,29 @@
 									of Revolution</title></hi> (1857). [MW]</gloss>
 					</item>
 					<item>
+						<term xml:id="OdinNorsedeity">Odin (Norse deity) (Library of Congress Name
+							Authority)&#8212; </term>
+						<gloss> Odin (from Old Norse &#211;&#240;inn, &quot;The Furious One&quot;)
+							is a significant deity in most if not all branches of Germanic
+							mythology, especially in the Norse mythology branch of Germanic
+							mythology. Among his many attributes, he is associated with wisdom,
+							healing, poetry, frenzy, war, and death. [JDP] [MW]</gloss>
+					</item>
+					<item>
 						<term xml:id="Odysseus">Odysseus &#8212; </term>
 						<gloss>Hero of <ref target="#Homer">Homer&apos;s</ref>
 							<title><hi rendition="#italics"> Odyssey</hi></title>, which recounts
 							the adventures of this Ithacan king during his decade-long return from
 							the ten year Trojan War. [MW]</gloss>
+					</item>
+					<item>
+						<term xml:id="OedipusGreekmyth">Oedipus (Greek mythological figure) (Library
+							of Congress Name Authority)&#8212; </term>
+						<gloss> A Greek mythological figure who rises from being an orphan to become
+							King of Thebes, but in doing so inadvertently fulfills a prophecy in
+							which he kills his father and sleeps with his mother, as recounted in
+								<ref target="#Sophocles">Sophocles</ref>&apos; tragedy <hi
+								rendition="#italics"><title>Oedipus Rex</title></hi>. [JDP]</gloss>
 					</item>
 					<item>
 						<term xml:id="LadyOlivia">Lady Olivia &#8212; </term>
@@ -6384,8 +7351,18 @@
 						<gloss>Daughter of King Erechtheus, this Athenian princess was abducted by
 								<ref target="#Boreas">Boreas</ref>, the wind god of the north. Her
 							story appears in <ref target="#Ovid">Ovid</ref>&apos;s <title><hi
-									rendition="#italics">Metamorphosis</hi></title> [MW] </gloss>
+									rendition="#italics">Metamorphosis</hi></title>. [MW] </gloss>
 					</item>
+					<item><term xml:id="OrleansPhilippe"> Orl&#233;ans, Philippe, duc d&apos;,
+							1674-1723 (Library of Congress Name Authority)&#8212;</term><gloss> Born
+							Philippe Charles, duke of Chartres, later known as Philip II, duke of
+							Orleans, regent of France, Philippe Charles was a member of the royal
+							French family, and nephew to Louis XIV, with whom he had a feud
+							regarding assigned military commands, due to which he spitefully
+							neglected his wife, Louis&apos;s daughter, and earned a lasting
+							reputation for scandal and debauchery. He ruled over France as regent
+							during the interim period between Louis XIV's death and Louis XV's
+							maturity. [JDP]</gloss></item>
 					<item>
 						<term xml:id="Orpheus">Orpheus&#8212; </term>
 						<gloss>In Greek myth, a singer and lyre-player whose music was so beautiful
@@ -6422,13 +7399,13 @@
 					</item>
 					<item>
 						<term xml:id="Othello"> Othello (Fictitious character from <ref
-								target="people.html#ShakespeareWilliam">Shakespeare</ref>) (Library
-							of Congress Name Authority)&#8212; </term>
-						<gloss> Titular character of <ref target="people.html#ShakespeareWilliam"
-								>William Shakespeare</ref>&apos;s tragedy, <title><hi
-									rendition="#italics">Othello, the Moor of Venice</hi></title>.
-							In the play, he is manipulated through jealousy into madness and murders
-							his wife, <ref target="#Desdemona">Desdemona</ref>. [JDP] </gloss>
+								target="#ShakespeareWilliam">Shakespeare</ref>) (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss> Titular character of <ref target="#ShakespeareWilliam">William
+								Shakespeare</ref>&apos;s tragedy, <title><hi rendition="#italics"
+									>Othello, the Moor of Venice</hi></title>. In the play, he is
+							manipulated through jealousy into madness and murders his wife, <ref
+								target="#Desdemona">Desdemona</ref>. [JDP] </gloss>
 					</item>
 					<item>
 						<term xml:id="OtwayThomas">Otway, Thomas, 1652-1685 (Library of Congress
@@ -6519,6 +7496,16 @@
 							of her day. [MW]</gloss>
 					</item>
 					<item>
+						<term xml:id="PatrickSaint">Patrick, Saint, 373?-463? (Library of Congress
+							Name Authority)&#8212; </term><gloss>The primary patron saint of
+							Ireland. In legend, he banished all snakes from the
+						island.</gloss></item>
+					<item><term xml:id="Patroclus">Patroclus (Library of Congress Name
+							Authority)&#8212;</term>
+						<gloss>In <ref target="#Homer">Homer</ref>&apos;s <hi rendition="#italics"
+									><title>Iliad</title></hi>, a close wartime companion of <ref
+								target="#Achilles">Achilles</ref>. [MW]</gloss></item>
+					<item>
 						<term xml:id="PearceZachary">Pearce, Zachary, 1690-1774 (Library of Congress
 							Name Authority)&#8212; </term>
 						<gloss> Author of several papers in the <hi rendition="#italics"
@@ -6527,6 +7514,12 @@
 							assistance to <ref target="#JohnsonSamuel">Samuel Johnson</ref> in the
 							compilation of his dictionary. He was made Bishop of Rochester and Dean
 							of Westminster in 1756. [MW] </gloss>
+					</item>
+					<item><term xml:id="PellicoSilvio">Pellico, Silvio, 1789-1854 (Library of
+							Congress Name Authority)&#8212;</term>
+						<gloss>Italian author, dramatist, and patriot. Writings of his hardship as a
+							political prisoner inspired sympathy for the Italian nationalist
+							movement. [LD] </gloss>
 					</item>
 					<item>
 						<term xml:id="PembrokeMarySidney">Pembroke, Mary Sidney Herbert, Countess
@@ -6568,6 +7561,14 @@
 								target="#Andromeda">Andromeda</ref>. [MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="PerticariGiulio">Perticari, Giulio, conte, 1779-1822 (Library
+							of Congress Name Authority)&#8212;</term>
+						<gloss>Italian poet and scholar, son-in-law to <ref target="#MontiVincenzo"
+								>Vicenzo Monti</ref>. Peticari aided <ref target="#MontiVincenzo"
+								>Monti</ref> in the debate against linguistic purism in Italy. [LD]
+						</gloss>
+					</item>
+					<item>
 						<term xml:id="PetrarcaFrancesco">Petrarca, Francesco, 1304-1374 (Library of
 							Congress Name Authority)&#8212;</term><gloss>The Italian humanist and
 							lyric poet referred to as &quot;Petrarch&quot; by English speakers was
@@ -6583,6 +7584,15 @@
 							century. [MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="ChalonPhilibert">Philibert, Prince of Orange, 1502-1530
+							(Library of Congress Name Authority)&#8212;</term>
+						<gloss>The last member of the House of Chalon to hold the title of Prince of
+							Orange, Philibert served as a commander under <ref target="#CharlesV"
+								>Charles V</ref> in the War of the League of Cognac, the Sack of
+							Rome, and the Siege of Florence. Philibert died in battle toward the end
+							of the siege. [LD] </gloss>
+					</item>
+					<item>
 						<term xml:id="PhilipsAmbrose">Philips, Ambrose, 1674-1749 (Library of
 							Congress Name Authority)&#8212; </term>
 						<gloss> Playwright and poet who probably contributed to the <hi
@@ -6592,6 +7602,15 @@
 							He established and authored much of the content of the <hi
 								rendition="#italics"><title>Freethinker</title></hi> from 1718-1721.
 							[MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="PhilipsJohn">Philips, John, 1676-1709 (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss> An English poet, author of <hi rendition="#italics"><title>The
+									Splendid Shilling. A Poem, In Imitation of <ref
+										target="#MiltonJohn">Milton</ref></title></hi> (1701) and
+								<hi rendition="#italics"><title>Blenheim</title></hi> (1705).
+							[JDP]</gloss>
 					</item>
 					<item>
 						<term xml:id="PhillipsRichard">Phillips, R. (Richard), Sir, 1767-1840
@@ -6607,6 +7626,15 @@
 							time for selling <ref target="#PaineThomas">Thomas Paine</ref>&apos;s
 								<hi rendition="#italics"><title>Rights of Man</title></hi>. [MW]
 						</gloss>
+					</item>
+					<item>
+						<term xml:id="Philostratus">Philostratus, the Athenian, active 2nd
+							century-3rd century (Library of Congress Name Authority)&#8212; </term>
+						<gloss> Philostratus or Lucius Flavius Philostratus, called &quot;the
+							Athenian,&quot; authored the biography of first-century C.E. philosopher
+								<ref target="#ApolloniusofTyana">Appolonius of Tyana</ref> in which
+							he attempts to construct his subject as an alternative to Jesus Christ.
+							[JDP]</gloss>
 					</item>
 					<item>
 						<term xml:id="Phocion">Phocion, -318 B.C. (Library of Congress Name
@@ -6677,11 +7705,53 @@
 							[MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="PolidoriJohn">Polidori, John William, 1795-1821 (Oxford
+							Reference)&#8212;</term>
+						<gloss>English-Italian writer, physician, son of <ref
+								target="#PolidoriGaetano">Gaetano Polidori</ref> and uncle to Dante
+							Gabriel and Christina Rossetti. . Some consider John Polidori as the
+							creator of modern vampire fiction with his work &quot;<title>The
+								Vampyre</title>.&quot; John Polidori was <ref target="#ByronGeorge"
+								>Lord Byron</ref>&apos;s personal physician and participated in the
+							famous ghost story competition in Geneva which resulted in Mary
+							Shelley&apos;s <hi rendition="#italics"
+							><title>Frankenstein</title></hi>. Inadequately financially supported by
+							his writing or medical career and suffering from debt and depression,
+							Polidori committed suicide in 1821. [LD] </gloss>
+					</item>
+					<item>
+						<term xml:id="PolidoriGaetano">Polidori, Gaetano, 1764-1853 (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss> An Italian scholar, translator, and author who settled in London in
+							1790, Polidori was father to John William Polidori, author of <hi
+								rendition="#italics"><title>The Vampyre</title></hi> and grandfather
+							to Dante Gabriel and Christina Rossetti. [JDP] [MW]</gloss>
+					</item>
+					<item>
 						<term xml:id="Polonius">Polonius</term>
 						<gloss>Character in <ref target="#ShakespeareWilliam">William
 								Shakespear</ref>&apos;s drama <hi rendition="#italics"
 									><title>Hamlet</title></hi>, he is father to <ref
 								target="#Laertes">Laertes</ref>. [MW]</gloss>
+					</item>
+					<item>
+						<term xml:id="PomfretJohn">Pomfret, John, 1667-1702 (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss> An English poet and clergyman, author of <hi rendition="#italics"
+									><title>The Choice</title></hi> (1700). [JDP]</gloss>
+					</item>
+					<item>
+						<term xml:id="PonsonbySarah">Ponsonby, Sarah, 1755-1831 (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss>One of the &quot;Ladies of Llangollen&quot;. With <ref
+								target="#ButlerEleanorLady">Lady Eleanor Butler</ref>, the subject
+							of <ref target="#WordsworthWilliam">William Wordsworth</ref>&apos;s
+							sonnet &quot;<title>To the Lady E.B. and the Hon. Miss P.</title>&quot;.
+							She and Butler left conventional marriages to move to Llangollen in
+							Wales and cohabitate, fascinating and scandalizing contemporaries by
+							wearing men&apos;s clothing. Though many observers believed that the two
+							were a sexual couple, diary evidence suggest that may not have been the
+							case.</gloss>
 					</item>
 					<item>
 						<term xml:id="PopeAlexander">Pope, Alexander, 1688-1744 (Library of Congress
@@ -6801,6 +7871,14 @@
 						</gloss>
 					</item>
 					<item>
+						<term xml:id="QuarlesFrancis">Quarles, Francis, 1592-1644 (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss>English poet, best known for <hi rendition="#italics"
+									><title>Emblems</title></hi> (1635) and <hi rendition="#italics"
+									><title>Heiroglyphikes of the Life of Man</title></hi> (1638).
+							[JDP] [MW]</gloss>
+					</item>
+					<item>
 						<term xml:id="QuarterlyReview"><hi rendition="#italics"><title>Quarterly
 									Review</title></hi></term>
 						<gloss>The conservative <hi rendition="#italics"><title>Quarterly
@@ -6879,7 +7957,7 @@
 							Name Authority)&#8212;</term>
 						<gloss>Italian biologist, physician, linguist, and poet. His best-known
 							literary work was <hi rendition="#italics"><title>Bacco in
-									Toscana</title></hi> (1685). [ZP] and [MW]</gloss>
+									Toscana</title></hi> (1685). [ZP] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="ReeveClara">Reeve, Clara, 1729-1807 (Library of Congress Name
@@ -6923,10 +8001,18 @@
 						<term xml:id="ReniGuido">Reni, Guido, 1575-1642 (Library of Congress Name
 							Authority)&#8212; </term>
 						<gloss> Italian baroque painter of mythological and religious subjects, very
-							much admired in England during the Romantic period. A portrait of
-							Beatrice Cenci ascribed to him inspired <ref target="#ShelleyPercy"
-								>Percy Bysshe Shelley</ref>&apos;s play <hi rendition="#italics"
-									><title>The Cenci </title></hi>(1819). [MW] </gloss>
+							much admired in England during the Romantic period. A portrait of <ref
+								target="#CenciBeatrice">Beatrice Cenci</ref> ascribed to him
+							inspired <ref target="#ShelleyPercy">Percy Bysshe Shelley</ref>&apos;s
+							play <hi rendition="#italics"><title>The Cenci </title></hi>(1819). [MW]
+						</gloss>
+					</item>
+					<item>
+						<term xml:id="RetzJeanFrancois">Retz, Jean Fran&#231;ois Paul de Gondi de,
+							1613-1679 (Library of Congress Name Authority)&#8212; </term>
+						<gloss> An French churchman, who claimed literary fame for his memoirs,
+							published in 1717, which detail the political intriques of France
+							between 1648 and 1652. [JDP]</gloss>
 					</item>
 					<item>
 						<term xml:id="RiberaJusepe">Ribera, Jusepe de, 1591-1652 &#8212; </term>
@@ -6974,6 +8060,23 @@
 						<gloss> Known as &quot;the Lionhearted,&quot; for his brave fighting in the
 							Crusades, Richard I&apos;s legend was popularized through a number of
 							sources as part of the Robin Hood legends. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="RichardIIKingofEngland">Richard II, King of England, 1367-1400
+							(Library of Congress Name Authority)&#8212; </term>
+						<gloss> King of England from 1377 until he was deposed in 1399 by Henry
+							Bolingbroke, Duke of Lancaster, who became Henry IV. Probably his most
+							noteworthy act was facing down the Peasant&apos;s Revolt (or Wat Tyler
+							Rebellion) in 1381. [JDP] [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="RichardIIIKingofEngland">Richard III, King of England,
+							1452-1485 (Library of Congress Name Authority)&#8212; </term>
+						<gloss> The controversial brother of <ref target="#EdwardIVKingofEngland"
+								>King Edward IV</ref>, Richard reigned as King of England from 1483
+							until his death in 1485, having been defeated in The Wars of the Roses
+							by Henry Tudor, who thereby became <ref target="#HenryVIIKingofEngland"
+								>Henry VII</ref>. [JDP] </gloss>
 					</item>
 					<item>
 						<term xml:id="RichardsonAnne">Richardson, Anne (a.k.a. Nancy; baptized in
@@ -7088,8 +8191,82 @@
 							July 1794. [MW]</gloss>
 					</item>
 					<item>
+						<term xml:id="RobinsonMary">Robinson, Mary, 1758-1800 (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss>Mary Robinson was a novelist, poet, actress, and notable personality
+							in British fashionable society. Married at fifteen after her father
+							became insolvent in a whaling venture, Mary lived a fashionable life in
+							London until the gambling and financial incompetence of her husband
+							Thomas Robinson forced them into exile in Wales. Soon after, the
+							Robinsons arranged publication of Mary&apos;s <hi rendition="#italics"
+									><title>Poems</title></hi> (1775) as a means of raising money to
+							satisfy creditors. Nevertheless, Thomas Robinson was arrested for debt
+							and Mary and her infant daughter joined him for ten months in
+							King&apos;s Bench Prison. Inspired by the experience, she composed <hi
+								rendition="#italics"><title>Captivity, a Poem, and Celadon and
+									Lydia, a Tale</title></hi> (1777). Having earlier attracted the
+							attention of the celebrated actor <ref target="#GarrickDavid">David
+								Garrick</ref>, Mary Robinson made her acting debut late in 1776.
+							Three years later, <ref target="#GeorgeIIIKingofGreatBritain">King
+								George III</ref>, Queen Charlotte, and <ref
+								target="#GeorgeIVKingofGreatBritain">their eldest son</ref> attended
+							a performance of <ref target="#ShakespeareWilliam"
+							>Shakespeare</ref>&apos;s <hi rendition="#italics"><title>A
+									Winter&apos;s Tale</title></hi> with Robinson playing Perdita.
+							Thus began a widely known but relatively short-lived relationship with
+							the <ref target="#GeorgeIVKingofGreatBritain">Prince of Wales</ref>
+							that, because of the scandal, ended Robinson&apos;s acting career but
+							resulted in an irregularly paid &#163;500 annuity. After this affair
+							ended, she began a long-time relationship with Colonel Banastre
+							Tarleton. In 1783, Robinson miscarried Tarleton&apos;s child, and the
+							subsequent complications left her legs almost completely paralyzed.
+							After a sojourn in France to escape Tarleton&apos;s creditors, the
+							couple returned to London in 1788, where Robinson began, under the
+							pseudonym &quot;Laura Marie,&quot; composing sentimentally delicate
+							Della Cruscan poetry for the <hi rendition="#italics"
+									><title>World</title></hi>. These pieces were collected in <hi
+								rendition="#italics"><title>Poems</title></hi> (1791), with numerous
+							other publications following, including <hi rendition="#italics"
+									><title>Sappho and Phaon</title></hi> (1796). The preface of
+							this volume, outlining the current place of the sonnet in English
+							literature, helped inaugurate the sonnet revival during the romantic
+							period. Though primarily a poet, Robinson authored numerous novels, the
+							most noteworthy of which include <hi rendition="#italics"
+									><title>Vancenza</title></hi> (1792), <hi rendition="#italics"
+									><title>The Widow</title></hi> (1794), <hi rendition="#italics"
+									><title>Angelina</title></hi> (1796), <hi rendition="#italics"
+									><title>Hubert de Sevrac</title></hi> (1796), <hi
+								rendition="#italics"><title>Walsingham</title></hi> (1797), <hi
+								rendition="#italics"><title>The False Friend</title></hi> (1799),
+							and <hi rendition="#italics"><title>The Natural Daughter</title></hi>
+							(1799), and these did the most toward improving her financial stability.
+							Her operetta, <hi rendition="#italics"><title>The Lucky
+								Escape</title></hi> (1778) and her satirical drama, <hi
+								rendition="#italics"><title>Nobody</title></hi> (1794) were
+							produced, while her tragedy <hi rendition="#italics"><title>The Sicilian
+									Lover</title></hi> (1796) appeared in print. Under the names
+							&quot;Tabitha Bramble&quot; and &quot;Laura&quot;, she contributed
+							poetry and for a time edited the poetry section of <hi
+								rendition="#italics"><title>The Morning Post</title></hi>. <hi
+								rendition="#italics"><title>A Letter to the Women of England, on the
+									Cruelties of Mental Subordination</title></hi> (1799, later <hi
+								rendition="#italics"><title>Thoughts on the Condition of
+									Women</title></hi>), published under the pseudonym &quot;Anne
+							Frances Randall,&quot; champions the woman writer. <hi
+								rendition="#italics"><title>Lyrical Tales</title></hi> (1800), the
+							last volume published in her lifetime, appeared only a few days before
+							her death in December, 1800. [MW] </gloss>
+					</item>
+					<item>
 						<term xml:id="RobinsonThomas">Robinson, Thomas&#8212; </term>
 						<gloss> See Grantham, Thomas Robinson, Baron. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="RochefoucauldFran&#231;oisdeLa">Rochefoucauld, Fran&#231;ois
+							de La, 1558-1645 (Library of Congress Name Authority)&#8212;
+							</term><gloss> French aristocrat known for his sometimes ascerbic <hi
+								rendition="#italics"><title>Maximes</title></hi>, which he revised
+							and added to until the end of his life. [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="RochesterJohnWilmot">Rochester, John Wilmot, Earl of,
@@ -7162,6 +8339,12 @@
 						<gloss>Characters in <ref target="#ShakespeareWilliam">William
 								Shakespear</ref>&apos;s drama <hi rendition="#italics"
 									><title>Hamlet</title></hi>. [MW]</gloss>
+					</item>
+					<item>
+						<term xml:id="RosiniGiovanni">Rosini, Giovanni, 1776-1855 (Library of
+							Congress Name Authority)&#8212;</term>
+						<gloss>Italian novelist, poet, playwright, historian, and intellectual.
+							[LD]</gloss>
 					</item>
 					<item>
 						<term xml:id="Rossini">Rossini, Gioacchino, 1792-1868 (Library of Congress
@@ -7253,6 +8436,20 @@
 							Wilhelm II, and Frederick Wilhelm III. [MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="SackvilleThomas">Dorset, Thomas Sackville, Earl of, 1536-1608
+							(Library of Congress Name Authority)&#8212; </term>
+						<gloss> An English statesman, poet, and dramatist; co-author of the first
+							English drama written in blank verse; described in the <hi
+								rendition="#italics"><title>Oxford Dictionary of National
+									Biography</title></hi> as &quot;representative of his period and
+							its culture as a renaissance man: poet, scholar, traveller, courtier,
+							statesman, a lover and patron of music and fine art. He was a religious
+							man with the experience and pragmatism to tolerate his neighbours&apos;
+							(and his family&apos;s) freedom of conscience in private, and not only a
+							loyal servant of the crown but also a discreet man of personal charm and
+							moral integrity.&quot; [JDP]</gloss>
+					</item>
+					<item>
 						<term xml:id="SadlerMichaelThomas">Sadler, Michael Thomas, 1780-1835
 							(Library of Congress Name Authority)&#8212;</term>
 						<gloss>Sadler was a member of the British House of Commons during the period
@@ -7261,7 +8458,6 @@
 							argued for extension of the poor laws, and he introduced legislation for
 							a ten hour work day. [MW]</gloss>
 					</item>
-
 					<item>
 						<term xml:id="SaintPierreBernardin">Saint-Pierre, Bernardin de, 1737-1814
 							(Library of Congress Name Authority)&#8212; </term>
@@ -7275,6 +8471,26 @@
 						<gloss> See <ref target="#FletcherAndrew">Fletcher, Andrew</ref>. [MW]
 						</gloss>
 					</item>
+					<item><term xml:id="SandGeorge">Sand, George, 1804-1876 (Library of Congress
+							Name Authority)&#8212;</term>
+						<gloss> The pseudonym of nineteenth-century French author and feminist,
+							Amantine Lucile Aurore Dupin, baronne Dudevant. Sand was a prolific and
+							immensely popular writer of fiction, drama, travel accounts, and
+							correspondence as well as autobiographical work. A political writer
+							during the French Revolution of 1848, she was critical of the Napoleonic
+							Code for its inequitable treatment of women. Unhappy in her marriage,
+							she separated from her husband and pursued an unconventional lifestyle
+							that included dressing as a man and affairs with many lovers, most
+							notable being the composer Fr&#233;d&#233;ric Chopin. A few of the best
+							known among her many works include <hi rendition="#italics"
+									><title>Indiana</title></hi> (1832), <hi rendition="#italics"
+									><title>Valentine</title></hi> (1832), <hi rendition="#italics"
+									><title>L&#233;lia</title></hi> (1833), <hi rendition="#italics"
+									><title>Consuelo</title></hi> (1842-1843) and its sequel <hi
+								rendition="#italics"><title>La Comtesse de Rudolstadt,</title></hi>
+							(1843-1844), <hi rendition="#italics"><title>Jeanne</title></hi> (1844),
+							and <hi rendition="#italics"><title>Marianne</title></hi> (1876). [JDP]
+							[MW]</gloss></item>
 					<item>
 						<term xml:id="Sappho">Sappho (Library of Congress Name Authority)&#8212; </term>
 						<gloss>The Lesbos-born Greek lyric poet, probably from the mid-seventh
@@ -7361,6 +8577,14 @@
 								rendition="#italics"><title>The Athen&#228;um</title></hi>. [MW]
 						</gloss>
 					</item>
+					<item><term xml:id="AfricanusScipio">Scipio, Africanus, approximately 236
+							B.C.-183 B.C. (Library of Congress Name Authority)&#8212;</term>
+						<gloss>Publius Cornelius Scipio Africanus, also known as &quot;Scipio
+							Africanus the Elder,&quot; was a famed general and chief magistrate for
+							the Roman Republic. He is primarily regarded for his strategic
+							brilliance, which was most strongly evidenced in his defeat of <ref
+								target="#Hannibal">Hannibal</ref> at the Battle of Zama during the
+							Second Punic War. [LD]</gloss></item>
 					<item>
 						<term xml:id="ScottWalter">Scott, Walter, Sir, 1771-1832 (Library of
 							Congress Name Authority)&#8212; </term>
@@ -7394,9 +8618,22 @@
 							major works and discussing some of the most memorable literary works of
 							the early nineteenth century as a reviewer for <hi rendition="#italics"
 									><title>Blackwood&apos;s Edinburgh Magazine</title></hi>, the
-								<hi rendition="#italics"><title>Edinburgh Review</title></hi>, the
-								<hi rendition="#italics"><title>Quarterly Review</title></hi>, and
-							other periodicals. [MW] </gloss>
+								<hi rendition="#italics"><ref target="#EdinburghReview"
+										><title>Edinburgh Review</title></ref></hi>, the <hi
+								rendition="#italics"><ref target="#QuarterlyReview"><title>Quarterly
+										Review</title></ref></hi>, and other periodicals. [MW]
+						</gloss>
+					</item>
+					<item>
+						<term xml:id="ScriblerusClub">Scriblerus Club&#8212; </term>
+						<gloss> Founded by <ref target="#ArbuthnotJohn">John Arbuthnot</ref>, the
+							loose association of writing collaborators included <ref
+								target="#PopeAlexander">Alexander Pope</ref> and <ref
+								target="#SwiftJonathan">Jonathan Swift</ref> as well as other
+							members. Their work was collected as <hi rendition="#italics"
+									><title>Memoirs of the extraordinary Life, Works, and
+									Discoveries of Martinus Scriblerus</title></hi> (1741). [MW]
+						</gloss>
 					</item>
 					<item>
 						<term xml:id="ScuderyGeorges">Scud&#233;ry, M. de (Georges), 1601-1667
@@ -7478,6 +8715,12 @@
 							until 1811, they made a noteworthy contribution to the field of literary
 							criticism. [MW] </gloss>
 					</item>
+					<item><term xml:id="Sforza">Sforza&#8212;</term>
+						<gloss>The Sforza was an Italian family that came to power in the mid-15th
+							century through a marriage with the <ref target="#Visconti"
+								>Visconti</ref> family. The family ruled Milan for nearly a century.
+							[LD] </gloss>
+					</item>
 					<item>
 						<term xml:id="Sgricci">Sgricci, Tommaso, 1789-1836 (Library of Congress Name
 							Authority)&#8212;</term>
@@ -7492,7 +8735,6 @@
 								<ref target="#MaryQueenofScots">Mary, Queen of Scots</ref>.
 							[MW]</gloss>
 					</item>
-
 					<item>
 						<term xml:id="ShaftesburyAnthonyAshleyCooper">Shaftesbury, Anthony Ashley
 							Cooper, Earl of, 1671-1713 (Library of Congress Name Authority)&#8212; </term>
@@ -7703,6 +8945,22 @@
 							[VS] [MW}</gloss>
 					</item>
 					<item>
+						<term xml:id="SismondiJean">Sismondi, J.-C.-L. Simonde de
+							(Jean-Charles-L&#233;onard Simonde), 1773-1842 (Library of Congress Name
+							Authority)&#8212;</term>
+						<gloss>Swiss historian and political economist, born under the surname
+							Simonde. Sismondi is most remembered for his research on French and
+							Italian history. He also provided the first liberal criticism of
+							laissez-faire economics, advocating for such social supports as sickness
+							benefits and unemployment insurance. [LD] </gloss>
+					</item>
+					<item>
+						<term xml:id="SkeltonJohn">Skelton, John, 1460?-1529 (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss> English poet and satirist. <hi rendition="#italics"><title>Phyllyp
+									Sparowe</title></hi> is his best-known poem. [JDP]</gloss>
+					</item>
+					<item>
 						<term xml:id="SkeltonPhilip">Skelton, Philip, 1707-1787 (Library of Congress
 							Name Authority)&#8212; </term>
 						<gloss> An Irish scholar and friend of <ref target="#RichardsonSamuel"
@@ -7890,7 +9148,6 @@
 							in his <title><hi rendition="#italics">Travels through France and
 									Italy</hi></title> (1766). [MW]</gloss>
 					</item>
-
 					<item>
 						<term xml:id="Socrates">Socrates [n.d.] (Library of Congress Name
 							Authority); c. 470-399 B.C. (<hi rendition="#italics"
@@ -7955,10 +9212,9 @@
 								Southey</ref> in 1839. <ref target="#SoutheyRobert">Southey</ref>
 							died a few years later, setting in motion family conflicts with one of
 							his daughters, in which several major literary figures, including <ref
-								target="people.html#WordsworthWilliam">William Wordsworth</ref>,
-							took sides. Though Caroline Southey was regarded by many as a talented
-							writer, her literary reputation suffered in consequence.
-						[MW]</gloss></item>
+								target="#WordsworthWilliam">William Wordsworth</ref>, took sides.
+							Though Caroline Southey was regarded by many as a talented writer, her
+							literary reputation suffered in consequence. [MW]</gloss></item>
 					<item>
 						<term xml:id="SoutheyRobert">Southey, Robert, 1774-1843 (Library of Congress
 							Name Authority)&#8212; </term>
@@ -7981,10 +9237,10 @@
 									Vision of Judgement</title></hi> (1821). His literary journalism
 							appeared in the <hi rendition="#italics"><title>Critical
 								Review</title></hi>, the <hi rendition="#italics"><title>Annual
-									Review</title></hi>, the <hi rendition="#italics"
-									><title>Quarterly Review</title></hi>, and the <hi
-								rendition="#italics"><title>Foreign Quarterly Review</title></hi>.
-							[MW] </gloss>
+									Review</title></hi>, the <hi rendition="#italics"><ref
+									target="#QuarterlyReview"><title>Quarterly
+								Review</title></ref></hi>, and the <hi rendition="#italics"
+									><title>Foreign Quarterly Review</title></hi>. [MW] </gloss>
 					</item>
 					<item>
 						<term xml:id="Souza-Botelho">Souza-Botelho, Ad&#233;la&#239;de-Marie-Emilie
@@ -8001,7 +9257,7 @@
 									Sydenham</title></hi> (1794); <hi rendition="#italics"
 									><title>Charles et Marie</title></hi> (1802); and <hi
 								rendition="#italics"><title>Eug&#232;ne de Rothelin</title></hi>
-							(1808), among others. [JDP and MW] </gloss>
+							(1808), among others. [JDP] [MW] </gloss>
 					</item>
 					<item>
 						<term xml:id="SpenserEdmund">Spenser, Edmund, 1552?-1599 (Library of
@@ -8072,6 +9328,14 @@
 							Director General of Finance under Louis XVI. [MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="StatiusPapinius">Statius, P. Papinius (Publius Papinius)
+							(Library of Congress Name Authority)&#8212; </term>
+						<gloss> 1st century CE Roman poet, author of <title><hi rendition="#italics"
+									>Thebaid</hi></title>, which recounts the struggle between <ref
+								target="#Oedipus">Oedipus</ref>&apos;s sons for control of Thebes.
+							[JDP]</gloss>
+					</item>
+					<item>
 						<term xml:id="SteeleRichard">Steele, Richard, Sir, 1672-1729 (Library of
 							Congress Name Authority)&#8212; </term>
 						<gloss> Poet, dramatist, and satirist, Irish writer Sir Richard Steele is
@@ -8093,6 +9357,14 @@
 									Journey</title></hi> (1768), mark him as a major figure in the
 							history of both sentimental and experimental fiction. [MW] </gloss>
 					</item>
+					<item><term xml:id="StewartDugald">Stewart, Dugald, 1753-1828 (Library of
+							Congress Name Authority)&#8212;</term>
+						<gloss> Son of a mathematician, Stewart became a major figure in the
+							Scottish Enlightenment, teaching at the University of Edinburgh on
+							mathematics and moral and political philosophy, and through his lectures
+							and writings profoundly influencing many British literary and political
+							figures. He was joint founder of the Royal Society of Edinburgh. [JDP]
+							[MW]</gloss></item>
 					<item>
 						<term xml:id="StinstraJohannes">Stinstra, Johannes, 1708-1790 (Library of
 							Congress Name Authority)&#8212; </term>
@@ -8114,6 +9386,13 @@
 						<gloss> See Charles Edward, Prince, grandson of <ref
 								target="#JamesIIKingofEngland">James II, King of England</ref>. [MW]
 						</gloss>
+					</item>
+					<item>
+						<term xml:id="StrozziGElder">Strozzi, Giovan Battista, 1504-1571 (Library of
+							Congress Name Authority)&#8212;</term>
+						<gloss>Member of the important Florentine family Strozzi and the elder of a
+							father and son of the same names, both of whom were prolific authors of
+							madrigals. [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="SullaLucius">Sulla, Lucius Cornelius [n.d.] (Library of
@@ -8192,7 +9471,7 @@
 							1591, and <hi rendition="#italics"><title>Torrismondo</title></hi>
 							(1586) are dramas. His shorter poems include many odes and love sonnets.
 							He authored criticism as well, especially <hi rendition="#italics"
-									><title>Dircorsi dell&apos;arte poetica</title></hi> (1587) and
+									><title>Discorsi dell&apos;arte poetica</title></hi> (1587) and
 								<hi rendition="#italics"><title>Discorsi del poema
 								erico</title></hi><hi rendition="#italics"><title
 							> </title></hi>(1594). [MW] </gloss>
@@ -8202,6 +9481,63 @@
 							Authority)&#8212; </term>
 						<gloss> Playwright and librettist known more for adaptations than for
 							original compositions, he became poet laureate in 1692. [MW] </gloss>
+					</item>
+					<item><term xml:id="TaylorEmily">Taylor, Emily, 1795-1872 (Library of Congress
+							Name Authority)&#8212;</term>
+						<gloss>Emily Taylor was born into a family of notable Unitarians including
+							an uncle, the hymnist John Taylor of Norwich and a great-grandfather, Dr
+							John Taylor, a Hebrew scholar. Her brother, the solicitor Edgar Taylor
+							(1793-1839), was an author and translator especially noted for his
+							rendering of work by the Brothers Grimm. Scarlet fever at age 7 left
+							Emily Taylor partially deaf. Despite this obstacle, she operated a
+							school, assisted by Sarah Ann Glover (1786-1867), a musical theorist
+							with notable work in a cappella singing. The school was successful, and
+							several of its students attained a reputation in music and music theory.
+							Taylor is best remembered as a hymnist, and her hymns were well known
+							throughout the 19th century. She also authored numerous children&apos;s
+							books and was a leading contributor to the <hi rendition="#italics"
+									><title>Monrhly Repository</title></hi>, authoring devotional
+							verse, reviews, and short prose pieces on religious subjects. She left
+							the <hi rendition="#italics"><title>Monthly Repository</title></hi> soon
+							after it was fully taken over in 1831 by William James Fox (1786-1864),
+							who transitioned the periodical toward a more secular direction.
+							Taylor&apos;s publications include <hi rendition="#italics"
+									><title>Letters to a Child on the Subject of Maritime
+									Discovery</title></hi> (1820); <hi rendition="#italics"
+									><title>Letters to a Very Little Girl</title></hi> (1821); <hi
+								rendition="#italics"><title>Frank and George; or, The Prison
+									Friends</title></hi> (1823); <hi rendition="#italics"><title>The
+									Vision of Las Casas, and Other Poems</title></hi> (1825); <hi
+								rendition="#italics"><title>Poetical Illustrations of Passages of
+									Scripture</title></hi> (1826); <hi rendition="#italics"
+									><title>Sabbath Recreations; or Select Poetry, of a Religious
+									Kind</title></hi> (1829); <hi rendition="#italics"><title>Tales
+									of the Saxons</title></hi> (1832); <hi rendition="#italics"
+									><title>Tales of the English: William de Albini, of Buckenham
+									Castle</title></hi> (1833); <hi rendition="#italics"><title>A
+									Memoir of Sir Thomas More</title></hi> (1834); <hi
+								rendition="#italics"><title>Tales of the English. The
+									Knevets</title></hi> (1835); <hi rendition="#italics"><title>The
+									Boy and the Birds</title></hi> (1835); <hi rendition="#italics"
+									><title>Old Testament Biography</title></hi> (1837); <hi
+								rendition="#italics"><title>Help to the Schoolmistress, or Village
+									Teaching</title></hi> (1839); T<hi rendition="#italics"
+									><title>he Ball I Live On, or, Sketches of the
+								Earth</title></hi> (1839); <hi rendition="#italics"><title>The Irish
+									Tourist; or, Tales of the People and the Provinces of
+									Ireland</title></hi> (1837); <hi rendition="#italics"
+									><title>England and Its People; or, A Familiar History, for
+									Young Persons</title></hi> (1845); <hi rendition="#italics"
+									><title>Conversations with the Birds</title></hi> (1850); <hi
+								rendition="#italics"><title>Chronicles of an Old English Oak, or,
+									Sketches of English Life and History: As Reported by Those Who
+									Listened to Them</title></hi> (1860); <hi rendition="#italics"
+									><title>Flowers and Fruit Gathered by Loving Hands from Old
+									English Gardens</title></hi> (1864); <hi rendition="#italics"
+									><title>Dear Charlotte's Boys: And Other Stories</title></hi>
+							(1864); and <hi rendition="#italics"><title>Memories of Some
+									Contemporary Poets: with Selections from Their
+								Writings</title></hi> (1868). [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="TaylorJeremy">Taylor, Jeremy, 1613-1667 (Library of Congress
@@ -8225,7 +9561,7 @@
 							III (1638–1685), and a much less well known grandson, David Teniers IV.
 							Teniers the Younger specialized in depictions, often comic, of Flemish
 							peasantry. He was related by marriage to the Bruegel family of painters.
-							[RD] and [MW]</gloss>
+							[RD] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="TerrassonJean">Terrasson, Jean, 1670-1750 (Library of Congress
@@ -8251,6 +9587,38 @@
 							studied with <ref target="#Plato">Plato</ref> and probably had contact
 							with Aristotle. After Aristotle&apos;s death, he became the head of the
 							peripatetic school in Athens. [RD]</gloss>
+					</item>
+					<item>
+						<term xml:id="ThicknesseAnn">Thicknesse, Ann, 1737-1824 (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss> N&#233;e Ann Ford, Mrs. Thicknesse was an Engish instrumentalist and
+							singer who attained professional standing. She was the third wife of
+								<ref target="#ThicknessePhilip">Philip Thicknesse</ref>. Her <hi
+								rendition="#italics"><title>The School for Fashion</title></hi>
+							(1800) is a <hi rendition="#italics">roman a clef</hi> that includes
+							easily discernable portraits of many well-known figures of her day.
+							[JDP] [MW]</gloss>
+					</item>
+					<item>
+						<term xml:id="ThicknessePhilip">Thicknesse, Philip, 1719-1792 (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss> Primarily a travel writer, Thicknesse had an early career as a
+							military officer during a Maroon rebellion in Jamaica. After the deaths
+							of his first two wives, he married the singer <ref
+								target="#ThicknesseAnn">Ann Ford</ref>, thereafter known as Ann
+							Thicknesse. [JDP] </gloss>
+					</item>
+					<item>
+						<term xml:id="ThomasBecketSaint">Thomas, &#224; Becket, Saint, 1118?-1170
+							(Library of Congress Name Authority)&#8212; </term>
+						<gloss>Archbishop of Canterbury from 1162 until his assasination in 1170 in
+							Canterbury Cathedral on the orders of King Henry II. Soon after his
+							death, he was canonised by Pope Alexander III and is venerated as a
+							saint and martyr by both the Catholic and Anglican Churches. His shrine
+							at Canterbury is the object of the pilgrims in <ref
+								target="#ChaucerGeoffrey">Chaucer</ref>&apos;s <hi
+								rendition="#italics"><title>Canterbury Tales</title></hi>.
+							[JDP]</gloss>
 					</item>
 					<item>
 						<term xml:id="ThomsonJames">Thomson, James, 1700-1748 (Library of Congress
@@ -8298,7 +9666,7 @@
 								<hi rendition="#italics">Psyche</hi> was successful and recieved
 							tributes from <ref target="#HemansFelicia"><name>Felicia
 								Hemans</name></ref> and <ref target="#MooreThomas"><name>Thomas
-									Moore</name></ref>.[VS] and [MW]</gloss>
+									Moore</name></ref>. [VS] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="TolomeiClaudio">Tolomei, Claudio, 1492-1555 (Library of
@@ -8378,6 +9746,11 @@
 							B.C.), an epic poem on the founding of the city of Rome that centers on
 							the story of the hero Aeneas, was incomplete at the time of his death.
 							[MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="Visconti">Visconti&#8212; </term>
+						<gloss>The Visconti family ruled Milan from the late thirteenth to the
+							mid-fifteenth century.</gloss>
 					</item>
 					<item>
 						<term xml:id="VitriariusJohann">Vitriarius, Johann Jakob, 1679-1745 (Library
@@ -8583,22 +9956,6 @@
 							literary reviews. [MW]</gloss>
 					</item>
 					<item>
-						<term xml:id="WhiteheadCharles"> Whitehead, Charles, 1804-1862 (Library of
-							Congress Name Authority)&#8212; </term>
-						<gloss>An English poet and novelist, Charles Whitehead published <hi
-								rendition="#italics"><title>The Solitary</title></hi> in 1831.
-							Whitehead additionally published novels such as <hi rendition="#italics"
-									><title>Richard Savage</title></hi> in 1842 and left a drama
-							entitled the <hi rendition="#italics"><title>Spanish
-								Marriage</title></hi> unifinished at his death in 1862. [VS]</gloss>
-					</item>
-					<item>
-						<term xml:id="WilliamsBetty">Williams, Lady Betty&#8212; </term>
-						<gloss> Character in <ref target="#RichardsonSamuel">Samuel
-							Richardson</ref>&apos;s <hi rendition="#italics"><title>The History of
-									Sir Charles Grandison</title></hi> (1754). [RD]</gloss>
-					</item>
-					<item>
 						<term xml:id="WhartonPhilip">Wharton, Philip Wharton, Duke of, 1698-1731
 							(Library of Congress Name Authority)&#8212; </term>
 						<gloss> Politically controversial and personally profligate politician who
@@ -8620,6 +9977,16 @@
 								>Joseph Addison</ref> as his secretary. [MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="WhiteheadCharles"> Whitehead, Charles, 1804-1862 (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss>An English poet and novelist, Charles Whitehead published <hi
+								rendition="#italics"><title>The Solitary</title></hi> in 1831.
+							Whitehead additionally published novels such as <hi rendition="#italics"
+									><title>Richard Savage</title></hi> in 1842 and left a drama
+							entitled the <hi rendition="#italics"><title>Spanish
+								Marriage</title></hi> unifinished at his death in 1862. [VS]</gloss>
+					</item>
+					<item>
 						<term xml:id="WielandChristoph">Wieland, Christoph Martin, 1733-1813
 							(Library of Congress Name Authority)&#8212; </term>
 						<gloss>
@@ -8629,6 +9996,14 @@
 									><title>Geheime Geschichte des Philosophen Peregrinus
 									Proteus</title></hi> (1791) examines fanaticism over scientific
 							and philosophical developments. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="WifeofBath">Wife of Bath (Fictitious character) (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss> A character and the eponymous narrator of <title>&quot;The Wife of
+							Bath&apos;s Tale</title>.&quot; in <ref target="#ChaucerGeoffrey">Geoffrey
+									Chaucer</ref>&apos;s <hi rendition="#italics"><title>Canterbury
+										Tales</title></hi>. [JDP]</gloss>
 					</item>
 					<item>
 						<term xml:id="WildeJohn">Wilde, John&#8212; </term>
@@ -8661,6 +10036,12 @@
 							to the British throne in the Glorious Revolution of 1688. [MW] </gloss>
 					</item>
 					<item>
+						<term xml:id="WilliamsBetty">Williams, Lady Betty&#8212; </term>
+						<gloss> Character in <ref target="#RichardsonSamuel">Samuel
+							Richardson</ref>&apos;s <hi rendition="#italics"><title>The History of
+									Sir Charles Grandison</title></hi> (1754). [RD]</gloss>
+					</item>
+					<item>
 						<term xml:id="WilliamsMr">Williams, Mr.&#8212; </term>
 						<gloss>Character in <ref target="#RichardsonSamuel">Samuel
 							Richardson</ref>&apos;s <hi rendition="#italics"
@@ -8671,12 +10052,39 @@
 						<gloss> See <ref target="#RochesterJohnWilmot">Rochester, John Wilmot, Earl
 								of</ref>. [MW] </gloss>
 					</item>
+					<item><term xml:id="WilsonHarriette">Wilson, Harriette, 1786-1846 (Library of
+							Congress Name Authority)&#8212;</term><gloss> A London Regency courtesan
+							and author of the scandalous <hi rendition="#italics"><title>Memoirs of
+									Harriette Wilson, written by herself</title></hi> (1825), as
+							well as two novels, <hi rendition="#italics"><title>Paris Lions and
+									London Tigers</title></hi> (1825) and <hi rendition="#italics"
+									><title>Clara Gazul</title></hi> (1830). [JDP]</gloss></item>
 					<item>
 						<term xml:id="WilsonThomas">Wilson, Thomas, 1663-1755 (Library of Congress
 							Name Authority)&#8212; </term>
 						<gloss> Bishop of Sodor and Man before <ref target="#HildesleyMark">Mark
 								Hildesley</ref>, Wilson began a translation of the bible into the
 							local dialect that Hildesley later completed. [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="WitherGeorge">Wither, George, 1588-1667 (Library of Congress
+							Name Authority)&#8212; </term>
+						<gloss> An English poet, pamphleteer, satirist, and hymnist, also referred
+							to as Withers or Wyther. His <hi rendition="#italics"><title>Abuses
+									Stript and Whipt</title></hi> (1613) earned him a jail term (not
+							to be his last). Other works include <hi rendition="#italics"><title>A
+									Satyre: Dedicated to His Most Excellent Majestie</title></hi>
+							(1614); <hi rendition="#italics"><title>The Shepheard&apos;s
+									Hunting</title></hi>; <hi rendition="#italics"
+									><title>Fidelia</title></hi> (1617); a song, &quot;<title>Shall
+								I, wasting in despair</title>&quot; (1615), reprinted in <ref
+								target="#PercyThomas">Percy</ref>&apos;s <hi rendition="#italics"
+									><title>Reliques</title></hi> (1765); <hi rendition="#italics"
+									><title>Motto</title></hi> (1621); <hi rendition="#italics"
+									><title>Faire-Virtue, the Mistresse of
+								Phil&apos;Arete</title></hi> (1622); and, over the next four and a
+							half decades, a large body of religious, topical, and political verse as
+							well as numerous political pamphlets. [JDP] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="WollstonecraftMary">Wollstonecraft, Mary, 1759-1797 (Library
@@ -8809,7 +10217,7 @@
 							B.C. (Library of Congress Name Authority)&#8212;</term>
 						<gloss>Persian king from 486 to 465 BCE. In revenge for the humiliation of
 							his father, Darius I, at Marathon, Xerxes attacked Greece and briefly
-							occupied Athens, which he sacked and pillaged. [VS] and [MW]</gloss>
+							occupied Athens, which he sacked and pillaged. [VS] [MW]</gloss>
 					</item>
 					<item>
 						<term xml:id="YoungEdward">Young, Edward, 1683-1765 (Library of Congress
@@ -8828,6 +10236,12 @@
 								rendition="#italics"><title>The Brothers</title></hi> (1752) as well
 							as the poem <hi rendition="#italics"><title>Resignation</title></hi>
 							(1762). [MW] </gloss>
+					</item>
+					<item>
+						<term xml:id="ZanottiF">Zanotti, Francesco Maria, 1692-1777 (Library of
+							Congress Name Authority)&#8212; </term>
+						<gloss>Scientific author and Professor of Philosophy at the University of
+							Bologna, Zanotti also wrote on literature. [MW}</gloss>
 					</item>
 					<item>
 						<term xml:id="Zeus"> Zeus (Greek deity)(Library of Congress Name

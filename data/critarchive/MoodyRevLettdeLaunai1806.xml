@@ -3,10 +3,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Review of <hi rendition="#italics">Lettres de
-						Mademoiselle De Launai, &amp;c.</hi>
+            <title type="main" level="a">Review of <hi rendition="#italics">Lettres de Mademoiselle
+                  De Launai, &amp;c.</hi>
             </title>
-            <title type="sub" level="j">Monthly Review</title>
+            <title type="sub">Monthly Review</title>
             <author type="writer">
                <name>Elizabeth Moody</name>
             </author>
@@ -33,12 +33,12 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. XVII. Lettres de Mademoiselle De Launai,
-							&amp;c. i.e. Letters of Mademoiselle De Launai (Madame De Staal) to the
-							Chevalier De Ménil, to the Marquis De Silly, and to A. M.
-							D'Hericourt; to which are added those of M. De Chaulieu to
-							Mademoiselle De Launai, and a Portraiture of the Dutchess Du Maine. 2
-							Vols. 12mo. Paris. 1806. Imported by De Conchy, London.</title>
+                  <title type="main" level="a">Art. XVII. Lettres de Mademoiselle De Launai, &amp;c.
+                     i.e. Letters of Mademoiselle De Launai (Madame De Staal) to the Chevalier De
+                     Ménil, to the Marquis De Silly, and to A. M. D'Hericourt; to which are added
+                     those of M. De Chaulieu to Mademoiselle De Launai, and a Portraiture of the
+                     Dutchess Du Maine. 2 Vols. 12mo. Paris. 1806. Imported by De Conchy,
+                     London.</title>
                   <author type="writer">Moody, Elizabeth, 1737-1814</author>
                </analytic>
                <monogr>
@@ -57,28 +57,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -92,15 +91,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -343,11 +351,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -477,7 +486,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -556,7 +565,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="5">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -598,134 +615,139 @@
    </teiHeader>
    <text>
       <body>
-         <div type="essay" org="uniform" sample="complete" part="N">
+         <div type="essay">
             <head>
                <bibl>
                   <author type="writer">
                      <ref target="people.html#MoodyElizabeth">
-                        <name>Elizabeth
-								Moody</name>
+                        <name>Elizabeth Moody</name>
                      </ref>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
-                     <hi rendition="#smcaps">Art</hi>. XVII. <hi rendition="#italics">Lettres de <ref target="people.html#StaalMarguerite-Jeanne">Mademoiselle De
-									Launai</ref>, &amp;c. i.e.</hi> Letters of <ref target="people.html#StaalMarguerite-Jeanne">Mademoiselle <hi rendition="#smcaps">De Launai</hi>
-                     </ref> (<ref target="people.html#StaalMarguerite-Jeanne">Madame <hi rendition="#smcaps">De Staal</hi>
-                     </ref>) to the Chevalier <hi rendition="#italics">De Ménil</hi>, to the Marquis <hi rendition="#italics">De Silly</hi>, and to <hi rendition="#italics">A. M. D'Hericourt</hi>; to which are added those of M. <hi rendition="#italics">De Chaulieu</hi> to <ref target="people.html#StaalMarguerite-Jeanne">Mademoiselle <hi rendition="#italics">De Launai</hi>
-                     </ref>, and a Portraiture of
-							the Dutchess <hi rendition="#italics">Du Maine</hi>. 2 Vols. 12mo.
-							Paris. 1806. Imported by De Conchy, London. <hi rendition="#sup">
-                        <note>
-                           <title level="j">This review article originally
-										appeared in the <ref target="people.html#ReviewMonthly">
-                                 <name>
-                                    <hi rendition="#italics">Monthly
-												Review</hi>
-                                 </name>
-                              </ref>, Vol. 49, second series,
-										Foreign Appendix, 1806, pp. 541-43. Benjamin Nangle
-										identifies <ref target="people.html#MoodyElizabeth">
-                                 <name>Elizabeth Moody</name>
-                              </ref> as the author of this review from an editor's
-										marked copy of <hi rend="#italics">
-                                 <title>
-                                    <ref target="people.html#ReviewMonthly">The Monthly
-												Review</ref>
-                                 </title>
-                              </hi>. See Nangle, <hi rendition="#italics">
-                                 <title>The Montly Review, Second
-												Series, 1790-1815: Indexes of Contributors and
-												Articles</title>
-                              </hi>, Clarendon Press, 1955.
-										Zachary Parker and Mary A. Waters edited this essay for <hi rendition="#italics">The Criticism
-									Archive</hi>.</title>
-                        </note>
-                     </hi>
+                     <hi rendition="#smcaps">Art</hi>. XVII. <hi rendition="#italics">Lettres de
+                           <ref target="people.html#StaalMarguerite-Jeanne">Mademoiselle De
+                           Launai</ref>, &amp;c. i.e.</hi> Letters of <ref
+                        target="people.html#StaalMarguerite-Jeanne">Mademoiselle <hi
+                           rendition="#smcaps">De Launai</hi>
+                     </ref> (<ref target="people.html#StaalMarguerite-Jeanne">Madame <hi
+                           rendition="#smcaps">De Staal</hi>
+                     </ref>) to the Chevalier <hi rendition="#italics">De Ménil</hi>, to the Marquis
+                        <hi rendition="#italics">De Silly</hi>, and to <hi rendition="#italics">A.
+                        M. D'Hericourt</hi>; to which are added those of M. <hi rendition="#italics"
+                        >De Chaulieu</hi> to <ref target="people.html#StaalMarguerite-Jeanne"
+                        >Mademoiselle <hi rendition="#italics">De Launai</hi>
+                     </ref>, and a Portraiture of the Dutchess <hi rendition="#italics">Du
+                        Maine</hi>. 2 Vols. 12mo. Paris. 1806. Imported by De Conchy, London. <note>
+                        <title level="j">This review article originally appeared in the <ref
+                              target="people.html#ReviewMonthly">
+                              <name>
+                                 <hi rendition="#italics">Monthly Review</hi>
+                              </name>
+                           </ref>, Vol. 49, second series, Foreign Appendix, 1806, pp. 541-43.
+                           Benjamin Nangle identifies <ref target="people.html#MoodyElizabeth">
+                              <name>Elizabeth Moody</name>
+                           </ref> as the author of this review from an editor's marked copy of <hi
+                              rendition="#italics">
+                              <title>
+                                 <ref target="people.html#ReviewMonthly">The Monthly Review</ref>
+                              </title>
+                           </hi>. See Nangle, <hi rendition="#italics">
+                              <title>The Montly Review, Second Series, 1790-1815: Indexes of
+                                 Contributors and Articles</title>
+                           </hi>, Clarendon Press, 1955. Zachary Parker and Mary A. Waters edited
+                           this essay for <hi rendition="#italics">The Criticism
+                           Archive</hi>.</title>
+                     </note>
                   </title>
                </bibl>
             </head>
             <p>In order to obtain some information respecting the author of these letters, the
-					reader is referred to the <title>Memoirs of <ref target="people.html#StaalMarguerite-Jeanne">Madame <hi rendition="#smcaps">de</hi> S<hi rendition="#smcaps">taal</hi>
+               reader is referred to the <title>Memoirs of <ref
+                     target="people.html#StaalMarguerite-Jeanne">Madame <hi rendition="#smcaps"
+                        >de</hi> S<hi rendition="#smcaps">taal</hi>
                   </ref>
-               </title>, as published in 2 vols. in 1783.—We there
-					learn that <ref target="people.html#StaalMarguerite-Jeanne">
+               </title>, as published in 2 vols. in 1783.—We there learn that <ref
+                  target="people.html#StaalMarguerite-Jeanne">
                   <hi rendition="#italics">Mademoiselle</hi>
                   <hi rendition="#smcaps"> de</hi> L<hi rendition="#smcaps">aunai</hi>
-               </ref>,
-					by one of the many whimsical incidents which constituted her motley destiny,
-					found herself at an early period a prisoner in the Bastile; to which very <hi rendition="#italics">interesting</hi> confinement (as it ultimately proved)
-					she was introduced by her patroness the Duchess <hi rendition="#italics">Du
-						Maine</hi>: who, having quarreled with the French Court, applied for redress
-					to the Spanish Government; a measure which so irritated the Regent of France, M.
-						<hi rendition="#italics">D’Orléans</hi>, that he ordered her dispatches
-					to be seized, and the Duchess to be sent to the Citadel of Dijon; while <ref target="people.html#StaalMarguerite-Jeanne">Mademoiselle <hi rendition="#smcaps">de</hi> L<hi rendition="#smcaps">aunai</hi>
-               </ref>,
-					her <hi rendition="italics">protégée</hi>, for having assisted in
-					destroying some tell-tale manuscripts, was conveyed to the Bastile. To this
-					event, however unpromising in speculation, <ref target="people.html#StaalMarguerite-Jeanne">Mlle. <hi rendition="#smcaps">de</hi> L<hi rendition="#smcaps">aunai</hi>
-               </ref> appears to have owed
-					the most endearing pleasures of her life. Love, who seems never to have lost
-					sight of her for a moment, provided a resource against that ennui which is so
-					notoriously irksome to the captive, that we are not without examples of the most
-					ingenious devices employed by the solitary inmates of a prison to “whip the
-					lagging moments into speed.” We have heard of a man cultivated an acquaintance
-					with a <hi rendition="#italics">spider</hi>, and extracted a kind of pleasure
-					even from his society. How fortunate, then, may we pronounce <ref target="people.html#StaalMarguerite-Jeanne">Mademoiselle <hi rendition="#smcaps">de</hi>
+               </ref>, by one of the many whimsical incidents which constituted her motley destiny,
+               found herself at an early period a prisoner in the Bastile; to which very <hi
+                  rendition="#italics">interesting</hi> confinement (as it ultimately proved) she
+               was introduced by her patroness the Duchess <hi rendition="#italics">Du Maine</hi>:
+               who, having quarreled with the French Court, applied for redress to the Spanish
+               Government; a measure which so irritated the Regent of France, M. <hi
+                  rendition="#italics">D’Orléans</hi>, that he ordered her dispatches to be seized,
+               and the Duchess to be sent to the Citadel of Dijon; while <ref
+                  target="people.html#StaalMarguerite-Jeanne">Mademoiselle <hi rendition="#smcaps"
+                     >de</hi> L<hi rendition="#smcaps">aunai</hi>
+               </ref>, her <hi rendition="italics">protégée</hi>, for having assisted in destroying
+               some tell-tale manuscripts, was conveyed to the Bastile. To this event, however
+               unpromising in speculation, <ref target="people.html#StaalMarguerite-Jeanne">Mlle.
+                     <hi rendition="#smcaps">de</hi> L<hi rendition="#smcaps">aunai</hi>
+               </ref> appears to have owed the most endearing pleasures of her life. Love, who seems
+               never to have lost sight of her for a moment, provided a resource against that ennui
+               which is so notoriously irksome to the captive, that we are not without examples of
+               the most ingenious devices employed by the solitary inmates of a prison to “whip the
+               lagging moments into speed.” We have heard of a man cultivated an acquaintance with a
+                  <hi rendition="#italics">spider</hi>, and extracted a kind of pleasure even from
+               his society. How fortunate, then, may we pronounce <ref
+                  target="people.html#StaalMarguerite-Jeanne">Mademoiselle <hi rendition="#smcaps"
+                     >de</hi>
                   <hi rendition="#smcaps">Launai</hi>
-               </ref> who found something so much better
-					than even Arachne herself, in the form of a handsome knight, the Chevalier <hi rendition="#italics">De Menil</hi>, who had been sent to the same prison for
-					his devotion to the Duke <hi rendition="#italics">Du Maine</hi>. To this
-					intercourse, for they had never previously said a word to<pb n="542"/> each
-					other, we are indebted for the greatest part of the letters contained in the two
-					volumes before us.</p>
-            <p> Correspondence between lovers immured in a prison we must admit to be invaluable
-					to the Pyramus and Thisbe themselves: they could, no doubt, repeat the same
-					tale, decorate with the same glowing language the same sentiments, and never
-					tire each other: but the reader, if not in love, sickens at the platitude of the
-						<hi rendition="#italics">cooing pens</hi> of poor captives, the locality of
-					whose situation necessarily precluded all communication with the world at large.
-					Hence, the scanty occurrences of the Bastile furnished <ref target="people.html#StaalMarguerite-Jeanne">Mademoiselle <hi rendition="#smcaps">de</hi>
+               </ref> who found something so much better than even Arachne herself, in the form of a
+               handsome knight, the Chevalier <hi rendition="#italics">De Menil</hi>, who had been
+               sent to the same prison for his devotion to the Duke <hi rendition="#italics">Du
+                  Maine</hi>. To this intercourse, for they had never previously said a word to<pb
+                  n="542"/> each other, we are indebted for the greatest part of the letters
+               contained in the two volumes before us.</p>
+            <p> Correspondence between lovers immured in a prison we must admit to be invaluable to
+               the Pyramus and Thisbe themselves: they could, no doubt, repeat the same tale,
+               decorate with the same glowing language the same sentiments, and never tire each
+               other: but the reader, if not in love, sickens at the platitude of the <hi
+                  rendition="#italics">cooing pens</hi> of poor captives, the locality of whose
+               situation necessarily precluded all communication with the world at large. Hence, the
+               scanty occurrences of the Bastile furnished <ref
+                  target="people.html#StaalMarguerite-Jeanne">Mademoiselle <hi rendition="#smcaps"
+                     >de</hi>
                   <hi rendition="#smcaps">Launai</hi>
-               </ref> with no subjects of intelligence
-					but such as love supplied. We have a sanction for our remarks in the description
-					of these letters given in an extract from <ref target="people.html#StaalMarguerite-Jeanne">Madame <hi rendition="#smcaps">de</hi>
+               </ref> with no subjects of intelligence but such as love supplied. We have a sanction
+               for our remarks in the description of these letters given in an extract from <ref
+                  target="people.html#StaalMarguerite-Jeanne">Madame <hi rendition="#smcaps">de</hi>
                   <hi rendition="#smcaps">Staal</hi>
-               </ref>'s memoirs, affixed to this
-					publication, where she thus speaks of them herself:</p>
+               </ref>'s memoirs, affixed to this publication, where she thus speaks of them
+               herself:</p>
             <quote>
-               <p> The little incidents which they contain form the substance of this
-						adventure; they are the actual events which attest their truth, and the
-						sources in which I have recovered some circumstances that had escaped me.
-						They will supply the place of our conversations, always disturbed by fear,
-						abridged by prudence, more short and less continued than our epistolary
-						correspondence, and almost entirely effaced from my memory.</p>
+               <p> The little incidents which they contain form the substance of this adventure;
+                  they are the actual events which attest their truth, and the sources in which I
+                  have recovered some circumstances that had escaped me. They will supply the place
+                  of our conversations, always disturbed by fear, abridged by prudence, more short
+                  and less continued than our epistolary correspondence, and almost entirely effaced
+                  from my memory.</p>
                <p> Our confinement, in a place in which we had no employment, occasioned the
-						production of a countless multitude of letters. That passion, which I
-						believed myself capable of cherishing without offering any outrage to reason
-						or virtue, I expressed without offering any outrage to a reason or virtue, I
-						expressed without any reserve. I spoke to a person to whom I considered
-						myself as already united by the most sacred ties, waiting only for the
-						termination of our captivity in order to render our enjoyment legal and
-						indissoluble.</p>
+                  production of a countless multitude of letters. That passion, which I believed
+                  myself capable of cherishing without offering any outrage to reason or virtue, I
+                  expressed without offering any outrage to a reason or virtue, I expressed without
+                  any reserve. I spoke to a person to whom I considered myself as already united by
+                  the most sacred ties, waiting only for the termination of our captivity in order
+                  to render our enjoyment legal and indissoluble.</p>
             </quote>
-            <p> Notwithstanding this want of general interest, and of novelty, the letters
-					possess much merit. The language is correct and elegant; the sentiments are
-					dignified and moral; and though occasionally impassioned, they are always
-					delicately chaste, and apparently dictated by good sense and amiable
-					dispositions.</p>
-            <p>The correspondence of <ref target="people.html#StaalMarguerite-Jeanne">Mademoiselle <hi rendition="#smcaps">de</hi> L<hi rendition="#smcaps">aunai</hi>
-               </ref> with the Marquis <hi rendition="#italics">De
-						Silly</hi>, and with Monsieur <hi rendition="italics">D’Héricourt</hi>
-					when she had become <ref target="people.html#StaalMarguerite-Jeanne">Madame <hi rendition="#smcaps">de</hi> S<hi rendition="#smcaps">taal</hi>
-               </ref>,
-					equally deserves our approbation on the same ground of merit; and we are
-					indebted to the editor who obliges us with these posthumous credentials of the
-					genius which we formerly admired.</p>
-            <p>In a note, we meet with a sort of biographical table, which may be considered as
-					an useful memorandum, and we shall therefore copy it:</p>
+            <p> Notwithstanding this want of general interest, and of novelty, the letters possess
+               much merit. The language is correct and elegant; the sentiments are dignified and
+               moral; and though occasionally impassioned, they are always delicately chaste, and
+               apparently dictated by good sense and amiable dispositions.</p>
+            <p>The correspondence of <ref target="people.html#StaalMarguerite-Jeanne">Mademoiselle
+                     <hi rendition="#smcaps">de</hi> L<hi rendition="#smcaps">aunai</hi>
+               </ref> with the Marquis <hi rendition="#italics">De Silly</hi>, and with Monsieur <hi
+                  rendition="italics">D’Héricourt</hi> when she had become <ref
+                  target="people.html#StaalMarguerite-Jeanne">Madame <hi rendition="#smcaps">de</hi>
+                     S<hi rendition="#smcaps">taal</hi>
+               </ref>, equally deserves our approbation on the same ground of merit; and we are
+               indebted to the editor who obliges us with these posthumous credentials of the genius
+               which we formerly admired.</p>
+            <p>In a note, we meet with a sort of biographical table, which may be considered as an
+               useful memorandum, and we shall therefore copy it:</p>
             <pb n="543"/>
-            <table rows="17" cols="6">
+            <table rows="17" cols="6" rendition="#deLaunai">
                <row role="data">
                   <cell role="data">
                      <hi rendition="#italics"> Mesdames </hi>
@@ -868,13 +890,14 @@
                   <cell role="data"/>
                   <cell role="data">
                      <hi rendition="#italics">
-                        <ref target="people.html#StaalMarguerite-Jeanne">De Luanai</ref>
+                        <ref target="people.html#StaalMarguerite-Jeanne">De Launai</ref>
                      </hi>
                   </cell>
                   <cell role="data"> (about) </cell>
                   <cell role="data"> 1693 </cell>
                   <cell role="data">
-                     <hi rendition="#italics">(<ref target="people.html#StaalMarguerite-Jeanne">de Staal</ref>)</hi>
+                     <hi rendition="#italics">(<ref target="people.html#StaalMarguerite-Jeanne">de
+                           Staal</ref>)</hi>
                   </cell>
                   <cell role="data"> 1750 </cell>
                </row>
@@ -913,9 +936,8 @@
                   <cell role="data"> 1792 </cell>
                </row>
             </table>
-            <p> These volumes form part of a series of epistolary works now publishing in
-					France, consisting of letters from celebrated French ladies in the last two
-					centuries. </p>
+            <p> These volumes form part of a series of epistolary works now publishing in France,
+               consisting of letters from celebrated French ladies in the last two centuries. </p>
          </div>
       </body>
    </text>

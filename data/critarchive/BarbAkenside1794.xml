@@ -31,15 +31,16 @@
             <biblStruct>
                <analytic>
                   <title level="a">Essay on Akenside's Poem on the Pleasures of the
-                            Imagination</title>
+                     Imagination</title>
                   <author type="writer">
                      <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
                   </author>
                </analytic>
                <monogr>
-                  <title level="m" type="main">The Pleasures of the Imagination. By Mark Akenside, M.D. </title>
-                  <title level="m" type="sub">To Which is Prefixed a Critical Essay on
-                            the Poem, by Mrs. Barbauld.</title>
+                  <title level="m" type="main">The Pleasures of the Imagination. By Mark Akenside,
+                     M.D. </title>
+                  <title type="sub">To Which is Prefixed a Critical Essay on the Poem, by Mrs.
+                     Barbauld.</title>
                   <author type="writer">
                      <name>Akenside, Mark, 1721-1770</name>
                   </author>
@@ -60,28 +61,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -95,15 +95,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -346,11 +355,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -480,7 +490,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -559,7 +569,21 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="8">
+         <change who="#MW" when="20211214">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>line breaks added to forme work</item>
+            </list></change>
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -568,7 +592,7 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#LM" when="20200611" n="7">
+         <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -627,904 +651,781 @@
                <bibl>
                   <author type="writer">
                      <name>
-                        <ref target="people.html#BarbauldMrs">Anna Letitia
-                                Barbauld</ref>
+                        <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
                      </name>
                   </author>
-                  <lb/>
-                  <title type="main" level="a" rendition="#center">
-                     ESSAY <lb/>
+                  <title type="main" level="a">ESSAY <lb/>
                      <hi rendition="#smcaps">on</hi>
                      <lb/>
                      <ref target="people.html#AkensideMark">AKENSIDE</ref>'s POEM <lb/>
                      <hi rendition="#smcaps">on the</hi>
                      <lb/>
-                     <hi rendition="#italics">PLEASURES OF
-                                IMAGINATION</hi>.<hi rendition="#sup">
-                        <note>
-                           <title>
-                              <hi rendition="#italics">The Pleasures of the Imagination.
-                                            By Mark Akenside, M.D. To Which is Prefixed a Critical
-                                            Essay on the Poem, by <ref target="people.html#BarbauldMrs">Mrs.
-                                                Barbauld.</ref>
-                              </hi>
-                           </title> (London: Printed for T.
-                                    Cadell, Junior and W. Davies, in the Strand, by R. Noble, in the
-                                    Old Bailey, 1794), 1-36. Mary A. Waters produced this edition
-                                    for <hi rendition="#italics">The Criticism
-                                Archive</hi>.</note>
-                     </hi>
+                     <hi rendition="#italics">PLEASURES OF IMAGINATION</hi>.<note>
+                        <title>
+                           <hi rendition="#italics">The Pleasures of the Imagination. By Mark
+                              Akenside, M.D. To Which is Prefixed a Critical Essay on the Poem, by
+                                 <ref target="people.html#BarbauldMrs">Mrs. Barbauld.</ref>
+                           </hi>
+                        </title> (London: Printed for T. Cadell, Junior and W. Davies, in the
+                        Strand, by R. Noble, in the Old Bailey, 1794), 1-36. Mary A. Waters produced
+                        this edition for <hi rendition="#italics">The Criticism Archive</hi>.</note>
                   </title>
                </bibl>
             </head>
             <p rendition="#noindent">
                <hi rendition="#largest">D</hi>
-               <hi rendition="#smcaps">idactic</hi>, or preceptive Poetry, seems to include a solecism, for the
-                    end of Poetry is to please, and of Didactic precept the object is instruction.
-                    It is however a species of Poetry which has been cultivated from the earliest
-                    stages of society; at first, probably, for the simple purpose of retaining, by
-                    means of the regularity of measure and the charms of harmony, the precepts of
-                    agricultural wisdom and the aphorisms of economical experience.<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#BarbauldMrs">Barbauld</ref> seems to have in mind a poetic tradition that begins
-                            with <ref target="people.html#Hesiod">Hesiod</ref>’s <hi rendition="#italics">
-                        <title>Works and Days</title>
-                     </hi>, continues
-                            through works such as <ref target="people.html#Xenophon">Xenophon</ref>’s <hi rendition="#italics">
-                        <title>Oeconomicus</title>
-                     </hi> and portions of <ref target="people.html#Virgil">Virgil</ref>'s <hi rendition="#italics">
-                        <title>Georgics</title>
-                     </hi>, and appears in
-                            early modern European literature with such works as the anonymous <hi rendition="#italics">
-                        <title>Le Menagier de Paris, Traite de Morale
-                                    et d'Economie Domestique, compose vers 1393 par un
-                                    Bourgeois Parisien</title>
-                     </hi> and <ref target="people.html#TusserThomas">Thomas Tusser</ref>’s <hi rendition="#italics">
-                        <title>A Hundreth Good Pointes of
-                                    Husbandrie</title>
-                     </hi> (1557), which was repeatedly expanded to
-                            become <hi rendition="#italics">
-                        <title>Fiue Hundred Pointes of Good
-                                    Husbandrie</title>
-                     </hi> (1580). Thanks to my colleague William
-                            Woods for assistance.</note>
-               </hi> When Poetry came to be cultivated for
-               its own sake, it <lb/>
-               <fw type="sig">
-                  <hi rendition="#smcaps">b</hi>
-               </fw>
-               <pb n="2"/>was natural to esteem the Didactic, as in that view it certainly is,
-                    as a species of inferior merit compared with those which are more peculiarly the
-                    work of the imagination; and accordingly in the more splendid era of our own
-                    Poetry it has been much less cultivated than many others. Afterwards, when
-                    Poetry was become an art, and the more obvious sources of description and
-                    adventure were in some measure exhausted, the Didactic was resorted to, as
-                    affording that novelty and variety which began to be the great desideratum in
-                    works of fancy. This species of writing is likewise favoured by the diffusion of
-                    knowledge, by which many subjects become proper for general reading, which in a
-                    less informed state of society, would have savoured of pedantry and abstruse
-                    speculation. For Poetry cannot descend to teach the elements of any art or
-                    science, or confine itself to that regular arrangement and clear brevity which
-                    suits the communication of unknown truths. In fact, the Muse would <pb n="3"/>make a very indifferent school-mistress. Whoever therefore reads a Didactic
-                    Poem ought to come to it with a previous knowledge of his subject; and whoever
-                    writes one, ought to suppose such a knowledge in his readers. If he is obliged
-                    to explain technical terms, to refer continually to critical notes, and to
-                    follow a system step by step with the patient exactness of a teacher, his Poem,
-                    however laboured, will be a bad Poem. His office is rather to throw a lustre on
-                    such prominent parts of his system as are most susceptible of poetical ornament,
-                    and to kindle the enthusiasm of those feelings which the truths he is conversant
-                    with are fitted to inspire. In that beautiful Poem the <title>Essay on
-                        Man</title>,<hi rendition="#sup">
-                  <note>By <ref target="people.html#PopeAlexander">Alexander Pope</ref>.</note>
-               </hi>
-                    the <hi rendition="#italics">system</hi> of the author, if in reality he had any
-                    system, is little attended to, but those passages which breathe the love of
-                    Virtue are read with delight, and fix themselves on the memory. Where the reader
-                    has this previous knowledge of the subject, which we have mentioned as
-                    necessary, the <hi rendition="#italics">art</hi> of <lb/>
-               <fw type="sig">b 2</fw>
-               <pb n="4"/>the Poet becomes itself a source of
-                    pleasure, and sometimes in proportion to the remoteness of the subject from the
-                    more obvious province of Poetry; we are delighted to find with how much
-                    dexterity the artist of verse can avoid a technical term, how neatly he can turn
-                    an uncouth word, and with how much grace embellish a scientific idea. Who does
-                    not admire the infinite art with which <ref target="people.html#DarwinErasmus">Dr. <hi rendition="#smcaps">Darwin</hi>
-               </ref> has described the machine of
-                        <ref target="people.html#ArkwrightRichard">Sir <hi rendition="#smcaps">Richard Arkwright</hi>
-               </ref>.<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#DarwinErasmus">Erasmus Darwin</ref>,
-                                <title>"The Loves of the Plants"</title> II.</note>
-               </hi>
-                    His verse is a piece of mechanism as complete in its kind as that which he
-                    describes. Allured perhaps too much by this artificial species of excellence,
-                    and by the hopes of novelty, hardly any branch of knowledge has been so
-                    abstruse, or so barren of delight as not to have afforded a subject to the
-                    Didactic Poet. Even the loathsomeness of disease and the dry maxims of medical
-                    knowledge have been decorated with the charms of Poetry. Many of these pieces
-                    however owe all their entertainment to frequent digressions. <pb n="5"/>Where
-                    these arise naturally out of the subject, as the description of sheep-shearing
-                    feast in <hi rendition="#smcaps">
+               <hi rendition="#smcaps">idactic</hi>, or preceptive Poetry, seems to include a
+               solecism, for the end of Poetry is to please, and of Didactic precept the object is
+               instruction. It is however a species of Poetry which has been cultivated from the
+               earliest stages of society; at first, probably, for the simple purpose of retaining,
+               by means of the regularity of measure and the charms of harmony, the precepts of
+               agricultural wisdom and the aphorisms of economical experience.<note>
+                  <ref target="people.html#BarbauldMrs">Barbauld</ref> seems to have in mind a
+                  poetic tradition that begins with <ref target="people.html#Hesiod">Hesiod</ref>’s
+                     <hi rendition="#italics">
+                     <title>Works and Days</title>
+                  </hi>, continues through works such as <ref target="people.html#Xenophon"
+                     >Xenophon</ref>’s <hi rendition="#italics">
+                     <title>Oeconomicus</title>
+                  </hi> and portions of <ref target="people.html#Virgil">Virgil</ref>'s <hi
+                     rendition="#italics">
+                     <title>Georgics</title>
+                  </hi>, and appears in early modern European literature with such works as the
+                  anonymous <hi rendition="#italics">
+                     <title>Le Menagier de Paris, Traite de Morale et d'Economie Domestique, compose
+                        vers 1393 par un Bourgeois Parisien</title>
+                  </hi> and <ref target="people.html#TusserThomas">Thomas Tusser</ref>’s <hi
+                     rendition="#italics">
+                     <title>A Hundreth Good Pointes of Husbandrie</title>
+                  </hi> (1557), which was repeatedly expanded to become <hi rendition="#italics">
+                     <title>Fiue Hundred Pointes of Good Husbandrie</title>
+                  </hi> (1580). Thanks to my colleague William Woods for assistance.</note> When
+               Poetry came to be cultivated for its own sake, it <lb/><fw type="sig"><hi
+                     rendition="#smcaps">b</hi></fw>
+               <pb n="2"/>was natural to esteem the Didactic, as in that view it certainly is, as a
+               species of inferior merit compared with those which are more peculiarly the work of
+               the imagination; and accordingly in the more splendid era of our own Poetry it has
+               been much less cultivated than many others. Afterwards, when Poetry was become an
+               art, and the more obvious sources of description and adventure were in some measure
+               exhausted, the Didactic was resorted to, as affording that novelty and variety which
+               began to be the great desideratum in works of fancy. This species of writing is
+               likewise favoured by the diffusion of knowledge, by which many subjects become proper
+               for general reading, which in a less informed state of society, would have savoured
+               of pedantry and abstruse speculation. For Poetry cannot descend to teach the elements
+               of any art or science, or confine itself to that regular arrangement and clear
+               brevity which suits the communication of unknown truths. In fact, the Muse would <pb
+                  n="3"/>make a very indifferent school-mistress. Whoever therefore reads a Didactic
+               Poem ought to come to it with a previous knowledge of his subject; and whoever writes
+               one, ought to suppose such a knowledge in his readers. If he is obliged to explain
+               technical terms, to refer continually to critical notes, and to follow a system step
+               by step with the patient exactness of a teacher, his Poem, however laboured, will be
+               a bad Poem. His office is rather to throw a lustre on such prominent parts of his
+               system as are most susceptible of poetical ornament, and to kindle the enthusiasm of
+               those feelings which the truths he is conversant with are fitted to inspire. In that
+               beautiful Poem the <title>Essay on Man</title>,<note>By <ref
+                     target="people.html#PopeAlexander">Alexander Pope</ref>.</note> the <hi
+                  rendition="#italics">system</hi> of the author, if in reality he had any system,
+               is little attended to, but those passages which breathe the love of Virtue are read
+               with delight, and fix themselves on the memory. Where the reader has this previous
+               knowledge of the subject, which we have mentioned as necessary, the <hi
+                  rendition="#italics">art</hi> of <lb/><fw type="sig"><hi rendition="#smcaps">b
+                     2</hi></fw>
+               <pb n="4"/>the Poet becomes itself a source of pleasure, and sometimes in proportion
+               to the remoteness of the subject from the more obvious province of Poetry; we are
+               delighted to find with how much dexterity the artist of verse can avoid a technical
+               term, how neatly he can turn an uncouth word, and with how much grace embellish a
+               scientific idea. Who does not admire the infinite art with which <ref
+                  target="people.html#DarwinErasmus">Dr. <hi rendition="#smcaps">Darwin</hi>
+               </ref> has described the machine of <ref target="people.html#ArkwrightRichard">Sir
+                     <hi rendition="#smcaps">Richard Arkwright</hi>
+               </ref>.<note>
+                  <ref target="people.html#DarwinErasmus">Erasmus Darwin</ref>, <title>"The Loves of
+                     the Plants"</title> II.</note> His verse is a piece of mechanism as complete in
+               its kind as that which he describes. Allured perhaps too much by this artificial
+               species of excellence, and by the hopes of novelty, hardly any branch of knowledge
+               has been so abstruse, or so barren of delight as not to have afforded a subject to
+               the Didactic Poet. Even the loathsomeness of disease and the dry maxims of medical
+               knowledge have been decorated with the charms of Poetry. Many of these pieces however
+               owe all their entertainment to frequent digressions. <pb n="5"/>Where these arise
+               naturally out of the subject, as the description of sheep-shearing feast in <hi
+                  rendition="#smcaps">
                   <ref target="people.html#DyerGeorge">Dyer</ref>
-               </hi>, or the praises of Italy in the Georgics, they are not only
-                    allowable but graceful; but if forced, as is the story of <hi rendition="#smcaps">Orpheus</hi> and <hi rendition="#smcaps">Eurydice</hi>
-                    in the same Poem,<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#Virgil">Virgil</ref>’s <hi rendition="#italics">
-                        <title>Georgics</title>
-                     </hi> features this story toward its
-                            conclusion.</note>
-               </hi> they can be considered in no other light than
-                    that of beautiful monsters, and injure the piece they are meant to adorn. The
-                    subject of a Didactic Poem therefore ought to be such as is in itself attractive
-                    to the man of taste, for otherwise all attempts to make it so by adventitious
-                    ornaments, will be but like loading with jewels and drapery a figure originally
-                    defective and ill made.</p>
-            <p>Of all the subjects which have engaged the attention of Didactic Poets, there is
-                    not perhaps a happier than that made choice of by <hi rendition="#smcaps">
+               </hi>, or the praises of Italy in the Georgics, they are not only allowable but
+               graceful; but if forced, as is the story of <hi rendition="#smcaps">Orpheus</hi> and
+                  <hi rendition="#smcaps">Eurydice</hi> in the same Poem,<note>
+                  <ref target="people.html#Virgil">Virgil</ref>’s <hi rendition="#italics">
+                     <title>Georgics</title>
+                  </hi> features this story toward its conclusion.</note> they can be considered in
+               no other light than that of beautiful monsters, and injure the piece they are meant
+               to adorn. The subject of a Didactic Poem therefore ought to be such as is in itself
+               attractive to the man of taste, for otherwise all attempts to make it so by
+               adventitious ornaments, will be but like loading with jewels and drapery a figure
+               originally defective and ill made.</p>
+            <p>Of all the subjects which have engaged the attention of Didactic Poets, there is not
+               perhaps a happier than that made choice of by <hi rendition="#smcaps">
                   <ref target="people.html#AkensideMark">Akenside</ref>
                </hi>, <hi rendition="#italics">
                   <title>The Pleasures of Imagination</title>
-               </hi>; in
-                    which every step of the disquisition calls up objects of the most attractive
-                    kind, and Fancy is made as it were to hold a mirror to her own charms.
-                    Imagination is the <pb n="6"/>very source and well-head of Poetry, and nothing
-                    forced or foreign to the Muse could easily flow from such a subject. Accordingly
-                    we see that the author has kept close to his system, and has admitted neither
-                    episode nor digression: the allegory in the second book, which is introduced for
-                    the purpose of illustrating his theory, being all that can properly be called
-                    ornament in this whole Poem. It must be acknowledged however, that engaging as
-                    his subject is to minds prepared to examine it, to the generality of readers it
-                    must appear dry and abstruse. It is a work which offers us entertainment, but
-                    not of that easy kind amidst which the mind remains passive, and has nothing to
-                    do but to receive impressions. Those who have studied the metaphysics of mind,
-                    and who are accustomed to investigate abstract ideas, will read it with a lively
-                    pleasure; but those who seek mere amusement in a Poem, will find many far
-                    inferior ones better suited to their purpose. The judicious admirer of <pb n="7"/>
+               </hi>; in which every step of the disquisition calls up objects of the most
+               attractive kind, and Fancy is made as it were to hold a mirror to her own charms.
+               Imagination is the <pb n="6"/>very source and well-head of Poetry, and nothing forced
+               or foreign to the Muse could easily flow from such a subject. Accordingly we see that
+               the author has kept close to his system, and has admitted neither episode nor
+               digression: the allegory in the second book, which is introduced for the purpose of
+               illustrating his theory, being all that can properly be called ornament in this whole
+               Poem. It must be acknowledged however, that engaging as his subject is to minds
+               prepared to examine it, to the generality of readers it must appear dry and abstruse.
+               It is a work which offers us entertainment, but not of that easy kind amidst which
+               the mind remains passive, and has nothing to do but to receive impressions. Those who
+               have studied the metaphysics of mind, and who are accustomed to investigate abstract
+               ideas, will read it with a lively pleasure; but those who seek mere amusement in a
+               Poem, will find many far inferior ones better suited to their purpose. The judicious
+               admirer of <pb n="7"/>
                <hi rendition="#smcaps">
                   <ref target="people.html#AkensideMark">Akenside</ref>
-               </hi> will not call people from the fields and the
-                    highways to partake of his feast; he will wish none to read that are not capable
-                    of understanding him. </p>
+               </hi> will not call people from the fields and the highways to partake of his feast;
+               he will wish none to read that are not capable of understanding him. </p>
             <p>The ground-work of <hi rendition="#italics">
-                  <title>The Pleasures of
-                            Imagination</title>
+                  <title>The Pleasures of Imagination</title>
                </hi> is to be found in <hi rendition="#smcaps">
                   <ref target="people.html#AddisonJoseph">Addison</ref>
-               </hi>’s Essays on the
-                    same subject, published in the Spectator.<hi rendition="#sup">
-                  <note>This daily series extends from the <hi rendition="#italics">
-                        <title>Spectator</title>
-                     </hi> No. 411 (Saturday, June 21, 1712)
-                            through <hi rendition="#italics">
-                        <title>Spectator</title>
-                     </hi> No. 421
-                            (Thursday, July 3, 1712). The final paper includes brief abstracts of
-                            each paper in the series.</note>
-               </hi> Except in the book which treats on
-                    Ridicule, and even of that the hint is there given, our author follows nearly
-                    the same track; and he is indebted to them not only for the leading thoughts and
-                    grand division of his subject, but for much of the colouring also: for the
-                    papers of <hi rendition="#smcaps">
+               </hi>’s Essays on the same subject, published in the Spectator.<note>This daily
+                  series extends from the <hi rendition="#italics">
+                     <title>Spectator</title>
+                  </hi> No. 411 (Saturday, June 21, 1712) through <hi rendition="#italics">
+                     <title>Spectator</title>
+                  </hi> No. 421 (Thursday, July 3, 1712). The final paper includes brief abstracts
+                  of each paper in the series.</note> Except in the book which treats on Ridicule,
+               and even of that the hint is there given, our author follows nearly the same track;
+               and he is indebted to them not only for the leading thoughts and grand division of
+               his subject, but for much of the colouring also: for the papers of <hi
+                  rendition="#smcaps">
                   <ref target="people.html#AddisonJoseph">Addison</ref>
-               </hi> are wrought up with so much elegance of language,
-                    and adorned with so many beautiful illustrations, that they are equal to the
-                    most finished Poem. Perhaps the obligations of the Poet to the Essay-writer are
-                    not sufficiently adverted to, the latter being only slightly mentioned in the
-                    preface to the Poem. It is not meant however to insinuate that <hi rendition="#smcaps">
+               </hi> are wrought up with so much elegance of language, and adorned with so many
+               beautiful illustrations, that they are equal to the most finished Poem. Perhaps the
+               obligations of the Poet to the Essay-writer are not sufficiently adverted to, the
+               latter being only slightly mentioned in the preface to the Poem. It is not meant
+               however to insinuate that <hi rendition="#smcaps">
                   <ref target="people.html#AkensideMark">Akenside</ref>
-               </hi> had not various <pb n="8"/>other sources of his ideas.
-                    He sat down to this work, which was published at the early age of three and
-                    twenty, warm from the schools of ancient philosophy, whose spirit he had deeply
-                    imbibed, and full of enthusiasm for the treasures of Greek and Roman literature.
-                    The works of no author have a more classic air than those of our Poet. His hymn
-                    to the Naïads<hi rendition="#sup">
-                  <note>First published in the
-                            final volume of <hi rendition="#italics">
-                        <title>A Collection of Poems in
-                                    Six Volumes: by Several Hands</title>
-                     </hi> (1748-1758), an
-                            anthology with which <ref target="people.html#AkensideMark">Akenside</ref> assisted. </note>
-               </hi> shews the most intimate
-                    acquaintance with their mythology. Their laws, their arts, their liberty, were
-                    equally objects of his warm admiration, and are frequently referred to in
-                    various parts of his Poems. He was fond of the Platonic philosophy, and mingled
-                    with the splendid visions of the Academic school, ideas of the fair and
-                    beautiful in morals and in taste, gathered from the writings of <hi rendition="#smcaps">
+               </hi> had not various <pb n="8"/>other sources of his ideas. He sat down to this
+               work, which was published at the early age of three and twenty, warm from the schools
+               of ancient philosophy, whose spirit he had deeply imbibed, and full of enthusiasm for
+               the treasures of Greek and Roman literature. The works of no author have a more
+               classic air than those of our Poet. His hymn to the Naïads<note>First published in
+                  the final volume of <hi rendition="#italics">
+                     <title>A Collection of Poems in Six Volumes: by Several Hands</title>
+                  </hi> (1748-1758), an anthology with which <ref target="people.html#AkensideMark"
+                     >Akenside</ref> assisted. </note> shews the most intimate acquaintance with
+               their mythology. Their laws, their arts, their liberty, were equally objects of his
+               warm admiration, and are frequently referred to in various parts of his Poems. He was
+               fond of the Platonic philosophy, and mingled with the splendid visions of the
+               Academic school, ideas of the fair and beautiful in morals and in taste, gathered
+               from the writings of <hi rendition="#smcaps">
                   <ref target="people.html#ShaftesburyAnthonyAshleyCooper">Shaftesbury</ref>
                </hi>, <hi rendition="#smcaps">
                   <ref target="people.html#HutchesonFrancis">Hutchinson</ref>
-               </hi>, and others
-                    of that stamp, who then very much engaged the notice of the public. Educated in
-                    the university of Edinburgh, he joined to his classic literature, the keen
-                    discriminating spirit of metaphysic in-<pb n="9"/>quiry, and the taste for moral
-                    beauty which has so much distinguished our northern seminaries, and which the
-                    celebrity of their professors, and the genius of the place has never failed of
-                    communicating to their disciples. Thus prepared, by nature with genius, and by
-                    education with the previous studies and habits of thinking, he was peculiarly
-                    fitted for writing a philosophical Poem. </p>
+               </hi>, and others of that stamp, who then very much engaged the notice of the public.
+               Educated in the university of Edinburgh, he joined to his classic literature, the
+               keen discriminating spirit of metaphysic in-<pb n="9"/>quiry, and the taste for moral
+               beauty which has so much distinguished our northern seminaries, and which the
+               celebrity of their professors, and the genius of the place has never failed of
+               communicating to their disciples. Thus prepared, by nature with genius, and by
+               education with the previous studies and habits of thinking, he was peculiarly fitted
+               for writing a philosophical Poem. </p>
             <p>The first lines contain the definition of his subject, which he has judiciously
-                    varied from his master <hi rendition="#smcaps">
+               varied from his master <hi rendition="#smcaps">
                   <ref target="people.html#AddisonJoseph">Addison</ref>
-               </hi>, who expressly
-                    confines the pleasures of imagination to "such as arise from visible
-                    objects only;" and divides them into "the primary pleasures of the
-                    imagination, which entirely proceed from such objects as are before our eyes,
-                    and those secondary pleasures of the imagination which flow from the ideas of
-                    visible objects when the objects are not actually before the eye, but are called
-                    up into our memories, or formed into agreeable visions of things that are either
-                    absent or fictitious."<hi rendition="#sup">
-                  <note>This quote
-                            and the previous one are slightly altered from the <hi rendition="#italics">
-                        <title>Spectator</title>
-                     </hi> No. 411
-                            (Saturday, June 21, 1712).</note>
-               </hi> This <pb n="10"/>definition seems
-                    to exclude a blind man from any share whatever of those pleasures, and yet who
-                    would deny that the elegant mind of <hi rendition="#smcaps">
+               </hi>, who expressly confines the pleasures of imagination to "such as arise from
+               visible objects only;" and divides them into "the primary pleasures of the
+               imagination, which entirely proceed from such objects as are before our eyes, and
+               those secondary pleasures of the imagination which flow from the ideas of visible
+               objects when the objects are not actually before the eye, but are called up into our
+               memories, or formed into agreeable visions of things that are either absent or
+                  fictitious."<note>This quote and the previous one are slightly altered from the
+                     <hi rendition="#italics">
+                     <title>Spectator</title>
+                  </hi> No. 411 (Saturday, June 21, 1712).</note> This <pb n="10"/>definition seems
+               to exclude a blind man from any share whatever of those pleasures, and yet who would
+               deny that the elegant mind of <hi rendition="#smcaps">
                   <ref target="people.html#BlacklockThomas">Blacklock</ref>
-               </hi> was capable of
-                    receiving and even of imparting them in no small degree. Our author therefore
-                    includes every source by which, through any of our senses or perceptions, we
-                    receive notices of the world around us; as well as the reflex pleasures derived
-                    from the imitative arts. <quote>
+               </hi> was capable of receiving and even of imparting them in no small degree. Our
+               author therefore includes every source by which, through any of our senses or
+               perceptions, we receive notices of the world around us; as well as the reflex
+               pleasures derived from the imitative arts. <quote>
                   <lg type="stanza">
                      <l>With what attractive charms this goodly frame</l>
                      <l>Of nature touches the consenting hearts</l>
                      <l>Of mortal men, and what the pleasing stores </l>
                      <l>Which beauteous imitation thence derives, </l>
                      <l>To deck the Poet's or the Painter's toil, </l>
-                     <l>My verse unfolds.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                                 <title>The Pleasures of
-                                                Imagination</title>
-                              </hi> I.1-6.</note>
-                        </hi>
+                     <l>My verse unfolds.<note>
+                           <ref target="people.html#AkensideMark">Akenside</ref>, <hi
+                              rendition="#italics">
+                              <title>The Pleasures of Imagination</title>
+                           </hi> I.1-6.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>After this clear and concise definition, and a lively and appropriate invocation
-                    to the powers of Fancy guided by Truth and Liberty, the Author begins by
-                    unfolding the Platonic idea that the universe with all its forms of material
-                    beauty was called into <pb n="11"/>being from its pototype [<hi rendition="#italics">sic</hi>], existing from all eternity in the divine
-                    mind. The different propensities that human beings are born with to various
-                    pursuits, are enumerated in some very beautiful lines, and <hi rendition="#italics">those</hi> are declared to be the most noble which lead
-                    a chosen few to the love and contemplation of the supreme beauty by the love and
-                    contemplation of his works. The Poet thus immediately, and at the very outset,
-                    dignifies his theme, by connecting it with the sublimest feelings the human mind
-                    is capable of entertaining, feelings without which the various scenes of this
-                    beautiful universe degenerate into gaudy shows, fit to catch the eye of
-                    children, but uninteresting to the heart and affections; and those laws and
-                    properties about which Philosophy busies herself, into a bewildering mass of
-                    unconnected experiments and independent facts. These lines afford more than one
-                    example of climax, graceful repetition, and richness of poetic language. The
-                    subject is then branched out into the three grand divisions marked <pb n="12"/>by <hi rendition="#smcaps">
+            <p>After this clear and concise definition, and a lively and appropriate invocation to
+               the powers of Fancy guided by Truth and Liberty, the Author begins by unfolding the
+               Platonic idea that the universe with all its forms of material beauty was called into
+                  <pb n="11"/>being from its pototype [<hi rendition="#italics">sic</hi>], existing
+               from all eternity in the divine mind. The different propensities that human beings
+               are born with to various pursuits, are enumerated in some very beautiful lines, and
+                  <hi rendition="#italics">those</hi> are declared to be the most noble which lead a
+               chosen few to the love and contemplation of the supreme beauty by the love and
+               contemplation of his works. The Poet thus immediately, and at the very outset,
+               dignifies his theme, by connecting it with the sublimest feelings the human mind is
+               capable of entertaining, feelings without which the various scenes of this beautiful
+               universe degenerate into gaudy shows, fit to catch the eye of children, but
+               uninteresting to the heart and affections; and those laws and properties about which
+               Philosophy busies herself, into a bewildering mass of unconnected experiments and
+               independent facts. These lines afford more than one example of climax, graceful
+               repetition, and richness of poetic language. The subject is then branched out into
+               the three grand divisions marked <pb n="12"/>by <hi rendition="#smcaps">
                   <ref target="people.html#AddisonJoseph">Addison</ref>
-               </hi>. [<hi rendition="#italics">sic</hi>] the <hi rendition="#italics">Sublime</hi>, the <hi rendition="#italics">Wonderful</hi>, and the <hi rendition="#italics">Beautiful</hi>. Each is
-                    exemplified with equal judgment and taste, but the sublime is perhaps expressed
-                    with most energy, as it certainly was most congenial to the mind of our author.
-                    The passage of which the thought is borrowed from <hi rendition="#smcaps">
+               </hi>. [<hi rendition="#italics">sic</hi>] the <hi rendition="#italics">Sublime</hi>,
+               the <hi rendition="#italics">Wonderful</hi>, and the <hi rendition="#italics"
+                  >Beautiful</hi>. Each is exemplified with equal judgment and taste, but the
+               sublime is perhaps expressed with most energy, as it certainly was most congenial to
+               the mind of our author. The passage of which the thought is borrowed from <hi
+                  rendition="#smcaps">
                   <ref target="people.html#Longinus">Longinus</ref>
-               </hi>, <hi rendition="#italics">Say why was man so eminently raised</hi>,<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                        <title>The Pleasures of
-                                    Imagination</title>
-                     </hi> I.151-2. Akenside cites as his source
-                                <ref target="people.html#Longinus">Longinus</ref> [<hi rendition="#italics">
-                        <title>On the Sublime</title>
-                     </hi>] XXXV, but
-                            the idea is sprinkled through <ref target="people.html#AddisonJoseph">Addison</ref>’s papers on the Pleasures of Imagination as well.
-                        </note>
-               </hi> is almost unequalled in grandeur of thought and loftiness of
-                    expression, yet it has not the appearance, as some other parts of the Poem have,
-                    of being laboured into excellence, but rather of being thrown off at once amidst
-                    the swell and fervency of a kindled imagination. The final cause of each of
-                    these propensities is happily insinuated; of the sense of the sublime, to lead
-                    us to the contemplation of the Supreme Being; of that of novelty to awaken us to
-                    constant activity; of beauty to mark out to us the objects most perfect in their
-                    kind. Thus does he make Philosophy and Poetry to go hand in hand. The
-                    exemplification of the love of novelty in the audi-<pb n="13"/>ence of the <hi rendition="#italics">village matron</hi> who tells of <hi rendition="#italics">witching rhymes and evil spirits</hi>, is highly
-                    wrought. The author however had doubtless in his mind not only the Essays of <hi rendition="#smcaps">
+               </hi>, <hi rendition="#italics">Say why was man so eminently raised</hi>,<note>
+                  <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
+                     <title>The Pleasures of Imagination</title>
+                  </hi> I.151-2. Akenside cites as his source <ref target="people.html#Longinus"
+                     >Longinus</ref> [<hi rendition="#italics">
+                     <title>On the Sublime</title>
+                  </hi>] XXXV, but the idea is sprinkled through <ref
+                     target="people.html#AddisonJoseph">Addison</ref>’s papers on the Pleasures of
+                  Imagination as well. </note> is almost unequalled in grandeur of thought and
+               loftiness of expression, yet it has not the appearance, as some other parts of the
+               Poem have, of being laboured into excellence, but rather of being thrown off at once
+               amidst the swell and fervency of a kindled imagination. The final cause of each of
+               these propensities is happily insinuated; of the sense of the sublime, to lead us to
+               the contemplation of the Supreme Being; of that of novelty to awaken us to constant
+               activity; of beauty to mark out to us the objects most perfect in their kind. Thus
+               does he make Philosophy and Poetry to go hand in hand. The exemplification of the
+               love of novelty in the audi-<pb n="13"/>ence of the <hi rendition="#italics">village
+                  matron</hi> who tells of <hi rendition="#italics">witching rhymes and evil
+                  spirits</hi>, is highly wrought. The author however had doubtless in his mind not
+               only the Essays of <hi rendition="#smcaps">
                   <ref target="people.html#AddisonJoseph">Addison</ref>
-               </hi>, which were immediately under his eye, but that passage
-                    in another paper where he represents the circle at his landlady's closing
-                    their ranks, and crowding round the fire at the conclusion of every story of
-                    ghosts: <hi rendition="#italics">Around the beldam all arrect</hi>
-               <hi rendition="#sup">
-                  <note>Attentive.</note>
-               </hi>
-               <hi rendition="#italics">they hang. Congealed with shivering sighs</hi>, very
-                    happily expresses the effects of that kind of terror, which makes a man shrink
-                    into himself, and feel afraid, as it were, to draw a full inspiration.<hi rendition="#sup">
-                  <note>The section on the tale-telling village
-                            matron appears in <ref target="people.html#AkensideMark">Akenside</ref>,
-                                <hi rendition="#italics">
-                        <title>The Pleasures of
-                                Imagination</title>
-                     </hi> I.255-70. The other paper by <ref target="people.html#AddisonJoseph">Addison</ref> that <ref target="people.html#BarbauldMrs">Barbauld</ref> mentions is <hi rendition="#italics">
-                        <title>Spectator</title>
-                     </hi> No. 12
-                            (Wednesday, March 3, 1711).</note>
-               </hi> It may be doubted however
-                    whether the attraction which is felt towards these kind of sensations when they
-                    rise to terror, can be fairly referred to the love of novelty. It seems rather
-                    to depend on that charm, afterwards touched upon, which is attached to every
-                    thing that strongly stirs and agitates the mind. In his description of Beauty,
-                    which is adorned with all the graces of the chaster <pb n="14"/>
+               </hi>, which were immediately under his eye, but that passage in another paper where
+               he represents the circle at his landlady's closing their ranks, and crowding round
+               the fire at the conclusion of every story of ghosts: <hi rendition="#italics">Around
+                  the beldam all arrect</hi>
+               <note>Attentive.</note>
+               <hi rendition="#italics">they hang. Congealed with shivering sighs</hi>, very happily
+               expresses the effects of that kind of terror, which makes a man shrink into himself,
+               and feel afraid, as it were, to draw a full inspiration.<note>The section on the
+                  tale-telling village matron appears in <ref target="people.html#AkensideMark"
+                     >Akenside</ref>, <hi rendition="#italics">
+                     <title>The Pleasures of Imagination</title>
+                  </hi> I.255-70. The other paper by <ref target="people.html#AddisonJoseph"
+                     >Addison</ref> that <ref target="people.html#BarbauldMrs">Barbauld</ref>
+                  mentions is <hi rendition="#italics">
+                     <title>Spectator</title>
+                  </hi> No. 12 (Wednesday, March 3, 1711).</note> It may be doubted however whether
+               the attraction which is felt towards these kind of sensations when they rise to
+               terror, can be fairly referred to the love of novelty. It seems rather to depend on
+               that charm, afterwards touched upon, which is attached to every thing that strongly
+               stirs and agitates the mind. In his description of Beauty, which is adorned with all
+               the graces of the chaster <pb n="14"/>
                <hi rendition="#smcaps">
                   <ref target="people.html#Venus">Venus</ref>
-               </hi>, the
-                    author takes occasion to aim a palpable stroke at the Night Thoughts of <ref target="people.html#YoungEdward">Dr. <hi rendition="#smcaps">Young</hi>
-               </ref>, which are here characterized by "the ghostly gloom
-                    of graves and hoary vaults and cloistered cells, by walking with spectres
-                    through the midnight shade, and attuning the dreadful workings of his heart to
-                    the accursed song of the screaming owl."<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                        <title>The Pleasures of
-                                Imagination</title>
-                     </hi> I.396-400, altered.</note>
-               </hi> The same
-                    allusion is repeated in one of his Odes, <quote>
+               </hi>, the author takes occasion to aim a palpable stroke at the Night Thoughts of
+                  <ref target="people.html#YoungEdward">Dr. <hi rendition="#smcaps">Young</hi>
+               </ref>, which are here characterized by "the ghostly gloom of graves and hoary vaults
+               and cloistered cells, by walking with spectres through the midnight shade, and
+               attuning the dreadful workings of his heart to the accursed song of the screaming owl."<note>
+                  <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
+                     <title>The Pleasures of Imagination</title>
+                  </hi> I.396-400, altered.</note> The same allusion is repeated in one of his Odes, <quote>
                   <lg type="stanza">
                      <l>Nor where the boding raven chaunts,</l>
                      <l>Nor near the owl’s unhallow’d haunts </l>
                      <l>Will she (the Muse) her cares employ; </l>
                      <l>She flies from ruins and from tombs, </l>
                      <l>From Superstition's horrid glooms, </l>
-                     <l>To day-light and to joy.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                                 <title>Odes on Several
-                                                Subjects</title>
-                              </hi> (1745), <title>"Ode
-                                            I"</title> 31-6.</note>
-                        </hi>
+                     <l>To day-light and to joy.<note>
+                           <ref target="people.html#AkensideMark">Akenside</ref>, <hi
+                              rendition="#italics">
+                              <title>Odes on Several Subjects</title>
+                           </hi> (1745), <title>"Ode I"</title> 31-6.</note>
                      </l>
                   </lg>
                </quote>
             </p>
             <p>This antipathy is not surprising: for never were two Poets more contrasted. Our
-                    author had more of taste and judgment, <hi rendition="#smcaps">
+               author had more of taste and judgment, <hi rendition="#smcaps">
                   <ref target="people.html#YoungEdward">Young</ref>
-               </hi> more of originality.
-                        <hi rendition="#smcaps">
+               </hi> more of originality. <hi rendition="#smcaps">
                   <ref target="people.html#AkensideMark">Akenside</ref>
                </hi> maintains throughout an uniform dignity, <hi rendition="#smcaps">
                   <ref target="people.html#YoungEdward">Young</ref>
-               </hi>
-                    has been characteristically described in a late Poem as one in whom <pb n="15"/>
+               </hi> has been characteristically described in a late Poem as one in whom <pb n="15"/>
                <quote>
                   <lg type="stanza">
                      <l>Still gleams and still expires the cloudy day </l>
-                     <l>Of genuine Poetry.<hi rendition="#sup">
-                           <note>The line is
-                                        often cited, but without attribution.</note>
-                        </hi>
+                     <l>Of genuine Poetry.<note>The line is often cited, but without
+                           attribution.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>The genius of the one was clouded over with the deepest glooms of Calvinism, to
-                    which system however he owed some of his most striking beauties. The religion of
-                    the other, all at least that appears of it, and all indeed that could with
-                    propriety appear in such a Poem, is the purest Theism: liberal, cheerful, and
-                    sublime; or, if admitting any mixture, he seems inclined to tincture it with the
-                    mysticism of <hi rendition="#smcaps">
+            <p>The genius of the one was clouded over with the deepest glooms of Calvinism, to which
+               system however he owed some of his most striking beauties. The religion of the other,
+               all at least that appears of it, and all indeed that could with propriety appear in
+               such a Poem, is the purest Theism: liberal, cheerful, and sublime; or, if admitting
+               any mixture, he seems inclined to tincture it with the mysticism of <hi
+                  rendition="#smcaps">
                   <ref target="people.html#Plato">Plato</ref>
-               </hi>, and the gay fables of ancient mythology. The one declaims
-                    against infidels, the other against monks, the one resembles the Gothic, the
-                    other the Grecian architecture, the one has been read with deep interest by many
-                    who, when they have abandoned the tenets of orthodoxy can scarcely bear to
-                    re-peruse him; the other, dealing more in general truths, will always be read
-                    with pleasure, though he will never make so deep an impression. </p>
-            <p>The Poem goes on to trace the connection of beauty with truth, by shewing that
-                    all the beauty <pb n="16"/>we admire in vegetable or animal life results from
-                    the fitness of the object to the use for which it is intended, and serves as a
-                    kind of stamp set by the Creator to point out the health, soundness, and
-                    perfection of the form in which it resides. This leads him on to speak of moral
-                    beauty, and tracing the regular gradations of beauty through colour, shape,
-                    symmetry, and grace, to its highest character in the expression of moral
-                    feelings, he breaks out into an animated apostrophe, <quote>
+               </hi>, and the gay fables of ancient mythology. The one declaims against infidels,
+               the other against monks, the one resembles the Gothic, the other the Grecian
+               architecture, the one has been read with deep interest by many who, when they have
+               abandoned the tenets of orthodoxy can scarcely bear to re-peruse him; the other,
+               dealing more in general truths, will always be read with pleasure, though he will
+               never make so deep an impression. </p>
+            <p>The Poem goes on to trace the connection of beauty with truth, by shewing that all
+               the beauty <pb n="16"/>we admire in vegetable or animal life results from the fitness
+               of the object to the use for which it is intended, and serves as a kind of stamp set
+               by the Creator to point out the health, soundness, and perfection of the form in
+               which it resides. This leads him on to speak of moral beauty, and tracing the regular
+               gradations of beauty through colour, shape, symmetry, and grace, to its highest
+               character in the expression of moral feelings, he breaks out into an animated
+               apostrophe, <quote>
                   <lg type="stanza">
                      <l>Mind, mind alone—the living fountain in itself contains </l>
-                     <l>Of beauteous or sublime.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                                 <title>The Pleasures of
-                                                Imagination</title>
-                              </hi> I.480-2.</note>
-                        </hi>
+                     <l>Of beauteous or sublime.<note>
+                           <ref target="people.html#AkensideMark">Akenside</ref>, <hi
+                              rendition="#italics">
+                              <title>The Pleasures of Imagination</title>
+                           </hi> I.480-2.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>The Poem continues in a high strain of noble enthusiasm to the end of the book,
-                    and concludes with an invocation to the genius of ancient Greece, with whose
-                    philosophy and high sense of liberty he was equally enamoured. It is easy for
-                    the reader who is conversant in the writings of <hi rendition="#smcaps">
+            <p>The Poem continues in a high strain of noble enthusiasm to the end of the book, and
+               concludes with an invocation to the genius of ancient Greece, with whose philosophy
+               and high sense of liberty he was equally enamoured. It is easy for the reader who is
+               conversant in the writings of <hi rendition="#smcaps">
                   <ref target="people.html#ShaftesburyAnthonyAshleyCooper">Shaftesbury</ref>
                </hi> and <hi rendition="#smcaps">
                   <ref target="people.html#HutchesonFrancis">Hutchinson</ref>
-               </hi> to perceive
-                    how much their elegant and fascinating system is adapted to ennoble our <pb n="17"/>author's subject, and how much the <hi rendition="#italics">
+               </hi> to perceive how much their elegant and fascinating system is adapted to ennoble
+               our <pb n="17"/>author's subject, and how much the <hi rendition="#italics">
                   <title>Pleasures of Imagination</title>
-               </hi> are raised in value and
-                    importance by building the throne of virtue so near the bower of beauty. The
-                    book is complete in itself; and if we may be allowed to hazard a conjecture,
-                    contains nearly the whole of what the author on the first view might think
-                    necessary to his subject. </p>
-            <p>The second book opens with a complaint, founded perhaps rather in a partiality
-                    for the ancients, than attention to fact, of the disunion in modern times of
-                    Philosophy and Poetry. To the same classic prejudice (to which a good scholar is
-                    very prone) may be attributed the mention of the courtly compliments which
-                    debased the verse of <hi rendition="#smcaps">
+               </hi> are raised in value and importance by building the throne of virtue so near the
+               bower of beauty. The book is complete in itself; and if we may be allowed to hazard a
+               conjecture, contains nearly the whole of what the author on the first view might
+               think necessary to his subject. </p>
+            <p>The second book opens with a complaint, founded perhaps rather in a partiality for
+               the ancients, than attention to fact, of the disunion in modern times of Philosophy
+               and Poetry. To the same classic prejudice (to which a good scholar is very prone) may
+               be attributed the mention of the courtly compliments which debased the verse of <hi
+                  rendition="#smcaps">
                   <ref target="people.html#TassoTorquato">Tasso</ref>
-               </hi>: and the
-                    superstitious legends which employed the pencil of <hi rendition="#smcaps">
+               </hi>: and the superstitious legends which employed the pencil of <hi
+                  rendition="#smcaps">
                   <ref target="people.html#Raphael">Raphael</ref>
-               </hi> in contradistinction to
-                    the works of the ancients, as if, in sober truth, any one was prepared to assert
-                    that there was less flattery in the Augustan age, and less superstition in the
-                    idle mythology of <hi rendition="#smcaps">
+               </hi> in contradistinction to the works of the ancients, as if, in sober truth, any
+               one was prepared to assert that there was less flattery in the Augustan age, and less
+               superstition in the idle mythology of <hi rendition="#smcaps">
                   <ref target="people.html#Homer">Homer</ref>
                </hi> and <hi rendition="#smcaps">
                   <ref target="people.html#Ovid">Ovid</ref>
-               </hi>. Such prejudices <lb/>
-               <fw type="sig">
-                  <hi rendition="#smcaps">c</hi>
-               </fw>
-               <pb n="18"/>ought to be laid
-                    aside with the gradus<hi rendition="#sup">
-                  <note>"Short for <hi rendition="#italics">
-                        <title>Gradus ad Parnassum</title>
-                     </hi> ‘a step
-                            to Parnassus’, the Latin title of a dictionary of prosody until recently
-                            used in English public schools, intended as an aid in Latin
-                            versification, both by giving the ‘quantities’ of words and by
-                            suggesting poetical epithets and phraseology. Hence applied to later
-                            works of similar plan and object" ("gradus, n.," <hi rendition="#italics">
-                        <title>Oxford English Dictionary</title>
-                     </hi>,
-                            Second ed., 1989; online version March 2011. Web. 27 May
-                        2011).</note>
-               </hi> of the school-boy. The Poet proceeds to consider the
-                    accession to the Pleasures of the Imagination from adventitious circumstances,
-                    of which he gives various instances: that of the Newtonian theory of the
-                        rainbow<hi rendition="#sup">
-                  <note>Isaac Newton published his
-                            lectures explaining the effects of a prism on white light under the
-                            title <hi rendition="#italics">
-                        <title>Opticks</title>
-                     </hi> in 1704.
-                        </note>
-               </hi> seems too abstruse even for a philosophical Poem; it may be
-                    doubted whether, if understood, it is of a nature to mix well with the pleasure
-                    of colours; it certainly does not accord well with that of verse. The influence
-                    of Passion is next considered, and the mysterious pleasure which is mixed with
-                    the energies and emotions of those passions that are in their own nature
-                    painful. To solve this problem, which has been one in all ages, a long allegory
-                    is introduced, which, though wrought up with a good deal of the decoration of
-                    Poetry, is nearly as difficult to comprehend as the problem itself. It begins
-                    with presenting a scene of desolation, <hi rendition="#italics">where the
-                        parched adder dies;</hi>
-               <hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                        <title>The Pleasures of
-                                Imagination</title>
-                     </hi> II.207, slightly altered.</note>
-               </hi> this
-                    vanishes, and another is presented. What we hoped to have heard from the Poet,
-                    we <pb n="19"/>are directed to learn from old <hi rendition="#smcaps">
+               </hi>. Such prejudices <lb/><fw type="sig"><hi rendition="#smcaps">c</hi></fw>
+               <pb n="18"/>ought to be laid aside with the gradus<note>"Short for <hi
+                     rendition="#italics">
+                     <title>Gradus ad Parnassum</title>
+                  </hi> ‘a step to Parnassus’, the Latin title of a dictionary of prosody until
+                  recently used in English public schools, intended as an aid in Latin
+                  versification, both by giving the ‘quantities’ of words and by suggesting poetical
+                  epithets and phraseology. Hence applied to later works of similar plan and object"
+                  ("gradus, n.," <hi rendition="#italics">
+                     <title>Oxford English Dictionary</title>
+                  </hi>, Second ed., 1989; online version March 2011. Web. 27 May 2011).</note> of
+               the school-boy. The Poet proceeds to consider the accession to the Pleasures of the
+               Imagination from adventitious circumstances, of which he gives various instances:
+               that of the Newtonian theory of the rainbow<note>Isaac Newton published his lectures
+                  explaining the effects of a prism on white light under the title <hi
+                     rendition="#italics">
+                     <title>Opticks</title>
+                  </hi> in 1704. </note> seems too abstruse even for a philosophical Poem; it may be
+               doubted whether, if understood, it is of a nature to mix well with the pleasure of
+               colours; it certainly does not accord well with that of verse. The influence of
+               Passion is next considered, and the mysterious pleasure which is mixed with the
+               energies and emotions of those passions that are in their own nature painful. To
+               solve this problem, which has been one in all ages, a long allegory is introduced,
+               which, though wrought up with a good deal of the decoration of Poetry, is nearly as
+               difficult to comprehend as the problem itself. It begins with presenting a scene of
+               desolation, <hi rendition="#italics">where the parched adder dies;</hi>
+               <note>
+                  <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
+                     <title>The Pleasures of Imagination</title>
+                  </hi> II.207, slightly altered.</note> this vanishes, and another is presented.
+               What we hoped to have heard from the Poet, we <pb n="19"/>are directed to learn from
+               old <hi rendition="#smcaps">
                   <ref target="people.html#Harmodius">Harmodius</ref>
                </hi>. <hi rendition="#smcaps">
                   <ref target="people.html#Harmodius">Harmodius</ref>
-               </hi>
-                    is only introduced to refer us to the Genius, and the Genius shifts his scenes
-                    like the pictures of a magic lantern, before he explains to us the scope and
-                    purport of the visions. The figures of Pleasure and Virtue are in a good measure
-                    copied from the choice of <hi rendition="#smcaps">
+               </hi> is only introduced to refer us to the Genius, and the Genius shifts his scenes
+               like the pictures of a magic lantern, before he explains to us the scope and purport
+               of the visions. The figures of Pleasure and Virtue are in a good measure copied from
+               the choice of <hi rendition="#smcaps">
                   <ref target="people.html#Hercules">Hercules</ref>
                </hi>, only that, as <hi rendition="#smcaps">
                   <ref target="people.html#Euphrosyne">Euphrosyne</ref>
-               </hi> is the Goddess of innocent pleasure, every thing
-                    voluptuous is left out of the picture. The description of the son of <hi rendition="#smcaps">
+               </hi> is the Goddess of innocent pleasure, every thing voluptuous is left out of the
+               picture. The description of the son of <hi rendition="#smcaps">
                   <ref target="people.html#Nemesis">Nemesis</ref>
-               </hi> is
-                    wrought up with much strength of colouring. The story is in fact the
-                    introduction of evil, accounted for by the necessity of training the pupil of
-                    Providence to the love of Virtue, the supreme good, by withdrawing from him for
-                    a while the allurements of pleasure; but why his very suffering should be
-                    attended with pleasure, which was the phenomenon to be accounted for, is not so
-                    clearly made out. We are told indeed that the youth is willing to bear the
-                    frowns of the son of <hi rendition="#smcaps">
+               </hi> is wrought up with much strength of colouring. The story is in fact the
+               introduction of evil, accounted for by the necessity of training the pupil of
+               Providence to the love of Virtue, the supreme good, by withdrawing from him for a
+               while the allurements of pleasure; but why his very suffering should be attended with
+               pleasure, which was the phenomenon to be accounted for, is not so clearly made out.
+               We are told indeed that the youth is willing to bear the frowns of the son of <hi
+                  rendition="#smcaps">
                   <ref target="people.html#Nemesis">Nemesis</ref>
-               </hi> in all their horrors, provided <lb/>
-               <fw type="sig">
-                  <hi rendition="#smcaps">c 2</hi>
-               </fw>
+               </hi> in all their horrors, provided <lb/><fw type="sig"><hi rendition="#smcaps">c
+                     2</hi></fw>
                <pb n="20"/>
                <hi rendition="#smcaps">
                   <ref target="people.html#Euphrosyne">Euphrosyne</ref>
-               </hi> will bless him with her smiles, that is to say, he is
-                    willing to be miserable provided he may be happy at the same time. Upon this <hi rendition="#smcaps">
+               </hi> will bless him with her smiles, that is to say, he is willing to be miserable
+               provided he may be happy at the same time. Upon this <hi rendition="#smcaps">
                   <ref target="people.html#Euphrosyne">Euphrosyne</ref>
-               </hi> appears, and declares that she will always be present
-                    for the future, whenever, supported by Virtue, he sustains a combat with Pain.
-                    So far indeed we may gather from this representation, that pleasure is always
-                    annexed to the exercise of our moral feelings, which is probably the true
-                    account of the matter: but this truth is rather darkened than illustrated by the
-                    fable, which does not satisfactorily explain <hi rendition="#italics">how</hi>
-                    the connection is produced. The allegory is not very consistent in another
-                    place, where we are told that Virtue had left the youth, while at the same time
-                        <hi rendition="#italics">sweetest innocence illumed his bashful
-                        eyes</hi>.<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                        <title>The Pleasures of
-                                Imagination</title>
-                     </hi> II.402-3, slightly altered.</note>
-               </hi> He
-                    had already fallen, and yet he had not lost his innocence; the storm of wrath
-                    which falls upon him is therefore unaccounted for. Upon the whole, though this
-                    allegory is in many parts ingenious, and is laboured into splendid poetry, we
-                    fear it <pb n="21"/>has the effect upon most readers which it seems it had upon
-                    the author himself, who tells us that <quote>
+               </hi> appears, and declares that she will always be present for the future, whenever,
+               supported by Virtue, he sustains a combat with Pain. So far indeed we may gather from
+               this representation, that pleasure is always annexed to the exercise of our moral
+               feelings, which is probably the true account of the matter: but this truth is rather
+               darkened than illustrated by the fable, which does not satisfactorily explain <hi
+                  rendition="#italics">how</hi> the connection is produced. The allegory is not very
+               consistent in another place, where we are told that Virtue had left the youth, while
+               at the same time <hi rendition="#italics">sweetest innocence illumed his bashful
+                  eyes</hi>.<note>
+                  <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
+                     <title>The Pleasures of Imagination</title>
+                  </hi> II.402-3, slightly altered.</note> He had already fallen, and yet he had not
+               lost his innocence; the storm of wrath which falls upon him is therefore unaccounted
+               for. Upon the whole, though this allegory is in many parts ingenious, and is laboured
+               into splendid poetry, we fear it <pb n="21"/>has the effect upon most readers which
+               it seems it had upon the author himself, who tells us that <quote>
                   <lg type="stanza">
                      <l rendition="#indent10">Awhile he stood</l>
-                     <l>Perplex'd and giddy.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                                 <title>The Pleasures of
-                                                Imagination</title>
-                              </hi> II.664-5,
-                                    altered.</note>
-                        </hi>
+                     <l>Perplex'd and giddy.<note>
+                           <ref target="people.html#AkensideMark">Akenside</ref>, <hi
+                              rendition="#italics">
+                              <title>The Pleasures of Imagination</title>
+                           </hi> II.664-5, altered.</note>
                      </l>
                   </lg>
                </quote>
             </p>
             <p>It may be doubted whether this discussion is strictly within the bounds of the
-                    subject, <hi rendition="#italics">the Pleasures of Imagination;</hi> since the
-                    instances given are not confined to scenic representation, but refer to the
-                    primary feelings of the passions. What has to do with imagination <quote>
+               subject, <hi rendition="#italics">the Pleasures of Imagination;</hi> since the
+               instances given are not confined to scenic representation, but refer to the primary
+               feelings of the passions. What has to do with imagination <quote>
                   <lg type="stanza">
                      <l rendition="#indent10">The bitter shower</l>
-                     <l>Which sorrow sheds upon a brother's grave.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                                 <title>The
-                                                Pleasures of Imagination</title>
-                              </hi> II.170-1,
-                                        altered.</note>
-                        </hi>
+                     <l>Which sorrow sheds upon a brother's grave.<note>
+                           <ref target="people.html#AkensideMark">Akenside</ref>, <hi
+                              rendition="#italics">
+                              <title>The Pleasures of Imagination</title>
+                           </hi> II.170-1, altered.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>The book concludes with an animated and pathetic exemplification of the
-                    gratification felt in the indulgence of mournful sympathy, or generous
-                    indignation; the latter pointed against the two things the author most hated,
-                    superstition and tyranny. </p>
-            <p>The third book touches upon a difficult and ungrateful subject for the poetic
-                    art, <hi rendition="#italics">the Pleasures of Ridicule</hi>. It involves the
-                    question, much agitated <pb n="22"/>at that time, whether ridicule be the test
-                    of truth. Our author follows the system of <hi rendition="#smcaps">
+            <p>The book concludes with an animated and pathetic exemplification of the gratification
+               felt in the indulgence of mournful sympathy, or generous indignation; the latter
+               pointed against the two things the author most hated, superstition and tyranny. </p>
+            <p>The third book touches upon a difficult and ungrateful subject for the poetic art,
+                  <hi rendition="#italics">the Pleasures of Ridicule</hi>. It involves the question,
+               much agitated <pb n="22"/>at that time, whether ridicule be the test of truth. Our
+               author follows the system of <hi rendition="#smcaps">
                   <ref target="people.html#ShaftesburyAnthonyAshleyCooper">Shaftesbury</ref>
-               </hi>, which drew upon him an attack from <ref target="people.html#WarburtonWilliam">Bishop <hi rendition="#smcaps">Warburton</hi>
+               </hi>, which drew upon him an attack from <ref target="people.html#WarburtonWilliam"
+                  >Bishop <hi rendition="#smcaps">Warburton</hi>
                </ref>, and he was defended by his friend and patron <hi rendition="#smcaps">
-                  <ref target="people.html#DysonJeremiah">Jeremiah
-                            Dyson</ref>
-               </hi>.<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#BarbauldMrs">Barbauld</ref> follows a common
-                            misattribution in crediting <ref target="people.html#AkensideMark">Akenside</ref>’s own <hi rendition="#italics">
-                        <title>An Epistle to
-                                    the Rev. Mr. <ref target="people.html#WarburtonWilliam">Warburton</ref>
-                        </title>
-                     </hi> (1744) to <ref target="people.html#DysonJeremiah">Dyson</ref>.</note>
-               </hi> To say
-                    truth, it is easier to defend the Philosopher than the Poet. There is much
-                    acuteness in the theory, and much art exhibited in giving a poetical dress to
-                    the various illustrations he makes use of: but after all, the subject is so
-                    barren in itself, and so unsuitable to the solemn manner of <hi rendition="#smcaps">
+                  <ref target="people.html#DysonJeremiah">Jeremiah Dyson</ref>
+               </hi>.<note>
+                  <ref target="people.html#BarbauldMrs">Barbauld</ref> follows a common
+                  misattribution in crediting <ref target="people.html#AkensideMark"
+                  >Akenside</ref>’s own <hi rendition="#italics">
+                     <title>An Epistle to the Rev. Mr. <ref target="people.html#WarburtonWilliam"
+                           >Warburton</ref>
+                     </title>
+                  </hi> (1744) to <ref target="people.html#DysonJeremiah">Dyson</ref>.</note> To say
+               truth, it is easier to defend the Philosopher than the Poet. There is much acuteness
+               in the theory, and much art exhibited in giving a poetical dress to the various
+               illustrations he makes use of: but after all, the subject is so barren in itself, and
+               so unsuitable to the solemn manner of <hi rendition="#smcaps">
                   <ref target="people.html#AkensideMark">Akenside</ref>
-               </hi> that we admire without pleasure and acquiesce without
-                    interest. He promises indeed to <quote>
+               </hi> that we admire without pleasure and acquiesce without interest. He promises
+               indeed to <quote>
                   <lg type="stanza">
                      <l>Unbend his serious measure, and reveal</l>
                      <l>In lighter strains, how folly's aukward arts</l>
                      <l>Excite impetuous laughter's gay rebuke,</l>
-                     <l>The sportive province of the comic Muse.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                                 <title>The
-                                                Pleasures of Imagination</title>
-                              </hi>
-                                        III.74-7.</note>
-                        </hi>
+                     <l>The sportive province of the comic Muse.<note>
+                           <ref target="people.html#AkensideMark">Akenside</ref>, <hi
+                              rendition="#italics">
+                              <title>The Pleasures of Imagination</title>
+                           </hi> III.74-7.</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>But he has not kept his promise: neither indeed could he, for besides that no one
-                    was ever less capable than our author of <hi rendition="#italics">unbending</hi>, the object of <pb n="23"/>his disquisition is not to make us
-                    laugh, but to tell us why we laugh: a very different problem and very remote
-                    from any ideas of pleasantry. Nor could he without violating uniformity, change
-                    the measure of his Poem, otherwise this part of his subject not affording any
-                    play for the higher beauties and bolder sweep of blank verse, would have been
-                    better treated of in the neat and terse couplet, after the manner of <hi rendition="#smcaps">
+            <p>But he has not kept his promise: neither indeed could he, for besides that no one was
+               ever less capable than our author of <hi rendition="#italics">unbending</hi>, the
+               object of <pb n="23"/>his disquisition is not to make us laugh, but to tell us why we
+               laugh: a very different problem and very remote from any ideas of pleasantry. Nor
+               could he without violating uniformity, change the measure of his Poem, otherwise this
+               part of his subject not affording any play for the higher beauties and bolder sweep
+               of blank verse, would have been better treated of in the neat and terse couplet,
+               after the manner of <hi rendition="#smcaps">
                   <ref target="people.html#PopeAlexander">Pope</ref>
                </hi>'s Ethical Epistles, or <hi rendition="#smcaps">
                   <ref target="people.html#YoungEdward">Young</ref>
-               </hi>'s Satires. He
-                    begins, agreeably to the system he had embraced, with deducing all deviations
-                    from rectitude or propriety, from false opinions, imbibed in early youth, which
-                    attract the imagination by fallacious shows of good. Of these false opinions the
-                    more serious lead to vice, while those which refer to the less important
-                    particulars of our conduct betray to ridicule, the source of which is <hi rendition="#italics">incongruity</hi>, and its final cause the assisting the
-                    tardy deductions of reason by the quick impulse of an instinctive sense. </p>
+               </hi>'s Satires. He begins, agreeably to the system he had embraced, with deducing
+               all deviations from rectitude or propriety, from false opinions, imbibed in early
+               youth, which attract the imagination by fallacious shows of good. Of these false
+               opinions the more serious lead to vice, while those which refer to the less important
+               particulars of our conduct betray to ridicule, the source of which is <hi
+                  rendition="#italics">incongruity</hi>, and its final cause the assisting the tardy
+               deductions of reason by the quick impulse of an instinctive sense. </p>
             <pb n="24"/>
-            <p>The theory is beautiful and well supported. Illustrations of every different
-                    species of the ridiculous are given in the Poem, the notes are judicious, and
-                    tend still more to elucidate the subject. Still it must be confessed the theme
-                    is not a poetical one; and it may be even questioned how far it is connected
-                    with the subject; for the sense of ridicule is of a very peculiar nature, and is
-                    hardly included, in common language, among the Pleasures of the Imagination. If
-                    however the reader is inclined to be dissatisfied with this part of his
-                    entertainment, let him recollect, that if it affords him less pleasure, it
-                    probably cost the author more pains than any other portion of his Poem. It is
-                    asserted that under the appellation of <hi rendition="#smcaps">Momion</hi>,<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#AkensideMark">Akenside</ref> probably fashioned this epithet from Momus, the
-                            mythological personification of blame.</note>
-               </hi> the writer has thrown
-                    out a sarcasm, not undeserved, against the celebrated <ref target="people.html#PopeAlexander">author of the Dunciad</ref>;<hi rendition="#sup">
-                  <note>See <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                        <title>The Pleasures of
-                                Imagination</title>
-                     </hi> III.179-90.</note>
-               </hi> for surely no man
-                    of a just moral taste can reflect without regret that a capital work of one of
-                    our best Poets, composed in the height of his reputation, and during the <pb n="25"/>perfection of all his powers, should have no other end than to
-                    gratify the spleen of an offended author, and to record the petty warfare of
-                    rival wits. It is an observation of the excellent <hi rendition="#smcaps">
+            <p>The theory is beautiful and well supported. Illustrations of every different species
+               of the ridiculous are given in the Poem, the notes are judicious, and tend still more
+               to elucidate the subject. Still it must be confessed the theme is not a poetical one;
+               and it may be even questioned how far it is connected with the subject; for the sense
+               of ridicule is of a very peculiar nature, and is hardly included, in common language,
+               among the Pleasures of the Imagination. If however the reader is inclined to be
+               dissatisfied with this part of his entertainment, let him recollect, that if it
+               affords him less pleasure, it probably cost the author more pains than any other
+               portion of his Poem. It is asserted that under the appellation of <hi
+                  rendition="#smcaps">Momion</hi>,<note>
+                  <ref target="people.html#AkensideMark">Akenside</ref> probably fashioned this
+                  epithet from Momus, the mythological personification of blame.</note> the writer
+               has thrown out a sarcasm, not undeserved, against the celebrated <ref
+                  target="people.html#PopeAlexander">author of the Dunciad</ref>;<note>See <ref
+                     target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
+                     <title>The Pleasures of Imagination</title>
+                  </hi> III.179-90.</note> for surely no man of a just moral taste can reflect
+               without regret that a capital work of one of our best Poets, composed in the height
+               of his reputation, and during the <pb n="25"/>perfection of all his powers, should
+               have no other end than to gratify the spleen of an offended author, and to record the
+               petty warfare of rival wits. It is an observation of the excellent <hi
+                  rendition="#smcaps">
                   <ref target="people.html#HartleyDavid">Hartley</ref>
-               </hi>, that those studies
-                    which confine the mind within the exercise of its own powers, as criticism,
-                    poetry, and most philological pursuits, are apt to generate a supercilious
-                    deportment and an anxious and selfish regard to reputation: whereas the pursuit
-                    of truth, carrying the mind <hi rendition="#italics">out</hi> of itself to large
-                    views of nature and Providence, fills it with sublime and generous feelings. The
-                    remark must undoubtedly be taken with great latitude, but it seems to be not
-                    entirely unfounded. </p>
-            <p>Having dismissed the account of Ridicule, so little susceptible of being adorned
-                    by his efforts, the Poet rises into a higher strain, and investigates that
-                    wonderful phenomenon from whence the Pleasures of Imagination chiefly seem to
-                    arise, the mysterious connection of moral ideas with visible objects. <pb n="26"/>Why, he asks, does the deep shade of a thick wood strike us with religious
-                    awe? Why does the lightsomeness and variety of a more airy landscape suggest to
-                    us the idea of gaiety and social mirth? Is there really any resemblance, or is
-                    it owing to early and frequent associations? He decides for the latter, and
-                    beautifully illustrates that great law on which the power of memory entirely
-                    depends. This leads him to consider the powers of Imagination as residing in the
-                    human mind, when, after being stored by means of memory, with ideas of all that
-                    is great and beautiful in nature, the child of fancy combines and varies them in
-                    a new creation of its own, from whence the origin of Music, Painting, Poetry,
-                    and all those arts which give rise to the secondary or reflex pleasures,
-                    referred to in the latter part of his definition. This is accompanied by a
-                    glowing and animated description of the process of composition, written
-                    evidently with the pleasure a person of genius must have felt, when reflecting
-                    with <pb n="27"/>conscious triumph that he is exercising the powers he so well
-                    describes. He had probably likewise in his eye the well-known lines of <hi rendition="#smcaps">
+               </hi>, that those studies which confine the mind within the exercise of its own
+               powers, as criticism, poetry, and most philological pursuits, are apt to generate a
+               supercilious deportment and an anxious and selfish regard to reputation: whereas the
+               pursuit of truth, carrying the mind <hi rendition="#italics">out</hi> of itself to
+               large views of nature and Providence, fills it with sublime and generous feelings.
+               The remark must undoubtedly be taken with great latitude, but it seems to be not
+               entirely unfounded. </p>
+            <p>Having dismissed the account of Ridicule, so little susceptible of being adorned by
+               his efforts, the Poet rises into a higher strain, and investigates that wonderful
+               phenomenon from whence the Pleasures of Imagination chiefly seem to arise, the
+               mysterious connection of moral ideas with visible objects. <pb n="26"/>Why, he asks,
+               does the deep shade of a thick wood strike us with religious awe? Why does the
+               lightsomeness and variety of a more airy landscape suggest to us the idea of gaiety
+               and social mirth? Is there really any resemblance, or is it owing to early and
+               frequent associations? He decides for the latter, and beautifully illustrates that
+               great law on which the power of memory entirely depends. This leads him to consider
+               the powers of Imagination as residing in the human mind, when, after being stored by
+               means of memory, with ideas of all that is great and beautiful in nature, the child
+               of fancy combines and varies them in a new creation of its own, from whence the
+               origin of Music, Painting, Poetry, and all those arts which give rise to the
+               secondary or reflex pleasures, referred to in the latter part of his definition. This
+               is accompanied by a glowing and animated description of the process of composition,
+               written evidently with the pleasure a person of genius must have felt, when
+               reflecting with <pb n="27"/>conscious triumph that he is exercising the powers he so
+               well describes. He had probably likewise in his eye the well-known lines of <hi
+                  rendition="#smcaps">
                   <ref target="people.html#ShakespeareWilliam">Shakespear</ref>
                </hi>, <quote>
                   <lg type="stanza">
-                     <l>The Poet's eye in a fine phrenzy rolling.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi rendition="#italics">
-                                 <title>A
-                                                Midsummer Night’s Dream</title>
-                              </hi>
-                                    V.i.12.</note>
-                        </hi>
+                     <l>The Poet's eye in a fine phrenzy rolling.<note>
+                           <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi
+                              rendition="#italics">
+                              <title>A Midsummer Night’s Dream</title>
+                           </hi> V.i.12.</note>
                      </l>
                   </lg>
-               </quote>The simile of the Parhelion<hi rendition="#sup">
-                  <note>Parhelion: a sundog; a luminous spot in the sky caused by
-                            the sun reflecting on concentrations of moisture.</note>
-               </hi> is new and
-                    beautiful. The harp of <hi rendition="#smcaps">
+               </quote>The simile of the Parhelion<note>Parhelion: a sundog; a luminous spot in the
+                  sky caused by the sun reflecting on concentrations of moisture.</note> is new and
+               beautiful. The harp of <hi rendition="#smcaps">
                   <ref target="people.html#Memnon">Memnon</ref>
-               </hi> struck by the rays of the sun supplies him with
-                    another, and the sympathetic needles of <hi rendition="#smcaps">
+               </hi> struck by the rays of the sun supplies him with another, and the sympathetic
+               needles of <hi rendition="#smcaps">
                   <ref target="people.html#StradaFamiano">Strada</ref>
                </hi>
-               <hi rendition="#sup">
-                  <note>See the <hi rendition="#italics">Spectator</hi> No.
-                            241 (Thursday, 6 December 1711), in which Addison credits <ref target="people.html#StradaFamiano">Strada</ref>'s <hi rendition="#italics">Prolusions</hi> for the story of friends who
-                            communicate at a distance by means of needles that have been magnetized
-                            through touching them to a "Loadstone" or lodestone.</note>
-               </hi> with a
-                    third, which are the only ones in the Poem. </p>
-            <p>The <hi rendition="#italics">Cause</hi> is next considered of the pleasure which
-                    we receive from all that strikes us with the sensation of Beauty in the material
-                    world. Concerning this there exists two opinions. One, that those objects we
-                    call beautiful are so really and in their own nature, and must appear so to any
-                    being possessed of faculties capable of appreciating them. The other that beauty
-                    is a mere arbitrary thing, a sort of pleasing enchantment spread over the face
-                    of nature, a delusion, under which we see charms that do not at all result from
-                    the real properties of things, and which other intelligent beings it is pro-<pb n="28"/>bable do not perceive. This latter opinion our author has embraced
-                    as the most philosophical. It is not, we presume, the most pleasing, nor the
-                    most favourable to the dignity and importance of the Pleasures of Imagination;
-                    for their boasted connection with <hi rendition="#italics">truth</hi> vanishes,
-                    except indeed in this sense that beauty as an arbitrary mark is used with
-                    precision, and is constantly found to denote the health and soundness of the
-                    object in which it appears to reside, and consequently is made subservient to
-                    utility; but the beautiful climax is destroyed by which the inferior kinds are
-                    connected with moral beauty, for how can what is real be connected with what is
-                    imaginary? unless indeed, what would be a very dangerous doctrine, the sense of
-                        <hi rendition="#italics">moral beauty</hi> itself were supposed to be
-                    dependent on our peculiar formation, and adapted only to our present state of
-                    existence. The Poet has here closely copied from <hi rendition="#smcaps">
+               <note>See the <hi rendition="#italics">Spectator</hi> No. 241 (Thursday, 6 December
+                  1711), in which Addison credits <ref target="people.html#StradaFamiano"
+                     >Strada</ref>'s <hi rendition="#italics">Prolusions</hi> for the story of
+                  friends who communicate at a distance by means of needles that have been
+                  magnetized through touching them to a "Loadstone" or lodestone.</note> with a
+               third, which are the only ones in the Poem. </p>
+            <p>The <hi rendition="#italics">Cause</hi> is next considered of the pleasure which we
+               receive from all that strikes us with the sensation of Beauty in the material world.
+               Concerning this there exists two opinions. One, that those objects we call beautiful
+               are so really and in their own nature, and must appear so to any being possessed of
+               faculties capable of appreciating them. The other that beauty is a mere arbitrary
+               thing, a sort of pleasing enchantment spread over the face of nature, a delusion,
+               under which we see charms that do not at all result from the real properties of
+               things, and which other intelligent beings it is pro-<pb n="28"/>bable do not
+               perceive. This latter opinion our author has embraced as the most philosophical. It
+               is not, we presume, the most pleasing, nor the most favourable to the dignity and
+               importance of the Pleasures of Imagination; for their boasted connection with <hi
+                  rendition="#italics">truth</hi> vanishes, except indeed in this sense that beauty
+               as an arbitrary mark is used with precision, and is constantly found to denote the
+               health and soundness of the object in which it appears to reside, and consequently is
+               made subservient to utility; but the beautiful climax is destroyed by which the
+               inferior kinds are connected with moral beauty, for how can what is real be connected
+               with what is imaginary? unless indeed, what would be a very dangerous doctrine, the
+               sense of <hi rendition="#italics">moral beauty</hi> itself were supposed to be
+               dependent on our peculiar formation, and adapted only to our present state of
+               existence. The Poet has here closely copied from <hi rendition="#smcaps">
                   <ref target="people.html#AddisonJoseph">Addison</ref>
-               </hi>, both in opening
-                    the thought, and in the simile with which he illustrates it. He loses sight
-                    however of this unpoetical philosophy towards <pb n="29"/>the conclusion, where
-                    having observed that <hi rendition="#italics">taste</hi> results from the
-                    natural quickness of all the perceptions he has enumerated, strengthened by
-                    adequate culture, he observes, that culture will not however destroy the
-                    peculiar bias which is impressed upon different minds towards the great, or the
-                    soft and beautiful. This he exemplifies in <hi rendition="#smcaps">
+               </hi>, both in opening the thought, and in the simile with which he illustrates it.
+               He loses sight however of this unpoetical philosophy towards <pb n="29"/>the
+               conclusion, where having observed that <hi rendition="#italics">taste</hi> results
+               from the natural quickness of all the perceptions he has enumerated, strengthened by
+               adequate culture, he observes, that culture will not however destroy the peculiar
+               bias which is impressed upon different minds towards the great, or the soft and
+               beautiful. This he exemplifies in <hi rendition="#smcaps">
                   <ref target="people.html#WallerEdmund">Waller</ref>
                </hi> and <hi rendition="#smcaps">
                   <ref target="people.html#ShakespeareWilliam">Shakespear</ref>
-               </hi>. He then winds up the whole by that noble and
-                    animated eulogium on the taste for the beauties of nature, <quote>
+               </hi>. He then winds up the whole by that noble and animated eulogium on the taste
+               for the beauties of nature, <quote>
                   <lg type="stanza">
-                     <l>O blest of heaven, whom—<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#AkensideMark">Akenside</ref>,
-                                            <hi rendition="#italics">
-                                 <title>The Pleasures of
-                                                Imagination</title>
-                              </hi> III.568,
-                                    altered.</note>
-                        </hi>
+                     <l>O blest of heaven, whom—<note>
+                           <ref target="people.html#AkensideMark">Akenside</ref>, <hi
+                              rendition="#italics">
+                              <title>The Pleasures of Imagination</title>
+                           </hi> III.568, altered.</note>
                      </l>
                   </lg>
-               </quote>And having led the lover of the fair and beautiful through all
-                    the different gradations of excellence, he leaves the mind where alone it should
-                    rest, in the contemplation of the supreme excellence, and closes with the
-                    sublime idea, that in admiring the works of nature, we form our taste upon the
-                    conceptions of the Deity himself. </p>
+               </quote>And having led the lover of the fair and beautiful through all the different
+               gradations of excellence, he leaves the mind where alone it should rest, in the
+               contemplation of the supreme excellence, and closes with the sublime idea, that in
+               admiring the works of nature, we form our taste upon the conceptions of the Deity
+               himself. </p>
             <p>Much more might be said of the philosophy of this Poem, but the chief aim of this
-                    Essay is to shew the poetical use he has made of his subject. Many <pb n="30"/>of the divisions might perhaps be differently arranged, and the theory in some
-                    instances improved, but for Poetry it is sufficiently accurate, and in
-                    speculations of this shadowy nature, no person will be thoroughly content with
-                    even his own system after the lapse of any considerable portion of time. </p>
+               Essay is to shew the poetical use he has made of his subject. Many <pb n="30"/>of the
+               divisions might perhaps be differently arranged, and the theory in some instances
+               improved, but for Poetry it is sufficiently accurate, and in speculations of this
+               shadowy nature, no person will be thoroughly content with even his own system after
+               the lapse of any considerable portion of time. </p>
             <p rendition="#center">͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇ ͇</p>
             <p>IF the genius of <hi rendition="#smcaps">
                   <ref target="people.html#AkensideMark">Akenside</ref>
-               </hi> be to be estimated from this Poem, and it is
-                    certainly the most capital of his works, it will be found to be lofty and
-                    elegant, chaste, classical, and correct: not marked with strong traits of
-                    originality, not ardent nor exuberant. His enthusiasm was rather of that kind
-                    which is kindled by reading and imbibing the spirit of authors, than by
-                    contemplating at first hand the works of nature. As a versifier <hi rendition="#smcaps">
+               </hi> be to be estimated from this Poem, and it is certainly the most capital of his
+               works, it will be found to be lofty and elegant, chaste, classical, and correct: not
+               marked with strong traits of originality, not ardent nor exuberant. His enthusiasm
+               was rather of that kind which is kindled by reading and imbibing the spirit of
+               authors, than by contemplating at first hand the works of nature. As a versifier <hi
+                  rendition="#smcaps">
                   <ref target="people.html#AkensideMark">Akenside</ref>
-               </hi> is allowed to stand amongst those who have given the
-                    most finished models of blank verse. His periods are long but harmonious, the
-                    cadences fall with grace, and the measure is supported with uniform <pb n="31"/>dignity. His Muse possesses the <hi rendition="#italics">mien erect, and high
-                        commanding gait</hi>.<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#WartonThomas">Thomas Warton</ref>, <hi rendition="#italics">
-                        <title>The Triumph of Isis</title>
-                     </hi> 76,
-                            altered.</note>
-               </hi> We shall scarcely find a low or trivial expression
-                    introduced, a careless or unfinished line permitted to stand. His stateliness
-                    however is somewhat allied to stiffness. His verse is sometimes feeble through
-                    too rich a redundancy of ornament, and sometimes laboured into a degree of
-                    obscurity from too anxious a desire of avoiding natural and simple expressions.
-                    We do not conceive of him as <hi rendition="#italics">pouring easy his
-                        unpremeditated strain</hi>.<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#ThomsonJames">James Thomson</ref>, <hi rendition="#italics">
-                        <title>The Castle of Indolence</title>
-                     </hi>
-                            I.LXVIII, altered.</note>
-               </hi> It is rather difficult to read from the
-                    sense being extended sometimes through more than twenty lines; but when well
-                    read fills and gratifies the ear with all the pomp of harmony. It is far
-                    superior to the compositions of his cotemporary [<hi rendition="#italics">sic</hi>] <hi rendition="#smcaps">
+               </hi> is allowed to stand amongst those who have given the most finished models of
+               blank verse. His periods are long but harmonious, the cadences fall with grace, and
+               the measure is supported with uniform <pb n="31"/>dignity. His Muse possesses the <hi
+                  rendition="#italics">mien erect, and high commanding gait</hi>.<note>
+                  <ref target="people.html#WartonThomas">Thomas Warton</ref>, <hi
+                     rendition="#italics">
+                     <title>The Triumph of Isis</title>
+                  </hi> 76, altered.</note> We shall scarcely find a low or trivial expression
+               introduced, a careless or unfinished line permitted to stand. His stateliness however
+               is somewhat allied to stiffness. His verse is sometimes feeble through too rich a
+               redundancy of ornament, and sometimes laboured into a degree of obscurity from too
+               anxious a desire of avoiding natural and simple expressions. We do not conceive of
+               him as <hi rendition="#italics">pouring easy his unpremeditated strain</hi>.<note>
+                  <ref target="people.html#ThomsonJames">James Thomson</ref>, <hi
+                     rendition="#italics">
+                     <title>The Castle of Indolence</title>
+                  </hi> I.LXVIII, altered.</note> It is rather difficult to read from the sense
+               being extended sometimes through more than twenty lines; but when well read fills and
+               gratifies the ear with all the pomp of harmony. It is far superior to the
+               compositions of his cotemporary [<hi rendition="#italics">sic</hi>] <hi
+                  rendition="#smcaps">
                   <ref target="people.html#ThomsonJames">Thomson</ref>
-               </hi> (we speak now only of the measure) and more equal
-                    than <hi rendition="#smcaps">
+               </hi> (we speak now only of the measure) and more equal than <hi rendition="#smcaps">
                   <ref target="people.html#MiltonJohn">Milton</ref>
-               </hi>, though inferior to his finest passages. It is indeed too
-                    equal not to be in some degree monotonous. He is fond of compound epithets, led
-                    to it perhaps by his fondness for the Greek, and delights in giving a classic
-                    air to his composi-<pb n="32"/>tions by using names and epithets the most remote
-                    from vulgar use. Like <hi rendition="#smcaps">
+               </hi>, though inferior to his finest passages. It is indeed too equal not to be in
+               some degree monotonous. He is fond of compound epithets, led to it perhaps by his
+               fondness for the Greek, and delights in giving a classic air to his composi-<pb
+                  n="32"/>tions by using names and epithets the most remote from vulgar use. Like
+                  <hi rendition="#smcaps">
                   <ref target="people.html#Homer">Homer</ref>
-               </hi>'s gods his poetry speaks a different language
-                    from that of common mortals. </p>
-            <p>That an author who lived to near fifty should have produced his most capital work
-                    at three and twenty, seems to imply (as his professional studies did not cause
-                    him to lay aside his poetical pursuits) a genius more early than extensive, a
-                    mind more refined than capacious. And that this was the case in reality, will
-                    appear from his having employed himself during several years in correcting and
-                    entirely new moulding this his favourite Poem. To correct to a certain degree is
-                    the duty of a man of sense, but always to correct will not be the employment of
-                    a man of spirit. It betrays a mind rather brooding with fond affection over old
-                    productions, than inspired by a fresh stream of new ideas. The flowers of fancy
-                    are apt to lose their odour by much handling, the glow is gone and the ear
-                    itself after a certain time loses its tact amidst repeated <pb n="33"/>alterations, as the taste becomes confounded by the successive trial of
-                    different flavours. </p>
+               </hi>'s gods his poetry speaks a different language from that of common mortals. </p>
+            <p>That an author who lived to near fifty should have produced his most capital work at
+               three and twenty, seems to imply (as his professional studies did not cause him to
+               lay aside his poetical pursuits) a genius more early than extensive, a mind more
+               refined than capacious. And that this was the case in reality, will appear from his
+               having employed himself during several years in correcting and entirely new moulding
+               this his favourite Poem. To correct to a certain degree is the duty of a man of
+               sense, but always to correct will not be the employment of a man of spirit. It
+               betrays a mind rather brooding with fond affection over old productions, than
+               inspired by a fresh stream of new ideas. The flowers of fancy are apt to lose their
+               odour by much handling, the glow is gone and the ear itself after a certain time
+               loses its tact amidst repeated <pb n="33"/>alterations, as the taste becomes
+               confounded by the successive trial of different flavours. </p>
             <p>The Edition which he was preparing was however left in too imperfect a state to
-                    justify its being presented to the public, at least of superseding the complete
-                    one which is here given, and which passed rapidly through many editions soon
-                    after its first appearance. In the posthumous Poem the ordonnance is greatly
-                    changed: <hi rendition="#italics">Novelty</hi> is left out as a primary source
-                    of the Pleasure of the Imagination, and placed among the adventitious
-                    circumstances which only increase it: the greatest part of the lines on Ridicule
-                    are also omitted, and he has abandoned the idea of its being the test of truth,
-                    an idea which had given offence to the severer moralists. Instead of the
-                    allegory of Virtue and <hi rendition="#smcaps">
+               justify its being presented to the public, at least of superseding the complete one
+               which is here given, and which passed rapidly through many editions soon after its
+               first appearance. In the posthumous Poem the ordonnance is greatly changed: <hi
+                  rendition="#italics">Novelty</hi> is left out as a primary source of the Pleasure
+               of the Imagination, and placed among the adventitious circumstances which only
+               increase it: the greatest part of the lines on Ridicule are also omitted, and he has
+               abandoned the idea of its being the test of truth, an idea which had given offence to
+               the severer moralists. Instead of the allegory of Virtue and <hi rendition="#smcaps">
                   <ref target="people.html#Euphrosyne">Euphrosyne</ref>
-               </hi>, the third book
-                    consists of a story concerning <hi rendition="#smcaps">
+               </hi>, the third book consists of a story concerning <hi rendition="#smcaps">
                   <ref target="people.html#Solon">Solon</ref>
-               </hi>, on which <ref target="people.html#JohnsonSamuel">Dr. <hi rendition="#smcaps">Johnson</hi>
-               </ref> makes this single observation, that it is <hi rendition="#italics">too long</hi>. The probability is that the critic never
-               read it through: as, <lb/>
-               <fw type="sig">
-                  <hi rendition="#smcaps">d</hi>
-               </fw>
-               <pb n="34"/>for the author's purpose, it is too short, since it breaks off
-                    so abruptly, that though the purport is declared to be to shew the origin of
-                    evil, the story is not far enough advanced to allow the reader even to guess at
-                    the intended solution. Of the fourth book the beginning is barely sketched. But
-                    had the whole been completed, we may venture to pronounce that, if the system
-                    was improved, the Poetry would have been weaker. He has amplified what had
-                    before a tendency to be redundant; he has rendered abstruse what was before
-                    sufficiently difficult of comprehension: and in proportion as he has departed
-                    from the chaste elegance of <hi rendition="#smcaps">
+               </hi>, on which <ref target="people.html#JohnsonSamuel">Dr. <hi rendition="#smcaps"
+                     >Johnson</hi>
+               </ref> makes this single observation, that it is <hi rendition="#italics">too
+                  long</hi>. The probability is that the critic never read it through: as, <lb/><fw
+                  type="sig"><hi rendition="#smcaps">d</hi></fw>
+               <pb n="34"/>for the author's purpose, it is too short, since it breaks off so
+               abruptly, that though the purport is declared to be to shew the origin of evil, the
+               story is not far enough advanced to allow the reader even to guess at the intended
+               solution. Of the fourth book the beginning is barely sketched. But had the whole been
+               completed, we may venture to pronounce that, if the system was improved, the Poetry
+               would have been weaker. He has amplified what had before a tendency to be redundant;
+               he has rendered abstruse what was before sufficiently difficult of comprehension: and
+               in proportion as he has departed from the chaste elegance of <hi rendition="#smcaps">
                   <ref target="people.html#AddisonJoseph">Addison</ref>
-               </hi> he has given to
-                    his subject a dry scholastic air, and involved it in metaphysical subtleties. Of
-                    amplification the following are instances. In the poem before us we meet with
-                    the line <quote>
+               </hi> he has given to his subject a dry scholastic air, and involved it in
+               metaphysical subtleties. Of amplification the following are instances. In the poem
+               before us we meet with the line <quote>
                   <lg type="stanza">
-                     <l>And painted shells indent their speckled wreathe.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                                 <title>The
-                                                Pleasures of Imagination</title>
-                              </hi>
-                                    I.456.</note>
-                        </hi>
+                     <l>And painted shells indent their speckled wreathe.<note>
+                           <ref target="people.html#AkensideMark">Akenside</ref>, <hi
+                              rendition="#italics">
+                              <title>The Pleasures of Imagination</title>
+                           </hi> I.456.</note>
                      </l>
                   </lg>
-               </quote>Not being willing to let these shells pass without the lustre
-                    of an additional polish, he has altered it to <pb n="35"/>
+               </quote>Not being willing to let these shells pass without the lustre of an
+               additional polish, he has altered it to <pb n="35"/>
                <quote>
                   <lg type="stanza">
                      <l>And painted shells along some winding shore</l>
-                     <l>Catch with indented folds the glancing sun.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#BarbauldMrs">Barbauld</ref> here quotes from the extended
-                                        (unfinished) edition of <hi rendition="#italics">
-                                 <title>The
-                                                Pleasures of Imagination</title>
-                              </hi> that <ref target="people.html#AkensideMark">Akenside</ref> was
-                                        working on at the time of his death. There the lines appear
-                                        at I.528-9.</note>
-                        </hi>
+                     <l>Catch with indented folds the glancing sun.<note>
+                           <ref target="people.html#BarbauldMrs">Barbauld</ref> here quotes from the
+                           extended (unfinished) edition of <hi rendition="#italics">
+                              <title>The Pleasures of Imagination</title>
+                           </hi> that <ref target="people.html#AkensideMark">Akenside</ref> was
+                           working on at the time of his death. There the lines appear at
+                           I.528-9.</note>
                      </l>
                   </lg>
                </quote>
@@ -1534,97 +1435,78 @@
                      <l rendition="#indent8">—the thymy vale </l>
                      <l>Where oft enchanted with Socratic sounds </l>
                      <l>Ilissus pure devolved his tuneful stream </l>
-                     <l>In gentler murmurs.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                                 <title>The Pleasures of
-                                                Imagination</title>
-                              </hi> I.592-5, altered. Ilissus
-                                        is a river in Athens.</note>
-                        </hi>
+                     <l>In gentler murmurs.<note>
+                           <ref target="people.html#AkensideMark">Akenside</ref>, <hi
+                              rendition="#italics">
+                              <title>The Pleasures of Imagination</title>
+                           </hi> I.592-5, altered. Ilissus is a river in Athens.</note>
                      </l>
                   </lg>
                </quote>
             </p>
             <p>The thought of a river listening to eloquence is but trite, and therefore
-                    sufficiently spread; but not content with the image, he has in the later work
-                    added <ref target="people.html#Boreas">Boreas</ref> and <ref target="people.html#Orithyia">Orithyia</ref> to the dramatis personae.
-                            <quote>
+               sufficiently spread; but not content with the image, he has in the later work added
+                  <ref target="people.html#Boreas">Boreas</ref> and <ref
+                  target="people.html#Orithyia">Orithyia</ref> to the dramatis personae. <quote>
                   <lg type="stanza">
                      <l rendition="#indent8">——Where once beneath </l>
                      <l>That ever-living plantane's ample boughs </l>
                      <l>Ilissus by Socratic sounds detain'd </l>
                      <l>On his neglected urn attentive lay, </l>
                      <l>While <ref target="people.html#Boreas">Boreas</ref> lingering on the
-                                neighbouring steep</l>
+                        neighbouring steep</l>
                      <l>With beauteous <ref target="people.html#Orithyia">Orithyia</ref> his
-                                love-tale</l>
-                     <l>In silent awe suspended.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#AkensideMark">Akenside</ref>, <hi rendition="#italics">
-                                 <title>The Pleasures of
-                                                Imagination</title>
-                              </hi> I.718-24 (unfinished
-                                        edition).</note>
-                        </hi>
+                        love-tale</l>
+                     <l>In silent awe suspended.<note>
+                           <ref target="people.html#AkensideMark">Akenside</ref>, <hi
+                              rendition="#italics">
+                              <title>The Pleasures of Imagination</title>
+                           </hi> I.718-24 (unfinished edition).</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>Sometimes however we meet with a happier image: the following is very
-               picturesque, <lb/>
-               <fw type="sig">
-                  <hi rendition="#smcaps">d 2</hi>
-               </fw>
+            <p>Sometimes however we meet with a happier image: the following is very picturesque,
+                  <lb/><fw type="sig"><hi rendition="#smcaps">d 2</hi></fw>
                <pb n="36"/>
                <quote>
                   <lg type="stanza">
                      <l rendition="#indent3">——O ye dales</l>
                      <l>Of Tyne, and ye most ancient woodlands where</l>
-                     <l>Oft as the <hi rendition="#italics">giant flood obliquely
-                                    strides</hi>
+                     <l>Oft as the <hi rendition="#italics">giant flood obliquely strides</hi>
                      </l>
-                     <l>And his banks open————<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#AkensideMark">Akenside,</ref>
-                              <hi rendition="#italics">
-                                 <title>The Pleasures of
-                                                Imagination</title>
-                              </hi> V.31-4 (unfinished
-                                        edition).</note>
-                        </hi>
+                     <l>And his banks open————<note>
+                           <ref target="people.html#AkensideMark">Akenside,</ref>
+                           <hi rendition="#italics">
+                              <title>The Pleasures of Imagination</title>
+                           </hi> V.31-4 (unfinished edition).</note>
                      </l>
                   </lg>
                </quote>
             </p>
-            <p>The following description of universal or primitive beauty, though somewhat too
-                    awful for a Venus, is striking, and merits preservation, <quote>
+            <p>The following description of universal or primitive beauty, though somewhat too awful
+               for a Venus, is striking, and merits preservation, <quote>
                   <lg type="stanza">
                      <l>
                         <hi rendition="#italics">He, God most high</hi>, Page 130 to</l>
-                     <l rendition="#indent1">—<hi rendition="#italics">and owns her
-                                    charms</hi>, Page 134.<hi rendition="#sup">
-                           <note>
-                              <ref target="people.html#AkensideMark">Akenside</ref>,
-                                            <hi rendition="#italics">
-                                 <title>The Pleasures of
-                                                Imagination</title>
-                              </hi> I.563-682 (unfinished
-                                        edition).</note>
-                        </hi>
+                     <l rendition="#indent1">—<hi rendition="#italics">and owns her charms</hi>,
+                        Page 134.<note>
+                           <ref target="people.html#AkensideMark">Akenside</ref>, <hi
+                              rendition="#italics">
+                              <title>The Pleasures of Imagination</title>
+                           </hi> I.563-682 (unfinished edition).</note>
                      </l>
                   </lg>
                </quote>
             </p>
             <p>On the whole, though we may not look upon <hi rendition="#smcaps">
                   <ref target="people.html#AkensideMark">Akenside</ref>
-               </hi> as one of those
-                    few born to <hi rendition="#italics">create</hi> an era in Poetry, we may well
-                    consider him as formed to shine in the brightest; we may venture to predict that
-                    his work, which is not formed on any local or temporary subject, will continue
-                    to be a classic in our language; and we shall pay him the grateful regard which
-                    we owe to genius exerted in the cause of liberty and philosophy, of virtue and
-                    of taste. </p>
+               </hi> as one of those few born to <hi rendition="#italics">create</hi> an era in
+               Poetry, we may well consider him as formed to shine in the brightest; we may venture
+               to predict that his work, which is not formed on any local or temporary subject, will
+               continue to be a classic in our language; and we shall pay him the grateful regard
+               which we owe to genius exerted in the cause of liberty and philosophy, of virtue and
+               of taste. </p>
          </div>
       </body>
    </text>

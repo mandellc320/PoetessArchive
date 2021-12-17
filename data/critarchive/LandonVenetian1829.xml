@@ -3,18 +3,18 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Preface to The Venetian Bracelet, the Lost Pleiad, A
-                    History of the Lyre, and Other Poems.</title>
-            <title type="sub" level="m"/>
+            <title type="main" level="a">Preface [to the Venetian Bracelet]</title>
+            <title type="sub" level="m">The Venetian Bracelet, the Lost Pleiad, a History of the
+               Lyre, and Other Poems.</title>
             <author type="writer">
-               <name>Letitia Landon</name>
+               <name>Letitia Elizabeth Landon</name>
             </author>
             <respStmt>
-               <resp>Genernal Editor</resp>
+               <resp>Editor</resp>
                <name xml:id="MW">Mary A. Waters</name>
             </respStmt>
             <respStmt>
-               <resp>Encoding and Editing Assistance</resp>
+               <resp>Co-editor</resp>
                <name xml:id="VS">Victoria Stewart</name>
             </respStmt>
          </titleStmt>
@@ -32,23 +32,18 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Preface</title>
-                  <author type="writer">
-                     <name>L. E. L. (Letitia Elizabeth Landon), 1802-1838</name>
-                  </author>
+                  <title type="main" level="a">Preface [to The Venetian Bracelet]</title>
+                  <author type="writer">L. E. L. (Letitia Elizabeth Landon), 1802-1838</author>
                </analytic>
                <monogr>
-                  <title type="main" level="m">The Venetial Bracelet, the Lost Pleiad, A
-                            history of the Lyre, and Other Poems.</title>
-                  <author type="writer">
-                     <name>L. E. L. (Letitia Elizabeth Landon), 1802-1838</name>
-                  </author>
+                  <title type="main" level="j">The Venetian Bracelet, the Lost Pleiad, a History of
+                     the Lyre, and Other Poems. By L.E.L. Author of The Improvisatrice, The
+                     Troubadour, and The Golden Violet.</title>
                   <imprint>
                      <pubPlace>London</pubPlace>
-                     <publisher>Longman, Rees, Orme, Brown, and Green</publisher>
+                     <publisher>Longman, Rees, Orme, Brown, and Greene</publisher>
                      <date when="1829">1829</date>
-                     <biblScope unit="vol"/>
-                     <biblScope unit="page">iii-viii</biblScope>
+                     <biblScope unit="page">i-viii</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -57,28 +52,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -92,15 +86,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -343,11 +346,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -477,7 +481,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -543,19 +547,28 @@
          <textClass>
             <keywords scheme="#lcsh">
                <list type="simple">
-                  <item>Criticism</item>
-                  <item>Essay</item>
+                  <item>Defoe, Daniel, 1661?-1731</item>
+                  <item>English literature</item>
+                  <item>History</item>
                </list>
             </keywords>
             <catRef target="#ft1" scheme="#ft"/>
-            <catRef target="#ag9 #ag12" scheme="#ag"/>
+            <catRef target="#ag9 #ag12 #ag20" scheme="#ag"/>
             <catRef target="#f1" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef target="#g72 #g30 " scheme="#g"/>
+            <catRef scheme="#g" target="#g72 #g30 "/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="7">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -564,43 +577,22 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#LM" when="20200611" n="6">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
-            </list>
-         </change>
-         <change who="#MW" when="2019-12-18" n="6">
+         <change who="#MW" when="20210713" n="3">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
             <list type="simple">
-               <item>minor TEI encoding revisions</item>
+               <item>Revised TEI encoding and editing</item>
             </list>
          </change>
-         <change who="#LM" when="20190110" n="5">
+         <change who="#DCH" when="20210421" n="2">
             <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
-            </list>
-         </change>
-         <change who="#MW" when="2018-06-25" n="4">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>TEI encoding revision</item>
-               <item>Editing revision</item>
-            </list>
-         </change>
-         <change who="#VS" when="2017-02-07" n="2">
-            <label>Changed by</label>
-            <name>Victoria Stewart</name>
+            <name>David Hole</name>
             <list type="simple">
                <item>TEI encoding</item>
+               <item>Transcription</item>
             </list>
          </change>
-         <change who="#MW" when="2014-06-15" n="1">
+         <change who="#MW" when="20181113" n="1">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
             <list type="simple">
@@ -616,103 +608,96 @@
                <bibl>
                   <author type="writer">
                      <ref target="people.html#LandonLetitia">
-                        <name>Letitia Landon</name>
+                        <name>Letitia Elizabeth Landon</name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title type="main" level="a">PREFACE <lb/>
-                     <hi rendition="#small">[to <hi rendition="#italics"> The Venetian
-                                    Bracelet, the Lost Pleiad, a History of the Lyre, and Other
-                                    Poems</hi>].</hi>
-                     <hi rendition="#sup">
-                        <note>
-                           <title level="m">
-                              <hi rendition="#italics">The Venetian Bracelet,
-                                            The Lost Pleiad, A History of the Lyre, and Other Poems
-                                        </hi>
-                           </title>(London: Longman, Rees, Orme, Brown &amp;
-                                    Green, 1829) iii-viii. Victoria Stewart and Mary A. Waters
-                                    co-edited this edition for <hi rendition="#italics">The Criticism
-                                        Archive</hi>.</note>
-                     </hi>
+                  <title> PREFACE <note>
+                        <title>"Preface." <hi rendition="#italics">The Venetian Bracelet, the Lost
+                              Pleiad, a History of the Lyre, and Other Poems. By <ref
+                                 target="people.html#LandonLetitia">L. E. L.</ref>. Author of
+                                 <title>The Improvisatrice</title>, <title>The Troubadour</title>,
+                              and <title>The Golden Violet</title>
+                           </hi>
+                        </title>. London: Longman Rees, Orme, Brown, and Green, 1829, pp. iii-viii.
+                        Victoria Stewart and Mary A. Waters co-edited this edition for The Criticism
+                        Archive.</note>
                   </title>
                </bibl>
             </head>
-            <p rendition="#noindent">
+            <p>
                <hi rendition="#largest">D</hi>
-               <hi rendition="#smcaps">iffidence</hi> of their own abilities, and fear, which heightens the
-                    anxiety for public favour, are pleas usually urged by the youthful writer: may
-                    I, while venturing for the first time to speak of myself, be permitted to say
-                    they far more truly belong to one who has had experience of both praise and
-                    censure. The feelings which attended the publication of the
-                        "Improvisatrice"<hi rendition="#sup">
-                  <note>
-                     <hi rendition="#italics">The Improvisatrice; and Other Poems</hi>, <ref target="people.html#LandonLetitia">Landon</ref>'s 1824
-                            volume.</note>
-               </hi> are very different from those that accompany the
-                    present volume. I believe I <hi rendition="#italics">then</hi> felt
-                        little<lb/>
-               <fw type="sig" rendition="#center">A   2</fw>
-               <pb n="iv"/>beyond hope, vague as the timidity which subdued it, and that excitement which
-                    every author must know: <hi rendition="#italics">now</hi> mine is a
-                    "farther looking hope;"<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#WordsworthWilliam">William Wordsworth</ref>,
-                            "The Force of Prayer, or the Founding of Bolton Abbey," <hi rendition="#italics">Poems</hi> (1815), vol. 2, line 47.</note>
-               </hi>
-                    and the timidity which apprehended the verdict of others, is now deepened by
-                    distrust of my own powers. Or, to claim my poetical privilege, and express my
-                    meaning by a simile, I should say, I am no longer one who springs forward in the
-                    mere energy of exercise and enjoyment; but rather like the Olympian racer, who
-                    strains his utmost vigour, with the distant goal and crown in view. I have
-                    devoted my whole life to one object: in society I have but sought the material
-                    for solitude. I can imagine but one interest in existence,—that which has
-                    filled my past, and haunts my future,—the perhaps vain desire, when<pb n="v"/>I am nothing, of leaving one of those memories at once a good and a
-                    glory. Believing as I do in the great and excellent influence of poetry, may I
-                    hazard the expression of what I have myself sometimes trusted to do? A
-                    highly-cultivated state of society must ever have for concomitant evils, that
-                    selfishness, the result of indolent indulgence; and that heartlessness attendant
-                    on refinement, which too often hardens while it polishes. Aware that to elevate
-                    I must first soften, and that if I wished to purify I must first touch, I have
-                    ever endeavoured to bring forward grief, disappointment, the fallen leaf, the
-                    faded flower, the broken heart, and the early grave. Surely we must be less
-                    worldly, less interested, from this sympathy with the<pb n="vi"/>sorrow in which
-                    our unselfish feelings alone can take part. And now a few words on a subject,
-                    where the variety of the opinions offered have left me somewhat in the situation
-                    of the prince in the fairy tale, who, when in the vicinity of the magic
-                    fountain, found himself so distracted by the multitude of voices that directed
-                    his way, as to be quite incapable of deciding which was the right path. I allude
-                    to the blame and eulogy which have been equally bestowed on my frequent choice
-                    of Love as my source of song. I can only say, that for a woman, whose influence
-                    and whose sphere must be in the affections, what subject can be more fitting
-                    than one which it is her peculiar province to refine, spiritualise, and exalt? I
-                    have always sought to paint it self-<pb n="vii"/>denying, devoted, and making an
-                    almost religion of its truth; and I must add, that such as I would wish to draw
-                    her, woman actuated by an attachment as intense as it is true, as pure as it is
-                    deep, is not only more admirable as a heroine, but also in actual life, than one
-                    whose idea of love is that of light amusement, or at worst of vain
-                    mortification. With regard to the frequent application of my works to myself,
-                    considering that I sometimes pourtrayed love unrequited, then betrayed, and
-                    again destroyed by death—may I hint the conclusions are not quite
-                    logically drawn, as assuredly the same mind cannot have suffered such varied
-                    modes of misery. However, if I must have an unhappy passion, I can only console
-                    myself with my own perfect unconsciousness of<pb n="viii"/>so great a
-                    misfortune. I now leave the following Poems to their fate: they must speak for
-                    themselves. I could but express my anxiety, an anxiety only increased by a
-                    popularity beyond my most sanguine dreams. </p>
+               <hi rendition="#smcaps">iffidence</hi> of their own abilities, and fear, which
+               heightens the anxiety for public favour, are pleas usually urged by the youthful
+               writer: may I, while venturing for the first time to speak of myself, be permitted to
+               say they far more truly belong to one who has had experience of both praise and
+               censure. The feelings which attended the publication of the "Improvisatrice"<note>
+                  <hi rendition="#italics">
+                     <title>The Improvisatrice; and Other Poems</title>
+                  </hi> (1824) was <ref target="people.html#LandonLetitia">Landon</ref>'s second
+                  published volume of poetry and her first major success.</note> are very different
+               from those that accompany the present volume. I believe I <hi rendition="#italics"
+                  >then</hi> felt little <lb/><fw type="sig">
+                  <hi rendition="#smcaps">a 2</hi>
+               </fw>
+               <pb n="iv"/>beyond hope, vague as the timidity which subdued it, and that excitement
+               which every author must know: <hi rendition="#italics">now</hi> mine is a "farther
+               looking hope;"<note>
+                  <ref target="people.html#WordsworthWilliam">William Wordsworth</ref>, "The Force
+                  of Prayer; or, The Founding of Bolton Priory. A Tradition." <hi
+                     rendition="#italics">
+                     <title>Poems</title>
+                  </hi> (1815), vol. 2, line 47.</note> and the timidity which apprehended the
+               verdict of others, is now deepened by distrust of my own powers. Or, to claim my
+               poetical privilege, and express my meaning by a simile, I should say, I am no longer
+               one who springs forward in the mere energy of exercise and enjoyment; but rather like
+               the Olympian racer, who strains his utmost vigour, with the distant goal and crown in
+               view. I have devoted my whole life to one object: in society I have but sought the
+               material for solitude. I can imagine but one interest in existence,—that which has
+               filled my past, and haunts my future,—the perhaps vain desire, when <pb n="v"/>I am
+               nothing, of leaving one of those memories at once a good and a glory. Believing as I
+               do in the great and excellent influence of poetry, may I hazard the expression of
+               what I have myself sometimes trusted to do? A highly-cultivated state of society must
+               ever have for concomitant evils, that selfishness, the result of indolent indulgence;
+               and that heartlessness attendant on refinement, which too often hardens while it
+               polishes. Aware that to elevate I must first soften, and that if I wished to purify I
+               must first touch, I have ever endeavoured to bring forward grief, disappointment, the
+               fallen leaf, the faded flower, the broken heart, and the early grave. Surely we must
+               be less worldly, less interested, from this sympathy with the <pb n="vi"/>sorrow in
+               which our unselfish feelings alone can take part. And now a few words on a subject,
+               where the variety of the opinions offered have left me somewhat in the situation of
+               the prince in the fairy tale, who, when in the vicinity of the magic fountain, found
+               himself so distracted by the multitude of voices that directed his way, as to be
+               quite incapable of deciding which was the right path. I allude to the blame and
+               eulogy which have been equally bestowed on my frequent choice of Love as my source of
+               song. I can only say, that for a woman, whose influence and whose sphere must be in
+               the affections, what subject can be more fitting than one which it is her peculiar
+               province to refine, spiritualise, and exalt? I have always sought to paint it
+                  self-<pb n="vii"/>denying, devoted, and making an almost religion of its truth;
+               and I must add, that such as I would wish to draw her, woman actuated by an
+               attachment as intense as it is true, as pure as it is deep, is not only more
+               admirable as a heroine, but also in actual life, than one whose idea of love is that
+               of light amusement, or at worst of vain mortification. With regard to the frequent
+               application of my works to myself, considering that I sometimes pourtrayed love
+               unrequited, then betrayed, and again destroyed by death—may I hint the conclusions
+               are not quite logically drawn, as assuredly the same mind cannot have suffered such
+               varied modes of misery. However, if I must have an unhappy passion, I can only
+               console myself with my own perfect unconsciousness of <pb n="viii"/>so great a
+               misfortune. I now leave the following Poems to their fate: they must speak for
+               themselves. I could but express my anxiety, an anxiety only increased by a popularity
+               beyond my most sanguine dreams. </p>
             <p>With regard to those whose former praise encouraged, their best recompense is the
-                    happiness they bestowed. And to those whose differing opinion expressed itself
-                    in censure, I own, after the first chagrin was past, I never laid down a
-                    criticism by which I did not benefit, or trust to benefit. I will conclude by
-                    apostrophizing the hopes and fears they excited, in the words of the Mexican
-                    king—"Ye have been the feathers of my wings."<hi rendition="#sup">
-                  <note>See <ref target="people.html#DisraeliIsaac">Isaac
-                                D’Israeli</ref>, <hi rendition="#italics">The Literary Character,
-                                Illustrated by the History of Men of Genius, Drawn from Their Own
-                                Feelings and Confessions</hi>, 3rd ed. (London: John Murray, 1822)
-                            22. The anecdote constitutes one of several examples of traitorous
-                            councilors. </note>
-               </hi>
+               happiness they bestowed. And to those whose differing opinion expressed itself in
+               censure, I own, after the first chagrin was past, I never laid down a criticism by
+               which I did not benefit, or trust to benefit. I will conclude by apostrophizing the
+               hopes and fears they excited, in the words of the Mexican king—"Ye have been the
+               feathers of my wings."<note>The anecdote of the Mexican king appears with this
+                  quotation at the end of Chapter 2 of <ref target="people.html#DisraeliIsaac">Isaac
+                     Disraeli</ref>'s <hi rendition="#italics">
+                     <title>The Literary Character: or the History of Men of Genius</title>
+                  </hi> (1818), a fourth edition of which had just been issued the year before by
+                     <ref target="people.html#ColburnHenry">Henry Colburn</ref>, a regular publisher
+                  of <ref target="people.html#LandonLetitia">Landon</ref>'s work. The anecdote
+                  constitutes one of several examples of traitorous councilors.</note>
             </p>
          </div>
       </body>

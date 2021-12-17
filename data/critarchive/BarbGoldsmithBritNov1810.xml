@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Goldsmith</title>
-            <title type="sub" level="m">The British Novelists</title>
+            <title type="sub">The British Novelists</title>
             <author type="writer">
                <name>Anna Letitia Barbauld</name>
             </author>
@@ -57,28 +57,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+        				placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p>
                <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+        				such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -556,7 +555,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="8">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below
+						but starting with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -565,11 +572,11 @@
                <item>inserted line break before fw</item>
             </list>
          </change>
-         <change who="#LM" when="20200611" n="7">
+         <change who="#LM" when="20200611" n="6">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added full text taxonomy</item>
+               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
             </list>
          </change>
          <change who="#MW" when="2019-12-16" n="6">
@@ -584,7 +591,7 @@
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>Added new taxonomies into headers</item>
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
             </list>
          </change>
          <change who="#MW" when="2016-09-25" n="4">
@@ -628,17 +635,15 @@
                         <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
                      </name>
                   </author>
-                  <lb/>
                   <title type="main" level="a">
-                     <ref target="people.html#agoldsmithOliver">GOLDSMITH</ref>.<hi rendition="#sup">
-                        <note>
-                           <title level="m">
-                              <hi rendition="#italics">The British Novelists;
+                     <ref target="people.html#agoldsmithOliver">GOLDSMITH</ref>.<note>
+                        <title level="m">
+                           <hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
                                             by <ref target="people.html#BarbauldMrs">Mrs.
                                                 Barbauld</ref>
-                              </hi>
-                           </title>, 50 Vols. (London:
+                           </hi>
+                        </title>, 50 Vols. (London:
                                     Printed for F.C. and J. Rivington; W. Otridge and Son; A.
                                     Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
                                     Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
@@ -653,7 +658,6 @@
                                     co-edited this essay with assistance from Bronwen Johnson for
                                         <hi rendition="#italics">The Criticism Archive</hi>.
                                 </note>
-                     </hi>
                   </title>
                </bibl>
             </head>
@@ -683,15 +687,13 @@
                   <hi rendition="#smcaps">vol.
                         xxiii.</hi>
                </fw>
-               <fw type="sig" rendition="#center">a</fw>
+               <fw type="sig">a</fw>
                <pb n="ii"/> and thoughtless companions. He was pursued, and arrested at Sunderland; but
                     was released through the friendship of two fellow-students. The world was now
-                    all before him,<hi rendition="#sup">
-                  <note>See Milton, <title>
-                        <hi rendition="#italics">Paradise Lost</hi>
-                     </title> Bk. XII,
-                            646.</note>
-               </hi> and he therefore resolved to see it, and accordingly
+                    all before him,<note>See Milton, <title>
+                     <hi rendition="#italics">Paradise Lost</hi>
+                  </title> Bk. XII,
+                            646.</note> and he therefore resolved to see it, and accordingly
                     embarked immediately for Holland; and poor as he was, and struggling with
                     difficulties of every kind, performed a tour, mostly on foot, through that
                     country, Flanders, and part of Germany. He passed some time at the universities
@@ -712,13 +714,11 @@
                     written in the countries which he describes; and, though no doubt a melancholy
                     thought would sometimes intrude, as he found himself, <quote>
                   <lg type="stanza">
-                     <l>"Remote, unfriended, melancholy, slow,"<hi rendition="#sup">
-                           <note>Line 1 of <ref target="people.html#agoldsmithOliver">Oliver
+                     <l>"Remote, unfriended, melancholy, slow,"<note>Line 1 of <ref target="people.html#agoldsmithOliver">Oliver
                                             Goldsmith</ref>'s poem <title>
-                                 <hi rendition="#italics">The Traveller</hi>
-                              </title>
+                              <hi rendition="#italics">The Traveller</hi>
+                           </title>
                                         (1764).</note>
-                        </hi>
                      </l>
                   </lg>
                </quote>
@@ -732,13 +732,11 @@
                   <hi rendition="#italics">Traveller</hi>
                </title>, he
                     represents himself as leading "with tuneless pipe the sportive
-                        choir"<hi rendition="#sup">
-                  <note>Lines 243-4 of <ref target="people.html#agoldsmithOliver">Oliver Goldsmith</ref>'s
+                        choir"<note>Lines 243-4 of <ref target="people.html#agoldsmithOliver">Oliver Goldsmith</ref>'s
                             poem <title>
-                        <hi rendition="#italics">The Traveller</hi>
-                     </title> (1764),
-                            somewhat altered. </note>
-               </hi> of the French peasants; for to the little
+                     <hi rendition="#italics">The Traveller</hi>
+                  </title> (1764),
+                            somewhat altered. </note> of the French peasants; for to the little
                     knowledge which he had of the German flute he was often obliged for a lodging
                     and a dinner.</p>
             <p>When <ref target="people.html#agoldsmithOliver">Goldsmith</ref> returned to
@@ -753,8 +751,7 @@
                     had assisted in liberating him from the arrest, who, though he with difficulty
                     recognised him through the forlorn appearance he made, generously shared his
                     purse with him while he staid in London.</p>
-            <lb/>
-            <fw type="sig" rendition="#center">a 2</fw>
+            <lb/><fw type="sig">a 2</fw>
             <pb n="iv"/>
             <p>
                <ref target="people.html#agoldsmithOliver">Goldsmith</ref> did not remain long in
@@ -817,20 +814,17 @@
                     variety of works, from which he drew a very comfortable subsistence. The
                     furniture of his mind was various, but his knowledge was superficial. Taste
                     supplied in him the deficiencies of science: his style was easy and flowing, and
-                    every thing <lb/>
-               <fw type="sig" rendition="#center">a 3</fw>
+                    every thing <lb/><fw type="sig">a 3</fw>
                <pb n="vi"/>he wrote, whether in verse or prose, bore the impression of his
                     talent. Even to those publications which he compiled for booksellers, he
                     communicated something of the charm of his own genius; and <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref> said of him with equal
                     felicity and truth, "Nullum fere scribendi genus non tetigit, nullum quod
-                    tetigit non ornavit."<hi rendition="#sup">
-                  <note>Taken from
+                    tetigit non ornavit."<note>Taken from
                                 <ref target="people.html#JohnsonSamuel">Samuel Johnson</ref>'s
                             epitaph for <ref target="people.html#agoldsmithOliver">Oliver
                                 Goldsmith</ref>. These lines roughly translate to "who left scarcely
                             any style of writing untouched, and touched nothing that he did not
                             adorn."</note>
-               </hi>
             </p>
             <p>
                <ref target="people.html#agoldsmithOliver">Goldsmith</ref> now took rooms in the
@@ -858,21 +852,17 @@
                </title>, but
                     without much success, though it possessed a good share of comic merit and
                     originality. The public taste was at that time very much for sentimental
-                        comedy—<hi rendition="#italics">la comédie larmoyante</hi>,<hi rendition="#sup">
-                  <note>"Tearful comedy," a popular
-                            genre on the eighteenth-century French stage.</note>
-               </hi>— and
+                        comedy—<hi rendition="#italics">la comédie larmoyante</hi>,<note>"Tearful comedy," a popular
+                            genre on the eighteenth-century French stage.</note>— and
                             <title>
                   <hi rendition="#italics">False Delicacy</hi>
                </title>, a play of
                         <ref target="people.html#KellyHugh">Kelly</ref>'s, was acted with great
-                    applause at the other house.<hi rendition="#sup">
-                  <note>
-                     <title>
-                        <hi rendition="#italics">False Delicacy</hi>
-                     </title> opened in 1768
-                            at the Theatre-Royal in Drury-Lane.</note>
-               </hi> It is said that poor
+                    applause at the other house.<note>
+                  <title>
+                     <hi rendition="#italics">False Delicacy</hi>
+                  </title> opened in 1768
+                            at the Theatre-Royal in Drury-Lane.</note> It is said that poor
                         <ref target="people.html#agoldsmithOliver">Goldsmith</ref> could never
                     forgive <ref target="people.html#KellyHugh">Kelly</ref> his success. He however
                     made 500<hi rendition="#italics">l</hi>. by the piece; and if he had lost any
@@ -986,18 +976,14 @@
                     fire; and the schemes and plottings of good notable Mrs. Primrose with her
                     gooseberry wine. We are at once touched and diverted with the harmless vanities
                     of the whole group, joined with innocence and benevolence. The character of the
-                    vicar somewhat resembles Par-<pb n="xi"/>son Adams,<hi rendition="#sup">
-                  <note>The protagonist's companion in <title>
-                        <hi rendition="#italics">The History of the Adventures of Joseph
+                    vicar somewhat resembles Par-<pb n="xi"/>son Adams,<note>The protagonist's companion in <title>
+                     <hi rendition="#italics">The History of the Adventures of Joseph
                                     Andrews</hi>
-                     </title> (1742), by <ref target="people.html#FieldingHenry">Henry Fielding</ref>.</note>
-               </hi>
+                  </title> (1742), by <ref target="people.html#FieldingHenry">Henry Fielding</ref>.</note>
                     and perhaps still more the author's own village pastor, "a man to all
-                    the country dear."<hi rendition="#sup">
-                  <note>
-                     <ref target="people.html#agoldsmithOliver">Goldsmith</ref>, <hi rendition="#italics">The Deserted Village</hi> (1770)
-                        141.</note>
-               </hi> He is distinguished from the former by an admirable vein of
+                    the country dear."<note>
+                  <ref target="people.html#agoldsmithOliver">Goldsmith</ref>, <hi rendition="#italics">The Deserted Village</hi> (1770)
+                        141.</note> He is distinguished from the former by an admirable vein of
                     dry humour, and resembles him in the honest simplicity of a man without guile:
                     to this is joined a touch of professional vanity. In the serious parts of the
                     story his behaviour is highly dignified; and it is hoped there are few who can
@@ -1021,22 +1007,18 @@
                     eldest son the author has related some of the vicissitudes of his own life. It
                     must not be forgotten that this novel is enriched with two specimens of the
                     author's poetical powers. The first, "When lovely woman stoops to
-                        folly,"<hi rendition="#sup">
-                  <note>The short poem is sung
-                            by the Vicar's daughter after she has been seduced.</note>
-               </hi> is
+                        folly,"<note>The short poem is sung
+                            by the Vicar's daughter after she has been seduced.</note> is
                     wonderfully pathetic. It is sweet as music, and polished like a gem. <title>
                   <hi rendition="#italics">The Hermit</hi>
                </title> is a most pleasing tale,
                     and has always been very popular. The idea of it is supposed to be taken from
                         <ref target="people.html#PercyThomas">Percy</ref>'s <title>
                   <hi rendition="#italics">Friar of Orders grey</hi>
-               </title>;<hi rendition="#sup">
-                  <note>Printed in <ref target="people.html#PercyThomas">Percy</ref>'s <title>
-                        <hi rendition="#italics">Reliques
+               </title>;<note>Printed in <ref target="people.html#PercyThomas">Percy</ref>'s <title>
+                     <hi rendition="#italics">Reliques
                                     of Ancient English Poetry</hi>
-                     </title> (1765). </note>
-               </hi> but <ref target="people.html#agoldsmithOliver">Goldsmith</ref> asserted that if there
+                  </title> (1765). </note> but <ref target="people.html#agoldsmithOliver">Goldsmith</ref> asserted that if there
                     was any resemblance; the <title>
                   <hi rendition="#italics">Friar</hi>
                </title> was

@@ -3,9 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Art. X.—The Loves of the Poets. By the Author of
-					the "Diary of an Ennuyée."</title>
-            <title type="sub" level="j">The Westminster Review</title>
+            <title type="main" level="a">Art. X.—The Loves of the Poets. By the Author of the "Diary
+               of an Ennuyée."</title>
+            <title type="sub">The Westminster Review</title>
             <author type="writer">
                <name>Mary Wollstonecraft Shelley</name>
             </author>
@@ -32,9 +32,8 @@
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Art. X.—The Loves of the Poets. By the
-							Author of the "Diary of an Ennuyée." 2 Vols. 12mo.
-							Colburn. 1829.</title>
+                  <title type="main" level="a">Art. X.—The Loves of the Poets. By the Author of the
+                     "Diary of an Ennuyée." 2 Vols. 12mo. Colburn. 1829.</title>
                   <author type="writer">Shelley, Mary Wollstonecraft, 1797-1851</author>
                </analytic>
                <monogr>
@@ -51,28 +50,27 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been transcribed as entity
-						references.</p>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>Because of web browser variability, all colons and hyphens have been typed on
-						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-						placed.</p>
+                  placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have
-						been encoded in HTML entity decimals.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-						such, the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
@@ -86,15 +84,24 @@
             <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
             <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
             <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -337,11 +344,12 @@
             <taxonomy xml:id="keyword">
                <category xml:id="lcsh">
                   <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
+                     hyphen</catDesc>
                </category>
             </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
+            <taxonomy
+               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
+               xml:id="ag">
                <bibl>ARC Genre Categories, July 1, 2017</bibl>
                <category xml:id="ag1">
                   <catDesc>Advertisement</catDesc>
@@ -471,7 +479,7 @@
                </category>
             </taxonomy>
             <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
+               xml:id="f">
                <bibl>ARC Format Categories, July 1, 2017</bibl>
                <category xml:id="f1">
                   <catDesc>Codex</catDesc>
@@ -550,7 +558,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20210922" n="5">
+         <change who="#LM" when="20211214">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list>
+         </change>
+         <change who="#LM" when="20210922">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
@@ -597,311 +613,286 @@
                <bibl>
                   <author type="writer">
                      <ref target="people.html#ShelleyMary">
-                        <name>Mary Wollstonecraft Shelley
-								</name>
+                        <name>Mary Wollstonecraft Shelley </name>
                      </ref>
                   </author>
-                  <lb/>
-                  <title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. X.—<hi rendition="#italics">The Loves of the Poets</hi>. By the <ref target="people.html#JamesonAnna">Author of the "<title>Diary of
-									an Ennuyée</title>
-                     </ref>." 2 Vols. 12mo. Colburn.
-								1829.<hi rendition="#sup">
-                        <note>
-                           <title>
-                              <hi rendition="#italics">The Westminister
-										Review</hi>
-                           </title>, vol. 11, October 1829, pp.
-									472-477. This review
-									article is tentatively attributed to Mary Shelley in <hi rendition="#italics">
-                              <title>The Wellesley Index to Victorian
-											Periodicals 1824-1900</title>
-                           </hi>, ed. Wa;ter E.
-									Houghton, University of Toronto Press, 1966. This edition of the
-									article was prepared for <hi rendition="#italics">The Criticism
-										Archive</hi> by Jonathan Pinkerton and Mary A.
-									Waters.</note>
-                     </hi>
+                  <title type="main" level="a">A<hi rendition="#smcaps">rt</hi>. X.—<hi
+                        rendition="#italics">The Loves of the Poets</hi>. By the <ref
+                        target="people.html#JamesonAnna">Author of the "<title>Diary of an
+                           Ennuyée</title>
+                     </ref>." 2 Vols. 12mo. Colburn. 1829.<note>
+                        <title>
+                           <hi rendition="#italics">The Westminister Review</hi>
+                        </title>, vol. 11, October 1829, pp. 472-477. This review article is
+                        tentatively attributed to Mary Shelley in <hi rendition="#italics">
+                           <title>The Wellesley Index to Victorian Periodicals 1824-1900</title>
+                        </hi>, ed. Walter E. Houghton, University of Toronto Press, 1966. This
+                        edition of the article was prepared for <hi rendition="#italics">The
+                           Criticism Archive</hi> by Jonathan Pinkerton and Mary A. Waters.</note>
                   </title>
                </bibl>
             </head>
             <p>
-               <hi rendition="#largest">T</hi>HE Loves of the Poets! that we may understand why
-					the conjunction of ideas represented by these words, presents the most
-					resplendent image of beauty, grace, and happiness, that the human mind can well
-					conceive, let us analyze them, and learn what Love, and what a Poet is.</p>
+               <hi rendition="#largest">T</hi>HE Loves of the Poets! that we may understand why the
+               conjunction of ideas represented by these words, presents the most resplendent image
+               of beauty, grace, and happiness, that the human mind can well conceive, let us
+               analyze them, and learn what Love, and what a Poet is.</p>
             <p>There is much in the world afforded by nature and contrived by man, to yield
-					satisfaction and enjoyment to our senses and our physical wants. In this
-					northern clime the rich engross much of these. Carriages, horses, palaces with
-					all their appendages, costly dress, and luxurious tables. The poor, (<hi rendition="#italics">i.e.</hi> the unopulent, not the absolutely poor, those
-					shut out from nature's table, the starving and miserable), have a
-					counterbalance in a keener sense of the delights of leisure—they bring
-					appetite instead of fastidious taste to season their plain viands, repose after
-					labour, instead of downy beds, and silken hangings. With the omission of the
-					necessitous and sick, our physical nature is replete with agreeable sensations;
-					and yet how many ministered to, even to superfluity, are unhappy.</p>
+               satisfaction and enjoyment to our senses and our physical wants. In this northern
+               clime the rich engross much of these. Carriages, horses, palaces with all their
+               appendages, costly dress, and luxurious tables. The poor, (<hi rendition="#italics"
+                  >i.e.</hi> the unopulent, not the absolutely poor, those shut out from nature's
+               table, the starving and miserable), have a counterbalance in a keener sense of the
+               delights of leisure—they bring appetite instead of fastidious taste to season their
+               plain viands, repose after labour, instead of downy beds, and silken hangings. With
+               the omission of the necessitous and sick, our physical nature is replete with
+               agreeable sensations; and yet how many ministered to, even to superfluity, are
+               unhappy.</p>
             <p>The mind requires more contribution than even our corporeal frame; ennui is the
-					offspring of plenty and comfort; and while we contrive to shut out the evil
-					elements, listlessness and weariness pervade the soul and pall every enjoyment.
-					If the poor suffer less from this annoyance, it is not because they receive more
-					pleasure; but because care, anxiety, or labour, occupy them; the rich also
-					invent employments; books, operas, concerts, hunting, shooting, balls,
-					picture-dealing, building, planting, travelling, fanciful changes of dress, and
-					gambling. Yet these suffice not, nor professions, trades, nor ambition, to
-					afford pleasure, though they waste the time; even the pursuits of wisdom, and
-					the discoveries of science, engrossing as they are, and often delightful, are
-					inefficient to take the sting from life, changing its burthen to gladness: this
-					miracle is left for the affections; and the best form of affection, from the
-					excess of its sympathy, is Love.</p>
-            <p>Who can feel satiety or sorrow when he loves?—"Love," Plato says,
-					"showers benignity upon the world; before his presence, all harsh passions
-					flee and perish. He is the author of all soft affections, the destroyer of all
-					ungentle thoughts, possessed by the fortunate, and desired by the unhappy,
-					therefore unhappy, because they possess him not; he is the father of grace and
-					delicacy, and gentleness and delight and persuasion, and desire; the cherisher
-					of all that is good, the abolisher of all<pb n="473"/>that is evil, our most
-					excellent pilot, defence, saviour and guardian, in labour and in fear, in desire
-					and in reason; the ornament and governor of all things human and divine; the
-					best, the loveliest."<note>
-                  <ref target="people.html#Plato">Plato</ref>'s <title>Symposium</title>. [<ref target="people.html#ShelleyMary">Shelley</ref>'s note]</note>
+               offspring of plenty and comfort; and while we contrive to shut out the evil elements,
+               listlessness and weariness pervade the soul and pall every enjoyment. If the poor
+               suffer less from this annoyance, it is not because they receive more pleasure; but
+               because care, anxiety, or labour, occupy them; the rich also invent employments;
+               books, operas, concerts, hunting, shooting, balls, picture-dealing, building,
+               planting, travelling, fanciful changes of dress, and gambling. Yet these suffice not,
+               nor professions, trades, nor ambition, to afford pleasure, though they waste the
+               time; even the pursuits of wisdom, and the discoveries of science, engrossing as they
+               are, and often delightful, are inefficient to take the sting from life, changing its
+               burthen to gladness: this miracle is left for the affections; and the best form of
+               affection, from the excess of its sympathy, is Love.</p>
+            <p>Who can feel satiety or sorrow when he loves?—"Love," Plato says, "showers benignity
+               upon the world; before his presence, all harsh passions flee and perish. He is the
+               author of all soft affections, the destroyer of all ungentle thoughts, possessed by
+               the fortunate, and desired by the unhappy, therefore unhappy, because they possess
+               him not; he is the father of grace and delicacy, and gentleness and delight and
+               persuasion, and desire; the cherisher of all that is good, the abolisher of all<pb
+                  n="473"/>that is evil, our most excellent pilot, defence, saviour and guardian, in
+               labour and in fear, in desire and in reason; the ornament and governor of all things
+               human and divine; the best, the loveliest."<note>
+                  <ref target="people.html#Plato">Plato</ref>'s <title>Symposium</title>. [<ref
+                     target="people.html#ShelleyMary">Shelley</ref>'s note]</note>
             </p>
-            <p>"Love," Shelley writes, "is that powerful attraction towards all
-					we conceive, or fear, or hope beyond ourselves, when we find within our own
-					thoughts the chasm of an inefficient void, and seek to awaken in all things that
-					are, a community with what we experience within ourselves. The meeting with an
-					understanding capable of clearly estimating our own, an imagination which should
-					enter into, and seize upon the subtle and delicate peculiarities we have
-					delighted to cherish and unfold in secret, with a frame whose nerves, like the
-					chords of two exquisite lyres strung to the accompaniment of one delightful
-					voice, vibrate with the vibrations of our own; this is the unattainable point to
-					which Love tends; and to attain which, it urges forth the powers of man to
-					arrest the faintest shadow of that, without the possession of which there is no
-					rest or respite to the heart over which it rules."<note>Essay
-						on Love by <ref target="people.html#ShelleyPercy">Shelley</ref>, published
-						in the <title>Keepsake</title> for 1829.[<ref target="people.html#ShelleyMary">Shelley</ref>'s note]</note>
+            <p>"Love," Shelley writes, "is that powerful attraction towards all we conceive, or
+               fear, or hope beyond ourselves, when we find within our own thoughts the chasm of an
+               inefficient void, and seek to awaken in all things that are, a community with what we
+               experience within ourselves. The meeting with an understanding capable of clearly
+               estimating our own, an imagination which should enter into, and seize upon the subtle
+               and delicate peculiarities we have delighted to cherish and unfold in secret, with a
+               frame whose nerves, like the chords of two exquisite lyres strung to the
+               accompaniment of one delightful voice, vibrate with the vibrations of our own; this
+               is the unattainable point to which Love tends; and to attain which, it urges forth
+               the powers of man to arrest the faintest shadow of that, without the possession of
+               which there is no rest or respite to the heart over which it rules."<note>Essay on
+                  Love by <ref target="people.html#ShelleyPercy">Shelley</ref>, published in the
+                     <title>Keepsake</title> for 1829.[<ref target="people.html#ShelleyMary"
+                     >Shelley</ref>'s note]</note>
             </p>
-            <p>If so imperious, intense and pervading, be the spirit of Love, most powerful in
-					the best and most delicate natures, how earnestly must women, whose being is
-					formed for tenderness and sympathy, desire to know among whom in the harder,
-					harsher sex this feeling exists in its greatest purity and force. And is not a
-					poet an incarnation of the very essence of Love?</p>
-            <p>What is a Poet? Is he not that which wakens melody in the silent chords of the
-					human heart? A light which arrays in splendor things and thoughts which else
-					were dim in the shadow of their own insignificance. His soul is like one of the
-					pools in the Ilex woods of the Maremma,<hi rendition="#sup">
-                  <note>Maremma is a coastal area of Tuscany in Italy. The ilex genus of
-							evergreen grow plentifully in the Mediterranean climate of that
-							region.</note>
-               </hi> it reflects the surrounding universe, but it
-					beautifies, groupes, and mellows their tints, making a little world within
-					itself, the copy of the outer one; but more entire, more faultless. But above
-					all, a poet's soul is Love; the desire of sympathy is the breath that
-					inspires his lay, while he lavishes on the sentiment and its object, his whole
-					treasure-house of resplendent imagery, burning emotion, and ardent enthusiasm.
-					He is the mirror of nature, reflecting her back ten thousand times more lovely;
-					what then must not his power be, when he adds beauty to the most perfect thing
-					in nature—even Love.</p>
+            <p>If so imperious, intense and pervading, be the spirit of Love, most powerful in the
+               best and most delicate natures, how earnestly must women, whose being is formed for
+               tenderness and sympathy, desire to know among whom in the harder, harsher sex this
+               feeling exists in its greatest purity and force. And is not a poet an incarnation of
+               the very essence of Love?</p>
+            <p>What is a Poet? Is he not that which wakens melody in the silent chords of the human
+               heart? A light which arrays in splendor things and thoughts which else were dim in
+               the shadow of their own insignificance. His soul is like one of the pools in the Ilex
+               woods of the Maremma,<note>Maremma is a coastal area of Tuscany in Italy. The ilex
+                  genus of evergreen grow plentifully in the Mediterranean climate of that
+                  region.</note> it reflects the surrounding universe, but it beautifies, groupes,
+               and mellows their tints, making a little world within itself, the copy of the outer
+               one; but more entire, more faultless. But above all, a poet's soul is Love; the
+               desire of sympathy is the breath that inspires his lay, while he lavishes on the
+               sentiment and its object, his whole treasure-house of resplendent imagery, burning
+               emotion, and ardent enthusiasm. He is the mirror of nature, reflecting her back ten
+               thousand times more lovely; what then must not his power be, when he adds beauty to
+               the most perfect thing in nature—even Love.</p>
             <p>
-               <ref target="people.html#MorganLady">Lady Morgan</ref> who writes many things,
-					not because they are true, but because they come into her head, has devoted
-						some<pb n="474"/>pages of the "<title>Book of the
-						Boudoir</title>"<hi rendition="#sup">
-                  <note>An 1829
-							collection of essays published by Henry Colburn.</note>
-               </hi> to the
-					villifying a poet's love. Another scrap in the same volume may serve as a
-					comment. The few lines she has written on "Sentiment" sufficiently
-					show why she depreciates the breathing sentiment of love, which is a poet's
-					treasure and his gift.</p>
-            <p>Let us instead of refuting an opinion which this lady may already have discarded
-					as false, turn to the pages of the book before us, which propose to give us the
-					history of the Loves of the Poets, of modern poets that is, for with many
-					declarations of ignorance, yet with no little presumption, the fair authoress
-					sweeps out of her list the loves of the classic authors; she shall have her way,
-					however, and with her we will confine ourselves to the poets of modern
-					Europe.</p>
-            <p>This work is the production of <ref target="people.html#JamesonAnna">the
-						authoress of the "<title>Diary of an Ennuyée</title>,"</ref>
-					a book we have heard described as the offspring of a singular union of a light
-					head and a heavy heart—whose defect is to have made reality and fiction,
-					who are brother and sister, and who may not therefore too closely unite, marry,
-					and produce an offspring which is neither true nor false. Yet notwithstanding
-					this defect, which disturbs and confuses the reader throughout, it is an
-					interesting, clever, and graceful work.</p>
+               <ref target="people.html#MorganLady">Lady Morgan</ref> who writes many things, not
+               because they are true, but because they come into her head, has devoted some<pb
+                  n="474"/>pages of the "<title>Book of the Boudoir</title>"<note>An 1829 collection
+                  of essays published by Henry Colburn.</note> to the villifying a poet's love.
+               Another scrap in the same volume may serve as a comment. The few lines she has
+               written on "Sentiment" sufficiently show why she depreciates the breathing sentiment
+               of love, which is a poet's treasure and his gift.</p>
+            <p>Let us instead of refuting an opinion which this lady may already have discarded as
+               false, turn to the pages of the book before us, which propose to give us the history
+               of the Loves of the Poets, of modern poets that is, for with many declarations of
+               ignorance, yet with no little presumption, the fair authoress sweeps out of her list
+               the loves of the classic authors; she shall have her way, however, and with her we
+               will confine ourselves to the poets of modern Europe.</p>
+            <p>This work is the production of <ref target="people.html#JamesonAnna">the authoress of
+                  the "<title>Diary of an Ennuyée</title>,"</ref> a book we have heard described as
+               the offspring of a singular union of a light head and a heavy heart—whose defect is
+               to have made reality and fiction, who are brother and sister, and who may not
+               therefore too closely unite, marry, and produce an offspring which is neither true
+               nor false. Yet notwithstanding this defect, which disturbs and confuses the reader
+               throughout, it is an interesting, clever, and graceful work.</p>
             <p>The book dwells somewhat on the Troubadours, and then commences with the early
-					Italian poets. So much has been said concerning <ref target="people.html#PetrarcaFrancesco">Petrarch</ref> and <ref target="people.html#Laura">Laura</ref>, that we find the account here given
-					concise. She seems to have neglected his letters, which are abundant in
-					testimonies of the truth, ardour, and reality of his attachment, and to have
-					confined herself to his poems only, and to repeat what is already known, without
-					research, to every one. <ref target="people.html#Dante">Dante</ref> and <ref target="people.html#PortinariBeatrice">Beatrice</ref> are a pair more veiled
-					in obscurity. <ref target="people.html#Dante">Dante</ref>, like our own gentle
-					affectionate <ref target="people.html#MiltonJohn">Milton</ref>, has been
-					stigmatized with the accusation of moroseness. Few know, that while bad
-					institutions and bad men awoke stern resistance and severe animosity in the
-					fervent souls of both, their hearts were the abode of Love, the realm over which
-					sweet womanhood reigned and ruled. <ref target="people.html#Dante">Dante</ref>'s "<title>Vita Nuova</title>" is a beautiful and
-					fanciful history of his love; and who that reads the vivid description of his
-					trembling before the beauteous girl he almost worshipped, would figure the harsh
-					proud <ref target="people.html#Dante">Dante</ref>, so often pourtrayed to us?
-					The loves of <ref target="people.html#Ariosto">Ariosto</ref>, but little known,
-					are on that account interesting; while the melancholy, impassioned, mysterious
-					sentiment of <ref target="people.html#TassoTorquato">Tasso</ref>, borrowing its
-					grace from suffering, fascinates the imagination. In these pages this sad
-					romance is unravelled much to our satisfaction. An extract on this subject will
-					serve as a specimen of the work, and excite the curiosity of the reader to
-					peruse the whole of<pb n="475"/>these little volumes, replete as they are with
-					the beautiful and unknown.</p>
+               Italian poets. So much has been said concerning <ref
+                  target="people.html#PetrarcaFrancesco">Petrarch</ref> and <ref
+                  target="people.html#Laura">Laura</ref>, that we find the account here given
+               concise. She seems to have neglected his letters, which are abundant in testimonies
+               of the truth, ardour, and reality of his attachment, and to have confined herself to
+               his poems only, and to repeat what is already known, without research, to every one.
+                  <ref target="people.html#Dante">Dante</ref> and <ref
+                  target="people.html#PortinariBeatrice">Beatrice</ref> are a pair more veiled in
+               obscurity. <ref target="people.html#Dante">Dante</ref>, like our own gentle
+               affectionate <ref target="people.html#MiltonJohn">Milton</ref>, has been stigmatized
+               with the accusation of moroseness. Few know, that while bad institutions and bad men
+               awoke stern resistance and severe animosity in the fervent souls of both, their
+               hearts were the abode of Love, the realm over which sweet womanhood reigned and
+               ruled. <ref target="people.html#Dante">Dante</ref>'s "<title>Vita Nuova</title>" is a
+               beautiful and fanciful history of his love; and who that reads the vivid description
+               of his trembling before the beauteous girl he almost worshipped, would figure the
+               harsh proud <ref target="people.html#Dante">Dante</ref>, so often pourtrayed to us?
+               The loves of <ref target="people.html#Ariosto">Ariosto</ref>, but little known, are
+               on that account interesting; while the melancholy, impassioned, mysterious sentiment
+               of <ref target="people.html#TassoTorquato">Tasso</ref>, borrowing its grace from
+               suffering, fascinates the imagination. In these pages this sad romance is unravelled
+               much to our satisfaction. An extract on this subject will serve as a specimen of the
+               work, and excite the curiosity of the reader to peruse the whole of<pb n="475"/>these
+               little volumes, replete as they are with the beautiful and unknown.</p>
             <quote>
-               <p>Leonora then was not unworthy of her illustrious conquest, either in
-						person, heart, or mind. To be summoned daily into the presence of a princess
-						thus beautiful and amiable, to read aloud his verses to her, to hear his own
-						praises from her lips, to bask in her approving smiles, to associate with
-						her in retirement, to behold her in all the graceful simplicity of her
-						familiar life, was a dangerous situation for <ref target="people.html#TassoTorquato">Tasso</ref>, and surely not less so
-						for Leonora herself. That she was aware of his admiration, and perfectly
-						understood his sentiments, and that a mysterious intelligence existed
-						between them, consistent with the utmost reverence on his part, and the most
-						perfect delicacy and dignity on hers, is apparent from the meaning and
-						tendency of innumerable passages scattered through his minor poems, too
-						significant in their application to be mistaken. Though that application be
-						not avowed, and even disguised, the very disguise, when once detected,
-						points to the object. Leonora knew, as well as her lover, that a princess
-						"was no love-mate for a bard."<hi rendition="#sup">
-                     <note>Byron, "The Lament of Tasso" stanza V, line
-							13, slightly altered. </note>
-                  </hi>She knew far better than her
-						lover—until <hi rendition="#italics">he</hi> too had been taught by
-						wretched experience—the haughty and implacable temper of her brother
-						Alphonso, who was never known to brook an injury or forgive an offender. She
-						must have remembered too well the twelve years imprisonment and the narrow
-						escape from death, of her unfortunate mother, for a less cause. She was of a
-						timid reserved nature, increased by the extreme delicacy of her
-						constitution. Her hand had been frequently sought by princes and nobles,
-						whom she had uniformly rejected, at the risk of displeasing her brother; and
-						the eyes of a jealous court were upon her. <ref target="people.html#TassoTorquato">Tasso</ref>, on the other hand, was
-						imprudent, hot-headed, fearless, and ardently attached. For both their sakes
-						it was necessary for Leonora to be guarded and reserved, unless she would
-						have made herself the fable of all Italy. —Vol. i. p. 296.</p>
+               <p>Leonora then was not unworthy of her illustrious conquest, either in person,
+                  heart, or mind. To be summoned daily into the presence of a princess thus
+                  beautiful and amiable, to read aloud his verses to her, to hear his own praises
+                  from her lips, to bask in her approving smiles, to associate with her in
+                  retirement, to behold her in all the graceful simplicity of her familiar life, was
+                  a dangerous situation for <ref target="people.html#TassoTorquato">Tasso</ref>, and
+                  surely not less so for Leonora herself. That she was aware of his admiration, and
+                  perfectly understood his sentiments, and that a mysterious intelligence existed
+                  between them, consistent with the utmost reverence on his part, and the most
+                  perfect delicacy and dignity on hers, is apparent from the meaning and tendency of
+                  innumerable passages scattered through his minor poems, too significant in their
+                  application to be mistaken. Though that application be not avowed, and even
+                  disguised, the very disguise, when once detected, points to the object. Leonora
+                  knew, as well as her lover, that a princess "was no love-mate for a
+                     bard."<note>Byron, "The Lament of Tasso" stanza V, line 13, slightly altered.
+                  </note>She knew far better than her lover—until <hi rendition="#italics">he</hi>
+                  too had been taught by wretched experience—the haughty and implacable temper of
+                  her brother Alphonso, who was never known to brook an injury or forgive an
+                  offender. She must have remembered too well the twelve years imprisonment and the
+                  narrow escape from death, of her unfortunate mother, for a less cause. She was of
+                  a timid reserved nature, increased by the extreme delicacy of her constitution.
+                  Her hand had been frequently sought by princes and nobles, whom she had uniformly
+                  rejected, at the risk of displeasing her brother; and the eyes of a jealous court
+                  were upon her. <ref target="people.html#TassoTorquato">Tasso</ref>, on the other
+                  hand, was imprudent, hot-headed, fearless, and ardently attached. For both their
+                  sakes it was necessary for Leonora to be guarded and reserved, unless she would
+                  have made herself the fable of all Italy. —Vol. i. p. 296.</p>
             </quote>
             <p>The reader must be referred to the volume itself for the proofs brought of these
-					premises.</p>
+               premises.</p>
             <p>Perhaps the most interesting portion of these volumes, is that dedicated to the
-					commemoration of conjugal poetry—the poets being for the most part women.
-					The soft sweetness of Clotilde de Surville,<hi rendition="#sup">
-                  <note>The collection <hi rendition="#italics">
-                        <title>Poésies
-									de Marguerite-Eleonore Clotilde de Vallon-Chalys, depuis Madame
-									de Surville, poëte françois de XVe
-								siècle</title>
-                     </hi>, published in 1803 by Henrichs in Paris
-							with an introduction by Charles Vandenbourg, turned out to be a literary
-							hoax.</note>
-               </hi> the impassioned grace of <ref target="people.html#ColonnaVittoria">Vittoria Colonna</ref>, bear the palm.
-					Complaint here is superseded by tender regret; solicitation by acknowledged
-					sympathy; jealousy and suspense by gratitude and joy. The authoress is not
-					pleased that while women mourn till death the loss of their companion, men
-					usually change the elegiac strain composed for their first love, for
-					epithalamiums on a marriage with a second. It is probably one among the many
-					superstitions which rather injure than exalt the characters of women, which
-					makes us, in spite of ourselves, set so high a price on their constancy even to
-					the dead. Human beings in every stage of life need companions;<pb n="476"/>women
-					protectors; and except that, for the highminded and delicate, there are few
-					worthy companions and protectors, and that if once a woman find one man on whom
-					she may bestow without sorrow her tenderness, it is very unlikely that, losing
-					him, she find a second, we know no cause in reason and morality, and hardly in
-					good taste, which should condemn the lovely, bereaved, and ardent heart to
-					perpetual widowhood.</p>
-            <p>A woman's love is tenderness, and may wed itself to the lost and dead. A
-					man's is passion, and must expend itself on the living. A woman's
-					domesticity is of her own making, and her home may be replete with elegance
-					though she be alone. An unmarried man has no home. A solitary woman is the
-					world's victim, and there is heroism in her consecration. A man whose fate
-					is not allied to a female, from whatever cause, is divested of every poetical
-					attribute—there is something rugged, harsh, and unnatural in the very
-					idea. After all, the worthiness of the beloved object must always stand as an
-					excuse for inconstancy; or, with a poet, the fervency and truth of his passion:
-					since, through the force of his imagination, he may dress in jewels richer than
-					those that adorned the doll at Loretto, a black-visaged Madonna;<hi rendition="#sup">
-                  <note>The statue of Our Lady of Loreto in
-							Italy features a gold- and jewel-draped "Black Madonna" whose
-							face has been darkened by centuries of smoke.</note>
-               </hi> nor be aware
-					that the beauty of the object resides in his eyes instead of in her mind or
-					form.</p>
+               commemoration of conjugal poetry—the poets being for the most part women. The soft
+               sweetness of Clotilde de Surville,<note>The collection <hi rendition="#italics">
+                     <title>Poésies de Marguerite-Eleonore Clotilde de Vallon-Chalys, depuis Madame
+                        de Surville, poëte françois de XVe siècle</title>
+                  </hi>, published in 1803 by Henrichs in Paris with an introduction by Charles
+                  Vandenbourg, turned out to be a literary hoax.</note> the impassioned grace of
+                  <ref target="people.html#ColonnaVittoria">Vittoria Colonna</ref>, bear the palm.
+               Complaint here is superseded by tender regret; solicitation by acknowledged sympathy;
+               jealousy and suspense by gratitude and joy. The authoress is not pleased that while
+               women mourn till death the loss of their companion, men usually change the elegiac
+               strain composed for their first love, for epithalamiums on a marriage with a second.
+               It is probably one among the many superstitions which rather injure than exalt the
+               characters of women, which makes us, in spite of ourselves, set so high a price on
+               their constancy even to the dead. Human beings in every stage of life need
+                  companions;<pb n="476"/>women protectors; and except that, for the highminded and
+               delicate, there are few worthy companions and protectors, and that if once a woman
+               find one man on whom she may bestow without sorrow her tenderness, it is very
+               unlikely that, losing him, she find a second, we know no cause in reason and
+               morality, and hardly in good taste, which should condemn the lovely, bereaved, and
+               ardent heart to perpetual widowhood.</p>
+            <p>A woman's love is tenderness, and may wed itself to the lost and dead. A man's is
+               passion, and must expend itself on the living. A woman's domesticity is of her own
+               making, and her home may be replete with elegance though she be alone. An unmarried
+               man has no home. A solitary woman is the world's victim, and there is heroism in her
+               consecration. A man whose fate is not allied to a female, from whatever cause, is
+               divested of every poetical attribute—there is something rugged, harsh, and unnatural
+               in the very idea. After all, the worthiness of the beloved object must always stand
+               as an excuse for inconstancy; or, with a poet, the fervency and truth of his passion:
+               since, through the force of his imagination, he may dress in jewels richer than those
+               that adorned the doll at Loretto, a black-visaged Madonna;<note>The statue of Our
+                  Lady of Loreto in Italy features a gold- and jewel-draped "Black Madonna" whose
+                  face has been darkened by centuries of smoke.</note> nor be aware that the beauty
+               of the object resides in his eyes instead of in her mind or form.</p>
             <p>The latter part of these volumes forms a very amusing and sentimental scandalous
-					chronicle. We pity <ref target="people.html#PopeAlexander">Pope</ref>, who, in
-					default of better, lavished his verses and his poetical attentions on so
-					uninteresting a personage as <ref target="people.html#BlountMartha">Martha
-						Blount</ref>. Our authoress says, "me thinks, had I been a poet, or
-						<ref target="people.html#PopeAlexander">Pope</ref>, I would rather have been
-					led about in triumph by the spirited, accomplished lady Mary, than chained to
-					the footstool of two paltry girls."<hi rendition="#sup">
-                  <note>The quotation refers to <ref target="people.html#PopeAlexander">Pope</ref>'s intense dislike of <ref target="people.html#MontaguMaryWortley">Lady Mary Wortley
-								Montagu</ref> along with his closeness to the sisters <ref target="people.html#BlountMartha">Martha</ref> and Teresa
-							Blount.</note>
-               </hi> [vol. ii. p. 284.] Yet as no satisfactory account is
-					given for the cause of the quarrel between <ref target="people.html#PopeAlexander">Pope</ref> and that lady, we may believe,
-					judging from the hardness and peremptoriness of her character, her love of
-					ridicule, and her talent for sarcasm, that she first awoke the sting of the
-					"Wasp of Twickenham;"<hi rendition="#sup">
-                  <note>A common
-							epithet for <ref target="people.html#PopeAlexander">Pope</ref>.</note>
-               </hi> and he, with all the bitterness of one whose person
-					was but too open to vulgar derision, could not bear to have his genuine
-					tenderness scoffed at; while the spiteful, jealous, bitter disposition, usually
-					characteristic of deformed persons, gave poison to the wound she had
-					provoked.</p>
-            <p>If we smile somewhat at the loves of the "Wasp" and the <ref target="people.html#Sappho">Sappho</ref> of the satires, whom <ref target="people.html#WalpoleHorace">Horace Walpole</ref> so amusingly
-					describes [vol. ii. p. 307], what shall we say to the French philosophers by
-					nature—poets by courtesy—Messrs. Du Chatelêt and <ref target="people.html#Voltaire">Voltaire</ref>.<hi rendition="#sup">
-                  <note>The prominent French intellectual and woman of letters <ref target="people.html#DuChateletEmilie">Emilie Du Châtelet</ref>
-							and <ref target="people.html#Voltaire">Voltaire</ref> carried on a
-							devoted affair of several years duration, apparently at least partially
-							countenanced by <ref target="people.html#DuChateletEmilie">Mme. Du
-								Châtelet</ref>'s husband, the Marquis Florent-Claude du
-							Chêtelet, with whom <ref target="people.html#DuChateletEmilie">Mme.
-								Du Châtelet</ref> had little in common.</note>
-               </hi> Had either
-					of them had one spark of real poetry in their composition, it had led to
-					different results than those<pb n="477"/>ridiculous, disgusting, violent and
-					laughable scenes commemorated in these volumes [vol. ii. p. 222]. The same
-					observations may apply to <ref target="people.html#SwiftJonathan">Swift</ref>.
-					Lovers in verse are not, therefore, poets. <ref target="people.html#SwiftJonathan">Swift</ref>'s victims were beautiful
-					accomplished women. He was clever, and could forge even rhythm and rhyme in his
-					head, but the spirit of poetry disdained to take up its abode in his
-					coarse-grained, ill-fashioned, hard-natured soul. Of these modern moderns the
-					greatest portion of interest has been thrown over the rustic loves of <ref target="people.html#BurnsRobert">Burns</ref>,—thus redeeming a
-					poet's name,—shewing that the high born and bred, and clever <ref target="people.html#MontaguMaryWortley">lady Mary Montague</ref>, <ref target="people.html#Voltaire">Voltaire</ref> and his <hi rendition="#italics">
-                  <ref target="people.html#DuChateletEmilie">femme
-							terrible</ref>
-               </hi>, and <ref target="people.html#SwiftJonathan">Swift</ref>, were lovers, but not poets, and therefore neither gentle,
-					imaginative, nor interesting; while the lowly-born <ref target="people.html#BurnsRobert">Burns</ref>, being instinct with <ref target="people.html#Apollo">Apollo</ref>'s fire, sheds a glory over the
-					humble objects of his attachment, which a princess might envy [vol. ii. p. 195].
-						<ref target="people.html#MontiVincenzo">Monti</ref> and his wife are also an
-					interesting pair [vol. ii. p. 209], and we are charmed by the sweetness
-					displayed in the loves of <ref target="people.html#KlopstockFriedrich">Klopstock</ref> and <ref target="people.html#KlopstockMargareta">Meta</ref>
-					[vol. ii. p. 154], though there is a Germanism about it, which, giving
-					effeminacy to the man, dims the picture by a mist of what appears to us almost
-					like affectation.</p>
-            <p>The authoress sums up her work by a glance at the poets of the day, and their
-					loves—a chapter as well left out, for she, fearing to tread on forbidden
-					ground, tells us, in fact, nothing. Unable to throw the ideality of distance
-					over the near and distinct—and afraid, justly so—for the practice of
-					shewing up our friends is the vice and shame of our literature,—of
-					dragging into undesired publicity the modest and retiring,—she does not
-					even bestow the interest of reality upon her undefined sketches. Besides, there
-					are certain names she dreads to mention. May we not say, in the somewhat
-					hacknied phrase of Tacitus: Sed perfulgebant, eo ipso quod <hi rendition="#italics">nomines</hi> eorum non visebantur?<hi rendition="#sup">
-                  <note>Mary Shelley replaces "effigies" (likenesses) with
-							"nomines" (names) to render applicable a version of <ref target="people.html#Tacitus">Tacitus</ref>'s line from <hi rendition="#italics">
-                        <title>Annals</title>
-                     </hi> Book 3, chapter 76:
-							But Cassius and Brutus outshone them all, from the very fact that their
-							likenesses were not to be seen. This translation provided by the <hi rendition="#italics">
-                        <title>Perseus Digital Library</title>
-                     </hi> in
-							an edition by Alfred John Church and William Jackson
-						Brodribb.</note>
-               </hi>
+               chronicle. We pity <ref target="people.html#PopeAlexander">Pope</ref>, who, in
+               default of better, lavished his verses and his poetical attentions on so
+               uninteresting a personage as <ref target="people.html#BlountMartha">Martha
+                  Blount</ref>. Our authoress says, "me thinks, had I been a poet, or <ref
+                  target="people.html#PopeAlexander">Pope</ref>, I would rather have been led about
+               in triumph by the spirited, accomplished lady Mary, than chained to the footstool of
+               two paltry girls."<note>The quotation refers to <ref
+                     target="people.html#PopeAlexander">Pope</ref>'s intense dislike of <ref
+                     target="people.html#MontaguMaryWortley">Lady Mary Wortley Montagu</ref> along
+                  with his closeness to the sisters <ref target="people.html#BlountMartha"
+                     >Martha</ref> and Teresa Blount.</note> [vol. ii. p. 284.] Yet as no
+               satisfactory account is given for the cause of the quarrel between <ref
+                  target="people.html#PopeAlexander">Pope</ref> and that lady, we may believe,
+               judging from the hardness and peremptoriness of her character, her love of ridicule,
+               and her talent for sarcasm, that she first awoke the sting of the "Wasp of
+                  Twickenham;"<note>A common epithet for <ref target="people.html#PopeAlexander"
+                     >Pope</ref>.</note> and he, with all the bitterness of one whose person was but
+               too open to vulgar derision, could not bear to have his genuine tenderness scoffed
+               at; while the spiteful, jealous, bitter disposition, usually characteristic of
+               deformed persons, gave poison to the wound she had provoked.</p>
+            <p>If we smile somewhat at the loves of the "Wasp" and the <ref
+                  target="people.html#Sappho">Sappho</ref> of the satires, whom <ref
+                  target="people.html#WalpoleHorace">Horace Walpole</ref> so amusingly describes
+               [vol. ii. p. 307], what shall we say to the French philosophers by nature—poets by
+               courtesy—Messrs. Du Chatelêt and <ref target="people.html#Voltaire"
+                  >Voltaire</ref>.<note>The prominent French intellectual and woman of letters <ref
+                     target="people.html#DuChateletEmilie">Emilie Du Châtelet</ref> and <ref
+                     target="people.html#Voltaire">Voltaire</ref> carried on a devoted affair of
+                  several years duration, apparently at least partially countenanced by <ref
+                     target="people.html#DuChateletEmilie">Mme. Du Châtelet</ref>'s husband, the
+                  Marquis Florent-Claude du Chêtelet, with whom <ref
+                     target="people.html#DuChateletEmilie">Mme. Du Châtelet</ref> had little in
+                  common.</note> Had either of them had one spark of real poetry in their
+               composition, it had led to different results than those<pb n="477"/>ridiculous,
+               disgusting, violent and laughable scenes commemorated in these volumes [vol. ii. p.
+               222]. The same observations may apply to <ref target="people.html#SwiftJonathan"
+                  >Swift</ref>. Lovers in verse are not, therefore, poets. <ref
+                  target="people.html#SwiftJonathan">Swift</ref>'s victims were beautiful
+               accomplished women. He was clever, and could forge even rhythm and rhyme in his head,
+               but the spirit of poetry disdained to take up its abode in his coarse-grained,
+               ill-fashioned, hard-natured soul. Of these modern moderns the greatest portion of
+               interest has been thrown over the rustic loves of <ref
+                  target="people.html#BurnsRobert">Burns</ref>,—thus redeeming a poet's
+               name,—shewing that the high born and bred, and clever <ref
+                  target="people.html#MontaguMaryWortley">lady Mary Montague</ref>, <ref
+                  target="people.html#Voltaire">Voltaire</ref> and his <hi rendition="#italics">
+                  <ref target="people.html#DuChateletEmilie">femme terrible</ref>
+               </hi>, and <ref target="people.html#SwiftJonathan">Swift</ref>, were lovers, but not
+               poets, and therefore neither gentle, imaginative, nor interesting; while the
+               lowly-born <ref target="people.html#BurnsRobert">Burns</ref>, being instinct with
+                  <ref target="people.html#Apollo">Apollo</ref>'s fire, sheds a glory over the
+               humble objects of his attachment, which a princess might envy [vol. ii. p. 195]. <ref
+                  target="people.html#MontiVincenzo">Monti</ref> and his wife are also an
+               interesting pair [vol. ii. p. 209], and we are charmed by the sweetness displayed in
+               the loves of <ref target="people.html#KlopstockFriedrich">Klopstock</ref> and <ref
+                  target="people.html#KlopstockMargareta">Meta</ref> [vol. ii. p. 154], though there
+               is a Germanism about it, which, giving effeminacy to the man, dims the picture by a
+               mist of what appears to us almost like affectation.</p>
+            <p>The authoress sums up her work by a glance at the poets of the day, and their loves—a
+               chapter as well left out, for she, fearing to tread on forbidden ground, tells us, in
+               fact, nothing. Unable to throw the ideality of distance over the near and
+               distinct—and afraid, justly so—for the practice of shewing up our friends is the vice
+               and shame of our literature,—of dragging into undesired publicity the modest and
+               retiring,—she does not even bestow the interest of reality upon her undefined
+               sketches. Besides, there are certain names she dreads to mention. May we not say, in
+               the somewhat hacknied phrase of Tacitus: Sed perfulgebant, eo ipso quod <hi
+                  rendition="#italics">nomines</hi> eorum non visebantur?<note>Mary Shelley replaces
+                  "effigies" (likenesses) with "nomines" (names) to render applicable a version of
+                     <ref target="people.html#Tacitus">Tacitus</ref>'s line from <hi
+                     rendition="#italics">
+                     <title>Annals</title>
+                  </hi> Book 3, chapter 76: But Cassius and Brutus outshone them all, from the very
+                  fact that their likenesses were not to be seen. This translation provided by the
+                     <hi rendition="#italics">
+                     <title>Perseus Digital Library</title>
+                  </hi> in an edition by Alfred John Church and William Jackson Brodribb.</note>
             </p>
          </div>
       </body>
