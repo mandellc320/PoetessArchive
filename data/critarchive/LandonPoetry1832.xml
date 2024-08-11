@@ -1,651 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">On the Ancient and Modern Influence Of Poetry.</title>
-            <title type="sub">New Monthly Magazine and Literary Journal</title>
-            <author type="writer">
-               <name>Letitia Landon</name>
-            </author>
-            <respStmt>
-               <resp>General Editor</resp>
-               <name xml:id="MW">Mary A. Waters</name>
-            </respStmt>
-            <respStmt>
-               <resp>Editing and encoding assistance</resp>
-               <name xml:id="VS">Victoria Stewart</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <idno>LandonPoetry1832</idno>
-         </publicationStmt>
-         <seriesStmt>
-            <title level="s">The Criticism Archive</title>
-            <respStmt>
-               <resp>Edited by</resp>
-               <name type="person" ref="#MW">Mary A. Waters</name>
-            </respStmt>
-            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
-         </seriesStmt>
-         <sourceDesc>
-            <biblStruct>
-               <analytic>
-                  <title type="main" level="a">On the Ancient and Modern Influence of
-                     Poetry.</title>
-                  <author type="writer">L. E. L. (Letitia Elizabeth Landon), 1802-1838</author>
-               </analytic>
-               <monogr>
-                  <title type="main" level="j">New Monthly Magazine and Literary Journal</title>
-                  <imprint>
-                     <date when="1804-12">November 1832</date>
-                     <biblScope unit="vol">35</biblScope>
-                     <biblScope unit="no"/>
-                     <biblScope unit="page">466-71</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
-               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>All hyphens have been typed on the U.S. keyboard.</p>
-               <p>em-dashes have been recorded originally using the —</p>
-            </hyphenation>
-            <normalization method="silent">
-               <p>Long "s" (ſ) has been silently modernized.</p>
-               <p>Page numbers appear at the beginning of each page, no matter where originally
-                  placed.</p>
-               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
-               <p>Spelling has not been regularized.</p>
-            </normalization>
-            <normalization method="markup">
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  typed on the U.S. keyboard.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-         </editorialDecl>
-         <tagsDecl>
-            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
-            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
-            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
-            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
-            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
-            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
-            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
-            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
-            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
-            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
-               block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
-               block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
-               block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
-               block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
-               block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
-               block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
-               block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
-               block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
-               block;</rendition>
-         </tagsDecl>
-         <classDecl>
-            <taxonomy xml:id="ft">
-               <bibl>Full Text or Citation</bibl>
-               <category xml:id="ft1">
-                  <catDesc>full text</catDesc>
-               </category>
-               <category xml:id="ft2">
-                  <catDesc>citation only</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="ps">
-               <bibl>Primary or Secondary</bibl>
-               <category xml:id="ps1">
-                  <catDesc>primary</catDesc>
-               </category>
-               <category xml:id="ps2">
-                  <catDesc>secondary</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="g">
-               <bibl>Genre and Material Form</bibl>
-               <category xml:id="g1">
-                  <catDesc>pageimage</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>biography</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>biographical essay</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>poetry pamphlet</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>poetry book</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>poem</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>story</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>drama</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>table of contents</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>table of illustrations</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>picture</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>index</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>notes</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>frontispiece</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>inscription page</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>book boards</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>titlepage</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>preface</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>advertisement</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>foreword</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>acknowledgments</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>collection literary annual</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>collection miscellany</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>collection anthology</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>collection beauties</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>collection juvenile</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>collection religious</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>collection travels</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>mixed</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>essay</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>review</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>letter</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>fragment poem</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>fragment story</catDesc>
-               </category>
-               <category xml:id="g35">
-                  <catDesc>fragment novel</catDesc>
-               </category>
-               <category xml:id="g36">
-                  <catDesc>literary criticism book</catDesc>
-               </category>
-               <category xml:id="g37">
-                  <catDesc>literary criticism collection</catDesc>
-               </category>
-               <category xml:id="g38">
-                  <catDesc>bibliography</catDesc>
-               </category>
-               <category xml:id="g39">
-                  <catDesc>engraving</catDesc>
-               </category>
-               <category xml:id="g40">
-                  <catDesc>reproduction</catDesc>
-               </category>
-               <category xml:id="g41">
-                  <catDesc>figure</catDesc>
-               </category>
-               <category xml:id="g42">
-                  <catDesc>graph</catDesc>
-               </category>
-               <category xml:id="g43">
-                  <catDesc>map</catDesc>
-               </category>
-               <category xml:id="g44">
-                  <catDesc>table</catDesc>
-               </category>
-               <category xml:id="g45">
-                  <catDesc>musical score</catDesc>
-               </category>
-               <category xml:id="g46">
-                  <catDesc>music</catDesc>
-               </category>
-               <category xml:id="g47">
-                  <catDesc>satire</catDesc>
-               </category>
-               <category xml:id="g48">
-                  <catDesc>political pamphlet</catDesc>
-               </category>
-               <category xml:id="g49">
-                  <catDesc>political cartoon</catDesc>
-               </category>
-               <category xml:id="g50">
-                  <catDesc>periodical</catDesc>
-               </category>
-               <category xml:id="g51">
-                  <catDesc>historical monograph</catDesc>
-               </category>
-               <category xml:id="g52">
-                  <catDesc>historical essay</catDesc>
-               </category>
-               <category xml:id="g53">
-                  <catDesc>philosophical treatise</catDesc>
-               </category>
-               <category xml:id="g54">
-                  <catDesc>philosophical essay</catDesc>
-               </category>
-               <category xml:id="g55">
-                  <catDesc>religious pamphlet</catDesc>
-               </category>
-               <category xml:id="g56">
-                  <catDesc>sermon</catDesc>
-               </category>
-               <category xml:id="g57">
-                  <catDesc>theology</catDesc>
-               </category>
-               <category xml:id="g58">
-                  <catDesc>religious book</catDesc>
-               </category>
-               <category xml:id="g59">
-                  <catDesc>essay on education</catDesc>
-               </category>
-               <category xml:id="g60">
-                  <catDesc>educational treatise</catDesc>
-               </category>
-               <category xml:id="g61">
-                  <catDesc>list of subscribers</catDesc>
-               </category>
-               <category xml:id="g62">
-                  <catDesc>allegory</catDesc>
-               </category>
-               <category xml:id="g63">
-                  <catDesc>introduction</catDesc>
-               </category>
-               <category xml:id="g64">
-                  <catDesc>slipcase</catDesc>
-               </category>
-               <category xml:id="g65">
-                  <catDesc>dedication</catDesc>
-               </category>
-               <category xml:id="g66">
-                  <catDesc>picture of building</catDesc>
-               </category>
-               <category xml:id="g67">
-                  <catDesc>floorplans</catDesc>
-               </category>
-               <category xml:id="g68">
-                  <catDesc>photograph</catDesc>
-               </category>
-               <category xml:id="g69">
-                  <catDesc>translation</catDesc>
-               </category>
-               <category xml:id="g70">
-                  <catDesc>manuscript</catDesc>
-               </category>
-               <category xml:id="g71">
-                  <catDesc>printersmark</catDesc>
-               </category>
-               <category xml:id="g72">
-                  <catDesc>literary criticism article</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="keyword">
-               <category xml:id="lcsh">
-                  <catDesc>Library of Congress Subject Headings, reduced to one word before
-                     hyphen</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="ag">
-               <bibl>ARC Genre Categories, July 1, 2017</bibl>
-               <category xml:id="ag1">
-                  <catDesc>Advertisement</catDesc>
-               </category>
-               <category xml:id="ag2">
-                  <catDesc>Animation</catDesc>
-               </category>
-               <category xml:id="ag3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="ag4">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="ag5">
-                  <catDesc>Chronology</catDesc>
-               </category>
-               <category xml:id="ag7">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="ag6">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="ag8">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="ag9">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="ag10">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="ag11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="ag12">
-                  <catDesc>Essay</catDesc>
-               </category>
-               <category xml:id="ag13">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="ag14">
-                  <catDesc>Film, Documentary</catDesc>
-               </category>
-               <category xml:id="ag15">
-                  <catDesc>Film, Experimental</catDesc>
-               </category>
-               <category xml:id="ag16">
-                  <catDesc>Film, Narrative</catDesc>
-               </category>
-               <category xml:id="ag17">
-                  <catDesc>Film, Other</catDesc>
-               </category>
-               <category xml:id="ag18">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="ag19">
-                  <catDesc>Interview</catDesc>
-               </category>
-               <category xml:id="ag20">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="ag21">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="ag22">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="ag23">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="ag24">
-                  <catDesc>Musical Work</catDesc>
-               </category>
-               <category xml:id="ag25">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="ag26">
-                  <catDesc>Nonficition</catDesc>
-               </category>
-               <category xml:id="ag27">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="ag28">
-                  <catDesc>Performance</catDesc>
-               </category>
-               <category xml:id="ag29">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="ag30">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="ag31">
-                  <catDesc>Political Statement</catDesc>
-               </category>
-               <category xml:id="ag32">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="ag33">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="ag34">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="ag35">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="ag36">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="ag37">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="ag38">
-                  <catDesc>Speech</catDesc>
-               </category>
-               <category xml:id="ag39">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="ag40">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="ag41">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="ag42">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-               xml:id="f">
-               <bibl>ARC Format Categories, July 1, 2017</bibl>
-               <category xml:id="f1">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="f2">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="f3">
-                  <catDesc>Dataset</catDesc>
-               </category>
-               <category xml:id="f4">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="f5">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="f6">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="f7">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="f8">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="f9">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="f10">
-                  <catDesc>Notated Music</catDesc>
-               </category>
-               <category xml:id="f11">
-                  <catDesc>Page Proofs</catDesc>
-               </category>
-               <category xml:id="f12">
-                  <catDesc>Pamphlet</catDesc>
-               </category>
-               <category xml:id="f13">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="f14">
-                  <catDesc>Physcial Object</catDesc>
-               </category>
-               <category xml:id="f15">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="f16">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="f17">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="f18">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="f19">
-                  <catDesc>Typescript</catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <keywords scheme="#lcsh">
-               <list type="simple">
-                  <item>Criticism</item>
-                  <item>Essay</item>
-               </list>
-            </keywords>
-            <catRef target="#ft1" scheme="#ft"/>
-            <catRef target="#ag9 #ag12" scheme="#ag"/>
-            <catRef target="#f13" scheme="#f"/>
-            <catRef target="#ps1" scheme="#p"/>
-            <catRef target="#g72 #g30 " scheme="#g"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change who="#LM" when="20211214">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>had to roll back due to xml versioning error, revisions as below but starting
-                  with August and March 2021 XML</item>
-            </list>
-         </change>
-         <change who="#LM" when="20210922">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added header teiHeader07232021.xml</item>
-               <item>changed milestone sig to fw sig</item>
-               <item>inserted line break before fw</item>
-            </list>
-         </change>
-         <change who="#LM" when="20200611" n="6">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
-            </list>
-         </change>
-         <change who="#MW" when="2019-12-18" n="5">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>minor TEI encoding revisions</item>
-            </list>
-         </change>
-         <change who="#LM" when="20190110" n="4">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
-            </list>
-         </change>
-         <change who="#MW" when="2018-07-15" n="3">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>revise TEI encoding</item>
-            </list>
-         </change>
-         <change who="#VS" when="2017-02-11" n="2">
-            <label>Changed by</label>
-            <name>Victoria Stewart</name>
-            <list type="simple">
-               <item>TEI encoding</item>
-            </list>
-         </change>
-         <change who="#MW" when="2016-12-01" n="1">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>Created Edition</item>
-            </list>
-         </change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="essay">
-            <head>
-               <bibl>
-                  <author type="writer">
-                     <ref target="people.html#LandonLetitia">
-                        <name>Letitia Elizabeth Landon</name>
-                     </ref>
-                  </author>
-                  <title type="main" level="a">ON THE ANCIENT AND MODERN INFLUENCE OF POETRY.<note>
-                        <title level="j">
-                           <hi rendition="#italics">New Monthly Magazine and Literary Journal</hi>
-                        </title> (2nd series) no. 35 (November 1832): 466-71. Victoria Stewart and
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">On the Ancient and Modern Influence Of Poetry.</title><title type="sub">New Monthly Magazine and Literary Journal</title><author type="writer"><name>Letitia Landon</name></author><respStmt><resp>General Editor</resp><name xml:id="MW">Mary A. Waters</name></respStmt><respStmt><resp>Editing and encoding assistance</resp><name xml:id="VS">Victoria Stewart</name></respStmt><respStmt><resp>Encoding Assistance</resp><name xml:id="GR">Gabrielle Ramirez</name></respStmt></titleStmt><publicationStmt><idno>LandonPoetry1832</idno></publicationStmt><seriesStmt><title level="s">The Criticism Archive</title><respStmt><resp>Edited by</resp><name type="person" ref="#MW">Mary A. Waters</name></respStmt><idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno></seriesStmt><sourceDesc><biblStruct><analytic><title type="main" level="a">On the Ancient and Modern Influence of
+                     Poetry.</title><author type="writer">L. E. L. (Letitia Elizabeth Landon), 1802-1838</author></analytic><monogr><title type="main" level="j">New Monthly Magazine and Literary Journal</title><imprint><date when="1804-12">November 1832</date><biblScope unit="vol">35</biblScope><biblScope unit="no"/><biblScope unit="page">466-71</biblScope></imprint></monogr></biblStruct></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p><p>Quotation marks that indicate block quotes have been silently eliminated.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>All hyphens have been typed on the U.S. keyboard.</p><p>em-dashes have been recorded originally using the —</p></hyphenation><normalization method="silent"><p>Long "s" (ſ) has been silently modernized.</p><p>Page numbers appear at the beginning of each page, no matter where originally
+        				placed.</p><p>Compositors' catchwords and running titles have been silently eliminated.</p><p>Spelling has not been regularized.</p></normalization><normalization method="markup"><p>&amp; has been used for the ampersand sign.</p><p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p><p>Writing in other hands appearing on these manuscripts has been indicated as
+        				such, the content recorded in brackets.</p></normalization></editorialDecl><tagsDecl><rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition><rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition><rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition><rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition><rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition><rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition><rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition><rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition><rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition><rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition><rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition><rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition><rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition><rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition><rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition><rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition><rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition><rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition><rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition></tagsDecl><classDecl><taxonomy xml:id="ft"><bibl>Full Text or Citation</bibl><category xml:id="ft1"><catDesc>full text</catDesc></category><category xml:id="ft2"><catDesc>citation only</catDesc></category></taxonomy><taxonomy xml:id="ps"><bibl>Primary or Secondary</bibl><category xml:id="ps1"><catDesc>primary</catDesc></category><category xml:id="ps2"><catDesc>secondary</catDesc></category></taxonomy><taxonomy xml:id="g"><bibl>Genre</bibl><category xml:id="g1"><catDesc>biography</catDesc></category><category xml:id="g2"><catDesc>poetry</catDesc></category><category xml:id="g3"><catDesc>story</catDesc></category><category xml:id="g4"><catDesc>drama</catDesc></category><category xml:id="g5"><catDesc>novel</catDesc></category><category xml:id="g6"><catDesc>satire</catDesc></category><category xml:id="g7"><catDesc>allegory</catDesc></category><category xml:id="g8"><catDesc>advertisement</catDesc></category><category xml:id="g9"><catDesc>preface</catDesc></category><category xml:id="g10"><catDesc>foreword</catDesc></category><category xml:id="g11"><catDesc>introduction</catDesc></category><category xml:id="g12"><catDesc>acknowledgments</catDesc></category><category xml:id="g13"><catDesc>essay</catDesc></category><category xml:id="g14"><catDesc>review</catDesc></category><category xml:id="g15"><catDesc>letter</catDesc></category><category xml:id="g16"><catDesc>literary criticism</catDesc></category><category xml:id="g17"><catDesc>electronic resource</catDesc></category><category xml:id="g18"><catDesc>bibliography</catDesc></category><category xml:id="g19"><catDesc>music</catDesc></category><category xml:id="g20"><catDesc>political statement</catDesc></category><category xml:id="g21"><catDesc>history</catDesc></category><category xml:id="g22"><catDesc>education</catDesc></category><category xml:id="g23"><catDesc>sermon</catDesc></category><category xml:id="g24"><catDesc>religion</catDesc></category><category xml:id="g25"><catDesc>philosophical statement</catDesc></category><category xml:id="g26"><catDesc>translation</catDesc></category><category xml:id="g27"><catDesc>dictionary</catDesc></category><category xml:id="g28"><catDesc>encyclopedia</catDesc></category><category xml:id="g29"><catDesc>travel</catDesc></category><category xml:id="g30"><catDesc>illustration</catDesc></category><category xml:id="g31"><catDesc>map</catDesc></category><category xml:id="g32"><catDesc>floorplans</catDesc></category><category xml:id="g33"><catDesc>photograph</catDesc></category><category xml:id="g34"><catDesc>cartoon</catDesc></category><category xml:id="g35"><catDesc>literary annual</catDesc></category><category xml:id="g36"><catDesc>miscellany</catDesc></category><category xml:id="g37"><catDesc>anthology</catDesc></category><category xml:id="g38"><catDesc>beauties</catDesc></category><category xml:id="g39"><catDesc>juvenile</catDesc></category></taxonomy><taxonomy xml:id="f"><bibl>Form</bibl><category xml:id="f1"><catDesc>pageimage</catDesc></category><category xml:id="f2"><catDesc>book part</catDesc></category><category xml:id="f3"><catDesc>book</catDesc></category><category xml:id="f4"><catDesc>periodical part</catDesc></category><category xml:id="f5"><catDesc>periodical</catDesc></category><category xml:id="f6"><catDesc>fragment</catDesc></category><category xml:id="f7"><catDesc>frontispiece</catDesc></category><category xml:id="f8"><catDesc>title page</catDesc></category><category xml:id="f9"><catDesc>inscription page</catDesc></category><category xml:id="f10"><catDesc>dedication</catDesc></category><category xml:id="f11"><catDesc>table of contents</catDesc></category><category xml:id="f12"><catDesc>table of illustrations</catDesc></category><category xml:id="f13"><catDesc>list of subscribers</catDesc></category><category xml:id="f14"><catDesc>index</catDesc></category><category xml:id="f15"><catDesc>notes</catDesc></category><category xml:id="f16"><catDesc>book boards</catDesc></category><category xml:id="f17"><catDesc>slipcase</catDesc></category><category xml:id="f18"><catDesc>printers mark</catDesc></category><category xml:id="f19"><catDesc>engraving</catDesc></category><category xml:id="f20"><catDesc>pamphlet</catDesc></category><category xml:id="f21"><catDesc>manuscript</catDesc></category><category xml:id="f22"><catDesc>collection</catDesc></category><category xml:id="f23"><catDesc>nonceCollection</catDesc></category><category xml:id="f24"><catDesc>sammelband</catDesc></category></taxonomy><taxonomy xml:id="keyword"><category xml:id="lcna"><catDesc>author of main text and of works reviewed, if relevant, using LOC authority name headings.</catDesc></category></taxonomy></classDecl></encodingDesc><profileDesc><textClass><keywords scheme="#lcna"><list type="simple"><item>L. E. L. (Letitia Elizabeth Landon), 1802-1838</item></list></keywords><catRef target="#ft1" scheme="#ft"/><catRef target="#f4" scheme="#f"/><catRef target="#ps1" scheme="#p"/><catRef target="#g13 #g16 #g21" scheme="#g"/></textClass></profileDesc><revisionDesc><change who="#MW" when="20230302"><label>Changed by</label><name>Mary Waters</name><list type="simple"><item>changed catRef</item></list></change><change who="#LM" when="20230227"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>new header</item></list></change><change who="#GR" when="20230111"><label>Changed by</label><name>Gabrielle Ramirez</name><list type="simple"><item>revised keywords</item></list></change><change who="#LM" when="20211214"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item></list></change><change who="#LM" when="20210922"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>Added header teiHeader07232021.xml</item><item>changed milestone sig to fw sig</item><item>inserted line break before fw</item></list></change><change who="#LM" when="20200611" n="6"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item></list></change><change who="#MW" when="2019-12-18" n="5"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>minor TEI encoding revisions</item></list></change><change who="#LM" when="20190110" n="4"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item></list></change><change who="#MW" when="2018-07-15" n="3"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>revise TEI encoding</item></list></change><change who="#VS" when="2017-02-11" n="2"><label>Changed by</label><name>Victoria Stewart</name><list type="simple"><item>TEI encoding</item></list></change><change who="#MW" when="2016-12-01" n="1"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>Created Edition</item></list></change></revisionDesc></teiHeader><text><body><div type="essay"><head><bibl><author type="writer"><ref target="people.html#LandonLetitia"><name>Letitia Elizabeth Landon</name></ref></author><title type="main" level="a">ON THE ANCIENT AND MODERN INFLUENCE OF POETRY.<note><title level="j"><hi rendition="#italics">New Monthly Magazine and Literary Journal</hi></title> (2nd series) no. 35 (November 1832): 466-71. Victoria Stewart and
                         Mary A. Waters co-edited this edition for <hi rendition="#italics">The
-                           Criticism Archive</hi>.</note>
-                  </title>
-               </bibl>
-            </head>
-            <p>
-               <hi rendition="#largest">I</hi>
-               <hi rendition="#smcaps">t</hi> is curious to observe how little one period resembles
+                           Criticism Archive</hi>.</note></title></bibl></head><p><hi rendition="#largest">I</hi><hi rendition="#smcaps">t</hi> is curious to observe how little one period resembles
                another. Centuries are the children of one mighty family, but there is no
                family-likeness between them. We ourselves are standing on the threshold of a new
                era, and we are already hastening to make as wide a space, mark as vast a difference
                as possible, between our own age and its predecessor. Whatever follies we may go back
-               upon, whatever opinions we may re-adopt, they are never those which have gone <hi
-                  rendition="#italics">immediately</hi> before us. Already there is a wide gulph
+               upon, whatever opinions we may re-adopt, they are never those which have gone <hi rendition="#italics">immediately</hi> before us. Already there is a wide gulph
                between the last century and the present. In religion, in philosophy, in politics, in
                manners, there has passed a great change; but in none has been worked a greater
                change than in poetry, whether as it regards the art itself, or the general feeling
@@ -654,8 +19,7 @@
                since the republic was in its plenitude of power. In the meantime a new set of
                aspirants have arisen, and a new set of opinions are to be won. But it is from the
                past that we best judge of the present; and perhaps we shall more accurately say what
-               poetry is by referring to what it has been.</p>
-            <p>Poetry in every country has had its origin in three sources, connected with the
+               poetry is by referring to what it has been.</p><p>Poetry in every country has had its origin in three sources, connected with the
                strongest feelings belonging to the human mind—Religion, War, and Love. The mysteries
                of the present; the still greater mysteries of the future; the confession of some
                superior power so deeply felt; higher impulses speaking so strongly of some spiritual
@@ -666,8 +30,7 @@
                nothing no belief was too absurd for adoption. The imagination, which is the source
                of poetry, has in every country been the beginning as well as the ornament of
                civilization. It civilizes because it refines. A general view of its influence in the
-               various quarters of the globe will place this in the most striking point of view.</p>
-            <p>Africa is the least civilized quarter of the globe, not so much from its savage as
+               various quarters of the globe will place this in the most striking point of view.</p><p>Africa is the least civilized quarter of the globe, not so much from its savage as
                from its apathetic state; one could almost believe that it had been formed from the
                dregs of the other parts. Now, the distinguishing mark of its deficiency in that soil
                of mind wherewith the intellect works, is its total want of imagination. It is the
@@ -702,24 +65,12 @@
                world. We might believe that some great original curse has been said over them, and
                that they are given over into the hand of man and not of God. And in simple truth
                that curse has been slavery. The Helots<note>Serfs of ancient Sparta.</note> even of
-               Greece were uninspired. "A slave cannot be eloquent," said <ref
-                  target="people.html#Longinus">
-                  <name>Longinus</name>
-               </ref>
-               <note>
-                  <ref target="people.html#LandonLetitia">
-                     <name>Landon</name>
-                  </ref> probably relies on her memory of Section XLIV of William Smith's 1739
-                  translation of <ref target="people.html#Longinus">
-                     <name>Longinus</name>
-                  </ref>'s <hi rendition="#italics">
-                     <title>On the Sublime</title>
-                  </hi>, "but never yet did a slave become an orator." Smith's rendering established
+               Greece were uninspired. "A slave cannot be eloquent," said <ref target="people.html#Longinus"><name>Longinus</name></ref><note><ref target="people.html#LandonLetitia"><name>Landon</name></ref> probably relies on her memory of Section XLIV of William Smith's 1739
+                  translation of <ref target="people.html#Longinus"><name>Longinus</name></ref>'s <hi rendition="#italics"><title>On the Sublime</title></hi>, "but never yet did a slave become an orator." Smith's rendering established
                   the text for English audiences and was frequently reprinted into the nineteenth
                   century.</note>; nor poetical either—the wells of his enthusiasm are dried up.
                What some ancient writer says of iron may be applied to Poetry—its use is the first
-               step to civilization, and civilization is freedom.</p>
-            <p>Next to Religion War was the great source of poetry; and the deeds of the brave were
+               step to civilization, and civilization is freedom.</p><p>Next to Religion War was the great source of poetry; and the deeds of the brave were
                sung in that spirit of encouragement which one man will ever receive from the praise
                bestowed on the deeds of another, when he meditates similar achievements of his own.
                And here we may be permitted a few words on what we cannot but consider an unjust and
@@ -740,8 +91,7 @@
                so to consolidate kingdoms that now a breathing space is allowed for reflection on
                the sin of sacrificing man's most valuable possession—life. But what part has the
                poet taken in these scenes of bloodshed? One certainly of amelioration. If he has
-               sung of con-<lb/><fw type="sig"><hi rendition="#smcaps">2 h 2</hi></fw>
-               <pb n="468"/>querors, the qualities held up to admiration were those of magnanimity
+               sung of con-<lb/><fw type="sig"><hi rendition="#smcaps">2 h 2</hi></fw><pb n="468"/>querors, the qualities held up to admiration were those of magnanimity
                and generosity. He has spoken of the love of liberty as holding light the love of
                life; and the highest eulogium of a warrior was that he died in defence of his native
                country. But to give our assertion the support of an example—Perhaps the spirit which
@@ -755,8 +105,7 @@
                chivalry, what were the qualities the minstrel lauded in the knight?—his valour,
                certainly, but still more his courtesy, his protection of the weak against the
                strong, his devotion, his truth;—till the "ungentle knight" was almost as much a
-               phrase of disgrace as that of the "recreant."</p>
-            <p>Love was the third great fountain of poetry's inspiration; and who that has ever
+               phrase of disgrace as that of the "recreant."</p><p>Love was the third great fountain of poetry's inspiration; and who that has ever
                loved will deny the necessity of a language, beyond the working-day tongue of our
                ordinary run of hopes and fears, to express feelings which have so little in common
                with them. What has been the most popular love-poetry in all countries?—that which
@@ -764,17 +113,14 @@
                thing—blessings on the beloved one, though in that blessing we have ourselves no
                share; or sad and affectionate regrets in whose communion our own nature grows more
                kindly from its sympathy. We are always the better for entering into other’s sorrow
-               or other's joy.</p>
-            <p>The whole origin and use of poetry may be expressed in a few brief words: it
+               or other's joy.</p><p>The whole origin and use of poetry may be expressed in a few brief words: it
                originates in that idea of superior beauty and excellence inherent in every
                nature—and it is employed to keep that idea alive; and the very belief in excellence
                is one cause of its existence. When we speak of poetry as the fountain whence youth
                draws enthusiasm for its hopes,—where the warrior strengthens his courage, and the
                lover his faith,—the treasury where the noblest thoughts are garnered,—the archives
                where the noblest deeds are recorded,—we but express an old belief. One of our great
-               reviews—the "<ref target="people.html#WestminsterReview">
-                  <title>Westminster</title>
-               </ref>"—in speaking of the fine arts, &amp;c. says, "The aristocracy do well to
+               reviews—the "<ref target="people.html#WestminsterReview"><title>Westminster</title></ref>"—in speaking of the fine arts, &amp;c. says, "The aristocracy do well to
                encourage poetry: it is by fiction themselves exist—and what is poetry but
                   fiction?"<note>Not identified.</note> fiction; its merit and its power lie alike
                in its truth: to one heart the aspiring and elevated will come home; to another the
@@ -785,10 +131,7 @@
                recalls, days whose enjoyment would have been happiness, could they but have had the
                knowledge of experience without its weariness. To another, poetry will be a vision
                and a delight, because the virtue of which he dreams is there realized—and because
-               the "love which his spirit has painted"<note>
-                  <ref target="people.html#ByronGeorge">
-                     <name>Byron</name>
-                  </ref>,"Stanzas to [Augusta]" 7.</note> is to be found in its pages. But in each
+               the "love which his spirit has painted"<note><ref target="people.html#ByronGeorge"><name>Byron</name></ref>,"Stanzas to [Augusta]" 7.</note> is to be found in its pages. But in each
                and all cases the deep well of sympathy is only to be found when the hazel rod is
                poised by the hand of truth. And, till some moral steam is discovered as potent as
                that now so active in the physical<pb n="469"/>world, vain will be the effort to
@@ -802,11 +145,7 @@
                popular (indeed in this case best and popular are equivalent terms) poetry makes its
                appeal to the higher and better feelings of our nature, and not a poet but owes his
                fame to that which best deserves it? What a code of pure and beautiful morality,
-               applicable to almost every circumstance, might be drawn from <ref
-                  target="people.html#ShakespeareWilliam">
-                  <name>Shakspeare</name>
-               </ref>!</p>
-            <p>The influence of poetry has two eras,—first as it tends to civilize; secondly as it
+               applicable to almost every circumstance, might be drawn from <ref target="people.html#ShakespeareWilliam"><name>Shakspeare</name></ref>!</p><p>The influence of poetry has two eras,—first as it tends to civilize; secondly as it
                tends to prevent that very civilization from growing too cold and too selfish. Its
                first is its period of action; its second is that of feeling and reflection: it is
                that second period which at present exists. On the mere principle of utility, in our
@@ -817,13 +156,8 @@
                sensation of pleasure have long-remembered passages sprang to our lips; how every
                natural beauty has caught a fresh charm from being linked with some associate verse!
                Who that has these or similar recollections but would keep the ear open, and the
-               heart alive, to the "song that lightens the languid way!"<note>
-                  <ref target="people.html#MooreThomas">
-                     <name>Sir Thomas Moore's</name>
-                  </ref> "Boat Glee," a ballad from the comic opera <hi rendition="#italics">M. P.,
-                     or The Blue Stocking</hi> (1811).</note>
-            </p>
-            <p>Why one age should be more productive in poetry than another is one of those
+               heart alive, to the "song that lightens the languid way!"<note><ref target="people.html#MooreThomas"><name>Sir Thomas Moore's</name></ref> "Boat Glee," a ballad from the comic opera <hi rendition="#italics">M. P.,
+                     or The Blue Stocking</hi> (1811).</note></p><p>Why one age should be more productive in poetry than another is one of those
                questions—a calculation of the mental longitude—likely to remain unanswered. That
                peculiar circumstances do not create the poet is proved by the fact, that only one
                individual is so affected: if it were mere circumstance, it would affect alike all
@@ -839,43 +173,25 @@
                down to their unremembered graves no more poets than if they had never turned a
                stanza! While, on the other hand, we see men with every obstacle before them, with
                little leisure and less encouragement, yet force their upward way, make their voice
-               heard, and leave their memory in imperishable song. Take <ref
-                  target="people.html#BurnsRobert">
-                  <name>Burns</name>
-               </ref> for an example: much stress has been laid on the legendary ballads he was
+               heard, and leave their memory in imperishable song. Take <ref target="people.html#BurnsRobert"><name>Burns</name></ref> for an example: much stress has been laid on the legendary ballads he was
                accustomed to hear from infancy; but if these were so potent, why did they not
-               inspire his brother as well as himself? <ref target="people.html#BurnsGilbert">
-                  <name>Mr. Gilbert Burns</name>
-               </ref> is recorded, by every biographer, to have been a sensible, and even a superior
+               inspire his brother as well as himself? <ref target="people.html#BurnsGilbert"><name>Mr. Gilbert Burns</name></ref> is recorded, by every biographer, to have been a sensible, and even a superior
                man; he dwelt in the same country—he heard the same songs—why was he not a poet too?
                There can be but one<pb n="470"/> answer,—there was not that inherent quality in his
                mind which there was in his brother's. Many young men are born to a higher name than
                fortune—many spend their youth amid the most exciting scenes—yet why do none of these
-               turn out a <ref target="people.html#ByronGeorge">
-                  <name>Byron</name>
-               </ref>, but for some innate first cause? What made <ref
-                  target="people.html#MiltonJohn">
-                  <name>Milton</name>
-               </ref> in old age,—in sickness, in poverty—depressed by all that would have weighed
+               turn out a <ref target="people.html#ByronGeorge"><name>Byron</name></ref>, but for some innate first cause? What made <ref target="people.html#MiltonJohn"><name>Milton</name></ref> in old age,—in sickness, in poverty—depressed by all that would have weighed
                to the very dust an ordinary man—without one of man's ordinary encouragements,—what
                could have made him turn to the future as to a home, collect his glorious energies,
                and finish a work, the noblest aid ever given to the immortality of a language? What,
-               but that indefinable spirit, whose enthusiasm is nature's own gift to the poet. <hi
-                  rendition="#italics">Poeta nascitur non fit</hi>
-               <note> The poet is born, not made.</note> is, like many other old truths, the very
-               truth after all.</p>
-            <p>We cannot but consider that, though some be still among us, our own great poets
+               but that indefinable spirit, whose enthusiasm is nature's own gift to the poet. <hi rendition="#italics">Poeta nascitur non fit</hi><note> The poet is born, not made.</note> is, like many other old truths, the very
+               truth after all.</p><p>We cannot but consider that, though some be still among us, our own great poets
                belong to another age. Their fame is established, and their horde of imitators have
                dispersed; those wearying followers who, to use the happy expression of a
-               contemporary writer, "think that breaking the string is bending the bow of <ref
-                  target="people.html#Ulysses">
-                  <name>Ulysses</name>
-               </ref>." We hear daily complaints of the want of present taste and talent for poetry:
+               contemporary writer, "think that breaking the string is bending the bow of <ref target="people.html#Ulysses"><name>Ulysses</name></ref>." We hear daily complaints of the want of present taste and talent for poetry:
                we are more prepared to admit the latter than the former. In the most sterile times
                of the imagination, love of poetry has never been lacking; the taste may have been
-               bad, but still the taste existed. <ref target="people.html#WordsworthWilliam">
-                  <name>Wordsworth</name>
-               </ref> truly says, "that, with the young, poetry is a passion;"<note> Essay,
+               bad, but still the taste existed. <ref target="people.html#WordsworthWilliam"><name>Wordsworth</name></ref> truly says, "that, with the young, poetry is a passion;"<note> Essay,
                   "Supplementary to the Preface" to <hi rendition="#italics">Lyrical Ballads.</hi>
                   (1815) </note> and there will always be youth in the world to indulge the hopes,
                and feel the warm and fresh emotions, which their fathers have found to be vain, or
@@ -885,29 +201,12 @@
                leaves us. It is tact rather than feeling which enables experience to foresee the
                popularity of a new poet. As to the alleged want of taste, we only refer to the
                editions of established authors which still find purchasers: one has just appeared of
-                  <ref target="people.html#ScottWalter">
-                  <name>Scott</name>
-               </ref>, another of <ref target="people.html#ByronGeorge">
-                  <name>Byron</name>
-               </ref>. With what enthusiasm do some set up <ref
-                  target="people.html#WordsworthWilliam">
-                  <name>Wordsworth</name>
-               </ref> for an idol, and others <ref target="people.html#ShelleyPercy">
-                  <name>Shelley</name>
-               </ref>! But this taste is quite another feeling to that which creates; and the little
+                  <ref target="people.html#ScottWalter"><name>Scott</name></ref>, another of <ref target="people.html#ByronGeorge"><name>Byron</name></ref>. With what enthusiasm do some set up <ref target="people.html#WordsworthWilliam"><name>Wordsworth</name></ref> for an idol, and others <ref target="people.html#ShelleyPercy"><name>Shelley</name></ref>! But this taste is quite another feeling to that which creates; and the little
                now written possesses beauty not originality. The writers do not set their own mark
                on their property: one might have put forth the work of the other, or it might be
                that of their predecessors. This was not the case some few years ago. Who could have
-               mistaken the picturesque and chivalric pages of <ref target="people.html#ScottWalter">
-                  <name>Scott</name>
-               </ref> for the impassioned one of <ref target="people.html#ByronGeorge">
-                  <name>Byron</name>
-               </ref>? or who could for a moment have hesitated as to whether a poem was marked with
-               the actual and benevolent philosophy of <ref target="people.html#WordsworthWilliam">
-                  <name>Wordsworth</name>
-               </ref>, or the beautiful but ideal theory of <ref target="people.html#ShelleyPercy">
-                  <name>Shelley</name>
-               </ref>? We are now producing no great or original (the words are synonymous) poet. We
+               mistaken the picturesque and chivalric pages of <ref target="people.html#ScottWalter"><name>Scott</name></ref> for the impassioned one of <ref target="people.html#ByronGeorge"><name>Byron</name></ref>? or who could for a moment have hesitated as to whether a poem was marked with
+               the actual and benevolent philosophy of <ref target="people.html#WordsworthWilliam"><name>Wordsworth</name></ref>, or the beautiful but ideal theory of <ref target="people.html#ShelleyPercy"><name>Shelley</name></ref>? We are now producing no great or original (the words are synonymous) poet. We
                have graceful singing in the bower, but no voice that startles us into wonder, and
                hurries us forth to see whose trumpet is awakening the land. We know that when the
                snow has long lain, warming and fertilizing the ground, and when the late summer
@@ -919,88 +218,30 @@
                affectation, and ridicule its commonplace. We allow no appeals save to our reason, or
                to our fear <pb n="471"/> of laughter. We must either be convinced or sneered into
                things. Neither calculation nor sarcasm are the elements for poetry. A remark made by
-                  <ref target="people.html#ScottWalter">
-                  <name>Scott</name>
-               </ref> to one of his great compeers shows how he knew the age in which he was fated
+                  <ref target="people.html#ScottWalter"><name>Scott</name></ref> to one of his great compeers shows how he knew the age in which he was fated
                to end his glorious career:—"Ah—it is well that we have made our reputation!" The
                personal is the destroyer of the spiritual; and to the former everything is now
                referred. We talk of the author's self more than his works, and we know his name
                rather than his writings. There is a base macadamizing spirit in literature; we seek
-               to level all the high places of old. But till we can deny that fine "farther looking hope"<note>
-                  <ref target="people.html#WordsworthWilliam">
-                     <name>Wordsworth</name>
-                  </ref>, "The Force of Prayer, or, The Founding of Boulton Priory, A Tradition" 47.
-               </note> which gives such a charm to <ref target="people.html#ShakespeareWilliam">
-                  <name>Shakespeare's</name>
-               </ref> confessional sonnets; till we can deny that "<title>The Paradise Lost</title>"
+               to level all the high places of old. But till we can deny that fine "farther looking hope"<note><ref target="people.html#WordsworthWilliam"><name>Wordsworth</name></ref>, "The Force of Prayer, or, The Founding of Boulton Priory, A Tradition" 47.
+               </note> which gives such a charm to <ref target="people.html#ShakespeareWilliam"><name>Shakespeare's</name></ref> confessional sonnets; till we can deny that "<title>The Paradise Lost</title>"
                was the work of old age, poverty, and neglect, roused into delightful exertion by a
                bright futurity; till we can deny the existence of those redeemers of humanity—we
                must admit, also, the existence of a higher, more prophetic, more devoted and
                self-relying spirit than is to be accounted for on the principles either of vanity or
-               of lucre: we shall be compelled to admit that its inspiration is, indeed, <quote>
-                  <lg type="stanza">
-                     <l>A heavenly breath</l>
-                     <l>Along an earthly lyre.<note>
-                           <ref target="people.html#BlanchardLaman">
-                              <name>Laman Blanchard</name>
-                           </ref>, "The Spirit of Poesy" 5-6.</note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
-            <p>Methinks there are some mysteries in the soul on whose precincts it were well to
+               of lucre: we shall be compelled to admit that its inspiration is, indeed, <quote><lg type="stanza"><l>A heavenly breath</l><l>Along an earthly lyre.<note><ref target="people.html#BlanchardLaman"><name>Laman Blanchard</name></ref>, "The Spirit of Poesy" 5-6.</note></l></lg></quote></p><p>Methinks there are some mysteries in the soul on whose precincts it were well to
                "tread with unsandalled foot."<note>An untraced but commonly repeated poetic
                   phrase.</note> Poetry like religion requires faith, and we are the better and
                happier for yielding it. The imagination is to the mind what life is to the body—its
                vivifying and active part. In antiquity, poetry had to create, it now has to
                preserve. Its first effort was against barbarism, its last is against selfishness. A
-               world of generous emotions, of kindly awakenings, those <quote>
-                  <lg type="stanza">
-                     <l>Which bid the perished pleasures move</l>
-                     <l>In mournful mockery o'er the soul of love;<note>
-                           <ref target="people.html#ColeridgeSamuel">Samuel Taylor Coleridge</ref>,
-                           "Lines On an Autumnal Evening" 7-8.</note>
-                     </l>
-                  </lg>
-               </quote> a world of thought and feeling, now lies in the guardianship of the poet.
+               world of generous emotions, of kindly awakenings, those <quote><lg type="stanza"><l>Which bid the perished pleasures move</l><l>In mournful mockery o'er the soul of love;<note><ref target="people.html#ColeridgeSamuel">Samuel Taylor Coleridge</ref>,
+                           "Lines On an Autumnal Evening" 7-8.</note></l></lg></quote> a world of thought and feeling, now lies in the guardianship of the poet.
                These are they who sit in the gate called the beautiful, which leads to the temple.
                Its meanest priests should feel that their office is sacred. Enthusiasm is no passion
                of the drawing-room, or of the pence-table: its home is the heart, and its hope is
                afar. This is too little the creed of our generation; yet, without such creed, poetry
-               has neither present life nor future immortality. As <ref
-                  target="people.html#WhiteheadCharles">
-                  <name>Whitehead</name>
-               </ref> finely says in his poem of "The Solitary,"—<quote>
-                  <lg type="stanza">
-                     <l rendition="#indent1">Not for herself, not for the wealth she brings,</l>
-                     <l>Is the muse wooed and won, but for the deep,</l>
-                     <l rendition="#indent1">Occult, profound, unfathomabl things,—</l>
-                     <l>The engine of our tears whene'er we weep,</l>
-                     <l>The impulse of our dreams when'er we sleep,</l>
-                     <l rendition="#indent1">The mysteries that our sad hearts possess,</l>
-                     <l>Which, and the keys whereof, the Muse doth keep,—</l>
-                     <l rendition="#indent1">Oh ! to kindle soft humanity, to raise,</l>
-                     <l>With gentle strength infused, the spirit bowed;</l>
-                     <l rendition="#indent1">To pour a second sunlight on our days,</l>
-                     <l>And draw the restless lightining from our cloud;</l>
-                     <l>To cheer the humble and to dash the proud.</l>
-                     <l rendition="#indent1">Besought in peace to live, in peace to die,—</l>
-                     <l rendition="#indent1">The poet's task is done—Oh, Immortality! <note>
-                           <ref target="people.html#WhiteheadCharles">
-                              <name>Charles Whitehead</name>
-                           </ref> (1804-1862), <hi rendition="#italics">The Solitary</hi>
-                           397-414.</note>
-                     </l>
-                  </lg>
-               </quote> He is only a true poet, who can say, in the words of <ref
-                  target="people.html#ColeridgeSamuel">
-                  <name>Coledridge</name>
-               </ref>, "My task has been my delight; I have not looked either to guerdon or praise,
-               and to me Poetry is its own exceeding great reward."<note>Preface to <hi
-                     rendition="#italics">The Poetical Works of S. T. Coleridge</hi> (London:
-                  William Pickering, 1828).</note>
-            </p>
-         </div>
-      </body>
-   </text>
-</TEI>
+               has neither present life nor future immortality. As <ref target="people.html#WhiteheadCharles"><name>Whitehead</name></ref> finely says in his poem of "The Solitary,"—<quote><lg type="stanza"><l rendition="#indent1">Not for herself, not for the wealth she brings,</l><l>Is the muse wooed and won, but for the deep,</l><l rendition="#indent1">Occult, profound, unfathomabl things,—</l><l>The engine of our tears whene'er we weep,</l><l>The impulse of our dreams when'er we sleep,</l><l rendition="#indent1">The mysteries that our sad hearts possess,</l><l>Which, and the keys whereof, the Muse doth keep,—</l><l rendition="#indent1">Oh ! to kindle soft humanity, to raise,</l><l>With gentle strength infused, the spirit bowed;</l><l rendition="#indent1">To pour a second sunlight on our days,</l><l>And draw the restless lightining from our cloud;</l><l>To cheer the humble and to dash the proud.</l><l rendition="#indent1">Besought in peace to live, in peace to die,—</l><l rendition="#indent1">The poet's task is done—Oh, Immortality! <note><ref target="people.html#WhiteheadCharles"><name>Charles Whitehead</name></ref> (1804-1862), <hi rendition="#italics">The Solitary</hi>
+                           397-414.</note></l></lg></quote> He is only a true poet, who can say, in the words of <ref target="people.html#ColeridgeSamuel"><name>Coledridge</name></ref>, "My task has been my delight; I have not looked either to guerdon or praise,
+               and to me Poetry is its own exceeding great reward."<note>Preface to <hi rendition="#italics">The Poetical Works of S. T. Coleridge</hi> (London:
+                  William Pickering, 1828).</note></p></div></body></text></TEI>

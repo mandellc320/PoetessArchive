@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -6,9 +6,7 @@
             <title type="main" level="a">Introductory Discourse</title>
             <title type="sub">A Series of Plays: in Which it is Attempted to Delineate the Stronger
                Passions </title>
-            <author type="writer">
-               <name> Joanna Baillie </name>
-            </author>
+            <author type="writer"><name> Joanna Baillie </name></author>
             <respStmt>
                <resp>General Editor</resp>
                <name xml:id="MW">Mary A. Waters</name>
@@ -16,6 +14,10 @@
             <respStmt>
                <resp>Encoding Assistance</resp>
                <name xml:id="KI">Krystal J. Iseminger</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding Assistance</resp>
+               <name xml:id="GR">Gabrielle Ramirez</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -33,16 +35,12 @@
             <biblStruct>
                <analytic>
                   <title type="main" level="a">Introductory Discourse</title>
-                  <author type="writer">
-                     <name>Baillie, Joanna, 1762-1851</name>
-                  </author>
+                  <author type="writer"><name>Baillie, Joanna, 1762-1851</name></author>
                </analytic>
                <monogr>
                   <title type="main" level="m">A Series of Plays: in Which it is Attempted to
                      Delineate the Stronger Passions of the Mind </title>
-                  <author type="writer">
-                     <name>Baillie, Joanna, 1762-1851</name>
-                  </author>
+                  <author type="writer"><name>Baillie, Joanna, 1762-1851</name></author>
                   <imprint>
                      <pubPlace>London</pubPlace>
                      <publisher>T. Cadell, Jun. and W. Davies</publisher>
@@ -130,550 +128,306 @@
                </category>
             </taxonomy>
             <taxonomy xml:id="g">
-               <bibl>Genre and Material Form</bibl>
+               <bibl>Genre</bibl>
                <category xml:id="g1">
-                  <catDesc>pageimage</catDesc>
-               </category>
-               <category xml:id="g2">
                   <catDesc>biography</catDesc>
                </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
                <category xml:id="g3">
-                  <catDesc>biographical essay</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>poetry pamphlet</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>poetry book</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>poem</catDesc>
-               </category>
-               <category xml:id="g7">
                   <catDesc>story</catDesc>
                </category>
-               <category xml:id="g8">
+               <category xml:id="g4">
                   <catDesc>drama</catDesc>
                </category>
-               <category xml:id="g9">
-                  <catDesc>table of contents</catDesc>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
                </category>
-               <category xml:id="g10">
-                  <catDesc>table of illustrations</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>picture</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>index</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>notes</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>frontispiece</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>inscription page</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>book boards</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>titlepage</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>preface</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>advertisement</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>foreword</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>acknowledgments</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>collection literary annual</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>collection miscellany</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>collection anthology</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>collection beauties</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>collection juvenile</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>collection religious</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>collection travels</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>mixed</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>essay</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>review</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>letter</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>fragment poem</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>fragment story</catDesc>
-               </category>
-               <category xml:id="g35">
-                  <catDesc>fragment novel</catDesc>
-               </category>
-               <category xml:id="g36">
-                  <catDesc>literary criticism book</catDesc>
-               </category>
-               <category xml:id="g37">
-                  <catDesc>literary criticism collection</catDesc>
-               </category>
-               <category xml:id="g38">
-                  <catDesc>bibliography</catDesc>
-               </category>
-               <category xml:id="g39">
-                  <catDesc>engraving</catDesc>
-               </category>
-               <category xml:id="g40">
-                  <catDesc>reproduction</catDesc>
-               </category>
-               <category xml:id="g41">
-                  <catDesc>figure</catDesc>
-               </category>
-               <category xml:id="g42">
-                  <catDesc>graph</catDesc>
-               </category>
-               <category xml:id="g43">
-                  <catDesc>map</catDesc>
-               </category>
-               <category xml:id="g44">
-                  <catDesc>table</catDesc>
-               </category>
-               <category xml:id="g45">
-                  <catDesc>musical score</catDesc>
-               </category>
-               <category xml:id="g46">
-                  <catDesc>music</catDesc>
-               </category>
-               <category xml:id="g47">
+               <category xml:id="g6">
                   <catDesc>satire</catDesc>
                </category>
-               <category xml:id="g48">
-                  <catDesc>political pamphlet</catDesc>
-               </category>
-               <category xml:id="g49">
-                  <catDesc>political cartoon</catDesc>
-               </category>
-               <category xml:id="g50">
-                  <catDesc>periodical</catDesc>
-               </category>
-               <category xml:id="g51">
-                  <catDesc>historical monograph</catDesc>
-               </category>
-               <category xml:id="g52">
-                  <catDesc>historical essay</catDesc>
-               </category>
-               <category xml:id="g53">
-                  <catDesc>philosophical treatise</catDesc>
-               </category>
-               <category xml:id="g54">
-                  <catDesc>philosophical essay</catDesc>
-               </category>
-               <category xml:id="g55">
-                  <catDesc>religious pamphlet</catDesc>
-               </category>
-               <category xml:id="g56">
-                  <catDesc>sermon</catDesc>
-               </category>
-               <category xml:id="g57">
-                  <catDesc>theology</catDesc>
-               </category>
-               <category xml:id="g58">
-                  <catDesc>religious book</catDesc>
-               </category>
-               <category xml:id="g59">
-                  <catDesc>essay on education</catDesc>
-               </category>
-               <category xml:id="g60">
-                  <catDesc>educational treatise</catDesc>
-               </category>
-               <category xml:id="g61">
-                  <catDesc>list of subscribers</catDesc>
-               </category>
-               <category xml:id="g62">
+               <category xml:id="g7">
                   <catDesc>allegory</catDesc>
                </category>
-               <category xml:id="g63">
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
                   <catDesc>introduction</catDesc>
                </category>
-               <category xml:id="g64">
-                  <catDesc>slipcase</catDesc>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
                </category>
-               <category xml:id="g65">
-                  <catDesc>dedication</catDesc>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
                </category>
-               <category xml:id="g66">
-                  <catDesc>picture of building</catDesc>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
                </category>
-               <category xml:id="g67">
-                  <catDesc>floorplans</catDesc>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
                </category>
-               <category xml:id="g68">
-                  <catDesc>photograph</catDesc>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
                </category>
-               <category xml:id="g69">
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
                   <catDesc>translation</catDesc>
                </category>
-               <category xml:id="g70">
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
                   <catDesc>manuscript</catDesc>
                </category>
-               <category xml:id="g71">
-                  <catDesc>printersmark</catDesc>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
                </category>
-               <category xml:id="g72">
-                  <catDesc>literary criticism article</catDesc>
+               <category xml:id="f23">
+                  <catDesc>nonceCollection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="keyword">
-               <category xml:id="lcsh">
-                  <catDesc>Library of Congress Subject Headings, reduced to one word before
-                     hyphen</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="ag">
-               <bibl>ARC Genre Categories, July 1, 2017</bibl>
-               <category xml:id="ag1">
-                  <catDesc>Advertisement</catDesc>
-               </category>
-               <category xml:id="ag2">
-                  <catDesc>Animation</catDesc>
-               </category>
-               <category xml:id="ag3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="ag4">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="ag5">
-                  <catDesc>Chronology</catDesc>
-               </category>
-               <category xml:id="ag7">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="ag6">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="ag8">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="ag9">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="ag10">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="ag11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="ag12">
-                  <catDesc>Essay</catDesc>
-               </category>
-               <category xml:id="ag13">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="ag14">
-                  <catDesc>Film, Documentary</catDesc>
-               </category>
-               <category xml:id="ag15">
-                  <catDesc>Film, Experimental</catDesc>
-               </category>
-               <category xml:id="ag16">
-                  <catDesc>Film, Narrative</catDesc>
-               </category>
-               <category xml:id="ag17">
-                  <catDesc>Film, Other</catDesc>
-               </category>
-               <category xml:id="ag18">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="ag19">
-                  <catDesc>Interview</catDesc>
-               </category>
-               <category xml:id="ag20">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="ag21">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="ag22">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="ag23">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="ag24">
-                  <catDesc>Musical Work</catDesc>
-               </category>
-               <category xml:id="ag25">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="ag26">
-                  <catDesc>Nonficition</catDesc>
-               </category>
-               <category xml:id="ag27">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="ag28">
-                  <catDesc>Performance</catDesc>
-               </category>
-               <category xml:id="ag29">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="ag30">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="ag31">
-                  <catDesc>Political Statement</catDesc>
-               </category>
-               <category xml:id="ag32">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="ag33">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="ag34">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="ag35">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="ag36">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="ag37">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="ag38">
-                  <catDesc>Speech</catDesc>
-               </category>
-               <category xml:id="ag39">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="ag40">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="ag41">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="ag42">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-               xml:id="f">
-               <bibl>ARC Format Categories, July 1, 2017</bibl>
-               <category xml:id="f1">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="f2">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="f3">
-                  <catDesc>Dataset</catDesc>
-               </category>
-               <category xml:id="f4">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="f5">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="f6">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="f7">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="f8">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="f9">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="f10">
-                  <catDesc>Notated Music</catDesc>
-               </category>
-               <category xml:id="f11">
-                  <catDesc>Page Proofs</catDesc>
-               </category>
-               <category xml:id="f12">
-                  <catDesc>Pamphlet</catDesc>
-               </category>
-               <category xml:id="f13">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="f14">
-                  <catDesc>Physcial Object</catDesc>
-               </category>
-               <category xml:id="f15">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="f16">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="f17">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="f18">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="f19">
-                  <catDesc>Typescript</catDesc>
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
                </category>
             </taxonomy>
          </classDecl>
       </encodingDesc>
       <profileDesc>
          <textClass>
-            <keywords scheme="#lcsh">
+            <keywords scheme="#lcna">
                <list type="simple">
-                  <item>English literature</item>
-                  <item>History</item>
+                  <item>Baillie, Joanna, 1762-1851</item>
                </list>
             </keywords>
             <catRef target="#ft1" scheme="#ft"/>
-            <catRef target="#ag9 #ag12" scheme="#ag"/>
-            <catRef target="#f1" scheme="#f"/>
+            <catRef target="#f2" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef target="#g72 #g30 " scheme="#g"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#MW" when="20211214">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
+         <change who="#MW" when="20230302"><label>Changed by</label><name>Mary Waters</name><list
+               type="simple">
+               <item>changed catRef</item>
+            </list></change>
+         <change who="#LM" when="20230227"><label>Changed by</label><name>Laura Mandell</name><list
+               type="simple">
+               <item>new header</item>
+            </list></change>
+         <change who="#GR" when="20230111"><label>Changed by</label><name>Gabrielle
+               Ramirez</name><list type="simple">
+               <item>revised keywords</item>
+            </list></change>
+         <change who="#MW" when="20211214"><label>Changed by</label><name>Mary A. Waters</name><list
+               type="simple">
                <item>line breaks added to forme work</item>
             </list></change>
-         <change who="#LM" when="20211214">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
+         <change who="#LM" when="20211214"><label>Changed by</label><name>Laura Mandell</name><list
+               type="simple">
                <item>had to roll back due to xml versioning error, revisions as below but starting
                   with August and March 2021 XML</item>
-            </list>
-         </change>
-         <change who="#LM" when="20210922">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
+            </list></change>
+         <change who="#LM" when="20210922"><label>Changed by</label><name>Laura Mandell</name><list
+               type="simple">
                <item>Added header teiHeader07232021.xml</item>
                <item>changed milestone sig to fw sig</item>
                <item>inserted line break before fw</item>
-            </list>
-         </change>
-         <change who="#LM" when="20200611" n="6">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
+            </list></change>
+         <change who="#LM" when="20200611" n="6"><label>Changed by</label><name>Laura
+               Mandell</name><list type="simple">
                <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
-            </list>
-         </change>
-         <change who="#MW" when="2019-12-18" n="5">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
+            </list></change>
+         <change who="#MW" when="2019-12-18" n="5"><label>Changed by</label><name>Mary A.
+               Waters</name><list type="simple">
                <item>minor TEI encoding revisions</item>
-            </list>
-         </change>
-         <change who="#LM" when="20190110" n="4">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
+            </list></change>
+         <change who="#LM" when="20190110" n="4"><label>Changed by</label><name>Laura
+               Mandell</name><list type="simple">
                <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
-            </list>
-         </change>
-         <change who="#MW" when="2017-01-01" n="3">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
+            </list></change>
+         <change who="#MW" when="2017-01-01" n="3"><label>Changed by</label><name>Mary A.
+               Waters</name><list type="simple">
                <item>revise coding</item>
                <item>add footnotes</item>
-            </list>
-         </change>
-         <change who="#KI" when="2016-08-29" n="2">
-            <label>Changed by</label>
-            <name>Krystal J. Iseminger</name>
-            <list type="simple">
+            </list></change>
+         <change who="#KI" when="2016-08-29" n="2"><label>Changed by</label><name>Krystal J.
+               Iseminger</name><list type="simple">
                <item>TEI encoding</item>
-            </list>
-         </change>
-         <change who="#MW" when="2016-07-22" n="1">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
+            </list></change>
+         <change who="#MW" when="2016-07-22" n="1"><label>Changed by</label><name>Mary A.
+               Waters</name><list type="simple">
                <item>Created Edition</item>
-            </list>
-         </change>
+            </list></change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="essay">
-            <head>
-               <bibl>
-                  <author type="writer">
-                     <ref target="people.html#BaillieJoanna">
-                        <name>Joanna Baillie</name>
-                     </ref>
-                  </author>
-                  <title type="main" level="a">INTRODUCTORY DISCOURSE.<note>This essay introduced
-                        the first volume of Baillie’s <title level="m">
-                           <hi rendition="#italics">A Series of Plays: in which it is attempted to
-                              delineate the stronger passions of the mind—each passion being the
-                              subject of a tragedy and a comedy</hi>
-                        </title>, more commonly called the <title level="m">
-                           <hi rendition="#italics">Plays on the Passions</hi>
-                        </title> (London: Printed for T. Cadell, Jun. and W. Davies, in the Strand,
-                        1798: 1-72). Two additional volumes were added in 1802 and 1812.</note>
-                  </title>
-               </bibl>
-            </head>
-            <p>
-               <hi rendition="#largest">I</hi>
-               <hi rendition="#smcaps">t</hi> is natural for a writer, who is about to submit his
-               works to the Publick, to feel a strong inclination, by some Preliminary Address, to
-               conciliate the favour of his reader, and dispose him, if possible, to peruse them
-               with a favourable eye. I am well aware, however, that his endeavours are generally
-               fruitless: in his situation our hearts revolt from all appearance of confidence, and
-               we consider his diffidence as hypocrisy. Our own word is frequently taken for what we
-               say of ourselves, but very rarely for what we say of our works. Were these three
-               plays, which this small volume contains, detached pieces only, and unconnected with
-               others that do not yet appear, I should have suppressed this inclination altogether;
-               and have allowed my reader to begin what is before him, and to form what opinion of
-               it his taste or his humour might direct, without any previous trespass upon his time
-               or his patience. But they are part of an extensive design: of one which, as far as my
-               information goes, has nothing exactly similar to it in any language: of one which a
-               whole life time will be <lb/><fw type="sig">
-                  <hi rendition="#smcaps">b</hi>
-               </fw>
-               <pb n="2"/> limited enough to accomplish; and which has, therefore, a considerable
-               chance of being cut short by that hand which nothing can resist. </p>
+            <head><bibl><author type="writer"><ref target="people.html#BaillieJoanna"><name>Joanna
+                           Baillie</name></ref></author><title type="main" level="a">INTRODUCTORY
+                        DISCOURSE.<note>This essay introduced the first volume of Baillie’s <title
+                           level="m"><hi rendition="#italics">A Series of Plays: in which it is
+                              attempted to delineate the stronger passions of the mind—each passion
+                              being the subject of a tragedy and a comedy</hi></title>, more
+                        commonly called the <title level="m"><hi rendition="#italics">Plays on the
+                              Passions</hi></title> (London: Printed for T. Cadell, Jun. and W.
+                        Davies, in the Strand, 1798: 1-72). Two additional volumes were added in
+                        1802 and 1812.</note></title></bibl></head>
+            <p><hi rendition="#largest">I</hi><hi rendition="#smcaps">t</hi> is natural for a
+               writer, who is about to submit his works to the Publick, to feel a strong
+               inclination, by some Preliminary Address, to conciliate the favour of his reader, and
+               dispose him, if possible, to peruse them with a favourable eye. I am well aware,
+               however, that his endeavours are generally fruitless: in his situation our hearts
+               revolt from all appearance of confidence, and we consider his diffidence as
+               hypocrisy. Our own word is frequently taken for what we say of ourselves, but very
+               rarely for what we say of our works. Were these three plays, which this small volume
+               contains, detached pieces only, and unconnected with others that do not yet appear, I
+               should have suppressed this inclination altogether; and have allowed my reader to
+               begin what is before him, and to form what opinion of it his taste or his humour
+               might direct, without any previous trespass upon his time or his patience. But they
+               are part of an extensive design: of one which, as far as my information goes, has
+               nothing exactly similar to it in any language: of one which a whole life time will be
+                  <lb/><fw type="sig"><hi rendition="#smcaps">b</hi></fw><pb n="2"/> limited enough
+               to accomplish; and which has, therefore, a considerable chance of being cut short by
+               that hand which nothing can resist. </p>
             <p>Before I explain the plan of this work, I must make a demand upon the patience of my
                reader, whilst I endeavour to communicate to him those ideas regarding human nature,
                as they in some degree affect almost every species of moral writings, but
@@ -688,8 +442,7 @@
                varieties of understanding and temper which constitute the characters of men; and
                receives great pleasure from every stroke of nature that points out to him those
                varieties. This is, much more than we are aware of, the occupation of children, and
-               of grown people also, whose penetration is but lightly esteemed; <pb n="3"/>
-            </p>
+               of grown people also, whose penetration is but lightly esteemed; <pb n="3"/></p>
             <p>and that conversation which degenerates with them into trivial and mischievous
                tattling, takes its rise not unfrequently from the same source that supplies the rich
                vein of the satirist and the wit. That eagerness so universally shewn for the
@@ -707,24 +460,22 @@
                with.</p>
             <p>I will readily allow that the dress and the manners of men, rather than their
                characters and disposition are the subjects of our common conversation, and seem
-               chiefly to occupy the mul- <lb/><fw type="sig">
-                  <hi rendition="#smcaps">b 2</hi>
-               </fw>
-               <pb n="4"/>titude. But let it be remembered that it is much easier to express our
-               observations upon these. It is easier to communicate to another how a man wears his
-               wig and cane, what kind of house he inhabits, and what kind of table he keeps, than
-               from what slight traits in his words and actions we have been lead to conceive
-               certain impressions of his character: traits that will often escape the memory, when
-               the opinions that were founded upon them remain. Besides, in communicating our ideas
-               of the characters of others, we are often called upon to support them with more
-               expence of reasoning than we can well afford, but our observations on the dress and
-               appearance of men, seldom involve us in such difficulties. For these, and other
-               reasons too tedious to mention, the generality of people appear to us more trifling
-               than they are: and I may venture to say that, but for this sympathetick curiosity
-               towards others of our kind, which is so strongly implanted within us, the attention
-               we pay to the dress and the manners of men would dwindle into an employment as
-               insipid, as examining the varieties of plants and minerals, is to one who understands
-               not natural history.</p>
+               chiefly to occupy the mul- <lb/><fw type="sig"><hi rendition="#smcaps">b
+                  2</hi></fw><pb n="4"/>titude. But let it be remembered that it is much easier to
+               express our observations upon these. It is easier to communicate to another how a man
+               wears his wig and cane, what kind of house he inhabits, and what kind of table he
+               keeps, than from what slight traits in his words and actions we have been lead to
+               conceive certain impressions of his character: traits that will often escape the
+               memory, when the opinions that were founded upon them remain. Besides, in
+               communicating our ideas of the characters of others, we are often called upon to
+               support them with more expence of reasoning than we can well afford, but our
+               observations on the dress and appearance of men, seldom involve us in such
+               difficulties. For these, and other reasons too tedious to mention, the generality of
+               people appear to us more trifling than they are: and I may venture to say that, but
+               for this sympathetick curiosity towards others of our kind, which is so strongly
+               implanted within us, the attention we pay to the dress and the manners of men would
+               dwindle into an employment as insipid, as examining the varieties of plants and
+               minerals, is to one who understands not natural history.</p>
             <p>In our ordinary intercourse with society, this sympathetick propensity of our minds
                is exercised upon men, under the common occurrences of life, in which we have often
                observed them. Here <pb n="5"/> vanity and weakness put themselves forward to view,
@@ -763,19 +514,16 @@
                eager to converse with a person who has beheld it; and to learn, very minutely, every
                circumstance connected with it, except the very act itself of inflicting death. To
                lift up the roof of his dungeon, like the <hi rendition="#italics">Diable
-                  boiteux</hi>,<note>
-                  <title>
-                     <hi rendition="#italics">The Lame Devil</hi>
-                  </title>, a novel by <ref target="people.html#LeSageAlain">Alain René Le
-                     Sage</ref>, depicts a hero who, while fleeing across the roofs of Madrid,
-                  unleashes a devil who allows him the magical ability to look through the roofs to
-                  see the lives underneath. In one chapter, the various occupants of a prison are
-                  revealed. </note> and look upon a criminal the night before he suffers, in his
-                  still<pb n="7"/>hours of privacy, when all that disguise, which respect for the
-               opinion of others, the strong motive by which even the lowest and wickedest of men
-               still continue to be moved, would present an object to the mind of every person, not
-               withheld from it by great timidity of character, more powerfully attractive than
-               almost any other. </p>
+                  boiteux</hi>,<note><title><hi rendition="#italics">The Lame Devil</hi></title>, a
+                  novel by <ref target="people.html#LeSageAlain">Alain René Le Sage</ref>, depicts a
+                  hero who, while fleeing across the roofs of Madrid, unleashes a devil who allows
+                  him the magical ability to look through the roofs to see the lives underneath. In
+                  one chapter, the various occupants of a prison are revealed. </note> and look upon
+               a criminal the night before he suffers, in his still<pb n="7"/>hours of privacy, when
+               all that disguise, which respect for the opinion of others, the strong motive by
+               which even the lowest and wickedest of men still continue to be moved, would present
+               an object to the mind of every person, not withheld from it by great timidity of
+               character, more powerfully attractive than almost any other. </p>
             <p>Revenge, no doubt, first began amongst the savages of America that dreadful custom of
                sacrificing their prisoners of war. But the perpetration of such hideous cruelty
                could never have become a permanent national custom, but for this universal desire in
@@ -841,26 +589,25 @@
             <p>It is not merely under the violent agitations of passion, that man so rouses and
                interests us; even the smallest indications of an unquiet mind, the restless eye, the
                muttering lip, the half-checked exclamation, and the hasty start, will set our
-               attention as anxiously upon the watch, as the <lb/><fw type="sig">
-                  <hi rendition="#smcaps">1</hi>
-               </fw>
-               <pb n="11"/> first distant flashes of a gathering storm. When some great explosion of
-               passion bursts forth, and some consequent catastrophe happens, if we are at all
-               acquainted with the unhappy perpetrator, how minutely will we endeavour to remember
-               every circumstance of his past behaviour! and with what avidity will we seize upon
-               every recollected word or gesture, that is in the smallest degree indicative of the
-               supposed state of his mind, at the time when they took place. If we are not
-               acquainted with him, how eagerly will we listen to similar recollections from
-               another! Let us understand, from observation of report, that any person harbours in
-               his breast, concealed from the world's eye, some powerful rankling passion of what
-               kind soever it may be, we will observe every word, every motion, every look, even the
-               distant gait of such a man, with a constancy and attention bestowed upon no other.
-               Nay, should we meet him unexpectedly on our way, a feeling will pass across our minds
-               as though we found ourselves in the neighbourhood of some secret and fearful thing.
-               If invisible, would we not follow him into his lonely haunts, into his closet, into
-               the midnight silence of his chamber? There is, perhaps, no employment which the human
-               mind will with so much avidity pursue, as the discovery of concealed passion, as the
-               tracing the varieties and progress of a perturbed soul. </p>
+               attention as anxiously upon the watch, as the <lb/><fw type="sig"><hi
+                     rendition="#smcaps">1</hi></fw><pb n="11"/> first distant flashes of a
+               gathering storm. When some great explosion of passion bursts forth, and some
+               consequent catastrophe happens, if we are at all acquainted with the unhappy
+               perpetrator, how minutely will we endeavour to remember every circumstance of his
+               past behaviour! and with what avidity will we seize upon every recollected word or
+               gesture, that is in the smallest degree indicative of the supposed state of his mind,
+               at the time when they took place. If we are not acquainted with him, how eagerly will
+               we listen to similar recollections from another! Let us understand, from observation
+               of report, that any person harbours in his breast, concealed from the world's eye,
+               some powerful rankling passion of what kind soever it may be, we will observe every
+               word, every motion, every look, even the distant gait of such a man, with a constancy
+               and attention bestowed upon no other. Nay, should we meet him unexpectedly on our
+               way, a feeling will pass across our minds as though we found ourselves in the
+               neighbourhood of some secret and fearful thing. If invisible, would we not follow him
+               into his lonely haunts, into his closet, into the midnight silence of his chamber?
+               There is, perhaps, no employment which the human mind will with so much avidity
+               pursue, as the discovery of concealed passion, as the tracing the varieties and
+               progress of a perturbed soul. </p>
             <pb n="12"/>
             <p>It is to this sympathetick curiosity of our nature, exercised upon mankind in great
                and trying occasions, and under the influence of the stronger passions, when the
@@ -978,22 +725,20 @@
                will impose upon the latter a very difficult task, in retaining what she is concerned
                with alone. </p>
             <p>In argumentative and philosophical writings, the effect which the author's reasoning
-               produces <lb/><fw type="sig">
-                  <hi rendition="#smcaps">c</hi>
-               </fw>
-               <pb n="18"/> on our minds depends not entirely on the justness of it. The images and
-               examples that he calls to his aid, to explain and illustrate his meaning, will very
-               much affect the attention we are able to bestow upon it, and consequently the
-               quickness with which we shall apprehend, and the force with which it will impress us.
-               These are selected from animated and unanimated nature, from the habits, manners, and
-               characters of men; and though that image or example, whatever it may be in itself,
-               which brings out his meaning most clearly, ought to be preferred before every other,
-               yet of two equal in this respect, that which is drawn from the most interesting
-               source will please us the most at the time, and most lastingly take hold of our
-               minds. An argument supported with vivid and interesting illustration, will long be
-               remembered when many equally important and clear are forgotten; and a work where many
-               such occur will be held in higher estimation by the generality of men, than one its
-               superior, perhaps, in acuteness, perspicuity, and good sense. </p>
+               produces <lb/><fw type="sig"><hi rendition="#smcaps">c</hi></fw><pb n="18"/> on our
+               minds depends not entirely on the justness of it. The images and examples that he
+               calls to his aid, to explain and illustrate his meaning, will very much affect the
+               attention we are able to bestow upon it, and consequently the quickness with which we
+               shall apprehend, and the force with which it will impress us. These are selected from
+               animated and unanimated nature, from the habits, manners, and characters of men; and
+               though that image or example, whatever it may be in itself, which brings out his
+               meaning most clearly, ought to be preferred before every other, yet of two equal in
+               this respect, that which is drawn from the most interesting source will please us the
+               most at the time, and most lastingly take hold of our minds. An argument supported
+               with vivid and interesting illustration, will long be remembered when many equally
+               important and clear are forgotten; and a work where many such occur will be held in
+               higher estimation by the generality of men, than one its superior, perhaps, in
+               acuteness, perspicuity, and good sense. </p>
             <p>Our desire to know what men are in the closet as well as the field, by the blazing
                hearth, and at the social board, as well as in the council and the throne, is very
                imperfectly gratified by real history; romance writers, therefore, stepped boldly
@@ -1015,23 +760,22 @@
                delighted with it, though we are foolish enough to admire at the same time, all the
                nonsense with which it is surrounded. After all the wonderful incidents, dark
                mysteries, and secrets revealed, which eventful novel so liberally presents to us;
-               after the beautiful fairy ground, and even <lb/><fw type="sig">
-                  <hi rendition="#smcaps">c 2</hi>
-               </fw>
-               <pb n="20"/> the grand and sublime scenes of nature with which descriptive novel so
-               often enchants us; those works which most strongly characterize human nature in the
-               middling and lower classes of society, where it is to be discovered by stronger and
-               more unequivocal marks, will ever be the most popular. For though great pains have
-               been taken in our higher sentimental novels to interest us in the delicacies,
-               embarrassments, and artificial distresses of the more refined part of society, they
-               have never been able to cope in the publick opinion with these. The one is a dressed
-               and beautiful pleasure-ground, in which we are enchanted for a while, amongst the
-               delicate and unknown plants of artful cultivation; the other is a rough forest of our
-               native land; the oak, the elm, the hazle, and the bramble are there; and amidst the
-               endless varieties of its paths we can wander for ever. Into whatever scenes the
-               novelist may conduct us, what objects soever he may present to our view, still is our
-               attention most sensibly awake to every touch faithful to nature; still are we upon
-               the watch for every thing that speaks to us of ourselves. </p>
+               after the beautiful fairy ground, and even <lb/><fw type="sig"><hi
+                     rendition="#smcaps">c 2</hi></fw><pb n="20"/> the grand and sublime scenes of
+               nature with which descriptive novel so often enchants us; those works which most
+               strongly characterize human nature in the middling and lower classes of society,
+               where it is to be discovered by stronger and more unequivocal marks, will ever be the
+               most popular. For though great pains have been taken in our higher sentimental novels
+               to interest us in the delicacies, embarrassments, and artificial distresses of the
+               more refined part of society, they have never been able to cope in the publick
+               opinion with these. The one is a dressed and beautiful pleasure-ground, in which we
+               are enchanted for a while, amongst the delicate and unknown plants of artful
+               cultivation; the other is a rough forest of our native land; the oak, the elm, the
+               hazle, and the bramble are there; and amidst the endless varieties of its paths we
+               can wander for ever. Into whatever scenes the novelist may conduct us, what objects
+               soever he may present to our view, still is our attention most sensibly awake to
+               every touch faithful to nature; still are we upon the watch for every thing that
+               speaks to us of ourselves. </p>
             <p>The fair field of what is properly called poetry, is enriched with so many beauties,
                that in it we are often tempted to forget what we really are, and what kind of beings
                we belong to. Who in the enchanted regions of simile, metaphor, <pb n="21"/>allegory
@@ -1128,8 +872,7 @@
                   greedily too, if it were not that they have received from the works of <ref
                      target="people.html#ShakespeareWilliam">Shakspeare</ref>, pleasure far beyond
                   what the most perfect poetical compositions of a different character can afford
-                     [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
-            </p>
+                     [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note></p>
             <p>Formed as we are with these sympathetick propensities in regard to our own species,
                it is not at all wonderful that theatrical exhibition has become the grand and
                favourite amusement of every nation into which it has been introduced. Savages will,
@@ -1182,8 +925,7 @@
                   compute. Very strong genius will sometimes break through every disadvantage of
                   circumstances: <ref target="people.html#ShakespeareWilliam">Shakspeare</ref> has
                   arisen in this country, and we ought not to complain [<ref
-                     target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
-            </p>
+                     target="people.html#BaillieJoanna">Baillie's</ref> note].</note></p>
             <pb n="28"/>
             <p>In whatever age or country the Drama might have taken its rise, tragedy would have
                been the first-born of its children. For every nation has its great men, and its
@@ -1226,21 +968,18 @@
                amongst men, in a way which the poet, the novelist, and the historian can but
                imperfectly attempt. But above all, to her, and to her only it belongs to unveil to
                us the human mind under the dominion of those strong and fixed passions,<lb/><fw
-                  type="sig">
-                  <hi rendition="#smcaps">3</hi>
-               </fw>
-               <pb n="31"/> which, seemingly unprovoked by outward circumstances, will from small
-               beginnings brood within the breast, till all the better dispositions, all the fair
-               gifts of nature are borne down before them. Those passions which conceal themselves
-               from the observation of men; which cannot unbosom themselves even to the dearest
-               friend; and can, often times, only give their fulness vent in the lonely desert, or
-               in the darkness of midnight. For who hath followed the great man into his secret
-               closet, or stood by the side of his nightly couch, and heard those exclamations of
-               the soul which heaven alone may hear, that the historian should be able to inform us?
-               and what form of story, what mode of rehearsed speech will communicate to us those
-               feelings, whose irregular bursts, abrupt transitions, sudden pauses, and half-uttered
-               suggestions, scorn all harmony of measured verse, all method and order of
-               relation?</p>
+                  type="sig"><hi rendition="#smcaps">3</hi></fw><pb n="31"/> which, seemingly
+               unprovoked by outward circumstances, will from small beginnings brood within the
+               breast, till all the better dispositions, all the fair gifts of nature are borne down
+               before them. Those passions which conceal themselves from the observation of men;
+               which cannot unbosom themselves even to the dearest friend; and can, often times,
+               only give their fulness vent in the lonely desert, or in the darkness of midnight.
+               For who hath followed the great man into his secret closet, or stood by the side of
+               his nightly couch, and heard those exclamations of the soul which heaven alone may
+               hear, that the historian should be able to inform us? and what form of story, what
+               mode of rehearsed speech will communicate to us those feelings, whose irregular
+               bursts, abrupt transitions, sudden pauses, and half-uttered suggestions, scorn all
+               harmony of measured verse, all method and order of relation?</p>
             <p>On the first part of this task her Bards have eagerly exerted their abilities: and
                some amongst them, taught by strong original genius to deal immediately with human
                nature and their own hearts, have laboured in it successfully. But in presenting to
@@ -1285,36 +1024,34 @@
                proud, irritable, and vindictive, but generous, daring, and disinterested; setting
                their lives at a pin's fee for the good of others, but incapable of curbing their own
                humour of a moment to gain the whole world for themselves; who will pluck <lb/><fw
-                  type="sig">
-                  <hi rendition="#smcaps">d</hi>
-               </fw>
-               <pb n="34"/> the orbs of heaven from their places, and crush the whole universe in
-               one grasp, are called forth to kindle in our souls the generous contempt of every
-               thing abject and base; but with an effect proportionably feeble, as the hero is made
-               to exceed in courage and fire what the standard of humanity will agree to.<note>In
-                  all burlesque imitations of tragedy, those plays in which this hero is
-                  pre-eminent, are always exposed to bear the great brunt of the ridicule; which
-                  proves how popular they have been, and how many poets, and good ones too, have
-                  been employed upon them. That they have been so popular, however, is not owing to
-                  the intrinsick merit of the characters they represent, but their opposition to
-                  those mean and contemptible qualities belonging to human nature, of which we are
-                  most ashamed. Besides, there is something in the human mind, independently of its
-                  love of applause, which inclines it to boast. This is ever the attendant of that
-                  elasticity of soul, which makes us bound up from the touch of oppression; and if
-                  there is nothing in the accompanying circumstances to create disgust, or suggest
-                  suspicions of their sincerity, (as in real life is commonly the case,) we are very
-                  apt to be carried along with the boasting of others. Let us in good earnest
-                  believe that a man is capable of achieving all that human courage can achieve, and
-                  we will suffer him to talk of impossibilities. Amidst all their pomp of words,
-                  therefore, our admiration of such heroes is readily excited, (for the
-                  understanding is more easily deceived than the heart,) but how stands our sympathy
-                  affected? As no caution nor foresight, on their own account, is ever suffered to
-                  occupy the thoughts of such bold disinterested beings, we are the more inclined to
-                  care for them, and take an interest in their fortune through the course of the
-                  play : yet, as their souls are unappalled <!--<pb n="35"/>--> by any thing; as
-                  pain and death are not all regarded by them; and as we have seen them very ready
-                  to plunge their own swords into their own bosoms, on no very weighty occasion,
-                  perhaps, their death distresses us but little, and they commonly fall unwept [<ref
+                  type="sig"><hi rendition="#smcaps">d</hi></fw><pb n="34"/> the orbs of heaven from
+               their places, and crush the whole universe in one grasp, are called forth to kindle
+               in our souls the generous contempt of every thing abject and base; but with an effect
+               proportionably feeble, as the hero is made to exceed in courage and fire what the
+               standard of humanity will agree to.<note>In all burlesque imitations of tragedy,
+                  those plays in which this hero is pre-eminent, are always exposed to bear the
+                  great brunt of the ridicule; which proves how popular they have been, and how many
+                  poets, and good ones too, have been employed upon them. That they have been so
+                  popular, however, is not owing to the intrinsick merit of the characters they
+                  represent, but their opposition to those mean and contemptible qualities belonging
+                  to human nature, of which we are most ashamed. Besides, there is something in the
+                  human mind, independently of its love of applause, which inclines it to boast.
+                  This is ever the attendant of that elasticity of soul, which makes us bound up
+                  from the touch of oppression; and if there is nothing in the accompanying
+                  circumstances to create disgust, or suggest suspicions of their sincerity, (as in
+                  real life is commonly the case,) we are very apt to be carried along with the
+                  boasting of others. Let us in good earnest believe that a man is capable of
+                  achieving all that human courage can achieve, and we will suffer him to talk of
+                  impossibilities. Amidst all their pomp of words, therefore, our admiration of such
+                  heroes is readily excited, (for the understanding is more easily deceived than the
+                  heart,) but how stands our sympathy affected? As no caution nor foresight, on
+                  their own account, is ever suffered to occupy the thoughts of such bold
+                  disinterested beings, we are the more inclined to care for them, and take an
+                  interest in their fortune through the course of the play : yet, as their souls are
+                  unappalled <!--<pb n="35"/>--> by any thing; as pain and death are not all
+                  regarded by them; and as we have seen them very ready to plunge their own swords
+                  into their own bosoms, on no very weighty occasion, perhaps, their death
+                  distresses us but little, and they commonly fall unwept [<ref
                      target="people.html#BaillieJoanna">Baillie's</ref> note].</note> Thus, tender
                   and<pb n="35"/>pathetick lovers, full of the most gentle affections, the most
                amiable dispositions, and the most exquisite feelings; who present their defenceless
@@ -1334,26 +1071,25 @@
                with any feelings of humanity; and villains as delighting in all manner of treachery
                and deceit, and acting upon many occasions for the very love of villainy itself;
                though the perfectly wicked are as ill fitted for the purposes of warning, as the
-               perfectly virtuous are for those of <lb/><fw type="sig">
-                  <hi rendition="#smcaps">d 2</hi>
-               </fw>
-               <pb n="36"/> example.<note>I have said nothing here in regard to female character,
-                  though in many tragedies it is brought forward as the principal one of the piece,
-                  because what I have said of the above characters is likewise applicable to it. I
-                  believe there is no man that ever lived, who has behaved in a certain manner, on a
-                  certain occasion, who has not had amongst women some corresponding spirit, who on
-                  the like occasion, and every way similarly circumstanced, would have behaved in
-                  the like manner. With some degree of softening and refinement, each class of the
-                  tragick heroes I have mentioned has its corresponding one amongst the heroines.
-                  The tender and pathetick no doubt has the most numerous, but the great and
-                  magnanimous is not without it, and the passionate and impetuous boasts of one by
-                  no means inconsiderable in numbers, and drawn sometimes to the full as passionate
-                  and impetuous as itself [<ref target="people.html#BaillieJoanna">Baillie's</ref>
-                  note].</note> This spirit of imitation, and attention to effect, has likewise
-               confined them very much in their choice of situations and events to bring their great
-               characters into action; rebellions, conspiracies, contentions for empire, and
-               rivalships in love have alone been thought worthy of trying those heroes; and palaces
-               and dungeons the only places magnificent or solemn enough for them to appear in. </p>
+               perfectly virtuous are for those of <lb/><fw type="sig"><hi rendition="#smcaps">d
+                     2</hi></fw><pb n="36"/> example.<note>I have said nothing here in regard to
+                  female character, though in many tragedies it is brought forward as the principal
+                  one of the piece, because what I have said of the above characters is likewise
+                  applicable to it. I believe there is no man that ever lived, who has behaved in a
+                  certain manner, on a certain occasion, who has not had amongst women some
+                  corresponding spirit, who on the like occasion, and every way similarly
+                  circumstanced, would have behaved in the like manner. With some degree of
+                  softening and refinement, each class of the tragick heroes I have mentioned has
+                  its corresponding one amongst the heroines. The tender and pathetick no doubt has
+                  the most numerous, but the great and magnanimous is not without it, and the
+                  passionate and impetuous boasts of one by no means inconsiderable in numbers, and
+                  drawn sometimes to the full as passionate and impetuous as itself [<ref
+                     target="people.html#BaillieJoanna">Baillie's</ref> note].</note> This spirit of
+               imitation, and attention to effect, has likewise confined them very much in their
+               choice of situations and events to bring their great characters into action;
+               rebellions, conspiracies, contentions for empire, and rivalships in love have alone
+               been thought worthy of trying those heroes; and palaces and dungeons the only places
+               magnificent or solemn enough for them to appear in. </p>
             <p>They have, indeed, from this regard to the works of preceding authors, and great
                attention to the beauties of composition, and to dignity of design, enriched their
                plays with much striking, and sometimes sublime imagery, lofty thoughts, and virtuous
@@ -1532,8 +1268,7 @@
                   and apply to classes of men the remarks they have made upon individuals; yet know
                   not how to dress up, with any natural congruity, an imaginary individual in the
                   attributes they have assigned to those classes [<ref
-                     target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
-            </p>
+                     target="people.html#BaillieJoanna">Baillie's</ref> note].</note></p>
             <p>In what I have termed Witty Comedy, every thing is light, playful, and easy. Strong
                decided <pb n="47"/> condemnation of vice is too weighty and material to dance upon
                the surface of that stream, whose shallow currents sparkle in perpetual sun-beams,
@@ -1588,69 +1323,65 @@
                instruction, adapted to general application. We find in its varied scenes an exercise
                of the mind analogous to that which we all, less or more, find out for ourselves,
                amidst the mixed groupes of people whom we meet with in society; and which I have
-               already mentioned as an exercise universally pleasing to<lb/><fw type="sig">
-                  <hi rendition="#smcaps">e</hi>
-               </fw>
-               <pb n="50"/>man. As the distinctions which it is its highest aim to discriminate, are
-               those of nature and not situation, they are judged of by all ranks of men; for a
-               peasant will very clearly perceive in the character of a peer, those native
-               peculiarities which belong to him as a man, though he is entirely at a loss in all
-               that regards his manners and address as a nobleman. It illustrates to us the general
-               remarks we have made upon men; and in it we behold, spread before us, plans of those
-               original ground-works, upon which the general ideas we have been taught to conceive
-               of mankind, are founded. It stands but little in need of busy plot, extraordinary
-               incidents, witty repartee, or studied sentiments. It naturally produces for itself
-               all that it requires; characters who are to speak for themselves, who are to be known
-               by their own words and actions, not by the accounts that are given of them by others,
-               cannot well be developed without considerable variety of judicious incident; a smile
-               that is raised by some trait of undisguised nature, and a laugh that is provoked by
-               some ludicrous effect of passion, or clashing of opposite characters, will be more
-               pleasing to the generality of men, than either the one or the other when occasioned
-               by a play upon words, or a whimsical combination of ideas; and to behold the
-               operation and effects of the different propensities and weaknesses of men, will
-               naturally call up in the mind of the spectator <pb n="51"/> moral reflections more
-               applicable, and more impressive, than all the high-sounding sentiments, with which
-               the graver scenes of Satirical and Sentimental Comedy are so frequently interlarded.
-               It is much to be regretted, however, that the eternal introduction of love as the
-               grand business of the Drama, and the consequent necessity for making the chief
-               persons in it such, in regard to age, appearance, manners, dispositions, and
-               endowments, as are proper for interesting lovers, has occasioned so much insipid
-               similarity in the higher characters. It is chiefly, therefore, on the second and
-               inferiour characters, that the efforts, even of our best poets, have been exhausted;
-               and thus we are called upon to be interested in the fortune of one man, whilst our
-               chief attention is directed to the character of another, which produces a disunion of
-               ideas in the mind, injurious to the general effect of the whole. From this cause,
-               also, those characteristick varieties have been very much neglected, which men
-               present to us in the middle stages of life; when they are too old for lovers or the
-               confidents of lovers, and too young to be the fathers, uncles, and guardians, who are
-               contrasted with them; but when the are still in full vigour of mind, eagerly engaged
-               with the world, joining the activity of youth to the providence of age, and offer to
-               our attention objects sufficiently interesting and instructive. It is to be regretted
-               that strong <lb/><fw type="sig">
-                  <hi rendition="#smcaps">e 2</hi>
-               </fw>
-               <pb n="52"/> contrasts of character are too often attempted, instead of those
-               harmonious shades of it, which nature so beautifully varies, and which we so greatly
-               delight in, whenever we clearly distinguish them. It is to be regretted that in place
-               of those characters, which present themselves to the imagination of a writer from his
-               general observations upon mankind, inferiour poets have so often pourtrayed with
-               senseless minuteness the characters of particular individuals. We are pleased with
-               the eccentricities of individuals in real life, and also in history or biography, but
-               in fictitious writings, we regard them with suspicion; and no representation of
-               nature, that corresponds not with some of our general ideas in regard to it, will
-               either instruct or inform us. When the originals of such characters are known and
-               remembered, the plays in which they are introduced are oftentimes popular; and their
-               temporary success has induced a still inferiour class of poets to believe, that, by
-               making men strange, and unlike the rest of the world, they have made great
-               discoveries and mightily enlarged the boundaries of dramatick character. They will,
-               therefore, distinguish one man from another by some strange whim or imagination,
-               which is ever uppermost in his thoughts, and influences every action of his life; by
-               some singular opinion, perhaps, about politicks, fashions, or the position of the
-               stars; by some strong unaccountable love for <pb n="53"/> one thing or aversion from
-               another; entirely forgetting, that such singularities, if they are to be found in
-               nature, can no where be sought for, with such probability of success, as in
-                  <placeName>Bedlam</placeName>. Above all it is to be regretted that those
-               adventitious distinctions amongst men, of age, fortune, rank, profession, and
+               already mentioned as an exercise universally pleasing to<lb/><fw type="sig"><hi
+                     rendition="#smcaps">e</hi></fw><pb n="50"/>man. As the distinctions which it is
+               its highest aim to discriminate, are those of nature and not situation, they are
+               judged of by all ranks of men; for a peasant will very clearly perceive in the
+               character of a peer, those native peculiarities which belong to him as a man, though
+               he is entirely at a loss in all that regards his manners and address as a nobleman.
+               It illustrates to us the general remarks we have made upon men; and in it we behold,
+               spread before us, plans of those original ground-works, upon which the general ideas
+               we have been taught to conceive of mankind, are founded. It stands but little in need
+               of busy plot, extraordinary incidents, witty repartee, or studied sentiments. It
+               naturally produces for itself all that it requires; characters who are to speak for
+               themselves, who are to be known by their own words and actions, not by the accounts
+               that are given of them by others, cannot well be developed without considerable
+               variety of judicious incident; a smile that is raised by some trait of undisguised
+               nature, and a laugh that is provoked by some ludicrous effect of passion, or clashing
+               of opposite characters, will be more pleasing to the generality of men, than either
+               the one or the other when occasioned by a play upon words, or a whimsical combination
+               of ideas; and to behold the operation and effects of the different propensities and
+               weaknesses of men, will naturally call up in the mind of the spectator <pb n="51"/>
+               moral reflections more applicable, and more impressive, than all the high-sounding
+               sentiments, with which the graver scenes of Satirical and Sentimental Comedy are so
+               frequently interlarded. It is much to be regretted, however, that the eternal
+               introduction of love as the grand business of the Drama, and the consequent necessity
+               for making the chief persons in it such, in regard to age, appearance, manners,
+               dispositions, and endowments, as are proper for interesting lovers, has occasioned so
+               much insipid similarity in the higher characters. It is chiefly, therefore, on the
+               second and inferiour characters, that the efforts, even of our best poets, have been
+               exhausted; and thus we are called upon to be interested in the fortune of one man,
+               whilst our chief attention is directed to the character of another, which produces a
+               disunion of ideas in the mind, injurious to the general effect of the whole. From
+               this cause, also, those characteristick varieties have been very much neglected,
+               which men present to us in the middle stages of life; when they are too old for
+               lovers or the confidents of lovers, and too young to be the fathers, uncles, and
+               guardians, who are contrasted with them; but when the are still in full vigour of
+               mind, eagerly engaged with the world, joining the activity of youth to the providence
+               of age, and offer to our attention objects sufficiently interesting and instructive.
+               It is to be regretted that strong <lb/><fw type="sig"><hi rendition="#smcaps">e
+                     2</hi></fw><pb n="52"/> contrasts of character are too often attempted, instead
+               of those harmonious shades of it, which nature so beautifully varies, and which we so
+               greatly delight in, whenever we clearly distinguish them. It is to be regretted that
+               in place of those characters, which present themselves to the imagination of a writer
+               from his general observations upon mankind, inferiour poets have so often pourtrayed
+               with senseless minuteness the characters of particular individuals. We are pleased
+               with the eccentricities of individuals in real life, and also in history or
+               biography, but in fictitious writings, we regard them with suspicion; and no
+               representation of nature, that corresponds not with some of our general ideas in
+               regard to it, will either instruct or inform us. When the originals of such
+               characters are known and remembered, the plays in which they are introduced are
+               oftentimes popular; and their temporary success has induced a still inferiour class
+               of poets to believe, that, by making men strange, and unlike the rest of the world,
+               they have made great discoveries and mightily enlarged the boundaries of dramatick
+               character. They will, therefore, distinguish one man from another by some strange
+               whim or imagination, which is ever uppermost in his thoughts, and influences every
+               action of his life; by some singular opinion, perhaps, about politicks, fashions, or
+               the position of the stars; by some strong unaccountable love for <pb n="53"/> one
+               thing or aversion from another; entirely forgetting, that such singularities, if they
+               are to be found in nature, can no where be sought for, with such probability of
+               success, as in <placeName>Bedlam</placeName>. Above all it is to be regretted that
+               those adventitious distinctions amongst men, of age, fortune, rank, profession, and
                country, are so often brought forward in preference to the great original
                distinctions of nature; and our scenes so often filled with courtiers, lawyers,
                citizens, Frenchmen, &amp;c. &amp;c. With all the characteristicks of their
@@ -1707,17 +1438,16 @@
                imperfect manner. The story of the lovers is acted over before us, whilst the
                characteristicks of that passion by which they are actuated, and which is the great
                master-spring of the whole, are faintly to be discovered. We are generally introduced
-               to a lover after he has <lb/><fw type="sig">6</fw>
-               <pb n="56"/> long been acquainted with his mistress, and wants but the consent of
-               some stubborn relation, relief from some embarrassment of situation, or the clearing
-               up some mistake or love-quarrel occasioned by malice or accident, to make him
-               completely happy. To overcome these difficulties, he is engaged in a busy train of
-               contrivance and exertion, in which the spirit, activity and ingenuity of the man is
-               held forth to view, whilst the lover, comparatively speaking, is kept out of sight.
-               But even when this is not the case; when the lover is not so busied and involved,
-               this stage of the passion is exactly the one that is least interesting, and least
-               instructive: not to mention as I have done already, that one stage of any passion
-               must shew it imperfectly. </p>
+               to a lover after he has <lb/><fw type="sig">6</fw><pb n="56"/> long been acquainted
+               with his mistress, and wants but the consent of some stubborn relation, relief from
+               some embarrassment of situation, or the clearing up some mistake or love-quarrel
+               occasioned by malice or accident, to make him completely happy. To overcome these
+               difficulties, he is engaged in a busy train of contrivance and exertion, in which the
+               spirit, activity and ingenuity of the man is held forth to view, whilst the lover,
+               comparatively speaking, is kept out of sight. But even when this is not the case;
+               when the lover is not so busied and involved, this stage of the passion is exactly
+               the one that is least interesting, and least instructive: not to mention as I have
+               done already, that one stage of any passion must shew it imperfectly. </p>
             <p>From this view of the Comick Drama I have been induced to believe, that, as
                companions to the forementioned tragedies, a series of comedies on a similar plan, in
                which bustle of plot, brilliancy of dialogue, and even the bold and striking in
@@ -1738,8 +1468,8 @@
                exposing them in an absurd and ridiculous light, may be shooting a finely-pointed
                arrow against the hardened rock; yet to those with whom they are but new, and less
                assured guests, this may prove a more successful mode of attack than any other. </p>
-            <p>It was the saying of a sagacious Scotchman,<note>See <hi rendition="#italics">
-                     <ref target="people.html#FletcherAndrew">Andrew Fletcher</ref>: Political
+            <p>It was the saying of a sagacious Scotchman,<note>See <hi rendition="#italics"><ref
+                        target="people.html#FletcherAndrew">Andrew Fletcher</ref>: Political
                      Works</hi>, ed. John Robertson (Cambridge University Press, 1997) 179.</note>
                'let who will make the laws of a nation, if I have the writing of its ballads.'
                Something similar to this may be said in regard to the Drama. Its lessons reach not,
@@ -1887,25 +1617,23 @@
             <p>It may, perhaps, be supposed from my publishing these plays, that I have written them
                for the closet rather than the stage. If upon perusing them with attention, the
                reader is disposed to think they are better calculated for the first than <lb/><fw
-                  type="sig">
-                  <hi rendition="#smcaps">f</hi>
-               </fw>
-               <pb n="66"/> the last, let him impute it to want of skill in the authour, and not to
-               any previous design. A play, but of small poetical merit, that is suited to strike
-               and interest the spectator, to catch the attention of him who will not, and of him
-               who cannot read, is a more valuable and useful production than one whose elegant and
-               harmonious pages are admired in the libraries of the tasteful and refined. To have
-               received approbation from an audience of my countrymen, would have been more pleasing
-               to me than any other praise. A few tears from the simple and young would have been,
-               in my eyes, pearls of great price; and the spontaneous, untutored plaudits of the
-               rude and uncultivated would have come to my heart as offerings of no mean value. I
-               should, therefore, have been better pleased to have introduced them to the world from
-               the stage than from the press. I possess, however, no likely channel to the former
-               mode of publick introduction; and upon further reflection it appeared to me that by
-               publishing them in this way, I have an opportunity afforded me of explaining the
-               design of my work and enabling the publick to judge, not only of each play by itself,
-               but as making a part likewise of the whole; an advantage which, perhaps, does more
-               than over-balance the splendour and effect of theatrical representation. </p>
+                  type="sig"><hi rendition="#smcaps">f</hi></fw><pb n="66"/> the last, let him
+               impute it to want of skill in the authour, and not to any previous design. A play,
+               but of small poetical merit, that is suited to strike and interest the spectator, to
+               catch the attention of him who will not, and of him who cannot read, is a more
+               valuable and useful production than one whose elegant and harmonious pages are
+               admired in the libraries of the tasteful and refined. To have received approbation
+               from an audience of my countrymen, would have been more pleasing to me than any other
+               praise. A few tears from the simple and young would have been, in my eyes, pearls of
+               great price; and the spontaneous, untutored plaudits of the rude and uncultivated
+               would have come to my heart as offerings of no mean value. I should, therefore, have
+               been better pleased to have introduced them to the world from the stage than from the
+               press. I possess, however, no likely channel to the former mode of publick
+               introduction; and upon further reflection it appeared to me that by publishing them
+               in this way, I have an opportunity afforded me of explaining the design of my work
+               and enabling the publick to judge, not only of each play by itself, but as making a
+               part likewise of the whole; an advantage which, perhaps, does more than over-balance
+               the splendour and effect of theatrical representation. </p>
             <pb n="67"/>
             <p>It may be thought that with this extensive plan before me, I should not have been in
                a hurry to publish, but have waited to give a larger portion of it to the publick,
@@ -1923,30 +1651,28 @@
                strength of my own judgment; but the friends to whom I have shewn my manuscripts are
                partial to me, and their approbation which in the case of any indifferent person
                would be in my mind completely decisive, goes but a little way in relieving me from
-               these apprehensions. To step beyond the <lb/><fw type="sig">
-                  <hi rendition="#smcaps">f 2</hi>
-               </fw>
-               <pb n="68"/> circle of my own immediate friends in quest of opinion, from the
-               particular temper of my mind I feel an uncommon repugnance: I can with less pain to
-               myself bring them before the publick at once, and submit to its decision.<note>The
-                  first of these plays, indeed, has been shewn to two or three Gentlemen whom I have
-                  not the honour of reckoning amongst my friends. One of them, who is a man of
-                  distinguished talents, has honoured it with very flattering approbation; and, at
-                  his suggestion, one or two slight alterations in it have been made [<ref
-                     target="people.html#BaillieJoanna">Baillie's</ref> note].</note> It is to my
-               countrymen at large that I call for assistance. If this work is fortunate enough to
-               attract their attention, let their strictures as well as their praise come to my aid:
-               the one will encourage me in a long and arduous undertaking, the other will teach me
-               to improve it as I advance. For there are many errours that may be detected, and
-               improvements that may be suggested in the prosecution of this work, which from the
-               observations of a great variety of readers are more likely to be pointed out to me,
-               than from those of a small number of persons, even of the best judgment. I am not
-               possessed of that confidence in mine own powers, which enables the concealed genius,
-               under the pressure of present discouragement, to pursue his labours in security,
-               looking firmly forward to other more enlightened times for his reward. If my own
-               countrymen <pb n="69"/> with whom I live and converse, who look upon the same race of
-               men, the same state of society, the same passing events with myself, receive not my
-               offering, I presume not to look to posterity. </p>
+               these apprehensions. To step beyond the <lb/><fw type="sig"><hi rendition="#smcaps">f
+                     2</hi></fw><pb n="68"/> circle of my own immediate friends in quest of opinion,
+               from the particular temper of my mind I feel an uncommon repugnance: I can with less
+               pain to myself bring them before the publick at once, and submit to its
+                  decision.<note>The first of these plays, indeed, has been shewn to two or three
+                  Gentlemen whom I have not the honour of reckoning amongst my friends. One of them,
+                  who is a man of distinguished talents, has honoured it with very flattering
+                  approbation; and, at his suggestion, one or two slight alterations in it have been
+                  made [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note> It is
+               to my countrymen at large that I call for assistance. If this work is fortunate
+               enough to attract their attention, let their strictures as well as their praise come
+               to my aid: the one will encourage me in a long and arduous undertaking, the other
+               will teach me to improve it as I advance. For there are many errours that may be
+               detected, and improvements that may be suggested in the prosecution of this work,
+               which from the observations of a great variety of readers are more likely to be
+               pointed out to me, than from those of a small number of persons, even of the best
+               judgment. I am not possessed of that confidence in mine own powers, which enables the
+               concealed genius, under the pressure of present discouragement, to pursue his labours
+               in security, looking firmly forward to other more enlightened times for his reward.
+               If my own countrymen <pb n="69"/> with whom I live and converse, who look upon the
+               same race of men, the same state of society, the same passing events with myself,
+               receive not my offering, I presume not to look to posterity. </p>
             <p>Before I close this discourse, let me crave the forbearance of my reader, if he has
                discovered in the course of it any unacknowledged use of the thoughts of other
                authours, which he thinks ought to have been noticed; and let me beg the same favour,
@@ -2002,9 +1728,9 @@
                through what follows (a wish the sincerity of which he cannot doubt) find more to
                reward his trouble than I dare venture to promise him; and for the pains he has
                already taken, and that which he intends to take for me, I request that he will
-               accept of my grateful acknowledgments. <note>
-                  <ref target="people.html#ShakespeareWilliam">Shakspeare</ref>, more than any of
-                  our poets, gives peculiar and appropriate distinction to the characters of his
+               accept of my grateful acknowledgments. <note><ref
+                     target="people.html#ShakespeareWilliam">Shakspeare</ref>, more than any of our
+                  poets, gives peculiar and appropriate distinction to the characters of his
                   tragedies. The remarks I have made, in regard to the little variety of character
                   to be met with in tragedy, apply not to him. Neither has he, as other Dramatists
                   generally do, bestowed pains on the chief persons of his drama only, leaving the
@@ -2016,8 +1742,7 @@
                   us to listen with effect to the higher scenes of tragedy, he has done so chiefly
                   in his historical plays, where the distresses set forth are commonly of that
                   publick kind, which does not, at any rate, make much impression upon the feelings
-                     [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note>
-            </p>
+                     [<ref target="people.html#BaillieJoanna">Baillie's</ref> note].</note></p>
          </div>
       </body>
    </text>

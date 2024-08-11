@@ -1,659 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">Mrs. Radcliffe</title>
-            <title type="sub">The British Novelists</title>
-            <author type="writer">
-               <name>Anna Letitia Barbauld</name>
-            </author>
-            <respStmt>
-               <resp>Editor</resp>
-               <name xml:id="MW">Mary A. Waters</name>
-            </respStmt>
-            <respStmt>
-               <resp>Encoding assistance</resp>
-               <name xml:id="RD">Rachel Dejmal</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <idno>BarbRadcliffeBritNov1810</idno>
-         </publicationStmt>
-         <seriesStmt>
-            <title level="s">The Criticism Archive</title>
-            <respStmt>
-               <resp>Edited by</resp>
-               <name type="person" ref="#MW">Mary A. Waters</name>
-            </respStmt>
-            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
-         </seriesStmt>
-         <sourceDesc>
-            <biblStruct>
-               <analytic>
-                  <title type="main" level="a">Mrs. Radcliffe</title>
-                  <author type="writer">
-                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-                  </author>
-               </analytic>
-               <monogr>
-                  <title type="main" level="m">The British Novelists</title>
-                  <title type="sub">with an Essay and Prefaces, Biographical and Critical</title>
-                  <editor role="editor">
-                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-                  </editor>
-                  <imprint>
-                     <pubPlace>London</pubPlace>
-                     <publisher>F.C. and J. Rivington</publisher>
-                     <date when="1810">1810</date>
-                     <biblScope unit="vol">XLIII</biblScope>
-                     <biblScope unit="pages">i-viii</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
-               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>All hyphens have been typed on the U.S. keyboard.</p>
-               <p>em-dashes have been recorded originally using the —</p>
-            </hyphenation>
-            <normalization method="silent">
-               <p>Long "s" (ſ) has been silently modernized.</p>
-               <p>Page numbers appear at the beginning of each page, no matter where originally
-                  placed.</p>
-               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
-               <p>Spelling has not been regularized.</p>
-            </normalization>
-            <normalization method="markup">
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  typed on the U.S. keyboard.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-         </editorialDecl>
-         <tagsDecl>
-            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
-            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
-            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
-            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
-            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
-            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
-            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
-            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
-            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
-            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
-               block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
-               block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
-               block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
-               block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
-               block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
-               block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
-               block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
-               block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
-               block;</rendition>
-         </tagsDecl>
-         <classDecl>
-            <taxonomy xml:id="ft">
-               <bibl>Full Text or Citation</bibl>
-               <category xml:id="ft1">
-                  <catDesc>full text</catDesc>
-               </category>
-               <category xml:id="ft2">
-                  <catDesc>citation only</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="ps">
-               <bibl>Primary or Secondary</bibl>
-               <category xml:id="ps1">
-                  <catDesc>primary</catDesc>
-               </category>
-               <category xml:id="ps2">
-                  <catDesc>secondary</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="g">
-               <bibl>Genre and Material Form</bibl>
-               <category xml:id="g1">
-                  <catDesc>pageimage</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>biography</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>biographical essay</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>poetry pamphlet</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>poetry book</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>poem</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>story</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>drama</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>table of contents</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>table of illustrations</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>picture</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>index</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>notes</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>frontispiece</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>inscription page</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>book boards</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>titlepage</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>preface</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>advertisement</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>foreword</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>acknowledgments</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>collection literary annual</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>collection miscellany</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>collection anthology</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>collection beauties</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>collection juvenile</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>collection religious</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>collection travels</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>mixed</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>essay</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>review</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>letter</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>fragment poem</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>fragment story</catDesc>
-               </category>
-               <category xml:id="g35">
-                  <catDesc>fragment novel</catDesc>
-               </category>
-               <category xml:id="g36">
-                  <catDesc>literary criticism book</catDesc>
-               </category>
-               <category xml:id="g37">
-                  <catDesc>literary criticism collection</catDesc>
-               </category>
-               <category xml:id="g38">
-                  <catDesc>bibliography</catDesc>
-               </category>
-               <category xml:id="g39">
-                  <catDesc>engraving</catDesc>
-               </category>
-               <category xml:id="g40">
-                  <catDesc>reproduction</catDesc>
-               </category>
-               <category xml:id="g41">
-                  <catDesc>figure</catDesc>
-               </category>
-               <category xml:id="g42">
-                  <catDesc>graph</catDesc>
-               </category>
-               <category xml:id="g43">
-                  <catDesc>map</catDesc>
-               </category>
-               <category xml:id="g44">
-                  <catDesc>table</catDesc>
-               </category>
-               <category xml:id="g45">
-                  <catDesc>musical score</catDesc>
-               </category>
-               <category xml:id="g46">
-                  <catDesc>music</catDesc>
-               </category>
-               <category xml:id="g47">
-                  <catDesc>satire</catDesc>
-               </category>
-               <category xml:id="g48">
-                  <catDesc>political pamphlet</catDesc>
-               </category>
-               <category xml:id="g49">
-                  <catDesc>political cartoon</catDesc>
-               </category>
-               <category xml:id="g50">
-                  <catDesc>periodical</catDesc>
-               </category>
-               <category xml:id="g51">
-                  <catDesc>historical monograph</catDesc>
-               </category>
-               <category xml:id="g52">
-                  <catDesc>historical essay</catDesc>
-               </category>
-               <category xml:id="g53">
-                  <catDesc>philosophical treatise</catDesc>
-               </category>
-               <category xml:id="g54">
-                  <catDesc>philosophical essay</catDesc>
-               </category>
-               <category xml:id="g55">
-                  <catDesc>religious pamphlet</catDesc>
-               </category>
-               <category xml:id="g56">
-                  <catDesc>sermon</catDesc>
-               </category>
-               <category xml:id="g57">
-                  <catDesc>theology</catDesc>
-               </category>
-               <category xml:id="g58">
-                  <catDesc>religious book</catDesc>
-               </category>
-               <category xml:id="g59">
-                  <catDesc>essay on education</catDesc>
-               </category>
-               <category xml:id="g60">
-                  <catDesc>educational treatise</catDesc>
-               </category>
-               <category xml:id="g61">
-                  <catDesc>list of subscribers</catDesc>
-               </category>
-               <category xml:id="g62">
-                  <catDesc>allegory</catDesc>
-               </category>
-               <category xml:id="g63">
-                  <catDesc>introduction</catDesc>
-               </category>
-               <category xml:id="g64">
-                  <catDesc>slipcase</catDesc>
-               </category>
-               <category xml:id="g65">
-                  <catDesc>dedication</catDesc>
-               </category>
-               <category xml:id="g66">
-                  <catDesc>picture of building</catDesc>
-               </category>
-               <category xml:id="g67">
-                  <catDesc>floorplans</catDesc>
-               </category>
-               <category xml:id="g68">
-                  <catDesc>photograph</catDesc>
-               </category>
-               <category xml:id="g69">
-                  <catDesc>translation</catDesc>
-               </category>
-               <category xml:id="g70">
-                  <catDesc>manuscript</catDesc>
-               </category>
-               <category xml:id="g71">
-                  <catDesc>printersmark</catDesc>
-               </category>
-               <category xml:id="g72">
-                  <catDesc>literary criticism article</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="keyword">
-               <category xml:id="lcsh">
-                  <catDesc>Library of Congress Subject Headings, reduced to one word before
-                     hyphen</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="ag">
-               <bibl>ARC Genre Categories, July 1, 2017</bibl>
-               <category xml:id="ag1">
-                  <catDesc>Advertisement</catDesc>
-               </category>
-               <category xml:id="ag2">
-                  <catDesc>Animation</catDesc>
-               </category>
-               <category xml:id="ag3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="ag4">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="ag5">
-                  <catDesc>Chronology</catDesc>
-               </category>
-               <category xml:id="ag7">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="ag6">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="ag8">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="ag9">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="ag10">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="ag11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="ag12">
-                  <catDesc>Essay</catDesc>
-               </category>
-               <category xml:id="ag13">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="ag14">
-                  <catDesc>Film, Documentary</catDesc>
-               </category>
-               <category xml:id="ag15">
-                  <catDesc>Film, Experimental</catDesc>
-               </category>
-               <category xml:id="ag16">
-                  <catDesc>Film, Narrative</catDesc>
-               </category>
-               <category xml:id="ag17">
-                  <catDesc>Film, Other</catDesc>
-               </category>
-               <category xml:id="ag18">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="ag19">
-                  <catDesc>Interview</catDesc>
-               </category>
-               <category xml:id="ag20">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="ag21">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="ag22">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="ag23">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="ag24">
-                  <catDesc>Musical Work</catDesc>
-               </category>
-               <category xml:id="ag25">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="ag26">
-                  <catDesc>Nonficition</catDesc>
-               </category>
-               <category xml:id="ag27">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="ag28">
-                  <catDesc>Performance</catDesc>
-               </category>
-               <category xml:id="ag29">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="ag30">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="ag31">
-                  <catDesc>Political Statement</catDesc>
-               </category>
-               <category xml:id="ag32">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="ag33">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="ag34">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="ag35">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="ag36">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="ag37">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="ag38">
-                  <catDesc>Speech</catDesc>
-               </category>
-               <category xml:id="ag39">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="ag40">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="ag41">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="ag42">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-               xml:id="f">
-               <bibl>ARC Format Categories, July 1, 2017</bibl>
-               <category xml:id="f1">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="f2">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="f3">
-                  <catDesc>Dataset</catDesc>
-               </category>
-               <category xml:id="f4">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="f5">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="f6">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="f7">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="f8">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="f9">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="f10">
-                  <catDesc>Notated Music</catDesc>
-               </category>
-               <category xml:id="f11">
-                  <catDesc>Page Proofs</catDesc>
-               </category>
-               <category xml:id="f12">
-                  <catDesc>Pamphlet</catDesc>
-               </category>
-               <category xml:id="f13">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="f14">
-                  <catDesc>Physcial Object</catDesc>
-               </category>
-               <category xml:id="f15">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="f16">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="f17">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="f18">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="f19">
-                  <catDesc>Typescript</catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <keywords scheme="#lcsh">
-               <list type="simple">
-                  <item>Radcliffe, Ann Ward, 1764-1823</item>
-                  <item>English literature</item>
-                  <item>History</item>
-               </list>
-            </keywords>
-            <catRef target="#ft1" scheme="#ft"/>
-            <catRef target="#ag9 #ag12 #ag20" scheme="#ag"/>
-            <catRef target="#f1" scheme="#f"/>
-            <catRef target="#ps1" scheme="#p"/>
-            <catRef target="#g72 #g30 #g3 " scheme="#g"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change who="#LM" when="20211214">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>had to roll back due to xml versioning error, revisions as below but starting
-                  with August and March 2021 XML</item>
-            </list>
-         </change>
-         <change who="#LM" when="20210922">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added header teiHeader07232021.xml</item>
-               <item>changed milestone sig to fw sig</item>
-               <item>inserted line break before fw</item>
-            </list>
-         </change>
-         <change who="#LM" when="20200611" n="6">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
-            </list>
-         </change>
-         <change who="#MW" when="2019-12-16" n="6">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>changed file name</item>
-               <item>minor TEI encoding revision</item>
-            </list>
-         </change>
-         <change who="#LM" when="20190110" n="5">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
-            </list>
-         </change>
-         <change who="#MW" when="2016-06-21" n="4">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>Additional notes incorporated</item>
-               <item>Encoding revisions</item>
-               <item>Document ID change</item>
-            </list>
-         </change>
-         <change who="#RD" when="2015-08-15" n="3">
-            <label>Changed by</label>
-            <name>Rachel Dejmal</name>
-            <list type="simple">
-               <item>Encoding Revision</item>
-            </list>
-         </change>
-         <change who="#MW" when="2013-06-21" n="2">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>TEI encoding</item>
-            </list>
-         </change>
-         <change who="#MW" when="2013-06-21" n="1">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>Created Edition</item>
-            </list>
-         </change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="essay">
-            <head>
-               <bibl>
-                  <author type="writer">
-                     <ref target="people.html#BarbauldMrs">
-                        <name>Anna Letitia Barbauld</name>
-                     </ref>
-                  </author>
-                  <title type="main" level="a">
-                     <ref target="people.html#RadcliffeAnn">MRS. RADCLIFFE.</ref>
-                     <note>
-                        <title level="m">
-                           <hi rendition="#italics">The British Novelists; with an Essay; and
-                              Prefaces, Biographical and Critical, by <ref
-                                 target="people.html#BarbauldMrs">Mrs. Barbauld</ref>
-                           </hi>
-                        </title>, 50 Vols. (London: Printed for F.C. and J. Rivington; W. Otridge
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">Mrs. Radcliffe</title><title type="sub">The British Novelists</title><author type="writer"><name>Anna Letitia Barbauld</name></author><respStmt><resp>Editor</resp><name xml:id="MW">Mary A. Waters</name></respStmt><respStmt><resp>Encoding assistance</resp><name xml:id="RD">Rachel Dejmal</name></respStmt><respStmt><resp>Encoding Assistance</resp><name xml:id="GR">Gabrielle Ramirez</name></respStmt></titleStmt><publicationStmt><idno>BarbRadcliffeBritNov1810</idno></publicationStmt><seriesStmt><title level="s">The Criticism Archive</title><respStmt><resp>Edited by</resp><name type="person" ref="#MW">Mary A. Waters</name></respStmt><idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno></seriesStmt><sourceDesc><biblStruct><analytic><title type="main" level="a">Mrs. Radcliffe</title><author type="writer"><name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name></author></analytic><monogr><title type="main" level="m">The British Novelists</title><title type="sub">with an Essay and Prefaces, Biographical and Critical</title><editor role="editor"><name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name></editor><imprint><pubPlace>London</pubPlace><publisher>F.C. and J. Rivington</publisher><date when="1810">1810</date><biblScope unit="vol">XLIII</biblScope><biblScope unit="pages">i-viii</biblScope></imprint></monogr></biblStruct></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p><p>Quotation marks that indicate block quotes have been silently eliminated.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>All hyphens have been typed on the U.S. keyboard.</p><p>em-dashes have been recorded originally using the —</p></hyphenation><normalization method="silent"><p>Long "s" (ſ) has been silently modernized.</p><p>Page numbers appear at the beginning of each page, no matter where originally
+        				placed.</p><p>Compositors' catchwords and running titles have been silently eliminated.</p><p>Spelling has not been regularized.</p></normalization><normalization method="markup"><p>&amp; has been used for the ampersand sign.</p><p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p><p>Writing in other hands appearing on these manuscripts has been indicated as
+        				such, the content recorded in brackets.</p></normalization></editorialDecl><tagsDecl><rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition><rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition><rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition><rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition><rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition><rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition><rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition><rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition><rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition><rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition><rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition><rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition><rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition><rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition><rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition><rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition><rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition><rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition><rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition></tagsDecl><classDecl><taxonomy xml:id="ft"><bibl>Full Text or Citation</bibl><category xml:id="ft1"><catDesc>full text</catDesc></category><category xml:id="ft2"><catDesc>citation only</catDesc></category></taxonomy><taxonomy xml:id="ps"><bibl>Primary or Secondary</bibl><category xml:id="ps1"><catDesc>primary</catDesc></category><category xml:id="ps2"><catDesc>secondary</catDesc></category></taxonomy><taxonomy xml:id="g"><bibl>Genre</bibl><category xml:id="g1"><catDesc>biography</catDesc></category><category xml:id="g2"><catDesc>poetry</catDesc></category><category xml:id="g3"><catDesc>story</catDesc></category><category xml:id="g4"><catDesc>drama</catDesc></category><category xml:id="g5"><catDesc>novel</catDesc></category><category xml:id="g6"><catDesc>satire</catDesc></category><category xml:id="g7"><catDesc>allegory</catDesc></category><category xml:id="g8"><catDesc>advertisement</catDesc></category><category xml:id="g9"><catDesc>preface</catDesc></category><category xml:id="g10"><catDesc>foreword</catDesc></category><category xml:id="g11"><catDesc>introduction</catDesc></category><category xml:id="g12"><catDesc>acknowledgments</catDesc></category><category xml:id="g13"><catDesc>essay</catDesc></category><category xml:id="g14"><catDesc>review</catDesc></category><category xml:id="g15"><catDesc>letter</catDesc></category><category xml:id="g16"><catDesc>literary criticism</catDesc></category><category xml:id="g17"><catDesc>electronic resource</catDesc></category><category xml:id="g18"><catDesc>bibliography</catDesc></category><category xml:id="g19"><catDesc>music</catDesc></category><category xml:id="g20"><catDesc>political statement</catDesc></category><category xml:id="g21"><catDesc>history</catDesc></category><category xml:id="g22"><catDesc>education</catDesc></category><category xml:id="g23"><catDesc>sermon</catDesc></category><category xml:id="g24"><catDesc>religion</catDesc></category><category xml:id="g25"><catDesc>philosophical statement</catDesc></category><category xml:id="g26"><catDesc>translation</catDesc></category><category xml:id="g27"><catDesc>dictionary</catDesc></category><category xml:id="g28"><catDesc>encyclopedia</catDesc></category><category xml:id="g29"><catDesc>travel</catDesc></category><category xml:id="g30"><catDesc>illustration</catDesc></category><category xml:id="g31"><catDesc>map</catDesc></category><category xml:id="g32"><catDesc>floorplans</catDesc></category><category xml:id="g33"><catDesc>photograph</catDesc></category><category xml:id="g34"><catDesc>cartoon</catDesc></category><category xml:id="g35"><catDesc>literary annual</catDesc></category><category xml:id="g36"><catDesc>miscellany</catDesc></category><category xml:id="g37"><catDesc>anthology</catDesc></category><category xml:id="g38"><catDesc>beauties</catDesc></category><category xml:id="g39"><catDesc>juvenile</catDesc></category></taxonomy><taxonomy xml:id="f"><bibl>Form</bibl><category xml:id="f1"><catDesc>pageimage</catDesc></category><category xml:id="f2"><catDesc>book part</catDesc></category><category xml:id="f3"><catDesc>book</catDesc></category><category xml:id="f4"><catDesc>periodical part</catDesc></category><category xml:id="f5"><catDesc>periodical</catDesc></category><category xml:id="f6"><catDesc>fragment</catDesc></category><category xml:id="f7"><catDesc>frontispiece</catDesc></category><category xml:id="f8"><catDesc>title page</catDesc></category><category xml:id="f9"><catDesc>inscription page</catDesc></category><category xml:id="f10"><catDesc>dedication</catDesc></category><category xml:id="f11"><catDesc>table of contents</catDesc></category><category xml:id="f12"><catDesc>table of illustrations</catDesc></category><category xml:id="f13"><catDesc>list of subscribers</catDesc></category><category xml:id="f14"><catDesc>index</catDesc></category><category xml:id="f15"><catDesc>notes</catDesc></category><category xml:id="f16"><catDesc>book boards</catDesc></category><category xml:id="f17"><catDesc>slipcase</catDesc></category><category xml:id="f18"><catDesc>printers mark</catDesc></category><category xml:id="f19"><catDesc>engraving</catDesc></category><category xml:id="f20"><catDesc>pamphlet</catDesc></category><category xml:id="f21"><catDesc>manuscript</catDesc></category><category xml:id="f22"><catDesc>collection</catDesc></category><category xml:id="f23"><catDesc>nonceCollection</catDesc></category><category xml:id="f24"><catDesc>sammelband</catDesc></category></taxonomy><taxonomy xml:id="keyword"><category xml:id="lcna"><catDesc>author of main text and of works reviewed, if relevant, using LOC authority name headings.</catDesc></category></taxonomy></classDecl></encodingDesc><profileDesc><textClass><keywords scheme="#lcna"><list type="simple"><item>Radcliffe, Ann Ward, 1764-1823</item><item>Barbauld, Mrs. (Anna Letitia), 1743-1825</item></list></keywords><catRef target="#ft1" scheme="#ft"/><catRef target="#f2" scheme="#f"/><catRef target="#ps1" scheme="#p"/><catRef target="#g11 #g13 #g16" scheme="#g"/></textClass></profileDesc><revisionDesc><change who="#MW" when="20230302"><label>Changed by</label><name>Mary Waters</name><list type="simple"><item>changed catRef</item></list></change><change who="#LM" when="20230227"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>new header</item></list></change><change who="#GR" when="20230111"><label>Changed by</label><name>Gabrielle Ramirez</name><list type="simple"><item>revised keywords</item></list></change><change who="#LM" when="20211214"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item></list></change><change who="#LM" when="20210922"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>Added header teiHeader07232021.xml</item><item>changed milestone sig to fw sig</item><item>inserted line break before fw</item></list></change><change who="#LM" when="20200611" n="6"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item></list></change><change who="#MW" when="2019-12-16" n="6"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>changed file name</item><item>minor TEI encoding revision</item></list></change><change who="#LM" when="20190110" n="5"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item></list></change><change who="#MW" when="2016-06-21" n="4"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>Additional notes incorporated</item><item>Encoding revisions</item><item>Document ID change</item></list></change><change who="#RD" when="2015-08-15" n="3"><label>Changed by</label><name>Rachel Dejmal</name><list type="simple"><item>Encoding Revision</item></list></change><change who="#MW" when="2013-06-21" n="2"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>TEI encoding</item></list></change><change who="#MW" when="2013-06-21" n="1"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>Created Edition</item></list></change></revisionDesc></teiHeader><text><body><div type="essay"><head><bibl><author type="writer"><ref target="people.html#BarbauldMrs"><name>Anna Letitia Barbauld</name></ref></author><title type="main" level="a"><ref target="people.html#RadcliffeAnn">MRS. RADCLIFFE.</ref><note><title level="m"><hi rendition="#italics">The British Novelists; with an Essay; and
+                              Prefaces, Biographical and Critical, by <ref target="people.html#BarbauldMrs">Mrs. Barbauld</ref></hi></title>, 50 Vols. (London: Printed for F.C. and J. Rivington; W. Otridge
                         and Son; A. Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
                         Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R. Lea; J.
                         Nunn; Lackington and Co.; Clarke and Son; C. Law; Longman, Hurst, Rees, and
@@ -662,62 +12,34 @@
                         Parry, and Kingsbury; J. Harding; R. Phillips; J. Mawman; J. Booker; J.
                         Asperne; R. Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.;
                         Sherwood and Co.; J. Miller; W. Creech, Edinburgh; and Wilson and Son, York,
-                        1810), 43:i-viii. Mary A. Waters edited this edition for <hi
-                           rendition="#italics">The Criticism Archive</hi>.</note>
-                  </title>
-               </bibl>
-            </head>
-            <p rendition="pnoindent">
-               <hi rendition="#largest">T</hi>HOUGH every production which is good in its kind
+                        1810), 43:i-viii. Mary A. Waters edited this edition for <hi rendition="#italics">The Criticism Archive</hi>.</note></title></bibl></head><p rendition="pnoindent"><hi rendition="#largest">T</hi>HOUGH every production which is good in its kind
                entitles its author to praise, a greater distinction is due to those which stand at
-               the head of a class; and such are undoubtedly the novels of <ref
-                  target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>,—which exhibit a genius of
+               the head of a class; and such are undoubtedly the novels of <ref target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>,—which exhibit a genius of
                no common stamp. She seems to scorn to move those passions which form the interest of
                common novels: she alarms the soul with terror; agitates it with suspense, prolonged
                and wrought up to the most intense feeling, by mysterious hints and obscure
-               intimations of unseen danger. The scenery of her tales is in "time-shook towers,"<note>
-                  <ref target="people.html#CarterElizabeth">Elizabeth Carter</ref>, "<title>Ode to
+               intimations of unseen danger. The scenery of her tales is in "time-shook towers,"<note><ref target="people.html#CarterElizabeth">Elizabeth Carter</ref>, "<title>Ode to
                      Wisdom</title>" 3 (1747).</note> vast uninhabited castles, winding stair-cases,
                long echoing aisles; or, if abroad, lonely heaths, gloomy forests, and abrupt
-               precipices, the haunt of banditti;—the canvass and the figures of <ref
-                  target="people.html#RosaSalvatore">Salvator Rosa</ref>. Her living characters
+               precipices, the haunt of banditti;—the canvass and the figures of <ref target="people.html#RosaSalvatore">Salvator Rosa</ref>. Her living characters
                correspond to the scenery:—their wicked projects are dark, singular, atrocious. They
                are not of English growth; their guilt is tinged with a darker hue than that of the
                bad and profligate characters we see in the world about us; they seem almost to
-               belong to an unearthly sphere of powerful mischief. But to the terror <lb/>
-               <fw type="vol">
-                  <hi rendition="#smcaps">vol. xliii.</hi>
-               </fw>
-               <fw type="sig">a</fw>
-               <pb n="ii"/>produced by the machinations of guilt, and the perception of danger, this
+               belong to an unearthly sphere of powerful mischief. But to the terror <lb/><fw type="vol"><hi rendition="#smcaps">vol. xliii.</hi></fw><fw type="sig">a</fw><pb n="ii"/>produced by the machinations of guilt, and the perception of danger, this
                writer has had the art to unite another, and possibly a stronger feeling. There is,
                perhaps, in every breast at all susceptible of the influence of imagination, the germ
                of a certain superstitious dread of the world unknown, which easily suggests the
                ideas of commerce with it. Solitude, darkness, low-whispered sounds, obscure glimpses
                of objects, flitting forms, tend to raise in the mind that thrilling, mysterious
-               terror, which has for its object the "powers unseen and mightier far than we."<note>
-                  <ref target="people.html#PopeAlexander">Alexander Pope</ref>, <title>
-                     <hi rendition="#italics">Essay on Man</hi>
-                  </title> III, 251-2, slightly altered.</note> But these ideas are suggested only;
+               terror, which has for its object the "powers unseen and mightier far than we."<note><ref target="people.html#PopeAlexander">Alexander Pope</ref>, <title><hi rendition="#italics">Essay on Man</hi></title> III, 251-2, slightly altered.</note> But these ideas are suggested only;
                for it is the peculiar management of this author, that, though she gives, as it were,
                a glimpse of the world of terrible shadows, she yet stops short of any thing really
                supernatural: for all the strange and alarming circumstances brought forward in the
                narrative are explained in the winding up of the story by natural causes; but in the
-               mean time the reader has felt their full impression.</p>
-            <p>The first production of this lady, in which her peculiar genius was strikingly
-               developed, is <title>
-                  <hi rendition="#italics">The Romance of the Forest</hi>
-               </title>, and in some respects it is perhaps the best.<note>This 1795 novel is
+               mean time the reader has felt their full impression.</p><p>The first production of this lady, in which her peculiar genius was strikingly
+               developed, is <title><hi rendition="#italics">The Romance of the Forest</hi></title>, and in some respects it is perhaps the best.<note>This 1795 novel is
                   actually Radcliffe's third. While Barbauld might almost be justified in ignoring
-                  Radcliffe's first, <title>
-                     <hi rendition="#italics">The Castles of Athlin and Dunbayne</hi>
-                  </title> (1789), readers usually regard the 1790 <title>
-                     <hi rendition="#italics">A Sicilian Romance</hi>
-                  </title> as a work of merit. Since Barbauld seems to confuse the title of <title>
-                     <hi rendition="#italics">A Sicilian Romance</hi>
-                  </title> with that of <title>
-                     <hi rendition="#italics">The Italian</hi>
-                  </title> (see below), perhaps this confusion explains the omission.</note> It
+                  Radcliffe's first, <title><hi rendition="#italics">The Castles of Athlin and Dunbayne</hi></title> (1789), readers usually regard the 1790 <title><hi rendition="#italics">A Sicilian Romance</hi></title> as a work of merit. Since Barbauld seems to confuse the title of <title><hi rendition="#italics">A Sicilian Romance</hi></title> with that of <title><hi rendition="#italics">The Italian</hi></title> (see below), perhaps this confusion explains the omission.</note> It
                turns upon the machinations of a profligate villain and his agent against an amiable
                and unprotected girl, whose birth and fortunes have been involved in obscurity by
                crime and perfidy. The character of La Motte, the agent, is drawn with spirit. He is
@@ -729,89 +51,43 @@
                imagination has led him rather to represent the action to which the king is
                endeavouring to work his instrument, as it would be seen by a person who had a great
                horror of its guilt, than in the manner in which he ought to represent it in order to
-               win him to his purpose: <quote>
-                  <lg type="stanza">
-                     <l rendition="#indent8">—————If the midnight bell</l>
-                     <l>Did with his iron tongue and brazen mouth </l>
-                     <l>Sound one unto the drowsy ear of night, </l>
-                     <l>If this same were a churchyard where we stand, </l>
-                     <l>And thou possessed with a thousand wrongs, </l>
-                     <l>———— if thou couldst see me without eyes, </l>
-                     <l>Hear me without thine ears, and make reply </l>
-                     <l>Without a tongue, &amp;c.<note>
-                           <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>'s <title>
-                              <hi rendition="#italics">King John</hi>
-                           </title> III.iii.37-50, the first five lines of which serve as part of an
-                           epigraph to Chapter 14 of <title>
-                              <hi rendition="#italics">The Romance of the Forest</hi>
-                           </title>. Radcliffe’s epigraph continues with the lines that Barbauld
-                           here deletes.</note>
-                     </l>
-                  </lg>
-               </quote>What must be the effect of such imagery, but to infuse into the mind of
+               win him to his purpose: <quote><lg type="stanza"><l rendition="#indent8">—————If the midnight bell</l><l>Did with his iron tongue and brazen mouth </l><l>Sound one unto the drowsy ear of night, </l><l>If this same were a churchyard where we stand, </l><l>And thou possessed with a thousand wrongs, </l><l>———— if thou couldst see me without eyes, </l><l>Hear me without thine ears, and make reply </l><l>Without a tongue, &amp;c.<note><ref target="people.html#ShakespeareWilliam">Shakespeare</ref>'s <title><hi rendition="#italics">King John</hi></title> III.iii.37-50, the first five lines of which serve as part of an
+                           epigraph to Chapter 14 of <title><hi rendition="#italics">The Romance of the Forest</hi></title>. Radcliffe’s epigraph continues with the lines that Barbauld
+                           here deletes.</note></l></lg></quote>What must be the effect of such imagery, but to infuse into the mind of
                Hubert that horror of the crime with which the spectator views the deed, and which it
-               was the business, indeed, of <ref target="people.html#ShakespeareWilliam"
-                  >Shakespear</ref> to impress upon the mind of the spectator, but not of King John
+               was the business, indeed, of <ref target="people.html#ShakespeareWilliam">Shakespear</ref> to impress upon the mind of the spectator, but not of King John
                to impress upon Hubert? In the scene referred to, on the other hand, the Marquis,
                whose aim is to tempt La Motte to the commission of murder, begins by attempting to
                lower his sense of virtue, by representing it as the effect of prejudices imbibed in
                early youth; reminds him that in many countries the stiletto is resorted to without
                scruple; treats as trivial his former deviations from integrity; and, by lulling his
-               conscience and awakening his cupidity, draws him to his purpose. </p>
-            <lb/>
-            <fw type="sig">a 2</fw>
-            <pb n="iv"/>
-            <p> There are many situations in this novel which strike strongly upon the imagination.
+               conscience and awakening his cupidity, draws him to his purpose. </p><lb/><fw type="sig">a 2</fw><pb n="iv"/><p> There are many situations in this novel which strike strongly upon the imagination.
                Who can read without a shudder, that Adeline in her lonely chamber at the abbey
                hardly dared to lift her eyes to the glass, lest she should see another face than her
                own reflected from it? or who does not sympathize with her feelings, when, thinking
                she has effected her escape with Peter, she hears a strange voice, and finds herself
-               on horseback in a dark night carried away by an unknown ruffian?</p>
-            <p> The next work which proceeded from <ref target="people.html#RadcliffeAnn">Mrs.
-                  Radcliffe</ref>'s pen was <title>
-                  <hi rendition="#italics">The Mysteries of Udolpho</hi>
-               </title>. Similar to the former in the turn of its incidents, and the nature of the
+               on horseback in a dark night carried away by an unknown ruffian?</p><p> The next work which proceeded from <ref target="people.html#RadcliffeAnn">Mrs.
+                  Radcliffe</ref>'s pen was <title><hi rendition="#italics">The Mysteries of Udolpho</hi></title>. Similar to the former in the turn of its incidents, and the nature of the
                feelings it is meant to excite, it abounds still more with instances of mysterious
                and terrific appearances, but has perhaps less of character, and a more imperfect
                story. It has been the aim in this work to assemble appearances of the most
                impressive kind, which continually present the idea of supernatural agency, but which
-               are at length accounted for by natural means. They are not always, however, <hi
-                  rendition="#italics">well</hi> accounted for; and the mind experiences a sort of
+               are at length accounted for by natural means. They are not always, however, <hi rendition="#italics">well</hi> accounted for; and the mind experiences a sort of
                disappointment and shame at having felt so much from appearances which had nothing in
-               them beyond "this visible diurnal sphere."<note>
-                  <ref target="people.html#MiltonJohn">Milton</ref>, <title>
-                     <hi rendition="#italics">Paradise Lost</hi>
-                  </title> Bk. 7, 22.</note> The moving of the pall in the funereal chamber is of
+               them beyond "this visible diurnal sphere."<note><ref target="people.html#MiltonJohn">Milton</ref>, <title><hi rendition="#italics">Paradise Lost</hi></title> Bk. 7, 22.</note> The moving of the pall in the funereal chamber is of
                this nature. The curtain which no one dares to undraw, interests us strongly; we feel
                the utmost stings and throbs of curiosity; but we have been affected so repeatedly,
                the suspense has been so long protracted, and expectation raised so high, that no
                   ex-<pb n="v"/>planation can satisfy, no imagery of horrors can equal the vague
-               shapings of our imagination.</p>
-            <p> The story of <title>
-                  <hi rendition="#italics">Udolpho</hi>
-               </title> is more complicated and perplexed than that of <title>
-                  <hi rendition="#italics">The Romance of the Forest</hi>
-               </title>
-               <hi rendition="#italics">;</hi> but it turns, like that, on the terrors and dangers
+               shapings of our imagination.</p><p> The story of <title><hi rendition="#italics">Udolpho</hi></title> is more complicated and perplexed than that of <title><hi rendition="#italics">The Romance of the Forest</hi></title><hi rendition="#italics">;</hi> but it turns, like that, on the terrors and dangers
                of a young lady confined in a castle. The character of her oppressor, Montoni, is
                less distinctly marked than that of La Motte; and it is a fault in the story, that
                its unravelling depends but little on the circumstances that have previously engaged
                our attention. Another castle is introduced; wonders are multiplied upon us; and the
                interest we had felt in the castle of Udolpho in the Appenines, is suddenly
-               transferred to Chateau le Blanc among the Pyrenees.</p>
-            <p>
-               <title>
-                  <hi rendition="#italics">The Mysteries of Udolpho</hi>
-               </title> is the most popular of this author's performances, and as such has been
+               transferred to Chateau le Blanc among the Pyrenees.</p><p><title><hi rendition="#italics">The Mysteries of Udolpho</hi></title> is the most popular of this author's performances, and as such has been
                chosen for this Selection; but perhaps it is exceeded in strength by her next
-               publication, <title>
-                  <hi rendition="#italics">The Sicilian</hi>
-               </title>.<note>Barbauld describes <title>
-                     <hi rendition="#italics">The Italian</hi>
-                  </title> (1797). Radcliffe never wrote a novel called <title>
-                     <hi rendition="#italics">The Sicilian.</hi>
-                  </title>
-               </note> Nothing can be finer than the opening of this story. An Englishman on his
+               publication, <title><hi rendition="#italics">The Sicilian</hi></title>.<note>Barbauld describes <title><hi rendition="#italics">The Italian</hi></title> (1797). Radcliffe never wrote a novel called <title><hi rendition="#italics">The Sicilian.</hi></title></note> Nothing can be finer than the opening of this story. An Englishman on his
                travels, walking through a church, sees a dark figure stealing along the aisles. He
                is informed that he is an assassin. On expressing his astonishment that he should
                find shelter there, he is told that such adventures are common in Italy. His
@@ -827,20 +103,12 @@
                suspended; deep guilt half revealed; the untold secrets of a prison-house; the
                terrific shape, "if shape it might be called, that shape had none
                distinguishable;"—all these affect the mind more powerfully than any regular or
-               distinct images of danger or of woe.<note>In <title>
-                     <hi rendition="#italics">A Philosophical Enquiry into the Origin of Our Ideas
-                        of the Sublime and Beautiful</hi>
-                  </title>, <ref target="people.html#BurkeEdmund">Edmund Burke</ref> stressed
-                  obscurity as a critical characteristic of the sublime. <ref
-                     target="people.html#BurkeEdmund">Burke</ref>'s work helped bring new
+               distinct images of danger or of woe.<note>In <title><hi rendition="#italics">A Philosophical Enquiry into the Origin of Our Ideas
+                        of the Sublime and Beautiful</hi></title>, <ref target="people.html#BurkeEdmund">Edmund Burke</ref> stressed
+                  obscurity as a critical characteristic of the sublime. <ref target="people.html#BurkeEdmund">Burke</ref>'s work helped bring new
                   respectability to Gothic literature and formed a standard in British aesthetics
-                  through the Romantic period and beyond. The quotation from <ref
-                     target="people.html#MiltonJohn">Milton</ref>'s description of Death in <title>
-                     <hi rendition="#italics">Paradise Lost</hi>
-                  </title> (Bk. II, 667) serves Burke as one of the most powerful examples of the
-                  effect of obscurity in producing ideas of the sublime.</note>
-            </p>
-            <p> But this novel has also high merit in the character of Schedoni, which is strikingly
+                  through the Romantic period and beyond. The quotation from <ref target="people.html#MiltonJohn">Milton</ref>'s description of Death in <title><hi rendition="#italics">Paradise Lost</hi></title> (Bk. II, 667) serves Burke as one of the most powerful examples of the
+                  effect of obscurity in producing ideas of the sublime.</note></p><p> But this novel has also high merit in the character of Schedoni, which is strikingly
                drawn, as is his personal appearance. "His figure," says the author, "was striking,
                but not so from grace. It was tall, and though extremely thin, his limbs were large
                and uncouth; and as he stalked along, wrapped in the black garments of his order,
@@ -860,65 +128,32 @@
                in making her escape, she has just got to the end of the long vaulted passage, and
                finds the door locked, and herself betrayed. The scenes of the Inquisition are too
                much protracted, and awaken more curiosity than they fully gratify; perhaps than any
-               story can gratify.</p>
-            <p> In novels of this kind, where the strong charm of suspense and mystery is employed,
+               story can gratify.</p><p> In novels of this kind, where the strong charm of suspense and mystery is employed,
                we hurry through with suspended breath, and in a kind of agony of expectation; but
                when we are come to the end of the story, the charm is dissolved, we have no wish to
-               read it again; we do not recur to it as we do to the characters of Western in <title>
-                  <hi rendition="#italics">Tom Jones</hi>
-               </title>,<note>1749 novel by <ref target="people.html#FieldingHenry">Henry
-                     Fielding</ref>.</note> or the Harrels in <hi rendition="#italics">
-                  <title>Cecilia</title>;</hi>
-               <note>1782 novel by <ref target="people.html#BurneyFanny">Fanny Burney</ref>.</note>
+               read it again; we do not recur to it as we do to the characters of Western in <title><hi rendition="#italics">Tom Jones</hi></title>,<note>1749 novel by <ref target="people.html#FieldingHenry">Henry
+                     Fielding</ref>.</note> or the Harrels in <hi rendition="#italics"><title>Cecilia</title>;</hi><note>1782 novel by <ref target="people.html#BurneyFanny">Fanny Burney</ref>.</note>
                the interest is painfully strong while we read, and when once we have read it, it is
-               nothing; we are ashamed of our feelings, and do not wish to recall them.</p>
-            <p> There are beauties in <ref target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>'s
+               nothing; we are ashamed of our feelings, and do not wish to recall them.</p><p> There are beauties in <ref target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>'s
                volumes, which would perhaps have more effect if our curiosity were less excited,—for
                her descriptions are rich and picturesque. Switzerland, the south of France, Venice,
                the valleys of Piedmont, the bridge, the cataract, and especially the charming bay of
-               Naples, the dances of the peasants, with the vine-dressers and the fishermen, <pb
-                  n="viii"/>have employed her pencil. Though love is but of a secondary interest in
+               Naples, the dances of the peasants, with the vine-dressers and the fishermen, <pb n="viii"/>have employed her pencil. Though love is but of a secondary interest in
                her story, there is a good deal of tenderness in the parting scenes between Emily and
-               Valancourt in <title>
-                  <hi rendition="#italics">The Mysteries of Udolpho</hi>
-               </title>, when she dismisses him, who is still the object of her tenderness, on
-               account of his irregularities.</p>
-            <p> It ought not to be forgotten that there are many elegant pieces of poetry
+               Valancourt in <title><hi rendition="#italics">The Mysteries of Udolpho</hi></title>, when she dismisses him, who is still the object of her tenderness, on
+               account of his irregularities.</p><p> It ought not to be forgotten that there are many elegant pieces of poetry
                interspersed through the volumes of <ref target="people.html#RadcliffeAnn">Mrs.
                   Radcliffe</ref>; among which are to be distinguished as exquisitely sweet and
-               fanciful, the <title>
-                  <hi rendition="#italics">Song to a Spirit</hi>
-               </title>, and <title>
-                  <hi rendition="#italics">The Sea Nymph</hi>
-               </title>, "Down down a hundred fathom deep!"<note>The first line of the poem "The Sea
-                  Nymph," which appears in Chapter II of <title>
-                     <hi rendition="#italics">The Mysteries of Udolpho</hi>
-                  </title> is "Down, down a thousand fathom deep,".</note> They might be sung by
+               fanciful, the <title><hi rendition="#italics">Song to a Spirit</hi></title>, and <title><hi rendition="#italics">The Sea Nymph</hi></title>, "Down down a hundred fathom deep!"<note>The first line of the poem "The Sea
+                  Nymph," which appears in Chapter II of <title><hi rendition="#italics">The Mysteries of Udolpho</hi></title> is "Down, down a thousand fathom deep,".</note> They might be sung by
                   <ref target="people.html#ShakespeareWilliam">Shakespear</ref>'s Ariel. The true
                lovers of poetry are almost apt to regret its being brought in as an accompaniment to
                narrative, where it is generally neglected; for not one in a hundred, of those who
                read and can judge of novels, are at all able to appreciate the merits of a copy of
-               verses, and the common reader is always impatient to get on with the story.</p>
-            <p>
-               <title>
-                  <hi rendition="#italics">The Sicilian</hi>
-               </title> is the last of <ref target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>'s
-                  performances.<note>Radcliffe's <hi rendition="#italics">
-                     <title>Gaston de Blondeville</title>
-                  </hi> was published posthumously in 1826.</note> Some have said that, if she
+               verses, and the common reader is always impatient to get on with the story.</p><p><title><hi rendition="#italics">The Sicilian</hi></title> is the last of <ref target="people.html#RadcliffeAnn">Mrs. Radcliffe</ref>'s
+                  performances.<note>Radcliffe's <hi rendition="#italics"><title>Gaston de Blondeville</title></hi> was published posthumously in 1826.</note> Some have said that, if she
                wishes to rise in the horrors of her next, she must place her scene in the infernal
                regions. She would not have many steps to descend thither from the courts of the
-               Inquisition.</p>
-            <p> Mrs. <ref target="people.html#RadcliffeAnn">Radcliffe</ref> has also published,
-               jointly with her husband, <title>
-                  <hi rendition="#italics">Travels in Germany and Holland</hi>
-               </title>. <note>
-                  <title>
-                     <hi rendition="#italics">A Journey Made in the Summer of 1794, through Holland
-                        and the Western Frontier of Germany, with a Return Down the Rhine</hi>
-                  </title> (1795).</note>
-            </p>
-         </div>
-      </body>
-   </text>
-</TEI>
+               Inquisition.</p><p> Mrs. <ref target="people.html#RadcliffeAnn">Radcliffe</ref> has also published,
+               jointly with her husband, <title><hi rendition="#italics">Travels in Germany and Holland</hi></title>. <note><title><hi rendition="#italics">A Journey Made in the Summer of 1794, through Holland
+                        and the Western Frontier of Germany, with a Return Down the Rhine</hi></title> (1795).</note></p></div></body></text></TEI>

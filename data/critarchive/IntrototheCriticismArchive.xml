@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" level="a">Introduction to the Criticism Archive</title>
+				<author type="writer">
+					<name>Mary A. Waters</name>
+				</author>
+				<respStmt>
+					<resp>Editor</resp>
+					<name xml:id="MW">Mary A. Waters</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<idno>IntrototheCriticismArchive</idno>
+			</publicationStmt>
+			<seriesStmt>
+				<title level="s">The Criticism Archive</title>
+				<respStmt>
+					<resp>Edited by</resp>
+					<name type="person" ref="#MW">Mary A. Waters</name>
+				</respStmt>
+				<idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title type="main" level="a">Introduction to the Criticism Archive</title>
+						<author type="writer">Mary Waters</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<publisher>The Poetess Archive, Edited by <name xml:id="LM">Laura Mandell</name></publisher>
+							<pubPlace>Texas A&amp;M University</pubPlace>
+							<date when="2021-05">May 2021</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<quotation>
+					<p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+					<p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+				</quotation>
+				<hyphenation eol="none">
+					<p>Any dashes occurring in line breaks have been removed.</p>
+					<p>All hyphens have been typed on the U.S. keyboard.</p>
+					<p>em-dashes have been recorded originally using the —</p>
+				</hyphenation>
+				<normalization method="silent">
+					<p>Long "s" (ſ) has been silently modernized.</p>
+					<p>Page numbers appear at the beginning of each page, no matter where originally
+						placed.</p>
+					<p>Compositors' catchwords and running titles have been silently eliminated.</p>
+					<p>Spelling has not been regularized.</p>
+				</normalization>
+				<normalization method="markup">
+					<p>&amp; has been used for the ampersand sign.</p>
+					<p>All other characters, those with accents, non-breaking spaces, etc., have been
+						typed on the U.S. keyboard.</p>
+					<p>Writing in other hands appearing on these manuscripts has been indicated as such,
+						the content recorded in brackets.</p>
+				</normalization>
+			</editorialDecl>
+			<tagsDecl>
+				<rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+				<rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+				<rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+				<rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+				<rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+				<rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+				<rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+				<rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+				<rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+				<rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+				<rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+					block;</rendition>
+				<rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+					block;</rendition>
+				<rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+					block;</rendition>
+				<rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+					block;</rendition>
+				<rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+					block;</rendition>
+				<rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+					block;</rendition>
+				<rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+					block;</rendition>
+				<rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+					block;</rendition>
+				<rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+					block;</rendition>
+			</tagsDecl>
+			<classDecl>
+				<taxonomy xml:id="ft">
+					<bibl>Full Text or Citation</bibl>
+					<category xml:id="ft1">
+						<catDesc>full text</catDesc>
+					</category>
+					<category xml:id="ft2">
+						<catDesc>citation only</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="ps">
+					<bibl>Primary or Secondary</bibl>
+					<category xml:id="ps1">
+						<catDesc>primary</catDesc>
+					</category>
+					<category xml:id="ps2">
+						<catDesc>secondary</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="g">
+					<bibl>Genre</bibl>
+					<category xml:id="g1">
+						<catDesc>biography</catDesc>
+					</category>
+					<category xml:id="g2">
+						<catDesc>poetry</catDesc>
+					</category>
+					<category xml:id="g3">
+						<catDesc>story</catDesc>
+					</category>
+					<category xml:id="g4">
+						<catDesc>drama</catDesc>
+					</category>
+					<category xml:id="g5">
+						<catDesc>novel</catDesc>
+					</category>
+					<category xml:id="g6">
+						<catDesc>satire</catDesc>
+					</category>
+					<category xml:id="g7">
+						<catDesc>allegory</catDesc>
+					</category>
+					<category xml:id="g8">
+						<catDesc>advertisement</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>preface</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>foreword</catDesc>
+					</category>
+					<category xml:id="g11">
+						<catDesc>introduction</catDesc>
+					</category>
+					<category xml:id="g12">
+						<catDesc>acknowledgments</catDesc>
+					</category>
+					<category xml:id="g13">
+						<catDesc>essay</catDesc>
+					</category>
+					<category xml:id="g14">
+						<catDesc>review</catDesc>
+					</category>
+					<category xml:id="g15">
+						<catDesc>letter</catDesc>
+					</category>
+					<category xml:id="g16">
+						<catDesc>literary criticism</catDesc>
+					</category>
+					<category xml:id="g17">
+						<catDesc>electronic resource</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>bibliography</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>music</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>political statement</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>history</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>education</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>sermon</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>religion</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>philosophical statement</catDesc>
+					</category>
+					<category xml:id="g26">
+						<catDesc>translation</catDesc>
+					</category>
+					<category xml:id="g27">
+						<catDesc>dictionary</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>encyclopedia</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>travel</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>illustration</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>map</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>floorplans</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>photograph</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>cartoon</catDesc>
+					</category>
+					<category xml:id="g35">
+						<catDesc>literary annual</catDesc>
+					</category>
+					<category xml:id="g36">
+						<catDesc>miscellany</catDesc>
+					</category>
+					<category xml:id="g37">
+						<catDesc>anthology</catDesc>
+					</category>
+					<category xml:id="g38">
+						<catDesc>beauties</catDesc>
+					</category>
+					<category xml:id="g39">
+						<catDesc>juvenile</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="f">
+					<bibl>Form</bibl>
+					<category xml:id="f1">
+						<catDesc>pageimage</catDesc>
+					</category>
+					<category xml:id="f2">
+						<catDesc>book part</catDesc>
+					</category>
+					<category xml:id="f3">
+						<catDesc>book</catDesc>
+					</category>
+					<category xml:id="f4">
+						<catDesc>periodical part</catDesc>
+					</category>
+					<category xml:id="f5">
+						<catDesc>periodical</catDesc>
+					</category>
+					<category xml:id="f6">
+						<catDesc>fragment</catDesc>
+					</category>
+					<category xml:id="f7">
+						<catDesc>frontispiece</catDesc>
+					</category>
+					<category xml:id="f8">
+						<catDesc>title page</catDesc>
+					</category>
+					<category xml:id="f9">
+						<catDesc>inscription page</catDesc>
+					</category>
+					<category xml:id="f10">
+						<catDesc>dedication</catDesc>
+					</category>
+					<category xml:id="f11">
+						<catDesc>table of contents</catDesc>
+					</category>
+					<category xml:id="f12">
+						<catDesc>table of illustrations</catDesc>
+					</category>
+					<category xml:id="f13">
+						<catDesc>list of subscribers</catDesc>
+					</category>
+					<category xml:id="f14">
+						<catDesc>index</catDesc>
+					</category>
+					<category xml:id="f15">
+						<catDesc>notes</catDesc>
+					</category>
+					<category xml:id="f16">
+						<catDesc>book boards</catDesc>
+					</category>
+					<category xml:id="f17">
+						<catDesc>slipcase</catDesc>
+					</category>
+					<category xml:id="f18">
+						<catDesc>printers mark</catDesc>
+					</category>
+					<category xml:id="f19">
+						<catDesc>engraving</catDesc>
+					</category>
+					<category xml:id="f20">
+						<catDesc>pamphlet</catDesc>
+					</category>
+					<category xml:id="f21">
+						<catDesc>manuscript</catDesc>
+					</category>
+					<category xml:id="f22">
+						<catDesc>collection</catDesc>
+					</category>
+					<category xml:id="f23">
+						<catDesc>nonceCollection</catDesc>
+					</category>
+					<category xml:id="f24">
+						<catDesc>sammelband</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="keyword">
+					<category xml:id="lcna">
+						<catDesc>author of main text and of works reviewed, if relevant, using LOC
+							authority name headings.</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords scheme="#lcna">
+					<list type="simple">
+					</list>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#MW" when="2021-05-31" n="1">
+				<label>Changed by</label>
+				<name>Mary A. Waters</name>
+				<list>
+					<item>Created and encoded Edition</item>
+				</list>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="essay">
+				<head><bibl>
+						<title type="main" level="a">Introduction to the Criticism Archive<hi
+								rendition="#sup"><note>Portions of this essay
+									previously appeared as the Introduction to <hi
+										rendition="#italics"><title>British Women Writers of the
+											Romantic Period: An Anthology of Their Literary
+											Criticism</title></hi>, ed. Mary A. Waters, Palgrave
+									Macmillan, 2009. </note></hi></title></bibl></head>
+				<p rendition="#pnoindent">In the decades since Anne K. Mellor published her landmark
+					essay &quot;<title>A Criticism of Their Own</title>,&quot; literary criticism by
+					early women writers has drawn increasing interest.<hi rendition="#sup"><note
+							place="foot">Anne K. Mellor, &quot;<title>A Criticism of Their Own:
+								Romantic Women Literary Critics</title>,&quot; <hi
+								rendition="#italics"><title>Questioning Romanticism</title></hi>,
+							ed. John Beer, Johns Hopkins UP, 1995.</note></hi> Among just a few of
+					the recent studies examining criticism by pre-twentieth-century British women,
+					Kimberly J. Stern has demonstrated that women critics negotiated the gender
+					ideologies of nineteenth-century critical networks to reimagine the professional
+					literary communities they sought to join.<hi rendition="#sup"><note place="foot"
+							>Kimberly J. Stern, <hi rendition="#italics"><title>The Social Life of
+									Criticism: Gender, Critical Writing, and the Politics of
+									Belonging</title></hi>, U of Michigan P, 2016.</note></hi> Megan
+					Peiser details the ways <ref target="people.html#BarbauldMrs">Anna Letitia
+						Barbauld</ref> and <ref target="people.html#MoodyElizabeth">Elizabeth
+						Moody</ref> exploit the critical authority offered through anonymous novel
+					reviewing to support the work of other women writers.<hi rendition="#sup"><note
+							place="foot">Megan Peiser, &quot;<title>Reviewing Women: Women Reviewers
+								on Women Novelists</title>,&quot; <hi rendition="#italics"
+									><title>Women&apos;s Periodicals and Print Culture in Britain,
+									1690-1820s: The Long Eighteenth Century</title></hi>, ed. Jennie
+							Batchelor and Manushag N. Powell, <title type="series">The Edinburgh
+								History of Women&apos;s Periodical Culture in Britain</title>,
+							Edinburgh UP, 2018.</note></hi> Nora Nachumi&apos;s essay in an MLA
+					volume on <hi rendition="#italics"><title>Teaching British Women Playwrights of
+							the Restoration and Eighteenth Century</title></hi> (2010) outlines the
+					value of incorporating <ref target="people.html#InchbaldMrs">Elizabeth
+						Inchbald</ref>&apos;s prefaces to <hi rendition="#italics"><title>The
+							British Theatre</title></hi> (1808) into study of <ref
+						target="people.html#InchbaldMrs">Inchbald</ref>&apos;s dramatic works.<hi
+						rendition="#sup"><note>Nora Nachumi, &quot;<title>To Write with
+								Authority: <ref target="people.html#InchbaldMrs">Elizabeth
+									Inchbald</ref>&apos;s Prefaces to <hi rendition="#italics"
+										><title>The British Theatre</title></hi>,</title>&quot; <hi
+								rendition="#italics"><title>Teaching British Women Playwrights of
+									the Restoration and Eighteenth Century</title></hi>, ed. Bonnie
+							Nelson and Catherine Burroughs, Modern Language Association of America,
+							2010.</note></hi> My own work has promoted access to early British
+					women&apos;s criticism, considered its contributions to women writers&apos;
+					increasing professionalization in a rapidly changing print culture, and
+					demonstrated women&apos;s influence on aesthetic standards and the construction
+					of British cultural heritage.<hi rendition="#sup"><note>Mary A.
+							Waters, &quot;<title><ref target="people.html#LandonLetitia">Letitia
+									Landon</ref>&apos;s Literary Criticism and Her Romantic Project:
+									<ref target="people.html#LandonLetitia">L.E.L.</ref>&apos;s
+								Poetics of Feeling and the Periodical Reviews</title>,&quot; <hi
+								rendition="#italics"><title>Women&apos;s Writing</title></hi>, vol.
+							18, 2011, pp. 305-330; <hi rendition="#italics"><title>British Women
+									Writers and the Profession of Literary Criticism,
+									1789-1832</title></hi>, <title type="series">Palgrave Studies in
+								the Enlightenment, Romanticism and the Cultures of Print</title>,
+							Palgrave Macmillan, 2004; &quot;<title>&apos;The First of a New
+								Genus&apos;: <ref target="people.html#WollstonecraftMary">Mary
+									Wollstonecraft</ref> as a Literary Critic and Mentor to <ref
+									target="people.html#HaysMary">Mary Hays</ref></title>,&quot; <hi
+								rendition="#italics"><title>Eighteenth-Century Studies</title></hi>,
+							vol. 37, 2004, pp. 415-34; &quot;&apos;<title>Slovenly Monthly
+								Catalogues&apos;: The <hi rendition="#italics"><title>Monthly
+										Review</title></hi> and <ref
+									target="people.html#BarbauldMrs">Anna Letitia
+								Barbauld</ref>&apos;s Periodical Literary Criticism,</title>&quot;
+								<hi rendition="#italics"><title>Nineteenth-Century
+								Prose</title></hi>, vol. 31, 2004, pp. 53-81. </note></hi> These
+					works and others have contributed to our growing understanding of the extent and
+					significance of early criticism published by British women. </p>
+				<p> As Peiser notes, however, particularly in the case of the periodical criticism
+					on which her essay depends, identification of and access to women&apos;s
+					literary criticism remains a challenge. Periodical criticism was often published
+					anonymously, and even when identification is possible, assembling a body of work
+					for teaching or research can be laborious at best. This archive collects
+					criticism published by women during the eighteenth and nineteenth centuries to
+					enrich study of their creative works, to challenge narrow assumptions about
+					where women&apos;s literary commentary appeared and the breadth of issues it
+					addressed, and to reveal the conscious authority of women writers&apos; critical
+					voices. At the same time, in presenting women&apos;s views on literature and
+					aesthetics, this collection can encourage new perspectives on the nature,
+					purposes, and principles of eighteenth- and nineteenth-century literary
+					criticism, regardless of who may be the author. </p>
+				<p rendition="#pnoindent">I. Aesthetic Innovations</p>
+				<p> Study of criticism by women reveals that women critics could be in the vanguard
+					of debates over literary standards and aesthetics. For example, <ref
+						target="people.html#WordsworthWilliam">Wordsworth</ref>&apos;s 1800 preface
+					to <hi rendition="#italics"><title>Lyrical Ballads</title></hi> is considered a
+					landmark in early nineteenth-century literary theory for its explanation of the
+					premises behind a collection of poems that broke new ground in both form and
+					content. Yet in her &quot;<title>Introductory Discourse</title>&quot; to <hi
+						rendition="#italics"><title>Plays on the Passions</title></hi> (1798), <ref
+						target="people.html#BaillieJoanna">Joanna Baillie</ref> articulated several
+					of <ref target="people.html#WordsworthWilliam">Wordsworth</ref>&apos;s most
+					innovative ideas while anticipating his treatise by two years. Convinced that
+					psychological states were more interesting than external events, <ref
+						target="people.html#BaillieJoanna">Baillie</ref> devoted her preface and
+					indeed her writing career to exploring how such powerful but shifting internal
+					effects could be conveyed in their full subtlety to a theater audience. Even
+					earlier, <ref target="people.html#WollstonecraftMary">Mary Wollstonecraft</ref>
+					had voiced many of <ref target="people.html#WordsworthWilliam"
+					>Wordsworth</ref>&apos;s views in similar language in her 1797 essay
+						&quot;<title>On Artificial Taste</title>,&quot; published in the <hi
+						rendition="#italics"><title>Monthly Magazine</title></hi>, where she
+					explores the relationship between immediate feeling and direct experience of
+					nature on one hand and &quot;natural,&quot; affecting poetry on the other. It
+					diminishes none of these writers to recognize that all were concerned with
+					finding a smooth conduit between emotional experience and literary expression.
+					Rather, reading all three can enhance our appreciation of the relationship
+					between emotional authenticity, communication of feeling, and literary language,
+					one of the more significant aesthetic concerns of the early nineteenth century.
+						<ref target="people.html#BaillieJoanna">Baillie</ref>&apos;s essay, like
+						<ref target="people.html#WordsworthWilliam">Wordsworth</ref>&apos;s,
+					prefaced a collection of her own work&#8212;in this case, several plays&#8212;so
+					differing from familiar practices that she felt readers would need a framework
+					to appreciate them. And like <ref target="people.html#WordsworthWilliam"
+						>Wordsworth</ref>&apos;s preface, <ref target="people.html#BaillieJoanna"
+						>Baillie</ref>&apos;s &quot;<title>Introductory Discourse</title>&quot;
+					develops a coherent theory for a literary form – in her case closet drama – that
+					comprises an important contribution to a major literary genre.<hi
+						rendition="#sup"><note>See Catherine Burroughs, <hi
+								rendition="#italics"><title>Closet Stages: <ref
+										target="people.html#BaillieJoanna">Joanna Baillie</ref> and
+									the Theater Theory of British Romantic Women
+								Writers</title></hi>, U of Pennsylvania P, 1997. </note></hi>
+				</p>
+				<p> A milestone in literary criticism and theory, <ref
+						target="people.html#BaillieJoanna">Baillie</ref>&apos;s is not the only
+					major essay penned by a woman to revise genre theory and history. Coming a
+					decade later, &quot;<title>On the Origin and Progress of
+					Novel-Writing,</title>&quot; <ref target="people.html#BarbauldMrs">Anna Letitia
+						Barbauld</ref>&apos;s introductory essay to the fifty-volume collection <hi
+						rendition="#italics"><title>The British Novelists</title></hi>, offered an
+					early contribution to genre classification and literary theory as well as a
+					prototypical canon of British fiction. <ref target="people.html#BarbauldMrs"
+						>Barbauld</ref>&apos;s essay and her individual introductions to featured
+					novelists revised literary history in ways that gave unprecedented attention to
+					the contribution of women writers. At the same time, she argued that fictional
+					literature deserved more respect than most critics were willing to grant it. As
+					the introduction to the first definitive selection of complete text British
+					novels, the essay appeared in a context that had few rivals in either prestige
+					or appeal to national pride. </p>
+				<p> When women&apos;s criticism enjoyed the prominence of <ref
+						target="people.html#BarbauldMrs">Barbauld</ref>&apos;s &quot;<title>Origin
+						and Progress of Novel-Writing</title>,&quot; it was because of, not despite,
+					the critic&apos;s name. By the time <ref target="people.html#BarbauldMrs"
+						>Barbauld</ref>&apos;s essay appeared, she had gained renown as a poet,
+					educator, children&apos;s author, political polemicist, literary biographer,
+					critic, and editor. The full title of the collection, boasting &quot;<title>with
+						an essay, and prefaces biographical and critical, by <ref
+							target="people.html#BarbauldMrs">Mrs. Barbauld</ref></title>,&quot;
+					indicates the prestige and commercial appeal that the publishers hoped to gain
+					from <ref target="people.html#BarbauldMrs">Barbauld</ref>&apos;s name. Much like
+						<ref target="people.html#BarbauldMrs">Barbauld</ref>, <ref
+						target="people.html#InchbaldMrs">Elizabeth Inchbald</ref> was likewise
+					recruited to write criticism because of her celebrity, in her case as a popular
+					actress, playwright, and novelist, yet her criticism broke new ground as well.
+						<ref target="people.html#InchbaldMrs">Inchbald</ref>&apos;s prefaces to the
+					individual plays included in <hi rendition="#italics"><title>The British
+							Theatre</title></hi> (1806-8) turned away from established models of
+					Shakespeare criticism to emphasize staging and theatrical history, helping to
+					shift the direction of theater criticism for decades to come. Meanwhile,
+					although <ref target="people.html#InchbaldMrs">Inchbald</ref>&apos;s essays
+					appeared first as individual installments, when brought together for the 1808
+					bound set, they offer, as did <ref target="people.html#BaillieJoanna"
+						>Baillie</ref>&apos;s &quot;<title>Introductory Discourse</title>,&quot; a
+					coherent theory of closet drama. </p>
+				<p> Like <ref target="people.html#BarbauldMrs">Barbauld</ref>&apos;s
+						&quot;<title>Origin and Progress of Novel-Writing</title>,&quot; <hi
+						rendition="#italics"><title>The British Theatre</title></hi> bound set
+					appealed to the burgeoning sense of British national pride and the expanding
+					consumer market for the appurtenances of elegant sophistication, but it was
+					priced well out of reach of all but the most affluent middle- and upper-class
+					readers. But against the consumer-driven status of an attractively bound
+					matching set stands the other form in which <ref
+						target="people.html#InchbaldMrs">Inchbald</ref>&apos;s prefaces
+					appeared&#8212;brief essays, each introducing a single recently popular play,
+					published in inexpensive, weekly installments. Though lacking the grandeur of
+					the costly collection, this more ephemeral form of publication could reach a
+					wider, more diverse audience. </p>
+				<p rendition="#pnoindent">II. Literary Reviewing</p>
+				<p> While the prestige of prefatory essays to major collections is undeniable, no
+					criticism by Romantic-era British women writers reached as many readers and yet
+					has been as underrated as that in literary magazines, particularly literary
+					reviews. Especially toward the end of the eighteenth century, the number of
+					literary magazines and reviews increased dramatically while at the same time
+					women began to contribute to these new periodicals more frequently. As was
+					generally the practice in periodical criticism, most of these articles were
+					published unsigned. Consequently, although letters, diary entries, editors&apos;
+					marked copies, and the like have led to some attributions of women&apos;s
+					periodical criticism, it is impossible to gauge how much can no longer be
+					identified. Yet the invisibility of this work belies its importance. James
+					Basker argues that literary journalism <quote rendition="#pnoindent">introduced
+						new, more accessible forums for critical discussion; it multiplied and
+						diversified the opportunities for critical expression; it fostered new
+						critical values, drew attention to new literary genres, systematized the
+						treatment of established ones, and expanded the audience for criticism. […]
+						in subtler ways it affected canon formation, reception history, the
+						emergence of affective criticism, the assimilation of foreign influences,
+						the segregation of &apos;women&apos;s literature&apos;, and ultimately the
+						politics of culture.<hi rendition="#sup"><note>James Basker,
+									&quot;<title>Criticism and the Rise of Periodical
+									Literature,</title>&quot; <hi rendition="#italics"
+										><title>Cambridge History of Literary
+								Criticism</title></hi>, ed. H. B. Nisbet and Claude Rawson, Vol. 4,
+									<hi rendition="#italics"><title>The Eighteenth
+									Century</title></hi>, Cambridge UP, 1997, pp. 316-332; p.
+								316.</note></hi>
+					</quote> And if literary periodicals so dramatically influenced aesthetics,
+					culture, and critical practice, they had a similar impact on Romantic
+					writers&apos; careers. Reviewing and similar literary commentary provided both
+					income and an avenue to public authority, and many women writers followed this
+					model of professionalism. </p>
+
+				<p rendition="#pnoindent">A. Establishing Literary Authority in a Changing Print
+					Culture</p>
+				<p> The earliest women literary critics usually came from the genteel classes. These
+					women had access to education and leisure to read and write. Moreover, until the
+					end of the eighteenth century, the nature of publishing explicitly emphasized
+					the amateur or dilettante, especially in the case of women. Most women writers,
+					critics included, emerged from the aristocratic milieu of coterie publication.
+					Access to publishers depended on these connections, in the form of either a
+					single prestigious patron or a subscription in which acquaintances and their
+					connections would underwrite the cost of publication. Within these networks,
+					writing entertained one&apos;s acquaintances and displayed one&apos;s talents.
+					Though publishing might bring much needed money to a writer patronized by the
+					more affluent members of the circle, the ostensible purpose of disseminating a
+					work was to expand the circle of edification and enjoyment. But as the
+					eighteenth century drew to a close, patronage forms of publication gave way to a
+					more modern, professional literary culture where contracts and direct
+					transactions between publisher and writer became paramount, where relationships
+					between writers and publishers were more direct and might include various types
+					of literary work, and where publishers might rely on writers&apos; current
+					specializations and expect writers to cultivate new ones. While the numbers of
+					women publishing in all forms increased rapidly, the ever more commercialized
+					literary world came more firmly under control of the male dominated world of
+					large publishing houses and heavyweight literary magazines and reviews. Among
+					those women who best adapted to this masculine world of early professionalized
+					literary culture, authoring literary criticism often played a decisive role. </p>
+				<p> The landscape of British women&apos;s literary history would present a very
+					different view if it were not for criticism&apos;s financial, intellectual, and
+					even emotional impact. Criticism brought poet <ref
+						target="people.html#MoodyElizabeth">Elizabeth Moody</ref>, for example, into
+					a circle of literary professionals that nudged her out of the amateur world of
+					coterie circulation into commercial publication of both her creative and her
+					critical work. For others such as <ref target="people.html#WollstonecraftMary"
+						>Mary Wollstonecraft</ref>, criticism provided the financial stability to
+					launch a literary career. Writing on demand for bookseller <ref
+						target="people.html#JohnsonJoseph">Joseph Johnson</ref> and especially
+					reviewing for his new <hi rendition="#italics"><title>Analytical
+						Review</title></hi> allowed <ref target="people.html#WollstonecraftMary"
+						>Wollstonecraft</ref> to escape the lonely, taxing positions of governess
+					and companion and establish herself in London, where she joined the most vibrant
+					literary community in late eighteenth-century Britain. Further, for <ref
+						target="people.html#WollstonecraftMary">Wollstonecraft</ref> and some other
+					young writers such as <ref target="people.html#MartineauHarriet">Harriet
+						Martineau</ref> and <ref target="people.html#LandonLetitia">Letitia
+						Landon</ref>, reading for a demanding schedule of reviewing provided
+					intellectual training, broadening and deepening their thinking and preparing
+					them for the creative or analytical work for which they are best known today.
+					And for <ref target="people.html#BarbauldMrs">Barbauld</ref>, criticism appears
+					to have sustained her financially while providing her, according to her niece
+					and first biographer, with an intellectual and emotional lifeline at the time of
+					her husband&apos;s mental collapse and eventual suicide.<hi rendition="#sup"
+							><note>See <ref target="people.html#AikinLucy">Lucy
+								Aikin</ref>, <hi rendition="#italics"><title>The Works of <ref
+										target="people.html#BarbauldMrs">Anna Lætitia
+									Barbauld</ref>. With a Memoir by <ref
+										target="people.html#AikinLucy">Lucy
+							Aikin</ref></title></hi>, 2 vols., Longman, Hurst, Rees, Orme, Brown,
+							and Green, 1825.</note></hi>
+				</p>
+				<p> When literary culture had been supported largely by patronage, authors knew much
+					of their audience, either personally or implicitly as connections of a patron or
+					acquaintance. Mostly from the genteel classes, these readers were often better
+					educated than the general run of English men and women, with taste that had been
+					formed on classical literature and more recent works modeled on the classical
+					tradition. But late in the eighteenth century, authors and critics began to
+					realize that the makeup of the reading population had changed, and that many new
+					readers lacked the education and hence the commonly agreed upon standards of
+					taste that the literary world had formerly counted on. In the minds of some, the
+					spread of reading and the variety of new types of publications undermined a
+					social order where the makeup of the reading public could be known and standards
+					of taste assumed to be shared. Many critics saw a need to generate broader
+					acceptance for the literary values they regarded as desirable and they began to
+					try to police the taste of these new readers, demonstrating that aesthetic
+					standards were far from self-evident, but were instead subject to lively debate.
+					Meanwhile, it was not merely authors and critics who experienced anxieties about
+					the new readers. Regarding familiarity with literature as a necessary mark of
+					gentility, the expanding middle class that comprised many of these new readers
+					turned to criticism, especially in periodicals, for guidance in developing their
+					literary taste.<hi rendition="#sup"><note>See Basker as well as
+							William St. Clair, <hi rendition="#italics"><title>The Reading Nation in
+									the Romantic Period</title></hi>, Cambridge UP,
+						2004.</note></hi> Yet the popularity of scores of novels scorned in reviews
+					reveals a disquieting gap between the critic and an anonymous reading public
+					with inclinations that resisted critical discipline. </p>
+				<p rendition="#pnoindent">B. Revising Aesthetic Standards</p>
+				<p> If criticism failed to fully control public response to literary works,
+					aesthetic standards shifted as well. While the neoclassical standards that had
+					once held wide currency lost much favor by the end of the eighteenth century,
+					some of the ideals that were central at the beginning of the nineteenth century
+					have likewise declined in appeal since. Sentimentality, for example, was a hotly
+					debated topic, and in its more florid manifestations critics often objected that
+					it debased a literary work, making it suitable only for a sensation market. But
+					when modulated, emotional content enjoyed broad currency during much of the
+					later eighteenth and nineteenth centuries. Many readers and writers believed
+					that emotional appeals offered a route for literature to help better society by
+					cultivating individual sensitivity and sympathy.<hi rendition="#sup"><note
+							place="foot">See especially G.J. Barker-Benfield, <hi
+								rendition="#italics"><title>The Culture of Sensibility: Sex and
+									Society in Eighteenth-Century Britain</title></hi>, U of Chicago
+							P, 1992; Jerome McGann, <hi rendition="#italics"><title>The Poetics of
+									Sensibility: A Revolution in Literary Style</title></hi>,
+							Clarendon P, 1996; John Mullan, <hi rendition="#italics"
+									><title>Sentiment and Sociability: The Language of Feeling in
+									the Eighteenth Century</title></hi>, Clarendon P, 1988; and
+							Adela Pinch, <hi rendition="#italics"><title>Strange Fits of Passion:
+									Epistemologies of Emotion, <ref target="people.html#HumeDavid"
+										>Hume</ref> to <ref target="people.html#AustenJane"
+										>Austen</ref></title></hi>, Stanford UP, 1996.</note></hi>
+					Thus, sentiment and sensibility underlay much of the interest in moral effect
+					that was common to many critics, male and female, during the later years of the
+					eighteenth century. In fact, the demand for a positive moral tendency was in
+					itself a contested issue. Some critics followed <ref
+						target="people.html#JohnsonSamuel">Samuel Johnson</ref> in suggesting that
+					literature should teach moral values by presenting only the highest examples
+					worthy of emulation. Yet others, such as <ref target="people.html#BarbauldMrs"
+						>Barbauld</ref>, explicitly argue that literature need not conform to such
+					restrictive standards, nor, indeed need it explicitly serve a higher social
+					purpose. <ref target="people.html#BarbauldMrs">Barbauld</ref> champions the
+					central significance of other qualities such as entertainment value, form,
+					versification, imagery, characterization, means of creating suspense, and
+					credibility or realism. </p>
+				<p> Meanwhile, not only did shifting standards mean that few aesthetic ideals could
+					claim general acceptance, but in addition, many literary reviews had not yet
+					acknowledged aesthetic evaluation to be part of their task. During the first
+					half-century of the literary review, the imposition of the critic&apos;s own
+					opinion was often considered a corruption in the true purposes of a review. Many
+					critics presumed a highly educated and almost exclusively male audience, whom
+					they assumed to be capable of making their own judgments about literature. The
+					review&apos;s purpose was to present objective summary and extract to facilitate
+					those judgments. But by the end of the eighteenth century, literary reviews
+					found much of their readership among the expanding middle class, including
+					middle-class women. Many of these readers had only modest formal education, and
+					in reading about literature, they sought the kind of guidance provided in one
+					important predecessor for literary reviews&#8212;popular periodical papers along
+					the lines of <ref target="people.html#AddisonJoseph">Joseph Addison</ref>&apos;s
+						<hi rendition="#italics"><title>Spectator</title></hi> and <ref
+						target="people.html#JohnsonSamuel">Samuel Johnson</ref>&apos;s <hi
+						rendition="#italics"><title>Rambler</title></hi>. These forebears showcased
+					the merits of literary works, educating readers about literature and aesthetics
+					and helping form reader taste. </p>
+				<p> If such high-minded aspirations informed part of the purpose of some criticism,
+					entertainment often played a vital role as well. Indeed, while many articles
+					aspired to objectivity, others strove for entertainment in the criticism itself.
+					Women critics might strive for entertainment by such means as structuring a
+					critical essay in the form of a dialog, as did <ref
+						target="people.html#RadcliffeAnn">Ann Radcliffe</ref>, a strategy that
+					allowed for posing multiple critical perspectives while integrating some of the
+					diverting qualities of fiction and drama. In some cases, too, wit and irony
+					allowed a bridge between the older cultures of coterie circulation and modern
+					mass publication, as when <ref target="people.html#MoodyElizabeth">Elizabeth
+						Moody</ref> masquerades as a male writer enjoying tobacco and port with his
+					reading. While <ref target="people.html#MoodyElizabeth">Moody</ref>&apos;s
+					urbane, satirical tone would have amused most readers, only the few who knew the
+					anonymous author to be a woman could have fully appreciated the humor. In other
+					instances, articles that repeat assessments that had already become commonplace,
+					such as <ref target="people.html#JewsburyMaria">Maria Jane Jewsbury</ref>&apos;s
+					essay on <ref target="people.html#AustenJane">Jane Austen</ref>, suggest that
+					readers sometime cared as much for the pleasure of affirming comfortably
+					accepted ideas as for original and rigorous criticism. The fact that some of
+					these articles held the prestigious lead article positions confirms that this
+					purpose was accepted by publishers and readers alike. </p>
+				<p rendition="#pnoindent">C. Further Insights</p>
+				<p> Much remains to be uncovered in early literary criticism by women. A few
+					additional issues have already emerged, however, that are worth noting. For one,
+					women critics often used commentary on literature to participate in wide-ranging
+					debates on topics of public concern. While talking about literature, women
+					comment on public events or call attention to the ways literature affects public
+					issues. Their comments on British character or the British literary heritage,
+					for example, demonstrate that they understood national identity and character as
+					historically and culturally determined. When women critics speak of
+					literature&apos;s influence on individual virtue, for instance, they frequently
+					do so in terms of the ways literature shapes national character. Moreover, women
+					critics show strong interest in women writers. Not only do women critics
+					frequently praise other women writers, but they sometimes capitalize on the
+					occasion of reviewing one female writer to promote other women writers, as when
+						<ref target="people.html#JewsburyMaria">Jewsbury</ref> endorses <ref
+						target="people.html#SoutheyCaroline">Caroline Bowles</ref> while writing on
+						<ref target="people.html#AustenJane">Jane Austen</ref>. Yet women critics
+					often hold their female contemporaries to exacting standards, refusing to follow
+					the example of feigned tolerance that provided a thin veneer for their male
+					contemporaries&apos; clubby assurance of feminine literary inferiority. Where
+					women critics include patronizing expressions like &quot;the fair author,&quot;
+					close reading of the discussion often reveals elements of parody or humor. </p>
+				<p rendition="#pnoindent">III. Conclusion</p>
+				<p> There is much to be gained, then, from incorporating early women&apos;s literary
+					criticism into our study of our literary past. The aspiration in creating this
+					archive is to make this criticism more accessible, encouraging teaching,
+					research, and enjoyment of this rich resource. It is to be hoped that doing so
+					will give rise to new research, new questions, and new insights about not
+					only early women&apos;s criticism, but early women writers and literary history
+					as a whole. </p>
+
+			</div>
+		</body>
+	</text>
+</TEI>

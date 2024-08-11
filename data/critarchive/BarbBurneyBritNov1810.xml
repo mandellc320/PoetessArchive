@@ -1,650 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">Miss Burney</title>
-            <title type="sub">The British Novelists</title>
-            <author type="writer">
-               <name>Anna Letitia Barbauld</name>
-            </author>
-            <respStmt>
-               <resp>Editor</resp>
-               <name xml:id="MW">Mary A. Waters</name>
-            </respStmt>
-            <respStmt>
-               <resp>Encoding assistance</resp>
-               <name xml:id="RD">Rachel Dejmal</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <idno>BarbBurneyBritNov1810</idno>
-         </publicationStmt>
-         <seriesStmt>
-            <title level="s">The Criticism Archive</title>
-            <respStmt>
-               <resp>Edited by</resp>
-               <name type="person" ref="#MW">Mary A. Waters</name>
-            </respStmt>
-            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
-         </seriesStmt>
-         <sourceDesc>
-            <biblStruct>
-               <analytic>
-                  <title type="main" level="a">Miss Burney</title>
-                  <author type="writer">
-                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-                  </author>
-               </analytic>
-               <monogr>
-                  <title type="main" level="m">The British Novelists</title>
-                  <title type="sub">with an Essay and Prefaces,
-                            Biographical and Critical</title>
-                  <editor role="editor">
-                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-                  </editor>
-                  <imprint>
-                     <pubPlace>London</pubPlace>
-                     <publisher>F.C. and J. Rivington</publisher>
-                     <date when="1810">1810</date>
-                     <biblScope unit="vol">XXXVIII</biblScope>
-                     <biblScope unit="pages">i-xi</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
-               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>All hyphens have been typed on the U.S. keyboard.</p>
-               <p>em-dashes have been recorded originally using the —</p>
-            </hyphenation>
-            <normalization method="silent">
-               <p>Long "s" (ſ) has been silently modernized.</p>
-               <p>Page numbers appear at the beginning of each page, no matter where originally
-        				placed.</p>
-               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
-               <p>Spelling has not been regularized.</p>
-            </normalization>
-            <normalization method="markup">
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
-        				the U.S. keyboard.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as
-        				such, the content recorded in brackets.</p>
-            </normalization>
-         </editorialDecl>
-         <tagsDecl>
-            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
-            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
-            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
-            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
-            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
-            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
-            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
-            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
-            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
-            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition>
-         </tagsDecl>
-         <classDecl>
-            <taxonomy xml:id="ft">
-               <bibl>Full Text or Citation</bibl>
-               <category xml:id="ft1">
-                  <catDesc>full text</catDesc>
-               </category>
-               <category xml:id="ft2">
-                  <catDesc>citation only</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="ps">
-               <bibl>Primary or Secondary</bibl>
-               <category xml:id="ps1">
-                  <catDesc>primary</catDesc>
-               </category>
-               <category xml:id="ps2">
-                  <catDesc>secondary</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="g">
-               <bibl>Genre and Material Form</bibl>
-               <category xml:id="g1">
-                  <catDesc>pageimage</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>biography</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>biographical essay</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>poetry pamphlet</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>poetry book</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>poem</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>story</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>drama</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>table of contents</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>table of illustrations</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>picture</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>index</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>notes</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>frontispiece</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>inscription page</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>book boards</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>titlepage</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>preface</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>advertisement</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>foreword</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>acknowledgments</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>collection literary annual</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>collection miscellany</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>collection anthology</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>collection beauties</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>collection juvenile</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>collection religious</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>collection travels</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>mixed</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>essay</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>review</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>letter</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>fragment poem</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>fragment story</catDesc>
-               </category>
-               <category xml:id="g35">
-                  <catDesc>fragment novel</catDesc>
-               </category>
-               <category xml:id="g36">
-                  <catDesc>literary criticism book</catDesc>
-               </category>
-               <category xml:id="g37">
-                  <catDesc>literary criticism collection</catDesc>
-               </category>
-               <category xml:id="g38">
-                  <catDesc>bibliography</catDesc>
-               </category>
-               <category xml:id="g39">
-                  <catDesc>engraving</catDesc>
-               </category>
-               <category xml:id="g40">
-                  <catDesc>reproduction</catDesc>
-               </category>
-               <category xml:id="g41">
-                  <catDesc>figure</catDesc>
-               </category>
-               <category xml:id="g42">
-                  <catDesc>graph</catDesc>
-               </category>
-               <category xml:id="g43">
-                  <catDesc>map</catDesc>
-               </category>
-               <category xml:id="g44">
-                  <catDesc>table</catDesc>
-               </category>
-               <category xml:id="g45">
-                  <catDesc>musical score</catDesc>
-               </category>
-               <category xml:id="g46">
-                  <catDesc>music</catDesc>
-               </category>
-               <category xml:id="g47">
-                  <catDesc>satire</catDesc>
-               </category>
-               <category xml:id="g48">
-                  <catDesc>political pamphlet</catDesc>
-               </category>
-               <category xml:id="g49">
-                  <catDesc>political cartoon</catDesc>
-               </category>
-               <category xml:id="g50">
-                  <catDesc>periodical</catDesc>
-               </category>
-               <category xml:id="g51">
-                  <catDesc>historical monograph</catDesc>
-               </category>
-               <category xml:id="g52">
-                  <catDesc>historical essay</catDesc>
-               </category>
-               <category xml:id="g53">
-                  <catDesc>philosophical treatise</catDesc>
-               </category>
-               <category xml:id="g54">
-                  <catDesc>philosophical essay</catDesc>
-               </category>
-               <category xml:id="g55">
-                  <catDesc>religious pamphlet</catDesc>
-               </category>
-               <category xml:id="g56">
-                  <catDesc>sermon</catDesc>
-               </category>
-               <category xml:id="g57">
-                  <catDesc>theology</catDesc>
-               </category>
-               <category xml:id="g58">
-                  <catDesc>religious book</catDesc>
-               </category>
-               <category xml:id="g59">
-                  <catDesc>essay on education</catDesc>
-               </category>
-               <category xml:id="g60">
-                  <catDesc>educational treatise</catDesc>
-               </category>
-               <category xml:id="g61">
-                  <catDesc>list of subscribers</catDesc>
-               </category>
-               <category xml:id="g62">
-                  <catDesc>allegory</catDesc>
-               </category>
-               <category xml:id="g63">
-                  <catDesc>introduction</catDesc>
-               </category>
-               <category xml:id="g64">
-                  <catDesc>slipcase</catDesc>
-               </category>
-               <category xml:id="g65">
-                  <catDesc>dedication</catDesc>
-               </category>
-               <category xml:id="g66">
-                  <catDesc>picture of building</catDesc>
-               </category>
-               <category xml:id="g67">
-                  <catDesc>floorplans</catDesc>
-               </category>
-               <category xml:id="g68">
-                  <catDesc>photograph</catDesc>
-               </category>
-               <category xml:id="g69">
-                  <catDesc>translation</catDesc>
-               </category>
-               <category xml:id="g70">
-                  <catDesc>manuscript</catDesc>
-               </category>
-               <category xml:id="g71">
-                  <catDesc>printersmark</catDesc>
-               </category>
-               <category xml:id="g72">
-                  <catDesc>literary criticism article</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="keyword">
-               <category xml:id="lcsh">
-                  <catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-                      xml:id="ag">
-               <bibl>ARC Genre Categories, July 1, 2017</bibl>
-               <category xml:id="ag1">
-                  <catDesc>Advertisement</catDesc>
-               </category>
-               <category xml:id="ag2">
-                  <catDesc>Animation</catDesc>
-               </category>
-               <category xml:id="ag3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="ag4">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="ag5">
-                  <catDesc>Chronology</catDesc>
-               </category>
-               <category xml:id="ag7">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="ag6">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="ag8">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="ag9">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="ag10">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="ag11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="ag12">
-                  <catDesc>Essay</catDesc>
-               </category>
-               <category xml:id="ag13">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="ag14">
-                  <catDesc>Film, Documentary</catDesc>
-               </category>
-               <category xml:id="ag15">
-                  <catDesc>Film, Experimental</catDesc>
-               </category>
-               <category xml:id="ag16">
-                  <catDesc>Film, Narrative</catDesc>
-               </category>
-               <category xml:id="ag17">
-                  <catDesc>Film, Other</catDesc>
-               </category>
-               <category xml:id="ag18">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="ag19">
-                  <catDesc>Interview</catDesc>
-               </category>
-               <category xml:id="ag20">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="ag21">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="ag22">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="ag23">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="ag24">
-                  <catDesc>Musical Work</catDesc>
-               </category>
-               <category xml:id="ag25">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="ag26">
-                  <catDesc>Nonficition</catDesc>
-               </category>
-               <category xml:id="ag27">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="ag28">
-                  <catDesc>Performance</catDesc>
-               </category>
-               <category xml:id="ag29">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="ag30">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="ag31">
-                  <catDesc>Political Statement</catDesc>
-               </category>
-               <category xml:id="ag32">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="ag33">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="ag34">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="ag35">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="ag36">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="ag37">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="ag38">
-                  <catDesc>Speech</catDesc>
-               </category>
-               <category xml:id="ag39">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="ag40">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="ag41">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="ag42">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-                      xml:id="f">
-               <bibl>ARC Format Categories, July 1, 2017</bibl>
-               <category xml:id="f1">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="f2">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="f3">
-                  <catDesc>Dataset</catDesc>
-               </category>
-               <category xml:id="f4">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="f5">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="f6">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="f7">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="f8">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="f9">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="f10">
-                  <catDesc>Notated Music</catDesc>
-               </category>
-               <category xml:id="f11">
-                  <catDesc>Page Proofs</catDesc>
-               </category>
-               <category xml:id="f12">
-                  <catDesc>Pamphlet</catDesc>
-               </category>
-               <category xml:id="f13">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="f14">
-                  <catDesc>Physcial Object</catDesc>
-               </category>
-               <category xml:id="f15">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="f16">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="f17">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="f18">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="f19">
-                  <catDesc>Typescript</catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <keywords scheme="#lcsh">
-               <list type="simple">
-                  <item>Burney, Fanny, 1752-1840</item>
-                  <item>English literature</item>
-                  <item>History</item>
-               </list>
-            </keywords>
-            <catRef target="#ft1" scheme="#ft"/>
-            <catRef target="#ag9 #ag12 #ag20" scheme="#ag"/>
-            <catRef target="#f1" scheme="#f"/>
-            <catRef target="#ps1" scheme="#p"/>
-            <catRef target="#g72 #g30 #g3 " scheme="#g"/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change who="#LM" when="20211214">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>had to roll back due to xml versioning error, revisions as below
-						but starting with August and March 2021 XML</item>
-            </list>
-         </change>
-         <change who="#LM" when="20210922">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added header teiHeader07232021.xml</item>
-               <item>changed milestone sig to fw sig</item>
-               <item>inserted line break before fw</item>
-            </list>
-         </change>
-         <change who="#LM" when="20200611" n="6">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
-            </list>
-         </change>
-         <change who="#MW" when="2019-12-16" n="6">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>changed file name</item>
-               <item>minor TEI encoding revision</item>
-            </list>
-         </change>
-         <change who="#LM" when="20190110" n="5">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
-            </list>
-         </change>
-         <change who="#MW" when="2016-08-21" n="4">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>Encoding Revision</item>
-            </list>
-         </change>
-         <change who="#RD" when="2015-08-15" n="3">
-            <label>Changed by</label>
-            <name>Rachel Dejmal</name>
-            <list type="simple">
-               <item>Encoding Revision</item>
-            </list>
-         </change>
-         <change who="#MW" when="2013-06-21" n="2">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <date>2013-6-21</date>
-            <list type="simple">
-               <item>TEI encoding</item>
-            </list>
-         </change>
-         <change who="#MW" when="2013-06-21" n="1">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>Created Edition</item>
-            </list>
-         </change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="essay">
-            <head>
-               <bibl>
-                  <author type="writer">
-                     <ref target="people.html#BarbauldMrs">
-                        <name>Anna Letitia Barbauld</name>
-                     </ref>
-                  </author>
-                  <title type="main" level="a">
-                     <ref target="people.html#BurneyFanny">MISS
-                                BURNEY</ref>.<note>
-                        <title level="m">
-                           <hi rendition="#italics">The British Novelists;
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main" level="a">Miss Burney</title><title type="sub">The British Novelists</title><author type="writer"><name>Anna Letitia Barbauld</name></author><respStmt><resp>Editor</resp><name xml:id="MW">Mary A. Waters</name></respStmt><respStmt><resp>Encoding assistance</resp><name xml:id="RD">Rachel Dejmal</name></respStmt><respStmt><resp>Encoding Assistance</resp><name xml:id="GR">Gabrielle Ramirez</name></respStmt></titleStmt><publicationStmt><idno>BarbBurneyBritNov1810</idno></publicationStmt><seriesStmt><title level="s">The Criticism Archive</title><respStmt><resp>Edited by</resp><name type="person" ref="#MW">Mary A. Waters</name></respStmt><idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno></seriesStmt><sourceDesc><biblStruct><analytic><title type="main" level="a">Miss Burney</title><author type="writer"><name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name></author></analytic><monogr><title type="main" level="m">The British Novelists</title><title type="sub">with an Essay and Prefaces,
+                            Biographical and Critical</title><editor role="editor"><name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name></editor><imprint><pubPlace>London</pubPlace><publisher>F.C. and J. Rivington</publisher><date when="1810">1810</date><biblScope unit="vol">XXXVIII</biblScope><biblScope unit="pages">i-xi</biblScope></imprint></monogr></biblStruct></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p><p>Quotation marks that indicate block quotes have been silently eliminated.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>All hyphens have been typed on the U.S. keyboard.</p><p>em-dashes have been recorded originally using the —</p></hyphenation><normalization method="silent"><p>Long "s" (ſ) has been silently modernized.</p><p>Page numbers appear at the beginning of each page, no matter where originally
+        				placed.</p><p>Compositors' catchwords and running titles have been silently eliminated.</p><p>Spelling has not been regularized.</p></normalization><normalization method="markup"><p>&amp; has been used for the ampersand sign.</p><p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p><p>Writing in other hands appearing on these manuscripts has been indicated as
+        				such, the content recorded in brackets.</p></normalization></editorialDecl><tagsDecl><rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition><rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition><rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition><rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition><rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition><rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition><rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition><rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition><rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition><rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition><rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition><rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition><rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition><rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition><rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition><rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition><rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition><rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition><rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition></tagsDecl><classDecl><taxonomy xml:id="ft"><bibl>Full Text or Citation</bibl><category xml:id="ft1"><catDesc>full text</catDesc></category><category xml:id="ft2"><catDesc>citation only</catDesc></category></taxonomy><taxonomy xml:id="ps"><bibl>Primary or Secondary</bibl><category xml:id="ps1"><catDesc>primary</catDesc></category><category xml:id="ps2"><catDesc>secondary</catDesc></category></taxonomy><taxonomy xml:id="g"><bibl>Genre</bibl><category xml:id="g1"><catDesc>biography</catDesc></category><category xml:id="g2"><catDesc>poetry</catDesc></category><category xml:id="g3"><catDesc>story</catDesc></category><category xml:id="g4"><catDesc>drama</catDesc></category><category xml:id="g5"><catDesc>novel</catDesc></category><category xml:id="g6"><catDesc>satire</catDesc></category><category xml:id="g7"><catDesc>allegory</catDesc></category><category xml:id="g8"><catDesc>advertisement</catDesc></category><category xml:id="g9"><catDesc>preface</catDesc></category><category xml:id="g10"><catDesc>foreword</catDesc></category><category xml:id="g11"><catDesc>introduction</catDesc></category><category xml:id="g12"><catDesc>acknowledgments</catDesc></category><category xml:id="g13"><catDesc>essay</catDesc></category><category xml:id="g14"><catDesc>review</catDesc></category><category xml:id="g15"><catDesc>letter</catDesc></category><category xml:id="g16"><catDesc>literary criticism</catDesc></category><category xml:id="g17"><catDesc>electronic resource</catDesc></category><category xml:id="g18"><catDesc>bibliography</catDesc></category><category xml:id="g19"><catDesc>music</catDesc></category><category xml:id="g20"><catDesc>political statement</catDesc></category><category xml:id="g21"><catDesc>history</catDesc></category><category xml:id="g22"><catDesc>education</catDesc></category><category xml:id="g23"><catDesc>sermon</catDesc></category><category xml:id="g24"><catDesc>religion</catDesc></category><category xml:id="g25"><catDesc>philosophical statement</catDesc></category><category xml:id="g26"><catDesc>translation</catDesc></category><category xml:id="g27"><catDesc>dictionary</catDesc></category><category xml:id="g28"><catDesc>encyclopedia</catDesc></category><category xml:id="g29"><catDesc>travel</catDesc></category><category xml:id="g30"><catDesc>illustration</catDesc></category><category xml:id="g31"><catDesc>map</catDesc></category><category xml:id="g32"><catDesc>floorplans</catDesc></category><category xml:id="g33"><catDesc>photograph</catDesc></category><category xml:id="g34"><catDesc>cartoon</catDesc></category><category xml:id="g35"><catDesc>literary annual</catDesc></category><category xml:id="g36"><catDesc>miscellany</catDesc></category><category xml:id="g37"><catDesc>anthology</catDesc></category><category xml:id="g38"><catDesc>beauties</catDesc></category><category xml:id="g39"><catDesc>juvenile</catDesc></category></taxonomy><taxonomy xml:id="f"><bibl>Form</bibl><category xml:id="f1"><catDesc>pageimage</catDesc></category><category xml:id="f2"><catDesc>book part</catDesc></category><category xml:id="f3"><catDesc>book</catDesc></category><category xml:id="f4"><catDesc>periodical part</catDesc></category><category xml:id="f5"><catDesc>periodical</catDesc></category><category xml:id="f6"><catDesc>fragment</catDesc></category><category xml:id="f7"><catDesc>frontispiece</catDesc></category><category xml:id="f8"><catDesc>title page</catDesc></category><category xml:id="f9"><catDesc>inscription page</catDesc></category><category xml:id="f10"><catDesc>dedication</catDesc></category><category xml:id="f11"><catDesc>table of contents</catDesc></category><category xml:id="f12"><catDesc>table of illustrations</catDesc></category><category xml:id="f13"><catDesc>list of subscribers</catDesc></category><category xml:id="f14"><catDesc>index</catDesc></category><category xml:id="f15"><catDesc>notes</catDesc></category><category xml:id="f16"><catDesc>book boards</catDesc></category><category xml:id="f17"><catDesc>slipcase</catDesc></category><category xml:id="f18"><catDesc>printers mark</catDesc></category><category xml:id="f19"><catDesc>engraving</catDesc></category><category xml:id="f20"><catDesc>pamphlet</catDesc></category><category xml:id="f21"><catDesc>manuscript</catDesc></category><category xml:id="f22"><catDesc>collection</catDesc></category><category xml:id="f23"><catDesc>nonceCollection</catDesc></category><category xml:id="f24"><catDesc>sammelband</catDesc></category></taxonomy><taxonomy xml:id="keyword"><category xml:id="lcna"><catDesc>author of main text and of works reviewed, if relevant, using LOC authority name headings.</catDesc></category></taxonomy></classDecl></encodingDesc><profileDesc><textClass><keywords scheme="#lcna"><list type="simple"><item>Burney, Fanny, 1752-1840</item><item>Barbauld, Mrs. (Anna Letitia), 1743-1825</item></list></keywords><catRef target="#ft1" scheme="#ft"/><catRef target="#f2" scheme="#f"/><catRef target="#ps1" scheme="#p"/><catRef target="#g11 #g13 #g16" scheme="#g"/></textClass></profileDesc><revisionDesc><change who="#MW" when="20230302"><label>Changed by</label><name>Mary Waters</name><list type="simple"><item>changed catRef</item></list></change><change who="#LM" when="20230227"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>new header</item></list></change><change who="#GR" when="20230111"><label>Changed by</label><name>Gabrielle Ramirez</name><list type="simple"><item>revised keywords</item></list></change><change who="#LM" when="20211214"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>had to roll back due to xml versioning error, revisions as below
+						but starting with August and March 2021 XML</item></list></change><change who="#LM" when="20210922"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>Added header teiHeader07232021.xml</item><item>changed milestone sig to fw sig</item><item>inserted line break before fw</item></list></change><change who="#LM" when="20200611" n="6"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item></list></change><change who="#MW" when="2019-12-16" n="6"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>changed file name</item><item>minor TEI encoding revision</item></list></change><change who="#LM" when="20190110" n="5"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item></list></change><change who="#MW" when="2016-08-21" n="4"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>Encoding Revision</item></list></change><change who="#RD" when="2015-08-15" n="3"><label>Changed by</label><name>Rachel Dejmal</name><list type="simple"><item>Encoding Revision</item></list></change><change who="#MW" when="2013-06-21" n="2"><label>Changed by</label><name>Mary A. Waters</name><date>2013-6-21</date><list type="simple"><item>TEI encoding</item></list></change><change who="#MW" when="2013-06-21" n="1"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>Created Edition</item></list></change></revisionDesc></teiHeader><text><body><div type="essay"><head><bibl><author type="writer"><ref target="people.html#BarbauldMrs"><name>Anna Letitia Barbauld</name></ref></author><title type="main" level="a"><ref target="people.html#BurneyFanny">MISS
+                                BURNEY</ref>.<note><title level="m"><hi rendition="#italics">The British Novelists;
                                             with an Essay; and Prefaces, Biographical and Critical,
                                             by <ref target="people.html#BarbauldMrs">Mrs.
-                                                Barbauld</ref>
-                           </hi>
-                        </title>, 50 Vols. (London:
+                                                Barbauld</ref></hi></title>, 50 Vols. (London:
                                     Printed for F.C. and J. Rivington; W. Otridge and Son; A.
                                     Strahan; T. Payne; G. Robinson; W. Lowndes; Wilkie and Robinson;
                                     Scatcherd and Letterman; J. Walker; Vernor, Hood, and Sharpe; R.
@@ -655,27 +18,13 @@
                                     Harding; R. Phillips; J. Mawman; J. Booker; J. Asperne; R.
                                     Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.; W.
                                     Creech, Edinburgh; and Wilson and Son, York, 1810), 38:i-xi.
-                                    Mary A. Waters edited this edition for <hi rendition="#italics">The Criticism Archive</hi>. </note>
-                  </title>
-               </bibl>
-            </head>
-            <p rendition="pnoindent">
-               <hi rendition="#largest">S</hi>CARCELY any name, if any, stands higher in the
+                                    Mary A. Waters edited this edition for <hi rendition="#italics">The Criticism Archive</hi>. </note></title></bibl></head><p rendition="pnoindent"><hi rendition="#largest">S</hi>CARCELY any name, if any, stands higher in the
                     list of novel-writers than that of <ref target="people.html#BurneyFanny">Miss
-                            <hi rendition="#smcaps"> Burney</hi>
-               </ref>, now <ref target="people.html#ArblayMadameD">Mrs. <hi rendition="#smcaps">D'Arblay</hi>
-               </ref>, daughter of the ingenious <ref target="people.html#BurneyCharles">Dr. Burney</ref>. She has given to the
-                    world three productions of this kind; <title>
-                  <hi rendition="#italics">Evelina</hi>
-               </title>, in three vols., <title>
-                  <hi rendition="#italics">Cecilia</hi>
-               </title>, in five vols., and, after a long interval, in
+                            <hi rendition="#smcaps"> Burney</hi></ref>, now <ref target="people.html#ArblayMadameD">Mrs. <hi rendition="#smcaps">D'Arblay</hi></ref>, daughter of the ingenious <ref target="people.html#BurneyCharles">Dr. Burney</ref>. She has given to the
+                    world three productions of this kind; <title><hi rendition="#italics">Evelina</hi></title>, in three vols., <title><hi rendition="#italics">Cecilia</hi></title>, in five vols., and, after a long interval, in
                     which, however honourable her employment might be deemed, she was completely
-                    lost to the literary world, <title>
-                  <hi rendition="#italics">Camilla</hi>
-               </title>, also in five vols. This latter was published by
-                    subscription in 1796. </p>
-            <p> It is necessary to speak of living authors with that temperance of praise which
+                    lost to the literary world, <title><hi rendition="#italics">Camilla</hi></title>, also in five vols. This latter was published by
+                    subscription in 1796. </p><p> It is necessary to speak of living authors with that temperance of praise which
                     may not offend their delicacy; and though this lady by marriage with a
                     foreigner, and her residence abroad, is in a manner lost to this her native
                     country, the writer of these remarks does not feel herself at liberty to search
@@ -683,16 +32,8 @@
                     of a life which every admirer of genius will wish prolonged to many succeeding
                     years. One anecdote, however, may be mentioned, which is current, and she
                     believes has never been contradicted. <ref target="people.html#BurneyFanny">Miss
-                        Burney</ref> composed her <title>
-                  <hi rendition="#italics">Evelina</hi>
-               </title>
-               <lb/>
-               <fw type="vol">
-                  <hi rendition="#smcaps">vol.
-                        xxxviii.</hi>
-               </fw>
-               <fw type="sig">a</fw>
-               <pb n="ii"/>when she was in
+                        Burney</ref> composed her <title><hi rendition="#italics">Evelina</hi></title><lb/><fw type="vol"><hi rendition="#smcaps">vol.
+                        xxxviii.</hi></fw><fw type="sig">a</fw><pb n="ii"/>when she was in
                     the early bloom of youth, about seventeen. She wrote it without the knowledge of
                     any of her friends. With the modesty of a young woman, and the diffidence of a
                     young author, she contrived to throw it into the press anonymously, and, when
@@ -709,14 +50,8 @@
                     impossibility not to flag in a long work, the ridicule and censure which fasten
                     on vulnerable parts, and the apathy or diffidence which generally seizes an
                     author before his literary race is run;—this is happiness for youth, and
-                    youth alone. </p>
-            <p>
-               <title>
-                  <hi rendition="#italics">Evelina</hi>
-               </title> became at once a fashionable
-                    novel: there are even those who still prefer it to <title>
-                  <hi rendition="#italics">Cecilia</hi>
-               </title>, though that preference is
+                    youth alone. </p><p><title><hi rendition="#italics">Evelina</hi></title> became at once a fashionable
+                    novel: there are even those who still prefer it to <title><hi rendition="#italics">Cecilia</hi></title>, though that preference is
                     probably owing to the partiality inspired by a first performance. Evelina is a
                     young lady, amiable and inexperienced, who is continually getting into
                     difficulties from not knowing or not observing the established <pb n="iii"/>etiquettes of society, and from being unluckily connected with a number of
@@ -736,15 +71,9 @@
                     strong effect.—Other characters in the piece are, Mrs. Selwyn, a wit and
                     an oddity; a gay insolent baronet; a group of vulgar cits; a number of young
                     bucks, whose coldness, carelessness, rudeness, and impertinent gallantry, serve
-                    as a foil to the delicate attentions of Lord Orville. </p>
-            <p>Upon the whole, <title>
-                  <hi rendition="#italics">Evelina</hi>
-               </title> greatly
+                    as a foil to the delicate attentions of Lord Orville. </p><p>Upon the whole, <title><hi rendition="#italics">Evelina</hi></title> greatly
                     pleased; and the interest the public took in the young writer was rewarded with
-                    fresh pleasure by the publication of <title>
-                  <hi rendition="#italics">Cecilia</hi>
-               </title>, than which it would be difficult <lb/><fw type="sig">a 2</fw>
-               <pb n="iv"/>to find a novel with more various and
+                    fresh pleasure by the publication of <title><hi rendition="#italics">Cecilia</hi></title>, than which it would be difficult <lb/><fw type="sig">a 2</fw><pb n="iv"/>to find a novel with more various and
                     striking beauties. Among these may be reckoned the style, which is so varied,
                     according to the characters introduced, that, without any information from the
                     names, the reader would readily distinguish the witty loquacity of Lady Honoria
@@ -763,8 +92,7 @@
                     skipping Morrice, to the artful Monckton, and the high-toned feeling of Mrs.
                     Delville. The least natural character is Albany. An idea prevailed at the time,
                     but probably without the least foundation, that <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref> had supplied the
-                    part.</p>
-            <p> Cecilia herself is an amiable and dignified character. She is brought into
+                    part.</p><p> Cecilia herself is an amiable and dignified character. She is brought into
                     situations di-<pb n="v"/>stressful and humiliating, by the peculiarity of her
                     circumstances, and a flexibility and easiness readily pardoned in a young
                     female. The restriction she is laid under of not marrying any one who will not
@@ -772,15 +100,11 @@
                     plot of the piece. Love appears with dignity in Cecilia; with fervour, but
                     strongly combated by pride as well as duty, in young Delville; with all the
                     helplessness of unrestrained affection in Miss Belfield, whose character of
-                    simplicity and tenderness much resembles that of Emily in <title>
-                  <hi rendition="#italics">Sir Charles Grandison</hi>
-               </title>.<note>Novel by <ref target="people.html#RichardsonSamuel">Samuel
+                    simplicity and tenderness much resembles that of Emily in <title><hi rendition="#italics">Sir Charles Grandison</hi></title>.<note>Novel by <ref target="people.html#RichardsonSamuel">Samuel
                             Richardson</ref>.</note> If resemblances are sought for, it may
                     also be observed that the situation of Cecilia with Mrs. Delville is similar to
                     that of <ref target="people.html#Marivaux">Marivaux</ref>'s Marianne with
-                    the mother of Valville. </p>
-            <p>
-               <ref target="people.html#BurneyFanny">Miss Burney</ref> possess equal powers of
+                    the mother of Valville. </p><p><ref target="people.html#BurneyFanny">Miss Burney</ref> possess equal powers of
                     pathos and of humour. The terrifying voice of the unknown person who forbids the
                     banns has an electrifying effect upon the reader; and the distress of Cecilia
                     seeking her husband about the streets, in agony for his life, till her reason
@@ -790,10 +114,8 @@
                     the happiness of the lovers, that the reader is scarcely able to say whether the
                     story ends happily or unhappily. It is true that in human life things are
                     generally so balanced; but in fictitious writings it is more agreeable, if they
-                    are not <lb/><fw type="sig">a 3</fw>
-               <pb n="vi"/>meant to end tragically, to leave on the mind the rainbow colours of
-                    delight in their full glow and beauty.</p>
-            <p> But the finest part of these volumes is the very moral and instructive story of
+                    are not <lb/><fw type="sig">a 3</fw><pb n="vi"/>meant to end tragically, to leave on the mind the rainbow colours of
+                    delight in their full glow and beauty.</p><p> But the finest part of these volumes is the very moral and instructive story of
                     the <hi rendition="#italics">Harrels</hi>. It is the high praise of <ref target="people.html#BurneyFanny">Miss Burney</ref>, that she has not
                     contented herself with fostering the delicacies of sentiment, and painting in
                     vivid colours those passions which nature has made sufficiently strong. She has
@@ -818,32 +140,22 @@
                     high-minded romantic Belfield may give a salutary lesson to many a youth who
                     fancies his part in life <hi rendition="#italics">ill cast,</hi> who wastes life
                     in projects, and does nothing because he thinks every thing beneath his ambition
-                    and his talents.</p>
-            <p> Such are the various merits of <title>
-                  <hi rendition="#italics">Cecilia</hi>
-               </title>, through the whole of which it is evident that the
+                    and his talents.</p><p> Such are the various merits of <title><hi rendition="#italics">Cecilia</hi></title>, through the whole of which it is evident that the
                     author draws from life, and exhibits not only the passions of human nature, but
-                    the manners of the age and the affectation of the day.</p>
-            <p> The celebrity which <ref target="people.html#BurneyFanny">Miss Burney</ref> had
+                    the manners of the age and the affectation of the day.</p><p> The celebrity which <ref target="people.html#BurneyFanny">Miss Burney</ref> had
                     now attained awakened the idea of extending that patronage to her which, in most
                     countries, it has been usual in one way or other to hold out to literary merit;
                     and it was thought, we must presume, the most appropriate reward of her
                     exertions, and the happiest method of fostering her genius, that she was made
-                        <hi rendition="#italics">dresser</hi> to Her Majesty.<note>
-                  <ref target="people.html#BurneyFanny">Burney</ref>
+                        <hi rendition="#italics">dresser</hi> to Her Majesty.<note><ref target="people.html#BurneyFanny">Burney</ref>
                             served as lady in waiting to Charlotte, queen to <ref target="people.html#ageorgeIIIKingofGreatBritain">George III</ref>,
                             from 1786-1791.</note> She held this post for several years, during
                     which the duties of her situation seem to have engrossed her whole time. Her
                     state of health at length obliged her to resign it, and she was soon after
                     married to <ref target="people.html#ArblayGen">M. D'Arblay</ref>, a French
-                    emigrant.</p>
-            <p> She now again resumed her pen, and gave to the world her third publication,
-                    entitled <title>
-                  <hi rendition="#italics">Camilla</hi>
-               </title>. This work is
-                    somewhat too much protracted, <pb n="viii"/>and is inferior to <title>
-                  <hi rendition="#italics">Cecilia</hi>
-               </title> as a whole, but it certainly
+                    emigrant.</p><p> She now again resumed her pen, and gave to the world her third publication,
+                    entitled <title><hi rendition="#italics">Camilla</hi></title>. This work is
+                    somewhat too much protracted, <pb n="viii"/>and is inferior to <title><hi rendition="#italics">Cecilia</hi></title> as a whole, but it certainly
                     exhibits beauties of as high an order. The character of Sir Hugh is new and
                     striking. There is such an unconscious shrewdness in his remarks, that they have
                     all the effect of the sharpest satire without his intending any malice; while,
@@ -853,8 +165,7 @@
                     much invention, particularly that which induces Sir Hugh to adopt Eugenia
                     instead of his favourite. How charmingly is Camilla described! "Every look
                     was a smile, every step was a spring, every thought was a hope, and the early
-                    felicity of her mind was without alloy."</p>
-            <p> Camilla, in the course of the work, falls, like Cecilia, into pecuniary
+                    felicity of her mind was without alloy."</p><p> Camilla, in the course of the work, falls, like Cecilia, into pecuniary
                     difficulties. They are brought on partly by milliners' bills, which
                     unawares and through the persuasion of others she has suffered to run up, but
                     chiefly from being drawn in to assist an extravagant and unprincipled brother.
@@ -867,17 +178,13 @@
                     slang, avowed selfishness, or mischievous frolic, by which they often
                     distinguish themselves, and through which they contrive to be vulgar with the
                     advantages of rank, mean with those of fortune, and disagreeable with those of
-                    youth.</p>
-            <p> A very original character in this work is that of Eugenia. Her surprise and
+                    youth.</p><p> A very original character in this work is that of Eugenia. Her surprise and
                     sorrow when, at the age of fifteen, she first discovers her deformity, and her
                     deep, gentle, dignified sorrow for the irremediable misfortune, it is impossible
                     to peruse without sympathy; and in the incident which follows, when her father,
                     after a discourse the most rational and soothing, brings her to the sight of a
                     beautiful idiot, the scene is one of the most striking and sublimely moral any
-                    where to be met with.</p>
-            <p> As well as great beauties there are great faults in <title>
-                  <hi rendition="#italics">Camilla</hi>
-               </title>. It is blemished by the
+                    where to be met with.</p><p> As well as great beauties there are great faults in <title><hi rendition="#italics">Camilla</hi></title>. It is blemished by the
                     propensity which the author has shown in all her novels, betrayed into it by her
                     love of humour, to involve her heroines not only in difficult but in degrading
                     adventures. The mind may recover from distress, but not from disgrace; and the
@@ -890,41 +197,24 @@
                     necessity of inculcating, even upon <hi rendition="#italics">young</hi> ladies,
                     the danger of running up bills on credit; but the distress becomes too deep, too
                     humiliating, to admit of a happy conclusion. The mind has been harassed and worn
-                    with excess of painful feeling. At the conclusion of <title>
-                  <hi rendition="#italics">Clarissa</hi>
-               </title>,<note>Novel by <ref target="people.html#RichardsonSamuel">Samuel
+                    with excess of painful feeling. At the conclusion of <title><hi rendition="#italics">Clarissa</hi></title>,<note>Novel by <ref target="people.html#RichardsonSamuel">Samuel
                                 Richardson</ref>.</note> we are dismissed in calm and not
-                    unpleasing sorrow; but on the winding up of <title>
-                  <hi rendition="#italics">Cecilia</hi>
-               </title> and <title>
-                  <hi rendition="#italics">Camilla</hi>
-               </title> we are somewhat tantalized with imperfect happiness.
-                    It must be added, that the interest is more divided in <title>
-                  <hi rendition="#italics">Camilla</hi>
-               </title> than in the author's
-                    former work, and the adventures of Eugenia become at length too improbable.</p>
-            <p> Among the new characters in this piece is Mrs. Arlberry, a woman of fashion,
+                    unpleasing sorrow; but on the winding up of <title><hi rendition="#italics">Cecilia</hi></title> and <title><hi rendition="#italics">Camilla</hi></title> we are somewhat tantalized with imperfect happiness.
+                    It must be added, that the interest is more divided in <title><hi rendition="#italics">Camilla</hi></title> than in the author's
+                    former work, and the adventures of Eugenia become at length too improbable.</p><p> Among the new characters in this piece is Mrs. Arlberry, a woman of fashion,
                     with good sense and taste, but fond of frivolity through <hi rendition="#italics">désœuvrement</hi>, and amusing herself with a
                     little court about her of fashionable young men, whom she at the same time
-                    entertains and despises.</p>
-            <p> In short, <ref target="people.html#ArblayMadameD">Mrs. D'Arblay</ref> has
+                    entertains and despises.</p><p> In short, <ref target="people.html#ArblayMadameD">Mrs. D'Arblay</ref> has
                     observed human nature, both in high and low life, with the quick and penetrating
                     eye of genius. Equally happy in seizing the ridiculous, and in entering into the
                     finer feelings, her pictures of manners are just and interesting, and the
                     highest value is given to them by the moral feelings they exercise, and the
-                    excellent principles they inculcate.</p>
-            <p>
-               <ref target="people.html#ArblayMadameD">Mrs. D'Arblay</ref> lived some
+                    excellent principles they inculcate.</p><p><ref target="people.html#ArblayMadameD">Mrs. D'Arblay</ref> lived some
                     years after her marriage at a sweet retirement in the shade of Norbury park, in
                     a house built under <ref target="people.html#ArblayGen">Mr.
                     D'Arblay</ref>'s direction, which went by the name of Camilla Lodge;
                     but at the time when the greatest part of <pb n="xi"/>the emigrants returned to
                     their native country, she followed her husband to France, in which country she
-                    now resides.</p>
-            <p> A writer who has published three novels of so much merit may be allowed to
+                    now resides.</p><p> A writer who has published three novels of so much merit may be allowed to
                     repose her pen; yet the English public cannot but regret an expatriation which
-                    so much lessens the chance of their being again entertained by her. </p>
-         </div>
-      </body>
-   </text>
-</TEI>
+                    so much lessens the chance of their being again entertained by her. </p></div></body></text></TEI>

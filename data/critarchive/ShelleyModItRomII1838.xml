@@ -1,13 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Modern Italian Romances pt 1.</title>
-            <title type="sub" level="j">Monthly Chronicle</title>
+            <title type="main" level="a">Modern Italian Romances, Part 2</title>
+            <title type="sub" level="j">Monthly Chronicle; A National Journal of Politics,
+						Literature, Science, and Art</title>
             <author type="writer">
                <name>Mary Shelley</name>
             </author>
+            <editor>
+               <name>Dionysius Lardner</name>
+            </editor>
             <respStmt>
                <resp>Editor</resp>
                <name xml:id="MW">Mary A. Waters</name>
@@ -16,31 +21,36 @@
                <resp>Co-Editor</resp>
                <name xml:id="LD">Laura DeWitt</name>
             </respStmt>
+            <respStmt>
+               <resp>Encoding Assistance</resp>
+               <name xml:id="GR">Gabrielle Ramirez</name>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <idno>ShelleyModItRomII1838</idno>
          </publicationStmt>
-         <seriesStmt>
-            <title level="s">The Criticism Archive</title>
-            <respStmt>
-               <resp>Edited by</resp>
-               <name type="person" ref="#MW">Mary A. Waters</name>
-            </respStmt>
-            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
-         </seriesStmt>
          <sourceDesc>
             <biblStruct>
                <analytic>
-                  <title type="main" level="a">Modern Italian Romances.</title>
-                  <author type="writer">Shelley, Mary, 1797-1851</author>
+                  <title type="main" level="a">Modern Italian Romances pt 2.</title>
+                  <title type="sub" level="j">Monthly Chronicle; A National Journal of
+								Politics, Literature, Science, and Art</title>
+               	<author type="writer">Shelley, Mary Wollstonecraft, 1797-1851</author>
                </analytic>
                <monogr>
-                  <title type="main" level="j">Monthly Chronicle</title>
+                  <title type="main" level="j">Monthly Chronicle; A National Journal of
+								Politics, Literature, Science, and Art</title>
+                  <editor>
+                     <name>Dionysius Lardner</name>
+                  </editor>
                   <imprint>
-                     <date when="1838-11">December 1838</date>
+                     <publisher>Longman, Orme, Brown, Green, and Longmans</publisher>
+                     <pubPlace>London</pubPlace>
+                     <date when="1838-12">December 1838</date>
                      <biblScope unit="vol">2</biblScope>
                      <biblScope unit="page">547-557</biblScope>
                   </imprint>
+                  <biblScope unit="vol">2</biblScope>
                </monogr>
             </biblStruct>
          </sourceDesc>
@@ -48,58 +58,69 @@
       <encodingDesc>
          <editorialDecl>
             <quotation>
-               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>All quotation marks and apostrophes have been transcribed as entity
+						references.</p>
                <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
             </quotation>
             <hyphenation eol="none">
                <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>All hyphens have been typed on the U.S. keyboard.</p>
-               <p>em-dashes have been recorded originally using the —</p>
+               <p>Because of web browser variability, all colons and hyphens have been typed on
+						the U.S. keyboard; dashes have been rendered as two hyphens.</p>
             </hyphenation>
             <normalization method="silent">
                <p>Long "s" (ſ) has been silently modernized.</p>
                <p>Page numbers appear at the beginning of each page, no matter where originally
-                  placed.</p>
+						placed.</p>
                <p>Compositors' catchwords and running titles have been silently eliminated.</p>
                <p>Spelling has not been regularized.</p>
             </normalization>
             <normalization method="markup">
                <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  typed on the U.S. keyboard.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have
+						been encoded in HTML entity decimals.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as
+						such, the content recorded in brackets.</p>
             </normalization>
          </editorialDecl>
          <tagsDecl>
-            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
-            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
-            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
-            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
-            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
-            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
-            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
-            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
-            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
-            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display:
+					block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display:
+					block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display:
+					block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display:
+					block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display:
+					block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display:
+					block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display:
+					block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display:
+					block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display:
+					block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display:
+					block;</rendition>
             <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
-               block;</rendition>
+					block;</rendition>
             <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
-               block;</rendition>
+					block;</rendition>
             <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
-               block;</rendition>
+					block;</rendition>
             <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
-               block;</rendition>
+					block;</rendition>
             <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
-               block;</rendition>
+					block;</rendition>
             <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
-               block;</rendition>
+					block;</rendition>
             <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
-               block;</rendition>
+					block;</rendition>
             <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
-               block;</rendition>
+					block;</rendition>
             <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
-               block;</rendition>
+					block;</rendition>
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="ft">
@@ -121,466 +142,263 @@
                </category>
             </taxonomy>
             <taxonomy xml:id="g">
-               <bibl>Genre and Material Form</bibl>
+               <bibl>Genre</bibl>
                <category xml:id="g1">
-                  <catDesc>pageimage</catDesc>
-               </category>
-               <category xml:id="g2">
                   <catDesc>biography</catDesc>
                </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
                <category xml:id="g3">
-                  <catDesc>biographical essay</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>poetry pamphlet</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>poetry book</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>poem</catDesc>
-               </category>
-               <category xml:id="g7">
                   <catDesc>story</catDesc>
                </category>
-               <category xml:id="g8">
+               <category xml:id="g4">
                   <catDesc>drama</catDesc>
                </category>
-               <category xml:id="g9">
-                  <catDesc>table of contents</catDesc>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
                </category>
-               <category xml:id="g10">
-                  <catDesc>table of illustrations</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>picture</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>index</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>notes</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>frontispiece</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>inscription page</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>book boards</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>titlepage</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>preface</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>advertisement</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>foreword</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>acknowledgments</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>collection literary annual</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>collection miscellany</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>collection anthology</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>collection beauties</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>collection juvenile</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>collection religious</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>collection travels</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>mixed</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>essay</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>review</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>letter</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>fragment poem</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>fragment story</catDesc>
-               </category>
-               <category xml:id="g35">
-                  <catDesc>fragment novel</catDesc>
-               </category>
-               <category xml:id="g36">
-                  <catDesc>literary criticism book</catDesc>
-               </category>
-               <category xml:id="g37">
-                  <catDesc>literary criticism collection</catDesc>
-               </category>
-               <category xml:id="g38">
-                  <catDesc>bibliography</catDesc>
-               </category>
-               <category xml:id="g39">
-                  <catDesc>engraving</catDesc>
-               </category>
-               <category xml:id="g40">
-                  <catDesc>reproduction</catDesc>
-               </category>
-               <category xml:id="g41">
-                  <catDesc>figure</catDesc>
-               </category>
-               <category xml:id="g42">
-                  <catDesc>graph</catDesc>
-               </category>
-               <category xml:id="g43">
-                  <catDesc>map</catDesc>
-               </category>
-               <category xml:id="g44">
-                  <catDesc>table</catDesc>
-               </category>
-               <category xml:id="g45">
-                  <catDesc>musical score</catDesc>
-               </category>
-               <category xml:id="g46">
-                  <catDesc>music</catDesc>
-               </category>
-               <category xml:id="g47">
+               <category xml:id="g6">
                   <catDesc>satire</catDesc>
                </category>
-               <category xml:id="g48">
-                  <catDesc>political pamphlet</catDesc>
-               </category>
-               <category xml:id="g49">
-                  <catDesc>political cartoon</catDesc>
-               </category>
-               <category xml:id="g50">
-                  <catDesc>periodical</catDesc>
-               </category>
-               <category xml:id="g51">
-                  <catDesc>historical monograph</catDesc>
-               </category>
-               <category xml:id="g52">
-                  <catDesc>historical essay</catDesc>
-               </category>
-               <category xml:id="g53">
-                  <catDesc>philosophical treatise</catDesc>
-               </category>
-               <category xml:id="g54">
-                  <catDesc>philosophical essay</catDesc>
-               </category>
-               <category xml:id="g55">
-                  <catDesc>religious pamphlet</catDesc>
-               </category>
-               <category xml:id="g56">
-                  <catDesc>sermon</catDesc>
-               </category>
-               <category xml:id="g57">
-                  <catDesc>theology</catDesc>
-               </category>
-               <category xml:id="g58">
-                  <catDesc>religious book</catDesc>
-               </category>
-               <category xml:id="g59">
-                  <catDesc>essay on education</catDesc>
-               </category>
-               <category xml:id="g60">
-                  <catDesc>educational treatise</catDesc>
-               </category>
-               <category xml:id="g61">
-                  <catDesc>list of subscribers</catDesc>
-               </category>
-               <category xml:id="g62">
+               <category xml:id="g7">
                   <catDesc>allegory</catDesc>
                </category>
-               <category xml:id="g63">
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g11">
                   <catDesc>introduction</catDesc>
                </category>
-               <category xml:id="g64">
-                  <catDesc>slipcase</catDesc>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
                </category>
-               <category xml:id="g65">
-                  <catDesc>dedication</catDesc>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
                </category>
-               <category xml:id="g66">
-                  <catDesc>picture of building</catDesc>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
                </category>
-               <category xml:id="g67">
-                  <catDesc>floorplans</catDesc>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
                </category>
-               <category xml:id="g68">
-                  <catDesc>photograph</catDesc>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
                </category>
-               <category xml:id="g69">
+            	<category xml:id="g17">
+            		<catDesc>electronic resource</catDesc>
+            	</category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
                   <catDesc>translation</catDesc>
                </category>
-               <category xml:id="g70">
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
                   <catDesc>manuscript</catDesc>
                </category>
-               <category xml:id="g71">
-                  <catDesc>printersmark</catDesc>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
                </category>
-               <category xml:id="g72">
-                  <catDesc>literary criticism article</catDesc>
+               <category xml:id="f23">
+                  <catDesc>nonceCollection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="keyword">
-               <category xml:id="lcsh">
-                  <catDesc>Library of Congress Subject Headings, reduced to one word before
-                     hyphen</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="ag">
-               <bibl>ARC Genre Categories, July 1, 2017</bibl>
-               <category xml:id="ag1">
-                  <catDesc>Advertisement</catDesc>
-               </category>
-               <category xml:id="ag2">
-                  <catDesc>Animation</catDesc>
-               </category>
-               <category xml:id="ag3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="ag4">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="ag5">
-                  <catDesc>Chronology</catDesc>
-               </category>
-               <category xml:id="ag7">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="ag6">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="ag8">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="ag9">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="ag10">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="ag11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="ag12">
-                  <catDesc>Essay</catDesc>
-               </category>
-               <category xml:id="ag13">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="ag14">
-                  <catDesc>Film, Documentary</catDesc>
-               </category>
-               <category xml:id="ag15">
-                  <catDesc>Film, Experimental</catDesc>
-               </category>
-               <category xml:id="ag16">
-                  <catDesc>Film, Narrative</catDesc>
-               </category>
-               <category xml:id="ag17">
-                  <catDesc>Film, Other</catDesc>
-               </category>
-               <category xml:id="ag18">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="ag19">
-                  <catDesc>Interview</catDesc>
-               </category>
-               <category xml:id="ag20">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="ag21">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="ag22">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="ag23">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="ag24">
-                  <catDesc>Musical Work</catDesc>
-               </category>
-               <category xml:id="ag25">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="ag26">
-                  <catDesc>Nonficition</catDesc>
-               </category>
-               <category xml:id="ag27">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="ag28">
-                  <catDesc>Performance</catDesc>
-               </category>
-               <category xml:id="ag29">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="ag30">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="ag31">
-                  <catDesc>Political Statement</catDesc>
-               </category>
-               <category xml:id="ag32">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="ag33">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="ag34">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="ag35">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="ag36">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="ag37">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="ag38">
-                  <catDesc>Speech</catDesc>
-               </category>
-               <category xml:id="ag39">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="ag40">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="ag41">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="ag42">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-               xml:id="f">
-               <bibl>ARC Format Categories, July 1, 2017</bibl>
-               <category xml:id="f1">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="f2">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="f3">
-                  <catDesc>Dataset</catDesc>
-               </category>
-               <category xml:id="f4">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="f5">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="f6">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="f7">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="f8">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="f9">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="f10">
-                  <catDesc>Notated Music</catDesc>
-               </category>
-               <category xml:id="f11">
-                  <catDesc>Page Proofs</catDesc>
-               </category>
-               <category xml:id="f12">
-                  <catDesc>Pamphlet</catDesc>
-               </category>
-               <category xml:id="f13">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="f14">
-                  <catDesc>Physcial Object</catDesc>
-               </category>
-               <category xml:id="f15">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="f16">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="f17">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="f18">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="f19">
-                  <catDesc>Typescript</catDesc>
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+							authority name headings.</catDesc>
                </category>
             </taxonomy>
          </classDecl>
       </encodingDesc>
       <profileDesc>
          <textClass>
-            <keywords scheme="#lcsh">
+            <keywords scheme="#lcna">
                <list type="simple">
-                  <item>English literature</item>
-                  <item>Criticism</item>
-                  <item>Review Article</item>
+                  <item>Shelley, Mary Wollstonecraft, 1797-1851</item>
+                  <item>Mazzini, Giuseppe, 1805-1872</item>
+                  <item>Manzoni, Alessandro, 1785-1873</item>
+                  <item>Azeglio, Massimo d', 1798-1866</item>
+                  <item>Guerrazzi, Francesco Domenico, 1804-1873</item>
                </list>
             </keywords>
             <catRef scheme="#ft" target="#ft1"/>
-            <catRef scheme="#ag" target="#ag9 #ag35"/>
-            <catRef scheme="#f" target="#f13"/>
             <catRef scheme="#p" target="#ps1"/>
-            <catRef scheme="#g" target="#g31 #g50 #g72"/>
+            <catRef scheme="#g" target="#g14 #g16"/>
+            <catRef scheme="#f" target="#f4"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20211214">
+         <change who="#LM" when="20230227">
             <label>Changed by</label>
             <name>Laura Mandell</name>
             <list type="simple">
-               <item>had to roll back due to xml versioning error, revisions as below but starting
-                  with August and March 2021 XML</item>
+               <item>new header</item>
             </list>
          </change>
-         <change who="#LM" when="20210922">
+         <change who="#GR" when="20230111">
             <label>Changed by</label>
-            <name>Laura Mandell</name>
+            <name>Gabrielle Ramirez</name>
             <list type="simple">
-               <item>Added header teiHeader07232021.xml</item>
-               <item>changed milestone sig to fw sig</item>
-               <item>inserted line break before fw</item>
+               <item>revised keywords</item>
+               <item>correct encoding errors</item>
             </list>
          </change>
-         <change who="#MW" when="20210720" n="3">
+         <change who="#MW" when="20220930">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Added attribution information</item>
+            </list>
+         </change>
+         <change who="#MW" when="20220525">
+            <label>Changed by</label>
+            <name>Mary A. Waters</name>
+            <list type="simple">
+               <item>Added corpus information</item>
+            </list>
+         </change>
+         <change who="#MW" when="20210720">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
             <list type="simple">
                <item>Revised encoding and editing</item>
             </list>
          </change>
-         <change who="#LD" when="20210524" n="2">
+         <change who="#LD" when="20210524">
             <label>Changed by</label>
             <name>Laura DeWitt</name>
             <list type="simple">
@@ -588,7 +406,7 @@
                <item>Changed editing</item>
             </list>
          </change>
-         <change who="#MW" when="20181113" n="1">
+         <change who="#MW" when="20181113">
             <label>Changed by</label>
             <name>Mary A. Waters</name>
             <list type="simple">
@@ -607,697 +425,738 @@
                         <name>Mary Shelley</name>
                      </ref>
                   </author>
-                  <title>MODERN ITALIAN ROMANCES.<lb/> [<hi rendition="#italics">Continued from page
-                        428.</hi>]<note>
+                  <title>MODERN ITALIAN ROMANCES.<lb/> [<hi rendition="#italics">Continued
+									from page 428.</hi>]<note place="foot">
                         <title>
-                           <hi rendition="#italics">Monthly Chronicle; A National Journal of
-                              Politics, Literature, Science, and Art</hi>
-                        </title>, vol. II, December 1838, pp. 547-557. The essay is part two of a
-                        two-part series begun the month before. Laura DeWitt and Mary A. Waters
-                        co-edited this edition for <hi rendition="#italics">The Criticism
-                           Archive</hi>. </note>
+                           <hi rendition="#italics">Monthly Chronicle; A National
+											Journal of Politics, Literature, Science, and
+										Art</hi>
+                        </title>, vol. II, December 1838, pp. 547-557. The
+									essay is part two of an anonymously authored two-part series
+									begun the month before. See part 1 for attribution information.
+									Laura DeWitt and Mary A. Waters co-edited this edition for <hi rendition="#italics">The Criticism Archive</hi>. </note>
                   </title>
                </bibl>
             </head>
-            <p rendition="#noindent">I<hi rendition="#smcaps">n</hi> our former article on this
-               subject we treated of works of the imagination that had a moral and useful aim, but
-               were not marked by a spirit of fervent patriotism. We now approach a more
-               distinctively national class of fictions—romances dictated by hatred of the
-               oppressor, and an ardent desire to awaken a love of freedom among the Italians. </p>
-            <p>Nothing can be in more complete contrast with the tale of <ref
-                  target="people.html#CapocciErnesto">Belmonte</ref> than the volumes before us —
-                  "<title>The Siege of Florence</title>," (L' Assedio di Firenze.) The former is a
-               simple narrative, in which nature is mirrored as in a placid lake, clear and
-               unexaggerated. The scope of the latter is more arduous. The author<note>It seems
-                  unclear whether <ref target="people.html#ShelleyMary">Shelley</ref> is aware that
-                  the author is <ref target="people.html#GuerrazziFD">Francesco Guerrazzi</ref>,
-                  whom she discusses later in the context of his <hi rendition="#italics">
+            <p rendition="#noindent">I<hi rendition="#smcaps">n</hi> our former article on
+						this subject we treated of works of the imagination that had a moral and
+						useful aim, but were not marked by a spirit of fervent patriotism. We now
+						approach a more distinctively national class of fictions—romances
+						dictated by hatred of the oppressor, and an ardent desire to awaken a love
+						of freedom among the Italians. </p>
+            <p>Nothing can be in more complete contrast with the tale of <ref target="people.html#CapocciErnesto">Belmonte</ref> than the volumes
+						before us — "<title>The Siege of Florence</title>," (L'
+						Assedio di Firenze.) The former is a simple narrative, in which nature is
+						mirrored as in a placid lake, clear and unexaggerated. The scope of the
+						latter is more arduous. <ref target="people.html#GuerrazziFD">The
+							author</ref>
+               <note place="foot">
+                  <hi rendition="#italics">
+                     <title>L'
+									Assedio di Firenze</title>
+                  </hi> had come out anonymously the
+							year before and it seems unclear whether <ref target="people.html#ShelleyMary">Shelley</ref> is aware that the
+							author is <ref target="people.html#GuerrazziFD">Francesco
+								Guerrazzi</ref>, whom she discusses later in the context of his <hi rendition="#italics">
                      <title>La battaglio di Benevento</title>
-                  </hi> (1827), a book she remarks as having a similar style to <hi
-                     rendition="#italics">
+                  </hi>
+							(1827), a book she remarks as having a similar style to <hi rendition="#italics">
                      <title>L' Assedio di Firenze</title>
-                  </hi>. </note> beholds the miserable state to which his countrymen are reduced. He
-               groans over their vices — he writhes under the contempt with which they are treated
-               by enlightened Europe. He struggles with the bonds which foreign potenates have
-               thrown over them. He views their slavery with more impatience than <ref
-                  target="people.html#ManzoniAlessandro">Manzoni</ref>, <ref
-                  target="people.html#AzeglioMassimo">Azeglio</ref> and Caponi,<note>
-                  <ref target="people.html#ShelleyMary">Shelley</ref> probably means <ref
-                     target="people.html#CapocciErnesto">Capocci</ref>, whom she has just mentioned
-                  under the name <ref target="people.html#CapocciErnesto">Belmonte</ref> and whom
-                  she considered in Part I of the essay along with <ref
-                     target="people.html#ManzoniAlessandro">Manzoni</ref> and <ref
-                     target="people.html#AzeglioMassimo">Azeglio</ref>.</note> and with cause, for
-               he is a Tuscan. The Milanese must go back to the days of <ref
-                  target="people.html#FrederickIHolyRomanEmperor">Frederic Barbarossa</ref>, to hunt
-               for their title deeds to freedom — under the <ref target="people.html#Visconti"
-                  >Visconti</ref> and the <ref target="people.html#Sforza">Sforzi</ref> they were
-               subjects. The Neapolitan can only speak of the kingdom of Naples; but the Florentine,
-               the countryman of <ref target="people.html#PetrarcaFrancesco">Petrarch</ref> and <ref
-                  target="people.html#Dante">Dante</ref>, sees around him at every step the
-               monuments of the freedom of his country — a stormy liberty it is true, but, even
-               thus, being, as liberty ever is, the parent of high virtues, memorable deeds, and
-               immortal works of art. He feels that the soil of Tuscany might again be prolific of
-               such, if her sons were permitted to develope their acute understandings in a worthy
-               career, and to exercise their energy in useful and noble labors.</p>
-            <p>Perhaps no epoch of the history of Florence is more remarkable than that which this
-               author has chosen. The <ref target="people.html#Medici">Medici</ref>, who had risen
-               to the rank almost of princes in the republic, through the joint operation of virtue,
-               riches, and sagacity, became, when in the enjoyment of power, a degenerate race.
-               During the struggles of the French and Spanish in the Peninsula, they had encountered
-               various changes of fortune. When under <ref target="people.html#CharlesV">Charles
-                  V.</ref> Rome was sacked, the Florentines took the opportunity to expel the <ref
-                  target="people.html#Medici">Medici</ref>, and peace was soon patched up between
-               the pope <ref target="people.html#ClementVII">Clement</ref> and the emperor, chiefly
-               for the purpose, on the part of the former, (who, before he ascended the papal chair,
-               was Cardinal <ref target="people.html#ClementVII">Julius de' Medici</ref>,) of
-               inducing the latter to turn his arms against the republic, and oblige it, through
-               fear or force, to receive back the exiled family as rulers and princes. The heads of
-               the family he wished thus to exalt, were indeed such as freemen might disdain. The
-               last of the race who deserved respect or love, <ref
-                  target="people.html#MediciGiovanni">Giovanni de' Medici</ref>, had died in the
-               field of battle. There remained, as chief, <ref target="people.html#MediciAlessandro"
-                  >Alessandro</ref>, the natural son of <ref target="people.html#ClementVII"
-                  >Julius</ref> himself, by a negro woman; a man bearing the stamp of a base origin
-               and brutish race, frightful in person, and depraved in soul. The Florentines detested
-               him, and, in truth, hated the whole race of <ref target="people.html#Medici"
-                  >Medici</ref>. When summoned by the emperor and pope to yield to receive them as
-               rulers, they answered by fortifying their city, gathering what armed force they could
-               about them, and resolving to suffer every extremity rather than <pb n="548"/>submit.
-               The emperor gave the <ref target="people.html#ChalonPhilibert">Prince of Orange</ref>
-               the command over the army sent against them. The siege lasted many months; and in the
-               end Florence was lost through the treachery of the Condottiere<note>Mercenaries hired
-                  to fight in Italian wars of the fourteenth to sixteenth centuries.</note>
-               entrusted with its defense.</p>
-            <p>Such a period was marked by stirring events, and characterised by men conspicuous for
-               virtue or for crime; and it afforded the author of "<title>The Siege of
-                  Florence</title>" an ample field for the employment of his genius. His work does
-               not consist of a continuous artfully enwoven tale, but of a succession of episodes
-               and detached scenes, all bearing upon the same subject, and tending to the same end,
-               but distinct from each other in their individual interest. Interspersed with these
-               scenes are outbreaks of declamation in the author's own person. He is eloquent and
-               energetic, but sometimes bombastic, often obscure, always exaggerated, but never
-               affected. He writes with his whole heart; and his words are of fire, though often
-               they may strike as being incendiary flames to destroy, rather than regulated heat to
-               foster. It requires as much enthusiasm as the author feels in the great cause, not to
-               find him at times tedious; but with all this, it is a work of great and lasting
-               merit. It is animated by an heroic spirit, and breathes a genuine love of virtue and
-               of country. </p>
-            <p>The Romance opens with the death-bed of <ref target="people.html#MachiavelliNiccolo"
-                  >Machiavelli</ref> — his last speech shows considerable power, and is extracted in
-               the article in the <title>London and Westminster Review</title>,<note>"Italian
-                  Literature since 1800," <hi rendition="#italics">
+                  </hi>.
+						</note> beholds the miserable state to which his countrymen are reduced. He
+						groans over their vices — he writhes under the contempt with which
+						they are treated by enlightened Europe. He struggles with the bonds which
+						foreign potenates have thrown over them. He views their slavery with more
+						impatience than <ref target="people.html#ManzoniAlessandro">Manzoni</ref>,
+							<ref target="people.html#AzeglioMassimo">Azeglio</ref> and Caponi,<note place="foot">
+                  <ref target="people.html#ShelleyMary">Shelley</ref>
+							probably means <ref target="people.html#CapocciErnesto">Capocci</ref>,
+							whom she has just mentioned under the name <ref target="people.html#CapocciErnesto">Belmonte</ref> and whom she
+							considered in Part I of the essay along with <ref target="people.html#ManzoniAlessandro">Manzoni</ref> and <ref target="people.html#AzeglioMassimo">Azeglio</ref>.</note> and with
+						cause, for he is a Tuscan. The Milanese must go back to the days of <ref target="people.html#FrederickIHolyRomanEmperor">Frederic
+							Barbarossa</ref>, to hunt for their title deeds to freedom — under
+						the <ref target="people.html#Visconti">Visconti</ref> and the <ref target="people.html#Sforza">Sforzi</ref> they were subjects. The
+						Neapolitan can only speak of the kingdom of Naples; but the Florentine, the
+						countryman of <ref target="people.html#PetrarcaFrancesco">Petrarch</ref> and
+							<ref target="people.html#Dante">Dante</ref>, sees around him at every
+						step the monuments of the freedom of his country — a stormy liberty it
+						is true, but, even thus, being, as liberty ever is, the parent of high
+						virtues, memorable deeds, and immortal works of art. He feels that the soil
+						of Tuscany might again be prolific of such, if her sons were permitted to
+						develope their acute understandings in a worthy career, and to exercise
+						their energy in useful and noble labors.</p>
+            <p>Perhaps no epoch of the history of Florence is more remarkable than that
+						which this author has chosen. The <ref target="people.html#Medici">Medici</ref>, who had risen to the rank almost of princes in the
+						republic, through the joint operation of virtue, riches, and sagacity,
+						became, when in the enjoyment of power, a degenerate race. During the
+						struggles of the French and Spanish in the Peninsula, they had encountered
+						various changes of fortune. When under <ref target="people.html#CharlesV">Charles V.</ref> Rome was sacked, the Florentines took the opportunity
+						to expel the <ref target="people.html#Medici">Medici</ref>, and peace was
+						soon patched up between the pope <ref target="people.html#ClementVII">Clement</ref> and the emperor, chiefly for the purpose, on the part of
+						the former, (who, before he ascended the papal chair, was Cardinal <ref target="people.html#ClementVII">Julius de' Medici</ref>,) of
+						inducing the latter to turn his arms against the republic, and oblige it,
+						through fear or force, to receive back the exiled family as rulers and
+						princes. The heads of the family he wished thus to exalt, were indeed such
+						as freemen might disdain. The last of the race who deserved respect or love,
+							<ref target="people.html#MediciGiovanni">Giovanni de' Medici</ref>,
+						had died in the field of battle. There remained, as chief, <ref target="people.html#MediciAlessandro">Alessandro</ref>, the natural son
+						of <ref target="people.html#ClementVII">Julius</ref> himself, by a negro
+						woman; a man bearing the stamp of a base origin and brutish race, frightful
+						in person, and depraved in soul. The Florentines detested him, and, in
+						truth, hated the whole race of <ref target="people.html#Medici">Medici</ref>. When summoned by the emperor and pope to yield to receive
+						them as rulers, they answered by fortifying their city, gathering what armed
+						force they could about them, and resolving to suffer every extremity rather
+						than <pb n="548"/>submit. The emperor gave the <ref target="people.html#ChalonPhilibert">Prince of Orange</ref> the command
+						over the army sent against them. The siege lasted many months; and in the
+						end Florence was lost through the treachery of the Condottiere<note place="foot">Mercenaries hired to fight in Italian wars of the
+							fourteenth to sixteenth centuries.</note> entrusted with its
+						defense.</p>
+            <p>Such a period was marked by stirring events, and characterised by men
+						conspicuous for virtue or for crime; and it afforded <ref target="people.html#GuerrazziFD">the author of "<title>The Siege of
+								Florence</title>"</ref> an ample field for the employment of
+						his genius. His work does not consist of a continuous artfully enwoven tale,
+						but of a succession of episodes and detached scenes, all bearing upon the
+						same subject, and tending to the same end, but distinct from each other in
+						their individual interest. Interspersed with these scenes are outbreaks of
+						declamation in <ref target="people.html#GuerrazziFD">the author</ref>'s
+						own person. He is eloquent and energetic, but sometimes bombastic, often
+						obscure, always exaggerated, but never affected. He writes with his whole
+						heart; and his words are of fire, though often they may strike as being
+						incendiary flames to destroy, rather than regulated heat to foster. It
+						requires as much enthusiasm as the author feels in the great cause, not to
+						find him at times tedious; but with all this, it is a work of great and
+						lasting merit. It is animated by an heroic spirit, and breathes a genuine
+						love of virtue and of country. </p>
+            <p>The Romance opens with the death-bed of <ref target="people.html#MachiavelliNiccolo">Machiavelli</ref> — his
+						last speech shows considerable power, and is extracted in the article in the
+							<title>London and Westminster Review</title>,<note place="foot">"Italian Literature since 1830," <hi rendition="#italics">
                      <title>London &amp; Westminster Review</title>
-                  </hi> vol. 6, October 1837, p. 132-68. The article, originally attributed to <ref
-                     target="people.html#MazziniGiuseppe">Mazzini</ref> alone, is now identified by
-                  the <hi rendition="#italics">
-                     <title>Wellesley Index to Victorian Periodicals 1824-1900</title>
-                  </hi> (vol. III, p. 590) as a collaborative piece with Angelo Usiglio.</note> as a
-               favourable specimen of the work. The preliminaries for, and the coronation of <ref
-                  target="people.html#CharlesV">Charles V.</ref>, the description of which is drawn
-               from original documents, is somewhat tedious; but when this is over, and the author
-               introduces us to the privacy of <ref target="people.html#ClementVII">Clement
-                  VII.</ref>, and describes him giving audience to a variety of personages, the
-               interest awakens. Among these are the ambassadors from Florence, who endeavour to
-               mollify his purpose towards his native city. At first the ambassadors speak in
-               humility and prayer, till excited by the arrogant assumptions of the pope, one among
-               them, Jacopo Guicciardini, brother to the <ref
-                  target="people.html#GuicciardiniFrancesco">historian</ref>, bursts forth in an
-               eloquent oration, full of spirit and power, denouncing the ambition of <ref
-                  target="people.html#ClementVII">Clement</ref>, and declaring the unalterable
-               resolution of the republic to maintain its freedom. It is too long to extract, but
-               the termination of the scene is characteristic of the style of the author: —</p>
+                  </hi> vol. IV and
+							XXVIII, October 1837, pp. 132-68. The article, indexed as "Italian
+							Literature since 1830" features an actual title listing the eleven
+							books that make up the core discussion. Originally attributed to <ref target="people.html#MazziniGiuseppe">Mazzini</ref> alone, it is now
+							identified by the <hi rendition="#italics">
+                     <title>Wellesley Index to
+									Victorian Periodicals 1824-1900</title>
+                  </hi> (vol. III, p. 590)
+							as a collaborative piece with Angelo Usiglio, whose initials comprise
+							the signature.</note> as a favourable specimen of the work. The
+						preliminaries for, and the coronation of <ref target="people.html#CharlesV">Charles V.</ref>, the description of which is drawn from original
+						documents, is somewhat tedious; but when this is over, and <ref target="people.html#GuerrazziFD">the author</ref> introduces us to the
+						privacy of <ref target="people.html#ClementVII">Clement VII.</ref>, and
+						describes him giving audience to a variety of personages, the interest
+						awakens. Among these are the ambassadors from Florence, who endeavour to
+						mollify his purpose towards his native city. At first the ambassadors speak
+						in humility and prayer, till excited by the arrogant assumptions of the
+						pope, one among them, Jacopo Guicciardini, brother to the <ref target="people.html#GuicciardiniFrancesco">historian</ref>, bursts forth
+						in an eloquent oration, full of spirit and power, denouncing the ambition of
+							<ref target="people.html#ClementVII">Clement</ref>, and declaring the
+						unalterable resolution of the republic to maintain its freedom. It is too
+						long to extract, but the termination of the scene is characteristic of the
+						style of <ref target="people.html#GuerrazziFD">the author</ref>: —</p>
             <quote>
-               <p>"Silence!" said the pope, rising from his chair. "A truce to words—too many have
-                  already been spoken. Jacopo, your tongue runs on like the waters of a torrent. You
-                  place your cause in the hands of God: I also place it there. Let him discern and
-                  judge. From the moment we draw the sword, the sword decides the struggle." "You
-                  have gathered together all the winds from the north," replied Guicciardini, "to
-                  tear the withered foliage from the boughs. Like Pharaoh, you are proud in your
-                  horses and soldiery — beware of the Red Sea! God can make the withered leaf as
-                  tenacious as the oak of the Alps. The virtuous may appeal to the Almighty under
-                  the blows of fortune — the damned exult in the victory of the bad. If any
-                  unsearchable decree sometimes exalts the criminal, it is done that he may feel the
-                  reverse more bitterly. Tranquil, if not joyous, we confide in the event: for if we
-                  conquer, we acquire the fame due to the bold and honourable; and if we fail in our
-                  enterprise, the world may call us unfortunate, but still honourable. Do you gaze
-                  on the future? — dare to contemplate coming time with open eyes — and say, what
-                  thing do you see? We depart free men from the palace, lest, heavy as it is with
-                  the wrath of God, it fall upon us. Until now, prayers and entreaties were kindness
-                  to our country; now they become slavish and base. The David of <ref
-                     target="people.html#BuonarrotiMichelangelo">Buonarotti</ref>
-                  <note>The famous renaissance sculpture <hi rendition="#italics">David</hi> by <ref
-                        target="people.html#BuonarrotiMichelangelo">Michelangelo</ref>.</note> will
-                  sooner move to defend us than the heart of this Philistine be softened. Let <pb
-                     n="549"/>us now swear in the church of Santa Maria del Fiore, to liberate our
-                  country, or bury ourselves in its ruins;" and, thus speaking, struck by disdain,
-                  grief, and irrepresible anger, he placed his hand on the handle of the door, about
-                  to depart—"Stay, Jacopo," cried the pope, "and hear my last words. Let the <ref
-                     target="people.html#Medici">Medici</ref> be your companions in power, not
-                  princes. Compose a senate from forty-eight families, in which the powers of
-                  government shall reside."</p>
-               <p>"If my old father had proposed so infamous a crime, the hatchet of the executioner
-                  should have covered his white hairs with blood;" and without another word
-                  Guicciardini left the room.</p>
-               <p>"You, Messer Niccolo, gifted as you are with a milder nature, listen to my offer.
-                  You do not wish to drive things to extremities — yield to the times — let us rule
-                  together."</p>
-               <p>"Your insinuations sound in my ears like those which Satan whispered to Jesus,
-                  when, from the pinnacle of the temple, he showed him the kingdoms of the earth. It
-                  becomes a citizen to shut his ears and fly from temptation." Saying these words,
-                  Niccolo Capponi followed Jacopo Guicciardini.</p>
-               <p>"Obstinate and perverse men, can I not make you listen to reason? Messer
-                  Andreuolo, be the messenger of my wishes to the Ottimati."<note>From the Latin <hi
-                        rendition="#italics">Optimates</hi> ("best ones"), the Ottimati were members
-                     of a faction of aristocratic conservatives in the late Roman Republic.</note>
+               <p>"Silence!" said the pope, rising from his chair. "A truce
+							to words—too many have already been spoken. Jacopo, your tongue
+							runs on like the waters of a torrent. You place your cause in the hands
+							of God: I also place it there. Let him discern and judge. From the
+							moment we draw the sword, the sword decides the struggle."
+							"You have gathered together all the winds from the north,"
+							replied Guicciardini, "to tear the withered foliage from the
+							boughs. Like Pharaoh, you are proud in your horses and soldiery —
+							beware of the Red Sea! God can make the withered leaf as tenacious as
+							the oak of the Alps. The virtuous may appeal to the Almighty under the
+							blows of fortune — the damned exult in the victory of the bad. If
+							any unsearchable decree sometimes exalts the criminal, it is done that
+							he may feel the reverse more bitterly. Tranquil, if not joyous, we
+							confide in the event: for if we conquer, we acquire the fame due to the
+							bold and honourable; and if we fail in our enterprise, the world may
+							call us unfortunate, but still honourable. Do you gaze on the future?
+							— dare to contemplate coming time with open eyes — and say,
+							what thing do you see? We depart free men from the palace, lest, heavy
+							as it is with the wrath of God, it fall upon us. Until now, prayers and
+							entreaties were kindness to our country; now they become slavish and
+							base. The David of <ref target="people.html#BuonarrotiMichelangelo">Buonarotti</ref>
+                  <note place="foot">The famous renaissance sculpture
+									<hi rendition="#italics">David</hi> by <ref target="people.html#BuonarrotiMichelangelo">Michelangelo</ref>.</note> will sooner move to defend us than the
+							heart of this Philistine be softened. Let <pb n="549"/>us now swear in
+							the church of Santa Maria del Fiore, to liberate our country, or bury
+							ourselves in its ruins;" and, thus speaking, struck by disdain,
+							grief, and irrepresible anger, he placed his hand on the handle of the
+							door, about to depart—"Stay, Jacopo," cried the pope,
+							"and hear my last words. Let the <ref target="people.html#Medici">Medici</ref> be your companions in power, not princes. Compose a
+							senate from forty-eight families, in which the powers of government
+							shall reside."</p>
+               <p>"If my old father had proposed so infamous a crime, the hatchet of
+							the executioner should have covered his white hairs with blood;"
+							and without another word Guicciardini left the room.</p>
+               <p>"You, Messer Niccolo, gifted as you are with a milder nature, listen
+							to my offer. You do not wish to drive things to extremities —
+							yield to the times — let us rule together."</p>
+               <p>"Your insinuations sound in my ears like those which Satan whispered
+							to Jesus, when, from the pinnacle of the temple, he showed him the
+							kingdoms of the earth. It becomes a citizen to shut his ears and fly
+							from temptation." Saying these words, Niccolo Capponi followed
+							Jacopo Guicciardini.</p>
+               <p>"Obstinate and perverse men, can I not make you listen to reason?
+							Messer Andreuolo, be the messenger of my wishes to the
+								Ottimati."<note place="foot">From the Latin <hi rendition="#italics">Optimates</hi> ("best ones"), the
+								Ottimati were members of a faction of aristocratic conservatives in
+								the late Roman Republic.</note>
                </p>
-               <p>"Were my son the messenger of such inquity I would dash his head against the
-                  wall;" and with these words Niccolini disappeared.</p>
+               <p>"Were my son the messenger of such inquity I would dash his head
+							against the wall;" and with these words Niccolini disappeared.</p>
                <p>"At least you, Soderini," said the sovereign.</p>
-               <p>"I implore you, <ref target="people.html#ClementVII">Pope Clement</ref>, scatter
-                  ashes on your head, humble yourself in the sanctuary, and pray for pardon for your
-                  sins, if, indeed, your sins are not greater than infinite mercy;" — and the
-                  pontiff was left alone.</p>
+               <p>"I implore you, <ref target="people.html#ClementVII">Pope
+								Clement</ref>, scatter ashes on your head, humble yourself in the
+							sanctuary, and pray for pardon for your sins, if, indeed, your sins are
+							not greater than infinite mercy;" — and the pontiff was left
+							alone.</p>
                <p>
-                  <ref target="people.html#ClementVII">Pope Clement</ref> bit his hands with intense
-                  rage, and exclaimed, "The world grows for me the tower of Babel.<note>In biblical
-                     literature, the Tower of Babel represents the diversity in human language which
-                     breeds miscommunication. In Genesis 11:1-9, the Babylonians sought to
-                     distinguish themselves through the construction of a tower "with its top in the
-                     heavens." God sabotaged the project by creating a confusion in the language of
-                     the construction workers which prevented them from understanding each other,
-                     and the tower was never completed.</note> When I ask for crime, I find virtue —
-                  when I need virtue, I find crime. Yet so much of life remains to me to suffice for
-                  such acts, that when your grandchildren ask your children what liberty means,
-                  they, pointing to your demolished dwellings and violated tombs, will
-                  reply,—Liberty means death and ruin!"</p>
+                  <ref target="people.html#ClementVII">Pope Clement</ref> bit his hands
+							with intense rage, and exclaimed, "The world grows for me the tower
+							of Babel.<note place="foot">In biblical literature, the Tower of Babel
+								represents the diversity in human language which breeds
+								miscommunication. In Genesis 11:1-9, the Babylonians sought to
+								distinguish themselves through the construction of a tower
+								"with its top in the heavens." God sabotaged the project
+								by creating a confusion in the language of the construction workers
+								which prevented them from understanding each other, and the tower
+								was never completed.</note> When I ask for crime, I find virtue
+							— when I need virtue, I find crime. Yet so much of life remains to
+							me to suffice for such acts, that when your grandchildren ask your
+							children what liberty means, they, pointing to your demolished dwellings
+							and violated tombs, will reply,—Liberty means death and
+							ruin!"</p>
             </quote>
-            <p>The second volume commences with the opening of the Siege of Florence. The country
-               around has been ravaged, and various deeds of horror and barbarity are brought before
-               the reader. The council of government is held, and an animated scene takes place, in
-               which a poor woman makes forcible entry before the Gonfaloniere and the
-                  Signoria,<note>The governmental position in charge of maintenance of public order
-                  and justice, and the government of the Renaissance Republic of Florence,
-                  respectively.</note> for the purpose of offering her only son to serve as soldier
-               in the cause of the republic. The return of the ambassadors from the pope, and the
-               assembly then held, is finely described; and Carduccio, the Gonfaloniere, makes an
-               harangue of singular power and eloquence, and the carrying on of war with energy is
-               determined upon. The tale then breaks off, so to speak, into various groups of
-               episodes. One of the most important is that of <ref target="people.html#MalatestaIV"
-                  >Malatesta Baglioni</ref>, the Condottiere to whom the Florentine republic
-               entrusted the conduct of the siege and its armies. <ref
-                  target="people.html#MalatestaIV">Baglioni</ref> was a traitor, bought by the pope;
-               and his endeavours were constantly exerted to prevent any combat of importance, and
-               to protract the siege till the treasures of the government, and the patience of the
-               citizens, should be exhausted, and the city fall an easy prey to the enemy. The
-               author exerts his whole energy to paint in colours sufficiently abhorrent and
-               despicable the soul and conduct of the traitor. <ref target="people.html#MalatestaIV"
-                  >Baglioni</ref> was the victim of disease; and this physical weakness, joined to
-               an unforgotten sense of honour and right, which inspires frequent fits of remorse and
-               irresolution in the path of crime, adds to the force of the picture. The author
-               places beside him a sort of vulgar <ref target="people.html#Mephistopheles"
-                  >Mephistopheles</ref>, who accompanies him throughout, at once exciting his fears,
-               and ridiculing and degrading <pb n="550"/>him. A short scene may be given as a
-               specimen of his mode of representing these characters. It is night—<ref
-                  target="people.html#MalatestaIV">Baglioni</ref> is awake, waiting the return of
-               Cencio, whom he had sent to make his bargain with the <ref
-                  target="people.html#ClementVII">pope</ref>. His mind presents a thousand images of
-               terror and despair: —</p>
+            <p>The second volume commences with the opening of the Siege of Florence. The
+						country around has been ravaged, and various deeds of horror and barbarity
+						are brought before the reader. The council of government is held, and an
+						animated scene takes place, in which a poor woman makes forcible entry
+						before the Gonfaloniere and the Signoria,<note place="foot">The governmental
+							position in charge of maintenance of public order and justice, and the
+							government of the Renaissance Republic of Florence, respectively.</note>
+						for the purpose of offering her only son to serve as soldier in the cause of
+						the republic. The return of the ambassadors from the pope, and the assembly
+						then held, is finely described; and Carduccio, the Gonfaloniere, makes an
+						harangue of singular power and eloquence, and the carrying on of war with
+						energy is determined upon. The tale then breaks off, so to speak, into
+						various groups of episodes. One of the most important is that of <ref target="people.html#MalatestaIV">Malatesta Baglioni</ref>, the
+						Condottiere to whom the Florentine republic entrusted the conduct of the
+						siege and its armies. <ref target="people.html#MalatestaIV">Baglioni</ref>
+						was a traitor, bought by the pope; and his endeavours were constantly
+						exerted to prevent any combat of importance, and to protract the siege till
+						the treasures of the government, and the patience of the citizens, should be
+						exhausted, and the city fall an easy prey to the enemy. <ref target="people.html#GuerrazziFD">The author</ref> exerts his whole
+						energy to paint in colours sufficiently abhorrent and despicable the soul
+						and conduct of the traitor. <ref target="people.html#MalatestaIV">Baglioni</ref> was the victim of disease; and this physical weakness,
+						joined to an unforgotten sense of honour and right, which inspires frequent
+						fits of remorse and irresolution in the path of crime, adds to the force of
+						the picture. <ref target="people.html#GuerrazziFD">The author</ref> places
+						beside him a sort of vulgar <ref target="people.html#Mephistopheles">Mephistopheles</ref>, who accompanies him throughout, at once exciting
+						his fears, and ridiculing and degrading <pb n="550"/>him. A short scene may
+						be given as a specimen of his mode of representing these characters. It is
+							night—<ref target="people.html#MalatestaIV">Baglioni</ref> is
+						awake, waiting the return of Cencio, whom he had sent to make his bargain
+						with the <ref target="people.html#ClementVII">pope</ref>. His mind presents
+						a thousand images of terror and despair: —</p>
             <quote>
-               <p>"If I move I suffer—repose is worse—my blood is poisoned—I fancied that I saw—no,
-                  no—I did see—Messer Gentile and Messer Galeotto Baglioni, who shook their bloody
-                  clothes before me—I did not kill you—you cannot bring your blood to witness
-                  against me—my brother Orazio killed you—go—torment him in hell. Messer Giampagolo,
-                  leave me in peace—sleep in your marble tomb. Why point to your trunkless head?
-                  What have I to do with that? If the <ref target="people.html#Medici">Medici</ref>
-                  took my father from me, the <ref target="people.html#Medici">Medici</ref> will
-                  give me back Perugia—and you, my good father, were not worth Perugia when you were
-                  alive—are you worth it dead? If you come to warn me, be at peace—I will not be
-                  killed like a sheep—I have my dagger at all hazards. But why is Cencio so long? If
-                  Cencio should betray me—if even now he should be standing before the Gonfaloniere,
-                  saying, Magnificent Messer Carduccio, <ref target="people.html#MalatestaIV"
-                     >Malatesta</ref> is a traitor—if even now they should send the gaoler to seize
-                  me, and the executioner—ah—what—who is there?—How long the night is! — Cencio
-                  knows too much." The gallop of a horse is at this moment heard, it approaches, it
-                  is close, the horseman alights, enters the Serristori palace, and hurries up the
-                  stairs. "That is Cencio—I know his step—he knows too much—he can betray me—he is
-                  full to the lips—I must be rid of him—three inches of steel or three drops of
-                  poison will send him so far that he will never return. Cencio—O Cencio, my
-                  friend!—welcome. I was waiting for you." "Really," said Cencio, throwing himself
-                  on a seat, and stretching out his arms and legs with a plebian familiarity, "I am
-                  sleepy, hungry thirsty—give me to drink, <ref target="people.html#MalatestaIV"
-                     >Malatesta</ref>." The baronial blood of <ref target="people.html#MalatestaIV"
-                     >Baglioni</ref> boiled—a curl of his lip betrayed the struggle of his soul; but
-                  skilful to deceive, he changed that curl into a smile, and, filling a cup of wine,
-                  gave it to the other, saying, "Drink, Cencio, and be strengthened—your life is as
-                  dear to me as my own." "Alas! Poor wretch that I am, shall I be in time to-morrow
-                  to make my will?" "What do you mean, Cencio?" "During the many years, <ref
-                     target="people.html#MalatestaIV">Malatesta</ref>, that we have been travelling
-                  together towards hell, I have observed that when you are most kind to a follower,
-                  you have in your heart condemned him to death. Come—if you have poisoned me, tell
-                  me, that I may send in time for the notary and confessor." "Leave off joking,
-                  Cencio. <ref target="people.html#ClementVII">Pope Clement</ref> has accorded my
-                  demands?" "The more you ask, the more he will promise, and the less give. He has
-                  accorded all—all." "And the indulgence, Cencio—and absolution?" "Ha!
-                  absolution—that also he promises, and will keep his promise, for it costs nothing;
-                  but <ref target="people.html#MalatestaIV">Signor Baglioni</ref>, whom are you now
-                  trying to deceive, the pope, me, or God?"</p>
+               <p>"If I move I suffer—repose is worse—my blood is
+							poisoned—I fancied that I saw—no, no—I did
+							see—Messer Gentile and Messer Galeotto Baglioni, who shook their
+							bloody clothes before me—I did not kill you—you cannot bring
+							your blood to witness against me—my brother Orazio killed
+							you—go—torment him in hell. Messer Giampagolo, leave me in
+							peace—sleep in your marble tomb. Why point to your trunkless head?
+							What have I to do with that? If the <ref target="people.html#Medici">Medici</ref> took my father from me, the <ref target="people.html#Medici">Medici</ref> will give me back
+							Perugia—and you, my good father, were not worth Perugia when you
+							were alive—are you worth it dead? If you come to warn me, be at
+							peace—I will not be killed like a sheep—I have my dagger at
+							all hazards. But why is Cencio so long? If Cencio should betray
+							me—if even now he should be standing before the Gonfaloniere,
+							saying, Magnificent Messer Carduccio, <ref target="people.html#MalatestaIV">Malatesta</ref> is a
+							traitor—if even now they should send the gaoler to seize me, and
+							the executioner—ah—what—who is there?—How long
+							the night is! — Cencio knows too much." The gallop of a horse
+							is at this moment heard, it approaches, it is close, the horseman
+							alights, enters the Serristori palace, and hurries up the stairs.
+							"That is Cencio—I know his step—he knows too
+							much—he can betray me—he is full to the lips—I must be
+							rid of him—three inches of steel or three drops of poison will
+							send him so far that he will never return. Cencio—O Cencio, my
+							friend!—welcome. I was waiting for you." "Really,"
+							said Cencio, throwing himself on a seat, and stretching out his arms and
+							legs with a plebian familiarity, "I am sleepy, hungry
+							thirsty—give me to drink, <ref target="people.html#MalatestaIV">Malatesta</ref>." The baronial blood of <ref target="people.html#MalatestaIV">Baglioni</ref> boiled—a curl
+							of his lip betrayed the struggle of his soul; but skilful to deceive, he
+							changed that curl into a smile, and, filling a cup of wine, gave it to
+							the other, saying, "Drink, Cencio, and be strengthened—your
+							life is as dear to me as my own." "Alas! Poor wretch that I
+							am, shall I be in time to-morrow to make my will?" "What do
+							you mean, Cencio?" "During the many years, <ref target="people.html#MalatestaIV">Malatesta</ref>, that we have been
+							travelling together towards hell, I have observed that when you are most
+							kind to a follower, you have in your heart condemned him to death.
+							Come—if you have poisoned me, tell me, that I may send in time for
+							the notary and confessor." "Leave off joking, Cencio. <ref target="people.html#ClementVII">Pope Clement</ref> has accorded my
+							demands?" "The more you ask, the more he will promise, and the
+							less give. He has accorded all—all." "And the
+							indulgence, Cencio—and absolution?" "Ha!
+							absolution—that also he promises, and will keep his promise, for
+							it costs nothing; but <ref target="people.html#MalatestaIV">Signor
+								Baglioni</ref>, whom are you now trying to deceive, the pope, me, or
+							God?"</p>
             </quote>
-            <p>There are two love stories in the work, but the author does not excel in depicting
-               the tender passion. Generally in reading modern Italian novels, nothing appears so
-               dissimilar to our own sentiments and ideas as the portion that treats of love. The
-               poets of the old time knew how to describe it, and, as we do, to dress the passion in
-               ideality — to deify the object, and invest in glorious and imaginary hues the
-               powerful emotions of love. But the modern Italians do not understand this, which must
-               partly be attributed to the fact that the system of chivalry never flourished in
-               Italy. Women, therefore, were at no time exalted to that height of reverence and
-               devotion, which was at once the great use and effect of chivalry. Love, with the
-               Italians, is divested of those complicated sentiments with which we associate it.
-               Love, with them, is a vehement, engrossing passion, for their natures are vehement.
-               It is <pb n="551"/>often true and faithful; but there is always paramount in an
-               Italian's mind a sense of the inferiority of women, arising from their physical
-               weakness. In the utmost fervour of attachment they still look down on them, and the
-               woman or the girl who is described to be in love, is always mentioned with a sort of
-               condescending pity, startling to our notions and habits. We find less of this in <ref
-                  target="people.html#ManzoniAlessandro">Manzoni</ref>. Religon here idealises as
-               chivalry does with us. The purity of Lucia, and her superiority over her rustic
-               betrothed, exalts her, and the absence of passion in her character gives her dignity;
-               but these observations apply to all the novels we have examined above. Ginevra and
-               Giacinta, fond and gentle, virtuous, and even noble, as they are, are still pictured
-               in a sort of dependant and inferior grade to their lovers. The love stories in the
-               present work are contrasted with one another. There is Bandino and Maria Benintendi—a
-               tale of misery and treason. They had loved in youth. Bandino was betrayed; Maria,
-               persuaded that he was dead, was induced to marry another; even thus married, she
-               passes her days in tears, in regret, and lamentation. Bandino — imprisoned as a
-               madman, deprived of his birthright, injured in the most grievous manner — is goaded
-               by revenge and misery to betray his country, and to join the army against Florence.
-               He introduces himself in the disguise of a priest to Maria, and acquaints her that he
-               lives. There is a singular instance here of Italian manners. Maria is married, but
-               her husband's attachment is not brought forward. There is a youth devotedly in love
-               with her, and his tenderness and sufferings are contrasted with the vehement ravings
-               of Bandino. While Maria struggles between her duties as a wife, her unchanged and
-               passionate attachment for Bandino, and her compassion for her younger and gentler
-               lover, Ludovico discovers the treason of Bandino to his native city, and a solemn
-               challenge ensues, and at the same period Maria's husband dies. Her terror and grief
-               at the anticipation of the duel overcome every other feeling. She visits Ludovico;
-               she implores him to abandon his design; and, asserting her past innocence, declares
-               her resolution of becoming a nun. She only succeeds in causing her young lover to
-               determine to sacrifice himself for her, and to fall that Bandino may be preserved.
-               The description of Maria's struggles at this crisis is one of the best written
-               passages in the book. Ludovico and his friend are passing out of Florence for the
-               purpose of the duel; and, as testimony of its deadly nature, they carry a bier<note>A
-                  movable stand on which a corpse or coffin is placed to be carried to its burial
-                  site.</note> with them. The unfortunate Maria mixes among the spectators to see
-               him pass; Ludovico perceives her, and points with a gesture of despair to the bier.
-               Maria, <quote rendition="#noindent">unable to endure that token of desperation,
-                  fainted, and fell upon the pavement; recovering, she prostrated herself before the
-                  altar of her religion, but altars no longer inspired peace. She knew not for whom
-                  to pray—she hesitated to confess to herself which of the two combatants she
-                  desired to see victorious. She began an ardent prayer to the Madonna and the
-                  saints that the duel might be prevented, but feeling that it would not avail, she
-                  broke off: then she began another that Bandino might conquer, and ended it with a
-                  supplication for the victory of Ludovico. Mortal heart never before endured so
-                  fierce a struggle; yet she felt that peace arose from the depths of her misery —
-                  the peace of the tomb perhaps — but still peace. From the incessant comparison she
-                  was obliged to make between Ludovico and Bandino, she became convinced of the
-                  noble nature of the former and the baseness of the latter. The one, knowing that
-                  she loved another, sacrificed his own life to his country and to her; the other,
-                  suspecting her fidelity, preserved himself for the purposes of vengeance, and
-                  detroyed [<hi rendition="#italics">sic</hi>] her and betrayed his country. The
-                  one, having great cause for reproach, never used one word to degrade her, or, did
-                  he utter one, it escaped <pb n="552"/>unwittingly from a heart full to the brim.
-                  The other, on the contrary, flung infamy by handfuls over her. Other thoughts
-                  occurred, and at length her soul appeared to cast off its dark clouds, and to
-                  distinguish the moral deformity of Bandino. Through a contradiction peculiar to
-                  our nature, the discovery pained her; she wished to replace the bandage which had
-                  blinded her, but in vain. The soul, as a bird escaped its cage, shrunk from
-                  resuming the bonds of passion. No human mechanist, nor, perhaps, divine one,
-                  avails to place again the spiritual yoke, once cast off; neither nature nor art
-                  possess a balsam that can cicatrize the wounds of the soul:—Maria did not love
-                  Ludovico, but she felt that she abhorred Bandino.</quote>
+            <p>There are two love stories in the work, but <ref target="people.html#GuerrazziFD">the author</ref> does not excel in
+						depicting the tender passion. Generally in reading modern Italian novels,
+						nothing appears so dissimilar to our own sentiments and ideas as the portion
+						that treats of love. The poets of the old time knew how to describe it, and,
+						as we do, to dress the passion in ideality — to deify the object, and
+						invest in glorious and imaginary hues the powerful emotions of love. But the
+						modern Italians do not understand this, which must partly be attributed to
+						the fact that the system of chivalry never flourished in Italy. Women,
+						therefore, were at no time exalted to that height of reverence and devotion,
+						which was at once the great use and effect of chivalry. Love, with the
+						Italians, is divested of those complicated sentiments with which we
+						associate it. Love, with them, is a vehement, engrossing passion, for their
+						natures are vehement. It is <pb n="551"/>often true and faithful; but there
+						is always paramount in an Italian's mind a sense of the inferiority of
+						women, arising from their physical weakness. In the utmost fervour of
+						attachment they still look down on them, and the woman or the girl who is
+						described to be in love, is always mentioned with a sort of condescending
+						pity, startling to our notions and habits. We find less of this in <ref target="people.html#ManzoniAlessandro">Manzoni</ref>. Religon here
+						idealises as chivalry does with us. The purity of Lucia, and her superiority
+						over her rustic betrothed, exalts her, and the absence of passion in her
+						character gives her dignity; but these observations apply to all the novels
+						we have examined above. Ginevra and Giacinta, fond and gentle, virtuous, and
+						even noble, as they are, are still pictured in a sort of dependant and
+						inferior grade to their lovers. The love stories in the present work are
+						contrasted with one another. There is Bandino and Maria Benintendi—a
+						tale of misery and treason. They had loved in youth. Bandino was betrayed;
+						Maria, persuaded that he was dead, was induced to marry another; even thus
+						married, she passes her days in tears, in regret, and lamentation. Bandino
+						— imprisoned as a madman, deprived of his birthright, injured in the
+						most grievous manner — is goaded by revenge and misery to betray his
+						country, and to join the army against Florence. He introduces himself in the
+						disguise of a priest to Maria, and acquaints her that he lives. There is a
+						singular instance here of Italian manners. Maria is married, but her
+						husband's attachment is not brought forward. There is a youth devotedly
+						in love with her, and his tenderness and sufferings are contrasted with the
+						vehement ravings of Bandino. While Maria struggles between her duties as a
+						wife, her unchanged and passionate attachment for Bandino, and her
+						compassion for her younger and gentler lover, Ludovico discovers the treason
+						of Bandino to his native city, and a solemn challenge ensues, and at the
+						same period Maria's husband dies. Her terror and grief at the
+						anticipation of the duel overcome every other feeling. She visits Ludovico;
+						she implores him to abandon his design; and, asserting her past innocence,
+						declares her resolution of becoming a nun. She only succeeds in causing her
+						young lover to determine to sacrifice himself for her, and to fall that
+						Bandino may be preserved. The description of Maria's struggles at this
+						crisis is one of the best written passages in the book. Ludovico and his
+						friend are passing out of Florence for the purpose of the duel; and, as
+						testimony of its deadly nature, they carry a bier<note place="foot">A
+							movable stand on which a corpse or coffin is placed to be carried to its
+							burial site.</note> with them. The unfortunate Maria mixes among the
+						spectators to see him pass; Ludovico perceives her, and points with a
+						gesture of despair to the bier. Maria, <quote>unable to endure that token of
+							desperation, fainted, and fell upon the pavement; recovering, she
+							prostrated herself before the altar of her religion, but altars no
+							longer inspired peace. She knew not for whom to pray—she hesitated
+							to confess to herself which of the two combatants she desired to see
+							victorious. She began an ardent prayer to the Madonna and the saints
+							that the duel might be prevented, but feeling that it would not avail,
+							she broke off: then she began another that Bandino might conquer, and
+							ended it with a supplication for the victory of Ludovico. Mortal heart
+							never before endured so fierce a struggle; yet she felt that peace arose
+							from the depths of her misery — the peace of the tomb perhaps
+							— but still peace. From the incessant comparison she was obliged
+							to make between Ludovico and Bandino, she became convinced of the noble
+							nature of the former and the baseness of the latter. The one, knowing
+							that she loved another, sacrificed his own life to his country and to
+							her; the other, suspecting her fidelity, preserved himself for the
+							purposes of vengeance, and detroyed [<hi rendition="#italics">sic</hi>]
+							her and betrayed his country. The one, having great cause for reproach,
+							never used one word to degrade her, or, did he utter one, it escaped <pb n="552"/>unwittingly from a heart full to the brim. The other, on
+							the contrary, flung infamy by handfuls over her. Other thoughts
+							occurred, and at length her soul appeared to cast off its dark clouds,
+							and to distinguish the moral deformity of Bandino. Through a
+							contradiction peculiar to our nature, the discovery pained her; she
+							wished to replace the bandage which had blinded her, but in vain. The
+							soul, as a bird escaped its cage, shrunk from resuming the bonds of
+							passion. No human mechanist, nor, perhaps, divine one, avails to place
+							again the spiritual yoke, once cast off; neither nature nor art possess
+							a balsam that can cicatrize the wounds of the soul:—Maria did not
+							love Ludovico, but she felt that she abhorred Bandino.</quote>
             </p>
-            <p>There is another love story, meant to be depicted in the simple English style. Vico,
-               a son of <ref target="people.html#MachiavelliNiccolo">Machiavelli</ref>, is the hero;
-               and a fair Tuscan girl, Annalena, the heroine. This is the weakest part of the book —
-               imitative and unreal, the lovers are mere idealities, and take no real hold on the
-               imagination. It is in the stronger and nobler passions that the author shines, and in
-               which he puts all his soul. Patriotism is the idol on which he exhausts his powers to
-               paint it glorious and beautiful. One of his heroes in the earlier portion of the book
-               is <ref target="people.html#BuonarrotiMichelangelo">Michael Angelo</ref>, to whose
-               simple, but great and fearless character, he renders that justice which has been
-               denied by many, who have been led away by the representations of the contemporary
-               authors in the pay of the <ref target="people.html#Medici">Medici</ref>.<note>The
-                  character of <ref target="people.html#BuonarrotiMichelangelo">Michael Angelo</ref>
-                  has been traduced; and with an ardour in the cause of virtue worthy of the
-                  subject, the author of this work has spared no pains to vindicate him. <ref
-                     target="people.html#BuonarrotiMichelangelo">Michael Angelo</ref> was entrusted
-                  with the construction of the fortifications of Florence. <ref
-                     target="people.html#SismondiJean">Sismondi</ref> says of him, "He seems to have
-                  been the more ready to be struck by terror, inasmuch as his imagination was more
-                  intensely lively. On the first disasters of Florence he fled to venice — shame
-                  caused him to return. When the city fell into the hands of the <ref
-                     target="people.html#Medici">Medici</ref> he was again assailed by fear, and hid
-                  himself." The last act was one of common prudence — he withdrew and concealed
-                  himself — while the <ref target="people.html#Medici">Medici</ref>, in the first
-                  heat of triumph, were taking sanguinary vengeance on their enemies. But the first
-                  accusation is a heavy one, though even on the face of it absurd — he fled to
-                  Venice for safety; but, ashamed, he returned to share the danger. This accusation
-                  rests on the fact that <ref target="people.html#BuonarrotiMichelangelo"
-                     >Buonarotti</ref> did leave the city at the height of the siege, and did
-                  return. The cause of his expedition was unknown even to contemporary authors. It
-                  was easy to stigmatise his act as the result of cowardice; and, one author copying
-                  from another, <ref target="people.html#SismondiJean">Sismondi</ref> at last added
-                  his authority. But fortunately public documents entirely exonerate this great man
-                  from every shadow of such baseness. The author of "<title>The Siege of
-                     Florence</title>" found contradictions in the old historians, and traces of his
-                  being sent from Florence, commissioned by government. At length he found, in an
-                  obscure work, allusions to a letter that existed in the Tuscan archives, addressed
-                  to Galeotto Giugni, Florentine ambassador at Ferrara, which testified that <ref
-                     target="people.html#BuonarrotiMichelangelo">Michael Angelo</ref> had been sent
-                  by the Signoria of Florence on a secret commission to Ferrara. The author on this
-                  was eager to consult the archives; but the government, jealous of all knowledge
-                  and enlightenment, refused him admission to them. Mortified, but not discouraged,
-                  he sought for the letter among other collections of papers. "At length," he says,
-                  "God had mercy on me; and I will not say how, but I procured a copy of this
-                  letter. It runs thus: 'Letter to Galeotto Giugni, ambassador to Ferrara, 28 Feb.
-                  1529. <ref target="people.html#BuonarrotiMichelangelo">Michael Angelo
-                     Buonarotti</ref> will bear this letter, who is sent by the Nine of the militia
-                  to examine those modes of fortifying which his excellency the duke has adopted;
-                  and you will do him all possible service with the duke, as his merits deserve, and
-                  the interests of the city, for whose benefit he makes this journey.'" The words —
-                  those modes of fortifying — are underlined in the original. It is evident from
-                  this document that <ref target="people.html#BuonarrotiMichelangelo"
-                     >Buonarotti</ref> went on a secret mission to the Duke of Ferrara; but, in the
-                  subsequent disasters and overthrow of his country, this mission was forgotten, and
-                  the cause of the journey being buried in obscurity, an unworthy motive was
-                  assigned. In the same way the author defends the great artist from the accusation
-                  of flattering the <ref target="people.html#Medici">Medici</ref> in the figures
-                  which he sculpted for the tombs of <ref target="people.html#MediciLorenzo"
-                     >Lorenzo</ref>, Duke of Urbino, and <ref target="people.html#MediciGiuliano"
-                     >Giuliano</ref>, Duke de Nemours — members of that family. He adopts the
-                  explanation of Niccolini, who says that <ref target="people.html#MediciLorenzo"
-                     >Lorenzo</ref> is made to look sad — because the thoughts of a tyrant, as he
-                  approaches death, are full of remorse — and placed the figures of twilight upon
-                  the tomb to symbolize the dark shadows slavery cast over life by the tyrants. This
-                  view is supported by the answer which <ref
-                     target="people.html#BuonarrotiMichelangelo">Michael Angelo</ref> wrote to the
-                  verses of <ref target="people.html#Strozzi">Strozzi</ref>, who, speaking of the
-                  statue of Night, says that it was sculptured by an angel, and that while it sleeps
-                  it has life. If you disbelieve, wake her, and she will speak. <ref
-                     target="people.html#BuonarrotiMichelangelo">Michael Angelo</ref> replied, in
-                  the person of his image, <quote>
+            <p>There is another love story, meant to be depicted in the simple English
+						style. Vico, a son of <ref target="people.html#MachiavelliNiccolo">Machiavelli</ref>, is the hero; and a fair Tuscan girl, Annalena, the
+						heroine. This is the weakest part of the book — imitative and unreal,
+						the lovers are mere idealities, and take no real hold on the imagination. It
+						is in the stronger and nobler passions that <ref target="people.html#GuerrazziFD">the author</ref> shines, and in which
+						he puts all his soul. Patriotism is the idol on which he exhausts his powers
+						to paint it glorious and beautiful. One of his heroes in the earlier portion
+						of the book is <ref target="people.html#BuonarrotiMichelangelo">Michael
+							Angelo</ref>, to whose simple, but great and fearless character, he
+						renders that justice which has been denied by many, who have been led away
+						by the representations of the contemporary authors in the pay of the <ref target="people.html#Medici">Medici</ref>.<note place="foot">The
+							character of <ref target="people.html#BuonarrotiMichelangelo">Michael
+								Angelo</ref> has been traduced; and with an ardour in the cause of
+							virtue worthy of the subject, <ref target="people.html#GuerrazziFD">the
+								author of this work</ref> has spared no pains to vindicate him. <ref target="people.html#BuonarrotiMichelangelo">Michael Angelo</ref> was
+							entrusted with the construction of the fortifications of Florence. <ref target="people.html#SismondiJean">Sismondi</ref> says of him,
+							"He seems to have been the more ready to be struck by terror,
+							inasmuch as his imagination was more intensely lively. On the first
+							disasters of Florence he fled to Venice — shame caused him to
+							return. When the city fell into the hands of the <ref target="people.html#Medici">Medici</ref> he was again assailed by
+							fear, and hid himself." The last act was one of common prudence
+							— he withdrew and concealed himself — while the <ref target="people.html#Medici">Medici</ref>, in the first heat of
+							triumph, were taking sanguinary vengeance on their enemies. But the
+							first accusation is a heavy one, though even on the face of it absurd
+							— he fled to Venice for safety; but, ashamed, he returned to share
+							the danger. This accusation rests on the fact that <ref target="people.html#BuonarrotiMichelangelo">Buonarotti</ref> did
+							leave the city at the height of the siege, and did return. The cause of
+							his expedition was unknown even to contemporary authors. It was easy to
+							stigmatise his act as the result of cowardice; and, one author copying
+							from another, <ref target="people.html#SismondiJean">Sismondi</ref> at
+							last added his authority. But fortunately public documents entirely
+							exonerate this great man from every shadow of such baseness. <ref target="people.html#GuerrazziFD">The author of "<title>The
+									Siege of Florence</title>"</ref> found contradictions in
+							the old historians, and traces of his being sent from Florence,
+							commissioned by government. At length he found, in an obscure work,
+							allusions to a letter that existed in the Tuscan archives, addressed to
+							Galeotto Giugni, Florentine ambassador at Ferrara, which testified that
+								<ref target="people.html#BuonarrotiMichelangelo">Michael
+								Angelo</ref> had been sent by the Signoria of Florence on a secret
+							commission to Ferrara. <ref target="people.html#GuerrazziFD">The
+								author</ref> on this was eager to consult the archives; but the
+							government, jealous of all knowledge and enlightenment, refused him
+							admission to them. Mortified, but not discouraged, he sought for the
+							letter among other collections of papers. "At length," he
+							says, "God had mercy on me; and I will not say how, but I procured
+							a copy of this letter. It runs thus: 'Letter to Galeotto Giugni,
+							ambassador to Ferrara, 28 Feb. 1529. <ref target="people.html#BuonarrotiMichelangelo">Michael Angelo
+								Buonarotti</ref> will bear this letter, who is sent by the Nine of
+							the militia to examine <hi rendition="#italics">those modes of
+								fortifying</hi> which his excellency the duke has adopted; and you
+							will do him all possible service with the duke, as his merits deserve,
+							and the interests of the city, for whose benefit he makes this
+							journey.'" The words — <hi rendition="#italics">those
+								modes of fortifying</hi> — are underlined in the original. It
+							is evident from this document that <ref target="people.html#BuonarrotiMichelangelo">Buonarotti</ref> went on
+							a secret mission to the Duke of Ferrara; but, in the subsequent
+							disasters and overthrow of his country, this mission was forgotten, and
+							the cause of the journey being buried in obscurity, an unworthy motive
+							was assigned. In the same way <ref target="people.html#GuerrazziFD">the
+								author</ref> defends the great artist from the accusation of
+							flattering the <ref target="people.html#Medici">Medici</ref> in the
+							figures which he sculpted for the tombs of <ref target="people.html#MediciLorenzo">Lorenzo</ref>, Duke of Urbino,
+							and <ref target="people.html#MediciGiuliano">Giuliano</ref>, Duke de
+							Nemours — members of that family. He adopts the explanation of
+							Niccolini, who says that <ref target="people.html#MediciLorenzo">Lorenzo</ref> is made to look sad — because the thoughts of a
+							tyrant, as he approaches death, are full of remorse — and placed
+							the figures of twilight upon the tomb to symbolize the dark shadows
+							slavery cast over life by the tyrants. This view is supported by the
+							answer which <ref target="people.html#BuonarrotiMichelangelo">Michael
+								Angelo</ref> wrote to the verses of <ref target="people.html#StrozziGElder">Strozzi</ref>, who, speaking of
+							the statue of Night, says that it was sculptured by an angel, and that
+							while it sleeps it has life. If you disbelieve, wake her, and she will
+							speak. <ref target="people.html#BuonarrotiMichelangelo">Michael
+								Angelo</ref> replied, in the person of his image, <quote>
                      <lg type="stanza">
-                        <l rendition="#indent30">"Mi è grato il sonno, e più l'esser di sasso,</l>
-                        <l rendition="#indent30">Infin che il danno, e la vergogna dura,</l>
-                        <l rendition="#indent30">Non udir, non veder mi è gran ventura,</l>
-                        <l rendition="#indent30">Però non mi destar, deh! parla basso!"</l>
+                        <l rendition="#indent30">"Mi è grato il sonno, e
+										più l'esser di sasso,</l>
+                        <l rendition="#indent30">Infin che il danno, e la vergogna
+										dura,</l>
+                        <l rendition="#indent30">Non udir, non veder mi è gran
+										ventura,</l>
+                        <l rendition="#indent30">Però non mi destar, deh! parla
+										basso!"</l>
                      </lg>
                   </quote>
-                  <ref target="people.html#BuonarrotiMichelangelo">Michael Angelo</ref> refused to
-                  erect a fortress in Florence, at the desire of <ref
-                     target="people.html#MediciAlessandro">Alessandro de' Medici</ref>. He refused
-                  all the offers of advancement made by <ref target="people.html#CosimoI">Cosmo
-                     I.</ref>, and lived at Rome — poor, but independent — an illustrious specimen
-                  of simple and high-hearted disdain for vulgar honours. We thank the writer of
-                     "<title>The Siege of Florence</title>" for the pains he has taken to illustrate
-                  the conduct of this great man. There is no labour at once so meritorious in, and
-                  delightful to, an author, as the vindication of the wise and good from calumny and
-                  misrepresentation. [Shelley's note]</note> Another favourite personage is Dante
-                  <pb n="553"/>Castiglione, whom he draws in forcible colours, as an upright,
-               valiant, and noble-hearted soldier. But the real hero of the book is <ref
-                  target="people.html#FerruccioFrancesco">Francesco Ferruccio</ref>. In his
-                  <title>History of the Italian Republics</title>, <ref
-                  target="people.html#SismondiJean">Sismondi</ref> represents this great man as the
-               safeguard and hope of Florence. "<ref target="people.html#FerruccioFrancesco"
-                  >Francesco Ferruccio</ref>," he says, "distinguished himself by his intrepidity
-               and his knowledge of war, and gained the confidence of his fellow-citizens, as well
-               as the esteem of his enemies. Although the family of Ferrucci was ancient, it was
-               poor, and had not produced any distinguished magistrate for many generations. <ref
-                  target="people.html#FerruccioFrancesco">Francesco</ref> had served under <ref
-                  target="people.html#MediciGiovanni">Giovanni de' Medici</ref>. He was sent by the
-               Signoria as commissary-general, first to Prato, and afterwards to Empoli, and after
-               having put these towns in a state of defense, he guarded the open country with so
-               much success, he so often cut off parties of the enemy, and carried away convoys, and
-               maintained such good discipline in his little army, that the soldiers, who loved as
-               much as they feared him, believed themselves invincible under his command." This
-               great man is successfully delineated in the work before us. A simple-minded
-               republican and a brave soldier, his soul is set on saving his country; and danger is
-               a plaything in his hands. With a frame of iron he encounters hardship, and with a
-               soul equally tempered to endurance, he despises peril. The best passages in the book
-               are those which describe his exploits. In his mouth the author puts his own favourite
-               theories for Italy. We extract one scene as a specimen of the more imaginative style
-               of the author, and of his fervent patriotism. <ref
-                  target="people.html#FerruccioFrancesco">Ferruccio</ref> is at Leghorn, collecting
-               troops and preparing for war; one moment of leisure for thought is afforded him:—</p>
+                  <ref target="people.html#BuonarrotiMichelangelo">Michael Angelo</ref>
+							refused to erect a fortress in Florence, at the desire of <ref target="people.html#MediciAlessandro">Alessandro de'
+								Medici</ref>. He [/553] refused all the offers of advancement made
+							by <ref target="people.html#CosimoI">Cosmo I.</ref>, and lived at Rome
+							— poor, but independent — an illustrious specimen of simple
+							and high-hearted disdain for vulgar honours. We thank <ref target="people.html#GuerrazziFD">the writer</ref> of
+								"<title>The Siege of Florence</title>" for the pains he
+							has taken to illustrate the conduct of this great man. There is no
+							labour at once so meritorious in, and delightful to, an author, as the
+							vindication of the wise and good from calumny and misrepresentation
+							[Shelley's note]. Algernon Swinburne offered a fairly well-known
+							rendering of the lines by Michelangelo: "Sleep likes me well, and
+							better yet to know/ I am but stone. While shame and grief must be,/ Good
+							hap is mine, to feel not, nor to see:/ Take heed, then, lest thou wake
+							me: ah, speak low."</note> Another favourite personage is Dante <pb n="553"/>Castiglione, whom he draws in forcible colours, as an upright,
+						valiant, and noble-hearted soldier. But the real hero of the book is <ref target="people.html#FerruccioFrancesco">Francesco Ferruccio</ref>. In
+						his <title>History of the Italian Republics</title>, <ref target="people.html#SismondiJean">Sismondi</ref> represents this great
+						man as the safeguard and hope of Florence. "<ref target="people.html#FerruccioFrancesco">Francesco Ferruccio</ref>,"
+						he says, "distinguished himself by his intrepidity and his knowledge of
+						war, and gained the confidence of his fellow-citizens, as well as the esteem
+						of his enemies. Although the family of Ferrucci was ancient, it was poor,
+						and had not produced any distinguished magistrate for many generations. <ref target="people.html#FerruccioFrancesco">Francesco</ref> had served under
+							<ref target="people.html#MediciGiovanni">Giovanni de' Medici</ref>.
+						He was sent by the Signoria<note place="foot">Governing authority.</note> as
+						commissary-general, first to Prato, and afterwards to Empoli, and after
+						having put these towns in a state of defense, he guarded the open country
+						with so much success, he so often cut off parties of the enemy, and carried
+						away convoys, and maintained such good discipline in his little army, that
+						the soldiers, who loved as much as they feared him, believed themselves
+						invincible under his command." This great man is successfully
+						delineated in the work before us. A simple-minded republican and a brave
+						soldier, his soul is set on saving his country; and danger is a plaything in
+						his hands. With a frame of iron he encounters hardship, and with a soul
+						equally tempered to endurance, he despises peril. The best passages in the
+						book are those which describe his exploits. In his mouth <ref target="people.html#GuerrazziFD">the author</ref> puts his own favourite
+						theories for Italy. We extract one scene as a specimen of the more
+						imaginative style of <ref target="people.html#GuerrazziFD">the author</ref>,
+						and of his fervent patriotism. <ref target="people.html#FerruccioFrancesco">Ferruccio</ref> is at Leghorn, collecting troops and preparing for war;
+						one moment of leisure for thought is afforded him:—</p>
             <quote>
-               <p>With a countenance cast down, and revolving melancholy thoughts, <ref
-                     target="people.html#FerruccioFrancesco">Ferruccio</ref> walked on the shore of
-                  the sea. He turned his steps towards the west, now and then he raised his eyes and
-                  sighed, for he found no object that did not renew miserable recollections. To the
-                  right he discerned the eminence where the ancient city of Torrita once stood.
-                  Noble spirits had once life in her, holy affections had breathed, and beloved
-                  memories clung round, exalted by wisdom and greatness; now all lay buried, a thick
-                  strata of earth covered them, and a yet denser one of oblivion; even the ruins
-                  were vanishing, and time has not left one stone as a monument of the dead city.
-                  This disappearance of towns and kingdoms, without one sign being left for
-                  posterity; this death of all things, and the absence of all distinction between
-                  the annihilation of a people and the withering of the grass under the scythe of
-                  the mower, filled the soul of our hero with bitterness. Nor did the view to the
-                  left comfort him; there, at a short distance in the sea, existed the monuments
-                  which recalled the destruction of one Italian nation by another Italian nation,
-                  the terrible battle of Meloria. There Pisa was vanquished by Genoa — O inquitous
-                  fraternal wars! <ref target="people.html#FerruccioFrancesco">Ferruccio</ref>
-                  turned, and bent his steps towards the east, and he contemplated the heavens and
-                  the vast waters—magnificent elements! At first it recurred to him as if, like
-                  rival warriors, they contended as they pursued the pathway of eternity on two
-                  infinite parallel lines, and then, afar off, they grow weary of their solitary
-                  course, they unite and become confounded, and mingling together, pursue the way
-                  still before them, til they reach their bourne. The sea calms its waves, that the
-                  sky may behold its own beauty in them; and heaven, returning the fraternal
-                  affection, raises the waters through the <lb/>
-                  <fw type="vol">
+               <p>With a countenance cast down, and revolving melancholy thoughts, <ref target="people.html#FerruccioFrancesco">Ferruccio</ref> walked on
+							the shore of the sea. He turned his steps towards the west, now and then
+							he raised his eyes and sighed, for he found no object that did not renew
+							miserable recollections. To the right he discerned the eminence where
+							the ancient city of Torrita once stood. Noble spirits had once life in
+							her, holy affections had breathed, and beloved memories clung round,
+							exalted by wisdom and greatness; now all lay buried, a thick strata of
+							earth covered them, and a yet denser one of oblivion; even the ruins
+							were vanishing, and time has not left one stone as a monument of the
+							dead city. This disappearance of towns and kingdoms, without one sign
+							being left for posterity; this death of all things, and the absence of
+							all distinction between the annihilation of a people and the withering
+							of the grass under the scythe of the mower, filled the soul of our hero
+							with bitterness. Nor did the view to the left comfort him; there, at a
+							short distance in the sea, existed the monuments which recalled the
+							destruction of one Italian nation by another Italian nation, the
+							terrible battle of Meloria. There Pisa was vanquished by Genoa — O
+							inquitous fraternal wars! <ref target="people.html#FerruccioFrancesco">Ferruccio</ref> turned, and bent his steps towards the east, and he
+							contemplated the heavens and the vast waters—magnificent elements!
+							At first it recurred to him as if, like rival warriors, they contended
+							as they pursued the pathway of eternity on two infinite parallel lines,
+							and then, afar off, they grow weary of their solitary course, they unite
+							and become confounded, and mingling together, pursue the way still
+							before them, til they reach their bourne. The sea calms its waves, that
+							the sky may behold its own beauty in them; and heaven, returning the
+							fraternal affection, raises the waters through the <fw type="vol">
                      <hi rendition="#smcaps">vol. ii.</hi>
                   </fw>
                   <fw type="sig">
-                     <hi rendition="#smcaps">o o</hi>
+                     <hi rendition="#smcaps">q o</hi>
                   </fw>
-                  <pb n="554"/>influence of its moon, and irradiates the edges of the murmuring
-                  billows with the tremulous light of its stars. And when the divine lamp of the sun
-                  has flamed in its sphere, does it not seem strange as if it deposited it on the
-                  bosom of the ocean, to warm it in its turn? Strange thoughts rise up on the shore
-                  of the sea, wild perhaps, but ever grand; nor let any one presume to nurse high
-                  imaginations, unless they have first beheld this glorious creation of God. If ever
-                  you behold the sea, and if your heart remains mute within you, hold the plough and
-                  dig the earth; nature intended you for nothing better.</p>
-               <p>The mind of <ref target="people.html#FerruccioFrancesco">Ferruccio</ref> enlarged
-                  through such ideas. Sublime conceptions crowded like inspirations at the thought
-                  of Him whom he wished to image so that speech could express, and other minds
-                  comprehend, him. Dawn almost beyond himself, he struck his brow, and with eyes
-                  fixed on high, exclaimed, "Expand, O Creator! my understanding; my heart feels
-                  thee!" Vico Machiavelli approached <ref target="people.html#FerruccioFrancesco"
-                     >Ferruccio</ref> in haste; heavy cares press on him—he calls him from a
-                  distance, but is not heard—he calls again, but still in vain. When close to him,
-                  he found him lost in thought, and fixing an anxious gaze upon the ocean, as a
-                  mother would who had confided her child to its waters, to discern the sail that
-                  was to bring him back to her arms. When he touched him, as well as spoke, <ref
-                     target="people.html#FerruccioFrancesco">Ferruccio</ref> looked at him, and
-                  spoke: —"Who art thou? Why disturb me in my glorious meditations? Vico—thou here!"
-                  and without waiting for an answer, he continued, "Come and be witness for me, that
-                  God has revealed to me the means not only of attaining the liberty of my country,
-                  but of changing the face of Italy, perhaps of the world. Look beyond there," and
-                  he pointed before him; "there is Africa; and turning to the east, almost opposite
-                  to Rome, Carthage stood. When the success of <ref target="people.html#Hannibal"
-                     >Hannibal</ref> prostrated the Roman power in Italy, our fathers dared
-                  undertake the stupendous diversion of carrying the war into Africa. <ref
-                     target="people.html#AfricanusScipio">Scipio</ref> changed the destinies of the
-                  world; <ref target="people.html#Hannibal">Hannibal</ref> hurried to the succour of
-                  his country; courage returned to the Roman eagle, and he soared again to his fatal
-                  pitch. Their houses and possessions are dearer to the Signoria of Florence than
-                  the freedom of Italy. Fortune rarely favours paltry designs, often bold ones. They
-                  have conferred powers that seem ample on me, but burthened with the condition to
-                  hasten with all speed to the guard of Florence. Advance, they say, but within the
-                  circle that we trace out. Ah! if they had given me liberty to direct my own
-                  movements; now, imitating the example of <ref target="people.html#AfricanusScipio"
-                     >Scipio</ref>, proceeding with the utmost speed day and night, I would hurry to
-                  Rome, and falling on the pope and the cardinals, I would support the doctrines of
-                     <ref target="people.html#LutherMartin">Luther</ref>, which now breathe not
-                  among the people, but in the palaces of princes. I would ally my cause to that of
-                  the German reformers; I would shake the throne of <ref
-                     target="people.html#CharlesV">Charles</ref>; I would liberate Italy at once
-                  from her spiritual and temporal yoke; I would rebuild the Capitol, and resucitate
-                  the Roman people. Alas, this thought kills me! I must forget it. Let us shut
-                  ourselves up in Florence, and keep alive the lamp, since its extinction is
-                  threatened. Danger is there, and there also glory."</p>
+                  <pb n="554"/>influence of its
+							moon, and irradiates the edges of the murmuring billows with the
+							tremulous light of its stars. And when the divine lamp of the sun has
+							flamed in its sphere, does it not seem strange as if it deposited it on
+							the bosom of the ocean, to warm it in its turn? Strange thoughts rise up
+							on the shore of the sea, wild perhaps, but ever grand; nor let any one
+							presume to nurse high imaginations, unless they have first beheld this
+							glorious creation of God. If ever you behold the sea, and if your heart
+							remains mute within you, hold the plough and dig the earth; nature
+							intended you for nothing better.</p>
+               <p>The mind of <ref target="people.html#FerruccioFrancesco">Ferruccio</ref>
+							enlarged through such ideas. Sublime conceptions crowded like
+							inspirations at the thought of Him whom he wished to image so that
+							speech could express, and other minds comprehend, him. Dawn almost
+							beyond himself, he struck his brow, and with eyes fixed on high,
+							exclaimed, "Expand, O Creator! my understanding; my heart feels
+							thee!" Vico Machiavelli approached <ref target="people.html#FerruccioFrancesco">Ferruccio</ref> in haste;
+							heavy cares press on him—he calls him from a distance, but is not
+							heard—he calls again, but still in vain. When close to him, he
+							found him lost in thought, and fixing an anxious gaze upon the ocean, as
+							a mother would who had confided her child to its waters, to discern the
+							sail that was to bring him back to her arms. When he touched him, as
+							well as spoke, <ref target="people.html#FerruccioFrancesco">Ferruccio</ref> looked at him, and spoke: —"Who art
+							thou? Why disturb me in my glorious meditations? Vico—thou
+							here!" and without waiting for an answer, he continued, "Come
+							and be witness for me, that God has revealed to me the means not only of
+							attaining the liberty of my country, but of changing the face of Italy,
+							perhaps of the world. Look beyond there," and he pointed before
+							him; "there is Africa; and turning to the east, almost opposite to
+							Rome, Carthage stood. When the success of <ref target="people.html#Hannibal">Hannibal</ref> prostrated the Roman
+							power in Italy, our fathers dared undertake the stupendous diversion of
+							carrying the war into Africa. <ref target="people.html#AfricanusScipio">Scipio</ref> changed the destinies of the world; <ref target="people.html#Hannibal">Hannibal</ref> hurried to the succour
+							of his country; courage returned to the Roman eagle, and he soared again
+							to his fatal pitch. Their houses and possessions are dearer to the
+							Signoria of Florence than the freedom of Italy. Fortune rarely favours
+							paltry designs, often bold ones. They have conferred powers that seem
+							ample on me, but burthened with the condition to hasten with all speed
+							to the guard of Florence. Advance, they say, but within the circle that
+							we trace out. Ah! if they had given me liberty to direct my own
+							movements; now, imitating the example of <ref target="people.html#AfricanusScipio">Scipio</ref>, proceeding with
+							the utmost speed day and night, I would hurry to Rome, and falling on
+							the pope and the cardinals, I would support the doctrines of <ref target="people.html#LutherMartin">Luther</ref>, which now breathe
+							not among the people, but in the palaces of princes. I would ally my
+							cause to that of the German reformers; I would shake the throne of <ref target="people.html#CharlesV">Charles</ref>; I would liberate Italy
+							at once from her spiritual and temporal yoke; I would rebuild the
+							Capitol, and resucitate the Roman people. Alas, this thought kills me! I
+							must forget it. Let us shut ourselves up in Florence, and keep alive the
+							lamp, since its extinction is threatened. Danger is there, and there
+							also glory."</p>
             </quote>
-            <p>It is historically true, that <ref target="people.html#FerruccioFrancesco"
-                  >Ferruccio</ref> had contemplated carrying the war to Rome, and it is true in all
-               theory, that had <ref target="people.html#LutherMartin">Luther</ref>'s doctrine
-               triumphed in Italy, that country had, at the crisis it had reached, been raised to
-               independence instead of falling a slave. Obeying however the commands of the
-               government, <ref target="people.html#FerruccioFrancesco">Ferruccio</ref> marched with
-               his troops toward Florence; and, during the march, fell on the field of battle, a
-               victim of the treachery of <ref target="people.html#MalatestaIV">Baglioni</ref>. The
-               plan of the Signoria was prudent and well contrived, con-<pb n="555"/>sisting in a
-               consentaneous attack of <ref target="people.html#FerruccioFrancesco">Ferruccio</ref>
-               from without on the camp of the <ref target="people.html#ChalonPhilibert">Prince of
-                  Orange</ref>, and a sally from the city. Had this plan been executed, the republic
-               had been saved, but <ref target="people.html#MalatestaIV">Baglioni</ref> betrayed the
-               councils of his employers; he informed the <ref target="people.html#ChalonPhilibert"
-                  >Prince of Orange</ref> of the advance of <ref
-                  target="people.html#FerruccioFrancesco">Ferruccio</ref>, and advised him to go
-               with his whole army to meet him, promising that no attack should meanwhile be made on
-               his unguarded camp. This last treachery sealed the fate of the republic. The <ref
-                  target="people.html#ChalonPhilibert">Prince</ref> came upon <ref
-                  target="people.html#FerruccioFrancesco">Ferruccio</ref> unexpectedly, during his
-               march to Pistoia; the battle was for some time dubious; the <ref
-                  target="people.html#ChalonPhilibert">Prince of Orange</ref> fell; but succour
-               coming up for his troops, the army of the Republic was utterly vanquished and
-               dispersed, and <ref target="people.html#FerruccioFrancesco">Ferruccio</ref> himself
-               slain. The facts of this memorable day are so full of grandeur and heroism, that the
-               simplest account is the most interesting. The fault of the author of the siege of
-               Florence is an incapacity to compress; he never knows when he has done enough; but in
-               the pages that recount the death struggles of Italian liberty, there is much
-               eloquence, much power, much deep and genuine feeling. With the fall of <ref
-                  target="people.html#FerruccioFrancesco">Ferruccio</ref>, Florence fell; the
-               treason of <ref target="people.html#MalatestaIV">Baglioni</ref> triumphed; and,
-               unresisted, the troops of the pope made themselves masters of the city. Certain
-               conditions were in appearance agreed upon; all of which were afterwards broken. The
-               work ends by a sketch of the result of the fall of Florence, and of the fate of the
-               survivors of the struggle. The author heaps infamy and misery on the heads of the
-               traitors, and on the patriots adversity and honour. </p>
+            <p>It is historically true, that <ref target="people.html#FerruccioFrancesco">Ferruccio</ref> had contemplated carrying the war to Rome, and it is
+						true in all theory, that had <ref target="people.html#LutherMartin">Luther</ref>'s doctrine triumphed in Italy, that country had, at
+						the crisis it had reached, been raised to independence instead of falling a
+						slave. Obeying however the commands of the government, <ref target="people.html#FerruccioFrancesco">Ferruccio</ref> marched with his
+						troops toward Florence; and, during the march, fell on the field of battle,
+						a victim of the treachery of <ref target="people.html#MalatestaIV">Baglioni</ref>. The plan of the Signoria was prudent and well
+						contrived, con-<pb n="555"/>sisting in a consentaneous attack of <ref target="people.html#FerruccioFrancesco">Ferruccio</ref> from without on
+						the camp of the <ref target="people.html#ChalonPhilibert">Prince of
+							Orange</ref>, and a sally from the city. Had this plan been executed,
+						the republic had been saved, but <ref target="people.html#MalatestaIV">Baglioni</ref> betrayed the councils of his employers; he informed the
+							<ref target="people.html#ChalonPhilibert">Prince of Orange</ref> of the
+						advance of <ref target="people.html#FerruccioFrancesco">Ferruccio</ref>, and
+						advised him to go with his whole army to meet him, promising that no attack
+						should meanwhile be made on his unguarded camp. This last treachery sealed
+						the fate of the republic. The <ref target="people.html#ChalonPhilibert">Prince</ref> came upon <ref target="people.html#FerruccioFrancesco">Ferruccio</ref> unexpectedly, during his march to Pistoia; the battle
+						was for some time dubious; the <ref target="people.html#ChalonPhilibert">Prince of Orange</ref> fell; but succour coming up for his troops, the
+						army of the Republic was utterly vanquished and dispersed, and <ref target="people.html#FerruccioFrancesco">Ferruccio</ref> himself slain.
+						The facts of this memorable day are so full of grandeur and heroism, that
+						the simplest account is the most interesting. The fault of <ref target="people.html#GuerrazziFD">the author</ref> of the siege of
+						Florence is an incapacity to compress; he never knows when he has done
+						enough; but in the pages that recount the death struggles of Italian
+						liberty, there is much eloquence, much power, much deep and genuine feeling.
+						With the fall of <ref target="people.html#FerruccioFrancesco">Ferruccio</ref>, Florence fell; the treason of <ref target="people.html#MalatestaIV">Baglioni</ref> triumphed; and,
+						unresisted, the troops of the pope made themselves masters of the city.
+						Certain conditions were in appearance agreed upon; all of which were
+						afterwards broken. The work ends by a sketch of the result of the fall of
+						Florence, and of the fate of the survivors of the struggle. <ref target="people.html#GuerrazziFD">The author</ref> heaps infamy and
+						misery on the heads of the traitors, and on the patriots adversity and
+						honour. </p>
             <p>It will be gathered from this sketch that the subject of the work is full of
-               grandeur, and certain portions of it exhibit considerable talent. Many of the scenes
-               are replete with interest, and sustained with energy. His eloquence is great,
-               elevated by a fervent enthusiasm; but his style is exaggerated, diffuse, and even
-               obscure; his various episodes are not sufficiently interwoven, several of them being
-               superfluous, and the whole too long drawn out. </p>
-            <p>"<title>The Battle of Benevento</title>," a romance, by <ref
-                  target="people.html#GuerrazziFD">Doctor Guerazzi</ref>, a Livornese lawyer, bears
-               a similarity in its style to "<title>The Siege of Florence</title>." It is not so
-               openly inimical to the tyrants of Italy, nor is it the subject of such recent
-               interest, being derived from the old times of Naples as far back as the thirteenth
-               century. It is conceived, however, in a truly patriotic spirit, and abounds with
-               passages that evince the author's desire to instruct and improve his countrymen. The
-               great and exact knowledge which the work displays of the history and customs of the
-               times in which the story is laid, places it high in the esteem of the Italians. With
-               us this produces effects that injure the interest. Many long chapters are purely
-               historical, which, though well written, may be called dry to the mere novel reader.
-               Besides this drawback, the writer will sacrifice incident and character to the
-               development of manners in a scene, or to the enunciation of his peculiar view and
-               opinions. He does not hesitate to be long-winded, to introduce episodes that have no
-               immediate connection with the story; his hero is thus reduced to a nonentity, and the
-               interest flags. But the style is elegant, and the matter good. The battle of
-               Benevento was that in which fell <ref target="people.html#Manfred">Manfred</ref>,
-               grandson of <ref target="people.html#BarbarossaFrederick">Frederic Barbarossa</ref>,
-               and which placed <ref target="people.html#CharlesIAnjou">Charles of Anjou</ref> on
-               the throne of Naples. We regret that <ref target="people.html#GuerrazziFD"
-                  >Guerazzi</ref> has not done more justice to the character of <ref
-                  target="people.html#Manfred">Manfred</ref>. He founds his description of him on
-               the accounts given by the writers of the Guelph party, who loaded with infamy a
-               sovereign excommunicated by the church; but we are partial to a prince whom <ref
-                  target="people.html#Dante">Dante</ref> speaks of with respect and affection, and
-               who was acknowledged to be of a noble and magnanimous disposition, while we dislike
-               his hard-hearted and bigoted rival. This romance does less credit to its author as
-               the inventor of an original story, than as an eloquent writer, a deep <lb/><fw type="sig">
-                  <hi rendition="#smcaps">o o 2</hi>
-               </fw>
-               <pb n="556"/>thinker, and a man who has the improvement and welfare of Italy warm at
-               heart. </p>
-            <p>There are other romances, but the above named are of the most note. <ref
-                  target="people.html#RosiniGiovanni">Rosini</ref>, who continued, with strange
-               rashness, the episode of "Gertrude," in the "<title>Promessi Sposi</title>," and
-               wrote "<title>Luisa Strozzi</title>," is not destitute of merit; but it is laborious
-               to read him. He is a great admirer of our <ref target="people.html#RichardsonSamuel"
-                  >Richardson</ref>, and imitates him in the minuteness of his details, and the
-               long-windedness of his narrative; but the deep interest we take in <ref
-                  target="people.html#RichardsonSamuel">Richardson</ref>'s novels not only results
-               from his admirable fidelity to nature, but from his taking the manners of our own
-               country and times as his groundwork. These minutiæ, set down as appertaining to
-               historical romances, are inexpressibly tiresome and uninteresting. </p>
-            <p>The Italians have no novels — no tales relating to the present day, and detailing
-               events and sentiments such as would find counterparts in the histories and minds of
-               themselves and their friends. Many reasons may be given for this. The actual state of
-               manners could never be detailed: the Italians would be so scandalized if the mirror
-               were held up to themselves. <ref target="people.html#GoldoniCarlo">Goldoni</ref>'s
-               plays are the nearest approach they could bear to reality; and these, though
-               admirable as far as they go, often sink into childishness, from the restrictions the
-               author lies under as to faithfulness of portraiture in the darker shades of society.
-               The real events of an Italian's life are the last that could be openly avowed.
-               Another impediment lies in the impossibility of delineating the influence exercised
-               by the priests; which in all cases is very great, and too often pernicious. Yet could
-               a clever Italian give us only a <ref target="people.html#AustenJane">Miss
-                  Austen</ref> sort of view of domestic life in that country, it would afford great
-               amusement and instruction. We recommend this hint to <ref
-                  target="people.html#RosiniGiovanni">Signor Rosini</ref>. His love of minutiæ would
-               no longer repel us, if he were only bold enough to put down even half the truth. </p>
-            <p>To return, however, to the subject of our article — the romances of modern Italy. </p>
+						grandeur, and certain portions of it exhibit considerable talent. Many of
+						the scenes are replete with interest, and sustained with energy. His
+						eloquence is great, elevated by a fervent enthusiasm; but his style is
+						exaggerated, diffuse, and even obscure; his various episodes are not
+						sufficiently interwoven, several of them being superfluous, and the whole
+						too long drawn out. </p>
+            <p>"<title>The Battle of Benevento</title>," a romance, by <ref target="people.html#GuerrazziFD">Doctor Guerazzi</ref>, a Livornese
+						lawyer, bears a similarity in its style to "<title>The Siege of
+							Florence</title>." It is not so openly inimical to the tyrants of
+						Italy, nor is it the subject of such recent interest, being derived from the
+						old times of Naples as far back as the thirteenth century. It is conceived,
+						however, in a truly patriotic spirit, and abounds with passages that evince
+							<ref target="people.html#GuerrazziFD">the author</ref>'s desire to
+						instruct and improve his countrymen. The great and exact knowledge which the
+						work displays of the history and customs of the times in which the story is
+						laid, places it high in the esteem of the Italians. With us this produces
+						effects that injure the interest. Many long chapters are purely historical,
+						which, though well written, may be called dry to the mere novel reader.
+						Besides this drawback, the writer will sacrifice incident and character to
+						the development of manners in a scene, or to the enunciation of his peculiar
+						view and opinions. He does not hesitate to be long-winded, to introduce
+						episodes that have no immediate connection with the story; his hero is thus
+						reduced to a nonentity, and the interest flags. But the style is elegant,
+						and the matter good. The battle of Benevento was that in which fell <ref target="people.html#Manfred">Manfred</ref>, grandson of <ref target="people.html#FrederickIHolyRomanEmperor">Frederic
+							Barbarossa</ref>, and which placed <ref target="people.html#CharlesIAnjou">Charles of Anjou</ref> on the throne
+						of Naples. We regret that <ref target="people.html#GuerrazziFD">Guerazzi</ref> has not done more justice to the character of <ref target="people.html#Manfred">Manfred</ref>. He founds his description of
+						him on the accounts given by the writers of the Guelph<note place="foot">Political faction comprised mostly of prominent merchantile families
+							that supported the Papacy in its struggle for power with the Holy Roman
+							Emperor.</note> party, who loaded with infamy a sovereign excommunicated
+						by the church; but we are partial to a prince whom <ref target="people.html#Dante">Dante</ref> speaks of with respect and
+						affection, and who was acknowledged to be of a noble and magnanimous
+						disposition, while we dislike his hard-hearted and bigoted rival. This
+						romance does less credit to its author as the inventor of an original story,
+						than as an eloquent writer, a deep <fw type="sig" rendition="#smcaps" place="bottom-center">o o 2</fw>
+               <pb n="556"/>thinker, and a man who has the improvement and welfare of Italy
+						warm at heart. </p>
+            <p>There are other romances, but the above named are of the most note. <ref target="people.html#RosiniGiovanni">Rosini</ref>, who continued, with
+						strange rashness, the episode of "Gertrude," in the
+							"<title>Promessi Sposi</title>," and wrote "<title>Luisa
+							Strozzi</title>," is not destitute of merit; but it is laborious to
+						read him. He is a great admirer of our <ref target="people.html#RichardsonSamuel">Richardson</ref>, and imitates him
+						in the minuteness of his details, and the long-windedness of his narrative;
+						but the deep interest we take in <ref target="people.html#RichardsonSamuel">Richardson</ref>'s novels not only results from his admirable
+						fidelity to nature, but from his taking the manners of our own country and
+						times as his groundwork. These minutiæ, set down as appertaining to
+						historical romances, are inexpressibly tiresome and uninteresting. </p>
+            <p>The Italians have no novels — no tales relating to the present day, and
+						detailing events and sentiments such as would find counterparts in the
+						histories and minds of themselves and their friends. Many reasons may be
+						given for this. The actual state of manners could never be detailed: the
+						Italians would be so scandalized if the mirror were held up to themselves.
+							<ref target="people.html#Goldoni">Goldoni</ref>'s plays are the
+						nearest approach they could bear to reality; and these, though admirable as
+						far as they go, often sink into childishness, from the restrictions <ref target="people.html#GuerrazziFD">the author</ref> lies under as to
+						faithfulness of portraiture in the darker shades of society. The real events
+						of an Italian's life are the last that could be openly avowed. Another
+						impediment lies in the impossibility of delineating the influence exercised
+						by the priests; which in all cases is very great, and too often pernicious.
+						Yet could a clever Italian give us only a <ref target="people.html#AustenJane">Miss Austen</ref> sort of view of
+						domestic life in that country, it would afford great amusement and
+						instruction. We recommend this hint to <ref target="people.html#RosiniGiovanni">Signor Rosini</ref>. His love of
+						minutiæ would no longer repel us, if he were only bold enough to put
+						down even half the truth. </p>
+            <p>To return, however, to the subject of our article — the romances of
+						modern Italy. </p>
             <p>
-               <ref target="people.html#MazziniGuiseppe">Mazzini</ref> tells us that the school of
-                  <ref target="people.html#ManzoniAlessandro">Manzoni</ref> is that of Christianity,
-               while the writers who aim at the recognition of Italy incline to free thinking. The
-               contradictions which, according to this view, these several classes of thinkers fall
-               into is worthy of comment. A devoted patriot cannot be devoid of religion. His
-               desires not having their fulfilment in this life, he looks beyond; and when the
-               tyrant prospers, he looks to God to balance the unequal scales of right and wrong;
-               and, by making virtue the highest happiness, though he may be condemned to poverty or
-               exile for political crimes eternally dishonourable to their perpetrator, even when he
-               triumphs, he brings a power from beyond the visible creation, to exalt and to debase.
-               On the other hand, the spirit that <ref target="people.html#ManzoniAlessandro"
-                  >Manzoni</ref> and <ref target="people.html#PellicoSilvio">Silvio Pellico</ref>
-               would inspire is contrary to that which animated the Saviour in his career. He
-               forgave his enemies, but he appealed against them—he suffered on the cross, rather
-               than abandon the teaching of the doctrines that were to redeem the world—he enforced
-               with the apostles the necessity of going abroad, to increase proselytes and overthrow
-               the old systems of tyranny and wrong. When he gave to <ref
-                  target="people.html#CaesarJulius">Cæsar</ref> the things that were <ref
-                  target="people.html#CaesarJulius">Cæsar</ref>'s, he did not give obedience to the
-               authorities that bade him cease to disseminate his doctrines. Let the well-wishers of
-               Italy attempt to follow this divine example in all its devotion and sincerity, and
-               they will cease to inculcate passive obedience. Could any sincerely religious
-               reformer animate the Italians with true piety, and shake the power of the priesthood,
-               Italy might be regenerated; as it is, the lower orders are the slaves of the Church,
-               while the upper classes are either real or affected un-<pb n="557"/>believers; and
-               neither of them consider truth, charity, and integrity, as the beginning and end of
-               life.</p>
-            <p>The better portion of the people of Italy are eager for instruction; they are a
-               quick-witted and sagacious people. Italian authors are called to the sacred task of
-               enlightening their fellow-men. No writers of other nations can do this, for they
-               cannot sufficiently understand the spirit of the people to address their hearts and
-               imaginations. It must be left to Italians to teach Italians, and the good name of the
-               writers with posterity will depend on their not betraying nor growing weary in the
-               sacred task of enlightening their countrymen, and drawing their minds from the abyss
-               of ignorance and slavery in which they are now sunk. Were their souls emancipated
-               from vice, the Austrian could not long enslave their bodies.</p>
-            <p>The Austrian, indeed, since the death of the "beloved <ref
-                  target="people.html#FrancisII">Francis</ref>," has shown a spirit of humanity
-               which does honour to the new emperor. It is to be hoped that the scenes of the
-               dungeons of Spielburgh<note>Špilberk is a castle in the present-day Czech Republic.
-                  Originally used as a prison for protestants, Špilberk became the harshest prison
-                  for opponents of the Austrian Empire.</note> are never to be renewed, nor modern
-               history blotted by a repetition of crimes, which we almost deemed fabulous when
-               recorded of Venice and the Inquisition. Men whose sole crime is a love of country
-               will not again be condemned to punishment worse than death, taken in the enjoyment of
-               youth and glowing with an ardour for virtue; and rendered, through a long course of
-               solitary confinement, bad food, and tedious unnatural labour, cripples in body, while
-               their souls, losing their energy and fervour, they become the willing slaves of their
-               cruel oppressor, and call the tameness produced by physical suffering
-               Christianity.</p>
-            <p>Besides the subsiding of the active spirit of persecution which desolated so many
-               Italian families, there is another hope for that country. One corner of it is
-               emancipated from both Austrian and priest. The citizens of Ancona, having thrown off
-               their obedience to the pope, govern themselves. Their state of enmity with the papal
-               see may serve to loosen them from an adherence to Catholicism; and it is to be hoped
-               that a purer religion will spring up in its stead. When the pope's bull of
-               excommunication arrived at Ancona, the citizens fastened it to a fire balloon, with a
-               writing appended, "Give to heaven what belongs to heaven," and sent the blasphemous
-               curse to float among the storms of air, till it might fall in the sea, and be blotted
-               out for ever. The pope is very eager to prevent any communication between the
-               Anconese and the rest of his subjects; but when, as is projected for the sake of
-               commerce with Greece, a railroad is constructed between Leghorn and Ancona, the
-               spirit of liberty in the latter will at once become more diffused and confirmed, and
-               its walls will at least afford a refuge to those Italians who love their native soil,
-               and yet yearn for the rights of freemen. <lb/><fw type="sig">
-                  <hi rendition="#smcaps">o o 3</hi>
+               <ref target="people.html#MazziniGuiseppe">Mazzini</ref> tells us that the
+						school of <ref target="people.html#ManzoniAlessandro">Manzoni</ref> is that
+						of Christianity, while the writers who aim at the recognition of Italy
+						incline to free thinking. The contradictions which, according to this view,
+						these several classes of thinkers fall into is worthy of comment. A devoted
+						patriot cannot be devoid of religion. His desires not having their
+						fulfilment in this life, he looks beyond; and when the tyrant prospers, he
+						looks to God to balance the unequal scales of right and wrong; and, by
+						making virtue the highest happiness, though he may be condemned to poverty
+						or exile for political crimes eternally dishonourable to their perpetrator,
+						even when he triumphs, he brings a power from beyond the visible creation,
+						to exalt and to debase. On the other hand, the spirit that <ref target="people.html#ManzoniAlessandro">Manzoni</ref> and <ref target="people.html#PellicoSilvio">Silvio Pellico</ref> would inspire is
+						contrary to that which animated the Saviour in his career. He forgave his
+						enemies, but he appealed against them—he suffered on the cross, rather
+						than abandon the teaching of the doctrines that were to redeem the
+						world—he enforced with the apostles the necessity of going abroad, to
+						increase proselytes and overthrow the old systems of tyranny and wrong. When
+						he gave to Cæsar the things that were Cæsar's,<note place="foot">A reference to <title>Matthew</title> 22:21.</note> he did
+						not give obedience to the authorities that bade him cease to disseminate his
+						doctrines. Let the well-wishers of Italy attempt to follow this divine
+						example in all its devotion and sincerity, and they will cease to inculcate
+						passive obedience. Could any sincerely religious reformer animate the
+						Italians with true piety, and shake the power of the priesthood, Italy might
+						be regenerated; as it is, the lower orders are the slaves of the Church,
+						while the upper classes are either real or affected un-<pb n="557"/>believers; and neither of them consider truth, charity, and integrity, as
+						the beginning and end of life.</p>
+            <p>The better portion of the people of Italy are eager for instruction; they are
+						a quick-witted and sagacious people. Italian authors are called to the
+						sacred task of enlightening their fellow-men. No writers of other nations
+						can do this, for they cannot sufficiently understand the spirit of the
+						people to address their hearts and imaginations. It must be left to Italians
+						to teach Italians, and the good name of the writers with posterity will
+						depend on their not betraying nor growing weary in the sacred task of
+						enlightening their countrymen, and drawing their minds from the abyss of
+						ignorance and slavery in which they are now sunk. Were their souls
+						emancipated from vice, the Austrian could not long enslave their bodies.</p>
+            <p>The Austrian, indeed, since the death of the "beloved <ref target="people.html#FrancisII">Francis</ref>," has shown a spirit
+						of humanity which does honour to the new emperor. It is to be hoped that the
+						scenes of the dungeons of Spielburgh<note place="foot">Špilberk is a
+							castle in the present-day Czech Republic. Originally used as a prison
+							for protestants, Špilberk became the harshest prison for opponents
+							of the Austrian Empire.</note> are never to be renewed, nor modern
+						history blotted by a repetition of crimes, which we almost deemed fabulous
+						when recorded of Venice and the Inquisition. Men whose sole crime is a love
+						of country will not again be condemned to punishment worse than death, taken
+						in the enjoyment of youth and glowing with an ardour for virtue; and
+						rendered, through a long course of solitary confinement, bad food, and
+						tedious unnatural labour, cripples in body, while their souls, losing their
+						energy and fervour, they become the willing slaves of their cruel oppressor,
+						and call the tameness produced by physical suffering Christianity.</p>
+            <p>Besides the subsiding of the active spirit of persecution which desolated so
+						many Italian families, there is another hope for that country. One corner of
+						it is emancipated from both Austrian and priest. The citizens of Ancona,
+						having thrown off their obedience to the pope, govern themselves. Their
+						state of enmity with the papal see may serve to loosen them from an
+						adherence to Catholicism; and it is to be hoped that a purer religion will
+						spring up in its stead. When the pope's bull of excommunication arrived
+						at Ancona, the citizens fastened it to a fire balloon, with a writing
+						appended, "Give to heaven what belongs to heaven," and sent the
+						blasphemous curse to float among the storms of air, till it might fall in
+						the sea, and be blotted out for ever. The pope is very eager to prevent any
+						communication between the Anconese and the rest of his subjects; but when,
+						as is projected for the sake of commerce with Greece, a railroad is
+						constructed between Leghorn and Ancona, the spirit of liberty in the latter
+						will at once become more diffused and confirmed, and its walls will at least
+						afford a refuge to those Italians who love their native soil, and yet yearn
+						for the rights of freemen. <fw type="sig">
+                  <hi rendition="#smcaps">o o
+							3</hi>
                </fw>
             </p>
          </div>

@@ -1,654 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader xmlns:PA="http://www.poetessarchive.org/#schema" type="text">
-      <fileDesc>
-         <titleStmt>
-            <title type="main" level="a">On The Character of Mrs. Hemans's Writings.</title>
-            <title type="sub">The New Monthly Magazine and Literary Journal</title>
-            <author type="writer">
-               <name>Letitia Landon</name>
-            </author>
-            <respStmt>
-               <resp>Editor</resp>
-               <name xml:id="MW">Mary A. Waters</name>
-            </respStmt>
-            <respStmt>
-               <resp>Editing and encoding assistance</resp>
-               <name xml:id="VS">Victoria Stewart</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <idno>LandonHemans1835</idno>
-         </publicationStmt>
-         <seriesStmt>
-            <title level="s">The Criticism Archive</title>
-            <respStmt>
-               <resp>Edited by</resp>
-               <name type="person" ref="#MW">Mary A. Waters</name>
-            </respStmt>
-            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
-         </seriesStmt>
-         <sourceDesc>
-            <biblStruct>
-               <analytic>
-                  <title type="main" level="a">On the Character of Mrs. Hemans's Writings.</title>
-                  <author type="writer">L. E. L. (Letitia Elizabeth Landon), 1802-1838</author>
-               </analytic>
-               <monogr>
-                  <title type="main" level="j">The New Monthly Magazine and Literary Journal</title>
-                  <imprint>
-                     <date when="1836-08">August 1836</date>
-                     <biblScope unit="series">second</biblScope>
-                     <biblScope unit="vol">2</biblScope>
-                     <biblScope unit="issue">44</biblScope>
-                     <biblScope unit="page">425-33</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <quotation>
-               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
-               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
-            </quotation>
-            <hyphenation eol="none">
-               <p>Any dashes occurring in line breaks have been removed.</p>
-               <p>All hyphens have been typed on the U.S. keyboard.</p>
-               <p>em-dashes have been recorded originally using the &#8212; entity reference</p>
-            </hyphenation>
-            <normalization method="silent">
-               <p>Long "s" (ſ) has been silently modernized.</p>
-               <p>Page numbers appear at the beginning of each page, no matter where originally
-                  placed.</p>
-               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
-               <p>Spelling has not been regularized.</p>
-            </normalization>
-            <normalization method="markup">
-               <p>&amp; has been used for the ampersand sign.</p>
-               <p>All other characters, those with accents, non-breaking spaces, etc., have been
-                  typed on the U.S. keyboard.</p>
-               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
-                  the content recorded in brackets.</p>
-            </normalization>
-         </editorialDecl>
-         <tagsDecl>
-            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
-            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
-            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
-            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
-            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
-            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
-            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
-            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
-            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
-            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
-            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
-               block;</rendition>
-            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
-               block;</rendition>
-            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
-               block;</rendition>
-            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
-               block;</rendition>
-            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
-               block;</rendition>
-            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
-               block;</rendition>
-            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
-               block;</rendition>
-            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
-               block;</rendition>
-            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
-               block;</rendition>
-         </tagsDecl>
-         <classDecl>
-            <taxonomy xml:id="ft">
-               <bibl>Full Text or Citation</bibl>
-               <category xml:id="ft1">
-                  <catDesc>full text</catDesc>
-               </category>
-               <category xml:id="ft2">
-                  <catDesc>citation only</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="ps">
-               <bibl>Primary or Secondary</bibl>
-               <category xml:id="ps1">
-                  <catDesc>primary</catDesc>
-               </category>
-               <category xml:id="ps2">
-                  <catDesc>secondary</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="g">
-               <bibl>Genre and Material Form</bibl>
-               <category xml:id="g1">
-                  <catDesc>pageimage</catDesc>
-               </category>
-               <category xml:id="g2">
-                  <catDesc>biography</catDesc>
-               </category>
-               <category xml:id="g3">
-                  <catDesc>biographical essay</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>poetry pamphlet</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>poetry book</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>poem</catDesc>
-               </category>
-               <category xml:id="g7">
-                  <catDesc>story</catDesc>
-               </category>
-               <category xml:id="g8">
-                  <catDesc>drama</catDesc>
-               </category>
-               <category xml:id="g9">
-                  <catDesc>table of contents</catDesc>
-               </category>
-               <category xml:id="g10">
-                  <catDesc>table of illustrations</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>picture</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>index</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>notes</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>frontispiece</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>inscription page</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>book boards</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>titlepage</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>preface</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>advertisement</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>foreword</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>acknowledgments</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>collection literary annual</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>collection miscellany</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>collection anthology</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>collection beauties</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>collection juvenile</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>collection religious</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>collection travels</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>mixed</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>essay</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>review</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>letter</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>fragment poem</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>fragment story</catDesc>
-               </category>
-               <category xml:id="g35">
-                  <catDesc>fragment novel</catDesc>
-               </category>
-               <category xml:id="g36">
-                  <catDesc>literary criticism book</catDesc>
-               </category>
-               <category xml:id="g37">
-                  <catDesc>literary criticism collection</catDesc>
-               </category>
-               <category xml:id="g38">
-                  <catDesc>bibliography</catDesc>
-               </category>
-               <category xml:id="g39">
-                  <catDesc>engraving</catDesc>
-               </category>
-               <category xml:id="g40">
-                  <catDesc>reproduction</catDesc>
-               </category>
-               <category xml:id="g41">
-                  <catDesc>figure</catDesc>
-               </category>
-               <category xml:id="g42">
-                  <catDesc>graph</catDesc>
-               </category>
-               <category xml:id="g43">
-                  <catDesc>map</catDesc>
-               </category>
-               <category xml:id="g44">
-                  <catDesc>table</catDesc>
-               </category>
-               <category xml:id="g45">
-                  <catDesc>musical score</catDesc>
-               </category>
-               <category xml:id="g46">
-                  <catDesc>music</catDesc>
-               </category>
-               <category xml:id="g47">
-                  <catDesc>satire</catDesc>
-               </category>
-               <category xml:id="g48">
-                  <catDesc>political pamphlet</catDesc>
-               </category>
-               <category xml:id="g49">
-                  <catDesc>political cartoon</catDesc>
-               </category>
-               <category xml:id="g50">
-                  <catDesc>periodical</catDesc>
-               </category>
-               <category xml:id="g51">
-                  <catDesc>historical monograph</catDesc>
-               </category>
-               <category xml:id="g52">
-                  <catDesc>historical essay</catDesc>
-               </category>
-               <category xml:id="g53">
-                  <catDesc>philosophical treatise</catDesc>
-               </category>
-               <category xml:id="g54">
-                  <catDesc>philosophical essay</catDesc>
-               </category>
-               <category xml:id="g55">
-                  <catDesc>religious pamphlet</catDesc>
-               </category>
-               <category xml:id="g56">
-                  <catDesc>sermon</catDesc>
-               </category>
-               <category xml:id="g57">
-                  <catDesc>theology</catDesc>
-               </category>
-               <category xml:id="g58">
-                  <catDesc>religious book</catDesc>
-               </category>
-               <category xml:id="g59">
-                  <catDesc>essay on education</catDesc>
-               </category>
-               <category xml:id="g60">
-                  <catDesc>educational treatise</catDesc>
-               </category>
-               <category xml:id="g61">
-                  <catDesc>list of subscribers</catDesc>
-               </category>
-               <category xml:id="g62">
-                  <catDesc>allegory</catDesc>
-               </category>
-               <category xml:id="g63">
-                  <catDesc>introduction</catDesc>
-               </category>
-               <category xml:id="g64">
-                  <catDesc>slipcase</catDesc>
-               </category>
-               <category xml:id="g65">
-                  <catDesc>dedication</catDesc>
-               </category>
-               <category xml:id="g66">
-                  <catDesc>picture of building</catDesc>
-               </category>
-               <category xml:id="g67">
-                  <catDesc>floorplans</catDesc>
-               </category>
-               <category xml:id="g68">
-                  <catDesc>photograph</catDesc>
-               </category>
-               <category xml:id="g69">
-                  <catDesc>translation</catDesc>
-               </category>
-               <category xml:id="g70">
-                  <catDesc>manuscript</catDesc>
-               </category>
-               <category xml:id="g71">
-                  <catDesc>printersmark</catDesc>
-               </category>
-               <category xml:id="g72">
-                  <catDesc>literary criticism article</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="keyword">
-               <category xml:id="lcsh">
-                  <catDesc>Library of Congress Subject Headings, reduced to one word before
-                     hyphen</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="ag">
-               <bibl>ARC Genre Categories, July 1, 2017</bibl>
-               <category xml:id="ag1">
-                  <catDesc>Advertisement</catDesc>
-               </category>
-               <category xml:id="ag2">
-                  <catDesc>Animation</catDesc>
-               </category>
-               <category xml:id="ag3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="ag4">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="ag5">
-                  <catDesc>Chronology</catDesc>
-               </category>
-               <category xml:id="ag7">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="ag6">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="ag8">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="ag9">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="ag10">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="ag11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="ag12">
-                  <catDesc>Essay</catDesc>
-               </category>
-               <category xml:id="ag13">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="ag14">
-                  <catDesc>Film, Documentary</catDesc>
-               </category>
-               <category xml:id="ag15">
-                  <catDesc>Film, Experimental</catDesc>
-               </category>
-               <category xml:id="ag16">
-                  <catDesc>Film, Narrative</catDesc>
-               </category>
-               <category xml:id="ag17">
-                  <catDesc>Film, Other</catDesc>
-               </category>
-               <category xml:id="ag18">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="ag19">
-                  <catDesc>Interview</catDesc>
-               </category>
-               <category xml:id="ag20">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="ag21">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="ag22">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="ag23">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="ag24">
-                  <catDesc>Musical Work</catDesc>
-               </category>
-               <category xml:id="ag25">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="ag26">
-                  <catDesc>Nonficition</catDesc>
-               </category>
-               <category xml:id="ag27">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="ag28">
-                  <catDesc>Performance</catDesc>
-               </category>
-               <category xml:id="ag29">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="ag30">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="ag31">
-                  <catDesc>Political Statement</catDesc>
-               </category>
-               <category xml:id="ag32">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="ag33">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="ag34">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="ag35">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="ag36">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="ag37">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="ag38">
-                  <catDesc>Speech</catDesc>
-               </category>
-               <category xml:id="ag39">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="ag40">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="ag41">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="ag42">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-               xml:id="f">
-               <bibl>ARC Format Categories, July 1, 2017</bibl>
-               <category xml:id="f1">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="f2">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="f3">
-                  <catDesc>Dataset</catDesc>
-               </category>
-               <category xml:id="f4">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="f5">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="f6">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="f7">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="f8">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="f9">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="f10">
-                  <catDesc>Notated Music</catDesc>
-               </category>
-               <category xml:id="f11">
-                  <catDesc>Page Proofs</catDesc>
-               </category>
-               <category xml:id="f12">
-                  <catDesc>Pamphlet</catDesc>
-               </category>
-               <category xml:id="f13">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="f14">
-                  <catDesc>Physcial Object</catDesc>
-               </category>
-               <category xml:id="f15">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="f16">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="f17">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="f18">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="f19">
-                  <catDesc>Typescript</catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
-      <profileDesc>
-         <textClass>
-            <keywords scheme="#lcsh">
-               <list type="simple">
-                  <item>Criticism</item>
-                  <item>Essay</item>
-                  <item>Life Writing</item>
-                  <item>Nonfiction</item>
-               </list>
-            </keywords>
-            <catRef target="#ft1" scheme="#ft"/>
-            <catRef target="#ag9 #ag12 #ag20 #ag26" scheme="#ag"/>
-            <catRef target="#f13" scheme="#f"/>
-            <catRef target="#ps1" scheme="#p"/>
-            <catRef scheme="#g" target="#g72 #g30 #g3 "/>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
-         <change who="#LM" when="20211214">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>had to roll back due to xml versioning error, revisions as below but starting
-                  with August and March 2021 XML</item>
-            </list>
-         </change>
-         <change who="#LM" when="20210922">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added header teiHeader07232021.xml</item>
-               <item>changed milestone sig to fw sig</item>
-               <item>inserted line break before fw</item>
-            </list>
-         </change>
-         <change who="#MW" when="2019-12-18" n="5">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>minor TEI encoding revisions</item>
-            </list>
-         </change>
-         <change who="#LM" when="20190110" n="4">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
-               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
-            </list>
-         </change>
-         <change who="#MW" when="2018-07-15" n="3">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>revise TEI encoding</item>
-               <item>document ID change</item>
-            </list>
-         </change>
-         <change who="#VS" when="2017-02-18" n="2">
-            <label>Changed by</label>
-            <name>Victoria Stewart </name>
-            <list type="simple">
-               <item>TEI encoding</item>
-            </list>
-         </change>
-         <change who="#MW" when="2010-12-01" n="1">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
-               <item>Created Edition</item>
-            </list>
-         </change>
-      </revisionDesc>
-   </teiHeader>
-   <text xmlns:PA="http://www.poetessarchive.org/#schema">
-      <body>
-         <div type="essay" org="uniform" sample="complete">
-            <head>
-               <bibl>
-                  <author type="writer">
-                     <ref target="people.html#LandonLetitia">
-                        <name>Letitia Elizabeth Landon</name>
-                     </ref>
-                  </author>
-                  <title type="main" level="a">
-                     <hi rendition="#smcaps">on the <lb/>CHARACTER OF MRS. <ref
-                           target="people.html#HemansFelicia">HEMANS</ref>'S WRITINGS.</hi>
-                     <note>
-                        <title level="j">
-                           <hi rendition="#italics">The New Monthly Magazine and Literary
-                              Journal</hi>
-                        </title>, vol. 44, no. 176 (2nd series), August 1835, pp. 425-33. The essay
-                        is attributed to <ref target="people.html#LandonLetitia">Landon</ref> in <hi
-                           rendition="#italics">
-                           <title>The Wellesley Index to Victorian Periodicals, 1824-1900</title>
-                        </hi>, ed. Walter E. Houghton, University of Toronto Press, 1966. Victoria
-                        Stewart and Mary A. Waters co-edited this edition for <hi
-                           rendition="#italics">The Criticism Archive</hi>. </note>
-                  </title>
-               </bibl>
-            </head>
-            <p rendition="#noindent">"O<hi rendition="#smcaps">h</hi>! mes amis, rapellez-vous
-               quelquefois mes vers; mon ame y est empreinte." "Mon ame y est empreinte."<note> The epigraph to <ref target="people.html#HemansFelicia"
-                     >Hemans</ref>'s "A Parting Song." Landon's metrical arrangement in<ref
-                     target="people.html#HillIsabel">
-                     <name> Isabel Hill's </name>
-                  </ref> translation of <ref target="people.html#StaelGermainede">
-                     <name>Germaine de Staël's </name>
-                  </ref> "Dernier Chant de Corinne" (1807) renders the lines as "Oh ye / Who may
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader xmlns:PA="http://www.poetessarchive.org/#schema" type="text"><fileDesc><titleStmt><title type="main" level="a">On The Character of Mrs. Hemans's Writings.</title><title type="sub">The New Monthly Magazine and Literary Journal</title><author type="writer"><name>Letitia Landon</name></author><respStmt><resp>Editor</resp><name xml:id="MW">Mary A. Waters</name></respStmt><respStmt><resp>Editing and encoding assistance</resp><name xml:id="VS">Victoria Stewart</name></respStmt><respStmt><resp>Encoding Assistance</resp><name xml:id="GR">Gabrielle Ramirez</name></respStmt></titleStmt><publicationStmt><idno>LandonHemans1835</idno></publicationStmt><seriesStmt><title level="s">The Criticism Archive</title><respStmt><resp>Edited by</resp><name type="person" ref="#MW">Mary A. Waters</name></respStmt><idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno></seriesStmt><sourceDesc><biblStruct><analytic><title type="main" level="a">On the Character of Mrs. Hemans's Writings.</title><author type="writer">L. E. L. (Letitia Elizabeth Landon), 1802-1838</author></analytic><monogr><title type="main" level="j">The New Monthly Magazine and Literary Journal</title><imprint><date when="1836-08">August 1836</date><biblScope unit="series">second</biblScope><biblScope unit="vol">2</biblScope><biblScope unit="issue">44</biblScope><biblScope unit="page">425-33</biblScope></imprint></monogr></biblStruct></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p><p>Quotation marks that indicate block quotes have been silently eliminated.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>All hyphens have been typed on the U.S. keyboard.</p><p>em-dashes have been recorded originally using the —</p></hyphenation><normalization method="silent"><p>Long "s" (ſ) has been silently modernized.</p><p>Page numbers appear at the beginning of each page, no matter where originally
+        				placed.</p><p>Compositors' catchwords and running titles have been silently eliminated.</p><p>Spelling has not been regularized.</p></normalization><normalization method="markup"><p>&amp; has been used for the ampersand sign.</p><p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
+        				the U.S. keyboard.</p><p>Writing in other hands appearing on these manuscripts has been indicated as
+        				such, the content recorded in brackets.</p></normalization></editorialDecl><tagsDecl><rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition><rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition><rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition><rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition><rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition><rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition><rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition><rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition><rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition><rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition><rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition><rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition><rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition><rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition><rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition><rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition><rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition><rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition><rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition></tagsDecl><classDecl><taxonomy xml:id="ft"><bibl>Full Text or Citation</bibl><category xml:id="ft1"><catDesc>full text</catDesc></category><category xml:id="ft2"><catDesc>citation only</catDesc></category></taxonomy><taxonomy xml:id="ps"><bibl>Primary or Secondary</bibl><category xml:id="ps1"><catDesc>primary</catDesc></category><category xml:id="ps2"><catDesc>secondary</catDesc></category></taxonomy><taxonomy xml:id="g"><bibl>Genre</bibl><category xml:id="g1"><catDesc>biography</catDesc></category><category xml:id="g2"><catDesc>poetry</catDesc></category><category xml:id="g3"><catDesc>story</catDesc></category><category xml:id="g4"><catDesc>drama</catDesc></category><category xml:id="g5"><catDesc>novel</catDesc></category><category xml:id="g6"><catDesc>satire</catDesc></category><category xml:id="g7"><catDesc>allegory</catDesc></category><category xml:id="g8"><catDesc>advertisement</catDesc></category><category xml:id="g9"><catDesc>preface</catDesc></category><category xml:id="g10"><catDesc>foreword</catDesc></category><category xml:id="g11"><catDesc>introduction</catDesc></category><category xml:id="g12"><catDesc>acknowledgments</catDesc></category><category xml:id="g13"><catDesc>essay</catDesc></category><category xml:id="g14"><catDesc>review</catDesc></category><category xml:id="g15"><catDesc>letter</catDesc></category><category xml:id="g16"><catDesc>literary criticism</catDesc></category><category xml:id="g17"><catDesc>electronic resource</catDesc></category><category xml:id="g18"><catDesc>bibliography</catDesc></category><category xml:id="g19"><catDesc>music</catDesc></category><category xml:id="g20"><catDesc>political statement</catDesc></category><category xml:id="g21"><catDesc>history</catDesc></category><category xml:id="g22"><catDesc>education</catDesc></category><category xml:id="g23"><catDesc>sermon</catDesc></category><category xml:id="g24"><catDesc>religion</catDesc></category><category xml:id="g25"><catDesc>philosophical statement</catDesc></category><category xml:id="g26"><catDesc>translation</catDesc></category><category xml:id="g27"><catDesc>dictionary</catDesc></category><category xml:id="g28"><catDesc>encyclopedia</catDesc></category><category xml:id="g29"><catDesc>travel</catDesc></category><category xml:id="g30"><catDesc>illustration</catDesc></category><category xml:id="g31"><catDesc>map</catDesc></category><category xml:id="g32"><catDesc>floorplans</catDesc></category><category xml:id="g33"><catDesc>photograph</catDesc></category><category xml:id="g34"><catDesc>cartoon</catDesc></category><category xml:id="g35"><catDesc>literary annual</catDesc></category><category xml:id="g36"><catDesc>miscellany</catDesc></category><category xml:id="g37"><catDesc>anthology</catDesc></category><category xml:id="g38"><catDesc>beauties</catDesc></category><category xml:id="g39"><catDesc>juvenile</catDesc></category></taxonomy><taxonomy xml:id="f"><bibl>Form</bibl><category xml:id="f1"><catDesc>pageimage</catDesc></category><category xml:id="f2"><catDesc>book part</catDesc></category><category xml:id="f3"><catDesc>book</catDesc></category><category xml:id="f4"><catDesc>periodical part</catDesc></category><category xml:id="f5"><catDesc>periodical</catDesc></category><category xml:id="f6"><catDesc>fragment</catDesc></category><category xml:id="f7"><catDesc>frontispiece</catDesc></category><category xml:id="f8"><catDesc>title page</catDesc></category><category xml:id="f9"><catDesc>inscription page</catDesc></category><category xml:id="f10"><catDesc>dedication</catDesc></category><category xml:id="f11"><catDesc>table of contents</catDesc></category><category xml:id="f12"><catDesc>table of illustrations</catDesc></category><category xml:id="f13"><catDesc>list of subscribers</catDesc></category><category xml:id="f14"><catDesc>index</catDesc></category><category xml:id="f15"><catDesc>notes</catDesc></category><category xml:id="f16"><catDesc>book boards</catDesc></category><category xml:id="f17"><catDesc>slipcase</catDesc></category><category xml:id="f18"><catDesc>printers mark</catDesc></category><category xml:id="f19"><catDesc>engraving</catDesc></category><category xml:id="f20"><catDesc>pamphlet</catDesc></category><category xml:id="f21"><catDesc>manuscript</catDesc></category><category xml:id="f22"><catDesc>collection</catDesc></category><category xml:id="f23"><catDesc>nonceCollection</catDesc></category><category xml:id="f24"><catDesc>sammelband</catDesc></category></taxonomy><taxonomy xml:id="keyword"><category xml:id="lcna"><catDesc>author of main text and of works reviewed, if relevant, using LOC authority name headings.</catDesc></category></taxonomy></classDecl></encodingDesc><profileDesc><textClass><keywords scheme="#lcna"><list type="simple"><item>Hemans, Felicia, 1793-1835</item><item>L. E. L. (Letitia Elizabeth Landon), 1802-1838</item></list></keywords><catRef target="#ft1" scheme="#ft"/><catRef target="#f4" scheme="#f"/><catRef target="#ps1" scheme="#p"/><catRef target="#g13 #g16" scheme="#g"/></textClass></profileDesc><revisionDesc><change who="#MW" when="20230302"><label>Changed by</label><name>Mary Waters</name><list type="simple"><item>changed catRef</item></list></change><change who="#LM" when="20230227"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>new header</item></list></change><change who="#GR" when="20230111"><label>Changed by</label><name>Gabrielle Ramirez</name><list type="simple"><item>revised keywords</item></list></change><change who="#LM" when="20211214"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item></list></change><change who="#LM" when="20210922"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>Added header teiHeader07232021.xml</item><item>changed milestone sig to fw sig</item><item>inserted line break before fw</item></list></change><change who="#MW" when="2019-12-18" n="5"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>minor TEI encoding revisions</item></list></change><change who="#LM" when="20190110" n="4"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item></list></change><change who="#MW" when="2018-07-15" n="3"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>revise TEI encoding</item><item>document ID change</item></list></change><change who="#VS" when="2017-02-18" n="2"><label>Changed by</label><name>Victoria Stewart </name><list type="simple"><item>TEI encoding</item></list></change><change who="#MW" when="2010-12-01" n="1"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>Created Edition</item></list></change></revisionDesc></teiHeader><text xmlns:PA="http://www.poetessarchive.org/#schema"><body><div type="essay" org="uniform" sample="complete"><head><bibl><author type="writer"><ref target="people.html#LandonLetitia"><name>Letitia Elizabeth Landon</name></ref></author><title type="main" level="a"><hi rendition="#smcaps">on the <lb/>CHARACTER OF MRS. <ref target="people.html#HemansFelicia">HEMANS</ref>'S WRITINGS.</hi><note><title level="j"><hi rendition="#italics">The New Monthly Magazine and Literary
+                              Journal</hi></title>, vol. 44, no. 176 (2nd series), August 1835, pp. 425-33. The essay
+                        is attributed to <ref target="people.html#LandonLetitia">Landon</ref> in <hi rendition="#italics"><title>The Wellesley Index to Victorian Periodicals, 1824-1900</title></hi>, ed. Walter E. Houghton, University of Toronto Press, 1966. Victoria
+                        Stewart and Mary A. Waters co-edited this edition for <hi rendition="#italics">The Criticism Archive</hi>. </note></title></bibl></head><p rendition="#noindent">"O<hi rendition="#smcaps">h</hi>! mes amis, rapellez-vous
+               quelquefois mes vers; mon ame y est empreinte." "Mon ame y est empreinte."<note> The epigraph to <ref target="people.html#HemansFelicia">Hemans</ref>'s "A Parting Song." Landon's metrical arrangement in<ref target="people.html#HillIsabel"><name> Isabel Hill's </name></ref> translation of <ref target="people.html#StaelGermainede"><name>Germaine de Staël's </name></ref> "Dernier Chant de Corinne" (1807) renders the lines as "Oh ye / Who may
                   survive me […] / I pray you sometimes to recall a line / From out my songs—my soul
                   is written there" (72-7). </note> Such is the secret of poetry. There cannot be a
                greater error than to suppose that the poet does not feel what he writes. What an
@@ -659,12 +17,8 @@
                No; poetry is even more a passion than a power, and nothing is so strongly impressed
                on composition as the character of the writer. I should almost define poetry to be
                the necessity of feeling strongly in the first instance, and the as strong necessity
-               of confiding in the second.</p>
-            <p>It is curious to observe the intimate relation that subsists between the poet and the
-               public. "Distance lends enchantment to the view,"<note>
-                  <ref target="people.html#CampbellThomas">
-                     <name>Thomas Campbell</name>
-                  </ref>, <hi rendition="#italics">The Pleasures of Hope </hi> (1799), Part I
+               of confiding in the second.</p><p>It is curious to observe the intimate relation that subsists between the poet and the
+               public. "Distance lends enchantment to the view,"<note><ref target="people.html#CampbellThomas"><name>Thomas Campbell</name></ref>, <hi rendition="#italics">The Pleasures of Hope </hi> (1799), Part I
                   (7).</note> and those who would shrink from avowing what and how much they feel to
                even the most trusted friend, yet rely upon and crave for the sympathy of the many.
                The belief that it exists in the far off and the unknown is inherent as love or
@@ -674,17 +28,12 @@
                the cold and the careless—shrinking from his immediate circle, who neglect and
                misunderstand him, has yet faith in the far away. Suffering discourses eloquent
                music, and it believes that such music will find an echo and reply where the music
-               only is known, and the maker loved for its sake.</p>
-            <p>Fame, which the Greeks idealized so nobly, is but the fulfillment of that desire for
+               only is known, and the maker loved for its sake.</p><p>Fame, which the Greeks idealized so nobly, is but the fulfillment of that desire for
                sympathy which can never be brought home to the individual. It is the essence of such
                a nature to ask too much. It expects to be divined where its too shy to express.
                Praise—actual personal praise—oftener frets and embarrasses than it encourages. It is
                too small when too near. There is also the fear of mistaking the false Florimel
-               flattery for the true Florimel praise.<note>Florimel appears in <ref
-                     target="people.html#DrydenJohn">
-                     <name>John Dryden's </name>
-                  </ref>
-                  <hi rendition="#italics">Secret Love, or the Maiden Queen</hi> (1667).</note>
+               flattery for the true Florimel praise.<note>Florimel appears in <ref target="people.html#DrydenJohn"><name>John Dryden's </name></ref><hi rendition="#italics">Secret Love, or the Maiden Queen</hi> (1667).</note>
                Hence Hope takes the wings of the morning,<note>Perhaps an allusion
                   to <title>Psalm</title> 139:9.</note> and seeks an atmosphere, warm, kindly, and
                congenial, and where it is not ashamed. Without such timidity, without such
@@ -696,59 +45,27 @@
                and sorrowful ideas are to be expressed. But the poet relies on having his written
                page opened when the spirit is attuned to it melody. He asks to be read in the long
                summer-mornings, when the green is golden on the trees, when the bird sings on the
-               boughs, and the insect <lb/>
-               <fw type="vol">
-                  <hi rendition="#italics">Aug</hi>.—<hi rendition="#smcaps">vol. xliv. no.
-                     clxxvi.</hi>
-               </fw>
-               <fw type="sig"><hi rendition="#smcaps">2 g</hi></fw>
-               <pb n="426"/> in the grass; and yet when the weight of the past presses heavily upon
-               the present, when—<quote>
-                  <lg type="stanza">
-                     <l rendition="#indent15">memory makes the sky</l>
-                     <l>Seem all too joyous for the shrinking eye.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "The Lady of the
-                           Castle" from the "Portrait Gallery," an unfinished Poem (35-6). </note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
-            <p> In such a mood the voice of passionate complaining is both understood and welcome.
+               boughs, and the insect <lb/><fw type="vol"><hi rendition="#italics">Aug</hi>.—<hi rendition="#smcaps">vol. xliv. no.
+                     clxxvi.</hi></fw><fw type="sig"><hi rendition="#smcaps">2 g</hi></fw><pb n="426"/> in the grass; and yet when the weight of the past presses heavily upon
+               the present, when—<quote><lg type="stanza"><l rendition="#indent15">memory makes the sky</l><l>Seem all too joyous for the shrinking eye.<note><ref target="people.html#HemansFelicia">Hemans</ref>, "The Lady of the
+                           Castle" from the "Portrait Gallery," an unfinished Poem (35-6). </note></l></lg></quote></p><p> In such a mood the voice of passionate complaining is both understood and welcome.
                There is a well of melancholy poetry in every human bosom. We have all mourned over
                the destroyed illusion and the betrayed hope. We have quarrelled in some embittered
                moment with an early friend, and when too late lamented the estrangement. We have all
                stood beside the grave, and asked of the long grass and ever-springing wild flowers
                why they should have life, while that of the beloved has long since gone down to the
-               dust. How many have <quote>
-                  <lg type="stanza">
-                     <l rendition="#indent9">laid their youth as in a burial urn,</l>
-                     <l>Where sunshine may not find it.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "Arabella Stuart"
-                           (98-9). </note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
-            <p>I remember to have read of an Hanoverian chorister, who, having lost by an early
+               dust. How many have <quote><lg type="stanza"><l rendition="#indent9">laid their youth as in a burial urn,</l><l>Where sunshine may not find it.<note><ref target="people.html#HemansFelicia">Hemans</ref>, "Arabella Stuart"
+                           (98-9). </note></l></lg></quote></p><p>I remember to have read of an Hanoverian chorister, who, having lost by an early
                death the young village girl to whom he was betrothed, rudely carved upon her tomb a
                rose-bud broken on its stem, with the words beneath, "<hi rendition="#italics">C'est
                   ainsi qu'elle fût.</hi>"<note>"It is thus that she was."</note>
                This might be emblem and inscription for all the loveliest emotions of the soul.
                While such recollections remain garnered, poetry will always have its own appointed
                hour. Its haunted words will be to us even as our own. Solitude and sorrow reveal to
-               us its secrets, even as they first revealed themselves to those <quote>
-                  <lg type="stanza">
-                     <l>Who learnt in suffering what they taught in song.<note>The
-                           quotation, from <ref target="people.html#ShelleyPercy">
-                              <name>Percy Bysshe Shelley's</name>
-                           </ref> "Julian and Maddalo, A Conversation" (546), appears as an epigram
+               us its secrets, even as they first revealed themselves to those <quote><lg type="stanza"><l>Who learnt in suffering what they taught in song.<note>The
+                           quotation, from <ref target="people.html#ShelleyPercy"><name>Percy Bysshe Shelley's</name></ref> "Julian and Maddalo, A Conversation" (546), appears as an epigram
                            to <ref target="people.html#HemansFelicia">Hemans</ref>'s "The
-                           Diver."</note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
-            <p>I believe that no poet ever made his readers feel unless he had himself felt. The
+                           Diver."</note></l></lg></quote></p><p>I believe that no poet ever made his readers feel unless he had himself felt. The
                many touching poems which most memories keep as favourites originated in some strong
                personal sensation. I do not mean to say that the fact is set down, but if any
                feeling is marked in the writing, that feeling has been keenly and painfully
@@ -757,8 +74,7 @@
                secondly, from that extreme sensitiveness which shrinks from contact with the actual.
                Moreover, the habit has so grown up with us,—so grown with our growth, and
                strengthened with our strength, that we scarcely know the extraordinary system of
-               dissimulation carried on in our present state of society.</p>
-            <p> In childhood, the impetus of conversation is curiosity. The child talks to ask
+               dissimulation carried on in our present state of society.</p><p> In childhood, the impetus of conversation is curiosity. The child talks to ask
                questions. But one of its first lessons, as it advances, is that a question is an
                intrusion, and an answer a deceit. Ridicule parts social life like an invisible
                paling; and we are all of us afraid of the other. To this may be in great measure
@@ -771,119 +87,26 @@
                their own thoughts, can know what a relief it is sometimes to spring, as it were, out
                of themselves. The fertile wit, the sunny vivacity, belong to a nature which must be
                what the French so happily term <hi rendition="#italics">impressionable</hi> to be
-               poetical. The writer of <pb n="427"/> a recent memoir of Mrs. <ref
-                  target="people.html#HemansFelicia">Hemans</ref> deems it necessary almost to
-               apologize for her occasional fits of buoyant spirits:— <quote>
-                  <lg type="stanza">
-                     <l rendition="#indent15">Oh, gentle friend,</l>
-                     <l> Blame not her mirth who was sad yesterday,</l>
-                     <l> And may be sad to-morrow.<note>
-                           <ref target="people.html#BaillieJoanna">
-                              <name>Joanna Baillie</name>
-                           </ref>, <hi rendition="#italics">Orra: A Tragedy in Five Acts</hi>, <hi
-                              rendition="#italics">Plays on the Passions</hi>, vol. 3 (1812):
+               poetical. The writer of <pb n="427"/> a recent memoir of Mrs. <ref target="people.html#HemansFelicia">Hemans</ref> deems it necessary almost to
+               apologize for her occasional fits of buoyant spirits:— <quote><lg type="stanza"><l rendition="#indent15">Oh, gentle friend,</l><l> Blame not her mirth who was sad yesterday,</l><l> And may be sad to-morrow.<note><ref target="people.html#BaillieJoanna"><name>Joanna Baillie</name></ref>, <hi rendition="#italics">Orra: A Tragedy in Five Acts</hi>, <hi rendition="#italics">Plays on the Passions</hi>, vol. 3 (1812):
                            I.iii.90-2. <ref target="people.html#HemansFelicia">Hemans</ref> uses the
-                           lines as an epigraph to "Sadness and Mirth." Since <ref
-                              target="people.html#HemansFelicia">Hemans</ref> had just died the
+                           lines as an epigraph to "Sadness and Mirth." Since <ref target="people.html#HemansFelicia">Hemans</ref> had just died the
                            previous May, Landon may be referencing one of the several obituary
-                           essays about her.</note>
-                     </l>
-                  </lg>
-               </quote> The most intense sunshine casts the deepest shadow. Such mirth does not
-               disprove the melancholy which belonged to Mrs. <ref
-                  target="people.html#HemansFelicia">Hemans</ref>'s character. She herself alludes
-               to the times when <quote>
-                  <lg type="stanza">
-                     <l rendition="#indent10">Sudden glee</l>
-                     <l rendition="#indent1">Bears my quick heart along</l>
-                     <l>On wings that struggle to be free</l>
-                     <l rendition="#indent1">As bursts of skylark song.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "The Charmed
-                           Picture" (21-4). </note>
-                     </l>
-                  </lg>
-               </quote> Society might make her say— <quote>
-                  <lg type="stanza">
-                     <l>Thou canst not wake the spirit </l>
-                     <l rendition="#indent1">That in me slumbering lies,</l>
-                     <l>Thou strikest not forth the electric fire</l>
-                     <l rendition="#indent1">Of buried melodies.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "The Lyre's Lament"
-                           (21-4). </note>
-                     </l>
-                  </lg>
-               </quote> But it might very well strike the sparkles from the surface. </p>
-            <p>I have said that the writer's character is in his writings: Mrs. <ref
-                  target="people.html#HemansFelicia">Hemans</ref>'s is strongly impressed upon hers.
+                           essays about her.</note></l></lg></quote> The most intense sunshine casts the deepest shadow. Such mirth does not
+               disprove the melancholy which belonged to Mrs. <ref target="people.html#HemansFelicia">Hemans</ref>'s character. She herself alludes
+               to the times when <quote><lg type="stanza"><l rendition="#indent10">Sudden glee</l><l rendition="#indent1">Bears my quick heart along</l><l>On wings that struggle to be free</l><l rendition="#indent1">As bursts of skylark song.<note><ref target="people.html#HemansFelicia">Hemans</ref>, "The Charmed
+                           Picture" (21-4). </note></l></lg></quote> Society might make her say— <quote><lg type="stanza"><l>Thou canst not wake the spirit </l><l rendition="#indent1">That in me slumbering lies,</l><l>Thou strikest not forth the electric fire</l><l rendition="#indent1">Of buried melodies.<note><ref target="people.html#HemansFelicia">Hemans</ref>, "The Lyre's Lament"
+                           (21-4). </note></l></lg></quote> But it might very well strike the sparkles from the surface. </p><p>I have said that the writer's character is in his writings: Mrs. <ref target="people.html#HemansFelicia">Hemans</ref>'s is strongly impressed upon hers.
                The sensitiveness of the poet is deepened by the tenderness of the woman. You see the
-               original glad, frank, and eager nature <quote>
-                  <lg type="stanza">
-                     <l>Blest, for the beautiful is in it dwelling.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "The Image in the
-                           Heart" (31). </note>
-                     </l>
-                  </lg>
-               </quote> Soon feeling that the weight of this world is too heavy upon it— <quote>
-                  <lg type="stanza">
-                     <l>The shadow of departed hours</l>
-                     <l>Hangs dim upon its early flowers.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "The Deserted
-                           House" (5-6). </note>
-                     </l>
-                  </lg>
-               </quote> Soon, too, does she feel that <quote>
-                  <lg type="stanza">
-                     <l>A mournful lot is mine, dear friends,</l>
-                     <l>A mournful lot is mine.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "Second Sight"
-                           (1-2). </note>
-                     </l>
-                  </lg>
-               </quote> The fate of the pearl-diver is even as her own:— <quote>
-                  <lg type="stanza">
-                     <l>A sad and weary life is thine,</l>
-                     <l rendition="#indent1">A wasting task and lone,</l>
-                     <l>Though treasure-grots for thee may shine</l>
-                     <l rendition="#indent1">To all beside unknown.</l>
-                  </lg>
-                  <lg type="stanza">
-                     <l>Woe for the wealth thus dearly bought!</l>
-                     <l rendition="#indent1">And are not those like thee</l>
-                     <l>Who win for earth the gems of thought,</l>
-                     <l rendition="#indent1">Oh wrestler with the sea?</l>
-                  </lg>
-                  <lg type="stanza">
-                     <l>But oh! the price of bitter tears</l>
-                     <l rendition="#indent1">Paid for the lonely power,</l>
-                     <l>That throws at last o'er desert years</l>
-                     <l rendition="#indent1">A darkly-glorious dower.</l>
-                  </lg>
-                  <lg type="stanza">
-                     <l>And who will think, when the strain is sung,</l>
-                     <l rendition="#indent1">Till a thousand hearts are stirr'd,</l>
-                     <l>What life-drops from the minstrel wrung</l>
-                     <l rendition="#indent1">Have gush'd at every word.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "The Diver" (9-12,
-                           29-32, 41-4, 49-52). </note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
-            <p> Imagine a girl, lovely and gifted as Mrs. <ref target="people.html#HemansFelicia"
-                  >Hemans</ref> was, beginning life,—conscious, for genius must be conscious of
+               original glad, frank, and eager nature <quote><lg type="stanza"><l>Blest, for the beautiful is in it dwelling.<note><ref target="people.html#HemansFelicia">Hemans</ref>, "The Image in the
+                           Heart" (31). </note></l></lg></quote> Soon feeling that the weight of this world is too heavy upon it— <quote><lg type="stanza"><l>The shadow of departed hours</l><l>Hangs dim upon its early flowers.<note><ref target="people.html#HemansFelicia">Hemans</ref>, "The Deserted
+                           House" (5-6). </note></l></lg></quote> Soon, too, does she feel that <quote><lg type="stanza"><l>A mournful lot is mine, dear friends,</l><l>A mournful lot is mine.<note><ref target="people.html#HemansFelicia">Hemans</ref>, "Second Sight"
+                           (1-2). </note></l></lg></quote> The fate of the pearl-diver is even as her own:— <quote><lg type="stanza"><l>A sad and weary life is thine,</l><l rendition="#indent1">A wasting task and lone,</l><l>Though treasure-grots for thee may shine</l><l rendition="#indent1">To all beside unknown.</l></lg><lg type="stanza"><l>Woe for the wealth thus dearly bought!</l><l rendition="#indent1">And are not those like thee</l><l>Who win for earth the gems of thought,</l><l rendition="#indent1">Oh wrestler with the sea?</l></lg><lg type="stanza"><l>But oh! the price of bitter tears</l><l rendition="#indent1">Paid for the lonely power,</l><l>That throws at last o'er desert years</l><l rendition="#indent1">A darkly-glorious dower.</l></lg><lg type="stanza"><l>And who will think, when the strain is sung,</l><l rendition="#indent1">Till a thousand hearts are stirr'd,</l><l>What life-drops from the minstrel wrung</l><l rendition="#indent1">Have gush'd at every word.<note><ref target="people.html#HemansFelicia">Hemans</ref>, "The Diver" (9-12,
+                           29-32, 41-4, 49-52). </note></l></lg></quote></p><p> Imagine a girl, lovely and gifted as Mrs. <ref target="people.html#HemansFelicia">Hemans</ref> was, beginning life,—conscious, for genius must be conscious of
                itself,—full of hope and of belief;—gradually the hope darkens into fear, and the
                belief into doubt; one illusion perishes after another, "and love grown too
-               sorrowful," <quote>
-                  <lg type="stanza">
-                     <l rendition="#indent2">Asks for its youth again.<note> "Come
-                           Home" (27-8).</note>
-                     </l>
-                  </lg>
-               </quote>
-               <lb/><fw type="sig">2 G 2</fw>
-            </p>
-            <pb n="428"/>
-            <p> No emotion is more truly, or more often pictured in her song, than that craving for
+               sorrowful," <quote><lg type="stanza"><l rendition="#indent2">Asks for its youth again.<note> "Come
+                           Home" (27-8).</note></l></lg></quote><lb/><fw type="sig">2 G 2</fw></p><pb n="428"/><p> No emotion is more truly, or more often pictured in her song, than that craving for
                affection which answers not unto the call. The very power that she possesses, and
                which, in early youth, she perhaps deemed would both attract and keep, is, in
                reality, a drawback. Nothing can stand its test. The love which the spirit hath
@@ -892,94 +115,17 @@
                framework, but she casts her own colour upon the picture. In this consists the
                difference between painting and poetry: the painter reproduces others,—the poet
                reproduces himself. We would draw attention especially to one or two poems in which
-               the sentiment is too true for Mrs. <ref target="people.html#HemansFelicia"
-                  >Hemans</ref> not to have been her own inspiration. Is it not the heart's
-               long-suppressed bitterness that exclaims— <quote>
-                  <lg type="stanza">
-                     <l rendition="#indent9">Tell me no more—no more</l>
-                     <l>Of my soul's lofty gifts! are they not vain</l>
-                     <l>To quench its panting thirst for happiness?</l>
-                     <l>Have I not tried, and striven, and failed to bind</l>
-                     <l>One true heart unto me, whereon my own</l>
-                     <l>Might find a resting-place—a home for all</l>
-                     <l>Its burden of affections? I depart</l>
-                     <l>Unknown, though fame goes with me; I must leave</l>
-                     <l>The earth unknown. Yet it may be that death</l>
-                     <l>Shall give my name a power to win such tears</l>
-                     <l>As might have made life precious. <note>Epigraph to
-                           "Properzia Rossi," probably by <ref target="people.html#HemansFelicia"
-                              >Hemans</ref> herself.</note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
-            <p> How exquisitely is the doom of a woman, in whose being pride, genius, and tenderness
+               the sentiment is too true for Mrs. <ref target="people.html#HemansFelicia">Hemans</ref> not to have been her own inspiration. Is it not the heart's
+               long-suppressed bitterness that exclaims— <quote><lg type="stanza"><l rendition="#indent9">Tell me no more—no more</l><l>Of my soul's lofty gifts! are they not vain</l><l>To quench its panting thirst for happiness?</l><l>Have I not tried, and striven, and failed to bind</l><l>One true heart unto me, whereon my own</l><l>Might find a resting-place—a home for all</l><l>Its burden of affections? I depart</l><l>Unknown, though fame goes with me; I must leave</l><l>The earth unknown. Yet it may be that death</l><l>Shall give my name a power to win such tears</l><l>As might have made life precious. <note>Epigraph to
+                           "Properzia Rossi," probably by <ref target="people.html#HemansFelicia">Hemans</ref> herself.</note></l></lg></quote></p><p> How exquisitely is the doom of a woman, in whose being pride, genius, and tenderness
                contend for mastery, shadowed in the lines that succeed! The pride bows to the very
                dust; for genius is like an astrologer whose power fails when the mighty spell is
                tried for himself; and the tenderness turns away with a crushed heart to perish in
                neglect. We proceed to mark what appears to bear the deep impress of individual
-               suffering:— <quote>
-                  <lg type="stanza">
-                     <l>One dream of passion and of beauty more:</l>
-                     <l>And in its bright fulfilment [sic] let me pour</l>
-                     <l>My soul away! Let earth retain a trace</l>
-                     <l>Of that which lit my being, though its race</l>
-                     <l>Might have been loftier far.    .    .    .    .</l>
-                     <l>.    .    .    .    .    .    For thee alone, for thee!</l>
-                     <l>May this last work, this farewell triumph be—</l>
-                     <l>Thou loved so vainly! I would leave enshrined</l>
-                     <l>Something immortal of my heart and mind,</l>
-                     <l>That yet may speak to thee when I am gone,</l>
-                     <l>Shaking thine inmost bosom with a tone</l>
-                     <l>Of best affection—something that may prove</l>
-                     <l>What she hath been, whose melancholy love</l>
-                     <l>On thee was lavished; silent love and tear,</l>
-                     <l>And fervent song that gushed when none were near,</l>
-                     <l>And dream by night, and weary thought by day,</l>
-                     <l>Stealing the brightness from her life away.</l>
-                  </lg>
-                  <lg type="stanza">
-                     <l>And thou, oh! thou on whom my spirit cast</l>
-                     <l>Unvalued wealth—who knew not what was given</l>
-                     <l>In that devotedness, the sad and deep</l>
-                     <l>And unrepaid farewell! If I could weep</l>
-                     <l>Once, only once, beloved one! on thy breast,</l>
-                     <l>Pouring my heart forth ere I sink to rest!</l>
-                     <l>But that were happiness, and unto me</l>
-                     <l>Earth's gift is fame.</l>
-                  </lg>
-               <pb n="429"/>
-                  <lg type="stanza">
-                     <l rendition="#indent15">I have been</l>
-                     <l>Too much alone.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "Properzia Rossi"
-                           (1-18; 103-10; 65-6).</note>
-                     </l>
-                  </lg>
-               </quote> With the same sympathy does she stand beside the grave of the author of
-                  "Psyche"—<note>
-                  <ref target="people.html#TigheMary">
-                     <name>Mary Tighe</name>
-                  </ref> (1772-1810) published "Psyche; or The Legend of Love" in 1811.</note>
-               <quote>
-                  <lg type="stanza">
-                     <l>And mournful grew my heart for thee—</l>
-                     <l>Thou in whose woman's mind</l>
-                     <l>The ray that brightens earth and sea,</l>
-                     <l>The light of song was shrined.</l>
-                  </lg>
-                  <lg type="stanza">
-                     <l>Thou hast left sorrow in thy song,</l>
-                     <l>A voice not loud but deep!</l>
-                     <l>The glorious bowers of earth among</l>
-                     <l>How often didst thou weep!<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "The Grave of a
-                           Poetess" (13-16, 45-8). </note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
-            <p> Did we not know this world to be but a place of trial—our bitter probation for
+               suffering:— <quote><lg type="stanza"><l>One dream of passion and of beauty more:</l><l>And in its bright fulfilment [sic] let me pour</l><l>My soul away! Let earth retain a trace</l><l>Of that which lit my being, though its race</l><l>Might have been loftier far.    .    .    .    .</l><l>.    .    .    .    .    .    For thee alone, for thee!</l><l>May this last work, this farewell triumph be—</l><l>Thou loved so vainly! I would leave enshrined</l><l>Something immortal of my heart and mind,</l><l>That yet may speak to thee when I am gone,</l><l>Shaking thine inmost bosom with a tone</l><l>Of best affection—something that may prove</l><l>What she hath been, whose melancholy love</l><l>On thee was lavished; silent love and tear,</l><l>And fervent song that gushed when none were near,</l><l>And dream by night, and weary thought by day,</l><l>Stealing the brightness from her life away.</l></lg><lg type="stanza"><l>And thou, oh! thou on whom my spirit cast</l><l>Unvalued wealth—who knew not what was given</l><l>In that devotedness, the sad and deep</l><l>And unrepaid farewell! If I could weep</l><l>Once, only once, beloved one! on thy breast,</l><l>Pouring my heart forth ere I sink to rest!</l><l>But that were happiness, and unto me</l><l>Earth's gift is fame.</l></lg><pb n="429"/><lg type="stanza"><l rendition="#indent15">I have been</l><l>Too much alone.<note><ref target="people.html#HemansFelicia">Hemans</ref>, "Properzia Rossi"
+                           (1-18; 103-10; 65-6).</note></l></lg></quote> With the same sympathy does she stand beside the grave of the author of
+                  "Psyche"—<note><ref target="people.html#TigheMary"><name>Mary Tighe</name></ref> (1772-1810) published "Psyche; or The Legend of Love" in 1811.</note><quote><lg type="stanza"><l>And mournful grew my heart for thee—</l><l>Thou in whose woman's mind</l><l>The ray that brightens earth and sea,</l><l>The light of song was shrined.</l></lg><lg type="stanza"><l>Thou hast left sorrow in thy song,</l><l>A voice not loud but deep!</l><l>The glorious bowers of earth among</l><l>How often didst thou weep!<note><ref target="people.html#HemansFelicia">Hemans</ref>, "The Grave of a
+                           Poetess" (13-16, 45-8). </note></l></lg></quote></p><p> Did we not know this world to be but a place of trial—our bitter probation for
                another and for a better—how strange in its severity would seem the lot of genius in
                a woman. The keen feeling—the generous enthusiasm—the lofty aspiration—and the
                delicate perception—are given but to make the possessor unfitted for her actual
@@ -992,21 +138,8 @@
                clear amber of the west, leaving a soft and unbroken azure whereon the stars may
                shine through; so the troubles of life, its vain regrets and vainer desires, vanished
                before the calm close of existence—the hopes of Heaven rose steadfast at last—the
-               light shone from the windows of her home as she approached unto it. <quote>
-                  <lg type="stanza">
-                     <l>No tears for thee, though light be from us gone</l>
-                     <l>With thy soul’s radiance, bright and restless one—</l>
-                     <l rendition="#indent9">No tears for thee.</l>
-                     <l>They that have loved an exile must not mourn</l>
-                     <l>To see him parting for his native bourn,</l>
-                     <l rendition="#indent9">O’er the dark sea.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref> "The Requiem of
-                           Genius" (1-6).</note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
-            <p> We have noticed this yearning for affection—unsatisfied, but still unsubdued—as one
+               light shone from the windows of her home as she approached unto it. <quote><lg type="stanza"><l>No tears for thee, though light be from us gone</l><l>With thy soul’s radiance, bright and restless one—</l><l rendition="#indent9">No tears for thee.</l><l>They that have loved an exile must not mourn</l><l>To see him parting for his native bourn,</l><l rendition="#indent9">O’er the dark sea.<note><ref target="people.html#HemansFelicia">Hemans</ref> "The Requiem of
+                           Genius" (1-6).</note></l></lg></quote></p><p> We have noticed this yearning for affection—unsatisfied, but still unsubdued—as one
                characteristic of Mrs. <ref target="people.html#HemansFelicia">Hemans</ref>'s poetry:
                the rich picturesque was another. Highly accomplished, the varied stores that she
                possessed were all subservient to one master science. Mistress both of German and
@@ -1017,8 +150,7 @@
                British flag from the ocean to the Pyrenees; but, with that craving for the ideal
                which is so great a feature in her writings, the present was insufficient, and she
                went back upon the past;—the romantic history of the Moors was like a storehouse,
-               with treasures gorgeous like those of its own Alhambra. </p>
-            <p> It is observable in her minor poems that they turn upon an incident rather than a
+               with treasures gorgeous like those of its own Alhambra. </p><p> It is observable in her minor poems that they turn upon an incident rather than a
                feeling. Feelings, true and deep, are developed; but one single emotion is never the
                original subject. Some graceful or touching anecdote or situation catches her
                attention, and its poetry is developed in a strain of mourning melody, and a vein of
@@ -1027,86 +159,40 @@
                than to know under what circumstances they were composed,—how much of individual
                sentiment there was in each, or how, on some incident seemingly even opposed, they
                had contrived to ingraft their own associations. What a history of the heart would
-               such annals reveal! Every poem is in itself an impulse.</p>
-            <p> Besides the ideal and the picturesque, Mrs. <ref target="people.html#HemansFelicia"
-                  >Hemans</ref> is distinguished by her harmony. I use the word harmony advisedly,
+               such annals reveal! Every poem is in itself an impulse.</p><p> Besides the ideal and the picturesque, Mrs. <ref target="people.html#HemansFelicia">Hemans</ref> is distinguished by her harmony. I use the word harmony advisedly,
                in contradistinction to melody. Melody implies something more careless, more simple,
                than belongs to her style: it is song by snatches; our English ballads are remarkable
-               for it. To quote an instance or two. There is a verse in that of "Yarrow Water:"— <quote>
-                  <lg type="stanza">
-                     <l>O wind that wandereth from the south,</l>
-                     <l rendition="#indent1">Seek where my love repaireth,</l>
-                     <l>And blow a kiss to his dear mouth,</l>
-                     <l rendition="#indent1">And tell me how he fareth.<note>"Willy
-                           Drowned in Yarrow" (9-12), a traditional ballad.</note>
-                     </l>
-                  </lg>
-               </quote> Nothing can exceed the tender sweetness of these lines; but there is no
-               skill. Again, in "Faire Rosamonde," the verse that describes the cruelty of Eleanor,—<quote>
-                  <lg type="stanza">
-                     <l>With that she struck her on the mouth,</l>
-                     <l rendition="#indent1">So dyed double red;</l>
-                     <l>Hard was the heart that gave the blow,</l>
-                     <l rendition="#indent1">Soft were the lips that bled.<note>
-                           <ref target="people.html#WarnerWilliam">
-                              <name>William Warner</name>
-                           </ref>, <hi rendition="#italics"> Albion's England</hi> (1586), Book
-                           VIII, chap. xli, stanza 53.</note>
-                     </l>
-                  </lg>
-               </quote> How musical is the alliteration; but it is music which, like that of the
-               singing brook, has sprung up of itself. Now, Mrs. <ref
-                  target="people.html#HemansFelicia">Hemans</ref> has the most perfect skill in her
+               for it. To quote an instance or two. There is a verse in that of "Yarrow Water:"— <quote><lg type="stanza"><l>O wind that wandereth from the south,</l><l rendition="#indent1">Seek where my love repaireth,</l><l>And blow a kiss to his dear mouth,</l><l rendition="#indent1">And tell me how he fareth.<note>"Willy
+                           Drowned in Yarrow" (9-12), a traditional ballad.</note></l></lg></quote> Nothing can exceed the tender sweetness of these lines; but there is no
+               skill. Again, in "Faire Rosamonde," the verse that describes the cruelty of Eleanor,—<quote><lg type="stanza"><l>With that she struck her on the mouth,</l><l rendition="#indent1">So dyed double red;</l><l>Hard was the heart that gave the blow,</l><l rendition="#indent1">Soft were the lips that bled.<note><ref target="people.html#WarnerWilliam"><name>William Warner</name></ref>, <hi rendition="#italics"> Albion's England</hi> (1586), Book
+                           VIII, chap. xli, stanza 53.</note></l></lg></quote> How musical is the alliteration; but it is music which, like that of the
+               singing brook, has sprung up of itself. Now, Mrs. <ref target="people.html#HemansFelicia">Hemans</ref> has the most perfect skill in her
                science; nothing can be more polished than her versification. Every poem is like a
                piece of music, with its eloquent pauses, its rich combinations, and its swelling
                chords. Who that has ever heard can forget the exquisite flow of "The Voice of
-               Spring?"— <quote>
-                  <lg type="stanza">
-                     <l>I come! I come!—ye have call'd me long;</l>
-                     <l>I come o'er the mountains with light and song!</l>
-                     <l>Ye may trace my step o'er the wakening earth,</l>
-                     <l>By the winds that tell of the violet's birth,</l>
-                     <l>By the primrose stars in the shadowy grass,</l>
-                     <l>By the green leaves opening as I pass.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "The Voice of
-                           Spring" (1-6).</note>
-                     </l>
-                  </lg>
-               </quote> It is like the finest order of Italian singing—pure, high, and
-               scientific.</p>
-            <p> I can never sufficiently regret that it was not my good fortune to know Mrs. <ref
-                  target="people.html#HemansFelicia">Hemans</ref> personally; it was an honour I
+               Spring?"— <quote><lg type="stanza"><l>I come! I come!—ye have call'd me long;</l><l>I come o'er the mountains with light and song!</l><l>Ye may trace my step o'er the wakening earth,</l><l>By the winds that tell of the violet's birth,</l><l>By the primrose stars in the shadowy grass,</l><l>By the green leaves opening as I pass.<note><ref target="people.html#HemansFelicia">Hemans</ref>, "The Voice of
+                           Spring" (1-6).</note></l></lg></quote> It is like the finest order of Italian singing—pure, high, and
+               scientific.</p><p> I can never sufficiently regret that it was not my good fortune to know Mrs. <ref target="people.html#HemansFelicia">Hemans</ref> personally; it was an honour I
                should have estimated so highly—a happiness that I should have enjoyed so keenly. I
                never even met with an acquaintance of hers but once; that once, however, was much. I
-               knew <ref target="people.html#JewsburyMaria">
-                  <name>Miss Jewsbury</name>
-               </ref>, the late lamented <ref target="people.html#JewsburyMaria">Mrs.
-               Fletcher</ref>. She delighted in speaking of Mrs. <ref
-                  target="people.html#HemansFelicia">Hemans</ref>: she spoke of her with her
+               knew <ref target="people.html#JewsburyMaria"><name>Miss Jewsbury</name></ref>, the late lamented <ref target="people.html#JewsburyMaria">Mrs.
+               Fletcher</ref>. She delighted in speaking of Mrs. <ref target="people.html#HemansFelicia">Hemans</ref>: she spoke of her with her
                appreciation of one fine mind comprehending another, and with the earnest affection
                of a woman and a friend. She described her conversation as singularly
                fascinating—full of poetry, very felicitous in illustration by anecdote, happy, too,
                in quotation, and very rich in imagery; "in short, her own poem on 'The Treasures of
                the Deep' would best describe it." She mentioned a very striking simile to which a
                conversation on Mrs. <ref target="people.html#HemansFelicia">Hemans</ref>'s own poem
-               of "The Sceptic"<note>
-                  <ref target="people.html#HemansFelicia">Hemans</ref> "The Sceptic." Murray. [<hi
-                     rendition="#italics">New Monthly Magazine</hi> note]. "The Treasures of the
-                  Deep" appeared as one of the "Miscellaneous Pieces" included in <ref
-                     target="people.html#HemansFelicia">Hemans</ref>'s <hi rendition="#italics"
-                     >Forest Sanctuary; with Other Poems</hi> (1825).</note> had led:— <pb n="431"/>
-               "Like <ref target="people.html#Sinbad">
-                  <name>Sinbad</name>
-               </ref>, the sailor, we are often shipwrecked on a strange shore. We despair; but hope
+               of "The Sceptic"<note><ref target="people.html#HemansFelicia">Hemans</ref> "The Sceptic." Murray. [<hi rendition="#italics">New Monthly Magazine</hi> note]. "The Treasures of the
+                  Deep" appeared as one of the "Miscellaneous Pieces" included in <ref target="people.html#HemansFelicia">Hemans</ref>'s <hi rendition="#italics">Forest Sanctuary; with Other Poems</hi> (1825).</note> had led:— <pb n="431"/>
+               "Like <ref target="people.html#Sinbad"><name>Sinbad</name></ref>, the sailor, we are often shipwrecked on a strange shore. We despair; but hope
                comes when least expected. We pass through the gloomy caverns of doubt into the free
                air and blessed sunshine of conviction and belief." I asked her if she thought Mrs.
                   <ref target="people.html#HemansFelicia">Hemans</ref> a happy person; and she said,
                "No; her enjoyment is feverish, and she desponds. She is like a lamp whose oil is
                consumed by the very light which it yields." What a cruel thing is the weakness of
                memory! How little can its utmost efforts recall of conversation that was once an
-               instruction and a delight!</p>
-            <p>To the three characteristics of Mrs. <ref target="people.html#HemansFelicia"
-                  >Hemans</ref>'s poetry which have already been mentioned—viz., the ideal, the
+               instruction and a delight!</p><p>To the three characteristics of Mrs. <ref target="people.html#HemansFelicia">Hemans</ref>'s poetry which have already been mentioned—viz., the ideal, the
                picturesque, and the harmonious—a fourth must be added,—the moral. Nothing can be
                more pure, more feminine and exalted, than the spirit which pervades the whole: it is
                the intuitive sense of right, elevated and strengthened into a principle. It is a
@@ -1123,59 +209,20 @@
                the aching sense of being misunderstood, the consciousness that those a thousand
                times inferior were yet more beloved. Genius places a woman in an unnatural position;
                notoriety frightens away affection; and superiority has for its attendant fear, not
-               love. Its pleasantest emotions are too vivid to be lasting: hopes may sometimes,<quote>
-                  <lg type="stanza">
-                     <l rendition="#indent6">Raising its bright face,</l>
-                     <l>With a free gush of sunny tears, erase</l>
-                     <l>The characters of anguish;<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "Arabella Stuart"
-                           (37-9).</note>
-                     </l>
-                  </lg>
-               </quote> but, like the azure glimpses between thunder-showers, the clouds gather more
+               love. Its pleasantest emotions are too vivid to be lasting: hopes may sometimes,<quote><lg type="stanza"><l rendition="#indent6">Raising its bright face,</l><l>With a free gush of sunny tears, erase</l><l>The characters of anguish;<note><ref target="people.html#HemansFelicia">Hemans</ref>, "Arabella Stuart"
+                           (37-9).</note></l></lg></quote> but, like the azure glimpses between thunder-showers, the clouds gather more
                darkly around for the passing sunshine. The heart sinks back on its solitary
-               desolation. In every page of Mrs. <ref target="people.html#HemansFelicia"
-                  >Hemans</ref>'s writings is this sentiment impressed; what is the conclusion of
-               "Corinne crowned at the Capitol?"<quote>
-                  <lg type="stanza">
-                     <l>Radiant daughter of the sun!</l>
-                     <l>Now thy living wreath is won.</l>
-                     <l>Crown'd of Rome! Oh, art thou not</l>
-                     <l>Happy in that glorious lot?</l>
-                     <l>Happier, happier far than thou</l>
-                     <l>With the laurel on thy brow,</l>
-                     <l>She that makes the humblest hearth</l>
-                     <l>Lovely but to one on earth.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "Corinne at the
-                           Capitol" (41-8).</note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
-            <p> What is poetry, and what is a poetical career? The first is to have an organization
+               desolation. In every page of Mrs. <ref target="people.html#HemansFelicia">Hemans</ref>'s writings is this sentiment impressed; what is the conclusion of
+               "Corinne crowned at the Capitol?"<quote><lg type="stanza"><l>Radiant daughter of the sun!</l><l>Now thy living wreath is won.</l><l>Crown'd of Rome! Oh, art thou not</l><l>Happy in that glorious lot?</l><l>Happier, happier far than thou</l><l>With the laurel on thy brow,</l><l>She that makes the humblest hearth</l><l>Lovely but to one on earth.<note><ref target="people.html#HemansFelicia">Hemans</ref>, "Corinne at the
+                           Capitol" (41-8).</note></l></lg></quote></p><p> What is poetry, and what is a poetical career? The first is to have an organization
                of extreme sensibility, which the second exposes bareheaded to the rudest weather.
                The original impulse is irresistible—all professions are engrossing when once began;
                and acting with perpetual stimulus, nothing takes more complete possession of its
                follower than <pb n="432"/> literature. But never can success repay its cost. The
                work appears—it lives in the light of popular applause; but truly might the writer
-               exclaim— <quote>
-                  <lg type="stanza">
-                     <l>It is my youth—it is my bloom—it is my glad free heart</l>
-                     <l>I cast away for thee—for thee—ill fated as thou art.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "The Chamois
-                           Hunter's Love" (17-18).</note>
-                     </l>
-                  </lg>
-               </quote> If this be true even of one sex, how much more true of the other. Ah! Fame
-               to a woman is indeed but a royal mourning in purple for happiness. </p>
-            <lb/>
-            <p rendition="#center"
-               >&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p>
-            <p>
-               <hi rendition="#smcaps">Note</hi>.—I have alluded to <ref
-                  target="people.html#JewsburyMaria">
-                  <name>Miss Jewsbury</name>
-               </ref> (<ref target="people.html#JewsburyMaria">Mrs. Fletcher</ref>), and cannot
+               exclaim— <quote><lg type="stanza"><l>It is my youth—it is my bloom—it is my glad free heart</l><l>I cast away for thee—for thee—ill fated as thou art.<note><ref target="people.html#HemansFelicia">Hemans</ref>, "The Chamois
+                           Hunter's Love" (17-18).</note></l></lg></quote> If this be true even of one sex, how much more true of the other. Ah! Fame
+               to a woman is indeed but a royal mourning in purple for happiness. </p><lb/><p rendition="#center">—————————</p><p><hi rendition="#smcaps">Note</hi>.—I have alluded to <ref target="people.html#JewsburyMaria"><name>Miss Jewsbury</name></ref> (<ref target="people.html#JewsburyMaria">Mrs. Fletcher</ref>), and cannot
                resist a brief recollection of one who was equally amiable and accomplished. I never
                met with any woman who possessed her powers of conversation. If her language had a
                fault, it was its extreme perfection. It was like reading an eloquent book—full of
@@ -1184,16 +231,8 @@
                There is no word that will so thoroughly describe her as "high-minded;" she was such
                in every sense of the word. There was no envy, no bitterness about her; and it must
                be a lofty nature that delights in admiration. Greatly impressed as I was with her
-               powers, it surprised me to note how much she desponded over them. <quote>
-                  <lg type="stanza">
-                     <l rendition="#indent8">Day by day,</l>
-                     <l>Gliding, like some dark mournful stream away,</l>
-                     <l>My silent youth flows from me.<note>
-                           <ref target="people.html#HemansFelicia">Hemans</ref>, "Arabella Stuart"
-                           (125-7).</note>
-                     </l>
-                  </lg>
-               </quote> Alas! it was the shadow of the early grave that rested upon her. Her letters
+               powers, it surprised me to note how much she desponded over them. <quote><lg type="stanza"><l rendition="#indent8">Day by day,</l><l>Gliding, like some dark mournful stream away,</l><l>My silent youth flows from me.<note><ref target="people.html#HemansFelicia">Hemans</ref>, "Arabella Stuart"
+                           (125-7).</note></l></lg></quote> Alas! it was the shadow of the early grave that rested upon her. Her letters
                were very brilliant, and I believe her correspondence was extensive; what a pity that
                they should not be collected. Speaking of Wordsworth she said, "There is about him a
                grand and noble plainness, a dignified simplicity—a something of high ideal Paganism,
@@ -1216,38 +255,17 @@
                as at other times with our inferior nature for refusing submission.I think that
                wisdom may wear 'motley,' and truth, unlike man, be born laughing; and that until we
                go into society thus determined to seek for more than mere amusement in pleasure, we
-               must not be surprised to find ourselves <pb n="433"/> living in Thalaba's<note>
-                  <ref target="people.html#SoutheyRobert">
-                     <name>Title character in Southey's</name>
-                  </ref>
-                  <hi rendition="#italics"> Thalaba the Destroyer</hi> (1801).</note> palace of the
+               must not be surprised to find ourselves <pb n="433"/> living in Thalaba's<note><ref target="people.html#SoutheyRobert"><name>Title character in Southey's</name></ref><hi rendition="#italics"> Thalaba the Destroyer</hi> (1801).</note> palace of the
                desert—a creation of clouds. Genius ought everywhere to be true to itself—to its
                origin, the divine mind—to its home, the undying spirit—to its power, that of being a
                blessing—to its reward, that of being remembered. If genius be not true to itself, if
                in reckless sport it flings around the flowers and tendrils, how are we ever to look
-               for a fruitage time?"</p>
-            <p> I need not dwell on the eloquence and beauty of such passages, and her letters were
-               filled with them. <ref target="people.html#JewsburyMaria">
-                  <name>Mrs. Fletcher</name>
-               </ref> went to India, full of hope and belief—she thought she might do much good.
+               for a fruitage time?"</p><p> I need not dwell on the eloquence and beauty of such passages, and her letters were
+               filled with them. <ref target="people.html#JewsburyMaria"><name>Mrs. Fletcher</name></ref> went to India, full of hope and belief—she thought she might do much good.
                These anticipations were fated to disappointment. The tomb has closed upon her warm
-               and kindly heart. Better it should be thus. <quote>
-                  <lg type="stanza">
-                     <l>Where couldst thou fix on mortal ground</l>
-                     <l rendition="#indent1">Thy tender thoughts and high?</l>
-                     <l>Now peace the woman’s heart hath found,</l>
-                     <l rendition="#indent1">And joy the poet’s eye.<note>It is
+               and kindly heart. Better it should be thus. <quote><lg type="stanza"><l>Where couldst thou fix on mortal ground</l><l rendition="#indent1">Thy tender thoughts and high?</l><l>Now peace the woman’s heart hath found,</l><l rendition="#indent1">And joy the poet’s eye.<note>It is
                            almost needless to say, that all the poetical quotations are from Mrs.
                               <ref target="people.html#HemansFelicia">Hemans</ref>'s own writings.
                               [<hi rendition="#italics">New Monthly Magazine </hi> note.] The
                            quotation is from <ref target="people.html#HemansFelicia">Hemans</ref>'s
-                           "The Grave of a Poetess" (49-52).</note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
-            <p rendition="#right">L. E. L.</p>
-         </div>
-      </body>
-   </text>
-</TEI>
+                           "The Grave of a Poetess" (49-52).</note></l></lg></quote></p><p rendition="#right">L. E. L.</p></div></body></text></TEI>

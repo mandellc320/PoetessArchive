@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Preliminary Essay to the Selections from the
                Spectator</title>
-            <author type="writer">
-               <name>Anna Letitia Barbauld</name>
-            </author>
+            <author type="writer"><name>Anna Letitia Barbauld</name></author>
             <respStmt>
                <resp>Editor</resp>
                <name xml:id="MW">Mary A. Waters</name>
@@ -15,6 +13,10 @@
             <respStmt>
                <resp>Editing and Encoding assistance</resp>
                <name xml:id="RD">Rachel Dejmal</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding Assistance</resp>
+               <name xml:id="GR">Gabrielle Ramirez</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -32,17 +34,15 @@
             <biblStruct>
                <analytic>
                   <title type="main" level="a">Preliminary Essay</title>
-                  <author type="writer">
-                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-                  </author>
+                  <author type="writer"><name>Barbauld, Mrs. (Anna Letitia),
+                     1743-1825</name></author>
                </analytic>
                <monogr>
                   <title type="main" level="m">Selections from the Spectator, Tatler, Guardian, and
                      Freeholder</title>
                   <title type="sub">with a Preliminary Esssay, by Anna Lætitia Barbauld</title>
-                  <editor role="editor">
-                     <name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-                  </editor>
+                  <editor role="editor"><name>Barbauld, Mrs. (Anna Letitia),
+                     1743-1825</name></editor>
                   <imprint>
                      <pubPlace>London, UK</pubPlace>
                      <publisher>J. Johnson</publisher>
@@ -129,602 +129,348 @@
                </category>
             </taxonomy>
             <taxonomy xml:id="g">
-               <bibl>Genre and Material Form</bibl>
+               <bibl>Genre</bibl>
                <category xml:id="g1">
-                  <catDesc>pageimage</catDesc>
-               </category>
-               <category xml:id="g2">
                   <catDesc>biography</catDesc>
                </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
                <category xml:id="g3">
-                  <catDesc>biographical essay</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>poetry pamphlet</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>poetry book</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>poem</catDesc>
-               </category>
-               <category xml:id="g7">
                   <catDesc>story</catDesc>
                </category>
-               <category xml:id="g8">
+               <category xml:id="g4">
                   <catDesc>drama</catDesc>
                </category>
-               <category xml:id="g9">
-                  <catDesc>table of contents</catDesc>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
                </category>
-               <category xml:id="g10">
-                  <catDesc>table of illustrations</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>picture</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>index</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>notes</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>frontispiece</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>inscription page</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>book boards</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>titlepage</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>preface</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>advertisement</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>foreword</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>acknowledgments</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>collection literary annual</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>collection miscellany</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>collection anthology</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>collection beauties</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>collection juvenile</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>collection religious</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>collection travels</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>mixed</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>essay</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>review</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>letter</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>fragment poem</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>fragment story</catDesc>
-               </category>
-               <category xml:id="g35">
-                  <catDesc>fragment novel</catDesc>
-               </category>
-               <category xml:id="g36">
-                  <catDesc>literary criticism book</catDesc>
-               </category>
-               <category xml:id="g37">
-                  <catDesc>literary criticism collection</catDesc>
-               </category>
-               <category xml:id="g38">
-                  <catDesc>bibliography</catDesc>
-               </category>
-               <category xml:id="g39">
-                  <catDesc>engraving</catDesc>
-               </category>
-               <category xml:id="g40">
-                  <catDesc>reproduction</catDesc>
-               </category>
-               <category xml:id="g41">
-                  <catDesc>figure</catDesc>
-               </category>
-               <category xml:id="g42">
-                  <catDesc>graph</catDesc>
-               </category>
-               <category xml:id="g43">
-                  <catDesc>map</catDesc>
-               </category>
-               <category xml:id="g44">
-                  <catDesc>table</catDesc>
-               </category>
-               <category xml:id="g45">
-                  <catDesc>musical score</catDesc>
-               </category>
-               <category xml:id="g46">
-                  <catDesc>music</catDesc>
-               </category>
-               <category xml:id="g47">
+               <category xml:id="g6">
                   <catDesc>satire</catDesc>
                </category>
-               <category xml:id="g48">
-                  <catDesc>political pamphlet</catDesc>
-               </category>
-               <category xml:id="g49">
-                  <catDesc>political cartoon</catDesc>
-               </category>
-               <category xml:id="g50">
-                  <catDesc>periodical</catDesc>
-               </category>
-               <category xml:id="g51">
-                  <catDesc>historical monograph</catDesc>
-               </category>
-               <category xml:id="g52">
-                  <catDesc>historical essay</catDesc>
-               </category>
-               <category xml:id="g53">
-                  <catDesc>philosophical treatise</catDesc>
-               </category>
-               <category xml:id="g54">
-                  <catDesc>philosophical essay</catDesc>
-               </category>
-               <category xml:id="g55">
-                  <catDesc>religious pamphlet</catDesc>
-               </category>
-               <category xml:id="g56">
-                  <catDesc>sermon</catDesc>
-               </category>
-               <category xml:id="g57">
-                  <catDesc>theology</catDesc>
-               </category>
-               <category xml:id="g58">
-                  <catDesc>religious book</catDesc>
-               </category>
-               <category xml:id="g59">
-                  <catDesc>essay on education</catDesc>
-               </category>
-               <category xml:id="g60">
-                  <catDesc>educational treatise</catDesc>
-               </category>
-               <category xml:id="g61">
-                  <catDesc>list of subscribers</catDesc>
-               </category>
-               <category xml:id="g62">
+               <category xml:id="g7">
                   <catDesc>allegory</catDesc>
                </category>
-               <category xml:id="g63">
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
                   <catDesc>introduction</catDesc>
                </category>
-               <category xml:id="g64">
-                  <catDesc>slipcase</catDesc>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
                </category>
-               <category xml:id="g65">
-                  <catDesc>dedication</catDesc>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
                </category>
-               <category xml:id="g66">
-                  <catDesc>picture of building</catDesc>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
                </category>
-               <category xml:id="g67">
-                  <catDesc>floorplans</catDesc>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
                </category>
-               <category xml:id="g68">
-                  <catDesc>photograph</catDesc>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
                </category>
-               <category xml:id="g69">
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
                   <catDesc>translation</catDesc>
                </category>
-               <category xml:id="g70">
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
                   <catDesc>manuscript</catDesc>
                </category>
-               <category xml:id="g71">
-                  <catDesc>printersmark</catDesc>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
                </category>
-               <category xml:id="g72">
-                  <catDesc>literary criticism article</catDesc>
+               <category xml:id="f23">
+                  <catDesc>nonceCollection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="keyword">
-               <category xml:id="lcsh">
-                  <catDesc>Library of Congress Subject Headings, reduced to one word before
-                     hyphen</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="ag">
-               <bibl>ARC Genre Categories, July 1, 2017</bibl>
-               <category xml:id="ag1">
-                  <catDesc>Advertisement</catDesc>
-               </category>
-               <category xml:id="ag2">
-                  <catDesc>Animation</catDesc>
-               </category>
-               <category xml:id="ag3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="ag4">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="ag5">
-                  <catDesc>Chronology</catDesc>
-               </category>
-               <category xml:id="ag7">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="ag6">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="ag8">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="ag9">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="ag10">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="ag11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="ag12">
-                  <catDesc>Essay</catDesc>
-               </category>
-               <category xml:id="ag13">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="ag14">
-                  <catDesc>Film, Documentary</catDesc>
-               </category>
-               <category xml:id="ag15">
-                  <catDesc>Film, Experimental</catDesc>
-               </category>
-               <category xml:id="ag16">
-                  <catDesc>Film, Narrative</catDesc>
-               </category>
-               <category xml:id="ag17">
-                  <catDesc>Film, Other</catDesc>
-               </category>
-               <category xml:id="ag18">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="ag19">
-                  <catDesc>Interview</catDesc>
-               </category>
-               <category xml:id="ag20">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="ag21">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="ag22">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="ag23">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="ag24">
-                  <catDesc>Musical Work</catDesc>
-               </category>
-               <category xml:id="ag25">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="ag26">
-                  <catDesc>Nonficition</catDesc>
-               </category>
-               <category xml:id="ag27">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="ag28">
-                  <catDesc>Performance</catDesc>
-               </category>
-               <category xml:id="ag29">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="ag30">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="ag31">
-                  <catDesc>Political Statement</catDesc>
-               </category>
-               <category xml:id="ag32">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="ag33">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="ag34">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="ag35">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="ag36">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="ag37">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="ag38">
-                  <catDesc>Speech</catDesc>
-               </category>
-               <category xml:id="ag39">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="ag40">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="ag41">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="ag42">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-               xml:id="f">
-               <bibl>ARC Format Categories, July 1, 2017</bibl>
-               <category xml:id="f1">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="f2">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="f3">
-                  <catDesc>Dataset</catDesc>
-               </category>
-               <category xml:id="f4">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="f5">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="f6">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="f7">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="f8">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="f9">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="f10">
-                  <catDesc>Notated Music</catDesc>
-               </category>
-               <category xml:id="f11">
-                  <catDesc>Page Proofs</catDesc>
-               </category>
-               <category xml:id="f12">
-                  <catDesc>Pamphlet</catDesc>
-               </category>
-               <category xml:id="f13">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="f14">
-                  <catDesc>Physcial Object</catDesc>
-               </category>
-               <category xml:id="f15">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="f16">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="f17">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="f18">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="f19">
-                  <catDesc>Typescript</catDesc>
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
                </category>
             </taxonomy>
          </classDecl>
       </encodingDesc>
       <profileDesc>
          <textClass>
-            <keywords scheme="#lcsh">
+            <keywords scheme="#lcna">
                <list type="simple">
                   <item>Addison, Joseph, 1672-1719</item>
                   <item>Steele, Richard, Sir, 1672-1729</item>
-                  <item>English literature</item>
-                  <item>History</item>
+                  <item>Barbauld, Mrs. (Anna Letitia), 1743-1825</item>
                </list>
             </keywords>
             <catRef target="#ft1" scheme="#ft"/>
-            <catRef target="#ag9 #ag12 #ag20" scheme="#ag"/>
-            <catRef target="#f1" scheme="#f"/>
+            <catRef target="#f2" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef target="#g72 #g30 #g3 " scheme="#g"/>
+            <catRef target="#g11 #g13 #g16" scheme="#g"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20211214">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
+         <change who="#MW" when="20230302"><label>Changed by</label><name>Mary Waters</name><list
+               type="simple">
+               <item>changed catRef</item>
+            </list></change>
+         <change who="#LM" when="20230227"><label>Changed by</label><name>Laura Mandell</name><list
+               type="simple">
+               <item>new header</item>
+            </list></change>
+         <change who="#GR" when="20230111"><label>Changed by</label><name>Gabrielle
+               Ramirez</name><list type="simple">
+               <item>revised keywords</item>
+            </list></change>
+         <change who="#LM" when="20211214"><label>Changed by</label><name>Laura Mandell</name><list
+               type="simple">
                <item>had to roll back due to xml versioning error, revisions as below but starting
                   with August and March 2021 XML</item>
-            </list>
-         </change>
-         <change who="#LM" when="20210922">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
+            </list></change>
+         <change who="#LM" when="20210922"><label>Changed by</label><name>Laura Mandell</name><list
+               type="simple">
                <item>Added header teiHeader07232021.xml</item>
                <item>changed milestone sig to fw sig</item>
                <item>inserted line break before fw</item>
-            </list>
-         </change>
-         <change who="#LM" when="20200611" n="6">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
+            </list></change>
+         <change who="#LM" when="20200611" n="6"><label>Changed by</label><name>Laura
+               Mandell</name><list type="simple">
                <item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
-            </list>
-         </change>
-         <change who="#MW" when="2019-12-16" n="6">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
+            </list></change>
+         <change who="#MW" when="2019-12-16" n="6"><label>Changed by</label><name>Mary A.
+               Waters</name><list type="simple">
                <item>changed file name</item>
                <item>minor TEI encoding revision</item>
-            </list>
-         </change>
-         <change who="#LM" when="20190110" n="5">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
+            </list></change>
+         <change who="#LM" when="20190110" n="5"><label>Changed by</label><name>Laura
+               Mandell</name><list type="simple">
                <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
-            </list>
-         </change>
-         <change who="#MW" when="2016-08-20" n="4">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
+            </list></change>
+         <change who="#MW" when="2016-08-20" n="4"><label>Changed by</label><name>Mary A.
+               Waters</name><list type="simple">
                <item>TEI encoding revision</item>
-            </list>
-         </change>
-         <change who="#RD" when="2014-02-10" n="3">
-            <label>Changed by</label>
-            <name>Rachel Dejmal</name>
-            <list type="simple">
+            </list></change>
+         <change who="#RD" when="2014-02-10" n="3"><label>Changed by</label><name>Rachel
+               Dejmal</name><list type="simple">
                <item>TEI encoding revisions</item>
-            </list>
-         </change>
-         <change who="#MW" when="2010-12-01" n="2">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
+            </list></change>
+         <change who="#MW" when="2010-12-01" n="2"><label>Changed by</label><name>Mary A.
+               Waters</name><list type="simple">
                <item>TEI encoding</item>
-            </list>
-         </change>
-         <change who="#MW" when="2010-12-01" n="1">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
+            </list></change>
+         <change who="#MW" when="2010-12-01" n="1"><label>Changed by</label><name>Mary A.
+               Waters</name><list type="simple">
                <item>Created Edition</item>
-            </list>
-         </change>
+            </list></change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="essay">
-            <head>
-               <bibl>
-                  <author type="writer">
-                     <name>
-                        <ref target="people.html#BarbauldMrs">Anna Letitia Barbauld</ref>
-                     </name>
-                  </author>
-                  <title type="main" level="a">PRELIMINARY ESSAY <lb/>
-                     <hi rendition="#smcaps">to the</hi>
-                     <lb/>SELECTIONS FROM THE <title>SPECTATOR</title>, &amp;c. <note>
-                        <title>
-                           <hi rendition="#italics">Selections from the </hi>
-                           <title>Spectator</title>
-                           <hi rendition="#italics">, </hi>
-                           <title>Tatler</title>
-                           <hi rendition="#italics">, </hi>
-                           <title>Guardian</title>
-                           <hi rendition="#italics">, and </hi>
-                           <title>Freeholder</title>: <hi rendition="#italics">with a
-                                 <title>Preliminary Esssay</title>, by <ref
-                                 target="people.html#BarbauldMrs">Anna Lætitia Barbauld</ref>
-                           </hi>
-                        </title>, 3 Vols. (London: Printed for J. Johnson, St. Paul's Churchyard, by
-                        R. Taylor and Co., Black-horse Court, Fleet Street, 1804), 1:i-xxxiv.
-                     </note>
-                  </title>
-               </bibl>
-            </head>
-            <p rendition="#noindent">
-               <hi rendition="#largest">I</hi>
-               <hi rendition="#smcaps">t</hi> is equally true of books as of their authors, that one
-               generation passeth away and another cometh. Whoever has lived long enough to compare
-               one race of men with that which has preceded it, will have observed a change, not
-               only in the tastes and habitudes of common life, but in the fashion of their studies,
-               and their course of general reading. Books influence manners; and manners, in return,
-               influence the taste for books.</p>
+            <head><bibl><author type="writer"><name><ref target="people.html#BarbauldMrs">Anna
+                           Letitia Barbauld</ref></name></author><title type="main" level="a"
+                     >PRELIMINARY ESSAY <lb/><hi rendition="#smcaps">to the</hi><lb/>SELECTIONS FROM
+                     THE <title>SPECTATOR</title>, &amp;c. <note><title><hi rendition="#italics"
+                              >Selections from the </hi><title>Spectator</title><hi
+                              rendition="#italics">, </hi><title>Tatler</title><hi
+                              rendition="#italics">, </hi><title>Guardian</title><hi
+                              rendition="#italics">, and </hi><title>Freeholder</title>: <hi
+                              rendition="#italics">with a <title>Preliminary Esssay</title>, by <ref
+                                 target="people.html#BarbauldMrs">Anna Lætitia
+                           Barbauld</ref></hi></title>, 3 Vols. (London: Printed for J. Johnson, St.
+                        Paul's Churchyard, by R. Taylor and Co., Black-horse Court, Fleet Street,
+                        1804), 1:i-xxxiv. </note></title></bibl></head>
+            <p rendition="#noindent"><hi rendition="#largest">I</hi><hi rendition="#smcaps">t</hi>
+               is equally true of books as of their authors, that one generation passeth away and
+               another cometh. Whoever has lived long enough to compare one race of men with that
+               which has preceded it, will have observed a change, not only in the tastes and
+               habitudes of common life, but in the fashion of their studies, and their course of
+               general reading. Books influence manners; and manners, in return, influence the taste
+               for books.</p>
             <p> Books make a silent and gradual, but a sure change in our ideas and opinions; and as
                new authors are continually taking possession of the public mind, and old ones
                falling into disuse, new associations insensibly take place, and shed their influence
-               unperceived over our taste, our<lb/>
-               <fw type="vol">
-                  <hi rendition="#smcaps">vol. i.</hi>
-               </fw>
-               <fw type="sig">a</fw>
-               <pb n="ii"/> manners, and our morals. If, for instance, the parent of the last age
-               would put <ref target="people.html#FenelonFrancois">Fenelon</ref> into the hands of
-               his child, and the parent of the present day would give him <ref
-                  target="people.html#BerquinM">Berquin</ref>; each with a view of impressing the
-               same general sentiments of piety and benevolence: yet their offspring will be pupils
-               of a different school, and their moral ideas will have some shades of difference.
-               This new infusion of taste and moral sentiment acts in its turn upon the relish for
-               books; and thus the fame of writers is exposed to continual fluctuation. Nor does
-               this remark apply only to those ephemeral publications which, either from the nature
-               of the subject or the mediocrity of its execution, live their day, and are then
-               buried in oblivion; but to books that have been the favourites of the public, and
-               ‘the very glass by which its noble youth did dress themselves.'<note>
-                  <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <title>
-                     <hi rendition="#italics">Henry IV Part 2</hi>
-                  </title> II.iii.21-2, slightly altered.</note> Books that were in every one's
-               hands, and that have contributed to form our relish for literature itself; these are
-               laid aside, as philosophy opens new veins of thought, or fashion and caprice direct
-               the taste of the public into a different channel. It is true, indeed, that a work of
-               the first excellence cannot perish. It will continue to be respected as a classic:
-               but it will <pb n="iii"/> no longer be the book which everyone who reads is expected
-               to be acquainted with, to which allusions are often made, and readily understood in
-               conversation; it loses the precious privilege of occupying the minds of youth: in
-               short, it is withdrawn from the parlour-window, and laid upon the shelf in honourable
-               repose. It ceases to be current coin, but is preserved like a medal in the cabinets
-               of the curious.</p>
+               unperceived over our taste, our<lb/><fw type="vol"><hi rendition="#smcaps">vol.
+                     i.</hi></fw><fw type="sig">a</fw><pb n="ii"/> manners, and our morals. If, for
+               instance, the parent of the last age would put <ref
+                  target="people.html#FenelonFrancois">Fenelon</ref> into the hands of his child,
+               and the parent of the present day would give him <ref target="people.html#BerquinM"
+                  >Berquin</ref>; each with a view of impressing the same general sentiments of
+               piety and benevolence: yet their offspring will be pupils of a different school, and
+               their moral ideas will have some shades of difference. This new infusion of taste and
+               moral sentiment acts in its turn upon the relish for books; and thus the fame of
+               writers is exposed to continual fluctuation. Nor does this remark apply only to those
+               ephemeral publications which, either from the nature of the subject or the mediocrity
+               of its execution, live their day, and are then buried in oblivion; but to books that
+               have been the favourites of the public, and ‘the very glass by which its noble youth
+               did dress themselves.'<note><ref target="people.html#ShakespeareWilliam"
+                     >Shakespeare</ref>, <title><hi rendition="#italics">Henry IV Part
+                     2</hi></title> II.iii.21-2, slightly altered.</note> Books that were in every
+               one's hands, and that have contributed to form our relish for literature itself;
+               these are laid aside, as philosophy opens new veins of thought, or fashion and
+               caprice direct the taste of the public into a different channel. It is true, indeed,
+               that a work of the first excellence cannot perish. It will continue to be respected
+               as a classic: but it will <pb n="iii"/> no longer be the book which everyone who
+               reads is expected to be acquainted with, to which allusions are often made, and
+               readily understood in conversation; it loses the precious privilege of occupying the
+               minds of youth: in short, it is withdrawn from the parlour-window, and laid upon the
+               shelf in honourable repose. It ceases to be current coin, but is preserved like a
+               medal in the cabinets of the curious.</p>
             <p> This revolution the <title>Spectators</title>, with the other sets of papers by the
                same hands, appear to the Editor to have undergone. When those were young who now are
                old, no books were so popular, particularly with the female sex. They were the
                favourite volumes in a young lady's library; and probably the very first that, after
                the <title>Bible</title>, she would have thought of purchasing. <ref
                   target="people.html#SirRogerdeCoverley">Sir Roger de Coverley</ref> and the other
-               characters of the club were ‘familiar in our mouths as household names;'<note>
-                  <ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <title>
-                     <hi rendition="#italics">Henry V</hi>
-                  </title> IV.iii.52, altered. </note> and every little circumstance related of them
-               remained indelibly engraven on our memories. From the papers of <ref
-                  target="people.html#AddisonJoseph">Addison</ref> we imbibed our first relish for
-               wit; from his criticisms we formed our first standard of taste; and from his
-               delineations we drew our first ideas of manners. It <lb/><fw type="sig">a 2</fw>
-               <pb n="iv"/> requires little attention to be convinced that this is now far from
-               being the case. It is not difficult to meet with those among the rising generation
-               who have only seen here and there an occasional paper of a publication once so
-               generally diffused; and it now and then happens that a story from the
-                  <title>Tatler</title> is produced as new, in polite company, without detection.
+               characters of the club were ‘familiar in our mouths as household names;'<note><ref
+                     target="people.html#ShakespeareWilliam">Shakespeare</ref>, <title><hi
+                        rendition="#italics">Henry V</hi></title> IV.iii.52, altered. </note> and
+               every little circumstance related of them remained indelibly engraven on our
+               memories. From the papers of <ref target="people.html#AddisonJoseph">Addison</ref> we
+               imbibed our first relish for wit; from his criticisms we formed our first standard of
+               taste; and from his delineations we drew our first ideas of manners. It <lb/><fw
+                  type="sig">a 2</fw><pb n="iv"/> requires little attention to be convinced that
+               this is now far from being the case. It is not difficult to meet with those among the
+               rising generation who have only seen here and there an occasional paper of a
+               publication once so generally diffused; and it now and then happens that a story from
+               the <title>Tatler</title> is produced as new, in polite company, without detection.
                Various causes have contributed to this change. When these periodical papers were
                first published, the plan itself was new. It has since been adopted by various
                writers with more or less success, till the frame-work is worn out, or, if the reader
@@ -751,28 +497,27 @@
                the weight will remain, but the fashion will be lost. </p>
             <p> It must however be acknowledged, that a great part of these compositions do by no
                means stand upon so high a ground of merit as to have any strong claim upon the
-               notice of <lb/><fw type="sig">a 3</fw>
-               <pb n="vi"/> the present age. In the <title>Tatler</title>s there is a great deal of
-               absolute trifling; and the <title>Spectator</title>s themselves, though the best of
-               the several sets, are very unequally written,—as indeed might be expected from the
-               various hands engaged in the work. <ref target="people.html#SteeleRichard"
-                  >Steele</ref> was an entertaining rather than a fine writer; and none of his
-               coadjutors (the immortal <ref target="people.html#AddisonJoseph">Addison</ref> alone
-               excepted) would now be thought much above the common run of essay-writers in a
-               newspaper or a magazine. Many inaccuracies and even vulgarisms blemish the pages of
-                  <ref target="people.html#SteeleRichard">Steele</ref>, which an author of less
-               celebrity would now avoid. We are grown more accurate in our definitions, more
-               discriminating in our investigations, more pure in our diction, more fastidious in
-               the ornaments of style; we possess standards of excellence of every kind to refer to,
-               books multiply on our hands, and we willingly consign to oblivion a portion of the
-               old, to make room for the increasing demands of the new.</p>
+               notice of <lb/><fw type="sig">a 3</fw><pb n="vi"/> the present age. In the
+                  <title>Tatler</title>s there is a great deal of absolute trifling; and the
+                  <title>Spectator</title>s themselves, though the best of the several sets, are
+               very unequally written,—as indeed might be expected from the various hands engaged in
+               the work. <ref target="people.html#SteeleRichard">Steele</ref> was an entertaining
+               rather than a fine writer; and none of his coadjutors (the immortal <ref
+                  target="people.html#AddisonJoseph">Addison</ref> alone excepted) would now be
+               thought much above the common run of essay-writers in a newspaper or a magazine. Many
+               inaccuracies and even vulgarisms blemish the pages of <ref
+                  target="people.html#SteeleRichard">Steele</ref>, which an author of less celebrity
+               would now avoid. We are grown more accurate in our definitions, more discriminating
+               in our investigations, more pure in our diction, more fastidious in the ornaments of
+               style; we possess standards of excellence of every kind to refer to, books multiply
+               on our hands, and we willingly consign to oblivion a portion of the old, to make room
+               for the increasing demands of the new.</p>
             <p> This being the case, it has been thought that a <hi rendition="#italics"
-                  >Selection</hi> from the <hi rendition="#italics">
-                  <title>Tatler</title>s</hi>, <hi rendition="#italics">
-                  <title>Spectator</title>s</hi>, and <hi rendition="#italics">
-                  <title>Guardian</title>s</hi>, comprising all those papers in which the peculiar
-               spirit and excellence of these works chiefly resides, might be no unacceptable
-               present to the world in general, and par- <pb n="vii"/> ticularly to <hi
+                  >Selection</hi> from the <hi rendition="#italics"><title>Tatler</title>s</hi>, <hi
+                  rendition="#italics"><title>Spectator</title>s</hi>, and <hi rendition="#italics"
+                     ><title>Guardian</title>s</hi>, comprising all those papers in which the
+               peculiar spirit and excellence of these works chiefly resides, might be no
+               unacceptable present to the world in general, and par- <pb n="vii"/> ticularly to <hi
                   rendition="#italics">young people</hi> of both sexes, who may not happen to
                possess the originals, and who, if they did, would want a guide, in so miscellaneous
                a work, to direct them to what is best worth their notice. Let it not be imagined
@@ -789,22 +534,21 @@
                distinguishing flavour of an author's wit; but it commonly bears a very small
                proportion to his bulk. Whole libraries might by this process be distilled down to a
                few pocket volumes; as a single phial of <hi rendition="#italics">attar</hi> of roses
-               contains <lb/><fw type="sig">a 4</fw>
-               <pb n="viii"/> the precious product of many acres. Time is an admirable chymist in
-               this way. We are apt to lament the waste he has made among the productions of antient
-               genius: but it is probable, if we had an opportunity of inspecting them, we should
-               find that, in reality, nearly all are preserved to us that are most worth
-               preservation; and that what has perished is chiefly made up of the residuum of
-               science, and the caput mortuum of literature. It is true, indeed, that there is a
-               light in which papers that describe the manners and little incidents of the day, rise
-               in value as their contents become more obsolete. With what curiosity should we peruse
-               a Roman newspaper, or a critique upon <ref target="people.html#Roscius"
-               >Roscius</ref>, or a <hi rendition="#italics">conversatione</hi> at the toilette of
-                  <ref target="people.html#Aspasia">Aspasia</ref>! To an antiquary the
-                  <title>Spectator</title>s are already a great source of information, and five
-               hundred years hence will be invaluable; though it must be observed, some discernment
-               is necessary to separate the playful exaggerations of humour from the real facts on
-               which they are grounded.</p>
+               contains <lb/><fw type="sig">a 4</fw><pb n="viii"/> the precious product of many
+               acres. Time is an admirable chymist in this way. We are apt to lament the waste he
+               has made among the productions of antient genius: but it is probable, if we had an
+               opportunity of inspecting them, we should find that, in reality, nearly all are
+               preserved to us that are most worth preservation; and that what has perished is
+               chiefly made up of the residuum of science, and the caput mortuum of literature. It
+               is true, indeed, that there is a light in which papers that describe the manners and
+               little incidents of the day, rise in value as their contents become more obsolete.
+               With what curiosity should we peruse a Roman newspaper, or a critique upon <ref
+                  target="people.html#Roscius">Roscius</ref>, or a <hi rendition="#italics"
+                  >conversatione</hi> at the toilette of <ref target="people.html#Aspasia"
+                  >Aspasia</ref>! To an antiquary the <title>Spectator</title>s are already a great
+               source of information, and five hundred years hence will be invaluable; though it
+               must be observed, some discernment is necessary to separate the playful exaggerations
+               of humour from the real facts on which they are grounded.</p>
             <p> It may be proper to preface this Selection with some account of the original
                publications. The <title>Tatler</title> was undertaken by sir <ref
                   target="people.html#SteeleRichard">Richard Steele</ref>, under the fictitious name
@@ -813,26 +557,22 @@
                had acquired from its having been made use of by <ref
                   target="people.html#SwiftJonathan">Swift</ref> in his humorous predictions
                relative to poor Partridge, the almanac-maker.<note>See, for example, <hi
-                     rendition="#italics">
-                     <title>Predictions for the Year 1708. Wherein the Month and Day of the Month
-                        Are Set Down, the Persons Named, and the Great Actions and Events of Next
-                        Year Particularly Related, as They Will Come to Pass. Written to Prevent the
-                        People of England from Being Further Impos'd on by Vulgar Almanack-Makers.
-                        By Isaac Bickerstaff, Esq.</title>
-                  </hi> (1708); <hi rendition="#italics">
-                     <title>The Accomplishment of the First of Mr. Bickerstaff's Predictions: Being
-                        an Account of the Death of Mr. Partrige, the Almanack-Maker, upon the 29th
-                        Inst., in A Letter to a Person of Honour</title>
-                  </hi> (1708); <hi rendition="#italics">
-                     <title>An Elegy on Mr. Partrige, the Almanack-Maker, Who Died on the 29th of
-                        this Instant March, 1708</title>
-                  </hi> (1708); and <hi rendition="#italics">
-                     <title>A Vindication of Isaac Bickerstaff Esq; Against What Is Objected to Him
-                        by Mr. Partrige, in His Almanack for the Present Year 1709. By the Said
-                        Isaac Bickerstaff, Esq</title>
-                  </hi> (1709).</note> The first number was published April 12, 1709. <ref
-                  target="people.html#AddisonJoseph">Addison</ref> was at this time in Ireland,
-               secretary to <ref target="people.html#WhartonThomas">Wharton</ref> the
+                     rendition="#italics"><title>Predictions for the Year 1708. Wherein the Month
+                        and Day of the Month Are Set Down, the Persons Named, and the Great Actions
+                        and Events of Next Year Particularly Related, as They Will Come to Pass.
+                        Written to Prevent the People of England from Being Further Impos'd on by
+                        Vulgar Almanack-Makers. By Isaac Bickerstaff, Esq.</title></hi> (1708); <hi
+                     rendition="#italics"><title>The Accomplishment of the First of Mr.
+                        Bickerstaff's Predictions: Being an Account of the Death of Mr. Partrige,
+                        the Almanack-Maker, upon the 29th Inst., in A Letter to a Person of
+                        Honour</title></hi> (1708); <hi rendition="#italics"><title>An Elegy on Mr.
+                        Partrige, the Almanack-Maker, Who Died on the 29th of this Instant March,
+                        1708</title></hi> (1708); and <hi rendition="#italics"><title>A Vindication
+                        of Isaac Bickerstaff Esq; Against What Is Objected to Him by Mr. Partrige,
+                        in His Almanack for the Present Year 1709. By the Said Isaac Bickerstaff,
+                        Esq</title></hi> (1709).</note> The first number was published April 12,
+               1709. <ref target="people.html#AddisonJoseph">Addison</ref> was at this time in
+               Ireland, secretary to <ref target="people.html#WhartonThomas">Wharton</ref> the
                lord-lieutenant. He is said to have discovered his friend when he got to the sixth
                number, by a remark on <ref target="people.html#Virgil">Virgil</ref>, which he
                recollected having communicated to him. From that time <ref
@@ -842,53 +582,43 @@
                with any entire paper in his best style. But the hand of <ref
                   target="people.html#SwiftJonathan">Swift</ref>, who then acted with the whigs, and
                was intimate with <ref target="people.html#SteeleRichard">Steele</ref>, is frequently
-               discernible. The <title>
-                  <hi rendition="#italics">Verses on a Morning in Town</hi>
-               </title>; and on <title>
-                  <hi rendition="#italics">A City Shower</hi>
-               </title>, which are printed in his works, made their first appearance here. The
-               remarks on various preachers then in vogue, No. 66, contain much of the substance of
-               his <title>
-                  <hi rendition="#italics">Letter to a Clergyman</hi>
-               </title>; and the first hint and germ of his <title>
-                  <hi rendition="#italics">Polite Conversation</hi>
-               </title>
-               <note>See <title>
-                     <hi rendition="#italics">A Letter from a Lay-Patron to a Gentleman, Designing
-                        for Holy Orders</hi>
-                  </title> (1720) and <title>
-                     <hi rendition="#italics">A Complete Collection of Genteel and Ingenious
-                        Conversation, according to the Most Polite Mode and Method Now Used at
-                        Court, and in the Best Companies of England. In Three Dialogues. By Simon
-                        Wagstaff, Esq.</hi>
-                  </title> (1738)</note> is evidently to be seen in the repartees of <pb n="x"/>
-               miss Biddy and miss Sly, which, for that reason only, is inserted here. It shows what
-               pains <ref target="people.html#SwiftJonathan">Swift</ref> took with his pieces, when
-               we find him working up this single thought into a volume. The next year <ref
-                  target="people.html#SwiftJonathan">Swift</ref> left the whigs, and joined with
-                  <ref target="people.html#ManleyMrs">Mrs. Manley</ref> and others in a party paper
-               called the <title>Examiner</title>, conducted with great virulence on the other side.
-               The <title>Tatler</title> was a kind of newspaper as well as an essay: it was
-               published three times a week, and sold, there being then no stamp-duty, at the low
-               price of a penny.</p>
-            <p>
-               <ref target="people.html#AddisonJoseph">Addison</ref> kept himself concealed, and was
+               discernible. The <title><hi rendition="#italics">Verses on a Morning in
+                  Town</hi></title>; and on <title><hi rendition="#italics">A City
+                  Shower</hi></title>, which are printed in his works, made their first appearance
+               here. The remarks on various preachers then in vogue, No. 66, contain much of the
+               substance of his <title><hi rendition="#italics">Letter to a Clergyman</hi></title>;
+               and the first hint and germ of his <title><hi rendition="#italics">Polite
+                     Conversation</hi></title><note>See <title><hi rendition="#italics">A Letter
+                        from a Lay-Patron to a Gentleman, Designing for Holy Orders</hi></title>
+                  (1720) and <title><hi rendition="#italics">A Complete Collection of Genteel and
+                        Ingenious Conversation, according to the Most Polite Mode and Method Now
+                        Used at Court, and in the Best Companies of England. In Three Dialogues. By
+                        Simon Wagstaff, Esq.</hi></title> (1738)</note> is evidently to be seen in
+               the repartees of <pb n="x"/> miss Biddy and miss Sly, which, for that reason only, is
+               inserted here. It shows what pains <ref target="people.html#SwiftJonathan"
+                  >Swift</ref> took with his pieces, when we find him working up this single thought
+               into a volume. The next year <ref target="people.html#SwiftJonathan">Swift</ref> left
+               the whigs, and joined with <ref target="people.html#ManleyMrs">Mrs. Manley</ref> and
+               others in a party paper called the <title>Examiner</title>, conducted with great
+               virulence on the other side. The <title>Tatler</title> was a kind of newspaper as
+               well as an essay: it was published three times a week, and sold, there being then no
+               stamp-duty, at the low price of a penny.</p>
+            <p><ref target="people.html#AddisonJoseph">Addison</ref> kept himself concealed, and was
                only suspected of being one of the authors till its appearance in volumes. This
-               publication gave as it were the dawn and promise of its successor, the <title>
-                  <hi rendition="#italics">Spectator</hi>
-               </title>; and indeed there are papers in it equal in humour to any of the latter: as
-               the account of the freezing of words in Nova Zembla, the Court of Honour, and some
-               others: but, in general, the wit is local and temporary, the style negligent; and
-               even the strain of the graver papers rather gives the idea of a wit who lashes the
-               town, than an elegant moralist who instructs the world. The <title>Tatler</title>
-               abounds in personalities; to some of these the clue cannot now be reco- <pb n="xi"/>
-               vered, and of others the interest has long since been lost. Party spirit also, at the
-               time these papers were published, ran very high; the whigs and tories were so nearly
-               balanced that they maintained for some time an equal struggle, which at length ended
-               in the complete defeat of the whigs, the disgrace of the <ref
-                  target="people.html#MarlboroughJohnChurchill">duke of Marlborough</ref>, and the
-               forming that ministry which directed the four last years of <ref
-                  target="people.html#AnneQueenofGreatBritain">queen Anne</ref>. <ref
+               publication gave as it were the dawn and promise of its successor, the <title><hi
+                     rendition="#italics">Spectator</hi></title>; and indeed there are papers in it
+               equal in humour to any of the latter: as the account of the freezing of words in Nova
+               Zembla, the Court of Honour, and some others: but, in general, the wit is local and
+               temporary, the style negligent; and even the strain of the graver papers rather gives
+               the idea of a wit who lashes the town, than an elegant moralist who instructs the
+               world. The <title>Tatler</title> abounds in personalities; to some of these the clue
+               cannot now be reco- <pb n="xi"/> vered, and of others the interest has long since
+               been lost. Party spirit also, at the time these papers were published, ran very high;
+               the whigs and tories were so nearly balanced that they maintained for some time an
+               equal struggle, which at length ended in the complete defeat of the whigs, the
+               disgrace of the <ref target="people.html#MarlboroughJohnChurchill">duke of
+                  Marlborough</ref>, and the forming that ministry which directed the four last
+               years of <ref target="people.html#AnneQueenofGreatBritain">queen Anne</ref>. <ref
                   target="people.html#SteeleRichard">Steele</ref> took a decided part in favour of
                the whigs, and introduced a paper against <ref target="people.html#HarleyRobert"
                   >Harley</ref>, which lost him his place of Gazetteer. Weary, perhaps, of the
@@ -896,28 +626,24 @@
                being personally threatened, as he often was, for the liberties he took with living
                characters, he suddenly dropped the work on January 2, 1710. It revived in two
                months' time, under better auspices and with new associates, and bore the title of
-               the <title>
-                  <hi rendition="#italics">Spectator</hi>
-               </title>. <ref target="people.html#SwiftJonathan">Swift</ref> was by this time
-               completely alienated from his old friends; but his defection was more than
-               compensated by the regular assistance of <ref target="people.html#AddisonJoseph"
-                  >Addison</ref>. The new plan was better concerted, the authors felt their
-               strength, they had experienced how popular this way of writing was capable of
-               becoming, and they determined to <pb n="xii"/> keep it free from personal satire and
-               party politics. This in general they did, and it was laid on the queen's table at
-               breakfast. It is not difficult, however, for a skilful reader to discern in the
-               general turn of sentiment the political complexion of the writers. The town soon
-               found out to whom they were obliged for their entertainment; and an elegant
-               compliment was paid to the <title>Spectator</title> in the following epigram: <quote>
-                  <lg type="stanza">
-                     <l> When first the <title>
-                           <hi rendition="#italics">Tatler</hi>
-                        </title> to a mute was turn'd,</l>
+               the <title><hi rendition="#italics">Spectator</hi></title>. <ref
+                  target="people.html#SwiftJonathan">Swift</ref> was by this time completely
+               alienated from his old friends; but his defection was more than compensated by the
+               regular assistance of <ref target="people.html#AddisonJoseph">Addison</ref>. The new
+               plan was better concerted, the authors felt their strength, they had experienced how
+               popular this way of writing was capable of becoming, and they determined to <pb
+                  n="xii"/> keep it free from personal satire and party politics. This in general
+               they did, and it was laid on the queen's table at breakfast. It is not difficult,
+               however, for a skilful reader to discern in the general turn of sentiment the
+               political complexion of the writers. The town soon found out to whom they were
+               obliged for their entertainment; and an elegant compliment was paid to the
+                  <title>Spectator</title> in the following epigram: <quote><lg type="stanza">
+                     <l> When first the <title><hi rendition="#italics">Tatler</hi></title> to a
+                        mute was turn'd,</l>
                      <l>Great Britain for her Censor's silence mourn'd;</l>
                      <l>Robb'd of his sprightly beams she wept the night,</l>
-                     <l>Till the <title>
-                           <hi rendition="#italics">Spectator</hi>
-                        </title> rose, and blazed as bright.</l>
+                     <l>Till the <title><hi rendition="#italics">Spectator</hi></title> rose, and
+                        blazed as bright.</l>
                      <l>So the first man the sun's first setting view'd,</l>
                      <l>And sigh'd,—till circling day his joys renew'd;</l>
                      <l>Yet doubtful how that second sun to name,</l>
@@ -926,15 +652,10 @@
                      <l>Since all agree, who both with judgment read,</l>
                      <l>'Tis the same sun, and does himself succeed.<note>The poem, by <ref
                               target="people.html#TateNahum">Nahum Tate</ref>, was inserted at the
-                           end of <title>
-                              <hi rendition="#italics">Spectator</hi>
-                           </title> no. 488 (Friday, September 19, 1712). In the original, the
-                           triple rhyme of the last three lines is emphasized with a connecting
-                           bracket. </note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
+                           end of <title><hi rendition="#italics">Spectator</hi></title> no. 488
+                           (Friday, September 19, 1712). In the original, the triple rhyme of the
+                           last three lines is emphasized with a connecting bracket. </note></l>
+                  </lg></quote></p>
             <p> To estimate the good which was done by this publication, we should consider the
                state of society at the time it was written. Party spirit was high and bitter, the
                manners of the wits and fashionable young men were still tinctured with the
@@ -956,11 +677,11 @@
                peculiarities of his profession. There were learned and there were elegant women; but
                manners had not received a general polish, nor had women the advantage of a general
                cultivation. Genius had already attained its perfection, but the reign of taste may
-               be said <lb/><fw type="sig">2</fw>
-               <pb n="xiv"/> to have commenced with <ref target="people.html#AddisonJoseph"
-                  >Addison</ref>. The coadjutors of <ref target="people.html#AddisonJoseph"
-                  >Addison</ref> and <ref target="people.html#SteeleRichard">Steele</ref> in this
-               work were <ref target="people.html#BudgellEustace">Eustace Budgell</ref>, <ref
+               be said <lb/><fw type="sig">2</fw><pb n="xiv"/> to have commenced with <ref
+                  target="people.html#AddisonJoseph">Addison</ref>. The coadjutors of <ref
+                  target="people.html#AddisonJoseph">Addison</ref> and <ref
+                  target="people.html#SteeleRichard">Steele</ref> in this work were <ref
+                  target="people.html#BudgellEustace">Eustace Budgell</ref>, <ref
                   target="people.html#TickellThomas">Tickell</ref>, <ref
                   target="people.html#HughesJohn">Hughes</ref> author of the <title>Siege of
                   Damascus</title>, <ref target="people.html#MartinHenry">Henry Martin</ref>, <ref
@@ -978,8 +699,7 @@
                literature; whereas the loss of <ref target="people.html#AddisonJoseph">Addison</ref>
                could not elsewhere be supplied, and would make a chasm not in the number only, but
                in the species of our fine writers.</p>
-            <p>
-               <ref target="people.html#AddisonJoseph">Addison</ref> was one of a cluster of men of
+            <p><ref target="people.html#AddisonJoseph">Addison</ref> was one of a cluster of men of
                genius, who, flourishing at a time when the taste of the nation was forming itself,
                became in their different walks the standards of literary excellence. His peculiar
                portion was delicate humour, taste, and richness of imagination: these were all
@@ -1002,16 +722,12 @@
                the purest flower of classical literature, he possessed a like vivid fancy; a similar
                fulness and richness of style. <pb n="xvi"/> But he also possessed the attic salt of
                   <ref target="people.html#Apuleius">Lucian</ref>: the manner of this author is so
-               admirably imitated in his <title>Menippus</title>,<note>
-                  <title>"The Fable of Menippus,"</title>
-                  <title>
-                     <hi rendition="#italics">Spectator</hi>
-                  </title> No. 391 (Thursday, May 29, 1712).</note> that any person with a slight
-               knowledge of <ref target="people.html#Menippus">the Greek author</ref>, might easily
-               be induced to believe the dialogue was really translated from that elegant
-               satirist.</p>
-            <p>
-               <ref target="people.html#AddisonJoseph">Addison</ref> had a wonderful talent in
+               admirably imitated in his <title>Menippus</title>,<note><title>"The Fable of
+                     Menippus,"</title><title><hi rendition="#italics">Spectator</hi></title> No.
+                  391 (Thursday, May 29, 1712).</note> that any person with a slight knowledge of
+                  <ref target="people.html#Menippus">the Greek author</ref>, might easily be induced
+               to believe the dialogue was really translated from that elegant satirist.</p>
+            <p><ref target="people.html#AddisonJoseph">Addison</ref> had a wonderful talent in
                working up a hint, and producing a most beautiful fancy-piece from a neglected
                fragment, a slight outline, or an obscure tradition. Of this, his account of the
                nation of the Amazons, the Loves of Shalum and Hilpah, and the History of the Lovers'
@@ -1045,15 +761,11 @@
                reader, who is to catch his meaning from the side views that are dexterously
                presented to him; for the author never laughs himself. The style of <ref
                   target="people.html#AddisonJoseph">Addison</ref> is pure and clear; rather diffuse
-               than <lb/>
-               <fw type="vol">
-                  <hi rendition="#smcaps">vol. i.</hi>
-               </fw>
-               <fw type="sig">b</fw>
-               <pb n="xviii"/> concentrated, and ornamented to the highest degree consistent with
-               good taste. But this ornament consists in the splendour of imagery, not in the
-               ordonnance of words; his readers will seek in vain for those sonorous cadences with
-               which the public ear has been familiarised since the writings of <ref
+               than <lb/><fw type="vol"><hi rendition="#smcaps">vol. i.</hi></fw><fw type="sig"
+                  >b</fw><pb n="xviii"/> concentrated, and ornamented to the highest degree
+               consistent with good taste. But this ornament consists in the splendour of imagery,
+               not in the ordonnance of words; his readers will seek in vain for those sonorous
+               cadences with which the public ear has been familiarised since the writings of <ref
                   target="people.html#JohnsonSamuel">Dr. Johnson</ref>. They will find no stately
                magnificence of phrase, no triads of sentences artfully balanced, so as to form a
                sweep of harmony at the close of a period. His words are genuine English: he deals
@@ -1071,11 +783,10 @@
                that age to address women in a style of gallantry, under which was often concealed a
                sly ridicule. <ref target="people.html#SwiftJonathan">Swift</ref>, in his surly way,
                used to say, 'Let him <hi rendition="#italics">fair sex</hi> it to the world's end, I
-               will not meddle with the <title>Spectator</title>.'<note>
-                  <ref target="people.html#SwiftJonathan">Jonathan Swift</ref>, <title>
-                     <hi rendition="#italics">Journal to Stella</hi>
-                  </title>, Friday, February 8, 1711/12, altered.</note>
-            </p>
+               will not meddle with the <title>Spectator</title>.'<note><ref
+                     target="people.html#SwiftJonathan">Jonathan Swift</ref>, <title><hi
+                        rendition="#italics">Journal to Stella</hi></title>, Friday, February 8,
+                  1711/12, altered.</note></p>
             <p> The Essays of <ref target="people.html#AddisonJoseph">Addison</ref> are given
                sometimes in sets, and sometimes in single papers, and may be thrown into different
                classes: those <hi rendition="#italics">on criticism</hi>, <hi rendition="#italics"
@@ -1084,38 +795,31 @@
                From each of these, several have been chosen for the present Selection. The sets,
                which for the sake of variety were originally mingled with the other papers, are here
                given without interruption, for the greater convenience of the reader. Of these, the
-               first is the <title>
-                  <hi rendition="#italics">Essay on true and false Wit</hi>
-               </title>, in six papers.<note>
-                  <title>
-                     <hi rendition="#italics">Spectator</hi>
-                  </title> Nos. 58-63 (Monday, May 7, 1711-Saturday, May 12, 1711).</note> These
-               strictures will appear particularly seasonable, if we recollect how much the taste
-               for point and verbal wit had prevailed in the punning reign of <ref
-                  target="people.html#JamesIKingofEngland">James the first</ref>, and among the
-               minor wits of the court of <ref target="people.html#CharlesIIKingofEngland">Charles
-                  the second</ref>. Authors then abounded in thought, but had not yet learned what
-               to reject. <ref target="people.html#AddisonJoseph">Addi-</ref>
-               <lb/><fw type="sig">b 2</fw>
-               <pb n="xx"/>
-               <ref target="people.html#AddisonJoseph">son</ref> has seasoned these papers with a
-               plentiful share of the quality in its best form, which is the subject of them. They
-               conclude with a well imagined allegory, which has been made the ground-work of a very
-               pretty mock-heroic poem by the late <ref target="people.html#CambridgeRichard">Mr.
-                  Cambridge</ref>, entitled <title>
-                  <hi rendition="#italics">The Scribbleriad</hi>
-               </title>. The <title>
-                  <hi rendition="#italics">Critique on <ref target="people.html#MiltonJohn"
-                        >Milton</ref>'s <title>Paradise Lost</title>
-                  </hi>
-               </title> is more elaborate, and is extended through 18 papers.<note>The Saturday
-                  series begins with No. 267 (Saturday, January 5, 1712) and continues through No.
-                  369 (Saturday, May 3, 1712).</note> For this task the author was qualified as well
-               by his exquisite natural taste, as by his familiar acquaintance with the Greek and
-               Roman classics, and the laws of composition; we may add also, by his serious and
-               religious turn of mind, a circumstance of no small moment in relishing a poem the
-               basis of which is laid in scriptural mythology. This admirable poem, which is now the
-               boast of every Englishman, was at that time but little noticed. Not that <ref
+               first is the <title><hi rendition="#italics">Essay on true and false
+               Wit</hi></title>, in six papers.<note><title><hi rendition="#italics"
+                     >Spectator</hi></title> Nos. 58-63 (Monday, May 7, 1711-Saturday, May 12,
+                  1711).</note> These strictures will appear particularly seasonable, if we
+               recollect how much the taste for point and verbal wit had prevailed in the punning
+               reign of <ref target="people.html#JamesIKingofEngland">James the first</ref>, and
+               among the minor wits of the court of <ref target="people.html#CharlesIIKingofEngland"
+                  >Charles the second</ref>. Authors then abounded in thought, but had not yet
+               learned what to reject. <ref target="people.html#AddisonJoseph">Addi-</ref><lb/><fw
+                  type="sig">b 2</fw><pb n="xx"/><ref target="people.html#AddisonJoseph">son</ref>
+               has seasoned these papers with a plentiful share of the quality in its best form,
+               which is the subject of them. They conclude with a well imagined allegory, which has
+               been made the ground-work of a very pretty mock-heroic poem by the late <ref
+                  target="people.html#CambridgeRichard">Mr. Cambridge</ref>, entitled <title><hi
+                     rendition="#italics">The Scribbleriad</hi></title>. The <title><hi
+                     rendition="#italics">Critique on <ref target="people.html#MiltonJohn"
+                        >Milton</ref>'s <title>Paradise Lost</title></hi></title> is more elaborate,
+               and is extended through 18 papers.<note>The Saturday series begins with No. 267
+                  (Saturday, January 5, 1712) and continues through No. 369 (Saturday, May 3,
+                  1712).</note> For this task the author was qualified as well by his exquisite
+               natural taste, as by his familiar acquaintance with the Greek and Roman classics, and
+               the laws of composition; we may add also, by his serious and religious turn of mind,
+               a circumstance of no small moment in relishing a poem the basis of which is laid in
+               scriptural mythology. This admirable poem, which is now the boast of every
+               Englishman, was at that time but little noticed. Not that <ref
                   target="people.html#AddisonJoseph">Addison</ref>, as some seem to think, <hi
                   rendition="#italics">discovered the <title>Paradise Lost</title>:</hi> it had been
                long enough before the public to attract the notice of judges: but there had been no
@@ -1139,34 +843,31 @@
                in the present Selection. They will however be found useful to young persons in
                laying a basis of just taste, and older ones might have regretted the omission of
                what they have been accustomed to admire. A reader of the present day will <lb/><fw
-                  type="sig">b 3</fw>
-               <pb n="xxii"/> be apt to smile to see <ref target="people.html#BlackmoreRichard"
-                  >Blackmore</ref> mentioned, as he is by <ref target="people.html#AddisonJoseph"
-                  >Addison</ref>, in the same page with <ref target="people.html#MiltonJohn"
-                  >Milton</ref>; but the truth is, there was a great mixture of party spirit in the
-               cry raised by the tory wits against the dullness of <ref
-                  target="people.html#BlackmoreRichard">Blackmore</ref>. He was too prolific a poet;
-               but his <title>
-                  <hi rendition="#italics">Creation</hi>
-               </title> is superior to many poems which those wits thought proper to commend. Worse
-               authors have been promised immortality, and much better have failed to obtain it. </p>
-            <p> The next set is on the <title>
-                  <hi rendition="#italics">Pleasures of the Imagination</hi>
-               </title>.<note>This daily series extends from No. 411 (Saturday, June 21, 1712)
-                  through No. 421 (Thursday, July 3, 1712). The final paper includes brief abstracts
-                  of each paper in the series.</note> This piece of criticism is equally calculated
-               to enlighten the mind by the soundness of its rules; and to form the taste, by the
-               beauty of its illustrations: the language of <ref target="people.html#AddisonJoseph"
-                  >Addison</ref> is no where more brilliant and highly finished than in some
-               passages of these papers. <ref target="people.html#AkensideMark">Akenside</ref>, as
-               is well known, made them the groundwork of his didactic poem, and had little more to
-               do in many parts than to reduce to measure what had already all the other charms of
-                  poetry.<note>See <ref target="people.html#BarbauldMrs">Barbauld</ref>'s "Essay on
-                  the Pleasures of the Imagination," <title>
-                     <hi rendition="#italics">The Pleasures of the Imagination</hi>
-                  </title>, by <ref target="people.html#AkensideMark">Mark Akenside</ref> (London:
-                  printed for T. Cadell, junior, and W. Davies, by R. Noble, 1794) xiii-xx.</note>
-            </p>
+                  type="sig">b 3</fw><pb n="xxii"/> be apt to smile to see <ref
+                  target="people.html#BlackmoreRichard">Blackmore</ref> mentioned, as he is by <ref
+                  target="people.html#AddisonJoseph">Addison</ref>, in the same page with <ref
+                  target="people.html#MiltonJohn">Milton</ref>; but the truth is, there was a great
+               mixture of party spirit in the cry raised by the tory wits against the dullness of
+                  <ref target="people.html#BlackmoreRichard">Blackmore</ref>. He was too prolific a
+               poet; but his <title><hi rendition="#italics">Creation</hi></title> is superior to
+               many poems which those wits thought proper to commend. Worse authors have been
+               promised immortality, and much better have failed to obtain it. </p>
+            <p> The next set is on the <title><hi rendition="#italics">Pleasures of the
+                     Imagination</hi></title>.<note>This daily series extends from No. 411
+                  (Saturday, June 21, 1712) through No. 421 (Thursday, July 3, 1712). The final
+                  paper includes brief abstracts of each paper in the series.</note> This piece of
+               criticism is equally calculated to enlighten the mind by the soundness of its rules;
+               and to form the taste, by the beauty of its illustrations: the language of <ref
+                  target="people.html#AddisonJoseph">Addison</ref> is no where more brilliant and
+               highly finished than in some passages of these papers. <ref
+                  target="people.html#AkensideMark">Akenside</ref>, as is well known, made them the
+               groundwork of his didactic poem, and had little more to do in many parts than to
+               reduce to measure what had already all the other charms of poetry.<note>See <ref
+                     target="people.html#BarbauldMrs">Barbauld</ref>'s "Essay on the Pleasures of
+                  the Imagination," <title><hi rendition="#italics">The Pleasures of the
+                        Imagination</hi></title>, by <ref target="people.html#AkensideMark">Mark
+                     Akenside</ref> (London: printed for T. Cadell, junior, and W. Davies, by R.
+                  Noble, 1794) xiii-xx.</note></p>
             <p> Several papers are devoted to theatrical entertainments. Such was then the
                licentiousness of the playhouse, that the austere moralists condemned it altogether.
                   <ref target="people.html#AddisonJoseph">Addison</ref> did better; for he undertook
@@ -1186,28 +887,27 @@
                starry heavens, and other circumstances proper to impress a mind of feeling. Of these
                a portion are presented to the reader; perhaps not so many as, upon a vague
                recollection, he will imagine might have been collected: but the truth is, we abound
-               so much in excellent <lb/><fw type="sig">b 4</fw>
-               <pb n="xxiv"/> discourses of this nature, that many of them would not now appear to
-               be marked with that originality which is meant to form the basis of this Selection.
-               In one particular, we must reluctantly confess, <ref
-                  target="people.html#AddisonJoseph">Addison</ref> was <hi rendition="#italics"
-                  >not</hi> liberal. He had no enlarged ideas of religious toleration. He treats
-               Freethinkers, whom he often attacks, with a contempt and insult by no means
-               consistent with either the philosophy or the urbanity of his character: nay, he gives
-               broad hints that the civil magistrate would be well employed in hunting these vermin,
-               as he calls them, out of society; and talks, half in jest half in earnest, of
-               "blowing an atheist out of the mouth of a cannon." But <ref
+               so much in excellent <lb/><fw type="sig">b 4</fw><pb n="xxiv"/> discourses of this
+               nature, that many of them would not now appear to be marked with that originality
+               which is meant to form the basis of this Selection. In one particular, we must
+               reluctantly confess, <ref target="people.html#AddisonJoseph">Addison</ref> was <hi
+                  rendition="#italics">not</hi> liberal. He had no enlarged ideas of religious
+               toleration. He treats Freethinkers, whom he often attacks, with a contempt and insult
+               by no means consistent with either the philosophy or the urbanity of his character:
+               nay, he gives broad hints that the civil magistrate would be well employed in hunting
+               these vermin, as he calls them, out of society; and talks, half in jest half in
+               earnest, of "blowing an atheist out of the mouth of a cannon." But <ref
                   target="people.html#AddisonJoseph">Addison</ref> was, and was accustomed to call
                himself, a tory in religion, though a whig in politics.</p>
-            <p> The next class may be called his Fancy Pieces, as the <hi rendition="#italics">
-                  <title>Vision of Mirzah</title>, the <title>Mountain of Miseries</title>,
-                     <title>Marathon and Yaratilda</title>
-               </hi>. These are almost all such as none but himself could write. The flower of the
-               most elegant imagination, the visions of a poetical fancy, are blended sometimes with
-               sentiment, sometimes with wit and gaiety, and often are illustrative of some sublime
-               moral truth. In this kind of <pb n="xxv"/> writing, particularly pleasing to young
-               minds, <ref target="people.html#AddisonJoseph">Addison</ref> has been often imitated,
-               but perhaps never equalled.</p>
+            <p> The next class may be called his Fancy Pieces, as the <hi rendition="#italics"
+                     ><title>Vision of Mirzah</title>, the <title>Mountain of Miseries</title>,
+                     <title>Marathon and Yaratilda</title></hi>. These are almost all such as none
+               but himself could write. The flower of the most elegant imagination, the visions of a
+               poetical fancy, are blended sometimes with sentiment, sometimes with wit and gaiety,
+               and often are illustrative of some sublime moral truth. In this kind of <pb n="xxv"/>
+               writing, particularly pleasing to young minds, <ref
+                  target="people.html#AddisonJoseph">Addison</ref> has been often imitated, but
+               perhaps never equalled.</p>
             <p> In the pictures of life and delineation of manners, which make up a large part of
                the work, the hand of a master is not less apparent. The character of the Spectator
                himself is well conceived and faithfully kept up; and that of <ref
@@ -1229,45 +929,43 @@
                what many would call salutary prejudices. By the first paper we are prepared to
                expect a man whose singularities proceed from good sense and an original cast of
                thought; a kind of humourist, not unlike the elder Shandy;<note>Referring to <ref
-                     target="people.html#SterneLaurence">Laurence Sterne's</ref>
-                  <hi rendition="#italics">
-                     <title>Tristram Shandy</title>
-                  </hi>.</note> but the singularities of <ref target="people.html#AddisonJoseph"
-                  >Addison</ref>'s <ref target="people.html#SirRogerdeCoverley">Sir Roger</ref>
-               proceed from rusticity, and the prejudices of a confined education, operating indeed
-               upon a most benevolent and friendly heart. His character is set in a new light, in a
-               paper written by <ref target="people.html#AikinJohn">Dr. Aikin</ref>, in the
-                  <title>Monthly Magazine</title> for February 1800.<note>
-                  <title>"On the Humour of <ref target="people.html#AddisonJoseph">Addison</ref> and
-                     the Character of <ref target="people.html#SirRogerdeCoverley">Sir Roger de
-                        Coverley</ref>,"</title>
-                  <ref target="people.html#AikinJohn">John Aikin</ref>, <title>
-                     <hi rendition="#italics">Monthly Magazine</hi>
-                  </title> 9.1 (February 1, 1800): 1-3.</note>It is there observed, that this
-               character, though meant to be a favourite, is also meant as a vehicle of satire upon
-               the character of the country gentleman, which <ref target="people.html#AddisonJoseph"
-                  >Addison</ref> has more openly held up to ridicule in the country squire of his
-                  <title>Freeholder</title>: they are extremely different with regard to the
-               amiableness of their characters, but they have the same national and party
-               prejudices, and are both intended to exhibit inferiority to the more cultured
-               inhabitant of the town, and to fasten a ridicule upon the tory, which at that time
-               was the country party. In <ref target="people.html#SirRogerdeCoverley">Sir Roger de
-                  Coverley</ref>, however, this design is subservient to that of <pb n="xxvii"/>
-               drawing an amiable and worthy character. <ref target="people.html#SirRogerdeCoverley"
-                  >Sir Roger</ref>'s benevolence, hospitality, piety, and honest open cheerfulness,
-               win our warmest affections; and if we often smile at, we always love him. The
-               reserved, sagacious, and thoughtful character of the <title>Spectator</title>
-               contrasts very well with the simplicity and turn for active sports of the knight.
-               With regard to his passion for the widow, and the effect it is said to have had upon
-               him, it may be doubted whether it forms a natural feature in a character like his.
-               Minds that expand themselves in feelings of cheerful good will, and acts of general
-               benevolence, and are at the same time destitute of those nicer discriminations of
-               taste that influence particular predilections, are perhaps not very likely to have
-               the colour of their whole lives affected by a hopeless passion. But <ref
-                  target="people.html#AddisonJoseph">Addison</ref> has had little to do with that
-               part of his character. Opposed to <ref target="people.html#SirRogerdeCoverley">Sir
-                  Roger</ref> is Sir Andrew Freeport, a London merchant. Trade, though rising fast,
-               or rather already risen into consequence, was despised by the country gentry. <ref
+                     target="people.html#SterneLaurence">Laurence Sterne's</ref><hi
+                     rendition="#italics"><title>Tristram Shandy</title></hi>.</note> but the
+               singularities of <ref target="people.html#AddisonJoseph">Addison</ref>'s <ref
+                  target="people.html#SirRogerdeCoverley">Sir Roger</ref> proceed from rusticity,
+               and the prejudices of a confined education, operating indeed upon a most benevolent
+               and friendly heart. His character is set in a new light, in a paper written by <ref
+                  target="people.html#AikinJohn">Dr. Aikin</ref>, in the <title>Monthly
+                  Magazine</title> for February 1800.<note><title>"On the Humour of <ref
+                        target="people.html#AddisonJoseph">Addison</ref> and the Character of <ref
+                        target="people.html#SirRogerdeCoverley">Sir Roger de
+                     Coverley</ref>,"</title><ref target="people.html#AikinJohn">John Aikin</ref>,
+                        <title><hi rendition="#italics">Monthly Magazine</hi></title> 9.1 (February
+                  1, 1800): 1-3.</note>It is there observed, that this character, though meant to be
+               a favourite, is also meant as a vehicle of satire upon the character of the country
+               gentleman, which <ref target="people.html#AddisonJoseph">Addison</ref> has more
+               openly held up to ridicule in the country squire of his <title>Freeholder</title>:
+               they are extremely different with regard to the amiableness of their characters, but
+               they have the same national and party prejudices, and are both intended to exhibit
+               inferiority to the more cultured inhabitant of the town, and to fasten a ridicule
+               upon the tory, which at that time was the country party. In <ref
+                  target="people.html#SirRogerdeCoverley">Sir Roger de Coverley</ref>, however, this
+               design is subservient to that of <pb n="xxvii"/> drawing an amiable and worthy
+               character. <ref target="people.html#SirRogerdeCoverley">Sir Roger</ref>'s
+               benevolence, hospitality, piety, and honest open cheerfulness, win our warmest
+               affections; and if we often smile at, we always love him. The reserved, sagacious,
+               and thoughtful character of the <title>Spectator</title> contrasts very well with the
+               simplicity and turn for active sports of the knight. With regard to his passion for
+               the widow, and the effect it is said to have had upon him, it may be doubted whether
+               it forms a natural feature in a character like his. Minds that expand themselves in
+               feelings of cheerful good will, and acts of general benevolence, and are at the same
+               time destitute of those nicer discriminations of taste that influence particular
+               predilections, are perhaps not very likely to have the colour of their whole lives
+               affected by a hopeless passion. But <ref target="people.html#AddisonJoseph"
+                  >Addison</ref> has had little to do with that part of his character. Opposed to
+                  <ref target="people.html#SirRogerdeCoverley">Sir Roger</ref> is Sir Andrew
+               Freeport, a London merchant. Trade, though rising fast, or rather already risen into
+               consequence, was despised by the country gentry. <ref
                   target="people.html#AddisonJoseph">Addison</ref> has frequently taken occasion to
                set the trading part of the community, who were nearly all whigs, in a respectable
                light, and to show the connection of commerce with science and liberal <pb n="xxviii"
@@ -1300,37 +998,33 @@
                   >Addison</ref>, was one of the set; but his papers have no mark. <ref
                   target="people.html#ParnellThomas">Parnell</ref> wrote the vision of the Grotto of
                Grief, and the Palace of Vanity. Mr. <ref target="people.html#ByromJohn">Byrom</ref>
-               wrote the popular piece, <title>
-                  <hi rendition="#italics">My time, O ye Muses</hi>
-               </title>, and some papers on dreaming. Most of the interesting stories are <ref
-                  target="people.html#SteeleRichard">Steele</ref>'s; and the greater part of those
-               papers that paint the manners of the town. <ref target="people.html#SteeleRichard"
-                  >Steele</ref> had a flowing pen, but his style is negligent; and though he has
-               endeavoured to serve the cause of virtue, particularly in his strictures on duelling,
-               then very common, and gaming, yet his morals have neither the dignity nor the purity
-               of those of his coadjutor. 'The snuffers (says <ref
-                  target="people.html#LatimerBishop">bishop Latimer</ref>) should be of pure gold.'
-               Such was not <ref target="people.html#SteeleRichard">Steele</ref>, whose weaknesses
-               and faults drew upon him the reprehension of his own better judgment. He was a
-               character vibrating between virtue and vice, but he <pb n="xxx"/> wanted not moral
-               feeling. He is said to have opposed duelling, in consequence of the deep remorse he
-               felt from the fatal termination of a duel which he himself fought in early life with
-               a brother officer. <ref target="people.html#SteeleRichard">Steele</ref> tells a story
-               with humour, but without its more delicate touches; and his style is marked by little
-               flippancies, and a certain air of the town. His signature is T, and sometimes R.
-               Those of <ref target="people.html#AddisonJoseph">Addison</ref> were the letters which
-               compose the name of the Muse Clio; which gave occasion to the elegant compliment paid
-               him in the following couplet:<quote>
-                  <lg type="stanza">
+               wrote the popular piece, <title><hi rendition="#italics">My time, O ye
+                  Muses</hi></title>, and some papers on dreaming. Most of the interesting stories
+               are <ref target="people.html#SteeleRichard">Steele</ref>'s; and the greater part of
+               those papers that paint the manners of the town. <ref
+                  target="people.html#SteeleRichard">Steele</ref> had a flowing pen, but his style
+               is negligent; and though he has endeavoured to serve the cause of virtue,
+               particularly in his strictures on duelling, then very common, and gaming, yet his
+               morals have neither the dignity nor the purity of those of his coadjutor. 'The
+               snuffers (says <ref target="people.html#LatimerBishop">bishop Latimer</ref>) should
+               be of pure gold.' Such was not <ref target="people.html#SteeleRichard">Steele</ref>,
+               whose weaknesses and faults drew upon him the reprehension of his own better
+               judgment. He was a character vibrating between virtue and vice, but he <pb n="xxx"/>
+               wanted not moral feeling. He is said to have opposed duelling, in consequence of the
+               deep remorse he felt from the fatal termination of a duel which he himself fought in
+               early life with a brother officer. <ref target="people.html#SteeleRichard"
+                  >Steele</ref> tells a story with humour, but without its more delicate touches;
+               and his style is marked by little flippancies, and a certain air of the town. His
+               signature is T, and sometimes R. Those of <ref target="people.html#AddisonJoseph"
+                  >Addison</ref> were the letters which compose the name of the Muse Clio; which
+               gave occasion to the elegant compliment paid him in the following couplet:<quote><lg
+                     type="stanza">
                      <l>When fainting Virtue her last effort made,</l>
                      <l>You brought your Clio to the virgin's aid.<note>Quoted without attribution
-                           in <ref target="people.html#JohnsonSamuel">Samuel Johnson</ref>'s <title>
-                              <hi rendition="#italics">Adventurer</hi>
-                           </title> No. 58 (Saturday, May 25, 1753).</note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
+                           in <ref target="people.html#JohnsonSamuel">Samuel Johnson</ref>'s
+                                 <title><hi rendition="#italics">Adventurer</hi></title> No. 58
+                           (Saturday, May 25, 1753).</note></l>
+                  </lg></quote></p>
             <p> The <title>Spectator</title> continued from 1710 to 1714; that is, during the last
                years of <ref target="people.html#AnneQueenofGreatBritain">Queen Anne</ref> to the
                beginning of the reign of <ref target="people.html#ageorgeIKingofGreatBritain">George
@@ -1338,13 +1032,13 @@
                party papers, and so bitter a spirit of animosity divided almost every company, it
                was no small advantage that one paper appeared every morning the tendency of which
                was of an opposite nature, and that presented subjects for conversation which men
-               might canvass without passion, and on which <lb/><fw type="sig">2</fw>
-               <pb n="xxxi"/> they might differ without resentment. Three thousand of them were sold
-               daily soon after the commencement of the publication; afterwards, it is said, twenty
-               thousand; and it may rebuke our rage for typographical luxury to be told, that the
-               immortal productions of <ref target="people.html#AddisonJoseph">Addison</ref> were
-               first given to the public on a half-sheet of very coarse paper, and, before the
-               imposition of a stamp, for the price of one penny.</p>
+               might canvass without passion, and on which <lb/><fw type="sig">2</fw><pb n="xxxi"/>
+               they might differ without resentment. Three thousand of them were sold daily soon
+               after the commencement of the publication; afterwards, it is said, twenty thousand;
+               and it may rebuke our rage for typographical luxury to be told, that the immortal
+               productions of <ref target="people.html#AddisonJoseph">Addison</ref> were first given
+               to the public on a half-sheet of very coarse paper, and, before the imposition of a
+               stamp, for the price of one penny.</p>
             <p> The <title>Guardian</title>s may be considered as a kind of sequel to the
                   <title>Spectator</title>s. They were in two volumes. The strain of them is
                somewhat less sprightly; but they contain many excellent papers, and among them
@@ -1369,27 +1063,24 @@
                in fashion, that there was hardly a poet who did not try his hand at it; till at
                length it became insipid by the triteness of the sentiment, and the servile use of
                the heathen mythology. The lovers of Italian poetry will by no means be satisfied to
-               see the beautiful poems of Aminta and Pastor Fido<note>
-                  <hi rendition="#italics">
-                     <title>Aminta</title>
-                  </hi> (1573) is a play by <ref target="people.html#TassoTorquato">Torquato
-                     Tasso</ref>, while <hi rendition="#italics">
-                     <title>Il pastor fido</title>
-                  </hi> (1590) by <ref target="people.html#aguariniBattista">Battista Guarini</ref>
-                  was translated into English as <hi rendition="#italics">
-                     <title>The Faithful Shepherd</title>
-                  </hi> (1602) by Edward Dymock.</note> only mentioned to be found fault with; but
-               English readers had, at that time, little relish for the belles lettres of other
-               nations. The Italian language was perhaps less cultivated than in the preceding
-               century. <ref target="people.html#AddisonJoseph">Addison</ref> himself had a
-               sufficient portion of national prejudice, as appears whenever the French writers are
-               incidentally mentioned. The concluding allegory on pastoral poetry exhibits much
-               elegant fancy, along with a strange con- <pb n="xxxiii"/> fusion in the application
-               of it to different writers, and the periods in which they flourished. The critique on
-                  <ref target="people.html#PopeAlexander">Pope</ref>'s Pastorals by that author
-               himself, is remarkable for the delicacy and artful irony which imposed on the editor
-               of the paper, and secured its insertion, though it was, in fact, a concealed ridicule
-               on <ref target="people.html#PhilipsAmbrose">Phillips</ref>, whose pastorals it had
+               see the beautiful poems of Aminta and Pastor Fido<note><hi rendition="#italics"
+                        ><title>Aminta</title></hi> (1573) is a play by <ref
+                     target="people.html#TassoTorquato">Torquato Tasso</ref>, while <hi
+                     rendition="#italics"><title>Il pastor fido</title></hi> (1590) by <ref
+                     target="people.html#aguariniBattista">Battista Guarini</ref> was translated
+                  into English as <hi rendition="#italics"><title>The Faithful Shepherd</title></hi>
+                  (1602) by Edward Dymock.</note> only mentioned to be found fault with; but English
+               readers had, at that time, little relish for the belles lettres of other nations. The
+               Italian language was perhaps less cultivated than in the preceding century. <ref
+                  target="people.html#AddisonJoseph">Addison</ref> himself had a sufficient portion
+               of national prejudice, as appears whenever the French writers are incidentally
+               mentioned. The concluding allegory on pastoral poetry exhibits much elegant fancy,
+               along with a strange con- <pb n="xxxiii"/> fusion in the application of it to
+               different writers, and the periods in which they flourished. The critique on <ref
+                  target="people.html#PopeAlexander">Pope</ref>'s Pastorals by that author himself,
+               is remarkable for the delicacy and artful irony which imposed on the editor of the
+               paper, and secured its insertion, though it was, in fact, a concealed ridicule on
+                  <ref target="people.html#PhilipsAmbrose">Phillips</ref>, whose pastorals it had
                been the aim of the former papers to extol.</p>
             <p> The <title>Freeholder</title> was a direct party paper, written by <ref
                   target="people.html#AddisonJoseph">Addison</ref> alone, on the side of Government,
@@ -1402,13 +1093,9 @@
                representative of a set of men who were then almost all partisans against the court,
                if not favourers of the Stuart family.</p>
             <p> There seems to be no kind of writing which admits of selection more readily than
-               these pe- <lb/>
-               <fw type="vol">
-                  <hi rendition="#smcaps">vol. i.</hi>
-               </fw>
-               <fw type="sig">c</fw>
-               <pb n="xxxiv"/> riodical papers. There is no plan to interrupt, no thread of
-               reasoning to break. Each paper or set of papers is complete in itself; and though
+               these pe- <lb/><fw type="vol"><hi rendition="#smcaps">vol. i.</hi></fw><fw type="sig"
+                  >c</fw><pb n="xxxiv"/> riodical papers. There is no plan to interrupt, no thread
+               of reasoning to break. Each paper or set of papers is complete in itself; and though
                many are left out which may be thought to have some claim to insertion, none, it is
                hoped, are inserted which the reader of taste will wish to have been left out. </p>
          </div>

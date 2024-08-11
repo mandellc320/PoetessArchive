@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Review of The English in Italy</title>
             <title type="sub">The Westminster Review</title>
-            <author type="writer">
-               <name> Mary Wollstonecraft Shelley </name>
-            </author>
+            <author type="writer"><name> Mary Wollstonecraft Shelley </name></author>
             <respStmt>
                <resp>Editor</resp>
                <name xml:id="MW">Mary A. Waters</name>
@@ -15,6 +13,10 @@
             <respStmt>
                <resp>Co-Editor</resp>
                <name xml:id="KI">Krystal J. Iseminger</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding Assistance</resp>
+               <name xml:id="GR">Gabrielle Ramirez</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -32,7 +34,7 @@
             <biblStruct>
                <analytic>
                   <title level="a">The English in Italy</title>
-                  <author type="writer">Shelley, Mary, 1797-1851</author>
+                  <author type="writer">Shelley, Mary Wollstonecraft, 1797-1851</author>
                </analytic>
                <monogr>
                   <title level="j">The Westminster Review</title>
@@ -121,570 +123,329 @@
                </category>
             </taxonomy>
             <taxonomy xml:id="g">
-               <bibl>Genre and Material Form</bibl>
+               <bibl>Genre</bibl>
                <category xml:id="g1">
-                  <catDesc>pageimage</catDesc>
-               </category>
-               <category xml:id="g2">
                   <catDesc>biography</catDesc>
                </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
                <category xml:id="g3">
-                  <catDesc>biographical essay</catDesc>
-               </category>
-               <category xml:id="g4">
-                  <catDesc>poetry pamphlet</catDesc>
-               </category>
-               <category xml:id="g5">
-                  <catDesc>poetry book</catDesc>
-               </category>
-               <category xml:id="g6">
-                  <catDesc>poem</catDesc>
-               </category>
-               <category xml:id="g7">
                   <catDesc>story</catDesc>
                </category>
-               <category xml:id="g8">
+               <category xml:id="g4">
                   <catDesc>drama</catDesc>
                </category>
-               <category xml:id="g9">
-                  <catDesc>table of contents</catDesc>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
                </category>
-               <category xml:id="g10">
-                  <catDesc>table of illustrations</catDesc>
-               </category>
-               <category xml:id="g11">
-                  <catDesc>picture</catDesc>
-               </category>
-               <category xml:id="g12">
-                  <catDesc>index</catDesc>
-               </category>
-               <category xml:id="g13">
-                  <catDesc>notes</catDesc>
-               </category>
-               <category xml:id="g14">
-                  <catDesc>frontispiece</catDesc>
-               </category>
-               <category xml:id="g15">
-                  <catDesc>inscription page</catDesc>
-               </category>
-               <category xml:id="g16">
-                  <catDesc>book boards</catDesc>
-               </category>
-               <category xml:id="g17">
-                  <catDesc>titlepage</catDesc>
-               </category>
-               <category xml:id="g18">
-                  <catDesc>preface</catDesc>
-               </category>
-               <category xml:id="g19">
-                  <catDesc>advertisement</catDesc>
-               </category>
-               <category xml:id="g20">
-                  <catDesc>foreword</catDesc>
-               </category>
-               <category xml:id="g21">
-                  <catDesc>acknowledgments</catDesc>
-               </category>
-               <category xml:id="g22">
-                  <catDesc>collection literary annual</catDesc>
-               </category>
-               <category xml:id="g23">
-                  <catDesc>collection miscellany</catDesc>
-               </category>
-               <category xml:id="g24">
-                  <catDesc>collection anthology</catDesc>
-               </category>
-               <category xml:id="g25">
-                  <catDesc>collection beauties</catDesc>
-               </category>
-               <category xml:id="g26">
-                  <catDesc>collection juvenile</catDesc>
-               </category>
-               <category xml:id="g27">
-                  <catDesc>collection religious</catDesc>
-               </category>
-               <category xml:id="g28">
-                  <catDesc>collection travels</catDesc>
-               </category>
-               <category xml:id="g29">
-                  <catDesc>mixed</catDesc>
-               </category>
-               <category xml:id="g30">
-                  <catDesc>essay</catDesc>
-               </category>
-               <category xml:id="g31">
-                  <catDesc>review</catDesc>
-               </category>
-               <category xml:id="g32">
-                  <catDesc>letter</catDesc>
-               </category>
-               <category xml:id="g33">
-                  <catDesc>fragment poem</catDesc>
-               </category>
-               <category xml:id="g34">
-                  <catDesc>fragment story</catDesc>
-               </category>
-               <category xml:id="g35">
-                  <catDesc>fragment novel</catDesc>
-               </category>
-               <category xml:id="g36">
-                  <catDesc>literary criticism book</catDesc>
-               </category>
-               <category xml:id="g37">
-                  <catDesc>literary criticism collection</catDesc>
-               </category>
-               <category xml:id="g38">
-                  <catDesc>bibliography</catDesc>
-               </category>
-               <category xml:id="g39">
-                  <catDesc>engraving</catDesc>
-               </category>
-               <category xml:id="g40">
-                  <catDesc>reproduction</catDesc>
-               </category>
-               <category xml:id="g41">
-                  <catDesc>figure</catDesc>
-               </category>
-               <category xml:id="g42">
-                  <catDesc>graph</catDesc>
-               </category>
-               <category xml:id="g43">
-                  <catDesc>map</catDesc>
-               </category>
-               <category xml:id="g44">
-                  <catDesc>table</catDesc>
-               </category>
-               <category xml:id="g45">
-                  <catDesc>musical score</catDesc>
-               </category>
-               <category xml:id="g46">
-                  <catDesc>music</catDesc>
-               </category>
-               <category xml:id="g47">
+               <category xml:id="g6">
                   <catDesc>satire</catDesc>
                </category>
-               <category xml:id="g48">
-                  <catDesc>political pamphlet</catDesc>
-               </category>
-               <category xml:id="g49">
-                  <catDesc>political cartoon</catDesc>
-               </category>
-               <category xml:id="g50">
-                  <catDesc>periodical</catDesc>
-               </category>
-               <category xml:id="g51">
-                  <catDesc>historical monograph</catDesc>
-               </category>
-               <category xml:id="g52">
-                  <catDesc>historical essay</catDesc>
-               </category>
-               <category xml:id="g53">
-                  <catDesc>philosophical treatise</catDesc>
-               </category>
-               <category xml:id="g54">
-                  <catDesc>philosophical essay</catDesc>
-               </category>
-               <category xml:id="g55">
-                  <catDesc>religious pamphlet</catDesc>
-               </category>
-               <category xml:id="g56">
-                  <catDesc>sermon</catDesc>
-               </category>
-               <category xml:id="g57">
-                  <catDesc>theology</catDesc>
-               </category>
-               <category xml:id="g58">
-                  <catDesc>religious book</catDesc>
-               </category>
-               <category xml:id="g59">
-                  <catDesc>essay on education</catDesc>
-               </category>
-               <category xml:id="g60">
-                  <catDesc>educational treatise</catDesc>
-               </category>
-               <category xml:id="g61">
-                  <catDesc>list of subscribers</catDesc>
-               </category>
-               <category xml:id="g62">
+               <category xml:id="g7">
                   <catDesc>allegory</catDesc>
                </category>
-               <category xml:id="g63">
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
                   <catDesc>introduction</catDesc>
                </category>
-               <category xml:id="g64">
-                  <catDesc>slipcase</catDesc>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
                </category>
-               <category xml:id="g65">
-                  <catDesc>dedication</catDesc>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
                </category>
-               <category xml:id="g66">
-                  <catDesc>picture of building</catDesc>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
                </category>
-               <category xml:id="g67">
-                  <catDesc>floorplans</catDesc>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
                </category>
-               <category xml:id="g68">
-                  <catDesc>photograph</catDesc>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
                </category>
-               <category xml:id="g69">
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
                   <catDesc>translation</catDesc>
                </category>
-               <category xml:id="g70">
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
                   <catDesc>manuscript</catDesc>
                </category>
-               <category xml:id="g71">
-                  <catDesc>printersmark</catDesc>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
                </category>
-               <category xml:id="g72">
-                  <catDesc>literary criticism article</catDesc>
+               <category xml:id="f23">
+                  <catDesc>nonceCollection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="keyword">
-               <category xml:id="lcsh">
-                  <catDesc>Library of Congress Subject Headings, reduced to one word before
-                     hyphen</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy
-               corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-               xml:id="ag">
-               <bibl>ARC Genre Categories, July 1, 2017</bibl>
-               <category xml:id="ag1">
-                  <catDesc>Advertisement</catDesc>
-               </category>
-               <category xml:id="ag2">
-                  <catDesc>Animation</catDesc>
-               </category>
-               <category xml:id="ag3">
-                  <catDesc>Bibliography</catDesc>
-               </category>
-               <category xml:id="ag4">
-                  <catDesc>Catalog</catDesc>
-               </category>
-               <category xml:id="ag5">
-                  <catDesc>Chronology</catDesc>
-               </category>
-               <category xml:id="ag7">
-                  <catDesc>Citation</catDesc>
-               </category>
-               <category xml:id="ag6">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="ag8">
-                  <catDesc>Correspondence</catDesc>
-               </category>
-               <category xml:id="ag9">
-                  <catDesc>Criticism</catDesc>
-               </category>
-               <category xml:id="ag10">
-                  <catDesc>Drama</catDesc>
-               </category>
-               <category xml:id="ag11">
-                  <catDesc>Ephemera</catDesc>
-               </category>
-               <category xml:id="ag12">
-                  <catDesc>Essay</catDesc>
-               </category>
-               <category xml:id="ag13">
-                  <catDesc>Fiction</catDesc>
-               </category>
-               <category xml:id="ag14">
-                  <catDesc>Film, Documentary</catDesc>
-               </category>
-               <category xml:id="ag15">
-                  <catDesc>Film, Experimental</catDesc>
-               </category>
-               <category xml:id="ag16">
-                  <catDesc>Film, Narrative</catDesc>
-               </category>
-               <category xml:id="ag17">
-                  <catDesc>Film, Other</catDesc>
-               </category>
-               <category xml:id="ag18">
-                  <catDesc>Historiography</catDesc>
-               </category>
-               <category xml:id="ag19">
-                  <catDesc>Interview</catDesc>
-               </category>
-               <category xml:id="ag20">
-                  <catDesc>Life Writing</catDesc>
-               </category>
-               <category xml:id="ag21">
-                  <catDesc>Liturgy</catDesc>
-               </category>
-               <category xml:id="ag22">
-                  <catDesc>Musical Analysis</catDesc>
-               </category>
-               <category xml:id="ag23">
-                  <catDesc>Music, Other</catDesc>
-               </category>
-               <category xml:id="ag24">
-                  <catDesc>Musical Work</catDesc>
-               </category>
-               <category xml:id="ag25">
-                  <catDesc>Musical Score</catDesc>
-               </category>
-               <category xml:id="ag26">
-                  <catDesc>Nonficition</catDesc>
-               </category>
-               <category xml:id="ag27">
-                  <catDesc>Paratext</catDesc>
-               </category>
-               <category xml:id="ag28">
-                  <catDesc>Performance</catDesc>
-               </category>
-               <category xml:id="ag29">
-                  <catDesc>Philosophy</catDesc>
-               </category>
-               <category xml:id="ag30">
-                  <catDesc>Photograph</catDesc>
-               </category>
-               <category xml:id="ag31">
-                  <catDesc>Political Statement</catDesc>
-               </category>
-               <category xml:id="ag32">
-                  <catDesc>Poetry</catDesc>
-               </category>
-               <category xml:id="ag33">
-                  <catDesc>Religion</catDesc>
-               </category>
-               <category xml:id="ag34">
-                  <catDesc>Reference Works</catDesc>
-               </category>
-               <category xml:id="ag35">
-                  <catDesc>Review</catDesc>
-               </category>
-               <category xml:id="ag36">
-                  <catDesc>Scripture</catDesc>
-               </category>
-               <category xml:id="ag37">
-                  <catDesc>Sermon</catDesc>
-               </category>
-               <category xml:id="ag38">
-                  <catDesc>Speech</catDesc>
-               </category>
-               <category xml:id="ag39">
-                  <catDesc>Translation</catDesc>
-               </category>
-               <category xml:id="ag40">
-                  <catDesc>Travel Writing</catDesc>
-               </category>
-               <category xml:id="ag41">
-                  <catDesc>Unspecified</catDesc>
-               </category>
-               <category xml:id="ag42">
-                  <catDesc>Visual Art</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-               xml:id="f">
-               <bibl>ARC Format Categories, July 1, 2017</bibl>
-               <category xml:id="f1">
-                  <catDesc>Codex</catDesc>
-               </category>
-               <category xml:id="f2">
-                  <catDesc>Collection</catDesc>
-               </category>
-               <category xml:id="f3">
-                  <catDesc>Dataset</catDesc>
-               </category>
-               <category xml:id="f4">
-                  <catDesc>Drawing</catDesc>
-               </category>
-               <category xml:id="f5">
-                  <catDesc>Illustration</catDesc>
-               </category>
-               <category xml:id="f6">
-                  <catDesc>Interactive Resource</catDesc>
-               </category>
-               <category xml:id="f7">
-                  <catDesc>Manuscript</catDesc>
-               </category>
-               <category xml:id="f8">
-                  <catDesc>Map</catDesc>
-               </category>
-               <category xml:id="f9">
-                  <catDesc>Moving Image</catDesc>
-               </category>
-               <category xml:id="f10">
-                  <catDesc>Notated Music</catDesc>
-               </category>
-               <category xml:id="f11">
-                  <catDesc>Page Proofs</catDesc>
-               </category>
-               <category xml:id="f12">
-                  <catDesc>Pamphlet</catDesc>
-               </category>
-               <category xml:id="f13">
-                  <catDesc>Periodical</catDesc>
-               </category>
-               <category xml:id="f14">
-                  <catDesc>Physcial Object</catDesc>
-               </category>
-               <category xml:id="f15">
-                  <catDesc>Roll</catDesc>
-               </category>
-               <category xml:id="f16">
-                  <catDesc>Sheet</catDesc>
-               </category>
-               <category xml:id="f17">
-                  <catDesc>Sound</catDesc>
-               </category>
-               <category xml:id="f18">
-                  <catDesc>Still Image</catDesc>
-               </category>
-               <category xml:id="f19">
-                  <catDesc>Typescript</catDesc>
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
                </category>
             </taxonomy>
          </classDecl>
       </encodingDesc>
       <profileDesc>
          <textClass>
-            <keywords scheme="#lcsh">
+            <keywords scheme="#lcna">
                <list type="simple">
-                  <item>English literature</item>
-                  <item>History</item>
+                  <item>Shelley, Mary Wollstonecraft, 1797-1851</item>
+                  <item>Normanby, Constantine Henry Phipps, Marquess of, 1797-1863</item>
+                  <item>Eaton, Charlotte A. (Charlotte Anne), 1788-1859</item>
+                  <item>Jameson, Mrs. (Anna), 1794-1860</item>
                </list>
             </keywords>
             <catRef target="#ft1" scheme="#ft"/>
-            <catRef target="#ag9 #ag35" scheme="#ag"/>
-            <catRef target="#f13" scheme="#f"/>
+            <catRef target="#f4" scheme="#f"/>
             <catRef target="#ps1" scheme="#p"/>
-            <catRef scheme="#g" target="#g72 #g31 #g50"/>
+            <catRef target="#g13 #g14 #g16" scheme="#g"/>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="#LM" when="20211214">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
+         <change who="#MW" when="20230302"><label>Changed by</label><name>Mary Waters</name><list
+               type="simple">
+               <item>changed catRef</item>
+            </list></change>
+         <change who="#LM" when="20230227"><label>Changed by</label><name>Laura Mandell</name><list
+               type="simple">
+               <item>new header</item>
+            </list></change>
+         <change who="#GR" when="20230111"><label>Changed by</label><name>Gabrielle
+               Ramirez</name><list type="simple">
+               <item>revised keywords</item>
+            </list></change>
+         <change who="#LM" when="20211214"><label>Changed by</label><name>Laura Mandell</name><list
+               type="simple">
                <item>had to roll back due to xml versioning error, revisions as below but starting
                   with August and March 2021 XML</item>
-            </list>
-         </change>
-         <change who="#LM" when="20210922">
-            <label>Changed by</label>
-            <name>Laura Mandell</name>
-            <list type="simple">
+            </list></change>
+         <change who="#LM" when="20210922"><label>Changed by</label><name>Laura Mandell</name><list
+               type="simple">
                <item>Added header teiHeader07232021.xml</item>
                <item>changed milestone sig to fw sig</item>
                <item>inserted line break before fw</item>
-            </list>
-         </change>
-         <change who="#MW" when="2019-12-18" n="4">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
+            </list></change>
+         <change who="#MW" when="2019-12-18" n="4"><label>Changed by</label><name>Mary A.
+               Waters</name><list type="simple">
                <item>minor TEI encoding revisions</item>
-            </list>
-         </change>
-         <change who="#MW" when="20190610" n="3">
-            <label>Changed by</label>
-            <name>Mary A. Waters</name>
-            <list type="simple">
+            </list></change>
+         <change who="#MW" when="20190610" n="3"><label>Changed by</label><name>Mary A.
+               Waters</name><list type="simple">
                <item>Added new taxonomies into header</item>
-            </list>
-         </change>
-         <change>
-            <name>Mary A. Waters</name>
-            <date>20190519</date>
-            <list>
+            </list></change>
+         <change><name>Mary A. Waters</name><date>20190519</date><list>
                <item>revise TEI encoding</item>
                <item>document ID change</item>
-            </list>
-         </change>
-         <change>
-            <name>Krystal J. Iseminger</name>
-            <date>2017-02-05</date>
-            <list>
+            </list></change>
+         <change><name>Krystal J. Iseminger</name><date>2017-02-05</date><list>
                <item>TEI encoding</item>
-            </list>
-         </change>
-         <change>
-            <name>Mary A. Waters</name>
-            <date>2010-12-01</date>
-            <list>
+            </list></change>
+         <change><name>Mary A. Waters</name><date>2010-12-01</date><list>
                <item>Created Edition</item>
-            </list>
-         </change>
+            </list></change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="essay">
-            <head>
-               <bibl>
-                  <author type="writer">
-                     <name>
-                        <ref target="people.html#ShelleyMary">Mary Shelley</ref>
-                     </name>
-                  </author>
-                  <title type="main" level="a">
-                     <hi rendition="#smcaps">Art</hi>. IV.—1. <hi rendition="#italics">
-                        <title>The English in Italy</title>
-                     </hi>. 3 vols. London. 1826. <lb/>2. <hi rendition="#italics">
-                        <title>Continental Adventures. A Novel</title>
-                     </hi>. 3 vols. London. 1826. <lb/>3. <hi rendition="#italics">
-                        <title>Diary of an Ennuyée.</title>
-                     </hi> London. 1826.<note xml:id="ftn1" n="1">This review article appeared in
-                           <title level="j">
-                           <hi rendition="#italics">The Westminster Review</hi>
-                        </title>, vol. 6 (October 1826), pp. 325-41. <hi rendition="#italics">
-                           <title>The English in Italy</title>
-                        </hi> was authored by <ref target="people.html#PhippsConstantineHenry">
-                           Constantine Henry Phipps, Marquess of Normanby</ref>. <ref
+            <head><bibl><author type="writer"><name><ref target="people.html#ShelleyMary">Mary
+                           Shelley</ref></name></author><title type="main" level="a"><hi
+                        rendition="#smcaps">Art</hi>. IV.—1. <hi rendition="#italics"><title>The
+                           English in Italy</title></hi>. 3 vols. London. 1826. <lb/>2. <hi
+                        rendition="#italics"><title>Continental Adventures. A Novel</title></hi>. 3
+                     vols. London. 1826. <lb/>3. <hi rendition="#italics"><title>Diary of an
+                           Ennuyée.</title></hi> London. 1826.<note xml:id="ftn1" n="1">This review
+                        article appeared in <title level="j"><hi rendition="#italics">The
+                              Westminster Review</hi></title>, vol. 6 (October 1826), pp. 325-41.
+                           <hi rendition="#italics"><title>The English in Italy</title></hi> was
+                        authored by <ref target="people.html#PhippsConstantineHenry"> Constantine
+                           Henry Phipps, Marquess of Normanby</ref>. <ref
                            target="people.html#EatonCharlotte">Charlotte A. Eaton (</ref> authored
-                           <hi rendition="#italics">
-                           <title>Continental Adventures. A Novel</title>
-                        </hi>. <hi rendition="#italics">
-                           <title>Diary of an Ennuyée</title>
-                        </hi> is by <ref target="people.html#JamesonAnna">Anna Jameson</ref>. This
-                        review article is attributed to Mary Shelley in <hi rendition="#italics">
-                           <title>The Wellesley Index to Victorian Periodicals 1824-1900</title>
-                        </hi>, ed. Wa;ter E. Houghton, University of Toronto Press, 1966. Krystal J.
-                        Iseminger and Mary A. Waters prepared the current edition of this article
-                        for <hi rendition="#italics">The Criticism Archive.</hi>
-                     </note>
-                  </title>
-               </bibl>
-            </head>
-            <p rendition="#noindent">
-               <hi rendition="#largest">W</hi>HEN peace came, after many long years of war, when our
-               island prison was opened to us, and our watery exit from it was declared practicable,
-               it was the paramount wish of every English heart, ever addicted to vagabondizing, to
-               hasten to the continent, and to imitate our forefathers in their almost forgotten
-               custom, of spending the greater part of their lives and fortunes in their carriages
-               on the post-roads of the continent. With the brief and luckless exception of the
-               peace of Amiens,<note>March 1802-May 1803. "Luckless" because short lived, this
-                  period offered a brief reprise from "long years of war" with France from 1793
-                  until the capture and temporary exile of <ref target="people.html#Napoleon"
-                     >Napoleon</ref> in 1814. <ref target="people.html#Napoleon">Napoleon</ref>
-                  escaped from exile in February 1815 and was only finally defeated in June of the
-                  same year.</note> the continent had not been open for the space of more than
-               one-and- twenty years; a new generation had sprung up, and the whole of this, who had
-               money and time at command, poured, in one vast<pb n="326"/> stream, across the Pas de
-               Calais into France: in their numbers, and their eagerness to proceed forward, they
-               might be compared to the Norwegian rats, who always go right on, and when they come
-               to an opposing stream, still pursue their route, till a bridge is formed of the
-               bodies of the drowned, over which the living pass in safety. The simile holds good in
-               more ways than one: the first emigrants, it is true, were not wholly killed, but the
-               miseries they endured, of dirty packets and wretched inns, were the substratum from
-               which has arisen the elegant steam-packet, and the improved state of the continental
-               hotels. But in those early days of migration, in the summer of 1814, every
-               inconvenience was hailed as a new chapter in the romance of our travels; the worst
-               annoyance of all, the Custom-house, was amusing as a novelty; we saw with extasy the
-               strange costume of the French women, read with delight our own descriptions in the
-               passport, looked with curiosity on every <hi rendition="#italics">plât</hi>, fancying
-               that the fried-leaves of artichokes were frogs; we saw shepherds in opera-hats, and
-               post-boys in jack-boots; and (<hi rendition="#italics">pour comble de merveille</hi>
-               <note>To crown the wonder.</note>) heard little boys and girls talk French: it was
-               acting a novel, being an incarnate romance. But these days are now vanished: frequent
-               landings at Calais have deprived it of its captivating novelty. Many of our children,
-               under the guidance of foreign nursery-maids, lisp French as well as any little
-               wood-shod urchin among the natives. We have learned to curse the <hi
-                  rendition="#italics">douane</hi>,<note>Customs checkpoint.</note> and denounce
-               passports as tyrannical and insufferable impediments to our free progress.</p>
+                           <hi rendition="#italics"><title>Continental Adventures. A
+                           Novel</title></hi>. <hi rendition="#italics"><title>Diary of an
+                              Ennuyée</title></hi> is by <ref target="people.html#JamesonAnna">Anna
+                           Jameson</ref>. This review article is attributed to Mary Shelley in <hi
+                           rendition="#italics"><title>The Wellesley Index to Victorian Periodicals
+                              1824-1900</title></hi>, ed. Wa;ter E. Houghton, University of Toronto
+                        Press, 1966. Krystal J. Iseminger and Mary A. Waters prepared the current
+                        edition of this article for <hi rendition="#italics">The Criticism
+                           Archive.</hi></note></title></bibl></head>
+            <p rendition="#noindent"><hi rendition="#largest">W</hi>HEN peace came, after many long
+               years of war, when our island prison was opened to us, and our watery exit from it
+               was declared practicable, it was the paramount wish of every English heart, ever
+               addicted to vagabondizing, to hasten to the continent, and to imitate our forefathers
+               in their almost forgotten custom, of spending the greater part of their lives and
+               fortunes in their carriages on the post-roads of the continent. With the brief and
+               luckless exception of the peace of Amiens,<note>March 1802-May 1803. "Luckless"
+                  because short lived, this period offered a brief reprise from "long years of war"
+                  with France from 1793 until the capture and temporary exile of <ref
+                     target="people.html#Napoleon">Napoleon</ref> in 1814. <ref
+                     target="people.html#Napoleon">Napoleon</ref> escaped from exile in February
+                  1815 and was only finally defeated in June of the same year.</note> the continent
+               had not been open for the space of more than one-and- twenty years; a new generation
+               had sprung up, and the whole of this, who had money and time at command, poured, in
+               one vast<pb n="326"/> stream, across the Pas de Calais into France: in their numbers,
+               and their eagerness to proceed forward, they might be compared to the Norwegian rats,
+               who always go right on, and when they come to an opposing stream, still pursue their
+               route, till a bridge is formed of the bodies of the drowned, over which the living
+               pass in safety. The simile holds good in more ways than one: the first emigrants, it
+               is true, were not wholly killed, but the miseries they endured, of dirty packets and
+               wretched inns, were the substratum from which has arisen the elegant steam-packet,
+               and the improved state of the continental hotels. But in those early days of
+               migration, in the summer of 1814, every inconvenience was hailed as a new chapter in
+               the romance of our travels; the worst annoyance of all, the Custom-house, was amusing
+               as a novelty; we saw with extasy the strange costume of the French women, read with
+               delight our own descriptions in the passport, looked with curiosity on every <hi
+                  rendition="#italics">plât</hi>, fancying that the fried-leaves of artichokes were
+               frogs; we saw shepherds in opera-hats, and post-boys in jack-boots; and (<hi
+                  rendition="#italics">pour comble de merveille</hi><note>To crown the
+                  wonder.</note>) heard little boys and girls talk French: it was acting a novel,
+               being an incarnate romance. But these days are now vanished: frequent landings at
+               Calais have deprived it of its captivating novelty. Many of our children, under the
+               guidance of foreign nursery-maids, lisp French as well as any little wood-shod urchin
+               among the natives. We have learned to curse the <hi rendition="#italics"
+                  >douane</hi>,<note>Customs checkpoint.</note> and denounce passports as tyrannical
+               and insufferable impediments to our free progress.</p>
             <p>When France palled on our travelled appetites, which always crave for something new,
                Italy came into vogue. As preparatives for our pilgrimage to that county, whose charm
                is undying, we devoured the fabulous descriptions of <ref
@@ -725,15 +486,14 @@
                intelligence of their wants and wishes to the natives of Italy; the record of his
                travels is no longer confined, according to <ref
                   target="people.html#PhippsConstantineHenry">lord Normanby</ref>'s vivid
-               description, to how he had been "starved here, upset there, and robbed every where" [<title>
-                  <hi rendition="#italics">The English in Italy</hi>
-               </title>, vol. ii. p. 229]<note>Shelley's reference.</note>. Your Anglo-Italian
-               ceases to visit the churches and palaces, guide-book in hand; anxious, not to see,
-               but to say that he has seen. Without attempting to adopt the customs of the natives,
-               he attaches himself to some of the most refined among them, and appreciates their
-               native talent and simple manners; he has lost the critical mania in a real taste for
-               the beautiful, acquired by a frequent sight of the best models of ancient and modern
-               art.</p>
+               description, to how he had been "starved here, upset there, and robbed every where"
+                     [<title><hi rendition="#italics">The English in Italy</hi></title>, vol. ii. p.
+                  229]<note>Shelley's reference.</note>. Your Anglo-Italian ceases to visit the
+               churches and palaces, guide-book in hand; anxious, not to see, but to say that he has
+               seen. Without attempting to adopt the customs of the natives, he attaches himself to
+               some of the most refined among them, and appreciates their native talent and simple
+               manners; he has lost the critical mania in a real taste for the beautiful, acquired
+               by a frequent sight of the best models of ancient and modern art.</p>
             <p>Upon the whole, the Anglo-Italians may be pronounced a well-informed, clever, and
                active race; they pity greatly those of their un-Italianized countrymen, who are
                endowed with <ref target="people.html#Spurzheim">Spurzheim</ref>'s bump, denominated
@@ -741,10 +501,8 @@
                literature calculated to disseminate among them a portion of that taste and knowledge
                acquired in the Peninsula. <ref target="people.html#ByronGeorge">Lord Byron</ref> may
                be <pb n="328"/> considered the father of the Anglo-Italian literature, and
-                  <title>Beppo</title>
-               <note>
-                  <ref target="people.html#ByronGeorge">Byron</ref>'s 1818 comic poem set in
-                  Venice.</note> as being the first product of that school; <ref
+                  <title>Beppo</title><note><ref target="people.html#ByronGeorge">Byron</ref>'s 1818
+                  comic poem set in Venice.</note> as being the first product of that school; <ref
                   target="people.html#PhippsConstantineHenry">lord Normanby</ref> brings up the
                rear. The plan of his work, entitled, "<title>The English in Italy</title>" is
                excellent. It is difficult, after a long residence in a foreign country, to collect
@@ -791,21 +549,21 @@
                but monotonous, fire-side, her sentry-box of a house; to our cloudy sky; to the
                labour of giving dinners and entertaining evening parties; to those numerous
                etiquettes easy to the natives, unattainable by foreigners; to the <hi
-                  rendition="#italics">sotto voce</hi>
-               <note>Soft voice or undertone.</note> tone (if the metaphor be admissible) which
-               characterizes our social intercourse, to the necessity of for ever wearing that thick
-               and ample veil of propriety which we throw over every act and word: introduce the
-               ardent, simple-hearted, undisguising Italian to this world, so opposite to her own,
-               and she would experience the same heart-sickening disappointment that visited the
-               heart of the heroine of the <title>Amoroso</title>. To us, and particularly to our
-               females, these laws of constraint are the music, the accompaniment by which they
-               regulate their steps until they cannot walk without it; and the veil before spoken of
-               is as necessary to their sense of decency as their very habiliments. It is natural,
-               therefore, that the English girl of the tale should be transfixed with grief at the
-               request from her husband to conform with Italian customs; and it is also inevitable
-               that the first step she takes in compliance with this request must sin against
-               Italian etiquette, and, though liberty is offered her, that she should find that even
-               the excess of freedom does not permit her the exact liberty she wants.</p>
+                  rendition="#italics">sotto voce</hi><note>Soft voice or undertone.</note> tone (if
+               the metaphor be admissible) which characterizes our social intercourse, to the
+               necessity of for ever wearing that thick and ample veil of propriety which we throw
+               over every act and word: introduce the ardent, simple-hearted, undisguising Italian
+               to this world, so opposite to her own, and she would experience the same
+               heart-sickening disappointment that visited the heart of the heroine of the
+                  <title>Amoroso</title>. To us, and particularly to our females, these laws of
+               constraint are the music, the accompaniment by which they regulate their steps until
+               they cannot walk without it; and the veil before spoken of is as necessary to their
+               sense of decency as their very habiliments. It is natural, therefore, that the
+               English girl of the tale should be transfixed with grief at the request from her
+               husband to conform with Italian customs; and it is also inevitable that the first
+               step she takes in compliance with this request must sin against Italian etiquette,
+               and, though liberty is offered her, that she should find that even the excess of
+               freedom does not permit her the exact liberty she wants.</p>
             <p>The "<title>Politico</title>" contains a rapid but masterly sketch of the Piedmontese
                revolution. The author, it is true, judging only from the apparent effects, blames
                this sudden burst of impatience on the part of Italians any longer to bear their
@@ -814,24 +572,18 @@
                incompatible with a generous love of liberty. The revolution ended unfortunately, it
                is true; but, most certainly, if the attempt had not been made, the Italians would
                have lost their characteristic of being slaves "ognor frementi,"<note>Forever
-                  enraged; Shelley uses the phrase in <hi rendition="#italics">
-                     <title>Frankenstein</title>
-                  </hi> about the Milanese who longed to free Lombardy from Austrian
-                  domination.</note> and have sunk into as degraded an existence as that of the
-               Fanariotes of Constantinople.<note>The Phanariotes were a highly skilled Greek
-                  population in this Ottoman city who attained significant wealth and influence.
-                  Proponents of Greek liberation portrayed them as assimilationist, lacking in
-                  nationalistic commitment. </note> From the smothered fire of this crushed revolt a
-               brighter flame will hereafter rise: it was a glimmer, a flash, a reflection, sent
-               back from the blaze <lb/>
-               <fw type="vol">
-                  <hi rendition="#smcaps">vol. vi.—w. r.</hi>
-               </fw>
-               <fw type="sig">
-                  <hi rendition="#smcaps">z</hi>
-               </fw>
-               <pb n="330"/>just then kindled by the Spaniards: both are quenched now, but not for
-               ever.</p>
+                  enraged; Shelley uses the phrase in <hi rendition="#italics"
+                        ><title>Frankenstein</title></hi> about the Milanese who longed to free
+                  Lombardy from Austrian domination.</note> and have sunk into as degraded an
+               existence as that of the Fanariotes of Constantinople.<note>The Phanariotes were a
+                  highly skilled Greek population in this Ottoman city who attained significant
+                  wealth and influence. Proponents of Greek liberation portrayed them as
+                  assimilationist, lacking in nationalistic commitment. </note> From the smothered
+               fire of this crushed revolt a brighter flame will hereafter rise: it was a glimmer, a
+               flash, a reflection, sent back from the blaze <lb/><fw type="vol"><hi
+                     rendition="#smcaps">vol. vi.—w. r.</hi></fw><fw type="sig"><hi
+                     rendition="#smcaps">z</hi></fw><pb n="330"/>just then kindled by the Spaniards:
+               both are quenched now, but not for ever.</p>
             <p>If the Italians could have viewed the Spanish struggle, and still submitted
                uncontending to the Austrian, they could never more have lifted their heads as a
                nation, nor possessed any claim to our commiseration. One of the chief causes,
@@ -871,30 +623,30 @@
             <p>But to return to "<title>The English in Italy</title>" The "<title>Sbarbuto</title>"
                approaches nearest to a failure of any of the sketches; the hero is a kind of ideal
                of <ref target="people.html#ByronGeorge">lord Byron</ref>. The "dear Corsair
-                  expression,"<note>From <ref target="people.html#MooreThomas">Thomas Moore</ref>, <title>
-                     <hi rendition="#italics">The Fudge Family in Paris</hi>, "Letter V. From Miss
-                     Biddy Fudge to Miss Dorothy——,"</title> where the protagonist describes the
-                  mode of expression as "half savage, half soft."</note> now going out of fashion,
-               is introduced, and the mixed character of bandit and dandy is carried to its height.
-               Truth of description and liveliness of narrative, two chief characteristics of this
-               author, render even this strange anomaly interesting. The conclusion of the tale is
-               singularly abrupt, but it may be observed that all <ref
+                  expression,"<note>From <ref target="people.html#MooreThomas">Thomas Moore</ref>,
+                        <title><hi rendition="#italics">The Fudge Family in Paris</hi>, "Letter V.
+                     From Miss Biddy Fudge to Miss Dorothy——,"</title> where the protagonist
+                  describes the mode of expression as "half savage, half soft."</note> now going out
+               of fashion, is introduced, and the mixed character of bandit and dandy is carried to
+               its height. Truth of description and liveliness of narrative, two chief
+               characteristics of this author, render even this strange anomaly interesting. The
+               conclusion of the tale is singularly abrupt, but it may be observed that all <ref
                   target="people.html#PhippsConstantineHenry">lord Normanby</ref>'s catastrophes are
                faulty; that of "<title>Matilda</title>" has been justly censured.<note>Shelley
-                  perhaps refers to the article in the <hi rendition="#italics">
-                     <title>London Magazine</title>
-                  </hi>, new series, vol. 4, January 1826, pp. 47-8, where the reviewer not only
-                  condemns the tale but castigates the six other literary journals that had given it
-                  positive notice for their collusion with <ref target="people.html#ColburnHenry"
-                     >Henry Colburn</ref>, a publisher notorious for puffing, and a business
-                  associate of <ref target="people.html#PhippsConstantineHenry">Normanby</ref>'s
-                  publishers, Saunders and Otway.</note> The author wished to pourtray the evils
-               resulting from certain modes of action, and yet the tragic conclusion of the tale is
-               entirely independent of the chain of unhappy events which were to appear of necessity
-               to arise from the heroine's departure from the moral laws of her country. The
-               conclusion of the "<title>Sbarbuto</title>" is still worse, and our imagination
-               received a most disagreeable baulk, when, on turning the last page of this tale, we
-               found that was indeed the last.</p>
+                  perhaps refers to the article in the <hi rendition="#italics"><title>London
+                        Magazine</title></hi>, new series, vol. 4, January 1826, pp. 47-8, where the
+                  reviewer not only condemns the tale but castigates the six other literary journals
+                  that had given it positive notice for their collusion with <ref
+                     target="people.html#ColburnHenry">Henry Colburn</ref>, a publisher notorious
+                  for puffing, and a business associate of <ref
+                     target="people.html#PhippsConstantineHenry">Normanby</ref>'s publishers,
+                  Saunders and Otway.</note> The author wished to pourtray the evils resulting from
+               certain modes of action, and yet the tragic conclusion of the tale is entirely
+               independent of the chain of unhappy events which were to appear of necessity to arise
+               from the heroine's departure from the moral laws of her country. The conclusion of
+               the "<title>Sbarbuto</title>" is still worse, and our imagination received a most
+               disagreeable baulk, when, on turning the last page of this tale, we found that was
+               indeed the last.</p>
             <p>The sketches called the "<title>Zingari,</title>" which detail a variety of
                adventures which have befallen the gipsy English in Italy, are perhaps the best part
                of the book. There is nothing outré, nothing of caricature in any of these portraits.
@@ -927,14 +679,14 @@
                   Paris, in felicitous Anglo-French, ask the driver of a fiacre, "Pouvez-vous aller
                   à rue Saint Honoré dans vingt cinq minuits?" [Can you get to rue Saint Honoré in
                   twenty five midnight?] [<ref target="people.html#ShelleyMary">Shelley's</ref>
-                  note].</note> The tales <lb/><fw type="sig">z2</fw>
-               <pb n="332"/> of the "<title>Zingari,</title>" may serve as so many lessons to all
-               future travelers as to what they may seek and what they may shun in Italy. We may
-               learn the perils of Vetturino travelling<note>Travelling by four-wheeled
-                  carriage.</note> from "<title>The Economist,</title>" assured that the details are
-               by no means caricatured; and we may reap still more serious profit from the sketches
-               entitled, "<title>Change of Air</title>," and "<title>Boyhood Abroad</title>." And
-               yet, as is frequently the case, further experience overthrows the minor one, and the
+                  note].</note> The tales <lb/><fw type="sig">z2</fw><pb n="332"/> of the
+                  "<title>Zingari,</title>" may serve as so many lessons to all future travelers as
+               to what they may seek and what they may shun in Italy. We may learn the perils of
+               Vetturino travelling<note>Travelling by four-wheeled carriage.</note> from
+                  "<title>The Economist,</title>" assured that the details are by no means
+               caricatured; and we may reap still more serious profit from the sketches entitled,
+                  "<title>Change of Air</title>," and "<title>Boyhood Abroad</title>." And yet, as
+               is frequently the case, further experience overthrows the minor one, and the
                discomforts and dangers which are the lot of an invalid traveler in Italy will change
                to comforts and safety, if he becomes a resident there. If, indeed, the invalid
                travel, like <ref target="people.html#PhippsConstantineHenry">lord Normanby</ref>'s
@@ -961,8 +713,7 @@
                   of the highest order, and as a practical surgeon he stood in the first rank of his
                   profession. His private virtues secured for him universal esteem; he was gentle,
                   yet full of enthusiasm; a select specimen of Italian virtue and genius. [<ref
-                     target="people.html#ShelleyMary">Shelley's</ref> note].</note>
-            </p>
+                     target="people.html#ShelleyMary">Shelley's</ref> note].</note></p>
             <pb n="333"/>
             <p>We are surprised that <ref target="people.html#PhippsConstantineHenry">lord
                   Normanby</ref> has not introduced more of the country life of Italy, which bears a
@@ -1051,38 +802,30 @@
                ceaseless chirp, fill the air with sound, and in the evening the fire-flies come out
                from the myrtle hedges, and form a thousand changing and flashing constellations on
                the green corn-fields, which is their favourite resort. Meanwhile the <hi
-                  rendition="#italics">contadini</hi>
-               <note>Peasants or rustics.</note> cheer themselves with songs, either singly, in
-               harmony, or in response. One of the favourite games among the Tuscan peasants (we
-               have forgotten the name of it), especially during the time of the vintage, is
-               singularly poetic. A man on one tree, will challenge another perched afar off,
-               calling out the name of a flower; the challenged responds with an extempore couplet,
-               sometimes founded on the metaphoric meaning attached, of the flower's name, sometimes
-               given at random, and then returns the challenge by naming another flower, which is
-               replied to in the same manner. We have unluckily preserved but two of these
-               impromptus, and they are both on the same flower:— <quote>
-                  <lg type="stanza">
+                  rendition="#italics">contadini</hi><note>Peasants or rustics.</note> cheer
+               themselves with songs, either singly, in harmony, or in response. One of the
+               favourite games among the Tuscan peasants (we have forgotten the name of it),
+               especially during the time of the vintage, is singularly poetic. A man on one tree,
+               will challenge another perched afar off, calling out the name of a flower; the
+               challenged responds with an extempore couplet, sometimes founded on the metaphoric
+               meaning attached, of the flower's name, sometimes given at random, and then returns
+               the challenge by naming another flower, which is replied to in the same manner. We
+               have unluckily preserved but two of these impromptus, and they are both on the same
+               flower:— <quote><lg type="stanza">
                      <l rendition="#indent1">Fior di cent' erbe!</l>
                      <l>Non bimbi voglion bene a loro mamma,</l>
                      <l>Quanto io alla speransa mia.</l>
                      <l rendition="#indent1">Fior di cent' erbe!</l>
                      <l>Se un sospiro avesse la parola,</l>
-                     <l>Quanto bell' ambasciator sarebbe.<note>
-                           <quote>
-                              <lg type="stanza">
+                     <l>Quanto bell' ambasciator sarebbe.<note><quote><lg type="stanza">
                                  <l rendition="#indent1">Flower from 100 seeds! </l>
                                  <l>Children do not love their mother, </l>
                                  <l>As much as I love my hope. </l>
                                  <l rendition="#indent1">Flower from 100 seeds! </l>
                                  <l>If a sigh would have a voice, </l>
                                  <l>How wonderful a messenger it would be. </l>
-                              </lg>
-                           </quote>
-                        </note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
+                              </lg></quote></note></l>
+                  </lg></quote></p>
             <p>It is this exhaustless fertility that makes Italy a paradise, and affords
                never-ending variety of object to the residents. With us nature is parsimonious, if
                not frugal; her very magnificence is that of a well-regulated mansion, where, though
@@ -1117,8 +860,7 @@
                were his own, and we were continually startled by images of dazzling beauty, and a
                flow of language which never degenerated into mere words, but, on the contrary, was
                instinct with energy and pathos.</p>
-            <p>
-               <title>Inez de Castro</title> was a tragedy he gave at Lucca, the subject being
+            <p><title>Inez de Castro</title> was a tragedy he gave at Lucca, the subject being
                imposed on him by the arch-duchess, who was in the theatre. When towards the end, he
                caused the audience to understand that the prince, Don Pedro, husband of Inez,
                drawing a curtain, suddenly displays to his father the bodies of his murdered wife
@@ -1143,17 +885,12 @@
                away in chains. From all this magical creation of talent, what resulted? The poet
                himself forgets all his former imaginations, and is hurried on to create fresh
                imagery, while the effects of his former inspirations are borne away with the breath
-               that uttered them, never again to be recalled— <quote>
-                  <lg type="stanza">
+               that uttered them, never again to be recalled— <quote><lg type="stanza">
                      <l>Nec revocare situs, aut jungere carmina curst.<note>"neither to recover the
                            verses nor return them to order," <ref target="people.html#Virgil"
-                              >Virgil</ref>, <hi rendition="#italics">
-                              <title>Aeneid</title>
-                           </hi>, Book III, line 451.</note>
-                     </l>
-                  </lg>
-               </quote>
-            </p>
+                              >Virgil</ref>, <hi rendition="#italics"><title>Aeneid</title></hi>,
+                           Book III, line 451.</note></l>
+                  </lg></quote></p>
             <p rendition="#noindent">For the rest, he acquires the enthusiastic praises of some few
                of the more refined of his countrymen—for <ref target="people.html#Sgricci"
                   >Sgricci</ref>'s poetry is of too classic and elevated a nature to please the
@@ -1168,12 +905,11 @@
                   Normanby</ref>, they may be passed more cursorily over. </p>
             <p>"<title>Continental Adventures</title>" are the production of the very clever <ref
                   target="people.html#EatonCharlotte">authoress of "<title>Rome in the Nineteenth
-                     Century.</title>
-               </ref>" This latter publication is an inestimable guide to all who visit the Eternal
-               City, and even to those at home, more than any other work on the same subject, gives
-               a faithful account of the wonders of that metropolis of the world.
-                  "<title>Continental Adventures</title>" is on another and a worse plan. It mixes
-               real scenes with fictitious ones, not in the style of the "<title>English in
+                     Century.</title></ref>" This latter publication is an inestimable guide to all
+               who visit the Eternal City, and even to those at home, more than any other work on
+               the same subject, gives a faithful account of the wonders of that metropolis of the
+               world. "<title>Continental Adventures</title>" is on another and a worse plan. It
+               mixes real scenes with fictitious ones, not in the style of the "<title>English in
                   Italy,</title>" where the manners of the natives form the ground-work of the
                tales, but in the mode of a common novel—a novel of the day: a lady and her lover,
                the baulks to love, the rival, and the denouement, all English: and the
@@ -1203,12 +939,11 @@
                and the Reverend Saunders M'Muckleman is throughout a genuine comic character. Her
                descriptions of scenery are, however, the best part of the book; they are varied and
                faithful. We select one, as a specimen of the style in which they are executed:—</p>
-            <quote>
-               <p>The glaciers of the Aar, which we visited from the Grimsel, present a scene which
-                  I am convinced the world cannot equal; which none who have beheld it can ever
-                  forget, and none who have not seen it can ever conceive. I will not mock you with
-                  a futile attempt at description. You cannot picture the scene; but you can form
-                  some idea of the awe-struck astonishment which filled our minds, when, after
+            <quote><p>The glaciers of the Aar, which we visited from the Grimsel, present a scene
+                  which I am convinced the world cannot equal; which none who have beheld it can
+                  ever forget, and none who have not seen it can ever conceive. I will not mock you
+                  with a futile attempt at description. You cannot picture the scene; but you can
+                  form some idea of the awe-struck astonishment which filled our minds, when, after
                   surmounting all the difficulties of the way, we found ourselves standing amidst a
                   world of ice, extending around, beneath, above us; far beyond where the straining
                   sight, in every direction, vainly sought to follow the interminable frozen leagues
@@ -1233,8 +968,7 @@
                   unresisted, holds his terrific reign. The only sound which meets the ear is that
                   of the loud detonation of the ice, as it bursts open into new abysses, with the
                   crash of thunder, and reverberates from the wild rocks like the voice of the
-                  mountain storms.—Vol. ii. p. 134,</p>
-            </quote>
+                  mountain storms.—Vol. ii. p. 134,</p></quote>
             <p>These volumes contain the best description and guide to Switzerland that we have ever
                seen, but Italy makes only a small portion of them. We have some animated scenes on
                the romantic lake of Como, and visit, with the personages of the novel, the galleries
@@ -1260,13 +994,13 @@
                foreground to the picture. You actually felt for the poor man; and a greater verity
                of scenic illusion (such as it was) was produced by that bandaged arm, and the
                moaning and crippled action of the patient than <ref target="people.html#KeanEdmund"
-                  >Kean</ref> or <ref target="people.html#PastaGiuditta">Pasta</ref>
-               <pb n="340"/> usually effect in their portentous identifications with ideal woe. That
-               our readers may not be left in a painful suspense, we proceed to inform them, that
-               when Milord was at his last gasp, and the doctor stood unmoved in the midst of his
-               kneeling and supplicating relatives, Jenkisson himself, whose innocence had been
-               discovered, appeared; a general reconciliation took place; and the doctor was
-               proceeding to work a cure, when the curtain fell. </p>
+                  >Kean</ref> or <ref target="people.html#PastaGiuditta">Pasta</ref><pb n="340"/>
+               usually effect in their portentous identifications with ideal woe. That our readers
+               may not be left in a painful suspense, we proceed to inform them, that when Milord
+               was at his last gasp, and the doctor stood unmoved in the midst of his kneeling and
+               supplicating relatives, Jenkisson himself, whose innocence had been discovered,
+               appeared; a general reconciliation took place; and the doctor was proceeding to work
+               a cure, when the curtain fell. </p>
             <p>We do not wish to cast an air of ridicule over the volume before us, which we read,
                really believing in it as we read, with great interest; but having discovered that
                the sensitive, heart- broken, dying, dead diarist is a fictitious personage, we are
@@ -1289,27 +1023,26 @@
                exhibited in the convents during Christmas,<note>Nativity scene.</note> the Diarist's
                Adventure with the Governor of Lerici—between these and the following one, which we
                have fixed upon as one of the most interesting anecdotes in the book:—</p>
-            <quote>
-               <p>Last night we had a numerous party, and Signor P—— and his daughter came to sing.
-                     <hi rendition="#italics">She</hi> is a private singer of great talent, and came
-                  attended by her lover, or her <hi rendition="#italics">fiancé</hi>, who, according
-                  to the Italian custom, attends his mistress every where during the few weeks which
-                  precede their marriage. He is a young artist, a favourite pupil of <ref
-                     target="people.html#Camuccini">Camuccini</ref>, and of very quiet, unobstrusive
-                  manners. La P. has the misfortune to be plain; her features are irregular, her
-                  complexion of a sickly paleness, and though her eyes are large and dark, they
-                  appeared totally devoid of luster and expression. Her plainness, the bad taste of
-                  her dress, her awkward figure, and her timid and embarrassed deportment, all
-                  furnished matter of amusement and observation to some young people (English of
-                  course), whose propensities for <hi rendition="#italics">quizzing</hi> exceeded
-                  their good breeding and good nature. Though La P. does not under-<pb n="341"/>
-                  stand a word of either French or English, I thought she could not mistake the
-                  significant looks and whispers of which she was the object, and I was in pain for
-                  her and for her modest lover. I drew my chair to the piano, and tried to divert
-                  her attention, by keeping her in conversation, but could get no farther than a few
-                  questions, which were answered in monosyllables. At length she sang, and sang
-                  divinely; I found the pale automaton had a soul as well as a voice. After giving
-                  us with faultless execution, as well as great expression, some of <ref
+            <quote><p>Last night we had a numerous party, and Signor P—— and his daughter came to
+                  sing. <hi rendition="#italics">She</hi> is a private singer of great talent, and
+                  came attended by her lover, or her <hi rendition="#italics">fiancé</hi>, who,
+                  according to the Italian custom, attends his mistress every where during the few
+                  weeks which precede their marriage. He is a young artist, a favourite pupil of
+                     <ref target="people.html#Camuccini">Camuccini</ref>, and of very quiet,
+                  unobstrusive manners. La P. has the misfortune to be plain; her features are
+                  irregular, her complexion of a sickly paleness, and though her eyes are large and
+                  dark, they appeared totally devoid of luster and expression. Her plainness, the
+                  bad taste of her dress, her awkward figure, and her timid and embarrassed
+                  deportment, all furnished matter of amusement and observation to some young people
+                  (English of course), whose propensities for <hi rendition="#italics">quizzing</hi>
+                  exceeded their good breeding and good nature. Though La P. does not under-<pb
+                     n="341"/> stand a word of either French or English, I thought she could not
+                  mistake the significant looks and whispers of which she was the object, and I was
+                  in pain for her and for her modest lover. I drew my chair to the piano, and tried
+                  to divert her attention, by keeping her in conversation, but could get no farther
+                  than a few questions, which were answered in monosyllables. At length she sang,
+                  and sang divinely; I found the pale automaton had a soul as well as a voice. After
+                  giving us with faultless execution, as well as great expression, some of <ref
                      target="people.html#Rossini">Rossini</ref>'s finest songs, she sang the
                   beautiful and difficult cavatina in <title>Otello</title>, "<hi
                      rendition="#italics">Assia al piè d'un salice,</hi>" with the most enchanting
@@ -1326,8 +1059,7 @@
                   gleam of light over her face, and vanished; and by the time the book was placed on
                   the desk, she looked as plain, as stupid, and statue-like as ever. I was the only
                   person who witnessed this little bye-scene, and it gave me pleasant thoughts and
-                  interest for the rest of the evening.—p. 207.</p>
-            </quote>
+                  interest for the rest of the evening.—p. 207.</p></quote>
             <p>We hope to heaven all this is true, and not false as the Ennuyée herself. One thing
                alone at all atones for her deception. We longed, while reading her work, to thank
                the fair <ref target="people.html#JamesonAnna">authoress</ref> for reviving many a

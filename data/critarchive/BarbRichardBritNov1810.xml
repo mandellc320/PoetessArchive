@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main" level="a">Richardson</title>
 				<title type="sub">The British Novelists</title>
-				<author type="writer">
-					<name>Anna Letitia Barbauld</name>
-				</author>
+				<author type="writer"><name>Anna Letitia Barbauld</name></author>
 				<respStmt>
 					<resp>Editor</resp>
 					<name xml:id="MW">Mary A. Waters</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding Assistance</resp>
+					<name xml:id="GR">Gabrielle Ramirez</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -28,17 +30,15 @@
 				<biblStruct>
 					<analytic>
 						<title type="main" level="a">Richardson</title>
-						<author type="writer">
-							<name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-						</author>
+						<author type="writer"><name>Barbauld, Mrs. (Anna Letitia),
+							1743-1825</name></author>
 					</analytic>
 					<monogr>
 						<title type="main" level="m">The British Novelists</title>
 						<title type="sub">with an Essay and Prefaces, Biographical and
 							Critical</title>
-						<editor role="editor">
-							<name>Barbauld, Mrs. (Anna Letitia), 1743-1825</name>
-						</editor>
+						<editor role="editor"><name>Barbauld, Mrs. (Anna Letitia),
+							1743-1825</name></editor>
 						<imprint>
 							<pubPlace>London</pubPlace>
 							<publisher>F.C. and J. Rivington</publisher>
@@ -136,613 +136,367 @@
 					</category>
 				</taxonomy>
 				<taxonomy xml:id="g">
-					<bibl>Genre and Material Form</bibl>
+					<bibl>Genre</bibl>
 					<category xml:id="g1">
-						<catDesc>pageimage</catDesc>
-					</category>
-					<category xml:id="g2">
 						<catDesc>biography</catDesc>
 					</category>
+					<category xml:id="g2">
+						<catDesc>poetry</catDesc>
+					</category>
 					<category xml:id="g3">
-						<catDesc>biographical essay</catDesc>
-					</category>
-					<category xml:id="g4">
-						<catDesc>poetry pamphlet</catDesc>
-					</category>
-					<category xml:id="g5">
-						<catDesc>poetry book</catDesc>
-					</category>
-					<category xml:id="g6">
-						<catDesc>poem</catDesc>
-					</category>
-					<category xml:id="g7">
 						<catDesc>story</catDesc>
 					</category>
-					<category xml:id="g8">
+					<category xml:id="g4">
 						<catDesc>drama</catDesc>
 					</category>
-					<category xml:id="g9">
-						<catDesc>table of contents</catDesc>
+					<category xml:id="g5">
+						<catDesc>novel</catDesc>
 					</category>
-					<category xml:id="g10">
-						<catDesc>table of illustrations</catDesc>
-					</category>
-					<category xml:id="g11">
-						<catDesc>picture</catDesc>
-					</category>
-					<category xml:id="g12">
-						<catDesc>index</catDesc>
-					</category>
-					<category xml:id="g13">
-						<catDesc>notes</catDesc>
-					</category>
-					<category xml:id="g14">
-						<catDesc>frontispiece</catDesc>
-					</category>
-					<category xml:id="g15">
-						<catDesc>inscription page</catDesc>
-					</category>
-					<category xml:id="g16">
-						<catDesc>book boards</catDesc>
-					</category>
-					<category xml:id="g17">
-						<catDesc>titlepage</catDesc>
-					</category>
-					<category xml:id="g18">
-						<catDesc>preface</catDesc>
-					</category>
-					<category xml:id="g19">
-						<catDesc>advertisement</catDesc>
-					</category>
-					<category xml:id="g20">
-						<catDesc>foreword</catDesc>
-					</category>
-					<category xml:id="g21">
-						<catDesc>acknowledgments</catDesc>
-					</category>
-					<category xml:id="g22">
-						<catDesc>collection literary annual</catDesc>
-					</category>
-					<category xml:id="g23">
-						<catDesc>collection miscellany</catDesc>
-					</category>
-					<category xml:id="g24">
-						<catDesc>collection anthology</catDesc>
-					</category>
-					<category xml:id="g25">
-						<catDesc>collection beauties</catDesc>
-					</category>
-					<category xml:id="g26">
-						<catDesc>collection juvenile</catDesc>
-					</category>
-					<category xml:id="g27">
-						<catDesc>collection religious</catDesc>
-					</category>
-					<category xml:id="g28">
-						<catDesc>collection travels</catDesc>
-					</category>
-					<category xml:id="g29">
-						<catDesc>mixed</catDesc>
-					</category>
-					<category xml:id="g30">
-						<catDesc>essay</catDesc>
-					</category>
-					<category xml:id="g31">
-						<catDesc>review</catDesc>
-					</category>
-					<category xml:id="g32">
-						<catDesc>letter</catDesc>
-					</category>
-					<category xml:id="g33">
-						<catDesc>fragment poem</catDesc>
-					</category>
-					<category xml:id="g34">
-						<catDesc>fragment story</catDesc>
-					</category>
-					<category xml:id="g35">
-						<catDesc>fragment novel</catDesc>
-					</category>
-					<category xml:id="g36">
-						<catDesc>literary criticism book</catDesc>
-					</category>
-					<category xml:id="g37">
-						<catDesc>literary criticism collection</catDesc>
-					</category>
-					<category xml:id="g38">
-						<catDesc>bibliography</catDesc>
-					</category>
-					<category xml:id="g39">
-						<catDesc>engraving</catDesc>
-					</category>
-					<category xml:id="g40">
-						<catDesc>reproduction</catDesc>
-					</category>
-					<category xml:id="g41">
-						<catDesc>figure</catDesc>
-					</category>
-					<category xml:id="g42">
-						<catDesc>graph</catDesc>
-					</category>
-					<category xml:id="g43">
-						<catDesc>map</catDesc>
-					</category>
-					<category xml:id="g44">
-						<catDesc>table</catDesc>
-					</category>
-					<category xml:id="g45">
-						<catDesc>musical score</catDesc>
-					</category>
-					<category xml:id="g46">
-						<catDesc>music</catDesc>
-					</category>
-					<category xml:id="g47">
+					<category xml:id="g6">
 						<catDesc>satire</catDesc>
 					</category>
-					<category xml:id="g48">
-						<catDesc>political pamphlet</catDesc>
-					</category>
-					<category xml:id="g49">
-						<catDesc>political cartoon</catDesc>
-					</category>
-					<category xml:id="g50">
-						<catDesc>periodical</catDesc>
-					</category>
-					<category xml:id="g51">
-						<catDesc>historical monograph</catDesc>
-					</category>
-					<category xml:id="g52">
-						<catDesc>historical essay</catDesc>
-					</category>
-					<category xml:id="g53">
-						<catDesc>philosophical treatise</catDesc>
-					</category>
-					<category xml:id="g54">
-						<catDesc>philosophical essay</catDesc>
-					</category>
-					<category xml:id="g55">
-						<catDesc>religious pamphlet</catDesc>
-					</category>
-					<category xml:id="g56">
-						<catDesc>sermon</catDesc>
-					</category>
-					<category xml:id="g57">
-						<catDesc>theology</catDesc>
-					</category>
-					<category xml:id="g58">
-						<catDesc>religious book</catDesc>
-					</category>
-					<category xml:id="g59">
-						<catDesc>essay on education</catDesc>
-					</category>
-					<category xml:id="g60">
-						<catDesc>educational treatise</catDesc>
-					</category>
-					<category xml:id="g61">
-						<catDesc>list of subscribers</catDesc>
-					</category>
-					<category xml:id="g62">
+					<category xml:id="g7">
 						<catDesc>allegory</catDesc>
 					</category>
-					<category xml:id="g63">
+					<category xml:id="g8">
+						<catDesc>advertisement</catDesc>
+					</category>
+					<category xml:id="g9">
+						<catDesc>preface</catDesc>
+					</category>
+					<category xml:id="g10">
+						<catDesc>foreword</catDesc>
+					</category>
+					<category xml:id="g11">
 						<catDesc>introduction</catDesc>
 					</category>
-					<category xml:id="g64">
-						<catDesc>slipcase</catDesc>
+					<category xml:id="g12">
+						<catDesc>acknowledgments</catDesc>
 					</category>
-					<category xml:id="g65">
-						<catDesc>dedication</catDesc>
+					<category xml:id="g13">
+						<catDesc>essay</catDesc>
 					</category>
-					<category xml:id="g66">
-						<catDesc>picture of building</catDesc>
+					<category xml:id="g14">
+						<catDesc>review</catDesc>
 					</category>
-					<category xml:id="g67">
-						<catDesc>floorplans</catDesc>
+					<category xml:id="g15">
+						<catDesc>letter</catDesc>
 					</category>
-					<category xml:id="g68">
-						<catDesc>photograph</catDesc>
+					<category xml:id="g16">
+						<catDesc>literary criticism</catDesc>
 					</category>
-					<category xml:id="g69">
+					<category xml:id="g17">
+						<catDesc>electronic resource</catDesc>
+					</category>
+					<category xml:id="g18">
+						<catDesc>bibliography</catDesc>
+					</category>
+					<category xml:id="g19">
+						<catDesc>music</catDesc>
+					</category>
+					<category xml:id="g20">
+						<catDesc>political statement</catDesc>
+					</category>
+					<category xml:id="g21">
+						<catDesc>history</catDesc>
+					</category>
+					<category xml:id="g22">
+						<catDesc>education</catDesc>
+					</category>
+					<category xml:id="g23">
+						<catDesc>sermon</catDesc>
+					</category>
+					<category xml:id="g24">
+						<catDesc>religion</catDesc>
+					</category>
+					<category xml:id="g25">
+						<catDesc>philosophical statement</catDesc>
+					</category>
+					<category xml:id="g26">
 						<catDesc>translation</catDesc>
 					</category>
-					<category xml:id="g70">
+					<category xml:id="g27">
+						<catDesc>dictionary</catDesc>
+					</category>
+					<category xml:id="g28">
+						<catDesc>encyclopedia</catDesc>
+					</category>
+					<category xml:id="g29">
+						<catDesc>travel</catDesc>
+					</category>
+					<category xml:id="g30">
+						<catDesc>illustration</catDesc>
+					</category>
+					<category xml:id="g31">
+						<catDesc>map</catDesc>
+					</category>
+					<category xml:id="g32">
+						<catDesc>floorplans</catDesc>
+					</category>
+					<category xml:id="g33">
+						<catDesc>photograph</catDesc>
+					</category>
+					<category xml:id="g34">
+						<catDesc>cartoon</catDesc>
+					</category>
+					<category xml:id="g35">
+						<catDesc>literary annual</catDesc>
+					</category>
+					<category xml:id="g36">
+						<catDesc>miscellany</catDesc>
+					</category>
+					<category xml:id="g37">
+						<catDesc>anthology</catDesc>
+					</category>
+					<category xml:id="g38">
+						<catDesc>beauties</catDesc>
+					</category>
+					<category xml:id="g39">
+						<catDesc>juvenile</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="f">
+					<bibl>Form</bibl>
+					<category xml:id="f1">
+						<catDesc>pageimage</catDesc>
+					</category>
+					<category xml:id="f2">
+						<catDesc>book part</catDesc>
+					</category>
+					<category xml:id="f3">
+						<catDesc>book</catDesc>
+					</category>
+					<category xml:id="f4">
+						<catDesc>periodical part</catDesc>
+					</category>
+					<category xml:id="f5">
+						<catDesc>periodical</catDesc>
+					</category>
+					<category xml:id="f6">
+						<catDesc>fragment</catDesc>
+					</category>
+					<category xml:id="f7">
+						<catDesc>frontispiece</catDesc>
+					</category>
+					<category xml:id="f8">
+						<catDesc>title page</catDesc>
+					</category>
+					<category xml:id="f9">
+						<catDesc>inscription page</catDesc>
+					</category>
+					<category xml:id="f10">
+						<catDesc>dedication</catDesc>
+					</category>
+					<category xml:id="f11">
+						<catDesc>table of contents</catDesc>
+					</category>
+					<category xml:id="f12">
+						<catDesc>table of illustrations</catDesc>
+					</category>
+					<category xml:id="f13">
+						<catDesc>list of subscribers</catDesc>
+					</category>
+					<category xml:id="f14">
+						<catDesc>index</catDesc>
+					</category>
+					<category xml:id="f15">
+						<catDesc>notes</catDesc>
+					</category>
+					<category xml:id="f16">
+						<catDesc>book boards</catDesc>
+					</category>
+					<category xml:id="f17">
+						<catDesc>slipcase</catDesc>
+					</category>
+					<category xml:id="f18">
+						<catDesc>printers mark</catDesc>
+					</category>
+					<category xml:id="f19">
+						<catDesc>engraving</catDesc>
+					</category>
+					<category xml:id="f20">
+						<catDesc>pamphlet</catDesc>
+					</category>
+					<category xml:id="f21">
 						<catDesc>manuscript</catDesc>
 					</category>
-					<category xml:id="g71">
-						<catDesc>printersmark</catDesc>
+					<category xml:id="f22">
+						<catDesc>collection</catDesc>
 					</category>
-					<category xml:id="g72">
-						<catDesc>literary criticism article</catDesc>
+					<category xml:id="f23">
+						<catDesc>nonceCollection</catDesc>
+					</category>
+					<category xml:id="f24">
+						<catDesc>sammelband</catDesc>
 					</category>
 				</taxonomy>
 				<taxonomy xml:id="keyword">
-					<category xml:id="lcsh">
-						<catDesc>Library of Congress Subject Headings, reduced to one word before
-							hyphen</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy
-					corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E"
-					xml:id="ag">
-					<bibl>ARC Genre Categories, July 1, 2017</bibl>
-					<category xml:id="ag1">
-						<catDesc>Advertisement</catDesc>
-					</category>
-					<category xml:id="ag2">
-						<catDesc>Animation</catDesc>
-					</category>
-					<category xml:id="ag3">
-						<catDesc>Bibliography</catDesc>
-					</category>
-					<category xml:id="ag4">
-						<catDesc>Catalog</catDesc>
-					</category>
-					<category xml:id="ag5">
-						<catDesc>Chronology</catDesc>
-					</category>
-					<category xml:id="ag7">
-						<catDesc>Citation</catDesc>
-					</category>
-					<category xml:id="ag6">
-						<catDesc>Collection</catDesc>
-					</category>
-					<category xml:id="ag8">
-						<catDesc>Correspondence</catDesc>
-					</category>
-					<category xml:id="ag9">
-						<catDesc>Criticism</catDesc>
-					</category>
-					<category xml:id="ag10">
-						<catDesc>Drama</catDesc>
-					</category>
-					<category xml:id="ag11">
-						<catDesc>Ephemera</catDesc>
-					</category>
-					<category xml:id="ag12">
-						<catDesc>Essay</catDesc>
-					</category>
-					<category xml:id="ag13">
-						<catDesc>Fiction</catDesc>
-					</category>
-					<category xml:id="ag14">
-						<catDesc>Film, Documentary</catDesc>
-					</category>
-					<category xml:id="ag15">
-						<catDesc>Film, Experimental</catDesc>
-					</category>
-					<category xml:id="ag16">
-						<catDesc>Film, Narrative</catDesc>
-					</category>
-					<category xml:id="ag17">
-						<catDesc>Film, Other</catDesc>
-					</category>
-					<category xml:id="ag18">
-						<catDesc>Historiography</catDesc>
-					</category>
-					<category xml:id="ag19">
-						<catDesc>Interview</catDesc>
-					</category>
-					<category xml:id="ag20">
-						<catDesc>Life Writing</catDesc>
-					</category>
-					<category xml:id="ag21">
-						<catDesc>Liturgy</catDesc>
-					</category>
-					<category xml:id="ag22">
-						<catDesc>Musical Analysis</catDesc>
-					</category>
-					<category xml:id="ag23">
-						<catDesc>Music, Other</catDesc>
-					</category>
-					<category xml:id="ag24">
-						<catDesc>Musical Work</catDesc>
-					</category>
-					<category xml:id="ag25">
-						<catDesc>Musical Score</catDesc>
-					</category>
-					<category xml:id="ag26">
-						<catDesc>Nonficition</catDesc>
-					</category>
-					<category xml:id="ag27">
-						<catDesc>Paratext</catDesc>
-					</category>
-					<category xml:id="ag28">
-						<catDesc>Performance</catDesc>
-					</category>
-					<category xml:id="ag29">
-						<catDesc>Philosophy</catDesc>
-					</category>
-					<category xml:id="ag30">
-						<catDesc>Photograph</catDesc>
-					</category>
-					<category xml:id="ag31">
-						<catDesc>Political Statement</catDesc>
-					</category>
-					<category xml:id="ag32">
-						<catDesc>Poetry</catDesc>
-					</category>
-					<category xml:id="ag33">
-						<catDesc>Religion</catDesc>
-					</category>
-					<category xml:id="ag34">
-						<catDesc>Reference Works</catDesc>
-					</category>
-					<category xml:id="ag35">
-						<catDesc>Review</catDesc>
-					</category>
-					<category xml:id="ag36">
-						<catDesc>Scripture</catDesc>
-					</category>
-					<category xml:id="ag37">
-						<catDesc>Sermon</catDesc>
-					</category>
-					<category xml:id="ag38">
-						<catDesc>Speech</catDesc>
-					</category>
-					<category xml:id="ag39">
-						<catDesc>Translation</catDesc>
-					</category>
-					<category xml:id="ag40">
-						<catDesc>Travel Writing</catDesc>
-					</category>
-					<category xml:id="ag41">
-						<catDesc>Unspecified</catDesc>
-					</category>
-					<category xml:id="ag42">
-						<catDesc>Visual Art</catDesc>
-					</category>
-				</taxonomy>
-				<taxonomy corresp="http://wiki.collex.org/index.php/Submitting_RDF#.3Cdc:type.3E"
-					xml:id="f">
-					<bibl>ARC Format Categories, July 1, 2017</bibl>
-					<category xml:id="f1">
-						<catDesc>Codex</catDesc>
-					</category>
-					<category xml:id="f2">
-						<catDesc>Collection</catDesc>
-					</category>
-					<category xml:id="f3">
-						<catDesc>Dataset</catDesc>
-					</category>
-					<category xml:id="f4">
-						<catDesc>Drawing</catDesc>
-					</category>
-					<category xml:id="f5">
-						<catDesc>Illustration</catDesc>
-					</category>
-					<category xml:id="f6">
-						<catDesc>Interactive Resource</catDesc>
-					</category>
-					<category xml:id="f7">
-						<catDesc>Manuscript</catDesc>
-					</category>
-					<category xml:id="f8">
-						<catDesc>Map</catDesc>
-					</category>
-					<category xml:id="f9">
-						<catDesc>Moving Image</catDesc>
-					</category>
-					<category xml:id="f10">
-						<catDesc>Notated Music</catDesc>
-					</category>
-					<category xml:id="f11">
-						<catDesc>Page Proofs</catDesc>
-					</category>
-					<category xml:id="f12">
-						<catDesc>Pamphlet</catDesc>
-					</category>
-					<category xml:id="f13">
-						<catDesc>Periodical</catDesc>
-					</category>
-					<category xml:id="f14">
-						<catDesc>Physcial Object</catDesc>
-					</category>
-					<category xml:id="f15">
-						<catDesc>Roll</catDesc>
-					</category>
-					<category xml:id="f16">
-						<catDesc>Sheet</catDesc>
-					</category>
-					<category xml:id="f17">
-						<catDesc>Sound</catDesc>
-					</category>
-					<category xml:id="f18">
-						<catDesc>Still Image</catDesc>
-					</category>
-					<category xml:id="f19">
-						<catDesc>Typescript</catDesc>
+					<category xml:id="lcna">
+						<catDesc>author of main text and of works reviewed, if relevant, using LOC
+							authority name headings.</catDesc>
 					</category>
 				</taxonomy>
 			</classDecl>
 		</encodingDesc>
 		<profileDesc>
 			<textClass>
-				<keywords scheme="#lcsh">
+				<keywords scheme="#lcna">
 					<list type="simple">
 						<item>Richardson, Samuel, 1689-1761</item>
-						<item>English literature</item>
-						<item>History</item>
+						<item>Barbauld, Mrs. (Anna Letitia), 1743-1825</item>
 					</list>
 				</keywords>
 				<catRef target="#ft1" scheme="#ft"/>
-				<catRef target="#ag9 #ag12 #ag20" scheme="#ag"/>
-				<catRef target="#f1" scheme="#f"/>
+				<catRef target="#f2" scheme="#f"/>
 				<catRef target="#ps1" scheme="#p"/>
-				<catRef target="#g72 #g30 #g3 " scheme="#g"/>
+				<catRef target="#g1 #g11 #g13 #g16" scheme="#g"/>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
-			<change who="#LM" when="20211214">
-				<label>Changed by</label>
-				<name>Laura Mandell</name>
-				<list type="simple">
+			<change who="#MW" when="20230302"><label>Changed by</label><name>Mary Waters</name><list
+					type="simple">
+					<item>changed catRef</item>
+				</list></change>
+			<change who="#LM" when="20230227"><label>Changed by</label><name>Laura
+					Mandell</name><list type="simple">
+					<item>new header</item>
+				</list></change>
+			<change who="#GR" when="20230111"><label>Changed by</label><name>Gabrielle
+					Ramirez</name><list type="simple">
+					<item>revised keywords</item>
+				</list></change>
+			<change who="#LM" when="20211214"><label>Changed by</label><name>Laura
+					Mandell</name><list type="simple">
 					<item>had to roll back due to xml versioning error, revisions as below but
 						starting with August and March 2021 XML</item>
-				</list>
-			</change>
-			<change who="#LM" when="20210922">
-				<label>Changed by</label>
-				<name>Laura Mandell</name>
-				<list type="simple">
+				</list></change>
+			<change who="#LM" when="20210922"><label>Changed by</label><name>Laura
+					Mandell</name><list type="simple">
 					<item>Added header teiHeader07232021.xml</item>
 					<item>changed milestone sig to fw sig</item>
 					<item>inserted line break before fw</item>
-				</list>
-			</change>
-			<change who="#LM" when="20200611" n="6">
-				<label>Changed by</label>
-				<name>Laura Mandell</name>
-				<list type="simple">
+				</list></change>
+			<change who="#LM" when="20200611" n="6"><label>Changed by</label><name>Laura
+					Mandell</name><list type="simple">
 					<item>Added full text taxonomy using "changeHeaderCritArc2.xsl"</item>
-				</list>
-			</change>
-			<change who="#MW" when="2019-12-16" n="5">
-				<label>Changed by</label>
-				<name>Mary A. Waters</name>
-				<list type="simple">
+				</list></change>
+			<change who="#MW" when="2019-12-16" n="5"><label>Changed by</label><name>Mary A.
+					Waters</name><list type="simple">
 					<item>changed file name</item>
 					<item>minor TEI encoding revision</item>
-				</list>
-			</change>
-			<change who="#LM" when="20190110" n="4">
-				<label>Changed by</label>
-				<name>Laura Mandell</name>
-				<list type="simple">
+				</list></change>
+			<change who="#LM" when="20190110" n="4"><label>Changed by</label><name>Laura
+					Mandell</name><list type="simple">
 					<item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
-				</list>
-			</change>
-			<change who="#MW" when="2016-01-21" n="3">
-				<label>Changed by</label>
-				<name>Mary A. Waters</name>
-				<list type="simple">
+				</list></change>
+			<change who="#MW" when="2016-01-21" n="3"><label>Changed by</label><name>Mary A.
+					Waters</name><list type="simple">
 					<item>revise coding</item>
-				</list>
-			</change>
-			<change who="#MW" when="2010-12-01" n="2">
-				<label>Changed by</label>
-				<name>Mary A. Waters</name>
-				<list type="simple">
+				</list></change>
+			<change who="#MW" when="2010-12-01" n="2"><label>Changed by</label><name>Mary A.
+					Waters</name><list type="simple">
 					<item>TEI encoding</item>
-				</list>
-			</change>
-			<change who="#MW" when="2010-12-01" n="1">
-				<label>Changed by</label>
-				<name>Mary A. Waters</name>
-				<list type="simple">
+				</list></change>
+			<change who="#MW" when="2010-12-01" n="1"><label>Changed by</label><name>Mary A.
+					Waters</name><list type="simple">
 					<item>Created Edition</item>
-				</list>
-			</change>
+				</list></change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="essay">
-				<head>
-					<bibl>
-						<author type="writer">
-							<name>Anna Letitia Barbauld</name>
-						</author>
-						<title type="main" level="a">
-							<ref target="people.html#RichardsonSamuel">RICHARDSON.</ref>
-							<note>
-								<title level="m">
-									<hi rendition="#italics">The British Novelists; with an Essay
-										and Prefaces, Biographical and Critical, by <ref
-											target="people.html#BarbauldMrs">Mrs. Barbauld</ref>
-									</hi>
-								</title>, 50 Vols. (London: Printed for F.C. and J. Rivington; W.
-								Otridge and Son; A. Strahan; T. Payne; G. Robinson; W. Lowndes;
-								Wilkie and Robinson; Scatcherd and Letterman; J. Walker; J. Cuthell;
-								Vernor, Hood, and Sharpe; R. Lea; J. Nunn; Lackington and Co.;
-								Clarke and Son; C. Law; Longman, Hurst, Rees, and Orme; Cadell and
-								Davies; E. Jeffery; J.K. Newman; Crosby and Co.; J. Carpenter; S.
-								Bagster; T. Booth; J. Mobray; J. and J. Richardson; Black, Parry,
-								and Kingsbury; J. Harding; R. Phillips; J. Mawman; J. Booker; J.
-								Asperne; R. Baldwin; Mathews and Leigh; J. Faulder; Johnson and Co.;
-								Sherwood and Co.; J. Miller; W. Creech, Edinburgh; and Wilson and
-								Son, York, 1810), 1:i-xlvi. This essay appears immediately after the
-								essay "<title>On the Origin and Progress of Novel-Writing</title>,"
-								1:1-62.</note>
-						</title>
-					</bibl>
-				</head>
-				<p rendition="#noindent">
-					<hi rendition="#smcaps">
-						<ref target="people.html#RichardsonSamuel">Samuel Richardson</ref>
-					</hi>, the first English author who has given celebrity to the modern novel, was
-					born in the year 1689, at some place in Derbyshire, but in what particular town
-					is not known, as he, from some reason or other, always avoided mentioning the
-					place of his birth. This reserve could not well spring from a desire of
-					concealing the obscurity of his origin, since he has himself freely mentioned it
-					in his letters to his friends. His father was a joiner, ingenious in his
-					profession, and respectable in his character. He was in flourishing business in
-					London, and much noticed, says his son, by the <ref
-						target="people.html#MonmouthJamesScott">duke of Monmouth</ref>, after whose
-					defeat and death he thought it expedient to retire into the country, which was
-					the occasion of his settling in Derbyshire; and there our author spent the early
-					years of his life. He was at first intended for the church, for which profession
-					he was well suited by his seriousness and love of letters; but his father having
-					a numerous family, and being, besides, in declining circumstances, was not able
-					to allow him a liberal education. Though he did not go to business till sixteen,
-						<lb/><fw type="sig">
-						<hi rendition="center">g 2</hi>
-					</fw>
-					<pb n="ii"/>it is probable he enjoyed very slender advantages of
-					school-learning. Some of his admirers have wished to raise his character by
-					affirming that he possessed a knowledge of the classics; but his own assertions
-					are frequent in his letters, that he was acquainted with no language but his
-					own, not even French. His deficiencies in this respect he often lamented, and it
-					is certain his style is as remote as possible from that of a scholar. It abounds
-					with colloquial vulgarisms, and has neither that precision nor that tincture of
-					classic elegance which is generally the result of an early familiarity with the
-					best models. <ref target="people.html#RichardsonSamuel">Richardson</ref> was
-					however always fond of reading, and still more of narrating. Some anecdotes are
-					preserved in his letters which show very strongly the early bent of his genius.
-					It appears that he was not fond of the usual amusements of boys, but used very
-					early to exercise his invention by gathering his schoolfellows round him, and
-					telling them affecting stories; and he then wrote "A little history of a servant
-					man who was preferred by a young lady to a great lord who was a
-						libertine."<note>In a popular ballad, a respectable serving man named Thomas
-						a Pott is preferred by the daughter of Lord Arrndell over the libertine Lord
-						Phenix.</note> All his stories, he tells us, had a good moral; they were not
-					stories of genii and fairies, but of life, and probably of low life. It was
-					indeed a peculiarity in him, that he was fond of two things which boys in
-					general have rather an aversion to; letter-writing, and the company of the other
-					sex. At the early age of thirteen he was a favourite with all the girls in the
-					neighbourhood who were fond of books. He used to read to them as they sat at
-					work with their needles; he also was <pb n="iii"/>the confident of their
-					secrets, and wrote or corrected their love-letters for them. Even before that
-					age he had written an anonymous letter of grave advice to an elderly widow lady.
-					Who does not see that his most admired works are only the expansion of those
-					talents which in the germ prompted his earliest efforts? </p>
+				<head><bibl><author type="writer"><name>Anna Letitia Barbauld</name></author><title
+							type="main" level="a"><ref target="people.html#RichardsonSamuel"
+								>RICHARDSON.</ref><note><title level="m"><hi rendition="#italics"
+										>The British Novelists; with an Essay and Prefaces,
+										Biographical and Critical, by <ref
+											target="people.html#BarbauldMrs">Mrs.
+										Barbauld</ref></hi></title>, 50 Vols. (London: Printed for
+								F.C. and J. Rivington; W. Otridge and Son; A. Strahan; T. Payne; G.
+								Robinson; W. Lowndes; Wilkie and Robinson; Scatcherd and Letterman;
+								J. Walker; J. Cuthell; Vernor, Hood, and Sharpe; R. Lea; J. Nunn;
+								Lackington and Co.; Clarke and Son; C. Law; Longman, Hurst, Rees,
+								and Orme; Cadell and Davies; E. Jeffery; J.K. Newman; Crosby and
+								Co.; J. Carpenter; S. Bagster; T. Booth; J. Mobray; J. and J.
+								Richardson; Black, Parry, and Kingsbury; J. Harding; R. Phillips; J.
+								Mawman; J. Booker; J. Asperne; R. Baldwin; Mathews and Leigh; J.
+								Faulder; Johnson and Co.; Sherwood and Co.; J. Miller; W. Creech,
+								Edinburgh; and Wilson and Son, York, 1810), 1:i-xlvi. This essay
+								appears immediately after the essay "<title>On the Origin and
+									Progress of Novel-Writing</title>,"
+						1:1-62.</note></title></bibl></head>
+				<p rendition="#noindent"><hi rendition="#smcaps"><ref
+							target="people.html#RichardsonSamuel">Samuel Richardson</ref></hi>, the
+					first English author who has given celebrity to the modern novel, was born in
+					the year 1689, at some place in Derbyshire, but in what particular town is not
+					known, as he, from some reason or other, always avoided mentioning the place of
+					his birth. This reserve could not well spring from a desire of concealing the
+					obscurity of his origin, since he has himself freely mentioned it in his letters
+					to his friends. His father was a joiner, ingenious in his profession, and
+					respectable in his character. He was in flourishing business in London, and much
+					noticed, says his son, by the <ref target="people.html#MonmouthJamesScott">duke
+						of Monmouth</ref>, after whose defeat and death he thought it expedient to
+					retire into the country, which was the occasion of his settling in Derbyshire;
+					and there our author spent the early years of his life. He was at first intended
+					for the church, for which profession he was well suited by his seriousness and
+					love of letters; but his father having a numerous family, and being, besides, in
+					declining circumstances, was not able to allow him a liberal education. Though
+					he did not go to business till sixteen, <lb/><fw type="sig"><hi
+							rendition="center">g 2</hi></fw><pb n="ii"/>it is probable he enjoyed
+					very slender advantages of school-learning. Some of his admirers have wished to
+					raise his character by affirming that he possessed a knowledge of the classics;
+					but his own assertions are frequent in his letters, that he was acquainted with
+					no language but his own, not even French. His deficiencies in this respect he
+					often lamented, and it is certain his style is as remote as possible from that
+					of a scholar. It abounds with colloquial vulgarisms, and has neither that
+					precision nor that tincture of classic elegance which is generally the result of
+					an early familiarity with the best models. <ref
+						target="people.html#RichardsonSamuel">Richardson</ref> was however always
+					fond of reading, and still more of narrating. Some anecdotes are preserved in
+					his letters which show very strongly the early bent of his genius. It appears
+					that he was not fond of the usual amusements of boys, but used very early to
+					exercise his invention by gathering his schoolfellows round him, and telling
+					them affecting stories; and he then wrote "A little history of a servant man who
+					was preferred by a young lady to a great lord who was a libertine."<note>In a
+						popular ballad, a respectable serving man named Thomas a Pott is preferred
+						by the daughter of Lord Arrndell over the libertine Lord Phenix.</note> All
+					his stories, he tells us, had a good moral; they were not stories of genii and
+					fairies, but of life, and probably of low life. It was indeed a peculiarity in
+					him, that he was fond of two things which boys in general have rather an
+					aversion to; letter-writing, and the company of the other sex. At the early age
+					of thirteen he was a favourite with all the girls in the neighbourhood who were
+					fond of books. He used to read to them as they sat at work with their needles;
+					he also was <pb n="iii"/>the confident of their secrets, and wrote or corrected
+					their love-letters for them. Even before that age he had written an anonymous
+					letter of grave advice to an elderly widow lady. Who does not see that his most
+					admired works are only the expansion of those talents which in the germ prompted
+					his earliest efforts? </p>
 				<p> Human nature is human nature in every class: the hopes and the fears, the
 					perplexities and the struggles, of these low-bred girls, in probably an obscure
 					village, supplied the future author with those ideas which, by their gradual
-					development, produced the characters of a <hi rendition="#italics">
-						<ref target="people.html#ClarissaHarlowe">Clarissa</ref>
-					</hi> or a <hi rendition="#italics">
-						<ref target="people.html#Clementina">Clementina</ref>
-					</hi>.—In the mean time years went on; and it being incumbent on him to fix on
-					some business, as his father could not bring him up to a profession, he chose
-					that of a printer, chiefly, as he informs us, because he thought it would
-					gratify his thirst for reading; and he was bound apprentice to <ref
-						target="people.html#WildeJohn">Mr. Wilde</ref> of Stationers' Hall in the
-					year 1706. He did not however find it easy to gratify this thirst, though the
-					stream ran by his lips. He served a severe master, and was obliged, greatly to
-					the injury of his constitution, to steal his reading from the hours of rest and
-					relaxation; and so conscientious was he, that on these occasions he always, as
-					he informs us, purchased his own candle. He was at the same time so diligent in
-					his proper business that his master used to call him the pillar of his house. </p>
+					development, produced the characters of a <hi rendition="#italics"><ref
+							target="people.html#ClarissaHarlowe">Clarissa</ref></hi> or a <hi
+						rendition="#italics"><ref target="people.html#Clementina"
+						>Clementina</ref></hi>.—In the mean time years went on; and it being
+					incumbent on him to fix on some business, as his father could not bring him up
+					to a profession, he chose that of a printer, chiefly, as he informs us, because
+					he thought it would gratify his thirst for reading; and he was bound apprentice
+					to <ref target="people.html#WildeJohn">Mr. Wilde</ref> of Stationers' Hall in
+					the year 1706. He did not however find it easy to gratify this thirst, though
+					the stream ran by his lips. He served a severe master, and was obliged, greatly
+					to the injury of his constitution, to steal his reading from the hours of rest
+					and relaxation; and so conscientious was he, that on these occasions he always,
+					as he informs us, purchased his own candle. He was at the same time so diligent
+					in his proper business that his master used to call him the pillar of his house. </p>
 				<p> After the expiration of his apprenticeship, our author continued five or six
 					years working as a compositor and corrector of the press to a print-<lb/><fw
-						type="sig">
-						<hi rendition="center">g 3</hi>
-					</fw>
-					<pb n="iv"/>ing-office, and part of the time as an overseer; and, at length thus
-					working his way upwards into daylight, he took up his freedom, and set up for
-					himself; at first in a court in Fleet-street, from whence, as his business grew
-					more extensive, he removed into Salisbury-court. </p>
-				<p>
-					<ref target="people.html#RichardsonSamuel">Richardson</ref> was not one of those
+						type="sig"><hi rendition="center">g 3</hi></fw><pb n="iv"/>ing-office, and
+					part of the time as an overseer; and, at length thus working his way upwards
+					into daylight, he took up his freedom, and set up for himself; at first in a
+					court in Fleet-street, from whence, as his business grew more extensive, he
+					removed into Salisbury-court. </p>
+				<p><ref target="people.html#RichardsonSamuel">Richardson</ref> was not one of those
 					who make genius an excuse for idleness. He had been diligent and conscientious
 					as an apprentice, he was assiduous and liberal as a master. Besides the proper
 					work of a printer, he did a good deal of business for the booksellers, in
@@ -751,9 +505,8 @@
 					the pen. <ref target="people.html#RichardsonSamuel">Mr. Richardson</ref>'s
 					punctuality, and the honour and generosity of his dealings, soon gained him
 					friends, and his business greatly flourished. He printed for a while <hi
-						rendition="#italics">
-						<title>The True Briton</title>
-					</hi>, a periodical paper, published in 1723, under the auspices of the <ref
+						rendition="#italics"><title>The True Briton</title></hi>, a periodical
+					paper, published in 1723, under the auspices of the <ref
 						target="people.html#WhartonPhilip">Duke of Wharton</ref>, who, at that time,
 					was endeavouring to foment a spirit of opposition in the city; and, to gain
 					popularity, became a member of the wax-chandlers' company. <ref
@@ -763,24 +516,22 @@
 					of <hi rendition="#italics">The True Briton</hi> were prosecuted; but <ref
 						target="people.html#RichardsonSamuel">Mr. R.</ref> escaped, as his name did
 					not appear. He was engaged some time in printing a newspaper, called <hi
-						rendition="#italics">
-						<title>The Daily Journal</title>
-					</hi>, and afterwards, <hi rendition="#italics">
-						<title>The Daily Gazetteer</title>
-					</hi>. Through the interest of the speaker, <ref
-						target="people.html#OnslowArthur">Mr. Onslow</ref>, he had the printing <pb
-						n="v"/>of the <title>Journals of the House of Commons</title>, in twenty-six
-					volumes, folio. <ref target="people.html#OnslowArthur">Mr. Onslow</ref> had a
-					great regard for him, and often received him at his house in Ember-court. Polite
-					regards are sometimes more easily obtained than money from the court end of the
-					town. <ref target="people.html#RichardsonSamuel">Mr. Richardson</ref> did not
-					find this branch of his business the one which yielded him the quickest returns.
-					He thus writes to his friend <ref target="people.html#HillAaron">Aaron
-						Hill</ref>: "As to my silence, I have been at one time exceedingly busy in
-					getting ready some volumes of Journals, to entitle myself to a payment which yet
-					I never had, no, not to the value of a shilling, though the debt is upwards of
-					three thousand pounds, and though I have pressed for it, and been excessively
-					pressed for the want of it.''</p>
+						rendition="#italics"><title>The Daily Journal</title></hi>, and afterwards,
+						<hi rendition="#italics"><title>The Daily Gazetteer</title></hi>. Through
+					the interest of the speaker, <ref target="people.html#OnslowArthur">Mr.
+						Onslow</ref>, he had the printing <pb n="v"/>of the <title>Journals of the
+						House of Commons</title>, in twenty-six volumes, folio. <ref
+						target="people.html#OnslowArthur">Mr. Onslow</ref> had a great regard for
+					him, and often received him at his house in Ember-court. Polite regards are
+					sometimes more easily obtained than money from the court end of the town. <ref
+						target="people.html#RichardsonSamuel">Mr. Richardson</ref> did not find this
+					branch of his business the one which yielded him the quickest returns. He thus
+					writes to his friend <ref target="people.html#HillAaron">Aaron Hill</ref>: "As
+					to my silence, I have been at one time exceedingly busy in getting ready some
+					volumes of Journals, to entitle myself to a payment which yet I never had, no,
+					not to the value of a shilling, though the debt is upwards of three thousand
+					pounds, and though I have pressed for it, and been excessively pressed for the
+					want of it.''</p>
 				<p> He was chosen master of his company, an office which, in the stationers'
 					company, is not only honourable but lucrative, in 1754; on which occasion one of
 					his friends tells him, that though he did not doubt his going very well through
@@ -802,30 +553,27 @@
 					will, generally, in this country, enable a man to procure. </p>
 				<p> But the genius of <ref target="people.html#RichardsonSamuel">Richardson</ref>
 					was not destined to be for ever employed in ushering into the world the
-					productions of others. His first work was his <hi rendition="#italics">
-						<title>Pamela</title>
-					</hi>. It grew out of the following circumstance. The booksellers, for whom it
-					has been mentioned that he had occasionally employed his pen, had desired him to
-					give them a volume of familiar letters upon various supposed occasions. He
-					began;—but letter producing letter it grew into a story, and was given to the
-					public under the title of <hi rendition="#italics">
-						<title>The History of Pamela</title>
-					</hi>. It appeared first in two volumes; two more were added afterwards. The
-					idea the author set out with of writing letters for people of rather the lower
-					class, probably determined him to the station of his heroine and the simplicity
-					of her language. </p>
-				<p> The author's object in <hi rendition="#italics">
-						<title>Pamela</title>
-					</hi> is twofold: to reclaim a libertine by the influence of virtuous affection,
-					and to conduct virtue safe and triumphant through the severest trials, to an
-					honourable reward. For this purpose <ref target="people.html#PamelaAndrews"
-						>Pamela</ref>, a <pb n="vii"/>young girl, born of poor but pious and worthy
-					parents, taken by a lady of fashion to wait upon her person, and brought up by
-					her with great tenderness and attention to her improvement, is, after the lady's
-					death, at which event the story opens, exposed to the solicitations of her
-					youthful master, the only son of her benefactress. The story is carried on by
-					letters, chiefly between <ref target="people.html#PamelaAndrews">Pamela</ref>
-					and her father and mother. Her youth and innocence render her, for some time,
+					productions of others. His first work was his <hi rendition="#italics"
+							><title>Pamela</title></hi>. It grew out of the following circumstance.
+					The booksellers, for whom it has been mentioned that he had occasionally
+					employed his pen, had desired him to give them a volume of familiar letters upon
+					various supposed occasions. He began;—but letter producing letter it grew into a
+					story, and was given to the public under the title of <hi rendition="#italics"
+							><title>The History of Pamela</title></hi>. It appeared first in two
+					volumes; two more were added afterwards. The idea the author set out with of
+					writing letters for people of rather the lower class, probably determined him to
+					the station of his heroine and the simplicity of her language. </p>
+				<p> The author's object in <hi rendition="#italics"><title>Pamela</title></hi> is
+					twofold: to reclaim a libertine by the influence of virtuous affection, and to
+					conduct virtue safe and triumphant through the severest trials, to an honourable
+					reward. For this purpose <ref target="people.html#PamelaAndrews">Pamela</ref>, a
+						<pb n="vii"/>young girl, born of poor but pious and worthy parents, taken by
+					a lady of fashion to wait upon her person, and brought up by her with great
+					tenderness and attention to her improvement, is, after the lady's death, at
+					which event the story opens, exposed to the solicitations of her youthful
+					master, the only son of her benefactress. The story is carried on by letters,
+					chiefly between <ref target="people.html#PamelaAndrews">Pamela</ref> and her
+					father and mother. Her youth and innocence render her, for some time,
 					unsuspecting of the passion she has inspired; and, when she can no longer
 					misunderstand the purposes of her master, she prepares to leave his house; but
 					he detains her under various pretences, and attempts liberties with her person,
@@ -875,13 +623,12 @@
 					given to the work in this particular view. <ref
 						target="people.html#PopeAlexander">Mr. Pope</ref> declared it would do more
 					good than many volumes of sermons. <ref target="people.html#LucasRichard">Mr.
-						Lucas</ref>, the esteemed author of <hi rendition="#italics">
-						<title>The Search after Happiness</title>
-					</hi>, a much graver character than <ref target="people.html#PopeAlexander"
-						>Pope</ref>, and not personally acquainted with the author, calls it "the
-					best book ever published, and calculated to do most good." The compliments of
-					the author's friends in their letters were quite extravagant. It was immediately
-					translated into French and Dutch. </p>
+						Lucas</ref>, the esteemed author of <hi rendition="#italics"><title>The
+							Search after Happiness</title></hi>, a much graver character than <ref
+						target="people.html#PopeAlexander">Pope</ref>, and not personally acquainted
+					with the author, calls it "the best book ever published, and calculated to do
+					most good." The compliments of the author's friends in their letters were quite
+					extravagant. It was immediately translated into French and Dutch. </p>
 				<p> The fame of this once favourite work is now somewhat tarnished by time, as well
 					as eclipsed by the author's subsequent publications; but the enthusiasm with
 					which it was received, shows incontrovertibly, that a <hi rendition="#italics"
@@ -940,13 +687,10 @@
 					parents on her exaltation, show a regard to rank and riches beyond the just
 					measure of an independent mind. The pious <ref
 						target="people.html#AndrewsGoodman">Goodman Andrews</ref> should not have
-					thought his virtuous daughter so infinitely be-<lb/>
-					<fw type="vol">
-						<hi rendition="#smcaps">vol. i.</hi>
-					</fw>
-					<fw type="sig">h</fw>
-					<pb n="xii"/>neath her licentious master, who, after all, married her to gratify
-					his own passions. </p>
+					thought his virtuous daughter so infinitely be-<lb/><fw type="vol"><hi
+							rendition="#smcaps">vol. i.</hi></fw><fw type="sig">h</fw><pb n="xii"
+					/>neath her licentious master, who, after all, married her to gratify his own
+					passions. </p>
 				<p> The indelicate scenes in this novel have been justly found fault with, and are,
 					indeed, totally indefensible. <ref target="people.html#WattsIsaac">Dr.
 						Watts</ref>, to whom he sent the volumes, instead of compliments, writes him
@@ -956,63 +700,53 @@
 					superfluous to the story, which is properly terminated with the marriage of <ref
 						target="people.html#PamelaAndrews">Pamela</ref>; but prolixity was the fault
 					of this author. <ref target="people.html#agoldoni">Goldoni</ref> has written two
-					plays on the subject of this novel; his <hi rendition="#italics">
-						<title>Pamela Nubile</title>
-					</hi> and <hi rendition="#italics">
-						<title>Pamela Maritata</title>
-					</hi>. It is well known that <ref target="people.html#FieldingHenry"
-						>Fielding</ref>, who started in his career of fame soon after <ref
-						target="people.html#RichardsonSamuel">Richardson</ref>, wrote his <hi
-						rendition="#italics">
-						<title>Joseph Andrews</title>
-					</hi> in ridicule of <hi rendition="#italics">
-						<title>Pamela</title>
-					</hi>. <ref target="people.html#RichardsonSamuel">Richardson</ref> was
-					exceedingly hurt at this, the more so as they had been upon good terms, and he
-					was very intimate with <ref target="people.html#FieldingHenry">Fielding</ref>'s
-					two sisters. He never appears cordially to have forgiven it: perhaps it was
-					hardly in human nature that he should; and he always speaks in his letters with
-					great asperity of <hi rendition="#italics">
-						<title>Tom Jones</title>
-					</hi>, more indeed than was quite graceful in a rival author. <ref
-						target="people.html#RichardsonSamuel">Richardson</ref> and <ref
-						target="people.html#FieldingHenry">Fielding</ref> possessed very different
-						excellencies.—<ref target="people.html#FieldingHenry">Fielding</ref> had all
-					the ease which <ref target="people.html#RichardsonSamuel">Richardson</ref>
-					wanted, a genuine flow of humour, and a rich variety of comic character; nor was
-					he wanting in strokes of an amiable sensibility: but he could not describe a
-					consistently virtuous character, and in deep pathos he was far excelled by his
-					rival. <pb n="xiii"/>
-				</p>
-				<p>But <hi rendition="#italics">
-						<title>Pamela</title>
-					</hi>, captivating as the publication had proved to be, showed only the dawn of
-					its author's genius, who, encouraged by the applauses and benefited by the
-					criticisms which he had received, proceeded to plan a new work, the first two
-					volumes of which were published eight years after the preceding. </p>
+					plays on the subject of this novel; his <hi rendition="#italics"><title>Pamela
+							Nubile</title></hi> and <hi rendition="#italics"><title>Pamela
+							Maritata</title></hi>. It is well known that <ref
+						target="people.html#FieldingHenry">Fielding</ref>, who started in his career
+					of fame soon after <ref target="people.html#RichardsonSamuel">Richardson</ref>,
+					wrote his <hi rendition="#italics"><title>Joseph Andrews</title></hi> in
+					ridicule of <hi rendition="#italics"><title>Pamela</title></hi>. <ref
+						target="people.html#RichardsonSamuel">Richardson</ref> was exceedingly hurt
+					at this, the more so as they had been upon good terms, and he was very intimate
+					with <ref target="people.html#FieldingHenry">Fielding</ref>'s two sisters. He
+					never appears cordially to have forgiven it: perhaps it was hardly in human
+					nature that he should; and he always speaks in his letters with great asperity
+					of <hi rendition="#italics"><title>Tom Jones</title></hi>, more indeed than was
+					quite graceful in a rival author. <ref target="people.html#RichardsonSamuel"
+						>Richardson</ref> and <ref target="people.html#FieldingHenry">Fielding</ref>
+					possessed very different excellencies.—<ref target="people.html#FieldingHenry"
+						>Fielding</ref> had all the ease which <ref
+						target="people.html#RichardsonSamuel">Richardson</ref> wanted, a genuine
+					flow of humour, and a rich variety of comic character; nor was he wanting in
+					strokes of an amiable sensibility: but he could not describe a consistently
+					virtuous character, and in deep pathos he was far excelled by his rival. <pb
+						n="xiii"/></p>
+				<p>But <hi rendition="#italics"><title>Pamela</title></hi>, captivating as the
+					publication had proved to be, showed only the dawn of its author's genius, who,
+					encouraged by the applauses and benefited by the criticisms which he had
+					received, proceeded to plan a new work, the first two volumes of which were
+					published eight years after the preceding. </p>
 				<p> The production upon which the fame of <ref target="people.html#RichardsonSamuel"
 						>Richardson</ref> is principally founded, that which will transmit his name
 					to posterity as one of the first geniuses of the age in which he lived, is
-					undoubtedly his <hi rendition="#italics">
-						<title>Clarissa</title>
-					</hi>. Nothing can be more simple than the story:—A young lady, pressed by her
-					parents to marry a man every way disagreeable to her, and placed under the most
-					cruel restraint, leaves her father's house, and throws herself upon the
-					protection of her lover, a man of sense and spirit, but a libertine. When he
-					finds her in his power, he artfully declines marriage, and conveys her to a
-					house kept for the worst of purposes. There, after many fruitless attempts to
-					ensnare her virtue, he at length violates her person. She escapes from further
-					outrage: he finds her out in her retreat; offers her marriage, which she
-					rejects. Her friends are obdurate. She retires to solitary lodgings; grief and
-					shame overwhelm her, and she dies broken-hearted. Her friends lament their
-					severity when too late. Her violator is transiently stung with remorse, but not
-					reformed; he leaves the kingdom in order to dissipate his chagrin, and is killed
-					in a duel by a relation of the lady's. </p>
+					undoubtedly his <hi rendition="#italics"><title>Clarissa</title></hi>. Nothing
+					can be more simple than the story:—A young lady, pressed by her parents to marry
+					a man every way disagreeable to her, and placed under the most cruel restraint,
+					leaves her father's house, and throws herself upon the protection of her lover,
+					a man of sense and spirit, but a libertine. When he finds her in his power, he
+					artfully declines marriage, and conveys her to a house kept for the worst of
+					purposes. There, after many fruitless attempts to ensnare her virtue, he at
+					length violates her person. She escapes from further outrage: he finds her out
+					in her retreat; offers her marriage, which she rejects. Her friends are
+					obdurate. She retires to solitary lodgings; grief and shame overwhelm her, and
+					she dies broken-hearted. Her friends lament their severity when too late. Her
+					violator is transiently stung with remorse, but not reformed; he leaves the
+					kingdom in order to dissipate his chagrin, and is killed in a duel by a relation
+					of the lady's. </p>
 				<p> On this slight foundation, and on a story not very agreeable or promising in its
-					rude outline, <lb/><fw type="sig">
-						<hi rendition="center">h 2</hi>
-					</fw>
-					<pb n="xiv"/>has our author founded a most pathetic tale, and raised a noble
+					rude outline, <lb/><fw type="sig"><hi rendition="center">h 2</hi></fw><pb
+						n="xiv"/>has our author founded a most pathetic tale, and raised a noble
 					temple to female virtue. The first volumes are somewhat tedious, from the
 					prolixity incident to letter-writing, and require a persevering reader to get
 					through them: but the circumstantial manner of writing which <ref
@@ -1022,30 +756,28 @@
 					elicited here and there by a pathetic stroke; but we regard his characters as
 					real personages, whom we know and converse with, and whose fate remains to be
 					decided in the course of events. The characters, much more numerous than in <hi
-						rendition="#italics">
-						<title>Pamela</title>
-					</hi>, are all distinctly drawn and well preserved, and there is a proper
-					contrast and variety in the casting of the parts. The plot, as we have seen, is
-					simple, and no under-plots interfere with the main design. No digressions, no
-					episodes. It is wonderful that without these helps of common writers, he could
-					support a work of such length. With <ref target="people.html#ClarissaHarlowe"
-						>Clarissa</ref> it begins,—with <ref target="people.html#ClarissaHarlowe"
-						>Clarissa</ref> it ends. We do not come upon unexpected adventures and
-					wonderful recognitions, by quick turns and surprises: we see her fate from afar,
-					as it were through a long avenue, the gradual approach to which, without ever
-					losing sight of the object, has more of simplicity and grandeur than the most
-					cunning labyrinth that can be contrived by art. In the approach to the modern
-					country-seat, we are made to catch transiently a side-view of it through an
-					opening of the trees, or to burst upon it from a <pb n="xv"/>sudden turning in
-					the road; but the old mansion stood full in the eye of the traveller, as he drew
-					near it, contemplating its turrets, which grew larger and more distinct every
-					step that he advanced, and leisurely filling his eye and his imagination with
-					still increasing ideas of its magnificence.—As the work advances, the character
-					rises; the distress is deepened; our hearts are torn with pity and indignation;
-					bursts of grief succeed one another, till at length the mind is composed and
-					harmonized with emotions of milder sorrow; we are calmed into resignation,
-					elevated with pious hope, and dismissed glowing with the conscious triumphs of
-					virtue. </p>
+						rendition="#italics"><title>Pamela</title></hi>, are all distinctly drawn
+					and well preserved, and there is a proper contrast and variety in the casting of
+					the parts. The plot, as we have seen, is simple, and no under-plots interfere
+					with the main design. No digressions, no episodes. It is wonderful that without
+					these helps of common writers, he could support a work of such length. With <ref
+						target="people.html#ClarissaHarlowe">Clarissa</ref> it begins,—with <ref
+						target="people.html#ClarissaHarlowe">Clarissa</ref> it ends. We do not come
+					upon unexpected adventures and wonderful recognitions, by quick turns and
+					surprises: we see her fate from afar, as it were through a long avenue, the
+					gradual approach to which, without ever losing sight of the object, has more of
+					simplicity and grandeur than the most cunning labyrinth that can be contrived by
+					art. In the approach to the modern country-seat, we are made to catch
+					transiently a side-view of it through an opening of the trees, or to burst upon
+					it from a <pb n="xv"/>sudden turning in the road; but the old mansion stood full
+					in the eye of the traveller, as he drew near it, contemplating its turrets,
+					which grew larger and more distinct every step that he advanced, and leisurely
+					filling his eye and his imagination with still increasing ideas of its
+					magnificence.—As the work advances, the character rises; the distress is
+					deepened; our hearts are torn with pity and indignation; bursts of grief succeed
+					one another, till at length the mind is composed and harmonized with emotions of
+					milder sorrow; we are calmed into resignation, elevated with pious hope, and
+					dismissed glowing with the conscious triumphs of virtue. </p>
 				<p> The first group which presents itself is that of the Harlowe family. They are
 					sufficiently discriminated, yet preserve a family likeness. The stern father,
 					the passionate and dark-souled brother, the envious and ill-natured sister, the
@@ -1059,10 +791,8 @@
 					deserving of her esteem, but prim and formal in his manner. <ref
 						target="people.html#MissAnnaHowe">Miss Howe</ref> is a character of strong
 					lights and shades, but her warmest affections are all along directed to her
-					friend; and the correspond-<lb/><fw type="sig">
-						<hi rendition="center">h 3</hi>
-					</fw>
-					<pb n="xvi"/>ence between them is made the great vehicle of <ref
+					friend; and the correspond-<lb/><fw type="sig"><hi rendition="center">h
+						3</hi></fw><pb n="xvi"/>ence between them is made the great vehicle of <ref
 						target="people.html#ClarissaHarlowe">Clarissa</ref>'s narrative of events,
 					as that between <ref target="people.html#Lovelace">Lovelace</ref> and his friend
 						<ref target="people.html#Belford">Belford</ref> is of <hi
@@ -1142,8 +872,8 @@
 					"Let <pb n="xix"/> this expiate," and manifestly intended to do away our
 					resentment, and leave a favourable impression on our minds with regard to his
 					future prospects. Something, indeed, is mentioned of impatience, and a desire of
-					life; but <ref target="people.html#RichardsonSamuel">Richardson</ref>
-					<hi rendition="#italics"> could</hi> have drawn a scene which would have made us
+					life; but <ref target="people.html#RichardsonSamuel">Richardson</ref><hi
+						rendition="#italics"> could</hi> have drawn a scene which would have made us
 					turn with horror from the features of the gay, the agreeable seducer, when
 					changed into the agonizing countenance of the despairing self-accuser. </p>
 				<p> But if the author might have improved in this respect the character of <ref
@@ -1168,17 +898,17 @@
 					have her safe back again. Nothing takes place of <pb n="xx"/> that pleasure and
 					endearment which might naturally be expected on the meeting of two lovers: we
 					feel that she has been hunted into the toils, and that every avenue is closed
-					against her escape. No young person, on reading <hi rendition="#italics">
-						<title>Clarissa</title>
-					</hi>, even at this period of the story, can think of putting herself into the
-					power of a lover, without annexing to it the strongest sense of degradation and
-					anxiety. A great deal of contrivance is expended by the author, in the various
-					plots set on foot by <ref target="people.html#Lovelace">Lovelace</ref>, to keep
-					his victim tolerably easy in her ambiguous situation; and though some of these
-					are tedious, it was necessary, for <ref target="people.html#ClarissaHarlowe"
-						>Clarissa</ref>'s honour, to make the reader sensible that she had an
-					inextricable net wound around her, and that it was not owing to her want of
-					prudence or vigilance that she did not escape. In the mean time the wit of <ref
+					against her escape. No young person, on reading <hi rendition="#italics"
+							><title>Clarissa</title></hi>, even at this period of the story, can
+					think of putting herself into the power of a lover, without annexing to it the
+					strongest sense of degradation and anxiety. A great deal of contrivance is
+					expended by the author, in the various plots set on foot by <ref
+						target="people.html#Lovelace">Lovelace</ref>, to keep his victim tolerably
+					easy in her ambiguous situation; and though some of these are tedious, it was
+					necessary, for <ref target="people.html#ClarissaHarlowe">Clarissa</ref>'s
+					honour, to make the reader sensible that she had an inextricable net wound
+					around her, and that it was not owing to her want of prudence or vigilance that
+					she did not escape. In the mean time the wit of <ref
 						target="people.html#Lovelace">Lovelace</ref> and the sprightliness of <ref
 						target="people.html#MissAnnaHowe">Miss Howe</ref> prevent monotony. In one
 					instance, however, <ref target="people.html#ClarissaHarlowe">Clarissa</ref>
@@ -1216,83 +946,68 @@
 					peculiar nature!</p>
 				<p> There is something in virgin purity, to which the imagination willingly pays
 					homage. In all ages, something saintly has been attached to the idea of
-					unblemished chastity. Hence the dignity of the lady in <hi rendition="#italics">
-						<title>Comus</title>
-					</hi>; hence the interest we take in those whose holy vows have shrowd-<pb
-						n="xxii"/>ed them from even the wanton glances of an assailer; hence the
-					supposed virtue of prayers <quote>
-						<lg type="stanza">
+					unblemished chastity. Hence the dignity of the lady in <hi rendition="#italics"
+							><title>Comus</title></hi>; hence the interest we take in those whose
+					holy vows have shrowd-<pb n="xxii"/>ed them from even the wanton glances of an
+					assailer; hence the supposed virtue of prayers <quote><lg type="stanza">
 							<l>From fasting maids whose minds are dedicate,</l>
-							<l>————————to nothing earthly.<note>
-									<ref target="people.html#ShakespeareWilliam">Shakespeare</ref>,
-										<hi rendition="#italics">
-										<title>Measure for Measure</title>
-									</hi> II.ii.154-5, slightly altered.</note>
-							</l>
-						</lg>
-					</quote>
-				</p>
+							<l>————————to nothing earthly.<note><ref
+										target="people.html#ShakespeareWilliam">Shakespeare</ref>,
+										<hi rendition="#italics"><title>Measure for
+										Measure</title></hi> II.ii.154-5, slightly
+								altered.</note></l>
+						</lg></quote></p>
 				<p>Beauty is a flower which was meant in due time to be gathered; but it attracts
 					the fondest admiration whilst still on the stalk, before it has felt the touch
-					of any rude hand:<quote>
-						<lg type="stanza">
-							<l>
-								<hi rendition="#italics">Sic virgo, dum intacta manet, dum cara suis
-									est.</hi>
-								<note>"So a virgin, while still untouched, remains dear to her
-									family"; <ref target="people.html#Catullus">Catullus</ref>, Poem
-									62, line 45, trans. Peter Green, <hi rendition="#italics">
-										<title>The Poems of Catullus: A Bilingual Edition</title>
-									</hi> (Berkeley: U of California P, 2005).</note>
-							</l>
-						</lg>
-					</quote>
-				</p>
+					of any rude hand:<quote><lg type="stanza">
+							<l><hi rendition="#italics">Sic virgo, dum intacta manet, dum cara suis
+									est.</hi><note>"So a virgin, while still untouched, remains dear
+									to her family"; <ref target="people.html#Catullus"
+										>Catullus</ref>, Poem 62, line 45, trans. Peter Green, <hi
+										rendition="#italics"><title>The Poems of Catullus: A
+											Bilingual Edition</title></hi> (Berkeley: U of
+									California P, 2005).</note></l>
+						</lg></quote></p>
 				<p>It was reserved for <ref target="people.html#RichardsonSamuel">Richardson</ref>
 					to overcome all circumstances of dishonour and disgrace, and to throw a
 					splendour round the <hi rendition="#italics">violated virgin</hi>, more radiant
-					than she possessed in her first bloom. He has made the flower, which grew <quote>
-						<lg type="stanza">
+					than she possessed in her first bloom. He has made the flower, which grew
+							<quote><lg type="stanza">
 							<l> —————sweet to sense, and lovely to the eye,</l>
-						</lg>
-					</quote>throw out a richer fragrance <hi rendition="#italics">after</hi> "the
-					cruel spoiler has <hi rendition="#italics">cropped the fair rose and rifled its
-						sweetness</hi>."<note>This line and the preceding one come from <ref
-							target="people.html#OtwayThomas">Thomas Otway</ref>, <hi
-							rendition="#italics">
-							<title>The Orphan</title>
-						</hi> IV.ii., slightly altered. </note> He has drawn the triumph of mental
-					chastity; he has drawn it uncontaminated, untarnished, and incapable of mingling
-					with pollution.—The scenes which follow the death of the heroine, exhibit grief
-					in an affecting variety of forms, as it is modified by the characters of
-					different survivors. They run into considerable length; but we have been so
-					deeply interested, that we feel it a relief to have our grief drawn off, as it
-					were, by a variety of sluices, and we are glad not to be dismissed till we have
-					shed tears, even to satiety. We enjoy, besides, the punishment of the Harlowes,
-					in the contemplation of their merited anguish. Sentiments of <pb n="xxiii"
-					/>piety pervade the whole work; but the deathbed of <ref
-						target="people.html#ClarissaHarlowe">Clarissa</ref>, her Christian
-					forgiveness, and her meek resignation, are particularly edifying. <ref
-						target="people.html#RichardsonSamuel">Richardson</ref> loved to draw
-					death-beds. He seems to have imbibed, from his friend <ref
-						target="people.html#YoungEdward">Dr. Young</ref>, an opinion of their being
-					a touchstone of merit or demerit. There are three described in this work,
-					besides that of <ref target="people.html#Lovelace">Lovelace</ref>: that, it has
-					already been mentioned, would have had a more moral effect if it had been fuller
-					of horror. <ref target="people.html#Lovelace">Lovelace</ref> is made to declare,
-					that he cannot be totally unhappy, whatever be his own lot in a future state, if
-					he is allowed to contemplate the happiness of <ref
-						target="people.html#ClarissaHarlowe">Clarissa</ref>: He exclaims, <quote>
-						<lg type="stanza">
+						</lg></quote>throw out a richer fragrance <hi rendition="#italics"
+						>after</hi> "the cruel spoiler has <hi rendition="#italics">cropped the fair
+						rose and rifled its sweetness</hi>."<note>This line and the preceding one
+						come from <ref target="people.html#OtwayThomas">Thomas Otway</ref>, <hi
+							rendition="#italics"><title>The Orphan</title></hi> IV.ii., slightly
+						altered. </note> He has drawn the triumph of mental chastity; he has drawn
+					it uncontaminated, untarnished, and incapable of mingling with pollution.—The
+					scenes which follow the death of the heroine, exhibit grief in an affecting
+					variety of forms, as it is modified by the characters of different survivors.
+					They run into considerable length; but we have been so deeply interested, that
+					we feel it a relief to have our grief drawn off, as it were, by a variety of
+					sluices, and we are glad not to be dismissed till we have shed tears, even to
+					satiety. We enjoy, besides, the punishment of the Harlowes, in the contemplation
+					of their merited anguish. Sentiments of <pb n="xxiii"/>piety pervade the whole
+					work; but the deathbed of <ref target="people.html#ClarissaHarlowe"
+						>Clarissa</ref>, her Christian forgiveness, and her meek resignation, are
+					particularly edifying. <ref target="people.html#RichardsonSamuel"
+						>Richardson</ref> loved to draw death-beds. He seems to have imbibed, from
+					his friend <ref target="people.html#YoungEdward">Dr. Young</ref>, an opinion of
+					their being a touchstone of merit or demerit. There are three described in this
+					work, besides that of <ref target="people.html#Lovelace">Lovelace</ref>: that,
+					it has already been mentioned, would have had a more moral effect if it had been
+					fuller of horror. <ref target="people.html#Lovelace">Lovelace</ref> is made to
+					declare, that he cannot be totally unhappy, whatever be his own lot in a future
+					state, if he is allowed to contemplate the happiness of <ref
+						target="people.html#ClarissaHarlowe">Clarissa</ref>: He exclaims, <quote><lg
+							type="stanza">
 							<l> Can I be at worst? avert that worst,</l>
 							<l> O thou Supreme, who only canst avert it! </l>
 							<l> So much a wretch, so very far abandon'd, </l>
 							<l> But that I must, even in the horrid'st gloom, </l>
 							<l> Reap intervenient joy; at least, some respite </l>
 							<l> From pain and anguish in her bliss.</l>
-						</lg>
-					</quote>
-				</p>
+						</lg></quote></p>
 				<p>This is a sentiment much too generous for a <ref target="people.html#Lovelace"
 						>Lovelace</ref>.—The author has shown himself embarrassed with regard to the
 					duel by his principles, which forbade duelling. Yet it was necessary to dispatch
@@ -1304,25 +1019,20 @@
 					make <hi rendition="#italics">him</hi> express regret at having precipitated
 						<ref target="people.html#Lovelace">Lovelace</ref> into a future state: <ref
 						target="people.html#RichardsonSamuel">Richardson</ref> was not then drawing
-					his perfect character, and did not seem <lb/>
-					<fw type="vol">
-						<hi rendition="#smcaps">vol. i.</hi>
-					</fw>
-					<fw type="sig">i</fw>
-					<pb n="xxiv"/>called upon to blame a duel, which in our hearts we cannot, from
-						<ref target="people.html#ColonelMorden">Colonel Morden</ref>, but approve
-					of. </p>
-				<p> That <hi rendition="#italics">
-						<title>Clarissa</title>
-					</hi> is a highly moral work, has been always allowed;—but what is the moral?—Is
-					it that a young lady who places her affections upon a libertine, will be
-					deceived and ruined? Though the author no doubt intended this as one of the
-					conclusions to be drawn, such a maxim has not dignity or force enough in it to
-					be the chief moral of this interesting tale. And it has been already mentioned
-					that <ref target="people.html#ClarissaHarlowe">Clarissa</ref> can hardly stand
-					as an example of such a choice, as she never fairly made the choice. On the
-					contrary, she is always ready, both before her elopement and after it, to resign
-					the moderate, the almost insensible predilection she feels for <ref
+					his perfect character, and did not seem <lb/><fw type="vol"><hi
+							rendition="#smcaps">vol. i.</hi></fw><fw type="sig">i</fw><pb n="xxiv"
+					/>called upon to blame a duel, which in our hearts we cannot, from <ref
+						target="people.html#ColonelMorden">Colonel Morden</ref>, but approve of. </p>
+				<p> That <hi rendition="#italics"><title>Clarissa</title></hi> is a highly moral
+					work, has been always allowed;—but what is the moral?—Is it that a young lady
+					who places her affections upon a libertine, will be deceived and ruined? Though
+					the author no doubt intended this as one of the conclusions to be drawn, such a
+					maxim has not dignity or force enough in it to be the chief moral of this
+					interesting tale. And it has been already mentioned that <ref
+						target="people.html#ClarissaHarlowe">Clarissa</ref> can hardly stand as an
+					example of such a choice, as she never fairly made the choice. On the contrary,
+					she is always ready, both before her elopement and after it, to resign the
+					moderate, the almost insensible predilection she feels for <ref
 						target="people.html#Lovelace">Lovelace</ref>, to the will of her parents, if
 					she might only be permitted to refuse the object of her aversion. Is she, then,
 					exhibited as a rare pattern of chastity? Surely this is an idea very degrading
@@ -1353,38 +1063,30 @@
 						target="people.html#Lovelace">Lovelace</ref> to speak of trying her
 					chastity; and the author is not free from blame in favouring the idea that such
 					resistance had any thing in it uncommon, or peculiarly meritorious. But the real
-					moral of <hi rendition="#italics">
-						<title>Clarissa</title>
-					</hi> is, that virtue is triumphant in every situation; that in circumstances
-					the most painful and degrading,—in a prison, in a brothel, in grief, in
-					distraction, in despair,—it is still lovely, still commanding, still the object
-					of our veneration, of our fondest affections: that if it is seated on the
-					ground, it can still say with Constance, <quote>
-						<lg type="stanza">
-							<l> Here is my throne; kings, come and bow to it!<note>
-									<ref target="people.html#ShakespeareWilliam">Shakespeare</ref>,
-										<hi rendition="#italics">
-										<title>King John</title>
-									</hi> III.i.24.</note>
-							</l>
-						</lg>
-					</quote>
-				</p>
+					moral of <hi rendition="#italics"><title>Clarissa</title></hi> is, that virtue
+					is triumphant in every situation; that in circumstances the most painful and
+					degrading,—in a prison, in a brothel, in grief, in distraction, in despair,—it
+					is still lovely, still commanding, still the object of our veneration, of our
+					fondest affections: that if it is seated on the ground, it can still say with
+					Constance, <quote><lg type="stanza">
+							<l> Here is my throne; kings, come and bow to it!<note><ref
+										target="people.html#ShakespeareWilliam">Shakespeare</ref>,
+										<hi rendition="#italics"><title>King John</title></hi>
+									III.i.24.</note></l>
+						</lg></quote></p>
 				<p> The novelist that has produced this effect has performed his office well, and it
 					is immaterial what particular maxim is selected under the name of a moral, while
 					such are the reader's feelings. If our feelings are in favour of virtue,
-						<lb/><fw type="sig">
-						<hi rendition="center">i 2</hi>
-					</fw>
-					<pb n="xxvi"/>the novel is virtuous; if of vice, the novel is vicious. The
-					greatness of <ref target="people.html#ClarissaHarlowe">Clarissa</ref> is shown
-					by her separating herself from her lover as soon as she perceives his
-					dishonourable views; in her choosing death rather than a repetition of the
-					outrage; in her rejection of those overtures of marriage, which a common mind
-					might have accepted of, as a refuge against worldly dishonour; in her firm
-					indignant carriage, mixed with calm patience and Christian resignation; and in
-					the greatness of mind with which she views and enjoys the approaches of death,
-					and her meek forgiveness of her unfeeling relations. </p>
+						<lb/><fw type="sig"><hi rendition="center">i 2</hi></fw><pb n="xxvi"/>the
+					novel is virtuous; if of vice, the novel is vicious. The greatness of <ref
+						target="people.html#ClarissaHarlowe">Clarissa</ref> is shown by her
+					separating herself from her lover as soon as she perceives his dishonourable
+					views; in her choosing death rather than a repetition of the outrage; in her
+					rejection of those overtures of marriage, which a common mind might have
+					accepted of, as a refuge against worldly dishonour; in her firm indignant
+					carriage, mixed with calm patience and Christian resignation; and in the
+					greatness of mind with which she views and enjoys the approaches of death, and
+					her meek forgiveness of her unfeeling relations. </p>
 				<p> In one particular the author has been blamed, and perhaps justly, for
 					encouraging superstition, in representing <ref
 						target="people.html#ClarissaHarlowe">Clarissa</ref> as so greatly terrified
@@ -1396,29 +1098,22 @@
 					passions which it was the author's professed aim to regulate. He was led to it,
 					in some measure, by the nature of his story; but he seems to have begun writing
 					with a coarseness of ideas in this respect, which he got rid of by degrees. His
-						<hi rendition="#italics">
-						<title>Clarissa</title>
-					</hi> is far less objectionable than his <hi rendition="#italics">
-						<title>Pamela</title>
-					</hi>; his <hi rendition="#italics">
-						<title>Grandison</title>
-					</hi> not at all so. The death of Sinclair is painted with great strength, but
-					excites painful disgust as well as horror; yet, being intended to excite a
-					salutary disgust to the haunts of vice and infamy, perhaps in that light may be
-						<pb n="xxvii"/>borne with. Its operation is that of a strong medicine, meant
-					to create a nausea. The death of <ref target="people.html#Belton">Belton</ref>
-					is an admirable piece of painting, and not excelled by any thing in the admired
-					scene of Cardinal Beaufort.<note>
-						<ref target="people.html#ShakespeareWilliam">Shakespeare</ref>, <hi
-							rendition="#italics">
-							<title>Henry VI, Part II</title>
-						</hi> III.iii. <ref target="people.html#FuseliHenry">Henry Fuseli</ref> had
-						recently depicted the scene in his painting <hi rendition="#italics">
-							<title>The Death of <ref target="people.html#BeaufortHenry">Cardinal
-									Beaufort</ref>
-							</title>
-						</hi> (1772).</note>
-				</p>
+						<hi rendition="#italics"><title>Clarissa</title></hi> is far less
+					objectionable than his <hi rendition="#italics"><title>Pamela</title></hi>; his
+						<hi rendition="#italics"><title>Grandison</title></hi> not at all so. The
+					death of Sinclair is painted with great strength, but excites painful disgust as
+					well as horror; yet, being intended to excite a salutary disgust to the haunts
+					of vice and infamy, perhaps in that light may be <pb n="xxvii"/>borne with. Its
+					operation is that of a strong medicine, meant to create a nausea. The death of
+						<ref target="people.html#Belton">Belton</ref> is an admirable piece of
+					painting, and not excelled by any thing in the admired scene of Cardinal
+							Beaufort.<note><ref target="people.html#ShakespeareWilliam"
+							>Shakespeare</ref>, <hi rendition="#italics"><title>Henry VI, Part
+								II</title></hi> III.iii. <ref target="people.html#FuseliHenry">Henry
+							Fuseli</ref> had recently depicted the scene in his painting <hi
+							rendition="#italics"><title>The Death of <ref
+									target="people.html#BeaufortHenry">Cardinal
+								Beaufort</ref></title></hi> (1772).</note></p>
 				<p> It is not perfectly delicate that <ref target="people.html#ClarissaHarlowe"
 						>Clarissa</ref> should have so many interviews with <ref
 						target="people.html#Lovelace">Lovelace</ref> after the catastrophe. <ref
@@ -1439,13 +1134,11 @@
 					seducer, and the glory of conquest is what he principally aims at. Had such a
 					character been placed in France, and his gallantries directed to married women,
 					it would have been more natural, and his epistolary memoirs rendered more
-					probable; <lb/><fw type="sig">
-						<hi rendition="center">i 3</hi>
-					</fw>
-					<pb n="xxviii"/> but in England <ref target="people.html#Lovelace"
-						>Lovelace</ref> would have been run through the body, long before he had
-					seen the face of <ref target="people.html#ClarissaHarlowe">Clarissa</ref> or
-						<ref target="people.html#ColonelMorden">Colonel Morden</ref>.</p>
+					probable; <lb/><fw type="sig"><hi rendition="center">i 3</hi></fw><pb n="xxviii"
+					/> but in England <ref target="people.html#Lovelace">Lovelace</ref> would have
+					been run through the body, long before he had seen the face of <ref
+						target="people.html#ClarissaHarlowe">Clarissa</ref> or <ref
+						target="people.html#ColonelMorden">Colonel Morden</ref>.</p>
 				<p> There is an improbability which the author could not well avoid, as it resulted
 					from his plan of carrying on the narrative by letters; and that is, the tame
 					acquiescence of <ref target="people.html#Belford">Belford</ref> in a villainy
@@ -1464,44 +1157,36 @@
 					libertine, one whom the reader regards with esteem and affection. <ref
 						target="people.html#RichardsonSamuel">Richardson</ref> mentions in one of
 					his letters, that <ref target="people.html#MooreEdward">Mr. Moore</ref>, author
-					of <hi rendition="#italics">
-						<title>The Foundling</title>
-					</hi>, had an intention of bringing the story of <ref
-						target="people.html#ClarissaHarlowe">Clarissa</ref> upon the stage, and that
-						<ref target="people.html#agarrickDavid">Garrick</ref> told him he should
-					with great pleasure be the <ref target="people.html#Lovelace">Lovelace</ref> of
-					it. The powers of <ref target="people.html#MooreEdward">Moore</ref> were by no
-					means equal to such an undertaking; but if they had been greater, the gaiety and
+					of <hi rendition="#italics"><title>The Foundling</title></hi>, had an intention
+					of bringing the story of <ref target="people.html#ClarissaHarlowe"
+						>Clarissa</ref> upon the stage, and that <ref
+						target="people.html#agarrickDavid">Garrick</ref> told him he should with
+					great pleasure be the <ref target="people.html#Lovelace">Lovelace</ref> of it.
+					The powers of <ref target="people.html#MooreEdward">Moore</ref> were by no means
+					equal to such an undertaking; but if they had been greater, the gaiety and
 					spirit of <ref target="people.html#Lovelace">Lovelace</ref>, in the hands of
 						<ref target="people.html#agarrickDavid">Garrick</ref>, <pb n="xxix"/>would
 					have been too strong for the morality of the piece. We know how great a
 					favourite he was in Ranger.<note>Character in <ref
 							target="people.html#HoadlyDrBenjamin">Benjamin Hoadly</ref>'s <hi
-							rendition="#italics">
-							<title>The Suspicious Husband</title>
-						</hi> (1747).</note>
-				</p>
-				<p> The publication of <hi rendition="#italics">
-						<title>Pamela</title>
-					</hi> occasioned the sensation of surprise and pleasure, which a new author, a
-					new style, a new mode of writing, is calculated to inspire: that of <hi
-						rendition="#italics">
-						<title>Clarissa</title>
-					</hi> raised its author at once to the first rank among novelists: it is even
-					more admired by foreigners than by the English themselves. <ref
-						target="people.html#RousseauJeanJacques">Rousseau</ref>, whose <hi
-						rendition="#italics">
-						<title>Heloise</title>
-					</hi> alone, perhaps, can divide the palm with <hi rendition="#italics">
-						<title>Clarissa</title>
-					</hi>, asserts in a letter to <ref target="people.html#AlembertJean"
-						>d'Alembert</ref>, that nothing was ever written equal to, or approaching
-					it, in any language. <ref target="people.html#Diderot">Diderot</ref> speaks of
-						<ref target="people.html#RichardsonSamuel">Richardson</ref> with high
-					applause. <ref target="people.html#JohnsonSamuel">Dr. Johnson</ref>, in his <hi
-						rendition="#italics">
-						<title>Life of Rowe</title>
-					</hi>, expresses himself in the following forcible language: </p>
+							rendition="#italics"><title>The Suspicious Husband</title></hi>
+						(1747).</note></p>
+				<p> The publication of <hi rendition="#italics"><title>Pamela</title></hi>
+					occasioned the sensation of surprise and pleasure, which a new author, a new
+					style, a new mode of writing, is calculated to inspire: that of <hi
+						rendition="#italics"><title>Clarissa</title></hi> raised its author at once
+					to the first rank among novelists: it is even more admired by foreigners than by
+					the English themselves. <ref target="people.html#RousseauJeanJacques"
+						>Rousseau</ref>, whose <hi rendition="#italics"><title>Heloise</title></hi>
+					alone, perhaps, can divide the palm with <hi rendition="#italics"
+							><title>Clarissa</title></hi>, asserts in a letter to <ref
+						target="people.html#AlembertJean">d'Alembert</ref>, that nothing was ever
+					written equal to, or approaching it, in any language. <ref
+						target="people.html#Diderot">Diderot</ref> speaks of <ref
+						target="people.html#RichardsonSamuel">Richardson</ref> with high applause.
+						<ref target="people.html#JohnsonSamuel">Dr. Johnson</ref>, in his <hi
+						rendition="#italics"><title>Life of Rowe</title></hi>, expresses himself in
+					the following forcible language: </p>
 				<p> "The character of <ref target="people.html#Lothario">Lothario</ref> seems to
 					have been expanded by <ref target="people.html#RichardsonSamuel"
 						>Richardson</ref> into that of <ref target="people.html#Lovelace"
@@ -1513,34 +1198,29 @@
 					once esteem and detestation; to make virtuous resentment overpower all the
 					benevolence which wit, and elegance, and courage, naturally excite; and to lose
 					at last the hero in the villain." </p>
-				<p> The interest which <hi rendition="#italics">
-						<title>Clarissa</title>
-					</hi> excited at the time, was increased by the suspense in which its readers
-					were so long held. In general, the suspense of a reader lasts no longer than the
-					time which is necessary for him to read the book; and, in the case <pb n="xxx"
-					/>of a book which is much talked of, very few readers enjoy the full pleasure of
-					the story, as they can scarcely help learning, from some quarter or other, how
-					it is to end. But in this instance, the interval of several months, which was
-					allowed to pass between the publication of the first four volumes and the
-					remaining four, wound up its readers to the highest pitch of enthusiasm; and the
-					pleadings of the author's correspondents for a happy end were as warm and
-					earnest as if they had related to the fate of a real character. To have made a
-					different ending the author well knew would have spoiled his work, yet he could
-					not but have been secretly flattered with seeing the strong impression he had
-					made. </p>
+				<p> The interest which <hi rendition="#italics"><title>Clarissa</title></hi> excited
+					at the time, was increased by the suspense in which its readers were so long
+					held. In general, the suspense of a reader lasts no longer than the time which
+					is necessary for him to read the book; and, in the case <pb n="xxx"/>of a book
+					which is much talked of, very few readers enjoy the full pleasure of the story,
+					as they can scarcely help learning, from some quarter or other, how it is to
+					end. But in this instance, the interval of several months, which was allowed to
+					pass between the publication of the first four volumes and the remaining four,
+					wound up its readers to the highest pitch of enthusiasm; and the pleadings of
+					the author's correspondents for a happy end were as warm and earnest as if they
+					had related to the fate of a real character. To have made a different ending the
+					author well knew would have spoiled his work, yet he could not but have been
+					secretly flattered with seeing the strong impression he had made. </p>
 				<p> The <ref target="people.html#Prevostabbe">Abbé Prevost</ref> gave a version of
-						<hi rendition="#italics">
-						<title>Clarissa</title>
-					</hi> into French, but rather an abridgement than a translation. It was
-					afterwards rendered more faithfully by <ref target="people.html#LeTourneurP">Le
-						Tourneur</ref>. <ref target="people.html#Prevostabbe">Prevost</ref> says,
-					and truly, that <hi rendition="#italics">
-						<title>Clarissa</title>
-					</hi> required some softening to adapt it to the more delicate taste of the
-					French. It was also translated into Dutch by <ref
-						target="people.html#StinstraJohannes">Mr. Stinstra</ref>, and into German
-					under the auspices of the celebrated <ref target="people.html#HallerAlbrechtvon"
-						>Dr. Haller</ref>. </p>
+						<hi rendition="#italics"><title>Clarissa</title></hi> into French, but
+					rather an abridgement than a translation. It was afterwards rendered more
+					faithfully by <ref target="people.html#LeTourneurP">Le Tourneur</ref>. <ref
+						target="people.html#Prevostabbe">Prevost</ref> says, and truly, that <hi
+						rendition="#italics"><title>Clarissa</title></hi> required some softening to
+					adapt it to the more delicate taste of the French. It was also translated into
+					Dutch by <ref target="people.html#StinstraJohannes">Mr. Stinstra</ref>, and into
+					German under the auspices of the celebrated <ref
+						target="people.html#HallerAlbrechtvon">Dr. Haller</ref>. </p>
 				<p> Our author was now at the zenith of his fame; but his fancy was not exhausted,
 					nor his powers of writing diminished; and after an interval of between four and
 					five years he again appeared before the public. </p>
@@ -1559,15 +1239,12 @@
 					with one male character on which the imagination might rest with complacence. If
 					he did not wish they should regard men of pleasure with too favourable an eye,
 					it was his duty to provide some one whom they might like upon principle. Upon
-					this idea he determined to give them <hi rendition="#italics">
-						<title>A Good Man</title>
-					</hi>, the title by which he always speaks of the work while he is writing it,
-					though he afterwards changed it to that of <hi rendition="#italics">
-						<title>Sir Charles Grandison</title>
-					</hi>. </p>
-				<p>
-					<ref target="people.html#SirCharlesGrandison">Sir Charles</ref> is a man of
-					birth and fortune, endowed with every personal advantage, and master of every
+					this idea he determined to give them <hi rendition="#italics"><title>A Good
+							Man</title></hi>, the title by which he always speaks of the work while
+					he is writing it, though he afterwards changed it to that of <hi
+						rendition="#italics"><title>Sir Charles Grandison</title></hi>. </p>
+				<p><ref target="people.html#SirCharlesGrandison">Sir Charles</ref> is a man of birth
+					and fortune, endowed with every personal advantage, and master of every
 					fashionable accomplishment. He is placed its a variety of situations, calculated
 					to draw forth the virtues and energies of his character, as a son, a brother, a
 					guardian, a friend, and a lover; and his conduct is everywhere exemplary. He is
@@ -1578,19 +1255,17 @@
 						<pb n="xxxii"/>honour, yet always open to a generous reconciliation; feeling
 					(at least as the author would have us believe) the passions of human nature, yet
 					always possessing a perfect command over them. </p>
-				<p> The conduct of this piece differs from that of <hi rendition="#italics">
-						<title>Pamela</title>
-					</hi> and <hi rendition="#italics">
-						<title>Clarissa</title>
-					</hi> in this respect; that it does not depend upon one great event, but is
-					intended to open and display this character in a variety of lights. The unity of
-					the work, therefore, consists in the reference which every person, and every
-					incident, bears to him who is the hero of it. Of him the author never loses
-					sight after his first appearance, which he makes as soon as the reader has been
-					prepared by the play of some inferior characters, (who, to use a military
-					phrase, <hi rendition="#italics">keep the ground</hi> for him,) in a brilliant
-					action, the rescuing the lady he is finally to marry, from the hands of a
-					lawless ravisher. </p>
+				<p> The conduct of this piece differs from that of <hi rendition="#italics"
+							><title>Pamela</title></hi> and <hi rendition="#italics"
+							><title>Clarissa</title></hi> in this respect; that it does not depend
+					upon one great event, but is intended to open and display this character in a
+					variety of lights. The unity of the work, therefore, consists in the reference
+					which every person, and every incident, bears to him who is the hero of it. Of
+					him the author never loses sight after his first appearance, which he makes as
+					soon as the reader has been prepared by the play of some inferior characters,
+					(who, to use a military phrase, <hi rendition="#italics">keep the ground</hi>
+					for him,) in a brilliant action, the rescuing the lady he is finally to marry,
+					from the hands of a lawless ravisher. </p>
 				<p> It was necessary for the execution of the plan, and it is so contrived in fact,
 					that this work should be diversified with a greater variety of characters than
 					his former ones. It has, particularly, many more of the pleasing cast. The
@@ -1631,35 +1306,29 @@
 						target="people.html#Clementina">Clementina</ref>, but we come <hi
 						rendition="#italics">home</hi> to <ref target="people.html#HarrietByron"
 						>Miss Byron</ref>. </p>
-				<p>
-					<ref target="people.html#RichardsonSamuel">Richardson</ref> had been accused of
+				<p><ref target="people.html#RichardsonSamuel">Richardson</ref> had been accused of
 					giving a coldness to his female characters in the article of love. The
 					accusation was ill-founded; for the circumstances of the story in his two former
 					pieces forbade the display of a very tender sensibility: but he has made ample
-					amends for the imputed omission in his <hi rendition="#italics">
-						<title>Grandison</title>
-					</hi>, where he has entered into the passion with all the minute-<pb n="xxxiv"
-					/>ness, and delicacy, and warmth, that could be desired, and shown the female
-					heart to be open to him in all its folds and recesses. In his Olivia, his <ref
-						target="people.html#HarrietByron">Harriet</ref>, his <ref
-						target="people.html#EmilyJervois">Emily</ref>, his <ref
-						target="people.html#Clementina">Clementina</ref>, he has well exemplified
-					the sentiment of the poet—<quote>
-						<lg type="stanza">
+					amends for the imputed omission in his <hi rendition="#italics"
+							><title>Grandison</title></hi>, where he has entered into the passion
+					with all the minute-<pb n="xxxiv"/>ness, and delicacy, and warmth, that could be
+					desired, and shown the female heart to be open to him in all its folds and
+					recesses. In his Olivia, his <ref target="people.html#HarrietByron"
+						>Harriet</ref>, his <ref target="people.html#EmilyJervois">Emily</ref>, his
+						<ref target="people.html#Clementina">Clementina</ref>, he has well
+					exemplified the sentiment of the poet—<quote><lg type="stanza">
 							<l> Love various minds does variously inspire; </l>
 							<l> In gentle bosoms kindles gentle fire,</l>
 							<l> Like that of incense on the altar laid;</l>
 							<l> But raging flames tempestuous souls invade, </l>
 							<l> A fire which every windy passion blows,</l>
-							<l> With pride it mounts, and with revenge it glows.<note>
-									<ref target="people.html#DrydenJohn">John Dryden</ref>, <hi
-										rendition="#italics">
-										<title>Tyrannick Love; or The Royal Martyr</title>
-									</hi> (1670) II.i.292-7, altered.</note>
-							</l>
-						</lg>
-					</quote>
-				</p>
+							<l> With pride it mounts, and with revenge it glows.<note><ref
+										target="people.html#DrydenJohn">John Dryden</ref>, <hi
+										rendition="#italics"><title>Tyrannick Love; or The Royal
+											Martyr</title></hi> (1670) II.i.292-7,
+								altered.</note></l>
+						</lg></quote></p>
 				<p>But as the character of <ref target="people.html#SirCharlesGrandison">Sir
 						Charles</ref> is the most instructive, that of <ref
 						target="people.html#Clementina">Clementina</ref> is the highest effort of
@@ -1682,20 +1351,17 @@
 						n="xxxv"/>"I know not whether even the madness of Lear is wrought up and
 					expressed by so many little strokes of nature and passion. It is absolute
 					pedantry to prefer and compare the madness of Orestes, in <hi
-						rendition="#italics">
-						<ref target="people.html#Euripides">Euripides</ref>
-					</hi>, to this of <ref target="people.html#Clementina">Clementina</ref>." There
-					is such a tenderness and innocence in her wanderings, such affecting starts of
-					passion, such a significant woe in her looks and attitudes, such a sanctity of
-					mind, with so much feeling, that he who is not moved with it must resign the
-					pretension of being accessible to fictitious sorrow."<note>
-						<ref target="people.html#WartonJoseph">Joseph Warton</ref>, <hi
-							rendition="#italics">
-							<title>An Essay on the Writings and Genius of <ref
-									target="people.html#PopeAlexander">Pope</ref>
-							</title>
-						</hi>, 2 Vols. (London: Printed for M. Cooper, 1756) 1:276.</note>
-				</p>
+						rendition="#italics"><ref target="people.html#Euripides"
+						>Euripides</ref></hi>, to this of <ref target="people.html#Clementina"
+						>Clementina</ref>." There is such a tenderness and innocence in her
+					wanderings, such affecting starts of passion, such a significant woe in her
+					looks and attitudes, such a sanctity of mind, with so much feeling, that he who
+					is not moved with it must resign the pretension of being accessible to
+					fictitious sorrow."<note><ref target="people.html#WartonJoseph">Joseph
+							Warton</ref>, <hi rendition="#italics"><title>An Essay on the Writings
+								and Genius of <ref target="people.html#PopeAlexander"
+								>Pope</ref></title></hi>, 2 Vols. (London: Printed for M. Cooper,
+						1756) 1:276.</note></p>
 				<p> It is the fault of <ref target="people.html#RichardsonSamuel">Richardson</ref>
 					that he never knew when to have done with a character. That of <ref
 						target="people.html#Clementina">Clementina</ref> would have been dismissed
@@ -1713,14 +1379,11 @@
 					the notion that a first passion could not be conquered<note>I want to have young
 						people think there is no such mighty business as they are apt to suppose, in
 						conquering first love.—<hi rendition="#italics">Letter to <ref
-								target="people.html#ChaponeMrs">Miss Mulso</ref>
-						</hi> [<ref target="people.html#BarbauldMrs">Barbauld</ref>'s note].</note>,
-					and he feared it would <lb/>
-					<fw type="vol">
-						<hi rendition="#smcaps">vol. i.</hi>
-					</fw>
-					<fw type="sig">k</fw>
-					<pb n="xxxvi"/>have a bad effect if he represented the contrary in his works. </p>
+								target="people.html#ChaponeMrs">Miss Mulso</ref></hi> [<ref
+							target="people.html#BarbauldMrs">Barbauld</ref>'s note].</note>, and he
+					feared it would <lb/><fw type="vol"><hi rendition="#smcaps">vol. i.</hi></fw><fw
+						type="sig">k</fw><pb n="xxxvi"/>have a bad effect if he represented the
+					contrary in his works. </p>
 				<p> But though, in real life, a passion, however strong, will generally give way to
 					time, at least so far as to permit the disappointed party to fill her proper
 					station in social life, and fulfil the relative duties of it with calm
@@ -1747,9 +1410,8 @@
 					degenerates into flippancy. She resembles <ref target="people.html#MissAnnaHowe"
 						>Miss Howe</ref>, but with less of fire and ardour, and more of levity. She
 					behaves to her husband still more provokingly than that lady to <ref
-						target="people.html#MrHickman">Mr.</ref>
-					<pb n="xxxvii"/>
-					<ref target="people.html#MrHickman">Hickman</ref>. Notwithstanding, however, the
+						target="people.html#MrHickman">Mr.</ref><pb n="xxxvii"/><ref
+						target="people.html#MrHickman">Hickman</ref>. Notwithstanding, however, the
 					general resemblance just suggested, and a few others that might be pointed out,
 					there is no man, perhaps, who has written so much, and who has less repeated
 					himself, than <ref target="people.html#RichardsonSamuel">Richardson</ref>. If we
@@ -1775,56 +1437,47 @@
 					enlarged views of life.</p>
 				<p>There is not, in any of <ref target="people.html#RichardsonSamuel"
 						>Richardson</ref>'s works, one of those detached episodes, thrown in like
-						<lb/><fw type="sig">
-						<hi rendition="center">k 2</hi>
-					</fw>
-					<pb n="xxxviii"/>make-weights, to increase the bulk of the volume, which are so
-					common in other works: such is the story of <hi rendition="#italics">The Man of
-						the Hill</hi>, in <hi rendition="#italics">
-						<title>Tom Jones</title>
-					</hi>. If his works are laboured into length, at least his prolixity is all
-					bestowed upon the subject, and increases the effect of the story.—Flashes of
-					humour, and transient touches of sensibility, show, indeed, genius; but patient
-					and persevering labour alone can finish a plan, and make every part bear
-					properly upon the main subject. </p>
-				<p>
-					<hi rendition="#italics">
-						<title>Sir Charles Grandison</title>
-					</hi>, however, lies open,—as what work does not?—to criticism. Besides the
-					double love which has been mentioned, there was another point which perplexed
-					the author much: <ref target="people.html#SirCharlesGrandison">Sir
-					Charles</ref>, as a Christian, was not to fight a duel; yet he was to be
-					recognised as the finished gentleman, and could not be allowed to want that most
-					essential part of the character, the deportment of a man of honour, courage, and
-					spirit. And in order to exhibit his spirit and courage, it was necessary to
-					bring them into action by adventures and rencounters. His first appearance is in
-					the rescue of <ref target="people.html#HarrietByron">Miss Byron</ref>; a
-					meritorious action, but one which must necessarily expose him to a challenge.
-					How must the author untie this knot? He makes him so very good a swordsman, that
-					he is always capable of disarming his adversary without endangering either of
-					their lives. But are a man's principles to depend on the science of his
-					fencing-master? Every one cannot have the skill of <ref
-						target="people.html#SirCharlesGrandison">Sir Charles</ref>; every one cannot
-					be the <hi rendition="#italics">best</hi> swordsman; and the man whose study it
-					is to avoid fighting, is <pb n="xxxix"/>not quite so likely as another to be the
-						best.—<ref target="people.html#YoungEdward">Dr. Young</ref>, indeed,
-					complimented the author upon his success in this nice point, in a flourishing
-					epigram, which is thus expressed:<quote>
-						<lg type="stanza">
+						<lb/><fw type="sig"><hi rendition="center">k 2</hi></fw><pb n="xxxviii"
+					/>make-weights, to increase the bulk of the volume, which are so common in other
+					works: such is the story of <hi rendition="#italics">The Man of the Hill</hi>,
+					in <hi rendition="#italics"><title>Tom Jones</title></hi>. If his works are
+					laboured into length, at least his prolixity is all bestowed upon the subject,
+					and increases the effect of the story.—Flashes of humour, and transient touches
+					of sensibility, show, indeed, genius; but patient and persevering labour alone
+					can finish a plan, and make every part bear properly upon the main subject. </p>
+				<p><hi rendition="#italics"><title>Sir Charles Grandison</title></hi>, however, lies
+					open,—as what work does not?—to criticism. Besides the double love which has
+					been mentioned, there was another point which perplexed the author much: <ref
+						target="people.html#SirCharlesGrandison">Sir Charles</ref>, as a Christian,
+					was not to fight a duel; yet he was to be recognised as the finished gentleman,
+					and could not be allowed to want that most essential part of the character, the
+					deportment of a man of honour, courage, and spirit. And in order to exhibit his
+					spirit and courage, it was necessary to bring them into action by adventures and
+					rencounters. His first appearance is in the rescue of <ref
+						target="people.html#HarrietByron">Miss Byron</ref>; a meritorious action,
+					but one which must necessarily expose him to a challenge. How must the author
+					untie this knot? He makes him so very good a swordsman, that he is always
+					capable of disarming his adversary without endangering either of their lives.
+					But are a man's principles to depend on the science of his fencing-master? Every
+					one cannot have the skill of <ref target="people.html#SirCharlesGrandison">Sir
+						Charles</ref>; every one cannot be the <hi rendition="#italics">best</hi>
+					swordsman; and the man whose study it is to avoid fighting, is <pb n="xxxix"
+					/>not quite so likely as another to be the best.—<ref
+						target="people.html#YoungEdward">Dr. Young</ref>, indeed, complimented the
+					author upon his success in this nice point, in a flourishing epigram, which is
+					thus expressed:<quote><lg type="stanza">
 							<l>What hast thou done? I'm ravish'd at the scene; </l>
 							<l>A sword undrawn makes mighty Cæsars mean.<note>Unidentified to date
-									except as anecdote. </note>
-							</l>
-						</lg>
-					</quote> But, in fact, it was not undrawn. In the affair with Sir Hargrave, he
-					may be said to have really fought a duel; for, though he refuses the challenge
-					in words, he virtually accepts it, by going into the garden with him, knowing
-					his purpose. In like manner he with Greville retires to a private spot, and
-					there, on his adversary's drawing, which he might be sure he would do, draws,
-					disarms, and gives him his life. But Greville might not have given him his, nor
-					could every one turn a duel into such harmless play. Can, then, a better
-					expedient be suggested? If not, must we not fairly confess that, in certain
-					cases, the code of the gospel and the code of worldly honour are
+									except as anecdote. </note></l>
+						</lg></quote> But, in fact, it was not undrawn. In the affair with Sir
+					Hargrave, he may be said to have really fought a duel; for, though he refuses
+					the challenge in words, he virtually accepts it, by going into the garden with
+					him, knowing his purpose. In like manner he with Greville retires to a private
+					spot, and there, on his adversary's drawing, which he might be sure he would do,
+					draws, disarms, and gives him his life. But Greville might not have given him
+					his, nor could every one turn a duel into such harmless play. Can, then, a
+					better expedient be suggested? If not, must we not fairly confess that, in
+					certain cases, the code of the gospel and the code of worldly honour are
 					irreconcileable, and that a man has only to make his choice which he will give
 					up?</p>
 				<p> Another fault is, a certain stiffness which, it can hardly be denied, is spread
@@ -1839,22 +1492,21 @@
 						high esteem by others, the model of what is best; he is revered as the
 						ultimate reference.</note> In part, too, it arises from the very
 					circumstance of his being so perfect and so successful. Perfection of character,
-					joined to distress, will interest; but <lb/><fw type="sig">
-						<hi rendition="center">k 3</hi>
-					</fw>
-					<pb n="xl"/>prosperous perfection does not greatly engage our sympathy. We are
-					apt to conceive of <ref target="people.html#SirCharlesGrandison">Sir
-						Charles</ref> as having, in reality, no passions; and we do not greatly pity
-					him for the loss of <ref target="people.html#Clementina">Clementina</ref>, when
-					a most amiable lady, who had the other half of his heart, was waiting his
-					acceptance on the other side of the water. We are not quite satisfied with the
-					dutiful resignation with which he gives up corresponding with two amiable and
-					beloved sisters, in compliance with the injunctions of a tyrannical father. We
-					are the less surprised, however, as we recognise in it the high notions
-					entertained by the author of parental authority; but we can give no answer to
-					the question, How came so dutiful a son to enter into a treaty of marriage
-					without consulting his father? except, what perhaps is sufficient, that it would
-					have embarrassed the story. </p>
+					joined to distress, will interest; but <lb/><fw type="sig"><hi
+							rendition="center">k 3</hi></fw><pb n="xl"/>prosperous perfection does
+					not greatly engage our sympathy. We are apt to conceive of <ref
+						target="people.html#SirCharlesGrandison">Sir Charles</ref> as having, in
+					reality, no passions; and we do not greatly pity him for the loss of <ref
+						target="people.html#Clementina">Clementina</ref>, when a most amiable lady,
+					who had the other half of his heart, was waiting his acceptance on the other
+					side of the water. We are not quite satisfied with the dutiful resignation with
+					which he gives up corresponding with two amiable and beloved sisters, in
+					compliance with the injunctions of a tyrannical father. We are the less
+					surprised, however, as we recognise in it the high notions entertained by the
+					author of parental authority; but we can give no answer to the question, How
+					came so dutiful a son to enter into a treaty of marriage without consulting his
+					father? except, what perhaps is sufficient, that it would have embarrassed the
+					story. </p>
 				<p> There is one important particular in which this highly-wrought character does
 					not present an example for imitation, and that is his going so far into a
 					matrimonial treaty with a bigoted catholic; with a woman whose very love for him
@@ -1878,96 +1530,85 @@
 						religion<note>It is said, that an Italian translation of <title>the
 							Bible</title> appeared some years since at Naples, in the preface to
 						which the translator warned his readers against English publications; but
-						excepted one, the <hi rendition="#italics">
-							<title>Clarissa</title>
-						</hi> of <ref target="people.html#RichardsonSamuel">Richardson</ref> [<ref
+						excepted one, the <hi rendition="#italics"><title>Clarissa</title></hi> of
+							<ref target="people.html#RichardsonSamuel">Richardson</ref> [<ref
 							target="people.html#BarbauldMrs">Barbauld</ref>'s note]. </note>. </p>
-				<p> The author of <hi rendition="#italics">
-						<title>Sir Charles</title>
-					</hi> often mentions in his letters, that he was importuned by many of his
-					friends to give them another volume; and the Gottenburg translators sent for the
-					rest of the work, supposing it incomplete: he ought to have received it as a
-					proof that it was too long, and not too short. He had already continued it a
-					whole volume beyond the proper termination—the marriage of his hero; and having
-					done so, he might, without more impropriety, have gone on to the next point of
-					view, and the next, till he had given the history of two or three generations.
-						<hi rendition="#italics">
-						<title>Clarissa</title>
-					</hi>, perhaps, runs out into too great a length, but bold were the hand that
-					should attempt to shorten it. <hi rendition="#italics">
-						<title>Sir Charles</title>
-					</hi>, on the con-<pb n="xlii"/>trary, would be improved by merely striking out
-					the last volume, and, indeed, a good part of the sixth, where descriptions of
-					dress, and parade, and furniture, after the interest is completely over, like
-					the gaudy colouring of a western sky, give symptoms of a setting sun. But it is
-					ungrateful to dwell on the faults of genius. </p>
+				<p> The author of <hi rendition="#italics"><title>Sir Charles</title></hi> often
+					mentions in his letters, that he was importuned by many of his friends to give
+					them another volume; and the Gottenburg translators sent for the rest of the
+					work, supposing it incomplete: he ought to have received it as a proof that it
+					was too long, and not too short. He had already continued it a whole volume
+					beyond the proper termination—the marriage of his hero; and having done so, he
+					might, without more impropriety, have gone on to the next point of view, and the
+					next, till he had given the history of two or three generations. <hi
+						rendition="#italics"><title>Clarissa</title></hi>, perhaps, runs out into
+					too great a length, but bold were the hand that should attempt to shorten it.
+						<hi rendition="#italics"><title>Sir Charles</title></hi>, on the con-<pb
+						n="xlii"/>trary, would be improved by merely striking out the last volume,
+					and, indeed, a good part of the sixth, where descriptions of dress, and parade,
+					and furniture, after the interest is completely over, like the gaudy colouring
+					of a western sky, give symptoms of a setting sun. But it is ungrateful to dwell
+					on the faults of genius. </p>
 				<p> The style of <ref target="people.html#RichardsonSamuel">Richardson</ref>, which
 					it remains to take notice of, was not in proportion to his other excellencies of
 					composition. He wrote with facility; expressions, as well as thoughts, flowing
 					readily to his pen; but we do not find in his writings, either the ease and
 					elegance of good company, or the polished period of a finished author. They are
 					not only overloaded with a redundance of complimentary expression, which gives a
-					stiffness to the dialogue, particularly in his <hi rendition="#italics">
-						<title>Grandison</title>
-					</hi>, where he has most attempted to give a picture of genteel life, but they
-					are blemished with little flippancies of expression, new-coined words, and
-					sentences involved and ill-constructed. If this was considered to be the case
-					when <ref target="people.html#RichardsonSamuel">Richardson</ref> wrote, it is a
-					still greater impediment to his fame at present, when we are become more
-					fastidious with regard to style, in proportion as good writing is become more
-					common; that degree, I mean, of good writing, which a habit of the pen will
-					always give. The style of <ref target="people.html#RichardsonSamuel"
-						>Richardson</ref>, however, has the property of setting before the reader,
-					in the most lively manner, every circumstance of what he means to describe. He
-					has the accuracy and finish of a Dutch painter, with the fine ideas of an
-					Italian one. He is content to produce effects by the patient labour of
-					minuteness. Had he turned <pb n="xliii"/>his thoughts to an observation of rural
-					nature, instead of human manners, he would have been as accurate a describer as
-					Cowper. How circumstantial is the following description of a bird new caught!
-					"Hast thou not observed how, at first, refusing all sustenance, it beats and
-					bruises itself against its wires, till it makes its gay plumage fly about, and
-					overspread its well-secured cage? Now it gets out its head, sticking only at its
-					beautiful shoulders; then, with difficulty, drawing back its head, it gasps for
-					breath, and erectly perched, with meditating eyes, first surveys, and then
-					attempts, its wired canopy. As it gets breath, with renewed rage, it beats and
-					bruises again its pretty head and sides, bites the wires, and pecks at the
-					fingers of its delighted tamer; till, at last, finding its efforts ineffectual,
-					quite tired and breathless, it lays itself down, and pants at the bottom of the
-					cage, seeming to bemoan its cruel fate and forfeited liberty.—And after a few
-					days, its struggles to escape still diminishing, as it finds it to no purpose to
-					attempt it, its new habitation becomes familiar, and it hops about from perch to
-					perch, and every day sings a song to amuse itself, and reward its
-						keeper."<note>From <hi rendition="#italics">
-							<title>Clarissa</title>
-						</hi>, excerpted from one of <ref target="people.html#Lovelace"
-							>Lovelace</ref>'s letters to Belford.</note>
-				</p>
-				<p>
-					<hi rendition="#italics">
-						<title>Sir Charles Grandison</title>
-					</hi> was published in 1753. The author underwent great vexation while it was
-					printing, from the piracy of the Dublin booksellers, who bribed the servants of
-						<ref target="people.html#RichardsonSamuel">Richardson</ref> to steal the
-					sheets while they were under the press. They even broke open locks to get at the
-					MSS.; sent over what was prepared for publication; and the booksellers, almost
-					all of whom concurred in this atrocious act of rob-<pb n="xliv"/>bery, came out
-					with a cheap edition of several of the volumes before the author's English one. </p>
+					stiffness to the dialogue, particularly in his <hi rendition="#italics"
+							><title>Grandison</title></hi>, where he has most attempted to give a
+					picture of genteel life, but they are blemished with little flippancies of
+					expression, new-coined words, and sentences involved and ill-constructed. If
+					this was considered to be the case when <ref
+						target="people.html#RichardsonSamuel">Richardson</ref> wrote, it is a still
+					greater impediment to his fame at present, when we are become more fastidious
+					with regard to style, in proportion as good writing is become more common; that
+					degree, I mean, of good writing, which a habit of the pen will always give. The
+					style of <ref target="people.html#RichardsonSamuel">Richardson</ref>, however,
+					has the property of setting before the reader, in the most lively manner, every
+					circumstance of what he means to describe. He has the accuracy and finish of a
+					Dutch painter, with the fine ideas of an Italian one. He is content to produce
+					effects by the patient labour of minuteness. Had he turned <pb n="xliii"/>his
+					thoughts to an observation of rural nature, instead of human manners, he would
+					have been as accurate a describer as Cowper. How circumstantial is the following
+					description of a bird new caught! "Hast thou not observed how, at first,
+					refusing all sustenance, it beats and bruises itself against its wires, till it
+					makes its gay plumage fly about, and overspread its well-secured cage? Now it
+					gets out its head, sticking only at its beautiful shoulders; then, with
+					difficulty, drawing back its head, it gasps for breath, and erectly perched,
+					with meditating eyes, first surveys, and then attempts, its wired canopy. As it
+					gets breath, with renewed rage, it beats and bruises again its pretty head and
+					sides, bites the wires, and pecks at the fingers of its delighted tamer; till,
+					at last, finding its efforts ineffectual, quite tired and breathless, it lays
+					itself down, and pants at the bottom of the cage, seeming to bemoan its cruel
+					fate and forfeited liberty.—And after a few days, its struggles to escape still
+					diminishing, as it finds it to no purpose to attempt it, its new habitation
+					becomes familiar, and it hops about from perch to perch, and every day sings a
+					song to amuse itself, and reward its keeper."<note>From <hi rendition="#italics"
+								><title>Clarissa</title></hi>, excerpted from one of <ref
+							target="people.html#Lovelace">Lovelace</ref>'s letters to
+						Belford.</note></p>
+				<p><hi rendition="#italics"><title>Sir Charles Grandison</title></hi> was published
+					in 1753. The author underwent great vexation while it was printing, from the
+					piracy of the Dublin booksellers, who bribed the servants of <ref
+						target="people.html#RichardsonSamuel">Richardson</ref> to steal the sheets
+					while they were under the press. They even broke open locks to get at the MSS.;
+					sent over what was prepared for publication; and the booksellers, almost all of
+					whom concurred in this atrocious act of rob-<pb n="xliv"/>bery, came out with a
+					cheap edition of several of the volumes before the author's English one. </p>
 				<p> Besides his three larger works, <ref target="people.html#RichardsonSamuel"
-						>Richardson</ref> published a volume of <hi rendition="#italics">
-						<title>Familiar Letters on various Circumstances of Life</title>
-					</hi>, meant as models for servants and others of the lower class, being the
-					scheme he had laid aside for <hi rendition="#italics">
-						<title>Pamela</title>
-					</hi>. It is frequently seen in the servants' drawer, and not seldom has found
-					its way into the parlour. The 95th paper of <hi rendition="#italics">
-						<title>The Rambler</title>
-					</hi> was also written by him.<note>
-						<hi rendition="#italics">
-							<title>Rambler</title>
-						</hi> No. 95 (Tuesday, February 12, 1751). The essay is signed "Pertinax."
-					</note> It describes the progress of a virtuous courtship, and is said to have
-					been the only one which experienced a great demand while publishing in numbers.
-					He assisted in a few works for booksellers. </p>
+						>Richardson</ref> published a volume of <hi rendition="#italics"
+							><title>Familiar Letters on various Circumstances of Life</title></hi>,
+					meant as models for servants and others of the lower class, being the scheme he
+					had laid aside for <hi rendition="#italics"><title>Pamela</title></hi>. It is
+					frequently seen in the servants' drawer, and not seldom has found its way into
+					the parlour. The 95th paper of <hi rendition="#italics"><title>The
+							Rambler</title></hi> was also written by him.<note><hi
+							rendition="#italics"><title>Rambler</title></hi> No. 95 (Tuesday,
+						February 12, 1751). The essay is signed "Pertinax." </note> It describes the
+					progress of a virtuous courtship, and is said to have been the only one which
+					experienced a great demand while publishing in numbers. He assisted in a few
+					works for booksellers. </p>
 				<p> The latter part of his life was spent in the enjoyment of his well-earned fame,
 					and of a fortune gained by his own industry.—He built an extensive range of
 					warehouses for his business in Salisbury-court, and he had a country house first
@@ -2011,11 +1652,9 @@
 					him to enter upon another work. Where there exists strong genius the bent of the
 					mind is imperious, and will be obey-<pb n="xlvi"/>ed, but the body too often
 					sinks under it. <ref target="people.html#ChaponeMrs">Mrs. Chapone</ref>, in her
-						<hi rendition="#italics">
-						<title>Ode to Health</title>
-					</hi>, has adverted to <ref target="people.html#RichardsonSamuel"
-						>Richardson</ref>'s ill state of health with much feeling in the following apostrophe:<quote>
-						<lg type="stanza">
+						<hi rendition="#italics"><title>Ode to Health</title></hi>, has adverted to
+						<ref target="people.html#RichardsonSamuel">Richardson</ref>'s ill state of
+					health with much feeling in the following apostrophe:<quote><lg type="stanza">
 							<l> Hast thou not left a <ref target="people.html#RichardsonSamuel"
 									>Richardson</ref> unblest? </l>
 							<l> He woos thee still in vain, relentless maid, </l>
@@ -2028,14 +1667,11 @@
 									to <ref target="people.html#CarterElizabeth">Elizabeth
 										Carter</ref> in 1750, and it later appeared in <ref
 										target="people.html#ChaponeMrs">Chapone</ref>'s <hi
-										rendition="#italics">
-										<title>Miscellanies in Prose and Verse</title>
-									</hi> (1775) 130-132.</note>
-							</l>
-						</lg>
-					</quote>Nervous disorders, perhaps unhappily for the sufferers under them, do
-					not often shorten the life they overcloud. This author lived to the age of
-					seventy-two, when he was carried off by a stroke of apoplexy, July the 4th,
+										rendition="#italics"><title>Miscellanies in Prose and
+											Verse</title></hi> (1775) 130-132.</note></l>
+						</lg></quote>Nervous disorders, perhaps unhappily for the sufferers under
+					them, do not often shorten the life they overcloud. This author lived to the age
+					of seventy-two, when he was carried off by a stroke of apoplexy, July the 4th,
 					1761. He was much lamented by his friends, all of whom had experienced his
 					hospitality and many more substantial benefactions, for he was uniformly liberal
 					and beneficent.—It is a truth which cannot be denied, that the works of <ref
@@ -2048,10 +1684,9 @@
 						target="people.html#RousseauJeanJacques">Rousseau</ref> is by us; and
 					whatever be his defects, his intrinsic merit is too great not to place him above
 					the varying taste of the day. When a hundred novels that are now read are passed
-					away and forgotten, <hi rendition="#italics">
-						<title>Clarissa</title>
-					</hi> will hold its place among those standard works that adorn the literature
-					of our country. </p>
+					away and forgotten, <hi rendition="#italics"><title>Clarissa</title></hi> will
+					hold its place among those standard works that adorn the literature of our
+					country. </p>
 			</div>
 		</body>
 	</text>
