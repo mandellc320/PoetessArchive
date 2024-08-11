@@ -1,29 +1,435 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader xmlns:PA="http://www.poetessarchive.org/#schema" type="text"><fileDesc><titleStmt><title type="main" level="a">"Review of Thomson's <hi rendition="#italics">The
-                  Denial</hi>"</title><title type="sub">The Monthly Review</title><author type="writer"><name>Elizabeth Moody</name></author><respStmt><resp>Editor</resp><name xml:id="MW">Mary A. Waters</name></respStmt><respStmt><resp>Coeditor</resp><name xml:id="EW">Emma Wiley</name></respStmt><respStmt><resp>Encoding Assistance</resp><name xml:id="GR">Gabrielle Ramirez</name></respStmt></titleStmt><publicationStmt><idno>MoodyRevDenial1790</idno></publicationStmt><seriesStmt><title level="s">The Criticism Archive</title><respStmt><resp>Edited by</resp><name type="person" ref="#MW">Mary A. Waters</name></respStmt><idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno></seriesStmt><sourceDesc><biblStruct><analytic><title type="main" level="a">Art. VII. <title>The Denial; or, The Happy
+<?xml version="1.0" encoding="utf-8"?> <?xml-model href="PA.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns:PA="http://www.poetessarchive.org/#schema" type="text">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">"Review of Thomson's <hi rendition="#italics">The
+                  Denial</hi>"</title>
+            <title type="sub">The Monthly Review</title>
+            <author type="writer"><name>Elizabeth Moody</name></author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name xml:id="MW">Mary A. Waters</name>
+            </respStmt>
+            <respStmt>
+               <resp>Coeditor</resp>
+               <name xml:id="EW">Emma Wiley</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding Assistance</resp>
+               <name xml:id="GR">Gabrielle Ramirez</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno>MoodyRevDenial1790</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">The Criticism Archive</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name type="person" ref="#MW">Mary A. Waters</name>
+            </respStmt>
+            <idno type="URI">http://www.poetessarchive.org/criticism/index.html</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title type="main" level="a">Art. VII. <title>The Denial; or, The Happy
                         Retreat</title>. By the Rev. James Thomson. 12mo. 3 Vols. 9s. sewed. Sewell.
-                     1790.</title><author type="writer"> Moody, Elizabeth, 1737-1814</author></analytic><monogr><title type="main" level="j">The Monthly Review</title><imprint><date when="1790-12">December 1790</date><biblScope unit="series">second</biblScope><biblScope unit="volume">3</biblScope><biblScope unit="page">400-402</biblScope></imprint></monogr></biblStruct></sourceDesc></fileDesc><encodingDesc><editorialDecl><quotation><p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p><p>Quotation marks that indicate block quotes have been silently eliminated.</p></quotation><hyphenation eol="none"><p>Any dashes occurring in line breaks have been removed.</p><p>All hyphens have been typed on the U.S. keyboard.</p><p>em-dashes have been recorded originally using the —</p></hyphenation><normalization method="silent"><p>Long "s" (ſ) has been silently modernized.</p><p>Page numbers appear at the beginning of each page, no matter where originally
-        				placed.</p><p>Compositors' catchwords and running titles have been silently eliminated.</p><p>Spelling has not been regularized.</p></normalization><normalization method="markup"><p>&amp; has been used for the ampersand sign.</p><p>All other characters, those with accents, non-breaking spaces, etc., have been typed on
-        				the U.S. keyboard.</p><p>Writing in other hands appearing on these manuscripts has been indicated as
-        				such, the content recorded in brackets.</p></normalization></editorialDecl><tagsDecl><rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition><rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition><rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition><rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition><rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition><rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition><rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition><rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition><rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition><rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition><rendition xml:id="indent10" scheme="css">text-indent: 110px; display: block;</rendition><rendition xml:id="indent11" scheme="css">text-indent: 120px; display: block;</rendition><rendition xml:id="indent12" scheme="css">text-indent: 130px; display: block;</rendition><rendition xml:id="indent13" scheme="css">text-indent: 140px; display: block;</rendition><rendition xml:id="indent14" scheme="css">text-indent: 150px; display: block;</rendition><rendition xml:id="indent15" scheme="css">text-indent: 160px; display: block;</rendition><rendition xml:id="indent20" scheme="css">text-indent: 210px; display: block;</rendition><rendition xml:id="indent25" scheme="css">text-indent: 260px; display: block;</rendition><rendition xml:id="indent30" scheme="css">text-indent: 310px; display: block;</rendition></tagsDecl><classDecl><taxonomy xml:id="ft"><bibl>Full Text or Citation</bibl><category xml:id="ft1"><catDesc>full text</catDesc></category><category xml:id="ft2"><catDesc>citation only</catDesc></category></taxonomy><taxonomy xml:id="ps"><bibl>Primary or Secondary</bibl><category xml:id="ps1"><catDesc>primary</catDesc></category><category xml:id="ps2"><catDesc>secondary</catDesc></category></taxonomy><taxonomy xml:id="g"><bibl>Genre</bibl><category xml:id="g1"><catDesc>biography</catDesc></category><category xml:id="g2"><catDesc>poetry</catDesc></category><category xml:id="g3"><catDesc>story</catDesc></category><category xml:id="g4"><catDesc>drama</catDesc></category><category xml:id="g5"><catDesc>novel</catDesc></category><category xml:id="g6"><catDesc>satire</catDesc></category><category xml:id="g7"><catDesc>allegory</catDesc></category><category xml:id="g8"><catDesc>advertisement</catDesc></category><category xml:id="g9"><catDesc>preface</catDesc></category><category xml:id="g10"><catDesc>foreword</catDesc></category><category xml:id="g11"><catDesc>introduction</catDesc></category><category xml:id="g12"><catDesc>acknowledgments</catDesc></category><category xml:id="g13"><catDesc>essay</catDesc></category><category xml:id="g14"><catDesc>review</catDesc></category><category xml:id="g15"><catDesc>letter</catDesc></category><category xml:id="g16"><catDesc>literary criticism</catDesc></category><category xml:id="g17"><catDesc>electronic resource</catDesc></category><category xml:id="g18"><catDesc>bibliography</catDesc></category><category xml:id="g19"><catDesc>music</catDesc></category><category xml:id="g20"><catDesc>political statement</catDesc></category><category xml:id="g21"><catDesc>history</catDesc></category><category xml:id="g22"><catDesc>education</catDesc></category><category xml:id="g23"><catDesc>sermon</catDesc></category><category xml:id="g24"><catDesc>religion</catDesc></category><category xml:id="g25"><catDesc>philosophical statement</catDesc></category><category xml:id="g26"><catDesc>translation</catDesc></category><category xml:id="g27"><catDesc>dictionary</catDesc></category><category xml:id="g28"><catDesc>encyclopedia</catDesc></category><category xml:id="g29"><catDesc>travel</catDesc></category><category xml:id="g30"><catDesc>illustration</catDesc></category><category xml:id="g31"><catDesc>map</catDesc></category><category xml:id="g32"><catDesc>floorplans</catDesc></category><category xml:id="g33"><catDesc>photograph</catDesc></category><category xml:id="g34"><catDesc>cartoon</catDesc></category><category xml:id="g35"><catDesc>literary annual</catDesc></category><category xml:id="g36"><catDesc>miscellany</catDesc></category><category xml:id="g37"><catDesc>anthology</catDesc></category><category xml:id="g38"><catDesc>beauties</catDesc></category><category xml:id="g39"><catDesc>juvenile</catDesc></category></taxonomy><taxonomy xml:id="f"><bibl>Form</bibl><category xml:id="f1"><catDesc>pageimage</catDesc></category><category xml:id="f2"><catDesc>book part</catDesc></category><category xml:id="f3"><catDesc>book</catDesc></category><category xml:id="f4"><catDesc>periodical part</catDesc></category><category xml:id="f5"><catDesc>periodical</catDesc></category><category xml:id="f6"><catDesc>fragment</catDesc></category><category xml:id="f7"><catDesc>frontispiece</catDesc></category><category xml:id="f8"><catDesc>title page</catDesc></category><category xml:id="f9"><catDesc>inscription page</catDesc></category><category xml:id="f10"><catDesc>dedication</catDesc></category><category xml:id="f11"><catDesc>table of contents</catDesc></category><category xml:id="f12"><catDesc>table of illustrations</catDesc></category><category xml:id="f13"><catDesc>list of subscribers</catDesc></category><category xml:id="f14"><catDesc>index</catDesc></category><category xml:id="f15"><catDesc>notes</catDesc></category><category xml:id="f16"><catDesc>book boards</catDesc></category><category xml:id="f17"><catDesc>slipcase</catDesc></category><category xml:id="f18"><catDesc>printers mark</catDesc></category><category xml:id="f19"><catDesc>engraving</catDesc></category><category xml:id="f20"><catDesc>pamphlet</catDesc></category><category xml:id="f21"><catDesc>manuscript</catDesc></category><category xml:id="f22"><catDesc>collection</catDesc></category><category xml:id="f23"><catDesc>nonceCollection</catDesc></category><category xml:id="f24"><catDesc>sammelband</catDesc></category></taxonomy><taxonomy xml:id="keyword"><category xml:id="lcna"><catDesc>author of main text and of works reviewed, if relevant, using LOC authority name headings.</catDesc></category></taxonomy></classDecl></encodingDesc><profileDesc><textClass><keywords scheme="#lcna"><list type="simple"><item>Criticism</item><item>Book review</item><item>Thomson, James, 1700-1748</item><item>Moody, Elizabeth, 1737-1814</item></list></keywords><catRef target="#ft1" scheme="#ft"/><catRef target="#f4" scheme="#f"/><catRef target="#ps1" scheme="#p"/><catRef target="#g14 #g16" scheme="#g"/></textClass></profileDesc><revisionDesc><change who="#MW" when="20230302"><label>Changed by</label><name>Mary Waters</name><list type="simple"><item>changed catRef</item></list></change><change who="#LM" when="20230227"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>new header</item></list></change><change who="#GR" when="20230111"><label>Changed by</label><name>Gabrielle Ramirez</name><list type="simple"><item>revised keywords</item></list></change><change who="#LM" when="20211214"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>had to roll back due to xml versioning error, revisions as below but starting
-                  with August and March 2021 XML</item></list></change><change who="#LM" when="20210922"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>Added header teiHeader07232021.xml</item><item>changed milestone sig to fw sig</item><item>inserted line break before fw</item></list></change><change who="#MW" when="2019-12-18" n="5"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>minor TEI encoding revisions</item></list></change><change who="#LM" when="20190110" n="4"><label>Changed by</label><name>Laura Mandell</name><list type="simple"><item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item></list></change><change who="#MW" when="2017-12-02" n="3"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>Revise TEI encoding</item></list></change><change who="#EW" when="2017-02-02" n="2"><label>Changed by</label><name>Emma Wiley</name><list type="simple"><item>TEI encoding</item></list></change><change who="#MW" when="2017-01-15" n="1"><label>Changed by</label><name>Mary A. Waters</name><list type="simple"><item>Created edition</item></list></change></revisionDesc></teiHeader><text xmlns:PA="http://www.poetessarchive.org/#schema"><body><div type="essay"><head><bibl><author type="writer"><ref target="people.html#MoodyElizabeth"><name>Elizabeth Moody</name></ref></author><title type="main" level="a"><hi rendition="#smcaps">Art.</hi> XVI. <title>The Denial; or, The Happy
-                        Retreat</title>. By the Rev. James Thomson. <hi rendition="#smcaps">12</hi>mo. 3 Vols. 9s. sewed. Sewell. 1790.<note><title><hi rendition="#italics">The Monthly Review</hi></title>, vol. 3, 1790, pp. 400-402. The marked copy of the <hi rendition="#italics"><title><ref target="people.html#ReviewMonthly">Monthly Review</ref></title></hi> attributes this article to the collaborative efforts of <ref target="people.html#MoodyElizabeth"><name>Elizabeth Moody</name></ref> and the periodical's editor, <ref target="people.html#agriffithsRalph">Ralph Griffiths</ref>. See Benjamin
-                        Nangle, <hi rendition="#italics"><title>The Montly Review, Second Series, 1790-1815: Indexes of
-                              Contributors and Articles</title></hi>, Clarendon Press, 1955. This edition of the article is produced by
-                        Emma Wiley and Mary A. Waters. The little-known author of <hi rendition="#italics"><title>The Denial</title></hi>, a Scottish-born Westmoreland clergyman, also authored <hi rendition="#italics"><title>Major Piper; or, the Adventures of a Musical Drone</title></hi>, published in 1793 by G.G.J. and J. Robinson and reissued in 1803 by
-                        William Lane's Minerva Press, and <hi rendition="#italics"><title>Winifred; a Tale of Wonder</title></hi> (1803).</note></title></bibl></head><p rendition="#noindent"><hi rendition="#largest">O</hi><hi rendition="#smcaps">f</hi> the various species of composition that in course come
-               before us, there are none in which <hi rendition="#italics">our</hi> writers of the
-               male sex have less excelled, since the days of Richardson and Fielding, than in the
-               arrangement of a novel. Ladies seem to appropriate to themselves an exclusive
-               privilege in this kind of writing; witness the numerous productions of romantic tales
-               to which female authors have given birth. The portraiture of the tender passions, the
-               delicacy of sentiment, and the easy flow of style, may, perhaps, be most adapted to
-               the genius of the softer sex: but however that may be, politeness, certainly, will
-               not suffer us to dispute this palm with our fair competitors. We, though of the
-               harder sex, as men, and of a still harder <hi rendition="#italics">race as
-                  critics</hi>, are no enemies to an affecting well-told story: but as we are <hi rendition="#italics">known</hi> not to be very <hi rendition="#italics">easily
-                  pleased</hi>, it may be imagined that those performances only will obtain the
-               sanction of our applause, which can stand the test of certain criteria of
-               excellence.</p><p> The story of a novel should be formed of a variety of interesting incidents; a
+                     1790.</title>
+                  <author type="writer"> Moody, Elizabeth, 1737-1814</author>
+               </analytic>
+               <monogr>
+                  <title type="main" level="j">The Monthly Review</title>
+                  <imprint>
+                     <date when="1790-12">December 1790</date>
+                     <biblScope unit="series">second</biblScope>
+                     <biblScope unit="volume">3</biblScope>
+                     <biblScope unit="page">400-402</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <quotation>
+               <p>All quotation marks and apostrophes have been typed on the U.S. keyboard.</p>
+               <p>Quotation marks that indicate block quotes have been silently eliminated.</p>
+            </quotation>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>All hyphens have been typed on the U.S. keyboard.</p>
+               <p>em-dashes have been recorded originally using the —</p>
+            </hyphenation>
+            <normalization method="silent">
+               <p>Long "s" (ſ) has been silently modernized.</p>
+               <p>Page numbers appear at the beginning of each page, no matter where originally
+                  placed.</p>
+               <p>Compositors' catchwords and running titles have been silently eliminated.</p>
+               <p>Spelling has not been regularized.</p>
+            </normalization>
+            <normalization method="markup">
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been
+                  typed on the U.S. keyboard.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such,
+                  the content recorded in brackets.</p>
+            </normalization>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="indent" scheme="css">text-indent: 10px; display: block;</rendition>
+            <rendition xml:id="indent1" scheme="css">text-indent: 20px; display: block;</rendition>
+            <rendition xml:id="indent2" scheme="css">text-indent: 30px; display: block;</rendition>
+            <rendition xml:id="indent3" scheme="css">text-indent: 40px; display: block;</rendition>
+            <rendition xml:id="indent4" scheme="css">text-indent: 50px; display: block;</rendition>
+            <rendition xml:id="indent5" scheme="css">text-indent: 60px; display: block;</rendition>
+            <rendition xml:id="indent6" scheme="css">text-indent: 70px; display: block;</rendition>
+            <rendition xml:id="indent7" scheme="css">text-indent: 80px; display: block;</rendition>
+            <rendition xml:id="indent8" scheme="css">text-indent: 90px; display: block;</rendition>
+            <rendition xml:id="indent9" scheme="css">text-indent: 100px; display: block;</rendition>
+            <rendition xml:id="indent10" scheme="css">text-indent: 110px; display:
+               block;</rendition>
+            <rendition xml:id="indent11" scheme="css">text-indent: 120px; display:
+               block;</rendition>
+            <rendition xml:id="indent12" scheme="css">text-indent: 130px; display:
+               block;</rendition>
+            <rendition xml:id="indent13" scheme="css">text-indent: 140px; display:
+               block;</rendition>
+            <rendition xml:id="indent14" scheme="css">text-indent: 150px; display:
+               block;</rendition>
+            <rendition xml:id="indent15" scheme="css">text-indent: 160px; display:
+               block;</rendition>
+            <rendition xml:id="indent20" scheme="css">text-indent: 210px; display:
+               block;</rendition>
+            <rendition xml:id="indent25" scheme="css">text-indent: 260px; display:
+               block;</rendition>
+            <rendition xml:id="indent30" scheme="css">text-indent: 310px; display:
+               block;</rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="ft">
+               <bibl>Full Text or Citation</bibl>
+               <category xml:id="ft1">
+                  <catDesc>full text</catDesc>
+               </category>
+               <category xml:id="ft2">
+                  <catDesc>citation only</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="ps">
+               <bibl>Primary or Secondary</bibl>
+               <category xml:id="ps1">
+                  <catDesc>primary</catDesc>
+               </category>
+               <category xml:id="ps2">
+                  <catDesc>secondary</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="g">
+               <bibl>Genre</bibl>
+               <category xml:id="g1">
+                  <catDesc>biography</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>poetry</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>story</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>drama</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>novel</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>satire</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>allegory</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>advertisement</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>preface</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>foreword</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>introduction</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>acknowledgments</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>essay</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>review</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>letter</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>literary criticism</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>electronic resource</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>bibliography</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>political statement</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>history</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>education</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>sermon</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>religion</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>philosophical statement</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>translation</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>dictionary</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>encyclopedia</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>travel</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>illustration</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>map</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>floorplans</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>photograph</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>cartoon</catDesc>
+               </category>
+               <category xml:id="g35">
+                  <catDesc>literary annual</catDesc>
+               </category>
+               <category xml:id="g36">
+                  <catDesc>miscellany</catDesc>
+               </category>
+               <category xml:id="g37">
+                  <catDesc>anthology</catDesc>
+               </category>
+               <category xml:id="g38">
+                  <catDesc>beauties</catDesc>
+               </category>
+               <category xml:id="g39">
+                  <catDesc>juvenile</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="f">
+               <bibl>Form</bibl>
+               <category xml:id="f1">
+                  <catDesc>pageimage</catDesc>
+               </category>
+               <category xml:id="f2">
+                  <catDesc>book part</catDesc>
+               </category>
+               <category xml:id="f3">
+                  <catDesc>book</catDesc>
+               </category>
+               <category xml:id="f4">
+                  <catDesc>periodical part</catDesc>
+               </category>
+               <category xml:id="f5">
+                  <catDesc>periodical</catDesc>
+               </category>
+               <category xml:id="f6">
+                  <catDesc>fragment</catDesc>
+               </category>
+               <category xml:id="f7">
+                  <catDesc>frontispiece</catDesc>
+               </category>
+               <category xml:id="f8">
+                  <catDesc>title page</catDesc>
+               </category>
+               <category xml:id="f9">
+                  <catDesc>inscription page</catDesc>
+               </category>
+               <category xml:id="f10">
+                  <catDesc>dedication</catDesc>
+               </category>
+               <category xml:id="f11">
+                  <catDesc>table of contents</catDesc>
+               </category>
+               <category xml:id="f12">
+                  <catDesc>table of illustrations</catDesc>
+               </category>
+               <category xml:id="f13">
+                  <catDesc>list of subscribers</catDesc>
+               </category>
+               <category xml:id="f14">
+                  <catDesc>index</catDesc>
+               </category>
+               <category xml:id="f15">
+                  <catDesc>notes</catDesc>
+               </category>
+               <category xml:id="f16">
+                  <catDesc>book boards</catDesc>
+               </category>
+               <category xml:id="f17">
+                  <catDesc>slipcase</catDesc>
+               </category>
+               <category xml:id="f18">
+                  <catDesc>printers mark</catDesc>
+               </category>
+               <category xml:id="f19">
+                  <catDesc>engraving</catDesc>
+               </category>
+               <category xml:id="f20">
+                  <catDesc>pamphlet</catDesc>
+               </category>
+               <category xml:id="f21">
+                  <catDesc>manuscript</catDesc>
+               </category>
+               <category xml:id="f22">
+                  <catDesc>collection</catDesc>
+               </category>
+               <category xml:id="f23">
+                  <catDesc>nonceCollection</catDesc>
+               </category>
+               <category xml:id="f24">
+                  <catDesc>sammelband</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="keyword">
+               <category xml:id="lcna">
+                  <catDesc>author of main text and of works reviewed, if relevant, using LOC
+                     authority name headings.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#lcna">
+               <list type="simple">
+                  <item>Thomson, James, 1700-1748</item>
+                  <item>Moody, Elizabeth, 1737-1814</item>
+               </list>
+            </keywords>
+            <catRef target="#ft1" scheme="#ft"/>
+            <catRef target="#f4" scheme="#f"/>
+            <catRef target="#ps1" scheme="#p"/>
+            <catRef target="#g14 #g16" scheme="#g"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#MW" when="20230302"><label>Changed by</label><name>Mary Waters</name><list
+               type="simple">
+               <item>changed catRef</item>
+            </list></change>
+         <change who="#LM" when="20230227"><label>Changed by</label><name>Laura Mandell</name><list
+               type="simple">
+               <item>new header</item>
+            </list></change>
+         <change who="#GR" when="20230111"><label>Changed by</label><name>Gabrielle
+               Ramirez</name><list type="simple">
+               <item>revised keywords</item>
+            </list></change>
+         <change who="#LM" when="20211214"><label>Changed by</label><name>Laura Mandell</name><list
+               type="simple">
+               <item>had to roll back due to xml versioning error, revisions as below but starting
+                  with August and March 2021 XML</item>
+            </list></change>
+         <change who="#LM" when="20210922"><label>Changed by</label><name>Laura Mandell</name><list
+               type="simple">
+               <item>Added header teiHeader07232021.xml</item>
+               <item>changed milestone sig to fw sig</item>
+               <item>inserted line break before fw</item>
+            </list></change>
+         <change who="#MW" when="2019-12-18" n="5"><label>Changed by</label><name>Mary A.
+               Waters</name><list type="simple">
+               <item>minor TEI encoding revisions</item>
+            </list></change>
+         <change who="#LM" when="20190110" n="4"><label>Changed by</label><name>Laura
+               Mandell</name><list type="simple">
+               <item>Added new taxonomies into headers using 'changeHeaderCritArc.xsl'</item>
+            </list></change>
+         <change who="#MW" when="2017-12-02" n="3"><label>Changed by</label><name>Mary A.
+               Waters</name><list type="simple">
+               <item>Revise TEI encoding</item>
+            </list></change>
+         <change who="#EW" when="2017-02-02" n="2"><label>Changed by</label><name>Emma
+               Wiley</name><list type="simple">
+               <item>TEI encoding</item>
+            </list></change>
+         <change who="#MW" when="2017-01-15" n="1"><label>Changed by</label><name>Mary A.
+               Waters</name><list type="simple">
+               <item>Created edition</item>
+            </list></change>
+      </revisionDesc>
+   </teiHeader>
+   <text xmlns:PA="http://www.poetessarchive.org/#schema">
+      <body>
+         <div type="essay">
+            <head><bibl><author type="writer"><ref target="people.html#MoodyElizabeth"
+                           ><name>Elizabeth Moody</name></ref></author><title type="main" level="a"
+                        ><hi rendition="#smcaps">Art.</hi> XVI. <title>The Denial; or, The Happy
+                        Retreat</title>. By the Rev. James Thomson. <hi rendition="#smcaps"
+                     >12</hi>mo. 3 Vols. 9s. sewed. Sewell. 1790.<note><title><hi
+                              rendition="#italics">The Monthly Review</hi></title>, vol. 3, 1790,
+                        pp. 400-402. The marked copy of the <hi rendition="#italics"><title><ref
+                                 target="people.html#ReviewMonthly">Monthly
+                           Review</ref></title></hi> attributes this article to the collaborative
+                        efforts of <ref target="people.html#MoodyElizabeth"><name>Elizabeth
+                              Moody</name></ref> and the periodical's editor, <ref
+                           target="people.html#agriffithsRalph">Ralph Griffiths</ref>. See Benjamin
+                        Nangle, <hi rendition="#italics"><title>The Montly Review, Second Series,
+                              1790-1815: Indexes of Contributors and Articles</title></hi>,
+                        Clarendon Press, 1955. This edition of the article is produced by Emma Wiley
+                        and Mary A. Waters. The little-known author of <hi rendition="#italics"
+                              ><title>The Denial</title></hi>, a Scottish-born Westmoreland
+                        clergyman, also authored <hi rendition="#italics"><title>Major Piper; or,
+                              the Adventures of a Musical Drone</title></hi>, published in 1793 by
+                        G.G.J. and J. Robinson and reissued in 1803 by William Lane's Minerva Press,
+                        and <hi rendition="#italics"><title>Winifred; a Tale of Wonder</title></hi>
+                        (1803).</note></title></bibl></head>
+            <p rendition="#noindent"><hi rendition="#largest">O</hi><hi rendition="#smcaps">f</hi>
+               the various species of composition that in course come before us, there are none in
+               which <hi rendition="#italics">our</hi> writers of the male sex have less excelled,
+               since the days of Richardson and Fielding, than in the arrangement of a novel. Ladies
+               seem to appropriate to themselves an exclusive privilege in this kind of writing;
+               witness the numerous productions of romantic tales to which female authors have given
+               birth. The portraiture of the tender passions, the delicacy of sentiment, and the
+               easy flow of style, may, perhaps, be most adapted to the genius of the softer sex:
+               but however that may be, politeness, certainly, will not suffer us to dispute this
+               palm with our fair competitors. We, though of the harder sex, as men, and of a still
+               harder <hi rendition="#italics">race as critics</hi>, are no enemies to an affecting
+               well-told story: but as we are <hi rendition="#italics">known</hi> not to be very <hi
+                  rendition="#italics">easily pleased</hi>, it may be imagined that those
+               performances only will obtain the sanction of our applause, which can stand the test
+               of certain criteria of excellence.</p>
+            <p> The story of a novel should be formed of a variety of interesting incidents; a
                knowlege of the world, and of mankind, are essential requisites in the writer; the
                characters should be always natural; the personages should talk, think, and act, as
                becomes their respective ages, situations, and characters; the sentiments should be
@@ -34,12 +440,16 @@
                instruction with amusement, we would not wish, altogether, to frustrate so good a
                design:—but, that his precepts may obtain the utmost efficacy, <pb n="401"/>we would
                recommend them to be inserted in those periods of the history, where the reader's
-               curiosity can most patiently submit to suspense. </p><p> Having thus given a sketch of what a novel should be to <hi rendition="#italics">please us</hi>, we proceed to the work which has given occasion to these
-               remarks.</p><p> This novel, then, consists of a series of letters between the Hon. Mr. Wilton and
+               curiosity can most patiently submit to suspense. </p>
+            <p> Having thus given a sketch of what a novel should be to <hi rendition="#italics"
+                  >please us</hi>, we proceed to the work which has given occasion to these
+               remarks.</p>
+            <p> This novel, then, consists of a series of letters between the Hon. Mr. Wilton and
                his friend Mr. Benfield. Mr. Wilton is the son of Lord Wilton, a cruel, avaritious,
                despotic parent, who wishes to force his son into a marriage, (extremely against his
                inclinations,) with Miss Silvertop, a young lady of large fortune: the parties are
-               introduced to each other, and are left alone for the purpose of <hi rendition="#italics">making love</hi>; when, unluckily, the gentleman begins by
+               introduced to each other, and are left alone for the purpose of <hi
+                  rendition="#italics">making love</hi>; when, unluckily, the gentleman begins by
                asking the young lady, <hi rendition="#italics">which are her favourites among the
                   dramatic authors</hi>. Miss Silvertop, not having been instructed in her literary
                catechism, stares, and seems not to comprehend him. He is not, however, discouraged:
@@ -53,12 +463,15 @@
                sends him a challenge; a duel ensues—Mr. W. disarms and wounds his antagonist; who is
                so enraged, that he <hi rendition="#italics">insists on being dead</hi>, that Mr. W.
                may be <hi rendition="#italics">hanged:</hi>—the latter is therefore, with all due
-               formality, ushered into a prison: but Mr. Fennel, having reported <hi rendition="#italics">falsely of himself that he was </hi><hi rendition="#smcaps">dead</hi>, and being <hi rendition="#italics">taken
-                  alive</hi>, Mr. Wilton is released from his confinement, and marries Olivia; who
-               proves to be another Miss Silvertop. The old Lord, who had determined an alliance
-               with the family of the Silvertops, recalls his curses, and changes them into
-               blessings; and a happy union likewise takes place, with regard to an episodical pair,
-               whose adventures serve to diversify the work:—which here naturally concludes.</p><p> In regard to the general character of Mr. Thomson's performance, it certainly is not
+               formality, ushered into a prison: but Mr. Fennel, having reported <hi
+                  rendition="#italics">falsely of himself that he was </hi><hi rendition="#smcaps"
+                  >dead</hi>, and being <hi rendition="#italics">taken alive</hi>, Mr. Wilton is
+               released from his confinement, and marries Olivia; who proves to be another Miss
+               Silvertop. The old Lord, who had determined an alliance with the family of the
+               Silvertops, recalls his curses, and changes them into blessings; and a happy union
+               likewise takes place, with regard to an episodical pair, whose adventures serve to
+               diversify the work:—which here naturally concludes.</p>
+            <p> In regard to the general character of Mr. Thomson's performance, it certainly is not
                void of merit. The volumes abound with pious and moral reflections, not unworthy the
                pen of a clergyman: but we should have admired this piety and this morality still
                more, had the language (especially of the earlier letters,) been less verbose, and
@@ -73,24 +486,36 @@
                   Italy, is not <hi rendition="#italics">congenial</hi> to your health, as you seem
                   to have <hi rendition="#italics">acquired</hi> a slight indisposition this
                   morning,' p. 33.; and the Hon. Mr. W. is, in like manner, accosted by his
-                  honourable sister, with 'Pray, Henry, if our native air be more <hi rendition="#italics">salubrious</hi> than that of the continent'—p. 36. With
+                  honourable sister, with 'Pray, Henry, if our native air be more <hi
+                     rendition="#italics">salubrious</hi> than that of the continent'—p. 36. With
                   equal solemnity does the young nobleman answer his Right Hon. father's haughty
                   commands to marry the lady <hi rendition="#italics">not</hi> of his choice: 'The
                   will hath a certain prerogative, in the exercise of which it admits of no
-                  compulsory methods to corrode its happiness. It thinks, it acts with <hi rendition="#italics"> spontaneity</hi>; and when opposed, suffers a diminution
+                  compulsory methods to corrode its happiness. It thinks, it acts with <hi
+                     rendition="#italics"> spontaneity</hi>; and when opposed, suffers a diminution
                   of its pleasure.' p. 37 &amp;c. &amp;c.<lb/> We would just observe, also, that the
-                  hero of this piece is said to be the only son of the <hi rendition="#italics">Earl</hi> Wilton, and yet he is merely styled the <hi rendition="#italics">Hon. Mr.</hi> Wilton. Every Earl has a secondary title, which, by courtesy, is
-                  borne by his eldest son; and his daughters are addressed as <hi rendition="#italics">Lady Ann, Lady Mary,</hi> &amp;c. [<ref target="people.html#MoodyElizabeth">Moody</ref>'s note]. </note>: a mode of
+                  hero of this piece is said to be the only son of the <hi rendition="#italics"
+                     >Earl</hi> Wilton, and yet he is merely styled the <hi rendition="#italics"
+                     >Hon. Mr.</hi> Wilton. Every Earl has a secondary title, which, by courtesy, is
+                  borne by his eldest son; and his daughters are addressed as <hi
+                     rendition="#italics">Lady Ann, Lady Mary,</hi> &amp;c. [<ref
+                     target="people.html#MoodyElizabeth">Moody</ref>'s note]. </note>: a mode of
                writing rather suitable to an indenture than a book of entertainment; and peculiarly
-               inconsistent with the natural case and freedom of the epistolary style.</p><p> Notwithstanding the impropriety of the language of some parts of this work, for it
+               inconsistent with the natural case and freedom of the epistolary style.</p>
+            <p> Notwithstanding the impropriety of the language of some parts of this work, for it
                is not uniformly thus censurable, the story has not failed to interest us in the
                perusal; and it would be great injustice to the sensible writer, if we did not speak
                of his performance as entitled to a considerable degree of distinction above the
                common crowed—the <hi rendition="#italics">canaille</hi> of modern romances and
-               novels.</p><p> The leading moral purpose of this work, is to expose the unreasonableness,
+               novels.</p>
+            <p> The leading moral purpose of this work, is to expose the unreasonableness,
                absurdity, and tyranny, of parents who usurp an absolute authority over their
                children, in respect of their matrimonial engagements; forcing all natural affection,
                and every prospect of happiness from that source, to give way to the calls of avarice
                or ambition.—This is a beaten path, which has been trodden by almost every novellist
                and dramatic writier;—who, we are happy to think, have successively encountered a
-               monster which is now seldom seen but in their performances.</p></div></body></text></TEI>
+               monster which is now seldom seen but in their performances.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
