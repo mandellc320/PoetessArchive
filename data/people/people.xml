@@ -345,6 +345,9 @@
 					<category xml:id="f24">
 						<catDesc>sammelband</catDesc>
 					</category>
+					<category xml:id="f25">
+						<catDesc>web page</catDesc>
+					</category>
 				</taxonomy>
 				<taxonomy xml:id="keyword">
 					<category xml:id="lcna">
@@ -358,12 +361,11 @@
 			<textClass>
 				<keywords scheme="#lcna">
 					<list type="simple">
-						<item>English literature</item>
-						<item>Romantic Era</item>
-						<item>Biography</item>
+						<item>Waters, Mary A., 1954-</item>
 					</list>
 				</keywords>
 				<catRef target="#ft1" scheme="#ft"/>
+				<catRef target="#f25" scheme="#f"/>
 				<catRef target="#ps2" scheme="#p"/>
 				<catRef target="#g1 #g17" scheme="#g"/>
 			</textClass>
